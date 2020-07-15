@@ -36,6 +36,7 @@
     </teiHeader>
     <text>
         <body>
+            <!-- Each p tage is numbered to allow it to be got at -->
             <p n="1">La lettre O.Sam. inv. 578 (= TM 706233) appartient au corpus d’ostraca grecs et 
                 démotiques mis au jour à Bi’r Samut par la Mission archéologique française du désert 
                 Oriental.<note xml:id="ftn1" n="1">Les trois saisons de fouille à Bi’r Samut se sont échelonnées de 2014 à 2016. La mission était dirigée par Bérangère Redon (CNRS, HiSoMA), assistée de Thomas Faucher (CNRS, Iramat). La fouille des dépotoirs qui ont livré la grande majorité des ostraca était assurée par Jean‑Pierre Brun (Collège de France) et le raïs Baghdady Mohammed Abdallah, un as de l’analyse stratigraphique.</note> 
@@ -68,88 +69,92 @@
             <p n="3">La lettre d’Hermophilos révèle un aspect inattendu des responsabilités d’un chef 
                 de chameliers royaux. On ignore de quel site, sans doute assez proche de Bi’r Samut, 
                 elle a été envoyée.</p>
+            <!-- Div for the text of the ostracon. Within this div a separate TEI file within the TEI file of the article -->
             <div type="text" n="1">
                 <head>Ostracon edition</head>
-            <TEI>
-                <teiHeader>
-                    <fileDesc>
-                        <titleStmt>
-                            <title>Lettre</title>
-                        </titleStmt>
-                        <publicationStmt>
-                            <idno type="filename">706233</idno>
-                            <idno type="TM">706233</idno>
-                            <idno type="ddb-filename">ddbdp.2020.1</idno>
-                            <idno type="ddb-hybrid">ddbdp;2020;1</idno>
-                        </publicationStmt>
-                        <sourceDesc>
-                            <msDesc>
-                                <msIdentifier>
-                                    <placeName>
-                                        <settlement>Qift</settlement>
-                                    </placeName>
-                                    <collection>Archaeological storeroom</collection>
-                                    <idno type="invNo">Samut 578</idno>
-                                </msIdentifier>
-                                <physDesc>
-                                    <objectDesc>
-                                        <supportDesc>
-                                            <support>
-                                                <material>Ostrakon</material>
-                                            </support>
-                                        </supportDesc>
-                                    </objectDesc>
-                                </physDesc>
-                                <history>
-                                    <origin>
-                                        <origPlace>Bi’r Samut</origPlace>
-                                        <origDate when="-0223-02-23">23. Febr. 223 v.Chr.</origDate>
-                                    </origin>
-                                    <provenance type="located">
-                                        <p xml:id="geoJACIF9">
-                                            <placeName type="modern" ref="www.trismegistos.org/place/56333">Bi’r Samut</placeName>
-                                        </p>
-                                    </provenance>
-                                </history>
-                            </msDesc>
-                            <listBibl>
-                                <bibl type="SB">
-                                    <ptr target="95650"/>
-                                    <biblScope type="pp">173</biblScope>
-                                </bibl>
-                            </listBibl>
-                        </sourceDesc>
-                    </fileDesc>
-                    <encodingDesc>
-                        <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
-                    </encodingDesc>
-                    <profileDesc>
-                        <langUsage>
-                            <language ident="fr">Französisch</language>
-                            <language ident="en">Englisch</language>
-                            <language ident="de">Deutsch</language>
-                            <language ident="it">Italienisch</language>
-                            <language ident="es">Spanisch</language>
-                            <language ident="la">Latein</language>
-                            <language ident="el">Griechisch</language>
-                        </langUsage>
-                        <textClass>
-                            <keywords scheme="hgv">
-                                <term n="1">Brief</term>
-                                <term n="2">Zusendung</term>
-                                <term n="3">Leder</term>
-                                <term n="4">Anordung</term>
-                                <term n="5">Kamele</term>
-                                <term n="6">Weiden</term>
-                            </keywords>
-                        </textClass>
-                    </profileDesc>
-                    <revisionDesc/>
-                </teiHeader>
-                <text>
-                    <body>
-                        <head xml:lang="en"/>
-                        <div xml:lang="grc" type="edition" xml:space="preserve">
+                <!-- Now TEI file within the TEI file of the article. "TEI can be a child of itself" -->
+                <TEI>
+                    <teiHeader>
+                        <fileDesc>
+                            <!-- Metadata of the ostracon, which will be transferred to https://github.com/papyri/idp.data/tree/master/HGV_meta_EpiDoc Hook is HGV number.-->
+                            <titleStmt>
+                                <title>Lettre</title>
+                            </titleStmt>
+                            <publicationStmt>
+                                <idno type="HGV">706233</idno>
+                                <idno type="TM">706233</idno>
+                                <!-- These names will be generated from the article (self references: journal name (in abbreviated form); volume; page/paragraph) -->
+                                <idno type="ddb-filename">ddbdp.2020.1</idno>
+                                <idno type="ddb-hybrid">ddbdp;2020;1</idno>
+                            </publicationStmt>
+                            <sourceDesc>
+                                <msDesc>
+                                    <msIdentifier>
+                                        <placeName>
+                                            <settlement>Qift</settlement>
+                                        </placeName>
+                                        <collection>Archaeological storeroom</collection>
+                                        <idno type="invNo">Samut 578</idno>
+                                    </msIdentifier>
+                                    <physDesc>
+                                        <objectDesc>
+                                            <supportDesc>
+                                                <support>
+                                                    <material>Ostrakon</material>
+                                                </support>
+                                            </supportDesc>
+                                        </objectDesc>
+                                    </physDesc>
+                                    <history>
+                                        <origin>
+                                            <origPlace>Bi’r Samut</origPlace>
+                                            <origDate when="-0223-02-23">23. Febr. 223 v.Chr.</origDate>
+                                        </origin>
+                                        <provenance type="located">
+                                            <p xml:id="geoJACIF9">
+                                                <placeName type="modern" ref="www.trismegistos.org/place/56333">Bi’r Samut</placeName>
+                                            </p>
+                                        </provenance>
+                                    </history>
+                                </msDesc>
+                                <listBibl>
+                                    <bibl type="SB">
+                                        <ptr target="95650"/>
+                                        <biblScope type="pp">173</biblScope>
+                                    </bibl>
+                                </listBibl>
+                            </sourceDesc>
+                        </fileDesc>
+                        <encodingDesc>
+                            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+                        </encodingDesc>
+                        <profileDesc>
+                            <langUsage>
+                                <language ident="fr">Französisch</language>
+                                <language ident="en">Englisch</language>
+                                <language ident="de">Deutsch</language>
+                                <language ident="it">Italienisch</language>
+                                <language ident="es">Spanisch</language>
+                                <language ident="la">Latein</language>
+                                <language ident="el">Griechisch</language>
+                            </langUsage>
+                            <textClass>
+                                <keywords scheme="hgv">
+                                    <term n="1">Brief</term>
+                                    <term n="2">Zusendung</term>
+                                    <term n="3">Leder</term>
+                                    <term n="4">Anordung</term>
+                                    <term n="5">Kamele</term>
+                                    <term n="6">Weiden</term>
+                                </keywords>
+                            </textClass>
+                        </profileDesc>
+                        <revisionDesc/>
+                    </teiHeader>
+                    <text>
+                        <body>
+                            <head xml:lang="en"/>
+                            <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="convex" type="textpart"><ab>
     <lb n="1"/>Ἑρμόφιλος Τιεῦτι χαίρειν.
 
@@ -182,32 +187,34 @@
 
     <lb n="15"/>ἔρρωσο. <expan><ex>ἔτους</ex></expan> <num value="24">κδ</num> Τυβι <num value="13">ι<hi rend="supraline">γ</hi></num>
 </ab></div></div>
-                        <div type="bibliography" subtype="principalEdition">
-                            <listBibl>
-                                <bibl type="publication" subtype="principal">
-                                    <title level="s" type="abbreviated">Les vaisseaux du désert et des steppes</title>
-                                    <biblScope type="pages">S. 172</biblScope>
-                                </bibl>
-                            </listBibl>
-                        </div>
-                        <div type="figure">
-                            <p>
-                                <figure n="1">
-                                    <graphic url="https://books.openedition.org/momeditions/docannexe/image/8572/img-1.JPG"/>
-                                </figure>
-                                <figure n="2">
-                                    <graphic url="https://books.openedition.org/momeditions/docannexe/image/8572/img-2.JPG"/>
-                                </figure>
-                            </p>
-                        </div>
-                        <div type="commentary" subtype="linebyline">
-                            <list>
-                                <item corresp="#div1-lb1" xml:space="preserve"><ref>2</ref>
+                            <!-- Metadata of the ostracon, which will be transferred to https://github.com/papyri/idp.data/tree/master/HGV_meta_EpiDoc -->
+                            <div type="bibliography" subtype="principalEdition">
+                                <listBibl>
+                                    <bibl type="publication" subtype="principal">
+                                        <title level="s" type="abbreviated">Les vaisseaux du désert et des steppes</title>
+                                        <biblScope type="pages">S. 172</biblScope>
+                                    </bibl>
+                                </listBibl>
+                            </div>
+                            <div type="figure">
+                                <p>
+                                    <figure n="1">
+                                        <graphic url="https://books.openedition.org/momeditions/docannexe/image/8572/img-1.JPG"/>
+                                    </figure>
+                                    <figure n="2">
+                                        <graphic url="https://books.openedition.org/momeditions/docannexe/image/8572/img-2.JPG"/>
+                                    </figure>
+                                </p>
+                            </div>
+                            <div type="commentary" subtype="linebyline">
+                                <list>
+                                    <item corresp="#div1-lb1" xml:space="preserve"><ref>2</ref>
                                     <p>Τιεῦτι. Jusqu’à présent, le nom Τιεῦς n’était attesté qu’à l’époque romaine (et seulement dans l’Arsinoïte).</p>
                                 </item>
-                            </list>
-                        </div>
-                        <div xml:lang="fr" xml:space="preserve" type="translation">
+                                </list>
+                            </div>
+                            <!-- Translation which will be transferred to https://github.com/papyri/idp.data/tree/master/HGV_trans_EpiDoc. Hook is TM number. -->
+                            <div xml:lang="fr" xml:space="preserve" type="translation">
             <div n="convex" type="textpart">
                <p>
                   <milestone n="1" unit="line"/> Hermophilos à Tieus, salut. <milestone n="2" rend="break" unit="line"/> Envoie‑nous la peau en la confiant à Abdos, l’agent de Kallidèmos. <milestone n="4" unit="line"/> Et puis donne l’ordre à Emrous, l’Arabe du désert, et à ses fils, de conduire les femelles au pâturage afin qu’elles soient saillies. (Dis‑leur) que sinon, ils me paieront les petits
@@ -219,10 +226,11 @@
                </p>
             </div>
          </div>
-                    </body>
-                </text>
-            </TEI>
+                        </body>
+                    </text>
+                </TEI>
             </div>
+            <!-- Back to the article itself -->
             <div type="commentary">
                 <header>Une politique volontariste d’accroissement du cheptel camelin pour le service du roi</header>
                 <p n="4">Chef d’un corps de chameliers royaux, Hermophilos fait transmettre ses ordres à un éleveur 
@@ -245,7 +253,7 @@
         </body>
     </text>
     <TEI>
-
+        
         <teiHeader>
             
         </teiHeader>
