@@ -36,7 +36,7 @@
     </teiHeader>
     <text>
         <body>
-            <!-- Each p tag is numbered to allow it to be got at -->
+            <!-- Each p tage is numbered to allow it to be got at -->
             <p n="1">La lettre O.Sam. inv. 578 (= TM 706233) appartient au corpus d’ostraca grecs et 
                 démotiques mis au jour à Bi’r Samut par la Mission archéologique française du désert 
                 Oriental.<note xml:id="ftn1" n="1">Les trois saisons de fouille à Bi’r Samut se sont échelonnées de 2014 à 2016. La mission était dirigée par Bérangère Redon (CNRS, HiSoMA), assistée de Thomas Faucher (CNRS, Iramat). La fouille des dépotoirs qui ont livré la grande majorité des ostraca était assurée par Jean‑Pierre Brun (Collège de France) et le raïs Baghdady Mohammed Abdallah, un as de l’analyse stratigraphique.</note> 
@@ -101,6 +101,10 @@
                                             <supportDesc>
                                                 <support>
                                                     <material>Ostrakon</material>
+                                                    <dimensions>
+                                                        <width unit="cm">11.5</width>
+                                                        <height unit="cm">7.7</height>
+                                                    </dimensions>
                                                 </support>
                                             </supportDesc>
                                         </objectDesc>
@@ -230,7 +234,6 @@
                     </text>
                 </TEI>
             </div>
-            <!-- Back to the article itself -->
             <div type="commentary">
                 <header>Une politique volontariste d’accroissement du cheptel camelin pour le service du roi</header>
                 <p n="4">Chef d’un corps de chameliers royaux, Hermophilos fait transmettre ses ordres à un éleveur 
