@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title of the article</title>
+                <respStmt>
+                    <resp>author</resp>
+                    <name>
+                        <persName>
+                            <forename>Max</forename>
+                            <surname>Mustermann</surname>
+                        </persName>
+                        <affiliation>
+                            <orgName>Bureau</orgName>
+                            <placeName>Somewhere</placeName>
+                        </affiliation>
+                        <email>mustermann543@gmail.com</email>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Whatever</publisher>
+                <date/>
+                <idno type="issue">1</idno>
+                <idno type="URI">https://books.openedition.org/whatever/8572</idno>
+                <idno type="DOI">10.8572/whtv.1.4</idno>
+                <availability>
+                    <licence>
+                        <ref target="http://creativecommons.org/licenses/by/4.0/"/>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc/>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p n="1">Introductory paragraph of the article</p>
+            <p n="2">Paragraph 2 of the article</p>
+            <p n="3">Paragraph 3 of the article</p>
+            <!-- Div for the text of the ostracon. Within this div a separate TEI file within the TEI file of the article -->
+            <div type="text" n="1">
+                <head>Text number 1 edition</head>
+                <!-- Now TEI file within the TEI file of the article. "TEI can be a child of itself" -->
+            <TEI>
+                <teiHeader>
+                    Metadata for first text
+                </teiHeader>
+                <text>
+                    <body>Greek text of first text</body>
+                </text>
+            </TEI>
+            </div>
+            <!-- Div for the text of the papyrus. Within this div a separate TEI file within the TEI file of the article -->
+            <div type="text" n="2">
+                <head>Text number 2 edition</head>
+                <!-- Now TEI file within the TEI file of the article. "TEI can be a child of itself" -->
+            <TEI>
+                <teiHeader>
+                    Metadata for second text
+                </teiHeader>
+                <text>
+                    <body>Coptic text of second text</body>
+                </text>
+            </TEI>
+            </div>
+            <p n="4">Paragraph 4 of the article</p>
+            <p n="5">Paragraph 5 of the article</p>
+            <p n="6">Paragraph 6 of the article</p>
+        </body>
+    </text>
+</TEI>
