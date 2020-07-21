@@ -1,7 +1,7 @@
 # P3
 This is intended as a sandbox for the Papyrological Publishing Platform (P3). Files and mock ups may be found here. Anything related may also be found.
 
-An online journal which offers a model I presonally like is: https://github.com/i-d-e.
+An online journal which offers a model I, personally, like is: https://github.com/i-d-e.
 
 Under https://github.com/i-d-e/ride the volumes are listed. Within each volume https://github.com/i-d-e/ride/tree/issues/04
 
