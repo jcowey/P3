@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title of the article</title>
+                <respStmt>
+                    <resp>author</resp>
+                    <name>
+                        <persName>
+                            <forename>R.</forename>
+                            <surname>Ast</surname>
+                        </persName>
+                        <affiliation>
+                            <orgName>Bureau</orgName>
+                            <placeName>Somewhere</placeName>
+                        </affiliation>
+                        <email>ast543@gmail.com</email>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Whatever</publisher>
+                <date/>
+                <idno type="issue">1</idno>
+                <idno type="URI">https://books.openedition.org/whatever/8572</idno>
+                <idno type="DOI">10.8572/whtv.1.4</idno>
+                <availability>
+                    <licence>
+                        <ref target="http://creativecommons.org/licenses/by/4.0/"/>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc/>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p n="1">Introductory paragraph of the article</p>
+            <p n="2">Paragraph 2 of the article</p>
+            <p n="3">Paragraph 3 of the article</p>
+            <!-- Div for the text of the ostracon. Within this div a separate TEI file within the TEI file of the article -->
+            <div type="text" n="1">
+                <head>Text number 1 edition</head>
+                <!-- Now TEI file within the TEI file of the article. "TEI can be a child of itself" -->
+                <TEI>
+                    <teiHeader>
+                        Metadata for first text
+                    </teiHeader>
+                    <text>
+                        <head xml:lang="en"/>
+                        <div xml:lang="grc" type="edition" xml:space="preserve">
+<div n="r" type="textpart"> 
+<div n="i" subtype="column" type="textpart"><div n="a" subtype="fragment" type="textpart"><ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><app type="alternative"><lem><gap reason="illegible" quantity="2" unit="character"/>έπουσι</lem><rdg><supplied reason="lost">ε</supplied><unclear>ν</unclear>επουσι</rdg><rdg><unclear>δι</unclear>επουσι</rdg></app>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>τανμογεραν
+<lb n="6"/><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/><app type="alternative"><lem><gap reason="illegible" quantity="1" unit="character"/>ς</lem><rdg><unclear>α</unclear>ς</rdg></app>
+<lb n="7" xml:id="div1-div1-div1-lb8"/><app type="alternative"><lem>κε<unclear>ρ</unclear>νοφορ<unclear>ω</unclear><gap reason="lost" quantity="1" unit="character"/></lem><rdg>κε<unclear>ρ</unclear>νοφορ<unclear>ο</unclear><gap reason="lost" atLeast="1" atMost="2" unit="character"/></rdg></app> Κυβέλης
+<lb n="8"/><hi rend="circumflex">ἡ</hi>ι πολλάκις ἁμετέρους 
+<lb n="9"/>ὄστλιγγες <subst><add place="inline">ἐγύμνασα</add><del rend="corrected">εσυμνασα</del></subst>
+<lb n="10"/>καὶ ῥαδιναῖς παλάμαις
+<lb n="11"/><unclear>λάλ</unclear>α κύμβαλα
+<lb n="12"/>πρὸς φρύγα λωτὸν <app type="alternative"><lem>ἐπ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></lem><rdg>ἐπ<unclear>λ</unclear><gap reason="lost" extent="unknown" unit="character"/></rdg><rdg>ἐπ<unclear>α</unclear><gap reason="lost" extent="unknown" unit="character"/></rdg></app>
+<lb n="13"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div></div>
+
+<div n="ii" subtype="column" type="textpart"><div n="a" subtype="fragment" type="textpart"><ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1"/><gap reason="lost" atLeast="1" atMost="2" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="1" unit="character"/><unclear>κ</unclear>εινο<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="2" unit="character"/><unclear>ας</unclear>
+<lb n="2" xml:id="div1-div3-div3-lb3"/><gap reason="lost" atLeast="1" atMost="2" unit="character"/> <unclear>ο</unclear>ὐ<unclear>δ</unclear>’ ὀφθ<unclear>αλμ</unclear>ὸν <app type="alternative"><lem>β<unclear>λ</unclear><gap reason="lost" extent="unknown" unit="character"/></lem><rdg>β<unclear>α</unclear><gap reason="lost" extent="unknown" unit="character"/></rdg></app>
+<lb n="3" xml:id="div1-div3-div3-lb4"/><gap reason="illegible" quantity="3" unit="character"/>εροι τε καλύπτρη<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4" xml:id="div1-div3-div3-lb5"/>φοβερ<unclear>ή</unclear> <app type="alternative"><lem><unclear>τ</unclear>ε</lem><rdg><unclear>γ</unclear>ε</rdg></app> δρακο<unclear>ν</unclear>τ<hi rend="acute">ο</hi><unclear>ζ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="5" xml:id="div1-div3-div3-lb6"/><add place="above"><gap reason="illegible" quantity="3" unit="character"/>φοβερὸν δέ τεπε <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></add>
+<lb n="6"/><app type="alternative"><lem><gap reason="illegible" quantity="1" unit="character"/></lem><rdg><unclear>δ</unclear></rdg></app><gap reason="illegible" quantity="2" unit="character"/><app type="alternative"><lem><unclear>σ</unclear>τε</lem><rdg><unclear>ε</unclear>τε</rdg></app> φαο<unclear>σ</unclear>φο<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="7"/><app type="alternative"><lem>σε<unclear>ι</unclear>ρι<gap reason="illegible" quantity="1" unit="character"/></lem><rdg>σε<unclear>ι</unclear>ρι<unclear>ο</unclear></rdg><rdg>σε<unclear>ι</unclear>ρι<unclear>σ</unclear></rdg></app><supplied reason="lost" cert="low"> <unclear> </unclear></supplied>αυτου
+<lb n="8"/>ἄσθμα <unclear>γ</unclear>εν<gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>
+<lb n="9" xml:id="div1-div3-div3-lb10"/>καὶ θα<unclear>μι</unclear><gap reason="lost" quantity="2" unit="character"/><hi rend="circumflex"><gap reason="illegible" quantity="1" unit="character"/></hi><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="10"/>ταυτα<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="11"/>τα<hi rend="circumflex">υ</hi>τ<g type="apostrophe"/> ἀν<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="12"/>δέ<unclear>ξ</unclear>αι <unclear>β</unclear><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="13" xml:id="div1-div3-div3-lb14"/><app type="alternative"><lem>σα<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></lem><rdg>σά<unclear>ω</unclear><supplied reason="lost" cert="low">σον</supplied></rdg></app>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="14" rend="outdent" xml:id="div1-div3-div3-lb15"/> <app type="alternative"><lem>ἐ<unclear>α</unclear></lem><rdg>ἐ<unclear>δ</unclear></rdg></app><gap reason="illegible" quantity="1" unit="character"/>τ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="15" rend="outdent"/> <unclear>τ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="15"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div></div>
+
+<div n="b" subtype="fragment" type="textpart"><ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>θ</unclear>α<unclear>η</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>τ</unclear>απα<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><app type="alternative"><lem><unclear>ι</unclear>ν<unclear>α</unclear></lem><rdg><unclear>ι</unclear>ν<unclear>δ</unclear></rdg></app><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+
+<div n="c" subtype="fragment" type="textpart"><ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1" xml:id="div1-div6-lb2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>η</unclear>λη<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><app type="alternative"><lem><unclear>τ</unclear>αν</lem><rdg>παν</rdg></app>μ<unclear>ο</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><hi rend="grave"><unclear>ω</unclear></hi>ν<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+</div>
+
+<div n="v" type="textpart">
+<div n="a" subtype="fragment" type="textpart"><ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><app type="alternative"><lem><gap reason="illegible" quantity="1" unit="character"/><unclear>μ</unclear><gap reason="illegible" quantity="1" unit="character"/>λ<gap reason="illegible" quantity="3" unit="character"/></lem><rdg><supplied reason="lost">κ</supplied>αμηλ<gap reason="illegible" quantity="3" unit="character"/></rdg></app>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>του ομ<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3" xml:id="div8-div8-lb4"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>σ<unclear>αβ</unclear><gap reason="illegible" quantity="2" unit="character"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+
+<div n="c" subtype="fragment" type="textpart"><ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+</div></div>
+                        <!-- What follows div@commentary @linebyline is being used for an extended apparatus, not the usual line by line commentary. Need for a different subtype" -->
+                        <div type="commentary" subtype="linebyline">
+                            <list>
+                                <item corresp="#div1-div1-div1-lb8" xml:space="preserve">
+            <ref>7</ref>
+            <p>κερ̣νοφόρο̣[ς], κερ̣νοφόρο̣[υ], κερ̣νοφόρο̣[ν], κερ̣νοφόρο̣[υς], κερ̣νοφόρω̣[ι] and κερ̣νοφόρω̣[ν] or -ῶ̣[ν] are all conceivable, although the crescent shape right before the lacuna may favor ω. The lacuna before Κυβέλης is quite large, but spacing between letters tends to vary throughout the papyrus (cf. the beginning of line 8 where the letters ῆιπ are written relatively far apart), so that we cannot say for sure how much is missing.</p>
+          </item>
+                                <item corresp="#div1-div3-div3-lb3" xml:space="preserve">
+            <ref>2</ref>
+            <p>] ̣υα̣σ̣φθα[, a radically different reading, leads us nowhere; οφθα̣λ̣μον is better than οφθα[λ]μω̣ν.</p>
+          </item>
+                                <item corresp="#div1-div3-div3-lb4" xml:space="preserve">
+            <ref>3</ref>
+            <p>Traces before εροι are compatible with λ, μ, or λλ, thus θαλεροι, μαλεροι, ημεροι, would conform paleographically; δολεροι does not fit the traces and ιμεροι is probably too short.</p>
+          </item>
+                                <item corresp="#div1-div3-div3-lb5" xml:space="preserve">
+            <ref>4</ref>
+            <p>An alternative, though less likely, word division is φοβερη τ εδρακον̣ τόζ̣[, but the accent above -τοζ[ favors the printed reading.</p>
+          </item>
+                                <item corresp="#div1-div3-div3-lb6" xml:space="preserve">
+            <ref>5</ref>
+            <p>The last letter may be υ̣, τ̣, or π̣.</p>
+          </item>
+                                <item corresp="#div1-div3-div3-lb10" xml:space="preserve">
+            <ref>9</ref>
+            <p>An apparent circumflex over a lost letter in this line is visible below and slightly to the right of the last nu in line 8.</p>
+          </item>
+                                <item corresp="#div1-div3-div3-lb14" xml:space="preserve">
+            <ref>13</ref>
+            <p>Below the line is a wavy stroke that looks more elaborate than a paragraphus.</p>
+          </item>
+                                <item corresp="#div1-div3-div3-lb15" xml:space="preserve">
+            <ref>14</ref>
+            <p>This and the following line are in ekthesis ca. 3 letters.</p>
+          </item>
+                                <item corresp="#div1-div6-lb2" xml:space="preserve">
+            <ref>1</ref>
+            <p>π̣λη is also possible, and it is conceivable that the second letter is chi.</p>
+          </item>
+                                <item corresp="#div8-div8-lb4" xml:space="preserve">
+            <ref>3</ref>
+            <p>σα̣β̣α̣ι̣, σα̣β̣ε̣ι̣ or σε̣β̣ε̣ι̣; instead of β, κ also possible.</p>
+          </item>
+                            </list>
+                        </div>
+                        <!-- Here is the normal div@commentary @linebyline used to generate a line by line commentary" -->
+                        <div type="commentary" subtype="linebyline">
+                            <list>
+                                <item corresp="#div1-div1-div1-lb4" xml:space="preserve">
+                                    <ref>4</ref>
+                                       <p>The state of the papyrus does not allow one to decide between ἐ]ν̣̣έπ̣ουσι (or ἐξε]ν̣̣έπ̣ουσι) and ] δ̣̣ι̣έπουσι.  A horizontal line at the base of the first letter suggests δ, and thus may favor ] δ̣̣ι̣έπουσι.</p>
+                                </item>
+                            </list>
+                        </div>
+                    </text>
+                </TEI>
+            </div>
+            <!-- Div for the text of the papyrus. Within this div a separate TEI file within the TEI file of the article -->
+            <div type="text" n="2">
+                <head>Text number 2 edition</head>
+                <!-- Now TEI file within the TEI file of the article. "TEI can be a child of itself" -->
+                <TEI>
+                    <teiHeader>
+                        Metadata for second text
+                    </teiHeader>
+                    <text>
+                        <body>Coptic text of second text</body>
+                    </text>
+                </TEI>
+            </div>
+            <p n="4">Paragraph 4 of the article</p>
+            <p n="5">Paragraph 5 of the article</p>
+            <p n="6">Paragraph 6 of the article</p>
+        </body>
+    </text>
+</TEI>
