@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corrections to texts</title>
+                <respStmt>
+                    <resp>author</resp>
+                    <name>
+                        <persName>
+                            <surname n="1">Gonis</surname>
+                            <surname n="2">Papathomas</surname>
+                        </persName>
+                        <affiliation>
+                            <orgName>Bureau</orgName>
+                            <placeName>Somewhere</placeName>
+                        </affiliation>
+                        <email>mustermann543@gmail.com</email>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Whatever</publisher>
+                <date/>
+                <idno type="issue">1</idno>
+                <idno type="URI">https://books.openedition.org/whatever/8572</idno>
+                <idno type="DOI">10.8572/whtv.1.4</idno>
+                <availability>
+                    <licence>
+                        <ref target="http://creativecommons.org/licenses/by/4.0/"/>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc/>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p n="1">
+            <div type="correction" n="590">
+                <head>P.Harr. I 71</head>
+                <p>This census return of 188/9 refers to vacant properties εἰς οὓς οὐδεὶς ἀπογρ(άφεται) 
+                    οὐδ( ) κει  ̣ ̣ (line 22). One may suspect that at the end of the line there is something 
+                    similar to P.Oxy. III 480.5-6 (132) εἰς ὃ [ο]ὐ̣δεὶς ἀπογρ(άφεται) οὐδὲ καταγί(νεται), 
+                    and in fact a photograph indicates that the papyrus has καταγι: read οὐδ(ὲ) καταγί(νεται).</p>
+                <note></note>
+            </div>
+            </p>
+            <p n="2">
+            <div type="correction" n="602">
+                <head>P.Naqlun 11 23</head>
+                <p>Darlehensvertrag; zwischen 590/1 und 595/6 n. Chr. Z. 3: Anstelle von νομισμάτω̣ν̣ lese 
+                    ich νομισματί̣ω̣ν̣. Das ι hängt an dem vorangehenden τ wie etwa das ι bei τιμὴν in Z. 14; 
+                    vgl. auch das erste ι unseres Wortes, das ebenso an dem vorangehenden Buchstaben (dem μ) 
+                    hängt. Die Form νομισμάτιον ist gebräuchlich in den Naqlun-Texten (Vgl. etwa den Index des Bandes). </p>
+            </div>
+                <note></note>
+            </p>
+        </body>
+    </text>
+</TEI>
