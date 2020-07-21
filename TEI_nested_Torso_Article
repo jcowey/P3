@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -31,43 +33,88 @@
                     </licence>
                 </availability>
             </publicationStmt>
-            <sourceDesc/>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
         </fileDesc>
     </teiHeader>
     <text>
         <body>
+            <div type="articleText">
             <p n="1">Introductory paragraph of the article</p>
             <p n="2">Paragraph 2 of the article</p>
             <p n="3">Paragraph 3 of the article</p>
+            </div>
             <!-- Div for the text of the ostracon. Within this div a separate TEI file within the TEI file of the article -->
             <div type="text" n="1">
-                <head>Text number 1 edition</head>
-                <!-- Now TEI file within the TEI file of the article. "TEI can be a child of itself" -->
-            <TEI>
-                <teiHeader>
-                    Metadata for first text
-                </teiHeader>
-                <text>
-                    <body>Greek text of first text</body>
-                </text>
-            </TEI>
+                <head>Ostracon edition</head>
+                <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") -->
+                <div copyOf="#t1"/>
             </div>
-            <!-- Div for the text of the papyrus. Within this div a separate TEI file within the TEI file of the article -->
-            <div type="text" n="2">
-                <head>Text number 2 edition</head>
-                <!-- Now TEI file within the TEI file of the article. "TEI can be a child of itself" -->
-            <TEI>
-                <teiHeader>
-                    Metadata for second text
-                </teiHeader>
-                <text>
-                    <body>Coptic text of second text</body>
-                </text>
-            </TEI>
-            </div>
+            <div type="articleText">
             <p n="4">Paragraph 4 of the article</p>
+            </div>
+            <!-- Div for the text of the ostracon. Within this div a separate TEI file within the TEI file of the article -->
+            <div type="text" n="2">
+                <head>Ostracon edition</head>
+                <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") -->
+                <div copyOf="#t2"/>
+            </div>
+            <div type="articleText">
             <p n="5">Paragraph 5 of the article</p>
             <p n="6">Paragraph 6 of the article</p>
+            </div>
         </body>
     </text>
+    
+<!-- Div for the text of the ostracon. Within this div a separate TEI file within the TEI file of the article -->
+<TEI>
+    <teiHeader>
+        <!-- Metadata for first text -->
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt>
+                <p>
+                    <idno xml:id="t1"></idno>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <!-- Greek text for first text -->
+        <body>
+            <p></p>
+        </body>
+    </text>
+</TEI>
+    <!-- Div for the text of the papyrus. Within this div a separate TEI file within the TEI file of the article -->
+    <TEI>
+        <teiHeader>
+            <!-- Metadata for second text -->
+            <fileDesc>
+                <titleStmt>
+                    <title></title>
+                </titleStmt>
+                <publicationStmt>
+                    <p>
+                        <idno xml:id="t2"></idno>
+                    </p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <!-- Coptic text for second text -->
+            <body>
+                <p></p>
+            </body>
+        </text>
+    </TEI>
 </TEI>
