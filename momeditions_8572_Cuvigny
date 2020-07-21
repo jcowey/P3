@@ -41,6 +41,7 @@
     </teiHeader>
     <text>
         <body>
+            <div type="article">
             <!-- Each p tage is numbered to allow it to be got at -->
             <p n="1">La lettre O.Sam. inv. 578 (= TM 706233) appartient au corpus d’ostraca grecs et 
                 démotiques mis au jour à Bi’r Samut par la Mission archéologique française du désert 
@@ -74,13 +75,14 @@
             <p n="3">La lettre d’Hermophilos révèle un aspect inattendu des responsabilités d’un chef 
                 de chameliers royaux. On ignore de quel site, sans doute assez proche de Bi’r Samut, 
                 elle a été envoyée.</p>
+            </div>
             <!-- Div for the text of the ostracon. Within this div a separate TEI file within the TEI file of the article -->
             <div type="text" n="1">
                 <head>Ostracon edition</head>
                 <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") -->
-                <div copyOf="#edition"/>
+                <div copyOf="#t1"/>
             </div>
-            <div type="commentary">
+            <div type="article">
                 <head>Une politique volontariste d’accroissement du cheptel camelin pour le service du roi</head>
                     <p n="4">Chef d’un corps de chameliers royaux, Hermophilos fait transmettre ses ordres à un éleveur 
                     arabe par le truchement de son agent égyptien à Bi’r Samut, un certain Tieus. L’ordre d’emmener 
@@ -115,6 +117,7 @@
         </titleStmt>
         <publicationStmt>
           <authority>P3</authority>
+          <idno xml:id="t1"></idno>
           <idno type="HGV">706233</idno>
           <idno type="TM">706233</idno>
           <!-- These names will be generated from the article (self references: journal name (in abbreviated form); volume; page/paragraph) -->
