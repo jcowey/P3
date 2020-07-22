@@ -49,7 +49,8 @@
             <div type="text" n="1">
                 <head>Ostracon edition</head>
                 <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") -->
-                <div copyOf="#t1"/>
+                <div copyOf="#metadata1"/>
+                <div copyOf="#edition1"/>
             </div>
             <div type="articleText">
             <p n="4">Paragraph 4 of the article</p>
@@ -58,7 +59,8 @@
             <div type="text" n="2">
                 <head>Ostracon edition</head>
                 <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") -->
-                <div copyOf="#t2"/>
+                <div copyOf="#metadata2"/>
+                <div copyOf="#edition2"/>
             </div>
             <div type="articleText">
             <p n="5">Paragraph 5 of the article</p>
@@ -69,16 +71,14 @@
     
 <!-- Div for the text of the ostracon. Within this div a separate TEI file within the TEI file of the article -->
 <TEI>
-    <teiHeader>
+    <teiHeader xml:id="metadata1">
         <!-- Metadata for first text -->
         <fileDesc>
             <titleStmt>
                 <title></title>
             </titleStmt>
             <publicationStmt>
-                <p>
-                    <idno xml:id="t1"></idno>
-                </p>
+                <p></p>
             </publicationStmt>
             <sourceDesc>
                 <p/>
@@ -88,22 +88,21 @@
     <text>
         <!-- Greek text for first text -->
         <body>
-            <p></p>
+            <head xml:lang="en"/>
+            <div xml:lang="grc" type="edition" xml:space="preserve" xml:id="edition1"><ab/></div>
         </body>
     </text>
 </TEI>
     <!-- Div for the text of the papyrus. Within this div a separate TEI file within the TEI file of the article -->
     <TEI>
-        <teiHeader>
+        <teiHeader xml:id="metadata2">
             <!-- Metadata for second text -->
             <fileDesc>
                 <titleStmt>
                     <title></title>
                 </titleStmt>
                 <publicationStmt>
-                    <p>
-                        <idno xml:id="t2"></idno>
-                    </p>
+                    <p></p>
                 </publicationStmt>
                 <sourceDesc>
                     <p/>
@@ -113,7 +112,8 @@
         <text>
             <!-- Coptic text for second text -->
             <body>
-                <p></p>
+                <head xml:lang="en"/>
+                <div xml:lang="grc" type="edition" xml:space="preserve" xml:id="edition2"><ab/></div>
             </body>
         </text>
     </TEI>
