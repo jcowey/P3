@@ -2,7 +2,6 @@
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <!-- Here is an example with schema, with thanks for assistance to HC -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -41,7 +40,6 @@
     </teiHeader>
     <text>
         <body>
-            <div type="article">
             <!-- Each p tage is numbered to allow it to be got at -->
             <p n="1">La lettre O.Sam. inv. 578 (= TM 706233) appartient au corpus d’ostraca grecs et 
                 démotiques mis au jour à Bi’r Samut par la Mission archéologique française du désert 
@@ -75,14 +73,15 @@
             <p n="3">La lettre d’Hermophilos révèle un aspect inattendu des responsabilités d’un chef 
                 de chameliers royaux. On ignore de quel site, sans doute assez proche de Bi’r Samut, 
                 elle a été envoyée.</p>
-            </div>
             <!-- Div for the text of the ostracon. Within this div a separate TEI file within the TEI file of the article -->
             <div type="text" n="1">
                 <head>Ostracon edition</head>
                 <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") -->
-                <div copyOf="#t1"/>
+                <div copyOf="#metadata"/>
+                <div copyOf="#edition"/>
+                <div copyOf="#translation"/>
             </div>
-            <div type="article">
+            <div type="commentary">
                 <head>Une politique volontariste d’accroissement du cheptel camelin pour le service du roi</head>
                     <p n="4">Chef d’un corps de chameliers royaux, Hermophilos fait transmettre ses ordres à un éleveur 
                     arabe par le truchement de son agent égyptien à Bi’r Samut, un certain Tieus. L’ordre d’emmener 
@@ -109,7 +108,7 @@
   <!-- The EpiDoc document. We could potentially do some fooling around with namespaces to have it validate against EpiDoc and the outer article 
        against something else. -->
   <TEI>
-    <teiHeader>
+    <teiHeader xml:id="metadata">
       <fileDesc>
         <!-- Metadata of the ostracon, which will be transferred to https://github.com/papyri/idp.data/tree/master/HGV_meta_EpiDoc Hook is HGV number.-->
         <titleStmt>
@@ -117,7 +116,6 @@
         </titleStmt>
         <publicationStmt>
           <authority>P3</authority>
-          <idno xml:id="t1"></idno>
           <idno type="HGV">706233</idno>
           <idno type="TM">706233</idno>
           <!-- These names will be generated from the article (self references: journal name (in abbreviated form); volume; page/paragraph) -->
@@ -257,7 +255,7 @@
           </list>
         </div>
         <!-- Translation which will be transferred to https://github.com/papyri/idp.data/tree/master/HGV_trans_EpiDoc. Hook is TM number. -->
-        <div xml:lang="fr" xml:space="preserve" type="translation">
+        <div xml:lang="fr" xml:space="preserve" type="translation" xml:id="translation">
             <div n="convex" type="textpart">
                <p>
                   <milestone n="1" unit="line"/> Hermophilos à Tieus, salut. <milestone n="2" rend="break" unit="line"/> Envoie‑nous la peau en la confiant à Abdos, l’agent de Kallidèmos. <milestone n="4" unit="line"/> Et puis donne l’ordre à Emrous, l’Arabe du désert, et à ses fils, de conduire les femelles au pâturage afin qu’elles soient saillies. (Dis‑leur) que sinon, ils me paieront les petits
