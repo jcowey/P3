@@ -69,6 +69,9 @@
         </body>
     </text>
     
+    <!-- The EpiDoc documents. We could potentially do some fooling around with namespaces to have it validate against EpiDoc and the outer article 
+       against something else. -->
+    
 <!-- Div for the text of the ostracon. Within this div a separate TEI file within the TEI file of the article -->
 <TEI>
     <teiHeader xml:id="metadata1">
