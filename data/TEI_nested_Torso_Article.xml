@@ -40,29 +40,29 @@
     </teiHeader>
     <text>
         <body>
-            <div type="articleText">
+            <div type="textpart" subtype="article">
             <p n="1">Introductory paragraph of the article</p>
             <p n="2">Paragraph 2 of the article</p>
             <p n="3">Paragraph 3 of the article</p>
             </div>
             <!-- Div for the text of the ostracon. Within this div a separate TEI file within the TEI file of the article -->
-            <div type="text" n="1">
+            <div type="textpart" n="1">
                 <head>Ostracon edition</head>
                 <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") -->
                 <div copyOf="#metadata1"/>
                 <div copyOf="#edition1"/>
             </div>
-            <div type="articleText">
+            <div type="textpart" subtype="article">
             <p n="4">Paragraph 4 of the article</p>
             </div>
             <!-- Div for the text of the ostracon. Within this div a separate TEI file within the TEI file of the article -->
-            <div type="text" n="2">
+            <div type="textpart" n="2">
                 <head>Ostracon edition</head>
                 <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") -->
                 <div copyOf="#metadata2"/>
                 <div copyOf="#edition2"/>
             </div>
-            <div type="articleText">
+            <div type="textpart" subtype="article">
             <p n="5">Paragraph 5 of the article</p>
             <p n="6">Paragraph 6 of the article</p>
             </div>
