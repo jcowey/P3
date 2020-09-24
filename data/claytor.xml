@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Four Poll-Tax Receipts on Papyrus from the Early-Roman Fayum</title>
+                <respStmt>
+                    <resp>author</resp>
+                    <name>
+                        <persName n="1">
+                            <forename>W. Graham</forename>
+                            <surname>Claytor</surname>
+                        </persName>
+                        <affiliation>
+                            <orgName>Bureau</orgName>
+                            <placeName>Somewhere</placeName>
+                        </affiliation>
+                        <email>mustermann543@gmail.com</email>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Whatever</publisher>
+                <date/>
+                <idno type="issue">1</idno>
+                <idno type="URI">https://books.openedition.org/whatever/8572</idno>
+                <idno type="DOI">10.8572/whtv.1.4</idno>
+                <availability>
+                    <licence>
+                        <ref target="http://creativecommons.org/licenses/by/4.0/"/>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="textpart" subtype="article">
+                <p n="1">The four documents published here bring the total of poll-tax receipts on papyrus to ten from the reigns of Augustus and Tiberius, all from the Arsinoite nome (see Table 1).
+                    <note xml:id="ftn1" n="1">The authors wish to thank Rodney Ast and the anonymous reviewers for their thoughtful advice on this article. Claytor is responsible for the introduction, texts 1 and 2, and the Appendix, Warga for text 3, and Smith for 4.</note>
+                    This small corpus of papyrus receipts is complemented by the far larger number of contemporary receipts written on ostraka, which stem primarily from Karanis in the Arsinoite nome and Thebes in Upper Egypt. Together they provide a basis for studying one aspect of the transition from Ptolemaic to Roman rule.                    
+                </p>
+                <p n="2">Our understanding of the Roman poll tax has been bolstered by A. Monson’s recent study in this journal, which presents a strong argument for continuity with Ptolemaic capitation taxes.
+                    <note xml:id="ftn2" n="2">A. Monson, “Late Ptolemaic Capitation Taxes and the Poll Tax in Roman Egypt,” BASP 51 (2014) 127-160. Important earlier works on the poll tax include S.L. Wallace, Taxation in Egypt from Augustus to Diocletian (Princeton 1938) 116-134 and 406-418, D. Rathbone, “Egypt, Augustus and Roman Taxation,” CCG 4 (1993) 81-112 at 86-99, and P. Heilporn, O.Stras. 2, pp. 77-87.</note>
+                    Building off his study of late Ptolemaic and early Roman ostraka from Karanis,
+                    <note xml:id="ftn3" n="3">A. Monson, “Receipts for sitônion, syntaxis, and epistatikon from Karanis: Evidence for Fiscal Reform in Augustan Egypt?” ZPE 191 (2014) 207-230.</note>
+                    Monson argues that the innovation was not so much the poll tax itself, but rather the manner in which it was levied: under Roman rule, the various Ptolemaic capitation taxes were replaced by a single tax, payments were now made in silver drachmas rather than the old bronze drachmas, and the collection was regularized, with a tendency towards monthly installments, rather than the more frequent and seemingly haphazard payments under the old regime. Along with the introduction of the census in 11/10 BCE,
+                    <note xml:id="ftn4" n="4">On which see now W.G. Claytor and R.S. Bagnall, “The Beginnings of the Roman Provincial Census: a New Declaration from 3 BCE,” GRBS 55 (2015) 637-653.</note>
+                    this fiscal reform made the extraction of capitation taxes – a potentially explosive issue – a more predictable and transparent process for both the state and the provincial population.
+                </p>
+                <p n="3">All the receipts published below conform to the new pattern of payments by regular installments of silver drachmas. Text 1 is notable largely because of its date in Augustus’ 15th year (16/15 BCE): it is the earliest poll-tax receipt on papyrus and shows what appears to be a full year’s worth of payments in monthly installments of four drachmas. Texts 3 and 4 belong to the archive of Harthotes, a public farmer and priest from the village of Theadelphia (see further Claytor, Litinas, and Nabney in this issue), and 4 is of particular interest for the enforcement of the upper age limit of liability for the poll tax.
+                </p>
+                <p n="4">Further insight on the collection of the poll tax comes from Texts 2 (7 CE) and 3 (10/11 CE), which have prompted a reexamination of P.Fay. 45 (10-11 CE) and a new reading of P.Mil. 12.9 (13/14 CE), discussed in the Appendix. In these four texts, the local tax collector Heraklas is identified not by the usual title of χειριστής, but by ὁ παρά, followed by the name of his superior (a different individual in each case). The two titles are equivalent (both mean “agent” or “assistant”), but the latter of course is more informative about the upper echelons of tax collection in the Arsinoite nome. In two texts, the superiors are given the title δημόσιος τραπεζίτης (Ἀρσινοίτου), while in the two others they are identified respectively as the son of a δημόσιος τραπεζίτης Ἀρσινοίτου and as a gymnasiarch. In all cases, howeve
+                    howeverr, we should see them as public bankers based in Arsinoe, who delegated the task of local tax collection to their representative Heraklas.
+                    <note xml:id="ftn5" n="5">The early Roman χειρισταί were likewise representatives of the state bank: D. Hagedorn, “Exkurs I: Die Rolle der χειρισταί bei der Steuerhebung im 1./2. Jh. n.Chr.” BGU 20, pp. 93-97.</note>
+                </p>
+                <p n="5">In the short span of seven years covered by these texts, four different public bankers are attested (Table 1). Whether this reflects frequent turnover among public bankers in the Arsinoite nome at this time, or whether they are members of a college of bankers, we cannot say. In contemporary Thebes, much more information can be found on the operation of the state bank because there it was standard practice to name the responsible banker in tax receipts. R. Bogaert has shown that one or two public bankers were active at a time during Augustus’ reign, increasing to three in the period 14-42 CE, and more later on.
+                    <note xml:id="ftn6" n="6">R. Bogaert, “Banques et banquiers à Thèbes à l'époque romaine,” ZPE 57 (1984) 241-296 at 274.</note>
+                    They were often career bankers, and Bogaert was able to trace four generations of one banking family, beginning with Kephalos, who was in office between 22/21 and 1 BCE, with the assistance of his son Epikrates for about 15 of those years. While we cannot study the banking personnel in the Arsinoite nome in such detail, it is worth noting that here too the operation of state banks could be a family affair, since the public banker C. Iulius Alexandros followed his father into the profession (see 2 and the Appendix).
+                </p>
+                <p n="6">A little more can be said about the local agents who actually made the rounds, since they are consistently mentioned in Arsinoite receipts. The four receipts with the ὁ παρά formula discussed above were issued by the same local collector, Heraklas, who is attested between 7 and 14 CE and possibly again in 24/25 CE (4). Similarly, the χειριστής Mysthes, a later contemporary of Heraklas, is attested over a 17-year period in Tebtunis,
+                    <note xml:id="ftn7" n="7">D. Hagedorn, “Zwei Aufträge zur Ausstellung von Kopfsteuerquittungen,” BASP 50 (2013) 39-47.</note>
+                    and, later still, the well-known πράκτωρ Nemesion collected money taxes in Philadelphia over at least a 13-year period. The long careers of these local collectors are typical of the period before tax collection became a liturgical duty with standard three-year terms under Trajan. As long as the taxes were delivered, Roman and local authorities were happy to leave the business of tax collection in the same hands, whether in the public bank of Thebes or in the villages of the Arsinoite nome. From the Archive of Nemesion, we can see that these local collectors in the Fayum were members of the village elite who managed to carve out a profitable enterprise by cooperating with the new imperial power.
+                    <note xml:id="ftn8" n="8"> A.E. Hanson, “Village Officials at Philadelphia: a Model of Romanization in the Julio-Claudian Period,” in L. Criscuolo and G. Geraci (edd.), Egitto e storia antica dall’ellenismo all’età araba (Bologna 1989) 429-440.</note>
+                </p>
+                <!-- This is where the table should go. Not sure how to do this -->
+                <p n="7"></p>
+            </div>
+            <!-- Div for the text of the first papyrus. Within this div a separate TEI file within the TEI file of the article -->
+            <div type="textpart" n="1">
+                <head>Ostracon edition</head>
+                <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") -->
+                <div copyOf="#metadata1"/>
+                <div copyOf="#edition1"/>
+            </div>
+            <div type="textpart" subtype="article">
+                <p n="4">Paragraph 4 of the article</p>
+            </div>
+            <!-- Div for the text of the second papyrus. Within this div a separate TEI file within the TEI file of the article -->
+            <div type="textpart" n="2">
+                <head>Ostracon edition</head>
+                <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") -->
+                <div copyOf="#metadata2"/>
+                <div copyOf="#edition2"/>
+            </div>
+            <div type="textpart" subtype="article">
+                <p n="5">Paragraph 5 of the article</p>
+                <p n="6">Paragraph 6 of the article</p>
+            </div>
+        </body>
+    </text>
+    
+    <!-- The EpiDoc documents. We could potentially do some fooling around with namespaces to have it validate against EpiDoc and the outer article 
+       against something else. -->
+    
+    <!-- Div for the metadata and text of the first papyrus. Within this div a separate TEI file within the TEI file of the article -->
+    <TEI>
+        <teiHeader xml:id="metadata1">
+            <!-- Metadata for first text -->
+            <fileDesc>
+                <titleStmt>
+                    <title>Receipt for syntaxis</title>
+                </titleStmt>
+                <publicationStmt>
+                    <!-- Had to introduce ab tag to allow validation, this is not what we have in HGV_meta_EpiDoc, see above "fooling around with namespaces to have it validate against EpiDoc and the outer article 
+       against something else" -->
+                    <ab>
+                    <idno type="filename">703274</idno>
+                    <idno type="TM">703274</idno>
+                    <idno type="ddb-filename">basp.53.125_1</idno>
+                    <idno type="ddb-hybrid">basp;53;125_1</idno>
+                    </ab>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <placeName>
+                                <settlement>Heidelberg</settlement>
+                            </placeName>
+                            <collection>Institut für Papyrologie</collection>
+                            <idno type="invNo">P. Heid. inv. G 1026</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <material>Papyrus</material>
+                                    </support>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace>Theadelpheia (Arsinoites)</origPlace>
+                                <origDate notBefore="-0016-11" notAfter="-0015-08">Nov. 16 - Aug. 15 v.Chr.</origDate>
+                            </origin>
+                            <provenance type="located">
+                                <p xml:id="geoHIACE2">
+                                    <placeName n="1"
+                                        type="ancient"
+                                        ref="https://www.trismegistos.org/place/2349 https://pleiades.stoa.org/places/737081">Theadelpheia</placeName>
+                                    <placeName n="2"
+                                        type="ancient"
+                                        subtype="nome"
+                                        ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                                </p>
+                            </provenance>
+                        </history>
+                    </msDesc>
+                    <listBibl>
+                        <bibl type="SB">
+                            <ptr target="papyri.info/biblio/95695"/>
+                            <biblScope unit="pp">125</biblScope>
+                        </bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                </langUsage>
+                <textClass>
+                    <keywords scheme="hgv">
+                        <term n="1">Quittung</term>
+                        <term n="2">Steuer</term>
+                        <term n="3">Geld</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <!-- Greek text for first text -->
+            <body>
+                <head xml:lang="en"/>
+                <div xml:lang="grc" type="edition" xml:space="preserve">
+<div n="r" type="textpart"><ab> 
+    <lb n="1" rend="indent"/>ἔτους <num value="15">ιε</num> Καίσαρος <unclear>Ἁ</unclear>θὺ<unclear>ρ</unclear> <num><gap reason="illegible" quantity="1" unit="character"/></num>
+
+    <lb n="2" rend="indent"/><expan>δι<unclear>α</unclear><ex>γε</ex>γρ<ex>άφηκεν</ex></expan> εἰς τὴν <expan>σύντ<unclear>α</unclear>ξι<ex>ν</ex></expan>
+
+    <lb n="3" rend="indent"/><expan>Θεαδελ<ex>φείας</ex></expan> Ἁρ<unclear>τ</unclear>ώδης <expan>ἀρ<ex>γυρίου</ex></expan> <expan><ex>δραχμὰς</ex></expan> <num value="4">δ</num>
+
+    <lb n="4" rend="indent"/><expan>δι<ex>ὰ</ex></expan> <abbr><gap reason="illegible" quantity="1" unit="character"/>ε<gap reason="illegible" quantity="2" unit="character"/>χ<gap reason="illegible" quantity="1" unit="character"/></abbr>
+
+    <lb n="5" rend="indent"/>Χοιὰκ <num value="15">ι<hi rend="supraline">ε</hi></num> <expan><ex>δραχμὰς</ex></expan> <choice><reg><expan>τέσσαρα<ex>ς</ex></expan></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>
+
+    <lb n="6" rend="indent"/>Τῦβι <num value="19">ι<hi rend="supraline"><unclear>θ</unclear></hi></num> <expan><ex>δραχμὰς</ex></expan> <choice><reg><expan>τέσσαρα<ex>ς</ex></expan></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>
+
+    <lb n="7" rend="indent"/><expan>Μεχ<ex>εὶρ</ex></expan> κ<unclear>δ</unclear>̅ <expan>δρ<unclear>αχμ</unclear><ex>ὰς</ex></expan> <choice><reg><expan>τέσσαρ<supplied reason="lost">α<ex>ς</ex></supplied></expan></reg><orig><expan>τέσαρ<supplied reason="lost">ε<ex>ς</ex></supplied></expan></orig></choice>, <supplied reason="lost"><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num></supplied>
+
+    <lb n="8" rend="indent"/><expan>Φα<unclear>μ</unclear><ex>ενὼθ</ex></expan> <num value="26">κ<hi rend="supraline">ϛ</hi></num> <expan><ex cert="low">δραχμὰς</ex></expan> <choice><reg><expan>τέσσαρα<ex>ς</ex></expan></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>
+
+    <lb n="9"/><expan>Παχ<ex>ὼν</ex></expan> <num value="10"><hi rend="supraline"><unclear>ι</unclear></hi></num> <expan>Φαρμ<ex>οῦθι</ex></expan> <expan><ex>δραχμὰς</ex></expan> <num value="4">δ</num>, <handShift new="m2"/>Παχὼν <gap reason="lost" atLeast="1" atMost="2" unit="character"/>
+
+    <lb n="10"/><expan><unclear>δι</unclear><ex>α</ex>γεγράφηκεν</expan> <unclear>Ἁ</unclear>ρθώτ<unclear>η</unclear><supplied reason="lost">ς</supplied>
+
+    <lb n="11"/><unclear>εἰς</unclear> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <choice><reg><app type="alternative"><lem>σύνταξιν</lem><rdg>συντάξεις</rdg></app></reg><orig><unclear>σ</unclear>υνταξις</orig></choice> <expan><ex>δραχμὰς</ex></expan> <choice><reg><expan>τέσ<supplied reason="lost">σαρα<ex>ς</ex></supplied></expan></reg><orig><expan>τέ<unclear>σ</unclear><supplied reason="lost">αρε<ex>ς</ex></supplied></expan></orig></choice>
+
+    <lb n="12"/><supplied reason="lost"><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>,</supplied> <gap reason="lost" extent="unknown" unit="character"/><hi rend="supraline"><gap reason="illegible" quantity="2" unit="character"/></hi> Παῦνι <num value="14">ι<hi rend="supraline">δ</hi></num>
+
+    <lb n="13"/><supplied reason="lost"><handShift new="m1" cert="low"/> <expan>δραχμ<ex>ὰς</ex></expan></supplied> <choice><reg><expan><supplied reason="lost">τέ</supplied>σσαρα<ex>ς</ex></expan></reg><orig><expan><supplied reason="lost">τέ</supplied><unclear>σ</unclear>αρ<unclear>ε</unclear><ex>ς</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num> <gap reason="lost" extent="unknown" unit="character"/>
+
+    <lb n="14"/><supplied reason="lost">Ἐπεὶφ</supplied><num atLeast="1" atMost="30"><gap reason="lost" atLeast="1" atMost="2" unit="character"/></num> <expan><ex cert="low">δραχμὰς</ex></expan> <choice><reg><expan>τέσσαρα<ex>ς</ex></expan></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4"><supplied reason="lost">δ</supplied></num>
+
+    <lb n="15"/><supplied reason="lost">Μεσορὴ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied><unclear>έ</unclear><supplied reason="lost">σ</supplied><unclear>αρας</unclear>, <expan><ex>γίνονται</ex></expan> <supplied reason="lost"><expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num></supplied>
+
+    <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+
+    <lb n="16"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div> 
+<div n="v" type="textpart"><ab> 
+    <lb n="17"/><gap reason="lost" quantity="3" unit="character"/> 
+
+    <lb n="17"/><space extent="unknown" unit="character"/>  
+
+    <lb n="18"/><abbr><unclear>η</unclear>ια</abbr> π δια<gap reason="illegible" quantity="1" unit="character"/>α 
+</ab></div>
+      </div>
+                <!-- The following divs belong to HGV_meta_EpiDoc within text/body there -->
+                <div type="bibliography" subtype="principalEdition">
+                    <listBibl>
+                        <bibl type="publication" subtype="principal">
+                            <title level="s" type="abbreviated">BASP</title>
+                            <biblScope n="1" unit="volume">53</biblScope>
+                            <biblScope n="2" unit="fascicle">(2016)</biblScope>
+                            <biblScope n="3" unit="pages">S. 125</biblScope>
+                            <biblScope n="4" unit="number">Nr. 1</biblScope>
+                        </bibl>
+                    </listBibl>
+                </div>
+                <div type="bibliography" subtype="illustrations">
+                    <p>
+                        <bibl type="illustration">S. 127</bibl>
+                    </p>
+                </div>
+                <div type="figure">
+                    <p>
+                        <figure n="1">
+                            <graphic url="https://digi.ub.uni-heidelberg.de/diglit/p_g_1026"/>
+                        </figure>
+                        <figure n="2">
+                            <graphic url="https://doi.org/10.11588/diglit.32995"/>
+                        </figure>
+                    </p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <!-- Div for the metadata and text of the second papyrus. Within this div a separate TEI file within the TEI file of the article -->
+    <TEI>
+        <teiHeader xml:id="metadata2">
+            <!-- Metadata for second text -->
+            <fileDesc>
+                <titleStmt>
+                    <title></title>
+                </titleStmt>
+                <publicationStmt>
+                    <p></p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <!-- Coptic text for second text -->
+            <body>
+                <head xml:lang="en"/>
+                <div xml:lang="grc" type="edition" xml:space="preserve" xml:id="edition2"><ab/></div>
+            </body>
+        </text>
+    </TEI>
+</TEI>
