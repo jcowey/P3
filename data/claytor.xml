@@ -14,10 +14,32 @@
                             <surname>Claytor</surname>
                         </persName>
                         <affiliation>
-                            <orgName>Bureau</orgName>
-                            <placeName>Somewhere</placeName>
+                            <orgName>Universität Basel</orgName>
+                            <placeName>Basel</placeName>
                         </affiliation>
                         <email>mustermann543@gmail.com</email>
+                    </name>
+                    <name>
+                        <persName n="2">
+                            <forename>Richard</forename>
+                            <surname>Warga</surname>
+                        </persName>
+                        <affiliation>
+                            <orgName>Louisiana State University</orgName>
+                            <placeName>Baton Rouge</placeName>
+                        </affiliation>
+                        <email>mustermann54@gmail.com</email>
+                    </name>
+                    <name>
+                        <persName n="3">
+                            <forename>Zachary G.</forename>
+                            <surname>Smith</surname>
+                        </persName>
+                        <affiliation>
+                            <orgName>Yale University</orgName>
+                            <placeName>New Haven</placeName>
+                        </affiliation>
+                        <email>mustermann5@gmail.com</email>
                     </name>
                 </respStmt>
             </titleStmt>
@@ -194,6 +216,15 @@
                     </p>
                     <p n="9">Judging from the inconsistency of the hands from entry to entry, the text appears to have been drawn up over the course of the year as payments were made each month. A different hand is clearly responsible for the entry beginning in the middle of line 9, where the new scribe felt compelled to write out part of the opening payment formula again. This hand seems to continue through line 12. The following lines look more like the first hand, so I have tentatively marked a change at the beginning of line 13, even though this would be in the middle of an entry.</p>
                 </div>
+                <div subtype="image" type="textpart">
+                    <p>
+                        <figure>
+                            <graphic url="https://digi.ub.uni-heidelberg.de/diglit/p_g_1026/0001"/>
+                            <graphic url="https://digi.ub.uni-heidelberg.de/diglit/p_g_1026/0002"/>
+                            <note>1. P. Heid. inv. G 1026. © Institut für Papyrologie, Universität Heidelberg</note>
+                        </figure>
+                    </p>
+                </div>
                 <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") for the purposes of printing only the ../body/div is required -->                    
                 <div copyOf="#edition1"/>
                 <div copyOf="#translation1"/>
@@ -242,6 +273,15 @@
                     </p>
                     <p n="12">Lines 3 and 11 inform us that Heraklas was the agent (ὁ παρά) of a public banker with an abbreviated name discussed in the Appendix. Regardless of the exact reading, this same name is found in P.Mil. 12.9 (13/14 CE), another receipt written by Heraklas, where it serves as the patronymic of C. Iulius Alexandros, the public banker on whose behalf Heraklas was working in that text (see Appendix). As discussed in the introduction, family influence could play a role in landing a position at the state bank.</p>
                 </div>
+                <div subtype="image" type="textpart">
+                    <p>
+                        <figure>
+                            <graphic url="https://quod.lib.umich.edu/a/apis/x-8120/1986R.TIF"/>
+                            <!-- possibly figDesc more appropriate -->
+                            <note>2. P. Mich inv. 1986. Image published courtesy of the University of Michigan Papyrology Collection</note>
+                        </figure>
+                    </p>
+                </div>
                 <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") for the purposes of printing only the ../body/div is required -->                    
                 <div copyOf="#edition2"/>
                 <div copyOf="#translation2"/>
@@ -286,6 +326,15 @@
                     <p n="15">The tax collector in Theadelphia, Heraklas, is now known to us from at least four, perhaps five, syntaximon receipts: see the introduction to 2 above.</p>
                 </div>
                
+            </div>
+            <div subtype="image" type="textpart">
+                <p>
+                    <figure>
+                        <graphic url="https://quod.lib.umich.edu/a/apis/x-4369/4187R.TIF"/>
+                        <!-- possibly figDesc more appropriate -->
+                        <note>3. P.Mich. inv. 4187. Image published courtesy of the University of Michigan Papyrology Collection</note>
+                    </figure>
+                </p>
             </div>
             <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") for the purposes of printing only the ../body/div is required -->                    
             <div copyOf="#edition3"/>
@@ -351,6 +400,15 @@
                     Yet this system of verification only would have helped to guard against fraud by the taxpayer. There would have been no incentive for a collector to remove a taxpayer from liability and to place him in the category of ὑπερετής without the taxpayer submitting a request to that effect. Without such awareness and notification, a taxpayer like Harthotes might have continued to pay the poll-tax until well into his sixties.
                 </p>
             </div>
+            <div subtype="image" type="textpart">
+                <p>
+                    <figure>
+                        <graphic url="https://findit.library.yale.edu/bookreader/BookReaderDemo/index.html?oid=15513523&amp;page=1#page/1/mode/1up"/>
+                        <!-- possibly figDesc more appropriate -->
+                        <note>4. P.CtYBR inv. 340. Image published courtesy of the Beinecke Rare Book &amp; Manuscript Library</note>
+                    </figure>
+                </p>
+            </div>
             <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") for the purposes of printing only the ../body/div is required -->                    
             <div copyOf="#edition4"/>
             <div copyOf="#translation4"/>
@@ -378,6 +436,7 @@
             <div type="textpart" subtype="article">
                 <head>Appendix: Rereading P.Mil. 12.9 (Claytor)</head>
                 <p n="21">The editor of P.Mil. 12.9 gives the following for ll. 2-4 (see Fig. 1 for line 3):
+                    <!-- does seg element seem reasonable here? -->
                 <seg>
                     <lb n="3"/>… Ἡρακλᾷ τῶι παρὰ
                     <lb n="3"/>Γαίου Ἰουλίου Ἀλεξ(άνδρου) υἱοῦ Ψω( ) ἀρ(γυρίου) (δραχμὰς) δ καταλαμβ(άνοντι)
@@ -390,12 +449,47 @@
                     fact be read as δημ(οσίου) τρ(απεζίτου) Ἀρσι(νοίτου), giving the title of C. Iulius Alexandros’ father.
                     <note xml:id="ftn30" n="30">Hagedorn has shown that titles after υἱός + patronymic belong to the father: D. Hagedorn, “Zur Verwendung von υἱόϲ und θυγάτηρ vor dem Vatersnamen in Urkunden römischer Zeit,” ZPE 80 (1990) 277-282.</note>
                 </p>
+                <p>
+                    <figure>
+                        <graphic url=""></graphic>
+                        <!-- possibly figDesc more appropriate -->
+                        <note>Fig. 1. P.Mil. 12.9, line 3. Image published courtesy of the Direzione della Biblioteca di Ateneo dell'Università Cattolica del Sacro Cuore di Milano.</note>
+                    </figure>
+                </p>
+                <p>
+                    <figure>
+                        <graphic url=""></graphic>
+                        <!-- possibly figDesc more appropriate -->
+                        <note>Fig. 2. Text 3, end of line 3: Συρίωνο(ς) δημ(οσίου) τρα(πεζίτου) Ἀρσι(νοίτου).</note>
+                    </figure>
+                </p>
                 <p n="22">Before this title, we are left with what should be Alexandros’ father’s name, because the reading υἱοῦ is clear. The 
                     editor read this name as Ψω( ),                
                     <note xml:id="ftn31" n="31">The first edition of P.Mil. 9 has χ(ιριστοῦ) in this position.</note>
                     and we must also reckon with the following letters, because ἀρ(γυρίου) (δρ.) is precluded by the new reading of what follows. In
                     text 2 above, there are two further examples of this name, followed by δημ(οσίου) τρ(απεζίτου). Figures 
                     3-5 allow comparison of all three examples.
+                </p>
+                <p>
+                    <figure>
+                        <graphic url=""></graphic>
+                        <!-- possibly figDesc more appropriate -->
+                        <note>Fig. 3. Text 2, line 3.</note>
+                    </figure>
+                </p>
+                <p>
+                    <figure>
+                        <graphic url=""></graphic>
+                        <!-- possibly figDesc more appropriate -->
+                        <note>Fig. 4. Text 2, line 11. The line ends δημ(οσίου); the kappa is raised in abbreviation in the next line’s τριακ(οστοῦ).</note>
+                    </figure>
+                </p>
+                <p>
+                    <figure>
+                        <graphic url=""></graphic>
+                        <!-- possibly figDesc more appropriate -->
+                        <note>Fig. 5. P.Mil. 12.9, line 3 detail. Image published courtesy of the Direzione della Biblioteca di Ateneo dell'Università Cattolica del Sacro Cuore di Milano.</note>
+                    </figure>
                 </p>
                 <p n="23">The editor’s ἀρ(γυρίου) (δρ.) can be read as αρ( ) or αρα( ), depending 
                     on whether the hook is taken as an analphabetic abbreviation or a haken-alpha, as it
@@ -410,11 +504,21 @@
                     so far this term has only been found as a village name in the Mendesian nome.
                     <note xml:id="ftn33" n="33">Trismegistos.org, geoID 8120.</note>
                 </p>
-                <p n="25">
+                <p n="25">A more promising direction is to read the editor’s Ψ as the “πυρός”symbol, which was used not only for this term, but for a range of words or phrases beginning with pi and followed by a rho or lambda,
+                    such as Πέρσης τῆς ἐπιγονῆς, place names like Πολέμων or Πτολεμαίς, and even the personal name Πτολεμαῖος.
                     <note xml:id="ftn34" n="34">For discussion see P.Mich. 5.293, intro. and W.G. Claytor, “A Schedule of Contracts and a Private Letter: P.Fay. 344,” BASP 50 (2013) 77-121 at 88.</note>
+                    Could the combination ο be read as (Πτολεμαί)ο(υ)? The symbol is rarely used in conjunction with a letter, but one parallel is P.Stras. 2 88.13 (Pathyris, 105 BCE, BL 3.232), 
+                    where the papyrus has ρ, which should be transcribed (Πέ)ρ(σαι τῆς ἐπιγονῆς).
                     <note xml:id="ftn35" n="35">I thank Paul Heilporn for directing me to a digital image.</note>
+                    Another option would be to read the raised character as a quickly-written το(ῦ), although it only superficially resembles the writing of the article found in, e.g., penthemeros certificates, and its raised position suggests instead that it does belong to the preceding symbol. 
+                    The following letters, as mentioned above, can be read as αρα( ) or αρ( ), which would be the beginning of a patronymic or an epithet of Ptolemaios under this interpretation. On the whole, this direction appears more promising, even if the names cannot be confidently expanded. Why Heraklas resorted to such an idiosyncratic writing of this banker’s name is unclear.
                 </p>
-                <p n="26">To summarize, the proposed reading of P.Mil. 12.9.3 is as follows:</p>
+                <p n="26">To summarize, the proposed reading of P.Mil. 12.9.3 is as follows:
+                    <!-- does seg element seem reasonable here? -->
+                <seg>
+                    <lb n="3"/>Γαίου Ἰουλίου Ἀλεξά(νδρου) υἱοῦ (Πτολεμαί)ο(υ) Αρα( ) δημ(οσίου) τρ(απεζίτου) Ἀρσι(νοίτου)
+                </seg>
+                </p>
                 <p n="27">However the name is read, it is interesting that Gaius Iulius Alexandros’ father is of (presumably) local origin. With his tria nomina, Alexandros must have been an early recipient of Roman citizenship. He may also be the estate owner attested in P.Ryl. 2 166 (Euhemeria, 26 CE), whose possessions were acquired by the empress Livia: P.Ryl. 2 126 (Euhemeria, 28/29 CE).
                     <note xml:id="ftn36" n="36">For possible identifications of this Alexandros, see G.M. Parassoglou, Imperial Estates in Roman Egypt (Amsterdam 1978) 17, n. 12.</note>
                 </p>
@@ -435,12 +539,11 @@
                 <publicationStmt>
                     <!-- Had to introduce ab tag to allow validation, this is not what we have in HGV_meta_EpiDoc, see above "fooling around with namespaces to have it validate against EpiDoc and the outer article 
        against something else" -->
-                    <ab>
+                    <authority>Papyrological Publication Platform (P3)</authority>
                     <idno type="filename">703274</idno>
                     <idno type="TM">703274</idno>
                     <idno type="ddb-filename">basp.53.125_1</idno>
                     <idno type="ddb-hybrid">basp;53;125_1</idno>
-                    </ab>
                 </publicationStmt>
                 <sourceDesc>
                     <msDesc>
@@ -638,20 +741,68 @@
             <!-- Metadata for second text -->
             <fileDesc>
                 <titleStmt>
-                    <title></title>
+                    <title>BASP 53 (2016) S. 125 Nr. 1</title>
                 </titleStmt>
                 <publicationStmt>
-                    <p></p>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename">703274</idno>
+                    <idno type="TM">703274</idno>
+                    <idno type="HGV">703274</idno>
+                    <idno type="ddb-filename">basp.53.125_1</idno>
+                    <idno type="ddb-hybrid">basp;53;125_1</idno>
+                    <availability>
+                        <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                            a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
                 </publicationStmt>
                 <sourceDesc>
-                    <p/>
+                    <p>The contents of this document are generated from SOSOL.</p>
                 </sourceDesc>
             </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">English</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                </langUsage>
+            </profileDesc>
+            <revisionDesc>
+                <change when="2020-09-02T05:44:31-04:00"
+                    who="http://papyri.info/users/james.cowey">Finalized - Ready.</change>
+                <change when="2020-09-02T05:32:25-04:00"
+                    who="http://papyri.info/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+                <change when="2020-09-02T05:27:38-04:00"
+                    who="http://papyri.info/users/james.cowey">Submit - Translation submitted</change>
+                <change when="2020-09-02T05:21:27-04:00" who="http://papyri.info/editor">Automated creation from template</change>
+            </revisionDesc>
         </teiHeader>
         <text>
             <body>
-                <head xml:lang="en"/>
-                <div xml:lang="grc" type="edition" xml:space="preserve" xml:id="edition"><ab/></div>
+                <div xml:lang="en" xml:space="preserve" type="translation">
+            <div n="r" type="textpart">
+               <p>
+                  <milestone n="1" unit="line"/> In the 15th year of Caesar, on Hathyr ..., he has paid for the syntaxis of Theadelphia: Harthotes 4 silver dr. through N.N.,
+<milestone n="5" rend="break" unit="line"/> on Choiak 15, four dr.,
+<milestone n="6" rend="break" unit="line"/> on Tybi 19, four dr. = 4 dr.,
+<milestone n="7" rend="break" unit="line"/> on Mecheir 24, four drachmas = 4 dr.,
+<milestone n="8" rend="break" unit="line"/> on Phamenoth 26, four dr. = 4 dr.,
+<milestone n="9" rend="break" unit="line"/> on Pachon 10, (for) Pharmouthi, dr. 4, on Pachon … Harthotes has paid for the syntaxis four dr. = 4 dr.,
+<milestone n="12" rend="break" unit="line"/> on Pauni 14, four dr. = 4 dr.,
+<milestone n="14" rend="break" unit="line"/> on Epeiph …, four dr. = 4 dr.,
+<milestone n="15" rend="break" unit="line"/> on Mesore …, four dr. = 4 dr,
+ …
+               </p>
+            </div>
+            <div n="v" type="textpart">
+               <p>
+                  <milestone n="17" unit="line"/> obsure notation
+               </p>
+            </div>
+         </div>
             </body>
         </text>
     </TEI>
@@ -661,20 +812,158 @@
         <teiHeader xml:id="metadata2">
             <fileDesc>
                 <titleStmt>
-                    <title></title>
+                    <title>Receipt for syntaximon</title>
                 </titleStmt>
                 <publicationStmt>
-                    <p></p>
+                    <authority>Papyrological Publication Platform (P3)</authority>                  
+                    <idno type="filename">703275</idno>
+                    <idno type="TM">703275</idno>
+                    <idno type="ddb-filename">basp.53.129_2</idno>
+                    <idno type="ddb-hybrid">basp;53;129_2</idno>
                 </publicationStmt>
                 <sourceDesc>
-                    <p/>
+                    <msDesc>
+                        <msIdentifier>
+                            <placeName>
+                                <settlement>Ann Arbor</settlement>
+                            </placeName>
+                            <collection>Michigan University, Library</collection>
+                            <idno type="invNo">P. Mich inv. 1986</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <material>Papyrus</material>
+                                    </support>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace>Apias (Arsinoites); erworben: - 1924</origPlace>
+                                <origDate notBefore="0007-10-28">
+                                    <offset n="1" type="after">nach</offset>
+                                    28. Okt. 7
+                                </origDate>
+                            </origin>
+                            <provenance n="1" type="located">
+                                <p xml:id="geoDC2BEA">
+                                    <placeName n="1"
+                                        type="ancient"
+                                        ref="https://www.trismegistos.org/place/240 https://pleiades.stoa.org/places/741427">Apias</placeName>
+                                    <placeName n="2"
+                                        type="ancient"
+                                        subtype="nome"
+                                        ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                                </p>
+                            </provenance>
+                            <provenance n="2" type="acquired" when="1924"/>
+                        </history>
+                    </msDesc>
+                    <listBibl>
+                        <bibl type="SB">
+                            <ptr target="95695"/>
+                            <biblScope unit="pp">129</biblScope>
+                        </bibl>
+                    </listBibl>
                 </sourceDesc>
             </fileDesc>
+            <encodingDesc>
+                <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                </langUsage>
+                <textClass>
+                    <keywords scheme="hgv">
+                        <term n="1">Quittung</term>
+                        <term n="2">Steuer</term>
+                        <term n="3">Geld</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+            <revisionDesc>
+                <change when="2020-09-03T03:56:08-04:00"
+                    who="http://papyri.info/users/james.cowey">Finalized - Ready.</change>
+                <change when="2020-09-02T11:44:13-04:00"
+                    who="http://papyri.info/users/james.cowey">Vote - HGVAccept - Fine</change>
+                <change when="2020-09-02T11:32:33-04:00"
+                    who="http://papyri.info/users/james.cowey">Submit - Entered metadata and text for BASP 53 (2016) 129 Nr. 2</change>
+                <change when="2020-09-02T09:58:12-04:00" who="http://papyri.info/editor">Automated creation from template</change>
+            </revisionDesc>
         </teiHeader>
         <text>
             <body>
-                <head xml:lang="en"/>
-                <div xml:lang="grc" type="edition" xml:space="preserve"><ab/></div>
+                <div type="bibliography" subtype="principalEdition">
+                    <listBibl>
+                        <bibl type="publication" subtype="principal">
+                            <title level="s" type="abbreviated">BASP</title>
+                            <biblScope n="1" unit="volume">53</biblScope>
+                            <biblScope n="2" unit="fascicle">(2016)</biblScope>
+                            <biblScope n="3" unit="pages">S. 129</biblScope>
+                            <biblScope n="4" unit="number">Nr. 2</biblScope>
+                        </bibl>
+                    </listBibl>
+                </div>
+                <div type="bibliography" subtype="illustrations">
+                    <p>
+                        <bibl type="illustration">S. 131</bibl>
+                    </p>
+                </div>
+                <div type="figure">
+                    <p>
+                        <figure>
+                            <graphic url="https://quod.lib.umich.edu/a/apis/x-8120"/>
+                        </figure>
+                    </p>
+                </div>
+                <div type="commentary" subtype="mentionedDates">
+                    <list>
+                        <item n="1">
+                            <ref>Z. 1</ref>
+                            <date type="mentioned" when="0007-01-27">
+                                27. Jan. 7
+                                <certainty locus="value" given="#dateAlternativeX" degree="1"/>
+                            </date>
+                        </item>
+                        <item n="2">
+                            <ref>Z. 5</ref>
+                            <date type="mentioned" notBefore="0007-03-27" notAfter="0007-04-25">
+                                27. März 7 - 25. Apr. 7
+                                <certainty locus="value" given="#dateAlternativeX" degree="1"/>
+                            </date>
+                        </item>
+                        <item n="3">
+                            <ref>Z. 6</ref>
+                            <date type="mentioned" when="0007-06-17">
+                                17. Juni 7
+                                <certainty locus="value" given="#dateAlternativeX" degree="1"/>
+                            </date>
+                        </item>
+                        <item n="4">
+                            <ref>Z. 7</ref>
+                            <date type="mentioned" when="0007-07-25">
+                                25. Juli 7
+                                <certainty locus="value" given="#dateAlternativeX" degree="1"/>
+                            </date>
+                        </item>
+                        <item n="5">
+                            <ref>Z. 9</ref>
+                            <date type="mentioned" when="0007-10-28">
+                                28. Okt. 7
+                                <certainty locus="value" given="#dateAlternativeX" degree="1"/>
+                            </date>
+                        </item>
+                    </list>
+                </div>
             </body>
         </text>
     </TEI>
@@ -682,21 +971,692 @@
         <teiHeader xml:id="edition2">
             <fileDesc>
                 <titleStmt>
-                    <title></title>
+                    <title>basp.53.129_2</title>
                 </titleStmt>
                 <publicationStmt>
-                    <p></p>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename">basp.53.129_2</idno>
+                    <idno type="ddb-hybrid">basp;53;129_2</idno>
+                    <idno type="HGV">703275</idno>
+                    <idno type="TM">703275</idno>
+                    <availability>
+                        <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                                Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
                 </publicationStmt>
                 <sourceDesc>
-                    <p/>
+                    <p>
+                        <bibl>BASP 53 129_2</bibl>
+                    </p>
                 </sourceDesc>
             </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                </langUsage>
+            </profileDesc>
+            <revisionDesc>
+                <change when="2020-09-03T04:15:59-04:00"
+                    who="http://papyri.info/users/james.cowey">Finalized - Ready.</change>
+                <change when="2020-09-03T03:59:01-04:00"
+                    who="http://papyri.info/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+                <change when="2020-09-02T09:58:11-04:00" who="http://papyri.info/editor">Automated creation from template</change>
+            </revisionDesc>
         </teiHeader>
         <text>
-            <!-- Coptic text for second text -->
             <body>
                 <head xml:lang="en"/>
-                <div xml:lang="grc" type="edition" xml:space="preserve"><ab/></div>
+                <div xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+    <lb n="1"/><unclear>ἔτους</unclear> <num value="36"><unclear>λϛ</unclear></num> Καίσαρος <expan>Μεχε<ex>ὶρ</ex></expan> <num value="2"><hi rend="supraline">β</hi></num> <expan>δ<ex>ιέ</ex>γρ<ex>αψεν</ex></expan>
+
+    <lb n="2"/><supplied reason="lost">Ἀν</supplied>χ<unclear>όρινφις</unclear> Ἰσχῖτος <expan>Ἡρακ<ex>λᾷ</ex></expan> τῶι
+
+    <lb n="3"/><supplied reason="lost">πα</supplied><unclear>ρὰ</unclear> <expan><ex cert="low">Πτολεμαί</ex>ο<ex>υ</ex></expan> <abbr>Αρ<unclear>α</unclear></abbr> <expan><unclear>δημ</unclear><ex>οσίου</ex></expan> <expan>τρ<ex>απεζίτου</ex></expan> εἰς <expan>συντάξ<ex>ιμον</ex></expan> τοῦ <expan>α<ex>ὐτοῦ</ex></expan> <expan><ex>ἔτους</ex></expan>
+
+    <lb n="4"/><unclear>Ἀ</unclear><supplied reason="lost">π</supplied>ιάδ<unclear>ο</unclear>ς <expan>ἀργ<ex>υρίου</ex></expan> <expan><ex>δραχμὰς</ex></expan> <choice><reg><num value="8">ὀκτώ</num></reg><orig><expan>ὀκτώ<ex>ι</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="8">η</num> καὶ <expan>τῆ<ex>ι</ex></expan>
+
+    <lb n="5"/><gap reason="lost" atLeast="1" atMost="2" unit="character"/> <unclear>τ</unclear>οῦ <expan>Φαρ<ex>μοῦθι</ex></expan> <expan><ex>δραχμὰς</ex></expan> <num value="12">δεκαδύο</num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="12">ιβ</num>
+
+    <lb n="6"/>κ<unclear>αὶ</unclear> <expan>τῆ<ex>ι</ex></expan> <num value="23"><hi rend="supraline">κ<unclear>γ</unclear></hi></num> τοῦ <expan>Πα<ex>ῦνι</ex></expan> <expan><ex>δραχμὰς</ex></expan> <num value="12">δεκαδύο</num>
+
+    <lb n="7"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="12">ιβ</num> κ<unclear>α</unclear>ὶ <expan>τῆ<ex>ι</ex></expan> <num><hi rend="supraline">α</hi></num> τοῦ Μεσορ<unclear>ὴ</unclear> <expan><ex>δραχμὰς</ex></expan> <choice><reg><num value="8">ὀκτώ</num></reg><orig><expan>ὀκτώ<ex>ι</ex></expan></orig></choice>,
+
+    <lb n="8"/><expan><ex>γίνονται</ex></expan> <supplied reason="lost"><expan><ex>δραχμαὶ</ex></expan></supplied> <num value="8"><supplied reason="lost">η</supplied></num>
+
+    <lb n="9"/>ἔτους <num value="37">λ<unclear>ζ</unclear></num> <expan>Καίσ<ex>αρος</ex></expan> <expan>Φαῶ<ex>φι</ex></expan> <num value="30"><hi rend="supraline">λ</hi></num> <expan>δ<ex>ι</ex>έγρ<ex>αψεν</ex></expan>
+
+    <lb n="10"/>Ἀ<unclear>ν</unclear>χόρινφις <subst><add place="inline">Ἰσχῖτος</add><del rend="corrected">Ἰσχυτος</del></subst>
+
+    <lb n="11"/>Ἡρ<unclear>ακλᾷ</unclear> <unclear>τῶι</unclear> <unclear>παρὰ</unclear> <expan><ex cert="low">Πτολεμαί</ex>ο<ex>υ</ex></expan> <abbr>Αρ<unclear>α</unclear></abbr> <expan>δημ<ex>οσίου</ex></expan>
+
+    <lb n="12"/><expan>τ<unclear>ρ</unclear><ex>απεζίτου</ex></expan> <supplied reason="lost">εἰ<supplied reason="omitted">ς</supplied></supplied> <expan><supplied reason="lost">σ</supplied><unclear>υντ</unclear>ά<ex>ξιμον</ex></expan> τοῦ ἕκτου καὶ <subst><add place="inline"><expan>τριακ<ex>οστοῦ</ex></expan></add><del rend="corrected"><expan><gap reason="illegible" quantity="2" unit="character"/>ιακ<ex>οστοῦ</ex></expan></del></subst>
+
+    <lb n="13"/><expan><ex>ἔτους</ex></expan> <unclear>α</unclear><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="3" unit="character"/> <expan><ex cert="low">δραχμὰς</ex></expan> <num value="4"><expan>τέσσερα<ex>ς</ex></expan></num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>
+</ab>
+      </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI type="HGV_trans_EpiDoc">
+        <teiHeader xml:id="translation2">
+            <fileDesc>
+                <titleStmt>
+                    <title>BASP 53 (2016) S. 129 Nr. 2</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename">703275</idno>
+                    <idno type="TM">703275</idno>
+                    <idno type="HGV">703275</idno>
+                    <idno type="ddb-hybrid">basp;53;129_2</idno>
+                    <availability>
+                        <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                            a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>The contents of this document are generated from SOSOL.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                </langUsage>
+            </profileDesc>
+            <revisionDesc>
+                <change when="2020-09-30T09:15:00-04:00" who="http://papyri.info/editor">Automated creation from template</change>
+            </revisionDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div xml:lang="en" xml:space="preserve" type="translation">
+            <p>
+               <milestone n="1" unit="line"/> In the 36th year of Caesar, on Mecheir 2, Anchorinphis, son of Ischis, paid to Heraklas, the agent of Ptolemaios (?), son of Ara( ) (?), public banker, for the syntaximon of the same year, for Apias, eight silver drachmas = 8 dr,
+	       <milestone n="5" unit="line"/> and on the … of Pharmouthi, twelve dr. = 12 dr.,
+	       <milestone n="6" unit="line"/> and on the 23rd of Pauni, twelve dr. = 12 dr.,
+	       <milestone n="7" unit="line"/> and on the 1st of Mesore, eight dr. = 8 dr.
+               <milestone n="9" rend="break" unit="line"/>Year 37 of Caesar, Phaophi 30. Anchorinphis, son of Ischis, paid to Heraklas, the agent of Psoaramounis, public banker, for the syntaximon of the thirty-sixth year … four silver (?) dr. = 4 dr.
+            </p>
+         </div>
+            </body>
+        </text>
+    </TEI>
+    
+    <!-- Div for the metadata of the third papyrus. -->
+    <TEI type="HGV_meta_EpiDoc">
+        <teiHeader xml:id="metadata3">
+            <fileDesc>
+                <titleStmt>
+                    <title>Receipt for syntaximon</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Papyrological Publication Platform (P3)</authority>
+                    <idno type="filename">703276</idno>
+                    <idno type="TM">703276</idno>
+                    <idno type="ddb-filename">basp.53.133_3</idno>
+                    <idno type="ddb-hybrid">basp;53;133_3</idno>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <placeName>
+                                <settlement>Ann Arbor</settlement>
+                            </placeName>
+                            <collection>Michigan University, Library</collection>
+                            <idno type="invNo">P.Mich. inv. 4187</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <material>Papyrus</material>
+                                    </support>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace>Theadelpheia (Arsinoites)</origPlace>
+                                <origDate notBefore="0011-07-22">
+                                    <offset n="1" type="after">nach</offset>
+                                    22. Juli 11
+                                </origDate>
+                            </origin>
+                            <provenance type="located">
+                                <p xml:id="geoHCJ29">
+                                    <placeName n="1"
+                                        type="ancient"
+                                        ref="https://www.trismegistos.org/place/2349 https://pleiades.stoa.org/places/737081">Theadelpheia</placeName>
+                                    <placeName n="2"
+                                        type="ancient"
+                                        subtype="nome"
+                                        ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                                </p>
+                            </provenance>
+                        </history>
+                    </msDesc>
+                    <listBibl>
+                        <bibl type="SB">
+                            <ptr target="papyri.info/biblio/95695"/>
+                            <biblScope unit="pp">133</biblScope>
+                        </bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                </langUsage>
+                <textClass>
+                    <keywords scheme="hgv">
+                        <term n="1">Quittung</term>
+                        <term n="2">Steuer</term>
+                        <term n="3">Geld</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+            <revisionDesc>
+                <change when="2020-09-03T11:45:41-04:00"
+                    who="http://papyri.info/users/james.cowey">Finalized - Ready.</change>
+                <change when="2020-09-03T11:13:44-04:00"
+                    who="http://papyri.info/users/james.cowey">Vote - HGVAccept - Fine</change>
+                <change when="2020-09-03T11:10:29-04:00"
+                    who="http://papyri.info/users/james.cowey">Submit - Entered text and metadata for BASP 53 (2016) 133 Nr. 3</change>
+                <change when="2020-09-03T10:32:44-04:00" who="http://papyri.info/editor">Automated creation from template</change>
+            </revisionDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div type="bibliography" subtype="principalEdition">
+                    <listBibl>
+                        <bibl type="publication" subtype="principal">
+                            <title level="s" type="abbreviated">BASP</title>
+                            <!-- provide meaningful data -->
+                            <!-- provide meaningful data -->
+                            <!-- provide meaningful data -->
+                            <biblScope n="1" unit="volume">53</biblScope>
+                            <biblScope n="2" unit="fascicle">(2016)</biblScope>
+                            <biblScope n="3" unit="pages">S. 133</biblScope>
+                            <biblScope n="4" unit="number">Nr. 3</biblScope>
+                        </bibl>
+                    </listBibl>
+                </div>
+                <div type="commentary" subtype="mentionedDates">
+                    <list>
+                        <item n="1">
+                            <ref>Z. 1</ref>
+                            <date type="mentioned" when="0010-12-26">
+                                26. Dez. 10
+                                <certainty locus="value" given="#dateAlternativeX" degree="1"/>
+                            </date>
+                        </item>
+                        <item n="2">
+                            <ref>Z. 5</ref>
+                            <date type="mentioned" when="0011-01-05">
+                                5. Jan. 11
+                                <certainty locus="value" given="#dateAlternativeX" degree="1"/>
+                            </date>
+                        </item>
+                        <item n="3">
+                            <ref>Z. 6</ref>
+                            <date type="mentioned" when="0011-01-25">
+                                25. Jan. 11
+                                <certainty locus="value" given="#dateAlternativeX" degree="1"/>
+                            </date>
+                        </item>
+                        <item n="4">
+                            <ref>Z. 7</ref>
+                            <date type="mentioned" when="0011-04-24">
+                                24. Apr. 11
+                                <certainty locus="value" given="#dateAlternativeX" degree="1"/>
+                            </date>
+                        </item>
+                        <item n="5">
+                            <ref>Z. 8</ref>
+                            <date type="mentioned" when="0011-04-25">
+                                25. Apr. 11
+                                <certainty locus="value" given="#dateAlternativeX" degree="1"/>
+                            </date>
+                        </item>
+                        <item n="6">
+                            <ref>Z. 9</ref>
+                            <date type="mentioned" notBefore="0011-06-15" notAfter="0011-06-23">
+                                15. Juni 11 - 23. Juni 11
+                                <certainty locus="value" given="#dateAlternativeX" degree="1"/>
+                            </date>
+                        </item>
+                        <item n="7">
+                            <ref>Z. 10</ref>
+                            <date type="mentioned" when="0011-07-22">
+                                22. Juli 11
+                                <certainty locus="value" given="#dateAlternativeX" degree="1"/>
+                            </date>
+                        </item>
+                    </list>
+                </div>
+                <div type="figure">
+                    <p>
+                        <figure>
+                            <graphic url="https://quod.lib.umich.edu/a/apis/x-4369"/>
+                        </figure>
+                    </p>
+                </div>
+                <div type="bibliography" subtype="illustrations">
+                    <p>
+                        <bibl type="illustration">S. 135</bibl>
+                    </p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI type="DDB_EpiDoc_XML">
+        <teiHeader xml:id="edition3">
+            <fileDesc>
+                <titleStmt>
+                    <title>basp.53.133_3</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename">basp.53.133_3</idno>
+                    <idno type="ddb-hybrid">basp;53;133_3</idno>
+                    <idno type="HGV">703276</idno>
+                    <idno type="TM">703276</idno>
+                    <availability>
+                        <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                                Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>
+                        <bibl>BASP 53 133_3</bibl>
+                    </p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                </langUsage>
+            </profileDesc>
+            <revisionDesc>
+                <change when="2020-09-04T10:03:45-04:00"
+                    who="http://papyri.info/users/james.cowey">Finalized - Ready.</change>
+                <change when="2020-09-03T11:49:22-04:00"
+                    who="http://papyri.info/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+                <change when="2020-09-03T10:32:44-04:00" who="http://papyri.info/editor">Automated creation from template</change>
+            </revisionDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <head xml:lang="en"/>
+                <div xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+    <lb n="1"/>ἔτους <num value="40">μ</num> Καίσαρος, <expan>Χοι<ex>ὰκ</ex></expan> <num value="30"><hi rend="supraline">λ</hi></num> <expan>δ<ex>ι</ex>έγρ<ex>αψεν</ex></expan>
+
+    <lb n="2"/>Μαρσίσουχος Μαρρείους Ἡρακλᾷ
+
+    <lb n="3"/>τῶι παρὰ <expan>Συρίωνο<ex>ς</ex></expan> <expan>δημ<ex>οσίου</ex></expan> <expan>τρα<ex>πεζίτου</ex></expan> <expan>Ἀρσι<ex>νοίτου</ex></expan>
+
+    <lb n="4"/>εἰ<supplied reason="omitted">ς</supplied> <expan><unclear>σ</unclear>υ<unclear>ντά</unclear><ex>ξιμον</ex></expan> <unclear>τοῦ</unclear> <expan><unclear>α</unclear><ex>ὐτοῦ</ex></expan> <expan><ex>ἔτους</ex></expan> <expan>Θεαδελ<ex>φείας</ex></expan> <expan>ἀργυ<ex>ρίου</ex></expan> <expan>ῥ<unclear>υπ</unclear><ex>αροῦ</ex></expan>
+
+    <lb n="5"/><choice><reg><supplied reason="lost">ὀ</supplied>κτώ</reg><orig><expan><supplied reason="lost">ὀ</supplied>κτώ<ex>ι</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="8">η</num> καὶ τῆι <num value="10"><hi rend="supraline"><unclear>ι</unclear></hi></num> τοῦ <expan>Τ<ex>ῦ</ex>β<ex>ι</ex></expan> <choice><reg><num value="4"><expan>τέσσαρα<ex>ς</ex></expan></num></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>,
+
+    <lb n="6"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num> καὶ <expan>τῆ<ex>ι</ex></expan> <num value="30"><hi rend="supraline">λ</hi></num> <expan>το<ex>ῦ</ex></expan> <expan>Τ<ex>ῦ</ex>β<ex>ι</ex></expan> <choice><reg><num value="4"><expan>τέσσαρα<ex>ς</ex></expan></num></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>
+
+    <lb n="7"/>καὶ <expan>τῆ<ex>ι</ex></expan> <num value="29">κ<unclear>θ</unclear></num> τοῦ <expan>Φαρμοῦ<ex>θι</ex></expan> <choice><reg><num value="4"><expan>τέσσαρα<ex>ς</ex></expan></num></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>
+
+    <lb n="8"/>καὶ <expan>τῆ<ex>ι</ex></expan> <num value="30"><hi rend="supraline">λ</hi></num> τοῦ <expan>Φαρμοῦ<ex>θι</ex></expan> <choice><reg><num value="4"><expan>τέσσαρα<ex>ς</ex></expan></num></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>
+
+    <lb n="9"/>καὶ <expan>τῆ<ex>ι</ex></expan> <num atLeast="21" atMost="29"><unclear>κ</unclear><gap reason="illegible" quantity="1" unit="character"/></num> τοῦ <expan>Πα<ex>ῦνι</ex></expan> <num value="12">δεκαδύο</num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="12">ιβ</num>
+
+    <lb n="10"/><supplied reason="lost">καὶ</supplied> <expan>τῆ<ex>ι</ex></expan> <num value="28">κ<hi rend="supraline">η</hi></num> τοῦ Ἐπεὶφ <expan><ex>δραχμὰς</ex></expan> <choice><reg>ὀκτώ</reg><orig><expan>ὀκτώ<ex>ι</ex></expan></orig></choice> <num value="1/2">𐅵</num> <num value="2"><expan><ex>δίχαλκον</ex></expan></num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="8">η</num> <num value="1/2">𐅵</num> <num value="2"><expan><ex>δίχαλκον</ex></expan></num>
+</ab>
+      </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI type="HGV_trans_EpiDoc">
+        <teiHeader xml:id="translation3">
+            <fileDesc>
+                <titleStmt>
+                    <title>BASP 53 (2016) S. 133 Nr. 3</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename">703276</idno>
+                    <idno type="TM">703276</idno>
+                    <idno type="HGV">703276</idno>
+                    <idno type="ddb-hybrid">basp;53;133_3</idno>
+                    <availability>
+                        <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                            a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>The contents of this document are generated from SOSOL.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                </langUsage>
+            </profileDesc>
+            <revisionDesc>
+                <change when="2020-09-30T09:18:15-04:00" who="http://papyri.info/editor">Automated creation from template</change>
+            </revisionDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div xml:lang="en" xml:space="preserve" type="translation">
+            <p>
+               <milestone n="1" unit="line"/> In the 40th year of Caesar on the 30th of Choiak, Marsisouchos son of Marres has paid to Heraklas, the agent of Syrion, public banker of the Arsinoite (nome), for the syntaximon of the same year, for Theadelphia, eight silver (drachmas) = 8 dr., 
+               <milestone n="5" unit="line"/> and on the 10th of Tybi four dr. = 4 dr.,
+               <milestone n="6" unit="line"/> and on the 30th of Tybi four dr. = 4 dr.,
+               <milestone n="7" unit="line"/> and on the 29th of Pharmouthi four dr . = 4 dr., 
+               <milestone n="8" unit="line"/> and on the 30th of Pharmouthi four dr. = 4 dr.,  
+               <milestone n="9" unit="line"/> and on the [21-29th] of Pauni twelve dr. = 12 dr.,
+               <milestone n="10" unit="line"/> and on the 28th of Epeiph eight dr., ½ obol, 2 chalkoi = 8 dr., ½ obol, 2 chalkoi.
+            </p>
+         </div>
+            </body>
+        </text>
+    </TEI>
+    
+    <!-- Div for the metadata of the fourth papyrus. -->
+    <TEI type="HGV_meta_EpiDoc">
+        <teiHeader xml:id="metadata4">
+            <fileDesc>
+                <titleStmt>
+                    <title>Receipt for syntaximon</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Papyrological Publication Platform (P3)</authority>
+                    <idno type="filename">703277</idno>
+                    <idno type="TM">703277</idno>
+                    <idno type="ddb-filename">basp.53.138_4</idno>
+                    <idno type="ddb-hybrid">basp;53;138_4</idno>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <placeName>
+                                <settlement>New Haven</settlement>
+                            </placeName>
+                            <collection>Yale University, Beinecke Library</collection>
+                            <idno type="invNo">P. CtYBR 340</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <material>Papyrus</material>
+                                    </support>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace>Theadelpheia (Arsinoites)</origPlace>
+                                <origDate notBefore="0025-06-03">
+                                    <offset n="1" type="after">nach</offset>
+                                    3. Juni 25
+                                </origDate>
+                            </origin>
+                            <provenance type="located">
+                                <p xml:id="geoHDAFIC">
+                                    <placeName n="1"
+                                        type="ancient"
+                                        ref="https://www.trismegistos.org/place/2349 https://pleiades.stoa.org/places/737081">Theadelpheia</placeName>
+                                    <placeName n="2"
+                                        type="ancient"
+                                        subtype="nome"
+                                        ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                                </p>
+                            </provenance>
+                        </history>
+                    </msDesc>
+                    <listBibl>
+                        <bibl type="SB">
+                            <biblScope unit="pp">138</biblScope>
+                        </bibl>
+                    </listBibl>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                </langUsage>
+                <textClass>
+                    <keywords scheme="hgv">
+                        <term n="1">Quittung</term>
+                        <term n="2">Steuer</term>
+                        <term n="3">Geld</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+            <revisionDesc>
+                <change when="2020-09-04T09:57:52-04:00"
+                    who="http://papyri.info/users/james.cowey">Finalized - Ready.</change>
+                <change when="2020-09-04T05:37:33-04:00"
+                    who="http://papyri.info/users/james.cowey">Vote - HGVAccept - Fine</change>
+                <change when="2020-09-04T05:23:13-04:00"
+                    who="http://papyri.info/users/james.cowey">Submit - Entered metadata and text for BASP 53 (2016) 138 Nr. 4</change>
+                <change when="2020-09-03T11:50:10-04:00" who="http://papyri.info/editor">Automated creation from template</change>
+            </revisionDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div type="bibliography" subtype="principalEdition">
+                    <listBibl>
+                        <bibl type="publication" subtype="principal">
+                            <title level="s" type="abbreviated">BASP</title>
+                            <biblScope n="1" unit="volume">53</biblScope>
+                            <biblScope n="2" unit="fascicle">(2016)</biblScope>
+                            <biblScope n="3" unit="pages">S. 138</biblScope>
+                            <biblScope n="4" unit="number">Nr. 4</biblScope>
+                        </bibl>
+                    </listBibl>
+                </div>
+                <div type="figure">
+                    <p>
+                        <figure>
+                            <graphic url="http://hdl.handle.net/10079/digcoll/2757137"/>
+                        </figure>
+                    </p>
+                </div>
+                <div type="bibliography" subtype="illustrations">
+                    <p>
+                        <bibl type="illustration">S. 139</bibl>
+                    </p>
+                </div>
+                <div type="commentary" subtype="mentionedDates">
+                    <list>
+                        <item n="1">
+                            <ref>Z. 2</ref>
+                            <date type="mentioned" when="0024-10-27">
+                                27. Okt. 24
+                                <certainty locus="value" given="#dateAlternativeX" degree="1"/>
+                            </date>
+                        </item>
+                        <item n="2">
+                            <ref>Z. 6</ref>
+                            <date type="mentioned" notBefore="0025-01-26" notAfter="0025-02-24">
+                                26. Jan. 25 - 24. Febr. 25
+                                <certainty locus="value" given="#dateAlternativeX" degree="1"/>
+                            </date>
+                        </item>
+                        <item n="3">
+                            <ref>Z. 7</ref>
+                            <date type="mentioned" when="0025-04-19">
+                                19. Apr. 25
+                                <certainty locus="value" given="#dateAlternativeX" degree="1"/>
+                            </date>
+                        </item>
+                        <item n="4">
+                            <ref>Z. 8</ref>
+                            <date type="mentioned" when="0025-04-30">
+                                30. Apr. 25
+                                <certainty locus="value" given="#dateAlternativeX" degree="1"/>
+                            </date>
+                        </item>
+                        <item n="5">
+                            <ref>Z. 9</ref>
+                            <date type="mentioned" when="0025-06-03">
+                                3. Juni 25
+                                <certainty locus="value" given="#dateAlternativeX" degree="1"/>
+                            </date>
+                        </item>
+                    </list>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI type="DDB_EpiDoc_XML">
+        <teiHeader xml:id="edition4">
+            <fileDesc>
+                <titleStmt>
+                    <title>basp.53.138_4</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename">basp.53.138_4</idno>
+                    <idno type="ddb-hybrid">basp;53;138_4</idno>
+                    <idno type="HGV">703277</idno>
+                    <idno type="TM">703277</idno>
+                    <availability>
+                        <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                                Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>
+                        <bibl>BASP 53 138_4</bibl>
+                    </p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                </langUsage>
+            </profileDesc>
+            <revisionDesc>
+                <change when="2020-09-04T10:16:55-04:00"
+                    who="http://papyri.info/users/james.cowey">Finalized - Ready.</change>
+                <change when="2020-09-04T10:05:17-04:00"
+                    who="http://papyri.info/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+                <change when="2020-09-03T11:50:09-04:00" who="http://papyri.info/editor">Automated creation from template</change>
+            </revisionDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <head xml:lang="en"/>
+                <div xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+    <lb n="1"/>ἔτους <num value="11">ια</num> Tιβερίου Kαίσαρος
+
+    <lb n="2"/>Σεβαστοῦ μηνὸς Ν<supplied reason="lost">έ</supplied>oυ Σεβαστοῦ <num value="30"><hi rend="supraline"><unclear>λ</unclear></hi></num>
+
+    <lb n="3"/><expan>δι<unclear>έ</unclear>γρα<ex>ψεν</ex></expan> Ἡρα<unclear>κλ</unclear>ᾷ  <expan>χ<unclear>ει</unclear><ex>ριστῇ</ex></expan> Ἁρθώτης
+
+    <lb n="4"/>Μαρρ<unclear>ε</unclear><supplied reason="lost">ίο</supplied><unclear>υς</unclear> <expan><unclear>συ</unclear>ντα<ex>ξίμου</ex></expan> τοῦ δεκάτου
+
+    <lb n="5"/>ἔτους <expan>Θεαδελφ<ex>είας</ex></expan> <expan>ἀργ<ex>υρίου</ex></expan> <expan><unclear>ῥ</unclear>υ<ex>παροῦ</ex></expan> <expan><ex>δραχμὰς</ex></expan> <num value="20">εἴκοσι</num>,
+
+    <lb n="6"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="20">κ</num>, Μεχ<unclear>ε</unclear><supplied reason="lost">ὶρ</supplied> <hi rend="supraline"><gap reason="illegible" quantity="1" unit="character"/></hi> <expan><ex>δραχμὰς</ex></expan> <num value="12">δεκαδύο</num>,
+
+    <lb n="7"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="12">ιβ</num>, Φαρμ<unclear>ο</unclear><supplied reason="lost">ῦ</supplied><unclear>θι</unclear> <hi rend="supraline">κδ</hi> <expan><ex>δραχμὰς</ex></expan> <num value="4">τέσσαρας</num>,
+
+    <lb n="8"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>, <num value="30"><hi rend="supraline">λ</hi></num> <expan>μετ<ex>ὰ</ex></expan> <expan>λ<ex>όγον</ex></expan> <num value="8"><hi rend="supraline">η</hi></num> <expan><ex>δραχμὰς</ex></expan> <num value="4">τέσσαρας</num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>,
+
+    <lb n="9"/>Παῦνι <num value="9"><hi rend="supraline">θ</hi></num> <expan><ex>δραχμὰς</ex></expan> <num value="4">τέ<supplied reason="lost">σσ</supplied>αρα<supplied reason="lost">ς</supplied></num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>.
+</ab>
+      </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI type="HGV_trans_EpiDoc">
+        <teiHeader xml:id="translation4">
+            <fileDesc>
+                <titleStmt>
+                    <title>BASP 53 (2016) S. 138 Nr. 4</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename">703277</idno>
+                    <idno type="TM">703277</idno>
+                    <idno type="HGV">703277</idno>
+                    <idno type="ddb-hybrid">basp;53;138_4</idno>
+                    <availability>
+                        <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                            a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>The contents of this document are generated from SOSOL.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                </langUsage>
+            </profileDesc>
+            <revisionDesc>
+                <change when="2020-09-30T09:20:33-04:00" who="http://papyri.info/editor">Automated creation from template</change>
+            </revisionDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div xml:lang="en" xml:space="preserve" type="translation">
+            <p>
+               <milestone n="1" unit="line"/> In the 11th year of Tiberius Caesar Augustus on the 30th of the month of Neos Sebastos, Harthotes son of Marres paid to Heraklas, the collector’s agent, the syntaximon of the tenth year at Theadelphia, twenty silver dr. = 20 dr;
+               <milestone n="6" unit="line"/> on the … of Mecheir, twelve dr. = 12 dr;
+               <milestone n="7" unit="line"/> on the 24th of Pharmouthi, four dr. = 4 dr; 
+               <milestone n="8" unit="line"/> after the accounting on the 30th, on the 8th (i.e. of Pachon) = equals 4 dr.
+               <milestone n="9" unit="line"/> on the 9th of Pauni, four dr. = 4 dr.
+            </p>
+         </div>
             </body>
         </text>
     </TEI>
