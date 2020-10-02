@@ -218,16 +218,14 @@
                 </div>
                 <div subtype="image" type="textpart">
                     <p>
-                        <figure>
-                            <graphic url="https://digi.ub.uni-heidelberg.de/diglit/p_g_1026/0001"/>
-                            <graphic url="https://digi.ub.uni-heidelberg.de/diglit/p_g_1026/0002"/>
-                            <note>1. P. Heid. inv. G 1026. © Institut für Papyrologie, Universität Heidelberg</note>
+                        <figure copyOf="im1">
+                            <figDesc>1. P. Heid. inv. G 1026. © Institut für Papyrologie, Universität Heidelberg</figDesc>
                         </figure>
                     </p>
                 </div>
                 <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") for the purposes of printing only the ../body/div is required -->                    
-                <div copyOf="#edition1"/>
-                <div copyOf="#translation1"/>
+                <div copyOf="#ed1"/>
+                <div copyOf="#trans1"/>
                 <div subtype="commentary" type="textpart">
                     <p n="1">Ἁ̣θὺρ̣  ̣.  From the traces, theta is a possibility for the day’s numeral.</p>
                     <p n="2">εἰς τὴν σύντα̣ξι(ν).  Cf. l. 11. This text adds another clear example of the term σύνταξις used for the poll tax. See Monson (n. 2) 154.</p>
@@ -275,16 +273,14 @@
                 </div>
                 <div subtype="image" type="textpart">
                     <p>
-                        <figure>
-                            <graphic url="https://quod.lib.umich.edu/a/apis/x-8120/1986R.TIF"/>
-                            <!-- possibly figDesc more appropriate -->
-                            <note>2. P. Mich inv. 1986. Image published courtesy of the University of Michigan Papyrology Collection</note>
+                        <figure copyOf="im2">
+                            <figDesc>2. P. Mich inv. 1986. Image published courtesy of the University of Michigan Papyrology Collection</figDesc>
                         </figure>
                     </p>
                 </div>
                 <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") for the purposes of printing only the ../body/div is required -->                    
-                <div copyOf="#edition2"/>
-                <div copyOf="#translation2"/>
+                <div copyOf="#ed2"/>
+                <div copyOf="#trans2"/>
                 <div subtype="commentary" type="textpart">
                     <p n="1">δ(ι)έγρ(αψεν).  Only delta and rho can be clearly distinguished, and the precise transcription is debatable. In any case, Heraklas uses the same abbreviation in his receipts P.Fay. 45 and 3.1 (cf. also 4.3 n.). The abbreviation in P.Mil. 12.9.1 is of similar appearance, though the vertical after the delta lacks the small head of rho evident in the other texts (accordingly, Hagedorn favored the reading of the ed. pr., δι(έγραψεν), over δι(έγρα)ψ(εν) in his review of the volume: Gnomon 40 [1968], 778-781 at 779).</p>
                     <p n="2">Ἰσχῖτος.  A variant of Ἰσχυρίων, which Heraklas began to write in l. 10.</p>
@@ -329,16 +325,14 @@
             </div>
             <div subtype="image" type="textpart">
                 <p>
-                    <figure>
-                        <graphic url="https://quod.lib.umich.edu/a/apis/x-4369/4187R.TIF"/>
-                        <!-- possibly figDesc more appropriate -->
-                        <note>3. P.Mich. inv. 4187. Image published courtesy of the University of Michigan Papyrology Collection</note>
+                    <figure copyOf="#im3">
+                        <figDesc>3. P.Mich. inv. 4187. Image published courtesy of the University of Michigan Papyrology Collection</figDesc>
                     </figure>
                 </p>
             </div>
             <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") for the purposes of printing only the ../body/div is required -->                    
-            <div copyOf="#edition3"/>
-            <div copyOf="#translation3"/>
+            <div copyOf="#ed3"/>
+            <div copyOf="#trans3"/>
             <div subtype="commentary" type="textpart">
                 <p n="1">δ(ι)έγρ(αψεν).  The same abbreviation occurs in text 2.1 (cf. n.) and a similar one in text 4.3.</p>
                 <p n="2">Marsisouchos (Trismegistos.org person ID 248430) was aged 35 in P.Oslo 2 32, a contract dated to Aug. 23, 1 CE. He would be about 45 in this text and thus still subject to the poll tax. See the discussion of the introduction to text 4.</p>
@@ -402,16 +396,14 @@
             </div>
             <div subtype="image" type="textpart">
                 <p>
-                    <figure>
-                        <graphic url="https://findit.library.yale.edu/bookreader/BookReaderDemo/index.html?oid=15513523&amp;page=1#page/1/mode/1up"/>
-                        <!-- possibly figDesc more appropriate -->
-                        <note>4. P.CtYBR inv. 340. Image published courtesy of the Beinecke Rare Book &amp; Manuscript Library</note>
+                    <figure copyOf="#im4">
+                        <figDesc>4. P.CtYBR inv. 340. Image published courtesy of the Beinecke Rare Book &amp; Manuscript Library</figDesc>
                     </figure>
                 </p>
             </div>
             <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") for the purposes of printing only the ../body/div is required -->                    
-            <div copyOf="#edition4"/>
-            <div copyOf="#translation4"/>
+            <div copyOf="#ed4"/>
+            <div copyOf="#trans4"/>
             <div subtype="commentary" type="textpart">
                 <p n="1">λ̣̅. Or possibly α̅. If the latter reading is accepted, the date would be the 1st of Neos Sebastos or 28 September, 24 CE. I have elected the former in comparison with the λ in line 8, as well as reflecting the general trend of payments later in the month in lines 5-8.</p>
                 <p n="3">διέ̣γρα(ψεν). The difficulty of this reading is properly resolving the abbreviation as the first few letters are slurred. In hand, this abbreviation is most similar to that found in texts 2 and 3, where the clearest features are the initial delta and the rho written with a single vertical stroke extending both above and below the line. For a similar abbreviation, see especially O.Petr. 208. The present text, however, more clearly evinces Verschleifung or slurring of the initial letters, with a single ligatured stroke connecting the final stroke of the delta to the horizontal stroke of the gamma. The alpha is followed by a horizontal suspension mark.</p>
@@ -436,12 +428,12 @@
             <div type="textpart" subtype="article">
                 <head>Appendix: Rereading P.Mil. 12.9 (Claytor)</head>
                 <p n="21">The editor of P.Mil. 12.9 gives the following for ll. 2-4 (see Fig. 1 for line 3):
-                    <!-- does seg element seem reasonable here? -->
-                <seg>
-                    <lb n="3"/>… Ἡρακλᾷ τῶι παρὰ
-                    <lb n="3"/>Γαίου Ἰουλίου Ἀλεξ(άνδρου) υἱοῦ Ψω( ) ἀρ(γυρίου) (δραχμὰς) δ καταλαμβ(άνοντι)
-                    <lb n="4"/>ὑπ(ὲρ) συντ(αξίμου) τοῦ α(ὐτοῦ) (ἔτους) Θεαδελφείας.  
-                </seg>
+                    <!-- used quote element -->
+                    <quote>
+                        <lb n="3"/>… Ἡρακλᾷ τῶι παρὰ
+                        <lb n="3"/>Γαίου Ἰουλίου Ἀλεξ(άνδρου) υἱοῦ Ψω( ) ἀρ(γυρίου) (δραχμὰς) δ καταλαμβ(άνοντι)
+                        <lb n="4"/>ὑπ(ὲρ) συντ(αξίμου) τοῦ α(ὐτοῦ) (ἔτους) Θεαδελφείας.  
+                    </quote>
                     Two things are jarring about this reading: the unusual abbreviated name Ψω( ) and the participle καταλαμβάνοντι, which 
                     does not find parallels in tax receipts. On closer inspection of document,
                     <note xml:id="ftn29" n="29">Examined on 1 June, 2015. I thank Prof. Carla Balconi for her hospitality.</note>
@@ -452,15 +444,13 @@
                 <p>
                     <figure>
                         <graphic url=""></graphic>
-                        <!-- possibly figDesc more appropriate -->
-                        <note>Fig. 1. P.Mil. 12.9, line 3. Image published courtesy of the Direzione della Biblioteca di Ateneo dell'Università Cattolica del Sacro Cuore di Milano.</note>
+                        <figDesc>Fig. 1. P.Mil. 12.9, line 3. Image published courtesy of the Direzione della Biblioteca di Ateneo dell'Università Cattolica del Sacro Cuore di Milano.</figDesc>
                     </figure>
                 </p>
                 <p>
                     <figure>
                         <graphic url=""></graphic>
-                        <!-- possibly figDesc more appropriate -->
-                        <note>Fig. 2. Text 3, end of line 3: Συρίωνο(ς) δημ(οσίου) τρα(πεζίτου) Ἀρσι(νοίτου).</note>
+                        <figDesc>Fig. 2. Text 3, end of line 3: Συρίωνο(ς) δημ(οσίου) τρα(πεζίτου) Ἀρσι(νοίτου).</figDesc>
                     </figure>
                 </p>
                 <p n="22">Before this title, we are left with what should be Alexandros’ father’s name, because the reading υἱοῦ is clear. The 
@@ -473,22 +463,19 @@
                 <p>
                     <figure>
                         <graphic url=""></graphic>
-                        <!-- possibly figDesc more appropriate -->
-                        <note>Fig. 3. Text 2, line 3.</note>
+                        <figDesc>Fig. 3. Text 2, line 3.</figDesc>
                     </figure>
                 </p>
                 <p>
                     <figure>
                         <graphic url=""></graphic>
-                        <!-- possibly figDesc more appropriate -->
-                        <note>Fig. 4. Text 2, line 11. The line ends δημ(οσίου); the kappa is raised in abbreviation in the next line’s τριακ(οστοῦ).</note>
+                        <figDesc>Fig. 4. Text 2, line 11. The line ends δημ(οσίου); the kappa is raised in abbreviation in the next line’s τριακ(οστοῦ).</figDesc>
                     </figure>
                 </p>
                 <p>
                     <figure>
                         <graphic url=""></graphic>
-                        <!-- possibly figDesc more appropriate -->
-                        <note>Fig. 5. P.Mil. 12.9, line 3 detail. Image published courtesy of the Direzione della Biblioteca di Ateneo dell'Università Cattolica del Sacro Cuore di Milano.</note>
+                        <figDesc>Fig. 5. P.Mil. 12.9, line 3 detail. Image published courtesy of the Direzione della Biblioteca di Ateneo dell'Università Cattolica del Sacro Cuore di Milano.</figDesc>
                     </figure>
                 </p>
                 <p n="23">The editor’s ἀρ(γυρίου) (δρ.) can be read as αρ( ) or αρα( ), depending 
@@ -688,7 +675,8 @@
             <text>
                 <body>
                     <head xml:lang="en"/>
-                    <div xml:lang="grc" type="edition" xml:space="preserve">
+                    <!-- xml:id to identify what part has to be used, because DCLP files and HGV are different xml:id seems the better way to go -->
+                    <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart"><ab> 
     <lb n="1" rend="indent"/>ἔτους <num value="15">ιε</num> Καίσαρος <unclear>Ἁ</unclear>θὺ<unclear>ρ</unclear> <num><gap reason="illegible" quantity="1" unit="character"/></num>
 
@@ -782,7 +770,7 @@
         </teiHeader>
         <text>
             <body>
-                <div xml:lang="en" xml:space="preserve" type="translation">
+                <div xml:id="trans1" xml:lang="en" xml:space="preserve" type="translation">
             <div n="r" type="textpart">
                <p>
                   <milestone n="1" unit="line"/> In the 15th year of Caesar, on Hathyr ..., he has paid for the syntaxis of Theadelphia: Harthotes 4 silver dr. through N.N.,
@@ -803,6 +791,40 @@
                </p>
             </div>
          </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI type="Image">
+        <teiHeader xml:id="image1">
+            <fileDesc>
+                <titleStmt>
+                    <title></title>
+                </titleStmt>
+                <publicationStmt>
+                    <p></p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <facsimile xml:id="im1">
+            <surfaceGrp n="1">
+                <surface n="recto">
+                    <desc>Recto</desc>
+                    <graphic url="http://papyri.info/images/3d/AP02035a"/>
+                </surface>
+            </surfaceGrp>
+            <surfaceGrp n="2">
+                <surface n="verso">
+                    <desc>Verso</desc>
+                    <graphic url="http://papyri.info/images/ad/AP02036a"/>
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+        <text>
+            <body>
+                <div></div>
             </body>
         </text>
     </TEI>
@@ -1008,7 +1030,7 @@
         <text>
             <body>
                 <head xml:lang="en"/>
-                <div xml:lang="grc" type="edition" xml:space="preserve">
+                <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
 <ab>
     <lb n="1"/><unclear>ἔτους</unclear> <num value="36"><unclear>λϛ</unclear></num> Καίσαρος <expan>Μεχε<ex>ὶρ</ex></expan> <num value="2"><hi rend="supraline">β</hi></num> <expan>δ<ex>ιέ</ex>γρ<ex>αψεν</ex></expan>
 
@@ -1078,7 +1100,7 @@
         </teiHeader>
         <text>
             <body>
-                <div xml:lang="en" xml:space="preserve" type="translation">
+                <div xml:id="trans2" xml:lang="en" xml:space="preserve" type="translation">
             <p>
                <milestone n="1" unit="line"/> In the 36th year of Caesar, on Mecheir 2, Anchorinphis, son of Ischis, paid to Heraklas, the agent of Ptolemaios (?), son of Ara( ) (?), public banker, for the syntaximon of the same year, for Apias, eight silver drachmas = 8 dr,
 	       <milestone n="5" unit="line"/> and on the … of Pharmouthi, twelve dr. = 12 dr.,
@@ -1087,6 +1109,34 @@
                <milestone n="9" rend="break" unit="line"/>Year 37 of Caesar, Phaophi 30. Anchorinphis, son of Ischis, paid to Heraklas, the agent of Psoaramounis, public banker, for the syntaximon of the thirty-sixth year … four silver (?) dr. = 4 dr.
             </p>
          </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI type="Image">
+        <teiHeader xml:id="image2">
+            <fileDesc>
+                <titleStmt>
+                    <title></title>
+                </titleStmt>
+                <publicationStmt>
+                    <p></p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <facsimile xml:id="im2">
+            <surfaceGrp n="1">
+                <surface n="recto">
+                    <desc>Recto</desc>
+                    <graphic url="https://quod.lib.umich.edu/a/apis/x-8120/1986R.TIF"/>
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+        <text>
+            <body>
+                <div></div>
             </body>
         </text>
     </TEI>
@@ -1189,9 +1239,6 @@
                     <listBibl>
                         <bibl type="publication" subtype="principal">
                             <title level="s" type="abbreviated">BASP</title>
-                            <!-- provide meaningful data -->
-                            <!-- provide meaningful data -->
-                            <!-- provide meaningful data -->
                             <biblScope n="1" unit="volume">53</biblScope>
                             <biblScope n="2" unit="fascicle">(2016)</biblScope>
                             <biblScope n="3" unit="pages">S. 133</biblScope>
@@ -1308,7 +1355,7 @@
         <text>
             <body>
                 <head xml:lang="en"/>
-                <div xml:lang="grc" type="edition" xml:space="preserve">
+                <div xml:id="ed3" xml:lang="grc" type="edition" xml:space="preserve">
 <ab>
     <lb n="1"/>ἔτους <num value="40">μ</num> Καίσαρος, <expan>Χοι<ex>ὰκ</ex></expan> <num value="30"><hi rend="supraline">λ</hi></num> <expan>δ<ex>ι</ex>έγρ<ex>αψεν</ex></expan>
 
@@ -1372,7 +1419,7 @@
         </teiHeader>
         <text>
             <body>
-                <div xml:lang="en" xml:space="preserve" type="translation">
+                <div xml:id="trans3" xml:lang="en" xml:space="preserve" type="translation">
             <p>
                <milestone n="1" unit="line"/> In the 40th year of Caesar on the 30th of Choiak, Marsisouchos son of Marres has paid to Heraklas, the agent of Syrion, public banker of the Arsinoite (nome), for the syntaximon of the same year, for Theadelphia, eight silver (drachmas) = 8 dr., 
                <milestone n="5" unit="line"/> and on the 10th of Tybi four dr. = 4 dr.,
@@ -1383,6 +1430,34 @@
                <milestone n="10" unit="line"/> and on the 28th of Epeiph eight dr., ½ obol, 2 chalkoi = 8 dr., ½ obol, 2 chalkoi.
             </p>
          </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI type="Image">
+        <teiHeader xml:id="image3">
+            <fileDesc>
+                <titleStmt>
+                    <title></title>
+                </titleStmt>
+                <publicationStmt>
+                    <p></p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <facsimile xml:id="im3">
+            <surfaceGrp n="1">
+                <surface n="recto">
+                    <desc>Recto</desc>
+                    <graphic url="https://quod.lib.umich.edu/a/apis/x-4369/4187R.TIF"/>
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+        <text>
+            <body>
+                <div></div>
             </body>
         </text>
     </TEI>
@@ -1586,7 +1661,7 @@
         <text>
             <body>
                 <head xml:lang="en"/>
-                <div xml:lang="grc" type="edition" xml:space="preserve">
+                <div xml:id="ed4" xml:lang="grc" type="edition" xml:space="preserve">
 <ab>
     <lb n="1"/>ἔτους <num value="11">ια</num> Tιβερίου Kαίσαρος
 
@@ -1648,7 +1723,7 @@
         </teiHeader>
         <text>
             <body>
-                <div xml:lang="en" xml:space="preserve" type="translation">
+                <div xml:id="trans4" xml:lang="en" xml:space="preserve" type="translation">
             <p>
                <milestone n="1" unit="line"/> In the 11th year of Tiberius Caesar Augustus on the 30th of the month of Neos Sebastos, Harthotes son of Marres paid to Heraklas, the collector’s agent, the syntaximon of the tenth year at Theadelphia, twenty silver dr. = 20 dr;
                <milestone n="6" unit="line"/> on the … of Mecheir, twelve dr. = 12 dr;
@@ -1657,6 +1732,34 @@
                <milestone n="9" unit="line"/> on the 9th of Pauni, four dr. = 4 dr.
             </p>
          </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI type="Image">
+        <teiHeader xml:id="image4">
+            <fileDesc>
+                <titleStmt>
+                    <title></title>
+                </titleStmt>
+                <publicationStmt>
+                    <p></p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <facsimile xml:id="im4">
+            <surfaceGrp n="1">
+                <surface n="recto">
+                    <desc>Recto</desc>
+                    <graphic url="https://findit.library.yale.edu/bookreader/BookReaderDemo/index.html?oid=15513523&amp;page=1#page/1/mode/1up"/>
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+        <text>
+            <body>
+                <div></div>
             </body>
         </text>
     </TEI>
