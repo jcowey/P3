@@ -62,7 +62,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="textpart" subtype="article">
+            <div type="article">
                 <p n="1">The four documents published here bring the total of poll-tax receipts on papyrus to ten from the reigns of Augustus and Tiberius, all from the Arsinoite nome (see Table 1).
                     <note xml:id="ftn1" n="1">The authors wish to thank Rodney Ast and the anonymous reviewers for their thoughtful advice on this article. Claytor is responsible for the introduction, texts 1 and 2, and the Appendix, Warga for text 3, and Smith for 4.</note>
                     This small corpus of papyrus receipts is complemented by the far larger number of contemporary receipts written on ostraka, which stem primarily from Karanis in the Arsinoite nome and Thebes in Upper Egypt. Together they provide a basis for studying one aspect of the transition from Ptolemaic to Roman rule.                    
@@ -185,9 +185,9 @@
                     </row>
                 </table>
             </div>
-            <!-- Div for the text of the first papyrus. Within this div a separate TEI file within the TEI file of the article -->
-            <div type="textpart" n="1">
-                <div subtype="header" type="texpart">
+            <!-- Div for the text of the first papyrus. Within this div a separate TEI file within the TEI file of the article change to edition -->
+            <div type="textEdition" n="1">
+                <div type="header">
                 <table rows="2" cols="3">
                     <head>1. Receipt for syntaxis
                         <note xml:id="ftn10" n="10"> Claytor wishes to thank Andrea Jördens for permission to publish this papyrus and Roger Bagnall for commenting on a draft transcription.</note>
@@ -204,7 +204,7 @@
                     </row>
                 </table>
                 </div>
-                <div subtype="introduction" type="textpart">
+                <div type="introduction">
                     <p n="7">The papyrus is well preserved at the top but becomes increasingly fragmentary towards the bottom. The first eight lines have a generous left margin of 2.25 cm, while the variable right margin is 0.75 cm in ll. 1-3 and 2 cm in ll. 4-5. A space of 1.5-1.75 cm is left at the top. 
                         The receipt is written in at least two hands, whose rather clumsy appearance would be at home among the late Ptolemaic and Augustan receipts on ostraka from Karanis (published in O.Mich. 1-4; see now Monson [n. 3]) and can be compared with hand 1 of the poll-tax receipt BGU 13 2991 (Soknopaiou Nesos, 6-5 BCE) and the tax list BGU 16.2577 (Herakleopolite, 30 BCE-14 CE). The verso contains a notation of uncertain purpose. It is written upside down relative to the recto, 2 cm from the bottom edge of the sheet. Well above this notation are a few characters that have been erased.</p>
                     <p n="8">This receipt records a series of payments for the σύνταξις beginning with a four-drachma installment in Hathyr of Augustus’ 15th year (28 Oct. – 26 Nov., 16 BCE) and continuing, it seems, with installments of four drachmas each month for the rest of the year. This would total 40 dr., the
@@ -216,9 +216,9 @@
                     </p>
                     <p n="9">Judging from the inconsistency of the hands from entry to entry, the text appears to have been drawn up over the course of the year as payments were made each month. A different hand is clearly responsible for the entry beginning in the middle of line 9, where the new scribe felt compelled to write out part of the opening payment formula again. This hand seems to continue through line 12. The following lines look more like the first hand, so I have tentatively marked a change at the beginning of line 13, even though this would be in the middle of an entry.</p>
                 </div>
-                <div subtype="image" type="textpart">
+                <div type="image">
                     <p>
-                        <figure copyOf="im1">
+                        <figure corresp="#im1">
                             <figDesc>1. P. Heid. inv. G 1026. © Institut für Papyrologie, Universität Heidelberg</figDesc>
                         </figure>
                     </p>
@@ -226,8 +226,8 @@
                 <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") for the purposes of printing only the ../body/div is required -->                    
                 <div copyOf="#ed1"/>
                 <div copyOf="#trans1"/>
-                <div subtype="commentary" type="textpart">
-                    <p n="1"><ref target="#l1">1</ref>Ἁ̣θὺρ̣  ̣.  From the traces, theta is a possibility for the day’s numeral.</p>
+                <div type="line_by_line_commentary">
+                    <p n="1"><ref>1</ref>Ἁ̣θὺρ̣  ̣.  From the traces, theta is a possibility for the day’s numeral.</p>
                     <p n="2">εἰς τὴν σύντα̣ξι(ν).  Cf. l. 11. This text adds another clear example of the term σύνταξις used for the poll tax. See Monson (n. 2) 154.</p>
                     <p n="3">Ἁρτ̣ώδης ἀρ(γυρίου) (δρ.) δ.  The word after the name is abbreviated with what looks to be a raised haken alpha, although here it should be interpreted as an analphabetic abbreviation mark.
                         <note xml:id="ftn13" n="13"></note>
@@ -246,8 +246,8 @@
             </div>
             
             <!-- Div for the text of the second papyrus. Within this div a separate TEI file within the TEI file of the article -->
-            <div type="textpart" n="2">
-                <div subtype="header" type="texpart">
+            <div type="textEdition" n="2">
+                <div type="header">
                     <table rows="2" cols="3">
                         <head>2. Receipt for syntaximon</head>
                         <row role="label">
@@ -262,7 +262,7 @@
                         </row>
                     </table>
                 </div>
-                <div subtype="introduction" type="textpart">
+                <div type="introduction">
                     <p n="10">Medium-brown papyrus with a clear kollesis extending 4 cm from the left edge of the sheet. The papyrus has sustained damage along horizontal fold lines, particularly at the bottom, which is partially broken away. The generous margins measure 3 cm on top, 2-2.5 cm on the left, and 5.75 cm on the bottom. A variable right margin of about 1 cm was originally present, but is now damaged. 
                         The same hand is found in other tax receipts issued by the same collector (see l. 2 n.). The back is blank save for a trace of ink in the top-left corner. It is unclear if this is stray ink or was originally a short notation of some sort. </p>
                     <p n="11">This sheet contains two poll-tax receipts issued to Anchorinphis, son of Ischis, by Heraklas, an agent of a public banker in the Arsinoite nome. The first receipt records Anchorinphis’ payment of 40 drachmas over the course of Augustus’ 36th year, leaving 4 dr. in arrears, while the second records payment of the balance in the next year.
@@ -271,7 +271,7 @@
                     </p>
                     <p n="12">Lines 3 and 11 inform us that Heraklas was the agent (ὁ παρά) of a public banker with an abbreviated name discussed in the Appendix. Regardless of the exact reading, this same name is found in P.Mil. 12.9 (13/14 CE), another receipt written by Heraklas, where it serves as the patronymic of C. Iulius Alexandros, the public banker on whose behalf Heraklas was working in that text (see Appendix). As discussed in the introduction, family influence could play a role in landing a position at the state bank.</p>
                 </div>
-                <div subtype="image" type="textpart">
+                <div type="image">
                     <p>
                         <figure copyOf="im2">
                             <figDesc>2. P. Mich inv. 1986. Image published courtesy of the University of Michigan Papyrology Collection</figDesc>
@@ -281,7 +281,7 @@
                 <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") for the purposes of printing only the ../body/div is required -->                    
                 <div copyOf="#ed2"/>
                 <div copyOf="#trans2"/>
-                <div subtype="commentary" type="textpart">
+                <div type="commentary">
                     <p n="1">δ(ι)έγρ(αψεν).  Only delta and rho can be clearly distinguished, and the precise transcription is debatable. In any case, Heraklas uses the same abbreviation in his receipts P.Fay. 45 and 3.1 (cf. also 4.3 n.). The abbreviation in P.Mil. 12.9.1 is of similar appearance, though the vertical after the delta lacks the small head of rho evident in the other texts (accordingly, Hagedorn favored the reading of the ed. pr., δι(έγραψεν), over δι(έγρα)ψ(εν) in his review of the volume: Gnomon 40 [1968], 778-781 at 779).</p>
                     <p n="2">Ἰσχῖτος.  A variant of Ἰσχυρίων, which Heraklas began to write in l. 10.</p>
                     <p n="2">Ἡρακ(λᾷ). Found also in P.Fay. 45 (10-11 CE), 3 (10-11 CE), and P.Mil. 12.9 (13-14 CE), all poll-tax receipts from Theadelphia written in the same hand as the present papyrus. 4 is also issued by a Heraklas (there called χειριστής) and the hand closely resembles the earlier group of receipts. If this Heraklas is indeed the same man, his activity extends until 24/25 CE.</p>
@@ -296,9 +296,9 @@
             </div>
             
             <!-- Div for the text of the third papyrus. Within this div a separate TEI file within the TEI file of the article -->
-            <div type="textpart" n="3">
-		<head>3-4. Poll Tax Receipts from the Harthotes Archive</head>
-                <div subtype="header" type="texpart">
+            <div type="textEdition" n="3">
+                <head>3-4. Poll Tax Receipts from the Harthotes Archive</head>
+                <div type="header">
                     <table rows="2" cols="3">
                         <head>3. Receipt for syntaximon</head>
                         <row role="label">
@@ -313,7 +313,7 @@
                         </row>
                     </table>
                 </div>
-                <div subtype="introduction" type="textpart">
+                <div type="introduction">
                     <p n="13">All four margins of this light brown papyrus are extant, with the top being very large (4.8 cm), the bottom even larger (14.5 cm), the left approximately 3.0 cm, and the right variable, in the case of line 2 extending to the very edge. The first line, as usual, extends a little to the left with the epsilon of ἔτους enlarged. There appear to be three vertical fold lines which do not seem to have been made sequentially from left to right. Perhaps the central fold was made first and then the papyrus was folded again. Numerous horizontal folds indicate the papyrus was tightly folded up for safekeeping. There is considerable damage on the left side about the middle of the papyrus, but it does not result in any loss of text. The writing runs with the fibers and the back is blank.</p>
                     <p n="14">This document is a receipt for syntaximon issued to Marsisouchos, son of Marres, from the village of Theadelphia, for the year 10-11 CE. Marsisouchos, a public farmer, is the brother of Harthotes and this is a new document stemming from the Harthotes archive.
                         <note xml:id="ftn16" n="16">19 The archive itself extends over an 80 year period beginning in 20/19 BCE, and documents Harthotes, his brother Marsisouchos, and their descendants in a variety of contracts, petitions, and receipts. For a fuller treatment of this archive, see the contribution of Claytor, Litinas, and Nabney in this issue.</note>
@@ -324,7 +324,7 @@
                 </div>
                
             </div>
-            <div subtype="image" type="textpart">
+            <div type="image">
                 <p>
                     <figure copyOf="#im3">
                         <figDesc>3. P.Mich. inv. 4187. Image published courtesy of the University of Michigan Papyrology Collection</figDesc>
@@ -334,7 +334,7 @@
             <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") for the purposes of printing only the ../body/div is required -->                    
             <div copyOf="#ed3"/>
             <div copyOf="#trans3"/>
-            <div subtype="commentary" type="textpart">
+            <div type="commentary">
                 <p n="1">δ(ι)έγρ(αψεν).  The same abbreviation occurs in text 2.1 (cf. n.) and a similar one in text 4.3.</p>
                 <p n="2">Marsisouchos (Trismegistos.org person ID 248430) was aged 35 in P.Oslo 2 32, a contract dated to Aug. 23, 1 CE. He would be about 45 in this text and thus still subject to the poll tax. See the discussion of the introduction to text 4.</p>
                 <p n="3">Συρίωνο(ς).  The sigma looks more like an epsilon, but that of Μαρρείους in line 2, as well as that of Ἀρσι(νοίτου), is made the same way. For the function of Syrion as a public banker, see the discussion in the introduction.</p>
@@ -346,8 +346,8 @@
             </div>
             
             <!-- Div for the text of the fourth papyrus. Within this div a separate TEI file within the TEI file of the article -->
-            <div type="textpart" n="4">
-                <div subtype="header" type="texpart">
+            <div type="textEdition" n="4">
+                <div type="header">
                     <table rows="2" cols="3">
                         <head>4. Receipt for syntaximon</head>
                         <row role="label">
@@ -363,7 +363,7 @@
                     </table>
                 </div>
             </div>
-            <div subtype="introduction" type="textpart">
+            <div type="introduction">
                 <p n="16">The light brown papyrus contains nine lines of Greek written with the fibers (→) in black ink. The lines are written in a fairly quick cursive hand, rising slightly to the right. The left margin is a full 2 cm at line 1, but by line 9 has become 0.8 cm. The topmost margin is 2.4 cm while the bottom margin is 3.1 cm before the papyrus breaks off. The right margin varies between no margin whatsoever (as in line 4 where the curve of the upsilon goes right to the edge) and a 1.7 cm margin in line 9. 
                     The papyrus itself appears to have been folded twice vertically at one time and these two fold lines accounts for the weakening and most of the damage to the papyrus, which involves several holes of irregular sizes mostly in the middle of the papyrus.
                     <note xml:id="ftn18" n="18">Ann Hanson, noting the odd fold lines, suggested that perhaps the papyrus was at one time draped over a bar, perhaps to dry. A vertical fiber to the right of the center fold extends the entire length of the papyrus, sometimes creating the illusion of ink especially in lines 6, 8, and 9. </note>
@@ -395,7 +395,7 @@
                     Yet this system of verification only would have helped to guard against fraud by the taxpayer. There would have been no incentive for a collector to remove a taxpayer from liability and to place him in the category of ὑπερετής without the taxpayer submitting a request to that effect. Without such awareness and notification, a taxpayer like Harthotes might have continued to pay the poll-tax until well into his sixties.
                 </p>
             </div>
-            <div subtype="image" type="textpart">
+            <div type="image">
                 <p>
                     <figure copyOf="#im4">
                         <figDesc>4. P.CtYBR inv. 340. Image published courtesy of the Beinecke Rare Book &amp; Manuscript Library</figDesc>
@@ -405,7 +405,7 @@
             <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") for the purposes of printing only the ../body/div is required -->                    
             <div copyOf="#ed4"/>
             <div copyOf="#trans4"/>
-            <div subtype="commentary" type="textpart">
+            <div type="commentary">
                 <p n="1">λ̣̅. Or possibly α̅. If the latter reading is accepted, the date would be the 1st of Neos Sebastos or 28 September, 24 CE. I have elected the former in comparison with the λ in line 8, as well as reflecting the general trend of payments later in the month in lines 5-8.</p>
                 <p n="3">διέ̣γρα(ψεν). The difficulty of this reading is properly resolving the abbreviation as the first few letters are slurred. In hand, this abbreviation is most similar to that found in texts 2 and 3, where the clearest features are the initial delta and the rho written with a single vertical stroke extending both above and below the line. For a similar abbreviation, see especially O.Petr. 208. The present text, however, more clearly evinces Verschleifung or slurring of the initial letters, with a single ligatured stroke connecting the final stroke of the delta to the horizontal stroke of the gamma. The alpha is followed by a horizontal suspension mark.</p>
                 <p n="3">Ἡρακ̣λ̣ᾷ̣. Perhaps the same Heraklas as in texts 2 and 3 and known from P.Mil. 12.9 and P.Fay. 45.
@@ -426,7 +426,7 @@
             </div>
             
             <!-- Return to the paragraphs of the article in an appendix -->
-            <div type="textpart" subtype="article">
+            <div type="article">
                 <head>Appendix: Rereading P.Mil. 12.9 (Claytor)</head>
                 <p n="21">The editor of P.Mil. 12.9 gives the following for ll. 2-4 (see Fig. 1 for line 3):
                     <!-- used quote element -->
@@ -672,6 +672,20 @@
                     <change when="2020-09-01T11:34:01-04:00" who="http://papyri.info/editor">Automated creation from template</change>
                 </revisionDesc>
             </teiHeader>
+        <facsimile xml:id="im1">
+            <surfaceGrp n="1">
+                <surface n="recto">
+                    <desc>Recto</desc>
+                    <graphic url="http://papyri.info/images/3d/AP02035a"/>
+                </surface>
+            </surfaceGrp>
+            <surfaceGrp n="2">
+                <surface n="verso">
+                    <desc>Verso</desc>
+                    <graphic url="http://papyri.info/images/ad/AP02036a"/>
+                </surface>
+            </surfaceGrp>
+        </facsimile>
             <text>
                 <body>
                     <head xml:lang="en"/>
@@ -791,40 +805,6 @@
                </p>
             </div>
          </div>
-            </body>
-        </text>
-    </TEI>
-    <TEI type="Image">
-        <teiHeader xml:id="image1">
-            <fileDesc>
-                <titleStmt>
-                    <title></title>
-                </titleStmt>
-                <publicationStmt>
-                    <p></p>
-                </publicationStmt>
-                <sourceDesc>
-                    <p/>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <facsimile xml:id="im1">
-            <surfaceGrp n="1">
-                <surface n="recto">
-                    <desc>Recto</desc>
-                    <graphic url="http://papyri.info/images/3d/AP02035a"/>
-                </surface>
-            </surfaceGrp>
-            <surfaceGrp n="2">
-                <surface n="verso">
-                    <desc>Verso</desc>
-                    <graphic url="http://papyri.info/images/ad/AP02036a"/>
-                </surface>
-            </surfaceGrp>
-        </facsimile>
-        <text>
-            <body>
-                <div></div>
             </body>
         </text>
     </TEI>
@@ -1027,6 +1007,14 @@
                 <change when="2020-09-02T09:58:11-04:00" who="http://papyri.info/editor">Automated creation from template</change>
             </revisionDesc>
         </teiHeader>
+        <facsimile xml:id="im2">
+            <surfaceGrp n="1">
+                <surface n="recto">
+                    <desc>Recto</desc>
+                    <graphic url="https://quod.lib.umich.edu/a/apis/x-8120/1986R.TIF"/>
+                </surface>
+            </surfaceGrp>
+        </facsimile>
         <text>
             <body>
                 <head xml:lang="en"/>
@@ -1109,34 +1097,6 @@
                <milestone n="9" rend="break" unit="line"/>Year 37 of Caesar, Phaophi 30. Anchorinphis, son of Ischis, paid to Heraklas, the agent of Psoaramounis, public banker, for the syntaximon of the thirty-sixth year … four silver (?) dr. = 4 dr.
             </p>
          </div>
-            </body>
-        </text>
-    </TEI>
-    <TEI type="Image">
-        <teiHeader xml:id="image2">
-            <fileDesc>
-                <titleStmt>
-                    <title></title>
-                </titleStmt>
-                <publicationStmt>
-                    <p></p>
-                </publicationStmt>
-                <sourceDesc>
-                    <p/>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <facsimile xml:id="im2">
-            <surfaceGrp n="1">
-                <surface n="recto">
-                    <desc>Recto</desc>
-                    <graphic url="https://quod.lib.umich.edu/a/apis/x-8120/1986R.TIF"/>
-                </surface>
-            </surfaceGrp>
-        </facsimile>
-        <text>
-            <body>
-                <div></div>
             </body>
         </text>
     </TEI>
@@ -1352,6 +1312,14 @@
                 <change when="2020-09-03T10:32:44-04:00" who="http://papyri.info/editor">Automated creation from template</change>
             </revisionDesc>
         </teiHeader>
+        <facsimile xml:id="im3">
+            <surfaceGrp n="1">
+                <surface n="recto">
+                    <desc>Recto</desc>
+                    <graphic url="https://quod.lib.umich.edu/a/apis/x-4369/4187R.TIF"/>
+                </surface>
+            </surfaceGrp>
+        </facsimile>
         <text>
             <body>
                 <head xml:lang="en"/>
@@ -1430,34 +1398,6 @@
                <milestone n="10" unit="line"/> and on the 28th of Epeiph eight dr., ½ obol, 2 chalkoi = 8 dr., ½ obol, 2 chalkoi.
             </p>
          </div>
-            </body>
-        </text>
-    </TEI>
-    <TEI type="Image">
-        <teiHeader xml:id="image3">
-            <fileDesc>
-                <titleStmt>
-                    <title></title>
-                </titleStmt>
-                <publicationStmt>
-                    <p></p>
-                </publicationStmt>
-                <sourceDesc>
-                    <p/>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <facsimile xml:id="im3">
-            <surfaceGrp n="1">
-                <surface n="recto">
-                    <desc>Recto</desc>
-                    <graphic url="https://quod.lib.umich.edu/a/apis/x-4369/4187R.TIF"/>
-                </surface>
-            </surfaceGrp>
-        </facsimile>
-        <text>
-            <body>
-                <div></div>
             </body>
         </text>
     </TEI>
@@ -1658,6 +1598,14 @@
                 <change when="2020-09-03T11:50:09-04:00" who="http://papyri.info/editor">Automated creation from template</change>
             </revisionDesc>
         </teiHeader>
+        <facsimile xml:id="im4">
+            <surfaceGrp n="1">
+                <surface n="recto">
+                    <desc>Recto</desc>
+                    <graphic url="https://findit.library.yale.edu/bookreader/BookReaderDemo/index.html?oid=15513523&amp;page=1#page/1/mode/1up"/>
+                </surface>
+            </surfaceGrp>
+        </facsimile>
         <text>
             <body>
                 <head xml:lang="en"/>
@@ -1732,34 +1680,6 @@
                <milestone n="9" unit="line"/> on the 9th of Pauni, four dr. = 4 dr.
             </p>
          </div>
-            </body>
-        </text>
-    </TEI>
-    <TEI type="Image">
-        <teiHeader xml:id="image4">
-            <fileDesc>
-                <titleStmt>
-                    <title></title>
-                </titleStmt>
-                <publicationStmt>
-                    <p></p>
-                </publicationStmt>
-                <sourceDesc>
-                    <p/>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <facsimile xml:id="im4">
-            <surfaceGrp n="1">
-                <surface n="recto">
-                    <desc>Recto</desc>
-                    <graphic url="https://findit.library.yale.edu/bookreader/BookReaderDemo/index.html?oid=15513523&amp;page=1#page/1/mode/1up"/>
-                </surface>
-            </surfaceGrp>
-        </facsimile>
-        <text>
-            <body>
-                <div></div>
             </body>
         </text>
     </TEI>
