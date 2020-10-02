@@ -205,6 +205,7 @@
                 </table>
                 </div>
                 <div type="introduction">
+                    <!-- These <p> elements continue those of the flow of the article -->
                     <p n="7">The papyrus is well preserved at the top but becomes increasingly fragmentary towards the bottom. The first eight lines have a generous left margin of 2.25 cm, while the variable right margin is 0.75 cm in ll. 1-3 and 2 cm in ll. 4-5. A space of 1.5-1.75 cm is left at the top. 
                         The receipt is written in at least two hands, whose rather clumsy appearance would be at home among the late Ptolemaic and Augustan receipts on ostraka from Karanis (published in O.Mich. 1-4; see now Monson [n. 3]) and can be compared with hand 1 of the poll-tax receipt BGU 13 2991 (Soknopaiou Nesos, 6-5 BCE) and the tax list BGU 16.2577 (Herakleopolite, 30 BCE-14 CE). The verso contains a notation of uncertain purpose. It is written upside down relative to the recto, 2 cm from the bottom edge of the sheet. Well above this notation are a few characters that have been erased.</p>
                     <p n="8">This receipt records a series of payments for the σύνταξις beginning with a four-drachma installment in Hathyr of Augustus’ 15th year (28 Oct. – 26 Nov., 16 BCE) and continuing, it seems, with installments of four drachmas each month for the rest of the year. This would total 40 dr., the
@@ -227,6 +228,7 @@
                 <div copyOf="#ed1"/>
                 <div copyOf="#trans1"/>
                 <div type="line_by_line_commentary">
+                    <!-- These <p> elements refer to the lines of the Greek text on which the commentary is written -->
                     <p n="1"><ref>1</ref>Ἁ̣θὺρ̣  ̣.  From the traces, theta is a possibility for the day’s numeral.</p>
                     <p n="2">εἰς τὴν σύντα̣ξι(ν).  Cf. l. 11. This text adds another clear example of the term σύνταξις used for the poll tax. See Monson (n. 2) 154.</p>
                     <p n="3">Ἁρτ̣ώδης ἀρ(γυρίου) (δρ.) δ.  The word after the name is abbreviated with what looks to be a raised haken alpha, although here it should be interpreted as an analphabetic abbreviation mark.
@@ -281,7 +283,7 @@
                 <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") for the purposes of printing only the ../body/div is required -->                    
                 <div copyOf="#ed2"/>
                 <div copyOf="#trans2"/>
-                <div type="commentary">
+                <div type="line_by_line_commentary">
                     <p n="1">δ(ι)έγρ(αψεν).  Only delta and rho can be clearly distinguished, and the precise transcription is debatable. In any case, Heraklas uses the same abbreviation in his receipts P.Fay. 45 and 3.1 (cf. also 4.3 n.). The abbreviation in P.Mil. 12.9.1 is of similar appearance, though the vertical after the delta lacks the small head of rho evident in the other texts (accordingly, Hagedorn favored the reading of the ed. pr., δι(έγραψεν), over δι(έγρα)ψ(εν) in his review of the volume: Gnomon 40 [1968], 778-781 at 779).</p>
                     <p n="2">Ἰσχῖτος.  A variant of Ἰσχυρίων, which Heraklas began to write in l. 10.</p>
                     <p n="2">Ἡρακ(λᾷ). Found also in P.Fay. 45 (10-11 CE), 3 (10-11 CE), and P.Mil. 12.9 (13-14 CE), all poll-tax receipts from Theadelphia written in the same hand as the present papyrus. 4 is also issued by a Heraklas (there called χειριστής) and the hand closely resembles the earlier group of receipts. If this Heraklas is indeed the same man, his activity extends until 24/25 CE.</p>
@@ -334,7 +336,7 @@
             <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") for the purposes of printing only the ../body/div is required -->                    
             <div copyOf="#ed3"/>
             <div copyOf="#trans3"/>
-            <div type="commentary">
+            <div type="line_by_line_commentary">
                 <p n="1">δ(ι)έγρ(αψεν).  The same abbreviation occurs in text 2.1 (cf. n.) and a similar one in text 4.3.</p>
                 <p n="2">Marsisouchos (Trismegistos.org person ID 248430) was aged 35 in P.Oslo 2 32, a contract dated to Aug. 23, 1 CE. He would be about 45 in this text and thus still subject to the poll tax. See the discussion of the introduction to text 4.</p>
                 <p n="3">Συρίωνο(ς).  The sigma looks more like an epsilon, but that of Μαρρείους in line 2, as well as that of Ἀρσι(νοίτου), is made the same way. For the function of Syrion as a public banker, see the discussion in the introduction.</p>
@@ -405,7 +407,7 @@
             <!-- Points to the edition div of the EpiDoc (which has @xml:id="edition") for the purposes of printing only the ../body/div is required -->                    
             <div copyOf="#ed4"/>
             <div copyOf="#trans4"/>
-            <div type="commentary">
+            <div type="line_by_line_commentary">
                 <p n="1">λ̣̅. Or possibly α̅. If the latter reading is accepted, the date would be the 1st of Neos Sebastos or 28 September, 24 CE. I have elected the former in comparison with the λ in line 8, as well as reflecting the general trend of payments later in the month in lines 5-8.</p>
                 <p n="3">διέ̣γρα(ψεν). The difficulty of this reading is properly resolving the abbreviation as the first few letters are slurred. In hand, this abbreviation is most similar to that found in texts 2 and 3, where the clearest features are the initial delta and the rho written with a single vertical stroke extending both above and below the line. For a similar abbreviation, see especially O.Petr. 208. The present text, however, more clearly evinces Verschleifung or slurring of the initial letters, with a single ligatured stroke connecting the final stroke of the delta to the horizontal stroke of the gamma. The alpha is followed by a horizontal suspension mark.</p>
                 <p n="3">Ἡρακ̣λ̣ᾷ̣. Perhaps the same Heraklas as in texts 2 and 3 and known from P.Mil. 12.9 and P.Fay. 45.
