@@ -297,6 +297,7 @@
             
             <!-- Div for the text of the third papyrus. Within this div a separate TEI file within the TEI file of the article -->
             <div type="textpart" n="3">
+		<head>3-4. Poll Tax Receipts from the Harthotes Archive</head>
                 <div subtype="header" type="texpart">
                     <table rows="2" cols="3">
                         <head>3. Receipt for syntaximon</head>
