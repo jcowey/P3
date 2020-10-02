@@ -511,7 +511,7 @@
             </div>
         </body>
     </text>
-    
+    <!-- This the the END of the ARTICLE ITSELF -->
     <!-- The EpiDoc documents. We could potentially do some fooling around with namespaces to have it validate against EpiDoc and the outer article 
        against something else. -->
     
