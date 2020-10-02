@@ -538,8 +538,6 @@
                     <title>Receipt for syntaxis</title>
                 </titleStmt>
                 <publicationStmt>
-                    <!-- Had to introduce ab tag to allow validation, this is not what we have in HGV_meta_EpiDoc, see above "fooling around with namespaces to have it validate against EpiDoc and the outer article 
-       against something else" -->
                     <authority>Papyrological Publication Platform (P3)</authority>
                     <idno type="filename">703274</idno>
                     <idno type="TM">703274</idno>
