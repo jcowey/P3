@@ -10,6 +10,7 @@ for
 https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.116.xml#L78
 
 and
+
 `<app type="editorial"><lem resp="W.G. Claytor, TM Arch 663 (Version 1, 2021) 1"><supplied reason="lost">Σαβεῖνο</supplied>ς</lem><rdg><gap reason="lost" quantity="6" unit="character"/>ς</rdg></app>` 
 
 for
