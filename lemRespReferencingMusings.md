@@ -6,18 +6,20 @@ In it there were corrections made to the text:
 `<app type="editorial"><lem resp="W.G. Claytor, TM Arch 663 (Version 1, 2021) 1"><supplied reason="lost">Σαβείνου</supplied></lem><rdg><gap reason="lost" quantity="6" unit="character"/></rdg></app>` 
 
 for
+
 https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.116.xml#L78
 
 and
 `<app type="editorial"><lem resp="W.G. Claytor, TM Arch 663 (Version 1, 2021) 1"><supplied reason="lost">Σαβεῖνο</supplied>ς</lem><rdg><gap reason="lost" quantity="6" unit="character"/>ς</rdg></app>` 
+
 for
+
 https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.116.xml#L124
 
 The element
 `<lem resp="W.G. Claytor, TM Arch 663 (Version 1, 2021) 1">` 
 is not so good on two levels
- * TM Arch 663 (Version 1, 2021) 1 
-   * is relatively arcane
+ * `TM Arch 663 (Version 1, 2021) 1` is relatively arcane
  * there is no link to https://www.trismegistos.org/arch/archives/pdf/663.pdf
  
 Seeing the name of the person correcting is however good.
