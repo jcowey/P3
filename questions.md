@@ -13,6 +13,6 @@ What do we want to be able to reference / provide a link for?
    * https://github.com/hcayless/P3-processing/blob/main/articles/ClaytorSmithWarga_FourPoll_TaxReceiptsTrial-2.xml#L164-L225
    * or at the least to
      * https://github.com/hcayless/P3-processing/blob/main/articles/ClaytorSmithWarga_FourPoll_TaxReceiptsTrial-2.xml#L164-L165
- * line commentaries (this could be done by the `ref tag, but the path is not clear)
+ * line commentaries (this could be done by the `ref` tag, but the path is not clear)
  * each translation
  * each correction to an edited text
