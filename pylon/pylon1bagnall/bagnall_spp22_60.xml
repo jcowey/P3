@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SPP 22.60 Revisited</title>
+            <author>
+               <name>
+                  <forename>Roger S.</forename>
+                  <surname>Bagnall</surname>
+               </name>
+               <affiliation>ISAW, New York</affiliation>
+               <email>rsb331@nyu.edu</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2021-04-13</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2021-05-04T20:14:55Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">SPP 22.60 Revisited</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1">This beginning of a request for anakrisis<note place="foot" xml:id="ftn2" n="1"><p> So <ref target="http://papyri.info/biblio/40562">Lewald 1952</ref>: 436-437, cited approvingly by <ref target="http://papyri.info/biblio/18348">Straus 2004</ref>: 10, although with some hesitation on the basis of l. 14. </p></note> came to my attention in the course of looking critically at the reported ages at the time of sale for male slaves in Roman Egypt. The data from the census declarations shows that no male slaves over the age of 32 are reported, and one over the age of 30. It therefore seems likely that all men were manumitted by around 30, unlike women, who often remained in servitude until the end of their childbearing years.<note place="foot" xml:id="ftn3" n="2"><p> <ref target="http://papyri.info/biblio/13437">Bagnall and Frier 1994</ref>: 71, 158. </p></note> The table of ages of slaves at the time of sale in (<ref target="http://papyri.info/biblio/18348">Straus 2004: 264</ref>), however, lists four supposed male slaves at higher ages, namely 40, 50, and 51 (?). The first two are suspiciously round numbers, but the reading of the age 40 in <ref target="http://papyri.info/ddbdp/p.oxy;1;94">P.Oxy. 1 94.9 = M.Chr. 344</ref>, in the “fine semi-uncial hand” mentioned by Grenfell and Hunt, is not doubtful.<note place="foot" xml:id="ftn4" n="3"><p> See <ref target="http://www.bl.uk/manuscripts/Viewer.aspx?ref=papyrus_763_f001r">http://www.bl.uk/manuscripts/Viewer.aspx?ref=papyrus_763_f001r</ref> for an image. </p></note> On the other hand, the other slave included in that papyrus is said to be 30, which only increases one’s suspicions about accuracy. The same is true of <ref target="http://papyri.info/ddbdp/p.thmouis;1;1">P.Thmouis 1 113.18</ref>, the 50-year-old slave, another round number but unimpeachable reading.<note place="foot" xml:id="ftn5" n="4"><p> See <ref target="http://www.psi-online.it/images/orig/PSI%20I%20107.jpg?1184955346">http://www.psi-online.it/images/orig/PSI%20I%20107.jpg</ref> for an image.</p></note> The reading in the case of the last of these, however, is far from secure. </p>
+            <p xml:id="p2">This was published by Carl Wessely in SPP 22, and dated to the second-third century. Apart from one minor note rejecting Wessely’s correction of [ὠ]νουμένη in l. 7 (BL 3.238, Lewald), no critical attention was paid to it until P. J. Sijpesteijn devoted a few lines of a brief note on “Nachlese zu Wiener Texten” to it (<ref target="HYPERLINK">Sijpesteijn 1983</ref>: 134; BL 8.483), providing a corrected text of ll. 8-10, with small corrections to ll. 1 and 13-14. He did not, however, call into question the supposed age 51 in l. 13. Both digits are dotted in Wessely’s text, however, and it seemed worth checking the correctness of this reading. In the process, a few other points proved to need correcting.</p>
+            <div type="epidoc" subtype="DDB">
+               <div copyOf="#ed1" xml:lang="grc" type="edition" xml:space="preserve"/>
+               <div type="commentary">
+                  <p xml:id="p3"><ref>1</ref> [Π̣]αμμένει ed.pr., Παμένει Sijpesteijn, BL 8.483. It is true that the first mu is lacking one hump, but there is too much for Sijpesteijn’s reading to be correct; στρS Ἀθριβ/.</p>
+                  <p xml:id="p4"><ref>7</ref> [ὠ]νουμένη l. [ὠ]νουμένης ed.pr.; [ὠ]νουμένη Lewald. </p>
+                  <p xml:id="p5"><ref>9-10</ref> Διοσοροῦ[τ]ος Ποταμ|μωτος ed. pr.; Διοσκόρου τοῦ Ποτάμ|μωνος Sijpesteijn </p>
+                  <p xml:id="p6"><ref>11-12</ref> Χρηστ[ὸν] | [τὸν καὶ] ed. pr. This is implausible; it requires too much lost to be at left in l. 12, and τὸν καὶ ἐπικεκλημένον is an idiom never found in the papyri (the one apparent example, in <ref target="http://papyri.info/ddbdp/p.fam.tebt;;25">P.Fam.Tebt. 25.5-6</ref>, is restored). The name that stands, or most likely only begins, at the end of l. 11 has undergone correction. The initial kappa is corrected, but not from Wessely’s chi; the traces look more like gamma or pi. Wessely’s eta is rather the diphthong ει. After that, it seems that a descending letter was written, then written over with a sigma. </p>
+                  <p xml:id="p7"><ref>12-13</ref> ̣]ο|[. ]ι̣ειδην ed. pr.; Ἠ̣ρ̣α̣|[κ]λείδην Sijpesteijn.</p>
+                  <p xml:id="p8"><ref>13</ref> λ̣   ̣ ̣: ν̣α̣ ed. pr. The alpha is most implausible, and the first letter has a diagonal stroke coming up from the lower left. Lambda seems far more likely than nu, although it does not seem impossible to me that an eta was written.  </p>
+                  <p xml:id="p9"><ref>14</ref> [ὃς ὑπ]ουργεῖ μύλῃ ο (l. ὃν) [ἔ]σχο̣ν̣[  ̣  ̣] ed. pr. The form μύλη is absent from the papyri, and we do not want an expression of this kind in the description of a slave. I owe οὐλὴν̣ ἔχοντα to Rodney Ast. Usually we find the simple οὐλή, but <ref target="http://papyri.info/ddbdp/p.oxy;69;4750">P.Oxy. 69 4750.10-11</ref> offers a rare parallel: οὐλὴν ἔχο̣ν̣&lt;τα&gt; ἐπ&lt;ὶ&gt; τ̣ο̣ῦ δεξιοῦ ποτός (l. ποδός); there is another (for a woman) in <ref target="http://papyri.info/ddbdp/chr.mitt;;171">M.Chr. 171.12</ref>. What precedes this phrase should be an adjective describing the slave. It has certainly undergone correction. </p>
+               </div>
+               <div type="bibliography">
+                  <listBibl>
+                     <bibl>Bagnall, R. S. and Frier, B. W. (1994) The Demography of Roman Egypt. Cambridge. (<ref target="http://papyri.info/biblio/13437">http://papyri.info/biblio/13437</ref>, <ref target="https://hdl.handle.net/2027/heb.02277">https://hdl.handle.net/2027/heb.02277</ref>)</bibl>
+                     <bibl>Lewald, H. (1952) “Eine Synchoresis aus der Zeit des Commodus: Papyrus Rainer G. 25817,” in Studi in onore di Vincenzo Arangio-Ruiz nel XLV anno del suo insegnamento, vol. 3: 429-438. Naples. (<ref target="http://papyri.info/biblio/40562">http://papyri.info/biblio/40562</ref>)</bibl>
+                     <bibl>Sijpesteijn, P. J. (1983) “Nachlese zu Wiener Texten,” ZPE 50: 133-134. (<ref target="http://papyri.info/biblio/56075">http://papyri.info/biblio/56075</ref>, <ref target="https://www.jstor.org/stable/20183765">https://www.jstor.org/stable/20183765</ref>)</bibl>
+                     <bibl>Straus, J. (2004) L’achat et la vente des esclaves dans l’Égypte romaine. Contribution payrologique à l’étude de l’esclavage dans une province orientale de l’empire romain. Leipzig. (<ref target="http://papyri.info/biblio/18348">http://papyri.info/biblio/18348</ref>)</bibl>
+                  </listBibl>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>SPP 22.60 Revisited</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">27638</idno>
+               <idno type="HGV">27638</idno>
+               <idno type="ddb-filename">pylon.1.1</idno>
+               <idno type="ddb-hybrid">pylon;1;1</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">G 24917</idno>
+                  </msIdentifier>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+            <div type="bibliography" subtype="otherPublications">
+               <head>Andere Publikation</head>
+               <listBibl>
+                  <bibl type="publication" subtype="other">SPP XXII 60</bibl>
+               </listBibl>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>SPP 22.60 Revisited</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.1.1</idno>
+               <idno type="ddb-hybrid">pylon;1;1</idno>
+               <idno type="HGV">27638</idno>
+               <idno type="TM">27638</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">SPP 22.60 Revisited</head>
+            <head>updates <ref target="https://papyri.info/ddbdp/stud.pal;22;60">stud.pal;22;60</ref>
+            </head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/>Παμμενει <expan>στρ<ex>ατηγῷ</ex></expan> <expan>Ἀθριβ<ex>ίτου</ex></expan>
+<lb n="2"/><unclear>π</unclear>αρὰ Ἡφ<supplied reason="lost">α</supplied><unclear>ι</unclear><supplied reason="lost">σ</supplied><unclear>τα</unclear>ρίου Ἀχιλλέως το<supplied reason="lost">ῦ</supplied>
+<lb n="3"/><supplied reason="lost">Λε</supplied><unclear>ω</unclear><supplied reason="lost">νί</supplied>δου ἀστῆς μετὰ κ<unclear>υρί</unclear><supplied reason="lost">ου</supplied>
+<lb n="4"/><supplied reason="lost">τ</supplied><unclear>ο</unclear>ῦ ἀδ<unclear>ελ</unclear>φοῦ καὶ ἀνδρὸς αὐτῆς
+<lb n="5"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="3" unit="character"/>ου Ἀχιλλέως Φυλαξιθα
+<lb n="6" break="no"/><supplied reason="lost">λα</supplied><unclear>σ</unclear>σίου τοῦ καὶ Ἀλθαιέως
+<lb n="7"/><supplied reason="lost">ὠ</supplied>νουμένη παρὰ Βουβα
+<lb n="8" break="no"/><supplied reason="lost">σ</supplied><unclear>τ</unclear>αρίου ἐγ μητρὸς Διοσκορ<unclear>οῦ</unclear>
+<lb n="9" break="no"/>τος Διοσκόρο<unclear>υ</unclear> τοῦ Ποτάμ
+<lb n="10" break="no"/>μωνος ἀπὸ Ἀθρίβεως
+<lb n="11"/><unclear>δοῦ</unclear>λον ὀν<supplied reason="lost">όμ</supplied><unclear>ατι</unclear> Κρει<unclear>σ</unclear>πῖ
+<lb n="12" break="no"/><unclear>ν</unclear><supplied reason="lost"><unclear>ον</unclear></supplied> ἐπικ<unclear>ε</unclear>κ<supplied reason="lost">λη</supplied>μένον <unclear>Ἡρα</unclear>
+<lb n="13" break="no"/><supplied reason="lost">κ</supplied><unclear>λ</unclear>είδην ὡς ἐτῶν <unclear>λ</unclear><gap reason="illegible" quantity="2" unit="character"/>
+<lb n="14"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>γ<gap reason="illegible" quantity="3" unit="character"/> οὐλὴ<unclear>ν</unclear> ἔχοντα
+<lb n="14"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
