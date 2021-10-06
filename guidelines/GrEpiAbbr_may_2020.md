@@ -11,7 +11,7 @@
   </thead>
   <tbody>
     <tr>
-      <th align="left">*AE*</th>
+      <th align="left"> *AE* </th>
       <th align="left">L’Année épigraphique (Paris 1888 –)</th>
     </tr>
     <tr>
