@@ -3,4 +3,5 @@
 # (GrEpiAbbr – Version 01, mai 2020)
 
  | AE | L’Année épigraphique (Paris 1888 –) |
+ 
  | AEghnbek | L’Année épigraphique de (Paris 1888 –) |
