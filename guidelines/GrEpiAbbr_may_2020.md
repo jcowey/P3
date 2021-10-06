@@ -14,6 +14,10 @@
       <th>AE</th>
       <th>L’Année épigraphique (Paris 1888 –)</th>
     </tr>
+    <tr>
+      <th>Ager, Arbitrations</th>
+      <th>S.L. Ager, Interstate Arbitrations in the Greek World, 337-90 B.C. (Berkeley 1996)</th>
+    </tr>
   </tbody>
 </table>
 
