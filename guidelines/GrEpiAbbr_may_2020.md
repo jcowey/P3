@@ -11,12 +11,12 @@
   </thead>
   <tbody>
     <tr>
-      <th>AE</th>
-      <th>L’Année épigraphique (Paris 1888 –)</th>
+      <th align="left">AE</th>
+      <th align="left">L’Année épigraphique (Paris 1888 –)</th>
     </tr>
     <tr>
-      <th>Ager, Arbitrations</th>
-      <th>S.L. Ager, Interstate Arbitrations in the Greek World, 337-90 B.C. (Berkeley 1996)</th>
+      <th align="left">Ager, Arbitrations</th>
+      <th align="left">S.L. Ager, Interstate Arbitrations in the Greek World, 337-90 B.C. (Berkeley 1996)</th>
     </tr>
   </tbody>
 </table>
