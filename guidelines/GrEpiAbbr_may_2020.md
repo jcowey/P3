@@ -6,7 +6,7 @@
   <thead>
     <tr>
       <th align="center">Abbreviation</th>
-      <th align="right">Full title</th>
+      <th align="Center">Full title</th>
     </tr>
   </thead>
   <tbody>
