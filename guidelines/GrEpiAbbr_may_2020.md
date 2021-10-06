@@ -1459,7 +1459,7 @@
       <td align="left">E. Miranda, Iscrizoni greche d’Italia. Napoli, 2 vol. (Roma 1990-1995)</td>
     </tr>
     <tr>
-      <td align="left">"IG Pannonia² IG Pannonia³</td>
+      <td align="left">IG Pannonia² IG Pannonia³</td>
       <td align="left">P. Kovács, Corpus inscriptionum Graecarum Pannonicarum (Debrecen 2001); P.Kovács, Corpus inscriptionum Graecarum Pannonicarum Editio III. Aucta (Budapest 2007)</td>
     </tr>
     <tr>
@@ -1524,7 +1524,7 @@
     </tr>
     <tr>
       <td align="left">IOSPE³</td>
-      <td align="left">"Ancient Inscriptions from the Northern Black Sea. 2015 —  http://iospe.kcl.ac.uk/index.html</td>
+      <td align="left">Ancient Inscriptions from the Northern Black Sea. 2015 —  http://iospe.kcl.ac.uk/index.html</td>
     </tr>
     <tr>
       <td align="left">IPArk</td>
