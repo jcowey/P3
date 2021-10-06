@@ -2,6 +2,8 @@
 
 # (GrEpiAbbr – Version 01, mai 2020)
 
+- [online PDF](https://www.aiegl.org/grepiabbr.html?file=files/aiegl/documents/GrEpiAbbr/GrEpiAbbr_1Version_Mai2020.pdf&cid=1167)
+
 <table>
   <thead>
     <tr>
