@@ -31,7 +31,7 @@
 
 When citing Trismegistos, use their standards:
 
-[https://www.trismegistos.org/about_how_to_cite.php](https://www.trismegistos.org/about_how_to_cite.php) (under the column **Citing TM through stable identifiers**)
+[https://www.trismegistos.org/about_how_to_cite.php](https://www.trismegistos.org/about_how_to_cite.php) (in the section **Citing TM through stable identifiers** in the column **Human readable**)
 - TM
 - TM Geo
 - TM Nam
