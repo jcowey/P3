@@ -1,6 +1,8 @@
 # Liste des abréviations des éditions et ouvrages de référence pour l’épigraphie grecque alphabétique
 
-# (GrEpiAbbr – Version 01, mai 2020)
+- [onlineHTML](https://www.aiegl.org/grepiabbr.html)
+
+## (GrEpiAbbr – Version 01, mai 2020)
 
 - [online PDF](https://www.aiegl.org/grepiabbr.html?file=files/aiegl/documents/GrEpiAbbr/GrEpiAbbr_1Version_Mai2020.pdf&cid=1167)
 
