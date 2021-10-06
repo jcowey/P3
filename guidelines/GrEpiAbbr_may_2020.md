@@ -8,7 +8,7 @@
     <ul class="about">
       <li>AE</li>
     </ul></td>
-    <td width="85%" valign="top" style="padding-left:2em;padding-right:10em;"><h2>More information</h2>
+    <td width="85%" valign="top" style="padding-left:2em;padding-right:10em;"><h2>Full bibliography</h2>
     <ul class="about">
       <li>L’Année épigraphique (Paris 1888 –)</li>
     </ul></td>
