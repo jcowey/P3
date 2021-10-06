@@ -36,3 +36,8 @@ When citing Trismegistos, use their standards:
 - TM Geo
 - TM Nam
 - etc
+
+### Authors
+
+- For classical authors, use the abbreviations of LSJ and OLD. Books, chapters or sections should be indicated with Arabic numbers separated by dots without spacing, e.g. **Plb. 2.69.9**.
+- For the Greek patristic authors, use the abbreviations of Lampe’s Patristic Greek Lexicon.
