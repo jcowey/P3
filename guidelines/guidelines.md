@@ -57,7 +57,9 @@ It is perfectly acceptable to submit articles without a bibliography, if, howeve
 Our preferred style is 
 
 - author(s) surname, abbreviated forename(s), (date of publication), title, journal, volume number, pages
+  - Sijpesteijn, P. J. (1983) “Nachlese zu Wiener Texten,” ZPE 50: 133-134
 - author(s) surname, abbreviated forename(s), (date of publication), title, place of publication
+  - Bagnall, R. S. and Frier, B. W. (1994) The Demography of Roman Egypt. Cambridge
 
 Authors will be asked to provide the biblio ids from http://papyri.info/bibliosearch as links. 
 (if they cannot be found, then they will be created and supplied before the submission is converted). Thus if it is easier to use a different way of presenting bibliography, that is also perfectly in order. The main point is that biblio ids are searched for and supplied at the earliest possible 
