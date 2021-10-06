@@ -39,7 +39,7 @@ When citing Trismegistos, use their standards:
 
 ### Authors
 
-- For classical authors, use the abbreviations of LSJ and [OLD](https://www.oxfordscholarlyeditions.com/page/abbreviations). Books, chapters or sections should be indicated with Arabic numbers separated by dots without spacing, e.g. **Plb. 2.69.9**.
+- For classical authors, use the abbreviations of [LSJ](https://www.stoa.org/abbreviations.html) and [OLD](https://www.oxfordscholarlyeditions.com/page/abbreviations). Books, chapters or sections should be indicated with Arabic numbers separated by dots without spacing, e.g. **Plb. 2.69.9**.
 - For the Greek patristic authors, use the abbreviations of Lampe’s Patristic Greek Lexicon.
 
 ### Editions
