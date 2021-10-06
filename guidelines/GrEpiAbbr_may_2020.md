@@ -2,16 +2,18 @@
 
 # (GrEpiAbbr – Version 01, mai 2020)
 
-<table width="100%">
-  <tr>
-    <td width="20%" valign="top" style="padding-left:10em;padding-right:2em;"><h2>Abbreviation</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Abbreviation</th>
+      <th>Full bibliography</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
       <th>AE</th>
-      <th>Ager, Arbitrations</th>
-    </td>
-    <td width="80%" valign="top" style="padding-left:2em;padding-right:10em;"><h2>Full bibliography</h2>
       <th>L’Année épigraphique (Paris 1888 –)</th>
-      <th>S.L. Ager, Interstate Arbitrations in the Greek World, 337-90 B.C. (Berkeley 1996)</th>
-    </td>
-  </tr>
+    </tr>
+  </tbody>
 </table>
 
