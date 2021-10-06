@@ -3,17 +3,29 @@
 # (GrEpiAbbr – Version 01, mai 2020)
 
 <table>
-  <tr>
-    <td width="20%" valign="top" style="padding-left:2em;padding-right:10em;"><h2>Abbreviation</h2>
-    <ol>
-      <li>AE</li>
-      <li>Ager, Arbitrations</li>
-    </ol></td>
-    <td width="80%" valign="top" style="padding-left:2em;padding-right:10em;"><h2>Full bibliography</h2>
-    <ol>
-      <li>L’Année épigraphique (Paris 1888 –)</li>
-      <li>S.L. Ager, Interstate Arbitrations in the Greek World, 337-90 B.C. (Berkeley 1996)</li>
-    </ol></td>
-  </tr>
+  <thead>
+    <tr>
+      <th align="center">Abbreviation</th>
+      <th align="right">Full title</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+<td align="left">AE</td>
+<td align="left">L’Année épigraphique (Paris 1888 –)</td>
+</tr>
+<tr>
+<td align="left">Ager, Arbitrations</td>
+<td align="left">S.L. Ager, Interstate Arbitrations in the Greek World, 337-90 B.C. (Berkeley 1996)</td>
+</tr>
+<tr>
+<td align="left">Agora III</td>
+<td align="left">The Athenian Agora, III. R.E. Wycherley, Literary and Epigraphical Testimonia (Princeton 1957)</td>
+</tr>
+<tr>
+<td align="left">Agora XV</td>
+<td align="left">The Athenian Agora, XV. B.D. Meritt, J.S. Traill, Inscriptions. The Athenian Councillors (Princeton 1974)</td>
+</tr>
+  </tbody
 </table>
 
