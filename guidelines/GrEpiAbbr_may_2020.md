@@ -6,13 +6,13 @@
   <tr>
     <td width="20%" valign="top" style="padding-left:10em;padding-right:2em;"><h2>Abbreviation</h2>
     <ul class="about">
-      <li>AE</li>
-      <li>Ager, Arbitrations</li>
+      <th>AE</th>
+      <th>Ager, Arbitrations</th>
     </ul></td>
     <td width="80%" valign="top" style="padding-left:2em;padding-right:10em;"><h2>Full bibliography</h2>
     <ul class="about">
-      <li>L’Année épigraphique (Paris 1888 –)</li>
-      <li>S.L. Ager, Interstate Arbitrations in the Greek World, 337-90 B.C. (Berkeley 1996)</li>
+      <th>L’Année épigraphique (Paris 1888 –)</th>
+      <th>S.L. Ager, Interstate Arbitrations in the Greek World, 337-90 B.C. (Berkeley 1996)</th>
     </ul></td>
   </tr>
 </table>
