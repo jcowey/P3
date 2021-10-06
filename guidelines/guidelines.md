@@ -30,6 +30,7 @@
 ### Trismegistos
 
 When citing Trismegistos, use their standards:
+
 [https://www.trismegistos.org/about_how_to_cite.php](https://www.trismegistos.org/about_how_to_cite.php) (under the column „Human readable“)
 - TM
 - TM Geo
