@@ -3,6 +3,7 @@
 <table>
   <thead>
     <tr>
+      <th align="center">category</th>      
       <th align="center">Table name</th>
       <th align="Center">example</th>
       <th align="Center">explanation</th>
@@ -10,11 +11,13 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left">preferred</td>      
       <td align="left">Located: Place</td>
       <td align="left">Karanis (Arsinoites)</td>
       <td align="left">default provenance, as stated by editor from internal evidence</td>      
     </tr>
     <tr>
+      <td align="left">optional</td>        
       <td align="left">Composed: Place</td>
       <td align="left"></td>
       <td align="left">where it was written, if known</td>      
