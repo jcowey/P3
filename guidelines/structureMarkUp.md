@@ -1,5 +1,6 @@
 # Mark up of structural sections for article publishing documentary texts (DDB)
 
+## For every article
 - #articleTitle
   - Title of the article
 
@@ -15,7 +16,8 @@
 - #acknowledgement
   - For acknowledging publication permission, thanking others for their contributions (this deals with the * which is often found as a marker for the first footnote in print publications)
 
-- #editionDCLP
+## for each and every separate DDB text edited in the article
+- #editionDDB
 - #metadata
   - In table form
 
@@ -35,9 +37,12 @@
 - #commentary
   - Running text in paragraphs
 
+## for every section header in the article
 - #articleHeader
   - To be used whenever there are section headings within the article
 
 - #corrections
+  - whenever there are corrections to exsiting texts, in tabular form
 
 - #bibliography
+  - if a bibliography is included
