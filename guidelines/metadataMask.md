@@ -1,4 +1,4 @@
-# List of table field for the metadata of any DDB or DCLP file for P3
+# List of table fields for the metadata of any DDB or DCLP file for P3
 
 <table>
   <thead>
