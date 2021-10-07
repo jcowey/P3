@@ -1,5 +1,7 @@
 # List of table fields for the metadata of any DDB or DCLP file for P3
 
+- presented from: [googlespreadsheet](https://docs.google.com/spreadsheets/d/136bvs3MDafDS4-6knY0SZmepZgxBDSoPx2VS_LC6t9Q/edit#gid=1501662294)
+
 <table>
   <thead>
     <tr>
