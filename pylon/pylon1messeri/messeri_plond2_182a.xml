@@ -74,6 +74,7 @@
                 </p>
                 <div type="epidoc" subtype="DDB">
                     <div copyOf="#ed1" xml:lang="grc" type="edition" xml:space="preserve"/>
+                    <div copyOf="#trans1" xml:lang="it" type="edition" xml:space="preserve"/>
                     <div type="commentary">
                         <p xml:id="p11"><ref>2-4</ref>Questa attestazione del secondo anno di Elagabalo è già utilizzata da P. Bureth, Les Titulatures impériales dans les papyrus, les ostraca et les inscriptions d'Égypte (30 a.C. - 284 p.C.). [Papyrologica Bruxellensia. 2.], Bruxelles 1964 (biblio id 6514), 106.
                         </p>
@@ -219,17 +220,17 @@
             </body>
         </text>
     </TEI>
-       <TEI xml:lang="en">
+    <TEI xml:lang="it">
       <teiHeader>
          <fileDesc>
             <titleStmt>
-               <title type="main">Receipt for Syntaxis</title>
+               <title type="main">Ricevuta di pagamento del πελωχικόν</title>
             </titleStmt>
             <publicationStmt>
                <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
-               <idno type="filename">703274</idno>
-               <idno type="TM">703274</idno>
-               <idno type="HGV">703274</idno>
+               <idno type="filename">11645</idno>
+               <idno type="TM">11645</idno>
+               <idno type="HGV">11645</idno>
                <availability>
                   <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
                 a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
