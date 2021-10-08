@@ -256,25 +256,9 @@
       <text>
          <body>
             <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
-            <div n="r" type="textpart">
-               <p>
-                  <milestone unit="line" n="1"/> In the 15th year of Caesar, on Hathyr ..., he has paid for the syntaxis of Theadelphia: Harthotes 4 silver dr. through N.N.,
-<milestone unit="line" n="5" rend="break"/> on Choiak 15, four dr.,
-<milestone unit="line" n="6" rend="break"/> on Tybi 19, four dr. = 4 dr.,
-<milestone unit="line" n="7" rend="break"/> on Mecheir 24, four drachmas = 4 dr.,
-<milestone unit="line" n="8" rend="break"/> on Phamenoth 26, four dr. = 4 dr.,
-<milestone unit="line" n="9" rend="break"/> on Pachon 10, (for) Pharmouthi, dr. 4, on Pachon … Harthotes has paid for the syntaxis four dr. = 4 dr.,
-<milestone unit="line" n="12"/> on Pauni 14, four dr. = 4 dr.,
-<milestone unit="line" n="14" rend="break"/> on Epeiph …, four dr. = 4 dr.,
-<milestone unit="line" n="15" rend="break"/> on Mesore …, four dr. = 4 dr,
- …
-               </p>
-            </div>
-            <div n="v" type="textpart">
-               <p>
-                  <milestone unit="line" n="17"/> obsure notation
-               </p>
-            </div>
+            <p>
+               <milestone n="1" unit="line"/> Anno II di Marco Aurelio Antonino Pio Felice Augusto, Tybi 21 [16.1.219]. <milestone n="5" unit="line"/> Ha pagato agli Aurelii Afrodisio ex archiereus e Mysthes ex agoranomos, <milestone n="8" rend="break" unit="line"/> entrambi buleuti, meridarchi della divisione di Eraclide, per la tassa dei mulini, Panephremmis, figlio di Stotoetis, abitante del villaggio di Soknopaiu Nesos, dracme 28, fanno dracme 28 <milestone n="16" rend="break" unit="line"/> e il 27 di Pachon [22.5.219] (ha pagato) dracme 26, fanno dracme 26, in tutto.
+            </p>
          </div>
          </body>
       </text>
