@@ -1,1 +1,230 @@
-Here
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ricevuta di pagamento del πελωχικόν</title>
+                <author>
+                    <name>
+                        <forename>Gabriella</forename>
+                        <surname>Messeri</surname>
+                    </name>
+                    <affiliation>ISAW, New York</affiliation>
+                    <email>rsb331@nyu.edu</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-04-13</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>unknown</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+                    <label>DOCX to TEI</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2021-05-04T20:14:55Z</date>
+                    <name/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="MainTitle">Ricevuta di pagamento del πελωχικόν</titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <div type="article">
+                <p xml:id="p1">Foglio integro nelle originarie dimensioni; il testo è completo ed è contornato dai quattro margini (al di sotto del testo, più che di margine inferiore si deve parlare di ampia porzione del foglio rimasta bianca). Subito dopo la metà corre una kollesis; il verso è bianco. Il formato del foglio è identico a quello del <ref target="https://papyri.info/hgv/31234">BGU 3 771</ref> che è di cm 5,5 x 21. 
+                </p>
+                <p xml:id="p2">Una volta scritto il testo, il foglio fu piegato a metà su se stesso in verticale (cioè facendo combaciare il bordo destro con quello sinistro) e poi ancora a metà lungo l'asse orizzontale: assai ben visibile la piegatura verticale centrale, meno visibile quella orizzontale.
+                </p>
+                <p xml:id="p3">La scrittura è una bella corsiva tracciata da mano espertissima.
+                </p>
+                <p xml:id="p4">Si tratta di una ricevuta emessa da due consiglieri di Arsinoe investiti della carica di meridarca a favore di Panephremmis, figlio di Stotoetis, abitante di Soknopaiu Nesos.
+                </p>
+                <p xml:id="p5">Questo documento è di estremo interesse in quanto costituisce la quarta attestazione del pagamento del pelochikon: si aggiunge a <ref target="https://papyri.info/hgv/31234">BGU 3 771</ref> (Karanis, ca. 221/2)<note place="foot" xml:id="ftn2" n="1">In BL 3 14 è riportato che lo scioglimento dell'abbreviazione πελ(ωχικοῦ) μηχ(ανῆς) si trova in Sh. <ref>L.  Wallace, Taxation in Egypt from Augustus to Diocletian, Princeton 1938, 35</ref>5.</note> P.Rain.Cent. 60 (Arsinoites, 164) e a P.Louvre 1 25 (Soknopaiu Nesos, 113) ripubblicato da F. Reiter, Die Nomarchen des Arsinoites. Ein Beitrag zum Steuerwesen im römischen Ägypten, Paderborn München Wien Zürich 2004, 304-306 = SB 28 17055. Questi documenti non sono strutturalmente sovrapponibili poiché ciascuno di essi presenta una fisionomia documentale peculiare. 
+                </p>
+                <p xml:id="p6">Il più antico, P.Louvre 1 25, riedito e divenuto SB 28 17055, è un attestato bancario: la banca, a favore e per conto di un collegio di esattori, attesta che i sacerdoti hanno pagato la tassa su un mulino che sappiamo appartenesse al dio Soknopaios.
+                </p>
+                <p xml:id="p7">P.Rain.Cent. 60, indirizzato al nomarca, non è precisabile da un punto di vista documentale a causa dei danni occorsi nella prima metà del r. 7 che conteneva il verbo tecnico rivelatore della natura dell'atto; si legge, comunque, che la proprietaria di un mulino si impegna a pagare 18 dracme di pelochikon all'anno e nessun altro onere; in proposito l'editore, J.D. Thomas, osserva: «It is quite certain that our text has nothing to do with the collection of this tax». Dunque il documento vale come ulteriore attestazione del fatto che il proprietario di un mulino era tenuto a pagare il pelochikon.  
+                </p>
+                <p xml:id="p8">BGU 3 771, già sopra citato per il formato del foglio, e cronologicamente vicinissimo al papiro londinese che ora qui si pubblica, è anch'esso un attestato bancario che certifica il versamento di 56 dracme e 8 oboli che sono il pagamento complessivo annuale della tassa del pelochikon effettuato da un certo Giulio Apollinare, il quale, nel corso dell'anno, ha pagato 7 rate da 8 dracme; il denaro è stato versato da uno dei meridarchi che hanno ricevuto il pagamento da Giulio Apollinare ed è stato accreditato sul conto bancario della boule di Arsinoe. 
+                </p>
+                <p xml:id="p9">Il presente P.Lond. 2 182a è, invece, una ricevuta rilasciata al contribuente dal collegio dei meridarchi. 
+                </p>
+                <p xml:id="p10">Il pelochikon (parola di etimo sconosciuto, rivelata dai papiri) è una tassa pagata dai mugnai (vd. Wallace, Taxation, op. cit. 222; Reiter, Nomarchen, op. cit., 166: «Es handelt sich um eine in Zusammenhang mit Mühlen zu entrichtende Abgabe, wahrscheinlich eine Art Lizenzsteuer zum Betrieb einer Mühle»). I meridarchi sono funzionari liturgici, costituiti in collegio, scelti dalla boule nel proprio seno, i quali riscuotono parte delle tasse nomarchiche che confluiscono nel λόγος νομαρχίας oppure nel λόγος τῆς βουλῆς (vd. Reiter, Nomarchen, op. cit., 90, 301-302).
+                </p>
+                <div type="epidoc" subtype="DDB">
+                    <div copyOf="#ed1" xml:lang="grc" type="edition" xml:space="preserve"/>
+                    <div type="commentary">
+                        <p xml:id="p11"><ref>2-4</ref>Questa attestazione del secondo anno di Elagabalo è già utilizzata da P. Bureth, Les Titulatures impériales dans les papyrus, les ostraca et les inscriptions d'Égypte (30 a.C. - 284 p.C.). [Papyrologica Bruxellensia. 2.], Bruxelles 1964 (biblio id 6514), 106.
+                        </p>
+                        <p xml:id="p12"><ref>6-7</ref>I due consiglieri di Arsinoe, con una carriera magistratuale alle spalle, non sono noti: ho consultato le tavole prosopografiche in L.C. Colella, La boule di Arsinoe nel III secolo d.C., Diss. Napoli 2018 disponibile all'indirizzo http://www.fedoa.unina.it/id/eprint/12624. Ci si potrebbe chiedere se Afrodisio venga citato per primo in virtù del fatto che essere stato archiereus gli conferiva un prestigio maggiore rispetto a Mysthes che era stato agoranomos: ma a tutt'oggi bisogna riconoscere che, a causa della natura variabile e scarsa della documentazione, non ci si può esprimere con certezza circa la gerarchia fra le magistrature civiche al di là della sequenza gymnasiarchia – exegeteia – kosmeteia stabilita da Preisigke (in Städtisches Beamtenwesen im römischen Ägypten, Halle (Saale) 1903, 27-42) e che ancora regge alla prova dell'accresciuta documentazione. Si veda in proposito W. Habermann, Zur Wasserversorgung einer Metropole im kaiserzeitlichen Ägypten, München 2000, 124-126, 284-285 (biblio id 16013); Id., P.Heid. X 450, pp. 375-377 (biblio id 95278); L.C. Colella, La boule di Arsinoe, op. cit. e L.C. Colella, Una gerarchia delle magistrature civiche in Egitto? Tipologie di fonti e criteri di analisi, in corso di stampa negli Atti del XXIX Congresso Internazionale di Papirologia, Lecce 28.7.-3.8.2019. 
+                        </p>
+                        <p xml:id="p13"><ref>8</ref>Attestazioni di meridarca in età romana: BGU 3 771, 5 (ca. 221/2, Karanis); P.Louvre 1 38, 5 (216/7, Soknopaiu Nesos); P.Flor. 1 76 v., 1, 16 (266, Theadelphia); P.Flor. 2 278, 14 (203, Theadelphia); ben attestate, in ricevute di età romana pubblicate in P.Stras. V, le tasse meridarchiche.
+                        </p>
+                        <p xml:id="p14"><ref>10</ref>πελ(ωχικοῦ) μηχ(ανῆς), cfr. BGU 3 771, 6; una o più mechanai si trovano nei mulini: si tratta delle macine (vd. P.Mil.Vogl. 2 53, 11; P.Ryl. 2 321, 5-6; PSI 7 787, 4-5).
+                            Il πελωχικόν, è la tassa pagata dai mugnai (P.Mil.Vogl. 2 53, 18; P:Rain. Cent. 60, 10). Il maggior numero delle occorrenze della parola è dovuto al fatto che essa entra nel titolo degli esattori competenti a riscuotere la tassa: gli ἐπιτηρηταὶ ὠνῆς πελωχικοῦ, N. Lewis, ICS3, 29. Su questa tassa vd. Reiter, Nomarchen, op. cit. 166-171 e già Wallace, Taxation, op. cit. 446, n. 31.
+                        </p>
+                        <p xml:id="p15"><ref>10-12</ref>Troppo comuni a Soknopaiu Nesos i nomi Panephremmis (TM Nam 4833) e Stotoetis (TM Nam 1147) per tentare una identificazione. Mi risultano i seguenti omonimi: P.Coll.Youtie 1 37, 3 (II); CPR 15 46, 3 (159-215); SB 16 12785, 3-4 (220); SPP 22 96, 52 (II); P.Vindob.Tandem 25a, 2 (II). 
+                        </p>
+                        <p xml:id="p16"><ref>16</ref>Il secondo pagamento avviene dopo quattro mesi dal primo; il pagamento può essere considerato quadrimestrale? Cioè si sarebbe pagato verso la fine di Thoth, poi verso la fine di Tybi, poi verso la fine di Pachon (dopo di che, per il nuovo anno, verso la fine di Thoth). Si sarebbero pagate 7 dracme al mese per i primi quattro mesi (dracme 28 al r. 14-15) e poi 6,5 dracme al mese per i successivi quattro mesi (dracme 26 ai rr. 17-18) per un totale stimato di dracme 81 all'anno. Inutile porsi questa domanda, solo in futuro, con maggiore documentazione, potrà esere possibile formulare ipotesi plausibili. In BGU 3 771 si pagano 7 rate da 8 dracme con una periodicità irregolare: dal 30 di Thoth al 30 di Mesore risultano pagate 56 dracme e 8 oboli.
+                        </p>
+                    </div>
+                    <div type="bibliography">
+                        <listBibl>
+                            <bibl>Bagnall, R. S. and Frier, B. W. (1994) The Demography of Roman Egypt. Cambridge. (<ref target="http://papyri.info/biblio/13437">http://papyri.info/biblio/13437</ref>, <ref target="https://hdl.handle.net/2027/heb.02277">https://hdl.handle.net/2027/heb.02277</ref>)</bibl>
+                            <bibl>Lewald, H. (1952) “Eine Synchoresis aus der Zeit des Commodus: Papyrus Rainer G. 25817,” in Studi in onore di Vincenzo Arangio-Ruiz nel XLV anno del suo insegnamento, vol. 3: 429-438. Naples. (<ref target="http://papyri.info/biblio/40562">http://papyri.info/biblio/40562</ref>)</bibl>
+                            <bibl>Sijpesteijn, P. J. (1983) “Nachlese zu Wiener Texten,” ZPE 50: 133-134. (<ref target="http://papyri.info/biblio/56075">http://papyri.info/biblio/56075</ref>, <ref target="https://www.jstor.org/stable/20183765">https://www.jstor.org/stable/20183765</ref>)</bibl>
+                            <bibl>Straus, J. (2004) L’achat et la vente des esclaves dans l’Égypte romaine. Contribution payrologique à l’étude de l’esclavage dans une province orientale de l’empire romain. Leipzig. (<ref target="http://papyri.info/biblio/18348">http://papyri.info/biblio/18348</ref>)</bibl>
+                        </listBibl>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Ricevuta di pagamento del πελωχικόν</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Papyri.info</authority>
+                    <idno type="TM">11645</idno>
+                    <idno type="HGV">11645</idno>
+                    <idno type="ddb-filename">pylon.1.2</idno>
+                    <idno type="ddb-hybrid">pylon;1;2</idno>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository/>
+                            <idno type="invNo">G 24917</idno>
+                        </msIdentifier>
+                        <history/>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div type="bibliography" subtype="principalEdition"/>
+                <div type="bibliography" subtype="otherPublications">
+                    <head>Andere Publikation</head>
+                    <listBibl>
+                        <bibl type="publication" subtype="other">SPP XXII 60</bibl>
+                    </listBibl>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>SPP 22.60 Revisited</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename">pylon.1.2</idno>
+                    <idno type="ddb-hybrid">pylon;1;2</idno>
+                    <idno type="HGV">11645</idno>
+                    <idno type="TM">11645</idno>
+                    <availability>
+                        <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                                Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                    <language ident="la">Latin</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <head xml:lang="en">SPP 22.60 Revisited</head>
+                <head>updates <ref target="https://papyri.info/ddbdp/stud.pal;22;60">stud.pal;22;60</ref>
+                </head>
+                <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+    <lb n="1"/><expan><ex>ἔτους</ex></expan> <num value="2">β</num> Μάρκου
+
+    <lb n="2"/>Αὐρηλίου
+
+    <lb n="3"/><choice><reg>Ἀντωνίνου</reg><orig>Ἀντωνείνου</orig></choice> Εὐσεβοῦς
+
+    <lb n="4"/>Εὐτυχοὺς Σεβαστοῦ
+
+    <lb n="5"/>Τυβι κ<hi rend="supraline">α</hi>. <expan>διέγρ<ex>αψεν</ex></expan>
+
+    <lb n="6"/><expan>Αὐρηλ<ex>ίοις</ex></expan> <choice><reg> Ἀφροδισίῳ </reg><orig>Ἀφροδεισίῳ</orig></choice>
+
+    <lb n="7"/><expan>ἀρχ<ex>ιερατεύσαντι</ex></expan> καὶ Μύσθῃ <expan>ἀγορ<ex>ανομήσαντι</ex></expan>
+
+    <lb n="8"/><expan>ἀμφοτ<ex>έροις</ex></expan> <expan>βουλ<ex>ευταῖς</ex></expan> <expan>μεριδάρχ<ex>αις</ex></expan>
+
+    <lb n="9"/>Ἡρακλείδου <expan>μερί<ex>δος</ex></expan>
+
+    <lb n="10"/><expan>πελ<ex>ωχικοῦ</ex></expan> <expan>μηχ<ex>ανῆς</ex></expan> <choice><reg> Πανέ<lb n="11" break="no"/>φρεμμις </reg><orig>Πανε
+
+    <lb n="11" break="no"/>φρέμμεως</orig></choice> Στοτο
+
+    <lb n="12" break="no"/>ήτεως ἀπὸ <expan>κώμ<ex>ης</ex></expan>
+
+    <lb n="13"/><expan>Σοκνοπ<ex>αίου</ex></expan> Νήσου
+
+    <lb n="14"/><expan>δρ<ex>αχμὰς</ex></expan> <choice><reg> εἰκοσιοκτώ</reg><orig>εἰκοσικοτώ</orig></choice>,
+
+    <lb n="15"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> κη,
+
+    <lb n="16"/>καὶ Παχων κ<hi rend="supraline">ζ</hi>
+
+    <lb n="17"/><expan>δραχ<ex>μὰς</ex></expan> εἰκοσιέξ,
+ 
+    <lb n="18"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> κϛ πλήρης.
+</ab></div>
+            </body>
+        </text>
+    </TEI>
+</TEI>
