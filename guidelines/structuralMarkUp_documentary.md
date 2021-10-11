@@ -42,7 +42,7 @@
   - To be used whenever there are section headings within the article
 
 - #corrections
-  - whenever there are corrections to exsiting texts, in tabular form
+  - whenever there are corrections to existing texts, in tabular form
 
 - #bibliography
   - if a bibliography is included
