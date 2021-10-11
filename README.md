@@ -1,6 +1,7 @@
 # P3
 This is now a collection point for the Papyrological Publishing Platform (P3). Files and mock ups may be found here.
 
+### Files for viewing
 Live files for the first volume of Pylon can be found in the folder: [pylon1ready](https://github.com/jcowey/P3/blob/master/pylon/pylon1ready/list.md)
 
 An online journal which offers a model I, personally, like is: https://github.com/i-d-e.
