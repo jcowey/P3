@@ -332,7 +332,10 @@
             <body>
                 <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
                     <p>
-                        <milestone n="1" unit="line"/> Anno II di Marco Aurelio Antonino Pio Felice Augusto, Tybi 21 [16.1.219]. <milestone n="5" unit="line"/> Ha pagato agli Aurelii Afrodisio ex archiereus e Mysthes ex agoranomos, <milestone n="8" rend="break" unit="line"/> entrambi buleuti, meridarchi della divisione di Eraclide, per la tassa dei mulini, Panephremmis, figlio di Stotoetis, abitante del villaggio di Soknopaiu Nesos, dracme 28, fanno dracme 28 <milestone n="16" rend="break" unit="line"/> e il 27 di Pachon [22.5.219] (ha pagato) dracme 26, fanno dracme 26, in tutto.
+                        <milestone n="1" unit="line"/> Anno II di Marco Aurelio Antonino Pio Felice Augusto, Tybi 21 [16.1.219]. 
+                        <milestone n="5" unit="line"/> Ha pagato agli Aurelii Afrodisio ex archiereus e Mysthes ex agoranomos, 
+                        <milestone n="8" rend="break" unit="line"/> entrambi buleuti, meridarchi della divisione di Eraclide, per la tassa dei mulini, Panephremmis, figlio di Stotoetis, abitante del villaggio di Soknopaiu Nesos, dracme 28, fanno dracme 28 
+                        <milestone n="16" rend="break" unit="line"/> e il 27 di Pachon [22.5.219] (ha pagato) dracme 26, fanno dracme 26, in tutto.
                     </p>
                 </div>
             </body>
