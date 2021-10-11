@@ -163,7 +163,7 @@
     <tr>
       <td align="left">essential</td>
       <td align="left">Date of text</td>
-      <td align="left">string</td>
+      <td align="left">22.5.207 CE</td>
       <td align="left">string</td>
       <td align="left">both</td>
     </tr>    
@@ -178,7 +178,7 @@
       <td align="left">preferred</td>
       <td align="left">Images: online</td>
       <td align="left"></td>
-      <td align="left">if multiple then just create a futher row in the table</td>
+      <td align="left">if multiple then just create a further row in the table</td>
       <td align="left">both</td>
     </tr>    
     <tr>
