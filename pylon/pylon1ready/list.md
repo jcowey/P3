@@ -1,6 +1,6 @@
-For Pylon 1 entries
+For Pylon 1 entries (ordered as received for processing)
 
-- (article 1) Bagnall, SPP 22 60 revisited (ordered as received for processing)
+- (article 1) Bagnall, SPP 22 60 revisited
   - [Bagnall, SPP 22 60 revisited](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/SPP_22-60_revisited_ra_work_prep#ref)
     - XML: [pylon;1;1](https://github.com/jcowey/P3/blob/master/pylon/pylon1bagnall/bagnall_spp22_60.xml)
 - (article 2) Schubert
