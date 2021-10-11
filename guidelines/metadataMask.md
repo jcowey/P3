@@ -157,7 +157,7 @@
       <td align="left">essential</td>
       <td align="left">Descriptive title</td>
       <td align="left">Receipt for wine</td>
-      <td align="left"></td>
+      <td align="left">in the original language of the article</td>
       <td align="left">both</td>
     </tr>    
     <tr>
