@@ -43,7 +43,7 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    
+
     <text>
         <front>
             <docTitle>
@@ -55,55 +55,176 @@
                 <div type="header">
                     <table rows="2" cols="3">
                         <row role="label">
-                            <cell role="data"><ref target="https://papyri.info/hgv/11645">P.Lond. II 182a descr.</ref></cell>
+                            <cell role="data"><ref target="https://papyri.info/hgv/11645">P.Lond. II
+                                    182a descr.</ref></cell>
                             <cell role="data">5.8 x 22 cm</cell>
                             <cell role="data">Soknopaiu Nesos</cell>
                         </row>
                         <row role="data">
-                            <cell role="data">immagine: <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Papyrus_182">www.bl.uk/manuscripts/</ref></cell>
+                            <cell role="data">immagine: <ref
+                                    target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Papyrus_182"
+                                    >www.bl.uk/manuscripts/</ref></cell>
                             <cell role="data"/>
                             <cell role="data">22.5.219 CE</cell>
                         </row>
                     </table>
                 </div>
                 <div type="introduction">
-                    <p xml:id="p1">Foglio integro nelle originarie dimensioni; il testo è completo ed è contornato dai quattro margini (al di sotto del testo, più che di margine inferiore si deve parlare di ampia porzione del foglio rimasta bianca). Subito dopo la metà corre una kollesis; il verso è bianco. Il formato del foglio è identico a quello del <ref target="https://papyri.info/hgv/31234">BGU 3 771</ref> che è di cm 5,5 x 21. 
-                    </p>
-                    <p xml:id="p2">Una volta scritto il testo, il foglio fu piegato a metà su se stesso in verticale (cioè facendo combaciare il bordo destro con quello sinistro) e poi ancora a metà lungo l'asse orizzontale: assai ben visibile la piegatura verticale centrale, meno visibile quella orizzontale.
-                    </p>
-                    <p xml:id="p3">La scrittura è una bella corsiva tracciata da mano espertissima.
-                    </p>
-                    <p xml:id="p4">Si tratta di una ricevuta emessa da due consiglieri di Arsinoe investiti della carica di meridarca a favore di Panephremmis, figlio di Stotoetis, abitante di Soknopaiu Nesos.
-                    </p>
-                    <p xml:id="p5">Questo documento è di estremo interesse in quanto costituisce la quarta attestazione del pagamento del pelochikon: si aggiunge a <ref target="https://papyri.info/hgv/31234">BGU 3 771</ref> (Karanis, ca. 221/2)<note place="foot" xml:id="ftn2" n="1">In BL 3 14 è riportato che lo scioglimento dell'abbreviazione πελ(ωχικοῦ) μηχ(ανῆς) si trova in <ref target="https://papyri.info/biblio/3811">Sh.L.  Wallace, Taxation in Egypt from Augustus to Diocletian, Princeton 1938</ref>, 355.</note> <ref target="https://papyri.info/hgv/12869">P.Rain.Cent. 60</ref> (Arsinoites, 164) e a P.Louvre 1 25 (Soknopaiu Nesos, 113) ripubblicato da F. Reiter, Die Nomarchen des Arsinoites. Ein Beitrag zum Steuerwesen im römischen Ägypten, Paderborn München Wien Zürich 2004, 304-306 = <ref target="https://papyri.info/hgv/11837">SB 28 17055</ref>. Questi documenti non sono strutturalmente sovrapponibili poiché ciascuno di essi presenta una fisionomia documentale peculiare. 
-                    </p>
-                    <p xml:id="p6">Il più antico, P.Louvre 1 25, riedito e divenuto <ref target="https://papyri.info/hgv/11837">SB 28 17055</ref>, è un attestato bancario: la banca, a favore e per conto di un collegio di esattori, attesta che i sacerdoti hanno pagato la tassa su un mulino che sappiamo appartenesse al dio Soknopaios.
-                    </p>
-                    <p xml:id="p7"><ref target="https://papyri.info/hgv/12869">P.Rain.Cent. 60</ref>, indirizzato al nomarca, non è precisabile da un punto di vista documentale a causa dei danni occorsi nella prima metà del r. 7 che conteneva il verbo tecnico rivelatore della natura dell'atto; si legge, comunque, che la proprietaria di un mulino si impegna a pagare 18 dracme di pelochikon all'anno e nessun altro onere; in proposito l'editore, J.D. Thomas, osserva: «It is quite certain that our text has nothing to do with the collection of this tax». Dunque il documento vale come ulteriore attestazione del fatto che il proprietario di un mulino era tenuto a pagare il pelochikon.  
-                    </p>
-                    <p xml:id="p8"><ref target="https://papyri.info/hgv/31234">BGU 3 771</ref>, già sopra citato per il formato del foglio, e cronologicamente vicinissimo al papiro londinese che ora qui si pubblica, è anch'esso un attestato bancario che certifica il versamento di 56 dracme e 8 oboli che sono il pagamento complessivo annuale della tassa del pelochikon effettuato da un certo Giulio Apollinare, il quale, nel corso dell'anno, ha pagato 7 rate da 8 dracme; il denaro è stato versato da uno dei meridarchi che hanno ricevuto il pagamento da Giulio Apollinare ed è stato accreditato sul conto bancario della boule di Arsinoe. 
-                    </p>
-                    <p xml:id="p9">Il presente <ref target="https://papyri.info/hgv/11645">P.Lond. 2 182a</ref> è, invece, una ricevuta rilasciata al contribuente dal collegio dei meridarchi. 
-                    </p>
-                    <p xml:id="p10">Il pelochikon (parola di etimo sconosciuto, rivelata dai papiri) è una tassa pagata dai mugnai (vd. Wallace, Taxation, op. cit. 222; Reiter, Nomarchen, op. cit., 166: «Es handelt sich um eine in Zusammenhang mit Mühlen zu entrichtende Abgabe, wahrscheinlich eine Art Lizenzsteuer zum Betrieb einer Mühle»). I meridarchi sono funzionari liturgici, costituiti in collegio, scelti dalla boule nel proprio seno, i quali riscuotono parte delle tasse nomarchiche che confluiscono nel λόγος νομαρχίας oppure nel λόγος τῆς βουλῆς (vd. Reiter, Nomarchen, op. cit., 90, 301-302).
-                    </p>
+                    <p xml:id="p1">Foglio integro nelle originarie dimensioni; il testo è completo
+                        ed è contornato dai quattro margini (al di sotto del testo, più che di
+                        margine inferiore si deve parlare di ampia porzione del foglio rimasta
+                        bianca). Subito dopo la metà corre una kollesis; il verso è bianco. Il
+                        formato del foglio è identico a quello del <ref
+                            target="https://papyri.info/hgv/31234">BGU 3 771</ref> che è di cm 5,5 x
+                        21. </p>
+                    <p xml:id="p2">Una volta scritto il testo, il foglio fu piegato a metà su se
+                        stesso in verticale (cioè facendo combaciare il bordo destro con quello
+                        sinistro) e poi ancora a metà lungo l'asse orizzontale: assai ben visibile
+                        la piegatura verticale centrale, meno visibile quella orizzontale. </p>
+                    <p xml:id="p3">La scrittura è una bella corsiva tracciata da mano espertissima. </p>
+                    <p xml:id="p4">Si tratta di una ricevuta emessa da due consiglieri di Arsinoe
+                        investiti della carica di meridarca a favore di Panephremmis, figlio di
+                        Stotoetis, abitante di Soknopaiu Nesos. </p>
+                    <p xml:id="p5">Questo documento è di estremo interesse in quanto costituisce la
+                        quarta attestazione del pagamento del pelochikon: si aggiunge a <ref
+                            target="https://papyri.info/hgv/31234">BGU 3 771</ref> (Karanis, ca.
+                            221/2)<note place="foot" xml:id="ftn2" n="1">In BL 3 14 è riportato che
+                            lo scioglimento dell'abbreviazione πελ(ωχικοῦ) μηχ(ανῆς) si trova in
+                                <ref target="https://papyri.info/biblio/3811">Sh.L. Wallace,
+                                Taxation in Egypt from Augustus to Diocletian, Princeton 1938</ref>,
+                            355.</note>
+                        <ref target="https://papyri.info/hgv/12869">P.Rain.Cent. 60</ref>
+                        (Arsinoites, 164) e a P.Louvre 1 25 (Soknopaiu Nesos, 113) ripubblicato da
+                            <ref target="https://papyri.info/hgv/18268">F. Reiter, Die Nomarchen des
+                            Arsinoites. Ein Beitrag zum Steuerwesen im römischen Ägypten, Paderborn
+                            München Wien Zürich 2004</ref>, 304-306 = <ref
+                            target="https://papyri.info/hgv/11837">SB 28 17055</ref>. Questi
+                        documenti non sono strutturalmente sovrapponibili poiché ciascuno di essi
+                        presenta una fisionomia documentale peculiare. </p>
+                    <p xml:id="p6">Il più antico, P.Louvre 1 25, riedito e divenuto <ref
+                            target="https://papyri.info/hgv/11837">SB 28 17055</ref>, è un attestato
+                        bancario: la banca, a favore e per conto di un collegio di esattori, attesta
+                        che i sacerdoti hanno pagato la tassa su un mulino che sappiamo appartenesse
+                        al dio Soknopaios. </p>
+                    <p xml:id="p7"><ref target="https://papyri.info/hgv/12869">P.Rain.Cent.
+                        60</ref>, indirizzato al nomarca, non è precisabile da un punto di vista
+                        documentale a causa dei danni occorsi nella prima metà del r. 7 che
+                        conteneva il verbo tecnico rivelatore della natura dell'atto; si legge,
+                        comunque, che la proprietaria di un mulino si impegna a pagare 18 dracme di
+                        pelochikon all'anno e nessun altro onere; in proposito l'editore, J.D.
+                        Thomas, osserva: «It is quite certain that our text has nothing to do with
+                        the collection of this tax». Dunque il documento vale come ulteriore
+                        attestazione del fatto che il proprietario di un mulino era tenuto a pagare
+                        il pelochikon. </p>
+                    <p xml:id="p8"><ref target="https://papyri.info/hgv/31234">BGU 3 771</ref>, già
+                        sopra citato per il formato del foglio, e cronologicamente vicinissimo al
+                        papiro londinese che ora qui si pubblica, è anch'esso un attestato bancario
+                        che certifica il versamento di 56 dracme e 8 oboli che sono il pagamento
+                        complessivo annuale della tassa del pelochikon effettuato da un certo Giulio
+                        Apollinare, il quale, nel corso dell'anno, ha pagato 7 rate da 8 dracme; il
+                        denaro è stato versato da uno dei meridarchi che hanno ricevuto il pagamento
+                        da Giulio Apollinare ed è stato accreditato sul conto bancario della boule
+                        di Arsinoe. </p>
+                    <p xml:id="p9">Il presente <ref target="https://papyri.info/hgv/11645">P.Lond. 2
+                            182a</ref> è, invece, una ricevuta rilasciata al contribuente dal
+                        collegio dei meridarchi. </p>
+                    <p xml:id="p10">Il pelochikon (parola di etimo sconosciuto, rivelata dai papiri)
+                        è una tassa pagata dai mugnai (vd. <ref
+                            target="https://papyri.info/biblio/3811">Wallace, Taxation</ref>, op.
+                        cit. 222; <ref target="https://papyri.info/hgv/18268">Reiter,
+                            Nomarchen</ref>, op. cit., 166: «Es handelt sich um eine in Zusammenhang
+                        mit Mühlen zu entrichtende Abgabe, wahrscheinlich eine Art Lizenzsteuer zum
+                        Betrieb einer Mühle»). I meridarchi sono funzionari liturgici, costituiti in
+                        collegio, scelti dalla boule nel proprio seno, i quali riscuotono parte
+                        delle tasse nomarchiche che confluiscono nel λόγος νομαρχίας oppure nel
+                        λόγος τῆς βουλῆς (vd. Reiter, Nomarchen, op. cit., 90, 301-302). </p>
                     <div type="epidoc" subtype="DDB">
                         <div copyOf="#ed1" xml:lang="grc" type="edition" xml:space="preserve"/>
                         <div copyOf="#trans1" xml:lang="it" type="edition" xml:space="preserve"/>
                         <div type="commentary">
-                            <p xml:id="p11"><ref>2-4</ref>Questa attestazione del secondo anno di Elagabalo è già utilizzata da <ref target="https://papyri.info/biblio/6514">P. Bureth, Les Titulatures impériales dans les papyrus, les ostraca et les inscriptions d'Égypte (30 a.C. - 284 p.C.)</ref>. [Papyrologica Bruxellensia. 2.], Bruxelles 1964 (biblio id 6514), 106.
-                            </p>
-                            <p xml:id="p12"><ref>6-7</ref>I due consiglieri di Arsinoe, con una carriera magistratuale alle spalle, non sono noti: ho consultato le tavole prosopografiche in L.C. Colella, La boule di Arsinoe nel III secolo d.C., Diss. Napoli 2018 disponibile all'indirizzo <ref target="http://www.fedoa.unina.it/id/eprint/12624">http://www.fedoa.unina.it/id/eprint/12624</ref>. Ci si potrebbe chiedere se Afrodisio venga citato per primo in virtù del fatto che essere stato archiereus gli conferiva un prestigio maggiore rispetto a Mysthes che era stato agoranomos: ma a tutt'oggi bisogna riconoscere che, a causa della natura variabile e scarsa della documentazione, non ci si può esprimere con certezza circa la gerarchia fra le magistrature civiche al di là della sequenza gymnasiarchia – exegeteia – kosmeteia stabilita da Preisigke (in Städtisches Beamtenwesen im römischen Ägypten, Halle (Saale) 1903, 27-42) e che ancora regge alla prova dell'accresciuta documentazione. Si veda in proposito <ref target="https://papyri.info/biblio/16013">W. Habermann, Zur Wasserversorgung einer Metropole im kaiserzeitlichen Ägypten, München 2000</ref>, 124-126, 284-285; <ref target="https://papyri.info/biblio/95278">W. Habermann, P.Heid. X 450</ref>, pp. 375-377 (biblio id 95278); <ref target="http://www.fedoa.unina.it/id/eprint/12624">L.C. Colella, La boule di Arsinoe</ref>, op. cit. e L.C. Colella, Una gerarchia delle magistrature civiche in Egitto? Tipologie di fonti e criteri di analisi, in corso di stampa negli Atti del XXIX Congresso Internazionale di Papirologia, Lecce 28.7.-3.8.2019. 
-                            </p>
-                            <p xml:id="p13"><ref>8</ref>Attestazioni di meridarca in età romana: <ref target="https://papyri.info/hgv/31234">BGU 3 771</ref>, 5 (ca. 221/2, Karanis); <ref target="https://papyri.info/hgv/11851">P.Louvre 1 38</ref>, 5 (216/7, Soknopaiu Nesos); <ref target="https://papyri.info/hgv/10963">P.Flor. 1 76 v</ref>, 1, 16 (266, Theadelphia); <ref target="https://papyri.info/hgv/19670">P.Flor. 2 278</ref>, 14 (203, Theadelphia); ben attestate, in ricevute di età romana pubblicate in P.Stras. V, le tasse meridarchiche.
-                            </p>
-                            <p xml:id="p14"><ref>10</ref>πελ(ωχικοῦ) μηχ(ανῆς), cfr. <ref target="https://papyri.info/hgv/31234">BGU 3 771</ref>, 6; una o più mechanai si trovano nei mulini: si tratta delle macine (vd. <ref target="https://papyri.info/hgv/12357">P.Mil. Vogl. 2 53</ref>, 11; <ref target="https://papyri.info/hgv/27924">P.Ryl. 2 321</ref>, 5-6; <ref target="https://papyri.info/hgv/27237">PSI 7 787</ref>, 4-5).
-                            Il πελωχικόν, è la tassa pagata dai mugnai (<ref target="https://papyri.info/hgv/12357">P.Mil. Vogl. 2 53</ref>, 18; <ref target="https://papyri.info/hgv/12869">P.Rainer Cent. 60</ref>, 10). Il maggior numero delle occorrenze della parola è dovuto al fatto che essa entra nel titolo degli esattori competenti a riscuotere la tassa: gli ἐπιτηρηταὶ ὠνῆς πελωχικοῦ, <ref target="https://papyri.info/biblio/14864">Lewis, ICS3</ref>, 29. Su questa tassa vd. <ref target="https://papyri.info/biblio/18268">Reiter, Nomarchen</ref>, op. cit. 166-171 e già Wallace, Taxation, op. cit. 446, n. 31.
-                            </p>
-                            <p xml:id="p15"><ref>10-12</ref>Troppo comuni a Soknopaiu Nesos i nomi Panephremmis (<ref target="https://www.trismegistos.org/name/4833">TM Nam 4833</ref>) e Stotoetis (<ref target="https://www.trismegistos.org/name/1147">TM Nam 1147</ref>) per tentare una identificazione. Mi risultano i seguenti omonimi: <ref target="https://papyri.info/hgv/26669">P.Coll.Youtie 1 37</ref>, 3 (II); <ref target="https://papyri.info/hgv/9913">CPR 15 46</ref>, 3 (159-215); <ref target="https://papyri.info/hgv/47181">SB 16 12785</ref>, 3-4 (220); <ref target="https://papyri.info/hgv/27646">SPP 22 96</ref>, 52 (II); <ref target="https://papyri.info/hgv/26540">P.Vindob.Tandem 25a</ref>, 2 (II). 
-                            </p>
-                            <p xml:id="p16"><ref>16</ref>Il secondo pagamento avviene dopo quattro mesi dal primo; il pagamento può essere considerato quadrimestrale? Cioè si sarebbe pagato verso la fine di Thoth, poi verso la fine di Tybi, poi verso la fine di Pachon (dopo di che, per il nuovo anno, verso la fine di Thoth). Si sarebbero pagate 7 dracme al mese per i primi quattro mesi (dracme 28 al r. 14-15) e poi 6,5 dracme al mese per i successivi quattro mesi (dracme 26 ai rr. 17-18) per un totale stimato di dracme 81 all'anno. Inutile porsi questa domanda, solo in futuro, con maggiore documentazione, potrà esere possibile formulare ipotesi plausibili. In <ref target="https://papyri.info/hgv/31234">BGU 3 771</ref> si pagano 7 rate da 8 dracme con una periodicità irregolare: dal 30 di Thoth al 30 di Mesore risultano pagate 56 dracme e 8 oboli.
-                            </p>
+                            <p xml:id="p11"><ref>2-4</ref>Questa attestazione del secondo anno di
+                                Elagabalo è già utilizzata da <ref
+                                    target="https://papyri.info/biblio/6514">P. Bureth, Les
+                                    Titulatures impériales dans les papyrus, les ostraca et les
+                                    inscriptions d'Égypte (30 a.C. - 284 p.C.)</ref>. [Papyrologica
+                                Bruxellensia. 2.], Bruxelles 1964 (biblio id 6514), 106. </p>
+                            <p xml:id="p12"><ref>6-7</ref>I due consiglieri di Arsinoe, con una
+                                carriera magistratuale alle spalle, non sono noti: ho consultato le
+                                tavole prosopografiche in L.C. Colella, La boule di Arsinoe nel III
+                                secolo d.C., Diss. Napoli 2018 disponibile all'indirizzo <ref
+                                    target="http://www.fedoa.unina.it/id/eprint/12624"
+                                    >http://www.fedoa.unina.it/id/eprint/12624</ref>. Ci si potrebbe
+                                chiedere se Afrodisio venga citato per primo in virtù del fatto che
+                                essere stato archiereus gli conferiva un prestigio maggiore rispetto
+                                a Mysthes che era stato agoranomos: ma a tutt'oggi bisogna
+                                riconoscere che, a causa della natura variabile e scarsa della
+                                documentazione, non ci si può esprimere con certezza circa la
+                                gerarchia fra le magistrature civiche al di là della sequenza
+                                gymnasiarchia – exegeteia – kosmeteia stabilita da Preisigke (in
+                                Städtisches Beamtenwesen im römischen Ägypten, Halle (Saale) 1903,
+                                27-42) e che ancora regge alla prova dell'accresciuta
+                                documentazione. Si veda in proposito <ref
+                                    target="https://papyri.info/biblio/16013">W. Habermann, Zur
+                                    Wasserversorgung einer Metropole im kaiserzeitlichen Ägypten,
+                                    München 2000</ref>, 124-126, 284-285; <ref
+                                    target="https://papyri.info/biblio/95278">W. Habermann, P.Heid.
+                                    X 450</ref>, pp. 375-377 (biblio id 95278); <ref
+                                    target="http://www.fedoa.unina.it/id/eprint/12624">L.C. Colella,
+                                    La boule di Arsinoe</ref>, op. cit. e L.C. Colella, Una
+                                gerarchia delle magistrature civiche in Egitto? Tipologie di fonti e
+                                criteri di analisi, in corso di stampa negli Atti del XXIX Congresso
+                                Internazionale di Papirologia, Lecce 28.7.-3.8.2019. </p>
+                            <p xml:id="p13"><ref>8</ref>Attestazioni di meridarca in età romana:
+                                    <ref target="https://papyri.info/hgv/31234">BGU 3 771</ref>, 5
+                                (ca. 221/2, Karanis); <ref target="https://papyri.info/hgv/11851"
+                                    >P.Louvre 1 38</ref>, 5 (216/7, Soknopaiu Nesos); <ref
+                                    target="https://papyri.info/hgv/10963">P.Flor. 1 76 v</ref>, 1,
+                                16 (266, Theadelphia); <ref target="https://papyri.info/hgv/19670"
+                                    >P.Flor. 2 278</ref>, 14 (203, Theadelphia); ben attestate, in
+                                ricevute di età romana pubblicate in P.Stras. V, le tasse
+                                meridarchiche. </p>
+                            <p xml:id="p14"><ref>10</ref>πελ(ωχικοῦ) μηχ(ανῆς), cfr. <ref
+                                    target="https://papyri.info/hgv/31234">BGU 3 771</ref>, 6; una o
+                                più mechanai si trovano nei mulini: si tratta delle macine (vd. <ref
+                                    target="https://papyri.info/hgv/12357">P.Mil. Vogl. 2 53</ref>,
+                                11; <ref target="https://papyri.info/hgv/27924">P.Ryl. 2 321</ref>,
+                                5-6; <ref target="https://papyri.info/hgv/27237">PSI 7 787</ref>,
+                                4-5). Il πελωχικόν, è la tassa pagata dai mugnai (<ref
+                                    target="https://papyri.info/hgv/12357">P.Mil. Vogl. 2 53</ref>,
+                                18; <ref target="https://papyri.info/hgv/12869">P.Rainer Cent.
+                                    60</ref>, 10). Il maggior numero delle occorrenze della parola è
+                                dovuto al fatto che essa entra nel titolo degli esattori competenti
+                                a riscuotere la tassa: gli ἐπιτηρηταὶ ὠνῆς πελωχικοῦ, <ref
+                                    target="https://papyri.info/biblio/14864">Lewis, ICS3</ref>, 29.
+                                Su questa tassa vd. <ref target="https://papyri.info/biblio/18268"
+                                    >Reiter, Nomarchen</ref>, op. cit. 166-171 e già Wallace,
+                                Taxation, op. cit. 446, n. 31. </p>
+                            <p xml:id="p15"><ref>10-12</ref>Troppo comuni a Soknopaiu Nesos i nomi
+                                Panephremmis (<ref target="https://www.trismegistos.org/name/4833"
+                                    >TM Nam 4833</ref>) e Stotoetis (<ref
+                                    target="https://www.trismegistos.org/name/1147">TM Nam
+                                    1147</ref>) per tentare una identificazione. Mi risultano i
+                                seguenti omonimi: <ref target="https://papyri.info/hgv/26669"
+                                    >P.Coll.Youtie 1 37</ref>, 3 (II); <ref
+                                    target="https://papyri.info/hgv/9913">CPR 15 46</ref>, 3
+                                (159-215); <ref target="https://papyri.info/hgv/47181">SB 16
+                                    12785</ref>, 3-4 (220); <ref
+                                    target="https://papyri.info/hgv/27646">SPP 22 96</ref>, 52 (II);
+                                    <ref target="https://papyri.info/hgv/26540">P.Vindob.Tandem
+                                    25a</ref>, 2 (II). </p>
+                            <p xml:id="p16"><ref>16</ref>Il secondo pagamento avviene dopo quattro
+                                mesi dal primo; il pagamento può essere considerato quadrimestrale?
+                                Cioè si sarebbe pagato verso la fine di Thoth, poi verso la fine di
+                                Tybi, poi verso la fine di Pachon (dopo di che, per il nuovo anno,
+                                verso la fine di Thoth). Si sarebbero pagate 7 dracme al mese per i
+                                primi quattro mesi (dracme 28 al r. 14-15) e poi 6,5 dracme al mese
+                                per i successivi quattro mesi (dracme 26 ai rr. 17-18) per un totale
+                                stimato di dracme 81 all'anno. Inutile porsi questa domanda, solo in
+                                futuro, con maggiore documentazione, potrà esere possibile formulare
+                                ipotesi plausibili. In <ref target="https://papyri.info/hgv/31234"
+                                    >BGU 3 771</ref> si pagano 7 rate da 8 dracme con una
+                                periodicità irregolare: dal 30 di Thoth al 30 di Mesore risultano
+                                pagate 56 dracme e 8 oboli. </p>
                         </div>
                     </div>
                 </div>
@@ -117,118 +238,122 @@
                     <title>Ricevuta di pagamento del πελωχικόν</title>
                 </titleStmt>
                 <publicationStmt>
-            <idno type="filename">11645</idno>
-            <idno type="TM">11645</idno>
-            <idno type="ddb-filename">pylon.1.2</idno>
-            <idno type="ddb-hybrid">pylon;1;2</idno>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <placeName>
-                     <settlement>London</settlement>
-                  </placeName>
-                  <collection>British Library</collection>
-                  <idno type="invNo">Papyrus 182</idno>
-               </msIdentifier>
-               <physDesc>
-                  <objectDesc>
-                     <supportDesc>
-                        <support>
-                           <material>Papyrus</material>
-                        </support>
-                     </supportDesc>
-                  </objectDesc>
-               </physDesc>
-               <history>
-                  <origin>
-                     <origPlace>Soknopaiu Nesos (Arsinoites, Ägypten)</origPlace>
-                     <origDate when="0219-05-22">22. Mai 219</origDate>
-                  </origin>
-                  <provenance type="located">
-                     <p>
-                        <placeName n="1"
-                                   type="ancient"
-                                   ref="http://pleiades.stoa.org/places/737053 http://www.trismegistos.org/place/2157">Soknopaiu Nesos</placeName>
-                        <placeName n="2" type="ancient" subtype="nome">Arsinoites</placeName>
-                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
-                     </p>
-                  </provenance>
-               </history>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <p>
-        This file encoded to comply with EpiDoc Guidelines and Schema version 8
-        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
-         </p>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="fr">Französisch</language>
-            <language ident="en">Englisch</language>
-            <language ident="de">Deutsch</language>
-            <language ident="it">Italienisch</language>
-            <language ident="es">Spanisch</language>
-            <language ident="la">Latein</language>
-            <language ident="el">Griechisch</language>
-         </langUsage>
-         <textClass>
-            <keywords scheme="hgv">
-               <term n="1">Quittung</term>
-               <term n="2">Steuern</term>
-            </keywords>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
-         <change who="HGV" when="1995-12-14">Record created</change>
-         <change who="HGV" when="2009-07-02">Record last modified</change>
-         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
-      </revisionDesc>
-  </teiHeader>
-  <text>
-      <body>
-         <div type="commentary" subtype="mentionedDates">
-            <head>Erwähnte Daten</head>
-            <note type="original">16. Jan. 219</note>
-            <list>
-               <item>
-                  <ref>Z. 5</ref>
-                  <date type="mentioned" when="0219-01-16">16. Jan. 219</date>
-               </item>
-            </list>
-         </div>
-         <div type="bibliography" subtype="principalEdition">
-            <listBibl>
-               <bibl type="publication" subtype="principal">
-                  <title level="s" type="abbreviated">Pylon</title>
-                  <biblScope n="1" type="volume">1</biblScope>
-                  <biblScope n="2" type="fascicle">(2022)</biblScope>
-                  <biblScope n="3" type="number">Nr. 2</biblScope>
-               </bibl>
-            </listBibl>
-         </div>
-         <div type="bibliography" subtype="illustrations">
-            <p>
-               <bibl type="illustration">P.Lond. II, Plate 83</bibl>
-            </p>
-         </div>
-         <div type="figure">
-            <p>
-               <figure>
-                  <graphic url="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Papyrus_182"/>
-               </figure>
-            </p>
-         </div>
-         <div type="bibliography" subtype="otherPublications">
-            <listBibl>
-               <bibl type="publication" subtype="other">P.Lond. 2 182 a (S. XVII)</bibl>
-            </listBibl>
-         </div>
-      </body>
-  </text>
-</TEI>
+                    <authority>Papyri.info</authority>
+                    <idno type="HGV">11645</idno>
+                    <idno type="TM">11645</idno>
+                    <idno type="ddb-filename">pylon.1.2</idno>
+                    <idno type="ddb-hybrid">pylon;1;2</idno>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <placeName>
+                                <settlement>London</settlement>
+                            </placeName>
+                            <collection>British Library</collection>
+                            <idno type="invNo">Papyrus 182</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <material>Papyrus</material>
+                                    </support>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace>Soknopaiu Nesos (Arsinoites, Ägypten)</origPlace>
+                                <origDate when="0219-05-22">22. Mai 219</origDate>
+                            </origin>
+                            <provenance type="located">
+                                <p>
+                                    <placeName n="1" type="ancient"
+                                        ref="http://pleiades.stoa.org/places/737053 http://www.trismegistos.org/place/2157"
+                                        >Soknopaiu Nesos</placeName>
+                                    <placeName n="2" type="ancient" subtype="nome"
+                                        >Arsinoites</placeName>
+                                    <placeName n="3" type="ancient" subtype="region"
+                                        >Ägypten</placeName>
+                                </p>
+                            </provenance>
+                        </history>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <p> This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+                </p>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                </langUsage>
+                <textClass>
+                    <keywords scheme="hgv">
+                        <term n="1">Quittung</term>
+                        <term n="2">Steuern</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+            <revisionDesc>
+                <change who="HGV" when="1995-12-14">Record created</change>
+                <change who="HGV" when="2009-07-02">Record last modified</change>
+                <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+            </revisionDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div type="commentary" subtype="mentionedDates">
+                    <head>Erwähnte Daten</head>
+                    <note type="original">16. Jan. 219</note>
+                    <list>
+                        <item>
+                            <ref>Z. 5</ref>
+                            <date type="mentioned" when="0219-01-16">16. Jan. 219</date>
+                        </item>
+                    </list>
+                </div>
+                <div type="bibliography" subtype="principalEdition">
+                    <listBibl>
+                        <bibl type="publication" subtype="principal">
+                            <title level="s" type="abbreviated">Pylon</title>
+                            <biblScope n="1" unit="volume">1</biblScope>
+                            <biblScope n="2" unit="fascicle">(2022)</biblScope>
+                            <biblScope n="3" unit="number">Nr. 2</biblScope>
+                        </bibl>
+                    </listBibl>
+                </div>
+                <div type="bibliography" subtype="illustrations">
+                    <p>
+                        <bibl type="illustration">P.Lond. II, Plate 83</bibl>
+                    </p>
+                </div>
+                <div type="figure">
+                    <p>
+                        <figure>
+                            <graphic
+                                url="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Papyrus_182"
+                            />
+                        </figure>
+                    </p>
+                </div>
+                <div type="bibliography" subtype="otherPublications">
+                    <listBibl>
+                        <bibl type="publication" subtype="other">P.Lond. 2 182 a (S. XVII)</bibl>
+                    </listBibl>
+                </div>
+            </body>
+        </text>
+    </TEI>
     <TEI xml:lang="en">
         <teiHeader>
             <fileDesc>
@@ -242,9 +367,9 @@
                     <idno type="HGV">11645</idno>
                     <idno type="TM">11645</idno>
                     <availability>
-                        <p>© Duke Databank of Documentary Papyri. This work is licensed under a
-                            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
-                                Commons Attribution 3.0 License</ref>.</p>
+                        <p>© Duke Databank of Documentary Papyri. This work is licensed under a <ref
+                                type="license" target="http://creativecommons.org/licenses/by/3.0/"
+                                >Creative Commons Attribution 3.0 License</ref>.</p>
                     </availability>
                 </publicationStmt>
                 <sourceDesc>
@@ -262,7 +387,8 @@
         <text>
             <body>
                 <head xml:lang="en">SPP 22.60 Revisited</head>
-                <head>updates <ref target="https://papyri.info/ddbdp/stud.pal;22;60">stud.pal;22;60</ref>
+                <head>updates <ref target="https://papyri.info/ddbdp/stud.pal;22;60"
+                        >stud.pal;22;60</ref>
                 </head>
                 <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
 <ab>
@@ -317,8 +443,10 @@
                     <idno type="TM">11645</idno>
                     <idno type="HGV">11645</idno>
                     <availability>
-                        <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
-                            a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+                        <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden
+                            Ägyptens. This work is licensed under a <ref
+                                target="http://creativecommons.org/licenses/by/3.0/" type="license"
+                                >Creative Commons Attribution 3.0 License</ref>.</p>
                     </availability>
                 </publicationStmt>
                 <sourceDesc>
@@ -349,4 +477,3 @@
         </text>
     </TEI>
 </TEI>
-
