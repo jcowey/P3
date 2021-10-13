@@ -57,11 +57,11 @@
                <table>
                   <head>Table 1: list of approvals of nomination to liturgy</head>                  
                   <row>
-                     <cell style="text-align: left;">Stroppa’s numbering</cell>
-                     <cell style="text-align: left;">reference</cell>
-                     <cell style="text-align: center;">date</cell>
-                     <cell style="text-align: center;">nome of provenance</cell>
-                     <cell style="text-align: left;">content</cell>
+                     <cell style="text-align: justify;">Stroppa’s numbering</cell>
+                     <cell style="text-align: justify;">reference</cell>
+                     <cell style="text-align: justify;">date</cell>
+                     <cell style="text-align: justify;">nome of provenance</cell>
+                     <cell style="text-align: justify;">content</cell>
                   </row>
                   <row>
                      <cell style="text-align: left;">1</cell>
@@ -266,13 +266,13 @@
                <table>
                   <head>Table 2: nominations to liturgy, approvals of liturgy, and liturgical oaths (2nd – 3rd c. CE)</head>                  
                   <row>
-                     <cell style="text-align: left;">reference</cell>
-                     <cell style="text-align: center;">date</cell>
-                     <cell style="text-align: center;">pagina format</cell>
-                     <cell style="text-align: center;">demotic style format</cell>
-                     <cell style="text-align: center;">nomination</cell>
-                     <cell style="text-align: center;">approval</cell>
-                     <cell style="text-align: center;">oath</cell>
+                     <cell style="text-align: justify;">reference</cell>
+                     <cell style="text-align: justify;">date</cell>
+                     <cell style="text-align: justify;">pagina format</cell>
+                     <cell style="text-align: justify;">demotic style format</cell>
+                     <cell style="text-align: justify;">nomination</cell>
+                     <cell style="text-align: justify;">approval</cell>
+                     <cell style="text-align: justify;">oath</cell>
                   </row>
                   <row>
                      <cell style="text-align: left;">
