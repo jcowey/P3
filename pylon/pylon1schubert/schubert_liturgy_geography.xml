@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The format, layout and provenance of documents pertaining to liturgy</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2021-10-13T14:00:49Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">The format, layout and provenance of documents pertaining to liturgy</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">This article was prepared within the frame of the research project “grammateus: the architecture of Greek documentary papyri”, funded by the Swiss National Science Foundation (project # <ref target="HYPERLINK">182205</ref>) and based at the University of Geneva. I gratefully acknowledge the help provided by the other members of the research team: Lavinia Ferretti, Susan Fogarty and Elisa Nury.</note>
+            <div type="section">
+               <head>Introduction</head>
+               <p xml:id="p1">In a recent study devoted to “bandi liturgici”, Marco Stroppa provided a welcome survey of the notices by which a strategos gave his approval to the nomination of individuals who took up a liturgy in Roman Egypt.<note place="foot" xml:id="ftn1" n="1"><p> Stroppa 2017. The wording “approval of nomination” is borrowed from Lewis 1997: 84.</p></note> The aim of the present article is not to contradict the views offered by Stroppa, but to add a layer to his analysis of the available corpus: by taking into account the provenance of papyri, it will become possible to identify some specific aspects of the format and layout used to produce the documents pertaining to this procedure, as well as to other stages in the same procedure.</p>
+               <p xml:id="p2">The general working of the liturgical system in the Roman empire was neatly summarized by Roger Bagnall: “The Romans preferred to keep their permanent, professional administration small and to draw governors, however amateurish, from the ranks of the upper orders. Over the first two centuries of the empire, they developed practices in local administration in line with this overall approach. City and village governance was rotated among the better-endowed residents, while manual labor was distributed over as wide a spectrum of the male population as possible. One result was to keep stated tax rates low. Another was that because public offices brought work and financial risk, but little or no reward, they were unwelcome to most individuals.”<note place="foot" xml:id="ftn2" n="2"><p> Bagnall 2001: 459 (review of Drecoll 1997). For a recent overview of the liturgical system in Roman Egypt, see Reiter 2013.</p></note></p>
+               <p xml:id="p3">The procedure followed by officials to nominate an individual to a liturgy occupied various hierarchical levels of the administration and included several steps.<note place="foot" xml:id="ftn3" n="3"><p> Lewis 1997: 83-84.</p></note> While the Prefect of Egypt was responsible for the general working of the liturgical system in the province, and issued orders accordingly, the actual management of the process lay in the hands of the strategos in each nome. In making the appointments, he relied on nominations to liturgy submitted by local officials in the villages and towns, either a village scribe (κωμογραμματεύς) or village elders (πρεσβύτεροι) acting in the same capacity;<note place="foot" xml:id="ftn4" n="4"><p> Tomsin 1952: 503-505 ; Lewis 1997: 66.</p></note> in the mid-third century, these local officials were replaced by a village chief (κωμάρχης).<note place="foot" xml:id="ftn5" n="5"><p> Thomas 1975: 113-115.</p></note> Nominations had to be subsequently approved by the strategos, who had them posted publicly in the villages; the approval was labelled a πρόγραμμα, i.e. a “writing intended for public posting”.<note place="foot" xml:id="ftn6" n="6"><p> Stroppa 2004: 196-197; Stroppa 2017: 2.</p></note> In a last stage, the appointed liturgists produced a written oath, confirming that they would undertake the task for which they had been selected.<note place="foot" xml:id="ftn7" n="7"><p> A list of oaths of office was provided by Lewis 1997: 117.</p></note> The process was thus completed in three successive steps, i.e. nomination &gt; approval &gt; oath.<note place="foot" xml:id="ftn8" n="8"><p> Other documents pertaining to liturgy, such as petitions of individuals protesting against their nomination, are not taken into account here because they belong to another kind of procedure altogether.</p></note></p>
+            </div>
+            <div type="section">
+               <head>The corpus of approvals of nomination to liturgy (προγράμματα)</head>
+               <p xml:id="p4">The corpus assembled by Stroppa consists of a series of items dating from 135 to 265 CE (1-17), and of an addition from 247 (18 = <ref target="HYPERLINK">BGU 1 7</ref>), the inclusion of which in the corpus remains debatable.<note place="foot" xml:id="ftn9" n="9"><p> All dates, unless otherwise stated, are CE. For the sake of convenience, Stroppa’s numbering, in bold characters, will be used here, together with the standard reference to each papyrus when appropriate. On 18, see Stroppa 2017: 117-118: the strategos publicly endorses a nomination, made by δεκάπρωτοι, of farmers who are to undertake the cultivation of a piece of land. The δεκάπρωτοι are not directly involved in nominations to liturgy, but only take part in the collection of taxes.</p></note> It seems that most of the papyri are either copies of approvals that were kept among official records, or abstracts made from those records for the use of individuals. Thus, the preserved documents were actually not posted publicly, with one possible exception: the unusual format of 8 (= <ref target="HYPERLINK">P.Leit. 11</ref>), written across the fibres, and perhaps originally squarish in shape, may suggest that this approval was posted publicly; but Stroppa refrains – wisely – from drawing a firm conclusion on the matter.<note place="foot" xml:id="ftn10" n="10"><p> Stroppa 2017: 11-12.</p></note></p>
+               <p xml:id="p5">The following table conflates the data provided by Stroppa in two different lists, thus making it possible to view at once the nome of provenance of each item.<note place="foot" xml:id="ftn11" n="11"><p> Stroppa 2017: 3-7 and 9.</p></note> This will prove useful because, among the parameters to be considered, provenance does not seem to play a significant role in Stroppa’s overview.</p>
+               <p xml:id="p6">Table 1: list of approvals of nomination to liturgy</p>
+               <table>
+                  <row>
+                     <cell style="text-align: left;">Stroppa’s numbering</cell>
+                     <cell style="text-align: left;">reference</cell>
+                     <cell style="text-align: center;">date</cell>
+                     <cell style="text-align: center;">nome of provenance</cell>
+                     <cell style="text-align: left;">content</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1</cell>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">SB 16 12504</ref> col. 1</cell>
+                     <cell style="text-align: center;">135</cell>
+                     <cell style="text-align: center;">Arsinoite</cell>
+                     <cell style="text-align: left;">copy of an approval, abstract from the records of the archive for public matters (βιβλιοθήκη δημοσίων λόγων)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">2</cell>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">SB 16 12504</ref> col. 2</cell>
+                     <cell style="text-align: center;">136</cell>
+                     <cell style="text-align: center;">Arsinoite</cell>
+                     <cell style="text-align: left;">copy of an approval, abstract from the records of the archive for public matters</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">3a</cell>
+                     <cell style="text-align: left;">P.Mil.Vogl. inv. 777</cell>
+                     <cell style="text-align: center;">168</cell>
+                     <cell style="text-align: center;">Arsinoite</cell>
+                     <cell style="text-align: left;">copy of an approval, from the records of the strategos</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">3b</cell>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Leit. 5 = SB 8 10196</ref>
+                     </cell>
+                     <cell style="text-align: center;">168</cell>
+                     <cell style="text-align: center;">Arsinoite</cell>
+                     <cell style="text-align: left;">petition to an epistrategos quoting in full the text of the approval found in 3a</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">4</cell>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">BGU 1 18 = W.Chr. 398 = Sel. Pap. 2 342</ref>
+                     </cell>
+                     <cell style="text-align: center;">169</cell>
+                     <cell style="text-align: center;">Arsinoite</cell>
+                     <cell style="text-align: left;">copy of an approval</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">5</cell>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">SB 14 11613</ref>
+                     </cell>
+                     <cell style="text-align: center;">173</cell>
+                     <cell style="text-align: center;">Arsinoite</cell>
+                     <cell style="text-align: left;">abstract from the approvals</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">6</cell>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">PSI 17 1683</ref>
+                     </cell>
+                     <cell style="text-align: center;">182</cell>
+                     <cell style="text-align: center;">(unknown)</cell>
+                     <cell style="text-align: left;">approval (presumably a copy)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">7</cell>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Sijp. 21b</ref>
+                     </cell>
+                     <cell style="text-align: center;">185</cell>
+                     <cell style="text-align: center;">Cynopolite</cell>
+                     <cell style="text-align: left;">abstract from the approvals</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">8</cell>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Leit. 11 = SB 8 10203</ref>
+                     </cell>
+                     <cell style="text-align: center;">186</cell>
+                     <cell style="text-align: center;">Arsinoite</cell>
+                     <cell style="text-align: left;">abstract from the approvals of a strategos</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">9</cell>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">SB 6 9331 V = P.Bacch. 25 V</ref>
+                     </cell>
+                     <cell style="text-align: center;">204</cell>
+                     <cell style="text-align: center;">Arsinoite</cell>
+                     <cell style="text-align: left;">copy, abstract from the records of the archive for public matters</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">10</cell>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Oxy. 10 1254</ref>
+                     </cell>
+                     <cell style="text-align: center;">260</cell>
+                     <cell style="text-align: center;">Cynopolite</cell>
+                     <cell style="text-align: left;">approval</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">11</cell>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Flor. 1 2 Col. 1</ref>
+                     </cell>
+                     <cell style="text-align: center;">265</cell>
+                     <cell style="text-align: center;">Hermopolite</cell>
+                     <cell style="text-align: left;">approval</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">12</cell>
+                     <cell style="text-align: left;">
+                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 2</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 3</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 4</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 5</ref></p>
+                     </cell>
+                     <cell style="text-align: center;">265</cell>
+                     <cell style="text-align: center;">Hermopolite</cell>
+                     <cell style="text-align: left;">four approvals</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">13</cell>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Flor. 1 2 Col. 6</ref>
+                     </cell>
+                     <cell style="text-align: center;">265</cell>
+                     <cell style="text-align: center;">Hermopolite</cell>
+                     <cell style="text-align: left;">approval</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">14</cell>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Flor. 1 2 Col. 7 = W.Chr. 401</ref>
+                     </cell>
+                     <cell style="text-align: center;">265</cell>
+                     <cell style="text-align: center;">Hermopolite</cell>
+                     <cell style="text-align: left;">approval</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">15</cell>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Flor. 1 2 Col. 8</ref>
+                     </cell>
+                     <cell style="text-align: center;">265</cell>
+                     <cell style="text-align: center;">Hermopolite</cell>
+                     <cell style="text-align: left;">approval, with letter to the keepers of the archive of property (βιβλιοθήκη ἐγκτήσεων)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">16</cell>
+                     <cell style="text-align: left;">
+                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 9</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 10</ref></p>
+                     </cell>
+                     <cell style="text-align: center;">265</cell>
+                     <cell style="text-align: center;">Hermopolite</cell>
+                     <cell style="text-align: left;">two approvals</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">17</cell>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Flor. 1 2 Col. 11</ref>
+                     </cell>
+                     <cell style="text-align: center;">265</cell>
+                     <cell style="text-align: center;">Hermopolite</cell>
+                     <cell style="text-align: left;">approval</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">(18)</cell>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">BGU 1 7</ref>
+                     </cell>
+                     <cell style="text-align: center;">247</cell>
+                     <cell style="text-align: center;">Arsinoite</cell>
+                     <cell style="text-align: left;">order for taking up the cultivation of land</cell>
+                  </row>
+               </table>
+            </div>
+            <div type="section">
+               <head>Layout: from nomination to liturgy to approval of nomination</head>
+               <p xml:id="p13">Before we can examine the specific format and layout of these documents according to their provenance, the relation between nomination to liturgy and approval of nomination must be made clear. This will be best illustrated through an example.</p>
+               <p xml:id="p14">Fig. 1: nomination to liturgy / approval of nomination.</p>
+               <p xml:id="p15"><ref target="HYPERLINK">P.Oxy. 34 2714</ref> (256, Oxyrhynchus) is a nomination to liturgy, written on a long and narrow, vertical sheet of papyrus. The scribe who prepared the document on behalf of two κωμάρχαι centred the text vertically, leaving ample margins at the top and bottom of the sheet. These two margins provide windows for additional data to be inserted; and indeed, in the bottom margin, a transmission docket was entered, without occupying the whole space available: the κωμάρχαι state that they have submitted the nomination, and a literate scribe writes on their behalf because they cannot write. The top margin, however, remained blank.</p>
+               <p xml:id="p16">Comparison with an approval of nomination, 10 = <ref target="HYPERLINK">P.Oxy. 10 1254</ref> (260, Cynopolite nome), provides an explanation for the process.<note place="foot" xml:id="ftn12" n="12"><p> A plate of 10 is available in Stroppa 2017: Tavola XI.</p></note> The scribe cut from a roll a sheet of papyrus of the same shape as that of <ref target="HYPERLINK">P.Oxy. 34 2714</ref>, and arranged the text of a nomination likewise in the central part of the sheet, leaving ample top and bottom margins. A transmission docket was then added at the bottom, and the top margin was used by the strategos to give his approval. Therefore, the top and bottom margins in such nominations to liturgy were intended for the next stage in the procedure, by which the nomination to liturgy would become an approval of nomination. In other words, nomination to liturgy and approval of nomination are, in this case, one and the same document, but at two subsequent stages of the procedure.</p>
+               <p xml:id="p17">This is not an isolated phenomenon. Other nominations to liturgy from the Oxyrhynchite nome display, in the same period, a similar format and layout with ample top and bottom margin, the latter containing the transmission docket: see e.g. <ref target="HYPERLINK">PSI 12 1231</ref> (274); <ref target="HYPERLINK">P.Oxy. 46 3294</ref> (272). This occurs also in another nomination to liturgy submitted to the strategos of the Heracleopolite nome, <ref target="HYPERLINK">P.Oxy. 44 3178</ref> (248).</p>
+               <p xml:id="p18">The same practice appears in the Hermopolite nome as well; it was already identified and described by Ulrich Wilcken.<note place="foot" xml:id="ftn13" n="13"><p> Wilcken 1906: 530; Wilcken 1908: 424.</p></note> Stroppa republishes the remains of a τόμος συγκολλήσιμος, i.e. a roll made of several approvals of nomination that were prepared in a similar fashion, 11-17 = P.Flor. 1 2 (265).<note place="foot" xml:id="ftn14" n="14"><p> Images are provided by Stroppa 2017: Tavole XII – XXV.</p></note> A scribe prepared the nomination in the central part of each sheet, leaving ample top and bottom margins; a transmission docket was added at the bottom; then the strategos added his approval at the top. In 12 and 16, the approval runs horizontally across several nominations, which indicates that the strategos made this addition only after the sheets were pasted together. This does not imply, however, that these copies of the approvals were publicly posted: they were presumably kept in the strategos’ records, and other copies – lost to us – were posted for all to read.</p>
+               <p xml:id="p19">Thus, it appears that, around the mid-third century CE, in several nomes of Egypt (Oxyrhynchite, Cynopolite, Heracleopolite, Hermopolite), scribes followed a similar procedure by which they wrote nominations to liturgy in the central part of a sheet, leaving space in the top and bottom margin for the next steps to take place, i.e. transmission docket (bottom margin) and approval of nomination (top margin). This emerging pattern will find confirmation in a more comprehensive list of evidence that will be discussed below.</p>
+            </div>
+            <div type="section">
+               <head>Format: demotic style vs. pagina</head>
+               <p xml:id="p20">The format of the documents mentioned above is conspicuous: they were nearly all produced by cutting a long and narrow vertical strip (ca. 30 x 10 cm) from a tall papyrus roll. The height of columns in the roll from the Hermopolite nome (11-17) is shorter (25 cm), but the width of columns is narrower, thus keeping a general shape comparable to that of the other documents. This corresponds to the so-called “demotic style” format, to recall the terminology used by Antonia Sarri to describe the format of private letters in the Ptolemaic period.<note place="foot" xml:id="ftn15" n="15"><p> Sarri 2018: 91-107.</p></note> She identifies two other formats: the transuersa charta format (which we may leave aside in the present context) and the pagina. The latter will become nearly universal for letter-writing in the Roman period, and will also be widely used for administrative purposes, especially in the Arsinoite nome. A distinction between demotic style and pagina format should be made here because, as we shall see, the pagina format is a specific feature of documents relating to liturgy in the Arsinoite nome, as opposed to other locations, where the demotic style format seems to have prevailed.</p>
+               <p xml:id="p21">Fig. 2: demotic format vs. pagina format.</p>
+               <p xml:id="p22">The main difference between the two formats lies in the proportions of the sheet, i.e. the ratio width/height: in the demotic style format, it is ca. 0.3 (e.g. 10 by 31 cm); in the pagina format, it varies between 0.6 (e.g. 17 by 29 cm) and 0.5 (e.g. 11 by 21 cm).<note place="foot" xml:id="ftn16" n="16"><p> The approximate ratios of 0.3 and 0.6 are illustrated in Fig. 2; for a ratio of ca. 0.5, see e.g. <ref target="HYPERLINK">P.Mich. 3 202 = C.Pap.Gr. 1 App. B 3</ref> (10.5 x 21.5 cm).</p></note> Sarri also observes that, in the pagina format, rolls diminish in height through time.<note place="foot" xml:id="ftn17" n="17"><p> Sarri 2018: 97.</p></note> In the Arsinoite nome, in the second and third centuries CE, a height of ca. 21 cm becomes very common; but the overall proportions of the sheet remain the same as in the Ptolemaic period.</p>
+            </div>
+            <div type="section">
+               <head>The Arsinoite nome: a special case?</head>
+               <p xml:id="p23">We must now turn to material relating to liturgy in the Arsinoite nome, where both format and layout differ markedly from the descriptions made above. It should be noted, however, that a comparison of the Arsinoite material with documents from other areas of Egypt is hampered by a double discrepancy – of place and time – regarding the available data: in the second century CE, the evidence comes mainly from the Arsinoite nome (and most of it from the Petaus archive); in the third century, documents from the Arsinoite relating to liturgy become scarce and fragmentary, but other nomes are better represented.</p>
+               <p xml:id="p24">Moreover, some of the evidence from the Arsinoite nome relating to approvals of nomination consists of copies or abstracts from records, which have not retained the format and layout of the original documents (see esp. 1-5, ranging from 135 till 173). The raw text could be inserted in the body of another document, as in 3a (= P.Mil.Vogl. inv. 777) and 3b (<ref target="HYPERLINK">P.Leit. 5 = SB 8 10196 = Pap. Choix 11</ref>): the first is the copy of an approval of nomination, presumably an abstract from the strategos’ records; and the second is a petition that quotes the approval in exactly the same words. Neither in 3a nor in 3b did the format or layout of the original approval matter to the scribe who prepared the documents.</p>
+               <p xml:id="p25">Moving back from approvals towards nominations to liturgy from the Arsinoite nome, we have some original documents preserved. Those were prepared in the pagina format. Sarri, writing about private letters, notes that, in this format – widely used in the Roman period, as stated above – the height of rolls rarely exceeded 28 cm.<note place="foot" xml:id="ftn18" n="18"><p> Sarri 2018: 107.</p></note> As a matter of fact, the format of letters in the pagina format from the Arsinoite nome is remarkably consistent: among the 23 cases from the first three centuries CE listed by Sarri (excluding one with a horizontal format and one with two columns), the average dimensions are: height 22.7 cm; width 11.6 cm, with a ratio width/height of 0.5.<note place="foot" xml:id="ftn19" n="19"><p> Sarri 2018: 341-345.</p></note> This corresponds to the format used in the Arsinoite nome also for administrative documents such as declarations, petitions etc.; and this format prevails among nominations to liturgy, e.g. <ref target="HYPERLINK">P.Gen. 1 2 37 = W.Chr. 400</ref>.</p>
+               <p xml:id="p26">This last document may also be used to illustrate the specific layout of documents pertaining to liturgy in the Arsinoite nome. The scribe preparing a nomination to liturgy starts at the top of the sheet (without leaving any significant margin), writes the nomination in one block of text, and adds the date at the bottom of the sheet, leaving a window between the main text and the date (<ref target="HYPERLINK">P.Gen. 1 2 37</ref>). In the window, a transmission docket is added (e.g. <ref target="HYPERLINK">P.Mich. 9 536</ref>, a relatively short sheet, nonetheless to be placed in the category of pagina format).</p>
+               <p xml:id="p27">Fig. 3: nomination to liturgy without / with transmission docket.</p>
+               <p xml:id="p28">This layout used by scribes in the Arsinoite nome finds many parallels in other types of documents, such as census declarations or, at a later date, certificates of pagan sacrifice.<note place="foot" xml:id="ftn20" n="20"><p> Census declaration: e.g. <ref target="HYPERLINK">BGU 1 53</ref> (133). Certificate of pagan sacrifice: e.g. <ref target="HYPERLINK">P.Ryl. 2 112a</ref> (250).</p></note> Coming back to documents pertaining to liturgy, it thus appears that the format and layout in use in the Arsinoite nome is similar to that of documents of other types originating from the same area; and it is in sharp contrast with documents pertaining to liturgy that were produced in other parts of Egypt. The sharpness of this contrast will become even more evident when the overall data is taken into consideration.</p>
+            </div>
+            <div type="section">
+               <head>Data pertaining to nominations, approvals and oaths (second – third centuries CE)</head>
+               <p xml:id="p29">Table 2: nominations to liturgy, approvals of liturgy, and liturgical oaths (2nd – 3rd c. CE)</p>
+               <table>
+                  <row>
+                     <cell style="text-align: left;">reference</cell>
+                     <cell style="text-align: center;">date</cell>
+                     <cell style="text-align: center;">pagina format</cell>
+                     <cell style="text-align: center;">demotic style format</cell>
+                     <cell style="text-align: center;">nomination</cell>
+                     <cell style="text-align: center;">approval</cell>
+                     <cell style="text-align: center;">oath</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">SB 14 12168</ref>
+                     </cell>
+                     <cell style="text-align: center;">130</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Oxy.</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1-2 = <ref target="HYPERLINK">SB 16 12504</ref>
+                     </cell>
+                     <cell style="text-align: center;">135-136</cell>
+                     <cell style="text-align: center;">(copies of two approvals)</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Oxy. 61 4113</ref>
+                     </cell>
+                     <cell style="text-align: center;">138</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Oxy.</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">SB 24 15904</ref>
+                     </cell>
+                     <cell style="text-align: center;">139-142 (?)</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Lond. 3 1159</ref> (p. 112)</cell>
+                     <cell style="text-align: center;">144-147</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Herm.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Louvre 2 114</ref>
+                     </cell>
+                     <cell style="text-align: center;">ca. 150-175</cell>
+                     <cell style="text-align: center;">(draft rather than the official nomination document)</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Ryl. 2 88</ref>
+                     </cell>
+                     <cell style="text-align: center;">156</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Leit. 1 = SB VIII 10192</ref>
+                     </cell>
+                     <cell style="text-align: center;">ca. 160</cell>
+                     <cell style="text-align: center;">(draft rather than the official nomination document)</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Oxy.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Berl.Leihg. 2 45</ref>
+                     </cell>
+                     <cell style="text-align: center;">ca. 164-165</cell>
+                     <cell style="text-align: center;">(draft rather than the official nomination document)</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">BGU 1 235 = W.Chr. 399</ref>
+                     </cell>
+                     <cell style="text-align: center;">ca. 164-167</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">3a = P.Mil.Vogl. inv. 777</cell>
+                     <cell style="text-align: center;">168</cell>
+                     <cell style="text-align: center;">(copy from abstract of approvals)</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">3b = <ref target="HYPERLINK">P.Leit. 5 = SB 8 10196 = Pap. Choix 11</ref>
+                     </cell>
+                     <cell style="text-align: center;">168</cell>
+                     <cell style="text-align: center;">(text of approval embedded in a petition)</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">4 = <ref target="HYPERLINK">BGU 1 18 = W.Chr. 398 = Sel. Pap. 2 342</ref>
+                     </cell>
+                     <cell style="text-align: center;">169</cell>
+                     <cell style="text-align: center;">(copy of an approval)</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">BGU 1 91</ref>
+                     </cell>
+                     <cell style="text-align: center;">170-171</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">5 = <ref target="HYPERLINK">SB 14 11613</ref>
+                     </cell>
+                     <cell style="text-align: center;">173</cell>
+                     <cell style="text-align: center;">(abstract from approvals)</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Berl.Leihg. 2 42a</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Berl.Leihg. 2 42b</ref></p>
+                     </cell>
+                     <cell style="text-align: center;">ca. 176-179</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Oxy. 60 4063</ref>
+                     </cell>
+                     <cell style="text-align: center;">183</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arabia</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Oxy. 60 4064</ref>
+                     </cell>
+                     <cell style="text-align: center;">183</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: center;">Arabia</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Oxy. 60 4065</ref>
+                     </cell>
+                     <cell style="text-align: center;">183</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: center;">Arabia</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Oxy. 60 4066</ref>
+                     </cell>
+                     <cell style="text-align: center;">183</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: center;">Arabia</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Oxy. 60 4067</ref>
+                     </cell>
+                     <cell style="text-align: center;">184</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: center;">Arabia</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Petaus 75</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Petaus 76</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Petaus 77</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Petaus 78</ref></p>
+                     </cell>
+                     <cell style="text-align: center;">184</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Petaus 57</ref>
+                     </cell>
+                     <cell style="text-align: center;">184</cell>
+                     <cell style="text-align: center;" cols="2">(atypical format)</cell>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Petaus 53</ref>
+                     </cell>
+                     <cell style="text-align: center;">184-185</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Petaus 54</ref>
+                     </cell>
+                     <cell style="text-align: center;">184-185</cell>
+                     <cell style="text-align: center;">(a quick note that repeats the content of a formal declaration made in <ref target="HYPERLINK">P.Petaus 53</ref>)</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Petaus 86</ref>
+                     </cell>
+                     <cell style="text-align: center;">184-185</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Petaus 46</ref>
+                     </cell>
+                     <cell style="text-align: center;">185</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Petaus 47</ref>
+                     </cell>
+                     <cell style="text-align: center;">185</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Petaus 49</ref>
+                     </cell>
+                     <cell style="text-align: center;">185</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Petaus 59</ref>
+                     </cell>
+                     <cell style="text-align: center;">185</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Petaus 60</ref>
+                     </cell>
+                     <cell style="text-align: center;">185</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Petaus 62</ref>
+                     </cell>
+                     <cell style="text-align: center;">185</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Petaus 84</ref>
+                     </cell>
+                     <cell style="text-align: center;">185</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Petaus 55</ref>
+                     </cell>
+                     <cell style="text-align: center;">185</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Mich. 9 536</ref>
+                     </cell>
+                     <cell style="text-align: center;">185</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">7 = <ref target="HYPERLINK">P.Sijp. 21b</ref>
+                     </cell>
+                     <cell style="text-align: center;">185</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">(abstract from approvals)</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Cynop.</cell>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Petaus 52</ref>
+                     </cell>
+                     <cell style="text-align: center;">185-186</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Petaus 65</ref>
+                     </cell>
+                     <cell style="text-align: center;">before 186</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Gen. 1 2 37</ref>
+                     </cell>
+                     <cell style="text-align: center;">186</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Petaus 56</ref>
+                     </cell>
+                     <cell style="text-align: center;">186-187</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Wisc. 2 85 = SB 8 10193 = P.Leit. 2</ref>
+                     </cell>
+                     <cell style="text-align: center;">197 or 226</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: center;">Oxy.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">BGU 7 1566</ref>
+                     </cell>
+                     <cell style="text-align: center;">198-209</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Cynop.</cell>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Oxy. 47 3344</ref>
+                     </cell>
+                     <cell style="text-align: center;">207</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Oxy.</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">SB 18 13333 = P.Oxy. 9 1197</ref>
+                     </cell>
+                     <cell style="text-align: center;">208</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arabia</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">SB 14 11932 = PSI 12 1244</ref>
+                     </cell>
+                     <cell style="text-align: center;">208</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Lond. 3 1220</ref> (p. 114)</cell>
+                     <cell style="text-align: center;">208-209</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Oxy. 38 2876</ref>
+                     </cell>
+                     <cell style="text-align: center;">212-214</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Memph.</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">SB 22 15784</ref>
+                     </cell>
+                     <cell style="text-align: center;">215-216</cell>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Arsin.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Oxy. 43 3095 = SB 12 10941</ref>
+                     </cell>
+                     <cell style="text-align: center;">217-218</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Oxy.</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Oxy. 17 2120</ref>
+                     </cell>
+                     <cell style="text-align: center;">221</cell>
+                     <cell style="text-align: center;" cols="2">(atypical format)</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Oxy.</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Oxy. 58 3924</ref>
+                     </cell>
+                     <cell style="text-align: center;">223</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Oxy.</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Oxy. 43 3097</ref>
+                     </cell>
+                     <cell style="text-align: center;">224-225</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Oxy.</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Oxy. 43 3098</ref>
+                     </cell>
+                     <cell style="text-align: center;">232-233</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Oxy.</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Oxy. 43 3132</ref>
+                     </cell>
+                     <cell style="text-align: center;">237</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Oxy.</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Oxy. 44 3178</ref>
+                     </cell>
+                     <cell style="text-align: center;">248</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: center;">Heracl.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Oxy. 34 2714</ref>
+                     </cell>
+                     <cell style="text-align: center;">256</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: center;">Oxy.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">10 = <ref target="HYPERLINK">P.Oxy. 10 1254</ref>
+                     </cell>
+                     <cell style="text-align: center;">260</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Cynop.</cell>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Lips. 1 57 R</ref>
+                     </cell>
+                     <cell style="text-align: center;">261</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Herm.</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">11 = <ref target="HYPERLINK">P.Flor. 1 2 Col. 1</ref>
+                     </cell>
+                     <cell style="text-align: center;">265</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Herm.</cell>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <p style="text-align: justify; text-align: left;">12 =</p>
+                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 2</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 3</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 4</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 5</ref></p>
+                     </cell>
+                     <cell style="text-align: center;">265</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Herm.</cell>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">13 = <ref target="HYPERLINK">P.Flor. 1 2 Col. 6</ref>
+                     </cell>
+                     <cell style="text-align: center;">265</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Herm.</cell>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">14 = <ref target="HYPERLINK">P.Flor. 1 2 Col. 7 = W.Chr. 401</ref>
+                     </cell>
+                     <cell style="text-align: center;">265</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Herm.</cell>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">15 = <ref target="HYPERLINK">P.Flor. 1 2 Col. 8</ref>
+                     </cell>
+                     <cell style="text-align: center;">265</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">(letter to the keepers of the archive of property)</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Herm.</cell>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <p style="text-align: justify; text-align: left;">16 =</p>
+                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 9</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 10</ref></p>
+                     </cell>
+                     <cell style="text-align: center;">265</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Herm.</cell>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">17 = <ref target="HYPERLINK">P.Flor. 1 2 Col. 11</ref>
+                     </cell>
+                     <cell style="text-align: center;">265</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Herm.</cell>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Oxy. 31 2569</ref>
+                     </cell>
+                     <cell style="text-align: center;">265</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Oxy.</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Oxy. 46 3294</ref>
+                     </cell>
+                     <cell style="text-align: center;">271</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: center;">Oxy.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">PSI 12 1231</ref>
+                     </cell>
+                     <cell style="text-align: center;">274</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: center;">Oxy.</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="HYPERLINK">P.Oxy. 36 2764</ref>
+                     </cell>
+                     <cell style="text-align: center;">277</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">X</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Oxy.</cell>
+                  </row>
+               </table>
+               <p xml:id="p30">The data collected here covers a period of roughly a century and a half, and lists documents from several areas of Egypt: apart from the Arsinoite nome, we find the Hermopolite, Cynopolite, Oxyrhynchite, Heracleopolite, Memphite, and the nome of Arabia.</p>
+               <p xml:id="p31">Fig. 4: nomes of provenance of the documents pertaining to liturgy (nominations, approvals, oaths).</p>
+               <p xml:id="p32">In spite of this diversity, and of the fact that not every aspect is represented in each area throughout the whole period considered here, several patterns emerge from the data. For these patterns to emerge, particular attention should be paid to the format (pagina vs. demotic style) in relation with the nome of provenance (esp. Arsinoite vs. other nomes).</p>
+               <p xml:id="p33">The pagina format appears only in the Arsinoite nome, except for two atypical cases.<note place="foot" xml:id="ftn21" n="21"><p> <ref target="HYPERLINK">P.Lond. 3 1159</ref> (144-147, Hermopolite nome; p. 112) consists of a register with four columns. The size of the list may have affected the choice of format. <ref target="HYPERLINK">P.Leit. 1 = SB 8 10192</ref> (ca. 160, Oxyrhynchite nome) is presumably a draft, and not an original declaration. Lewis 1963: 5: “As the text is undated and indicates neither sender nor addressee, it is presumably a draft rather than the official nomination document.” This hypothesis finds confirmation in the parallel between <ref target="HYPERLINK">P.Petaus 53</ref> and <ref target="HYPERLINK">54</ref>, the first being a formal declaration, and the second, a note that repeats the same data.</p></note> The variety of other provenances suggests that it is the Arsinoite format that constitutes an exception, and that documents pertaining to liturgy were, on a standard basis, prepared in the demotic style format in other parts of Egypt.</p>
+               <p xml:id="p34">Documents from the nome of Arabia in 184-185, in the demotic style format, offer a striking contrast to those from the Petaus Archive (Arsinoite nome), dating from precisely the same period, in the pagina format. Also, two oaths from the Oxyrhynchite nome dating from the 130s (<ref target="HYPERLINK">SB 14 12168</ref> and <ref target="HYPERLINK">P.Oxy. 61 4113</ref>) already display the characteristic shape of the sheet that is still attested more than a century later in the same nome.</p>
+               <p xml:id="p35">In a broader perspective, the dimensions of these two documents are also similar to some of the so-called private protocols from Oxyrhynchus, i.e. a form of contract that seems to follow the formulation in use in documents written by notarial offices, but display features that belong to privately drafted contracts.<note place="foot" xml:id="ftn22" n="22"><p> Wolff 1975; Wolff 1978:122-127.</p></note> For private protocols, this format is well attested throughout the second and third centuries CE.<note place="foot" xml:id="ftn23" n="23"><p> E.g. <ref target="HYPERLINK">P.Oxy. 22 2351</ref> (112); <ref target="HYPERLINK">3 499 = Sel. Pap. 1 42</ref> (121); <ref target="HYPERLINK">3 502</ref> (164); <ref target="HYPERLINK">8 1127</ref> (183); <ref target="HYPERLINK">50 3591</ref> (219 ); <ref target="HYPERLINK">P.Mich. 11 610</ref> (282).</p></note></p>
+               <p xml:id="p36">In the columns of the table where nomination to liturgy and approval of liturgy are recorded (with the corresponding nome of provenance of the document), some cases have been highlighted in bold characters: these are documents where either the scribe left a space for the strategos to add his approval, or the space was actually filled with the strategos’ approval. They form a clear cluster in the period from 248 till 274. In contrast, nominations from the nome of Arabia from the 180s do not leave any space for the approval at the top; neither does a nomination from the Oxyrhynchite nome dated 197 or 226 (<ref target="HYPERLINK">P.Wisc. 2 85</ref>).</p>
+               <p xml:id="p37"><ref target="HYPERLINK">BGU 7 1566</ref> (198-209, Cynopolite nome) deserves a special mention. The papyrus was lost, presumably destroyed during World War II, and its dimensions are not given in the edition. The editor, however, recorded in 1926 the presence of a date at the top of the sheet: Ἁθὺρ ζ [ . A comparison with 10 = <ref target="HYPERLINK">P.Oxy. 10 1254</ref> (260, also from the Cynopolite nome) suggests that the top of <ref target="HYPERLINK">BGU 7 1566</ref> was missing: it should have contained the approval by the strategos, which is still preserved in <ref target="HYPERLINK">P.Oxy. 10 1254</ref>.1-13 and ends with a date (Χοίακ α). Therefore, the procedure by which the strategos added a note at the top of the nomination, effectively turning it into an approval, could already have been in force in the early third century. <ref target="HYPERLINK">P.Wisc. 2 85</ref>, mentioned above, would then be dated to 197 (rather than 226), and the change of practice would have taken place shortly thereafter, as attested by <ref target="HYPERLINK">BGU 7 1566</ref>. Incidentally, since the latter can be identified as a fragmentary approval of nomination, it could be added to Stroppa’s list of “bandi liturgici”. This chain of argument, however, rests on meagre evidence, and only some additional discoveries could either confirm or disprove what remains, at this stage, a working hypothesis.</p>
+               <p xml:id="p38">The evidence from the Arsinoite nome becomes elusive after the first quarter of the third century. One tantalizing clue is offered by <ref target="HYPERLINK">SB 22 15784</ref>, a nomination to liturgy listed above (215-216, Philadelphia [Ars. nome]). In the editio princeps, Piet Sijpestein noted the following: “3 cm above line 1 minimal remains of two lines of writing (in the second line perhaps ]ω̣τιω̣[). I do not know if and/or how these remains are connected with the text printed here.”<note place="foot" xml:id="ftn24" n="24"><p> Sijpesteijn 1995: 219, n. 23.</p></note> The plate used to illustrate the text does not provide any clearer detail than what Sijpesteijn described; therefore, it is not possible to determine whether the top margin preserves the remains of an approval of nomination added by the strategos.<note place="foot" xml:id="ftn25" n="25"><p> In another case, <ref target="HYPERLINK">SB VI 9543 = P.Heid. II 223</ref> (224-224, Tebtynis [Ars. nome]), a nomination to liturgy too fragmentary to be listed above, part of the top margin is preserved; but it is not possible to ascertain if it could accommodate an approval by the strategos.</p></note> A confirmation of this last point would suggest that the practice was already in force in the Arsinoite in the early third century; but here again, the evidence is too flimsy to allow any firm conclusion.</p>
+               <p xml:id="p39">Conclusion</p>
+               <p xml:id="p40">To Stroppa’s fundamental contribution to the understanding of approvals to liturgy, several points can now be added:</p>
+               <p xml:id="p41">The model proposed here relies on abundant, but nonetheless patchy evidence. We lack original nominations and approvals for the period from the 130s till the 180s (only copies or abstracts are preserved); and for the most part we are still ignorant of how the relevant documents from the Arsinoite nome looked in the third century. Some additional finds will enable us to confirm, refute, or refine the model.</p>
+               <p xml:id="p42">We can only guess at the reason for the difference of format between the Arsinoite nome and other areas in Egypt. When considering the format of private letters, Sarri observed that the transuersa charta format gradually receded in the whole of Egypt, in favour of the pagina format, with a turning point in the first century BCE.<note place="foot" xml:id="ftn26" n="26"><p> Sarri 2018: 105.</p></note> The latter format was presumably deemed more elegant: Sarri notes that “most of the third and second century BCE letters that employ it were sent by relatively well educated individuals”.<note place="foot" xml:id="ftn27" n="27"><p> Sarri 2018: 97-98.</p></note> She also states that the demotic style format for letters was abandoned in the first century BCE.</p>
+               <p xml:id="p43">A survival of the demotic style format in documents pertaining to liturgy may reflect a conservative trend that endured into the Roman period in many places in Egypt. It seems to apply not only to documents pertaining to liturgy, but – in Oxyrhynchus – also to other specific types, such as private protocols. In the Arsinoite nome, the pagina format apparently became ubiquitous, not only for writing letters, but also for administrative purposes. It was used for declarations, and scribes quite naturally applied this format to matters relating to liturgy.</p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl><ref target="https://papyri.info/biblio/31342">Bagnall, R.S. (2001)</ref> review of Drecoll 1997, Gnomon 73: 459-461. (<ref target="https://www.jstor.org/stable/40493597">https://www.jstor.org/stable/40493597</ref>)</bibl>
+                  <bibl><ref target="https://papyri.info/biblio/14749">Drecoll, C. (1997)</ref> Die Liturgien im römischen Kaiserreich des 3. und 4. Jh. n.Chr. Untersuchung über Zugang, Inhalt und wirtschaftliche Bedeutung der öffentlichen Zwangsdienste in Ägypten und anderen Provinzen. Stuttgart.</bibl>
+                  <bibl><ref target="https://papyri.info/biblio/6411">Lewis, N. (1963)</ref>, “Leitourgia Papyri: Documents on Compulsory Public Service in Egypt under Roman Rule”, Transactions of the American Philosophical Society 53: 1-39 [= P.Leit.].</bibl>
+                  <bibl><ref target="https://papyri.info/biblio/14864">Lewis, N. (1997)</ref> The Compulsory Public Services of Roman Egypt (Second Edition), Papyrologica Florentina 28. Firenze.</bibl>
+                  <bibl><ref target="https://papyri.info/biblio/95857">Reiter, F. (2013)</ref> “Liturgy, Greco-Roman Egypt”, The Encyclopedia of Ancient History 8: 4117-4119. (<ref target="https://doi.org/10.1002/9781444338386.wbeah07057">https://doi.org/10.1002/9781444338386.wbeah07057</ref>)</bibl>
+                  <bibl><ref target="https://papyri.info/biblio/95860">Sarri, A. (2018)</ref> Material aspects of letter writing in the Graeco-Roman world. (Berlin and Boston).</bibl>
+                  <bibl><ref target="https://papyri.info/biblio/65264">Sijpesteijn, P.J. (1995)</ref> “Known and unknown officials”, ZPE 106: 203-234. (<ref target="https://www.jstor.org/stable/20189314">https://www.jstor.org/stable/20189314</ref>)</bibl>
+                  <bibl><ref target="https://papyri.info/biblio/73668">Stroppa, M. (2004)</ref> “Il termine πρόγραμμα nella documentazione papiracea dell’Egitto romano”, Aegyptus 84: 177-200. (<ref target="https://www.jstor.org/stable/41217410">https://www.jstor.org/stable/41217410</ref>)</bibl>
+                  <bibl><ref target="https://papyri.info/biblio/95861">Stroppa, M. (2017)</ref> I bandi liturgici nell’Egitto romano, Edizioni dell’Istituto papirologico “G. Vitelli” 6. Firenze.</bibl>
+                  <bibl><ref target="https://papyri.info/biblio/51055">Thomas, J.D. (1975)</ref> “The introduction of dekaprotoi and comarchs into Egypt in the 3rd century A.D.”, ZPE 19: 111-119. (<ref target="https://www.jstor.org/stable/20180948">https://www.jstor.org/stable/20180948</ref>)</bibl>
+                  <bibl><ref target="https://papyri.info/biblio/40297">Tomsin, A. (1952)</ref> Étude sur les πρεσβύτεροι des villages de la χώρα égyptienne, Académie Royale de Belgique, Bulletin de la classe de lettres 5.38. Bruxelles.</bibl>
+                  <bibl><ref target="https://papyri.info/biblio/95858">Wilcken, U. (1906)</ref> “Referate und Besprechungen”, APF 3: 529-538. (<ref target="https://www.degruyter.com/document/doi/10.1515/apf.1906.3.4.443/html">https://www.degruyter.com/document/doi/10.1515/apf.1906.3.4.443/html</ref>)</bibl>
+                  <bibl><ref target="https://papyri.info/biblio/95859">Wilcken, U. (1908)</ref> “Zu den Florentiner und den Leipziger Papyri”, APF 4: 423-486.</bibl>
+                  <bibl><ref target="https://papyri.info/biblio/51128">Wolff, H.-J. (1975)</ref> “The so-called Private Protocol”, in Proceedings of the XIV International Congress of Papyrologists (London): 349-354.</bibl>
+                  <bibl><ref target="https://papyri.info/biblio/9194">Wolff, H.-J. (1978)</ref> Das Recht der griechischen Papyri Ägytens in der Zeit der Ptolemaeer und des Prinzipats. 2. Organisation und Kontrolle des privaten Rechtsverkehrs. München.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
