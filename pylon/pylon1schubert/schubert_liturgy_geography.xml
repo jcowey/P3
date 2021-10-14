@@ -52,7 +52,7 @@
             </div>
             <div type="section">
                <head>The corpus of approvals of nomination to liturgy (προγράμματα)</head>
-               <p xml:id="p4">The corpus assembled by Stroppa consists of a series of items dating from 135 to 265 CE (1-17), and of an addition from 247 (18 = <ref target="HYPERLINK">BGU 1 7</ref>), the inclusion of which in the corpus remains debatable.<note place="foot" xml:id="ftn9" n="9"><p> All dates, unless otherwise stated, are CE. For the sake of convenience, Stroppa’s numbering, in bold characters, will be used here, together with the standard reference to each papyrus when appropriate. On 18, see Stroppa 2017: 117-118: the strategos publicly endorses a nomination, made by δεκάπρωτοι, of farmers who are to undertake the cultivation of a piece of land. The δεκάπρωτοι are not directly involved in nominations to liturgy, but only take part in the collection of taxes.</p></note> It seems that most of the papyri are either copies of approvals that were kept among official records, or abstracts made from those records for the use of individuals. Thus, the preserved documents were actually not posted publicly, with one possible exception: the unusual format of 8 (= <ref target="HYPERLINK">P.Leit. 11</ref>), written across the fibres, and perhaps originally squarish in shape, may suggest that this approval was posted publicly; but Stroppa refrains – wisely – from drawing a firm conclusion on the matter.<note place="foot" xml:id="ftn10" n="10"><p> Stroppa 2017: 11-12.</p></note></p>
+               <p xml:id="p4">The corpus assembled by Stroppa consists of a series of items dating from 135 to 265 CE (1-17), and of an addition from 247 (18 = <ref target="https://papyri.info/hgv/9114">BGU 1 7</ref>), the inclusion of which in the corpus remains debatable.<note place="foot" xml:id="ftn9" n="9"><p> All dates, unless otherwise stated, are CE. For the sake of convenience, Stroppa’s numbering, in bold characters, will be used here, together with the standard reference to each papyrus when appropriate. On 18, see Stroppa 2017: 117-118: the strategos publicly endorses a nomination, made by δεκάπρωτοι, of farmers who are to undertake the cultivation of a piece of land. The δεκάπρωτοι are not directly involved in nominations to liturgy, but only take part in the collection of taxes.</p></note> It seems that most of the papyri are either copies of approvals that were kept among official records, or abstracts made from those records for the use of individuals. Thus, the preserved documents were actually not posted publicly, with one possible exception: the unusual format of 8 (= <ref target="HYPERLINK">P.Leit. 11</ref>), written across the fibres, and perhaps originally squarish in shape, may suggest that this approval was posted publicly; but Stroppa refrains – wisely – from drawing a firm conclusion on the matter.<note place="foot" xml:id="ftn10" n="10"><p> Stroppa 2017: 11-12.</p></note></p>
                <p xml:id="p5">The following table conflates the data provided by Stroppa in two different lists, thus making it possible to view at once the nome of provenance of each item.<note place="foot" xml:id="ftn11" n="11"><p> Stroppa 2017: 3-7 and 9.</p></note> This will prove useful because, among the parameters to be considered, provenance does not seem to play a significant role in Stroppa’s overview.</p>
                <table>
                   <head>Table 1: list of approvals of nomination to liturgy</head>                  
@@ -66,7 +66,7 @@
                   <row>
                      <cell style="text-align: left;">1</cell>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">SB 16 12504</ref> col. 1</cell>
+                        <ref target="https://papyri.info/hgv/14600">SB 16 12504</ref> col. 1</cell>
                      <cell style="text-align: center;">135</cell>
                      <cell style="text-align: center;">Arsinoite</cell>
                      <cell style="text-align: left;">copy of an approval, abstract from the records of the archive for public matters (βιβλιοθήκη δημοσίων λόγων)</cell>
@@ -74,7 +74,7 @@
                   <row>
                      <cell style="text-align: left;">2</cell>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">SB 16 12504</ref> col. 2</cell>
+                        <ref target="https://papyri.info/hgv/14600">SB 16 12504</ref> col. 2</cell>
                      <cell style="text-align: center;">136</cell>
                      <cell style="text-align: center;">Arsinoite</cell>
                      <cell style="text-align: left;">copy of an approval, abstract from the records of the archive for public matters</cell>
@@ -89,7 +89,7 @@
                   <row>
                      <cell style="text-align: left;">3b</cell>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">P.Leit. 5 = SB 8 10196</ref>
+                        <ref target="https://papyri.info/hgv/11615">P.Leit. 5 = SB 8 10196</ref>
                      </cell>
                      <cell style="text-align: center;">168</cell>
                      <cell style="text-align: center;">Arsinoite</cell>
@@ -98,7 +98,7 @@
                   <row>
                      <cell style="text-align: left;">4</cell>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">BGU 1 18 = W.Chr. 398 = Sel. Pap. 2 342</ref>
+                        <ref target="https://papyri.info/hgv/8942">BGU 1 18 = W.Chr. 398 = Sel. Pap. 2 342</ref>
                      </cell>
                      <cell style="text-align: center;">169</cell>
                      <cell style="text-align: center;">Arsinoite</cell>
@@ -107,7 +107,7 @@
                   <row>
                      <cell style="text-align: left;">5</cell>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">SB 14 11613</ref>
+                        <ref target="https://papyri.info/hgv/14499">SB 14 11613</ref>
                      </cell>
                      <cell style="text-align: center;">173</cell>
                      <cell style="text-align: center;">Arsinoite</cell>
@@ -116,7 +116,7 @@
                   <row>
                      <cell style="text-align: left;">6</cell>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">PSI 17 1683</ref>
+                        <ref target="https://papyri.info/hgv/748650">PSI 17 1683</ref>
                      </cell>
                      <cell style="text-align: center;">182</cell>
                      <cell style="text-align: center;">(unknown)</cell>
@@ -125,7 +125,7 @@
                   <row>
                      <cell style="text-align: left;">7</cell>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">P.Sijp. 21b</ref>
+                        <ref target="https://papyri.info/hgv/110156">P.Sijp. 21b</ref>
                      </cell>
                      <cell style="text-align: center;">185</cell>
                      <cell style="text-align: center;">Cynopolite</cell>
@@ -134,7 +134,7 @@
                   <row>
                      <cell style="text-align: left;">8</cell>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">P.Leit. 11 = SB 8 10203</ref>
+                        <ref target="https://papyri.info/hgv/11612">P.Leit. 11 = SB 8 10203</ref>
                      </cell>
                      <cell style="text-align: center;">186</cell>
                      <cell style="text-align: center;">Arsinoite</cell>
@@ -143,7 +143,7 @@
                   <row>
                      <cell style="text-align: left;">9</cell>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">SB 6 9331 V = P.Bacch. 25 V</ref>
+                        <ref target="https://papyri.info/hgv/14149">SB 6 9331 V = P.Bacch. 25 V</ref>
                      </cell>
                      <cell style="text-align: center;">204</cell>
                      <cell style="text-align: center;">Arsinoite</cell>
@@ -152,7 +152,7 @@
                   <row>
                      <cell style="text-align: left;">10</cell>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">P.Oxy. 10 1254</ref>
+                        <ref target="https://papyri.info/hgv/21792">P.Oxy. 10 1254</ref>
                      </cell>
                      <cell style="text-align: center;">260</cell>
                      <cell style="text-align: center;">Cynopolite</cell>
@@ -161,7 +161,7 @@
                   <row>
                      <cell style="text-align: left;">11</cell>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">P.Flor. 1 2 Col. 1</ref>
+                        <ref target="https://papyri.info/hgv/23526">P.Flor. 1 2 Col. 1</ref>
                      </cell>
                      <cell style="text-align: center;">265</cell>
                      <cell style="text-align: center;">Hermopolite</cell>
@@ -170,10 +170,10 @@
                   <row>
                      <cell style="text-align: left;">12</cell>
                      <cell style="text-align: left;">
-                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 2</ref></p>
-                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 3</ref></p>
-                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 4</ref></p>
-                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 5</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="https://papyri.info/hgv/23527">P.Flor. 1 2 Col. 2</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="https://papyri.info/hgv/23528">P.Flor. 1 2 Col. 3</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="https://papyri.info/hgv/23529">P.Flor. 1 2 Col. 4</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="https://papyri.info/hgv/23530">P.Flor. 1 2 Col. 5</ref></p>
                      </cell>
                      <cell style="text-align: center;">265</cell>
                      <cell style="text-align: center;">Hermopolite</cell>
@@ -182,7 +182,7 @@
                   <row>
                      <cell style="text-align: left;">13</cell>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">P.Flor. 1 2 Col. 6</ref>
+                        <ref target="https://papyri.info/hgv/23531">P.Flor. 1 2 Col. 6</ref>
                      </cell>
                      <cell style="text-align: center;">265</cell>
                      <cell style="text-align: center;">Hermopolite</cell>
@@ -191,7 +191,7 @@
                   <row>
                      <cell style="text-align: left;">14</cell>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">P.Flor. 1 2 Col. 7 = W.Chr. 401</ref>
+                        <ref target="https://papyri.info/hgv/23532">P.Flor. 1 2 Col. 7 = W.Chr. 401</ref>
                      </cell>
                      <cell style="text-align: center;">265</cell>
                      <cell style="text-align: center;">Hermopolite</cell>
@@ -200,7 +200,7 @@
                   <row>
                      <cell style="text-align: left;">15</cell>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">P.Flor. 1 2 Col. 8</ref>
+                        <ref target="https://papyri.info/hgv/23533">P.Flor. 1 2 Col. 8</ref>
                      </cell>
                      <cell style="text-align: center;">265</cell>
                      <cell style="text-align: center;">Hermopolite</cell>
@@ -209,8 +209,8 @@
                   <row>
                      <cell style="text-align: left;">16</cell>
                      <cell style="text-align: left;">
-                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 9</ref></p>
-                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 10</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="https://papyri.info/hgv/23534">P.Flor. 1 2 Col. 9</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="https://papyri.info/hgv/23535">P.Flor. 1 2 Col. 10</ref></p>
                      </cell>
                      <cell style="text-align: center;">265</cell>
                      <cell style="text-align: center;">Hermopolite</cell>
@@ -219,7 +219,7 @@
                   <row>
                      <cell style="text-align: left;">17</cell>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">P.Flor. 1 2 Col. 11</ref>
+                        <ref target="https://papyri.info/hgv/23536">P.Flor. 1 2 Col. 11</ref>
                      </cell>
                      <cell style="text-align: center;">265</cell>
                      <cell style="text-align: center;">Hermopolite</cell>
@@ -228,7 +228,7 @@
                   <row>
                      <cell style="text-align: left;">(18)</cell>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">BGU 1 7</ref>
+                        <ref target="https://papyri.info/hgv/9114">BGU 1 7</ref>
                      </cell>
                      <cell style="text-align: center;">247</cell>
                      <cell style="text-align: center;">Arsinoite</cell>
@@ -244,7 +244,7 @@
                   <head>Fig. 1: nomination to liturgy / approval of nomination.</head>
                </figure>   
                <p xml:id="p7"><ref target="HYPERLINK">P.Oxy. 34 2714</ref> (256, Oxyrhynchus) is a nomination to liturgy, written on a long and narrow, vertical sheet of papyrus. The scribe who prepared the document on behalf of two κωμάρχαι centred the text vertically, leaving ample margins at the top and bottom of the sheet. These two margins provide windows for additional data to be inserted; and indeed, in the bottom margin, a transmission docket was entered, without occupying the whole space available: the κωμάρχαι state that they have submitted the nomination, and a literate scribe writes on their behalf because they cannot write. The top margin, however, remained blank.</p>
-               <p xml:id="p8">Comparison with an approval of nomination, 10 = <ref target="HYPERLINK">P.Oxy. 10 1254</ref> (260, Cynopolite nome), provides an explanation for the process.<note place="foot" xml:id="ftn12" n="12"><p> A plate of 10 is available in Stroppa 2017: Tavola XI.</p></note> The scribe cut from a roll a sheet of papyrus of the same shape as that of <ref target="HYPERLINK">P.Oxy. 34 2714</ref>, and arranged the text of a nomination likewise in the central part of the sheet, leaving ample top and bottom margins. A transmission docket was then added at the bottom, and the top margin was used by the strategos to give his approval. Therefore, the top and bottom margins in such nominations to liturgy were intended for the next stage in the procedure, by which the nomination to liturgy would become an approval of nomination. In other words, nomination to liturgy and approval of nomination are, in this case, one and the same document, but at two subsequent stages of the procedure.</p>
+               <p xml:id="p8">Comparison with an approval of nomination, 10 = <ref target="https://papyri.info/hgv/21792">P.Oxy. 10 1254</ref> (260, Cynopolite nome), provides an explanation for the process.<note place="foot" xml:id="ftn12" n="12"><p> A plate of 10 is available in Stroppa 2017: Tavola XI.</p></note> The scribe cut from a roll a sheet of papyrus of the same shape as that of <ref target="HYPERLINK">P.Oxy. 34 2714</ref>, and arranged the text of a nomination likewise in the central part of the sheet, leaving ample top and bottom margins. A transmission docket was then added at the bottom, and the top margin was used by the strategos to give his approval. Therefore, the top and bottom margins in such nominations to liturgy were intended for the next stage in the procedure, by which the nomination to liturgy would become an approval of nomination. In other words, nomination to liturgy and approval of nomination are, in this case, one and the same document, but at two subsequent stages of the procedure.</p>
                <p xml:id="p9">This is not an isolated phenomenon. Other nominations to liturgy from the Oxyrhynchite nome display, in the same period, a similar format and layout with ample top and bottom margin, the latter containing the transmission docket: see e.g. <ref target="HYPERLINK">PSI 12 1231</ref> (274); <ref target="HYPERLINK">P.Oxy. 46 3294</ref> (272). This occurs also in another nomination to liturgy submitted to the strategos of the Heracleopolite nome, <ref target="HYPERLINK">P.Oxy. 44 3178</ref> (248).</p>
                <p xml:id="p10">The same practice appears in the Hermopolite nome as well; it was already identified and described by Ulrich Wilcken.<note place="foot" xml:id="ftn13" n="13"><p> Wilcken 1906: 530; Wilcken 1908: 424.</p></note> Stroppa republishes the remains of a τόμος συγκολλήσιμος, i.e. a roll made of several approvals of nomination that were prepared in a similar fashion, 11-17 = P.Flor. 1 2 (265).<note place="foot" xml:id="ftn14" n="14"><p> Images are provided by Stroppa 2017: Tavole XII – XXV.</p></note> A scribe prepared the nomination in the central part of each sheet, leaving ample top and bottom margins; a transmission docket was added at the bottom; then the strategos added his approval at the top. In 12 and 16, the approval runs horizontally across several nominations, which indicates that the strategos made this addition only after the sheets were pasted together. This does not imply, however, that these copies of the approvals were publicly posted: they were presumably kept in the strategos’ records, and other copies – lost to us – were posted for all to read.</p>
                <p xml:id="p11">Thus, it appears that, around the mid-third century CE, in several nomes of Egypt (Oxyrhynchite, Cynopolite, Heracleopolite, Hermopolite), scribes followed a similar procedure by which they wrote nominations to liturgy in the central part of a sheet, leaving space in the top and bottom margin for the next steps to take place, i.e. transmission docket (bottom margin) and approval of nomination (top margin). This emerging pattern will find confirmation in a more comprehensive list of evidence that will be discussed below.</p>
@@ -261,7 +261,7 @@
             <div type="section">
                <head>The Arsinoite nome: a special case?</head>
                <p xml:id="p14">We must now turn to material relating to liturgy in the Arsinoite nome, where both format and layout differ markedly from the descriptions made above. It should be noted, however, that a comparison of the Arsinoite material with documents from other areas of Egypt is hampered by a double discrepancy – of place and time – regarding the available data: in the second century CE, the evidence comes mainly from the Arsinoite nome (and most of it from the Petaus archive); in the third century, documents from the Arsinoite relating to liturgy become scarce and fragmentary, but other nomes are better represented.</p>
-               <p xml:id="p15">Moreover, some of the evidence from the Arsinoite nome relating to approvals of nomination consists of copies or abstracts from records, which have not retained the format and layout of the original documents (see esp. 1-5, ranging from 135 till 173). The raw text could be inserted in the body of another document, as in 3a (= P.Mil.Vogl. inv. 777) and 3b (<ref target="HYPERLINK">P.Leit. 5 = SB 8 10196 = Pap. Choix 11</ref>): the first is the copy of an approval of nomination, presumably an abstract from the strategos’ records; and the second is a petition that quotes the approval in exactly the same words. Neither in 3a nor in 3b did the format or layout of the original approval matter to the scribe who prepared the documents.</p>
+               <p xml:id="p15">Moreover, some of the evidence from the Arsinoite nome relating to approvals of nomination consists of copies or abstracts from records, which have not retained the format and layout of the original documents (see esp. 1-5, ranging from 135 till 173). The raw text could be inserted in the body of another document, as in 3a (= P.Mil.Vogl. inv. 777) and 3b (<ref target="https://papyri.info/hgv/11615">P.Leit. 5 = SB 8 10196 = Pap. Choix 11</ref>): the first is the copy of an approval of nomination, presumably an abstract from the strategos’ records; and the second is a petition that quotes the approval in exactly the same words. Neither in 3a nor in 3b did the format or layout of the original approval matter to the scribe who prepared the documents.</p>
                <p xml:id="p16">Moving back from approvals towards nominations to liturgy from the Arsinoite nome, we have some original documents preserved. Those were prepared in the pagina format. Sarri, writing about private letters, notes that, in this format – widely used in the Roman period, as stated above – the height of rolls rarely exceeded 28 cm.<note place="foot" xml:id="ftn18" n="18"><p> Sarri 2018: 107.</p></note> As a matter of fact, the format of letters in the pagina format from the Arsinoite nome is remarkably consistent: among the 23 cases from the first three centuries CE listed by Sarri (excluding one with a horizontal format and one with two columns), the average dimensions are: height 22.7 cm; width 11.6 cm, with a ratio width/height of 0.5.<note place="foot" xml:id="ftn19" n="19"><p> Sarri 2018: 341-345.</p></note> This corresponds to the format used in the Arsinoite nome also for administrative documents such as declarations, petitions etc.; and this format prevails among nominations to liturgy, e.g. <ref target="HYPERLINK">P.Gen. 1 2 37 = W.Chr. 400</ref>.</p>
                <p xml:id="p17">This last document may also be used to illustrate the specific layout of documents pertaining to liturgy in the Arsinoite nome. The scribe preparing a nomination to liturgy starts at the top of the sheet (without leaving any significant margin), writes the nomination in one block of text, and adds the date at the bottom of the sheet, leaving a window between the main text and the date (<ref target="HYPERLINK">P.Gen. 1 2 37</ref>). In the window, a transmission docket is added (e.g. <ref target="HYPERLINK">P.Mich. 9 536</ref>, a relatively short sheet, nonetheless to be placed in the category of pagina format).</p>
                <figure>
@@ -285,7 +285,7 @@
                   </row>
                   <row>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">SB 14 12168</ref>
+                        <ref target="https://papyri.info/hgv/18198">SB 14 12168</ref>
                      </cell>
                      <cell style="text-align: center;">130</cell>
                      <cell style="text-align: left;"/>
@@ -295,7 +295,7 @@
                      <cell style="text-align: center;">Oxy.</cell>
                   </row>
                   <row>
-                     <cell style="text-align: left;">1-2 = <ref target="HYPERLINK">SB 16 12504</ref>
+                     <cell style="text-align: left;">1-2 = <ref target="https://papyri.info/hgv/14600">SB 16 12504</ref>
                      </cell>
                      <cell style="text-align: center;">135-136</cell>
                      <cell style="text-align: center;">(copies of two approvals)</cell>
@@ -306,7 +306,7 @@
                   </row>
                   <row>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">P.Oxy. 61 4113</ref>
+                        <ref target="https://papyri.info/hgv/21618">P.Oxy. 61 4113</ref>
                      </cell>
                      <cell style="text-align: center;">138</cell>
                      <cell style="text-align: left;"/>
@@ -317,7 +317,7 @@
                   </row>
                   <row>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">SB 24 15904</ref>
+                        <ref target="https://papyri.info/hgv/41499">SB 24 15904</ref>
                      </cell>
                      <cell style="text-align: center;">139-142 (?)</cell>
                      <cell style="text-align: center;">X</cell>
@@ -328,7 +328,7 @@
                   </row>
                   <row>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">P.Lond. 3 1159</ref> (p. 112)</cell>
+                        <ref target="https://papyri.info/hgv/22811">P.Lond. 3 1159</ref> (p. 112)</cell>
                      <cell style="text-align: center;">144-147</cell>
                      <cell style="text-align: center;">X</cell>
                      <cell style="text-align: left;"/>
@@ -338,7 +338,7 @@
                   </row>
                   <row>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">P.Louvre 2 114</ref>
+                        <ref target="https://papyri.info/hgv/88781">P.Louvre 2 114</ref>
                      </cell>
                      <cell style="text-align: center;">ca. 150-175</cell>
                      <cell style="text-align: center;">(draft rather than the official nomination document)</cell>
@@ -349,7 +349,7 @@
                   </row>
                   <row>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">P.Ryl. 2 88</ref>
+                        <ref target="https://papyri.info/hgv/13007">P.Ryl. 2 88</ref>
                      </cell>
                      <cell style="text-align: center;">156</cell>
                      <cell style="text-align: center;">X</cell>
@@ -360,7 +360,7 @@
                   </row>
                   <row>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">P.Leit. 1 = SB VIII 10192</ref>
+                        <ref target="https://papyri.info/hgv/23653">P.Leit. 1 = SB VIII 10192</ref>
                      </cell>
                      <cell style="text-align: center;">ca. 160</cell>
                      <cell style="text-align: center;">(draft rather than the official nomination document)</cell>
@@ -371,7 +371,7 @@
                   </row>
                   <row>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">P.Berl.Leihg. 2 45</ref>
+                        <ref target="https://papyri.info/hgv/10233">P.Berl.Leihg. 2 45</ref>
                      </cell>
                      <cell style="text-align: center;">ca. 164-165</cell>
                      <cell style="text-align: center;">(draft rather than the official nomination document)</cell>
@@ -382,7 +382,7 @@
                   </row>
                   <row>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">BGU 1 235 = W.Chr. 399</ref>
+                        <ref target="https://papyri.info/hgv/8997">BGU 1 235 = W.Chr. 399</ref>
                      </cell>
                      <cell style="text-align: center;">ca. 164-167</cell>
                      <cell style="text-align: center;">X</cell>
@@ -401,7 +401,7 @@
                      <cell style="text-align: left;"/>
                   </row>
                   <row>
-                     <cell style="text-align: left;">3b = <ref target="HYPERLINK">P.Leit. 5 = SB 8 10196 = Pap. Choix 11</ref>
+                     <cell style="text-align: left;">3b = <ref target="https://papyri.info/hgv/11615">P.Leit. 5 = SB 8 10196 = Pap. Choix 11</ref>
                      </cell>
                      <cell style="text-align: center;">168</cell>
                      <cell style="text-align: center;">(text of approval embedded in a petition)</cell>
@@ -411,7 +411,7 @@
                      <cell style="text-align: left;"/>
                   </row>
                   <row>
-                     <cell style="text-align: left;">4 = <ref target="HYPERLINK">BGU 1 18 = W.Chr. 398 = Sel. Pap. 2 342</ref>
+                     <cell style="text-align: left;">4 = <ref target="https://papyri.info/hgv/8942">BGU 1 18 = W.Chr. 398 = Sel. Pap. 2 342</ref>
                      </cell>
                      <cell style="text-align: center;">169</cell>
                      <cell style="text-align: center;">(copy of an approval)</cell>
@@ -422,7 +422,7 @@
                   </row>
                   <row>
                      <cell style="text-align: left;">
-                        <ref target="HYPERLINK">BGU 1 91</ref>
+                        <ref target="https://papyri.info/hgv/9133">BGU 1 91</ref>
                      </cell>
                      <cell style="text-align: center;">170-171</cell>
                      <cell style="text-align: center;">X</cell>
@@ -432,7 +432,7 @@
                      <cell style="text-align: left;"/>
                   </row>
                   <row>
-                     <cell style="text-align: left;">5 = <ref target="HYPERLINK">SB 14 11613</ref>
+                     <cell style="text-align: left;">5 = <ref target="https://papyri.info/hgv/14499">SB 14 11613</ref>
                      </cell>
                      <cell style="text-align: center;">173</cell>
                      <cell style="text-align: center;">(abstract from approvals)</cell>
@@ -665,7 +665,7 @@
                      <cell style="text-align: left;"/>
                   </row>
                   <row>
-                     <cell style="text-align: left;">7 = <ref target="HYPERLINK">P.Sijp. 21b</ref>
+                     <cell style="text-align: left;">7 = <ref target="https://papyri.info/hgv/110156">P.Sijp. 21b</ref>
                      </cell>
                      <cell style="text-align: center;">185</cell>
                      <cell style="text-align: left;"/>
@@ -893,7 +893,7 @@
                      <cell style="text-align: left;"/>
                   </row>
                   <row>
-                     <cell style="text-align: left;">10 = <ref target="HYPERLINK">P.Oxy. 10 1254</ref>
+                     <cell style="text-align: left;">10 = <ref target="https://papyri.info/hgv/21792">P.Oxy. 10 1254</ref>
                      </cell>
                      <cell style="text-align: center;">260</cell>
                      <cell style="text-align: left;"/>
@@ -914,7 +914,7 @@
                      <cell style="text-align: center;">Herm.</cell>
                   </row>
                   <row>
-                     <cell style="text-align: left;">11 = <ref target="HYPERLINK">P.Flor. 1 2 Col. 1</ref>
+                     <cell style="text-align: left;">11 = <ref target="https://papyri.info/hgv/23526">P.Flor. 1 2 Col. 1</ref>
                      </cell>
                      <cell style="text-align: center;">265</cell>
                      <cell style="text-align: left;"/>
@@ -926,10 +926,10 @@
                   <row>
                      <cell style="text-align: left;">
                         <p style="text-align: justify; text-align: left;">12 =</p>
-                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 2</ref></p>
-                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 3</ref></p>
-                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 4</ref></p>
-                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 5</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="https://papyri.info/hgv/23527">P.Flor. 1 2 Col. 2</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="https://papyri.info/hgv/23528">P.Flor. 1 2 Col. 3</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="https://papyri.info/hgv/23529">P.Flor. 1 2 Col. 4</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="https://papyri.info/hgv/23530">P.Flor. 1 2 Col. 5</ref></p>
                      </cell>
                      <cell style="text-align: center;">265</cell>
                      <cell style="text-align: left;"/>
@@ -939,7 +939,7 @@
                      <cell style="text-align: left;"/>
                   </row>
                   <row>
-                     <cell style="text-align: left;">13 = <ref target="HYPERLINK">P.Flor. 1 2 Col. 6</ref>
+                     <cell style="text-align: left;">13 = <ref target="https://papyri.info/hgv/23531">P.Flor. 1 2 Col. 6</ref>
                      </cell>
                      <cell style="text-align: center;">265</cell>
                      <cell style="text-align: left;"/>
@@ -949,7 +949,7 @@
                      <cell style="text-align: left;"/>
                   </row>
                   <row>
-                     <cell style="text-align: left;">14 = <ref target="HYPERLINK">P.Flor. 1 2 Col. 7 = W.Chr. 401</ref>
+                     <cell style="text-align: left;">14 = <ref target="https://papyri.info/hgv/23532">P.Flor. 1 2 Col. 7 = W.Chr. 401</ref>
                      </cell>
                      <cell style="text-align: center;">265</cell>
                      <cell style="text-align: left;"/>
@@ -959,7 +959,7 @@
                      <cell style="text-align: left;"/>
                   </row>
                   <row>
-                     <cell style="text-align: left;">15 = <ref target="HYPERLINK">P.Flor. 1 2 Col. 8</ref>
+                     <cell style="text-align: left;">15 = <ref target="https://papyri.info/hgv/23533">P.Flor. 1 2 Col. 8</ref>
                      </cell>
                      <cell style="text-align: center;">265</cell>
                      <cell style="text-align: left;"/>
@@ -971,8 +971,8 @@
                   <row>
                      <cell style="text-align: left;">
                         <p style="text-align: justify; text-align: left;">16 =</p>
-                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 9</ref></p>
-                        <p style="text-align: justify; text-align: left;"><ref target="HYPERLINK">P.Flor. 1 2 Col. 10</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="https://papyri.info/hgv/23534">P.Flor. 1 2 Col. 9</ref></p>
+                        <p style="text-align: justify; text-align: left;"><ref target="https://papyri.info/hgv/23535">P.Flor. 1 2 Col. 10</ref></p>
                      </cell>
                      <cell style="text-align: center;">265</cell>
                      <cell style="text-align: left;"/>
@@ -982,7 +982,7 @@
                      <cell style="text-align: left;"/>
                   </row>
                   <row>
-                     <cell style="text-align: left;">17 = <ref target="HYPERLINK">P.Flor. 1 2 Col. 11</ref>
+                     <cell style="text-align: left;">17 = <ref target="https://papyri.info/hgv/23536">P.Flor. 1 2 Col. 11</ref>
                      </cell>
                      <cell style="text-align: center;">265</cell>
                      <cell style="text-align: left;"/>
@@ -1042,11 +1042,11 @@
                   <head>Fig. 4: nomes of provenance of the documents pertaining to liturgy (nominations, approvals, oaths).</head>
                </figure>
                <p xml:id="p20">In spite of this diversity, and of the fact that not every aspect is represented in each area throughout the whole period considered here, several patterns emerge from the data. For these patterns to emerge, particular attention should be paid to the format (pagina vs. demotic style) in relation with the nome of provenance (esp. Arsinoite vs. other nomes).</p>
-               <p xml:id="p21">The pagina format appears only in the Arsinoite nome, except for two atypical cases.<note place="foot" xml:id="ftn21" n="21"><p> <ref target="HYPERLINK">P.Lond. 3 1159</ref> (144-147, Hermopolite nome; p. 112) consists of a register with four columns. The size of the list may have affected the choice of format. <ref target="HYPERLINK">P.Leit. 1 = SB 8 10192</ref> (ca. 160, Oxyrhynchite nome) is presumably a draft, and not an original declaration. Lewis 1963: 5: “As the text is undated and indicates neither sender nor addressee, it is presumably a draft rather than the official nomination document.” This hypothesis finds confirmation in the parallel between <ref target="HYPERLINK">P.Petaus 53</ref> and <ref target="HYPERLINK">54</ref>, the first being a formal declaration, and the second, a note that repeats the same data.</p></note> The variety of other provenances suggests that it is the Arsinoite format that constitutes an exception, and that documents pertaining to liturgy were, on a standard basis, prepared in the demotic style format in other parts of Egypt.</p>
-               <p xml:id="p22">Documents from the nome of Arabia in 184-185, in the demotic style format, offer a striking contrast to those from the Petaus Archive (Arsinoite nome), dating from precisely the same period, in the pagina format. Also, two oaths from the Oxyrhynchite nome dating from the 130s (<ref target="HYPERLINK">SB 14 12168</ref> and <ref target="HYPERLINK">P.Oxy. 61 4113</ref>) already display the characteristic shape of the sheet that is still attested more than a century later in the same nome.</p>
+               <p xml:id="p21">The pagina format appears only in the Arsinoite nome, except for two atypical cases.<note place="foot" xml:id="ftn21" n="21"><p> <ref target="https://papyri.info/hgv/22811">P.Lond. 3 1159</ref> (144-147, Hermopolite nome; p. 112) consists of a register with four columns. The size of the list may have affected the choice of format. <ref target="HYPERLINK">P.Leit. 1 = SB 8 10192</ref> (ca. 160, Oxyrhynchite nome) is presumably a draft, and not an original declaration. Lewis 1963: 5: “As the text is undated and indicates neither sender nor addressee, it is presumably a draft rather than the official nomination document.” This hypothesis finds confirmation in the parallel between <ref target="HYPERLINK">P.Petaus 53</ref> and <ref target="HYPERLINK">54</ref>, the first being a formal declaration, and the second, a note that repeats the same data.</p></note> The variety of other provenances suggests that it is the Arsinoite format that constitutes an exception, and that documents pertaining to liturgy were, on a standard basis, prepared in the demotic style format in other parts of Egypt.</p>
+               <p xml:id="p22">Documents from the nome of Arabia in 184-185, in the demotic style format, offer a striking contrast to those from the Petaus Archive (Arsinoite nome), dating from precisely the same period, in the pagina format. Also, two oaths from the Oxyrhynchite nome dating from the 130s (<ref target="https://papyri.info/hgv/18198">SB 14 12168</ref> and <ref target="https://papyri.info/hgv/21618">P.Oxy. 61 4113</ref>) already display the characteristic shape of the sheet that is still attested more than a century later in the same nome.</p>
                <p xml:id="p23">In a broader perspective, the dimensions of these two documents are also similar to some of the so-called private protocols from Oxyrhynchus, i.e. a form of contract that seems to follow the formulation in use in documents written by notarial offices, but display features that belong to privately drafted contracts.<note place="foot" xml:id="ftn22" n="22"><p> Wolff 1975; Wolff 1978:122-127.</p></note> For private protocols, this format is well attested throughout the second and third centuries CE.<note place="foot" xml:id="ftn23" n="23"><p> E.g. <ref target="HYPERLINK">P.Oxy. 22 2351</ref> (112); <ref target="HYPERLINK">3 499 = Sel. Pap. 1 42</ref> (121); <ref target="HYPERLINK">3 502</ref> (164); <ref target="HYPERLINK">8 1127</ref> (183); <ref target="HYPERLINK">50 3591</ref> (219 ); <ref target="HYPERLINK">P.Mich. 11 610</ref> (282).</p></note></p>
                <p xml:id="p24">In the columns of the table where nomination to liturgy and approval of liturgy are recorded (with the corresponding nome of provenance of the document), some cases have been highlighted in bold characters: these are documents where either the scribe left a space for the strategos to add his approval, or the space was actually filled with the strategos’ approval. They form a clear cluster in the period from 248 till 274. In contrast, nominations from the nome of Arabia from the 180s do not leave any space for the approval at the top; neither does a nomination from the Oxyrhynchite nome dated 197 or 226 (<ref target="HYPERLINK">P.Wisc. 2 85</ref>).</p>
-               <p xml:id="p25"><ref target="HYPERLINK">BGU 7 1566</ref> (198-209, Cynopolite nome) deserves a special mention. The papyrus was lost, presumably destroyed during World War II, and its dimensions are not given in the edition. The editor, however, recorded in 1926 the presence of a date at the top of the sheet: Ἁθὺρ ζ [ . A comparison with 10 = <ref target="HYPERLINK">P.Oxy. 10 1254</ref> (260, also from the Cynopolite nome) suggests that the top of <ref target="HYPERLINK">BGU 7 1566</ref> was missing: it should have contained the approval by the strategos, which is still preserved in <ref target="HYPERLINK">P.Oxy. 10 1254</ref>.1-13 and ends with a date (Χοίακ α). Therefore, the procedure by which the strategos added a note at the top of the nomination, effectively turning it into an approval, could already have been in force in the early third century. <ref target="HYPERLINK">P.Wisc. 2 85</ref>, mentioned above, would then be dated to 197 (rather than 226), and the change of practice would have taken place shortly thereafter, as attested by <ref target="HYPERLINK">BGU 7 1566</ref>. Incidentally, since the latter can be identified as a fragmentary approval of nomination, it could be added to Stroppa’s list of “bandi liturgici”. This chain of argument, however, rests on meagre evidence, and only some additional discoveries could either confirm or disprove what remains, at this stage, a working hypothesis.</p>
+               <p xml:id="p25"><ref target="HYPERLINK">BGU 7 1566</ref> (198-209, Cynopolite nome) deserves a special mention. The papyrus was lost, presumably destroyed during World War II, and its dimensions are not given in the edition. The editor, however, recorded in 1926 the presence of a date at the top of the sheet: Ἁθὺρ ζ [ . A comparison with 10 = <ref target="https://papyri.info/hgv/21792">P.Oxy. 10 1254</ref> (260, also from the Cynopolite nome) suggests that the top of <ref target="HYPERLINK">BGU 7 1566</ref> was missing: it should have contained the approval by the strategos, which is still preserved in <ref target="https://papyri.info/hgv/21792">P.Oxy. 10 1254</ref>.1-13 and ends with a date (Χοίακ α). Therefore, the procedure by which the strategos added a note at the top of the nomination, effectively turning it into an approval, could already have been in force in the early third century. <ref target="HYPERLINK">P.Wisc. 2 85</ref>, mentioned above, would then be dated to 197 (rather than 226), and the change of practice would have taken place shortly thereafter, as attested by <ref target="HYPERLINK">BGU 7 1566</ref>. Incidentally, since the latter can be identified as a fragmentary approval of nomination, it could be added to Stroppa’s list of “bandi liturgici”. This chain of argument, however, rests on meagre evidence, and only some additional discoveries could either confirm or disprove what remains, at this stage, a working hypothesis.</p>
                <p xml:id="p26">The evidence from the Arsinoite nome becomes elusive after the first quarter of the third century. One tantalizing clue is offered by <ref target="HYPERLINK">SB 22 15784</ref>, a nomination to liturgy listed above (215-216, Philadelphia [Ars. nome]). In the editio princeps, Piet Sijpestein noted the following: “3 cm above line 1 minimal remains of two lines of writing (in the second line perhaps ]ω̣τιω̣[). I do not know if and/or how these remains are connected with the text printed here.”<note place="foot" xml:id="ftn24" n="24"><p> Sijpesteijn 1995: 219, n. 23.</p></note> The plate used to illustrate the text does not provide any clearer detail than what Sijpesteijn described; therefore, it is not possible to determine whether the top margin preserves the remains of an approval of nomination added by the strategos.<note place="foot" xml:id="ftn25" n="25"><p> In another case, <ref target="HYPERLINK">SB VI 9543 = P.Heid. II 223</ref> (224-224, Tebtynis [Ars. nome]), a nomination to liturgy too fragmentary to be listed above, part of the top margin is preserved; but it is not possible to ascertain if it could accommodate an approval by the strategos.</p></note> A confirmation of this last point would suggest that the practice was already in force in the Arsinoite in the early third century; but here again, the evidence is too flimsy to allow any firm conclusion.</p>
             <div type="section">
                <head>Conclusion</head>
