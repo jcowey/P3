@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Four Poll-Tax Receipts on Papyrus from the Early-Roman Fayum</title>
+            <author>
+               <name>
+                  <forename>W. Graham</forename>
+                  <surname>Claytor</surname>
+               </name>
+               <affiliation>Universität Basel</affiliation>
+               <email>graham.claytor@unibas.ch</email>
+            </author>
+            <author>
+               <name>
+                  <forename>Richard A.</forename>
+                  <surname>Warga</surname>
+               </name>
+               <affiliation>Louisiana State University</affiliation>
+               <email>warga@lsu.edu</email>
+            </author>
+            <author>
+               <name>
+                  <forename>Zachary G.</forename>
+                  <surname>Smith</surname>
+               </name>
+               <affiliation>Yale University</affiliation>
+               <email>smithzach@yale.edu</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2021-05-03</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2021-05-04T20:14:43Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Four Poll-Tax Receipts on Papyrus from the Early-Roman Fayum</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">The authors wish to thank Rodney Ast and the anonymous reviewers for their thoughtful advice on this article. Claytor is responsible for the introduction, texts 1 and 2, and the Appendix, Warga for text 3, and Smith for 4.</note>
+            <p xml:id="p1">Our understanding of the Roman poll tax has been bolstered by A. Monson’s recent study in this journal, which presents a strong argument for continuity with Ptolemaic capitation taxes.<note place="foot" xml:id="ftn2" n="1"><p> <ref target="http://papyri.info/biblio/86513">A. Monson</ref>, “Late Ptolemaic Capitation Taxes and the Poll Tax in Roman Egypt,” BASP 51 (2014) 127-160. Important earlier works on the poll tax include S.L. Wallace, Taxation in Egypt from Augustus to Diocletian (Princeton 1938) 116-134 and 406-418, D. Rathbone, “Egypt, Augustus and Roman Taxation,” CCG 4 (1993) 81-112 at 86-99, and P. Heilporn, O.Stras. 2, pp. 77-87.</p></note> Building off his study of late Ptolemaic and early Roman ostraka from Karanis,<note place="foot" xml:id="ftn3" n="2"><p> A. Monson, “Receipts for sitônion, syntaxis, and epistatikon from Karanis: Evidence for Fiscal Reform in Augustan Egypt?” ZPE 191 (2014) 207-230.</p></note> Monson argues that the innovation was not so much the poll tax itself, but rather the manner in which it was levied: under Roman rule, the various Ptolemaic capitation taxes were replaced by a single tax, payments were now made in silver drachmas rather than the old bronze drachmas, and the collection was regularized, with a tendency towards monthly installments, rather than the more frequent and seemingly haphazard payments under the old regime. Along with the introduction of the census in 11/10 BCE,<note place="foot" xml:id="ftn4" n="3"><p> On which see now W.G. Claytor and R.S. Bagnall, “The Beginnings of the Roman Provincial Census: a New Declaration from 3 BCE,” GRBS 55 (2015) 637-653.</p></note> this fiscal reform made the extraction of capitation taxes – a potentially explosive issue – a more predictable and transparent process for both the state and the provincial population. </p>
+            <p xml:id="p2">All the receipts published below conform to the new pattern of payments by regular installments of silver drachmas. Text 1 is notable largely because of its date in Augustus’ 15th year (16/15 BCE): it is the earliest poll-tax receipt on papyrus and shows what appears to be a full year’s worth of payments in monthly installments of four drachmas. Texts 3 and 4 belong to the archive of Harthotes, a public farmer and priest from the village of Theadelphia (see further Claytor, Litinas, and Nabney in this issue), and 4 is of particular interest for the enforcement of the upper age limit of liability for the poll tax.</p>
+            <p xml:id="p3">Further insight on the collection of the poll tax comes from Texts 2 (7 CE) and 3 (10/11 CE), which have prompted a reexamination of P.Fay. 45 (10-11 CE) and a new reading of P.Mil. 12.9 (13/14 CE), discussed in the Appendix. In these four texts, the local tax collector Heraklas is identified not by the usual title of χειριστής, but by ὁ παρά, followed by the name of his superior (a different individual in each case). The two titles are equivalent (both mean “agent” or “assistant”), but the latter of course is more informative about the upper echelons of tax collection in the Arsinoite nome. In two texts, the superiors are given the title δημόσιος τραπεζίτης (Ἀρσινοίτου), while in the two others they are identified respectively as the son of a δημόσιος τραπεζίτης Ἀρσινοίτου and as a gymnasiarch. In all cases, however, we should see them as public bankers based in Arsinoe, who delegated the task of local tax collection to their representative Heraklas.    <note place="foot" xml:id="ftn5" n="4"><p> The early Roman χειρισταί were likewise representatives of the state bank: D. Hagedorn, “Exkurs I: Die Rolle der χειρισταί bei der Steuerhebung im 1./2. Jh. n.Chr.” BGU 20, pp. 93-97.  </p></note></p>
+            <p xml:id="p4">In the short span of seven years covered by these texts, four different public bankers are attested (Table 1). Whether this reflects frequent turnover among public bankers in the Arsinoite nome at this time, or whether they are members of a college of bankers, we cannot say. In contemporary Thebes, much more information can be found on the operation of the state bank because there it was standard practice to name the responsible banker in tax receipts. R. Bogaert has shown that one or two public bankers were active at a time during Augustus’ reign, increasing to three in the period 14-42 CE, and more later on. <note place="foot" xml:id="ftn6" n="5"><p> R. Bogaert, “Banques et banquiers à Thèbes à l'époque romaine,” ZPE 57 (1984) 241-296 at 274.</p></note> They were often career bankers, and Bogaert was able to trace four generations of one banking family, beginning with Kephalos, who was in office between 22/21 and 1 BCE, with the assistance of his son Epikrates for about 15 of those years. While we cannot study the banking personnel in the Arsinoite nome in such detail, it is worth noting that here too the operation of state banks could be a family affair, since the public banker C. Iulius Alexandros followed his father into the profession (see 2 and the Appendix). </p>
+            <p xml:id="p5">A little more can be said about the local agents who actually made the rounds, since they are consistently mentioned in Arsinoite receipts. The four receipts with the ὁ παρά formula discussed above were issued by the same local collector, Heraklas, who is attested between 7 and 14 CE and possibly again in 24/25 CE (4). Similarly, the χειριστής Mysthes, a later contemporary of Heraklas, is attested over a 17-year period in Tebtunis, <note place="foot" xml:id="ftn7" n="6"><p> D. Hagedorn, “Zwei Aufträge zur Ausstellung von Kopfsteuerquittungen,” BASP 50 (2013) 39-47.</p></note> and, later still, the well-known πράκτωρ Nemesion collected money taxes in Philadelphia over at least a 13-year period. The long careers of these local collectors are typical of the period before tax collection became a liturgical duty with standard three-year terms under Trajan. As long as the taxes were delivered, Roman and local authorities were happy to leave the business of tax collection in the same hands, whether in the public bank of Thebes or in the villages of the Arsinoite nome. From the Archive of Nemesion, we can see that these local collectors in the Fayum were members of the village elite who managed to carve out a profitable enterprise by cooperating with the new imperial power.  <note place="foot" xml:id="ftn8" n="7"><p> A.E. Hanson, “Village Officials at Philadelphia: a Model of Romanization in the Julio-Claudian Period,” in L. Criscuolo and G. Geraci (edd.), Egitto e storia antica dall’ellenismo all’età araba (Bologna 1989) 429-440. </p></note></p>
+            <table>
+               <head>Table 1. Poll Tax Receipts on Papyrus, 30 BCE – 37 CE<note place="foot" xml:id="ftn9" n="8">
+                     <p> The two orders to issue poll-tax receipts, recently (re)edited by Hagedorn, should be considered together with these receipts: Hagedorn 2013 (n. 7).</p>
+                  </note>
+               </head>
+               <row>
+                  <cell style="text-align: justify;">No.</cell>
+                  <cell style="text-align: justify;">Text</cell>
+                  <cell style="text-align: justify;">Date</cell>
+                  <cell style="text-align: justify;">Village</cell>
+                  <cell style="text-align: justify;">Tax Collector (title) </cell>
+                  <cell style="text-align: justify;">Public Banker (title)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">1</cell>
+                  <cell style="text-align: left;">P.Heid.inv. G 1026 (1)</cell>
+                  <cell style="text-align: left;">16-15 BCE</cell>
+                  <cell style="text-align: left;">Theadelphia</cell>
+                  <cell style="text-align: left;">N.N. (no title?)</cell>
+                  <cell style="text-align: left;">not mentioned</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">2</cell>
+                  <cell style="text-align: left;">BGU 13.2291</cell>
+                  <cell style="text-align: left;">6-5</cell>
+                  <cell style="text-align: left;">Soknopaiou Nesos </cell>
+                  <cell style="text-align: left;">Peutas (χειριστής)</cell>
+                  <cell style="text-align: left;">not mentioned</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">3</cell>
+                  <cell style="text-align: left;">BGU 7.1590a and b</cell>
+                  <cell style="text-align: left;">6-7 CE</cell>
+                  <cell style="text-align: left;">Philadelphia</cell>
+                  <cell style="text-align: left;">
+                     <p xml:id="p6">a: Romulus (χειριστής) </p>
+                     <p xml:id="p7">b: Mysthes (λογευτής)</p>
+                  </cell>
+                  <cell style="text-align: left;">not mentioned</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">4</cell>
+                  <cell style="text-align: left;">P.Mich. inv. 1986 (2)</cell>
+                  <cell style="text-align: left;">7</cell>
+                  <cell style="text-align: left;">Apias (?)</cell>
+                  <cell style="text-align: left;">Heraklas (ὁ παρά)</cell>
+                  <cell style="text-align: left;">Ptolemaios (?) (δημόσιος τραπεζίτης) (Cf. #7)  </cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">5</cell>
+                  <cell style="text-align: left;">P.Fay. 45</cell>
+                  <cell style="text-align: left;">10-11</cell>
+                  <cell style="text-align: left;">Theadelphia</cell>
+                  <cell style="text-align: left;">Heraklas (ὁ παρά …)</cell>
+                  <cell style="text-align: left;">Tryphon (γυμνασιάρχης)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">6</cell>
+                  <cell style="text-align: left;">P.Mich. inv. 4187 (3) </cell>
+                  <cell style="text-align: left;">10-11</cell>
+                  <cell style="text-align: left;">Theadelphia</cell>
+                  <cell style="text-align: left;">Heraklas (ὁ παρά …)</cell>
+                  <cell style="text-align: left;">Syrion (δημόσιος τραπεζίτης Ἀρσινοίτου)  </cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">7</cell>
+                  <cell style="text-align: left;">P.Mil. 12.9</cell>
+                  <cell style="text-align: left;">13-14</cell>
+                  <cell style="text-align: left;">Theadelphia</cell>
+                  <cell style="text-align: left;">Heraklas (ὁ παρά …)</cell>
+                  <cell style="text-align: left;">C. Iulius Alexandros, s. of Ptolemaios (?) (cf. #3)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">8</cell>
+                  <cell style="text-align: left;">P.CtYBR inv. 340 (4)</cell>
+                  <cell style="text-align: left;">24-25</cell>
+                  <cell style="text-align: left;">Theadelphia</cell>
+                  <cell style="text-align: left;">Heraklas (χειριστής)</cell>
+                  <cell style="text-align: left;">not mentioned</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">9</cell>
+                  <cell style="text-align: left;">P.Tebt. 2.349</cell>
+                  <cell style="text-align: left;">28</cell>
+                  <cell style="text-align: left;">Tebtunis</cell>
+                  <cell style="text-align: left;">Mysthes (χειριστής) </cell>
+                  <cell style="text-align: left;">not mentioned</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">10</cell>
+                  <cell style="text-align: left;">P.Gen. 2.90</cell>
+                  <cell style="text-align: left;">36</cell>
+                  <cell style="text-align: left;">Soknopaiou Nesos</cell>
+                  <cell style="text-align: left;">Soterichos (χειριστής) </cell>
+                  <cell style="text-align: left;">not mentioned</cell>
+               </row>
+            </table>
+            <div type="epidoc" subtype="DDB">
+               <head>1. Receipt for Syntaxis<note place="foot" xml:id="ftn10" n="10">
+                  <p style="text-align:; "> Claytor wishes to thank Andrea Jördens for permission to publish this papyrus and Roger Bagnall for commenting on a draft transcription.</p>
+                  </note>
+               </head>
+               <table>
+                  <row>
+                     <cell style="text-align: left;">P.Heid.inv. G 1026</cell>
+                     <cell style="text-align: center;">13.5 x 10 cm</cell>
+                     <cell style="text-align: right;">  Theadelphia,</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Acquired in 1959</cell>
+                     <cell/>
+                     <cell style="text-align: right;">Nov., 16 – Aug., 15 BCE</cell>
+                  </row>
+               </table>
+               <div type="introduction">
+                  <p xml:id="p8">The papyrus is well preserved at the top but becomes increasingly fragmentary towards the bottom. The first eight lines have a generous left margin of 2.25 cm, while the variable right margin is 0.75 cm in ll. 1-3 and 2 cm in ll. 4-5. A space of 1.5-1.75 cm is left at the top. The receipt is written in at least two hands, whose rather clumsy appearance would be at home among the late Ptolemaic and Augustan receipts on ostraka from Karanis (published in O.Mich. 1-4; see now Monson [n. 3]) and can be compared with hand 1 of the poll-tax receipt BGU 13 2991 (Soknopaiou Nesos, 6-5 BCE) and the tax list BGU 16.2577 (Herakleopolite, 30 BCE-14 CE). The verso contains a notation of uncertain purpose. It is written upside down relative to the recto, 2 cm from the bottom edge of the sheet. Well above this notation are a few characters that have been erased. </p>
+                  <p xml:id="p9">	This receipt records a series of payments for the σύνταξις beginning with a four-drachma installment in Hathyr of Augustus’ 15th year (28 Oct. – 26 Nov., 16 BCE) and continuing, it seems, with installments of four drachmas each month for the rest of the year. This would total 40 dr., the figure that we know from later documents was due annually for the poll tax on the non-privileged villager class of the Arsinoite nome. <note place="foot" xml:id="ftn11" n="10"><p> For the rates of various nomes, see Heilporn (n. 2) 80-81.</p></note> A trace in the last preserved line may hint at further charges, such as those that are later bundled together with the poll tax,<note place="foot" xml:id="ftn12" n="11"><p> See Wallace (n. 2) 123 and for examples of this extra charge see 2 and 3 below.</p></note> or another receipt lost at the bottom.</p>
+                  <p xml:id="p10">	Judging from the inconsistency of the hands from entry to entry, the text appears to have been drawn up over the course of the year as payments were made each month. A different hand is clearly responsible for the entry beginning in the middle of line 9, where the new scribe felt compelled to write out part of the opening payment formula again. This hand seems to continue through line 12. The following lines look more like the first hand, so I have tentatively marked a change at the beginning of line 13, even though this would be in the middle of an entry.</p>
+               </div>
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" xml:lang="en" type="translation" xml:space="preserve"/>
+               <div type="commentary">
+                  <p xml:id="p11"><ref>1</ref> Ἁ̣θὺρ̣ ̣. From the traces, theta is a possibility for the day’s numeral.</p>
+                  <p xml:id="p12"><ref>2</ref> εἰς τὴν σύντα̣ξι(ν).  Cf. l. 11. This text adds another clear example of the term σύνταξις used for the poll tax. See Monson (n. 2) 154.  </p>
+                  <p xml:id="p13"><ref>3</ref> Ἁρτ̣ώδης ἀρ(γυρίου) (δρ.) δ.  The word after the name is abbreviated with what looks to be a raised haken alpha, although here it should be interpreted as an analphabetic abbreviation mark. <note place="foot" xml:id="ftn13" n="12"><p> P.Gen. 2.90 (Soknopaiou Nesos, 36 CE) contains a number of similar analphabetic abbreviation marks. </p></note> All the other poll-tax receipts on papyrus listed in Table 1 record the name and patronymic of the taxpayer, but contemporary ostraka receipts occasionally record only a single name: e.g., O.Mich. 2.710 (71 or 42 BCE) and O.Mich. 2.729 (25 BCE or 19 CE).</p>
+                  <p xml:id="p14">-	Ἁρτ̣ώδης.  This spelling of the name Harthotes (Ḥr-Ḏḥwty, Trismegistos.org, nameID 308) is otherwise unattested. One may consider whether Harthotes is the son of Marres of Theadelphia whose archive is preserved in Michigan, Milan, and elsewhere (cf. 3 and 4), but the lack of patronymic and the different acquisition history of the Heidelberg papyrus stand in the way of this identification.</p>
+                  <p xml:id="p15"><ref>4</ref> δι(ὰ) ̣ε ̣  ̣χ  ̣( ).  The name following διά is that of the tax collector, as in BGU 7.1590a and b, P.Tebt. 2.349, and P.Gen. 2.90 listed in Table 1, and commonly in other receipts. He does not seem to have recorded his title, unless the chi marks the beginning of χε̣(ιριστοῦ) or χ(ειριστοῦ). The first letter of the name appears to be tau or gamma, but pi is also possible if it is doing double duty as the left part of epsilon. Following the epsilon is a series of undulations that is similar to the τεσα of τέσαρε(ς) in the next line. Above the chi appears a squat lunate letter, which at the top meets the descending tail of rho from the previous line. This could either be a letter raised in abbreviation or another analphabetic abbreviation like that of the previous line. A possible reading of the name is Τεσ̣ο̣υ̣χο̣( ), although a female tax collector would be unexpected. One could also consider &lt;Πε&gt;τεσ̣ο̣ύ̣χο̣(υ) or Π̣ετ̣ε̣χο̣( ), but neither reading inspires much confidence.</p>
+                  <p xml:id="p16"><ref>5</ref> There is one splotch of ink and a small stroke in the blank space at the end of the line.</p>
+                  <p xml:id="p17"><ref>9</ref> Παχ(ὼν) ι̣̅ Φαρμ(οῦθι) (δρ.) δ.  Pachon is written in ekthesis relative to the preceding lines and the next two lines follow this alignment. The double month here may mean that the payment was booked for the month of Pharmouthi, but was actually paid on the 10th of the next month, Pachon.<note place="foot" xml:id="ftn14" n="13"><p> Cf. the later accounting formulas discussed by D. Hagedorn, “Exkurs II: Zu den Wendungen μετὰ λόγον und ἀριθμήθεως bzw. εἰς ἀρίθμησιν,” BGU 20, pp. 98-111.    </p></note> </p>
+                  <p xml:id="p18"><ref>9-11</ref> Because of the break in the papyrus, it unclear whether only these lines were written in ekthesis or the rest of the document continued like this.</p>
+                  <p xml:id="p19"><ref>10</ref> δ̣ι̣(α)γεγράφηκεν.  The initial δι  ̅ may have been influenced by the common way of writing διά, as in l. 4.</p>
+                  <p xml:id="p20"><ref>11</ref> ε̣ἰ̣ς̣ ̣[ ̣] ̣ σ̣υνταξις.  Either ε̣ἰ̣ς̣ τ̣[ὴ]ν̣ σ̣ύνταξις (l. σύνταξιν) or ε̣ἰ̣ς̣ τ̣[ὰ]ς̣ σ̣υντάξις (l. συντάξεις).  </p>
+               </div>
+            </div>
+            <div type="epidoc" subtype="DDB">
+               <head>2. Receipt for Syntaximon</head>
+               <table>
+                  <row>
+                     <cell style="text-align: left;">P.Mich. inv. 1986</cell>
+                     <cell style="text-align: center;">19 x 10.25 cm</cell>
+                     <cell style="text-align: right;">  Apias</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Acquired in 1924</cell>
+                     <cell/>
+                     <cell style="text-align: right;">27 Jan. – 28 Oct., 7 CE</cell>
+                  </row>
+               </table>
+               <div type="introduction">
+                  <p xml:id="p21">Medium-brown papyrus with a clear kollesis extending 4 cm from the left edge of the sheet. The papyrus has sustained damage along horizontal fold lines, particularly at the bottom, which is partially broken away. The generous margins measure 3 cm on top, 2-2.5 cm on the left, and 5.75 cm on the bottom. A variable right margin of about 1 cm was originally present, but is now damaged. The same hand is found in other tax receipts issued by the same collector (see l. 2 n.). The back is blank save for a trace of ink in the top-left corner. It is unclear if this is stray ink or was originally a short notation of some sort. </p>
+                  <p xml:id="p22">	This sheet contains two poll-tax receipts issued to Anchorinphis, son of Ischis, by Heraklas, an agent of a public banker in the Arsinoite nome. The first receipt records Anchorinphis’ payment of 40 drachmas over the course of Augustus’ 36th year, leaving 4 dr. in arrears, while the second records payment of the balance in the next year. <note place="foot" xml:id="ftn15" n="14"><p> These 4 dr. represent the extra charge (normally 4 dr., 6 ch.) that is often bundled together with the poll tax (see n. 15).</p></note> The taxpayer is not mentioned elsewhere, but the collector Heraklas is known from at least three other poll-tax receipts written in the same hand, including 3. Although here working in Apias, he later served as tax collector in Theadelphia from at least 10 to 14 CE and possibly as late as 24-25 CE (see further l. 2 n. and text 4).</p>
+                  <p xml:id="p23">	Lines 3 and 11 inform us that Heraklas was the agent (ὁ παρά) of a public banker with an abbreviated name discussed in the Appendix. Regardless of the exact reading, this same name is found in P.Mil. 12.9 (13/14 CE), another receipt written by Heraklas, where it serves as the patronymic of C. Iulius Alexandros, the public banker on whose behalf Heraklas was working in that text (see Appendix). As discussed in the introduction, family influence could play a role in landing a position at the state bank.</p>
+               </div>
+               <div copyOf="#ed2" type="edition"/>
+               <div copyOf="#trans2" xml:lang="en" type="translation" xml:space="preserve"/>
+               <div type="commentary">
+                  <p xml:id="p24"><ref>1</ref> δ(ι)έγρ(αψεν).  Only delta and rho can be clearly distinguished, and the precise transcription is debatable. In any case, Heraklas uses the same abbreviation in his receipts P.Fay. 45 and 3.1 (cf. also 4.3 n.). The abbreviation in P.Mil. 12.9.1 is of similar appearance, though the vertical after the delta lacks the small head of rho evident in the other texts (accordingly, Hagedorn favored the reading of the ed. pr., δι(έγραψεν), over δι(έγρα)ψ(εν) in his review of the volume: Gnomon 40 [1968], 778-781 at 779).  </p>
+                  <p xml:id="p25"><ref>2</ref> Ἰσχῖτος.  A variant of Ἰσχυρίων, which Heraklas began to write in l. 10.</p>
+                  <p xml:id="p26">-	Ἡρακ(λᾷ). Found also in P.Fay. 45 (10-11 CE), 3 (10-11 CE), and P.Mil. 12.9 (13-14 CE), all poll-tax receipts from Theadelphia written in the same hand as the present papyrus. 4 is also issued by a Heraklas (there called χειριστής) and the hand closely resembles the earlier group of receipts. If this Heraklas is indeed the same man, his activity extends until 24/25 CE.</p>
+                  <p xml:id="p27"><ref>3</ref> [πα]ρ̣ὰ̣ (Πτολεμαί)ο̣(υ)? Αρα̣( ) δ̣η̣μ̣(οσίου) τρ(απεζίτου).  Again in l. 11. For the reading, see the Appendix. </p>
+                  <p xml:id="p28"><ref>4</ref> Ἀ̣[π]ιάδο̣ς. There are numerous Fayum villages whose names end -ιάς, -ιάδος, but only a couple letters are missing, so we must seek a short name. Combined with the traces of the first letter, which are consistent with alpha, the village of Apias is the most attractive reading. Apias was located in the same meris as Theadelphia, where the tax collector Heraklas was later active. </p>
+                  <p xml:id="p29">-	ὀκτώ(ι).  Heraklas consistently raises the omega of ὀκτώ (again in l. 7, as well in P.Mil. 12.9 and 3), which suggests that he is abbreviating a (false) iota adscript. Cf. his writing of the article τῆ(ι) with a raised eta.</p>
+                  <p xml:id="p30"><ref>5</ref> δεκαδύο. Something has been partially erased at the beginning of this word.</p>
+                  <p xml:id="p31"><ref>10</ref> Ἰσχῖτος.  The second iota is written over an upsilon. Heraklas probably had the more common name Ἰσχυρίων in mind, as suggested to me by an anonymous reviewer.</p>
+                  <p xml:id="p32"><ref>12</ref> [εἰ⟨ς⟩ σ]υ̣ν̣τ̣ά(ξιμον).  For the haplography, see 3.4. </p>
+                  <p xml:id="p33"><ref>13</ref> (ἕτους) α̣ ̣  ̣[ ̣] ̣  ̣  ̣.  After the ἔτους sign, there is probably an alpha, but it is not clear if this is the first letter.  Ἀπιάδος and/or ἀργυρίου could have been written here.  </p>
+               </div>
+            </div>
+            <div type="section">
+               <head>3-4. Poll Tax Receipts from the Harthotes Archive</head>
+               <div type="epidoc" subtype="DDB">
+                  <head>3. Receipt for Syntaximon</head>
+                  <table>
+                     <row>
+                        <cell style="text-align: left;">P.Mich. inv. 4187</cell>
+                        <cell style="text-align: center;">27 x 10.7 cm</cell>
+                        <cell style="text-align: right;">  Theadelphia,</cell>
+                      </row>
+                      <row>
+                        <cell style="text-align: left;">Acquired in 1924</cell>
+                        <cell/>
+                        <cell style="text-align: right;">26 Dec., 10 – 22 Jul., 11 CE</cell>
+                     </row>
+                  </table>
+                  <div type="introduction">
+                     <p xml:id="p34">All four margins of this light brown papyrus are extant, with the top being very large (4.8 cm), the bottom even larger (14.5 cm), the left approximately 3.0 cm, and the right variable, in the case of line 2 extending to the very edge. The first line, as usual, extends a little to the left with the epsilon of ἔτους enlarged. There appear to be three vertical fold lines which do not seem to have been made sequentially from left to right. Perhaps the central fold was made first and then the papyrus was folded again. Numerous horizontal folds indicate the papyrus was tightly folded up for safekeeping. There is considerable damage on the left side about the middle of the papyrus, but it does not result in any loss of text. The writing runs with the fibers and the back is blank.  </p>
+                     <p xml:id="p35">	This document is a receipt for syntaximon issued to Marsisouchos, son of Marres, from the village of Theadelphia, for the year 10-11 CE. Marsisouchos, a public farmer, is the brother of Harthotes and this is a new document stemming from the Harthotes archive.<note place="foot" xml:id="ftn16" n="15"><p>19 The archive itself extends over an 80 year period beginning in 20/19 BCE, and documents Harthotes, his brother Marsisouchos, and their descendants in a variety of contracts, petitions, and receipts. For a fuller treatment of this archive, see the contribution of Claytor, Litinas, and Nabney in this issue.</p></note> The payments are made in installments and total 44 drachmas, 6 chalkoi, the normal rate for the Arsinoite nome. <note place="foot" xml:id="ftn17" n="16"><p> See n. 15.</p></note></p>
+                     <p xml:id="p36">	The tax collector in Theadelphia, Heraklas, is now known to us from at least four, perhaps five, syntaximon receipts: see the introduction to 2 above.</p>
+                  </div>
+                  <div copyOf="#ed3" type="edition"/>
+                  <div copyOf="#trans3" xml:lang="en" type="translation" xml:space="preserve"/>
+                  <div type="commentary">
+                     <p xml:id="p37"><ref>1</ref> δ(ι)έγρ(αψεν).  The same abbreviation occurs in text 2.1 (cf. n.) and a similar one in text 4.3.  </p>
+                     <p xml:id="p38"><ref>2</ref> Marsisouchos (Trismegistos.org person ID 248430) was aged 35 in P.Oslo 2 32, a contract dated to Aug. 23, 1 CE. He would be about 45 in this text and thus still subject to the poll tax. See the discussion of the introduction to text 4.  </p>
+                     <p xml:id="p39"><ref>3</ref> Συρίωνο(ς). The sigma looks more like an epsilon, but that of Μαρρείους in line 2, as well as that of Ἀρσι(νοίτου), is made the same way. For the function of Syrion as a public banker, see the discussion in the introduction.</p>
+                     <p xml:id="p40"><ref>4</ref> εἰ⟨ς⟩ συν̣τά(ξιμον). The same haplography occurs in P.Fay. 45.3 and P.Mil. 12.9.4 (see notes 33 and 34 below).    </p>
+                     <p xml:id="p41">-    	ἀργυ(ρίου) ῥυ̣π̣(αροῦ).  Thanks are due to the anonymous referee for this reading. For ῥυπαρός in this context, cf. Hagedorn (n. 7) 42, note to line 3.</p>
+                     <p xml:id="p42"><ref>5</ref> [ὀ]κτώ(ι).  For the rasied omega indicating an abbreviation, cf. 2.4 n.</p>
+                     <p xml:id="p43"><ref>5-6</ref> For multiple payments recorded for the same month a good parallel can be found in P.Mil. 12.9, also written by Heraklas. There three payments totaling 16 drachmas are recorded in the month of Pharmouthi in lines 6-10, although the name of the month is not repeated.</p>
+                     <p xml:id="p44"><ref>6</ref> τῆ(ι).  Here and in each line subsequently we print with text 2 instead of τῇ; see the previous note concerning ὀκτώ(ι). In line 5 it appears that he actually writes out τῆι in full with an iota adscript just as he does in P.Mil. 12.9.6, and thus the intention to write τῆι in the succeeding lines seems clear.  He chooses to abbreviate this by raising the eta.</p>
+                  </div>
+               </div>
+               <div type="epidoc" subtype="DDB">
+                  <head>4. Receipt for Syntaximon</head>
+                  <table>
+                     <row>
+                        <cell style="text-align: left;">P.CtYBR inv. 340</cell>
+                        <cell style="text-align: center;">14.7 x 9.4 cm</cell>
+                        <cell style="text-align: right;">  Theadelphia,</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;">Acquired in 1931</cell>
+                        <cell/>
+                        <cell style="text-align: right;">27 Oct., 24 – 3 Jun., 25 CE</cell>
+                     </row>
+                  </table>
+                  <div type="introduction">
+                     <p xml:id="p45">The light brown papyrus contains nine lines of Greek written with the fibers (→) in black ink. The lines are written in a fairly quick cursive hand, rising slightly to the right. The left margin is a full 2 cm at line 1, but by line 9 has become 0.8 cm. The topmost margin is 2.4 cm while the bottom margin is 3.1 cm before the papyrus breaks off. The right margin varies between no margin whatsoever (as in line 4 where the curve of the upsilon goes right to the edge) and a 1.7 cm margin in line 9. The papyrus itself appears to have been folded twice vertically at one time and these two fold lines accounts for the weakening and most of the damage to the papyrus, which involves several holes of irregular sizes mostly in the middle of the papyrus.<note place="foot" xml:id="ftn18" n="17"><p> Ann Hanson, noting the odd fold lines, suggested that perhaps the papyrus was at one time draped over a bar, perhaps to dry. A vertical fiber to the right of the center fold extends the entire length of the papyrus, sometimes creating the illusion of ink especially in lines 6, 8, and 9. </p></note> There is also a slight trace of two or three letters written across the fibers (↓). They may simply reflect ink transfer from another document.</p>
+                     <p xml:id="p46">This papyrus records payments in various months for the syntaximon or poll tax paid by Harthotes, son of Marres, to an agent named Heraklas.<note place="foot" xml:id="ftn19" n="18"><p> The Harthotes archive extends over an 80 year period beginning in 20/19 BCE, referencing Harthotes, his brother Marsisouchos, and their descendants in a variety of contracts, petitions, and receipts. For a fuller treatment of this archive, see further Claytor, Litinas, and Nabney in this issue.</p></note> In Roman Egypt, the poll-tax appears officially to have been levied only on adult Egyptian males aged 14-62.<note place="foot" xml:id="ftn20" n="19"><p> Cf. L. Capponi, Augustan Egypt: The Creation of a Roman Province (New York 2005), 138; Rathbone (n. 2) 87.</p></note> These limits are often cited as common knowledge, yet we should perhaps be less sanguine about how strictly this range (and particularly the upper limit) was observed in the early first century CE.<note place="foot" xml:id="ftn21" n="20"><p> The evidence for 62 as the age of exemption from the poll-tax comes from a variety of tax lists in the 1st and 2nd centuries. To take a few examples, in P.Sijp. 26, the tax synopsis of Philadephia prepared by Nemesion in 51 CE, there are several references to villagers who are “overage” (ὑπερετής) in year 11, being 61 years (line 87; cf. lines 21 and 127). As Ann Hanson, the editor of P.Sijp. 26 explains, the taxpayers in question are in their final year of liability for the laographia, and have reached the category of ὑπερετής for the first time in their 61st year. This is analogous to the initial category of 14 year olds whose first year of liability is marked as ἀφήλικες. From the same archive, cf. P.Coll.Youtie 1.20, lines 5 and 8, as well as the later first century P.Lond. 2.259.63-65 (p. 36).</p><p>The age of 65 is also sometimes cited as the age of exemption from the poll-tax. Thus, Rathbone (n. 2) 87, and Capponi (n. 26) 138. This apparently stems from arguments in O.Wilck., p. 242. Wilcken, however, based this sweeping claim on Ulpian of Tyre, writing in the early third century that the age of liability for taxation in Syria ends at 65 (preserved in Dig. 50.15.3). While SB 20.14710, a tax list from Hermopolis, attests to this upper limit in place in the 3rd century CE, all indications from the first century are for the lower age of 62. A fuller treatment of the age of exemption from the poll-tax in Roman Egypt is still needed. </p></note> Indeed, we should expect that officials were often more judicious in imposing a taxpayer’s initial liability than in ensuring that they were removed from the rolls when they had reached the age of exemption. Attesting to the flexibility of these limits, the present receipt, recording a total payment of 44 drachmas for the poll-tax of the previous year, shows Harthotes still paying his poll-tax into his 66th year. </p>
+                     <p xml:id="p47">Although this papyrus does not directly provide information about the age of Harthotes, it can be coordinated with three other texts. According to P.Oslo 2.32, a text concerning the lease of land, Harthotes was 40 in 1 CE. In SB 20.14440, a census declaration from 12 CE, however, Harthotes was listed as 55 years old. Such an obvious discrepancy should be explained, as R.S. Bagnall has done, by the practice of age-rounding.<note place="foot" xml:id="ftn22" n="21"><p> G. Casanova, “Theadelphia e l’archivio di Harthotes. Ricerche su un villaggio Egiziano fra il IIIa e il Ip,” Aegyptus 55 (1975) 70-156, relied on the more official nature of the census (SB 20.14440) for making his judgment (129). R.S. Bagnall, “The Beginnings of the Roman Census in Egypt,” GRBS 32 (1991) 255-265, suggests instead that both documents evince age rounding: P. Oslo 2.32 rounds downward and SB 20.14440 rounds upward (265).    </p></note> Recently, Claytor and Bagnall published a census declaration from the Harthotes archive dating to 3 BCE that records Harthotes’ age as 41.<note place="foot" xml:id="ftn23" n="22"><p> Claytor and Bagnall (n. 4) 642. </p></note> On the basis of the agreement between the two census declarations (and the assumption of inclusive reckoning), Claytor and Bagnall place Harthotes’ birth year in 44/43 BCE.</p>
+                     <p xml:id="p48">Following Claytor and Bagnall’s calculations, the current receipt, recording payments for the previous regnal year of Tiberius (23/24 CE), would reveal Harthotes paying the poll-tax (in arrears) into his 66th year.<note place="foot" xml:id="ftn24" n="23"><p> That Harthotes lived until at least 26 CE is verified by his appearance in P.Mil. 12.6. </p></note> This receipt allows several interpretations. Of course, one possibility is that the age of exemption from the poll-tax varied over time or even between nomes. Yet we should be hesitant to adduce variations in official policy solely on the basis of this tax receipt. More innocuously, we may suppose that it was the responsibility of the taxpayer both to recognize and to notify the officials of having reached the age of exemption.<note place="foot" xml:id="ftn25" n="24"><p> As Wallace 1938 (n. 2) 109 initially proposed, based on what he took to be a reference to an epikrisis in P.Lond. 2.259.69ff. (p. 28): “[T]he mutilated condition of these lines does not permit restoration, but the reference is probably to an epicrisis of the claims of men to be included among those classified as ὑπερετεῖς Lξα, that is, sixty-two years of age or older.”.  </p></note> As mentioned above, Harthotes reports himself to be 40 years old in 1 CE (P.Oslo 2.32), when, if we trust the agreement between census declarations, he actually should have reported himself as 44 (or 45 to account for age-rounding). One possibility, then, is that Harthotes himself only approximately knows his own age or was not aware that he had reached the age of exemption. </p>
+                     <p xml:id="p49">This is not to say, however, that tax officials were ignorant of Harthotes’ age. Official records of the ages of taxpayers were certainly kept and checked by tax officials, and we have evidence of tax officials confirming and correcting the ages reported in census declarations in P.Ross.Georg. 2.12.<note place="foot" xml:id="ftn26" n="25"><p> Cf. H. Henne, “Sur l'interprétation de quelques textes récemment publiés,” Aegyptus 13 (1933) 386-397.</p></note> Yet this system of verification only would have helped to guard against fraud by the taxpayer. There would have been no incentive for a collector to remove a taxpayer from liability and to place him in the category of ὑπερετής without the taxpayer submitting a request to that effect. Without such awareness and notification, a taxpayer like Harthotes might have continued to pay the poll-tax until well into his sixties. </p>
+                  </div>
+                  <div copyOf="#ed4" type="edition"/>
+                  <div copyOf="#trans4" xml:lang="en" type="translation" xml:space="preserve"/>
+                  <div type="commentary">
+                     <p xml:id="p50"><ref>1</ref> λ̣̅. Or possibly α̅.  If the latter reading is accepted, the date would be the 1st of Neos Sebastos or 28 September, 24 CE. I have elected the former in comparison with the λ in line 8, as well as reflecting the general trend of payments later in the month in lines 5-8.</p>
+                     <p xml:id="p51"><ref>3</ref> διέ̣γρα(ψεν).  The difficulty of this reading is properly resolving the abbreviation as the first few letters are slurred. In hand, this abbreviation is most similar to that found in texts 2 and 3, where the clearest features are the initial delta and the rho written with a single vertical stroke extending both above and below the line. For a similar abbreviation, see especially O.Petr. 208. The present text, however, more clearly evinces Verschleifung or slurring of the initial letters, with a single ligatured stroke connecting the final stroke of the delta to the horizontal stroke of the gamma. The alpha is followed by a horizontal suspension mark. </p>
+                     <p xml:id="p52">-	Ἡρακ̣λ̣ᾷ̣.  Perhaps the same Heraklas as in texts 2 and 3 and known from P.Mil. 12.9 and P.Fay. 45.<note place="foot" xml:id="ftn27" n="26"><p> The editor of the editio princeps of P.Fay 45 reads Ἡρακλᾷ τῶι παρὰ Τρύφωνος γ̣υ . . ( ) συντάξιμον and suggests that the word γ̣υ . . ( ) is Heraklas’ title. Ann Hanson has kindly pointed out this line should be correctly read Ἡρακλᾷ τῶι παρὰ Τρύφωνος γυ(μνησιάρχου) εἰ⟨ς⟩ συντάξιμον. This is perhaps the same Tryphon who appears in the archive of Isidorus of Psophthis, as both a strategos and a gymnasiarch in the Arsinoite nome. For the latter title, cf. SB24.15909 and 15910. For a fuller treatment of this archive, see A.E. Hanson, “A New Letter from the Archive of Isidorus from Psophthis, Memphite Nome,” in P. Schubert (ed.), Actes du 26e Congrès international de papyrologie : Genève, 16-21 août 2010 (Geneva 2012) 323-329.         </p></note> </p>
+                     <p xml:id="p53">-	χε̣ι̣(ριστῇ). I owe this reading to Ann Hanson. Alternatively, it might be read χ(ειριστῇ), with the traces following the chi read as an abbreviation stroke.   </p>
+                     <p xml:id="p54"><ref>4</ref> Μαρρε̣[ίο]υ̣ς̣.  There is some variation in the spelling of the name of Harthotes’ father. I have followed P.Mil. 12.9, P.Mert. 1.9, and text 3, but Μαρρήους is also plausible following P.Mil. 12.4 and P.Gen. 2.89. Moreover, it is also possible to read here some form of an abbreviated patronym. Perhaps Μαρρή̣(ους) as found in O.Mich. 1.31; 1.35; 2.760; and in P.Mich. 12.642. Such a patronymic abbreviation is rare, but not without precedent. See, for instance the abbreviations of the patronym Μαρρείους (and variant spellings) in P.Bodl. 1.8, SB 14.11481 and P.Lond 2.257 (p. 19) and the patronymic abbreviation of Harpagathes in P.Gen. 2.90.</p>
+                     <p xml:id="p55">-	σ̣υ̣νταξ(ίμου).  I am grateful to an anonymous reviewer from BASP for suggesting to me that the vertical mark, which I initially took as an abbreviation stroke, is in fact the xi.  If the preceding patronymic is instead abbreviated, one should read ε̣ἰ̣ς̣ σ̣υ̣ντά(ξιμον) following the similar formula in texts 2, 3, and P.Mil. 12.9.<note place="foot" xml:id="ftn28" n="27"><p> The editor of P.Mil. 12.9 incorrectly read ὑπ(ὲρ) συντ(αξίμου). The correct reading is εἰ⟨ς⟩ συντ(άξιμον). See also Appendix by Claytor. A similar haplographic error appears in Text 3 and P.Fay. 45. The preposition ὑπ(ὲρ) appears not to have been used for the combined συντάξιμον receipts but reserved for λαογραφία specifically. See ὑπ(ὲρ) λαογραφ(ίας) in O.Leid. 177. Cf. also O.Cair. 62 and the later 1st century SB 20.15104.</p></note> </p>
+                     <p xml:id="p56"><ref>5</ref> ἀργ(υρίου) ῥ̣υ(παροῦ) (δρ.).  This reading is made difficult by the fading of the ink in this line, and the ligature of the supralinear abbreviation mark with the siglum for drachmas. For similar abbreviations of ῥυ(παροῦ), as suggested to me by an anonymous reviewer for BASP, see O.Wilck. 1371. Earlier examples include P.Tebt. 3.2.1054 and SB 14.11331.</p>
+                     <p xml:id="p57"><ref>6</ref> Μεχε̣[ὶρ].  Or possibly Μεχ(εὶρ). Yet all months in this receipt are written in their expanded form. The difficulty of this reading stems from a supralinear circular stroke ligatured with the top of the cross bar of the chi. I read this with difficulty as the epsilon. One might be tempted to read μη(νὸς) Χο(ίακ), but μείς precedes no other month name in the receipt. The amount paid in this month, 12 drachmas, might also confirm the reading Μεχε̣[ὶρ]. The payment from the successive months Pharmouthi through Pauni is four drachmas per month. Were the month in this line Choiak, immediately following Neos Sebastos/Hathyr, we might expect only four drachmas. </p>
+                     <p xml:id="p58">No trace of the date remains, but both the superlinear ordinal stroke and the abbreviation(δραχμὰς) are read securely. The difficulty in this section stems from a physical feature, where the vertical fiber that runs the length of the papyrus appears here to be traces of ink. </p>
+                     <p xml:id="p59"><ref>7</ref> (γίν.) (δρ.).  The siglum for drachma here (more like a final sigma) is different than appears in lines 5-6 or 8-9 (more like a lunate sigma). This might indicate a different hand, but there are no discernable differences in ductus or letter formation. </p>
+                     <p xml:id="p60"><ref>8</ref> λ̅ μετ(ὰ) λ(όγον) η̅.  I am indebted to Ann Hanson for the reading of this accounting </p>
+                     <p xml:id="p61">phrase. While the amount on this line was to be credited to the 30th of Pharmouthi (the last month mentioned in line 6) the monies were not forwarded to the capital of the nome, perhaps due to insufficient funds, until the 8th of Pachon, the following month. For a comprehensive treatment of this accounting term and its appearances, see Hagedorn (n. 17) and add P.CtYBR inv. 340 to his Table I (103).</p>
+                     <p xml:id="p62"><ref>7-9</ref> τέσσαρας.  Or perhaps τέσσαρες. </p>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>Appendix: Rereading P.Mil. 12.9 (Claytor)</head>
+               <p xml:id="p76">	The editor of P.Mil. 12.9 gives the following for ll. 2-4 (see Fig. 1 for line 3):</p>
+               <p xml:id="p77">			… Ἡρακλᾷ τῶι παρὰ </p>
+               <p xml:id="p78">	Γαίου Ἰουλίου Ἀλεξ(άνδρου) υἱοῦ Ψω( ) ἀρ(γυρίου) (δραχμὰς) δ καταλαμβ(άνοντι)    </p>
+               <p xml:id="p79">	ὑπ(ὲρ) συντ(αξίμου) τοῦ α(ὐτοῦ) (ἔτους) Θεαδελφείας.   </p>
+               <p xml:id="p80">Two things are jarring about this reading: the unusual abbreviated name Ψω( ) and the participle καταλαμβάνοντι, which does not find parallels in tax receipts. On closer inspection of document,<note place="foot" xml:id="ftn29" n="28"><p> Examined on 1 June, 2015. I thank Prof. Carla Balconi for her hospitality. </p></note> and through comparison with 3 (Fig. 2) and 2 (Figs. 3 and 4), the editor’s δ καταλαμβ(άνοντι) can in fact be read as δημ(οσίου) τρ(απεζίτου) Ἀρσι(νοίτου), giving the title of C. Iulius Alexandros’ father.<note place="foot" xml:id="ftn30" n="29"><p> Hagedorn has shown that titles after υἱός + patronymic belong to the father: D. Hagedorn, “Zur Verwendung von υἱόϲ und θυγάτηρ vor dem Vatersnamen in Urkunden römischer Zeit,” ZPE 80 (1990) 277-282.   </p></note></p>
+               <figure>
+                  <graphic n="1001"
+                           width="15.239647222222223cm"
+                           height="1.5466694444444444cm"
+                           url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c010e595-d277-4fa5-8b30-141c53560c14/file/id/714485/file_version/name/huge"/>
+                  <head>Fig. 1. P.Mil. 12.9, line 3. Image published courtesy of the Direzione della Biblioteca di Ateneo dell'Università Cattolica del Sacro Cuore di Milano.   </head>
+               </figure>
+               <figure>
+                  <graphic n="1002"
+                           width="10.157558333333334cm"
+                           height="1.8944194444444444cm"
+                           url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8a9418f4-3eed-4acc-9cce-852dda915c6c/file/id/714486/file_version/name/preview"/>
+                  <head>Fig. 2. Text 3, end of line 3: Συρίωνο(ς) δημ(οσίου) τρα(πεζίτου) Ἀρσι(νοίτου).</head>
+               </figure>
+               <p xml:id="p81">	Before this title, we are left with what should be Alexandros’ father’s name, because the reading υἱοῦ is clear. The editor read this name as Ψω( ),<note place="foot" xml:id="ftn31" n="30"><p> The first edition of P.Mil. 9 has χ(ιριστοῦ) in this position. </p></note> and we must also reckon with the following letters, because ἀρ(γυρίου) (δρ.) is precluded by the new reading of what follows. In text 2 above, there are two further examples of this name, followed by δημ(οσίου) τρ(απεζίτου). Figures 3-5 allow comparison of all three examples.</p>
+               <figure>
+                  <graphic n="1003"
+                           width="7.487708333333333cm"
+                           height="1.8287972222222222cm"
+                           url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/00736038-efba-42e2-b076-216e970861b9/file/id/714487/file_version/name/small"/>
+                  <head>Fig. 3. Text 2, line 3.</head>
+               </figure>
+               <figure>
+                  <graphic n="1004"
+                           width="7.487708333333333cm"
+                           height="2.1082805555555555cm"
+                           url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3ab8dd04-7dd2-4c2a-809a-0d38e579d0eb/file/id/714488/file_version/name/preview"/>
+                  <head>Fig. 4. Text 2, line 11. The line ends δημ(οσίου); the kappa is raised in abbreviation in the next line’s τριακ(οστοῦ).</head>
+               </figure>
+               <figure>
+                  <graphic n="1005"
+                           width="8.281458333333333cm"
+                           height="2.1470416666666665cm"
+                           url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4cf2692c-5341-4251-ab02-4d32cc563797/file/id/714489/file_version/name/preview"/>
+                  <head>Fig. 5. P.Mil. 12.9, line 3 detail. Image published courtesy of the Direzione della Biblioteca di Ateneo dell'Università Cattolica del Sacro Cuore di Milano.   </head>
+               </figure>
+               <p xml:id="p82">	The editor’s ἀρ(γυρίου) (δρ.) can be read as αρ( ) or αρα( ), depending on whether the hook is taken as an analphabetic abbreviation or a haken-alpha, as it can be in Ἀλεξά(νδρου) earlier in the line of the Milan papyrus (the editor printed Ἀλεξ(άνδρου)). In either case, this hook is clearly marking an abbreviation, since it is raised in both examples from text 2.  </p>
+               <p xml:id="p83">	What precedes is more difficult. The editor understood this as Ψω( ), with a raised, one-dip omega, but an open-top omicron would be preferable: cf. the omicrons in Γαίου Ἰουλίου. A priori, we expect a single name to stand here before the title and one possible solution is to read the letters together as one name, abbreviated only at the end, despite the raised letter after Ψ. In later texts, at least, omicron can be raised a bit in the combination ψο, but I have found neither contemporary parallels, nor examples in which the omicron is raised so high. <note place="foot" xml:id="ftn32" n="31"><p> Cf. Ψοαφρ̣ῆ̣ in P.Oxy. 38 2876.5 (212-214 CE).</p></note> Following this path, one might consider Ψοαρα(μούνιος), but so far this term has only been found as a village name in the Mendesian nome. <note place="foot" xml:id="ftn33" n="32"><p> Trismegistos.org, geoID 8120.</p></note></p>
+               <p xml:id="p84">A more promising direction is to read the editor’s Ψ as the “πυρός”symbol, which was used not only for this term, but for a range of words or phrases beginning with pi and followed by a rho or lambda, such as Πέρσης τῆς ἐπιγονῆς, place names like Πολέμων or Πτολεμαίς, and even the personal name Πτολεμαῖος. <note place="foot" xml:id="ftn34" n="33"><p> For discussion see P.Mich. 5.293, intro. and W.G. Claytor, “A Schedule of Contracts and a Private Letter: P.Fay. 344,” BASP 50 (2013) 77-121 at 88.</p></note> Could the combination ο be read as (Πτολεμαί)ο(υ)? The symbol is rarely used in conjunction with a letter, but one parallel is P.Stras. 2 88.13 (Pathyris, 105 BCE, BL 3.232), where the papyrus has ρ, which should be transcribed (Πέ)ρ(σαι τῆς ἐπιγονῆς).<note place="foot" xml:id="ftn35" n="34"><p> I thank Paul Heilporn for directing me to a digital image.</p></note> Another option would be to read the raised character as a quickly-written το(ῦ), although it only superficially resembles the writing of the article found in, e.g., penthemeros certificates, and its raised position suggests instead that it does belong to the preceding symbol. The following letters, as mentioned above, can be read as αρα( ) or αρ( ), which would be the beginning of a patronymic or an epithet of Ptolemaios under this interpretation. On the whole, this direction appears more promising, even if the names cannot be confidently expanded. Why Heraklas resorted to such an idiosyncratic writing of this banker’s name is unclear.</p>
+               <p xml:id="p85">To summarize, the proposed reading of P.Mil. 12.9.3 is as follows:</p>
+               <p xml:id="p86">Γαίου Ἰουλίου Ἀλεξά(νδρου) υἱοῦ (Πτολεμαί)ο(υ) Αρα( )   </p>
+               <p xml:id="p87">δημ(οσίου) τρ(απεζίτου) Ἀρσι(νοίτου)</p>
+               <p xml:id="p88">However the name is read, it is interesting that Gaius Iulius Alexandros’ father is of (presumably) local origin. With his tria nomina, Alexandros must have been an early recipient of Roman citizenship. He may also be the estate owner attested in P.Ryl. 2 166 (Euhemeria, 26 CE), whose possessions were acquired by the empress Livia: P.Ryl. 2 126 (Euhemeria, 28/29 CE).<note place="foot" xml:id="ftn36" n="35"><p> For possible identifications of this Alexandros, see G.M. Parassoglou, Imperial Estates in Roman Egypt (Amsterdam 1978) 17, n. 12.</p></note></p>
+            </div>
+            <div type="corrections">
+               <table type="#corrections">
+                  <row>
+                     <cell style="text-align: left;">TargetFile</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.mil/p.mil.1/p.mil.1.9.xml#L56">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.mil/p.mil.1/p.mil.1.9.xml#L56</ref>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Replace</cell>
+                     <cell style="text-align: left;">Γαίου Ἰουλίου (Ἀλεξ(άνδρου)) υἱοῦ (|Ψω|) (ἀρ(γυρίου)) ((δραχμὰς)) &lt;#δ=4#&gt; (καταλαμβ(άνοντι))</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">XML</cell>
+                     <cell style="text-align: left;">&lt;lb n="3"/&gt;Γαίου Ἰουλίου &lt;expan&gt;Ἀλεξ&lt;ex&gt;άνδρου&lt;/ex&gt;&lt;/expan&gt; υἱοῦ &lt;abbr&gt;Ψω&lt;/abbr&gt; &lt;expan&gt;ἀρ&lt;ex&gt;γυρίου&lt;/ex&gt;&lt;/expan&gt; &lt;expan&gt;&lt;ex&gt;δραχμὰς&lt;/ex&gt;&lt;/expan&gt; &lt;num value="4"&gt;δ&lt;/num&gt; &lt;expan&gt;καταλαμβ&lt;ex&gt;άνοντι&lt;/ex&gt;&lt;/expan&gt;</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">With</cell>
+                     <cell style="text-align: left;">Γαίου Ἰουλίου (Ἀλεξά(νδρου)) υἱοῦ &lt;:((Πτολεμαί?)ο(υ?)) (|Αρα|) (δημ(οσίου)) (τρ(απεζίτου)) (Ἀρσι(νοίτου))=W.G. Claytor, BASP 53 (2016) 144|ed|(|Ψω|) (ἀρ(γυρίου)) ((δραχμὰς)) &lt;#δ=4#&gt; (καταλαμβ(άνοντι)):&gt;</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">XML</cell>
+                     <cell style="text-align: left;">&lt;lb n="3"/&gt;Γαίου Ἰουλίου &lt;expan&gt;Ἀλεξά&lt;ex&gt;νδρου&lt;/ex&gt;&lt;/expan&gt; υἱοῦ &lt;app type="editorial"&gt;&lt;lem resp="W.G. Claytor, BASP 53 (2016) 144"&gt;&lt;expan&gt;&lt;ex cert="low"&gt;Πτολεμαί&lt;/ex&gt;ο&lt;ex cert="low"&gt;υ&lt;/ex&gt;&lt;/expan&gt; &lt;abbr&gt;Αρα&lt;/abbr&gt; &lt;expan&gt;δημ&lt;ex&gt;οσίου&lt;/ex&gt;&lt;/expan&gt; &lt;expan&gt;τρ&lt;ex&gt;απεζίτου&lt;/ex&gt;&lt;/expan&gt; &lt;expan&gt;Ἀρσι&lt;ex&gt;νοίτου&lt;/ex&gt;&lt;/expan&gt;&lt;/lem&gt;&lt;rdg&gt;&lt;abbr&gt;Ψω&lt;/abbr&gt; &lt;expan&gt;ἀρ&lt;ex&gt;γυρίου&lt;/ex&gt;&lt;/expan&gt; &lt;expan&gt;&lt;ex&gt;δραχμὰς&lt;/ex&gt;&lt;/expan&gt; &lt;num value="4"&gt;δ&lt;/num&gt; &lt;expan&gt;καταλαμβ&lt;ex&gt;άνοντι&lt;/ex&gt;&lt;/expan&gt;&lt;/rdg&gt;&lt;/app&gt;</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">SelfReferenceTag</cell>
+                     <cell style="text-align: left;">W.G. Claytor, BASP 53 (2016) 144</cell>
+                  </row>
+               </table>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Receipt for Syntaxis</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">703274</idno>
+               <idno type="HGV">703274</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P. Heid. inv. G 1026</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">13.5</measure>
+                              <measure type="width" unit="cm">10</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>Nov., 16 - Aug., 15 BCE</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p><placeName n="1">Theadelpheia</placeName></p>
+                     </provenance>
+                     <provenance type="acquired">
+                        <p><date>1959</date></p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Quittung</term>
+                  <term n="2">Steuer</term>
+                  <term n="3">Geld</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+            <div type="figure">
+               <p><figure n="1"><graphic url="https://digi.ub.uni-heidelberg.de/diglit/p_g_1026"/></figure></p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Receipt for Syntaxis</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV">703274</idno>
+               <idno type="TM">703274</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Receipt for Syntaxis</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="r" type="textpart"><ab> 
+    <lb n="1" rend="indent"/>ἔτους <num value="15">ιε</num> Καίσαρος <unclear>Ἁ</unclear>θὺ<unclear>ρ</unclear> <num><gap reason="illegible" quantity="1" unit="character"/></num> 
+    <lb n="2" rend="indent"/><expan>δι<unclear>α</unclear><ex>γε</ex>γρ<ex>άφηκεν</ex></expan> εἰς τὴν <expan>σύντ<unclear>α</unclear>ξι<ex>ν</ex></expan> 
+    <lb n="3" rend="indent"/><expan>Θεαδελ<ex>φείας</ex></expan> Ἁρ<unclear>τ</unclear>ώδης <expan>ἀρ<ex>γυρίου</ex></expan> <expan><ex>δραχμὰς</ex></expan> <num value="4">δ</num>
+    <lb n="4" rend="indent"/><expan>δι<ex>ὰ</ex></expan> <abbr><gap reason="illegible" quantity="1" unit="character"/>ε<gap reason="illegible" quantity="2" unit="character"/>χ<gap reason="illegible" quantity="1" unit="character"/></abbr>
+    <lb n="5" rend="indent"/>Χοιὰκ <num value="15">ι<hi rend="supraline">ε</hi></num> <expan><ex>δραχμὰς</ex></expan> <choice><reg><expan>τέσσαρα<ex>ς</ex></expan></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>
+    <lb n="6" rend="indent"/>Τῦβι <num value="19">ι<hi rend="supraline"><unclear>θ</unclear></hi></num> <expan><ex>δραχμὰς</ex></expan> <choice><reg><expan>τέσσαρα<ex>ς</ex></expan></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>
+    <lb n="7" rend="indent"/><expan>Μεχ<ex>εὶρ</ex></expan> κ<unclear>δ</unclear>̅ <expan>δρ<unclear>αχμ</unclear><ex>ὰς</ex></expan> <choice><reg><expan>τέσσαρ<supplied reason="lost">α<ex>ς</ex></supplied></expan></reg><orig><expan>τέσαρ<supplied reason="lost">ε<ex>ς</ex></supplied></expan></orig></choice>, <supplied reason="lost"><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num></supplied>
+    <lb n="8" rend="indent"/><expan>Φα<unclear>μ</unclear><ex>ενὼθ</ex></expan> <num value="26">κ<hi rend="supraline">ϛ</hi></num> <expan><ex cert="low">δραχμὰς</ex></expan> <choice><reg><expan>τέσσαρα<ex>ς</ex></expan></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>
+    <lb n="9"/><expan>Παχ<ex>ὼν</ex></expan> <num value="10"><hi rend="supraline"><unclear>ι</unclear></hi></num> <expan>Φαρμ<ex>οῦθι</ex></expan> <expan><ex>δραχμὰς</ex></expan> <num value="4">δ</num>, <handShift new="m2"/>Παχὼν <gap reason="lost" atLeast="1" atMost="2" unit="character"/> 
+    <lb n="10"/><expan><unclear>δι</unclear><ex>α</ex>γεγράφηκεν</expan> <unclear>Ἁ</unclear>ρθώτ<unclear>η</unclear><supplied reason="lost">ς</supplied>
+    <lb n="11"/><unclear>εἰς</unclear> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <choice><reg><app type="alternative"><lem>σύνταξιν</lem><rdg>συντάξεις</rdg></app></reg><orig><unclear>σ</unclear>υνταξις</orig></choice> <expan><ex>δραχμὰς</ex></expan> <choice><reg><expan>τέσ<supplied reason="lost">σαρα<ex>ς</ex></supplied></expan></reg><orig><expan>τέ<unclear>σ</unclear><supplied reason="lost">αρε<ex>ς</ex></supplied></expan></orig></choice>
+    <lb n="12"/><supplied reason="lost"><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>,</supplied> <gap reason="lost" extent="unknown" unit="character"/><hi rend="supraline"><gap reason="illegible" quantity="2" unit="character"/></hi> Παῦνι <num value="14">ι<hi rend="supraline">δ</hi></num>
+    <lb n="13"/><supplied reason="lost"><handShift new="m1" cert="low"/><expan>δραχμ<ex>ὰς</ex></expan></supplied> <choice><reg><expan><supplied reason="lost">τέ</supplied>σσαρα<ex>ς</ex></expan></reg><orig><expan><supplied reason="lost">τέ</supplied><unclear>σ</unclear>αρ<unclear>ε</unclear><ex>ς</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num> <gap reason="lost" extent="unknown" unit="character"/>
+    <lb n="14"/><supplied reason="lost">Ἐπεὶφ</supplied><num atLeast="1" atMost="30"><gap reason="lost" atLeast="1" atMost="2" unit="character"/></num> <expan><ex cert="low">δραχμὰς</ex></expan> <choice><reg><expan>τέσσαρα<ex>ς</ex></expan></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4"><supplied reason="lost">δ</supplied></num>
+    <lb n="15"/><supplied reason="lost">Μεσορὴ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied><unclear>έ</unclear><supplied reason="lost">σ</supplied><unclear>αρας</unclear>, <expan><ex>γίνονται</ex></expan> <supplied reason="lost"><expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num></supplied>
+    <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+    <lb n="16"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div> 
+<div n="v" type="textpart"><ab> 
+    <lb n="17"/><gap reason="lost" quantity="3" unit="character"/> 
+    <lb n="17"/><space extent="unknown" unit="character"/>  
+    <lb n="18"/><abbr><unclear>η</unclear>ια</abbr> π δια<gap reason="illegible" quantity="1" unit="character"/>α  
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Receipt for Syntaxis</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">703274</idno>
+               <idno type="TM">703274</idno>
+               <idno type="HGV">703274</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+            <div n="r" type="textpart">
+               <p>
+                  <milestone unit="line" n="1"/> In the 15th year of Caesar, on Hathyr ..., he has paid for the syntaxis of Theadelphia: Harthotes 4 silver dr. through N.N.,
+<milestone unit="line" n="5" rend="break"/> on Choiak 15, four dr.,
+<milestone unit="line" n="6" rend="break"/> on Tybi 19, four dr. = 4 dr.,
+<milestone unit="line" n="7" rend="break"/> on Mecheir 24, four drachmas = 4 dr.,
+<milestone unit="line" n="8" rend="break"/> on Phamenoth 26, four dr. = 4 dr.,
+<milestone unit="line" n="9" rend="break"/> on Pachon 10, (for) Pharmouthi, dr. 4, on Pachon … Harthotes has paid for the syntaxis four dr. = 4 dr.,
+<milestone unit="line" n="12"/> on Pauni 14, four dr. = 4 dr.,
+<milestone unit="line" n="14" rend="break"/> on Epeiph …, four dr. = 4 dr.,
+<milestone unit="line" n="15" rend="break"/> on Mesore …, four dr. = 4 dr,
+ …
+               </p>
+            </div>
+            <div n="v" type="textpart">
+               <p>
+                  <milestone unit="line" n="17"/> obsure notation
+               </p>
+            </div>
+         </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Receipt for Syntaximon</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">703275</idno>
+               <idno type="HGV">703275</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P. Mich inv. 1986</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">19</measure>
+                              <measure type="width" unit="cm">10.25</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>27 Jan. - 28 Oct., 7 CE</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p><placeName n="1">Apias</placeName></p>
+                     </provenance>
+                     <provenance type="acquired">
+                        <p><date>1924</date></p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Quittung</term>
+                  <term n="2">Steuer</term>
+                  <term n="3">Geld</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+            <div type="figure">
+               <p><figure n="1"><graphic url="https://quod.lib.umich.edu/a/apis/x-8120"/></figure></p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Receipt for Syntaximon</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV">703275</idno>
+               <idno type="TM">703275</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Receipt for Syntaximon</head>
+            <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+    <lb n="1"/><unclear>ἔτους</unclear> <num value="36"><unclear>λϛ</unclear></num> Καίσαρος <expan>Μεχε<ex>ὶρ</ex></expan> <num value="2"><hi rend="supraline">β</hi></num> <expan>δ<ex>ιέ</ex>γρ<ex>αψεν</ex></expan>
+    <lb n="2"/><supplied reason="lost">Ἀν</supplied>χ<unclear>όρινφις</unclear> Ἰσχῖτος <expan>Ἡρακ<ex>λᾷ</ex></expan> τῶι
+    <lb n="3"/><supplied reason="lost">πα</supplied><unclear>ρὰ</unclear> <expan><ex cert="low">Πτολεμαί</ex>ο<ex>υ</ex></expan> <abbr>Αρ<unclear>α</unclear></abbr> <expan><unclear>δημ</unclear><ex>οσίου</ex></expan> <expan>τρ<ex>απεζίτου</ex></expan> εἰς <expan>συντάξ<ex>ιμον</ex></expan> τοῦ <expan>α<ex>ὐτοῦ</ex></expan> <expan><ex>ἔτους</ex></expan>
+    <lb n="4"/><unclear>Ἀ</unclear><supplied reason="lost">π</supplied>ιάδ<unclear>ο</unclear>ς <expan>ἀργ<ex>υρίου</ex></expan> <expan><ex>δραχμὰς</ex></expan> <choice><reg><num value="8">ὀκτώ</num></reg><orig><expan>ὀκτώ<ex>ι</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="8">η</num> καὶ <expan>τῆ<ex>ι</ex></expan>
+    <lb n="5"/><gap reason="lost" atLeast="1" atMost="2" unit="character"/> <unclear>τ</unclear>οῦ <expan>Φαρ<ex>μοῦθι</ex></expan> <expan><ex>δραχμὰς</ex></expan> <num value="12">δεκαδύο</num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="12">ιβ</num>
+    <lb n="6"/>κ<unclear>αὶ</unclear> <expan>τῆ<ex>ι</ex></expan> <num value="23"><hi rend="supraline">κ<unclear>γ</unclear></hi></num> τοῦ <expan>Πα<ex>ῦνι</ex></expan> <expan><ex>δραχμὰς</ex></expan> <num value="12">δεκαδύο</num>
+    <lb n="7"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="12">ιβ</num> κ<unclear>α</unclear>ὶ <expan>τῆ<ex>ι</ex></expan> <num><hi rend="supraline">α</hi></num> τοῦ Μεσορ<unclear>ὴ</unclear> <expan><ex>δραχμὰς</ex></expan> <choice><reg><num value="8">ὀκτώ</num></reg><orig><expan>ὀκτώ<ex>ι</ex></expan></orig></choice>,
+    <lb n="8"/><expan><ex>γίνονται</ex></expan> <supplied reason="lost"><expan><ex>δραχμαὶ</ex></expan></supplied> <num value="8"><supplied reason="lost">η</supplied></num>
+    <lb n="9"/>ἔτους <num value="37">λ<unclear>ζ</unclear></num> <expan>Καίσ<ex>αρος</ex></expan> <expan>Φαῶ<ex>φι</ex></expan> <num value="30"><hi rend="supraline">λ</hi></num> <expan>δ<ex>ι</ex>έγρ<ex>αψεν</ex></expan>
+    <lb n="10"/>Ἀ<unclear>ν</unclear>χόρινφις <subst><add place="inline">Ἰσχῖτος</add><del rend="corrected">Ἰσχυτος</del></subst>
+    <lb n="11"/>Ἡρ<unclear>ακλᾷ</unclear> <unclear>τῶι</unclear> <unclear>παρὰ</unclear> <expan><ex cert="low">Πτολεμαί</ex>ο<ex>υ</ex></expan> <abbr>Αρ<unclear>α</unclear></abbr> <expan>δημ<ex>οσίου</ex></expan>
+    <lb n="12"/><expan>τ<unclear>ρ</unclear><ex>απεζίτου</ex></expan> <supplied reason="lost">εἰ<supplied reason="omitted">ς</supplied></supplied> <expan><supplied reason="lost">σ</supplied><unclear>υντ</unclear>ά<ex>ξιμον</ex></expan> τοῦ ἕκτου καὶ <subst><add place="inline"><expan>τριακ<ex>οστοῦ</ex></expan></add><del rend="corrected"><expan><gap reason="illegible" quantity="2" unit="character"/>ιακ<ex>οστοῦ</ex></expan></del></subst> 
+    <lb n="13"/><expan><ex>ἔτους</ex></expan> <unclear>α</unclear><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="3" unit="character"/> <expan><ex cert="low">δραχμὰς</ex></expan> <num value="4"><expan>τέσσερα<ex>ς</ex></expan></num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Receipt for Syntaximon</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">703275</idno>
+               <idno type="TM">703275</idno>
+               <idno type="HGV">703275</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans2" xml:lang="en" type="translation" xml:space="preserve">
+            <p>
+               <milestone unit="line" n="1"/> In the 36th year of Caesar, on Mecheir 2, Anchorinphis, son of Ischis, paid to Heraklas, the agent of Ptolemaios (?), son of Ara( ) (?), public banker, for the syntaximon of the same year, for Apias, eight silver drachmas = 8 dr,
+	       <milestone unit="line" n="5"/> and on the … of Pharmouthi, twelve dr. = 12 dr.,
+	       <milestone unit="line" n="6"/> and on the 23rd of Pauni, twelve dr. = 12 dr.,
+	       <milestone unit="line" n="7"/> and on the 1st of Mesore, eight dr. = 8 dr.
+               <milestone unit="line" n="9" rend="break"/>Year 37 of Caesar, Phaophi 30. Anchorinphis, son of Ischis, paid to Heraklas, the agent of Psoaramounis, public banker, for the syntaximon of the thirty-sixth year … four silver (?) dr. = 4 dr.
+            </p>
+         </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Receipt for Syntaximon </title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">703276</idno>
+               <idno type="HGV">703276</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P.Mich. inv. 4187</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">27</measure>
+                              <measure type="width" unit="cm">10.7</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>26 Dec., 10 - 22 Jul., 11 CE</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p><placeName n="1">Theadelpheia</placeName></p>
+                     </provenance>
+                     <provenance type="acquired">
+                        <p><date>1959</date></p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Quittung</term>
+                  <term n="2">Steuer</term>
+                  <term n="3">Geld</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+            <div type="figure">
+               <p><figure n="1"><graphic url="https://quod.lib.umich.edu/a/apis/x-4369"/></figure></p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Receipt for Syntaximon </title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV">703276</idno>
+               <idno type="TM">703276</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Receipt for Syntaximon </head>
+            <div xml:id="ed3" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+    <lb n="1"/>ἔτους <num value="40">μ</num> Καίσαρος, <expan>Χοι<ex>ὰκ</ex></expan> <num value="30"><hi rend="supraline">λ</hi></num> <expan>δ<ex>ι</ex>έγρ<ex>αψεν</ex></expan>
+    <lb n="2"/>Μαρσίσουχος Μαρρείους Ἡρακλᾷ 
+    <lb n="3"/>τῶι παρὰ <expan>Συρίωνο<ex>ς</ex></expan> <expan>δημ<ex>οσίου</ex></expan> <expan>τρα<ex>πεζίτου</ex></expan> <expan>Ἀρσι<ex>νοίτου</ex></expan>
+    <lb n="4"/>εἰ<supplied reason="omitted">ς</supplied> <expan><unclear>σ</unclear>υ<unclear>ντά</unclear><ex>ξιμον</ex></expan> <unclear>τοῦ</unclear> <expan><unclear>α</unclear><ex>ὐτοῦ</ex></expan> <expan><ex>ἔτους</ex></expan> <expan>Θεαδελ<ex>φείας</ex></expan> <expan>ἀργυ<ex>ρίου</ex></expan> <expan>ῥ<unclear>υπ</unclear><ex>αροῦ</ex></expan>
+    <lb n="5"/><choice><reg><supplied reason="lost">ὀ</supplied>κτώ</reg><orig><expan><supplied reason="lost">ὀ</supplied>κτώ<ex>ι</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="8">η</num> καὶ τῆι <num value="10"><hi rend="supraline"><unclear>ι</unclear></hi></num> τοῦ <expan>Τ<ex>ῦ</ex>β<ex>ι</ex></expan> <choice><reg><num value="4"><expan>τέσσαρα<ex>ς</ex></expan></num></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>,
+    <lb n="6"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num> καὶ <expan>τῆ<ex>ι</ex></expan> <num value="30"><hi rend="supraline">λ</hi></num> <expan>το<ex>ῦ</ex></expan> <expan>Τ<ex>ῦ</ex>β<ex>ι</ex></expan> <choice><reg><num value="4"><expan>τέσσαρα<ex>ς</ex></expan></num></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>
+    <lb n="7"/>καὶ <expan>τῆ<ex>ι</ex></expan> <num value="29">κ<unclear>θ</unclear></num> τοῦ <expan>Φαρμοῦ<ex>θι</ex></expan> <choice><reg><num value="4"><expan>τέσσαρα<ex>ς</ex></expan></num></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>
+    <lb n="8"/>καὶ <expan>τῆ<ex>ι</ex></expan> <num value="30"><hi rend="supraline">λ</hi></num> τοῦ <expan>Φαρμοῦ<ex>θι</ex></expan> <choice><reg><num value="4"><expan>τέσσαρα<ex>ς</ex></expan></num></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>
+    <lb n="9"/>καὶ <expan>τῆ<ex>ι</ex></expan> <num atLeast="21" atMost="29"><unclear>κ</unclear><gap reason="illegible" quantity="1" unit="character"/></num> τοῦ <expan>Πα<ex>ῦνι</ex></expan> <num value="12">δεκαδύο</num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="12">ιβ</num>
+    <lb n="10"/><supplied reason="lost">καὶ</supplied> <expan>τῆ<ex>ι</ex></expan> <num value="28">κ<hi rend="supraline">η</hi></num> τοῦ Ἐπεὶφ <expan><ex>δραχμὰς</ex></expan> <choice><reg>ὀκτώ</reg><orig><expan>ὀκτώ<ex>ι</ex></expan></orig></choice> <num value="1/2">𐅵</num> <num value="2"><expan><ex>δίχαλκον</ex></expan></num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="8">η</num> <num value="1/2">𐅵</num> <num value="2"><expan><ex>δίχαλκον</ex></expan></num>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Receipt for Syntaximon </title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">703276</idno>
+               <idno type="TM">703276</idno>
+               <idno type="HGV">703276</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans3" xml:lang="en" type="translation" xml:space="preserve">
+            <p>
+               <milestone unit="line" n="1"/> In the 40th year of Caesar on the 30th of Choiak, Marsisouchos son of Marres has paid to Heraklas, the agent of Syrion, public banker of the Arsinoite (nome), for the syntaximon of the same year, for Theadelphia, eight silver (drachmas) = 8 dr., 
+               <milestone unit="line" n="5"/> and on the 10th of Tybi four dr. = 4 dr.,
+               <milestone unit="line" n="6"/> and on the 30th of Tybi four dr. = 4 dr.,
+               <milestone unit="line" n="7"/> and on the 29th of Pharmouthi four dr . = 4 dr., 
+               <milestone unit="line" n="8"/> and on the 30th of Pharmouthi four dr. = 4 dr.,  
+               <milestone unit="line" n="9"/> and on the [21-29th] of Pauni twelve dr. = 12 dr.,
+               <milestone unit="line" n="10"/> and on the 28th of Epeiph eight dr., ½ obol, 2 chalkoi = 8 dr., ½ obol, 2 chalkoi.
+            </p>
+         </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Receipt for Syntaximon </title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">703277</idno>
+               <idno type="HGV">703277</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P.CtYBR inv. 340</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">9.4</measure>
+                              <measure type="width" unit="cm">14.7</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>27 Oct., 24 - 3 Jun., 25 CE</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p><placeName n="1">Theadelpheia</placeName></p>
+                     </provenance>
+                     <provenance type="acquired">
+                        <p><date>1931</date></p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Quittung</term>
+                  <term n="2">Steuer</term>
+                  <term n="3">Geld</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+            <div type="figure">
+               <p><figure n="1"><graphic url="http://hdl.handle.net/10079/digcoll/2757137"/></figure></p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Receipt for Syntaximon </title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV">703277</idno>
+               <idno type="TM">703277</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Receipt for Syntaximon </head>
+            <div xml:id="ed4" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+    <lb n="1"/>ἔτους <num value="11">ια</num> Tιβερίου Kαίσαρος
+    <lb n="2"/>Σεβαστοῦ μηνὸς Ν<supplied reason="lost">έ</supplied>oυ Σεβαστοῦ <num value="30"><hi rend="supraline"><unclear>λ</unclear></hi></num>
+    <lb n="3"/><expan>δι<unclear>έ</unclear>γρα<ex>ψεν</ex></expan> Ἡρα<unclear>κλ</unclear>ᾷ <expan>χ<unclear>ει</unclear><ex>ριστῇ</ex></expan> Ἁρθώτης
+    <lb n="4"/>Μαρρ<unclear>ε</unclear><supplied reason="lost">ίο</supplied><unclear>υς</unclear> <expan><unclear>συ</unclear>ντα<ex>ξίμου</ex></expan> τοῦ δεκάτου
+    <lb n="5"/>ἔτους <expan>Θεαδελφ<ex>είας</ex></expan> <expan>ἀργ<ex>υρίου</ex></expan> <expan><unclear>ῥ</unclear>υ<ex>παροῦ</ex></expan> <expan><ex>δραχμὰς</ex></expan> <num value="20">εἴκοσι</num>,
+    <lb n="6"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="20">κ</num>, Μεχ<unclear>ε</unclear><supplied reason="lost">ὶρ</supplied> <hi rend="supraline"><gap reason="illegible" quantity="1" unit="character"/></hi> <expan><ex>δραχμὰς</ex></expan> <num value="12">δεκαδύο</num>,
+    <lb n="7"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="12">ιβ</num>, Φαρμ<unclear>ο</unclear><supplied reason="lost">ῦ</supplied><unclear>θι</unclear> <hi rend="supraline">κδ</hi> <expan><ex>δραχμὰς</ex></expan> <num value="4">τέσσαρας</num>,
+    <lb n="8"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>, <num value="30"><hi rend="supraline">λ</hi></num> <expan>μετ<ex>ὰ</ex></expan> <expan>λ<ex>όγον</ex></expan> <num value="8"><hi rend="supraline">η</hi></num> <expan><ex>δραχμὰς</ex></expan> <num value="4">τέσσαρας</num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>,
+    <lb n="9"/>Παῦνι <num value="9"><hi rend="supraline">θ</hi></num> <expan><ex>δραχμὰς</ex></expan> <num value="4">τέ<supplied reason="lost">σσ</supplied>αρα<supplied reason="lost">ς</supplied></num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>.
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Receipt for Syntaximon </title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">703277</idno>
+               <idno type="TM">703277</idno>
+               <idno type="HGV">703277</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans4" xml:lang="en" type="translation" xml:space="preserve">
+            <p>
+               <milestone unit="line" n="1"/> In the 11th year of Tiberius Caesar Augustus on the 30th of the month of Neos Sebastos, Harthotes son of Marres paid to Heraklas, the collector’s agent, the syntaximon of the tenth year at Theadelphia, twenty silver dr. = 20 dr;
+               <milestone unit="line" n="6"/> on the … of Mecheir, twelve dr. = 12 dr;
+               <milestone unit="line" n="7"/> on the 24th of Pharmouthi, four dr. = 4 dr; 
+               <milestone unit="line" n="8"/> after the accounting on the 30th, on the 8th (i.e. of Pachon) = equals 4 dr.
+               <milestone unit="line" n="9"/> on the 9th of Pauni, four dr. = 4 dr.
+            </p>
+         </div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
