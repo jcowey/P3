@@ -272,14 +272,15 @@
             </div>
             <div type="section">
                <head>Data pertaining to nominations, approvals and oaths (second – third centuries CE)</head>
-               <table>
-                  <head>Table 2: nominations to liturgy, approvals of liturgy, and liturgical oaths (2nd – 3rd c. CE)</head>       
-                  <noteGrp>
-                     <note>The format (pagina or demotic style) was assessed according to the general shape of the sheet, not by an exact calculation of the width/height ratio.</note>
-                     <note>Fragmentary documents were omitted, unless enough was preserved to determine if they were prepared in the pagina or demotic style format.</note>
-                     <note>In the columns “pagina format” and “demotic style format”, some documents are labelled as abstracts and copies. Strictly speaking, they are irrelevant for the present purpose, but they were kept in the table in order to provide a more balanced impression of the available data.</note>
-                     <note>In the columns “nomination” and “approval”, bold characters indicate documents with a top space left free for the approval (or filled with the approval).</note>
-                  </noteGrp>
+               <figure>
+                  <head>Table 2: nominations to liturgy, approvals of liturgy, and liturgical oaths (2nd – 3rd c. CE)</head>
+                  <list>
+                     <item xml:id="n1">The format (pagina or demotic style) was assessed according to the general shape of the sheet, not by an exact calculation of the width/height ratio.</item>
+                     <item xml:id="n2">Fragmentary documents were omitted, unless enough was preserved to determine if they were prepared in the pagina or demotic style format.</item>
+                     <item xml:id="n3">In the columns “pagina format” and “demotic style format”, some documents are labelled as abstracts and copies. Strictly speaking, they are irrelevant for the present purpose, but they were kept in the table in order to provide a more balanced impression of the available data.</item>
+                     <item xml:id="n4">In the columns “nomination” and “approval”, bold characters indicate documents with a top space left free for the approval (or filled with the approval).</item>
+                  </list>
+               <table>       
                   <row>
                      <cell style="text-align: justify;">reference</cell>
                      <cell style="text-align: justify;">date</cell>
@@ -1042,6 +1043,7 @@
                      <cell style="text-align: center;">Oxy.</cell>
                   </row>
                </table>
+               </figure>
                <p xml:id="p19">The data collected here covers a period of roughly a century and a half, and lists documents from several areas of Egypt: apart from the Arsinoite nome, we find the Hermopolite, Cynopolite, Oxyrhynchite, Heracleopolite, Memphite, and the nome of Arabia.</p>
                <figure>
                   <graphic n="3" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/NXN"/>
@@ -1058,10 +1060,10 @@
                <head>Conclusion</head>
                <p xml:id="p27">To Stroppa’s fundamental contribution to the understanding of approvals to liturgy, several points can now be added:</p>
                <list>
-                  <item>A consistent pattern emerges from the data available from several nomes (Arabia, Memphite, Heracleopolite, Oxyrhynchite, Cynopolite and Hermopolite), with the exception of the Arsinoite. For documents pertaining to liturgy, the demotic style format is in constant use, at least from 138 till 277.</item>
-                  <item>Before the early third century, on the one hand no original approval of nomination is preserved (the only approvals in this period are copies or abstracts); on the other hand, nominations to liturgy do not display a space at the top of the document. This may suggest that the process by which the strategos added his approval in a free space at the top of nominations had not yet taken place. We can only speculate about how this was done before the early third century.</item>
-                  <item>Starting in the early third century, a consistent cluster of evidence appears, both among nominations and approvals: the scribes who prepare a nomination to liturgy leave an ample margin at the top and at the bottom. The bottom margin is used for a transmission docket; then the strategos adds his approval in the top margin. This is attested in the Cynopolite, Heracleopolite, Oxyrhynchite and Hermopolite nomes – but not in the Arsinoite, where the evidence is lacking.</item>
-                  <item>Both in terms of format and layout, the Arsinoite nome stands out when documents pertaining to liturgy are compared with those from other parts of Egypt. The available evidence indicates that the pagina format was used consistently, following a practice common in this nome for documents related to administration. As for the layout, the available evidence in the third century is very fragmentary; we can therefore not determine if, for approval to liturgies, the scribes adopted the practice observed in other nomes, where a free space was left at the top for the strategos to insert his approval.</item>
+                  <item rend="bullet">A consistent pattern emerges from the data available from several nomes (Arabia, Memphite, Heracleopolite, Oxyrhynchite, Cynopolite and Hermopolite), with the exception of the Arsinoite. For documents pertaining to liturgy, the demotic style format is in constant use, at least from 138 till 277.</item>
+                  <item rend="bullet">Before the early third century, on the one hand no original approval of nomination is preserved (the only approvals in this period are copies or abstracts); on the other hand, nominations to liturgy do not display a space at the top of the document. This may suggest that the process by which the strategos added his approval in a free space at the top of nominations had not yet taken place. We can only speculate about how this was done before the early third century.</item>
+                  <item rend="bullet">Starting in the early third century, a consistent cluster of evidence appears, both among nominations and approvals: the scribes who prepare a nomination to liturgy leave an ample margin at the top and at the bottom. The bottom margin is used for a transmission docket; then the strategos adds his approval in the top margin. This is attested in the Cynopolite, Heracleopolite, Oxyrhynchite and Hermopolite nomes – but not in the Arsinoite, where the evidence is lacking.</item>
+                  <item rend="bullet">Both in terms of format and layout, the Arsinoite nome stands out when documents pertaining to liturgy are compared with those from other parts of Egypt. The available evidence indicates that the pagina format was used consistently, following a practice common in this nome for documents related to administration. As for the layout, the available evidence in the third century is very fragmentary; we can therefore not determine if, for approval to liturgies, the scribes adopted the practice observed in other nomes, where a free space was left at the top for the strategos to insert his approval.</item>
                </list>
                <p xml:id="p28">The model proposed here relies on abundant, but nonetheless patchy evidence. We lack original nominations and approvals for the period from the 130s till the 180s (only copies or abstracts are preserved); and for the most part we are still ignorant of how the relevant documents from the Arsinoite nome looked in the third century. Some additional finds will enable us to confirm, refute, or refine the model.</p>
                <p xml:id="p29">We can only guess at the reason for the difference of format between the Arsinoite nome and other areas in Egypt. When considering the format of private letters, Sarri observed that the transuersa charta format gradually receded in the whole of Egypt, in favour of the pagina format, with a turning point in the first century BCE.<note place="foot" xml:id="ftn26" n="26"><p> Sarri 2018: 105.</p></note> The latter format was presumably deemed more elegant: Sarri notes that “most of the third and second century BCE letters that employ it were sent by relatively well educated individuals”.<note place="foot" xml:id="ftn27" n="27"><p> Sarri 2018: 97-98.</p></note> She also states that the demotic style format for letters was abandoned in the first century BCE.</p>
