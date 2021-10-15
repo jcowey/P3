@@ -318,9 +318,11 @@
             <div type="section">
                <head>Appendix: Rereading P.Mil. 12.9 (Claytor)</head>
                <p xml:id="p76">	The editor of P.Mil. 12.9 gives the following for ll. 2-4 (see Fig. 1 for line 3):</p>
-               <p xml:id="p77">			… Ἡρακλᾷ τῶι παρὰ </p>
-               <p xml:id="p78">	Γαίου Ἰουλίου Ἀλεξ(άνδρου) υἱοῦ Ψω( ) ἀρ(γυρίου) (δραχμὰς) δ καταλαμβ(άνοντι)    </p>
-               <p xml:id="p79">	ὑπ(ὲρ) συντ(αξίμου) τοῦ α(ὐτοῦ) (ἔτους) Θεαδελφείας.   </p>
+                <quote>
+                    <lb n="2"/>… Ἡρακλᾷ τῶι παρὰ     
+                    <lb n="3"/>Γαίου Ἰουλίου Ἀλεξ(άνδρου) υἱοῦ Ψω( ) ἀρ(γυρίου) (δραχμὰς) δ καταλαμβ(άνοντι)    
+                    <lb n="4"/>ὑπ(ὲρ) συντ(αξίμου) τοῦ α(ὐτοῦ) (ἔτους) Θεαδελφείας.
+                </quote>
                <p xml:id="p80">Two things are jarring about this reading: the unusual abbreviated name Ψω( ) and the participle καταλαμβάνοντι, which does not find parallels in tax receipts. On closer inspection of document,<note place="foot" xml:id="ftn29" n="28"><p> Examined on 1 June, 2015. I thank Prof. Carla Balconi for her hospitality. </p></note> and through comparison with 3 (Fig. 2) and 2 (Figs. 3 and 4), the editor’s δ καταλαμβ(άνοντι) can in fact be read as δημ(οσίου) τρ(απεζίτου) Ἀρσι(νοίτου), giving the title of C. Iulius Alexandros’ father.<note place="foot" xml:id="ftn30" n="29"><p> Hagedorn has shown that titles after υἱός + patronymic belong to the father: D. Hagedorn, “Zur Verwendung von υἱόϲ und θυγάτηρ vor dem Vatersnamen in Urkunden römischer Zeit,” ZPE 80 (1990) 277-282.   </p></note></p>
                <figure>
                   <graphic n="1001"
@@ -362,8 +364,9 @@
                <p xml:id="p83">	What precedes is more difficult. The editor understood this as Ψω( ), with a raised, one-dip omega, but an open-top omicron would be preferable: cf. the omicrons in Γαίου Ἰουλίου. A priori, we expect a single name to stand here before the title and one possible solution is to read the letters together as one name, abbreviated only at the end, despite the raised letter after Ψ. In later texts, at least, omicron can be raised a bit in the combination ψο, but I have found neither contemporary parallels, nor examples in which the omicron is raised so high. <note place="foot" xml:id="ftn32" n="31"><p> Cf. Ψοαφρ̣ῆ̣ in P.Oxy. 38 2876.5 (212-214 CE).</p></note> Following this path, one might consider Ψοαρα(μούνιος), but so far this term has only been found as a village name in the Mendesian nome. <note place="foot" xml:id="ftn33" n="32"><p> Trismegistos.org, geoID 8120.</p></note></p>
                <p xml:id="p84">A more promising direction is to read the editor’s Ψ as the “πυρός”symbol, which was used not only for this term, but for a range of words or phrases beginning with pi and followed by a rho or lambda, such as Πέρσης τῆς ἐπιγονῆς, place names like Πολέμων or Πτολεμαίς, and even the personal name Πτολεμαῖος. <note place="foot" xml:id="ftn34" n="33"><p> For discussion see P.Mich. 5.293, intro. and W.G. Claytor, “A Schedule of Contracts and a Private Letter: P.Fay. 344,” BASP 50 (2013) 77-121 at 88.</p></note> Could the combination ο be read as (Πτολεμαί)ο(υ)? The symbol is rarely used in conjunction with a letter, but one parallel is P.Stras. 2 88.13 (Pathyris, 105 BCE, BL 3.232), where the papyrus has ρ, which should be transcribed (Πέ)ρ(σαι τῆς ἐπιγονῆς).<note place="foot" xml:id="ftn35" n="34"><p> I thank Paul Heilporn for directing me to a digital image.</p></note> Another option would be to read the raised character as a quickly-written το(ῦ), although it only superficially resembles the writing of the article found in, e.g., penthemeros certificates, and its raised position suggests instead that it does belong to the preceding symbol. The following letters, as mentioned above, can be read as αρα( ) or αρ( ), which would be the beginning of a patronymic or an epithet of Ptolemaios under this interpretation. On the whole, this direction appears more promising, even if the names cannot be confidently expanded. Why Heraklas resorted to such an idiosyncratic writing of this banker’s name is unclear.</p>
                <p xml:id="p85">To summarize, the proposed reading of P.Mil. 12.9.3 is as follows:</p>
-               <p xml:id="p86">Γαίου Ἰουλίου Ἀλεξά(νδρου) υἱοῦ (Πτολεμαί)ο(υ) Αρα( )   </p>
-               <p xml:id="p87">δημ(οσίου) τρ(απεζίτου) Ἀρσι(νοίτου)</p>
+                <quote>
+                    <lb n="3"/>Γαίου Ἰουλίου Ἀλεξά(νδρου) υἱοῦ (Πτολεμαί)ο(υ) Αρα( ) δημ(οσίου) τρ(απεζίτου) Ἀρσι(νοίτου)
+                </quote>
                <p xml:id="p88">However the name is read, it is interesting that Gaius Iulius Alexandros’ father is of (presumably) local origin. With his tria nomina, Alexandros must have been an early recipient of Roman citizenship. He may also be the estate owner attested in P.Ryl. 2 166 (Euhemeria, 26 CE), whose possessions were acquired by the empress Livia: P.Ryl. 2 126 (Euhemeria, 28/29 CE).<note place="foot" xml:id="ftn36" n="35"><p> For possible identifications of this Alexandros, see G.M. Parassoglou, Imperial Estates in Roman Egypt (Amsterdam 1978) 17, n. 12.</p></note></p>
             </div>
             <div type="corrections">
