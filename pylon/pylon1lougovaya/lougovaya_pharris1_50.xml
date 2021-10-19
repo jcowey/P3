@@ -384,4 +384,223 @@
             </body>
         </text>
     </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>P.Math. C recto</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>pylon</authority>
+                    <idno type="dclp-hybrid">na</idno>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>Used to present a quoted text</p>                            
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                    <language ident="la">Latin</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <head xml:lang="en">P.Math. C recto</head>
+                <div xml:id="ed3" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+    <lb n="5"/>οὕτω ποιοῦμαι. συν<unclear>τί</unclear><supplied reason="lost">θω</supplied>
+
+    <lb n="6"/><supplied reason="lost">τὸ πλ</supplied>άτος, <num value="16"><hi rend="supraline">ιϛ</hi></num> καὶ <num value="12"><hi rend="supraline">ιβ</hi></num>, <expan>γί<ex>νεται</ex></expan> <num value="28"><hi rend="supraline">κη</hi></num>, ὧν ἥμισυ <supplied reason="lost"><num value="14"><hi rend="supraline">ιδ</hi></num>. συν</supplied>
+
+    <lb n="7" break="no"/><supplied reason="lost">τί</supplied><unclear>θο</unclear>μ<unclear>ε</unclear>ν τὸ πάχος, <num value="16"><surplus><hi rend="supraline">ι</hi></surplus><hi rend="supraline">ϛ</hi></num> καὶ <num value="8"><hi rend="supraline">η</hi></num>. <expan>γί<ex>νεται</ex></expan> <num value="14"><hi rend="supraline">ιδ</hi></num>, ὧν ἥμι<supplied reason="lost">συ <num value="7"><hi rend="supraline">ζ</hi></num>.</supplied>
+
+    <lb n="8"/><supplied reason="lost">ἐ</supplied><unclear>π</unclear>ὶ δὲ τ<supplied reason="lost">ὸ</supplied>ν <num value="14"><hi rend="supraline">ιδ</hi></num>, <expan>γί<ex>νεται</ex></expan> <num value="98"><hi rend="supraline">ϙη</hi></num>. ἐπὶ τὸ <unclear>μῆ</unclear>κος<unclear>,</unclear> πη<unclear>χ</unclear>ῶν <num value="28"><hi rend="supraline">κη</hi></num>,
+
+    <lb n="9"/><supplied reason="lost"><expan>γί<ex>νεται</ex></expan></supplied> <num value="2744"><supplied reason="lost"><hi rend="supraline">Β</hi></supplied><hi rend="supraline"><unclear>ψμδ</unclear></hi></num>. <unclear>τα</unclear>ῦτα μερίζομαι π<supplied reason="lost">α</supplied><unclear>ρ</unclear><supplied reason="lost">ὰ</supplied> <unclear>τ</unclear>ὸν <num value="288"><hi rend="supraline">σπ<unclear>η</unclear></hi></num>, 
+
+    <lb n="10"/>κ<unclear>α</unclear>ὶ τὰ <choice><reg>λοιπὰ εἰς</reg><orig>λυ<unclear>πὰ</unclear> ἰς</orig></choice> δακτύλους <app type="editorial"><lem><num value="12"><hi rend="supraline">ιβ</hi></num></lem><rdg resp="ed.pr."><surplus><hi rend="supraline">ιβ</hi></surplus></rdg></app>. <expan>γί<ex>νεται</ex></expan> <num value="9"><hi rend="supraline">θ</hi></num> καὶ δακτύλ<supplied reason="lost">ων</supplied>
+
+    <lb n="11"/><num value="12"><hi rend="supraline">ιβ</hi></num> <num value="2/3"><hi rend="supraline">𐅷</hi></num>. οὕτως ἔχει ὁμοίως.<g type="slanting-stroke"/><g type="slanting-stroke"/>
+</ab>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>P.Math. C recto</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>pylon</authority>
+                    <idno type="dclp-hybrid">na</idno>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>Used to present a quoted text</p>                            
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                    <language ident="ar">Arabisch</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div xml:id="trans3" xml:lang="en" type="translation" xml:space="preserve">
+                    <p>
+                        <milestone n="1" unit="line"/> I do it the following way: I add the width, 16 and 12, totals 28, half of which is 14. We add the thickness, 6 and 8, totals 14, half of which is 7. (Multiply) by 14, totals is 98. (Multiply) by the length of 28 cubits, the result is 2,744. This I divide by 288 and divide the remainder in 12 fingers (sc. divide the remainder by 12 to convert into fingers). The result is 9 (sc. solid cubits) and 12 2/3 fingers. This way for similar cases. 
+                    </p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Geometry</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Digital Corpus of Literary Papyri</authority>
+                    <idno type="dclp">63992</idno>
+                    <idno type="TM">63992</idno>
+                    <idno type="LDAB">5207</idno>
+                    <idno type="filename">63992</idno>
+                    <idno type="dclp-hybrid">p.harris;1;50</idno>
+                    <availability>
+                        <p>
+                            © Digital Corpus of Literary Papyri. This work is licensed under a
+                            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>
+                            .
+                        </p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository/>
+                            <idno type="invNo">Birmingham, Cadbury Research Library P. Harris 183 c</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <material>papyrus</material>
+                                        <dimensions>
+                                            <width unit="cm">7.7</width>
+                                            <height unit="cm">7</height>
+                                        </dimensions>
+                                    </support>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1">
+                                        <p>papyrus (columns: 1, pagination: 0)</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace>unbekannt</origPlace>
+                                <origDate notBefore="0201" notAfter="0300" precision="low">III</origDate>
+                            </origin>
+                        </history>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <p>
+                    This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                    <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+                </p>
+            </encodingDesc>
+            <profileDesc>
+                <textClass>
+                    <keywords>
+                        <term n="1" type="culture">science</term>
+                        <term n="2">mathematics</term>
+                    </keywords>
+                </textClass>
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <head xml:lang="en">Geometry</head>
+                <div xml:id="ed4" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>γείνονται <app type="editorial"><lem><hi rend="supraline">Αω</hi> <choice><reg>χυδαῖοι</reg><orig>χοιδε͂οι</orig></choice> δ<unclear>άκ</unclear><supplied reason="lost">τυλοι</supplied> <gap reason="lost" extent="unknown" unit="character"/></lem><rdg><hi rend="supraline">Αωχ</hi>. οἱ δὲ οιδ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></rdg></app>
+
+<lb n="2"/><app type="editorial"><lem><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">παρὰ τὸν</supplied> σπη</lem><rdg><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>πη</rdg></app>, τὰ λοιπὰ παρὰ τὸν <hi rend="supraline">ιβ</hi> ἵνα <gap reason="lost" extent="unknown" unit="character"/>
+
+<lb n="3"/><app type="editorial"><lem><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><hi rend="supraline">ϛ</hi> κα</supplied>ὶ δάκτυλοι</lem><rdg><gap reason="lost" extent="unknown" unit="character"/>δάκτυλοι</rdg></app> <hi rend="supraline">ϛ</hi>
+
+<lb n="3"/><figure><figDesc>drawing</figDesc></figure>  
+
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <choice><reg>τετράγωνον</reg><orig>τετράγονον</orig></choice> μίουρον <app type="editorial"><lem>τὸ <expan>μηκ<ex> </ex></expan> <gap reason="lost" extent="unknown" unit="character"/></lem><rdg>τὸ μὴ κ<gap reason="lost" extent="unknown" unit="character"/></rdg></app>
+
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ν</unclear> τριγόνων δακτύλων <hi rend="supraline">λς</hi> <app type="editorial"><lem><app type="alternative"><lem>κάθετ<unclear>ο</unclear><gap reason="lost" extent="unknown" unit="character"/></lem><rdg>κάθετ<unclear>ο</unclear><supplied reason="lost" cert="low">ς </supplied><gap reason="lost" extent="unknown" unit="character"/></rdg></app></lem><rdg>κάθε<unclear>σ</unclear><gap reason="lost" extent="unknown" unit="character"/></rdg></app>
+
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/> <choice><reg><app type="alternative"><lem>τρίγωνον</lem><rdg>τριγώνων</rdg></app></reg><orig>τριγόνων</orig></choice> δακτύλων <hi rend="supraline">λς</hi> <app type="editorial"><lem>ω<gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></lem><rdg>ὡς σ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></rdg></app>
+
+<lb n="7"/><app type="editorial"><lem><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/>θε</lem><rdg><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>αι θε</rdg></app><gap reason="illegible" quantity="8" unit="character"/><unclear>ε</unclear> γείνοντα<unclear>ι</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+
+<lb n="7"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Geometry</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>pylon</authority>
+                    <idno type="dclp-hybrid">p.harris;1;50</idno>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>Used to present a quoted text</p>                            
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                    <language ident="ar">Arabisch</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div xml:id="trans4" xml:lang="en" type="translation" xml:space="preserve">
+                    <p>
+                        <milestone n="1" unit="line"/> … The result is 1,800 “mixed” fingers. Divide it by 288, the remainder by 12 in order to convert to [cubits? 6] and fingers 6.  … tapering quadrilateral with the length of … triangle(s?) 36 fingers, perpendicular … triangle(s?) 36 fingers … result …
+                    </p>
+                </div>
+            </body>
+        </text>
+    </TEI>
 </TEI>
