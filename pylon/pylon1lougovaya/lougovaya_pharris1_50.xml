@@ -220,4 +220,168 @@
             </div>
         </body>
     </text>
- </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Didymus, Mensurae marmorum ac lignorum 4</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>pylon</authority>
+                    <idno type="dclp-hybrid">na</idno>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>Used to present a quoted text</p>                            
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                    <language ident="la">Latin</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <head xml:lang="en">Didymus, Mensurae marmorum ac lignorum 4</head>
+                <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+    <lb n="1"/>ξύλον στρογγύλον, οὗ τὸ μὲν μῆκος πηχῶν ιϛʹ, ἡ δὲ
+
+    <lb n="2"/>περιφέρεια δακτύλων λʹ. εὑρεῖν αὐτοῦ τὸ στερεόν· ποίει
+
+    <lb n="3"/>οὕτως· τὰ λʹ τῆς περιφερείας ἐφ’ ἑαυτὰ γίνονται ϡʹ. ὧν
+
+    <lb n="4"/>τὸ ιβʹʹ <app type="editorial"><lem>γίνονται οεʹ</lem><rdg resp="Hultsch">γίνεται οεʹ</rdg></app>· ταῦτα ἐπὶ τὰ ιϛʹ γίνονται ͵ασʹ· ὧν τὸ
+
+    <lb n="5"/>ρϙβʹʹ, ἵνα γένωνται <app type="editorial"><lem>πήχεις</lem><rdg resp="Hultsch">πόδες</rdg></app> · τὰ δὲ λοιπὰ εἰς ηʹʹ, ἵνα ὦσι
+
+    <lb n="6"/>δάκτυλοι· ὡς εἶναι τὸ ξύλον <app type="editorial"><lem>πηχῶν</lem><rdg resp="Hultsch">ποδῶν</rdg></app> στερεῶν ϛʹ δακτύλων ϛʹ.
+</ab>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Didymus, Mensurae marmorum ac lignorum 4</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>pylon</authority>
+                    <idno type="dclp-hybrid">na</idno>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>Used to present a quoted text</p>                            
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                    <language ident="ar">Arabisch</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+                    <p>
+                        <milestone n="1" unit="line"/> A log of wood, the length of which is 16 cubits and the circumference is 30 fingers. Find its volume. Do it as follows: (multiply) 30 of the circumference by itself, the result is 900. 1/12 of it is 75.5 (Multiply) this by 16, the result is 1,200. (Take) 1/192 of that to convert to cubits; (divide) the remainder by 8 to convert to fingers. So that the wood is 6 solid cubits 6 fingers. 
+                    </p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>P.Math. B verso</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>pylon</authority>
+                    <idno type="dclp-hybrid">na</idno>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>Used to present a quoted text</p>                            
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                    <language ident="la">Latin</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <head xml:lang="en">P.Math. B verso</head>
+                <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+    <lb n="8"/><choice><reg>τραπέζιον</reg><orig><supplied reason="lost">τρα</supplied>πέσδιον</orig></choice> τετράγωνον, τὸ μὲν μῆκος πηχῶν
+
+    <lb n="9"/><supplied reason="lost"><hi rend="supraline">μη</hi>,</supplied> τὸ <choice><reg>δὲ</reg><orig>τὲ</orig></choice> πλάτος πηχῶν <hi rend="diaeresis">ι</hi>, πάχος <choice><reg>δακτύλων</reg><orig>τακτύλων</orig></choice> <hi rend="supraline">ε</hi>,
+
+    <lb n="10"/><choice><reg>κορυφὴ</reg><orig><supplied reason="lost">κο</supplied>ρηφὴ</orig></choice> <choice><reg>δακτύλων</reg><orig>τακτήλων</orig></choice><hi rend="supraline">β</hi>. οὕτω ποιοῦμεν· συν
+
+    <lb n="11" break="no"/><supplied reason="lost">τίθ</supplied>ω τὸ πλάτος καὶ τὴν <choice><reg>κορυφήν</reg><orig>κορηφύν</orig></choice>, <hi rend="supraline">ι</hi><g type="slanting-stroke"/><g type="slanting-stroke"/> καὶ <hi rend="supraline">β</hi>. <expan>γί<ex>νεται</ex></expan> <hi rend="supraline">ιβ</hi>,
+
+    <lb n="12"/><supplied reason="lost">ὧ</supplied>ν <choice><reg>ἥμισυ</reg><orig>ἥμησυ</orig></choice> <hi rend="supraline">ϛ</hi>. πάλιν <choice><reg>πολυπλασιάζομεν</reg><orig>πολυπλαδιάσζωμεν</orig></choice> ἐπὶ
+
+    <lb n="13"/><supplied reason="lost">τ</supplied><unclear>ὰ</unclear>ς τοῦ πάχο<unclear>υ</unclear>ς ε, <expan>γί<ex>νεται</ex></expan> <hi rend="supraline">λ</hi>. ἐπὶ τὸ μῆκος πηχῶν
+
+    <lb n="14"/><supplied reason="lost"><hi rend="supraline">μη</hi>,</supplied> <expan>γ<unclear>ί</unclear><ex>νεται</ex></expan> <hi rend="supraline">Αυμ</hi>. παρὰ τὸν <hi rend="supraline">ρϙβ</hi> καὶ τὰ <choice><reg>λοιπὰ εἰς δακτύλους</reg><orig>ληπὰ ἰς τακτύλος</orig></choice>.
+
+    <lb n="15"/><supplied reason="lost"><expan>γί<ex>νεται</ex></expan></supplied> <hi rend="supraline">ζ</hi> καὶ <choice><reg>δάκτυλοι</reg><orig>δακτύλου</orig></choice> <hi rend="supraline">ιβ</hi>. <unclear>ο</unclear>ὕτως ἔχει ὁμοίως.
+</ab>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>P.Math. B verso</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>pylon</authority>
+                    <idno type="dclp-hybrid">na</idno>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>Used to present a quoted text</p>                            
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                    <language ident="ar">Arabisch</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div xml:id="trans2" xml:lang="en" type="translation" xml:space="preserve">
+                    <p>
+                        <milestone n="1" unit="line"/> A quadrangular trapezoid 48 cubits in length, 10 cubits (sic! understand “fingers”) in width, 5 fingers in thickness, 2 fingers at the top. We proceed as follows. I add the width and the top, 10 and 2, totals 12, half of which is 6. Once more we multiply by 5 of the thickness, totals 30. (Multiply) by the length of 48 cubits, the result is 1,440. (Divide) by 192 and (convert) the remainder into fingers. The result is 7 (sc. solid cubits) and 12 fingers. This way for similar cases. 
+                    </p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+</TEI>
