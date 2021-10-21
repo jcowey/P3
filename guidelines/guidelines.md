@@ -51,7 +51,7 @@ When citing Trismegistos, use their standards:
 - No lunate sigmas. Use mid and end sigmas throughout.
 - Feel free to use arrows to indicate fibre direction, but it is not mandatory. 
 - Do not capitalize the first word of each sentence in the papyrus text. Capitals only for proper names of people (includes Αὐτοκράτωρ Καῖσαρ and the honorary titles and month names) and places.
-- Before conversion to XML Greek, Coptic, Latin texts will be marked up in Leiden+. The apparatus will be done inline as in [papyri.info](https://papyri.info). This means that there will be no place for representations of how abbreviations are made on the original (no raised letters or glyphs such as are to be found in IFAOGrec Unicode). Ancient diacritical marks such as apostrophes or diaereses should be included. Please use Latin abbreviations, such as l. or ex corr.
+- Before conversion to XML Greek, Coptic, Latin texts will be marked up in Leiden+. The apparatus will be done inline as in [papyri.info](https://papyri.info/docs/leiden_plus#apparatus). This means that there will be no place for representations of how abbreviations are made on the original (no raised letters or glyphs such as are to be found in IFAOGrec Unicode). Ancient diacritical marks such as apostrophes or diaereses should be included. Please use Latin abbreviations, such as l. or ex corr.
 - In all editions of texts on papyrus, ostraca or whatever text bearing material ALL abbreviated words will be expanded as fully as possible. E.g. when dealing with drachmas: NOT (δρ.) but: ((δραχμαὶ)) ((δραχμὰς)) and when the case is not known ((δραχμ- )).
 
 ### Bibliography
