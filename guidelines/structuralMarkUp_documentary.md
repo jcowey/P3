@@ -18,6 +18,13 @@ See also: [StructureFilesXML](https://docs.google.com/spreadsheets/d/1HaacsPU44R
 - #acknowledgement
   - For acknowledging publication permission, thanking others for their contributions (this deals with the * which is often found as a marker for the first footnote in print publications)
 
+Here is an example of such mark up as used to produce one of our test files:
+
+[Claytor Smith Warga BASP 53](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ClaytorSmithWarga_FourPoll_TaxReceiptsTrial_4)
+
+for which the stuctural mark up of the word document was: [ClaytorSmithWargaPage1.pdf](https://github.com/jcowey/P3/files/7389818/ClaytorSmithWargaPage1.pdf)
+
+
 ## for each and every separate DDB text edited in the article
 - #editionDDB
 - #metadata
