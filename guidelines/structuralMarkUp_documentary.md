@@ -1,5 +1,7 @@
 # Mark up of structural sections for article publishing documentary texts (DDB)
 
+See also: [StructureFilesXML](https://docs.google.com/spreadsheets/d/1HaacsPU44Rm4qXWzguBxXorc9F1S3N9HDxpgp-c9kHU/edit#gid=0)
+
 ## For every article
 - #articleTitle
   - Title of the article
