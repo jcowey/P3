@@ -71,6 +71,6 @@ Alongside the biblio ids whenever any stable identifiers (e.g. jstor) or DOIs ar
 
 Examples:
 
-- [Bagnall, R. S. and Frier, B. W. (1994)](https://papyri.info/biblio/13437) The Demography of Roman Egypt. Cambridge. [https://hdl.handle.net/2027/heb.02277](https://hdl.handle.net/2027/heb.02277)
-- [Sijpesteijn, P. J. (1983)](https://papyri.info/biblio/56075) “Nachlese zu Wiener Texten,” ZPE 50: 133-134.  [http://www.jstor.org/stable/20183765](http://www.jstor.org/stable/20183765) 
+- [Bagnall, R. S. and Frier, B. W. (1994)](https://papyri.info/biblio/13437) The Demography of Roman Egypt. Cambridge. ([https://hdl.handle.net/2027/heb.02277](https://hdl.handle.net/2027/heb.02277))
+- [Sijpesteijn, P. J. (1983)](https://papyri.info/biblio/56075) “Nachlese zu Wiener Texten,” ZPE 50: 133-134.  ([http://www.jstor.org/stable/20183765](http://www.jstor.org/stable/20183765))
 - [Cuvigny, H. (2014)](https://papyri.info/biblio/88290) “Papyrological Evidence on Barbarians in the Egyptian Eastern Desert,” in J.H.F. Dijkstra and G. Fisher (eds), Inside and Out: Interactions between Rome and the Peoples on the Arabian and Egyptian Frontiers in Late Antiquity. Leuven - Paris - Walpole.
