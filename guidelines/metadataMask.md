@@ -65,7 +65,7 @@
     <tr>
       <td align="left">optional</td>
       <td align="left">Acquired: Date</td>
-      <td align="left"></td>
+      <td align="left">Acquired in 1959</td>
       <td align="left">if you know the year when it was acquired</td>
       <td align="left">both</td>
     </tr>   
