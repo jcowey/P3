@@ -41,6 +41,10 @@
 - #articleHeader
   - To be used whenever there are section headings within the article
 
+- #quote
+  - To be used whenever a section of text (Greek or otherwise) is quoted from an external source and should be displayed separately as a quote
+    - e.g. https://github.com/jcowey/P3/blob/master/pylon/testFiles/ClaytorSmithWarga/ClaytorSmithWarga_FourPoll_TaxReceiptsTrial_4.xml#L321-L325
+
 - #corrections
   - whenever there are corrections to existing texts, in tabular form
 
