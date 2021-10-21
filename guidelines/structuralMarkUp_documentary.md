@@ -11,7 +11,7 @@ See also: [StructureFilesXML](https://docs.google.com/spreadsheets/d/1HaacsPU44R
   - surname comma forename(s)
   
 - #affiliation
-  - Institute for the Study of the Ancient World
+  - Institute for the Study of the Ancient World (no standardisation, simply a string)
   
 - #email
 
