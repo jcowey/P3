@@ -22,7 +22,7 @@
 
 - For Greek inscriptions use: 
   - [https://www.aiegl.org/grepiabbr.html](https://www.aiegl.org/grepiabbr.html)
-    - [GrEpiAbbr](https://github.com/jcowey/P3/blob/master/guidelines/GrEpiAbbr_may_2020.md) (same as above but presented in Markdown)
+    - [GrEpiAbbr](https://github.com/jcowey/P3/blob/master/guidelines/GrEpiAbbr_may_2020.md) (same as above but presented in markdown)
 - For Latin inscriptions make use of:
   - [https://edh-www.adw.uni-heidelberg.de/hilfe/liste/corpora](https://edh-www.adw.uni-heidelberg.de/hilfe/liste/corpora)
   - [http://db.edcs.eu/epigr/hinweise/abkuerz.html](http://db.edcs.eu/epigr/hinweise/abkuerz.html)
