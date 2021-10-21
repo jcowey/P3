@@ -40,7 +40,7 @@ When citing Trismegistos, use their standards:
 
 ### Authors
 
-- For classical authors, use the abbreviations of [LSJ](https://www.stoa.org/abbreviations.html) and [OLD](https://www.oxfordscholarlyeditions.com/page/abbreviations). Books, chapters or sections should be indicated with Arabic numbers separated by dots without spacing, e.g. **Plb. 2.69.9**.
+- For classical authors, use the abbreviations of [LSJ](https://www.stoa.org/abbreviations.html) (see also [DGE](http://dge.cchs.csic.es/lst/lst4.htm)) and [OLD](https://www.oxfordscholarlyeditions.com/page/abbreviations). Books, chapters or sections should be indicated with Arabic numbers separated by dots without spacing, e.g. **Plb. 2.69.9**.
   - The *Neue Pauly* also has a [list](https://referenceworks.brillonline.com/entries/der-neue-pauly/erweitertes-abkurzungsverzeichnis-COM_004) (possibly slightly clearer in some cases): 
 - For the Greek patristic authors, use the abbreviations of Lampe’s Patristic Greek Lexicon.
 
