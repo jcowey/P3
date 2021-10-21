@@ -27,12 +27,12 @@ Here is an **example of such mark up** as used to produce one of our test files:
 ## for each and every separate DDB text edited in the article
 - #editionDDB
 - #metadata
-  - In table form
+  - Create a table for the categories that are to be supplied
     - For a list of the categories of metadata see [here](https://github.com/jcowey/P3/blob/master/guidelines/metadataMask.md)
 
 - #papyrologicalHeader:
   - Title (if there is one)
-  - In table form the date, measurements, provenance, inventory number, etc
+  - Create a table (usually 2 rows and 3 columns) in the word document for the date, measurements, provenance, inventory number, etc
 
 - #introduction
   - Running text in paragraphs
