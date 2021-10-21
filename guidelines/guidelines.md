@@ -63,9 +63,8 @@ Our preferred style is
 - author(s) surname, abbreviated forename(s), (date of publication), title, place of publication
   - Bagnall, R. S. and Frier, B. W. (1994) The Demography of Roman Egypt. Cambridge
 
-Authors will be asked to provide the biblio ids from http://papyri.info/bibliosearch as links. 
-(if they cannot be found, then they will be created and supplied before the submission is converted). Thus if it is easier to use a different way of presenting bibliography, that is also perfectly in order. The main point is that biblio ids are searched for and supplied at the earliest possible 
-moment.
+Authors should provide the biblio ids from http://papyri.info/bibliosearch by inserting hyperlinks  (if they cannot be found, then they will be 
+created and supplied before the submission is converted). The main point is that biblio ids are searched for and supplied at the earliest possible moment.
 
 Alongside the biblio ids whenever any stable identifiers (e.g. jstor) or DOIs are known to you (e.g. CdE) we would welcome them (you do not have to go looking for them).
 
