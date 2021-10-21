@@ -20,9 +20,8 @@ See also: [StructureFilesXML](https://docs.google.com/spreadsheets/d/1HaacsPU44R
 
 Here is an example of such mark up as used to produce one of our test files:
 
-[Claytor Smith Warga BASP 53](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ClaytorSmithWarga_FourPoll_TaxReceiptsTrial_4)
-
-for which the stuctural mark up of the word document was: [ClaytorSmithWargaPage1.pdf](https://github.com/jcowey/P3/files/7389818/ClaytorSmithWargaPage1.pdf)
+- [Claytor Smith Warga BASP 53](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ClaytorSmithWarga_FourPoll_TaxReceiptsTrial_4)
+  - for which the stuctural mark up of the word document was: [ClaytorSmithWargaPage1.pdf](https://github.com/jcowey/P3/files/7389818/ClaytorSmithWargaPage1.pdf)
 
 
 ## for each and every separate DDB text edited in the article
