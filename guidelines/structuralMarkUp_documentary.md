@@ -28,6 +28,7 @@ Here is an example of such mark up as used to produce one of our test files:
 - #editionDDB
 - #metadata
   - In table form
+    - For a list of the categories of metadata see [here](https://github.com/jcowey/P3/blob/master/guidelines/metadataMask.md)
 
 - #papyrologicalHeader:
   - Title (if there is one)
