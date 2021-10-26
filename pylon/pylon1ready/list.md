@@ -4,7 +4,9 @@
     - XML: [pylon;1;1](https://github.com/jcowey/P3/blob/master/pylon/pylon1bagnall/bagnall_spp22_60.xml)
 2. Schubert, The format, layout and provenance of documents pertaining to liturgy
     - XML [in preparation](https://github.com/jcowey/P3/blob/master/pylon/pylon1schubert/schubert_liturgy_geography.xml)
-4. HTML: [Messeri, Ricevuta di pagamento del πελωχικόν](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/messeri_plond2_182a) 
+3. HTML: [Messeri, Ricevuta di pagamento del πελωχικόν](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/messeri_plond2_182a) 
     - XML: [pylon;1;2](https://github.com/jcowey/P3/blob/master/pylon/pylon1messeri/messeri_plond2_182a.xml)
-5. Lougovaya, On cubic and other volumetric cubits and fingers
+4. Lougovaya, On cubic and other volumetric cubits and fingers
     - XML [in preparation](https://github.com/jcowey/P3/blob/master/pylon/pylon1lougovaya/lougovaya_pharris1_50.xml)
+5. Zellmann-Rohrer, An “illiterate” private letter in London and Aberystwyth
+    - in preparation
