@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An “illiterate” private letter in London and Aberystwyth</title>
+            <author>
+               <name>
+                  <forename>Michael</forename>
+                  <surname>Zellmann-Rohrer</surname>
+               </name>
+               <affiliation>Freie Universität Berlin, Institut für Wissensgeschichte des Altertums</affiliation>
+               <email>michael.zellmann-rohrer@classics.ox.ac.uk</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2021-10-29T11:15:30Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">An “illiterate” private letter in London and Aberystwyth</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">Todd Hickey is thanked for the reference to Bell’s transcription, Amin Benaissa, Nick Gonis, and Sophie Kovarik for advice on readings, and Lajos Berkes for commenting on a draft.</note>
+            <p xml:id="p1" style="text-align: left; ">Not long after he joined the staff of the British Museum as an assistant keeper in 1903, the papyrologist Harold Idris Bell took up a private letter on papyrus that had the attraction of being “[c]omplete” but the difficulty of a “[v]ery cursive illiterate hand.” His notes from this first encounter with the text are preserved in a gathering of transcriptions of British Museum papyri in a miscellaneous notebook among his papers now kept in the National Library of Wales in Aberystwyth,<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> Llyfrgell Genedlaethol Cymru, Harold Idris Bell papers (unprocessed), box 3, black notebook with the title page “Notes on papyri (chiefly) Book I(a)”, pp. [16]-[17]. I thank Beryl Evans for assistance with the papers during my visit (4 May 2021).</p></note> where Bell spent his retirement. Bell transcribed the front of the papyrus as follows; the transcription is rendered here as faithfully as possible:</p>
+               <quote>
+                   <lb n="1"/>+ <hi rend="strikethrough">π̣αρ Αμματος</hi> \το̣ γραμμα του/ εμου αδελφου εδεξαμην εδεξαμην \δε/
+                   <lb n="2"/>τα ει . . η τους οκτω κα̣ι̣ οριαξ\<hi rend="strikethrough">ζ</hi>/ας και τεσσαρα
+                   <lb n="3"/>κ̣ρεμια επειδη οιδες την φιλιαν μεταξυ
+                   <lb n="4"/>ημων ου̣κ [            ]ο̣υ̣ γρ[α]ψον επιστολην
+                   <lb n="5"/>ϊνα μη επα̣ρτωσιν επειδη οιδες οτι εγω και σ[υ]
+                   <lb n="6"/>μειζ̣ωσινοι? οι απο . . ττ . λ̣εως επειδη ουν
+                   <lb n="7"/>οιδα οτι πολλ . σι αινοησο ε .  επειδη ηκουσα
+                   <lb n="8"/>οτι απηλθεν εις το χωριον σου παλιν παν .
+                   <lb n="9"/>εχαρην   .    .    .    και πα̣ρ̣ . τα εκτου οσπλ . . \ου/
+                   <lb n="10"/>εγω θε\α/λητ̣ πρκ/ <hi rend="strikethrough">παρα</hi> προσκυνησον δε την κυραν \(sc. κυριαν)/ κ\π̣/αριαν
+                   <lb n="11"/>και του μικρου παιδιου αυτης κυρι Γεωργι\ου/
+                   <lb n="12"/>ταυτα γραψας πλειστα υμας ασπαζομαι
+                   <lb n="13"/>εν κυριω + προσκυνησον δε πολλα απα
+                   <lb n="14"/>Καιροντιος +
+               </quote>
+            <p xml:id="p2" style="text-align: left; ">He added, “This has been copied out, to publish if more can be deciphered.” No separate copy has been located among the papers deposited in Aberystwyth. These notes are undated, but they clearly predate, and are probably preparatory work for, P.Lond. 3. In that volume, which appeared in 1907, Papyrus 868 is in turn described as, “Letter on private affairs, to the brother of the writer, whose name is not given. 7th cent. Perfect; written across the fibres, in a very straggling cursive hand.”<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> P.Lond. 3 p. xli. All dates in the following are CE.</p></note> </p>
+            <p xml:id="p3" style="text-align: left; ">The descriptum also gives the date of acquisition by the British Museum as 1900; it was later transferred to the British Library. On inspection there, the light brown sheet proves indeed complete, but not without some surface damage and abrasion. The writing is transversa charta on the front, with a kollesis visible running horizontally c. 8 cm from top and a protocol join c. 0.5 cm from the bottom, and there is a single line on the back, not transcribed by Bell. The letter was part of a lot of papyri eventually assigned the shelfmarks 835-878, described in the Catalogue of Additions as, “Miscellaneous documents, mostly official and legal,”<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> Catalogue of Additions to the Department of Manuscripts in the British Museum in the Years MDCCCC-MDCCCCV (London 1907) 440.</p></note> ranging in date from the first to seventh centuries CE, which were presented by the executors of the will of the antiquarian William Joseph Myers, in whose collection they had lain until his death the previous year.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> R. T. Stearn, in Oxford Dictionary of National Biography &lt;https://doi.org/10.1093/ref:odnb/50007&gt;.</p></note> The papyrus may have been acquired during the years in which Myers was stationed on military service in Egypt (1882-1887), or on later visits there as a private citizen. Myers is known to have had advice and assistance from Emile Brugsch and to have purchased directly from villagers in addition to antiquities dealers. More could perhaps someday be gleaned from the 36 volumes of the diaries of Myers, still unpublished, kept in the library of Eton College.</p>
+            <p xml:id="p4" style="text-align: left; ">There is no evidence that Bell ever revisited his work on the letter, but after autopsy, some progress can be made with the decipherment towards his hope of a full publication. First there is the conjunction of the reading of a toponym Migtolis (6) and the presence of meizones (6), which point to an Arsinoite provenance,<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; "> These officials are not securely attested in the Hermopolite (L. Berkes, Dorfverwaltung und Dorfgemeinschaft in Ägypten von Diokletian zu den Abbasiden [Wiesbaden 2017] 67), a provenance to which the same toponym Migtolis (see the commentary on 6 below) and the internal localization of some other papyri in the lot might otherwise point.</p></note> despite the position of 868 among a group of shelfmarks (863, 865-869) that might otherwise point to the Hermopolite. Papyri in the Myers lot that have secure internal indication of provenance (see Table 1) come nearly exclusively from the Hermopolite and Arsinoite, including for the latter at least one from the seventh century (P.Lond. 3 871: Arsinoe, 603; cf. also P.Lond. 3 872, probably from the same city and century); the shelfmarks might have been assigned on chronological (that is, palaeographic) grounds, not circumstances of acquisition in Egypt.</p>
+            <p xml:id="p5" style="text-align: left; text-align: left;">Table 1: Papyri from the Myers lot (P.Lond. 835-878) with definite internal indications of provenance. (Unless otherwise noted, the publication of reference is P.Lond. 3.)</p>
+            <table>
+               <row>
+                  <cell style="text-align: left;">Arsinoite</cell>
+                  <cell style="text-align: left;">Non-Arsinoite</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;">
+                     <ref target="papyri.info/hgv/22687">P.Lond. 835</ref>: Hermopolite (c. 102-117)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;">P.Lond. 839 (<ref target="papyri.info/hgv/17025">P.Sarap. 11</ref>): Hermopolis (128)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;">P.Lond. 840 (<ref target="papyri.info/hgv/17057">P.Sarap. 40</ref>): Hermopolis (129)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <ref target="papyri.info/hgv/11793">P.Lond. 841a</ref>: Arsinoite (Soknopaiou Nesos) (139)</cell>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <ref target="papyri.info/hgv/11794">P.Lond. 841b</ref>: Arsinoite (Soknopaiou Nesos) (160)</cell>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <ref target="papyri.info/hgv/11795">P.Lond. 842</ref>: Arsinoite (Apias) (140)</cell>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <ref target="papyri.info/hgv/11797">P.Lond. 844</ref>: Arsinoite (Soknopaiou Nesos) (174)</cell>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <ref target="papyri.info/hgv/22692">P.Lond. 845b</ref>: Arsinoite (Soknopaiou Nesos) (139)</cell>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <ref target="papyri.info/hgv/11798">P.Lond. 845c</ref>: Arsinoite (Nilopolis) (c. 181-189)</cell>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;">P.Lond. 846 (<ref target="papyri.info/hgv/11799">W.Chr. 325</ref>): Arsinoite (Soknopaiou Nesos) (140)</cell>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <ref target="papyri.info/hgv/11801">P.Lond. 847</ref>: Arsinoite (Soknopaiou Nesos) (170)</cell>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <ref target="papyri.info/hgv/22693">P.Lond. 848</ref>: Arsinoite (213)</cell>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;">P.Lond. 849 (<ref target="papyri.info/hgv/14927">SB 20 15076</ref>): Arsinoite (Euhemeria) (206 or 235?)</cell>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <ref target="papyri.info/hgv/11802">P.Lond. 850</ref>: Arsinoite (Soknopaiou Nesos) (162)</cell>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <ref target="https://papyri.info/ddbdp/p.lond;3;851">P.Lond. 851</ref>: Arsinoite (216-219)</cell>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;">P.Lond. 852 (<ref target="papyri.info/hgv/17120">P.Sarap. 95</ref>): Hermopolis (c. 90-133)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;">P.Lond. 853a (<ref target="papyri.info/hgv/17123">P.Sarap. 98</ref>): Hermopolis (c 90-133)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">P.Lond. 853b (<ref target="https://papyri.info/hgv/14853">SB 20 14200</ref>): Arsinoite (Arsinoe) (202-203)</cell>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;">P.Lond. 854 (<ref target="papyri.info/hgv/17126">P.Sarap. 101</ref>): Hermopolis (c. 90-133)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <ref target="papyri.info/hgv/11803">P.Lond. 855a</ref>: Arsinoite (Apias) (c. 216)</cell>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;">P.Lond. 855b (<ref target="papyri.info/hgv/17107">P.Sarap. 86</ref>): Hermopolis (c. 90-133)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">P.Lond. 860a (<ref target="papyri.info/hgv/13658">P.Turner 31</ref>, <ref target="papyri.info/hgv/13659">32</ref>): Arsinoite (Soknopaiou Nesos) (c. 201-211)</cell>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;">P.Lond. 863a (<ref target="papyri.info/hgv/17045">P.Sarap. 28</ref>): Hermopolis (125)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;">P.Lond. 863b (<ref target="papyri.info/hgv/17039">P.Sarap. 22a</ref>): Hermopolis (102-103)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;">P.Lond. 865a+876a, 865b: Hermopolite (mid-7th c.)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;">P.Lond. 866a (<ref target="papyri.info/hgv/38455">SB 20 14445</ref>): Hermopolite (6th/7th c.)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;">P.Lond. 866b (<ref target="papyri.info/hgv/39682">P.Sijp. 24c</ref>): Hermopolite (7th c.)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;">P.Lond. 867 (<ref target="papyri.info/hgv/16309">SB 16 12864</ref>): Hermopolis (506)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;">P.Lond. 869 (<ref target="papyri.info/hgv/18383">SB 18 13620</ref>): Hermopolis (473)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;">
+                     <ref target="https://papyri.info/hgv/33772">P.Lond. 870</ref>: Panopolis (4th c.)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <ref target="papyri.info/hgv/41307">P.Lond. 871</ref>: Arsinoite (Arsinoe) (603)</cell>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <ref target="papyri.info/hgv/38234">P.Lond. 872</ref>: Arsinoite (Arsinoe) (7th c.)</cell>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;">
+                     <ref target="papyri.info/hgv/22700">P.Lond. 874</ref>: Hermopolis (554)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;">
+                     <ref target="papyri.info/hgv/39586">P.Lond. 876b</ref>: Hermopolite (mid-7th c.)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;">P.Lond. 877 (<ref target="papyri.info/hgv/38236">SB 22 15495</ref>): Hermopolite (Sinarchebis) (6th c.)</cell>
+               </row>
+            </table>
+            <p xml:id="p6" style="text-align: left; ">The writer of the present letter addresses himself to a man whom he calls “brother.”<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; "> On contemporary letters see in general J.-L. Fournet, “Esquisse d'une anatomie de la lettre antique tardive d'après les papyrus,” in R. Delmaire, J. Desmulliez, and P.-L. Gatier (eds.), Correspondances. Documents pour l'histoire de l'Antiquité tardive. Actes du colloque international (Université Charles-de-Gaulle - Lille 3, 20-22 novembre 2003) (Lyon 2009) 23-66.</p></note> Neither of their names can be gleaned from the damaged address on the back, not transcribed by Bell, but some family and associates are mentioned by name in the body. The chief matters of business, as far as can be gained from the letter’s clumsy Greek, are three: acknowledgment of a shipment of fish received with a previous letter; a call to further action, or at least to further correspondence, in relation to conflict with some local officials; congratulations on a safe return. The last shades into the customary closing greetings, probably in the context of an extended family, as a “household” (ὁσπίτιον) is mentioned (9); the sender greets a woman, Thalet, and asks that the addressee greet another, Maria, and “her little child.” If the brotherhood of the correspondents was of the flesh, one could speculate that Maria and Thalet might have been the wives of addressee and sender respectively, with Thalet perhaps remaining near the brothers’ family home during the sender’s travel in connection with the shipment of goods.</p>
+            <p xml:id="p7" style="text-align: left; ">The headmen (meizones) of Migtolis are presented (5-7) as causing considerable “bother” (πολλὰ σιαίνονσοι (for σιαίνουσι)). The background is unknown, but it is tempting to think of a context, established by the contemporary Senouthios archive, of complaints about perceived abuses and irregularities in requisitions for the newly installed Muslim administration, in particular for the capital at Babylon-Fusṭāṭ.<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; "> F. Morelli, CPR 30 p. 10.</p></note> Some such adversarial relationship with the heads of Migtolis might also explain why the addressee is said to have returned to, and was hence presumably absent or even displaced from, his χωρίον (8-9), which could in the Islamic period mean “village”<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; "> Berkes, Dorfverwaltung, 7.</p></note> more specifically than “land” as it is rendered here.</p>
+            <p xml:id="p8" style="text-align: left; ">The Greek of the new London papyrus, as Bell perceived, has an irregular syntax, even if it would be possible to find examples more “illiterate,” to use his term (e.g. <ref target="papyri.info/hgv/35593">P.Oxy. 16 1831</ref>: “very illiterate” according to the editorial introduction; <ref target="papyri.info/hgv/37869">P.Oxy. 16 1866</ref>: “very ungrammatical”). In fact the adverb μ̣ά̣την (5), if correctly read, adds a rather literary effect, as might the locution ἐχάρη ἡ ψυχή μου (9: see the commentary to both places). Bilingual interference from Coptic in particular might explain the most characteristic feature, the so far unparalleled density of the conjunction ἐπειδή (see also the commentary to line 3), which could have rendered a string of verbs in the circumstantial conjugation somewhat more naturally in the sender’s mother tongue. Something similar has been proposed for an otherwise unusual epistolary formula in Greek, introducing the sender’s name in the nominative with ἐγώ followed by the verb γράφω.<note place="foot" xml:id="ftn9" n="9"><p style="text-align: left; "> N. Gonis, “Some Curious Prescripts (Native Languages in Greek Dress?),” BASP 42 (2005) 41-44.</p></note></p>
+            <p xml:id="p9" style="text-align: left; ">The main hand can be assigned to the middle of the seventh century: some general parallels in considerably more skilled hands are <ref target="papyri.info/hgv/20794">P.Oxy. 1 153</ref> (618); <ref target="papyri.info/hgv/129760">CPR 30 3</ref>, <ref target="papyri.info/hgv/129761">4</ref>, and <ref target="papyri.info/hgv/129762">5</ref> (ca. 643/644), <ref target="papyri.info/hgv/129778">21</ref>-<ref target="papyri.info/hgv/79319">22</ref> (second half of 7th c.) The address on the back is in a chancellery style, probably by the same writer.</p>
+            <p xml:id="p10" style="text-align: left; ">The width of the sheet would accord with roughly half of the height of an original bookroll of 36 cm in height. Trema is used once (5), as is punctuation by colon (3, possibly also 2). The copyist has made several corrections; two of them involve the incomplete washing out of text before overwriting, which might otherwise suggest the presence of an earlier, unrelated text, if the remaining traces did not align closely with the lines of the finalized text. In three more cases the last word of a line is entirely (1) or partly (9, 11) above the line, probably an expedient for reasons of space rather than as corrections: the end of ἐδεξάμην, the second-to-last word in 1, is already especially compressed. Nearly double the usual space has been left above the last line on the front, probably simply to avoid a rough area on the surface.</p>
+            <div type="epidoc" subtype="DDB">
+               <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: left;">P.Lond. inv. 868</cell>
+                     <cell style="text-align: left;">23.4 cm (h) x 18.8 cm (w)</cell>
+                     <cell style="text-align: left;">mid-7th c. CE</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Material</cell>
+                     <cell style="text-align: left;">Papyrus</cell>
+                     <cell style="text-align: left;">Arsinoite?</cell>
+                  </row>
+               </table>
+               <div copyOf="#ed1"/>
+               <div copyOf="#trans1"/>
+               <div type="commentary">
+                  <p xml:id="p11"><ref>1</ref> τὰ γράμμα. The plural of this noun is far more common in self-referential use in letters, and the article is certainly written τά (το̣, Bell), so the writer probably intended τὰ γράμματα (such a mistake, probably by haplography, is found in <ref target="papyri.info/hgv/20289">P.Kell. 1 24</ref>.16, [μὴ εἰδότ]ων̣ γράμμα), although a phonetic spelling τά for τὸ γράμμα cannot be entirely excluded (cf. F. T. Gignac, A Grammar of the Greek Papyri of the Roman and Byzantine Periods I [Milan 1976] 287-288 for the spelling, and for the singular number e.g. <ref target="papyri.info/hgv/36099">P.Berl.Zill. 14</ref>.1-2, ἐδεξάμ[ην] νῦν τὸ τίμιον γράμμα τῆς ὑμετέρας πατρικῆς καὶ ὁσίας δεσποτίας καὶ τῆς ἐ[ντί]μας καὶ γ[ν]ησίας [ἀ]δελφικῆς θεοφιλίας).</p>
+                  <p xml:id="p12"><ref>2</ref> εἴτη (l. εἴδη). For the spelling cf. Gignac, Grammar, 82; for the term to denote wares in the course of shipment see e.g. <ref target="papyri.info/hgv/129764">CPR 30 7</ref>.5.</p>
+                  <p xml:id="p13">κτ̣οριάξους (l. κοριάξους). The insertion of /t/ may be a purely graphic error under the influence of the preceding ὀκτώ, but κγ̣ο- is also a possible reading (Bell’s κα̣ι̣ οριαξας is not diagnostic), in which one might consider the adventitious /g/ the result of a phonetic development better known through the omission of expected /g/ (Gignac, Grammar, 74). The word appears three times in the medical author Alexander of Tralles (1:501, 2:263 and 289 Puschmann; whence LSJ “a kind of fish”), for an as-yet unidentified species apparently native to the Nile, as it is found a few times in Byzantine texts as the object of shipment: <ref target="papyri.info/hgv/38392">P.Naqlun 1 10</ref>.3 (with N. Gonis, Tyche 23 [2008] 228 no. 592), <ref target="papyri.info/hgv/115537">P.Naqlun 2 27</ref>.8, <ref target="papyri.info/hgv/37497">P.Prag. 2 197</ref>, <ref target="papyri.info/hgv/36619">SPP 20 224</ref>.1. The fish may also appear, under the by-form κόραξος, in an iatromagical prescription to cure disorders of the spleen: P.Utrecht Copt. Ms. B3.8 (ed. R. van den Broek, “A Greek Iatromagical Papyrus,” ZPE 202 [2017] 208-213), 7 (see the commentary ad loc. for two further attestations in documentary papyri).</p>
+                  <p xml:id="p14"><ref>3</ref> ἀγρέμια. LSJ give a single instance of ἀγρέμιον from the Greek Anthology and book the term as a synonym of ἄγρα, which can in turn be applied to fish (s.v. II), here perhaps by metonymy, “(freshly-)caught (fish),” which would fit with the other item in the shipment (see the previous note). There is one other papyrological witness: the Byzantine account of provisions <ref target="papyri.info/hgv/33989">SB 1 5301</ref> (twice, and once more with the spelling ἀκρε‑), for which see now DGE <ref target="dge.cchs.csic.es/xdge/ἀγρέμιον">s.v.</ref>, but there the rest of the items in the list are fowl, not fish.</p>
+                  <p xml:id="p15">ἐπειδή. The conjunction is used three more times in quick succession. A search of papyri.info reveals nothing closely comparable to this construction, which may constitute an idiolectal feature of the sender, possibly influenced by interference from Coptic (see further the introduction; for ἐπειδή in turn as common loanword in Coptic, Förster, WB 275-276; it became part of a common formulaic transition between the preamble and the body of Coptic letters: A. Biedenkopf-Ziehner, Untersuchungen zum koptischen Briefformular unter Berücksichtigung ägyptischer und griechischer Parallelen [Würzburg 1983] 33-34, 215-216, but one that should only appear once per letter). The closest parallel is <ref target="papyri.info/hgv/36225">SB 5 7655</ref>, five times but more generously spaced over at least 34 lines; cf. also <ref target="papyri.info/hgv/92439">CPR 25 8</ref> (twice in eight lines); <ref target="papyri.info/hgv/129766">CPR 30 9</ref> (three times in 15); <ref target="papyri.info/hgv/78207">P.Eirene 2 24</ref> verso, where ἐπειδή itself is copied as writing practice.</p>
+                  <p xml:id="p16"><ref>4</ref> ουκα ̣ ̣[ ̣] ̣ου. A negated verb form seems most likely, expressing the action taken by the addressee in consequence of knowing the ‘friendship’ between the correspondents; οὐ κατ̣έ̣[σ]χ̣ου might be considered (“you did not hold back” or “delay” from some unexpressed, praiseworthy action: cf. <ref target="papyri.info/hgv/19601">P.Brem. 16</ref>.13-14, μὴ κατέχου), or οὐκ ἀπ̣[έσ]χ̣ου (cf. the imperative ἀπόσχου in a request for a cessation of ὄχλησις in <ref target="papyri.info/hgv/128345">P.Poethke 36</ref>.4), in both cases assuming an enlarged χ; the traces of the latter could also suit λ, which has not yet led to a plausible supplement.</p>
+                  <p xml:id="p17"><ref>5</ref> ἐπαρθ̣ῶσιν μ̣ά̣τ̣ην. The reading of the verb follows a suggestion of Lajos Berkes; the τ that Bell saw in place of θ (επα̣ρτωσιν) may be the original writing before a correction by the copyist (for the underlying phonetic conflation in that case cf. Gignac, Grammar, 91). The reading of the supralinear insertion, which Bell did not transcribe, is hindered by some fading of the ink, but a continuation of the purpose clause seems certain in light of the following ἐπειδή, and the only other viable possibility, the pronoun α̣ὐ̣τ̣ήν, is a poorer fit for the sense. No parallels for the expression ἐπαίρομαι μάτην have yet been found in the papyri, but there is something relevant in John Chrysostom, In epistulam ad Romanos, ed. PG 60:469: Christians cannot have their hopes proven false, ὡς εἰκῇ καὶ μάτην καὶ ἐπὶ σαθραῖς ἐπαρθέντας ἐλπίσιν; and in the words of Adam to Hades in Romanus the Melode 44.3.3, μὴ μάτην ἐπαίρου. The adverb lends a literary ring to a documentary context: compare the simile ο̣ἷ̣[ο]ν̣ ἐπὶ γῆν ὕδωρ ἐκχύσῃ τις τολμηρώτατος μάτην in the petition <ref target="papyri.info/hgv/36225">P.Cair.Masp. 1 67002</ref>.15-16. If the subject is taken proleptically to be the meizones (see the following note), the meaning may be more specifically that these hostile parties should not be allowed to be “falsely elated” by a sense of victory: that is, the latter should be forestalled by the addressee’s prompt action, cf. in general the wish of the petitioner in <ref target="papyri.info/hgv/15336">P.Hamb. 3 230</ref>.23-25 to clear himself of false accusations, ὅπως δυνηθῶ (...) ἀνεύθυνον ἐμαυτὸν ἀποδεῖξαι πάντων τῶν μάτην κατ’ ἐμοῦ κατηγορημένων παρὰ τῶν συκοφαντεῖν με ἐθελόντων; and the reference in the letter <ref target="papyri.info/hgv/36225">SB 5 7655</ref>.23-24 to an adversary’s “letter suiting his vain way of seeing and thinking” (ἐπιστολὴν πρέπουσα τῇ ὄψει αὐτοῦ καὶ τῇ φρονήσει τῇ ματαίᾳ).</p>
+                  <p xml:id="p18">ἐγὼ καὶ σύ̣. The pendant nominative seems inevitable: taking σύ̣[ν] with the following noun (“I am among greater ones,” perhaps i.e. “outmatched,” but leaving an even more perilously pendant nominative in οἱ ἀπὸ κτλ. in 6), or the latter two together as a verbal συ̣|μείζ̣ωσιν or συ̣|μείξ̣ωσιν (but orphaning ἐγώ), gives nothing sensible. The sender will have perhaps originally intended to implicate himself in the trouble with the meizones (see the following note), but as the construction unfolded, he stressed the “bother” caused to his correspondent instead. A general parallel for the prolepsis is the authentication-token given in <ref target="papyri.info/hgv/44675">P.Euphr. 17</ref>.23-25, ἐγὼ κ[α]ὶ σὺ καὶ̣ Σαδαλλαθος, σημῖον ἔχις [ὅ]τι ἐφάγαμεν λοκανικὰ ϛ.</p>
+                  <p xml:id="p19"><ref>6</ref> μείζ̣ωσιν οἱ ἀπό. The most sensible, if still not optimal division (cf. the previous note) requires this phrase to be taken with the following toponym (see the following note) as an unsyntactical whole (for μείζονες οἱ ἀπό); punctuation before οἱ, otherwise appealing in view of the common locution οἱ ἀπό for residents of a particular place, would create two nonsensical clauses, and a clausular division is signalled by the following ἐπειδή. At least the expression of multiple meizones in connection to a village is known: οἱ μείζονες Φερετνουεως in <ref target="papyri.info/hgv/37889">P.Oxy. 16 1937</ref>.7; for the meizon in general, chief official of a village with broad responsibilities for taxation and other matters, see Berkes, Dorfverwaltung, esp. 75 and 82 for multiples in office in the same place.</p>
+                  <p xml:id="p20">Μιγ̣τ̣ο̣λεως. Read by Nick Gonis (Μιττο- by assimilation, cf. Bell’s . . ττ . λ̣εως, is also possible); probably the same as the Arsinoite Μικτολις (gen. κώμ(ης) Μικτολεως, <ref target="papyri.info/hgv/37096">PSI 1 63</ref>.14), ultimately derived from a Semitic word for “tower” (Aramaic magdal; cf. Hebrew migdal), as probably also Μεγτωλις (gen. Μεγτωλεως), a Hermopolite κώμη in <ref target="papyri.info/hgv/18969">P.Athen.Xyla 4</ref>.5 (541 CE), corrected to Μεγγωλις (gen. Μεγγωλεως) by J. Gascou (BL 10.251), but Μιγγ- is less attractive here. The toponym was compared to Μαγδωλα by Mandilaras in P.Athen.Xyla, but Gascou preferred Μιχωλις.</p>
+                  <p xml:id="p21"><ref>7</ref> σιαίνονσοι (l. σιαίνουσι). The unusual spelling could be regarded as a result of interchange of ου with ο (Gignac, Grammar, 212) followed by insertion of medial nasal (Gignac, Grammar, 118), cf. ὑπαρχνσα in <ref target="papyri.info/hgv/12946">P.Ryl. 2 160c</ref> col. 1.4; for /i/ represented by οι, Gignac, Grammar, 272. Also possible is a suggestion of Lajos Berkes: divide σιαίνον σοι, for which understand σιαίνων (σιαίνοντες) σε “are bothering you,” removing some of the phonological oddity but adding unusual syntax. The verb is used for vexation probably in connection to a burden imposed by the caliph (ὁ ἀμιρᾶς τῶν πιστῶν) in the letter <ref target="papyri.info/hgv/39098">P.Apoll. 37</ref>.12, διότι οὐκ ἐσιάνθη ποτὲ οὔτε ἐθλίβην εἰ μὴ ἐπὶ τοῦ παρόντος; for more general annoyance in <ref target="papyri.info/hgv/37844">P.Oxy. 16 1837</ref>.2, ἵνα μὴ ὁ ἀναγινόσκον σιανθῇ καὶ μὴ ἀναγνώσι τὴν ἐπιστολήν; <ref target="papyri.info/hgv/37855">P.Oxy. 16 1849</ref>.2, ἐπειδὴ τὸ λάχανον δε σαπρόν ἐστι καὶ σιαίνομε; and for ill health in <ref target="papyri.info/hgv/38648">CPR 5 25</ref>.5-6, τὴν δὲ ὑγίειαν Θεοδοσίου γράψῃ μοι, ἐπειδὴ ἤκουσα ὡς σιαίνεται καὶ πάνυ ἐμερίμνησα. </p>
+                  <p xml:id="p22">καί. Read by Lajos Berkes; Bell had ε . in conflation with a preceding αινοησο.</p>
+                  <p xml:id="p23"><ref>8</ref> ἀπῆλθεν. In the absence of any other named person preceding (τοῦ ἐμοῦ ἀδελφοῦ in 1 should be the addressee, in view of the address in 15), and as σου is applied to the destination of this travel, the correction to ἀπῆλθες seems inevitable; one could think of ἀπῆλθαν (for ἀπῆλθον), but the return of the only conceivable subject of a third-person plural, the meizones once again, to the addressee’s χωρίον would be no cause for rejoicing (see the following note). There may be a conceptual error, such as conflation of the second person with the polite use of a third person (e.g. ἡ σὴ ἀδελφότης), or an interchange of quiescent final letters (Gignac, Grammar, 131-132; cf. the following note).</p>
+                  <p xml:id="p24"><ref>8-9</ref> πάνυ ἐχάρην ἡ ψυχήν μου (l. ἐχάρη, ψυχή?). The false addition of two final nus (cf. the previous note) seems likelier than that ἐχάρη τὴν ψυχήν or τῇ ψυχῇ was intended. The phrase, so far not yet precisely paralleled in papyrus letters (but the opposite emotional response is referenced in μὴ λυπίσθω δὲ ἡ [ψυ]χή σου, <ref target="papyri.info/hgv/10051">P.Abinn. 19</ref>.10-11), has a biblical ring. Although not actually found in the Greek versions of scripture, it seems to approximate the same in Just. Dial. 58.7, εἶδον γὰρ θεὸν πρόσωπον πρὸς πρόσωπον, καὶ ἐχάρη ἡ ψυχή μου. Cf. also χαρᾷ̣ ἐχ̣ά̣ρ[η]ν̣ in the Byzantine letter <ref target="papyri.info/hgv/704796">P.Lond. 2233</ref> (ed. M. Zellmann-Rohrer, “Five Private Letters on Papyrus in the British Library,” APF 63 [2017] 166-170 no. 5), 2 (with further parallels in the note at p. 168).</p>
+                  <p xml:id="p25"><ref>9.</ref> The second half of the line has been washed or rubbed out and overwritten, with some traces still visible especially above and below the line; nothing connected can be made out from the original writing, but there was perhaps an aorist participle in -ξας, the ξ written on the line, the ας above it in the same space-constrained style that motivated the writing of ὁσπιτίου. </p>
+                  <p xml:id="p26">πάντα ἐκ̣ τ̣οῦ ὁσπιτίου. The nexus is presumably a later development from formulae such as ἀσπάζομαι πάντες τὰ [ἐ]ν τῇ οἰκίᾳ in <ref target="papyri.info/hgv/10051">P.Abinn. 6</ref>.23-24, with a similar confusion of gender (perhaps under the influence of expressions with ὄνομα or πρόσωπον). In the familial context of this letter, the loanword ὁσπίτιον probably has the general sense of “house” (rather than specifically “poor-house”) as already in Greek of Late Antiquity (Lampe 976b s.v. 3; cf. 1249b s.v. σπίτι) and common in later Greek (LBG s.vv. ὁσπίτι(ν), σπίτι(ο)ν).</p>
+                  <p xml:id="p27"><ref>10</ref> ⟦τ̣ ̣λ̣ ̣ ̣⟧. The following word has been written directly over the erasure, of which some traces especially below the line are still visible; did the writer simply misspell the personal name (see the following note), e.g. as Ταλητ, and prefer to start afresh?</p>
+                  <p xml:id="p28">Θαλητ. Bell’s θε\α/λητ̣ suggests a correction, which now seems to have been on a larger scale than the second letter (see the previous note); a small α at the top of λ is clear, but for the high and low traces between θ and the body of λ at midline ε is just one possibility. The name is not precisely paralleled but probably female and related to Coptic ⲑⲁⲗⲏⲧ (ⲧ-ϩⲁⲗⲏⲧ) “the bird,” cf. ϩⲁⲗⲏⲧ in O.Vind.Copt. 335 and SB Kopt. 2 1046 (on other Coptic names from birds, see G. Heuser, Die Personennamen der Kopten I [Studien zur Epigraphik und Papyruskunde 1.2; Leipzig 1929] 73-74). In Greek script cf. the genitive Θαλητ̣(ος) in the metronym in <ref target="papyri.info/hgv/75216">O.Ont.Mus. 2 197</ref>.4, and Ταλης, genitive Ταλητος, in <ref target="papyri.info/hgv/10408">P.Cair.Isid. 77</ref>.29 and 2 respectively.</p>
+                  <p xml:id="p29">προ̣σκ(υνῶ) (προσκ/ pap.). The abbreviation is so far unattested for this form of the verb, but προσκ/ is found for προσκ(υνῆσαι) in <ref target="papyri.info/hgv/92466">CPR 25 35</ref>.12 and for προσκ(ύνει) and προσκ(υνεῖν) in <ref target="papyri.info/hgv/37844">P.Oxy. 16 1837</ref>.15-16. The subject of προσκ(υνῶ) is taken to be the sender of the letter rather than the adjacent personal name in the absence of another expressed object for the verb, but it could be allowed that the latter is an unexpressed σε (“I, Thalet, embrace (you)”).</p>
+                  <p xml:id="p30"><ref>11-14.</ref> As the reference to κύρι Γεωργίου cannot be matched to anything in the address on the back, it is taken here as the name of the amanuensis (for κύριος Γεώργιος). A vocative would otherwise be possible; formulaic greetings with ταῦτα γράψας ἀσπάζομαι are found elsewhere (e.g. <ref target="papyri.info/hgv/37147">P.Oxy. 1 158</ref>.4-5; <ref target="papyri.info/hgv/37861">16 1855</ref>.16-17; <ref target="papyri.info/hgv/37866">1860</ref>.14-15; <ref target="papyri.info/hgv/36849">59 4006</ref>.7; <ref target="papyri.info/hgv/38733">P.Ross.Georg. 3 21</ref>.2-3; <ref target="papyri.info/hgv/36225">SB 5 7655</ref>.33-34), but not so far preceded by personal names in either nominative or vocative; the closest parallel so far found tends to favor the interpretation advanced here: the closing greetings in the letter <ref target="papyri.info/hgv/33471">P.Herm. 13</ref>.13-16, in which the copyist Nilammon adds his salutations to those of the sender Papnoutheios, ἀσπάζο[μαί] σ̣οι ἐγὼ Νιλάμμων ὁ γ̣ρ̣[άψα]ς̣ τὴν ἐπισ̣τολὴν κ̣α̣ὶ [πάντ]α̣ς̣ τοὺς ἀδελφοὺς κατʼ ὄνομα. More generally, the intrusion of a named amanuensis is occasionally found elsewhere in contemporary epistolography. In the letter <ref target="papyri.info/hgv/36074">PSI 14 1429</ref> (6th c.?), a similar greeting is probably to be recognized: punctuate after υἱός in 7 and read continuously into the following line, ὁ κύριος Μαρι̣ανὸς ταῦτα γράφω, πλεῖστα ὑμᾶς ἀσπάζομαι ἐν κυρίῳ; cf. also <ref target="papyri.info/hgv/92466">CPR 25 35</ref>.12, ἐξ ἐμοῦ δὲ παρακαλῶ προσκ(υνῆσαι); <ref target="papyri.info/hgv/704796">P.Lond. 2233</ref> (ed. Zellmann-Rohrer, “Five Private Letters,” ibid.), 7, ἐγὼ δὲ Βίκτωρ ὁ ὑμέτερος οἰκεῖος πολλὰ τὰ σεβάσμια ἴχνη τοῦ ἐμοῦ δεσπ(ότου) προσκυνῶ (for further parallels see p. 166 there). The apparently self-referential honorific κύριος might be due to dictation by the sender.</p>
+                  <p xml:id="p31"><ref>12-13</ref> πλεῖστα ὑμᾶς ἀσπάζομαι ἐν κυρίῳ. This form of the greeting, under the influence of the Pauline ἀσπάζομαι ἐν κυρίῳ πολλά (1 Cor. 16:19), is relatively rare: cf. <ref target="papyri.info/hgv/129778">CPR 30 21</ref>.11, <ref target="papyri.info/hgv/36074">PSI 14 1429</ref>.8, which shows other similarities of formulary with the present text (see the previous note), and <ref target="papyri.info/hgv/79233">SB 24 15898</ref>.2.</p>
+                  <p xml:id="p32"><ref>14</ref> Καιρ⟦ ̣⟧όντιος (l. Γερόντιον). The spelling with /g/ for /k/ is paralleled in the Hermopolite toponym ἐποίκιον Κεροντίου in <ref target="papyri.info/hgv/35991">SB 26 16737</ref>.3, cf. in general Gignac, Grammar, 77.</p>
+                  <p xml:id="p33"><ref>15</ref> σ̣ὺ̣ν̣ θ̣(εῷ). The ink is faded, with further losses perhaps connected to the removal of the sealing, but the conjunction of the final two uprights with a round letter above the line is assured by microscopy, and this common Christian formula is the most credible solution.</p>
+                  <p xml:id="p34">The end is very obscure and still partially obscured by dirt; one expects the name of the addressee in the dative, perhaps followed by a title or the name of the sender in the nominative, but the latter would have had to have been quite short.</p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Privat letter</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">39584</idno>
+               <idno type="HGV">39584</idno>
+               <idno type="ddb-filename">pylon.1.4</idno>
+               <idno type="ddb-hybrid">pylon;1;4</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                         <settlement>London</settlement>
+                     </placeName>
+                     <collection>British Library</collection>
+                     <idno type="invNo">Papyrus 868</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>Mitte VII</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Brief (privat)</term>
+                  <term n="2">Fisch</term>
+                  <term n="3">Probleme</term>
+                  <term n="4">Grüße</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Privat letter</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.1.4</idno>
+               <idno type="ddb-hybrid">pylon;1;4</idno>
+               <idno type="HGV">39584</idno>
+               <idno type="TM">39584</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Privat letter</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="r" type="textpart"><ab>
+<lb n="1"/><g type="rho-cross"/> <app type="alternative"><lem>τὸ γράμμα</lem><rdg>τὰ γράμματα</rdg></app> τοῦ ἐμοῦ ἀδελφοῦ ἐδεξάμην· ἐδεξάμην δὲ
+<lb n="2"/>τὰ <choice><reg>εἴδη</reg><orig><subst><add place="inline">εἴτη</add><del rend="corrected"><gap reason="illegible" quantity="3" unit="character"/>η</del></subst></orig></choice>· τοὺς ὀκτὼ <choice><reg>κοριάξους</reg><orig>κ<unclear>τ</unclear>οριάξους</orig></choice> καὶ <del rend="erasure">και</del> τέσσαρα
+<lb n="3"/>ἀγρέμια· ἐπειδὴ <choice><reg>οἶδας</reg><orig>οἶδες</orig></choice> τὴν φιλίαν μεταξὺ
+<lb n="4"/>ἡμῶν, ουκα<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ου· γράψον ἐπιστολὴν
+<lb n="5"/><hi rend="diaeresis">ἵ</hi>να μὴ ἐπαρ<unclear>θ</unclear>ῶσιν <add place="above"><unclear>μάτ</unclear>ην</add>· ἐπειδὴ <choice><reg>οἶδας</reg><orig>οἶδες</orig></choice> ὅτι ἐγὼ καὶ σ<unclear>ύ</unclear>,
+<lb n="6"/><choice><reg>μείζονες</reg><orig>μεί<unclear>ζ</unclear>ωσιν</orig></choice> οἱ ἀπὸ Μι<unclear>γτο</unclear>λεως, ἐπειδὴ οὖν
+<lb n="7"/>οἶδα ὅτι πολλὰ <choice><reg>σιαίνουσι</reg><orig>σιαίνονσοι</orig></choice>· καὶ ἐπειδὴ ἤκουσα
+<lb n="8"/>ὅτι <choice><reg cert="low">ἀπῆλθες</reg><orig>ἀπῆλθεν</orig></choice> εἰς τὸ χωρίον σου πάλιν, πάνυ
+<lb n="9"/><choice><reg>ἐχάρη</reg><orig>ἐχάρην</orig></choice> ἡ <choice><reg>ψυχή</reg><orig>ψυχήν</orig></choice> μου καὶ <del rend="erasure"><unclear>και</unclear><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><unclear>κ</unclear><gap reason="illegible" quantity="2" unit="character"/>ξας</del> <choice><reg><app type="alternative"><lem>πάντες</lem><rdg>πάντων<certainty match=".." locus="value"/></rdg></app></reg><orig>πάντα</orig></choice> ἐ<unclear>κ</unclear> <unclear>τ</unclear>οῦ ὁσπιτίου·
+<lb n="10"/>ἐγὼ <del rend="erasure"><unclear>τ</unclear><gap reason="illegible" quantity="1" unit="character"/><unclear>λ</unclear><gap reason="illegible" quantity="2" unit="character"/></del> Θαλητ <expan>πρ<unclear>ο</unclear>σκ<ex>υνῶ</ex></expan>· προσκύνησον δὲ τὴν κύραν Μαρίαν
+<lb n="11"/>καὶ <choice><reg>τὸ</reg><orig>τοὺ</orig></choice> <choice><reg>μικρὸν</reg><orig>μικροὺ</orig></choice> <choice><reg>παιδίον</reg><orig>παιδίου</orig></choice> αὐτῆς. <choice><reg>κύριος</reg><orig>κύρι</orig></choice> <choice><reg>Γεώργιος</reg><orig>Γεωργίου</orig></choice>
+<lb n="12"/>ταῦτα γράψας πλεῖστα ὑμᾶς ἀσπάζομαι
+<lb n="13"/>ἐν <subst><add place="inline">κυρίῳ</add><del rend="corrected">κυρίοͅ</del></subst>. <g type="stauros"/> προσκύνησον δὲ πολλὰ ἄπα
+<lb n="14"/><choice><reg>Γερόντιον</reg><orig>Καιρ<del rend="erasure"><gap reason="illegible" quantity="1" unit="character"/></del>όντιος</orig></choice>. <g type="stauros"/>
+</ab></div>
+<div n="v" type="textpart"><ab>
+<lb n="15"/><g type="rho-cross"/> τῷ ἐμῷ ἀδε<unclear>λφ</unclear>ῷ <supplied reason="lost"><figure><figDesc>sealing</figDesc></figure></supplied> <unclear>σὺν</unclear> <expan><unclear>θ</unclear><ex>εῷ</ex></expan> <gap reason="illegible" quantity="10" unit="character"/> <unclear><g type="rho-cross"/></unclear>
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Privat letter</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">39584</idno>
+               <idno type="TM">39584</idno>
+               <idno type="HGV">39584</idno>
+               <idno type="ddb-hybrid">39584</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+            <div n="r" type="textpart">
+               <p>
+                  <milestone unit="line" n="1"/> I have received the letter of my brother, and I have received the articles, the eight koriaxos-fish and four (fresh) catches (of fish?). Since you know the friendship between us, you did not (?) ...: write a letter, so that they may not be roused in vain (?), since you know that, as for you and me, regarding the headmen (meizones) from Migtolis—since I know that they are causing considerable bother. Since I heard that you (?) have gone back to your land again, my soul rejoiced greatly, and (so did those of) all from the house. I embrace Thalet. Embrace lady Maria and her little child. Lord Georgios, who has written this, gives you very many greetings in the Lord. Embrace warmly Apa Gerontios.
+               </p>
+            </div>
+            <div n="v" type="textpart">
+               <p>
+                  <milestone unit="line" n="15"/> To my brother, with God, ...
+               </p>
+            </div>
+         </div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
