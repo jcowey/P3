@@ -1,6 +1,6 @@
 # Mark up of structural sections for article publishing documentary texts (DDB)
 
-See also: [StructureFilesXML](https://docs.google.com/spreadsheets/d/1HaacsPU44Rm4qXWzguBxXorc9F1S3N9HDxpgp-c9kHU/edit#gid=0)
+See also: [StructureFilesXML](https://docs.google.com/spreadsheets/d/1HaacsPU44Rm4qXWzguBxXorc9F1S3N9HDxpgp-c9kHU/edit#gid=0), where, in the form of a googlespreadsheet, the information is presented in rows and columns with further detail concerning Xpaths.
 
 ## For every article
 - #articleTitle
