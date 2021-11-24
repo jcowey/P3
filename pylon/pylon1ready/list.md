@@ -12,4 +12,6 @@
     - XML [in preparation](https://github.com/jcowey/P3/blob/master/pylon/pylon1zellmann-rohrer/zellmann_plond3_868.xml)
 6. Micucci
 7. Vergara
-8. Benaissa: being vetted
+8. Nicolardi, Delendae memorandae: A new reading of P.Herc. 1044, frr. 6+6b Gallo
+    - being processed
+9. Benaissa: being vetted
