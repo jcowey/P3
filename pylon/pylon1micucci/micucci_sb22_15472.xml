@@ -79,11 +79,6 @@
                <head>#papyrologicalHeader</head>
                <table type="papyrological_header">
                   <row>
-                     <cell style="text-align: left;"/>
-                     <cell style="text-align: left;"/>
-                     <cell style="text-align: left;"/>
-                  </row>
-                  <row>
                      <cell style="text-align: justify;">BL Papyrus 1918+</cell>
                      <cell style="text-align: justify;">11.5 (w) x 21.2 (h) cm</cell>
                      <cell style="text-align: justify;">Ptolemais Euergetis</cell>
