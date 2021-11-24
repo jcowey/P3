@@ -178,7 +178,7 @@
       <td align="left">preferred</td>
       <td align="left">Images: online</td>
       <td align="left"></td>
-      <td align="left">if multiple then just create a further row in the table</td>
+      <td align="left">if multiple images, then just create a further row in the table</td>
       <td align="left">both</td>
     </tr>    
     <tr>
