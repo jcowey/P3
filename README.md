@@ -10,7 +10,7 @@ Links to live files for the first volume of Pylon can be found in the folder: [p
 An online journal which offers a model I, personally, like is: https://github.com/i-d-e.
 
 Under https://github.com/i-d-e/ride the volumes are listed. 
- * Within each volume https://github.com/i-d-e/ride/tree/issues/issue04
+ * Within each volume https://github.com/i-d-e/ride/tree/master/issues/issue04
  * one can view each article: https://github.com/i-d-e/ride/tree/issues/04/welschergast
  * or https://github.com/i-d-e/ride/tree/issues/09/papyri-info, for which the full tei.xml of the file is visible:
    * https://github.com/i-d-e/ride/blob/issues/09/papyri-info/papyri-info-tei.xml
