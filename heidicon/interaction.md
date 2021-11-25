@@ -1,5 +1,6 @@
 # Signing in
-  - use shibboleth and Uni-ID.
+  - https://heidicon.ub.uni-heidelberg.de/
+  - use Zur Anmeldung über Uni-ID.
 
 ## Finding the link to put in XML files
   - Click on the relevant image
