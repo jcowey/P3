@@ -6,14 +6,22 @@
       <fileDesc>
          <titleStmt>
             <title>The format, layout and provenance of documents pertaining to liturgy</title>
+            <author>
+               <name>
+                  <forename>Paul</forename>
+                  <surname>Schubert</surname>
+               </name>
+                  <affiliation/>
+                  <email>gabrymess48@gmail.com</email>
+            </author>
          </titleStmt>
          <editionStmt>
-            <edition>
-               <date/>
-            </edition>
+             <edition>
+                 <date>2021-10-078</date>
+             </edition>
          </editionStmt>
          <publicationStmt>
-            <p>unknown</p>
+             <p>unknown</p>
          </publicationStmt>
          <sourceDesc>
             <p>Converted from a Word document</p>
