@@ -89,8 +89,8 @@
                      <cell style="text-align: justify;">30 November 134</cell>
                   </row>
                </table>
-               <div copyOf="#ed1" type="edition"/>
-               <div copyOf="#trans1" type="translation"/>
+               <div copyOf="#ed1" xml:lang="grc" type="edition" xml:space="preserve"/>
+               <div copyOf="#trans1" xml:lang="en" type="translation" xml:space="preserve"/>
                <div type="commentary">
                   <p xml:id="p20"><ref>1</ref> κατακεχώ(ρισται). The abbreviation is common: see e.g. <ref target="https://papyri.info/biblio/95803">Claytor, W. G. (2020), ‘Two Papyri from the Archive of Mikkalos and the Establishment of the Bibliotheke Enkteseon’, BASP 57</ref>: 26.</p>
                   <p xml:id="p21">Νέου Σεβαστοῦ. For the honorific month of Neos Sebastos, which corresponded to the Egyptian month of Hathyr, see <ref target="https://papyri.info/biblio/95906">Scott, K. (1931), “Greek and Roman Honorific Months,” YCS 2</ref>: 243-244.</p>
