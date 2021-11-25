@@ -2,6 +2,8 @@
 
 See also: [StructureFilesXML](https://docs.google.com/spreadsheets/d/1HaacsPU44Rm4qXWzguBxXorc9F1S3N9HDxpgp-c9kHU/edit#gid=0), where, in the form of a googlespreadsheet, the information is presented in rows and columns with further detail concerning Xpaths.
 
+In the relevant [XSLT file](https://github.com/hcayless/P3-processing/blob/main/xslt/process-tei.xsl#L12-L14) in [P3-processing](https://github.com/hcayless/P3-processing) the list of these individual variable names can be found.
+
 ## For every article
 - #articleTitle
   - Title of the article
