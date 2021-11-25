@@ -79,14 +79,14 @@
                <head>#papyrologicalHeader</head>
                <table type="papyrological_header">
                   <row>
-                     <cell style="text-align: justify;">BL Papyrus 1918+</cell>
-                     <cell style="text-align: justify;">11.5 (w) x 21.2 (h) cm</cell>
-                     <cell style="text-align: justify;">Ptolemais Euergetis</cell>
+                     <cell style="text-align: left;">BL Papyrus 1918 + </cell>
+                     <cell style="text-align: center;">11.5 (w) x 21.2 (h) cm</cell>
+                     <cell style="text-align: right;">Ptolemais Euergetis</cell>
                   </row>
                   <row>
-                     <cell style="text-align: justify;">BL Papyrus 1976</cell>
-                     <cell style="text-align: justify;">fr. 1: 35 (w) x 21.4 (h) cm; fr. 2: 0.6 (w) x 3.4 (h) cm</cell>
-                     <cell style="text-align: justify;">30 November 134</cell>
+                     <cell style="text-align: left;">BL Papyrus 1976</cell>
+                     <cell style="text-align: center;">fr. 1: 35 (w) x 21.4 (h) cm; fr. 2: 0.6 (w) x 3.4 (h) cm</cell>
+                     <cell style="text-align: right;">30 November 134</cell>
                   </row>
                </table>
                <div copyOf="#ed1" xml:lang="grc" type="edition" xml:space="preserve"/>
