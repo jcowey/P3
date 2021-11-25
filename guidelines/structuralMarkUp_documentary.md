@@ -55,9 +55,10 @@ Here is an **example of such mark up** as used to produce one of our test files:
 - #articleHeader
   - To be used whenever there are section headings within the article
 
-- #quote
+- #blockQuote / #endBlockQuote
   - To be used whenever a section of text (Greek or otherwise) is quoted from an external source and should be displayed separately as a quote
     - e.g. https://github.com/jcowey/P3/blob/master/pylon/testFiles/ClaytorSmithWarga/ClaytorSmithWarga_FourPoll_TaxReceiptsTrial_4.xml#L321-L325
+      - in this case please remember to indicate the end of the block quote by placing #endBlockQuote at the end of the quoted section.
 
 - #corrections
   - whenever there are corrections to existing texts, in tabular form
