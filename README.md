@@ -19,3 +19,4 @@ Under https://github.com/i-d-e/ride the volumes are listed.
 
 Also very nicely done is **Oxford Studies in Ancient Philosophy**: https://doi.org/10.1093/acprof:oso/9780198749516.001.0001
   * https://doi.org/10.1093/acprof:oso/9780198749516.003.0008
+    * note the presence of both Abstract and Keywords
