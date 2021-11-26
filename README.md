@@ -7,6 +7,7 @@ The online journal **Pylon** is made possible by files stored here. In other rep
 
 ### Files for viewing
 Links to live files for the first volume of Pylon can be found in the folder: [pylon1ready](https://github.com/jcowey/P3/blob/master/pylon/pylon1ready/list.md)
+
 Four articles are already visible in HTML versions.
 
 ### Miscellaneous
