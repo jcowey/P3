@@ -12,7 +12,7 @@
     - XML [in preparation](https://github.com/jcowey/P3/blob/master/pylon/pylon1zellmann-rohrer/zellmann_plond3_868.xml)
 6. HTML: [Micucci, Sale of a house in Soknopaiou Nesos: SB 22 15472 completed](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/micucci_sb22_15472)
     - XML [Pylon_article_6](https://github.com/jcowey/P3/blob/master/pylon/pylon1micucci/micucci_sb22_15472.xml)
-8. Vergara
+8. Vergara, Στοιχεῖα e dio in P.Herc. 1670, fr. 27.2 (Filodemo, De providentia)
 9. Nicolardi, Delendae memorandae: A new reading of P.Herc. 1044, frr. 6+6b Gallo
     - being processed: [P.Herc. 1044, frr. 6+6b Gallo](https://papyri.info/dclp/65542)
 10. Benaissa: being vetted
