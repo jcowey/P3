@@ -6,9 +6,7 @@ The online journal **Pylon** is made possible by files stored here. In other rep
 **Pylon** already has a presence under the [journals produced and supported](https://journals.ub.uni-heidelberg.de/index.php/pylon/login) by the University Library in Heidelberg.  At present nothing can be clicked or viewed without a login. 
 
 ### Files for viewing
-Links to live files for the first volume of Pylon can be found in the folder: [pylon1ready](https://github.com/jcowey/P3/blob/master/pylon/pylon1ready/list.md)
-
-Four articles are already visible in HTML versions.
+Links to live files (at present **four articles in HTML** versions) for the first volume of Pylon can be found in the folder: [pylon1ready](https://github.com/jcowey/P3/blob/master/pylon/pylon1ready/list.md)
 
 ### Miscellaneous
 An online journal which offers a model I, personally, like is: https://github.com/i-d-e.
