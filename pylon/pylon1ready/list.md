@@ -15,12 +15,12 @@
 8. Vergara, Στοιχεῖα e dio in P.Herc. 1670, fr. 27.2 (Filodemo, De providentia)
 9. Nicolardi, Delendae memorandae: A new reading of P.Herc. 1044, frr. 6+6b Gallo
     - being processed: [P.Herc. 1044, frr. 6+6b Gallo](https://papyri.info/dclp/65542)
-10. Benaissa: being vetted
-11. Deac: being vetted
-12. Colella: being vetted
-13. Essler: not yet submitted 
-14. Ast - Bagnall: not yet submitted 
-15. Sampson: not yet submitted 
-16. Reiter: not yet submitted
+10. Reiter: not finall yet submitted
+11. Benaissa: being vetted
+12. Deac: being vetted
+13. Colella: being vetted
+14. Essler: not yet submitted 
+15. Ast - Bagnall: not yet submitted 
+16. Sampson: not yet submitted 
 17. Borelli, P.Lond. 2 297a descr.: copia di estratti da registri di censimento
     - being processed:
