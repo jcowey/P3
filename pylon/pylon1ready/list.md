@@ -21,3 +21,6 @@
 13. Essler: not yet submitted 
 14. Ast - Bagnall: not yet submitted 
 15. Sampson: not yet submitted 
+16. Reiter: not yet submitted
+17. Borelli, P.Lond. 2 297a descr.: copia di estratti da registri di censimento
+    - being processed:
