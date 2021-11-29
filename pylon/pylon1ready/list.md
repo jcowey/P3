@@ -16,7 +16,7 @@
     - being processed:
 10. Nicolardi, Delendae memorandae: A new reading of P.Herc. 1044, frr. 6+6b Gallo
     - being processed: [P.Herc. 1044, frr. 6+6b Gallo](https://papyri.info/dclp/65542)
-11. Reiter: not finally yet submitted
+11. Reiter: not yet finally submitted
 12. Benaissa: being vetted
 13. Deac: being vetted
 14. Colella: being vetted
