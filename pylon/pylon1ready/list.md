@@ -13,14 +13,15 @@
 6. HTML: [Micucci, Sale of a house in Soknopaiou Nesos: SB 22 15472 completed](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/micucci_sb22_15472)
     - XML [Pylon_article_6](https://github.com/jcowey/P3/blob/master/pylon/pylon1micucci/micucci_sb22_15472.xml)
 8. Vergara, Στοιχεῖα e dio in P.Herc. 1670, fr. 27.2 (Filodemo, De providentia)
-9. Nicolardi, Delendae memorandae: A new reading of P.Herc. 1044, frr. 6+6b Gallo
+    - being processed:
+10. Nicolardi, Delendae memorandae: A new reading of P.Herc. 1044, frr. 6+6b Gallo
     - being processed: [P.Herc. 1044, frr. 6+6b Gallo](https://papyri.info/dclp/65542)
-10. Reiter: not finally yet submitted
-11. Benaissa: being vetted
-12. Deac: being vetted
-13. Colella: being vetted
-14. Essler: not yet submitted 
-15. Ast - Bagnall: not yet submitted 
-16. Sampson: not yet submitted 
-17. Borelli, P.Lond. 2 297a descr.: copia di estratti da registri di censimento
+11. Reiter: not finally yet submitted
+12. Benaissa: being vetted
+13. Deac: being vetted
+14. Colella: being vetted
+15. Essler: not yet submitted 
+16. Ast - Bagnall: not yet submitted 
+17. Sampson: not yet submitted 
+18. Borelli, P.Lond. 2 297a descr.: copia di estratti da registri di censimento
     - being processed:
