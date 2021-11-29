@@ -1,4 +1,4 @@
-### Miscellaneous
+### Comparable online journals
 An online journal which offers a model I, personally, like is: https://github.com/i-d-e.
 
 Under https://github.com/i-d-e/ride the volumes are listed. 
