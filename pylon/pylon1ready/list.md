@@ -12,17 +12,17 @@
     - XML [Pylon_article_5](https://github.com/jcowey/P3/blob/master/pylon/pylon1zellmann-rohrer/zellmann_plond3_868.xml)
 6. HTML: [Micucci, Sale of a house in Soknopaiou Nesos: SB 22 15472 completed](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/micucci_sb22_15472)
     - XML [Pylon_article_6](https://github.com/jcowey/P3/blob/master/pylon/pylon1micucci/micucci_sb22_15472.xml)
-8. Vergara, Στοιχεῖα e dio in P.Herc. 1670, fr. 27.2 (Filodemo, De providentia)
+7. Vergara, Στοιχεῖα e dio in P.Herc. 1670, fr. 27.2 (Filodemo, De providentia)
     - being processed:
-10. Nicolardi, Delendae memorandae: A new reading of P.Herc. 1044, frr. 6+6b Gallo
+8. Nicolardi, Delendae memorandae: A new reading of P.Herc. 1044, frr. 6+6b Gallo
     - being processed: [P.Herc. 1044, frr. 6+6b Gallo](https://papyri.info/dclp/65542)
-11. Reiter: not yet finally submitted
-12. Benaissa: being vetted
-13. Deac: being vetted
-14. Colella: being vetted
-15. Essler: Ein Berliner Papyruskodex mit Hom., Od. 13.110-126 und 137-154
+9. Reiter: not yet finally submitted
+10. Benaissa: being vetted
+11. Deac: being vetted
+12. Colella: being vetted
+13. Essler: Ein Berliner Papyruskodex mit Hom., Od. 13.110-126 und 137-154
     - being vetted 
-16. Ast - Bagnall: not yet submitted 
-17. Sampson: not yet submitted 
-18. Borelli, P.Lond. 2 297a descr.: copia di estratti da registri di censimento
+14. Ast - Bagnall: not yet submitted 
+15. Sampson: not yet submitted 
+16. Borelli, P.Lond. 2 297a descr.: copia di estratti da registri di censimento
     - being processed:
