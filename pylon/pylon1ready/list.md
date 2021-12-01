@@ -20,7 +20,8 @@
 12. Benaissa: being vetted
 13. Deac: being vetted
 14. Colella: being vetted
-15. Essler: not yet submitted 
+15. Essler: Ein Berliner Papyruskodex mit Hom., Od. 13.110-126 und 137-154
+    - being vetted 
 16. Ast - Bagnall: not yet submitted 
 17. Sampson: not yet submitted 
 18. Borelli, P.Lond. 2 297a descr.: copia di estratti da registri di censimento
