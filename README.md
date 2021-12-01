@@ -1,7 +1,7 @@
 # P3
 This is now a collection point for the Papyrological Publishing Platform (P3). 
 
-The online journal **Pylon** is made possible by files stored here. In other repositories in [github: P3-processing](https://github.com/hcayless/P3-processing) and in [gitlab: XML files for HTML production](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/tree/master/epidoc) there are also files used for various stages of the production.
+The online journal **Pylon** is made possible by files stored here. In other repositories in [github: P3-processing](https://github.com/hcayless/P3-processing) (open access) and in [gitlab: XML files for HTML production](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/tree/master/epidoc) (password guarded) there are also files used for various stages of the production.
 
 **Pylon** already has a presence under the [journals produced and supported](https://journals.ub.uni-heidelberg.de/index.php/pylon/login) by the University Library in Heidelberg.  At present nothing can be clicked or viewed without a login. 
 
