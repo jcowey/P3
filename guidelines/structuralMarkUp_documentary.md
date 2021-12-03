@@ -10,13 +10,14 @@ In the relevant [XSLT file](https://github.com/hcayless/P3-processing/blob/main/
   - Title of the article
 
 - #author
-  - surname comma forename(s)
-  - surname comma forename(s)
+  - Surname comma Forename(s)
+  - Surname comma Forename(s)
   
 - #affiliation
   - Institute for the Study of the Ancient World (no standardisation, simply a string)
   
 - #email
+  - mksmi@gmail.com
 
 - #acknowledgement
   - For acknowledging publication permission, thanking others for their contributions (this deals with the * which is often found as a marker for the first footnote in print publications)
