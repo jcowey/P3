@@ -13,10 +13,10 @@
    - PDF: [p3test_Lougovaya_cubits_and_fingers_text_.pdf](https://github.com/jcowey/P3/files/7651369/p3test_Lougovaya_cubits_and_fingers_text_.pdf)
      - XML [Pylon_article_4](https://github.com/jcowey/P3/blob/master/pylon/pylon1lougovaya/lougovaya_pharris1_50.xml)
 5. HTML: [Zellmann-Rohrer, An “illiterate” private letter in London and Aberystwyth](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ZellmannRohrer_pLond_inv_868)
-   - PDF: 
+   - PDF: [p3test_ZellmannRohrer_pLond_inv_868_text_.pdf](https://github.com/jcowey/P3/files/7651375/p3test_ZellmannRohrer_pLond_inv_868_text_.pdf)
      - XML [Pylon_article_5](https://github.com/jcowey/P3/blob/master/pylon/pylon1zellmann-rohrer/zellmann_plond3_868.xml)
 6. HTML: [Micucci, Sale of a house in Soknopaiou Nesos: SB 22 15472 completed](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/micucci_sb22_15472)
-   - PDF: 
+   - PDF: [p3test_micucci_sb22_15472_text_.pdf](https://github.com/jcowey/P3/files/7651377/p3test_micucci_sb22_15472_text_.pdf)
      - XML [Pylon_article_6](https://github.com/jcowey/P3/blob/master/pylon/pylon1micucci/micucci_sb22_15472.xml)
 7. Vergara, Στοιχεῖα e dio in P.Herc. 1670, fr. 27.2 (Filodemo, De providentia)
     - being processed:
