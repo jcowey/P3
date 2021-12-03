@@ -4,13 +4,13 @@
    - PDF: [p3test_SPP_22-60_revisited_ra_work_prep_text_.pdf](https://github.com/jcowey/P3/files/7650668/p3test_SPP_22-60_revisited_ra_work_prep_text_.pdf)
      - XML: [Pylon_article_1](https://github.com/jcowey/P3/blob/master/pylon/pylon1bagnall/bagnall_spp22_60.xml)
 2. HTML: [Schubert, The format, layout and provenance of documents pertaining to liturgy](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/schubert_liturgy_geography)
-   - PDF: 
+   - PDF: [p3test_schubert_liturgy_geography_text_.pdf](https://github.com/jcowey/P3/files/7651366/p3test_schubert_liturgy_geography_text_.pdf)
      - XML [Pylon_article_2](https://github.com/jcowey/P3/blob/master/pylon/pylon1schubert/schubert_liturgy_geography.xml)
 3. HTML: [Messeri, Ricevuta di pagamento del πελωχικόν](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/messeri_plond2_182a)
-   - PDF:  
+   - PDF:  [p3test_messeri_plond2_182a_text_.pdf](https://github.com/jcowey/P3/files/7651367/p3test_messeri_plond2_182a_text_.pdf)
      - XML: [Pylon_article_3](https://github.com/jcowey/P3/blob/master/pylon/pylon1messeri/messeri_plond2_182a.xml)
 4. HTML: [Lougovaya, On cubic and other volumetric cubits and fingers](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/Lougovaya_cubits_and_fingers#ref)
-   - PDF: 
+   - PDF: [p3test_Lougovaya_cubits_and_fingers_text_.pdf](https://github.com/jcowey/P3/files/7651369/p3test_Lougovaya_cubits_and_fingers_text_.pdf)
      - XML [Pylon_article_4](https://github.com/jcowey/P3/blob/master/pylon/pylon1lougovaya/lougovaya_pharris1_50.xml)
 5. HTML: [Zellmann-Rohrer, An “illiterate” private letter in London and Aberystwyth](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ZellmannRohrer_pLond_inv_868)
    - PDF: 
