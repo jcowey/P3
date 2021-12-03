@@ -5,6 +5,7 @@ See also: [StructureFilesXML](https://docs.google.com/spreadsheets/d/1HaacsPU44R
 In the relevant [XSLT file](https://github.com/hcayless/P3-processing/blob/main/xslt/process-tei.xsl#L12-L14) in [P3-processing](https://github.com/hcayless/P3-processing) the list of these individual variable names can be found.
 
 ## For every article
+#### Title, author, affiliation, email and acknowledgement
 - #articleTitle
   - Title of the article
 
