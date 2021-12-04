@@ -91,14 +91,13 @@ Here is an **example of such mark up** as used to produce one of our test files:
     - e.g. https://github.com/jcowey/P3/blob/master/pylon/testFiles/ClaytorSmithWarga/ClaytorSmithWarga_FourPoll_TaxReceiptsTrial_4.xml#L321-L325
       - in this case please remember to indicate the end of the block quote by placing #endBlockQuote at the end of the quoted section.
 
-Here is an **example of such mark up for #articleHeader and #blockQuote** as used to produce one of our test files:
-
-- To help towards the production of this [Claytor Smith Warga BASP 53](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ClaytorSmithWarga_FourPoll_TaxReceiptsTrial_5#ch_23)
-  - the stuctural mark up of the word document was: [articleHeader_and_blockQuote.pdf](https://github.com/jcowey/P3/files/7654312/articleHeader_and_blockQuote.pdf) 
-
-
 - #corrections
   - whenever there are corrections to existing texts, in tabular form
 
 - #bibliography
   - if a bibliography is included
+
+Here is an **example of such mark up for #articleHeader and #blockQuote** as used to produce one of our test files:
+
+- To help towards the production of this [Claytor Smith Warga BASP 53](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ClaytorSmithWarga_FourPoll_TaxReceiptsTrial_5#ch_23)
+  - the stuctural mark up of the word document was: [articleHeader_and_blockQuote.pdf](https://github.com/jcowey/P3/files/7654312/articleHeader_and_blockQuote.pdf)
