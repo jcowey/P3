@@ -93,7 +93,7 @@ Here is an **example of such mark up** as used to produce one of our test files:
 
 Here is an **example of such mark up for #articleHeader and #blockQuote** as used to produce one of our test files:
 - To help towards the production of this [Claytor Smith Warga BASP 53](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ClaytorSmithWarga_FourPoll_TaxReceiptsTrial_5#ch_23)
-  - the stuctural mark up of the word document was: [ClaytorSmithWarga.pdf][articleHeader_and_blockQuote.pdf](https://github.com/jcowey/P3/files/7654312/articleHeader_and_blockQuote.pdf)
+  - the stuctural mark up of the word document was: [ClaytorSmithWarga.pdf][articleHeader_and_blockQuote.pdf](https://github.com/jcowey/P3/files/7654312/articleHeader_and_blockQuote.pdf) 
 
 
 - #corrections
