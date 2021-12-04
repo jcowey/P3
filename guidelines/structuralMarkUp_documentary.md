@@ -24,8 +24,8 @@ In the relevant [XSLT file](https://github.com/hcayless/P3-processing/blob/main/
 
 Here is an **example of such mark up** as used to produce one of our test files:
 
-- [Claytor Smith Warga BASP 53](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ClaytorSmithWarga_FourPoll_TaxReceiptsTrial_4)
-  - for which the stuctural mark up of the word document was: [ClaytorSmithWargaPage1.pdf](https://github.com/jcowey/P3/files/7389818/ClaytorSmithWargaPage1.pdf)
+- To help towards the production of this [Claytor Smith Warga BASP 53](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ClaytorSmithWarga_FourPoll_TaxReceiptsTrial_5)
+  - the stuctural mark up of the word document was: [ClaytorSmithWargaPage1.pdf](https://github.com/jcowey/P3/files/7389818/ClaytorSmithWargaPage1.pdf)
 
 
 ## For each and every separate DDB text edited in the article: DOCUMENTARY texts
