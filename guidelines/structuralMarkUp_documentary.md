@@ -53,7 +53,7 @@ Here is an **example of such mark up** as used to produce one of our test files:
 
 Here is an **example of such mark up** as used to produce one of our test files:
 
-- [Claytor Smith Warga BASP 53 text 2](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ClaytorSmithWarga_FourPoll_TaxReceiptsTrial_4#ch_7)
+- [Claytor Smith Warga BASP 53 text 2](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ClaytorSmithWarga_FourPoll_TaxReceiptsTrial_5#ch_7)
   - for which the stuctural mark up of the word document was: [ClaytorSmithWargaText2.pdf](https://github.com/jcowey/P3/files/7596453/ClaytorSmithWargaText2.pdf)
 
 ## For each and every separate DCLP text edited in the article: LITERARY texts
