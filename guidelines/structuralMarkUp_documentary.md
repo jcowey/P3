@@ -28,7 +28,7 @@ Here is an **example of such mark up** as used to produce one of our test files:
   - for which the stuctural mark up of the word document was: [ClaytorSmithWargaPage1.pdf](https://github.com/jcowey/P3/files/7389818/ClaytorSmithWargaPage1.pdf)
 
 
-## for each and every separate DDB text edited in the article
+## For each and every separate DDB text edited in the article: DOCUMENTARY texts
 ### Metadata, papyrological header, introduction, text, translation and commentary
 - #editionDDB
 - #metadata
@@ -56,7 +56,32 @@ Here is an **example of such mark up** as used to produce one of our test files:
 - [Claytor Smith Warga BASP 53 text 2](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ClaytorSmithWarga_FourPoll_TaxReceiptsTrial_4#ch_7)
   - for which the stuctural mark up of the word document was: [ClaytorSmithWargaText2.pdf](https://github.com/jcowey/P3/files/7596453/ClaytorSmithWargaText2.pdf)
 
-## for every section header in the article
+## For each and every separate DDB text edited in the article: LITERARY texts
+### Metadata, papyrological header, introduction, text, translation and commentary
+- #editionDDB
+- #metadata
+  - Create a table for the categories that are to be supplied
+    - For a list of the categories of metadata see [here](https://github.com/jcowey/P3/blob/master/guidelines/metadataMask.md)
+
+- #papyrologicalHeader:
+  - Title (if there is one)
+  - Create a table (usually 2 rows and 3 columns) in the word document for the date, measurements, provenance, inventory number, etc
+
+- #introduction
+  - Running text in paragraphs
+
+- #text
+  - Leiden+ (of the text)
+  
+- #translation
+  - Leiden+ (of the translation)
+  
+- #commentary
+  - Running text in paragraphs
+
+Here is an **example of such mark up** as used to produce one of our test files:
+
+## For every section header in the article
 ### Any subheadings in the article, any quoted passages, corrections made to existing texts and bibliography
 - #articleHeader
   - To be used whenever there are section headings within the article
