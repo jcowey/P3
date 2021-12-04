@@ -58,7 +58,7 @@ Here is an **example of such mark up** as used to produce one of our test files:
 
 ## For each and every separate DCLP text edited in the article: LITERARY texts
 ### Metadata, papyrological header, introduction, text, translation and commentary
-- #editionDDB
+- #editionDCLP
 - #metadata
   - Create a table for the categories that are to be supplied
     - For a list of the categories of metadata see [here](https://github.com/jcowey/P3/blob/master/guidelines/metadataMask.md)
