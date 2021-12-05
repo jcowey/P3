@@ -91,7 +91,7 @@
       <td align="left">both</td>
     </tr>    
     <tr>
-      <td align="left">essential</td>
+      <td align="left">required</td>
       <td align="left">TM number</td>
       <td align="left">39771</td>
       <td align="left">Trismegistos number</td>
