@@ -34,6 +34,6 @@
     - being vetted 
 15. Ast - Bagnall     
     - being processed:
-17. Sampson: not yet submitted 
-18. Azzarello: being vetted
+17. Azzarello: being vetted
+18. Sampson: not yet submitted
 
