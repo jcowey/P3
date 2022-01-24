@@ -82,7 +82,14 @@
       <td align="left">10.4</td>
       <td align="left">in centimetres</td>
       <td align="left">DCLP</td>
-    </tr>    
+    </tr>
+        <tr>
+      <td align="left">optional</td>
+      <td align="left">Dimensions: thickness</td>
+      <td align="left">10.4</td>
+      <td align="left">in centimetres</td>
+      <td align="left">DCLP</td>
+    </tr> 
     <tr>
       <td align="left">preferred</td>
       <td align="left">Material</td>
