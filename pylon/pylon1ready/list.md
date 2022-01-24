@@ -32,7 +32,8 @@
 13. Colella: being vetted
 14. Essler: Ein Berliner Papyruskodex mit Hom., Od. 13.110-126 und 137-154
     - being vetted 
-15. Ast - Bagnall: being vetted 
-16. Sampson: not yet submitted 
-17. Azzarello: being vetted
+15. Ast - Bagnall     
+    - being processed:
+17. Sampson: not yet submitted 
+18. Azzarello: being vetted
 
