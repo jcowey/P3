@@ -25,15 +25,18 @@
 9. Borelli, P.Lond. 2 297a descr.: copia di estratti da registri di censimento
     - being processed:
 10. Reiter: Zwei Miszellen zu Texten aus Soknopaiu Nesos
-    - not yet finally submitted
+    - being processed:
 11. Benaissa: Two Slave Sales Revisited
     - being vetted
-12. Deac: being vetted
-13. Colella: being vetted
-14. Essler: Ein Berliner Papyruskodex mit Hom., Od. 13.110-126 und 137-154
-    - being vetted 
-15. Ast - Bagnall     
+12. Deac: 
+    - being vetted
+14. Colella: 
+    - being vetted
+16. Essler: Ein Berliner Papyruskodex mit Hom., Od. 13.110-126 und 137-154
+    - being processed: 
+17. Ast and Bagnall: O.Berenike 4. Ostraka from the Port of Berenike.   
     - being processed:
-17. Azzarello: being vetted
-18. Sampson: not yet submitted
+18. Azzarello
+    - being processed:
+19. Sampson: not yet submitted
 
