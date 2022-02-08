@@ -24,19 +24,19 @@
     - being processed: [P.Herc. 1044, frr. 6+6b Gallo](https://papyri.info/dclp/65542)
 9. Borelli, P.Lond. 2 297a descr.: copia di estratti da registri di censimento
     - being processed:
-10. Reiter: Zwei Miszellen zu Texten aus Soknopaiu Nesos
+10. Reiter, Zwei Miszellen zu Texten aus Soknopaiu Nesos
     - being processed:
-11. Benaissa: Two Slave Sales Revisited
+11. Benaissa, Two Slave Sales Revisited
     - being vetted
 12. Deac: 
     - being vetted
 14. Colella: 
     - being vetted
-16. Essler: Ein Berliner Papyruskodex mit Hom., Od. 13.110-126 und 137-154
+16. Essler, Ein Berliner Papyruskodex mit Hom., Od. 13.110-126 und 137-154
     - being processed: 
-17. Ast and Bagnall: O.Berenike 4. Ostraka from the Port of Berenike   
+17. Ast and Bagnall, O.Berenike 4. Ostraka from the Port of Berenike   
     - being processed:
-18. Azzarello: Textual Remarks on Two Receipts concerning Replacement Parts for Irrigators
+18. Azzarello, Textual Remarks on Two Receipts concerning Replacement Parts for Irrigators
     - being processed:
 19. Sampson: not yet submitted
 
