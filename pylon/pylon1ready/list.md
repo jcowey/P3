@@ -34,9 +34,9 @@
     - being vetted
 16. Essler: Ein Berliner Papyruskodex mit Hom., Od. 13.110-126 und 137-154
     - being processed: 
-17. Ast and Bagnall: O.Berenike 4. Ostraka from the Port of Berenike.   
+17. Ast and Bagnall: O.Berenike 4. Ostraka from the Port of Berenike   
     - being processed:
-18. Azzarello
+18. Azzarello: Textual Remarks on Two Receipts concerning Replacement Parts for Irrigators
     - being processed:
 19. Sampson: not yet submitted
 
