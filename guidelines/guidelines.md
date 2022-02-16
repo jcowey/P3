@@ -71,6 +71,12 @@ Alongside the biblio ids whenever any stable identifiers (e.g. jstor) or DOIs ar
 
 Examples:
 
+For the bibliography itself the entries will follow the pattern below:
 - [Bagnall, R.S. and Frier, B.W. (1994)](https://papyri.info/biblio/13437) The Demography of Roman Egypt. Cambridge. ([https://hdl.handle.net/2027/heb.02277](https://hdl.handle.net/2027/heb.02277))
 - [Sijpesteijn, P.J. (1983)](https://papyri.info/biblio/56075) “Nachlese zu Wiener Texten,” ZPE 50: 133-134.  ([http://www.jstor.org/stable/20183765](http://www.jstor.org/stable/20183765))
 - [Cuvigny, H. (2014)](https://papyri.info/biblio/88290) “Papyrological Evidence on Barbarians in the Egyptian Eastern Desert,” in J.H.F. Dijkstra and G. Fisher (eds), Inside and Out: Interactions between Rome and the Peoples on the Arabian and Egyptian Frontiers in Late Antiquity. Leuven - Paris - Walpole: 165-198.
+
+When cited in the text (and footnotes) of the article, please dispense with the forenames and the parentheses and follow the pattern below:
+- [Bagnall and Frier 1994](https://papyri.info/biblio/13437): 234-23.
+- [Sijpesteijn 1983](https://papyri.info/biblio/56075): 133.
+- [Cuvigny 2014](https://papyri.info/biblio/88290): 168.
