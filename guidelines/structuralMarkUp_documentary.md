@@ -107,7 +107,7 @@ Here is an **example of such mark up for #articleHeader and #blockQuote** as use
   - the stuctural mark up of the word document was: [articleHeader_and_blockQuote.pdf](https://github.com/jcowey/P3/files/7654312/articleHeader_and_blockQuote.pdf)
 
 Here is an **example of such mark up for #corrections** as used to help towards the implementation of this correction in papyri.info in the correct text there. This does not appear in the HTML / PDF version of the text.
-- the stuctural mark up of the word document was: [corrections.pdf](https://github.com/jcowey/P3/files/7654330/corrections.pdf)
+- the stuctural mark up of the word document was: [correctionsClaytorWargaSmith.pdf](https://github.com/jcowey/P3/files/8080777/correctionsClaytorWargaSmith.pdf)
 
 Here is an **example of such mark up for #bibliography** as used to produce one of our test files:
 
