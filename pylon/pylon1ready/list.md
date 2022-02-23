@@ -25,19 +25,20 @@
 9. Borelli, P.Lond. 2 297a descr.: copia di estratti da registri di censimento
     - being processed:
 10. **HTML**: [Reiter, Zwei Miszellen zu Texten aus Soknopaiu Nesos](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/reiter_miscellaneous)
-    - _PDF_: [reiter_miscellaneous_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_reiter_miscellaneous_text_.pdf)
+    - _PDF_: [p3test_reiter_miscellaneous_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_reiter_miscellaneous_text_.pdf)
       - XML [Pylon_article_10](https://github.com/jcowey/P3/blob/master/pylon/pylon1reiter/reiter_miscellaneous.xml)
 11. Benaissa, Two Slave Sales Revisited
     - being vetted
 12. Deac: 
     - being vetted
-14. Colella: 
+13. Colella: 
     - being vetted
-16. **HTML**: [Essler, Ein Berliner Papyruskodex mit Hom., Od. 13.110-126 und 137-154](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/essler_pBerol_inv_13264)
-    - being processed: 
-17. Ast and Bagnall, O.Berenike 4. Ostraka from the Port of Berenike   
+14. **HTML**: [Essler, Ein Berliner Papyruskodex mit Hom., Od. 13.110-126 und 137-154](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/essler_pBerol_inv_13264)
+    - _PDF_: [p3test_essler_pBerol_inv_13264_text_](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_essler_pBerol_inv_13264_text_.pdf)
+      - XML [Pylon_article_16]()
+15. Ast and Bagnall, O.Berenike 4. Ostraka from the Port of Berenike   
     - being processed:
-18. Azzarello, Textual Remarks on Two Receipts concerning Replacement Parts for Irrigators
+16. Azzarello, Textual Remarks on Two Receipts concerning Replacement Parts for Irrigators
     - being processed:
-19. Sampson: not yet submitted
+17. Sampson: not yet submitted
 
