@@ -24,7 +24,7 @@
     - being processed: [P.Herc. 1044, frr. 6+6b Gallo](https://papyri.info/dclp/65542)
 9. Borelli, P.Lond. 2 297a descr.: copia di estratti da registri di censimento
     - being processed:
-10. Reiter, Zwei Miszellen zu Texten aus Soknopaiu Nesos
+10. **HTML**: [Reiter, Zwei Miszellen zu Texten aus Soknopaiu Nesos](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/reiter_miscellaneous)
     - being processed:
 11. Benaissa, Two Slave Sales Revisited
     - being vetted
