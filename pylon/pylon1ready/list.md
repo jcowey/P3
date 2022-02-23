@@ -25,7 +25,8 @@
 9. Borelli, P.Lond. 2 297a descr.: copia di estratti da registri di censimento
     - being processed:
 10. **HTML**: [Reiter, Zwei Miszellen zu Texten aus Soknopaiu Nesos](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/reiter_miscellaneous)
-    - being processed:
+    - _PDF_: [reiter_miscellaneous_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_reiter_miscellaneous_text_.pdf)
+      - XML [Pylon_article_10](https://github.com/jcowey/P3/blob/master/pylon/pylon1reiter/reiter_miscellaneous.xml)
 11. Benaissa, Two Slave Sales Revisited
     - being vetted
 12. Deac: 
