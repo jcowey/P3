@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ein Berliner Papyruskodex mit Hom., Od. 13.110–126 und 137–154</title>
+            <author>
+               <name>
+                  <forename>Holger</forename>
+                  <surname>Essler</surname>
+               </name>
+               <affiliation>Università Ca'Foscari</affiliation>
+               <email>holger.essler@uni-wuerzburg.de</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2022-02-23T12:25:56Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Ein Berliner Papyruskodex mit Hom., Od. 13.110–126 und 137–154</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1" style="text-align: left; text-align: left;">P.Berol.Inv. 13264 (MP³ <ref target="http://cipl93.philo.ulg.ac.be/Cedopal/MP3/MertensPack.aspx?numnot=1109.000">01109.000</ref>, TM <ref target="https://www.trismegistos.org/text/61063">61063</ref>) liegt bisher nur als Descriptum innerhalb von W. Schubarts Übersicht der Homerpapyri in <ref target="https://papyri.info/biblio/95253">BKT 5.1</ref>, S. 3–6, vor, das nur eine Datierung und die Verszahlen angibt (ebd., S. 6). Der Papyrus wurde laut Inventar bei der von Otto Rubensohn 1905 in Ashmunein (Hermupolis Magna) durchgeführten Grabung gefunden<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; text-align: justify;">Die Arbeit an diesem Stück erfolgte im Rahmen des Papyrologiekurses an der Università Ca'Foscari, Venedig im Herbst 2020. Beiträge zur Transkription lieferten Enrico Chies, Costantino Ferrarese, Chiara Mingotti. Herzlich zu danken habe ich M. Gerhardt, der sich der Mühe unterzog, die an der digitalen Photographie gewonnenen Lesungen am Original und mit Hilfe eines Dino-Lite Digital Microscope zu kontrollieren, und M. Sampson, der die Lesungen anhand der digitalen Abbildungen verbesserte und inhaltliche Hinweise beisteuerte. Da die Schrift im UV-Licht nicht sichtbar ist, wurde wohl Rußtusche, jedenfalls keine Eisen-Gallus-Tinte verwendet.</p><p style="text-align: left; text-align: justify;">Zu den Papyrusfunden in Hermupolis vgl. <ref target="https://papyri.info/biblio/8328">Maehler, BGU XII</ref>: XIV–XVI; <ref target="https://papyri.info/biblio/85428">Kuckertz 2013:</ref> 47–48; <ref target="https://papyri.info/biblio/95956">Kuckertz 2015</ref>: 53–54.</p></note> und vermutlich auch dort geschrieben.</p>
+            <p xml:id="p2" style="text-align: left; text-align: left;">Es handelt sich um zwei Fragmente eines Blattes aus einem Papyruskodex, welche die Verse 110–126 und 137–154 aus Hom., Od. 13 enthalten. Zwischen den beiden Fragmenten ist jeweils eine Zeile, von Verso auf Rekto zehn Zeilen ausgefallen. Auf dem Verso sind vom rechten Rand ca. 2,5 cm, vom unteren Rand 2,9 cm erhalten, auf dem Rekto vom linken Rand 1,5 cm, vom unteren Rand 2,8 cm. Das obere Fragment ist auf beiden Seiten stark verwischt und verblaßt, so daß hier die Lesungen recht unsicher sind. Daraus läßt sich der ursprüngliche Seitenspiegel rekonstruieren. Jede Seite enthielt danach eine Kolumne mit 27–28 Zeilen. Ein Blatt nahm ca. 27,5 x 18,5 cm, die Kolumne darauf ca. 21,5 x 15 cm oder 16 cm ein.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/9039">Turner 1977</ref> nimmt unseren Papyrus zwar in seinen Katalog auf (Nr. 185), jedoch ohne das Format zu rekonstruieren. Nach den oben gegebenen Zahlen fiele er in seine Gruppe Nr. 5.</p></note>  Die auf unsere erste Kolumne vorausgehenden 100 Verse des Buches 13 hätten also in weniger als vier Kolumnen bzw. Seiten Platz gefunden, so daß der Text dieses Buches nicht oben auf der Seite begann.</p>
+            <p xml:id="p3" style="text-align: left; text-align: left;">Die Schrift ist eine rechtsgeneigte Gotica oder Ovalmajuskel. Schubart (<ref target="https://papyri.info/biblio/95253">BKT 5.1</ref>, S. 6) setzte sie – gefolgt von <ref target="https://papyri.info/biblio/9039">Turner 1977</ref>: 110 – ins 5.–6. Jh., <ref target="https://papyri.info/biblio/58405">Cavallo and Maehler 1987</ref>: 92, n.o 42c, ins 6.–7. Jh. Nach <ref target="https://papyri.info/biblio/68967">Crisci 2000</ref>: 8 n. 16 spricht einige Wahrscheinlichkeit für den Beginn des 7. Jh. Ähnliche Schrift zeigen in Berlin <ref target="http://papyri.info/dclp/62378">TM 62378</ref> (<ref target="https://berlpap.smb.museum/04527/">Inv. 21342</ref>), <ref target="http://papyri.info/dclp/59962">TM 59962</ref> (<ref target="https://berlpap.smb.museum/16464/">Inv. 11739</ref>), <ref target="http://papyri.info/dclp/61920">TM 61920</ref> (<ref target="https://berlpap.smb.museum/02832/">Inv. 10567</ref>) und <ref target="http://papyri.info/dclp/154379">TM 154379</ref> (<ref target="https://berlpap.smb.museum/06216/">Inv. 13924</ref>).</p>
+            <p xml:id="p4" style="text-align: left; text-align: left;">An diakritischen Zeichen finden sich Apostroph (Z. 112, 125, 153) Trema (Z. 138, 143) und Akut (Z. 124, 154). Als Interpunktion nur die mese stigme (Z. 123, 125, 151, 152). In Z. 123 steht über [ὁδιτ]ά̣ω̣ν das Synonym [ὁδοι]πόρων, wohl von einer zeitgenössischen Hand. Während in der Odyssee nur jenes (insgesamt fünf Mal) belegt ist, kommen in der Ilias beide Wörter je einmal vor (ὁδοιπόρον in Il. 24, 375, ebenfalls erklärt in den Scholien). Der Text selbst stimmt mit der übrigen Überlieferung überein. Die Ergänzungen in der Transkription folgen der Ausgabe in <ref target="https://papyri.info/biblio/95954">Von der Mühll 1962</ref>.</p>
+            <p xml:id="p5" style="text-align: left; text-align: left;">Unser Papyrus ist der späteste bisher bekannte Zeuge dieses Buches auf Papyrus. Fünf weitere Stücke enthalten einen Text, der sich mit unserem Stück überschneidet: Zwei Papyrusrollen aus Oxyrhynchus aus dem 1. Jh. (TM 739147, mit Versen 137–152<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> Descriptum bei <ref target="https://papyri.info/biblio/95463">West 2017</ref>: xxxix no. 449.</p></note> und TM 745204, mit Versen 80–184<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> Descriptum <ref target="https://papyri.info/biblio/95463">West 2017</ref>: xliv no. h53.</p></note>) zwei Papyruskodizes (<ref target="http://papyri.info/dclp/60947">P.Ryl. 1.53</ref>, 3.–4. Jh., der — mit Lücken an den Rändern — die Bücher 12–15 und 18–24 enthält; <ref target="https://papyri.info/dclp/61046">P.Ant. 3.171</ref>, 5. Jh., mit Versen 13.154–167 und 202–214, sowie Teilen von Buch 16) und einen Pergamentkodex (<ref target="https://papyri.info/dclp/61047">P.Ant. 3.172</ref>, 5. Jh., mit Versen 13.155–162, 185–192, 216–223 und 246–253).</p>
+            <p xml:id="p6" style="text-align: left; text-align: left;">↓</p>
+            <div type="epidoc" subtype="DCLP">
+               <div copyOf="#ed1" type="edition"/>
+               <div type="bibliography">
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/58405">Cavallo, G. and Maehler, H. (1987)</ref> Greek Bookhands of the Early Byzantine Period: A.D. 300-800. London.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/68967">Crisci, E. (2000)</ref> “La produzione libraria nelle aree orientali di Bisanzio nei secoli VII e VIII: I manoscritti superstiti,” in  G. Prato (a cura di), I manoscritti greci tra riflessione e dibattito I Firenze: I 3–28, III pl. 1–20.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/85428">Kuckertz, J. (2013)</ref> “Otto Rubensohn (1867–1964),” in: M. Capasso, M. (a cura di) Hermae. Scholars and Scholarship in Papyrology III. Pisa - Roma: 41–56.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95956">Kuckertz, J. (2015)</ref> “Auf der Jagd nach Papyri – Otto Rubensohn in Ägypten,” in A. Pomerance und B. Schmitz (Hg.), Heiligtümer, Papyri und geflügelte Göttinnen. Der Archäologe Otto Rubensohn, Hildesheim: 40–59.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/8328">Maehler, H. (1974)</ref> Papyri aus Hermupolis (BGU XII), Berlin.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95954">von der Mühll, P. (1962)</ref> (ed.) Homeri Odyssea. Basel.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95253">Schubart, W. and von Wilamowitz-Moellendorff, U. (1907)</ref> Griechische Dichterfragmente: Teil I, Epische und elegische Fragmente. Berlin</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/9039">Turner E. G. (1977)</ref> The Typology of the Early Codex. Philadelphia.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95463">West, M.L. (2017)</ref> (ed.) Homerus. Odyssea. Berlin - Boston. </bibl>
+                  </listBibl>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Homer, Od. 13.110–126 and 137–154</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Digital Corpus of Literary Papyri</authority>
+               <idno type="filename"/>
+               <idno type="dclp"/>
+               <idno type="dclp-hybrid">pylon;1;14</idno>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Digital Corpus of Literary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <idno type="invNo">P.Berol.Inv. 13264</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm"/>
+                              <measure type="width" unit="cm"/>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>unbekannt</origPlace>
+                        <origDate>VI-VII</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref></p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Homer, Od. 13.110–126 and 137–154</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="v" type="textpart"><ab>
+<lb n="110"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="110"/><supplied reason="lost">αἱ μὲν πρὸς Βορ</supplied><unclear>έαο</unclear> <unclear>καταιβ</unclear><supplied reason="lost">αταὶ ἀνθρώποισιν,</supplied>  
+<lb n="111"/><supplied reason="lost">αἱ δ᾽ α</supplied><unclear>ὖ</unclear> <unclear>πρ</unclear>ὸς Νότου εἰσὶ θεώτε<unclear>ρ</unclear><supplied reason="lost">αι• οὐδέ τι κείνῃ</supplied>   
+<lb n="112"/><supplied reason="lost">ἄνδ</supplied><unclear>ρες</unclear> <unclear>ἐσέρ</unclear>χονται, ἀλλ᾽<g type="apostrophe"/> ἀθ<unclear>α</unclear><supplied reason="lost">νάτων ὁδός ἐστιν.</supplied>  
+<lb n="113"/><supplied reason="lost">ἔνθ᾽ οἵ</supplied> <unclear>γ</unclear>᾽ <unclear>εἰσέ</unclear>λα<unclear>σα</unclear>ν, <unclear>π</unclear>ρ<unclear>ὶν</unclear> <unclear>εἰδό</unclear><supplied reason="lost">τες. ἡ μὲν ἔπειτα</supplied> 
+<lb n="114"/><supplied reason="lost">ἠπείρ</supplied><unclear>ῳ</unclear> <unclear>ἐπέ</unclear>κελσ<unclear>εν</unclear> <unclear>ὅσον</unclear> <unclear>τ</unclear>᾽ <unclear>ἐπὶ</unclear> <supplied reason="lost">ἥμισυ πάσης,</supplied> 
+<lb n="115"/><supplied reason="lost">σπερ</supplied><unclear>χομένη</unclear>•<unclear>τοῖον</unclear> <unclear>γὰρ</unclear> <unclear>ἐπε</unclear><supplied reason="lost">ίγετο χέρσ ᾽ ἐρετάων•</supplied>
+<lb n="116"/><supplied reason="lost">οἱ δ᾽ ἐ</supplied><unclear>κ</unclear> <unclear>νηὸς</unclear> <unclear>βάντε</unclear><supplied reason="lost">ς ἐϋζύγου ἤπειρόνδε</supplied>  
+<lb n="117"/><supplied reason="lost">πρῶ</supplied><unclear>τον</unclear> Ὀδυσσῆ<supplied reason="lost">α γλαφυρῆς ἐκ νηὸς ἄειραν</supplied>    
+<lb n="118"/><supplied reason="lost">αὐτῷ</supplied> <unclear>σύν</unclear> τε λίν<supplied reason="lost">ῳ καὶ ῥήγεϊ σιγαλόεντι,</supplied> 
+<lb n="118"/><gap reason="lost" quantity="1" unit="line"/>
+<lb n="120"/><supplied reason="lost">ἐκ δὲ κτήματ' ἄειραν, ἅ οἱ Φαίηκες</supplied> ἀ<unclear>γα</unclear><supplied reason="lost">υοὶ</supplied> 
+<lb n="121"/><supplied reason="lost">ὤπασαν οἴκαδ' ἰόντι διὰ μεγά</supplied><unclear>θ</unclear>υμον   ᾿Αθ<supplied reason="lost">ήνη</supplied><unclear>ν</unclear>.
+<lb n="122"/><supplied reason="lost">καὶ τὰ μὲν οὖν παρὰ πυθμέν' ἐλ</supplied>αίης ἀθρό<unclear>α</unclear> <unclear>θ</unclear>ῆκαν   
+<lb n="123"/><supplied reason="lost">ἐκτὸς ὁδοῦ, μή πώ τις ὁδιτ</supplied><unclear>άω</unclear>ν <add place="above">m<gap reason="illegible" quantity="2" unit="character"/> <supplied reason="lost">ὁδοι</supplied>πόρων</add> m<gap reason="illegible" quantity="1" unit="character"/> ἀνθρώπων,<g type="middot"/>  
+<lb n="124"/><supplied reason="lost">πρὶν ᾿Οδυσῆ' ἐγρέσθαι, ἐπ</supplied><unclear>ε</unclear>λθὼν δηλ<hi rend="acute">ή</hi>σαιτο•  
+<lb n="125"/><supplied reason="lost">αὐτοὶ δ' αὖ οἶκόνδε πάλι</supplied><unclear>ν</unclear> κίον. οὐδ’<g type="apostrophe"/> ἐνοσίχθων<g type="middot"/> 
+<lb n="126"/><supplied reason="lost">λήθετ' ἀπειλάων, τὰς ἀ</supplied><unclear>ν</unclear>τιθέωι  ᾿Οδυσ<unclear>ῆ</unclear><supplied reason="lost">ϊ</supplied>
+</ab></div>
+<div n="r" type="textpart"><ab>
+<lb n="137"/><gap reason="lost" quantity="10" unit="line"/>
+<lb n="137"/><supplied reason="lost">πόλλ’, ὅσ’ ἂν οὐδέ ποτε Τρ</supplied>οίης ἐξή<unclear>ρα</unclear><supplied reason="lost">τ’ Ὀ</supplied><unclear>δυ</unclear><supplied reason="lost">σσ</supplied><unclear>εύ</unclear><supplied reason="lost">ς,</supplied>   
+<lb n="138"/><supplied reason="lost">εἴ περ ἀπήμων ἦλθ</supplied><unclear>ε</unclear>, λαχὼν ἀπὸ λη<hi rend="diaeresis">ΐ</hi>δος αἶσ<unclear>α</unclear><supplied reason="lost">ν.</supplied>     
+<lb n="139"/><supplied reason="lost">τὸν δ’ ἀπαμειβόμεν</supplied>ος προσέφη <unclear>ν</unclear>εφ<unclear>εληγ</unclear>ε<unclear>ρέ</unclear><supplied reason="lost">τα Ζεύς•</supplied>    
+<lb n="140"/><supplied reason="lost">ὢ πόποι, ἐννοσίγαι’ ε</supplied>ὐρυσθενές, οἷο<unclear>ν</unclear> <unclear>ἔε</unclear><supplied reason="lost">ι</supplied><unclear>πες</unclear>.
+<lb n="141"/><supplied reason="lost">οὔ τί σ’ ἀτιμάζουσι θεο</supplied>ί• <unclear>χα</unclear>λ<unclear>επ</unclear>ὸν δέ κεν εἴη   
+<lb n="142"/><supplied reason="lost">πρεσβύτατον καὶ ἄριστο</supplied><unclear>ν</unclear> <unclear>ἀτι</unclear>μ<unclear>ίῃ</unclear>σιν ἰάλλειν.  
+<lb n="143"/><supplied reason="lost">ἀνδρῶν δ’ εἴ πέρ τίς</supplied> <unclear>σε</unclear> <unclear>βίῃ</unclear> <unclear>καὶ</unclear> <unclear>κάρτε</unclear><hi rend="diaeresis">ϊ</hi> εἴκων  
+<lb n="144"/><supplied reason="lost">οὔ τι τίει, σοὶ δ’ ἐστὶ καὶ ἐξοπίσω</supplied> τίσις αἰεί.  
+<lb n="145"/><supplied reason="lost">ἕρξον ὅπως ἐθέλεις καί τοι φίλ</supplied><unclear>ο</unclear>ν ἔ<unclear>πλε</unclear><supplied reason="lost">το θυμῷ.</supplied>      
+<lb n="145"/><gap reason="lost" quantity="1" unit="line"/>
+<lb n="147"/><supplied reason="lost">αἶψά κ' ἐγὼν</supplied> <unclear>ἕρξ</unclear><supplied reason="lost">αιμι, κελαινεϕές, ὡς ἀγορεύεις•</supplied> 
+<lb n="148"/><unclear>ἀλλὰ</unclear> <supplied reason="lost">σὸν α</supplied><unclear>ἰ</unclear>εὶ θ<unclear>υ</unclear>μ<supplied reason="lost">ὸν ὀπίζομαι ἠδ' ἀλεείνω.</supplied>   
+<lb n="149"/><unclear>ν</unclear>ῦν <unclear>αὖ</unclear> <unclear>Φα</unclear>ιήκων <unclear>ἐθ</unclear><supplied reason="lost">έλω περικαλλέα νῆα</supplied>    
+<lb n="150"/>ἐκ πομπ<unclear>ῆ</unclear>ς ἀνιοῦσα<unclear>ν</unclear> <supplied reason="lost">ἐν ἠεροειδέϊ πόντῳ</supplied>   
+<lb n="151"/>ῥαῖσαι,<g type="middot"/> ἵν<unclear>α</unclear> ἤδη σχ<unclear>ῶν</unclear><supplied reason="lost">ται, ἀπολλήξωσι δὲ πομπῆς</supplied>  
+<lb n="152"/>ἀνθρώπων,<g type="middot"/> μέγα δέ σϕ<supplied reason="lost">ιν ὄρος πόλει ἀμϕικαλύψαι.</supplied>    
+<lb n="153"/>τ<unclear>ὸ</unclear>ν <unclear>δ</unclear>'<g type="apostrophe"/> <unclear>ἀ</unclear>π<unclear>α</unclear>μειβόμεν<unclear>ο</unclear><supplied reason="lost">ς προσέϕη νεϕεληγερέτα Ζεύς•</supplied>    
+<lb n="154"/>ὦ π<hi rend="acute">έ</hi>πο<supplied reason="lost">ν, ὣ</supplied><unclear>ς</unclear> μὲν ἐμῶι <unclear>θ</unclear><supplied reason="lost">υμῶι δοκεῖ εἶναι ἄριστα•</supplied>     
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
