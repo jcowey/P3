@@ -33,7 +33,7 @@
     - being vetted
 14. Colella: 
     - being vetted
-16. Essler, Ein Berliner Papyruskodex mit Hom., Od. 13.110-126 und 137-154
+16. **HTML**: [Essler, Ein Berliner Papyruskodex mit Hom., Od. 13.110-126 und 137-154](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/essler_pBerol_inv_13264)
     - being processed: 
 17. Ast and Bagnall, O.Berenike 4. Ostraka from the Port of Berenike   
     - being processed:
