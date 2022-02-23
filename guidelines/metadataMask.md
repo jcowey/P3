@@ -105,7 +105,7 @@
       <td align="left">both</td>
     </tr>    
     <tr>
-      <td align="left">preferred</td>
+      <td align="left">required</td>
       <td align="left">HGV number</td>
       <td align="left">39771</td>
       <td align="left">same as trismegistos number, but can have suffix</td>
