@@ -35,7 +35,7 @@
     - being vetted
 14. **HTML**: [Essler, Ein Berliner Papyruskodex mit Hom., Od. 13.110-126 und 137-154](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/essler_pBerol_inv_13264)
     - _PDF_: [p3test_essler_pBerol_inv_13264_text_](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_essler_pBerol_inv_13264_text_.pdf)
-      - XML [Pylon_article_14]()
+      - XML [Pylon_article_14](https://github.com/jcowey/P3/blob/master/pylon/pylon1essler/essler_pBerol_inv_13264.xml)
 15. Ast and Bagnall, O.Berenike 4. Ostraka from the Port of Berenike   
     - being processed:
 16. Azzarello, Textual Remarks on Two Receipts concerning Replacement Parts for Irrigators
