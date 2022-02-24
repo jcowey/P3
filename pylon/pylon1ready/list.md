@@ -18,8 +18,9 @@
 6. **HTML**: [Micucci, Sale of a house in Soknopaiou Nesos: SB 22 15472 completed](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/micucci_sb22_15472)
    - _PDF_: [p3test_micucci_sb22_15472_text_.pdf](https://github.com/jcowey/P3/files/7651377/p3test_micucci_sb22_15472_text_.pdf)
      - XML [Pylon_article_6](https://github.com/jcowey/P3/blob/master/pylon/pylon1micucci/micucci_sb22_15472.xml)
-7. Vergara, Στοιχεῖα e dio in P.Herc. 1670, fr. 27.2 (Filodemo, De providentia)
-    - being processed:
+7. **HTML**: [Vergara, Στοιχεῖα e dio in P.Herc. 1670, fr. 27.2 (Filodemo, De providentia)](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/vergara_pHerc_1670_fr_27_2)
+   - _PDF_: [p3test_vergara_pHerc_1670_fr_27_2_text_.pdf](https://github.com/jcowey/P3/files/7651377/p3test_vergara_pHerc_1670_fr_27_2_text_.pdf)
+     - XML [Pylon_article_7](https://github.com/jcowey/P3/blob/master/pylon/pylon1micucci/micucci_sb22_15472.xml)
 8. Nicolardi, Delendae memorandae: A new reading of P.Herc. 1044, frr. 6+6b Gallo
     - being processed: [P.Herc. 1044, frr. 6+6b Gallo](https://papyri.info/dclp/65542)
 9. Borelli, P.Lond. 2 297a descr.: copia di estratti da registri di censimento
