@@ -42,4 +42,5 @@
 16. Azzarello, Textual Remarks on Two Receipts concerning Replacement Parts for Irrigators
     - being processed:
 17. Sampson: not yet submitted
-
+18. Claytor, A Receipt for the Didrachmia of Souchos from the Mikkalos Archive
+    - being vetted:
