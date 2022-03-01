@@ -11,3 +11,6 @@
 
 ## Uploading new images
   - On the left hand side above the search magnifying glass click on +
+  - Click on "weiter"
+  - Add Titel
+  - Add Grafische Darstellung in Objektbeschreibung
