@@ -41,6 +41,7 @@
     - being processed:
 16. **HTML**: [Azzarello, Textual Remarks on Two Receipts concerning Replacement Parts for Irrigators](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/azzarello_receipts_rev)
       - XML [Pylon_article_16](https://github.com/jcowey/P3/blob/master/pylon/pylon1azzarello/azzarello_receipts-rev.xml)
-17. Sampson: not yet submitted
-18. Claytor, A Receipt for the Didrachmia of Souchos from the Mikkalos Archive
+17. Sampson, P.Hamb.graec. 185: Garden Tax Between the Archives of (Lucius) Iulius Serenus and Gemellus Horion
+    - being vetted:
+19. Claytor, A Receipt for the Didrachmia of Souchos from the Mikkalos Archive
     - being vetted:
