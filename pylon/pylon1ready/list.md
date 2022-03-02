@@ -39,8 +39,8 @@
       - XML [Pylon_article_14](https://github.com/jcowey/P3/blob/master/pylon/pylon1essler/essler_pBerol_inv_13264.xml)
 15. Ast and Bagnall, O.Berenike 4. Ostraka from the Port of Berenike   
     - being processed:
-16. Azzarello, Textual Remarks on Two Receipts concerning Replacement Parts for Irrigators
-    - being processed:
+16. **HTML**: [Azzarello, Textual Remarks on Two Receipts concerning Replacement Parts for Irrigators](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/azzarello_receipts_rev)
+      - XML [Pylon_article_16](https://github.com/jcowey/P3/blob/master/pylon/pylon1azzarello/azzarello_receipts-rev.xml)
 17. Sampson: not yet submitted
 18. Claytor, A Receipt for the Didrachmia of Souchos from the Mikkalos Archive
     - being vetted:
