@@ -29,11 +29,11 @@
     - _PDF_: [p3test_reiter_miscellaneous_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_reiter_miscellaneous_text_.pdf)
       - XML [Pylon_article_10](https://github.com/jcowey/P3/blob/master/pylon/pylon1reiter/reiter_miscellaneous.xml)
 11. Benaissa, Two Slave Sales Revisited
-    - being vetted
+    - being vetted:
 12. Deac: 
-    - being vetted
+    - being vetted:
 13. Colella, Aggiornamenti in tema di manumissiones nei testamenti romani d’Egitto prima di Severo Alessandro
-    - being vetted
+    - being processed:
 14. **HTML**: [Essler, Ein Berliner Papyruskodex mit Hom., Od. 13.110-126 und 137-154](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/essler_pBerol_inv_13264)
     - _PDF_: [p3test_essler_pBerol_inv_13264_text_](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_essler_pBerol_inv_13264_text_.pdf)
       - XML [Pylon_article_14](https://github.com/jcowey/P3/blob/master/pylon/pylon1essler/essler_pBerol_inv_13264.xml)
