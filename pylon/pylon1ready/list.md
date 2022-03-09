@@ -21,7 +21,7 @@
 7. **HTML**: [Vergara, Στοιχεῖα e dio in P.Herc. 1670, fr. 27.2 (Filodemo, De providentia)](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/vergara_pHerc_1670_fr_27_2)
    - _PDF_: [p3test_vergara_pHerc_1670_fr_27_2_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_vergara_pHerc_1670_fr_27_2_text_.pdf)
      - XML [Pylon_article_7](https://github.com/jcowey/P3/blob/master/pylon/pylon1micucci/micucci_sb22_15472.xml)
-8. **HTML**: [Nicolardi, Delendae memorandae: A new reading of P.Herc. 1044, frr. 6+6b Gallo] (https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/nicolardi_delendae_memorandae)
+8. **HTML**: [Nicolardi, Delendae memorandae: A new reading of P.Herc. 1044, frr. 6+6b Gallo](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/nicolardi_delendae_memorandae)
     - being processed: [P.Herc. 1044, frr. 6+6b Gallo](https://papyri.info/dclp/65542)
       - XML [Pylon_article_8](https://github.com/jcowey/P3/blob/master/pylon/pylon1nicolardi/nicolardi_delendae_memorandae.xml)
 9. Borelli, P.Lond. 2 297a descr.: copia di estratti da registri di censimento
