@@ -202,12 +202,19 @@
       <td align="left">comma separated</td>
       <td align="left">both</td>
     </tr>
-        <tr>
+    <tr>
       <td align="left">preferred</td>
       <td align="left">Previous edition(s)</td>
       <td align="left"></td>
       <td align="left">comma separated</td>
       <td align="left">DDB</td>
-    </tr>    
+    </tr>
+    <tr>
+      <td align="left">optional</td>
+      <td align="left">Commentary</td>
+      <td align="left"></td>
+      <td align="left">string</td>
+      <td align="left">DDB</td>
+    </tr>
   </tbody>
 </table> 
