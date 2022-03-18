@@ -24,7 +24,7 @@
 8. **HTML**: [Nicolardi, Delendae memorandae: A new reading of P.Herc. 1044, frr. 6+6b Gallo](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/nicolardi_delendae_memorandae)
     - _PDF_: being processed
       - XML [Pylon_article_8](https://github.com/jcowey/P3/blob/master/pylon/pylon1nicolardi/nicolardi_delendae_memorandae.xml)
-9. Borelli, P.Lond. 2 297a descr.: copia di estratti da registri di censimento
+9. **HTML**: [Borelli, P.Lond. 2 297a descr.: copia di estratti da registri di censimento](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/borrelli_riv_prep2)
     - being processed:
 10. **HTML**: [Reiter, Zwei Miszellen zu Texten aus Soknopaiu Nesos](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/reiter_miscellaneous)
     - _PDF_: [p3test_reiter_miscellaneous_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_reiter_miscellaneous_text_.pdf)
