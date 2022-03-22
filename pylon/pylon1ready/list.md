@@ -41,6 +41,7 @@
 15. **HTML**: [Ast and Bagnall, O.Berenike 4. Ostraka from the Port of Berenike](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ast_bagnall_berenike_4)   
     - _PDF_: [p3test_ast_bagnall_berenike_4_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_ast_bagnall_berenike_4_text_.pdf)
 16. **HTML**: [Azzarello, Textual Remarks on Two Receipts concerning Replacement Parts for Irrigators](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/azzarello_receipts_rev)
+    - _PDF_: [p3test_azzarello_receipts_rev_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_azzarello_receipts_rev_text_.pdf)
       - XML [Pylon_article_16](https://github.com/jcowey/P3/blob/master/pylon/pylon1azzarello/azzarello_receipts-rev.xml)
 17. Sampson, P.Hamb.graec. 185: Garden Tax Between the Archives of (Lucius) Iulius Serenus and Gemellus Horion
     - being vetted:
