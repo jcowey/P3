@@ -10,6 +10,17 @@
   - Add Titel e.g. "Pylon 1 Ast Bagnall O.Ber. 4 514" (Pylon volume Author(s) clear name)
   - Add "Grafische Darstellung" in Objektbeschreibung
 
+## Uploading replacement images 
+  - There is already an image in heidICON, but you want to replace it with an improved one
+  - Click on the image in the list
+  - under the word heidICON (top right hand corner letters of ICON in red) there is an X with the word Detail to the left of it
+  - Under the X there are three vertical dots, click on these and choose Bearbeiten and click on it
+  - The word Detail has now changed to Editor
+  - Now about two thirds of the way down the screen there are boxes marked Gegenstand/Werk Aufnahmen Beziehungen Erschließung
+  - Choose Aufnahmen and click on it
+  - Where the image can be seen there are three vertical dots, click on it and choose the first in the list Hochladen and click on it
+  - Now choose the target file from you computer and double click on it. 
+  - Once the loading process is finished click on Speichern (bottom right hand corner)
 
 ## Finding the link to put in XML files
   - Click on the relevant image
