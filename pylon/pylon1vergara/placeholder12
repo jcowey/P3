@@ -1,1 +1,271 @@
-Here for Vergara
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Στοιχεῖα e dio in P.Herc. 1670, fr. 27.2 (Filodemo, De providentia)</title>
+            <author>
+               <name>
+                  <forename>Claudio</forename>
+                  <surname>Vergara</surname>
+               </name>
+               <affiliation>Università di Pisa</affiliation>
+               <email>claudio.vergara@phd.unipi.it</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2022-02-23T17:08:17Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Στοιχεῖα e dio in P.Herc. 1670, fr. 27.2 (Filodemo, De providentia)</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">Ringrazio per i preziosi suggerimenti Holger Essler, Giuliana Leone, Francesca Longo Auricchio, Federica Nicolardi. Naturalmente rimango l’unico responsabile di eventuali errori.</note>
+            <p xml:id="p1" style="text-align: justify;">La maggior parte dei resti dell’opera di Filodemo nota come De providentia ha restituito tracce di una polemica epicurea su vari aspetti di cosmologia e di teologia. Nondimeno in alcuni punti l’atteggiamento polemico sembra lasciare spazio a esposizioni di dottrina epicurea, con cui probabilmente Filodemo motivava le proprie risposte alle posizioni degli avversari. </p>
+            <p xml:id="p2" style="text-align: justify;">Il P.Herc. 1670<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; text-align: justify;"> La prima edizione del P.Herc. 1670 è di <ref target="https://papyri.info/biblio/83723">Bassi 1916</ref>. Il papiro è stato riedito parzialmente da <ref target="https://papyri.info/biblio/83452">Ferrario 1972</ref>. </p></note>, che conserva le parti finali del trattato<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; text-align: justify;"> Le parti iniziali sono conservate nelle scorze inventariate come <ref target="http://papyri.info/dclp/62483">P.Herc. 1577/1579</ref> e <ref target="http://papyri.info/dclp/62457">1100</ref>: vd. <ref target="https://papyri.info/biblio/95908">Vergara 2020</ref>.</p></note>, è noto soprattutto perché ci ha restituito una critica di Filodemo agli Stoici sulla teoria della provvidenza, in particolare sulla sua inconciliabilità con l’esistenza del male. Questa sezione polemica occupa le ultime e meglio conservate colonne del papiro (frr. 1-18*; la numerazione è di Bassi). Le colonne precedenti (frr. 19-30*)<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; text-align: justify;"> La numerazione di Bassi non segue l’ordine originale delle colonne; inoltre, le colonne registrate come frr. 25, 28, 29*, 30 e 30* (Bassi indicò con l’asterisco quelle non segnalate sul cartoncino del papiro) non appartengono in realtà all’opera De providentia: vd. <ref target="https://papyri.info/biblio/95908">Vergara 2020</ref>: 93-94.</p></note> sono invece molto lacunose, ma il testo superstite lascia pensare che trattassero della costituzione fisica del cosmo: si possono leggere interessanti accenni a questioni più specifiche, quali il movimento degli elementi e la formazione dei corpi celesti, ma non è sempre possibile comprenderne il contesto né stabilire se il punto di vista esposto sia quello epicureo oppure quello degli avversari oggetto della polemica<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/83452">Ferrario 1972</ref>: 82-88.</p></note>.</p>
+            <p xml:id="p3" style="text-align: justify;">In alcuni casi il riesame del papiro permette di fare significativi passi in avanti nella comprensione di queste difficili colonne. Un esempio può essere rappresentato dalla ricognizione che ho condotto sul fr. 27.2<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; text-align: justify;"> Bassi registrò come frr. 27.1, 27.2 e 27.3 le tre diverse colonne che sul cartoncino del papiro sono tutte segnalate come fr. 27. La colonna si trova in cr 3 pz 5 (MSI 1670-CR03-09093 + 1670-CR03-10750).</p></note>, di cui presento qui una nuova edizione.</p>
+            <p xml:id="p4" style="text-align: justify;">Della colonna sono superstiti soltanto le prime dodici linee a partire dal margine superiore e in ciascuna di esse l’inchiostro è quasi del tutto evanido. L’inaffidabilità del disegno realizzato da Mario Arman nel 1911 rappresenta bene il precario stato del papiro in questo punto e Ferrario, che ha curato l’ultima edizione del P.Herc. 1670 nel 1972, poteva pubblicare soltanto quattro linee con i mezzi allora a disposizione (l. 3 κινε]ῖν ἅπαντος̣ ἁπλῶς; l. 4 ]ων καὶ τῶν [; l. 5 ] ἐπιτηδε[ί]ων εἰς [; l. 6 ] ἄλλ[ο] σ̣υντ̣ε̣λεῖ[ν)<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; text-align: justify;"> Le letture della studiosa non sono peraltro presenti nell’<ref target="https://papyri.info/dclp/62498">edizione digitale del P.Herc. 1670 su papyri.info</ref>, dal momento che l’edizione di riferimento del papiro è ancora quella curata da Bassi, per cui per il fr. 27.2, al 5 novembre 2021, risulta registrata sulla piattaforma soltanto la sua lettura ἡδέων a l. 5.</p></note>. Sul contenuto la studiosa si limitava perciò a constatare che probabilmente la discussione vertesse sulla formazione dei corpi, osservando che mancavano elementi sufficienti per ricavare ulteriori dati e per chiarire se le posizioni riportate fossero epicuree oppure stoiche<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/83452">Ferrario 1972</ref>: 88.</p></note>.</p>
+            <p xml:id="p5" style="text-align: justify;">La rinnovata analisi della colonna sul fondamento dell’autopsia del papiro, ma soprattutto delle immagini multispettrali, che consentono di leggere molto più di quanto non si riesca dall’originale col microscopio, mi ha permesso di recuperare per buona parte il testo superstite, la parte finale di un periodo (ll. 3-9) e l’inizio di quello successivo (ll. 9 ss.)<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; text-align: justify;"> Mi riservo di fare comunque ulteriori verifiche in futuro sull’originale per i punti più dubbi della colonna (ll. 1, 2 e 6), che non ho potuto ricontrollare a causa della chiusura dell’Officina dei Papiri Ercolanesi.</p></note>. Le nuove letture apportano un buon avanzamento nella comprensione del contenuto: è possibile non solo confermare l’ipotesi di Ferrario sull’ambito generale, cioè la costituzione dei corpi, ma anche andare un po’ oltre e collegare il passo alla dottrina atomistica epicurea, individuando in particolare una discussione a proposito di στοιχεῖα eterni.</p>
+            <p xml:id="p6" style="text-align: justify;">Riporto di seguito il testo da me riletto, seguito dal commento, che metterà in luce la somiglianza del vocabolario qui adoperato con quello di altri testi epicurei di ambito fisico-cosmologico e richiamerà alcuni passi dalle opere teologiche di Filodemo che, a mio avviso, possono essere utili per contestualizzare il lessico, soprattutto nelle ll. 8 s., in cui leggiamo un riferimento agli στοιχεῖα di cui è costituito il dio.</p>
+            <div type="epidoc" subtype="DCLP">
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+                    <div type="commentary">
+                        <note target="#ln1">
+                            <ref>1</ref>
+                            <p xml:id="p7"> Non è chiaro se dopo la sequenza κα ci sia lacuna o se i due lembi di papiro debbano essere accostati in prossimità della frattura. Nel primo caso, l’ampiezza della lacuna permetterebbe l’integrazione solo di κα[ί, mentre, nel secondo, dovremmo leggere κατα.</p>
+                        </note>
+                        <note target="#ln2">
+                            <ref>2</ref>
+                            <p xml:id="p8"> È possibile che alla fine della linea vi fosse un verbo alla prima persona plurale, che probabilmente introduceva il punto di vista epicureo esposto subito dopo. Le linee successive possono essere interpretate anche come un genitivo assoluto.</p>
+                        </note>
+                        <note target="#ln3">
+                            <ref>3</ref>
+                            <p xml:id="p9"> Il nesso costituito da πᾶς o ἅπας e ἁπλῶς è ben attestato in Filodemo<note place="foot" xml:id="ftn9" n="9"><p style="text-align: left; text-align: justify;"> Nel P.Herc. 1670 cf. anche fr. 10, 8 s., dove si legge καὶ διότι πάν|θ’ ἁπλῶς ἅ φαϲιν …. In totale ho contato altre 19 occorrenze del nesso nelle opere di Filodemo.</p></note>, di solito finalizzato a generalizzare un concetto, con ἁπλῶς nel senso di «in generale»<note place="foot" xml:id="ftn10" n="10"><p style="text-align: left; text-align: justify;"> LSJ, s.v. ἁπλῶς, A.II.2.</p></note>. </p>
+                        </note>
+                        <note target="#ln4">
+                            <ref>4</ref>
+                            <p xml:id="p10"> All’inizio della linea il papiro è mal conservato. Delle prime due lettere visibili, τ e ο, restano soltanto tracce della metà superiore, mentre il resto è coperto da uno strato sovrapposto; del τ è visibile l’estremità destra della traversa e dell’ο una breve traccia curvilinea appartenente al tratto sinistro della lettera. Dello ι successivo si scorge l’apice orizzontale che in questo rotolo ne adorna usualmente la base, a sinistra della verticale. Del χ si conservano l’apice orizzontale a sinistra della prima obliqua in basso ed entrambe le oblique fin quasi al punto di convergenza. Infine dell’ε rimangono soltanto tracce della metà inferiore della curva e dell’estremità del tratto mediano.</p>
+                            <p xml:id="p11">La parola στοιχεῖον (in questa colonna anche a l. 10), in contesti di fisica e cosmologia, ha significati diversi a seconda dell’indirizzo filosofico a cui viene riferita; negli autori epicurei indica elementi costituenti della materia<note place="foot" xml:id="ftn11" n="11"><p style="text-align: left; text-align: justify;"> Più in particolare il termine sembra indicare un aggregato costituito da atomi abbastanza grandi da poter essere percepito: cf. <ref target="https://papyri.info/biblio/95909">Wigodsky 2007</ref>: in part. 523-536 e 533. Nell’ambito della teoria atomistica, in Epicuro si trova in Ep. Pyth. 86, 4 s. ὅτι ἄτομα στοιχεῖα, e in <ref target="http://papyri.info/dclp/59754">Nat. XXV, P.Herc. 1420</ref>, corn. 2 z. 2, 9-15 <ref target="https://papyri.info/biblio/83501">Laursen 1995</ref> ἐχ̣ούσης μὲν καὶ αὐ|<hi rend="superscript">10</hi>τῆς̣ τῆς συστάσεως τῆς | διὰ τῶν στοιχείων αἰ|τίας παρὰ τὴν τῶν | ἀτ[ό]μων διαφορὰν | καὶ τῶν προυπαρχόν|<hi rend="superscript">15</hi>των πόρων; in <ref target="http://papyri.info/dclp/59752">Nat. XIV, P.Herc. 1148</ref> (fr. 24, 2; coll. XXXVI 2; XXXIX 3 <ref target="https://papyri.info/biblio/83504">Leone 1984</ref>), στοιχεῖα fa invece riferimento ai quattro elementi naturali – acqua, aria, terra e fuoco – nel contesto di una polemica antiplatonica: cf. <ref target="https://papyri.info/biblio/83504">Leone 1984</ref>, in part. 86-89 e n. 563. In Filodemo cf. <ref target="http://papyri.info/dclp/62445">Sign., P.Herc. 1065</ref>, col. XXXVII 4-6 <ref target="https://papyri.info/biblio/83644">De Lacy 1978</ref> ἐπει|<hi rend="superscript">5</hi>δὴ γεννήματ’ ἐστὶ πάντα τῶν στοι|χείων; <ref target="http://papyri.info/dclp/62386">P.Herc. 152/157</ref>, col. 11, 1 s. <ref target="https://papyri.info/biblio/83446">Essler 2012</ref> τόπος̣, ὃν | οὐ⌈κ⌉ ἐκβαίνει τὸν αἰ̣ῶνα τὰ στοιχεῖα; <ref target="http://papyri.info/dclp/62400">Piet.</ref>, col. 13, 357-359 <ref target="https://papyri.info/biblio/83888">Obbink 1996</ref> ἐκ τῶν αὐτῶν | ἢ τῶν ὁμοίων στοι|χείων ἑνό̣τ̣ητες.</p></note>. </p>
+                        </note>
+                        <note target="#ln5">
+                            <ref>5</ref>
+                            <p xml:id="p12"> La presenza di ἐπιτήδειος con στοιχεῖα – evidentemente sottinteso in τῶν ἄλ|λ̣ω̣[ν] ἐπιτηδείων – sembra rientrare nell’uso tecnico che di quest’aggettivo viene fatto nei testi epicurei in cui si discute di teoria atomistica<note place="foot" xml:id="ftn12" n="12"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/biblio/83833">Leone 2012</ref>: 674-675.</p></note>. Nell’Epistola a Pitocle ci sono diversi casi in cui ἐπιτήδειος è utilizzato con termini indicanti i costituenti di un corpo, come ἄθροισμα, ἄτομος e σπέρμα. In ciascuno di questi casi serve a denotare l’adeguatezza dei costituenti per realizzare un determinato tipo di corpo: ad esempio, alcuni sono tali da essere adatti o destinati alla formazione degli acquazzoni (βιαιοτέρας ἐπαρδεύσεως γινομένης ἀπό τινων ἀθροισμάτων ἐπιτηδείων εἰς τὰς τοιαύτας ἐπιπέμψεις)<note place="foot" xml:id="ftn13" n="13"><p style="text-align: left; text-align: justify;"> 100, 3 s. Per ἐπιτήδειος con ἄτομος e σπέρμα cf. rispettivamente 99, 4 s. παρὰ περιπλοκὰς ἀλληλούχων ἀτόμων καὶ ἐπιτηδείων εἰς τὸ τοῦτο τελέσαι e 89, 6 s. ἐπιτηδείων τινῶν σπερμάτων ῥυέντων ἀφ’ ἑνὸς κόσμου ἢ μετακοσμίου ἢ ἀπὸ πλειόνων. Cf. nella stessa Epistola l’uso dell’aggettivo anche con πόρος e τόπος, rispettivamente in 111, 2 s. τῆς θερμασίας ἐπιτηδείων πόρων ἐπιλαμβανομένης εἰς τὸ τοῦτο ἀπεργάσασθαι e in 100, 1 s. κατὰ ἀποφορὰν ἀπὸ ἐπιτηδείων τόπων. Un utilizzo simile di ἐπιτήδειος è in <ref target="http://papyri.info/dclp/59758">Nat. II</ref>, coll. XXIV 18-XXV 10 <ref target="https://papyri.info/biblio/83833">Leone 2012</ref> ο̣ὐ[κ ἔσ|τι] συμ[φυῆ] τα[ῦτα] | δ̣ή, φημί, τού[του, | ἀ]λλὰ [μόν]ον τ̣[ῶν | ἐ]πιτ̣ηδ̣[ε]ίων μὴ | ἐχόντων μορφο|ειδῆ σχηματισ|μὸν ἕνα τ[ι]νὰ φύ|σε̣[ι], ἀ̣λλὰ π[ολ]λ̣οὺς | κ̣αὶ̣ [ἄλ]λο̣[υ]ς̣ ἄ̣λ̣λως̣, | λ̣έγω δ̣’ ο̣ἷ̣ον π̣υρό̣ς, | καὶ πνεύματος | καὶ τῶν τοιουτο|τρόπων.</p></note>. </p>
+                        </note>
+                        <note target="#ln6">
+                            <ref>6</ref>
+                            <p xml:id="p13"> s. Per la costruzione di ἐπιτήδειος con εἰς e l’infinito sostantivato che propongo in queste linee, vale ancora il parallelo con l’Epistola a Pitocle, dove in alcuni casi la preposizione regge appunto un infinito sostantivato, una volta in particolare τὸ τελέσαι (ἀτόμων καὶ ἐπιτηδείων εἰς τὸ τοῦτο τελέσαι)<note place="foot" xml:id="ftn14" n="14"><p style="text-align: left; "> 99, 4 s. </p></note>. Il verbo συντελέω al medio è specifico delle opere fisico-cosmologiche del Giardino per indicare la realizzazione fisica di un corpo<note place="foot" xml:id="ftn15" n="15"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/biblio/83888">Obbink 1996</ref>: 302. Cf. ad es. Ep. Pyth. 99, 7-9 καὶ κατ’ ἄλλους δὲ τρόπους πλείους αἱ τῶν τοιούτων συστάσεις οὐκ ἀδυνατοῦσι συντελεῖσθαι. ἤδη δ’ ἀπ’ αὐτῶν ᾗ μὲν θλιβομένων ᾗ δὲ μεταβαλλόντων ὕδατα δύναται συντελεῖσθαι.</p></note>. È plausibile che nella nostra colonna il verbo sia utilizzato con un senso simile.  </p>
+                            <p xml:id="p14">È difficile tentare di comprendere quanto ci sia a l. 6 prima della sequenza συντελει a causa dello stato precario del papiro. Ferrario scriveva ] ἄλλ[ο], difficilmente difendibile sulla base di quanto si legge sull’originale, mentre il disegno non riproduce questa linea. Fanno parte di un sovrapposto le prime tracce visibili (un’obliqua discendente e, poco oltre, una verticale leggermente arcuata in alto verso destra). Seguono resti forse della seconda ansa di un ω, la parte superiore di una serie di tratti dal tracciato verticale o leggermente obliquo, una lacuna di una lettera e, infine, una traccia minuta di un’altra lettera, probabilmente α (σ]ώ̣μ̣α̣[τ]α̣?). </p>
+                        </note>
+                        <note target="#ln7">
+                            <ref>7</ref>
+                            <p xml:id="p15"> La traccia della prima lettera visibile sembra compatibile con parte dell’obliqua sinistra di δ, anche se questo sembrerebbe comportare un δ più stretto rispetto all’ampiezza media della lettera nel rotolo; va comunque detto che essa si presenta molto variabile. La traccia che segue è parte dell’estremità superiore di una verticale. La lettura δ̣ι̣ porterebbe all’interessante acquisizione di una forma di διαιώνιος in relazione all’eternità degli στοιχεῖα, che anticipa la menzione della divinità nelle due linee successive, dal momento che nelle opere teologiche di Filodemo il campo semantico di αἰών è comunemente associato agli dèi<note place="foot" xml:id="ftn16" n="16"><p style="text-align: left; text-align: justify;"> In particolare, per le forme in composizione con διά, cf. ad es. <ref target="http://papyri.info/dclp/62400">Piet.</ref>, col. 24, 693 s. <ref target="https://papyri.info/biblio/83888">Obbink 1996</ref> ζῶια μ[ακάρια] | καὶ διαιώνια; <ref target="http://papyri.info/dclp/62386">P.Herc. 152/157</ref>, col. XII 19 s. <ref target="https://papyri.info/biblio/83346">Diels 1917</ref> ἀλλὰ συνεχῶς ἐγρηγορέναι δι’ αἰῶνο[ς] ο̣[ὐ] δια|<hi rend="superscript">20</hi>κ[λά]σ[ει μελῶ]ν χρώ[μεν]ον [ἢ λύμαι]ς δειναῖς.</p></note>. </p>
+                            <p xml:id="p16">Per ragioni di spazio ho ritenuto preferibile l’integrazione dell’avverbio δ̣ι̣αιων[ίω]ς, per quanto non attestato in Filodemo, mentre si trovano δι’ αἰῶνος e l’avverbiale διαιώνιον con il verbo ὑπάρχω<note place="foot" xml:id="ftn17" n="17"><p style="text-align: left; text-align: justify;"> <ref target="http://papyri.info/dclp/62386">P.Herc. 152/157</ref>, col. XI 39 <ref target="https://papyri.info/biblio/83346">Diels 1917</ref> δι’ αἰῶνος ὑπάρχειν; <ref target="http://papyri.info/dclp/62400">Piet.</ref>, col. 13, 350-354 <ref target="https://papyri.info/biblio/83888">Obbink 1996</ref> δύναται γὰρ ἐκ τῆς |<hi rend="superscript">5</hi> ὁμοιότητος ὑπάρ|χουσι διαιώνιον | ἔχειν τὴν τελείαν | εὐδαιμονίαν (Obbink traduce da ἐκ a διαιώνιον «for beings constituted out of similarity for ever», ma nel commmento, 322, specifica che διαιώνιον potrebbe anche essere riferito a ἔχειν e non a ὑπάρχουσι). </p></note>.</p>
+                        </note>
+                        <note target="#ln8">
+                            <ref>8</ref>
+                            <p xml:id="p17"> s. Le integrazioni ὥσ]π̣ερ e [τῶ]ν̣ sono piuttosto agevoli; per quanto riguarda [τῶ]ν̣, del ν restano l’asta verticale e, poco di seguito, tracce del punto di convergenza, in basso nello spazio della linea, tra la diagonale discendente e il secondo tratto verticale. Alla fine della linea, si riconosce chiaramente la sequenza θε, che ho integrato θε|[οῦ; è escluso invece θε[ί|ου, dal momento che dopo l’ε comincia subito lo spazio dell’intercolumnio. </p>
+                            <p xml:id="p18">Le due linee possono essere interpretate «come anche (sono in eterno) quelli (gli στοιχεῖα) del dio», evidentemente in riferimento alla costituzione atomica della divinità<note place="foot" xml:id="ftn18" n="18"><p style="text-align: left; "> Vd. infra.</p></note>.</p>
+                        </note>
+                        <note target="#ln9">
+                            <ref>9</ref>
+                            <p xml:id="p19"> All’inizio di questa linea, dopo l’integrazione della desinenza (θε|[οῦ), resta in lacuna ancora un breve spazio, plausibilmente occupato dal vacat, usato sistematicamente in questo rotolo per segnalare la fine di un periodo.</p>
+                        </note>
+                        <note target="#ln9">
+                            <ref>9-11</ref>
+                            <p xml:id="p20"> Il nesso προσέτι δέ in Filodemo è attestato nel De sensibus e nel De oeconomia, in questo secondo caso a inizio di periodo<note place="foot" xml:id="ftn19" n="19"><p style="text-align: left; "> <ref target="http://papyri.info/dclp/62381">Sens., P.Herc. 19/698</ref>, fr. 79, 12 <ref target="https://papyri.info/biblio/83541">Monet 1996</ref> e <ref target="http://papyri.info/dclp/62471">Oec., P.Herc. 1424</ref>, col. VII 33 <ref target="https://papyri.info/biblio/83858">Tsouna 2012</ref>.</p></note>. </p>
+                            <p xml:id="p21">L’integrazione γε]ν̣νῆσαι a inizio linea è fortemente suggerita dal contesto legato alla formazione dei corpi. Questo infinito è retto da τὸ νο|[εῖν, che ho ritenuto opportuno integrare a ll. 9 s.</p>
+                            <p xml:id="p22">Dopo ποτ’ α, si vedono un apice orizzontale in basso e adiacente una verticale, arcuata verso destra in alto; è plausibile che vadano riconosciuti i resti di uno ι, di un τ o di un υ, seguiti da minime tracce di altre tre lettere. Tra le varie possibilità di ricostruzione segnalo αἰ̣ώ̣ν̣ι̣|[α o αἰ̣ώ̣ν̣ι̣|[όν τι («Inoltre, il concepire che elementi mobili abbiano generato in qualche tempo qualcosa di eterno … »).</p>
+                        </note>
+                        <note target="#ln12">
+                            <ref>12</ref>
+                            <p xml:id="p23"> Nello spazio sottostante al κ, si vedono tracce di un ε o di un θ e di una seconda lettera. L’analisi autoptica dell’originale ha rivelato che non appartengono a questa colonna in quanto si trovano su uno strato sovrapposto.</p>
+                            <p xml:id="p24">Grazie alle nuove letture, dunque, siamo in grado di leggere un testo più completo del fr. 27.2; inoltre, i paralleli lessicali con altre opere del Giardino permettono di riconoscere la matrice epicurea delle posizioni qui esposte. Non c’è dubbio che il testo rimandi a un’esposizione condotta nell’ambito della costituzione di corpi, con un interessante accenno a στοιχεῖα eterni. La brevità del testo superstite, tuttavia, non permette di riconoscere in che modo proseguisse la discussione da l. 9, dove Filodemo parla di κινητὰ στοιχεῖα, e di formulare in generale ipotesi sulla finalità di quest’esposizione.</p>
+                            <p xml:id="p25">Alla luce della centralità del vocabolario atomistico, quanto Filodemo dice nella parentetica che ho letto a ll. 8 s. (ὥσ]π̣ερ καὶ [τῶ]ν̣ τοῦ θε|[οῦ) è invece ascrivibile a un contesto preciso. Infatti, l’affermazione secondo cui gli στοιχεῖα del dio sono in eterno (δ̣ι̣αιων[ίω]ς) costituisce evidentemente un richiamo alla concezione epicurea secondo cui la divinità è costituita da aggregati atomici di eterna durata, di cui abbiamo testimonianza sia nelle opere della Scuola sia nelle testimonianze dossografiche<note place="foot" xml:id="ftn20" n="20"><p style="text-align: left; text-align: justify;"> Per le testimonianze nei testi epicurei, oltre a Filodemo (per cui vd. infra), cf. l’opera teologica attribuita a Demetrio Lacone conservata nel <ref target="http://papyri.info/dclp/59505">P.Herc. 1055</ref> (coll. XXI s. <ref target="https://papyri.info/biblio/83655">Santoro 2000</ref>). Le testimonianze dossografiche si trovano menzionate in <ref target="https://papyri.info/biblio/83807">Essler 2011</ref>: 212-234, 354-358, e in <ref target="https://papyri.info/biblio/96001">Piergiacomi 2017</ref>: 122-128, ai quali rimando per una discussione sul dio come composto atomico, con ricca bibliografia citata.</p></note>. A questo proposito, il nostro testo presenta una notevole affinità dal punto di vista lessicale con alcuni passi che si leggono nella sezione iniziale del De pietate in cui Filodemo polemizza contro chi affermava che non è possibile concepire una divinità che sia contemporaneamente eterna e costituita di aggregati atomici. Tale affinità è molto stretta con la col. 13, dove sembra che si debba leggere che gli dèi sono ἑνότητες formate da στοιχεῖα tra loro simili (δύναται γὰρ ἐκ τῆς |<hi rend="superscript">5</hi> ὁμοιότητος ὑπάρ|χουσι διαιώνιον | ἔχειν τὴν τελείαν | εὐδαιμονίαν, ἐ|πειδήπερ οὐχ ἧτ|<hi rend="superscript">10</hi>τον ἐκ τῶν αὐτῶν | ἢ τῶν ὁμοίων στοι|χείων ἑνό̣τ̣ητες {ι} | ὑποτελεῖσθαι δύ̣|ν̣ανται)<note place="foot" xml:id="ftn21" n="21"><p style="text-align: left; text-align: justify;"> <ref target="http://papyri.info/dclp/62400">Piet.</ref>, col. 13, 350-360 <ref target="https://papyri.info/biblio/83888">Obbink 1996</ref>. Per l’interpretazione di questo passo vd. il commento di <ref target="https://papyri.info/biblio/83888">Obbink 1996</ref>: 329-335, e <ref target="https://papyri.info/biblio/95909">Wigodsky 2007</ref>: 535-536.</p></note>. Sempre in ambito teologico, un vocabolario simile a quello del nostro testo si riscontra anche nella discussione sulle sedi abitate dagli dèi nella col. 11 del P.Herc. 152/157, che conserva un libro incerto De dis di Filodemo: nella colonna si parla di un luogo che gli στοιχεῖα che compongono la divinità non lasciano per l’eternità (ἔστιν μὲγ γάρ τις ὡρισμένος τόπος̣, ὃν | οὐ⌈κ⌉ ἐκβαίνει τὸν αἰ̣ῶνα τὰ στοιχεῖα) e del movimento che è possibile immaginare per ἑνότητες costituite da στοιχεῖα divini (⌈ὥ⌉στε καὶ τὰς ἐξ αὐτῶν ἑνότητας εὐόδως | νοεῖσθαι κινουμένα⌈ς⌉)<note place="foot" xml:id="ftn22" n="22"><p style="text-align: left; text-align: justify;"> <ref target="http://papyri.info/dclp/62386">P.Herc. 152/157</ref>, col. 11, 1-7 <ref target="https://papyri.info/biblio/83446">Essler 2012</ref>; cf. il commento di <ref target="https://papyri.info/biblio/83446">Essler 2012</ref>: 271-272. Ancora sulla composizione atomica degli dèi nel <ref target="http://papyri.info/dclp/62386">P.Herc. 152/157</ref>, ma senza riferimento agli στοιχεῖα, cf. fr. 39d, 5 s. <ref target="https://papyri.info/biblio/83346">Diels 1917</ref>: la divinità è incorruttibile come gli atomi (ἄφθαρτον οὕ[τως] … ὡς τάς ἀτ[ό]μ[ου]ς); col. a = fr. 82, 4 s. <ref target="https://papyri.info/biblio/83346">Diels 1917</ref>: il dio è un composto eterno (ἡ περὶ τὸν θεὸν ἐ[ξ] ἀ[ε]ιδίου σύστασις); col. 10, 17 s. <ref target="https://papyri.info/biblio/83446">Essler 2012</ref>: la divinità ha sempre la stessa costituzione (così <ref target="https://papyri.info/biblio/83446">Essler 2012</ref>: 265-266 per ἐκ̣ τῶν ὁ̣[μοίων ()|][] ἀπ’ αἰῶνος̣ ὑπάρχ̣ο̣ν).</p></note>.</p>
+                        </note>
+                    </div>
+               <div type="bibliography">
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/83723">Bassi, D. (1916)</ref> “Notizie di papiri ercolanesi inediti,” RFIC 44: 47–66. </bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/83346">Diels, H. (1917)</ref> “Philodemus Über die Götter drittes Buch. I: Griechischer Text,” APAW 4: 3–69.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/83644">De Lacy, P.H. (1978)</ref> Philodemus, On Methods of Inference. Napoli.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/83807">Essler, H. (2011)</ref> Glückselig und unsterblich. Epikureische Theologie bei Cicero und Philodem, mit einer Edition von PHerc. 152/157, Kol. 8–10. Basel.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/83446">Essler, H. (2012)</ref> “Die Götterbewegung (Phld. Di III, Kol. 10, 6-Kol. 11, 7),” CErc 42: 259-275.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/83452">Ferrario, M. (1972)</ref> “Filodemo «Sulla provvidenza»? (PHerc. 1670),” CErc 2: 67–94. </bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/83501">Laursen, S. (1995)</ref> “The Early Parts of Epicurus, On Nature, 25th book,” CErc 25: 5–110.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/83504">Leone, G. (1984)</ref> “Epicuro, Della natura, libro XIV,” CErc 14: 17–107.</bibl>   
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/83833">Leone, G. (2012)</ref> Epicuro, Sulla natura, libro II. Napoli.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/83541">Monet, A. (1996)</ref> “[Philodème, Sur les sensations], PHerc. 19/698,” CErc 26: 27–117.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/83888">Obbink, D. (1996)</ref> Philodemus, On Piety, Part 1. Oxford.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96001">Piergiacomi, E. (2017)</ref> Storia delle antiche teologie atomiste. Roma.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/83655">Santoro, M. (2000)</ref> [Demetrio Lacone] [La forma del Dio] (PHerc. 1055). Napoli.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/83858">Tsouna, V. (2012)</ref> Philodemus, On Property Management. Atlanta.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95908">Vergara, C. (2020)</ref> “I papiri dell’opera De providentia di Filodemo,” CErc 50: 91–100.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95909">Wigodsky, M. (2007)</ref> “Homoiotetes, Stoicheia and Homoiomereiai in Epicurus,” CQ 57.2: 521–542.</bibl>
+                  </listBibl>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Filodemo, De providentia</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Digital Corpus of Literary Papyri</authority>
+               <idno type="filename"/>
+               <idno type="dclp"/>
+               <idno type="dclp-hybrid">pylon;1;7</idno>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Digital Corpus of Literary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <idno type="invNo">P.Herc. 1670 fr. 27</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>unbekannt</origPlace>
+                        <origDate>I v. Chr.</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref></p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Filodemo, De providentia</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab> 
+    <lb n="1" xml:id="ln1"/><gap reason="lost" quantity="5" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/> κα<gap reason="lost" quantity="1" unit="character"/>ταβ<gap reason="illegible" quantity="3" unit="character"/>
+    <lb n="2" xml:id="ln2"/><gap reason="lost" quantity="5" unit="character" precision="low"/><gap reason="illegible" quantity="5" unit="character"/><unclear>με</unclear>θα
+    <lb n="3" xml:id="ln3"/><supplied reason="lost">τ</supplied><unclear>ῶ</unclear>ν <unclear>ἅ</unclear>παντος ἁπλῶς
+    <lb n="4" xml:id="ln4"/><supplied reason="lost">σ</supplied><unclear>τοι</unclear>χ<unclear>ε</unclear>ίων καὶ τῶν ἄλ
+    <lb n="5" break="no" xml:id="ln5"/><unclear>λω</unclear><supplied reason="lost">ν</supplied> ἐπιτηδε<unclear>ί</unclear>ων εἰς
+    <lb n="6" xml:id="ln6"/><supplied reason="lost">τὸ</supplied> <gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/> συντελεῖ
+    <lb n="7" break="no" xml:id="ln7"/><supplied reason="lost">σθαι</supplied> <unclear>δι</unclear>αιων<supplied reason="lost">ίω</supplied>ς ὄντων,
+    <lb n="8" xml:id="ln8"/><supplied reason="lost">ὥσ</supplied><unclear>π</unclear>ερ καὶ <supplied reason="lost">τῶ</supplied><unclear>ν</unclear> τοῦ θε
+    <lb n="9" break="no" xml:id="ln9"/><supplied reason="lost">οῦ. </supplied> προσέ<unclear>τ</unclear><supplied reason="lost">ι</supplied> <unclear>δὲ</unclear> τὸ νο
+    <lb n="10" break="no" xml:id="ln10"/><supplied reason="lost">εῖν</supplied> <unclear>κ</unclear>ινητ<unclear>ὰ</unclear> <unclear>στο</unclear>ι<unclear>χ</unclear>ε<unclear>ῖ</unclear>α
+    <lb n="11" xml:id="ln11"/><supplied reason="lost">γε</supplied><unclear>ν</unclear>νῆσαι πο<unclear>τ</unclear>’<g type="apostrophe"/> α<gap reason="illegible" quantity="4" unit="character"/>
+    <lb n="12" xml:id="ln12"/><gap reason="lost" quantity="5" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/>ενος κ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/>
+    <lb n="12" xml:id="ln13"/><gap reason="lost" extent="unknown" unit="line"/> 
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Filodemo, De providentia</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="it" type="translation" xml:space="preserve">
+   <p>
+      <milestone unit="line" n="1"/> … degli elementi di ogni cosa in generale e degli altri (elementi) adatti a che si realizzi … , dal momento che sono in eterno, come anche quelli del dio. Inoltre, il concepire che elementi mobili abbiano generato in qualche tempo …
+   </p>
+</div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
