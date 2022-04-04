@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="pylon.1.9">P.Lond. 2 297a descr.: copia di estratti da registri di censimento</title>
+                <author>
+                    <name>
+                        <forename>Bianca</forename>
+                        <surname>Borrelli</surname>
+                    </name>
+                    <affiliation>Università degli Studi di Firenze</affiliation>
+                    <email>bianca.borrelli@unifi.it</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date/>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>unknown</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <ab>Converted from a Word document for Pylon.</ab>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2022-03-18T09:32:27Z</date>
+                    <name/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="MainTitle">P.Lond. 2 297a descr.: copia di estratti da registri di censimento</titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <div type="article">
+                <note type="acknowledgement">Il frammento è descritto alla p. xxviii del vol. 2 dei P.Lond.; le informazioni inventariali e l’immagine, su cui si basa la presente edizione, sono disponibili <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?index=0&amp;ref=Papyrus_297">online</ref>. Ringrazio il dr. Peter Toth, curatore della sezione Ancient and Medieval Manuscripts della British Library, per avermi autorizzata a pubblicare il papiro e per aver effettuato alcuni controlli sull’originale su mia richiesta; al prof. Nikolaos Gonis e al revisore anonimo va la mia gratitudine per i puntuali e utili suggerimenti, che hanno contribuito a migliorare questo lavoro. Tutte le date di seguito riportate sono da intendersi ‘dopo Cristo’.</note>
+                <table type="papyrological_header">
+                    <row>
+                        <cell style="text-align: left;">BL Papyrus 297a</cell>
+                        <cell style="text-align: center;">15 (l) × 10 (a)</cell>
+                        <cell style="text-align: right;">Ptolemais Euergetis</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">
+                            <ref target="http://www.bl.uk/manuscripts/Viewer.aspx?ref=papyrus_297_f001r">www.bl.uk/manuscripts/</ref>
+                        </cell>
+                        <cell style="text-align: center;"/>
+                        <cell style="text-align: right;">post 89/90</cell>
+                    </row>
+                </table>
+                <div type="introduction">
+                    <p xml:id="p1">Frammento che conserva sul recto, lungo le fibre, la parte superiore di un documento mutilo in basso (<ref target="http://www.trismegistos.org/text/19979">TM 19979</ref>); sono superstiti i margini superiore, sinistro e destro. Si distinguono quattro linee di piegatura verticali, lungo le quali si sono prodotte delle piccole lacune, e una kollesis a cm 2,5 dal bordo sinistro. Il verso è bianco se non per una macchia di inchiostro in alto a sinistra. </p>
+                    <p xml:id="p2" style="text-align: justify;">Si conservano, vergati in una corsiva veloce e ricca di abbreviazioni, due estratti da εἰκονισμοί, registri di censimento con descrizioni personali compilati a partire dalle κατ’ οἰκίαν ἀπογραφαί<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; text-align: justify;"> Sull’εἰκονισμός come strumento di censimento della popolazione, si veda <ref target="https://papyri.info/biblio/41607">Braunert 1956</ref>: 56–62, e, in particolare, sul significato di «census register incorporating descriptions (taken from the κατ’ οἰκίαν ἀπογραφαί)», cfr. <ref target="https://papyri.info/biblio/65270">Sijpesteijn 1995</ref>: 274; sul verbo εἰκονίζω, indicante la pratica, in uso nei γραφεῖα, di autenticare i documenti mediante l’aggiunta delle descrizioni fisiche delle persone coinvolte, si veda <ref target="https://papyri.info/biblio/78821">Depauw 2011</ref>.</p></note>, rispettivamente del 9° anno di Domiziano (89/90) e dell’8° anno di Vespasiano (75/6), relativi al quartiere Bithynon Isionos (<ref target="https://www.trismegistos.org/place/443">TM Geo 443</ref>), a Ptolemais Euergetis.</p>
+                    <p xml:id="p3" style="text-align: justify;">Il primo estratto, per il quale sono indicati il volume e i fogli del registro di riferimento, è completo, mentre del secondo non si conserva che l’inizio; se, come sembra, il visto del funzionario della βιβλιοθήκη δημοσίων λόγων, apposto in calce al primo estratto (r. 9), è della stessa mano che ha vergato il testo dell’intero documento, siamo in presenza di una copia<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; text-align: justify;"> A proposito dell’identità di mano tra l’insieme del testo e la sottoscrizione del γραμματεύς si confronti il tratteggio di alcune lettere della sottoscrizione con le stesse che ricorrono in altri punti del testo: beta (cfr. Βιθυνῶν, r. 1), eta (cfr. γυνή, r. 7), ny, nelle due forme calligrafica e corsiva (cfr., rispettivamente, Βιθυνῶν e Ἰσίωνος, r. 10), tau (cfr. Πρωτάρχου, r. 7), omega (cfr. Ἰσίωνος, r. 1); l’alpha, di solito realizzato in un tempo solo, è eseguito nella sottoscrizione in due tempi e presenta un tracciato più rigido, forse per la funzione distintiva che assume in quanto iniziale di nome proprio.</p></note>.</p>
+                    <p xml:id="p4" style="text-align: justify;">Il papiro si aggiunge ai pochi altri che restituiscono estratti da εἰκονισμοί, tutti provenienti dall’Arsinoite<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; text-align: justify;"> Lo stesso termine εἰκονισμός è attestato quasi esclusivamente nell’Arsinoite: le due uniche attestazioni certe al di fuori di questo nòmo sono <ref target="https://papyri.info/ddbdp/sb;14;11643">SB 14 11643</ref>,7 (214) e <ref target="https://papyri.info/ddbdp/stud.pal;20;35">SPP 20 35</ref>,15 (235), due testamenti dall’Eracleopolite, nei quali la parola si riferisce alle caratteristiche fisiche dei testimoni. Il termine non ricorre, invece, in <ref target="https://papyri.info/ddbdp/bgu;2;407">BGU 2 407</ref> (3 sec.?), frammento di richiesta di affitto di una casa da parte di una certa Aurelia Lykariaina (in luogo di Νοηλίας, al r. 4, si legga Αὐρηλίας), originaria di Senis, nel Licopolite: il verso del papiro riporta un breve riassunto del contenuto del documento, la cui lettura, così come proposta nell’ed.pr., non appare sostenibile; al r. 2, infatti, in luogo di ὐκον̣ι̣σμοῦ (l. εἰκονισμοῦ), bisogna leggere Λ]υκοπ̣ολ[ί]τ̣ου [νομοῦ (?) (si noti che la forma con grafia itacistica, diversamente da quanto riportato nell’ed.pr., si trova anche al r. 6 del recto).</p></note> e datati tra l’ultimo quarto del 1 e l’ultimo quarto del 2 secolo; essi sono: <ref target="https://papyri.info/ddbdp/sb;12;11232">SB 12 11232</ref> (post 76, Tebtynis); <ref target="https://papyri.info/ddbdp/sb;14;11634">SB 14 11634</ref> (post 89/90, Ptolemais Euergetis); <ref target="https://papyri.info/ddbdp/sb;24;16256">SB 24 16256</ref> (post 117/8, Ptolemais Euergetis); <ref target="https://papyri.info/ddbdp/bgu;2;562">BGU 2 562</ref> (= W.Chr. 220; post ago. 117, Ptolemais Euergetis); <ref target="https://papyri.info/ddbdp/sb;22;15704">SB 22 15704</ref> (post 138, Karanis); <ref target="https://papyri.info/ddbdp/sb;22;15811">SB 22 15811</ref> (post 138, Karanis); <ref target="https://papyri.info/ddbdp/bgu;13;2227">BGU 13 2227</ref> (147–161, Soknopaiou Nesos); <ref target="https://papyri.info/ddbdp/sb;6;9555a">SB 6 9555a</ref> (162–174, Karanis); <ref target="https://papyri.info/ddbdp/bgu;13;2228">BGU 13 2228</ref> (175–188, Soknopaiou Nesos); <ref target="https://papyri.info/ddbdp/sb;16;13067">SB 16 13067</ref> (175–188, Ptolemais Euergetis); <ref target="https://papyri.info/ddbdp/p.cair.mich;3;21">P.Cair.Mich. 3 21</ref> (post ago. 188, Karanis)<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; text-align: justify;"> L’identificazione di <ref target="https://papyri.info/ddbdp/p.hoogendijk;;24">P.Hoogendijk 24</ref> (2 sec., Soknopaiou Nesos) con un estratto da un registro di censimento è problematica, dal momento che sia il contenuto sia il formato divergono da quelli degli altri documenti di questa tipologia; secondo l’editore, potrebbe trattarsi di un estratto breve o di una nota redatta per uno scopo per il quale erano sufficienti le informazioni relative a Tapiomis (r. 3) e non erano richiesti ulteriori dettagli.</p></note>.</p>
+                    <p xml:id="p5" style="text-align: justify;">La sottoscrizione del funzionario si trova nel solo <ref target="https://papyri.info/ddbdp/bgu;2;562">BGU 2 562</ref> (= W.Chr. 220)<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; text-align: justify;"> Si noti, tuttavia, che alcuni dei papiri che preservano estratti da registri di censimento sono mutili in basso; non si può, dunque, escludere in teoria che questi presentassero la sottoscrizione del funzionario. A proposito di <ref target="https://papyri.info/ddbdp/bgu;2;562">BGU 2 562</ref>, segnalo che, al r. 4, bisogna leggere μ̣ε̣θ’ ἕτερα («omissis») in luogo di [] ἑτέρα dell’edizione.</p></note>, in cui un tale Sabinus certifica che gli estratti dai registri di censimento e di ἐπίκρισις prodotti sono conformi agli atti archiviati (Σαβεῖνος ἐξέλαβα | τὰ προκίμενα σύμφωνα τοῖς ἐν καταχωρισμῷ, rr. 21-22): il fatto che in questo caso la sottoscrizione sia di una seconda mano dimostra che abbiamo a che fare con una copia conforme rilasciata direttamente dalla βιβλιοθήκη δημοσίων λόγων, nella quale questi registri erano conservati e della quale Sabinus era verisimilmente un funzionario<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; text-align: justify;"> Sull’identificazione di Sabinus con un funzionario della βιβλιοθήκη δημοσίων λόγων, cfr. <ref target="https://papyri.info/biblio/71200">Kruse 2002</ref>: 267 e 807 s. nota 122, anche a proposito della provenienza del registro di <ref target="https://papyri.info/ddbdp/sb;22;15811">SB 22 15811</ref> da questo ufficio piuttosto che da quello dello stratego (così, precedentemente, <ref target="https://papyri.info/biblio/65270">Sijpesteijn 1995</ref>: 272). Si confrontino anche gli atti dell’ ἀρχιερεύς relativi alla circoncisione dei giovani futuri sacerdoti del tempio di Soknopaiou Nesos (<ref target="https://papyri.info/ddbdp/bgu;13;2216">BGU 13 2216</ref>, <ref target="https://papyri.info/ddbdp/sb;1;16">SB 1 16</ref>, <ref target="https://papyri.info/ddbdp/p.rain.cent;;58">P.Rain.Cent. 58</ref> e <ref target="https://papyri.info/ddbdp/sb;1;17">SB 1 17</ref>, riediti in C.Pap.Clergé 1 30–33, tutti datati intorno al 156): nella lettera di raccomandazione dello stratego in essi riportata, si precisa che, a riprova dell’origine sacerdotale dei figli, i genitori hanno presentato su un foglio a parte (διʼ ἐκτάκτου), insieme ad altri documenti, copia della κατ’ οἰκίαν ἀπογραφή e dell’εἰκονισμός con la sottoscrizione (ἐπὶ ὑπογραφῆς) dei βιβλιοφύλακες della βιβλιοθήκη δημοσίων λόγων.</p></note>. Vale forse la pena di notare che, mentre in P.Lond. 2 297a il visto del γραμματεύς dei βιβλιοφύλακες segue il singolo estratto, la sottoscrizione di Sabinus chiude una sequenza di estratti. Dal momento che <ref target="https://papyri.info/ddbdp/bgu;2;562">BGU 2 562</ref> è mutilo in alto, non sappiamo se in esso fosse indicata l’origine degli estratti ἐκ βιβλιοθήκης δημοσίων λόγων: tale indicazione si trova solo in <ref target="https://papyri.info/ddbdp/bgu;13;2228">BGU 13 2228</ref> e in <ref target="https://papyri.info/ddbdp/p.cair.mich;3;21">P.Cair.Mich. 3 21</ref>. Interessante, in quest’ultimo documento, proveniente dalla casa di Sokrates (<ref target="https://www.trismegistos.org/archive/109">TM Arch 109</ref>), è il succedersi, come in P.Lond. 2 297a, di due estratti da registri di censimento consecutivi, del secondo dei quali fu tuttavia scritto, per motivi che restano non chiari, solo l’inizio<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; text-align: justify;"> Come notato nell’edizione, il papiro doveva ospitare probabilmente più estratti o copie di altri documenti, dal momento che sulla destra resta un ampio spazio non scritto. Sui documenti dell’archivio legati al censimento e sulla possibilità che Sokrates avesse esercitato in una fase della sua carriera la funzione di λαογράφος, si veda <ref target="https://papyri.info/biblio/64415">van Minnen 1994</ref>: 242 e nota 67; cfr. <ref target="https://papyri.info/biblio/70531">Strassi 2001</ref>: 1225 e nota 47, per la possibilità che anche il figlio di Sokrates, Sokrates II, avesse svolto la stessa attività.</p></note>. D’altra parte, dal momento che sono scritti sul verso, è probabile che <ref target="https://papyri.info/ddbdp/bgu;13;2227">BGU 13 2227</ref> e <ref target="https://papyri.info/ddbdp/sb;6;9555a">SB 9555a</ref>, anch’esso appartenente all’archivio della casa di Sokrates, fossero copie realizzate al di fuori della βιβλιοθήκη, seppur conformemente agli originali<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; text-align: justify;"> A una redazione privata di <ref target="https://papyri.info/ddbdp/sb;6;9555a">SB 6 9555a</ref> pensa già <ref target="https://papyri.info/biblio/70531">Strassi 2001</ref>: 1221; si tratta, peraltro, dell’unico documento della casa, tra quelli relativi al censimento, che abbia direttamente a che fare con la famiglia di Sokrates.</p></note>. Insieme ad altri documenti, anch’essi in copia, sono infine copiati gli estratti che si trovano in <ref target="https://papyri.info/ddbdp/sb;24;16256">SB 24 16256</ref> e <ref target="https://papyri.info/ddbdp/sb;22;15704">22 15704</ref>: nel primo, un estratto da εἰκονισμός segue una serie di altri tre documenti (contratto di matrimonio, donatio mortis causa, dichiarazione di nascita di schiavi), mentre nel secondo, dopo un contratto che sancisce il regolamento di un debito, si succedono tre estratti da εἰκονισμοί.</p>
+                    <p xml:id="p6" style="text-align: justify;">Quanto alla funzione di questi estratti, essi dovevano servire come prova del possesso di diritti<note place="foot" xml:id="ftn9" n="9"><p style="text-align: left; text-align: justify;"> Sulle copie e gli estratti dalle dichiarazioni di censimento come ‘titoli’ da esibire a riprova dei propri diritti, vd. <ref target="https://papyri.info/biblio/4835">Hombert et Préaux 1952</ref>: 144–147: un esempio interessante dell’uso di simili estratti è fornito da <ref target="https://papyri.info/ddbdp/chr.wilck;;208">P.Lond. 2 324</ref> (= W.Chr. 208; 161, Prosopites), copia di due estratti da dichiarazioni di censimento inviata da un tale Anikos figlio di Chentnouphis a sua sorella Tamystha: nella nota aggiunta in calce di suo pugno, Anikos dichiara di aver consegnato a Tamystha le copie degli estratti, da usare come prova del fatto che egli è fratello di lei, figlio della stessa madre. Sull’uso di questa tipologia di estratti, cfr. anche supra, nota 6.</p></note>; in particolare, nel caso del presente papiro, un’ipotesi è che gli estratti rientrassero nel materiale raccolto per una richiesta di ἐπίκρισις: entrambi, infatti, sono relativi alla casa di un tale Apollonios alias Isidoros, nella quale, come risulta dal primo estratto, sono registrati membri di una famiglia appartenente alla classe dei 6475 cateci dell’Arsinoite<note place="foot" xml:id="ftn10" n="10"><p style="text-align: left; text-align: justify;"> Sui 6475 cateci dell’Arsinoite, vd. <ref target="https://papyri.info/biblio/60466"><seg style="text-decoration: underline;">Canducci 1990</seg></ref>; <ref target="https://papyri.info/biblio/61308"><seg style="text-decoration: underline;">Canducci 1991</seg></ref>.</p></note>. Nessuno degli individui menzionati può essere identificato con altri attestati dai papiri; si tratta, inoltre, della prima testimonianza di membri di tale gruppo che abitino nel quartiere di Bithynon Isionos. Per la famiglia in questione si ricostruisce il seguente albero genealogico<note place="foot" xml:id="ftn11" n="11"><p style="text-align: left; text-align: justify;"> I numeri tra parentesi corrispondono alle età dei membri della famiglia nell’89/90.</p></note>:</p>
+                    <figure>
+                        <graphic n="2" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/81ae7eb9-b85d-4438-87dc-9080b6d72b31/file/id/831608/file_version/name/original"></graphic>
+                        <head>Albero genealogico della famiglia</head>
+                    </figure> 
+                </div>
+                <div type="epidoc" subtype="DDB">
+                    <div copyOf="#ed1" type="edition"/>
+                    <div copyOf="#trans1" type="translation"/>
+                    <div type="commentary">
+                        <note target="#ed1ln1">
+                            <ref>1</ref>
+                            <p xml:id="p7">κολ(λημάτων) λ ἕ̣ως λ̅θ̅: la presenza di due lacune in corrispondenza dei numeri dei fogli del registro di riferimento ne compromette una lettura sicura: dopo il primo lambda, a una certa distanza da esso, tra le due lacune, si distingue, sul rigo di base, una piccola traccia dall’andamento orizzontale, compatibile con l’attacco di un epsilon di modulo grande (cfr. ιε e ευ̣δ, r. 8); la traccia puntiforme molto evanida visibile al di sopra di esso mi pare casuale piuttosto che riconducibile a una parte di lettera o a una sopralineatura (un altro esempio di sopralineatura solo sul primo di due numeri di fogli è in <ref target="https://papyri.info/ddbdp/psi;10;1159">PSI 10 1159</ref>,1). Tuttavia, va notato che il riferimento a un intervallo di dieci fogli appare insolitamente ampio se relativo a una sola abitazione (in <ref target="https://papyri.info/ddbdp/chr.wilck;;208">P.Lond. 2 324</ref>,1, per es., si rimanda, secondo la lettura proposta da W.G. Claytor, a due soli fogli); pertanto, benché la traccia sul rigo di base sia piuttosto distanziata dal primo lambda, non si può escludere che essa fosse parte della cifra indicante le unità e che si debba, dunque, leggere λζ̣ [ἕ]ως λ̅θ̅. Negli altri estratti da εἰκονισμοί, rimandi a un singolo foglio si trovano in <ref target="https://papyri.info/ddbdp/bgu;2;562"><seg style="text-decoration: underline;">BGU 2 562</seg></ref>,7 (= W.Chr. 220) e <ref target="https://papyri.info/ddbdp/sb;6;9555a"><seg style="text-decoration: underline;">SB 6 9555a</seg></ref>,4; il numero di foglio si trova a inizio rigo, dopo una lacuna che alla fine del rigo precedente ha inghiottito secondo gli editori solo la parola κολλήματος, in <ref target="https://papyri.info/ddbdp/sb;12;11232"><seg style="text-decoration: underline;">SB 12 11232</seg></ref>,2 e in <ref target="https://papyri.info/ddbdp/sb;22;15704"><seg style="text-decoration: underline;">SB 22 15704</seg></ref>,63, mentre è in lacuna in <ref target="https://papyri.info/ddbdp/sb;16;13067"><seg style="text-decoration: underline;">SB 16 13067</seg></ref>,3. Diversamente da quanto indicato nelle edizioni, inoltre, non si trova nessun riferimento al foglio del registro né in <ref target="https://papyri.info/ddbdp/sb;24;16256"><seg style="text-decoration: underline;">SB 24 16256</seg></ref>,85, su cui cfr. infra, comm. al r. 2, né in <ref target="https://papyri.info/ddbdp/bgu;13;2227"><seg style="text-decoration: underline;">BGU 13 2227</seg></ref>,4, dove la lettura di BL 8.55 [] μέρ̣[ο]ς̣ ο̣ἰκί(ας) πατ̣[ρικ(ῆς) κ]ο̣(λλήματος), che migliora in parte quella dell’ed.pr. ([]μει[]ο̣ι̣κι( ) πα[][), deve essere, a mio avviso, corretta in [] μέρ̣[ο]ς ο̣ἰκί(ας) Παν̣[ε]φ̣ρ̣έ̣[μμε]ω̣(ς): del ny, in legatura con l’alpha, non resta che l’attacco sinistro (cfr. ταν, r. 6), mentre del phi, eseguito in un unico movimento col calamo che, dopo aver descritto il corpo, sale nell’interlinea superiore per poi girare e riscendere a tracciare l’asta, è ben visibile la parte superiore (cfr. r. 7); segue, sul rigo di base, l’estremità del gambo del rho, completamente ripiegato verso l’alto, che tocca l’attacco dell’epsilon; dell’omega in sospensione si conserva una traccia puntiforme (cfr. εω( ), r. 6).</p>
+                        </note>
+                        <note target="#ed1ln2">
+                            <ref>2</ref>
+                            <p xml:id="p8">οἰκ̣ί̣(ας) ἰδί(ας): la presenza del successivo οὔσης dimostra che lo scriba, forse abituato, in ragione dell’estrema divisione della proprietà a Ptolemais Euergetis, a trovare l’espressione μέρος οἰκίας ἰδίας (cfr. <ref target="https://papyri.info/biblio/4835">Hombert et Préaux 1952</ref>: 109 e nota 5), aveva in mente il genitivo. Qui, tuttavia, ci si riferisce a una proprietà nella sua interezza, non a una parte di essa; il confronto con gli altri estratti da εἰκονισμοί, nei quali il termine designante la proprietà oggetto della dichiarazione (οἰκία, μέρος etc.) è al nominativo (per es., <ref target="https://papyri.info/ddbdp/sb;14;11634"><seg style="text-decoration: underline;">SB 14 11634</seg></ref>,4: ιϛ μέρος οἰκίας ἰδία[ς; <ref target="https://papyri.info/ddbdp/p.cair.mich;3;21"><seg style="text-decoration: underline;">P.Cair.Mich. 3 21</seg></ref>,4: οἰκία καὶ αὐλὴ ἴ[δι]αι), autorizza, pertanto, a correggere il testo in οἰκ̣ί̣(α) ἰδί(α) … οὖσα. A una proprietà intera si fa riferimento anche in <ref target="https://papyri.info/ddbdp/sb;24;16256"><seg style="text-decoration: underline;">SB 24 16256</seg></ref>,85, dove, in luogo di οἰκί(ας) ι̣δ &lt;μέρος&gt; ἐπὶ Φρεμ(εὶ) δ κο̣λ̣λ̣ή̣μ̣α̣τ̣ο̣ς το̣υ( ) κ̣αὶ ενιο( ), propongo di leggere οἰκί(α) ἰδ(ία) ἐπὶ Φρεμ(εὶ) Δομετίλλης (l. Δομιτίλλης) τῆς κ(αὶ) Θαισαρίο(υ): si noti che questa è la prima attestazione del nome latino Domitilla nei papiri; sulla base della nuova lettura, inoltre, si può escludere che lo scriba avesse commesso l’errore di riportare due volte l’indicazione ἔνοικοι, che è invece presente solo al r. 86.</p>
+                            <p xml:id="p9">Ἀπολλωνίου τοῦ καὶ Ἰσιδώρου: un omonimo è documentato a Ptolemais Euergetis dal mutilo <ref target="https://papyri.info/ddbdp/cpr;15;23"><seg style="text-decoration: underline;">CPR 15 23</seg></ref>,1 (post 131/2) come padre del tale x alias Dioskoros, iscritto in un quartiere della metropoli, che, insieme con la ex moglie, figlia di cateco, presenta una richiesta per sottoporre a ἐπίκρισις i suoi due figli gemelli; in considerazione della scarsità dei dati disponibili, non è, tuttavia, possibile proporre un’identificazione con il proprietario della casa del nostro papiro.</p>
+                        </note>
+                        <note target="#ed1ln4">
+                            <ref>4</ref>
+                            <p xml:id="p10">Diversamente dal fratello, regolarmente sottoposto a ἐπίκρισις intorno ai 14 anni (cfr. r. 6), Diogenes rientra nella seconda ἐπίκρισις generale destinata, sotto Nerone, a tutti i maschi al di sopra dei 10 anni appartenenti alla categoria dei cateci; a questo proposito, cfr. <ref target="https://papyri.info/biblio/50857"><seg style="text-decoration: underline;">Montevecchi 1975</seg></ref>: 229 ss.; <ref target="https://papyri.info/biblio/60466"><seg style="text-decoration: underline;">Canducci 1990</seg></ref>: 228 s.</p>
+                        </note>
+                        <note target="#ed1ln5">
+                            <ref>5</ref>
+                            <p xml:id="p11">ε̣π̣[±2]: tra κάτοι̣κ̣(ος) e ἐπ[ι]κ(εκριμένος) del rigo successivo non ci si aspetterebbe nulla: cfr. <ref target="https://papyri.info/biblio/60466"><seg style="text-decoration: underline;">Canducci 1990</seg></ref>: 222–223 per le denominazioni dei 6475 cateci dell’Arsinoite. Se la decifrazione delle tracce è corretta, si può, dunque, ipotizzare che lo scriba avesse trascritto ἐ̣π̣[ικ(εκριμένος)] in fine di rigo, per poi ritrascriverlo a capo commettendo un errore di dittografia.</p>
+                        </note>
+                        <note target="#ed1ln8">
+                            <ref>8</ref>
+                            <p xml:id="p12">[Ἥ]ρων̣ος: nonostante il supporto sia conservato, dell’eta non vi è traccia (la medesima abrasione ha interessato in parte anche il tau di Τ̣αμάρων al r. 7). L’integrazione risulta tuttavia sicura in considerazione dell’assenza di ulteriori dettagli relativi a questo individuo e sulla base del confronto col r. 6.</p>
+                            <p xml:id="p13">Ἡρωὶς: una Herois figlia di Heron è attestata a Ptolemais Euergetis come proprietaria di un’abitazione in una lista ordinata per quartieri, <ref target="https://papyri.info/ddbdp/bgu;2;498"><seg style="text-decoration: underline;">BGU 2 498</seg></ref>,4 (2 sec.), ma non vi sono elementi sufficienti per proporre un’identificazione con quella del presente papiro.</p>
+                            <p xml:id="p14">Εὐ̣δαιμ̣(ονὶς): la lettura di questo nome pone qualche problema: lo hypsilon, infatti, è in parte coperto da un ripiegamento del papiro, mentre del presunto my in sospensione non si vede altro che due minime tracce puntiformi; si tratterebbe, inoltre, dell’unico nome abbreviato, ma ciò potrebbe dipendere dal fatto che lo scriba volesse evitare di dividere la parola tra due righi.</p>
+                        </note>
+                        <note target="#ed1ln9">
+                            <ref>9</ref>
+                            <p xml:id="p15">ἄλλη{ι̣}: dello iota non resta che un puntino sulla rettrice superiore, ma lo stesso errore occorre subito dopo, nella stessa parola; per un altro esempio di questa grafia, cfr. <ref target="https://papyri.info/ddbdp/p.oxy;1;99"><seg style="text-decoration: underline;">P.Oxy. 1 99</seg></ref>,5 (55, Oxyrhynchos).</p>
+                            <p xml:id="p16">γρ(αμματεὺς) βιβ(λιοφυλάκων) ἐση(μειωσάμην): altri documenti della βιβλιοθήκη δημοσίων λόγων vistati dal segretario dei βιβλιοφύλακες sono, per es., <ref target="https://papyri.info/ddbdp/p.laur;3;86">P.Laur. 3 86</ref> (138, Sentrempaei) e <ref target="https://papyri.info/ddbdp/p.diog;;19">P.Diog. 19</ref> (post nov.-dec. 226, Arsinoites); sulle funzioni di questo segretario, cfr. anche <ref target="https://papyri.info/ddbdp/p.fam.tebt;;15">P.Fam.Tebt. 15</ref> (114–115, Arsinoites) e <ref target="https://papyri.info/biblio/71200">Kruse 2002</ref>: 784–786.</p>
+                        </note>
+                    </div>
+                    <div type="bibliography">
+                        <listBibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/41607">Braunert, H. (1956)</ref> “Zur Terminologie der Volkszählung im frühen römischen Ägypten,” in Symbolae Raphaeli Taubenschlag dedicatae, III. Varsaviae: 53–66.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/60466">Canducci, D. (1990)</ref> “I 6475 cateci greci dell’Arsinoite,” Aegyptus 70: 211–255.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/61308">Canducci, D. (1991)</ref> “I 6475 cateci greci dell’Arsinoite. Prosopografia,” Aegyptus 71: 121–216.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/78821">Depauw, M. (2011)</ref> “Physical Descriptions, Registration and εἰκονίζειν. With New Interpretations for P. Par. 65 and P. Oxy. I 34,” ZPE 176: 189–199.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/4835">Hombert, M. et Préaux, Cl. (1952)</ref> Recherches sur le recensement dans l’Égypte romaine (P.Bruxelles inv. E. 7616). Leiden.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/71200">Kruse, Th. (2002)</ref> Der königliche Schreiber und die Gauverwaltung. Untersuchungen zur Verwaltungsgeschichte Ägyptens in der Zeit von Augustus bis Philippus Arabs (30 v.Chr. - 245 n.Chr.). München - Leipzig.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/50857">Montevecchi, O. (1975)</ref> “L’epikrisis dei Greco-Egizi,” in P.J. Parsons, J.R. Rea, E.G. Turner and R.A. Coles (eds.), Proceedings of the XIV International Congress of Papyrologists. Oxford, 24–31 July 1974. London: 227–232</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/65270">Sijpesteijn, P.J. (1995)</ref> “Three Papyri concerning Census,” ZPE 107: 271–276.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/70531">Strassi, S. (2001)</ref> “Le carte di Σωκράτης Σαραπίωνος, πράκτωρ ἀργυρικῶν a Karanis nel II sec. d.C.,” in I. Andorlini, G. Bastianini, M. Manfredi e G. Menci (edd.), Atti del XXII Congresso Internazionale di Papirologia. Firenze, 23–29 agosto 1998. II. Firenze: 1215–1228.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/64415">van Minnen, P. (1994)</ref> “House-to-House Enquiries: An Interdisciplinary Approach to Roman Karanis,” ZPE 100: 227–251.</bibl>
+                        </listBibl>
+                    </div>
+                    <div type="corrections">
+                        <table type="corrections">
+                            <row>
+                                <cell style="text-align: left;">TargetFile</cell>
+                                <cell style="text-align: left;">
+                                    <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.wilck/chr.wilck.220.xml%23L65">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.wilck/chr.wilck.220.xml#L65</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell style="text-align: left;">Replace</cell>
+                                <cell style="text-align: left;">&lt;lb n="4"/&gt;&lt;gap reason="illegible" quantity="1" unit="character"/&gt;&lt;gap reason="lost" quantity="2" unit="character"/&gt;&lt;gap reason="illegible" quantity="1" unit="character"/&gt; ἑτέρα Βερνί&lt;supplied reason="lost"&gt;κη &lt;/supplied&gt;&lt;gap reason="lost" quantity="17" unit="character"/&gt; &lt;expan&gt;ἀδελ&lt;ex&gt;φὴ&lt;/ex&gt;&lt;/expan&gt;</cell>
+                            </row>
+                            <row>
+                                <cell style="text-align: left;">With</cell>
+                                <cell style="text-align: left;">&lt;lb n="4"/&gt;&lt;app type="editorial"&gt;&lt;lem resp="B. Borrelli, Pylon 1 (2022) 9 n.4"&gt;&lt;unclear&gt;με&lt;/unclear&gt;θ’ ἕτερα&lt;/lem&gt;&lt;rdg&gt;&lt;gap reason="illegible" quantity="1" unit="character"/&gt;&lt;gap reason="lost" quantity="2" unit="character"/&gt;&lt;gap reason="illegible" quantity="1" unit="character"/&gt; ἑτέρα&lt;/rdg&gt;&lt;/app&gt; Βερνί&lt;supplied reason="lost"&gt;κη &lt;/supplied&gt;&lt;gap reason="lost" quantity="17" unit="character"/&gt; &lt;expan&gt;ἀδελ&lt;ex&gt;φὴ&lt;/ex&gt;&lt;/expan&gt;</cell>
+                            </row>
+                            <row>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                            </row>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title/>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Papyri.info</authority>
+                    <idno type="TM">19979</idno>
+                    <idno type="HGV">19979</idno>
+                    <idno type="ddb-filename">pylon.1.9</idno>
+                    <idno type="ddb-hybrid">pylon;1;9</idno>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <placeName>
+                                <settlement>London</settlement>
+                            </placeName>
+                            <collection>British Library</collection>
+                            <idno type="invNo">Papyrus 297</idno>
+                        </msIdentifier>
+                        <history/>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div type="bibliography" subtype="principalEdition"/>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title/>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename">pylon.1.9</idno>
+                    <idno type="ddb-hybrid">pylon;1;9</idno>
+                    <idno type="HGV">19979</idno>
+                    <idno type="TM">19979</idno>
+                    <availability>
+                        <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                                Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                    <language ident="la">Latin</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <head xml:lang="en"/>
+                <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve"><ab>
+<lb n="1" xml:id="ed1ln1"/>ἐξ <choice><reg><expan>εἰκο<ex>νισμοῦ</ex></expan></reg><orig><expan>ἰκο<ex>νισμοῦ</ex></expan></orig></choice> <num value="9">θ</num> <expan><ex>ἔτους</ex></expan> Δομιτιαν<supplied reason="lost">ο</supplied>ῦ Βιθυνῶν Ἰσίωνος <num value="1">α̅</num> <expan>τό<ex>μου</ex></expan> <expan>κολ<ex>λημάτων</ex></expan> <app type="alternative"><lem><num value="30">λ</num> <unclear>ἕ</unclear>ως</lem><rdg><num value="38">λ<unclear>ζ</unclear></num> <supplied reason="lost">ἕ</supplied>ως</rdg></app> <num value="39">λ̅θ̅</num>.
+<lb n="2" xml:id="ed1ln2"/><choice><reg><expan>οἰκί<ex>α</ex></expan> <expan>ἰδί<ex>α</ex></expan></reg><orig><expan>οἰ<unclear>κί</unclear><ex>ας</ex></expan> <expan>ἰδί<ex>ας</ex></expan></orig></choice> Ἀπολλωνίου τοῦ καὶ Ἰσιδώρου <choice><reg>οὖσα</reg><orig>οὔσης</orig></choice> ἐπὶ τοῦ αὐτοῦ ἀμφόδου.
+<lb n="3" xml:id="ed1ln3"/>μ<unclear>ε</unclear>θ’ <expan><ex>ἕτερα</ex></expan>. <expan>προσαπεγρ<ex>άψατο</ex></expan> ἐνοίκους· Διογένης Κάστορο<unclear>ς</unclear> <unclear>τ</unclear>οῦ Δείου
+<lb n="4" xml:id="ed1ln4"/><expan>μητρ<supplied reason="lost">ὸ<ex>ς</ex></supplied></expan> Ἀπίας τῆς Ἥρωνος <expan>κάτοικ<ex>ος</ex></expan> τῶν <num value="6475">Ϛυοε</num> <expan>ἐπ<supplied reason="lost">ι</supplied>κ<ex>εκριμένος</ex></expan> <num value="8">η</num> <expan><ex>ἔτει</ex></expan> Νέρ<supplied reason="lost">ων</supplied>ο<unclear>ς</unclear>
+<lb n="5" xml:id="ed1ln5"/><expan><ex>ἐτῶν</ex></expan> <num value="45"><unclear>μ</unclear>ε</num> <expan>ἄσημ<ex>ος</ex></expan>, Ἥρων ἀδελφ<supplied reason="lost">ὸς</supplied> <expan>μητρὸ<ex>ς</ex></expan> τῆς αὐτῆς <expan>κάτο<unclear>ικ</unclear><ex>ος</ex></expan> <app type="alternative"><lem><unclear>επ</unclear><gap reason="lost" quantity="2" unit="character" precision="low"/></lem><rdg><surplus><expan><unclear>ἐπ</unclear><supplied reason="lost">ικ<ex>εκριμένος</ex></supplied></expan></surplus></rdg></app>
+<lb n="6" xml:id="ed1ln6"/><expan>ἐπ<supplied reason="lost">ι</supplied>κ<ex>εκριμένος</ex></expan> <num value="9">θ</num> <expan><ex>ἔτει</ex></expan> Νέρω<unclear>ν</unclear><supplied reason="lost">ος</supplied> <expan><ex>ἐτῶν</ex></expan> <num value="41">μα</num> <expan>ο<ex>ὐλὴ</ex></expan> <expan>με<unclear>τ</unclear><ex>ώπῳ</ex></expan> δεξ<supplied reason="lost">ι</supplied><unclear>ῷ</unclear>. μεθ’ <expan><ex>ἕτερα</ex></expan>. <expan><unclear>θή</unclear>λ<ex>ειαι</ex></expan>·
+<lb n="7" xml:id="ed1ln7"/><unclear>Τ</unclear>αμάρων Πρωτάρχου το<supplied reason="lost">ῦ Π</supplied><unclear>ρ</unclear>ωτάρχου <expan>θυγ<ex>άτηρ</ex></expan> κατοίκου γυνὴ
+<lb n="8" xml:id="ed1ln8"/><supplied reason="lost">Ἥ</supplied>ρω<unclear>ν</unclear>ος <expan><ex>ἐτῶν</ex></expan> <num value="45">με</num>, Ἡρω<hi rend="diaeresis">ὶ</hi>ς <expan>θυγ<ex>άτηρ</ex></expan> <expan>ἀμφοτ<ex>έρων</ex></expan> <expan><ex>ἐτῶν</ex></expan> <num value="15">ιε</num>, <expan>Ε<unclear>ὐ</unclear>δαι<unclear>μ</unclear><ex>ονὶς</ex></expan>
+<lb n="9" xml:id="ed1ln9"/>ἄλλη<surplus><unclear>ι</unclear></surplus> <expan><ex>ἐτῶν</ex></expan> <num value="11">ια</num>, Σαμβοῦς ἄλλη<surplus>ι</surplus> <expan><ex>ἐτῶν</ex></expan> <num value="3">γ</num>. <expan>Ἀντώνιο<ex>ς</ex></expan> <expan>γρ<ex>αμματεὺς</ex></expan> <expan>βιβ<ex>λιοφυλάκων</ex></expan> <expan>ἐση<ex>μειωσάμην</ex></expan>.
+<lb n="10" xml:id="ed1ln10"/><expan><supplied reason="lost">ἐξ εἰ</supplied><unclear>κ</unclear>ο<ex>νισμοῦ</ex></expan> <num value="8">η</num> <expan><ex>ἔτους</ex></expan> θεοῦ Οὐεσπασιανοῦ Βιθυνῶν Ἰσίωνος.
+<lb n="11" xml:id="ed1ln11"/><expan><supplied reason="lost">οἰ</supplied><unclear>κ</unclear>ί<ex>α</ex></expan> <expan><supplied reason="lost">ἰ</supplied>δί<ex>α</ex></expan> Ἀπολλωνίου τοῦ καὶ Ἰσιδώρου ἐπὶ τοῦ <supplied reason="omitted">αὐτοῦ</supplied> <expan>ἀμφόδ<ex>ου</ex></expan>. μεθ’ <expan><ex>ἕτερα</ex></expan>.
+<lb n="12" xml:id="ed1ln12"/><expan><unclear>ἔνο</unclear><supplied reason="lost">ι</supplied><unclear>κ</unclear><ex>οι</ex></expan>· <gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="12"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main"/>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename">19979</idno>
+                    <idno type="TM">19979</idno>
+                    <idno type="HGV">19979</idno>
+                    <idno type="ddb-hybrid">pylon;1;9</idno>
+                    <availability>
+                        <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                            a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>The contents of this document are generated from SOSOL.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                    <language ident="ar">Arabisch</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div xml:id="trans1" xml:lang="it" type="translation" xml:space="preserve">
+<p>
+<milestone unit="line" n="1" corresp="ed1ln1"/> Dal registro di censimento con descrizioni personali del 9° anno di Domiziano, Bithynon Isionos, volume 1, fogli da 30 a 39. <milestone unit="line" n="2" corresp="#ed1ln2"/> Casa privata di Apollonios alias Isidoros, situata nello stesso quartiere. <milestone unit="line" n="3" rend="break" corresp="#ed1ln3"/> Omissis. Ha dichiarato in aggiunta come inquilini: Diogenes, figlio di Kastor il figlio di Dios e di Apia la figlia di Heron, cateco dei 6475, sottoposto a epikrisis nell’8° anno di Nerone, di anni 45, nessun segno particolare; <milestone unit="line" n="5" corresp="#ed1ln5"/> Heron, il fratello, figlio della stessa madre, cateco, sottoposto a epikrisis nel 9° anno di Nerone, di anni 41, cicatrice sulla fronte a destra. Omissis. Donne: <milestone unit="line" n="7" rend="break" corresp="#ed1ln7"/> Tamaron, figlia di Protarchos il figlio di Protarchos, figlia di cateco, moglie di Heron, di anni 45; Herois, figlia di entrambi, di anni 15; Eudaimonis, altra (figlia), di anni 11; Sambous, altra (figlia), di anni 3. Antonius, segretario dei bibliophylakes, ho vistato. <milestone unit="line" n="10" rend="break" corresp="#ed1ln10"/> Dal registro di censimento con descrizioni personali dell’8° anno del Divo Vespasiano, Bithynon Isionos. <milestone unit="line" n="11" corresp="#ed1ln11"/> Casa privata di Apollonios alias Isidoros, nello stesso quartiere. Omissis. Inquilini: […]
+</p>
+</div>
+            </body>
+        </text>
+    </TEI>
+</TEI>
