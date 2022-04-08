@@ -44,6 +44,6 @@
     - _PDF_: [p3test_azzarello_receipts_rev_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_azzarello_receipts_rev_text_.pdf)
       - XML [Pylon_article_16](https://github.com/jcowey/P3/blob/master/pylon/pylon1azzarello/azzarello_receipts-rev.xml)
 17. **HTML**: [Sampson, P.Hamb.graec. 185: Garden Tax Between the Archives of (Lucius) Iulius Serenus and Gemellus Horion](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_hamb_185)
-    - being vetted:
+    - _PDF_: [p3test_sampson_hamb_185_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_sampson_hamb_185_text_.pdf)
 18. **HTML**: [Claytor, A Receipt for the Didrachmia of Souchos from the Mikkalos Archive](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/claytor_receipt_didrachmia)
-    - being vetted:
+    - _PDF_: [p3test_claytor_receipt_didrachmia_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_claytor_receipt_didrachmia_text_.pdf)
