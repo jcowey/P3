@@ -6,7 +6,7 @@
 2. **HTML**: [Schubert, The format, layout and provenance of documents pertaining to liturgy](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/schubert_liturgy_geography)
    - _PDF_: [p3test_schubert_liturgy_geography_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_schubert_liturgy_geography_text_.pdf)
      - XML [Pylon_article_2](https://github.com/jcowey/P3/blob/master/pylon/pylon1schubert/schubert_liturgy_geography.xml)
-3. **HTML**: [Messeri, Ricevuta di pagamento del πελωχικόν](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/messeri_plond2_182a)
+3. **HTML**: [Messeri, Ricevuta di pagamento del πελωχικόν](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/messeri_plond2_182a) - **checked and signed off by author**
    - _PDF_:  [p3test_messeri_plond2_182a_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_messeri_plond2_182a_text_.pdf)
      - XML: [Pylon_article_3](https://github.com/jcowey/P3/blob/master/pylon/pylon1messeri/messeri_plond2_182a.xml)
 4. **HTML**: [Lougovaya, On cubic and other volumetric cubits and fingers](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/Lougovaya_cubits_and_fingers)
