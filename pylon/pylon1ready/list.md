@@ -12,11 +12,11 @@
 4. **HTML**: [Lougovaya, On cubic and other volumetric cubits and fingers](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/Lougovaya_cubits_and_fingers) - **proofread, corrected, XML problems in text remain**
    - _PDF_: [p3test_Lougovaya_cubits_and_fingers_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_Lougovaya_cubits_and_fingers_text_.pdf)
      - XML [Pylon_article_4](https://github.com/jcowey/P3/blob/master/pylon/pylon1lougovaya/lougovaya_pharris1_50.xml)
-5. **HTML**: [Zellmann-Rohrer, A Byzantine private letter in London and Aberystwyth](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ZellmannRohrer_pLond_inv_868)
+5. **HTML**: [Zellmann-Rohrer, A Byzantine private letter in London and Aberystwyth](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ZellmannRohrer_pLond_inv_868) - **proofread, corrected, XML problems in text remain**
    - _PDF_: [p3test_ZellmannRohrer_pLond_inv_868_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_ZellmannRohrer_pLond_inv_868_text_.pdf)
      - XML [Pylon_article_5](https://github.com/jcowey/P3/blob/master/pylon/pylon1zellmann-rohrer/zellmann_plond3_868.xml)
-6. **HTML**: [Micucci, Sale of a house in Soknopaiou Nesos: SB 22 15472 completed](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/micucci_sb22_15472)
-   - _PDF_: [p3test_micucci_sb22_15472_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_micucci_sb22_15472_text_.pdf) - **proofread, corrected, XML problems in text remain**
+6. **HTML**: [Micucci, Sale of a house in Soknopaiou Nesos: SB 22 15472 completed](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/micucci_sb22_15472) - **proofread, corrected, XML problems in text remain**
+   - _PDF_: [p3test_micucci_sb22_15472_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_micucci_sb22_15472_text_.pdf)
      - XML [Pylon_article_6](https://github.com/jcowey/P3/blob/master/pylon/pylon1micucci/micucci_sb22_15472.xml)
 7. **HTML**: [Vergara, Στοιχεῖα e dio in P.Herc. 1670, fr. 27.2 (Filodemo, De providentia)](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/vergara_pHerc_1670_fr_27_2) - **proofread, corrected, XML problems in text remain**
    - _PDF_: [p3test_vergara_pHerc_1670_fr_27_2_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_vergara_pHerc_1670_fr_27_2_text_.pdf)
@@ -40,10 +40,10 @@
       - XML [Pylon_article_14](https://github.com/jcowey/P3/blob/master/pylon/pylon1essler/essler_pBerol_inv_13264.xml)
 15. **HTML**: [Ast and Bagnall, O.Berenike 4. Ostraka from the Port of Berenike](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ast_bagnall_berenike_4) - **proofread, corrected, XML problems in text remain**
     - _PDF_: [p3test_ast_bagnall_berenike_4_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_ast_bagnall_berenike_4_text_.pdf)
-16. **HTML**: [Azzarello, Textual Remarks on Two Receipts concerning Replacement Parts for Irrigators](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/azzarello_receipts_rev)
+16. **HTML**: [Azzarello, Textual Remarks on Two Receipts concerning Replacement Parts for Irrigators](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/azzarello_receipts_rev) - **proofreading and correcting ongoing**
     - _PDF_: [p3test_azzarello_receipts_rev_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_azzarello_receipts_rev_text_.pdf)
       - XML [Pylon_article_16](https://github.com/jcowey/P3/blob/master/pylon/pylon1azzarello/azzarello_receipts-rev.xml)
 17. **HTML**: [Sampson, P.Hamb.graec. 185: Garden Tax Between the Archives of (Lucius) Iulius Serenus and Gemellus Horion](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_hamb_185) - **proofread, corrected, XML problems in text remain**
     - _PDF_: [p3test_sampson_hamb_185_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_sampson_hamb_185_text_.pdf)
-18. **HTML**: [Claytor, A Receipt for the Didrachmia of Souchos from the Mikkalos Archive](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/claytor_receipt_didrachmia)
+18. **HTML**: [Claytor, A Receipt for the Didrachmia of Souchos from the Mikkalos Archive](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/claytor_receipt_didrachmia) - **proofreading and correcting ongoing**
     - _PDF_: [p3test_claytor_receipt_didrachmia_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_claytor_receipt_didrachmia_text_.pdf)
