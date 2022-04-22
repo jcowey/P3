@@ -31,7 +31,7 @@
       - XML [Pylon_article_10](https://github.com/jcowey/P3/blob/master/pylon/pylon1reiter/reiter_miscellaneous.xml)
 11. Benaissa, Two Slave Sales Revisited
     - being processed:
-12. Deac: 
+12. Deac, A Register of Receipts (?) from a Military Context
     - being processed:
 13. **HTML**: [Colella, Aggiornamenti in tema di manumissiones nei testamenti romani d’Egitto prima di Severo Alessandro](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/colella_manomissioni) - **proofread, corrected, author satisfied**
     - _PDF_: [p3test_colella_manomissioni_text_](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_colella_manomissioni_text_.pdf)
