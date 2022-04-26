@@ -9,4 +9,4 @@ For help with editing sections of the OJS interface for the journal there is a s
 
 
 ### Files for viewing
-Links to live files (at present **seventeen articles in HTML** versions: only one remains to be done) for the first volume of Pylon can be found in the folder: [pylon1ready](https://github.com/jcowey/P3/blob/master/pylon/pylon1ready/list.md)
+Links to live files of all (**eighteen articles in HTML** versions) for the first volume of Pylon can be found in the folder: [pylon1ready](https://github.com/jcowey/P3/blob/master/pylon/pylon1ready/list.md)
