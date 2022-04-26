@@ -29,8 +29,8 @@
 10. **HTML**: [Reiter, Zwei Miszellen zu Texten aus Soknopaiu Nesos](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/reiter_miscellaneous)
     - _PDF_: [p3test_reiter_miscellaneous_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_reiter_miscellaneous_text_.pdf)
       - XML [Pylon_article_10](https://github.com/jcowey/P3/blob/master/pylon/pylon1reiter/reiter_miscellaneous.xml)
-11. Benaissa, Two Slave Sales Revisited
-    - being processed:
+11. **HTML**: [Benaissa, Two Slave Sales Revisited](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/benaissa_slave_sales)
+    - _PDF_: [p3test_benaissa_slave_sales_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_benaissa_slave_sales_text_.pdf)
 12. Deac, A Register of Receipts (?) from a Military Context
     - being processed:
 13. **HTML**: [Colella, Aggiornamenti in tema di manumissiones nei testamenti romani d’Egitto prima di Severo Alessandro](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/colella_manomissioni) - **proofread, corrected, author satisfied**
