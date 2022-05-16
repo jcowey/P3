@@ -35,7 +35,7 @@
     - _PDF_: [p3test_deac_p_lund_213_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_deac_p_lund_213_text_.pdf)
 13. **HTML**: [Colella, Aggiornamenti in tema di manumissiones nei testamenti romani d’Egitto prima di Severo Alessandro](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/colella_manomissioni) - **proofread, corrected, author satisfied**
     - _PDF_: [p3test_colella_manomissioni_text_](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_colella_manomissioni_text_.pdf)
-14. **HTML**: [Essler, Ein Berliner Papyruskodex mit Hom., Od. 13.110-126 und 137-154](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/essler_pBerol_inv_13264)
+14. **HTML**: [Essler, Ein Berliner Papyruskodex mit Hom., Od. 13.110-126 und 137-154](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/essler_pBerol_inv_13264) - **proofread, corrected, author satisfied**
     - _PDF_: [p3test_essler_pBerol_inv_13264_text_](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_essler_pBerol_inv_13264_text_.pdf)
       - XML [Pylon_article_14](https://github.com/jcowey/P3/blob/master/pylon/pylon1essler/essler_pBerol_inv_13264.xml)
 15. **HTML**: [Ast and Bagnall, O.Berenike 4. Ostraka from the Port of Berenike](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ast_bagnall_berenike_4) - **proofread, corrected, XML problems in text remain**
