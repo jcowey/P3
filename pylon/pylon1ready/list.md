@@ -26,7 +26,7 @@
       - XML [Pylon_article_8](https://github.com/jcowey/P3/blob/master/pylon/pylon1nicolardi/nicolardi_delendae_memorandae.xml)
 9. **HTML**: [Borelli, P.Lond. 2 297a descr.: copia di estratti da registri di censimento](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/borrelli_riv_prep2) - **proofread, corrected, author satisfied**
     - _PDF_: [p3test_borrelli_riv_prep2_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_borrelli_riv_prep2_text_.pdf)
-10. **HTML**: [Reiter, Zwei Miszellen zu Texten aus Soknopaiu Nesos](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/reiter_miscellaneous)
+10. **HTML**: [Reiter, Zwei Miszellen zu Texten aus Soknopaiu Nesos](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/reiter_miscellaneous) - **proofreading and correcting ongoing**
     - _PDF_: [p3test_reiter_miscellaneous_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_reiter_miscellaneous_text_.pdf)
       - XML [Pylon_article_10](https://github.com/jcowey/P3/blob/master/pylon/pylon1reiter/reiter_miscellaneous.xml)
 11. **HTML**: [Benaissa, Two Slave Sales Revisited](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/benaissa_slave_sales)- **proofreading and correcting ongoing**
