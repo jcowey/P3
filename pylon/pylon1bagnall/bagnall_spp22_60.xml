@@ -22,11 +22,15 @@
          </editionStmt>
          <publicationStmt>
              <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+             <authority>Universität Heidelberg</authority>
              <idno type="pylon">pylon.1.1</idno>
              <availability>
                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
                      <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
                          Commons Attribution 3.0 License</ref>.</p>
+                 <p>© Universität Heidelberg. Die Nutzung des Werkes ist gemäß den Bedingungen der
+                     <ref type="license" target="http://creativecommons.org/licenses/by/4.0/">Creative 
+                         Commons-Lizenz CC-BY-SA 4.0 </ref> erlaubt.</p>
              </availability>
          </publicationStmt>
          <sourceDesc>
