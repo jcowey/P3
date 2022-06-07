@@ -9,7 +9,7 @@
 3. **HTML**: [Messeri, Ricevuta di pagamento del πελωχικόν](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/messeri_plond2_182a) - **proofread, corrected, author satisfied**
    - _PDF_:  [p3test_messeri_plond2_182a_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_messeri_plond2_182a_text_.pdf)
      - XML: [Pylon_article_3](https://github.com/jcowey/P3/blob/master/pylon/pylon1messeri/messeri_plond2_182a.xml)
-4. **HTML**: [Lougovaya, On cubic and other volumetric cubits and fingers](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/Lougovaya_cubits_and_fingers) - **proofread, corrected, XML problems in text remain**
+4. **HTML**: [Lougovaya, On cubic and other volumetric cubits and fingers](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/Lougovaya_cubits_and_fingers) - **proofread, corrected, author satisfied**
    - _PDF_: [p3test_Lougovaya_cubits_and_fingers_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_Lougovaya_cubits_and_fingers_text_.pdf)
      - XML [Pylon_article_4](https://github.com/jcowey/P3/blob/master/pylon/pylon1lougovaya/lougovaya_pharris1_50.xml)
 5. **HTML**: [Zellmann-Rohrer, A Byzantine private letter in London and Aberystwyth](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ZellmannRohrer_pLond_inv_868) - **proofread, corrected, XML problems in text remain**
