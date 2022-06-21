@@ -15,7 +15,7 @@
 5. **HTML**: [Zellmann-Rohrer, A Byzantine private letter in London and Aberystwyth](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ZellmannRohrer_pLond_inv_868) - **proofread, corrected, XML problems in text remain**
    - _PDF_: [p3test_ZellmannRohrer_pLond_inv_868_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_ZellmannRohrer_pLond_inv_868_text_.pdf)
      - XML [Pylon_article_5](https://github.com/jcowey/P3/blob/master/pylon/pylon1zellmann-rohrer/zellmann_plond3_868.xml)
-6. **HTML**: [Micucci, Sale of a house in Soknopaiou Nesos: SB 22 15472 completed](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/micucci_sb22_15472) - **proofread, corrected, XML problems in text remain**
+6. **HTML**: [Micucci, Sale of a house in Soknopaiou Nesos: SB 22 15472 completed](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/micucci_sb22_15472) - **proofread, corrected, satisfactory**
    - _PDF_: [p3test_micucci_sb22_15472_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_micucci_sb22_15472_text_.pdf)
      - XML [Pylon_article_6](https://github.com/jcowey/P3/blob/master/pylon/pylon1micucci/micucci_sb22_15472.xml)
 7. **HTML**: [Vergara, Στοιχεῖα e dio in P.Herc. 1670, fr. 27.2 (Filodemo, De providentia)](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/vergara_pHerc_1670_fr_27_2) - **proofread, corrected, author satisfied**
