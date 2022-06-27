@@ -12,7 +12,7 @@
 4. **HTML**: [Lougovaya, On cubic and other volumetric cubits and fingers](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/Lougovaya_cubits_and_fingers) - **proofread, corrected, author satisfied**
    - _PDF_: [p3test_Lougovaya_cubits_and_fingers_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_Lougovaya_cubits_and_fingers_text_.pdf)
      - XML [Pylon_article_4](https://github.com/jcowey/P3/blob/master/pylon/pylon1lougovaya/lougovaya_pharris1_50.xml)
-5. **HTML**: [Zellmann-Rohrer, A Byzantine private letter in London and Aberystwyth](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ZellmannRohrer_pLond_inv_868) - **proofread, corrected, XML problems in text remain**
+5. **HTML**: [Zellmann-Rohrer, A Byzantine private letter in London and Aberystwyth](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ZellmannRohrer_pLond_inv_868) - **proofread, corrected, author satisfied**
    - _PDF_: [p3test_ZellmannRohrer_pLond_inv_868_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_ZellmannRohrer_pLond_inv_868_text_.pdf)
      - XML [Pylon_article_5](https://github.com/jcowey/P3/blob/master/pylon/pylon1zellmann-rohrer/zellmann_plond3_868.xml)
 6. **HTML**: [Micucci, Sale of a house in Soknopaiou Nesos: SB 22 15472 completed](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/micucci_sb22_15472) - **proofread, corrected, satisfactory**
@@ -29,7 +29,7 @@
 10. **HTML**: [Reiter, Zwei Miszellen zu Texten aus Soknopaiu Nesos](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/reiter_miscellaneous) - **proofreading and correcting ongoing**
     - _PDF_: [p3test_reiter_miscellaneous_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_reiter_miscellaneous_text_.pdf)
       - XML [Pylon_article_10](https://github.com/jcowey/P3/blob/master/pylon/pylon1reiter/reiter_miscellaneous.xml)
-11. **HTML**: [Benaissa, Two Slave Sales Revisited](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/benaissa_slave_sales)- **proofreading and correcting ongoing**
+11. **HTML**: [Benaissa, Two Slave Sales Revisited](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/benaissa_slave_sales)- **proofread, corrected, author satisfied**
     - _PDF_: [p3test_benaissa_slave_sales_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_benaissa_slave_sales_text_.pdf)
 12. **HTML**: [Deac, A Register of Receipts (?) from a Military Context](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/deac_p_lund_213)- **roofread, corrected, author satisfied**
     - _PDF_: [p3test_deac_p_lund_213_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_deac_p_lund_213_text_.pdf)
