@@ -40,7 +40,7 @@
       - XML [Pylon_article_14](https://github.com/jcowey/P3/blob/master/pylon/pylon1essler/essler_pBerol_inv_13264.xml)
 15. **HTML**: [Ast and Bagnall, O.Berenike 4. Ostraka from the Port of Berenike](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/ast_bagnall_berenike_4) - **proofread, corrected, author satisfied**
     - _PDF_: [p3test_ast_bagnall_berenike_4_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_ast_bagnall_berenike_4_text_.pdf)
-16. **HTML**: [Azzarello, Textual Remarks on Two Receipts concerning Replacement Parts for Irrigators](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/azzarello_receipts_rev) - **proofreading and correcting ongoing**
+16. **HTML**: [Azzarello, Textual Remarks on Two Receipts concerning Replacement Parts for Irrigators](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/azzarello_receipts_rev) - **proofread, corrected, author satisfied**
     - _PDF_: [p3test_azzarello_receipts_rev_text_.pdf](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/pdf/p3test_azzarello_receipts_rev_text_.pdf)
       - XML [Pylon_article_16](https://github.com/jcowey/P3/blob/master/pylon/pylon1azzarello/azzarello_receipts-rev.xml)
 17. **HTML**: [Sampson, P.Hamb.graec. 185: Garden Tax Between the Archives of (Lucius) Iulius Serenus and Gemellus Horion](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_hamb_185) - **proofread, corrected, author satisfied**
