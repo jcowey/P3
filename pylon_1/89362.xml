@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Foreword </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-05-25</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Propylaeum</orgName>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+                </publisher>
+                <pubPlace>
+                    <placeName>Heidelberg</placeName>
+                    <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+                </pubPlace>
+                <date when="2022">2022</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2022.1.89362</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl ana="hc:RecommendedBibliographicReference">The Editors, “Foreword,” Pylon 1 (2022). DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2022.1.89362">https://doi.org/10.48631/pylon.2022.1.89362</ref>.</bibl>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+                    <label>DOCX to TEI</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2022-05-25T20:14:50Z</date>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="MainTitle">Foreword</titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <div type="article">
+                <p xml:id="p1"><emph rend="italics">Pylon</emph> is the journal of the Papyrological Publication Platform (P3), a joint initiative of Heidelberg University’s Institute for Papyrology and University Library, in collaboration with Duke University’s Collaboratory for Classics Computing. Development of P3 has been funded by the Deutsche Forschungsgemeinschaft, its aim being to bridge the world of traditional scholarly publishing and that of scientific data management by creating tools to facilitate the transfer of data among online resources. It currently focuses on ancient Greek, Latin and Coptic literary and documentary texts preserved on papyri, ostraca and other portable media from Egypt and elsewhere. A transformation schema created in the context of this project at Duke University permits the conversion of the word-processing files typically used in print publishing to the TEI/EpiDoc XML employed in papyri.info. This conversion process will make it easier to transfer individual elements of scholarly editions to online repositories such as papyri.info. </p>
+                <p xml:id="p2"><emph rend="italics">Pylon</emph> 1 is the first issue of the P3’s online, peer reviewed journal. It publishes 18 articles and notes covering a range of documentary and literary papyri. The articles appearing here can be downloaded in PDF. New text editions and corrections will be transferred directly to papyri.info and should be available there shortly. As a result of the close connection between the journal and papyri.info, the display of the Greek texts in <emph rend="italics">Pylon</emph> largely conforms with the conventions of papyri.info.</p>
+                <p xml:id="p3">The journal aims to appear semiannually and welcomes contributions from the broader academic community. While it features new editions and corrections to published editions, it is not restricted to these formats and accepts synthetic articles related to papyrological sources that are not focused on textual criticism. For information on how to submit an article, consult the journal <ref target="https://journals.ub.uni-heidelberg.de/index.php/pylon/about/submissions">website</ref>. We recommend that articles in the journal be cited in the following way: R.S. Bagnall, “SPP 22 60 Revisited,” <emph rend="italics">Pylon</emph> 1 (2022). Because of the absence of page numbers, individual parts of the articles should be referred to by paragraph number (e.g., §6).</p>
+                <p xml:id="p4">This inaugural issue is dedicated to the memory of Federica Micucci, a brilliant young papyrologist and a friend of digital publishing who contributed in many ways to papyri.info in recent years. Federica responded with great enthusiasm to our invitation to publish an article in <emph rend="italics">Pylon</emph> 1, and we are very happy to include the piece she submitted before her death in December 2021. Her absence is keenly felt.</p>  
+                <table type="papyrological_header">
+                    <row>
+                        <cell style="text-align: left;">The Editors</cell>
+                        <cell style="text-align: center;"/>
+                        <cell style="text-align: right;"/>
+                    </row>
+                </table>
+            </div>
+        </body>
+    </text>
+</TEI>
+        

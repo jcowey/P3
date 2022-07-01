@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Receipt for the <emph rend="italics">Didrachmia</emph> of Souchos from the Mikkalos Archive</title>
+            <author>
+               <persName>
+                  <forename>W. Graham</forename>
+                  <surname>Claytor</surname>
+               </persName>
+               <affiliation>
+                  <orgName>Centre for Research on Ancient Civilisations, Wydział Historii, Uniwersytet Warszawski</orgName>
+               </affiliation>
+               <email>w.claytor-vi@uw.edu.pl</email>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1164982230</idno>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0001-9838-3318</idno>
+            </author>
+            <funder>Deutsche Forschungsgemeinschaft</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2022">2022</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.1.18</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2022.1.89346</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">W.G. Claytor, “A Receipt for the Didrachmia of Souchos from the Mikkalos Archive,” Pylon 1 (2022). DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2022.1.89346">https://doi.org/10.48631/pylon.2022.1.89346</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">1</biblScope>
+                     <biblScope unit="article">18</biblScope>
+                     <date when="2022">2022</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2022-04-08T12:25:06Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">A Receipt for the <emph rend="italics">Didrachmia</emph> of Souchos from the Mikkalos Archive</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">I thank Nikolaos Gonis for bringing this papyrus to my attention and the Egypt Exploration Society for permission to publish it. This edition is dedicated to the memory of Federica Micucci.</note>
+            <div type="epidoc" subtype="DDB">
+               <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: left;">EES 89A/151(c)<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; ">The papyrus comes from a box of miscellaneous papyri purchased by B.P. Grenfell and A.S. Hunt, probably between 1897-1899: 4(a) = <ref target="https://papyri.info/biblio/96011">Gonis 2021</ref>: 400; 45(a) = <ref target="https://papyri.info/biblio/75017">Gonis 2006</ref>: 201-203; 45(b) = <ref target="https://papyri.info/biblio/75017">Gonis 2006</ref>: 203-204; 45(d) recto = <ref target="https://papyri.info/biblio/75017">Gonis 2006</ref>: 198-199, verso = <ref target="https://papyri.info/biblio/75017">Gonis 2006</ref>: 199-200; 113(a) = <ref target="https://papyri.info/ddbdp/sb;28;17223">SB 28 17223</ref>; 127(a) = <ref target="https://papyri.info/biblio/96011">Gonis 2021</ref>: 398-399; 138(a) = <ref target="https://papyri.info/ddbdp/sb;28;17039">SB 28 17039</ref>; 148(b) = <ref target="https://papyri.info/biblio/96011">Gonis 2021</ref>: 395-398.</p></note></cell>
+                     <cell style="text-align: center;">13 (h) x 12 (w) cm</cell>
+                     <cell style="text-align: right;">Karanis</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"><ref target="https://www.trismegistos.org/text/971879">TM 971879</ref></cell>
+                     <cell style="text-align: center;"/>
+                     <cell style="text-align: right;">26 April – 25 May, 62 CE</cell>
+                  </row>
+               </table>
+               <div type="introduction">
+                  <p xml:id="p1">Broken at the top and bottom, margins of ca. 2 cm at the left and ca. 1.75 at the right. <emph rend="italics">Kollesis</emph> about 1.75 cm from left side. Writing with the fibers. Back blank. </p>
+                  <figure>
+                     <!--<graphic n="1" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f35da35f-9ef2-4334-bd07-712b1b969ad8/file/id/836448/file_version/name/full"></graphic>-->
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/1603941"/>
+                     <head>Fig. 1: EES 89A/151(c).</head>
+                  </figure>
+               </div>
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <note target="#ed1ln1">
+                     <ref>1</ref>
+                     <p xml:id="p2">It is uncertain if any text is missing above. The parallel <ref target="https://papyri.info/hgv/9328">BGU 3 748 col. 3</ref> (Arsinoe, 1 June, 62) has a notation in the top margin whose connection to the receipt is unclear. Τhe Alexandrian citizen Thrasymachos responsible for collecting the <emph rend="italics">didrachmia</emph> also appears in the Berlin papyrus: see further below. On his demotic, Μαρωνεύς, see <ref target="https://papyri.info/biblio/12393">Delia 1991</ref>, 63 and 136-137.</p>
+                  </note>
+                  <note target="#ed1ln2">
+                     <ref>2-3</ref>
+                     <p xml:id="p3">This is the fullest form of identification of Mikkalos’ father, who is sometimes referred to simply as Petheus the elder or Ptolemaios: <ref target="https://papyri.info/biblio/95803">Claytor 2020</ref>, 24, ll. 3-5 n.</p>
+                  </note>
+                  <note target="#ed1ln3">
+                     <ref>3-5</ref>
+                     <p xml:id="p4">τ̣ὴν | δ̣ι̣δ̣ραχμί(αν) τοῦ Σούχου θεοῦ μεγάλ(ου) | με̣γ̣άλου.  See below for the <emph rend="italics">didrachmia</emph>. On Sobek and his main temple in Arsinoe, see <ref target="https://papyri.info/biblio/96010">Kockelmann 2017</ref>, vol. 2, 361-372, especially, 368-370.</p>
+                  </note>
+                  <note target="#ed1ln5">
+                     <ref>5</ref>
+                     <p xml:id="p5">καμάρας. A vaulted room generally used for storage or as a workshop (<ref target="https://papyri.info/biblio/10230">Husson 1983</ref>, 122-128). It is associated with an ἐλαιούργιον in <ref target="https://papyri.info/ddbdp/p.flor;1;1">P.Flor. I 1</ref> (Hermopolis, 153).</p>
+                  </note>
+                  <note target="#ed1ln8">
+                     <ref>8-9</ref>
+                     <p xml:id="p6">Γ̣α̣ί̣ο̣υ [Λο]γ̣γίν̣ου Γ̣α̣ίου υ̣ἱ̣[ο]ῦ̣ | ἱ̣π[πέως ἄλης Αὐ]γούστης̣.  The large, stylized pi could be taken as the first letter of line l. 9, e.g. the beginning of a cognomen, but this would leave little room for the restoration of the ala. There is room for iota before the pi, however, and the trace of a stroke below the line could be the deep descender of this letter. The <emph rend="italics">ala Augusta</emph> was based in Egypt into the early second century:     <ref target="https://papyri.info/biblio/96009">Lesquier 1918</ref>, 73-76; <ref target="https://papyri.info/biblio/59063">Daris 1988</ref>, 751. Cf. <ref target="https://papyri.info/ddbdp/p.hamb;1;1">P.Hamb. 1 1</ref> (57 CE).</p>
+                  </note>
+                  <note target="#ed1ln10">
+                     <ref>10</ref>
+                     <p xml:id="p7">The beginning, it seems, of a short dating formula, rather than the full imperial formula as in <ref target="https://papyri.info/hgv/9328">BGU 3 748 col. 3</ref>.10-13, since Γερμ̣[ανικείου] is preferable to Νέρω̣[νος]: for mu with an extra initial stroke, cf. μεγάλ(ου), l. 4. The month Germanikeios equates to Pachon. The year number eta has a horizontal final stroke, as in <ref target="https://papyri.info/hgv/9328">BGU 3 748 col. 3</ref>.10. </p>
+                  </note>
+               </div>
+            </div>
+            <div type="section">
+               <head>Discussion</head>
+               <p xml:id="p8" style="text-align: left; ">This Oxford papyrus joins three other receipts for the property transfer tax known as the “<emph rend="italics">didrachmia</emph> of Souchos,” which Wolfgang Wegner and I discuss by way of a new example from late Ptolemaic Theadelphia.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/96039">Claytor and Wegner 2022 (forthcoming)</ref>, containing an edition of <ref target="https://quod.lib.umich.edu/a/apis/x-11792/4188r.tif">P.Mich. inv. 4188</ref> (<ref target="https://www.trismegistos.org/text/832123">TM 832123</ref>, 62 [?] BCE). The others are <ref target="https://papyri.info/hgv/42984">P.Tebt. 2 281</ref> (125 BCE) and <ref target="https://papyri.info/hgv/9328">BGU 3 748 col. 3</ref> (Arsinoe, 1 June, 62 CE), discussed below.</p></note> The Ptolemaic examples helpfully define the <emph rend="italics">didrachmia</emph> as a 10% tax (the “<emph rend="italics">didrachmia</emph> out of 20 drachmas, which is a tenth”), which fell on acquisitions of houses, building plots, and, as the Theadelphia receipt adds, temple liturgical days. The beneficiary of the tax, at least in the Ptolemaic period, was the main Sobek temple in the metropolis Arsinoe, which had economic interests throughout the Fayum. To the examples of the <emph rend="italics">didrachmia</emph> collected on properties in Tebtynis, Theadelphia, and the metropolis, we can now add the village of Karanis.  </p>
+               <p xml:id="p9" style="text-align: left; ">The present receipt finds a close parallel in <ref target="https://papyri.info/hgv/9328">BGU 3 748 col. 3</ref> (Arsinoe, 1 June, 62 CE), which was issued the very next month by the same Thrasymachos, son of Melas, of the Maronian deme (of Alexandria),<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> It is tempting to seek an archival connection between such closely related pieces (both acquired in the 1890s), but there is no obvious family link between the two taxpayers.</p></note> and is written in a similar format and hand. In neither example does Thrasymachos carry a title.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> In the Ptolemaic receipts <ref target="https://papyri.info/ddbdp/p.tebt;2;281">P.Tebt. 2 281</ref> and <ref target="https://quod.lib.umich.edu/a/apis/x-11792/4188r.tif">P.Mich. inv. 4188</ref> (<ref target="https://www.trismegistos.org/text/832123">TM 832123</ref>) the collector is a priest of Sobek and tax farmer.</p></note> His signature concludes the Berlin receipt, which was likely also the case here, but the papyrus is broken at the dating formula. The Berlin papyrus was joined in a <emph rend="italics">tomos synkollesimos</emph> (<ref target="https://berlpap.smb.museum/16739/">BerlPap</ref>) to an <emph rend="italics">enkyklion</emph> receipt for the same transaction, and at least one further, presumably related, document. The <emph rend="italics">kollesis</emph> of the Oxford receipt may suggest that it was once pasted into a roll containing related documents, but this is uncertain.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; "> Cf. <ref target="https://papyri.info/ddbdp/bgu;11;2017">BGU 11 2017</ref>, a property declaration made by Mikkalos’s brother, which may have been attached to the sale <ref target="https://papyri.info/ddbdp/p.lond;2;141">P.Lond. 2 141 (p. 181)</ref> (although the Berlin editor’s explanation that they were written together then cut is unlikely). For another property-related dossier pasted into a tomos, see in this issue <ref target="https://papyri.info/biblio/96042">Micucci 2022</ref>, with reference to further examples.</p></note> In any case, the purchaser presumably paid the <emph rend="italics">enkyklion</emph> as well and, given the document’s archival connection, one can hope for further documentation to be found.</p>
+               <p xml:id="p10" style="text-align: left; ">The addressee of the receipt is Ptolemaios alias Petheus the elder, son of Petheus, who can be identified as the father of Mikkalos, the central figure of an archive in Berlin and London and including, it seems, two papyri excavated by the University of Michigan (<ref target="https://www.trismegistos.org/archive/602">TM Arch 602</ref>).<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; "> For an overview, see <ref target="https://papyri.info/biblio/95803">Claytor 2020</ref>, 31-35. </p></note> The seven London papyri were part of a lot of 49 papyri acquired from G.J. Chester in 1891, while one Berlin papyrus was acquired in 1896 and the other two probably around the same time.<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; "> A precise date is only known for <ref target="https://papyri.info/ddbdp/bgu;20;2868">BGU 20 2868</ref>, acquired in 1896 as part of the Sammlung Reinhardt according to <ref target="https://berlpap.smb.museum/06530/">BerlPap</ref>.</p></note> Precise acquisition information is lacking for the present papyrus, but contextual clues place it in the 1890s as well (see n. 1), and as an incoming document it would be well at home among the family’s papers.<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; "> On “incoming,”, “outgoing,” and “internal” documents in archives, see <ref target="https://papyri.info/biblio/84719">Vandorpe, Clarysse and Verreth 2015</ref>, 19. </p></note></p>
+               <p xml:id="p11" style="text-align: left; ">The two papyri excavated by the University of Michigan, <ref target="https://papyri.info/hgv/957686">P.Cair.Mich. 3 8.1</ref> and <ref target="https://papyri.info/hgv/14740">8.2</ref>, now split between Ann Arbor and Cairo,<note place="foot" xml:id="ftn9" n="9"><p style="text-align: left; ">On the partage of papyri excavated by the University of Michigan, see <ref target="https://papyri.info/biblio/96012">Haug 2021</ref>.</p></note> were found in House B17, which is well known as the central locus of the second-century archive of Sokrates (<ref target="https://www.trismegistos.org/archive/109">TM Arch 109</ref>).<note place="foot" xml:id="ftn10" n="10"><p style="text-align: left; "> I have no qualms calling this an archive, despite P.Cair.Mich. III, p. ix, n. 2, which in fact points to my discussion of the Mikkalos archive, not the Sokrates archive. My view is rather that each papyrus from B17 and related contexts must be scrutinized for its inclusion in Sokrates’ archive, rather than the connection being assumed.</p></note> Given the different modes of acquisition, I suggested that the excavated texts should be considered part of the “dossier” of Mikkalos’ family rather than part of the archive <emph rend="italics">stricto sensu</emph>.<note place="foot" xml:id="ftn11" n="11"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/95803">Claytor 2020</ref>, 31.</p></note> Recently, however, Mike Sampson, has drawn my attention to the fact that P.Cair.Mich. 2 <ref target="https://papyri.info/dclp/59973">10</ref>-<ref target="https://papyri.info/dclp/59438">11</ref>, found in the nearby house B12, joins P.Lond. 2 155 from the same 1891 Chester purchase, which provides another link between this acquisition and the area excavated by Michigan some 35 years later.<note place="foot" xml:id="ftn12" n="12"><p style="text-align: left; "> I am grateful to Mike Sampson for sharing his ongoing research on Karanis acquisitions.</p></note> With this in mind, and given that the excavated papyri are copies of the will of Mikkalos’ father, I would now consider them part of the archive. An updated list of texts can be found in the following table.</p>
+               <table>
+                  <head>Table 1: The Archive of Mikkalos (<ref target="https://www.trismegistos.org/archive/602">TM Arch 602</ref>).</head>
+                  <row>
+                     <cell style="text-align: left;">No.</cell>
+                     <cell style="text-align: left;">Text</cell>
+                     <cell style="text-align: left;">Date (CE)</cell>
+                     <cell style="text-align: left;">Type</cell>
+                     <cell style="text-align: left;">Family Member(s)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1</cell>
+                     <cell style="text-align: left;">EES 89A/151(c)</cell>
+                     <cell style="text-align: left;">62</cell>
+                     <cell style="text-align: left;"><emph rend="italics">Didrachmia</emph> receipt</cell>
+                     <cell style="text-align: left;">Petheus the elder</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">2</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://papyri.info/hgv/11629">P.Lond. 2 146 descr. (p. xiv)</ref> (ed. Claytor)
+                     </cell>
+                     <cell style="text-align: left;">74</cell>
+                     <cell style="text-align: left;">Property declaration</cell>
+                     <cell style="text-align: left;">Mikkalos</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">3</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://papyri.info/ddbdp/basp;55;220_1">BGU 13 2344</ref> (re-ed. Claytor and Elmaghrabi)
+                     </cell>
+                     <cell style="text-align: left;">77/78, 90/91, or 106/107</cell>
+                     <cell style="text-align: left;">Rent receipt</cell>
+                     <cell style="text-align: left;">Mikkalos</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">4</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://papyri.info/hgv/957686">P.Cair.Mich. 3 8.1</ref>
+                     </cell>
+                     <cell style="text-align: left;">ca. 82-96<note place="foot" xml:id="ftn13" n="13"><p style="text-align: left; ">This is the date range of the will itself; both examples are copies that may have been drawn up in the early second century: cf. already <ref target="https://papyri.info/biblio/64415">van Minnen 1994</ref>, 237, n. 41 on SB 18 13308 (now <ref target="https://papyri.info/hgv/14740">P.Cair.Mich. 3 8.2</ref>).</p></note>
+</cell>
+                     <cell style="text-align: left;">Will (copy)</cell>
+                     <cell style="text-align: left;">Petheus the elder and family</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">5</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://papyri.info/hgv/14740">P.Cair.Mich. 3 8.2</ref>
+                     </cell>
+                     <cell style="text-align: left;">ca. 82-96</cell>
+                     <cell style="text-align: left;">Will (copy)</cell>
+                     <cell style="text-align: left;">Petheus the elder and family</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">6</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://papyri.info/ddbdp/basp;55;225_2">P.Lond. 2 151 (p. 215)</ref> (re-ed. Claytor and Elmaghrabi)
+                     </cell>
+                     <cell style="text-align: left;">87/88 (?)</cell>
+                     <cell style="text-align: left;">Rent receipt</cell>
+                     <cell style="text-align: left;">Petheus the elder</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">7</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://papyri.info/ddbdp/p.lond;2;141">P.Lond. 2 141 (p. 181)</ref>
+                     </cell>
+                     <cell style="text-align: left;">88</cell>
+                     <cell style="text-align: left;">Land sale</cell>
+                     <cell style="text-align: left;">Mikkalos and Petheus</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">8</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://papyri.info/ddbdp/bgu;11;2017">BGU 11 2017</ref>
+                     </cell>
+                     <cell style="text-align: left;">ca. 88 (?)</cell>
+                     <cell style="text-align: left;">Property declaration</cell>
+                     <cell style="text-align: left;">Petheus</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">9</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://papyri.info/ddbdp/p.lond;2;142">P.Lond. 2 142 (p. 203)</ref>
+                     </cell>
+                     <cell style="text-align: left;">95</cell>
+                     <cell style="text-align: left;">Loan receipt</cell>
+                     <cell style="text-align: left;">Mikkalos</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">10</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://papyri.info/ddbdp/p.lond;2;143">P.Lond. 2 143 (p. 204)</ref>
+                     </cell>
+                     <cell style="text-align: left;">97</cell>
+                     <cell style="text-align: left;">Loan receipt</cell>
+                     <cell style="text-align: left;">Tapontos with Mikkalos</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">11</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://papyri.info/hgv/25611">P.Lond. 2 162a descr. (p. xv)</ref> (ed. Claytor)
+                     </cell>
+                     <cell style="text-align: left;">98</cell>
+                     <cell style="text-align: left;">Loan</cell>
+                     <cell style="text-align: left;">Mikkalos</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">12</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://papyri.info/ddbdp/bgu;20;2868">BGU 20 2868</ref>
+                     </cell>
+                     <cell style="text-align: left;">103</cell>
+                     <cell style="text-align: left;">Copy of bank loan</cell>
+                     <cell style="text-align: left;">Tapontos with Mikkalos</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">13</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://papyri.info/ddbdp/p.lond;2;172">P.Lond. 2 172 (p. 205)</ref>
+                     </cell>
+                     <cell style="text-align: left;">105</cell>
+                     <cell style="text-align: left;">Return of deposit</cell>
+                     <cell style="text-align: left;">Mikkalos</cell>
+                  </row>
+               </table>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95803">Claytor, W.G. (2020)</ref> “Two Papyri from the Archive of Mikkalos and the Establishment of the <emph rend="italics">Bibliotheke Enkteseon</emph>,” BASP 57: 19–42.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96039">Claytor, W.G. and Wegner, W. (2022, forthcoming)</ref> “Eine Quittung über <emph rend="italics">didrachmia</emph> des Suchos,” CdÉ 97.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/59063">Daris, S. (1988)</ref> “Le truppe ausiliarie romane in Egitto.” ANRW II.10.1: 743–766.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/12393">Delia, D. (1991)</ref> Alexandrian Citizenship During the Roman Principate. Atlanta.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/75017">Gonis, N. (2006)</ref> “New Texts from the Archive(s) of Dryton and Apollonia,” APF 52: 197–204.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96011">Gonis, N. (2021)</ref> “Ten Documentary Fragments of Late Date,” APF 67: 392–406.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96012">Haug, B. (2021)</ref> “Politics, Partage, and Papyri: Excavated Texts Between Cairo and Ann Arbor (1924–1953),” AJA 125.1: 143–163.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/10230">Husson, G. (1983)</ref> ΟΙΚΙΑ. Le vocabulaire de la maison privée en Égypte d'après les papyrus grecs. Paris.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96010">Kockelmann, H. (2017)</ref> Der Herr der Seen, Sümpfe und Flußläufe. Untersuchungen zum Gott Sobek und den ägyptischen Krokodilgötter-Kulten von den Anfängen bis zur Römerzeit, 3 volumes. Wiesbaden.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96009">Lesquier, J. (1918)</ref> L’armée romaine d’Égypte d’Auguste à Dioclétien. Cairo.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96042">Micucci, F. (2022)</ref> “Sale of a House in Soknopaiou Nesos: SB 22 15472 Completed,” Pylon 1.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/84719">Vandorpe, K., Clarysse, W. and Verreth, H. (2015)</ref> Graeco-Roman Archives from the Fayum. Leuven.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/64415">van Minnen, P. (1994)</ref> House-to-House Enquiries: An Interdisciplinary Approach to Roman Karanis, ZPE 100: 227–251.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>A Receipt for the Didrachmia of Souchos</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">971879</idno>
+               <idno type="HGV">971879</idno>
+               <idno type="ddb-filename">pylon.1.18</idno>
+               <idno type="ddb-hybrid">pylon;1;18</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">London, British Library, EES 89A/151(c)</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">13</measure>
+                              <measure type="width" unit="cm">12</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>25.05.62</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>A Receipt for the Didrachmia of Souchos</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.1.18</idno>
+               <idno type="ddb-hybrid">pylon;1;18</idno>
+               <idno type="HGV">971879</idno>
+               <idno type="TM">971879</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">A Receipt for the Didrachmia of Souchos</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1" xml:id="ed1ln1"/>Θρασύμαχος Μέλανος <expan>Μαρωνε<ex>ὺς</ex></expan>
+<lb n="2" xml:id="ed1ln2"/>Πτολεμαίωι τῶι καὶ Πεθεῖ
+<lb n="3" xml:id="ed1ln3"/><expan>π<supplied reason="lost">ρ</supplied><unclear>ε</unclear>σβ<ex>υτέρῳ</ex></expan> Πε<unclear>θ</unclear>έω<unclear>ς</unclear> <expan>χα<ex>ίρειν</ex></expan>. <expan>διαγέγρα<ex>φας</ex></expan> <unclear>τ</unclear>ὴν
+<lb n="4" xml:id="ed1ln4"/><expan><unclear>διδ</unclear>ραχμί<ex>αν</ex></expan> τοῦ Σούχου θεοῦ <expan>μεγάλ<ex>ου</ex></expan> 
+<lb n="5" xml:id="ed1ln5"/>μ<unclear>εγ</unclear>άλου ἧς ἐώνησαι κα<unclear>μ</unclear>άρας
+<lb n="6" xml:id="ed1ln6"/>ἣ <unclear>ἦ</unclear>ν πρότερον ἐλαιούργιον
+<lb n="7" xml:id="ed1ln7"/><choice><reg>ν<supplied reason="lost">υ</supplied>νί</reg><orig><unclear>ν</unclear><supplied reason="lost">υ</supplied><unclear>ν</unclear>εὶ</orig></choice> δὲ <expan>συμπέπτωκ<ex>έν</ex></expan> ἐν Καρανίδι 
+<lb n="8" xml:id="ed1ln8"/><unclear>π</unclear><supplied reason="lost">αρ</supplied><unclear>ὰ</unclear> <unclear>Γαίο</unclear>υ <supplied reason="lost">Λο</supplied><unclear>γ</unclear>γί<unclear>ν</unclear>ου <unclear>Γα</unclear>ίου <unclear>υἱ</unclear><supplied reason="lost">ο</supplied><unclear>ῦ</unclear> 
+<lb n="9" xml:id="ed1ln9"/><unclear>ἱ</unclear>π<supplied reason="lost">πέως ἄλης Αὐ</supplied>γούστη<unclear>ς</unclear> <supplied reason="lost">τύρμης</supplied>
+<lb n="10" xml:id="ed1ln10"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="6" unit="character" precision="low"/> <supplied reason="lost"><expan><ex>ἔτους</ex></expan></supplied> <num value="8"><unclear>η</unclear></num> Γερ<unclear>μ</unclear><supplied reason="lost">ανικείου</supplied>
+<lb n="10"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">A Receipt for the Didrachmia of Souchos</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">971879</idno>
+               <idno type="TM">971879</idno>
+               <idno type="HGV">971879</idno>
+               <idno type="ddb-hybrid">971879</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+            <p>
+               <milestone unit="line" n="1"/> Thrasymachos, son of Melas, of the Maronian deme, to Ptolemaios alias Petheus the elder, 
+son of Petheus, greetings. You have paid the <emph rend="italics">didrachmia</emph> of Souchos, twice greatest god, for the vaulted room you purchased, which was previously an oil mill but has now collapsed, located in Karanis, from Gaius Longinus, son of Gaius, cavalryman of [the <emph rend="italics">ala</emph>] <emph rend="italics">Augusta</emph>, [<emph rend="italics">turma</emph> of … Year] 8, Germanikeios …
+            </p>
+         </div>
+         </body>
+      </text>
+   </TEI>
+</TEI>

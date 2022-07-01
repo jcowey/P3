@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Aggiornamenti in tema di manumissiones nei testamenti romani d’Egitto prima di Severo Alessandro</title>
+                <author>
+                    <persName>
+                        <forename>Lucia Consuelo</forename>
+                        <surname>Colella</surname>
+                    </persName>
+                    <affiliation>
+                        <orgName>Università degli Studi di Napoli “Federico II”</orgName>
+                    </affiliation>
+                    <email>luciaconsuelo.colella@unina.it</email>
+                    <idno ana="hc:ORCIDURI">https://orcid.org/0000-0002-0132-4483</idno>
+                </author>
+                <funder>Deutsche Forschungsgemeinschaft</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date/>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Propylaeum</orgName>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+                </publisher>
+                <pubPlace>
+                    <placeName>Heidelberg</placeName>
+                    <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+                </pubPlace>
+                <date when="2022">2022</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno ana="hc:PrivateIdentifier">pylon.1.13</idno>
+                <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2022.1.89342</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl ana="hc:RecommendedBibliographicReference">L. Colella, “Aggiornamenti in tema di manumissiones nei testamenti romani d’Egitto prima di Severo Alessandro,” Pylon 1 (2022). DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2022.1.89342">https://doi.org/10.48631/pylon.2022.1.89342</ref>.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title level="j" ana="hc:MainTitle">Pylon</title>
+                        <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                        <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                        <imprint>
+                            <biblScope unit="volume">1</biblScope>
+                            <biblScope unit="article">13</biblScope>
+                            <date when="2022">2022</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <ab>Converted from a Word document for Pylon.</ab>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2022-03-08T15:50:02Z</date>
+                    <name/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="MainTitle">Aggiornamenti in tema di manumissiones nei testamenti romani d’Egitto prima di Severo Alessandro</titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <div type="article">
+                <note type="acknowledgement">Le date citate sono da intendersi tutte come dopo Cristo. La ricerca che ha portato a tali risultati è stata finanziata dallo European Research Council (ERC) all’interno del Programma di Ricerca e Innovazione Horizon2020 (Grant agreement nº <ref target="https://cordis.europa.eu/project/id/636983">636983</ref>); ERC-PLATINUM project ‘Papyri and Latin Texts: INsights and Updated Methodologies. Towards a philological, literary, and historical approach to Latin papyri’, Università degli Studi di Napoli ‘Federico II’ – P.I. Maria Chiara Scappaticcio. Ringrazio tutto lo staff di PLATINUM per il supporto ricevuto. I papiri latini editi e inediti qui citati verranno pubblicati in Scappaticcio, M. C. (ed.), Corpus of Latin Texts on Papyrus (CLTP).</note>
+                <p xml:id="p1" style="text-align: justify;">Le manomissioni, dirette o fedecommissarie, che occorrono nei testamenti romani dall’Egitto sono state esaminate in diversi studi di ampio respiro sulla prassi testamentaria romana e greco-egizia, focalizzati sulla documentazione;<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; text-align: justify;"> Vd. in part. <ref target="https://papyri.info/biblio/96020"><seg style="text-decoration: underline;">Kreller 1919</seg></ref>: 387-388; <ref target="https://papyri.info/biblio/6813"><seg style="text-decoration: underline;">Amelotti 1966</seg></ref>: 143-144; <ref target="https://papyri.info/biblio/96022"><seg style="text-decoration: underline;">Strobel 2014</seg></ref>: 102-104 (su FIRA 3 47), 118-120 e 130-133 (su <ref target="https://papyri.info/ddbdp/chr.mitt;;316">BGU 1 326</ref>), 270-282 (su <ref target="https://papyri.info/ddbdp/p.oxy;27;2474">P.Oxy. 27 2474</ref>); <ref target="https://papyri.info/biblio/84731"><seg style="text-decoration: underline;">Nowak 2015</seg></ref>: 175-182, con rimandi alla bibliografia giuridica sul tema. Vd. anche <ref target="https://papyri.info/biblio/14925">Migliardi Zingale 1997</ref>, nel commento ai singoli testi.</p></note> più in generale, inoltre, contributi interessati all’aspetto socio-economico hanno preso in considerazione le menzioni di schiavi a vario fine nei singoli documenti, includendo tra queste anche le manomissioni.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/biblio/35366">Montevecchi 1935</ref>; <ref target="https://papyri.info/biblio/12830">Kehoe 1997</ref> (con attenzione alle fonti giuridiche); <ref target="https://papyri.info/biblio/12372">Champlin 1991</ref>: 131-142 (con attenzione al legame degli schiavi col testatore). Sulle manomissioni in relazione all’acquisizione della cittadinanza vd. di recente <ref target="https://papyri.info/biblio/96026?q=Documenting+Roman+Citizenship">Dolganov 2021</ref>: 207-211, con precedente bibliografia. </p></note></p>
+                <p xml:id="p2" style="text-align: justify;">Senza la pretesa di trarre conclusioni di ampio respiro,<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; text-align: justify;"> Sulla schiavitù in Egitto vd. in part. <ref target="https://papyri.info/biblio/8963">Bieżuńska-Małowist 1977</ref>; <ref target="https://papyri.info/biblio/59538">Straus 1988</ref>; cf. <ref target="https://papyri.info/biblio/84731"><seg style="text-decoration: underline;">Nowak 2015</seg></ref>: 175-176 nn. 246-250.</p></note> inopportune dati la consistenza e lo stato di preservazione della documentazione, si può fare il punto sulle manumissiones testamento e per fideicommissum preservate dai testamenti romani d’Egitto fino al provvedimento normativo di Severo Alessandro,<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; text-align: justify;"> Vd. in part. <ref target="https://papyri.info/biblio/96020"><seg style="text-decoration: underline;">Kreller 1919</seg></ref>: 331-333; <ref target="https://papyri.info/biblio/6813"><seg style="text-decoration: underline;">Amelotti 1966</seg></ref>: 217-225; <ref target="https://papyri.info/biblio/69504">Rochette 2000</ref>; <ref target="https://papyri.info/biblio/84731"><seg style="text-decoration: underline;">Nowak 2015</seg></ref>: 110-113, con precedente bibliografia; cf. <ref target="https://papyri.info/biblio/96022"><seg style="text-decoration: underline;">Strobel 2014</seg></ref>: 25-26. Sulle manumissiones testamento e per fideicommissum vd. in part. Dig. 40.4-5; Gai. Inst. 2.263-267.</p></note> dopo il quale si osserva un sempre maggiore influsso della prassi locale. In questa sede verranno presentati gli elementi di novità che emergono dal riesame di singoli testi, prendendo in considerazione solo le disposizioni di manomissione contenute nei testamenti, non le menzioni di schiavi, liberti e precedenti manomissioni. </p>
+                <p xml:id="p3" style="text-align: justify;">Nel testamento più noto e meglio conservato, quello del cavaliere Antonius Silvanus, si dispone la manomissione dello schiavo Cronion si omnia recte tractaverit et trad&lt;id&gt;erit heredi meo s(upra) s(cripto) vel procuratori, nel qual caso il pagamento della vicesima manumissionum sarebbe stato a carico dell’eredità; la formula usata è liberum volo esse.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; text-align: justify;"> FIRA 3 47, tab. III pag. post. = CPL 221 (142, Alexandria), con aggiornamenti di <ref target="https://papyri.info/biblio/96029">Migliardi Zingale 2012</ref>: 147-151. L’interpretazione tradizionale della formula qui usata, liberum volo esse, come manomissione fedecommissaria (vd. tra tutti <ref target="https://papyri.info/biblio/6813"><seg style="text-decoration: underline;">Amelotti 1966</seg></ref>: 144 n. 1) è stata contestata a favore di una manomissione testamentaria diretta da alcuni studiosi agli inizi del XX sec. e poi in part. da <ref target="https://papyri.info/biblio/96019">d’Ors 1977</ref>, seguito da <ref target="https://papyri.info/biblio/96022"><seg style="text-decoration: underline;">Strobel 2014</seg></ref>: 102-103. Cf. FIRA 3 48, 53-55 = CIL 6 10229, con aggiornamenti di <ref target="https://papyri.info/biblio/96028">Pavese 2012</ref>: 153-164; nel testamento di Trimalchione il testatore dichiara di manomettere tutti i suoi servi (<ref target="https://papyri.info/biblio/6813"><seg style="text-decoration: underline;">Amelotti 1966</seg></ref>: 16 num. 13; per i limiti posti dalla lex Fufia Caninia vd. infra n. 11).</p></note> </p>
+                <p xml:id="p4" style="text-align: justify;">Di tipo evidentemente fedecommissario è la manomissione di due schiavi richiesta al pater da un filius familias in un codicillo di provenienza occidentale con la formula peto … manumittas vindictaque liberes.<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; text-align: justify;"> FIRA 3 56.8-10 = CIL 10 7457 (175, Cephaloedium), con aggiornamenti di <ref target="https://papyri.info/biblio/96028">Pavese 2012</ref>: 201-202: A te peto Eutychianum alumnum | meum manumittas vindictaque | liberes. Qui, dato lo status del richiedente, la manomissione è richiesta con una preghiera: vd. <ref target="https://papyri.info/biblio/6813"><seg style="text-decoration: underline;">Amelotti 1966</seg></ref>: 144 n. 1. </p></note> Un’analoga testimonianza si riscontra ora nella documentazione egiziana: il frammento latino P.Ryl. inv. 1048, infatti, databile su base paleografica tra il II e l’inizio del III secolo, preserva l’espressione [peto/rogo<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; text-align: justify;"> Oppure fidei committo. Per l’uso di peto vd. FIRA 3 56.8-10; per rogo vd. <ref target="https://papyri.info/ddbdp/chla;11;496/"><seg style="text-decoration: underline;">P.Hamb. 1 72</seg></ref>.7, datato dall’ed. pr. al II-III sec.</p></note> (ut)] manumittas vindictaque liberum [esse - - -], apparentemente ripetuta per cinque volte.<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; text-align: justify;"> <ref target="https://www.trismegistos.org/text/942926"><seg style="text-decoration: underline;">TM 942926</seg></ref>. L’editio princeps del papiro, di cui è ignota l’esatta provenienza, sarà da me pubblicata in un prossimo lavoro sui testamenti romani d’Egitto e confluirà nel CLTP*; si rimanda all’edizione per una discussione sulla possibile forma verbale persa nella lacuna a destra.</p></note> A sconsigliare l’identificazione del testo con un formulario è il fatto che l’aggettivo liber per due volte è declinato al femminile (rr. 3-4). Sembra, quindi, che abbiamo a che fare con diverse manomissioni fedecommissarie, appartenenti a un testamento o a un codicillo. Come nel codicillo del filius familias già noto si osserva qui l’esplicita richiesta di manumissio vindicta.<note place="foot" xml:id="ftn9" n="9"><p style="text-align: left; text-align: justify;"> Vd. supra n. 7. Sulla manumissio vindicta vd. in part. Dig. 40.2; cf. <ref target="https://papyri.info/biblio/96018">Salsano 1998</ref>: 180 nn. 4 e 5; <ref target="https://papyri.info/biblio/96021">López Barja de Quiroga 2007</ref>: 16-30; <ref target="https://papyri.info/biblio/96023?q=Freedman+in+the+Roman+World">Mouritsen 2011</ref>: 120-205.</p></note> Non conosciamo nel caso del frammento di Manchester lo status dell’ipotetico testatore, ma non è necessario che sia anch’egli un filius familias: si può ipotizzare che i molti schiavi da liberare (dato significativo, se consideriamo il numero medio degli schiavi per famiglia nell’Egitto romano<note place="foot" xml:id="ftn10" n="10"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/biblio/8963">Bieżuńska-Małowist 1977</ref>: 156-158; <ref target="https://papyri.info/biblio/13437">Bagnall and Frier 1994</ref>: 48-49.</p></note>) eccedessero il numero previsto per la manomissione testamentaria dalla lex Fufia Caninia.<note place="foot" xml:id="ftn11" n="11"><p style="text-align: left; text-align: justify;"> Vd. in part. Gai. Inst. 1.42-46; cf. <ref target="https://papyri.info/biblio/192">Gardner 1991</ref>; <ref target="https://papyri.info/biblio/96027?q=leyes+augusteas+sobre">López Barja de Quiroga 2008</ref>.</p></note> Che essa fosse osservata anche in Egitto è dimostrato dall’inclusione di una clausola apposita nel formulario conservato in <ref target="https://papyri.info/ddbdp/chla;11;496/"><seg style="text-decoration: underline;">P.Hamb. 1 72</seg></ref>.5-8.<note place="foot" xml:id="ftn12" n="12"><p style="text-align: left; text-align: justify;"> Sul testo vd. in part. <ref target="https://papyri.info/biblio/72590">Migliardi Zingale 2003</ref>. Cf. FIRA 3 48 (supra n. 5).</p></note> Lo stesso formulario contiene la conferma di eventuali divieti di manomissione espressi fuori dal testamento;<note place="foot" xml:id="ftn13" n="13"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/ddbdp/chla;11;496/"><seg style="text-decoration: underline;">P.Hamb. 1 72</seg></ref>.14-15; cf. FIRA 3 48.52-53: <ref target="https://papyri.info/biblio/6813"><seg style="text-decoration: underline;">Amelotti 1966</seg></ref>: 144 n. 1.</p></note> una disposizione analoga sembra preservata, pur con errori e omissioni dovuti probabilmente alla sua natura di stesura provvisoria, in <ref target="https://papyri.info/ddbdp/p.bagnall;;5v">P.Bagnall 5</ref>.4-6.<note place="foot" xml:id="ftn14" n="14"><p style="text-align: left; text-align: justify;"> 213, Oxyrhynchus. Vd. in part. r. 6, dove la prima parte va a mio avviso intesa come [εἴ τινα] ἐκώλυσα ἐλεύθερον &lt;ἐλευθέραν τε εἶναι&gt;; cf., pur con un differente tempo verbale, <ref target="https://papyri.info/ddbdp/chla;11;496/"><seg style="text-decoration: underline;">P.Hamb. 1 72</seg></ref>.14, li]ḅẹṛum liberamve · esse vetueṛ[o.</p></note></p>
+                <p xml:id="p5" style="text-align: justify;">La documentazione attesta anche la manomissione di schiavi che vengono subito dopo istituiti come eredi.<note place="foot" xml:id="ftn15" n="15"><p style="text-align: left; text-align: justify;"> Vd. in part. Gai. Inst. 2.186-190, con <ref target="https://papyri.info/biblio/6813"><seg style="text-decoration: underline;">Amelotti 1966</seg></ref>: 143; <ref target="https://papyri.info/biblio/84731"><seg style="text-decoration: underline;">Nowak 2015</seg></ref>: 175-177. Gli studiosi ipotizzano che, oltre ai legami personali con gli schiavi (<ref target="https://papyri.info/biblio/12372">Champlin 1991</ref>: 137-138), avesse un ruolo in questa scelta anche il fatto che gli schiavi del testatore fossero heredes necessarii. </p></note> Finora due sono i testamenti egiziani considerati attestazioni certe di heredis institutio cum libertate: <ref target="https://papyri.info/ddbdp/chr.mitt;;316">BGU 1 326</ref> e <ref target="https://papyri.info/ddbdp/p.select;;14">P.Select. 14</ref>.<note place="foot" xml:id="ftn16" n="16"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/ddbdp/chr.mitt;;316">BGU 1 326</ref> (194, Arsinoites), BL 10.14; <ref target="https://papyri.info/ddbdp/p.select;;14">P.Select. 14</ref> (II sec., Arsinoites). Le eredi del testamento citato in <ref target="https://papyri.info/ddbdp/chr.mitt;;89">BGU 2 613</ref>.30-31 sono verisimilmente liberte piuttosto che schiave istituite heredes cum libertate dal testatore, definito loro patrono: <ref target="https://papyri.info/biblio/6813"><seg style="text-decoration: underline;">Amelotti 1966</seg></ref>: 44 num. 27.</p></note> Nel primo il testatore C. Longinus Castor libera e nomina eredi due schiave, Marcella e Cleopatra, esplicitando che entrambe hanno più di trent’anni, con ogni probabilità perché secondo la lex Aelia Sentia gli schiavi manomessi a un’età inferiore non sarebbero diventati cittadini romani;<note place="foot" xml:id="ftn17" n="17"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/ddbdp/chr.mitt;;316">BGU 1 326</ref>.1.4-5: [ἐλευθέρας εἶναι κελεύω] Μαρκέλλαν δού[λη]ν μ[ο]υ μίζονα (l. μείζονα) ἐ[τ]ῶν | [τριάκοντα καὶ Κλεοπάτραν] δούλην μου μ[είζονα] ἐτῶν τριάκ[οντ]α. A rigore, il numero 30 è preservato solo per Cleopatra, ma non sembra possibile una diversa integrazione. Sull’integrazione di κελεύω al r. 4 vd. <ref target="https://papyri.info/biblio/96022"><seg style="text-decoration: underline;">Strobel 2014</seg></ref>: 118 n. 400. È possibile che anche <ref target="https://papyri.info/ddbdp/p.wisc;2;50">P.Wisc. 2.50</ref>.2.38 (165) contenga un riferimento a questa legge (servam meam maior[em). Sui limiti di età posti dalla lex Aelia Sentia vd. in part. Gai. Inst. 1.17-18, 29 e 31; Ulp. Reg. 1.12; cf., tra gli altri, <ref target="https://papyri.info/biblio/96027?q=leyes+augusteas+sobre">López Barja de Quiroga 2008</ref>. </p></note> è possibile che sia più giovane la schiava Sarapias, manomessa per testamento ma non istituita erede, di cui non viene indicata l’età.<note place="foot" xml:id="ftn18" n="18"><p style="text-align: left; text-align: justify;"> Alla donna vengono però lasciati beni in legato (<ref target="https://papyri.info/ddbdp/chr.mitt;;316">BGU 1 326</ref>.1.17-2.1); i Latini Iuniani non godevano della testamenti factio passiva e non potevano acquistare legati (Gai. Inst. 1.22-24; 2.110; Gnomon §19). Sul punto sono emerse diverse tesi; per una discussione aggiornata vd. <ref target="https://papyri.info/biblio/96022"><seg style="text-decoration: underline;">Strobel 2014</seg></ref>: 132-136, con precedente bibliografia.</p></note> Un caso analogo di heredis institutio cum libertate è stato ipotizzato per le due eredi di <ref target="https://papyri.info/ddbdp/p.select;;14">P.Select. 14</ref>.3-4, righi che l’editore così integra sulla base di <ref target="https://papyri.info/ddbdp/chr.mitt;;316">BGU 1 326</ref>: … ἐλεύθεραι ἔστωσαν αἱ δοῦλαί μο]υ̣ Ἰουλία Ἀπολλωνάριον μ[ειζο]τέρα̣ ἐ̣τ̣[ῶν] | [τριάκοντα καὶ - - - μειζοτέρα ἐτῶν τριάκοντ]α καὶ κλ̣η̣ρονόμοι μου ἔστωσα̣ν̣. In questo caso, tuttavia, non solo il numero degli anni è integrato, ma lo è la stessa qualifica di schiave per le donne: l’intera ricostruzione sembra poggiare sulla lettura μ[ειζο]τέρα̣ ἐ̣τ̣[ῶν] al r. 3, interpretata come riferimento alla lex Aelia Sentia. Ci si può allora chiedere come mai almeno una delle due schiave, Iulia Apollonarion, sia citata con il nomen del testatore, C. Iulius Diogenes, prima di essere manomessa. Che non si tratti di un errore di chi ha redatto o tradotto il testamento è dimostrato da un’ulteriore criticità: al r. 3 le tracce trascritte nell’editio princeps come μ[ειζο]τέρα̣ ἐ̣τ̣[ῶν] sono a mio avviso da leggere come ἀμφό̣τ̣εραι. Cade, dunque, ogni necessità di vedere nelle eredi delle schiave manomesse. </p>
+                <figure>
+                    <!--<graphic n="1001" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2f2c31a1-264a-4288-8cbf-d0e2313c8a5a/file/id/831156/file_version/name/original"/>-->
+                    <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/1597811"/>
+                    <head>P.Select. 14.3 = P.Vindob. G 25820 Pap. © Österreichische Nationalbibliothek, Papyrussammlung</head>
+                </figure>
+                <p xml:id="p6" style="text-align: justify;">Si osserva, inoltre, che al r. 4 va letto ἀποκλ̣η̣ρονόμοι al posto di καὶ κλ̣η̣ρονόμοι, cosicché si chiarisce anche la supposta assenza della exheredatio.<note place="foot" xml:id="ftn19" n="19"><p style="text-align: left; text-align: justify;"> Cf. e.g. απο in Ἀπολλωνάριον al rigo precedente. </p></note></p>
+                <figure>
+                    <!--<graphic n="1002" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3c3ddabb-3131-48fb-9d40-516c22ad9682/file/id/831157/file_version/name/original"/>-->
+                    <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/1597813"/>
+                    <head>P.Select. 14.4 = P.Vindob. G 25820 Pap. © Österreichische Nationalbibliothek, Papyrussammlung</head>
+                </figure>
+                <p xml:id="p7" style="text-align: justify;">La nuova lettura ἀμφό̣τ̣εραι e la menzione del nomen Iulia al r. 2 hanno particolare rilevanza nella ricostruzione dei rapporti delle eredi e degli altri individui menzionati nel testamento con C. Iulius Diogenes. Già nell’editio princeps si riconoscevano al r. 25 due figli naturali del testatore, Iulius Diogenes e Iulia Isarous, nati dalla sua liberta Iulia Primilla (anch’ella citata ai rr. 15 e 26) e noti anche da <ref target="https://papyri.info/ddbdp/sb;1;5217">SB 1 5217</ref>.<note place="foot" xml:id="ftn20" n="20"><p style="text-align: left; text-align: justify;"> post 4.2.148, Theadelphia.</p></note> Su questa base, poiché al r. 27 il testatore affida la sua sepoltura alle figlie, l’editore van Soest aveva giustamente osservato che, oltre alla figlia illegittima Iulia Isarous, dovesse essere nominata almeno un’altra figlia del testatore, ipotizzando che proprio le eredi fossero figlie di quest’ultimo. Questa possibilità resta in essere<note place="foot" xml:id="ftn21" n="21"><p style="text-align: left; text-align: justify;"> Cf. invece <ref target="https://papyri.info/biblio/12372">Champlin 1991</ref>: 141 n. 49, che ipotizza che le eredi siano concubine del testatore come in <ref target="https://papyri.info/ddbdp/chr.mitt;;316">BGU 1 326</ref>. Lo stato di conservazione del testo non permette di sapere con certezza se con τῶν θυ̣[γ]ατέρων̣ μου (r. 27) C. Iulius Diogenes si riferisse solo alle due eredi o anche a Iulia Isarous. Le considerazioni qui esposte mi inducono a lavorare a una riedizione del papiro, che conto di pubblicare in altra sede (cf. supra n. 8).</p></note> e, insieme alle considerazioni esposte sopra, permette di proporre in via ipotetica una ricostruzione alternativa delle prime clausole del testamento (formula introduttiva, heredis institutio, exheredatio dei ceteri omnes, cretio senza indicazione del termine) ai rr. 2-6, molto mutili a sinistra: - - - Γάϊος Ἰ̣ούλιος Διογένης οὐ[ετ]ρ̣α̣ν̣ὸ̣ς̣ | [ἐντίμως ἀπ̣ολυθεὶς<note place="foot" xml:id="ftn22" n="22"><p style="text-align: left; text-align: justify;"> Anziché ἐντίμως ἀπολυθείς, è possibile che l’inizio della lacuna contenesse l’unità in cui aveva servito il veterano, non sempre esplicitata (entrambe le informazioni in <ref target="https://papyri.info/ddbdp/chr.mitt;;316">BGU 1 326</ref>.1.2-3).</p></note> διαθήκην ἐποίησεν. Ἰουλία  ̣  ̣  ̣  ̣  ̣  ̣  ̣  ̣  ̣  ̣  ̣  ̣ κα]ὶ Ἰουλία Ἀπολλωνάριον ἀμφό̣τ̣εραι | [θυγατέρες μου ἐξ ἴσου μου κληρονόμοι ἔστωσαν· οἱ δὲ λοιποὶ πάντες] ἀποκλ̣η̣ρονόμοι μου ἔστωσα̣ν̣· | [προσερχέσθωσαν οὖν τῇ κληρονομίᾳ μου ὁπόταν γνωσθῶσι κα]ὶ̣ δυν̣η̣θῶσι μαρτύρα̣σ̣θ̣αι ἑαυτὰς | [ἐμοῦ κληρονόμους εἶναι ἑκάστη ὑπὲρ τοῦ ἰδίου μέρους χωρὶς δό]λου πονηροῦ.</p>
+                <div type="bibliography">
+                    <listBibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/6813">Amelotti, M. (1966)</ref> Il testamento romano attraverso la prassi documentale. I. Le forme classiche di testamento. Firenze.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/13437">Bagnall, R.S. and Frier, B.W. (1994)</ref> The Demography of Roman Egypt. Cambridge.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/8963">Bieżuńska-Małowist, II. (1977)</ref> L’esclavage dans l’Égypte gréco-romain. Période romaine. Wroclaw - Warszawa - Kraków - Gdansk.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/12372">Champlin, E. (1991)</ref> Final Judgments. Duty and Emotion in Roman Wills, 200 B.C.–A.D. 250. Berkeley - Los Angeles - Oxford.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96026">Dolganov, A. (2021)</ref> “Documenting Roman Citizenship,” in M. Lavan and C. Ando (ed.), Roman and Local Citizenship in the Long Second Century CE. Oxford 2021: 185–227.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96019">d’Ors, X. (1977)</ref> “Liberum esse volo,” Iura 28: 95–141.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/192">Gardner, J. F. (1991)</ref> “The purpose of the Lex Fufia Caninia,” Echos du Monde Classique 35 (n.s. 10): 21–39.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/12830">Kehoe, D.P. (1997)</ref> Investment, Profit, and Tenancy: the Jurists and the Roman Agrarian Economy. Ann Arbor.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96020">Kreller, H. (1919)</ref> Erbrechtliche Untersuchungen aufgrund der graeco-ägyptischen Papyrusurkunden. Leipzig - Berlin.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96021">López Barja de Quiroga, P. (2007)</ref> Historia de la manumisión en Roma: de los orígenes a los Severos. Madrid.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96027">López Barja de Quiroga, P. (2008)</ref> “Las leyes augusteas sobre manumisión,” in A. Gonzales (ed.), La fin du statut servile ? Affranchissement, libération, abolition. Besançon 2008: 219–227.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/35366">Montevecchi, O. (1935)</ref> “Ricerche di sociologia nei documenti dell’Egitto greco-romano: I. - I testamenti,” Aegyptus 15: 67–121.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/14925">Migliardi Zingale, L. (1997)</ref> I testamenti romani nei papiri e nelle tavolette d’Egitto. Torino.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/72590">Migliardi Zingale, L. (2003)</ref> “Sull’uso dei formulari nella confezione di documenti giuridici: testimonianze dall'Egitto romano e bizantino,” in C. Basile and A. Di Natale (ed.), Atti del VII Convegno Nazionale di Egittologia e Papirologia. Siracusa, 29 novembre - 2 dicembre 2001, Quaderni del Museo del Papiro 11: 99–106.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96029">Migliardi Zingale, L. (2012)</ref> “Testamentum Antoni Silvani equitis,” in G. Purpura (ed.), Revisione ed integrazione dei Fontes Iuris Romani Anteiustiniani. Torino: 147–151.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96023">Mouritsen, H. (2011)</ref> The Freedman in the Roman World. Cambridge.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/84731">Nowak, M. (2015)</ref> Wills in the Roman Empire: A Documentary Approach. Warszawa.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96028">Pavese, M.P. (2012)</ref> “Testamentum P. Dasumii Tusci nobilis viri (?),” in G. Purpura (ed.), Revisione ed integrazione dei Fontes Iuris Romani Anteiustiniani. Torino: 153–164.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/84656">Purpura, G. (ed.) (2012)</ref> Revisione ed integrazione dei Fontes Iuris Romani Anteiustiniani. Studi preparatori. II. Auctores – Negotia. Torino. </bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/69504">Rochette, B. (2000)</ref> “La langue des testaments dans l’Égypte du IIIe s. ap. J.-C.,” RIDA 47 (3e s.): 449–461.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96018">Salsano, D. (1998)</ref> “Manumissio vindicta in ambiente provinciale: problemi e proposte,” Chiron 28: 179–185.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/59538">Straus, J.A. (1988)</ref> “L’esclavage dans l’Égypte romaine,” ANRW II 10.1: 841–911.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96022">Strobel, B. (2014)</ref> Römische Testamentsurkunden aus Ägypten vor und nach der Constitutio Antoniniana. München.</bibl>
+                    </listBibl>
+                </div>
+                <div type="corrections">
+                    <table type="#corrections">
+                        <row>
+                            <cell style="text-align: left;">TargetFile</cell>
+                            <cell style="text-align: left;">
+                                <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.bagnall/p.bagnall.5v.xml#L67">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.bagnall/p.bagnall.5v.xml#L67</ref>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">Replace</cell>
+                            <cell style="text-align: justify;">&lt;lb n="6"/&gt;&lt;supplied reason="lost"&gt;εἴ τινα&lt;/supplied&gt; ἐκώλυσα ἐλεύθερον, ἐλεύθερος ἐλευθέρα μὴ ἔστω.</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">With</cell>
+                            <cell style="text-align: justify;">&lt;lb n="6"/&gt;&lt;supplied reason="lost"&gt;εἴ τινα&lt;/supplied&gt; ἐκώλυσα ἐλεύθερον &lt;app type="editorial"&gt;&lt;lem resp="L.C. Colella, Pylon 1 13 n14"&gt;&lt;supplied reason="omitted"&gt;ἐλευθέραν τε εἶναι&lt;/supplied&gt;&lt;/lem&gt;&lt;rdg/&gt;&lt;/app&gt;, ἐλεύθερος ἐλευθέρα μὴ ἔστω.</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;"/>
+                            <cell style="text-align: left;"/>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">TargetFile</cell>
+                            <cell style="text-align: left;">
+                                <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.select/p.select.14.xml#L64">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.select/p.select.14.xml#L64</ref>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">Replace</cell>
+                            <cell style="text-align: left;">&lt;lb n="3"/&gt;&lt;supplied reason="lost"&gt;διαθήκην ἐποίησεν. ἐλεύθεραι ἔστωσαν αἱ δοῦλαί μο&lt;/supplied&gt;&lt;unclear&gt;υ&lt;/unclear&gt; Ἰουλία Ἀπολλωνάριον μ&lt;supplied reason="lost"&gt;ειζο&lt;/supplied&gt;τέρ&lt;unclear&gt;α&lt;/unclear&gt; &lt;unclear&gt;ἐτ&lt;/unclear&gt;&lt;supplied reason="lost"&gt;ῶν&lt;/supplied&gt;</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">With</cell>
+                            <cell style="text-align: left;">&lt;lb n="3"/&gt;&lt;supplied reason="lost"&gt;διαθήκην ἐποίησεν. ἐλεύθεραι ἔστωσαν αἱ δοῦλαί μο&lt;/supplied&gt;&lt;unclear&gt;υ&lt;/unclear&gt; Ἰουλία Ἀπολλωνάριον  &lt;app type="editorial"&gt;&lt;lem resp="L.C. Colella, Pylon 1 13 §5"&gt;ἀμφ&lt;unclear&gt;ότ&lt;/unclear&gt;εραι&lt;/lem&gt;&lt;rdg&gt;μ&lt;supplied reason="lost"&gt;ειζο&lt;/supplied&gt;τέρ&lt;unclear&gt;α&lt;/unclear&gt; &lt;unclear&gt;ἐτ&lt;/unclear&gt;&lt;supplied reason="lost"&gt;ῶν&lt;/supplied&gt;&lt;/rdg&gt;&lt;/app&gt;</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;"/>
+                            <cell style="text-align: left;"/>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">TargetFile</cell>
+                            <cell style="text-align: left;">
+                                <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.select/p.select.14.xml#L66">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.select/p.select.14.xml#L66</ref>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">Replace</cell>
+                            <cell style="text-align: left;">&lt;lb n="4"/&gt;&lt;supplied reason="lost"&gt;τριάκοντα καὶ μειζοτέρα ἐτῶν τριάκοντ&lt;/supplied&gt;α καὶ κ&lt;unclear&gt;λη&lt;/unclear&gt;ρονόμοι μου ἔστωσ&lt;unclear&gt;αν&lt;/unclear&gt; </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">With</cell>
+                            <cell style="text-align: left;">&lt;lb n="4"/&gt;&lt;supplied reason="lost"&gt;τριάκοντα καὶ μειζοτέρα ἐτῶν τριάκοντ&lt;/supplied&gt;α &lt;app type="editorial"&gt;&lt;lem resp="L.C. Colella, Pylon 1 13 §6"&gt;ἀποκ&lt;unclear&gt;λη&lt;/unclear&gt;ρονόμοι&lt;/lem&gt;&lt;rdg&gt;καὶ κ&lt;unclear&gt;λη&lt;/unclear&gt;ρονόμοι&lt;/rdg&gt;&lt;/app&gt; μου ἔστωσ&lt;unclear&gt;αν&lt;/unclear&gt; </cell>
+                        </row>
+                    </table>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

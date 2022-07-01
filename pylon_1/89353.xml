@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sale of a House in Soknopaiou Nesos: SB 22 15472 Completed</title>
+            <author>
+               <persName>
+                  <forename>Federica</forename>
+                  <surname>Micucci</surname>
+               </persName>
+               <affiliation>
+                  <orgName>The Center for the Tebtunis Papyri, UC Berkeley</orgName>
+               </affiliation>
+            </author>
+            <funder>Deutsche Forschungsgemeinschaft</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2022">2022</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.1.6</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2022.1.89353</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">F. Micucci, “Sale of a House in Soknopaiou Nesos: SB 22 15472 Completed,” Pylon 1 (2022). DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2022.1.89353">https://doi.org/10.48631/pylon.2022.1.89353</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">1</biblScope>
+                     <biblScope unit="article">6</biblScope>
+                     <date when="2022">2022</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon. </ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2022-03-21T16:38:48Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Sale of a House in Soknopaiou Nesos: SB 22 15472 Completed</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">I thank Nikolaos Gonis and Todd Hickey for many useful suggestions and comments on this edition, and Peter Toth (Curator of Ancient and Medieval Manuscripts at the British Library) for permission to publish the papyrus. Images are reproduced courtesy of the British Library Board. </note>
+            <p xml:id="p1" style="text-align: left; "><ref target="https://papyri.info/ddbdp/sb;22;15472">SB 22 15472</ref> (BL Papyrus 1976) is a contract for the sale of a house in Soknopaiou Nesos with related documents dated to 134.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> All dates given throughout this paper are AD.</p></note> It was acquired by the British Museum from Ali abd el-Haj<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; text-align: justify;"> On this antiquities dealer, see <ref target="https://papyri.info/biblio/84769">Hagen and Ryholt 2016</ref>: 192−195.</p></note> in 1911 as part of a lot of papyri numbered 1873–2016 in the current inventory of the British Library.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> Information based on the register of papyri at the British Library.</p></note> It was not recognized at the time of the cataloguing that BL Papyrus 1918, which has remained unpublished, preserves most of the missing left-hand side of BL Papyrus 1976. A new edition of the document in its expanded form is offered below. </p>
+            <p xml:id="p2" style="text-align: left; ">As was noted in the editio princeps of <ref target="https://papyri.info/ddbdp/sb;22;15472">SB 22 15472</ref>,<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/biblio/65272">Sijpesteijn and Worp 1995</ref>.</p></note> the papyrus is a τόμος συγκολλήσιμος collecting the documentation pertaining to the sale of a house with courtyard in Soknopaiou Nesos. The sale was transacted through the public notarial office (ἀγορανομεῖον, l. 7) of Ptolemais Euergetis, the district capital. </p>
+            <p xml:id="p3" style="text-align: left; ">The roll is comprised of three documents, separated by two vertical kollēseis, which run at about 26 cm and 38 cm from the left-hand edge on the recto of the papyrus. In addition, there appears to be a third kollēsis at about 13–13.8 cm from the left, running through the first document. The first panel on the left, which would have measured approximately 3 cm, is missing; the pattern of damage along the central horizontal fold and along the vertical folds as well as the distribution of the insect holes indicate that the roll was folded at least<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; "> Depending on the width of the left margin, which is not preserved.</p></note> fourteen times along its height from right to left, and once horizontally in the middle. In addition, there is a tiny scrap preserving traces of one letter (two in the most fortunate case) from seven lines, framed with BL Papyrus 1976, but omitted in the editio princeps: this fragment perfectly joins BL Papyrus 1918 on the right-hand side of the latter, and contains further portions of lines 17–23.</p>
+            <p xml:id="p4" style="text-align: left; ">The roll includes: (1) in the first column, the contract of sale in the form of an objective ὁμολογία, drawn up in Ptolemais Euergetis. The text adheres to the standard form of such contracts and contains: date and place, body of the contract, subscriptions of the parties or of their representative, and registration docket, added in a different hand in the upper margin; (2) on a new sheet, in the second column, the declaration of property transfer submitted by the agent of the buyer to the record-keeper nominees of the archive of real property (βιβλιοθήκη ἐγκτήσεων) of the nome, signed in a different hand at the top; (3) on a much narrower sheet, in the third and last column, the bank διαγραφή acknowledging receipt of payment of six hundred drachmas. While all of the documents bear the same date, viz. 24 Neos Sebastos (= 20 November), which corresponds to the Egyptian month of Hathyr, the registration (l. 1) was effected six days later, on 30 Hathyr (= 26 November). </p>
+            <p xml:id="p5" style="text-align: left; ">We may therefore surmise that on 24 Hathyr the parties involved were in the district capital, and had the contract drawn up there. On the same day, the representative of the buyer submitted the declaration of property transfer, which was also signed on that day, presumably by the secretary of the archivists. In addition, a bank receipt for the payment of the full price was issued on the same day. A few days later, the property transfer was registered. The three documents may then have been pasted together for the purpose of private archiving, as has been suggested by the first editors. </p>
+            <p xml:id="p6" style="text-align: left; ">No exact parallel of rolls gathering all of these documents is known to this date. A similar case could be <ref target="https://papyri.info/ddbdp/chr.mitt;;172">Chr.Mitt. 172</ref> (Herm.; 256), concerning the sale of a house and collecting the bank διαγραφή, the subscription of one of the parties and the declaration submitted to the record keepers. The actual contract is not included (or is not preserved), even though its terms were repeated in the subscription of the seller. As the <ref target="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&amp;tx_dlf%5Bid%5D=https://www.papyrusportal.de/servlets/MCRMETSServlet/UBLPapyri_derivate_00000030?XSL.Style=dfg-papyri&amp;tx_dlf%5Bpage%5D=1&amp;cHash=0a984ff36aa8309bb3172ec11d95b304">online image</ref> shows,<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; "> With some difficulty, owing to the low resolution of the image.</p></note> this is another composite roll made out of various sheets pasted together. In addition, it has been suggested that <ref target="https://papyri.info/ddbdp/bgu;11;2095">BGU 11 2095</ref>, <ref target="https://papyri.info/ddbdp/bgu;11;2097">2097 </ref>and <ref target="https://papyri.info/ddbdp/bgu;11;2099">2099</ref> (Ptol. Euerg.; 83) were originally from the same composite roll: see further on this and on other similar cases <ref target="https://papyri.info/biblio/65272">Sijpesteijn and Worp 1995</ref>: 518.</p>
+            <p xml:id="p7" style="text-align: left; ">The parties involved in this transaction are members of the same family. The seller is Taharpagathes, daughter of Tesenouphis, a priestess from Soknopaiou Nesos, acting with her son Harpagathes as her legal guardian; she had inherited the house from her husband, Satabous, son of Tesies. The buyer is Taharpagathes’ grandson, Herieus, son of the late Herieus, one of Taharpagathes’ sons. The buyer is under age and has an agent, Gaion, son of Hipparchos. In Roman Soknopaiou Nesos, the "closed" nature of house property transfers, with sales involving members of the same family, is not unusual, even though the transfers would usually take place between parent and child: see e.g. <ref target="https://papyri.info/ddbdp/sb;1;5117">SB 1 5117</ref> (55; father selling to daughter), and <ref target="https://papyri.info/ddbdp/sb;10;10571">SB 10 10571</ref> = no. 3 below (194; mother selling to son); for further examples, also in the demotic sources, see <ref target="https://papyri.info/biblio/73224">P.Zauzich 13</ref>.4 n.</p>
+            <p xml:id="p8" style="text-align: left; ">Contemporary documents from Soknopaiou Nesos featuring namesakes may shed further light on the family of Taharpagathes. Below I discuss a series of texts that may be related to our papyrus.<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; text-align: justify;"> We are dealing with a family of priests in Soknopaiou Nesos. The names Teses, Tesenouphis, Satabous, Herieus and Harpagathes are recurrent in demotic sources from the late 1st century BC to the early 2nd century: see P.Dime 1−3 and <ref target="http://www.dime-online.de/datenblatt.php">http://www.dime-online.de/datenblatt.php</ref> (accessed 21 Oct. 2021). In most cases, however, we have too few details or too imprecise a date to draw any conclusion, and I have been unable to identify in the demotic documentation any of the people that may belong to Taharpagathes' family.</p><p style="text-align: left; text-align: justify;">In addition, a papyrus that I have not listed but that may be related to our text is <ref target="https://papyri.info/ddbdp/p.ryl;2;162">P.Ryl. 2 162</ref>, of 159, which records the sale of half share of a house in Soknopaiou Nesos. The buyer is Taharpagathes, daughter of Harpagathes, son of Harpagathes, assisted by her husband Stotoetis. Given that she is about thirty-five years old in this text, she was born sometime around 124, like Herieus, the buyer in our text. She could have been the granddaughter of a brother of Taharpagathes, named Harpagathes, but we do not have any evidence to support this.</p></note> Unfortunately, because many papyri from Soknopaiou Nesos entered Western collections via the antiquities market in the late nineteenth and early twentieth century, it is now impossible to ascertain how and when exactly these pieces, which were acquired by various institutions in different years,<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; text-align: justify;"> For example, of the texts discussed below <ref target="https://papyri.info/ddbdp/bgu;1;252">BGU I 252</ref> and <ref target="https://papyri.info/ddbdp/sb;16;12957">SB 16 12957</ref> were acquired in the 1890s: the former was part of the Brugsch collection, to which also <ref target="https://papyri.info/ddbdp/chr.mitt;;50">Chrest.Mitt. 50</ref> belonged (information taken from BerlPap, accessed 20 Sept 2021), while the latter was sold by Th. Graf to the British Museum in 1893, together with <ref target="https://papyri.info/ddbdp/p.lond;2;360dupl">P.Lond. II 360</ref>, from the archive of Segathis, daughter of Satabous (information based on the register of papyri at the British Library; see also the Catalogue of Additions to the Manuscripts in the British Museum in the years MDCCCLXXXVIII.−MDCCCXCIII. London, 1894: 425, 438–9). </p></note> were found.</p>
+            <p xml:id="p9" style="text-align: left; ">1. In <ref target="https://papyri.info/ddbdp/bgu;1;252">BGU 1 252</ref>, of 98 AD, Satabous, aged forty, acknowledges receipt of a sum of money that his wife, a certain Taharpagathes, daughter of Tesenouphis, brought to him as her dowry. In the editio princeps, line 3 was read as Σαταβοῦς Σ̣τ̣εσιῆ[ος], but the name "Stesies" is not otherwise attested, and the  <ref target="https://berlpap.smb.museum/02027/">image online</ref> shows that we could rather read the patronymic as Τεσιήο[υ]ς̣, with the preceding sigma belonging to Σαταβοῦτ̣ο̣ς̣, a mistaken genitive form of the name.<note place="foot" xml:id="ftn9" n="9"><p style="text-align: left; "><ref target="https://papyri.info/biblio/96096">Reiter 2022</ref>, also in Pylon 1, has come to the same conclusions.</p></note> It is tempting to identify the individuals mentioned in the Berlin papyrus with the namesakes of the British Library piece. Taharpagathes was twenty-five years old in <ref target="https://papyri.info/ddbdp/bgu;1;252">BGU 1 252</ref>, which would be overall consistent with the age restored in our papyrus (about sixty-five years old in 134 AD). This would indicate that she was born sometime between 69 and 73 AD. <ref target="https://papyri.info/ddbdp/bgu;1;252">BGU 1 252</ref> adds that the woman had a scar on a right part of the body that is not preserved: should the identification be correct, we now know that it was the right shin (see l. 4, οὐλὴι ἀντικνημίωι δ[ε]ξιῶι).<note place="foot" xml:id="ftn10" n="10"><p style="text-align: left; "> The lacuna at the beginning of BGU 1 252.5 can, moreover, well accommodate [ἀντικνημί]ω̣ι δεξιῶι. </p></note></p>
+            <p xml:id="p10" style="text-align: left; ">2. <ref target="https://papyri.info/ddbdp/sb;16;12957">SB 16 12957</ref> is another sale of a house in Soknopaiou Nesos from the reign of Trajan. In it, Taharpagathes, daughter of Tesenouphis, granddaughter of Herieus, aged about thirty, with a scar on the right shin, assisted by a relative of hers, sells a collapsed house in Soknopaiou Nesos for three hundred drachmas. As has been posited by the first editors of <ref target="https://papyri.info/ddbdp/sb;22;15472">SB 22 15472</ref>,<note place="foot" xml:id="ftn11" n="11"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/65272">Sijpesteijn and Worp 1995</ref>: 523, 2 n.</p></note> we may well be dealing with the same Taharpagathes as the one of our text. If so, assuming that she was about sixty-five years old in 134 (see below, 4 n.), she would have been thirty in 99 AD; in addition, if we take into account the possibility that this Taharpagathes is the same as the one in <ref target="https://papyri.info/ddbdp/bgu;1;252">BGU 1 252</ref>, of 98 AD, in which she is twenty-five years old, the date range proposed for <ref target="https://papyri.info/ddbdp/sb;16;12957">SB 16 12957</ref> (103-114 AD with F. Reiter, ZPE 107, 1995, 100) is quite fitting, because her age in <ref target="https://papyri.info/ddbdp/sb;16;12957">SB 16 12957</ref>.3 is 30+x years.</p>
+            <p xml:id="p11" style="text-align: left; ">3. A certain Taharpagathes, daughter of Herieus, granddaughter of Herieus, married to Pakysis, son of Satabous, occurs in <ref target="https://papyri.info/ddbdp/sb;10;10571">SB 10 10571</ref>, dated to 194. In this papyrus, she is selling for five hundred drachmas a house with courtyard in Soknopaiou Nesos that she had inherited from her mother. The buyer is her son Pakysis, still under age, assisted by his paternal grandmother. It may not be too farfetched to posit that this Taharpagathes, daughter of Herieus, was the great-granddaughter of our Taharpagathes. If so, her father was the buyer of the house in our text. It is also worth noting that <ref target="https://papyri.info/ddbdp/sb;10;10571">SB 10 10571</ref> is another papyrus from the British Library collection (BL Papyrus 1982) purchased with the roll edited here. We may consequently wonder whether we are dealing with a small archive of documents relating to Taharpagathes’ descendants (see also below, no. 4). It is also interesting to note that the contract from 194, drawn up in the district capital, bears two red stamps on the back, as does our papyrus: see below for further discussion on this.</p>
+            <p xml:id="p12" style="text-align: left; ">4. Taharpagathes’ husband, Satabous, was the son of Tesies.<note place="foot" xml:id="ftn12" n="12"><p style="text-align: left; text-align: justify;"> Perhaps a descendant of Teses of <ref target="https://papyri.info/ddbdp/cpr;7;1">CPR 7 1</ref>, priest in Soknopaiou Nesos at the very end of the 1st century BC; see also e.g. <ref target="https://papyri.info/ddbdp/p.louvre;1;1">P.Louvre 1 1</ref> (c. 13), <ref target="https://papyri.info/ddbdp/sb;1;5235">SB 1 5235</ref> and <ref target="https://papyri.info/ddbdp/sb;1;5236">5236</ref> (14), <ref target="https://papyri.info/ddbdp/sb;1;5232">SB 1 5232</ref> (15). The name Teses is well attested also in the demotic sources from Soknopaiou Nesos.</p></note> The name Tesies is a variant for the better attested Teses (<ref target="https://www.trismegistos.org/nam/detail.php?nam_id=1353">TM Nam 1353</ref>). We may wonder whether we can establish any connection with the namesakes occurring in contemporary documents from Soknopaiou Nesos. In this respect, the archive of Segathis, daughter of Satabous (<ref target="https://www.trismegistos.org/archive/213">TM Arch ID 213</ref>), granddaughter of Tesies, priestess from Soknopaiou Nesos, deserves further attention. We learn from <ref target="https://papyri.info/ddbdp/bgu;11;2043">BGU 11 2043</ref>, dated to 150, that Segathis was aged sixty (+?) at that time. If her father is to be identified with our Satabous, Segathis was born when he was about thirty years old. Provided that Satabous is the namesake of <ref target="https://papyri.info/ddbdp/bgu;1;252">BGU 1 252</ref>, he acknowledged receipt of the dowry from Taharpagathes at the age of forty. We may then take into account two options: either Satabous had Segathis (and her brother Stotoetis) from another woman, prior to his marriage with Taharpagathes, or, as the dowry receipt may have been drawn up sometime after their marriage, Segathis is Taharpagathes' daughter, who would have given birth to her when she was about seventeen years old. </p>
+            <p xml:id="p13" style="text-align: left; ">5. Satabous may also be identified with the namesake, son of Tesies, against whom a petition for a dispute over inheritance was filed by his sister Tabous in 99 (<ref target="https://papyri.info/ddbdp/chr.mitt;;50">Chrest.Mitt. 50</ref>).<note place="foot" xml:id="ftn13" n="13"><p style="text-align: left; "> Perhaps the same Tabous, daughter of Teses, of <ref target="https://papyri.info/ddbdp/bgu;3;829">BGU 3 829</ref>, dated to 110.</p></note> The text reveals that there was another brother, Herieus,<note place="foot" xml:id="ftn14" n="14"><p style="text-align: left; text-align: justify;"> One Herieus, son of Teses, and his "brother" are mentioned in P.Dime 3 28 DA.11, of 55; a certain Herieus son of Teses occurs also in P.Dime 2 49.9, dated to 91. However, given the few details we have and the popularity of the name in Soknopaiou Nesos, it remains doubtful whether these men can be identified with Herieus brother of Satabous.</p></note> who had a son, Harpagathes. In addition, one Harpagathes, son of Tesies, aged twenty-two, is mentioned in <ref target="https://papyri.info/ddbdp/p.amh;2;110">P.Amh. 2 110</ref>, of 75; in another text, <ref target="https://papyri.info/ddbdp/p.louvre;2;108">P.Louvre 2 108</ref>, of 122, a certain Taouetis, daughter of Tesies, from Soknopaiou Nesos, occurs. Are we dealing with siblings who have at least the same father, Tesies?</p>
+            <p xml:id="p14" style="text-align: left; ">6. The name of Taharpagathes’ father, Tesenouphis, is very common in Soknopaiou Nesos and, generally, in the Fayum, so it is difficult to identify him. One Tesenouphis, son of Herieus, brother of Harpagathes, aged twenty-three in 75 AD (hence born in 52 AD) is mentioned in <ref target="https://papyri.info/ddbdp/p.amh;2;110">P.Amh. 2 110</ref>, but we should also note that his father’s name is given as Satabous in lines 10–11. One Tesenouphis, son of Herieus, also occurs in P.Dime 3 9, dated to 23, but it seems unlikely to me that this is the father of our Taharpagathes, even though he may well have been a relative of hers.</p>
+            <p xml:id="p15" style="text-align: left; ">On the basis of the discussion above, a possible (and partial) family tree<note place="foot" xml:id="ftn15" n="15"><p style="text-align: left; "> A family tree is also provided in <ref target="https://papyri.info/biblio/65272">Sijpesteijn and Worp 1995</ref>: 521.</p></note> can be surmised as follows;<note place="foot" xml:id="ftn16" n="16"><p style="text-align: left; "> I have not included the family of Segathis, for which refer to <ref target="https://www.trismegistos.org/arch/archives/pdf/213.pdf">https://www.trismegistos.org/arch/archives/pdf/213.pdf</ref>.</p></note> dashed lines indicate that the family relation is highly uncertain.</p>
+            <figure>
+               <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/1457697"/>
+               <head>Fig. 1: Family tree of Taharpagathes</head>
+            </figure>
+            <p xml:id="p16" style="text-align: left; ">On the back of the joint fragments there are parts of two circles with remains of writing in red ink, the one on the right fainter than the one on the left. According to the first editors of BL Pap. 1976, “handelt es sich dabei nicht um Siegel,”<note place="foot" xml:id="ftn17" n="17"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/65272">Sijpesteijn and Worp 1995</ref>: 513.</p></note> but the traces are indeed compatible with two official stamps, similar to those preserved on the back of <ref target="https://papyri.info/ddbdp/sb;10;10571">SB 10 10571</ref>, mentioned above. Although no longer legible, the stamps would have contained the regnal year: compare the two well preserved stamps in red ink on the back of <ref target="https://papyri.info/ddbdp/p.tebt;2;397">P.Tebt. 2 397</ref> (Ptol. Euerg.; 198).<note place="foot" xml:id="ftn18" n="18"><p style="text-align: left; text-align: justify;">On red stamps (χαράγματα), used to authenticate documents and usually placed on the verso of the papyrus, see Schubert, P. (1990), “L'encre rouge dans les papyrus,” in: <ref target="https://papyri.info/biblio/12294">P.Diog.</ref>, pp. 37−39; <ref target="https://papyri.info/biblio/66172">Vandorpe 1996</ref>: 231−291; <ref target="https://papyri.info/biblio/85459">Vandorpe (2014)</ref>: 147−148. See also Vandorpe's update available at <ref target="https://www.trismegistos.org/seals/overview_7.html">https://www.trismegistos.org/seals/overview_7.html</ref>. For a list of red stamps known to date, refer to <ref target="https://www.trismegistos.org/stamps/list.php?p=2">https://www.trismegistos.org/stamps/list.php?p=2</ref>.</p></note></p>
+            <p xml:id="p17" style="text-align: left; ">The contract of sale was drawn up in the nome capital rather than in Soknopaiou Nesos itself, even though the village was provided with a γραφεῖον <note place="foot" xml:id="ftn19" n="19"><p style="text-align: left; "> On the γραφεῖον of Soknopaiou Nesos, see <ref target="https://papyri.info/biblio/79288">P.Dime 3</ref>, pp. 103−108.</p></note> at the time.<note place="foot" xml:id="ftn20" n="20"><p style="text-align: left; text-align: justify;"> And, should we identify the couple of <ref target="https://papyri.info/ddbdp/bgu;1;252">BGU I 252</ref> with our Satabous and Taharpagathes, the acknowledgment of receipt of dowry was also written in the nome capital. For further (though sporadic) early second-century evidence for contracts drawn up in the nome capital but relating to parties from Soknopaiou Nesos or to property located in this village see 2 n. below.</p></note> The first editors suggested that a reason for this may be that the guardian of Herieus, Gaion son of Hipparchos, whose origin is not given, lived in Ptolemais Euergetis (<ref target="https://papyri.info/biblio/65272">Sijpesteijn and Worp 1995</ref>: 522−523). Indeed, the names Gaion and Hipparchos are not well at home in the onomastics of Soknopaiou Nesos, and he had been appointed “for this transaction alone” (l. 35). Further, it may have been more convenient or faster to turn to the notarial office in the metropolis, where the property declaration and the bank receipt could be processed on the very same day. <note place="foot" xml:id="ftn21" n="21"><p style="text-align: left; "> On the increasing influence of the notarial office in the metropolis see <ref target="https://papyri.info/biblio/95843">Claytor 2020a</ref>: 323–338, with further bibliography.</p></note></p>
+            <p xml:id="p18" style="text-align: left; ">The hands that drew up the bodies of the documents belong to professional scribes: the bank διαγραφή displays a more rapid cursive hand, while the contract and the declaration of property transfer exhibit formal scripts typical of the bureaucratic milieus, very similar to one another and characterized by regular, well-formed and upright letterforms, moderately ligatured. The writing is parallel to the fibres; in addition to the remnants of the red stamps, on the back there are occasional dark spots, but they do not seem to be traces of writing.</p>
+            <figure>
+               <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/1635099"/>
+               <head>Fig. 2: © British Library Board (Papyrus 1918 + 1976 Recto)</head>
+            </figure>
+            <figure>
+               <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/1635101"/>
+               <head>Fig. 3: © British Library Board (Papyrus 1918 + 1976 Verso)</head>
+            </figure>
+            <figure>
+               <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/1644354"/>
+               <head>Fig. 4: © British Library Board (Papyrus 1918 Recto)</head>
+            </figure>
+            <figure>
+               <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/1644356"/>
+               <head>Fig. 5: © British Library Board (Papyrus 1976 Recto)</head>
+            </figure>
+            <div type="epidoc" subtype="DDB">
+               <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: left;">BL Papyrus 1918 +  </cell>
+                     <cell style="text-align: center;">11.5 (w) x 21.2 (h)</cell>
+                     <cell style="text-align: right;">Ptolemais Euergetis</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">BL Papyrus 1976</cell>
+                     <cell style="text-align: center;">fr. 1: 35 (w) x 21.4 (h)</cell>
+                     <cell style="text-align: right;">26 November 134</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell style="text-align: center;">fr. 2: 0.6 (w) x 3.4 (h)</cell>
+                     <cell/>
+                  </row>     
+               </table>
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <note target="#ed1ln1">
+                     <ref>1</ref>
+                     <p xml:id="p19">κατακεχώ(ρισται). The abbreviation is common: see e.g. <ref target="https://papyri.info/biblio/95803">Claytor 2020b</ref>: 26.</p>
+                     <p xml:id="p20">Νέου Σεβαστοῦ. For the honorific month of Neos Sebastos, which corresponded to the Egyptian month of Hathyr, see Scott, K. (1931), “Greek and Roman Honorific Months,” YCS 2: 243–244.</p>
+                  </note>
+                  <note target="#ed1ln2">
+                     <ref>2</ref>
+                     <p xml:id="p21">ἐν Π̣τολεμαίδι Εὐεργετίδι. For this name of the metropolis in notarial deeds from the Roman period, see <ref target="https://papyri.info/ddbdp/p.worp;;21">P.Worp 21</ref>.5 n. On the notarial offices of the district capital and villages in the second century, see above n. 21 and <ref target="https://papyri.info/biblio/87327">Reiter 2013</ref>: 159–167.</p>
+                     <p xml:id="p22">Other contracts of the Roman period drawn up in Ptolemais Euergetis and concerning property located in Soknopaiou Nesos or parties (explicitly) coming from this village are:<note place="foot" xml:id="ftn22" n="22"><p style="text-align: left; "> I have omitted cases where one party is from Soknopaiou Nesos and the other from the metropolis, such as <ref target="https://papyri.info/ddbdp/p.flor;1;42">P.Flor. 1 42</ref> (183).</p></note> <ref target="https://papyri.info/ddbdp/bgu;11;2095">BGU 11 2095</ref> (83), <ref target="https://papyri.info/ddbdp/cpr;1;11">CPR 1 11</ref> (108), <ref target="https://papyri.info/ddbdp/psi;13;1324">PSI 13 1324</ref> (173), <ref target="https://papyri.info/ddbdp/p.amh;2;102">P.Amh. 2 102</ref> (180), <ref target="https://papyri.info/ddbdp/stud.pal;22;42">Stud.Pal. 22 42</ref> (185), <ref target="https://papyri.info/ddbdp/sb;10;10571">SB 10 10571</ref> (194), <ref target="https://papyri.info/ddbdp/p.worp;;21">P.Worp 21</ref> (198–199?), <ref target="https://papyri.info/ddbdp/stud.pal;22;41">Stud.Pal. 22 41</ref> (208), <ref target="https://papyri.info/ddbdp/sb;14;11907">SB 14 11907</ref> (239), and possibly also <ref target="https://papyri.info/ddbdp/cpr;1;58">CPR 1 58</ref> (216–217).</p>
+                  </note>
+                  <note target="#ed1ln4">
+                     <ref>4</ref>
+                     <p xml:id="p23">[ἑξήκο]ντα πέντε. Given the number of letters in the lacuna and the fact that Taharpagathes’ son was already thirty-eight years old, restoring [ἑξήκο]ντα seems likely. If so, Harpagathes was born when his mother was twenty-seven. This would be overall consistent with the age of Taharpagathes in <ref target="https://papyri.info/ddbdp/bgu;1;252">BGU 1 252</ref>, on which see the introduction above. Alternatively, we cannot rule out restoring [πεντήκο]ντα, but the letters would be rather squeezed; in such a case, our Taharpagathes could not be the same person as the one in <ref target="https://papyri.info/ddbdp/bgu;1;252">BGU 1 252</ref>.</p>
+                     <p xml:id="p24">Ἁ̣[ρπαγ]ά̣θου τοῦ Σαταβο̣ῦτος. These are common names in Soknopaiou Nesos and generally in the Arsinoite nome. However, we may wonder whether there is any relation between our Harpagathes and Harpagathes the father of Taouetis in <ref target="https://papyri.info/ddbdp/bgu;1;87">BGU 1 87</ref> and P. <ref target="https://papyri.info/ddbdp/p.lond;2;304">P.Lond. 2 304</ref>; if Taouetis is his daughter, she would have been born when he was around twenty-seven. In <ref target="https://papyri.info/ddbdp/psi;13;1324">PSI 13 1324</ref>, of 173, there occur several children of the late Harpagathes son of Satabous.</p>
+                  </note>
+                  <note target="#ed1ln5">
+                     <ref>5</ref>
+                     <p xml:id="p25">ὄντ̣[ος δὲ] τ̣οῦ̣. Against the first editors’ supplement [αὐ]τ̣οῦ̣. See also below, l. 8. For a close parallel, compare <ref target="https://papyri.info/ddbdp/bgu;1;193">BGU 1 193</ref>.ii.6.</p>
+                     <p xml:id="p26">καί. The conjunction would not be needed here. In <ref target="https://papyri.info/ddbdp/bgu;1;193">BGU 1 193</ref>.ii.6, it is placed after ὄντος δέ. I take it as meaning “also,” given that Herieus is brother of the same mother (ὁμομήτριος, omitted as it is clear from the context), and “also” of the same father. </p>
+                     <p xml:id="p27">There are line fillers at the end of this and of the following three lines.</p>
+                  </note>
+                  <note target="#ed1ln6">
+                     <ref>6</ref>
+                     <p xml:id="p28">[Ἑριεῖ ἀφ]ήλικι. The suggested supplement is based on the length of the gap, but restoring [Ἑριεῦτι ἀφ]ήλικι cannot be ruled out. As it has not been given earlier, the name of the second party in the dative is needed here. This is repeated in the following line, where it would not be required: see 7 n. </p>
+                     <p xml:id="p29">μετὰ φροντιστοῦ. In the property declaration (l. 35), Gaion is called φροντιστοῦ πρὸ̣ς μόνον τοῦτο, that is, a legal guardian appointed for a single transaction. The usual term for a minor’s legal guardian is ἐπίτροπος: a <ref target="https://papyri.info/search?STRING=(%25CF%2586%25CF%2581%25CE%25BF%25CE%25BD%25CF%2584%25CE%25B9%25CF%2583%25CF%2584)&amp;no_caps=on&amp;no_marks=on&amp;target=text&amp;DATE_MODE=LOOSE&amp;DOCS_PER_PAGE=15&amp;STRING1=%25CE%25B1%25CF%2586%25CE%25B7%25CE%25BB&amp;target1=TEXT&amp;no_caps1=on&amp;no_marks1=on">search</ref> for φροντιστής and ἀφῆλιξ in papyri.info yields a small number of hits (18)<note place="foot" xml:id="ftn23" n="23"><p style="text-align: left; text-align: justify;"> I have not taken into account <ref target="https://papyri.info/ddbdp/p.oxy;42;3050">P.Oxy. 42 3050</ref>, <ref target="https://papyri.info/ddbdp/p.gen.2;1;44">P.Gen. 1(2nd ed.) 44</ref>, <ref target="https://papyri.info/ddbdp/chr.mitt;;91">Chr.Mitt. 91</ref>, <ref target="https://papyri.info/ddbdp/p.mich;9;526">P.Mich. 9 526</ref>, <ref target="https://papyri.info/ddbdp/p.mil.vogl;1;25">P.Mil.Vogl. 1 25</ref>, <ref target="https://papyri.info/ddbdp/p.petaus;;22">P.Petaus 22</ref>, and <ref target="https://papyri.info/ddbdp/p.ross.georg;2;18">P.Ross.Georg. 2 18</ref>, where the φροντιστής (or related word) mentioned is not the minor’s. In <ref target="https://papyri.info/ddbdp/p.oxy;4;727">P.Oxy. 4 727</ref>, the noun rather means “agent,” but the verb φροντίζω (l. 15) is used for the care of the minors.</p></note> as opposed to the occurrences of ἀφῆλιξ and ἐπίτροπος, which are more numerous (cf. <ref target="https://papyri.info/biblio/5279">Taubenschlag 1955</ref>: 157). See generally <ref target="https://papyri.info/biblio/96036">Kruse 2017</ref>: 175-188.</p>
+                  </note>
+                  <note target="#ed1ln7">
+                     <ref>7</ref>
+                     <p xml:id="p30">[πεπρακέν]αι τῷ Ἑριεῦτι. As the name of the buyer is usually given earlier (here it has been supplemented in l. 6), we would normally find αὐτῷ after the verb. </p>
+                     <p xml:id="p31">κατʼ ὠ̣νὴν διὰ τοῦ ἐν τῆι π̣ρ̣ο̣γεγραμμέ[νηι] π̣ό̣λ̣ε̣[ι] ̣ἀ̣γ̣[ο]ρ̣α̣[νομ]ε̣[ί]ο̣[υ]. For the same phrase, see <ref target="https://papyri.info/ddbdp/bgu;1;193">BGU 1 193</ref>.ii.10–11 (Ptol. Euerg.; c.136). A similar expression occurs in <ref target="https://papyri.info/ddbdp/p.oxy;42;3054">P.Oxy. 42 3054</ref>.18–19 (263), κατʼ ὠνὴν | τελειωθεῖσαν διὰ δημο̣σ̣ί̣ο̣υ̣ ἐν τῇ αὐτῇ πόλει. </p>
+                     <p xml:id="p32">π̣ρ̣ο̣γεγραμμέν̣[ηι]. Likely spelled with iota adscript given the use of the latter and the length of the gap.</p>
+                  </note>
+                  <note target="#ed1ln8">
+                     <ref>8–9</ref>
+                     <p xml:id="p33">τῶν περὶ | [τὴν Τααρπαγά]θ̣ην πατρός. Compare e.g. <ref target="https://papyri.info/ddbdp/p.fam.tebt;;15">P:Fam.Tebt. 15</ref>.24 (83), <ref target="https://papyri.info/ddbdp/bgu;1;252">BGU 1 252</ref> (98),<note place="foot" xml:id="ftn24" n="24"><p style="text-align: left; "> With Reiter <ref target="https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/reiter_miscellaneous">“Zwei Miszellen zu Texten aus Soknopaiu Nesos”</ref> (this issue).</p></note> <ref target="https://papyri.info/ddbdp/psi;9;1043">PSI 9 1043</ref>.13–14 (103), <ref target="https://papyri.info/ddbdp/bgu;1;196">BGU 1 196</ref>.18 (109–117) <ref target="https://papyri.info/ddbdp/chr.wilck;;356">Chrest.Wilck. 356</ref>.20  (149), and <ref target="https://papyri.info/ddbdp/p.oxy;43;3122">P.Oxy. 43 3122</ref>.10 (322).</p>
+                  </note>
+                  <note target="#ed1ln10">
+                     <ref>10</ref>
+                     <p xml:id="p34">[ἐπὶ] ταῖς οὔσαις αὐτῶν̣ εἰσόδοις καὶ ἐξόδοις κτλ. The participle οὔσαις agrees with εἰσόδοις, ἐξόδοις and φωσφορίαις, but not with the other words, as in <ref target="https://papyri.info/ddbdp/p.ryl;2;162">P.Ryl. 2 162</ref>.26–27 (Sokn. Nes.; 159), ταῖς οὔσ̣αις ἰσόδοις (l. εἰσόδοις) [κα]ὶ ἐκξόδοις (l. ἐξόδοις) καὶ φωσ[φορίοις καὶ τεί]χ̣ε̣|σι καὶ θ̣εμ̣εσίοις. For similar phrases, compare also e.g. <ref target="https://papyri.info/ddbdp/p.mich;6;428">P.Mich. 6 428</ref>.5 (Karanis; 154), ἐπὶ τοῖς οὖσι αὐτοῖς (l. αὐταῖς) εἰσόδοις καὶ ἐξόδοις καὶ θεμελίοις καὶ τείχεσι; <ref target="https://papyri.info/ddbdp/p.muench;3.1;85">P.Muench. 3.1 85</ref>.4 (Arsinoites; 1st half of II), [ε]ἰσόδοι[ς κ]α̣ὶ̣ ἐξόδοις καὶ φοσφορίαις (l. φωσφορίαις) καὶ θ̣[εμελίοις]; <ref target="https://papyri.info/ddbdp/p.sakaon;;60">P.Sakaon 60</ref>.8 (Ptol. Euerg.; 306), θεμελίοις καὶ τίχαισι (l. τείχεσι) καὶ φωσφορίαις καὶ εἰσόδοις καὶ ἐξόδοις.</p>
+                     <p xml:id="p35">αὐτῶν̣. The letter after omega is doubtful, but compare αὐτῶν in l. 18. I have ruled out the possibility that this may be iota adscript on the basis of the occurrences of the ending -ωι in the rest of the text (contrast e.g. l. 4, ἀντικνημίωι δ[ε]ξιῶι, and l. 5, υἱῶι); sigma would make no sense here. The correct form would be αὐτοῖς, which would agree with the two feminine nouns οἰκία and αὐλή as well as with the neuter τὰ συγκύροντα.</p>
+                     <p xml:id="p36">φ̣ω̣σ̣φορίαις. When fully preserved, the word is attested as a first declension noun in the papyri, with the exception of <ref target="https://papyri.info/ddbdp/p.stras;1;9">P.Stras. 1 9</ref>.8 and <ref target="https://papyri.info/ddbdp/p.vind.tand;;26">P.Vind.Tand. 26</ref>.14, which have the neuter in the dative plural (φωσφορίοις). Consequently, on the basis of the attestations of the term, I would not think that the correction of φωσφορίαις to φωσφορίοις suggested in <ref target="https://papyri.info/ddbdp/p.hamb;1;15">P.Hamb. 1 15</ref>.8 is needed.</p>
+                  </note>
+                  <note target="#ed1ln11">
+                     <ref>11</ref>
+                     <p xml:id="p37">ὑ̣π̣η̣γόρευσαν. Usually both parties would have dictated in “mutual agreement” (ἐκ συμφώνου), but in our case the buyer is a minor, and his representative may have not been aware of the boundaries of the house on sale, especially if he lived in Ptolemais Euergetis.</p>
+                     <p xml:id="p38">τῆς αὐτῆς καὶ  ̣[. Neighboring the property to the south is another house belonging to Taharpagathes and, apparently, another individual.  </p>
+                     <p xml:id="p39">ἑ̣τέρ̣α οἰκία. The first editors suggested restoring [πρε]σ̣[β]υ̣τ̣έ̣ρ̣α[ς], but this would not work with the preceding letters.</p>
+                  </note>
+                  <note target="#ed1ln12">
+                     <ref>12</ref>
+                     <p xml:id="p40">[ c. 12 ἀπηλιώτου Σ]τοτοήτιος καμηλών. Restored exempli gratia: depending on whether Stotoetis was the owner of the camel stable or his father, ἀπηλιώτου could have been written earlier in the lacuna. In the latter case, the genitive Στοτοήτιος would be the patronymic and we would translate “[to the west,] the camel stable [of …] son of Stotoetis.” </p>
+                     <p xml:id="p41">For contemporary occurrences of the term καμηλών, see <ref target="https://papyri.info/ddbdp/p.oxy;3;507">P.Oxy. 3 507</ref>.26–27 (146), <ref target="https://papyri.info/ddbdp/p.iand;7;142">P.Iand. 7 142</ref>.7 and passim (after 164), <ref target="https://papyri.info/ddbdp/p.mich;18;788">P.Mich. 18 788</ref>.10, 15 (c. 173), <ref target="https://papyri.info/ddbdp/p.oxy;9;1207">P.Oxy. 9 1207</ref>.3 (175–176), <ref target="https://papyri.info/ddbdp/p.oxy;41;2981">P.Oxy. 41 2981</ref>.20 (II),  <ref target="https://papyri.info/ddbdp/stud.pal;20;13r">Stud.Pal. 20 13r</ref>.12 (II), <ref target="https://papyri.info/ddbdp/p.oxy;3;533">P.Oxy. 3 533</ref>.22 (II/III). The term is attested in the following centuries as well: see e.g. <ref target="https://papyri.info/ddbdp/p.kell;1;38adupl">P.Kell. 1 38a</ref>.9–10 and its duplicate <ref target="https://papyri.info/ddbdp/p.kell;1;38bdupl">P.Kell. 1 38b</ref>.9–10 (333),  <ref target="https://papyri.info/ddbdp/p.mert;1;39">P.Mert. 1 39</ref>.6–7, 17 (IV/V), <ref target="https://papyri.info/ddbdp/p.gen;4;186">P.Gen. 4 186</ref>.14 and passim (473–490), <ref target="https://papyri.info/ddbdp/p.lond;5;1722">P.Lond. V 1722</ref>.14 (530).</p>
+                  </note>
+                  <note target="#ed1ln12">
+                     <ref>12–13</ref>
+                     <p xml:id="p42">ἐκ τοῦ τοῦ ἀφήλικος Ἑ̣ριέως | [λόγου]. For the meaning of this expression and its attestations, see <ref target="https://papyri.info/ddbdp/p.bingen;;75">P.Bingen 75</ref>.3–5 n.</p>
+                  </note>
+                  <note target="#ed1ln13">
+                     <ref>13</ref>
+                     <p xml:id="p43">δραχμὰς ἑξακοσίας. Although the price is high, similar or even higher prices are attested for sales of houses in Soknopaiou Nesos between the late first and the second century: see e.g. <ref target="https://papyri.info/ddbdp/p.ryl;2;107">P.Ryl. 2 107</ref>, from 83 (200 dr. for three-quarters of half share of a house and yard); <ref target="https://papyri.info/ddbdp/sb;28;16904">SB 28 16904</ref>, from 90 (200 dr. for the fourth part of a two-storied house with yard); <ref target="https://papyri.info/ddbdp/sb;28;16905">SB 28 16905</ref>, from 82–96 (100 dr. for 2/15 of a house and yard with atrium); <ref target="https://papyri.info/ddbdp/bgu;1;350">BGU 1 350</ref>, from 103–115 (500 dr. for the third part of a house with yard and atrium).</p>
+                     <p xml:id="p44">For a discussion on house prices in the Arsinoite nome, see <ref target="https://papyri.info/biblio/55883">Maehler 1983</ref>: 119–137.</p>
+                     <p xml:id="p45">παραχρῆμα. Often placed next to ἐκ πλήρους and followed by διὰ χειρός, which is not present here.</p>
+                  </note>
+                  <note target="#ed1ln14">
+                     <ref>14</ref>
+                     <p xml:id="p46">[διὰ τῆς Σαβίνου τραπέζης]. Possibly spelled Σαβείνου, as in ll. 25 and 47.</p>
+                     <p xml:id="p47">There were various banks “of Sabinus” located in different quarters of the metropolis, viz. the Treasuries Quarter (<ref target="https://www.trismegistos.org/place/1021">Tameion</ref>), where there are the banks “of Apollonius and Sabinus”, and “of Sabinus” (see e.g. <ref target="https://papyri.info/ddbdp/p.mert;2;67">P.Mert. 2 67</ref>.4–5, <ref target="https://papyri.info/ddbdp/p.tebt;2;389">P.Tebt. 2 389</ref>, <ref target="https://papyri.info/ddbdp/psi;3;159">PSI 3 159</ref>.4–5 (151), and the <ref target="https://www.trismegistos.org/place/1293">Quarter of the Macedonians</ref>, attested in <ref target="https://papyri.info/ddbdp/sb;10;10723">SB 10 10723</ref>.15–16 (161).</p>
+                     <p xml:id="p48">στοᾶς Ἀθηνᾶς. In this stoa of the temple of Athena in Arsinoe, at least two other banks are attested, viz. the bank of Sarapion in 146 (<ref target="https://papyri.info/ddbdp/p.col;10;259">P.Col. X 259</ref>.3–4), and one of Dioxenos and Sarapion sometime in the mid second century and in 166 (<ref target="https://papyri.info/ddbdp/cpr;1;206_1">CPR 1 206.1</ref>.10, and <ref target="https://papyri.info/ddbdp/chr.mitt;;176">Chr.Mitt. 176</ref>.56). For further banks in Arsinoe, see <ref target="https://papyri.info/biblio/64579">Bogaert 1995</ref>: 138–145. </p>
+                     <p xml:id="p49">τῷ Ἑριεῖ. Compare l. 7, where the dative is Ἑριεῦτι.</p>
+                  </note>
+                  <note target="#ed1ln15">
+                     <ref>15</ref>
+                     <p xml:id="p50">[ἀ]ν̣έπα̣φα καὶ ἀνε̣νε̣χ̣ύραστα κτλ. A formula typical of Arsinoite contracts of the Roman period: for contemporary parallels, see e.g. <ref target="https://papyri.info/ddbdp/p.fam.tebt;;23">P.Fam.Tebt. 23</ref>.14 (123), <ref target="https://papyri.info/ddbdp/bgu;1;193">BGU I 193</ref>.19 (136), <ref target="https://papyri.info/ddbdp/cpr;1;223">CPR 1 223</ref>.18 (117–37), <ref target="https://papyri.info/ddbdp/p.bas;1;7">P.Bas. 1 7</ref>.21 (117–38), <ref target="https://papyri.info/ddbdp/p.mich;6;428">P.Mich. 6 428</ref>.7 (154).</p>
+                  </note>
+                  <note target="#ed1ln16">
+                     <ref>16</ref>
+                     <p xml:id="p51">Parallels and the following δέ clause suggest that μὲν ἀπὸ τῶν ἔμπροσθεν χρόνων may have been inadvertently left out of the contract, since there is no room to restore in the lacuna.    </p>
+                  </note>
+                  <note target="#ed1ln17">
+                     <ref>17</ref>
+                     <p xml:id="p52">[μηδένα κω]λ̣ύ̣ο̣ν̣τ̣α̣ ̣ ̣ ̣ ̣ Ἑ̣ρ̣ι̣[εῦν] κτλ. What survives of the beginning of the line is damaged, and a strip of fibre covers part of the letters. This is where this Arsinoite formula is expected, but after the participle and before the name of the buyer there are further traces of writing: before epsilon, there seems to be a nu. I have considered reading τόν or αὐτόν, but the traces before the alleged nu do not seem to be compatible with omicron. On the basis of the space available and the traces, I have ruled out other options found in this formula in other texts, such as τὸν ἠγορακότα, τὸν πριάμενον, or τρόπῳ μηδενί.</p>
+                     <p xml:id="p53">The formula is attested in Arsinoite documents from the Roman period. For second-century parallels, compare e.g. <ref target="https://papyri.info/ddbdp/bgu;1;193">BGU 1 193</ref>.21–22 (136), <ref target="https://papyri.info/ddbdp/bgu;11;2051">BGU 11 2051</ref>.15 (126–28 or 147–49), and <ref target="https://papyri.info/ddbdp/cpr;1;223">CPR 1 223</ref>.20–21 (117–37).</p>
+                  </note>
+                  <note target="ed1ln18">
+                     <ref>18</ref>
+                     <p xml:id="p54">[ἀποφερομένου]ς καὶ καθαι̣ροῦντας̣ κτλ. The rights of the purchaser are listed in great detail. No exact parallel is attested, but combinations of some of these verbs are well attested in Arsinoite contracts: see e.g.  <ref target="https://papyri.info/ddbdp/p.hamb;3;218">P.Hamb. 3 218</ref>.8–9 (29–30), <ref target="https://papyri.info/ddbdp/sb;16;12957">SB 16 12957</ref>.15–16 and <ref target="https://papyri.info/ddbdp/sb;10;10571">SB 10 10571</ref>.18–19 (mentioned above), <ref target="https://papyri.info/ddbdp/p.horak;;23">P.Horak 23</ref>.25 (148–49?), and <ref target="https://papyri.info/ddbdp/p.hamb;1;15">P.Hamb. 1 15</ref>.14 (209). In these clauses, the verb ἀποφέρομαι can also be accompanied by εἰς τὸ ἴδιον, “for private use,” as e.g. in <ref target="https://papyri.info/ddbdp/p.mich;6;428">P.Mich. 6 428</ref>.9, <ref target="https://papyri.info/ddbdp/p.ryl;2;162">P.Ryl. 2 162</ref>.29–30, and <ref target="https://papyri.info/ddbdp/sb;22;15326">SB 22 15326</ref>.14. In our text, however, there is not enough room to accommodate the prepositional phrase. For further discussion, see <ref target="https://papyri.info/ddbdp/p.hamb;3;218">P.Hamb. 3 218</ref>.7–9 n.</p>
+                  </note>
+                  <note>
+                     <ref>19–20</ref>
+                     <p xml:id="p55">ἀποτεισάτωι  … τὰς ἴσας. For the penalty clause, see Berger, A. (1911), Die Strafklauseln in den Papyrusurkunden: ein Beitrag zum gräko-ägyptischen Obligationenrecht, Leipzig and Berlin: 128–36.</p>
+                  </note>
+                  <note target="ed1ln19">
+                     <ref>19</ref>
+                     <p xml:id="p56">τ[ιμὴν μ]ε̣θ̣ʼ ἡ̣μι̣[ο]λ̣ίας. Only tiny traces of the upper parts of what I take as epsilon and theta survive. </p>
+                  </note>
+                  <note target="#ed1ln21">
+                     <ref>21</ref>
+                     <p xml:id="p57">[Σουχᾶς]  ̣υ̣ ̣ο̣υ. The name of the ὑπογραφεύς has been restored on the basis of l. 27. What follows should be the name of his father, apparently corrected over another word. The scribe seems to have first written ας; traces of a preceding letter are also visible. Perhaps the name Souchas (or its ending, given the little space available) was repeated by mistake and then corrected. The overwrite, however, poses problems: I have considered reading [Π]ε̣κ̣υ̣σ̣ίο̣υ, but this seems difficult given that there should be no room in the lacuna to accommodate any further letters.</p>
+                     <p xml:id="p58">The identity of the ὑπογραφεύς is always provided, in contrast to the anonymity of scribes of notarial contracts: on this, see most recently <ref target="https://papyri.info/biblio/95843">Claytor 2020a</ref>: 335–336.</p>
+                     <p xml:id="p59">Ταα̣ρ̣πα̣γάθη̣ς Τεσενούφεως̣. The subscription is written in a large and careless, though not inexperienced, hand.</p>
+                     <p xml:id="p60">κυρίου. The first editors read κυυρίου, but what they took as the first upsilon could rather be a wide ligature, as occurs elsewhere in the subscription: compare e.g. Ἑριεῦτι and ἐπί in the following line.</p>
+                  </note>
+                  <note target="#ed1ln22">
+                     <ref>22</ref>
+                     <p xml:id="p61">τ̣ῷ̣ Ἑ̣ριεῦ̣τ̣ι̣. The ὑπογραφεύς tends to write rather large letters, and the first traces are compatible with the article τῷ, against the reading Ἑ̣ρ̣[ι]ε̣ῖ̣ of the first editors. There follows the dative of the name Herieus, which was taken by the first editors as the genitive of the father’s name followed by ἔτι. </p>
+                     <p xml:id="p62">χρόνο̣(ν). There seems to be a tiny circle high in the line, compatible with omicron.</p>
+                  </note>
+                  <note target="#ed1ln23">
+                     <ref>23</ref>
+                     <p xml:id="p63">οἰκίαν. Apparently with a wide ligature between kappa and iota as in κυρίου in l. 21 (see above, 21 n.), against the first editors' reading οἰκείαν.</p>
+                     <p xml:id="p64">κ̣α̣ί̣. Only the upper half of kappa remains; the letter, wide and characterized by a left-pointing hook, displays the same shape as the one in καθώς in l. 26, as opposed to the more cursive form it exhibits in the rest of the subscription.</p>
+                     <p xml:id="p65">αὐλὴν  ̣ κ̣α̣ί̣. καί is expected here, but is difficult to read. The first editors noticed traces of two letters after αὐλήν, but the horizontal low in the line could be an extension of the right stem of nu: compare the shape of the letter in [τὴν τιμὴ]ν, l. 25. There follows an upright that is difficult to explain: it could be part of a more elaborated shape of kappa, but such form would not occur elsewhere in the subscription. Perhaps, the scribe started to write kappa in the fashion described above (see 23 n.), first drawing the stem, which may have ended with a hook at the top, not preserved, and then changing to the more cursive shape of the same letter. In addition, iota is not missing, as suggested by the first editors, but seems to be the sinusoid descending from alpha, perhaps written after correction: compare e.g. the shape of iota in καί in the following line and in line 25. </p>
+                  </note>
+                  <note target="#ed1ln25">
+                     <ref>25</ref>
+                     <p xml:id="p66">βεβαιώσο̣ (l. βεβαιώσω). The last letter is very narrow compared to the size of omega throughout the subscription, and rather resembles omicron. For the same mistake, see <ref target="https://papyri.info/ddbdp/p.mich;5;290dupl">P.Mich. 5 290dupl</ref>.10 (Ars.; 37), and <ref target="https://papyri.info/ddbdp/cpr;15;3qtpl">CPR 15 3qtpl</ref>.6 (Sokn. Nes.; 11), where the ending was corrected.</p>
+                     <p xml:id="p67">βεβαιώσι̣. Against the first editors’ reading βεβαιώσε̣ι̣, as there does not seem to be enough room to accommodate epsilon.</p>
+                  </note>
+                  <note target="#ed1ln26">
+                     <ref>26</ref>
+                     <p xml:id="p68">τε. Letters are not distinct and display extra-ligatures.</p>
+                  </note>
+                  <note target="#ed1ln27">
+                     <ref>27–28</ref>
+                     <p xml:id="p69">[γέ]γονʼ ἐ̣ς τὸν φροντιζόμενον ὑπʼ ἐμοῦ Ἑριεῦν ἀφή|[λικα ἡ ἡ ὠ]ν̣ὴι καθὼς πρόκιται. For the possible meaning of this expression, see <ref target="https://papyri.info/biblio/67504">Hagedorn 1998</ref>, who discusses the interpretation of <ref target="https://papyri.info/biblio/66229">Worp 1996</ref>.</p>
+                  </note>
+                  <note target="#ed1ln28">
+                     <ref>28</ref>
+                     <p xml:id="p70">[ἡ ὠ]ν̣ήι. In contracts for sale, we usually find other terms here, such as πρᾶσις (see e.g. <ref target="https://papyri.info/ddbdp/p.mich;5;251">P.Mich. 5 251</ref>.18) and ὁμολογία (see e.g. <ref target="https://papyri.info/ddbdp/psi;8;908">PSI 8 908</ref>.12). ὠνή occurs e.g. in one of the subscriptions in <ref target="https://papyri.info/ddbdp/psi;12;1228">PSI 12 1228</ref>.41–42 (Oxy. (?); 188), and in <ref target="https://papyri.info/ddbdp/cpr;1;140">CPR 1 140</ref>.3 (Ars. or Herakl.; 221), ἡ ὠνὴ κυρία.</p>
+                  </note>
+                  <note target="#ed1ln29">
+                     <ref>29</ref>
+                     <p xml:id="p71">Ἀπολλω( ) σεση(μείωμαι). The same signature is found at the top of <ref target="https://papyri.info/ddbdp/p.bon;;24b">P.Bon. 24b</ref> and <ref target="https://papyri.info/ddbdp/p.bon;;24c">P.Bon. 24c</ref>, which were submitted to the same group of archivists (see next note). The Apollonios who signed <ref target="https://papyri.info/ddbdp/bgu;11;2093">BGU 11 2093</ref> (125) and <ref target="https://papyri.info/ddbdp/chr.mitt;;204">P.Lond. 2 299 (p. 150) = Chrest.Mitt. 204</ref> (128) is a different man, based on the hand. </p>
+                  </note>
+                  <note target="#ed1ln31">
+                     <ref>31</ref>
+                     <p xml:id="p72">Δίωι καὶ Ὡριγένει καὶ Πτολεμαίωι καὶ Ἡρακ(λείδει). As has already been posited by the first editors, the same individuals (in a different order) occur in <ref target="https://papyri.info/ddbdp/p.bon;;24b">P.Bon. 24b</ref> and <ref target="https://papyri.info/ddbdp/p.bon;;24c">P.Bon. 24c</ref>, dated to 135. Here, they are still addressed as nominees. In addition, one Herakleides, former gymnasiarch and keeper of the public archives, is addressed along with a colleague whose name is lost in <ref target="https://papyri.info/ddbdp/bgu;11;2092">BGU 11 2092</ref>.2 (Ptol. Euerg.; 140). We may wonder whether in the lacuna one of the nominees of our text was mentioned.</p>
+                     <p xml:id="p73">γεγυ(μνασιαρχηκόσι). The first editors read γυμ(νασιαρχήσασι), but the superscript letter is an upsilon; the second gamma develops into a line filler.</p>
+                  </note>
+                  <note target="#ed1ln32">
+                     <ref>32</ref>
+                     <p xml:id="p74">δοθεῖσι εἰς κλῆ(ρον) βιβλ(ιοφυλακίας) ἐνκτή(σεων) Ἀρσι(νοίτου). Resolved as δοθ(εῖσι) εἰς κληρ(ονόμων) βιβλ(ιοθήκην) ἐνκτ(ήσεων) Ἀρσ(ινοίτου) in <ref target="https://papyri.info/ddbdp/p.bon;;24b">P.Bon. 24b</ref>.4 and <ref target="https://papyri.info/ddbdp/p.bon;;24c">P.Bon. 24c</ref>.4, but for the expression and its meaning, see the discussion in <ref target="https://papyri.info/biblio/64938">Lewis 1995</ref>.</p>
+                     <p xml:id="p75">For a recent study on the creation of the archive of real property in the Arsinoite nome, see <ref target="https://papyri.info/biblio/95803">Claytor 2020b</ref>: 35–42.</p>
+                  </note>
+                  <note target="#ed1ln33">
+                     <ref>33</ref>
+                     <p xml:id="p76">παρά. With an enlarged pi.</p>
+                  </note>
+                  <note target="#ed1ln35">
+                     <ref>35</ref>
+                     <p xml:id="p77">τοῦτο. Followed by a tiny oblique high in the line: a pen slip?</p>
+                  </note>
+                  <note target="#ed1ln35">
+                     <ref>35–36</ref>
+                     <p xml:id="p78">Γαίωνος τοῦ̣ | Ἱππάρχου. Perhaps added by a different hand, smaller and less regular. The letters in the patronymic are large and well-spaced, so as to occupy as much of the blank space available as possible.</p>
+                  </note>
+                  <note target="#ed1ln37">
+                     <ref>37</ref>
+                     <p xml:id="p79">τῇ ἐνεσ̣τώσῃ ἡμέρᾳ. For other declarations submitted to the βιβλιοφύλακες about property purchased on the same day, see e.g. <ref target="https://papyri.info/ddbdp/p.tebt;2;472">P.Tebt. 2 472</ref> (after 120–121), or <ref target="https://papyri.info/ddbdp/p.bon;;24b">P.Bon.24b</ref> (135). </p>
+                  </note>
+                  <note target="#ed1ln39">
+                     <ref>39</ref>
+                     <p xml:id="p80">ἱε̣ρ̣̣ε̣ί̣[ας]. Except for the first iota, which allows us to rule out the reading τῶ̣ν̣ offered by the first editors, very little remains of the other letters.</p>
+                  </note>
+                  <note target="#ed1ln47">
+                     <ref>47–48</ref> 
+                     <p xml:id="p81">ἀ̣πὸ τῆς Σαβ̣είνου | τραπέζης̣. The omission of the verb is standard in bank diagraphai: see further   <ref target="https://papyri.info/biblio/9194">Wolff 1978</ref>: 97, and <ref target="https://papyri.info/biblio/95843">Claytor 2020a</ref>: 330.</p>
+                     <p xml:id="p82">Another papyrus containing both the declaration of property transfer and the bank receipt may be <ref target="https://papyri.info/ddbdp/cpr;1;17">CPR 1 17</ref> (Ptol. Euerg.; 138): the first column with the declaration is fragmentary, but the surviving text adheres to the standard formulary of such declarations: see <ref target="https://papyri.info/biblio/95194">Chrest.Mitt.</ref>, pp. 6–7. As is the case of our roll, the two documents in <ref target="https://papyri.info/ddbdp/cpr;1;17">CPR 1 17</ref> were drawn up on two sheets pasted together.</p>
+                  </note>
+                  <note target="#ed1ln62">
+                     <ref>62</ref>
+                     <p xml:id="p83">τ̣[ὴν] τι̣μήν. There is enough room in the lacuna to accommodate the article as well.</p>
+                  </note>
+                  <note target="#ed1ln65">
+                     <ref>65–68</ref>
+                     <p xml:id="p84">ἀκο|λ̣[ο]ύθͅως ταῖς γ̣εγο̣νυίαις |[εἰ]ς̣ τὸν ἀφήλ̣ικα δη|μοσίαις καταγραφαῖς. For a similar expression, see <ref target="https://papyri.info/ddbdp/p.oxy;2;268">P.Oxy. II 268</ref>.22 (c.57), <ref target="https://papyri.info/ddbdp/p.cair.preis.2;;43">P.Cair.Preis. (2nd ed.) 43</ref>.27–28 (59), <ref target="https://papyri.info/ddbdp/p.fay;;100">P.Fay. 100</ref>.13–14 (99), <ref target="https://papyri.info/ddbdp/p.oxy;63;4360">P.Oxy. 63 4360</ref>.6–7 (295–325).</p>
+                  </note>
+               </div>
+               <div type="bibliography">
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95903">Berger, A. (1911)</ref> Die Strafklauseln in den Papyrusurkunden: ein Beitrag zum gräko-ägyptischen Obligationenrecht, Leipzig - Berlin: 128–36.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/64579">R. Bogaert (1995)</ref> “Liste géographique des banques et des banquiers de l'Égypte romaine, 30a-284,” ZPE 109: 138–145.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95843">Claytor, W.G. (2018)</ref> “The Municipalization of Writing in Roman Egypt,” in A. Kolb (ed.), Literacy in Ancient Everyday Life – Schriftlichkeit im antiken Alltag. Berlin: 326–327.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95843">Claytor, W.G. (2020a)</ref> “The central manager of the Arsinoite notariate in the late second century,” APF 66: 323–33.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95803">Claytor, W.G. (2020b)</ref> “Two Papyri from the Archive of Mikkalos and the Establishment of the Bibliotheke Enkteseon,” BASP 57: 19–42.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/16985">Evans Grubbs, J. (2002)</ref> Women and the Law in the Roman Empire. A sourcebook on marriage, divorce and widowhood. London - New York.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/67504">Hagedorn, D. (1998)</ref> “Noch einmal: Who got the Contract?,” ZPE 123: 177–180.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/84769">Hagen, F. and Ryholt, K. (2016)</ref> The Antiquities Trade in Egypt 1880-1930. The H.O. Lange Papers.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96036">Kruse, T. (2017)</ref> “Governmental Control of Guardianship over Minors in Roman Egypt,” in U. Yiftach and M. Faraguna (eds), Ancient Guardianship: Legal Incapacities in the Ancient World Jerusalem, 3-5.11.2013. Trieste: 175–188.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/64938">Lewis, N. (1995)</ref> “Leitourgia Studies,” On Government and Law in Roman Egypt. Collected Papers of Naphtali Lewis, Atlanta: 81–87 (repr. from Proceedings of the IX International Congress of Papyrology. Oslo, 19th – 22nd August, 1958, Oslo: 293–239).</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/55883">Maehler, H. (1983)</ref> “Häuser und ihre Bewohner im Fayûm in der Kaiserzeit,” in: Grimm, G. et al. (eds), Das römisch-byzantinische Ägypten. Akten des internationalen Symposions. Trier, 26.-30. September 1978. Mainz am Rhein.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/87327">Reiter, F. (2013)</ref> “Ein neuer Blick auf SPP XXII 78 und das Schicksal der Dorfgrapheia im 2. Jh. n.Chr.,” in C. Arlt and M.A. Stadler (edd.), Das Fayyûm in Hellenismus und Kaiserzeit - Fallstudien zu multikulturellem Leben in der Antike, Wiesbaden: 159–167.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96096">Reiter, F. (2022)</ref> “Zwei Miszellen zu Texten aus Soknopaiu Nesos,” Pylon 1</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95906">Scott, K. (1931)</ref> “Greek and Roman Honorific Months,” YCS 2: 199-278.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/65272">Sijpesteijn, P.J. and Worp, K.A. (1995)</ref> “Ein Hausverkauf aus Soknopaiu Nesos,” in R. Feenstra, A.S. Hartkamp, J.E. Spruit, P.J. Sijpesteijn and L.C. Winkel eds. Collatio iuris Romani. Études dédiées à Hans Ankum à l'occasion de son 65e anniversaire. Oxford: 512-532.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/5279">Taubenschlag, R. (1955)</ref> The Law of Greco-Roman Egypt in the Light of the Papyri, 332 B.C.–640 A.D, 2nd ed. Warsaw.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/66172">Vandorpe, K. (1996)</ref> “Seals in and on the Papyri of Greco-Roman and Byzantine Egypt,” in M.-Fr. Boussac and A. Invernizzi (eds.), Archives et Sceaux dumonde hellénistique. Paris.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/85459">Vandorpe, K. (2014)</ref> “Seals and Stamps as identifiers in Daily Life in Greco-Roman Egypt,” in M. Depauw and S. Coussement (eds.), Identifiers and Identification Methods in the Ancient World. Legal Documents in Ancient Societies III, Leuven.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/66229">Worp, K.A. (1996)</ref> “P. Oxy. I 37.8-9: Who Got the Contract?,” BASP 33: 69–72.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/9194">Wolff, H.J. (1978)</ref> Das Recht der griechischen Papyri Ägyptens in der Zeit der Ptolemaeer und des Prinzipats. 2. Band. Organisation und Kontrolle des privaten Rechtsverkehrs. München.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95905">Yue, E.L. Ng (2008)</ref> “Mirror reading and guardians of women in the Early Roman Empire,” JThS 59: 679–695. </bibl>
+                  </listBibl>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Sale of a House in Soknopaiou Nesos: SB 22 15472 Completed</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">43198</idno>
+               <idno type="HGV">43198</idno>
+               <idno type="ddb-filename">pylon.1.6</idno>
+               <idno type="ddb-hybrid">pylon;1;6</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">BL Papyrus 1918 + BL Papyrus 1976</idno>
+                  </msIdentifier>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+            <div type="bibliography" subtype="otherPublications">
+               <head>Andere Publikation</head>
+               <listBibl>
+                  <bibl type="publication" subtype="other">SB 22 15472</bibl>
+               </listBibl>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Sale of a House in Soknopaiou Nesos: SB 22 15472 Completed</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.1.6</idno>
+               <idno type="ddb-hybrid">pylon;1;6</idno>
+               <idno type="HGV">43198</idno>
+               <idno type="TM">43198</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Sale of a House in Soknopaiou Nesos: SB 22 15472 Completed</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="r" type="textpart">
+<div n="i" subtype="column" type="textpart"><ab>
+<lb n="1" xml:id="ed1ln1"/><handShift new="m4"/><expan>κατακεχώ<ex>ρισται</ex></expan> <expan>μηνὸ<ex>ς</ex></expan> Νέου Σεβαστοῦ <num value="30">λ</num> 
+<lb n="2" xml:id="ed1ln2"/><handShift new="m1"/><num value="19"><supplied reason="lost">ἔτους</supplied> ἐννεακαιδεκάτο<unclear>υ</unclear></num> Αὐτοκράτορος Καί<unclear>σ</unclear>αρος Τραιανοῦ Ἁδρ<unclear>ι</unclear>ανοῦ Σεβα<unclear>σ</unclear>τ<unclear>οῦ</unclear> μηνὸς Νέου Σεβαστοῦ <num value="24">κδ</num> ἐν Πτολεμαίδι Εὐεργέτιδι 
+<lb n="3" xml:id="ed1ln3"/><supplied reason="lost">τοῦ</supplied> <choice><reg><supplied reason="lost">Ἀρσ</supplied>ινοίτου</reg><orig><supplied reason="lost">Ἀρσ</supplied>ινοείτου</orig></choice> νομ<supplied reason="lost">ο</supplied>ῦ. ὁμολογ<unclear>ε</unclear>ῖ Ταα<unclear>ρ</unclear>παγάθης Τεσ<unclear>ε</unclear><supplied reason="lost">ν</supplied><unclear>ού</unclear>φεως τ<unclear>οῦ</unclear> <unclear>Ἑ</unclear><supplied reason="lost">ρ</supplied><unclear>ι</unclear>έως ἱέρεια τῶν <unclear>ἀ</unclear>πὸ κώμης Σοκνοπαίου Νήσου ὡς ἐτῶν
+<lb n="4" xml:id="ed1ln4"/><num value="65"><supplied reason="lost">ἑξήκο</supplied><unclear>ν</unclear>τα πέντε</num> <choice><reg>οὐλή</reg><orig>οὐλὴι</orig></choice> ἀντικνημίωι δ<supplied reason="lost">ε</supplied>ξιῶι μετὰ κυρίο<supplied reason="lost">υ</supplied> τοῦ υἱοῦ <supplied reason="lost">Ἁρπαγ</supplied><unclear>ά</unclear>θου τοῦ Σαταβ<supplied reason="lost">ο</supplied>ῦτος ὡς ἐτῶ<supplied reason="lost">ν</supplied> <num value="38"><unclear>τ</unclear>ριάκοντα ὀκτὼ</num> <choice><reg>οὐλή</reg><orig>οὐλὴι</orig></choice>
+<lb n="5" xml:id="ed1ln5"/><supplied reason="lost">ἀντικνημί</supplied><unclear>ω</unclear>ι ἀρισ<unclear>τε</unclear><supplied reason="lost">ρ</supplied>ῶι τῷ τοῦ τετε<supplied reason="lost">λ</supplied><unclear>ε</unclear>υτηκότος αὐτῆς ἑτέρου <unclear>υἱ</unclear>οῦ, <app type="editorial"><lem>ὄν<unclear>τ</unclear><supplied reason="lost">ος δὲ</supplied> <unclear>τ</unclear>ο<unclear>ῦ</unclear></lem><rdg> ὄν<unclear>τ</unclear><supplied reason="lost">ος αὐ</supplied><unclear>τ</unclear>ο<unclear>ῦ</unclear></rdg></app> Ἁρπαγάθου καὶ <unclear>ὁ</unclear>μοπατρίου ἀ<unclear>δε</unclear>λφοῦ, Ἑριέως υἱῶι
+<lb n="6" xml:id="ed1ln6"/><app type="alternative"><lem><supplied reason="lost">Ἑριεῖ ἀφ</supplied>ήλικι</lem><rdg><supplied reason="lost">Ἑριεῦτι ἀφ</supplied>ήλικι</rdg></app> ὡς ἐτῶν <num value="10"> δέκα</num> ἀσήμωι μετὰ φροντιστοῦ <supplied reason="lost">Γαίω</supplied><unclear>ν</unclear>ος τοῦ <unclear>Ἱπ</unclear><supplied reason="lost">π</supplied>ά<unclear>ρ</unclear>χ<unclear>ο</unclear>υ ὡς ἐτῶν <num value="66">ἑξήκοντα ἓξ</num> <choice><reg>οὐλή</reg><orig>οὐλὴι</orig></choice> <unclear>ἀ</unclear>ντικνημίωι δεξιῶι
+<lb n="7" xml:id="ed1ln7"/><supplied reason="lost">πεπρακέν</supplied>αι τῷ Ἑριεῦτι κατʼ <unclear>ὠ</unclear>νὴν διὰ τοῦ ἐν τῆι <unclear>προ</unclear>γεγραμμέ<unclear>ν</unclear><supplied reason="lost">ηι</supplied> <unclear>πόλε</unclear><supplied reason="lost">ι</supplied><unclear> ἀγ</unclear><supplied reason="lost">ο</supplied><unclear>ρα</unclear><supplied reason="lost">νομ</supplied><unclear>ε</unclear><supplied reason="lost">ί</supplied><unclear>ο</unclear><supplied reason="lost">υ ἀ</supplied><unclear>π</unclear>ὸ τ<unclear>ῆ</unclear>ς ἐνεστώσης ἡμέρας ἐ<unclear>π</unclear><supplied reason="lost">ὶ</supplied> τὸν ἅπα<unclear>ν</unclear>τα χρόνον
+<lb n="8" xml:id="ed1ln8"/><supplied reason="lost">τὴν ὑπάρχου</supplied>σαν <unclear>α</unclear>ὐτῆι Τααρ<unclear>πα</unclear>γάθηι <unclear>κα</unclear>ὶ <choice><reg>κατηντηκυῖαν</reg><orig><unclear>κατη</unclear>ντηκυεῖαν</orig></choice> εἰς α<unclear>ὐ</unclear><supplied reason="lost">τὴν</supplied> <unclear>ἀ</unclear>πὸ κληρονομί<unclear>ας</unclear> τοῦ προγεγραμμένου αὐτῆς ἀνδρός, ὄντος δὲ τῶν περὶ
+<lb n="9" xml:id="ed1ln9"/><supplied reason="lost">τὴν Τααρπαγά</supplied><unclear>θ</unclear>ην πατρός, Σατα<unclear>β</unclear>οῦτος τοῦ Τεσι<unclear>ή</unclear>ους οἰκίαν καὶ α<supplied reason="lost">ὐλὴ</supplied>ν <unclear>κα</unclear>ὶ τὰ <choice><reg>συγκύροντα</reg><orig>συνκύ<unclear>ρ</unclear><supplied reason="lost">ο</supplied><unclear>ν</unclear>τα</orig></choice> πάντα ἐν κώμηι Σοκνοπαίου Νήσωι τῆς Ἡρακλείδου
+<lb n="10" xml:id="ed1ln10"/><supplied reason="lost">μερίδος ἐπὶ</supplied> ταῖς οὔσαις <choice><reg>αὐτοῖς</reg><orig>αὐτῶ<unclear>ν</unclear></orig></choice> εἰσόδοις καὶ ἐξόδοις καὶ θεμελίο<supplied reason="lost">ις</supplied> καὶ τείχ<unclear>εσ</unclear>ι <supplied reason="lost">καὶ</supplied> <app type="editorial"><lem><unclear>φωσ</unclear>φορίαις</lem><rdg><unclear>φωσ</unclear>φορίοις</rdg></app> καὶ τοῖς ἄλλοις δικαίοις πᾶσι, ὧν <choice><reg>γείτονες</reg><orig>γίτονες</orig></choice> καθὼς
+<lb n="11" xml:id="ed1ln11"/><supplied reason="lost">ἡ Τααρπαγά</supplied><unclear>θ</unclear>ης καὶ ὁ υ<hi rend="diaeresis">ἱ</hi>ὸς<note>υϊος papyrus</note> <unclear>ὑπη</unclear>γόρευσαν· νότου τῆς αὐτῆς <app type="editorial"><lem>καὶ <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="4" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>γ</unclear>α<gap reason="lost" quantity="3" unit="character"/><unclear>ς</unclear> <unclear>ἑ</unclear>τέ<unclear>ρ</unclear>α</lem><rdg><gap reason="lost" extent="unknown" unit="character"/>α<supplied reason="lost">ς</supplied> <supplied reason="lost">πρε</supplied><unclear>σ</unclear><supplied reason="lost">β</supplied><unclear>υτέρ</unclear>α<supplied reason="lost">ς</supplied></rdg></app> οἰκία, βορ<unclear>ρ</unclear>ᾶ <choice><reg>ῥύμη</reg><orig>ῥύ<unclear>μ</unclear>ηι</orig></choice> <choice><reg>βασιλική</reg><orig><unclear>β</unclear>ασιλική<unclear>ι</unclear></orig></choice>, <unclear>λ</unclear>ιβὸς
+<lb n="12" xml:id="ed1ln12"/><gap reason="lost" quantity="12" unit="character" precision="low"/><supplied reason="lost">ἀπηλιώτου Σ</supplied>τοτοήτιος καμηλών. <space extent="unknown" unit="character"/> καὶ ἀπέχ<unclear>ει</unclear>ν τὴν Τα<unclear>α</unclear>ρπαγ<unclear>ά</unclear>θην παρὰ τοῦ Γαίωνος ἐκ τοῦ τοῦ ἀφήλικος <unclear>Ἑ</unclear>ριέως
+<lb n="13" xml:id="ed1ln13"/><supplied reason="lost">λόγου τὴν συμπεφωνη</supplied><unclear>μ</unclear>ένην τῆς πεπραμ<unclear>έ</unclear>νης οἰκίας κ<unclear>αὶ</unclear> <unclear>α</unclear>ὐλῆς <choice><reg>τιμήν</reg><orig>τειμὴ<unclear>ν</unclear></orig></choice> <unclear>ἐ</unclear>κ πλήρους ἀργυρίου δραχμὰς <num value="600">ἑξακοσίας</num> παραχρῆμα
+<lb n="14" xml:id="ed1ln14"/><supplied reason="lost">διὰ τῆς Σαβίνου τραπέζης</supplied> στοᾶς Ἀθηνᾶς. καὶ βεβαιώσειν α<unclear>ὐ</unclear><supplied reason="lost">τ</supplied><unclear>ή</unclear>ν τε Τααρπαγ<unclear>ά</unclear>θην καὶ τοὺς παρ’ αὐτῆς τῷ Ἑριεῖ καὶ τοῖς παρ' αὐτοῦ τὰ πε
+<lb n="15" break="no" xml:id="ed1ln15"/><supplied reason="lost">πραμένα αὐτῷ ὡς πρόκειτ</supplied>αι πάσῃ βεβαιώσει· ἃ καὶ παρέξασθαι <supplied reason="lost">ἀ</supplied><unclear>ν</unclear>έπ<unclear>α</unclear>φα καὶ ἀν<unclear>ε</unclear>ν<unclear>εχ</unclear>ύραστα καὶ ἀνεπιδάνιστα καὶ καθαρὰ ἀπὸ παντὸς
+<lb n="16" xml:id="ed1ln16"/><supplied reason="lost">ὀφειλήματος δημοσίου μέχ</supplied><unclear>ρ</unclear>ι τῆς ἐνεστώσ<unclear>η</unclear><supplied reason="lost">ς ἡ</supplied>μέρας, ἀπὸ δ<supplied reason="lost">ὲ ἰ</supplied><unclear>δι</unclear>ωτικ<unclear>οῦ</unclear> <unclear>κα</unclear><supplied reason="lost">ὶ</supplied> πάσης <supplied reason="lost">ἐμποιή</supplied><unclear>σεως</unclear> ἐπὶ τὸ<supplied reason="lost">ν</supplied> ἅπαντα χ<unclear>ρ</unclear><supplied reason="lost">όν</supplied><unclear>ο</unclear>ν. καὶ
+<lb n="17" xml:id="ed1ln17"/><supplied reason="lost">μηδένα κω</supplied><unclear>λύοντα</unclear> <gap reason="illegible" quantity="4" unit="character"/> <unclear>Ἑρι</unclear><supplied reason="lost">εῦν</supplied> μηδὲ τοὺ<supplied reason="lost">ς</supplied> παρ' αὐ<unclear>τ</unclear>οῦ κυριεύοντ<supplied reason="lost">ας</supplied> <unclear>τῶ</unclear>ν <app type="editorial"><lem>πεπραμ<supplied reason="lost">έν</supplied><unclear>ων</unclear> <unclear>α</unclear>ὐ<unclear>τῶι</unclear></lem><rdg>ὑπα<unclear>ρχ</unclear><supplied reason="lost">ό</supplied><unclear>ντων</unclear> <unclear>αὐτῶν</unclear></rdg></app> ὡ<unclear>ς</unclear> <unclear>π</unclear>ρόκειται, καὶ τὰ ἐξ αὐτῶν <choice><reg>περιγινόμενα</reg><orig>περιγει<unclear>νόμ</unclear>ενα</orig></choice>
+<lb n="18" xml:id="ed1ln18"/><supplied reason="lost">ἀποφερομένου</supplied>ς καὶ κ<unclear>αθ</unclear>α<unclear>ι</unclear>ροῦν<unclear>τα</unclear>ς καὶ <choice><reg>ἀνοικοδομοῦντας</reg><orig>ἀνῳκοδομοῦντας</orig></choice> καὶ ὑπο<unclear>τ</unclear><supplied reason="lost">ιθέν</supplied>τας καὶ ἐ<supplied reason="lost">ξ</supplied>αλλο<unclear>τρ</unclear>ιοῦντας ἑτέροις καὶ οἰκονομοῦντα<unclear>ς</unclear> περὶ αὐτῶν ὡς ἐὰν αἱ
+<lb n="19" break="no" xml:id="ed1ln19"/><supplied reason="lost">ρῆται. ἐὰν δ</supplied>ὲ μὴ βεβαιοῖ κα<unclear>θ</unclear><supplied reason="lost">ὰ</supplied> γέγραπται <choice><reg>ἀποτεισάτω</reg><orig>ἀποτισάτωι</orig></choice> τῷ Ἑριεῖ τ<unclear>ὴ</unclear><supplied reason="lost">ν τιμὴν μ</supplied><unclear>εθ</unclear>ʼ <unclear>ἡ</unclear>μ<unclear>ι</unclear><supplied reason="lost">ο</supplied><unclear>λ</unclear>ίας καὶ τὰ τέλη <unclear>κ</unclear><supplied reason="lost">α</supplied><unclear>ὶ</unclear> ἀναλώματα διπλᾶ καὶ <choice><reg>ἐπίτιμον</reg><orig>ἐπίτειμ<unclear>ον</unclear></orig></choice> ἀργυ
+<lb n="20" break="no" xml:id="ed1ln20"/><supplied reason="lost">ρίου δραχμὰς</supplied> <num value="300">τριακοσίας</num> καὶ <choice><reg>εἰς</reg><orig><hi rend="diaeresis">ἰ</hi><unclear>ς</unclear><note>ϊς papyrus</note></orig></choice> <unclear>τ</unclear>ὸ δ<unclear>η</unclear>μόσιον τὰς <hi rend="diaeresis">ἴ</hi>σας<note>ϊσας papyrus</note>, καὶ μηδὲν ἧσ<supplied reason="lost">σον χ</supplied>ωρὶς τ<unclear>ο</unclear>ῦ μέ<supplied reason="lost">ν</supplied>ειν κύρια τὰ προγεγραμμένα. ὑπογραφεὺς τῆς ὁμολογού<unclear>σ</unclear>ης καὶ τ<unclear>ο</unclear>ῦ
+<lb n="21" xml:id="ed1ln21"/><supplied reason="lost">κυρίου Σουχᾶς</supplied> <gap reason="illegible" quantity="1" unit="character"/><unclear>υ</unclear><gap reason="illegible" quantity="1" unit="character"/><unclear>ο</unclear>υ ὡς ἐτῶν <num value="60">ἑξήκ<supplied reason="lost">ο</supplied>ντα</num> <num value="63">τριῶν</num> <choice><reg>οὐλή</reg><orig>οὐλὴι</orig></choice> ἀντικνημίωι ἀ<unclear>ρι</unclear><supplied reason="lost">στ</supplied>ερῶι. <handShift new="m2"/>Τα<unclear>αρ</unclear>π<unclear>α</unclear>γάθ<unclear>η</unclear>ς Τεσενούφεω<unclear>ς</unclear> μ<unclear>ε</unclear>τὰ κυρίου τοῦ
+<lb n="22" xml:id="ed1ln22"/><supplied reason="lost">υἱοῦ μου Ἁρπα</supplied><unclear>γ</unclear>άθου τοῦ Σ<supplied reason="lost">α</supplied><unclear>τ</unclear>αβοῦτος <choice><reg>ὁμολογῶ</reg><orig>ὁμολογῶι</orig></choice> πεπ<supplied reason="lost">ρ</supplied><unclear>α</unclear>κ<unclear>έ</unclear>ναι <app type="editorial"><lem><unclear>τῷ</unclear> <unclear>Ἑ</unclear>ριε<unclear>ῦτι</unclear></lem><rdg><unclear>Ἑρ</unclear><supplied reason="lost">ι</supplied><unclear>εῖ</unclear> <unclear>Ἑ</unclear>ριέως ἔτι</rdg></app> ἀφήλικι ἐπὶ τὸν ἅπαντα <app type="editorial"><lem><expan>χρόν<unclear>ο</unclear><ex>ν</ex></expan></lem><rdg><expan>χρόν<ex>ον</ex></expan></rdg></app>
+<lb n="23" xml:id="ed1ln23"/><supplied reason="lost">τὴν ὑπάρχο</supplied>υσάν μοι ἀ<unclear>π</unclear><supplied reason="lost">ὸ</supplied> κληρονομίας τοῦ ἀνδρός <supplied reason="lost">μο</supplied><unclear>υ</unclear> <app type="editorial"><lem><unclear>Σαταβ</unclear><supplied reason="lost">οῦ</supplied>το<unclear>ς</unclear></lem><rdg><supplied reason="lost">ἀν</supplied>τ<unclear>ρὸς</unclear></rdg></app> <app type="editorial"><lem>οἰκίαν</lem><rdg>οἰκείαν</rdg></app> <unclear>καὶ</unclear> <app type="editorial"><lem>αὐλὴν <gap reason="illegible" quantity="1" unit="character"/></lem><rdg>αὐλὴν <gap reason="illegible" quantity="2" unit="character"/></rdg></app> <app type="editorial"><lem><unclear>καὶ</unclear></lem><rdg>κ<unclear>α</unclear><supplied reason="lost">ὶ</supplied></rdg></app> τὰ συνκ<unclear>ύ</unclear>ρον
+<lb n="24" break="no" xml:id="ed1ln24"/><supplied reason="lost">τα πάντ</supplied><unclear>α</unclear> ἐν κώμη<unclear>ι</unclear> <expan><unclear>Σ</unclear><supplied reason="lost">οκ</supplied>νοπ<ex>αίου</ex></expan> Νήσῳ ἐπ<unclear>ὶ</unclear> τοῖς ἑ<unclear>τ</unclear>έρ<supplied reason="lost">οις α</supplied><unclear>ὐ</unclear>τῆ<unclear>ς</unclear> δ<unclear>ι</unclear>καί<supplied reason="lost">οι</supplied>ς π<unclear>ᾶ</unclear>σι, ὧν <unclear>α</unclear>ἱ <choice><reg>γειτνίαι</reg><orig>γιτνίαι</orig></choice> πρόκεινται. καὶ <choice><reg>ἀπέχω</reg><orig>ἀπέχωι</orig></choice>
+<lb n="25" xml:id="ed1ln25"/><supplied reason="lost">τὴν τιμὴ</supplied>ν ἀργυρίου <unclear>δ</unclear><supplied reason="lost">ρ</supplied>αχμὰς <num value="600">ἑξ<supplied reason="lost">α</supplied><unclear>κ</unclear>οσίας</num> διὰ τῆς <supplied reason="lost">Σ</supplied><unclear>αβ</unclear>είνου <unclear>τρα</unclear>πέζης καὶ <app type="editorial"><lem><choice><reg>βεβαιώσω</reg><orig>βεβαιώσ<unclear>ο</unclear></orig></choice></lem><rdg>βεβαιώ<unclear>σω</unclear></rdg></app> πάσῃ <app type="editorial"><lem><choice><reg>βεβαιώσει</reg><orig>βεβαιώσ<unclear>ι</unclear></orig></choice></lem><rdg>βεβαιώσ<unclear>ει</unclear></rdg></app> καὶ καθα
+<lb n="26" break="no" xml:id="ed1ln26"/><supplied reason="lost">ρὰν ἀπὸ πα</supplied><unclear>ν</unclear>τὸς <choice><reg>ὠφειλήματος</reg><orig>ὠφειλίματος</orig></choice> δ<unclear>η</unclear><supplied reason="lost">μ</supplied>οσίου τε καὶ ἰ<supplied reason="lost">διωτ</supplied><unclear>ικοῦ</unclear> <unclear>καὶ</unclear> <unclear>πάσης</unclear> <unclear>ἐμ</unclear>ποιήσεως καθὼς <choice><reg>πρόκειται</reg><orig>πρόκιται</orig></choice>. ἔγραψεν
+<lb n="27" xml:id="ed1ln27"/><supplied reason="lost">ὑπὲρ αὐτῶ</supplied><unclear>ν</unclear> Σουχᾶς δι’ αὐτοὺς μὴ εἰ<supplied reason="lost">δότα</supplied><unclear>ς</unclear> γράμματα. <handShift new="m3"/><unclear>Γ</unclear><supplied reason="lost">α</supplied><unclear>ί</unclear>ων Ἱππ<unclear>ά</unclear>ρχο<unclear>υ</unclear>· <supplied reason="lost">γέ</supplied>γον' <choice><reg>εἰς</reg><orig><unclear>ἐ</unclear>ς</orig></choice> τὸν φροντιζόμενον ὑπ' ἐμοῦ Ἑριεῦν ἀφή
+<lb n="28" break="no" xml:id="ed1ln28"/><supplied reason="lost">λικα ἡ</supplied> <choice><reg><supplied reason="lost">ὠ</supplied>νή</reg><orig><supplied reason="lost">ὠ</supplied><unclear>ν</unclear>ὴι</orig></choice> καθὼς <choice><reg>πρόκειται</reg><orig>πρόκιται</orig></choice>.
+</ab></div>
+<div n="ii" subtype="column" type="textpart"><ab>
+<lb n="29" xml:id="ed1ln29"/><handShift new="m6"/><expan>Ἀπολλω<ex> </ex></expan> <expan>σεση<ex>μείωμαι</ex></expan>. <num value="19">ιθ</num> ἔτους Ἁδριανοῦ Καίσαρος τοῦ κυρίου
+<lb n="30" xml:id="ed1ln30"/>Ἁθυρ <num value="24">κδ</num>.
+<lb n="31" xml:id="ed1ln31"/><handShift new="m5"/>Δίωι καὶ Ὡριγένει καὶ Πτολεμαίωι καὶ <expan>Ἡρακ<ex>λείδει</ex></expan> <app type="editorial"><lem><expan>γεγυ<ex>μνασιαρχηκόσι</ex></expan></lem><rdg><expan>γυμ<ex>νασιαρχήσασι</ex></expan></rdg></app>
+<lb n="32" xml:id="ed1ln32"/>δοθεῖσι εἰς <expan>κλῆ<ex>ρον</ex></expan> <expan>βιβλ<ex>ιοφυλακίας</ex></expan> <choice><reg>ἐγκτήσεων</reg><orig><expan>ἐνκτή<ex>σεων</ex></expan></orig></choice> <expan>Ἀρσι<ex>νοίτου</ex></expan>
+<lb n="33" xml:id="ed1ln33"/>παρὰ Ἑριέ<unclear>ω</unclear>ς τοῦ Ἑριέω<supplied reason="lost">ς</supplied> τοῦ Σαταβοῦτος ἀφή
+<lb n="34" break="no" xml:id="ed1ln34"/>λικος τῶν ἀπὸ κώμης Σ<supplied reason="lost">ο</supplied>κνοπαίου Νήσου
+<lb n="35" xml:id="ed1ln35"/>διὰ φροντιστοῦ πρ<unclear>ὸ</unclear>ς μόνον τοῦτο Γαίωνος το<unclear>ῦ</unclear>
+<lb n="36" xml:id="ed1ln36"/>Ἱππάρχου. <space extent="unknown" unit="character"/> ἀπογράφομαι πρώτως
+<lb n="37" xml:id="ed1ln37"/>ἣν ἠγόρασα τῇ ἐνε<unclear>σ</unclear>τώσῃ ἡμέρᾳ πα<unclear>ρ</unclear>ὰ τῆς
+<lb n="38" xml:id="ed1ln38"/>κατὰ πατέρα μου μάμμης <choice><reg>Τααρπαγάθου</reg><orig>Τααρπαγάθης</orig></choice>
+<lb n="39" xml:id="ed1ln39"/>τ<unclear>ῆ</unclear>ς Τεσενούφεως τοῦ <unclear>Ἑ</unclear>ριέως <app type="editorial"><lem>ἱ<unclear>ερεί</unclear><supplied reason="lost">ας</supplied></lem><rdg>τ<unclear>ῶν</unclear></rdg></app> ἀπὸ
+<lb n="40" xml:id="ed1ln40"/>τῆς αὐτῆς κώμης ἀπο<unclear>γ</unclear>εγραμμένη<unclear>ς</unclear> διὰ
+<lb n="41" xml:id="ed1ln41"/>τῶν προτέ<unclear>ρ</unclear>ων βιβ<unclear>λι</unclear>οφυλάκων καὶ τῇ
+<lb n="42" xml:id="ed1ln42"/>προθεσμίᾳ με<unclear>τὰ</unclear> κυρίου τοῦ <unclear>υ</unclear><hi rend="diaeresis"><unclear>ἱ</unclear></hi>οῦ<note>υ̣ϊ̣ου papyrus</note> Ἁρπαγ<unclear>ά</unclear>
+<lb n="43" break="no" xml:id="ed1ln43"/>θ<unclear>ο</unclear>υ τοῦ <unclear>Σα</unclear><supplied reason="lost">τα</supplied><unclear>βοῦτος</unclear> <unclear>οἰκία</unclear>ν <unclear>καὶ</unclear> <supplied reason="lost">α</supplied><unclear>ὐ</unclear>λὴν
+<lb n="44" xml:id="ed1ln44"/>ἐν τῇ προκειμένηι κώ<unclear>μ</unclear>ηι Σοκνοπαίου
+<lb n="45" xml:id="ed1ln45"/>Νήσωι <choice><reg>τιμῆς</reg><orig>τειμῆς</orig></choice> ἀργυρίου δραχμῶν <num value="600">ἑξακ<unclear>ο</unclear>
+<lb n="46" break="no" xml:id="ed1ln46"/>σίων</num>. διὸ ἐπιδίδωμι τὴν ἀπογραφήν.
+</ab></div>
+<div n="iii" subtype="column" type="textpart"><ab>
+<lb n="47" xml:id="ed1ln47"/><handShift new="m7"/><unclear>ἀ</unclear>πὸ τῆς <choice><reg>Σαβίνου</reg><orig>Σα<unclear>β</unclear>είνου</orig></choice>
+<lb n="48" xml:id="ed1ln48"/>τραπέζη<unclear>ς</unclear> στοᾶς
+<lb n="49" xml:id="ed1ln49"/>Ἀθηνᾶς. ἔ<unclear>τ</unclear>ους <num value="19">ἐννεα
+<lb n="50" break="no" xml:id="ed1ln50"/><unclear>κ</unclear>αιδεκάτου</num> <unclear>Α</unclear>ὐτοκράτορος
+<lb n="51" xml:id="ed1ln51"/><unclear>Κ</unclear>αίσαρος Τ<unclear>ρα</unclear>ιανοῦ
+<lb n="52" xml:id="ed1ln52"/><unclear>Ἁ</unclear>δριανοῦ Σ<unclear>ε</unclear>βαστοῦ
+<lb n="53" xml:id="ed1ln53"/><unclear>Ἁ</unclear>θυρ <num value="24">κδ</num>. Γαίων Ἱππάρ
+<lb n="54" break="no" xml:id="ed1ln54"/><unclear>χ</unclear>ου ἐκ τοῦ φροντιζομέ
+<lb n="55" break="no" xml:id="ed1ln55"/><unclear>ν</unclear>ου ὑπ' αὐτοῦ Ἑριέως <unclear>τοῦ</unclear>
+<lb n="56" xml:id="ed1ln56"/><unclear>Ἑ</unclear><supplied reason="lost">ρ</supplied><unclear>ι</unclear>έως ἀφήλ<unclear>ικ</unclear>ος λόγου
+<lb n="57" xml:id="ed1ln57"/>τ<unclear>ῇ</unclear> κατὰ πατ<unclear>έ</unclear>ρα αὐτοῦ
+<lb n="58" xml:id="ed1ln58"/><unclear>μ</unclear>άμμῃ Τα<unclear>α</unclear>ρπαγάθῃ
+<lb n="59" xml:id="ed1ln59"/><unclear>Τ</unclear>εσενούφεω<unclear>ς</unclear> μετὰ
+<lb n="60" xml:id="ed1ln60"/><supplied reason="lost">κ</supplied><unclear>υ</unclear>ρίου τοῦ υἱ<unclear>οῦ</unclear> Ἁρπαγά
+<lb n="61" break="no" xml:id="ed1ln61"/><supplied reason="lost">θο</supplied>υ τοῦ Σατα<supplied reason="lost">βο</supplied><unclear>ῦ</unclear>τος
+<lb n="62" xml:id="ed1ln62"/><app type="editorial"><lem><unclear>τ</unclear><supplied reason="lost">ὴν</supplied> τ<unclear>ι</unclear>μὴν</lem><rdg><supplied reason="lost">τι</supplied>μὴν</rdg></app> οἰκ<supplied reason="lost">ία</supplied><unclear>ς</unclear> καὐλῆς
+<lb n="63" xml:id="ed1ln63"/><unclear>καὶ</unclear> <unclear>τῶ</unclear>ν <choice><reg>συγκυρόντων</reg><orig>συ<unclear>νκυ</unclear>ρόντων</orig></choice>
+<lb n="64" xml:id="ed1ln64"/><unclear>π</unclear>άντων ἐν κώμῃ
+<lb n="65" xml:id="ed1ln65"/><unclear>Σ</unclear>οκνοπαίου Νήσῳ ἀκο
+<lb n="66" break="no" xml:id="ed1ln66"/><unclear>λ</unclear><supplied reason="lost">ο</supplied>ύθͅως ταῖς <unclear>γ</unclear>εγ<unclear>ο</unclear>νυίαις
+<lb n="67" xml:id="ed1ln67"/><supplied reason="lost">εἰ</supplied><unclear>ς</unclear> τὸν ἀφή<unclear>λ</unclear>ικα δη
+<lb n="68" break="no" xml:id="ed1ln68"/>μοσίαις καταγραφαῖς
+<lb n="69" xml:id="ed1ln69"/><expan>ἀργ<ex>υρίου</ex></expan> <expan><ex>δραχμὰς</ex></expan> <num value="600">ἑξακοσίας</num>,
+<lb n="70" xml:id="ed1ln70"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="600">χ</num>.
+</ab></div>
+</div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Sale of a House in Soknopaiou Nesos: SB 22 15472 Completed</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">43198</idno>
+               <idno type="TM">43198</idno>
+               <idno type="HGV">43198</idno>
+               <idno type="ddb-hybrid">43198</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+            <div n="r" type="textpart">
+               <div n="i" subtype="column" type="textpart">
+                  <p>
+                     <milestone unit="line" n="1" corresp="#ed1ln1"/> (hand 4) Registered on the 30th of the month of Neos Sebastos.
+<milestone unit="line" n="2" rend="break" corresp="#ed1ln2"/> (hand 1) Year nineteenth of Imperator Caesar Traianus Hadrianus Augustus, on the 24th of the month of Neos Sebastos, in Ptolemais Euergetis in the Arsinoite nome. 
+<milestone unit="line" n="3" corresp="#ed1ln3"/> Taharpagathes, daughter of Tesenouphis, son of Herieus, priestess, of those from the village of Soknopaiou Nesos, of about sixty-five (?) years of age, with a scar on the right shin, with her son Harpagathes, 
+son of Satabous, of about thirty-eight years of age, with a scar on the left shin, as her guardian, acknowledges to Herieus, a minor about ten years of age, with no distinguishing marks, son of the late Herieus, 
+her other son, being a brother of Harpagathes also of the same father, with his representative Gaion, son of Hipparchos, of about sixty-six years of age, with a scar on the right shin, 
+<milestone unit="line" n="7" rend="break" corresp="#ed1ln7"/> that she has sold to Herieus under a sale (transacted) through the notarial office in the above-written city, from the present day unto all time, the house that belongs to Taharpagathes herself and has come to her 
+from inheritance from her above-written husband, Satabous, son of Tesies, who is also the father of Taharpagathes' party, with courtyard and all its appurtenances (located) in the village of Soknopaiou Nesos 
+in the division of Herakleides, with the present entrances and exits and foundations and walls and windows and with all the other rights, whose neighbours are, as Taharpagathes and her son dictated: 
+<milestone unit="line" n="11" corresp="#ed1ln11"/> to the south another house of the same woman (= Taharpagathes) and …, to the north a public street, to the west … [and to the east] a camel stable of Stotoetis (?). <milestone unit="line" n="13"/> And Taharpagathes (acknowledges) 
+that she has received from Gaion from the account of the minor Herieus the price agreed upon for the sold house and courtyard, six hundred silver drachmas in full forthwith through the bank of Sabinus at the Stoa of Athena. 
+<milestone unit="line" n="14" corresp="#ed1ln14"/> And (she acknowledges) that they, Taharpagathes herself as well as her representatives, will guarantee to Herieus and his representatives the property that has been sold to him as stated above with every guarantee; 
+and (she acknowledges that) she will also deliver it unencumbered and unpledged and unmortgaged and free from any public debt up to the present day, and (free) from private debt and every claim unto all time. 
+<milestone unit="line" n="16" corresp="#ed1ln16"/> And (she will see) that no one hinders … Herieus or his representatives from exercising ownership over the property sold to him as stated above, and from appropriating everything accruing therefrom, 
+tearing (the property) down, building (it) up, mortgaging (it), alienating (it), and managing it in whatever way he chooses. Should she fail to guarantee as has been written above, she shall repay to Herieus the price 
+with interest by one half, and double the fees and expenses, and three hundred silver drachmas as a penalty, and a like sum to the treasury, and aside from the afore-written terms remaining valid nonetheless. 
+<milestone unit="line" n="20" corresp="#ed1ln20"/> The signatory for the acknowledging party and for her [guardian is Souchas] son of …, of about sixty-three years of age, having a scar on the left shin. 
+<milestone unit="line" n="21" corresp="#ed1ln21"/> (hand 2) I, Taharpagathes, daughter of Tesenouphis, with my son Harpagathes, son of Satabous, as my guardian, acknowledge that I have sold to Herieus, under age, unto all time the house belonging to me 
+from inheritance from my husband Satabous, with courtyard and all its appurtenances (located) in the village of Soknopaiou Nesos, with all its rights, whose neighbours are stated above. 
+<milestone unit="line" n="24" corresp="#ed1ln24"/> And I have received the price of six hundred silver drachmas through the bank of Sabinus, and I shall guarantee with every guarantee, and (I shall deliver it) free from any public and private debt and every claim as aforesaid. 
+Souchas wrote on their behalf as they are illiterate. (hand 3) Gaion son of Hipparchos: the sale has been made to Herieus, a minor represented by me, as aforesaid.
+                  </p>
+               </div>
+               <div n="ii" subtype="column" type="textpart">
+                  <p>
+                     <milestone unit="line" n="29" corresp="#ed1ln29"/> (hand 6) I, Apollo—, have signed. Year 19 of Hadrianus Caesar the lord, Hathyr 24.
+<milestone unit="line" n="31" rend="break" corresp="#ed1ln31"/> (hand 5) To Dios and Horigenes and Ptolemaios and Herakleides, ex-gymnasiarchs and record-keeper nominees of the archive of real property of the Arsinoite nome, from Herieus, son of Herieus, son of Satabous, a minor, 
+of those from the village of Soknopaiou Nesos, represented for this transaction alone by Gaion, son of Hipparchos. <milestone unit="line" n="36" corresp="#ed1ln36"/> I register for the first time a house and courtyard (located) in the aforesaid village of Soknopaiou Nesos, 
+which I bought on the present day from Taharpagathes, my paternal grandmother, daughter of Tesenouphis, son of Herieus, priestess from the same village, who has registered it through the former archivists and 
+at the appointed time, with her son Harpagathes, son of Satabous, as her guardian, for the price of six hundred silver drachmas. Therefore, I submit this declaration.
+                  </p>
+               </div>
+               <div n="iii" subtype="column" type="textpart">
+                  <p>
+                     <milestone unit="line" n="47" corresp="#ed1ln47"/> (hand 7) From the bank of Sabinus at the Stoa of Athena. Year nineteenth of Imperator Caesar Traianus Hadrianus Augustus, Hathyr 24. Gaion, son of Hipparchos, (has paid) from the account of Herieus, son of Herieus, 
+a minor represented by him, to his paternal grandmother Taharpagathes, daughter of Tesenouphis, (acting) with her son Harpagathes, son of Satabous, as her guardian, the price for a house and courtyard and all appurtenances 
+in the village of Soknopaiou Nesos of six hundred silver drachmas, total 600 dr., in accordance with the public deeds of conveyance that have been made in favour of the minor.
+                  </p>
+               </div>
+            </div>
+         </div>
+         </body>
+      </text>
+   </TEI>
+</TEI>

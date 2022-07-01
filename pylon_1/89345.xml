@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="pylon.1.17">P.Hamb.graec. 185: Garden Tax Between the Archives of (Lucius) Iulius Serenus and Gemellus Horion</title>
+                <author>
+                    <persName>
+                        <forename>C. Michael</forename>
+                        <surname>Sampson</surname>
+                    </persName>
+                    <affiliation>
+                        <orgName>University of Manitoba</orgName>
+                    </affiliation>
+                    <email>mike.sampson@umanitoba.ca</email>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/104985960X</idno>
+                    <idno ana="hc:ORCIDURI">https://orcid.org/0000-0002-2438-7102</idno>
+                </author>
+                <funder>Deutsche Forschungsgemeinschaft </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date/>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Propylaeum</orgName>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+                </publisher>
+                <pubPlace>
+                    <placeName>Heidelberg</placeName>
+                    <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+                </pubPlace>
+                <date when="2022">2022</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno ana="hc:PrivateIdentifier">pylon.1.17</idno>
+                <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2022.1.89345</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl ana="hc:RecommendedBibliographicReference">C.M. Sampson, “P.Hamb.graec. 185: Garden Tax Between the Archives of (Lucius) Iulius Serenus and Gemellus Horion,” Pylon 1 (2022). DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2022.1.89345">https://doi.org/10.48631/pylon.2022.1.89345</ref>.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title level="j" ana="hc:MainTitle">Pylon</title>
+                        <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                        <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                        <imprint>
+                            <biblScope unit="volume">1</biblScope>
+                            <biblScope unit="article">17</biblScope>
+                            <date when="2022">2022</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <ab>Converted from a Word document for Pylon.</ab>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2022-04-08T13:32:35Z</date>
+                    <name/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="MainTitle">P.Hamb.graec. 185: Garden Tax Between the Archives of (Lucius) Iulius Serenus and Gemellus Horion</titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <div type="article">
+                <note type="acknowledgement">For permission to publish the papyrus, I thank Katrin Janz-Wenig in the Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky. I am especially grateful to Holger Essler for advice on the origins of the Hamburg papyri, as well as to Jakob Wigand and Jürgen Zimmerer, who generously shared research conducted as part of the project “Colonized Manuscripts: the Provenance of Hamburg’s Papyrus Collection,” part of the Cluster of Excellence “Understanding Written Artifacts” undertaken by the Centre for the Study of Manuscript Cultures at the Universität Hamburg. Feedback from Graham Claytor, James Cowey, and Nick Gonis further improved my work. Financial support was provided by the Social Sciences and Humanities Research Council of Canada as part of the research project ‘<ref target="https://twitter.com/karanisbooks">the Books of Karanis</ref>.’</note>
+                <div type="epidoc" subtype="DDB">
+                    <div type="introduction">
+                        <p xml:id="p1">P.Hamb.graec. 185 was purchased by Wilhelm Schubart for the German papyrus cartel on 2 March 1911 and came to Hamburg in 1913 following conservation by Hugo Ibscher.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> See <ref target="https://papyri.info/biblio/96031">Essler 2021</ref>: 204–205. </p></note> The dealers were Michel Casira and Farag Tadrus.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> On Casira and Tadrus, see <ref target="https://papyri.info/biblio/84769">Hagen and Ryholt 2016</ref>: 206, 215. Casira died later the same year.</p></note> The other sixteen papyri purchased that day belong to the archive of (Lucius) Iulius Serenus, published as P.Hamb. 1 39–54.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> = <ref target="https://www.trismegistos.org/archive/117">TM Arch 117</ref>. The lot includes P.Hamb.graec. 182–191, 198–204. P.Hamb. 1 39 was subsequently re-edited and fully published as <ref target="https://papyri.info/ddbdp/rom.mil.rec;1;76">Rom.Mil.Rec. 1 76</ref>. The same Iulius Serenus is also the recipient of <ref target="https://papyri.info/hgv/41633">SB 22 15855</ref>, a papyrus excavated by the University of Michigan at Karanis. Its field number (33-B518K-A) indicates that it was unearthed on the western side of the village, from house 518 in the ‘B’ level of occupation. But it was the only papyrus found in this structure and its relationship to the archive is therefore fundamentally uncertain. </p></note> Although several of these items were composed in Karanis, archival records in Hamburg report an alleged provenance for the lot in Batn Harit (= Theadelpheia). The veracity of this claim, which was no doubt provided to Schubart by the dealers, is not supported by any internal evidence; the villages’ respective locations mean that it is probably false. </p>
+                        <p xml:id="p2" style="text-align: left; ">Paul Meyer described the papyrus in a footnote but did not assign it a serial number within P.Hamb. 1.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/95165">P.Hamb. 1</ref>, p. 183, n. 6: “Er [sc. Aurelius Melas] wird auch in der zusammen mit den Quittungen des Serenus gefundenen Quittung Inv.-Nr. 185 (Höhe 20,2 cm, Breite 12,7 cm; unten unbeschrieben 16,5 cm) genannt, die folgendermaßen lautet: [ἔτους κ⸗ Μάρκου Αὐρηλίου Σεουήρου] | [Ἀντωνίνου] Παρθικοῦ Με̣γίστο̣υ̣ | Βρεν̣τανικο̣ῦ̣ (sic.) Με̣γ̣ί̣στο̣υ̣ Γ̣[ε]ρμα̣νι̣κ[οῦ] | Μεγίστου Εὐσεβοῦς Σεβαστοῦ Ἐπὶφ κγ. | διαίγρα(ψεν) Αὐρηλίῳ Μέλανι γρα(μματεῖ) πρα(κτόρων) ἀργ(υρικῶν) | Αὐρ(ήλιος) Τερεντίου (l. -ιος) Ἰουλίας Λογγινίας | (προ(βάτων)?) κβ̣ (ἔτους) δραχμαὶ (l. -ας) τριάκοντα ἕξ / (δραχμαὶ) λϛ. – In der Zwischenquittung Nr. 44 fungiert als Vertreter der πράκτορες ἀργυρικῶν von Psenyris ein χειριστής.”</p></note> As a consequence, it has gone largely unnoticed. In both structure and content it resembles <ref target="https://papyri.info/hgv/10256">P.Bodl. 1 24</ref> (219/220; = Fig. 2) and especially <ref target="https://papyri.info/hgv/11636">P.Lond. 2 166A</ref> (219), parallels which allow several of Meyer’s provisional readings to be improved.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; "> The Bodleian papyrus was acquired from Frederick Conybeare on 20 Oct. 1896, who received it from B. P. Grenfell: see <ref target="https://papyri.info/biblio/96033">Hunt 1974</ref>: 8. The London papyrus was purchased from the Rev. Greville John Chester on 2 Feb. 1891, as part of a larger lot that includes several items from the archive of Mikkalos (<ref target="https://www.trismegistos.org/archive/602">TM Arch 602</ref>), the most recent addition to which is Graham Claytor’s contribution to this volume.</p></note> Both of those documents were issued to Longinus son of Heraclianus for garden tax paid to the secretary of the praktores argyrikon in Karanis, a certain (Gaius) Aurelius Melas. The Hamburg papyrus is also a receipt for tax paid to Melas in his capacity as secretary, but its amount – 36 drachmas – is triple that of the others’ payments. Another related receipt is <ref target="https://papyri.info/hgv/11388">P.Hamb. 1 42</ref> (216), also from Hamburg’s 1911 Casira/Tadrus lot and similarly issued for a payment made through this same Melas. </p>
+                        <figure>
+                            <!--<graphic n="2" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3b9adf87-1b17-405c-9aa2-89fe5a52da36/file/id/836446/file_version/name/full"></graphic>-->
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/1603936"/>
+                            <head>Fig. 1. The Bodleian Libraries, University of Oxford, MS. Gr. class. c. 39 (P) (= P.Bodl. 1 24). Creative Commons License Attribution-NonCommercial 4.0 (CC BY-NC 4.0)</head>
+                        </figure>
+                        <p xml:id="p3" style="text-align: left; ">All four texts were written in the same hand, which we may conclude is that of Melas himself.<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; "> The second hand of <ref target="https://papyri.info/hgv/10256">P.Bodl. 1 24</ref> belongs to an Aurelius Dioskoros. A further text potentially involving Aurelius Melas is <ref target="https://papyri.info/hgv/30759">SB 6 9241</ref>, which names him as a homeowner in Karanis. That papyrus was excavated on the eastern side of the village and was assigned the field number 29-158*-GIII. But the excavation’s record of objects specifies that it was among the items discovered “beneath house 158 and above the vaults of C123”, which is problematic: the house above granary C123 is 152, not 158. </p></note> His term in office, in concert with the present text’s mostly extant dating formula, point to a date in the summer of 216. The following spring, Caracalla was dead, and the last papyrus dated by his reign in the Arsinoite is <ref target="https://papyri.info/hgv/40932">SB 12 10913</ref>, from Epeiph 6 – some two and half weeks prior to the Hamburg receipt.<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/58113">Rathbone 1986</ref>: 105–106 argues that Caracalla was no longer recognized in the Arsinoite by Epeiph 12, noting in support of this point the first recognition of Macrinus in Thebes (<ref target="https://papyri.info/hgv/17859">SB 6 9143</ref>), a text written on the same day as this Hamburg papyrus. So also <ref target="https://papyri.info/biblio/96037">Strasser (2017: 39, 77)</ref>, who interprets the anonymous “year 1” of <ref target="https://papyri.info/hgv/75756">O.Stras. I 155.4</ref>,  <ref target="https://papyri.info/hgv/11520">P.Köln 2 92</ref>, and <ref target="https://papyri.info/hgv/11521">P.Köln 2 93</ref> as an indication that word of Caracalla’s death had arrived in the Arsinoite by late June or early July. </p></note> Meanwhile, <ref target="https://papyri.info/hgv/8986">BGU 1 222</ref> – another receipt for garden tax – indicates that, in 215, the office of secretary of the praktores argyrikon in Karanis was held by a Zosimos.<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; "> This is likely Aurelius Longinus alias Zosimos, the principal figure of <ref target="https://www.trismegistos.org/archive/667">TM Arch 667</ref>. In addition to serving as secretary in 215, Zosimos was also a <emph rend="italics">sitologos </emph>in Karanis from 215–217 (and previously from 200/201–211/212), and possibly <emph rend="italics">praktor </emph>in 218/219. See <ref target="https://papyri.info/biblio/96041">Claytor 2021</ref> (last accessed 23 February 2022). </p></note> </p>
+                        <p xml:id="p4" style="text-align: left; ">Given the lot with which it was acquired, its composition in Karanis, and its date, all of which point to the archive of (Lucius) Iulius Serenus, it is a reasonable hypothesis that this papyrus relates somehow to the archive. Prosopography, however, is a complicating factor: the payer and his mother are otherwise unknown, and her name – Iulia Longinia – suggests a familial relationship to Gemellus Horion and the archive that bears his name rather than that of (Lucius) Iulius Serenus (see commentary, below).</p>
+                        <p xml:id="p5" style="text-align: left; ">The text is written with the fibers. The back is blank.</p>
+                        <figure>
+                            <!--<graphic n="1" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/94941392-4ea7-4458-a4af-344d04d55790/file/id/836445/file_version/name/full"></graphic>-->
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/1603934"/>
+                            <head>Fig. 2. P.Hamb.graec. 185. Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky. Creative Commons License Attribution 4.0 International (CC BY-SA 4.0)</head>
+                        </figure>
+                        <table type="papyrological_header">
+                            <row>
+                                <cell style="text-align: left;">P.Hamb.graec. 185</cell>
+                                <cell style="text-align: center;">20.6 (h) x 12.8 (w) cm </cell>
+                                <cell style="text-align: right;">Karanis, 17 July 216</cell>
+                            </row>
+                            <row>
+                                <cell style="text-align: left;">
+                                    <ref target="https://resolver.sub.uni-hamburg.de/kitodo/HANSh3865">sub.uni-hamburg.de</ref>
+                                </cell>
+                                <cell style="text-align: center;"/>
+                                <cell style="text-align: right;"/>
+                            </row>
+                        </table>
+                    </div>
+                    <div copyOf="#ed1" type="edition"/>
+                    <div copyOf="#trans1" type="translation"/>
+                    <div type="commentary">
+                        <note target="#ed1ln1">
+                            <ref>1</ref>
+                            <p xml:id="p6">For reasons of space, ἔτους may have been abbreviated, but it is rather more likely that the initial epsilon was written elaborately large in the left margin: cf. the layouts of <ref target="https://papyri.info/hgv/11388">P.Hamb. 1 42</ref>, <ref target="https://papyri.info/hgv/11636">P.Lond. 2 166A</ref>, and <ref target="https://papyri.info/hgv/10256">P.Bodl. 1 24</ref>, in the same hand.</p> 
+                        </note>
+                        <note target="#ed1ln5">
+                            <ref>5</ref>
+                            <p xml:id="p7">διαίγρ(αψε). Melas elsewhere employs this unusual orthography; cf. <ref target="https://papyri.info/hgv/10256">P.Bodl. 1 24.3</ref> and <ref target="https://papyri.info/hgv/11636">P.Lond. 2 166A.3</ref>. On the interchange of ε and αι (usually in the other direction), see <ref target="https://papyri.info/biblio/8813">Gignac 1976</ref>: I 193.</p>
+                        </note>
+                        <note target="#ed1ln6">
+                            <ref>6</ref>
+                            <p xml:id="p8">[Κ]α̣ρ̣(ανίδος). A difficult reading and restoration. The receipt’s formula leads one to expect the payer’s name in the nominative, for which reason Meyer read Αὐρ(ήλιος) Τερεντίου (l. Τερέντιος), but the first hypsilon is difficult and there is, moreover, space for one more letter before alpha at the start of the line. The extant traces suggest alpha (or possibly lambda), a blotted letter that might be epsilon, and a rho surmounted by an abbreviation stroke. But possible restorations of a name in the nominative fail to convince: [&lt;Οὐ&gt;α]λ̣έ̣ρ̣(ιος) violates Youtie’s law by positing an omitted Οὐ- (for which cf. <ref target="https://papyri.info/hgv/10746">P.Fam.Tebt. 28</ref> and <ref target="https://papyri.info/hgv/21159">P.IFAO 1 9</ref>: the latter is a case of haplography); another alternative is [Ἀ]λ̣ε̣ρ̣(ιλᾶς) (cf. <ref target="https://papyri.info/hgv/11998a">P.Mich. 4 223.2048</ref>). Τhe parallel texts <ref target="https://papyri.info/hgv/10256">P.Bodl. 1 24.4</ref> and <ref target="https://papyri.info/hgv/11636">P.Lond. 2 166A.4</ref> suggest a different solution: there, Melas includes the abbreviated toponym Καρ(ανίδος) in his title, and the ductus of the abbreviation supports reading it here, as well: in both parallels, rho is badly blotted and followed by a sinusoid abbreviation stroke. Here, the blotted letter is plausibly also rho, but Melas’ subsequent stroke of abbreviation seems to have been poorly executed, which might explain why he added an additional one surmounting it (an atypical method of abbreviation for him). It remains odd for the payer to be called son of his mother rather than his father. </p>
+                            <p xml:id="p9">Ἰουλίας Λογγινίας. The name is reminiscent of the Longinus son of Heraclianus to whom the parallel receipts <ref target="https://papyri.info/hgv/10256">P.Bodl. 1 24</ref> and <ref target="https://papyri.info/hgv/11636">P.Lond. 2 166A</ref> were issued, but it is even more suggestive of Gaius Iulius Longinus, son of Gaius Iulius Niger. On this reckoning, Iulia Longinia would be the granddaughter of Niger and a cousin of Gemellus Horion, the last keeper of that family’s archive (<ref target="https://www.trismegistos.org/archive/90">TM Arch 90</ref>). A date in the summer of 216 is compatible with such a familial relationship between the two. </p>
+                        </note>
+                        <note target="#ed1ln7">
+                            <ref>7</ref>
+                            <p xml:id="p10">There is space for one letter before pi, where I also discern a single fleck of ink. Since the receipt is otherwise complete, I can offer no interpretation, and the identification of the tax is necessarily tentative as a result. It is indicated on the papyrus by a large pi which loops upward from the right hasta and continues retrograde into the same sinusoid abbreviation stroke used elsewhere (e.g., l. 5). The same abbreviation appears in <ref target="https://papyri.info/hgv/8986">BGU 1 222.6</ref>, <ref target="https://papyri.info/hgv/10256">P.Bodl. 1 24.5</ref>, <ref target="https://papyri.info/hgv/11636">P.Lond. 2 166A.5</ref>, <ref target="https://papyri.info/hgv/11386">P.Hamb. 1 40.7</ref>, and <ref target="https://papyri.info/hgv/11387">P.Hamb. 1 41.7</ref>. On the Berlin and Bodleian papyri, the pi and abbreviation stroke are not ligatured and we should not, therefore, interpret the abbreviation stroke as alpha with Meyer.</p>
+                            <p xml:id="p11">κβ. For the shape of beta, cf. the ductus of that letter in <ref target="https://papyri.info/hgv/11388">P.Hamb. 1 42.5</ref>, another text in the hand of Melas. From the base of the letter, sometimes preceded by a ligature or descending hasta, the pen inclines upward to the right before turning back at the apex and descending into a sinusoid figure-eight that produces the letter’s two bubbles. The delay in paying an assessment of garden tax is paralleled by <ref target="https://papyri.info/hgv/11387">P.Hamb. 1 41</ref>, issued in the same year (216) for the payment of garden tax for year 21 of Caracalla’s reign.</p>
+                        </note>
+                    </div>
+                    <div type="bibliography">
+                        <listBibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/96041">Claytor, W.G. (2021)</ref> “Aurelius Longinus alias Zosimos, son of Leonides,” (<ref target="https://www.trismegistos.org/archive/667">TM Arch 667</ref>). </bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/96031">Essler, H. (2021)</ref> “Zur Entstehung der Hamburger Papyrussamlung,” APF 67: 166–208.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/8813">Gignac, F.T. (1976)</ref> A Grammar of the Greek Papyri of the Roman and Byzantine Periods. I. Phonology. Milan.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/84769">Hagen, F. and Ryholt, K. (2016)</ref> The Antiquities Trade in Egypt: 1880–1930. The H.O. Lange Papers. Copenhagen.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/96033">Hunt, R.W. (1974)</ref> “Note on the history of the collections of papyri,” in J.R. Rea and B.C. Barker-Banfield, Papyri: An Exhibition of Papyri, mainly in Greek, at The Bodleian Library and at the Ashmolean Museum, for the XIV International Congress of Papyrologists, Oxford, 24–31 July 1974. Oxford: 7–8.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/58113">Rathbone, D.W. (1986)</ref> “The Dates of Recognition in Egypt of the Emperors from Caracalla to Diocletianus,” ZPE 62: 101–131.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/96037">Strasser, J.-Y. (2017)</ref> La “bonne nouvelle”. La nouvelle de l’avènement d’un empereur et de la mort de son prédécesseur en Égypte. Bruxelles.</bibl>
+                        </listBibl>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>A receipt for garden tax paid to Aurelius Melas</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Papyri.info</authority>
+                    <idno type="TM">971907</idno>
+                    <idno type="HGV">971907</idno>
+                    <idno type="ddb-filename">pylon.1.17</idno>
+                    <idno type="ddb-hybrid">pylon;1;17</idno>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository/>
+                            <idno type="invNo">P.Hamb.graec. 185</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <material>Papyrus</material>
+                                    </support>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate>17.7.216 CE</origDate>
+                            </origin>
+                        </history>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                </langUsage>
+                <textClass>
+                    <keywords scheme="hgv">
+                        <term n="1">Quittung</term>
+                        <term n="2">Steuern</term>
+                        <term n="3">Geld</term>
+                        <term n="4">Paradeisos</term>
+                        <term n="5">Gartenland</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div type="bibliography" subtype="principalEdition"/>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>A receipt for garden tax paid to Aurelius Melas</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename">pylon.1.17</idno>
+                    <idno type="ddb-hybrid">pylon;1;17</idno>
+                    <idno type="HGV">971907</idno>
+                    <idno type="TM">971907</idno>
+                    <availability>
+                        <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                                Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                    <language ident="la">Latin</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <head xml:lang="en">A receipt for garden tax paid to Aurelius Melas</head>
+                <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1" xml:id="ed1ln1"/><supplied reason="lost">ἔτους <app type="editorial"><lem><num value="24">κδ</num></lem><rdg><num value="20">κ</num></rdg></app><g type="slanting-stroke"/><g type="slanting-stroke"/> Μάρκου Αὐρηλίου Σεου</supplied><unclear>ή</unclear><supplied reason="lost">ρ</supplied><unclear>ο</unclear><supplied reason="lost">υ</supplied>
+<lb n="2" xml:id="ed1ln2"/><supplied reason="lost">Ἀντωνίνου</supplied> Παρθι<unclear>κ</unclear>οῦ Μ<unclear>ε</unclear>γίστου
+<lb n="3" xml:id="ed1ln3"/><choice><reg>Βρεταννικ<supplied reason="lost">ο</supplied>ῦ</reg><orig>Βρ<unclear>ετ</unclear>τανικ<supplied reason="lost">ο</supplied>ῦ</orig></choice> Μ<unclear>εγί</unclear>στ<unclear>ου</unclear> <expan><unclear>Γε</unclear>ρμ<unclear>α</unclear>νικ<ex>οῦ</ex></expan>
+<lb n="4" xml:id="ed1ln4"/>Μεγίστου Εὐσεβοῦς Σεβαστοῦ <choice><reg>Ἐπειφ</reg><orig>Ἐπιφ</orig></choice> <num value="23">κγ</num>.
+<lb n="5" xml:id="ed1ln5"/><choice><reg><expan>διέγρ<ex>αψεν</ex></expan></reg><orig><expan>διαίγρ<ex>αψεν</ex></expan></orig></choice> Αὐρηλίῳ Μέλανι <expan>γρ<ex>αμματεῖ</ex></expan> <expan>πρ<ex>ακτόρων</ex></expan> <expan>ἀρ<ex>γυρικῶν</ex></expan>
+<lb n="6" xml:id="ed1ln6"/><app type="editorial"><lem><expan><supplied reason="lost">Κ</supplied><unclear>αρ</unclear><ex>ανίδος</ex></expan></lem><rdg><expan>Αὐρ<ex>ήλιος</ex></expan></rdg></app> <choice><reg>Τερέντιος</reg><orig>Τερεντίου</orig></choice> Ἰουλίας Λογγινίας
+<lb n="7" xml:id="ed1ln7"/><app type="editorial"><lem><gap reason="illegible" quantity="1" unit="character"/> <expan><unclear>π</unclear><ex>αραδείσου</ex></expan></lem><rdg><expan>προ<ex cert="low">βάτων</ex></expan></rdg></app> <num value="22">κβ</num> <expan><ex>ἔτους</ex></expan> <app type="editorial"><lem>δραχμὰς</lem><rdg><choice><reg>δραχμὰς</reg><orig>δραχμαὶ</orig></choice></rdg></app> <num value="36">τριάκοντα ἕξ</num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="36">λϛ</num>.
+</ab></div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main">A receipt for garden tax paid to Aurelius Melas</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename">971907</idno>
+                    <idno type="TM">971907</idno>
+                    <idno type="HGV">971907</idno>
+                    <idno type="ddb-hybrid">971907</idno>
+                    <availability>
+                        <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                            a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>The contents of this document are generated from SOSOL.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                    <language ident="ar">Arabisch</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>Year 24 of Marcus Aurelius Severus Antoninus Parthicus Maximus Britannicus Maximus Germanicus Maximus Felix Pius Augustus, Epeiph 23. <milestone unit="line" n="5"/> Terentius, son of Iulia Longinia, has paid thirty-six drachmas (36 dr.) in garden tax for year 22 to Aurelius Melas, secretary of the praktores argyrikon of Karanis. </p></div>
+            </body>
+        </text>
+    </TEI>
+</TEI>

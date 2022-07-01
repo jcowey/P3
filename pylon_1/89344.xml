@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Textual Remarks on Two Receipts concerning Replacement Parts for Irrigators</title>
+                <author>
+                    <persName>
+                        <forename>Giuseppina</forename>
+                        <surname>Azzarello</surname>
+                    </persName>
+                    <affiliation>
+                        <orgName>Università degli studi di Udine</orgName>
+                    </affiliation>
+                    <email>giuseppina.azzarello@uniud.it</email>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/137913788</idno>
+                    <idno ana="hc:ORCIDURI">https://orcid.org/0000-0001-5730-2526</idno>
+                </author>
+                <funder>Deutsche Forschungsgemeinschaft</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date/>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Propylaeum</orgName>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+                </publisher>
+                <pubPlace>
+                    <placeName>Heidelberg</placeName>
+                    <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+                </pubPlace>
+                <date when="2022">2022</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno ana="hc:PrivateIdentifier">pylon.1.16</idno>
+                <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2022.1.89344</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl ana="hc:RecommendedBibliographicReference">G. Azzarello, “Textual Remarks on Two Receipts concerning Replacement Parts for Irrigators,” Pylon 1 (2022). DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2022.1.89344">https://doi.org/10.48631/pylon.2022.1.89344</ref>.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title level="j" ana="hc:MainTitle">Pylon</title>
+                        <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                        <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                        <imprint>
+                            <biblScope unit="volume">1</biblScope>
+                            <biblScope unit="article">16</biblScope>
+                            <date when="2022">2022</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <ab>Converted from a Word document for Pylon.</ab>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2022-03-02T15:03:25Z</date>
+                    <name/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="MainTitle">
+                    <seg style="font-weight: bold;">Textual Remarks on Two Receipts concerning Replacement Parts for Irrigators</seg>
+                </titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <div type="article">
+                <note type="acknowledgement">I am grateful to Pamela Mansutti for revising my English, and to Ben Henry for providing a high-resolution image of P.Oxy. 16 1982.21–27.</note>
+                <p xml:id="p1" style="text-align: left; text-align: justify;">The receipts for replacement parts for irrigators are notarial documents that originate from the Oxyrhynchite and date to the 5th–7th centuries.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> Cf. <ref target="https://papyri.info/biblio/67851">Tacoma 1998</ref> with a list of documents on pp. 128–129; updates can be found in N. Gonis, P.Oxy. 70 4780, intro. (4615 is a slip of the pen for 4616); 4783. 8 n.; P.Oxy. 83 5365, intro. Cf. also the writing exercise <seg style="font-weight: bold;">P.Capasso 6</seg> (second half of the 6th c., Oxy.?).  </p></note> Most of them belong to the dossier of the Apiones.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> On this family see <ref target="https://papyri.info/biblio/16557">Mazza 2001</ref>, and <ref target="https://papyri.info/biblio/84465">Hickey 2012</ref>; in the last years, new texts have been published by N. Gonis, P.Oxy. 83 5365–5400, and A. Benaissa, P.Oxy. 84 5453–5474, maybe 5475; see also <ref target="http://papyri.info/biblio/95935">Azzarello and Reiter 2020</ref>.  </p></note> As a by-product of recent studies on the topic,<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> Cf. <ref target="http://papyri.info/biblio/95936">Azzarello 2021</ref>; Le note riepilogative nelle ricevute di pezzi di ricambio per le macchine di irrigazione (in preparation); Ἄξων e αὔξων: ipotesi su una strana variante grafica (in preparation); Oxyrhynchite Byzantine Receipts for Replacement Parts for Irrigators, Tyche 2021 (accepted for publication).</p></note> I present in this article a few textual remarks on two receipts, including the transcription of lines which have not yet been published in full. </p>
+                <div type="section">
+                    <head>
+                        <ref target="https://papyri.info/ddbdp/p.oxy;16;1982">P.Oxy. 16 1982</ref>
+                    </head>
+                    <p xml:id="p2" style="text-align: left; text-align: justify;">This receipt, dated to 497, is addressed by a <emph rend="italics">colonus adscripticius </emph>named Aurelios Ioseph, son of Abraamios and Anna (ll. 6–7) and coming from the hamlet Papsaou (ll. 7–8), to Fl. Strategios II. It was issued in the office of the notary Sarapammon who released a digraphic <emph rend="italics">completio</emph> which includes a date (ll. 27–28)<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> Cf. the thorough discussion of dates in notarial signatures by N. Gonis, P.Oxy. 83 5367, comm. to l. 8, esp. p. 114. </p></note>. As the editors report, the <emph rend="italics">subscriptio </emph>was written by a certain Aurelios Menas, son of Ioulios, but neither the <emph rend="italics">hypographe</emph> nor the end of the main text (l. 22 after γραφεῖσα), which was written by the scribe who issued the rest of the document,<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; "> The scribe is the same as in the other Sarapammon’s contract, <ref target="https://papyri.info/ddbdp/p.oxy;19;2237">P.Oxy. 19 2237</ref>.</p></note> have been transcribed in full<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; "> The same applies to the <emph rend="italics">verso</emph>, which features two lines, the second one of which is almost fully abraded; of the first line, the editors transcribe the beginning (χειρογραφία) and the end (ἐναπογράφου): the shape of the letters suggest that the docket was written by the main scribe of the document (hand 1), cf. in particular the sequence απο (on the recto, l. 5). Based on the traces and on the parallels, a possible transcription of the whole l. 1 is: [†] χ̣ειρογρα̣φ̣[(ία)] Ἰ̣ω̣σ̣ὴ̣φ̣ υ̣ἱ̣ο̣ῦ̣ Ἀ̣β̣ρ̣α̣α̣μ̣ί̣ο̣υ̣ ἀ̣[πὸ] ἐ̣π̣ο̣ι̣κ̣ί̣ο̣υ̣ Π̣α̣ψ̣α̣υ̣ ἐναπογράφου̣; as for l. 2, it should have contained at least ὑποδοχῆς ἄξονος ἑνός, cf. e.g. <ref target="https://papyri.info/ddbdp/p.oxy;16;1983">P.Oxy. 16 1983</ref> (535) † χειρογραφ(ία) Βίκτορος υἱοῦ Ἀνουθίου ἀπὸ ἐποικ(ίου) Μικρ(ᾶς) Τερύθεως Ἀετίου ὑποδοχ(ῆς) |       ⟦σ̣τ̣ρ̣ο̣β̣ί̣λλο̣υ̣ καὶ⟧ καλάθου ἑνός (the ed. marks a line change after Τερύθεως, but the image available online shows that this happens after ὑποδοχ(ῆς)).</p></note>. In what follows, a transcription of lines 21 (end) – 26 will be proposed, based on the digital image available at <ref target="http://163.1.169.40/gsdl/collect/POxy/index/assoc/HASH0144.dir/POxy.v0016.n1982.a.01.hires.jpg">Oxyrhynchus online</ref>.</p>
+                    <div type="epidoc" subtype="DDB">
+                        <div copyOf="#ed1" type="edition"/>
+                        <div type="commentary">
+                            <note target="#ln22">
+                                <ref>22–23</ref>
+                                <p xml:id="p3">On the left there is a mark consisting of a kind of S written to the left of -γραφεία (l. 22), ending at the bottom with a horizontal stroke going rightwards until it reaches the top of ὁ (l. 23):</p>
+                            </note>
+                            <figure>
+                                <!--<ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/1596638"/>resulted in the image not loading, original is a png image-->
+                                <!--<graphic n="1001" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/79bc4ee0-6089-4b3d-bae7-22ccd651a974/file/id/830396/file_version/name/original"/>-->
+                                <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/1596638"/>
+                                <head>On the hypothesis that this sign marks the end of the main part of the document and not the beginning of the  <emph rend="italics">hypographe</emph>, see S. Kovarik, P.Köln 14 583.20 n.</head>
+                            </figure>
+                            <note target="#ln22">
+                                <ref>22</ref>
+                                <p xml:id="p4">It is noteworthy that the last word of the clause, ὡμολ(όγησα), written by the first hand, is in darker ink than the preceding words, showing that the scribe had to dip the pen into the ink in order to accomplish his task. The next signature, written by Menas, is written in even darker ink.</p>
+                                <p xml:id="p5">Ἀβρααμίου̣: υ̣ is written on the right over the preceding ο: though abraded, some traces of it are still recognizable under the ρ of χειρο- in l. 21, which is written in darker ink.</p>
+                            </note>
+                            <note target="#ln23">
+                                <ref>23–26</ref>
+                                <p xml:id="p6">The lines are written in <emph rend="italics">eisthesis</emph>. </p>
+                            </note>
+                            <note target="#ln23">
+                                <ref>23</ref>
+                                <p xml:id="p7">τὴν̣ χειρογ̣ραφ(ίαν): for the reading see the following clipping: </p>
+                            </note>
+                            <figure>
+                                <!--<ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/1624929"/>resulted in the image not loading, original is a png image-->
+                                <!--<graphic n="1002" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0e6815dd-2192-4937-955a-6469371ebf0b/file/id/848685/file_version/name/original"/>-->
+                                <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/1624929"/>
+                                <head>P.Oxy. 16 1982.23: τὴ̣ν χειρογ̣ραφ(ίαν)</head>
+                            </figure>
+                            <note target="#ln26">
+                                <ref>26</ref>
+                                <p xml:id="p8">This expression, which indicates the illiteracy of the contracting party, normally occurs in the fifth century; see Kovarik, P.Köln 14 583.24 n.  </p>
+                            </note>
+                        </div>
+                    </div>
+                </div>
+                <div type="section">
+                    <head>
+                        <ref target="https://papyri.info/ddbdp/p.oxy;16;1987">P.Oxy. 16 1987</ref>
+                        <note place="foot" xml:id="ftn7" n="7">
+                            <p style="text-align: left; "> Edited in full by N. Gonis and T.M. Hickey in P.Oxy. 70, pp. 135–136.  </p>
+                        </note>
+                    </head>
+                    <p xml:id="p9" style="text-align: left; text-align: justify;">The date clause at the beginning of this receipt of 587 corresponds to a characteristic Oxyrhynchite formula of the emperor Mauricius; cf. <ref target="https://papyri.info/biblio/17873">Bagnall and Worp, CSBE<hi rend="superscript">2</hi></ref>, pp. 260–261, no. (3). A revision of the papyrus based on the digital image leads to the discovery of a graphical feature within the regnal formula, which has escaped the attention of scholars so far. Such a feature might be significant to determine the way in which scribes employed by notaries used to work. </p>
+                    <p xml:id="p10" style="text-align: left; text-align: justify;">The regnal formula in ll. 1–3 reads as follows: † βασιλείας τοῦ θειοτάτου καὶ εὐσεβ(εστάτου) ἡμῶν | δεσπό̣(του) μεγίστου εὐεργέτου Φλ(αουί̈ου) Τιβε̣ρ̣ίου Μαυρικ(ίου) τοῦ | αἰωνίου Αὐγούστου καὶ Αὐτοκρ(άτορος) ἔτους <hi rend="suprlaine">ε</hi>:</p>
+                    <figure>
+                        <!--<graphic n="1003" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8c3fe97f-0413-4e26-838a-3d36b8a866fd/file/id/830399/file_version/name/original"/>-->
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/1596640"/>
+                        <head>P.Oxy. 16 1987.1–3.</head>
+                    </figure>
+                    <p xml:id="p11" style="text-align: left; text-align: justify;">However, the second ε of εὐεργέτου in l. 2 is clearly corrected out of σ, cf. the following scan:</p>
+                    <figure>
+                        <!--<graphic n="1004" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/64f7b3c6-73fa-444d-95c6-1c0efed6f617/file/id/830400/file_version/name/original"/>-->
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/1596642"/>
+                        <head>P.Oxy. 16 1987.2: εὐεργέτου (alt. ε ex σ)</head>
+                    </figure>  
+                    <p xml:id="p12" style="text-align: left; text-align: justify;">Such a feature, though apparently insignificant, gives interesting insights into the working methods of notarial clerks, since it is possible that our scribe at this point had the adjective εὐσεβεστάτου in mind and therefore wrote σ instead of ε. Such a confusion might have been due to a <emph rend="italics">saut du même au même</emph> occurring during the scribe’s copying the formula, since the first part of the date contains such an epithet; cf. l. 1: † βασιλείας τοῦ θειοτάτου καὶ εὐσεβ(εστάτου). If this is correct, we should imagine that in the model the beginnings of the two epithets were written one under the other. Admitting that the model featured the same abbreviations as our document, we could therefore reconstruct the model’s layout: the first two lines contained 24 letters (by tallying each of the abbreviation marks in l. 2 as equal in length to one letter); see the following reconstruction (the epitheta under discussion are given in bold):</p>
+                    <quote type="edition">
+                        <lb n="1"/>† βασιλείας τοῦ θειοτάτου καὶ
+                        <lb n="2"/><emph rend="bold">εὐσεβ(εστάτου)</emph> ἡμῶν δεσπό̣(του) μεγίστου
+                        <lb n="3"/><emph rend="bold">εὐεργέτου</emph> κλπ.
+                    </quote>
+                    <p xml:id="p13" style="text-align: left; text-align: justify;">Such a reconstruction would not only imply that the scribe made use of a model to write the dating formula, but also demonstrate that such a model was not much larger than a modern post-it. This might even suggest that it was a strip of papyrus or even an ostracon, not a wooden tablet.<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; ">On possible model contracts written on papyrus see Cl. Gallazzi, P.Bastianini 6, p. 59, n. 41.</p></note> The scribe, whose papyrus sheet was larger than the model, could therefore not follow its exact layout.</p>
+                </div>
+                <div type="bibliography">
+                    <listBibl>
+                        <bibl>
+                            <ref target="http://papyri.info/biblio/95935">Azzarello, G. and Reiter, F. (2020)</ref> “A Further Testimony of Flavius Apion I, ἔκδικος and magnificentissimus: P.Rain. Unterricht 79 Revisited,” in R. Oetjen (ed.), New Perspectives in Seleucid History, Archaeology and Numismatics. Berlin: 669–677. </bibl>
+                        <bibl>
+                            <ref target="http://papyri.info/biblio/95936">Azzarello, G (2021)</ref> “Assi, scribi e notai,” Archivum mentis 10: 9–15.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/84465">Hickey, T.M. (2012)</ref> Wine, Wealth, and the State. Ann Arbor.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/16557">Mazza, R. (2001)</ref> L’archivio degli Apioni. Bari.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/67851">Tacoma, L.E. (1998)</ref> “Replacement Parts for an Irrigation Machine of the Divine House at Oxyrhynchus,” ZPE 120: 123–130.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title/>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Papyri.info</authority>
+                    <idno type="TM">22077</idno>
+                    <idno type="HGV">22077</idno>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository/>
+                            <idno type="invNo">Oxford</idno>
+                        </msIdentifier>
+                        <history/>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div type="bibliography" subtype="principalEdition"/>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title/>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename"/>
+                    <idno type="ddb-hybrid"/>
+                    <idno type="HGV">22077</idno>
+                    <idno type="TM">22077</idno>
+                    <availability>
+                        <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                                Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                    <language ident="la">Latin</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <head xml:lang="en"/>
+                <head>updates p.oxy;16;1982</head>
+                <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+    <lb n="21" xml:id="ln21"/> κυρία ἡ <choice><reg>χειρο<lb n="22" break="no"/>γραφία</reg><orig>χειρο 
+    <lb n="22" break="no" xml:id="ln22"/> γραφεία</orig></choice> ἁπλῆ γραφεῖσα καὶ <expan>ἐπερ<ex>ωτηθεὶς</ex></expan> <expan>ὡμολ<ex>όγησα</ex></expan>. <handShift new="m2"/>Αὐρήλιος Ἰωσὴφ <unclear>υἱὸ</unclear>ς Ἀβρααμίο<unclear>υ</unclear>
+    <lb n="23" xml:id="ln23"/>ὁ προγεγραμμέν<unclear>ο</unclear>ς ἐναπόγρ<unclear>αφ</unclear>ος πεπ<unclear>ο</unclear>ί<unclear>η</unclear>μαι τ<unclear>ὴ</unclear>ν <expan>χειρο<unclear>γ</unclear>ραφ<ex>ίαν</ex></expan>
+    <lb n="24" xml:id="ln24"/><hi rend="diaeresis">ὑ</hi>π<unclear>ο</unclear>δεξάμενος<note>ϋπο̣δεξαμενος papyrus</note> τὸν καινὸν ἄ<unclear>ξ</unclear>ο<unclear>να</unclear> κ<unclear>α</unclear>ὶ <choice><reg>συμφωνεῖ</reg><orig>σ<unclear>υμ</unclear>φωνῖ</orig></choice> μοι πάντα τὰ προγεγραμ
+    <lb n="25" break="no" xml:id="ln25"/>μένα ὡς πρόκειτα<unclear>ι</unclear> καὶ <expan>ἐπερ<ex>ωτηθεὶς</ex></expan> <expan><unclear>ὡμο</unclear>λ<ex>όγησα</ex></expan>. <unclear>Αὐρ</unclear>ήλι<supplied reason="lost">ο</supplied>ς Μηνᾶ<unclear>ς</unclear> Ἰουλίου ἀξιωθε<unclear>ὶς</unclear> ἔγ<unclear>ρ</unclear>αψ<unclear>α</unclear>
+    <lb n="26" xml:id="ln26"/><hi rend="diaeresis">ὑ</hi>πὲρ<note>ϋπερ papyrus</note> αὐτοῦ γρ<unclear>άμ</unclear>ματα μὴ <unclear>εἰ</unclear>δό<unclear>τ</unclear>ος.
+</ab></div>
+            </body>
+        </text>
+    </TEI>
+</TEI>
