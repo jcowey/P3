@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SPP 22 60 Revisited</title>
+            <author>
+               <persName>
+                  <forename>Roger S.</forename>
+                  <surname>Bagnall</surname>
+               </persName>
+               <affiliation>
+                  <orgName>ISAW, New York</orgName>
+               </affiliation>
+               <email>rsb331@nyu.edu</email>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/124747213</idno>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0002-9817-3326</idno>
+            </author>
+            <funder>Deutsche Forschungsgemeinschaft</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2022">2022</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.1.1</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2022.1.89306</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">R.S. Bagnall, “SPP 22 60 Revisited,” Pylon 1 (2022). DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2022.1.89306">https://doi.org/10.48631/pylon.2022.1.89306</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">1</biblScope>
+                     <biblScope unit="article">1</biblScope>
+                     <date when="2022">2022</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2022-02-08T16:01:54Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">SPP 22 60 Revisited </titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1">This beginning of a request for anakrisis<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> So <ref target="http://papyri.info/biblio/40562">Lewald (1952: 436-437)</ref>, cited approvingly by <ref target="http://papyri.info/biblio/18348">Straus (2004: 10)</ref>, although with some hesitation on the basis of l. 14. </p></note> came to my attention in the course of looking critically at the reported ages at the time of sale for male slaves in Roman Egypt. The data from the census declarations shows that no male slaves over the age of 32 are reported, and one over the age of 30. It therefore seems likely that all men were manumitted by around 30, unlike women, who often remained in servitude until the end of their childbearing years.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> <ref target="http://papyri.info/biblio/13437">Bagnall and Frier 1994</ref>: 71, 158. </p></note> The table of ages of slaves at the time of sale in <ref target="http://papyri.info/biblio/18348">Straus (2004: 264)</ref>, however, lists four supposed male slaves at higher ages, namely 40, 50, and 51 (?). The first two are suspiciously round numbers, but the reading of the age 40 in <ref target="http://papyri.info/ddbdp/p.oxy;1;94">P.Oxy. 1 94.9 = M.Chr. 344</ref>, in the “fine semi-uncial hand” mentioned by Grenfell and Hunt, is not doubtful.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> See <ref target="http://www.bl.uk/manuscripts/Viewer.aspx?ref=papyrus_763_f001r">www.bl.uk/manuscripts/</ref> for an image. </p></note> On the other hand, the other slave included in that papyrus is said to be 30, which only increases one’s suspicions about accuracy. The same is true of <ref target="http://papyri.info/ddbdp/p.thmouis;1;1">P.Thmouis 1 113</ref>.18, the 50-year-old slave, another round number but unimpeachable reading.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> See <ref target="http://www.psi-online.it/images/orig/PSI%20I%20107.jpg?1184955346">www.psi-online.it/images/</ref> for an image.</p></note> The reading in the case of the last of these, however, is far from secure. </p>
+            <p xml:id="p2">This was published by Carl Wessely in SPP 22, and dated to the second-third century. Apart from one minor note rejecting Wessely’s correction of [ὠ]νουμένη in l. 7 (BL 3.238, Lewald), no critical attention was paid to it until P.J. Sijpesteijn devoted a few lines of a brief note on “Nachlese zu Wiener Texten” to it (<ref target="http://papyri.info/biblio/56075">Sijpesteijn 1983: 134</ref>; BL 8.483), providing a corrected text of ll. 8–10, with small corrections to ll. 1 and 13–14. He did not, however, call into question the supposed age 51 in l. 13. Both digits are dotted in Wessely’s text, however, and it seemed worth checking the correctness of this reading. In the process, a few other points proved to need correcting.</p>
+            <figure>
+               <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/1603938"/>
+               <!--<graphic n="1" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9325d57b-050a-47a3-8d8e-d9b6575b758d/file/id/836447/file_version/name/original"></graphic>-->
+               <head>Fig. 1: P.Vindob. Inv. G 24917 (= SPP 22 60). © Österreichische Nationalbibliothek, Papyrussammlung</head>
+            </figure> 
+            <div type="epidoc" subtype="DDB">
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <note target="#ed1ln1">
+                     <ref>1</ref>
+                     <p xml:id="p3">[Π̣]αμμένει ed.pr., Παμένει Sijpesteijn, BL 8.483. It is true that the first mu is lacking one hump, but there is too much for Sijpesteijn’s reading to be correct; στρS Ἀθριβ/.</p>
+                  </note>
+                  <note target="#ed1ln7">
+                     <ref>7</ref>
+                     <p xml:id="p4">[ὠ]νουμένη l. [ὠ]νουμένης ed.pr.; [ὠ]νουμένη Lewald.</p>
+                  </note>
+                  <note target="#ed1ln9">
+                     <ref>9–10</ref>
+                     <p xml:id="p5">Διοσκοροῦ[τ]ος Ποταμ|μωτος ed. pr.; Διοσκόρου τοῦ Ποτάμ|μωνος Sijpesteijn </p>
+                  </note>
+                  <note target="#ed1ln11">
+                     <ref>11–12</ref>
+                     <p xml:id="p6">Χρηστ[ὸν] | [τὸν καὶ] ed. pr. This is implausible; it requires too much lost to be at left in l. 12, and τὸν καὶ ἐπικεκλημένον is an idiom never found in the papyri (the one apparent example, in <ref target="http://papyri.info/ddbdp/p.fam.tebt;;25">P.Fam.Tebt. 25</ref>.5–6, is restored). The name that stands, or most likely only begins, at the end of l. 11 has undergone correction. The initial kappa is corrected, but not from Wessely’s chi; the traces look more like gamma or pi. Wessely’s eta is rather the diphthong ει. After that, it seems that a descending letter was written, then written over with a sigma. </p>
+                  </note>
+                  <note target="#ed1ln12">
+                     <ref>12–13</ref>
+                     <p xml:id="p7">  ̣]ο|[. ]ι̣ειδην ed. pr.; Ἡ̣ρ̣α|[κ]λείδην Sijpesteijn.</p>
+                  </note>
+                  <note target="#ed1ln13">
+                     <ref>13–14</ref>
+                     <p xml:id="p8">ν̣α̣ | [ὃς ὑπ]ουργεῖ μύλῃ ο (l. ὃν) [ἔ]σχο̣ν̣[  ̣ ̣] ed. pr. The form μύλη is absent from the papyri, and we do not want an expression of this kind in the description of a slave. I owe οὐλὴν̣ ἔχοντα to Rodney Ast. Usually we find the simple οὐλή, but <ref target="http://papyri.info/ddbdp/p.oxy;69;4750">P.Oxy. 69 4750</ref>.10–11 offers a rare parallel: οὐλὴν ἔχο̣ν̣&lt;τα&gt; ἐπ&lt;ὶ&gt; τ̣ο̣ῦ δεξιοῦ ποτός (l. ποδός); there is another (for a woman) in <ref target="http://papyri.info/ddbdp/chr.mitt;;171">M.Chr. 171</ref>.12. What precedes this phrase should be an adjective describing the slave. It has certainly undergone correction.</p>
+                  </note>
+               </div>
+               <div type="bibliography">
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/13437">Bagnall, R.S. and Frier, B.W. (1994)</ref> The Demography of Roman Egypt. Cambridge.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/40562">Lewald, H. (1952)</ref> “Eine Synchoresis aus der Zeit des Commodus: Papyrus Rainer G. 25817,” in Studi in onore di Vincenzo Arangio-Ruiz nel XLV anno del suo insegnamento, vol. 3. Naples: 429–438. </bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/56075">Sijpesteijn, P.J. (1983)</ref> “Nachlese zu Wiener Texten,” ZPE 50: 133–134.</bibl>
+                     <bibl>
+                        <ref target="http://papyri.info/biblio/18348">Straus, J. (2004)</ref> L’achat et la vente des esclaves dans l’Égypte romaine. Contribution papyrologique à l’étude de l’esclavage dans une province orientale de l’empire romain. Leipzig.</bibl>
+                  </listBibl>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>SPP 22 60 Revisited </title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">27638</idno>
+               <idno type="HGV">27638</idno>
+               <idno type="ddb-filename">pylon.1.1</idno>
+               <idno type="ddb-hybrid">pylon;1;1</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">G 24917</idno>
+                  </msIdentifier>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+            <div type="bibliography" subtype="otherPublications">
+               <head>Andere Publikation</head>
+               <listBibl>
+                  <bibl type="publication" subtype="other">SPP XXII 60</bibl>
+               </listBibl>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>SPP 22 60 Revisited </title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.1.1</idno>
+               <idno type="ddb-hybrid">pylon;1;1</idno>
+               <idno type="HGV">27638</idno>
+               <idno type="TM">27638</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">SPP 22 60 Revisited </head>
+            <head>updates stud.pal;22;60</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+    <lb n="1" xml:id="ed1ln1"/>Παμμένει <expan>στρ<ex>ατηγῷ</ex></expan> <expan>Ἀθριβ<ex>ίτου</ex></expan> 
+    <lb n="2" xml:id="ed1ln2"/><app type="editorial"><lem><unclear>π</unclear>αρὰ</lem><rdg><supplied reason="lost">π</supplied>αρὰ</rdg></app> <app type="editorial"><lem>Ἡφ<supplied reason="lost">α</supplied><unclear>ι</unclear><supplied reason="lost">σ</supplied><unclear>τα</unclear>ρίου</lem><rdg>Ἡφ<supplied reason="lost">αιστα</supplied>ρίου</rdg></app> Ἀχιλλέως το<supplied reason="lost">ῦ</supplied>
+    <lb n="3" xml:id="ed1ln3"/><app type="editorial"><lem><supplied reason="lost">Λε</supplied><unclear>ω</unclear><supplied reason="lost">νί</supplied>δου</lem><rdg><supplied reason="lost">Λεωνί</supplied>δου</rdg></app> ἀστῆς μετὰ <app type="editorial"><lem>κ<unclear>υρί</unclear><supplied reason="lost">ου</supplied></lem><rdg>κυ<supplied reason="lost">ρίου</supplied></rdg></app>
+    <lb n="4" xml:id="ed1ln4"/><app type="editorial"><lem><supplied reason="lost">τ</supplied><unclear>ο</unclear>ῦ ἀδ<unclear>ελ</unclear>φοῦ</lem><rdg><supplied reason="lost">το</supplied>ῦ ἀδ<supplied reason="lost">ελ</supplied>φοῦ</rdg></app> καὶ ἀνδρὸς αὐτῆς 
+    <lb n="5" xml:id="ed1ln5"/><app type="editorial"><lem><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="3" unit="character"/>ου</lem><rdg><gap reason="lost" quantity="6" unit="character"/>ου Ἀχιλλέως</rdg></app> <app type="editorial"><lem>Φυλαξιθα 
+    <lb n="6" break="no" xml:id="ed1ln6"/><supplied reason="lost">λα</supplied><unclear>σ</unclear>σίου</lem><rdg>Φυλαξιθα<lb n="6" break="no"/><supplied reason="lost">λασ</supplied>σίου τοῦ καὶ</rdg></app> <app type="editorial"><lem> Ἀλθαιέως</lem><rdg>Ἀλθαιέω<supplied reason="lost">ς</supplied></rdg></app>. 
+    <lb n="7" xml:id="ed1ln7"/><supplied reason="lost">ὠ</supplied>νουμένη παρὰ <app type="editorial"><lem>Βουβα
+    <lb n="8" break="no" xml:id="ed1ln8"/><supplied reason="lost">σ</supplied><unclear>τ</unclear>αρίου</lem><rdg>Βουβα<lb n="8" break="no"/><supplied reason="lost">στ</supplied>αρίου</rdg></app> <choice><reg>ἐκ</reg><orig>ἐγ</orig></choice> <app type="editorial"><lem> Διοσκορ<unclear>οῦ</unclear>
+    <lb n="9" break="no" xml:id="ed1ln9"/>τος</lem><rdg>μητρὸς Διοσκορ<supplied reason="lost">οῦ</supplied><lb n="9" break="no"/>τος</rdg></app> Διοσκόρου τοῦ Ποτάμ
+    <lb n="10" break="no" xml:id="ed1ln10"/>μωνος ἀπὸ Ἀθρίβεως 
+    <lb n="11" xml:id="ed1ln11"/><app type="editorial"><lem><unclear>δοῦ</unclear>λον ὀν<supplied reason="lost">όμ</supplied><unclear>ατι</unclear></lem><rdg><supplied reason="lost">δο</supplied>ῦλον ὀν<supplied reason="lost">όματ</supplied>ι</rdg></app> <app type="editorial"><lem>Κρει<unclear>σ</unclear>πῖ 
+    <lb n="12" break="no" xml:id="ed1ln12"/><unclear>ν</unclear><supplied reason="lost"><unclear>ον</unclear></supplied></lem><rdg>Χρηστ<supplied reason="lost">ὸν</supplied> <lb n="12"/> <supplied reason="lost">τὸν καὶ</supplied></rdg></app> <app type="editorial"><lem> ἐπικ<unclear>ε</unclear>κ<supplied reason="lost">λη</supplied>μένον</lem><rdg>ἐπικ<supplied reason="lost">ε</supplied>κ<supplied reason="lost">λη</supplied>μένο<supplied reason="lost">ν</supplied></rdg></app> <unclear>Ἡρ</unclear>α
+    <lb n="13" break="no" xml:id="ed1ln13"/><supplied reason="lost">κ</supplied>λείδην ὡς ἐτῶν <choice><reg>τρι
+    <lb n="14" break="no" xml:id="ed1ln14"/>άκοντα</reg><orig>τ<unclear>ρει</unclear><lb n="14" break="no"/><unclear>ά</unclear>κοντα</orig></choice> οὐλὴ<unclear>ν</unclear> ἔχοντα 
+    <lb n="15"/><gap reason="lost" extent="unknown" unit="line"/> 
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+            <fileDesc>
+               <titleStmt>
+                  <title type="main">SPP 22 60 Revisited</title>
+               </titleStmt>
+               <publicationStmt>
+                  <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                  <idno type="filename">27638</idno>
+                  <idno type="TM">27638</idno>
+                  <idno type="HGV">27638</idno>
+                  <idno type="ddb-hybrid">pylon;1;1</idno>
+                  <availability>
+                     <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                           a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+                  </availability>
+               </publicationStmt>
+               <sourceDesc>
+                  <p>The contents of this document are generated from SOSOL.</p>
+               </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+               <langUsage>
+                  <language ident="fr">Französisch</language>
+                  <language ident="en">Englisch</language>
+                  <language ident="de">Deutsch</language>
+                  <language ident="it">Italienisch</language>
+                  <language ident="es">Spanisch</language>
+                  <language ident="la">Latein</language>
+                  <language ident="el">Griechisch</language>
+                  <language ident="ar">Arabisch</language>
+               </langUsage>
+            </profileDesc>
+         </teiHeader>
+         <text>
+            <body>
+               <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+            <p>
+               <milestone n="1" unit="line"/> To Pammenes, strategos of the Athribite, from Hephaistarion daughter of Achilleus granddaughter of Leonides, citizen, with as her guardian her brother and husband NN son of Achilleus, of the Phylaxithalassian tribe and Althaian deme. <milestone n="7" rend="break" unit="line"/> Purchasing from Boubastarion whose mother is Dioskorous daughter of Dioskoros, granddaughter of Potammon, from Athribis, <milestone n="11" rend="break" unit="line"/> a slave named Crispinus nicknamed Herakleides, about 30 (?) years old, …, with a scar …
+            </p>
+            </div>
+            </body>
+         </text>
+   </TEI>
+</TEI>
