@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Zwei Miszellen zu Texten aus Soknopaiu Nesos</title>
+            <author>
+               <persName>
+                  <forename>Fabian</forename>
+                  <surname>Reiter</surname>
+               </persName>
+               <affiliation>
+                  <orgName>Università di Bologna</orgName>
+               </affiliation>
+               <email>fabian.reiter@unibo.it</email>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/117655073X</idno>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0002-6448-4222</idno>
+            </author>
+            <funder>Deutsche Forschungsgemeinschaft</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2022-02-18</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2022">2022</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.1.10</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2022.1.89339</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">F. Reiter, “Zwei Miszellen zu Texten aus Soknopaiu Nesos,” Pylon 1 (2022). DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2022.1.89339">https://doi.org/10.48631/pylon.2022.1.89339</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">1</biblScope>
+                     <biblScope unit="article">10</biblScope>
+                     <date when="2022">2022</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon. </ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2022-02-18T17:01:10Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Zwei Miszellen zu Texten aus Soknopaiu Nesos</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <table type="papyrological_header">
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: right;">Zur Erinnerung an Federica Micucci</cell>
+               </row>
+            </table>
+            <note type="acknowledgement">Nach Einreichung meines Beitrags wies Nick Gonis mich ebenso wie Federica Micucci darauf hin, daß unsere Beiträge für Pylon sich bezüglich der in meiner ersten Miszelle erwähnten Familie der Segathis überlappen. Micucci sandte mir daraufhin ihre ausgezeichnete <ref target="https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/micucci_sb22_15472">erweiterte Neuedition</ref> des Hauskaufvertrags SB XXII 15472, ich ihr meinen Beitrag, und wir tauschten uns per E-Mail darüber aus, s. unten Anm. 2. In wehmütiger Dankbarkeit für die Gelegenheit dieses letzten Kontaktes mit der ebenso brillanten wie liebenswürdigen jungen Papyrologin sei mein bescheidener Beitrag ihrem Andenken gewidmet.</note>
+            <div type="section">
+               <head>1) Ein toter Vormund für Segathis?</head>
+               <p xml:id="p1" style="text-align: justify;">Der als συνγραφοδιαθήκη (Z. 1) betitelte in Ptolemais Euergetis abgeschlossene Vertrag <ref target="https://papyri.info/ddbdp/bgu;1;252">BGU 1 252</ref> (24. Dez. 98 n.Chr.) enthält zum einen (Z. 3–10) eine Erklärung des Satabus über den Erhalt einer Mitgift in Höhe von 100 Drachmen von seiner Frau Taharpagathes<note place="foot" xml:id="ftn2" n="1"><p style="text-align: justify;"> Im Falle einer Scheidung hat Satabus seiner Frau wie üblich die Mitgift zurückzuzahlen, vgl. Z. 7–8: ἐὰν δ[ὲ] διαφορᾶς [α]ὐτοῖς γενομένης [χ]ωρίζωνται ἀπʼ ἀλλήλων, ἀποδό[τ]ω ὁ Σαταβ(οῦς) | [Τααρπαγά]θῃ τὰς [τῆ]ς φερνῆς ἀρ[γυ]ρίου δραχμὰς ἑ[κ]ατόν. Zu Beginn von Z. 8 scheint mir angesichts der Ergänzungen der anderen Zeilenanfänge noch genügend Raum für den zu erwartenden Artikel der Ehefrau zu sein, so daß [τῇ Τααρπαγ]άθῃ transkribiert werden kann, vgl. die Abbildung auf <ref target="https://berlpap.smb.museum/02027/">BerlPap</ref>. In Z. 9–10 folgt die Praxisklausel, die nach der Edition τὴν πρᾶξιν εἶ[ναι | Τααρπαγά]θῃ ἔ[κ] τε τοῦ Σαταβοῦ[τ]ος καὶ ἐκ τ[ῶ]ν ὑπαρχόντων αὐτῷ πάντων καθάπερ ἐγ [δ]ίκη[ς] lautet. Die Ergänzung von εἶ[ναι am Ende von Z. 9 ist allerdings ausgeschlossen, da die vom ersten Buchstaben erhaltene senkrechte Haste sowie der folgende kurze Horizontalstrich nicht zur Buchstabenfolge ει passen und mehr als zwei Buchstaben auf dem vollständig erhaltenen Blattrand kaum ergänzt werden können, vgl. die Höhe der anderen Zeilenenden. Mir scheint die Passage am Zeilenumbruch zu τὴν πρᾶξιν τ̣ῇ̣ | [Τααρπαγά]θῃ ergänzt werden zu müssen. Der fehlende Infinitiv, in der Regel γίνεσθαι, wird vor oder nach dem Namen der Ehefrau ausgefallen sein.</p></note>, zum anderen (Z. 10–15) eine testamentarische Verfügung der Mutter des Satabous Segathis zugunsten ihres Sohnes. Mutter und Sohn sind auch aus dem Vertrag <ref target="https://papyri.info/ddbdp/p.gen.2;1;24">P.Gen. 1<hi rend="superscript">2</hi> 24</ref> (21. Sept. 96) bekannt, in dem Segathis mit ihrem Sohn als Vormund ein gemischtes Darlehen von 80 Drachmen, 2 Artaben Gemüsesamen und 10 Artaben Weizen vergibt. Die Altersangaben der beiden (65 bzw. 40 Jahre) stimmen weitgehend mit denen des zwei Jahre jüngeren Vertrags BGU I 252 (66 bzw. 40 Jahre) überein, so daß kaum Zweifel an den von dem Herausgeber des Genfer Textes (Komm. zu Z. 8) vorgeschlagenen Identifizierungen aufkommen können.</p>
+               <p xml:id="p2" style="text-align: justify;">Der Vatersname des Satabus ist in <ref target="https://papyri.info/ddbdp/p.gen.2;1;24">P.Gen. 1<hi rend="superscript">2</hi> 24</ref> verloren, in <ref target="https://papyri.info/ddbdp/bgu;1;252">BGU 1 252</ref> unsicher gelesen, vgl. die Beschreibung seiner Person in Z. 3–4 nach der Edition: ὁμολογεῖ Σαταβοὺς Σ̣τ̣εσιῆ[ος] Πέρσης τῆς ἐπιγονῆς ὡς (ἐτῶν) μ εὐμεγέθης οὐλὴ δ[α]κτύλωι | [  ̣  ̣  ̣  ̣  ̣  ̣  ̣ χ]ειρὸς ἀριστερᾶς. Der Name Stesies ist anderweitig offenbar nicht bezeugt. Der erste Buchstabe ähnelt mit seiner geschlossenen Rundung allerdings eher einem Sigma am Wortende als am Wortbeginn, während der letzte Buchstabe des vorangehenden Namens in seiner gabelförmigen Gestalt nicht gut zu einem Sigma paßt und auf ihn folgend noch Spuren eines kleinförmigen, stark gerundeten Buchstaben zu erkennen sind. Nach dem auf <ref target="https://berlpap.smb.museum/02027/">BerlPap</ref> zugänglichen Scan möchte ich hier eher Σαταβοῦτ̣ο̣ς̣ (l. Σαταβοῦς) Τεσιήο[υς] lesen<note place="foot" xml:id="ftn3" n="2"><p style="text-align: justify;">	 Federica Micucci gelangt in ihrer detaillierten Diskussion der Familie zur selben Korrektur, vgl. <ref target="https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/micucci_sb22_15472#p9">Micucci 2022</ref> §9. Entsprechend schrieb sie mir am 29. Nov. 2021: „I am glad to see that we agree on the reading of the father's name in BGU I 252, and on the possibility that Segathis could be the daughter of Taharpagathes and Satabous“.</p></note>. Auch in <ref target="https://papyri.info/ddbdp/p.gen.2;1;24">P.Gen. 1<hi rend="superscript">2</hi> 24</ref>, 10 (vgl. Planche XXV oder den online zugänglichen <ref target="http://www.ville-ge.ch/musinfo/imageZoom/?iip=bgeiip/papyrus/pgen101-ri.ptif">Scan</ref>) sind oberhalb der Lücke, in der der Name des Vaters von Satabus gestanden haben muß, Spuren eines η zu erkennen, und eine Ergänzung der Stelle zu Σαταβοῦ[τος] Τ̣ε̣[σ]ι̣ήο̣υ̣[ς] scheint ohne weiteres möglich (Ed.: Σατα̣β̣ο̣[ῦτος   ̣  ̣  ̣  ̣  ̣]).</p>
+               <p xml:id="p3" style="text-align: justify;">Die Lesung der Namensform Τεσιης, welche offenbar eine schlichte Variante des im Arsinoites häufig belegten Namens Τεσης darstellt, erlaubt eine Annäherung der beiden Zeugnisse an das Archiv oder Dossier der Segathis, deren Vater Satabus ebenfalls den Vatersnamen Tesies bzw. Teses trägt. Zu dem Dossier werden bisher <ref target="https://papyri.info/ddbdp/stud.pal;22;40">SPP 22 40</ref><note place="foot" xml:id="ftn4" n="3"><p style="text-align: justify;"> Die Lesung des Namens des Großvaters der Segathis in Z. 5 des Vertrags Ἐσο[υ]ή(ριος) ist zwar anläßlich der Edition von BGU 11 2043 bereits angezweifelt (Komm. zu Z. 4, vgl. BL 6.191), aber nicht revidiert worden. Am <ref target="https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_2167761&amp;order=1&amp;view=SINGLE">Scan der Wiener Sammlung</ref> sind zu Beginn nach dem vorangehenden Artikel τοῦ noch Spuren eines Buchstabens zu sehen, und die nach den Parallelen zu erwartenden Lesungen Τεσι̣ή̣[ο]υ̣ς oder Τεσή[ο]υ̣ς̣ scheinen beide möglich. In SPP 22 45, 8 findet sich für den Namen des Großvaters die Schreibung Τεσείους.</p></note> (Lehrvertrag für eine Sklavin der Segathis; 20. Okt. 150); <ref target="https://papyri.info/ddbdp/bgu;11;2043">BGU 11 2043</ref> (Darlehensvertrag zwischen Segathis und ihrem Sohn Stotoetis; 16. Nov. 150); <ref target="https://papyri.info/ddbdp/stud.pal;22;43dupl">SPP 22 43</ref> mit Duplikat <ref target="https://papyri.info/ddbdp/p.lond;2;360dupl">P.Lond. 2 360</ref> (Zession von Sklavenanteilen durch Stotoetis; 17. März 151); <ref target="https://papyri.info/ddbdp/stud.pal;22;45">SPP 22 45</ref> (Quittung über Rückzahlung der letzten Darlehensrate;16. Juli 169<note place="foot" xml:id="ftn5" n="4"><p style="text-align: justify;">	 Für die Lesung des Regierungsjahres in Z. 1 erwog P. J. Sijpesteijn ἐνάτου anstelle von ἕκτου der Edition, vgl. BL 8.482. Aufgrund der Paläographie ist die Frage der Lesung kaum zu entscheiden, aber da Mark Aurel in der Titulatur ohne seinen bis Mai 169 (vgl. <ref target="https://papyri.info/biblio/77700">Gonis 2009</ref>: 196) in den Papyri nachgewiesenen Mitregenten Lucius Verus genannt ist, scheidet die Datierung auf das sechste Regierungsjahr aus.</p></note>) und eventuell <ref target="https://papyri.info/ddbdp/bgu;1;87">BGU 1 87</ref><note place="foot" xml:id="ftn6" n="5"><p style="text-align: justify;"> In Z. 20 ist nach Ausweis des auf BerlPap zugänglichen <ref target="https://berlpap.smb.museum/01890/">Scans</ref> anstelle von αὐτήν (BL 1.17) eher der Edition folgend αὐτό̣ν zu lesen, d.h. der Käufer verpflichtet sich neben der Anmeldung des neuen Besitzes auch zur Zahlung der steuerlichen Abgaben: [τῶν] δ[ημο]σίων πρὸ[ς] αὐτὸ̣ν ὄντων. Ende Z. 21 ist im Signalement des Schreibvertreters οὐλ(ὴ) μετώπωι  zu lesen (Ed.: οὐλ(ῇ) με).</p></note> (Verkauf von zwei Kamelen durch die Tochter der Segathis Tauetis; 14. Jan. 144 mit BL 12.10) gezählt, vgl. <ref target="https://papyri.info/biblio/84719">Smolders 2015</ref> (= <ref target="http://www.trismegistos.org/archive/213">TM Arch 213</ref>). Segathis war angesichts der Altersangabe in SPP 22 40, 5 (ca. 60 Jahre im Jahre 150) sowie des mutmaßlichen Geburtsdatums ihrer ältesten Tochter Tauetis (ca. 106, vgl. SPP 22 43, 6–7) wohl gegen 90 n.Chr. geboren<note place="foot" xml:id="ftn7" n="6"><p>	 Im Widerspruch zu den Daten steht die Altersangabe der Segathis in SPP 22 45, 9 (ca. 70 Jahre im Jahre 169, s.o. Anm. 3), welche um ein Dezennium zu niedrig geschätzt sein dürfte.</p></note>. Sie könnte daher durchaus Tochter von Satabus und Taharpagathes sein, welche zur Zeit des Vertrags mit ihrem Mann BGU 1 252 (24. Dez. 98 n.Chr.) etwa 25 Jahre alt war, also ungefähr 73 n.Chr. geboren war, zumal die beiden schon vor der Mitgiftsquittung zusammengelebt hatten, vgl. <ref target="https://papyri.info/ddbdp/bgu;1;252">BGU 1 252</ref>, 4: τῇ προούσῃ καὶ συν[ο]ύσῃ αὑτῶι [γ]υναικὶ Τααρπαγάθῃ. Alternativ könnte die jüngere Segathis auch einer früheren Ehe des Satabus entsprungen sein. Für die vorgeschlagene Gleichsetzung des Satabus, Sohn des Tesies, aus <ref target="https://papyri.info/ddbdp/bgu;1;252">BGU 1 252</ref> und <ref target="https://papyri.info/ddbdp/p.gen.2;1;24">P.Gen. 1<hi rend="superscript">2</hi> 24</ref> mit dem gleichnamigen Vater der Protagonistin des Segathis-Dossiers spricht (neben der Seltenheit der Namensform Tesies), daß seine Mutter ebenfalls Segathis hieß, seine Tochter (Segathis II) also nach der Großmutter (Segathis I) benannt worden wäre. Beide Möglichkeiten erwägt auch Micucci in ihrem Beitrag, aber sie kann weit über diese hinausgehend noch diverse weitere Identifizierungen plausibel machen, die sie zur Aufzeichnung eines sieben Generationen umfassenden Stammbaums der Familie befähigen (<ref target="https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/micucci_sb22_15472#p15">Micucci 2022</ref>, §15).</p>
+               <p xml:id="p4" style="text-align: justify;">Wie oben gesagt tritt Segathis I in <ref target="https://papyri.info/ddbdp/bgu;1;252">BGU 1 252</ref>, 10–15 mit einer testamentarischen Verfügung zugunsten ihres Sohnes Satabus in Erscheinung. Hierbei agiert sie mit einem Vormund, vgl. Z. 12: μετὰ κυρίου τοῦ τετ[ελ(ευτηκότος?)] ἀ[δελφο]ῦ αὐτῆς Τεσενούφιος υἱοῦ [Τεσενο]ύφιος ὡς (ἐτῶν) μ. Wie kann aber der gestorbene Bruder der Segathis noch als realer Vormund in der Verfügung dienen? Die Erklärung besteht in einer schlichten Verlesung des Artikels τοῦ: Wie auf dem oben genannten <ref target="https://berlpap.smb.museum/02027/">Scan</ref> leicht nachzuvollziehen ist, lautet der Passus tatsächlich μετὰ κυρίου τοῦ τοῦ ἀ[δελφο]ῦ αὐτῆς Τεσενούφιος υἱοῦ [Τεσενο]ύφιος ὡς (ἐτῶν) μ. Segathis nutzt also ihren Neffen, den vierzigjährigen Sohn Tesenuphis ihres gleichnamigen Bruders, als Vormund bei ihrer Erklärung.</p>
+            </div>
+            <div type="section">
+               <head>2) Zur Bezeichnung der Herkunft aus Soknopaiu Nesos</head>
+               <p xml:id="p5" style="text-align: justify;">In der an die Buchhalter des Grundbesitzamtes (βιβλιοφύλακες ἐγκτήσεων) des Arsinoites gerichteten Erklärung über den Verkauf eines Anteils von einem Haus und Hof <ref target="https://papyri.info/ddbdp/chr.mitt;;202">BGU 1 184 = M.Chr. 202</ref><note place="foot" xml:id="ftn8" n="7"><p style="text-align: justify;"> Die Erklärung der Lastenfreiheit der Immobilie in Z. 25–26 lautet nach der Erstedition und Mitteis’ Neudruck κα]θαρὸν ἀπὸ [ὀ]φειλ(ῆς) [καὶ] | ὑποθήκ[ης καὶ παντὸς] δ[ι]ενγυ[ήμ(ατος)]. Über den PN Editor habe ich im Frühjahr 2020 vorgeschlagen, am Ende von Z. 25 nur [ὀ]φει̣λ̣ῆ(ς) zu lesen, doch diese Korrektur ist von Th. Backhuys im Zuge der Redaktion modifiziert worden durch die Ergänzung der Konjunktion κ̣α̣̣ί̣. Ein Blick auf den auf <ref target="https://berlpap.smb.museum/02027/">BerlPap</ref> zugänglichen Scan zeigt allerdings, daß der Papyrus am Zeilenende nur ]φει̣λ̣η hat. Das zur Abkürzung hochgestellte η kann keinesfalls als κ̣α̣ί̣ gelesen werden, und darauf folgt unmittelbar der Rand des Blattes. Für die asyndetische Reihung ἀπὸ [ὀ]φει̣λ̣ῆ(ς) | ὑποθήκ[ης gibt es zahlreiche Parallelen, vgl. etwa <ref target="https://papyri.info/ddbdp/p.narm.2006;;3">P.Narm. 2006 3</ref>, 19–20 (24. Mai 93); <ref target="https://papyri.info/ddbdp/p.narm.2006;;4">4</ref>, 17 (17. Okt. 99); <ref target="https://papyri.info/ddbdp/cpr;1;220">CPR I 220</ref>, 7 (1. Jh.); <ref target="https://papyri.info/ddbdp/stud.pal;22;85">SPP XXII 85</ref>, 19–20 (1. Nov. 128) sowie <ref target="https://papyri.info/ddbdp/p.vind.tand;;26">P.Vind.Tand. 26</ref>, 17 (28. Nov. – 27. Dez. 143).</p></note> (72–78 n.Chr., vgl. BL 13.17) ist in Z. 7 die Herkunft der vier als Verkäufer agierenden Geschwister mit den Worten τῶν ἀπ[ὸ κώ(μης)] Σοκνο[π]αί[ου Νήσου] bezeichnet. Die Bezeichnung von Soknopaiu Nesos<note place="foot" xml:id="ftn9" n="8"><p style="text-align: justify;"> Zur Etymologie des Dorfnamens vgl. <ref target="https://papyri.info/biblio/73998">Clarysse 2005</ref>: 20–21.</p></note> als κώμη findet sich in Herkunftsbezeichnungen mit gewisser Regelmäßigkeit<note place="foot" xml:id="ftn10" n="9"><p style="text-align: justify;"> Eine Ausnahme bildet <ref target="https://papyri.info/ddbdp/cpr;15;15">CPR 15 15</ref>, 2 (7–4 v.Chr.).</p></note> allerdings erst in der 90er Jahren, vgl. an frühen Zeugnissen <ref target="https://papyri.info/ddbdp/p.stras;5;321">P.Stras. 5 321</ref>, 1 (93/4?), <ref target="https://papyri.info/ddbdp/p.vind.worp;;1">P.Vindob.Worp 1</ref>, 6 (90–96) und <ref target="https://papyri.info/ddbdp/chr.mitt;;50">BGU 1 226 = M.Chr. 50</ref>, 4 (25. Febr. 99). In ptolemäischer Zeit und der frühen Kaiserzeit lautet die entsprechende Herkunftsbezeichnung dagegen fast immer ἀπὸ τῆς Σοκνοπαίου Νήσου, für die als späteste aus dem Dorfe selbst stammende Belege <ref target="https://papyri.info/ddbdp/cde;85;241">P.Brux. inv. E 7198</ref>, 6 (25. Juni – 24. Juli 83); <ref target="https://papyri.info/ddbdp/bgu;2;536">BGU 2 536</ref>, 4–5 (5. Jan. 84 mit BL 9.21); <ref target="https://papyri.info/ddbdp/p.ryl;2;107">P.Ryl. 2 107</ref>, 4–5 (31. März 84 mit P.Narm. 2006, S. 10) und <ref target="https://papyri.info/ddbdp/stud.pal;22;23">SPP 22 23</ref>, 5–6 (84–96 mit BL 8.479–480 und 9.351) zu nennen sind<note place="foot" xml:id="ftn11" n="10"><p style="text-align: justify;">Die Kameldeklaration <ref target="https://papyri.info/ddbdp/sb;20;14683">SPP 22 97 = SB 20 14683</ref> (ca. 171–175) enthält in Z. 4–5 wiederum die Bezeichnung ἀπὸ] | τ̣ῆ̣ς̣ Σοκνοπ̣αίο̣[υ Νήσο]υ̣.</p></note>. Offenbar ist also in der Regierungszeit des Domitian, genauer gesagt zwischen den Jahren 84 und 94, eine Modifikation in der Bezeichnung der Herkunft von dem Ausdruck ἀπὸ τῆς Σοκνοπαίου Νήσου zu ἀπὸ κώμης Σοκνοπαίου Νήσου von den Urkundenschreibern vorgenommen worden. Außerhalb des Arsinoites ist die alte Bezeichnung interessanterweise noch im 3. Jh. in den in Memphis ausgestellten Torzollquittungen <ref target="https://papyri.info/ddbdp/p.customs;;451">P.Customs 451</ref>, 2–3 und <ref target="https://papyri.info/ddbdp/p.customs;;452">452</ref>, 2–3 zu finden. </p>
+               <p xml:id="p6" style="text-align: justify;"><ref target="https://papyri.info/ddbdp/bgu;1;184">BGU 1 184</ref> wäre im Falle der Richtigkeit der Ergänzung in Z. 7 zu τῶν ἀπ[ὸ κώ(μης)] Σοκνο[π]αί[ου Νήσου] eine Art Vorläufer der neuen offiziellen Bezeichnung als Dorf in den Herkunftsbezeichnungen. Allerdings sind vor dem Dorfnamen nach Ausweis des über <ref target="https://berlpap.smb.museum/02007/">BerlPap</ref> zugänglichen Scans noch einige Spuren erhalten, insbesondere der zum Sigma von Σοκνο[π]αί[ου führende Horizontalstrich auf mittlerer Höhe, der zu einem Sigma gehören dürfte, für einen Abkürzungsstrich von κώ(μης) dagegen viel zu tief stünde. In den Spuren ist gewiß der Artikel τ̣ῆ̣ς zu lesen und damit noch einmal die in den 70er Jahren zu erwartende Titulatur τῶν ἀπ[ὸ] τ̣ῆ̣ς Σοκνοπ̣αίο̣υ Νήσ[ο]υ̣ belegt. Entsprechend der festgestellten Regel wird man in den aus der Zeit vor dem offiziellen Wechsel der Bezeichnung in der Regierungszeit Domitians stammenden ergänzten Herkunftsbezeichnungen <ref target="https://papyri.info/ddbdp/p.amh;2;34ab">P.Amh. 2 34a+b</ref>, 5 und <ref target="https://papyri.info/ddbdp/p.amh;2;34c">c</ref>, 4 (ca. 157 v.Chr), vielleicht eher den Artikel τῆς als die Bezeichnung κώμης erwarten dürfen. Umgekehrt wäre zu erwägen, die fragmentarische Besitzdeklaration <ref target="https://papyri.info/ddbdp/p.stras;9;889">P.Stras. 9 810 = 889</ref>, bisher in die erste Hälfte des 2. Jh. datiert, angesichts der Herkunftsbezeichnung in Z. 4–6 ἀπὸ τῆς | [Σοκνοπαίου Νήσου τῆς] Ἡρακλείδου | [μερίδος vielleicht eher in die Regierungszeit Domitians als Hadrians (vgl. F. Beziau und S. Bresson, Komm. zu P.Stras. 9 810, 2 und 8) zu setzen.<note place="foot" xml:id="ftn12" n="11"><p style="text-align: justify;">Für die in der Lücke in Z. 2 verlorenen Adressaten der Besitzanzeige kämen dann die von 83–105 bezeugten Bibliophylakes Sokrates und Antipatros in Frage; eine Ergänzung ihrer Namen würde jedenfalls dem von den Herausgebern vorgebrachten Kriterium (Komm. zu Z. 2: „D’après la disposition du texte, les noms des <emph rend="italics">bibliophylakes</emph> ne devaient pas faire plus de 16 lettres (y compris καί)“ nicht widersprechen, vgl. die Schreibweise in <ref target="https://papyri.info/ddbdp/stud.pal;22;86">SPP 22 86</ref>, 3–4 (24. Okt. 87 n.Chr): Σωκράτῃ γεγ(υμνασιαρχηκότι) κ(αὶ) Ἀντιπ(άτρῳ) | βιβλιοφύλ(αξι) ἐνκτή(σεων) Ἀρσι(νοΐτου).</p></note> </p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/73998">Clarysse, W. (2005)</ref> “Tebtynis and Soknopaiou Nesos: The Papyrological Documentation through the Centuries,” in S. Lippert and M. Schentuleit (Hgg.), Tebtynis und Soknopaiu Nesos – Leben im römerzeitlichen Fajum, Akten des Internationalen Symposions vom 11.–13. Dez. 2003 in Sommerhausen bei Würzburg. Wiesbaden: 19–27.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/77700">Gonis, N. (2009)</ref> “Egypt and the Date of the Death of Lucius Verus,” ZPE 169: 196.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96042">Micucci, F. (2022)</ref> “Sale of a House in Soknopaiou Nesos: SB 22 15472 Completed,” Pylon 1.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/84719">Smolders, R. (2015)</ref> in K. Vandorpe, W. Clarysse and H. Verreth, Graeco-Roman Archives from the Fayum. Leuven: 362–363.</bibl>
+               </listBibl>
+            </div>
+            <div type="corrections">
+               <table type="#corrections">
+                  <row>
+                     <cell style="text-align: left;">TargetFile</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.252.xml%23L57">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.252.xml#L57</ref>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Replace</cell>
+                     <cell style="text-align: left;">&lt;lb n="3"/&gt;&lt;supplied reason="lost"&gt;Σεβαστῆς&lt;/supplied&gt;.  ὁμολογεῖ Σαταβοὺς &lt;unclear&gt;Στ&lt;/unclear&gt;εσιῆ&lt;supplied reason="lost"&gt;ος&lt;/supplied&gt; Πέρσης τῆς ἐπιγονῆς ὡς &lt;expan&gt;&lt;ex&gt;ἐτῶν&lt;/ex&gt;&lt;/expan&gt; &lt;num value="40"&gt;μ&lt;/num&gt; εὐμεγέθης οὐλὴ δ&lt;supplied reason="lost"&gt;α&lt;/supplied&gt;κτύλωι</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">With</cell>
+                     <cell style="text-align: left;">&lt;lb n="3"/&gt;&lt;supplied reason="lost"&gt;Σεβαστῆς&lt;/supplied&gt;.  ὁμολογεῖ &lt;app type="editorial"&gt;&lt;lem resp="F. Reiter, Pylon 1, 10 §2"&gt;Σαταβοῦ&lt;supplied reason="lost"&gt;τος&lt;/supplied&gt; &lt;unclear&gt;Τε&lt;/unclear&gt;&lt;supplied reason="lost"&gt;σ&lt;/supplied&gt;&lt;unclear&gt;ι&lt;/unclear&gt;ή&lt;unclear&gt;ου&lt;/unclear&gt;&lt;supplied reason="lost"&gt;ς&lt;/supplied&gt;&lt;/lem&gt;&lt;rdg&gt;Σαταβοὺς &lt;unclear&gt;Στ&lt;/unclear&gt;εσιῆ&lt;supplied reason="lost"&gt;ος&lt;/supplied&gt;&lt;/rdg&gt;&lt;/app&gt; Πέρσης τῆς ἐπιγονῆς ὡς &lt;expan&gt;&lt;ex&gt;ἐτῶν&lt;/ex&gt;&lt;/expan&gt; &lt;num value="40"&gt;μ&lt;/num&gt; εὐμεγέθης οὐλὴ δ&lt;supplied reason="lost"&gt;α&lt;/supplied&gt;κτύλωι </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">TargetFile</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.252.xml%2523L69">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.252.xml#L69</ref>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Replace</cell>
+                     <cell style="text-align: left;">&lt;lb n="9" break="no"/&gt;&lt;supplied reason="lost"&gt;ας ἀπαλλαγῆς&lt;/supplied&gt; ἐν ἡμέραις τρι&lt;supplied reason="lost"&gt;ά&lt;/supplied&gt;κοντα &lt;num value="30"/&gt;, ἀφʼ ἧς &lt;supplied reason="lost"&gt;ἐὰ&lt;/supplied&gt;ν ἀπα&lt;supplied reason="lost"&gt;ι&lt;/supplied&gt;τ&lt;supplied reason="lost"&gt;η&lt;/supplied&gt;θῇ· ἐὰν δὲ μὴ ἀποδῷ, καθὰ γέγραπται, τὴν πρᾶξιν εἶ&lt;supplied reason="lost"&gt;ναι&lt;/supplied&gt; </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">With</cell>
+                     <cell style="text-align: left;">&lt;lb n="9" break="no"/&gt;&lt;supplied reason="lost"&gt;ας ἀπαλλαγῆς&lt;/supplied&gt; ἐν ἡμέραις τρι&lt;supplied reason="lost"&gt;ά&lt;/supplied&gt;κοντα &lt;num value="30"/&gt;, ἀφʼ ἧς &lt;supplied reason="lost"&gt;ἐὰ&lt;/supplied&gt;ν ἀπα&lt;supplied reason="lost"&gt;ι&lt;/supplied&gt;τ&lt;supplied reason="lost"&gt;η&lt;/supplied&gt;θῇ· ἐὰν δὲ μὴ ἀποδῷ, καθὰ γέγραπται, τὴν πρᾶξιν &lt;app type="editorial"&gt;&lt;lem resp="F. Reiter, Pylon 1, 10 n.1"&gt;&lt;unclear&gt;τῇ&lt;/unclear&gt; &lt;/lem&gt;&lt;rdg&gt;εἶ&lt;supplied reason="lost"&gt;ναι&lt;/supplied&gt;&lt;/rdg&gt;&lt;/app&gt;</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">TargetFile</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/stud.pal/stud.pal.22/stud.pal.22.40.xml%2523L66">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/stud.pal/stud.pal.22/stud.pal.22.40.xml#L66</ref>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Replace</cell>
+                     <cell style="text-align: left;">&lt;lb n="5" break="no"/&gt;&lt;supplied reason="lost"&gt;τος&lt;/supplied&gt; τοῦ &lt;expan&gt;Ἐσο&lt;supplied reason="lost"&gt;υ&lt;/supplied&gt;ή&lt;ex&gt;ριος&lt;/ex&gt;&lt;/expan&gt; ἀπὸ κώ&lt;supplied reason="lost"&gt;μ&lt;/supplied&gt;ης Σοκνοπαίου Νήσου ὡς &lt;expan&gt;&lt;ex&gt;ἐτῶν&lt;/ex&gt;&lt;/expan&gt; &lt;num value="60"&gt;ξ&lt;/num&gt; </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">With</cell>
+                     <cell style="text-align: left;">&lt;lb n="5" break="no"/&gt;&lt;supplied reason="lost"&gt;τος&lt;/supplied&gt; τοῦ &lt;app type="editorial"&gt;&lt;lem resp="F. Reiter, Pylon 1, 10 n.3"&gt;&lt;app type="alternative"&gt;&lt;lem&gt;Τεσ&lt;unclear&gt;ιή&lt;/unclear&gt;&lt;supplied reason="lost"&gt;ο&lt;/supplied&gt;&lt;unclear&gt;υ&lt;/unclear&gt;ς&lt;/lem&gt;&lt;rdg&gt;Τεσή&lt;supplied reason="lost"&gt;ο&lt;/supplied&gt;&lt;unclear&gt;υς&lt;/unclear&gt;&lt;/rdg&gt;&lt;/app&gt;&lt;/lem&gt;&lt;rdg&gt;&lt;expan&gt;Ἐσο&lt;supplied reason="lost"&gt;υ&lt;/supplied&gt;ή&lt;ex&gt;ριος&lt;/ex&gt;&lt;/expan&gt;&lt;/rdg&gt;&lt;/app&gt; ἀπὸ κώ&lt;supplied reason="lost"&gt;μ&lt;/supplied&gt;ης Σοκνοπαίου Νήσου ὡς &lt;expan&gt;&lt;ex&gt;ἐτῶν&lt;/ex&gt;&lt;/expan&gt; &lt;num value="60"&gt;ξ&lt;/num&gt; </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">TargetFile</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.87.xml%23L107">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.87.xml#L107</ref>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Replace</cell>
+                     <cell style="text-align: left;">&lt;lb n="20"/&gt;&lt;supplied reason="lost"&gt;τῶν&lt;/supplied&gt; δ&lt;supplied reason="lost"&gt;ημο&lt;/supplied&gt;σίων πρὸ&lt;supplied reason="lost"&gt;ς&lt;/supplied&gt; &lt;app type="editorial"&gt;&lt;lem resp="BL 1.17"&gt;αὐτὴν&lt;/lem&gt;&lt;rdg&gt;αὐτ&lt;supplied reason="lost"&gt;ὸ&lt;/supplied&gt;ν&lt;/rdg&gt;&lt;/app&gt; ὄντων &lt;g rend="extension" type="filler"/&gt; </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">With</cell>
+                     <cell style="text-align: left;">&lt;lb n="20"/&gt;&lt;supplied reason="lost"&gt;τῶν&lt;/supplied&gt; δ&lt;supplied reason="lost"&gt;ημο&lt;/supplied&gt;σίων πρὸ&lt;supplied reason="lost"&gt;ς&lt;/supplied&gt; &lt;app type="editorial"&gt;&lt;lem resp="F. Reiter, Pylon 1 (2022) 10 n.5"&gt;αὐτ&lt;unclear&gt;ὸ&lt;/unclear&gt;ν&lt;/lem&gt;&lt;rdg resp="BL 1.17"&gt;αὐτὴν&lt;/rdg&gt;&lt;rdg&gt;αὐτ&lt;supplied reason="lost"&gt;ὸ&lt;/supplied&gt;ν&lt;/rdg&gt;&lt;/app&gt; ὄντων &lt;g rend="extension" type="filler"/&gt; </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">TargetFile</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.87.xml%23L109">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.87.xml#L109</ref>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Replace</cell>
+                     <cell style="text-align: left;">&lt;lb n="21"/&gt;ὑπογραφεῖς. &lt;handShift new="m2"/&gt; Σῦκος ὁ καὶ Παπῆες Νείλου ὡς &lt;expan&gt;&lt;ex&gt;ἐτῶν&lt;/ex&gt;&lt;/expan&gt; &lt;num value="40"&gt;μ&lt;/num&gt; &lt;expan&gt;οὐλ&lt;ex&gt;ὴ&lt;/ex&gt;&lt;/expan&gt; &lt;gap reason="illegible" quantity="1" unit="character"/&gt;με&lt;gap reason="illegible" quantity="4" unit="character"/&gt;&lt;gap reason="illegible" quantity="1" unit="character"/&gt; </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">With</cell>
+                     <cell style="text-align: left;">&lt;lb n="21"/&gt;ὑπογραφεῖς. &lt;handShift new="m2"/&gt; Σῦκος ὁ καὶ Παπῆες Νείλου ὡς &lt;expan&gt;&lt;ex&gt;ἐτῶν&lt;/ex&gt;&lt;/expan&gt; &lt;num value="40"&gt;μ&lt;/num&gt; &lt;app type="editorial"&gt;&lt;lem resp="F. Reiter, Pylon 1 (2022) 10 n.5"&gt;&lt;expan&gt;οὐλ&lt;ex&gt;ὴ&lt;/ex&gt;&lt;/expan&gt; μετώπωι &lt;/lem&gt;&lt;rdg&gt;&lt;expan&gt;οὐλ&lt;ex&gt;ὴ&lt;/ex&gt;&lt;/expan&gt; &lt;gap reason="illegible" quantity="1" unit="character"/&gt;με&lt;gap reason="illegible" quantity="4" unit="character"/&gt;&lt;gap reason="illegible" quantity="1" unit="character"/&gt;&lt;/rdg&gt;&lt;/app&gt;</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">TargetFile</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.202.xml%2523L108-L110">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.202.xml#L108-L110</ref>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Replace</cell>
+                     <cell style="text-align: left;">
+                        <p>&lt;lb n="25"/&gt;&lt;num value="60"&gt;ἑξήκον&lt;supplied reason="lost"&gt;τα&lt;/supplied&gt;&lt;/num&gt; &lt;gap reason="lost" quantity="4" unit="character"/&gt; &lt;supplied reason="lost"&gt;καθ&lt;/supplied&gt;αρὸν ἀπὸ &lt;app type="editorial"&gt;&lt;lem resp="PN F. Reiter (BerlPap, digital image)"&gt;&lt;expan&gt;&lt;supplied reason="lost"&gt;ὀ&lt;/supplied&gt;φε&lt;unclear&gt;ιλ&lt;/unclear&gt;ῆ&lt;ex&gt;ς&lt;/ex&gt;&lt;/expan&gt;&lt;/lem&gt;&lt;rdg&gt;&lt;expan&gt;&lt;supplied reason="lost"&gt;ὀ&lt;/supplied&gt;φειλ&lt;ex&gt;ῆς&lt;/ex&gt;&lt;/expan&gt;&lt;/rdg&gt;&lt;/app&gt; &lt;app type="editorial"&gt;&lt;lem resp="PN T. Backhuys (BerlPap, digital image)"&gt;&lt;unclear&gt;καὶ&lt;/unclear&gt;&lt;/lem&gt;&lt;rdg&gt;&lt;supplied reason="lost"&gt;καὶ&lt;/supplied&gt;&lt;/rdg&gt;&lt;/app&gt;</p>
+                        <p>&lt;lb n="26"/&gt;ὑποθήκ&lt;supplied reason="lost"&gt;ης καὶ παντὸς&lt;/supplied&gt; &lt;expan&gt;δ&lt;supplied reason="lost"&gt;ι&lt;/supplied&gt;ενγυ&lt;supplied reason="lost"&gt;ήμ&lt;ex&gt;ατος&lt;/ex&gt;&lt;/supplied&gt;&lt;/expan&gt;. </p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">With</cell>
+                     <cell style="text-align: left;">
+                        <p>&lt;lb n="25"/&gt;&lt;num value="60"&gt;ἑξήκον&lt;supplied reason="lost"&gt;τα&lt;/supplied&gt;&lt;/num&gt; &lt;gap reason="lost" quantity="4" unit="character"/&gt; &lt;supplied reason="lost"&gt;καθ&lt;/supplied&gt;αρὸν ἀπὸ &lt;app type="editorial"&gt;&lt;lem resp="F. Reiter, Pylon 1 (2022) 10 n.5"&gt;&lt;expan&gt;&lt;supplied reason="lost"&gt;ὀ&lt;/supplied&gt;φε&lt;unclear&gt;ιλ&lt;/unclear&gt;ῆ&lt;ex&gt;ς&lt;/ex&gt;&lt;/expan&gt; &lt;lb n="26"/&gt;ὑποθήκ&lt;supplied reason="lost"&gt;ης&lt;/supplied&gt;&lt;/lem&gt;&lt;rdg resp="PN T. Backhuys (BerlPap, digital image)"&gt;&lt;expan&gt;&lt;supplied reason="lost"&gt;ὀ&lt;/supplied&gt;φειλ&lt;ex&gt;ῆς&lt;/ex&gt;&lt;/expan&gt; &lt;unclear&gt;καὶ&lt;/unclear&gt; &lt;lb n="26"/&gt;ὑποθήκ&lt;supplied reason="lost"&gt;ης&lt;/supplied&gt;&lt;/rdg&gt;&lt;rdg resp="PN F. Reiter (BerlPap, digital image)"&gt;&lt;expan&gt;&lt;supplied reason="lost"&gt;ὀ&lt;/supplied&gt;φε&lt;unclear&gt;ιλ&lt;/unclear&gt;ῆ&lt;ex&gt;ς&lt;/ex&gt;&lt;/expan&gt; &lt;lb n="26"/&gt;ὑποθήκ&lt;supplied reason="lost"&gt;ης&lt;/supplied&gt;&lt;/rdg&gt;&lt;rdg&gt;&lt;expan&gt;&lt;supplied reason="lost"&gt;ὀ&lt;/supplied&gt;φειλ&lt;ex&gt;ῆς&lt;/ex&gt;&lt;/expan&gt; &lt;supplied reason=„lost“&gt;καὶ&lt;/supplied&gt;</p>
+                        <p>&lt;lb n="26"/&gt;ὑποθήκ&lt;supplied reason="lost"&gt;ης&lt;/supplied&gt;&lt;/rdg&gt;&lt;/app&gt; &lt;supplied reason="lost"&gt;καὶ παντὸς&lt;/supplied&gt; &lt;expan&gt;δ&lt;supplied reason="lost"&gt;ι&lt;/supplied&gt;ενγυ&lt;supplied reason="lost"&gt;ήμ&lt;ex&gt;ατος&lt;/ex&gt;&lt;/supplied&gt;&lt;/expan&gt;. </p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">TargetFile</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.202.xml%23L72">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.202.xml#L72</ref>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Replace</cell>
+                     <cell style="text-align: left;">&lt;lb n="7"/&gt;τῶν ἀπ&lt;supplied reason="lost"&gt;ὸ &lt;expan&gt;κώ&lt;ex&gt;μης&lt;/ex&gt;&lt;/expan&gt;&lt;/supplied&gt; Σοκνο&lt;supplied reason="lost"&gt;π&lt;/supplied&gt;αί&lt;supplied reason="lost"&gt;ου Νήσου&lt;/supplied&gt;       </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">With</cell>
+                     <cell style="text-align: left;">&lt;lb n="7"/&gt;τῶν &lt;app type="editorial"&gt;&lt;lem resp="F. Reiter, Pylon 1 (2022) 10 §6"&gt;ἀπ&lt;supplied reason="lost"&gt;ὸ&lt;/supplied&gt; &lt;unclear&gt;τῆ&lt;/unclear&gt;ς Σοκνο&lt;unclear&gt;π&lt;/unclear&gt;αί&lt;unclear&gt;ο&lt;/unclear&gt;υ Νήσ&lt;supplied reason="lost"&gt;ο&lt;/supplied&gt;&lt;unclear&gt;υ&lt;/unclear&gt;&lt;/lem&gt;&lt;rdg&gt;ἀπ&lt;supplied reason="lost"&gt;ὸ &lt;expan&gt;κώ&lt;ex&gt;μης&lt;/ex&gt;&lt;/expan&gt;&lt;/supplied&gt; Σοκνο&lt;supplied reason="lost"&gt;π&lt;/supplied&gt;αί&lt;supplied reason="lost"&gt;ου Νήσου&lt;/supplied&gt;&lt;/rdg&gt;&lt;/app&gt; </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">TargetFile</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/sb/sb.20/sb.20.14683.xml%2523L57-L59">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/sb/sb.20/sb.20.14683.xml#L57-L59</ref>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Replace</cell>
+                     <cell style="text-align: left;">
+                        <p>&lt;lb n="4"/&gt;&lt;unclear&gt;τ&lt;/unclear&gt;ῆς Ἁρπαγά&lt;unclear&gt;θου&lt;/unclear&gt; &lt;gap reason="lost" quantity="1" unit="character"/&gt;&lt;gap reason="illegible" quantity="2" unit="character"/&gt;&lt;gap reason="lost" quantity="8" unit="character"/&gt;&lt;supplied reason="lost"&gt; ἀπὸ&lt;/supplied&gt;  </p>
+                        <p>&lt;lb n="5"/&gt;&lt;unclear&gt;τῆς&lt;/unclear&gt; Σοκνο&lt;unclear&gt;π&lt;/unclear&gt;αί&lt;unclear&gt;ο&lt;/unclear&gt;&lt;supplied reason="lost"&gt;υ Νήσο&lt;/supplied&gt;&lt;unclear&gt;υ&lt;/unclear&gt;. &lt;supplied reason="lost"&gt;κατὰ τὰ&lt;/supplied&gt;   </p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">With</cell>
+                     <cell style="text-align: left;">
+                        <p>&lt;lb n="4"/&gt;&lt;unclear&gt;τ&lt;/unclear&gt;ῆς Ἁρπαγά&lt;unclear&gt;θου&lt;/unclear&gt; &lt;gap reason="lost" quantity="1" unit="character"/&gt;&lt;gap reason="illegible" quantity="2" unit="character"/&gt;&lt;gap reason="lost" quantity="8" unit="character"/&gt; &lt;app type="editorial"&gt;&lt;lem resp="F. Reiter, Pylon 1 (2022) 10 n.11"&gt;&lt;supplied reason="lost"&gt;ἀπὸ&lt;/supplied&gt; &lt;lb n="5"/&gt;&lt;app type="alternative"&gt;&lt;lem&gt;&lt;unclear&gt;τῆς&lt;/unclear&gt;&lt;/lem&gt;&lt;rdg&gt;&lt;supplied reason="lost"&gt;κ&lt;/supplied&gt;&lt;unclear&gt;ώμης&lt;/unclear&gt;&lt;/rdg&gt;&lt;/app&gt;&lt;/lem&gt;&lt;rdg&gt;&lt;supplied reason=„lost“&gt;ἀπὸ&lt;/supplied&gt;</p>
+                        <p>&lt;lb n="5"/&gt;&lt;unclear&gt;τῆς&lt;/unclear&gt;&lt;/rdg&gt;&lt;/app&gt; Σοκνο&lt;unclear&gt;π&lt;/unclear&gt;αί&lt;unclear&gt;ο&lt;/unclear&gt;&lt;supplied reason="lost"&gt;υ Νήσο&lt;/supplied&gt;&lt;unclear&gt;υ&lt;/unclear&gt;. &lt;supplied reason="lost"&gt;κατὰ τὰ&lt;/supplied&gt;</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+               </table>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Two Slave Sales Revisited</title>
+            <author>
+               <persName>
+                  <forename>Amin</forename>
+                  <surname>Benaissa</surname>
+               </persName>
+               <affiliation>
+                  <orgName>Lady Margaret Hall, Oxford</orgName>
+               </affiliation>
+               <email>amin.benaissa@classics.ox.ac.uk</email>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1151668966</idno>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0003-1771-5451</idno>
+            </author>
+            <funder>Deutsche Forschungsgemeinschaft</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2022">2022</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.1.11</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2022.1.89340</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">A. Benaissa, “Two Slave Sales Revisited,” Pylon 1 (2022). DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2022.1.89340">https://doi.org/10.48631/pylon.2022.1.89340</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">1</biblScope>
+                     <biblScope unit="article">11</biblScope>
+                     <date when="2022">2022</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon. </ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2022-04-26T13:39:27Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Two Slave Sales Revisited</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1" style="text-align: left; text-align: justify;">I re-edit here two fragmentary slave sales which can be better read and reconstructed on the basis of recent parallels, previous corrections, and a reinspection of the images. I limit my commentary to divergences from the <emph rend="italics">editiones principes</emph> and a few supplementary notes. For a detailed discussion of various aspects of slave sale contracts, see <ref target="https://papyri.info/biblio/18348">Straus 2004</ref>. An update to his list of sales will be found in P.Oxy. 86, pp. 66–8.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; text-align: justify;"> This article was written during a period of research leave made possible by the award of a Philip Leverhulme Prize from the Leverhulme Trust.</p></note></p>
+            <div type="section">
+               <head>1. P.Turner 40</head>
+               <div type="epidoc" subtype="DDB">
+                  <div type="introduction">
+                     <p xml:id="p2">P.Turner 40 is written in the form of a <emph rend="italics">synchoresis</emph> addressed to the archidicastes in Alexandria. The buyer is a soldier of the <emph rend="italics">legio II Traiana fortis</emph> stationed in Nicopolis outside Alexandria. The female slave he purchases was originally from Paphlagonia on the Black Sea. Little information remains about the seller, and the price is lost.</p>
+                     <p xml:id="p3" style="text-align: left; text-align: justify;">The document survives as a narrow strip with an upper margin but is broken at the right, left, and foot. The editors mostly restricted themselves to a transcription of the preserved text, save a partial restoration of lines 1–3, and do not propose possible supplements in their notes. I offer here a fuller reconstruction and some corrections on the basis of parallel <emph rend="italics">synchoreseis</emph> for the sale of slaves: <ref target="http://papyri.info/ddbdp/p.freib;2;8">P.Freib. 2 8</ref> (144), <ref target="http://papyri.info/ddbdp/sb;6;9145">SB 6 9145</ref> (184–92; BL 10.196), P.Bonn. inv. 54 (249/50),<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; text-align: justify;"> Edited by <ref target="https://papyri.info/biblio/96043">Mitthof and Papathomas 2015</ref>.</p></note> and P.Oxy. 86 5568 (290) and 5569 (295).<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; text-align: justify;"> Cf. also <ref target="http://papyri.info/ddbdp/bgu;4;1059">BGU 4 1059</ref> (13 BCE), more divergent in formulation. For its date, see <ref target="https://papyri.info/biblio/96051">van Minnen 2020</ref>: 234. Another <emph rend="italics">synchoresis</emph> has recently been published as P.Yale 4 172 (215–17), but it came too late to my attention to be incorporated systematically in the notes below.</p></note> For the type of contract and a detailed commentary on the individual clauses, see <ref target="https://papyri.info/biblio/96043">Mitthof and Papathomas 2015</ref> and cf. P.Oxy. 86 5568–5569.</p>
+                     <p xml:id="p4" style="text-align: left; text-align: justify;">The writing runs along the fibres. The back contains extensive offset traces from the text on the front, made when the document was rolled from right to left. They are too faded and smudged to be read continuously.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; text-align: justify;"> I thank Dr Marius Gerhardt of the Ägyptisches Museum und Papyrussammlung for supplying me with a scan of the back, which the editors did not describe, and for the permission to reproduce the images.</p></note> </p>
+                     <p xml:id="p5" style="text-align: left; text-align: justify;">An online image is available at <ref target="http://berlpap.smb.museum/02159/">http://berlpap.smb.museum/02159/</ref>.</p>
+                     <figure>
+                        <!--<graphic n="1" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fc63b9bd-d038-4e47-9d98-be6846e9057d/file/id/842353/file_version/name/full"></graphic>-->
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/1614328"/>
+                        <head>Fig. 1: P.Turner 40 r. © Staatliche Museen zu Berlin - Ägyptisches Museum und Papyrussammlung, Scan: Berliner Papyrusdatenbank, P 7345.</head>
+                     </figure>
+                     <figure>
+                        <!--<graphic n="2" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/abd74887-3575-4e18-b84c-3d1b097381eb/file/id/842354/file_version/name/preview"></graphic>-->
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/1614330"/>
+                        <head>Fig. 2: P.Turner 40 v. © Staatliche Museen zu Berlin - Ägyptisches Museum und Papyrussammlung, Scan: Berliner Papyrusdatenbank, P 7345.</head>
+                     </figure>
+                     <table type="papyrological_header">
+                        <row>
+                           <cell style="text-align: left;">P.Berol. inv. 7345</cell>
+                           <cell style="text-align: center;">10 (w) × 16 (h)</cell>
+                           <cell style="text-align: right;">c. 215</cell>
+                        </row>
+                        <row>
+                           <cell style="text-align: left;"/>
+                           <cell style="text-align: center;"/>
+                           <cell style="text-align: right;">Alexandria</cell>
+                        </row>
+                     </table>
+                  </div>
+                  <div copyOf="#ed1" type="edition"/>
+                  <div copyOf="#trans1" type="translation"/>
+                  <div type="commentary">
+                     <note target="#ed1ln1">
+                        <ref>1</ref>
+                        <p xml:id="p6">[  ̣  ̣  ̣  ̣  ̣  ̣  ̣]  ̣ τῷ καὶ Ἱππάρχῳ ἱερεῖ ἀρχιδικαστῇ. This archidicastes is now attested in <ref target="http://papyri.info/ddbdp/p.heid;4;325">P.Heid. 4 325r</ref>.5 (after 6 January 215), but his first name is lost there as well. That document has allowed its editors to date P.Turner 40 more precisely to c. 215 (= BL 8.498) instead of the original ‘third century’. There is no space for the Aureliate or another <emph rend="italics">gentilicium</emph> in either papyrus.</p>
+                     </note>
+                     <note target="#ed1ln3">
+                        <ref>3–4</ref>
+                        <p xml:id="p7">Γερμανικῆς Ἀντωνινια]νῆς supplied by <ref target="https://papyri.info/biblio/77932">Sänger 2009</ref>: 286 on the basis of the revised date of the papyrus.</p>
+                     </note>
+                     <note target="#ed1ln4">
+                        <ref>4</ref>
+                     <p xml:id="p8">Αὐρηλίου Μα[  ̣  ̣  ̣  ̣  ̣. The name was probably Μα[ξίμου.</p>
+                     </note>
+                     <note target="#ed1ln5">
+                        <ref>5</ref>
+                        <p xml:id="p9">The editors do not explain the role of Aurelius Protarchus here and at 17. He must be the co-guarantor of the seller, as often in this period (<ref target="https://papyri.info/biblio/18348">Straus 2004</ref>: 40–42, 140–41). His name must be restored in line 7 as well. The exact wording in the prescript can vary: <ref target="http://papyri.info/ddbdp/sb;6;9145">SB 6 9145</ref>.6 has simply the name of the co-guarantor in coordination with that of the buyer (κ̣α̣ὶ̣ Τ̣ί[του] Ἰουλίου [Ζ]ή̣νωνος), while P.Oxy. 86 5568.11–12 (καὶ τοῦ τούτῳ συμβεβαιοῦντ̣ο̣ς̣ [τήνδε τὴν] κ̣[α]τ̣αγραφὴν̣ Ν.Ν.) and 5569.7–8 (κ[αὶ] σ̣υ⟨μ⟩βεβαιο̣ῦντ̣ο̣ς τήνδε̣ τὴν καταγραφὴν καὶ τῇ [αὐτοῦ π]ίστι εἶναι κελεύο̣[ντο]ς̣ Ν.Ν.) have more elaborate phrases that would not fit here. The simple phrase μετὰ συμβεβαιωτοῦ N.N. is another possibility.</p>
+                     </note>
+                     <note target="#ed1ln6">
+                        <ref>5–6</ref>
+                        <p xml:id="p10">ω  ̣  ̣  ̣  ̣  ̣  ̣[ ca. 35 ]  ̣ καὶ Ἀρείου. The editors ‘are unable to explain the role of a fourth person’ here. <ref target="https://papyri.info/biblio/18348">Straus 2004</ref>: 356 suggests that he could be a ‘mandataire d’une des parties’, but in this part of the text he can only accompany the seller, and guarantors were not required for buyers in any case. It seems possible to restore ὡς̣ δ̣ὲ̣ π̣ρ̣ὶ̣[ν ἢ λαβεῖν τὴν Ῥωμαίων πολιτείαν] | [Πρωτάρχου το]ῦ̣ καὶ Ἀρείου το[ῦ, as in <ref target="https://papyri.info/ddbdp/bgu;4;1071">BGU 4 1071</ref>.5–6 (Ars.; 3rd c.), <ref target="https://papyri.info/ddbdp/jjp;40;137">JJP 40 137</ref>.1–4 (219–21), and P.Yale 4 172.4–6 (215–17). This then would be a formula indicating Protarchus’ nomenclature before the <emph rend="italics">Constitutio Antoniniana</emph> rather the mention of a fourth person.</p>
+                     </note>
+                     <note target="#ed1ln7">
+                        <ref>7</ref>
+                        <p xml:id="p11">διὰ [συμ]βεβαιωτ̣ο̣ῦ: διὰ [συμ]βεβαιώ̣σ̣εως <emph rend="italics">ed. pr</emph>. The editors’ reading was presumably influenced by <ref target="http://papyri.info/ddbdp/sb;6;9145">SB 6 9145</ref>.7–8 διὰ συμβεβαιώ|σε̣ω̣ς̣ τοῦ Ἰουλίο̣υ Ζή̣νωνος, but there too <ref target="http://data.onb.ac.at/rec/RZ00001062">the online image</ref> shows that we must read συμβεβαιω|τοῦ̣. συμβεβαίωσις is a <emph rend="italics">verbum delendum lexicis</emph>.</p>
+                     </note>
+                     <note target="#ed1ln8">
+                        <ref>8</ref>
+                        <p xml:id="p12">Κ̣ην[: Ην̣[ <emph rend="italics">ed. pr</emph>. The female name Κηνις is attested at Amastris in Paphlagonia in <ref target="https://scholarlyeditions.brill.com/reader/urn:cts:greekDoc:seg.053-1423.sego:lem-ap/">SEG LIII 1423</ref>.5 (111/12). The name was possibly followed by a second name (ἐπικεκλημένην N.N.) or a version of the formula ἢ εἰ καί τινι ὀνόματι καλεῖται ἢ κληθήσεται, ‘or by whatever name she is called or shall be called’, but the latter phrase does not appear in other <emph rend="italics">synchoreseis</emph>. In <emph rend="italics">synchoreseis</emph>, the age and the description of the slave are usually given separately after the guarantee clauses (see P.Oxy. 86 5568.16 n., §3).</p>
+                     </note>
+                     <note target="#ed1ln9">
+                        <ref>9</ref>
+                        <p xml:id="p13">γένει Π]αφλάγαιναν. Another slave from Paphlagonia, named Anilla, appears in <ref target="http://papyri.info/ddbdp/p.mich;9;546">P.Mich. 9 546</ref>.12 (Ars.; 207) γένει Παφλά]γαιναν (see BL 7.113 and P.Turner 40.9 n.).</p>
+                     </note>
+                     <note target="#ed1ln9">
+                        <ref>9–10</ref>
+                        <p xml:id="p14">[ἁπλῷ χρήματι καὶ οὖσαν ἐκτὸς ἱερᾶς νόσου καὶ ἐπα]φ̣ῆ̣ς. Cf. <ref target="http://papyri.info/ddbdp/p.freib;2;8">P.Freib. 2 8</ref>.12–13, <ref target="http://papyri.info/ddbdp/sb;6;9145">SB 6 9145</ref>.11–12 (without καί), P.Oxy. 86 5568.16–17 (without καὶ οὖσαν), 5569.12–13. Offset traces of καὶ ἐ̣π̣αφῆς τειμῆς ἀ[ργυρίου are clearly distinguishable on the back.</p>
+                     </note>
+                     <note target="#ed1ln10">
+                        <ref>10</ref>
+                        <p xml:id="p15">ἐπα]φ̣ῆ̣ς: ]  ̣  ̣ς <emph rend="italics">ed. pr</emph>.</p>
+                        <p xml:id="p16">τειμῆς ἀργυρίου δραχμῶν [. In this period, the price will probably have been in the region of 1,500–2,500 drachmas; see <ref target="https://papyri.info/biblio/18348">Straus 2004</ref>: 297–8, <ref target="https://papyri.info/biblio/96043">Mitthof and Papathomas 2015</ref>: 105 (1–2 n.), and P.Oxy. 86, p. 67.</p>
+                     </note>
+                     <note target="#ed1ln11">
+                        <ref>11</ref>
+                        <p xml:id="p17">[ἃς καὶ ἀπεσχη]κ̣έναι. Restored after <ref target="http://papyri.info/ddbdp/sb;6;9145">SB 6 9145</ref>.14.</p>
+                        <p xml:id="p18">π̣α̣ρὰ̣ τ̣[οῦ: π̣α̣ρ̣  ̣  ̣[ <emph rend="italics">ed. pr</emph>.</p>
+                     </note>
+                     <note target="#ed1ln11">
+                        <ref>11–12</ref>
+                        <p xml:id="p19">[πρὸς τὸ ἀπὸ τοῦ νῦν κτλ. Restored after P.Oxy. 86 5569.15.</p>
+                     </note>
+                     <note target="#ed1ln13">
+                        <ref>13</ref>
+                        <p xml:id="p20">κατὰ] τ̣ὰ τεταγμένα: ]  ̣ατεταγμένα <emph rend="italics">ed. pr</emph>. <ref target="https://papyri.info/biblio/96043">Mitthof and Papathomas 2015</ref>: 117, 12–13 n., comment: ‘möglicherweise wie folgt zu ergänzen: κατὰ τὰ πρ]ο̣σ̣τεταγμένα τὴν ἀνάκρισιν  ̣[’; but the first alpha is beyond doubt. The wording of the anacrisis clause here is unparalleled. Other <emph rend="italics">synchoreseis</emph> have a construction with the passive participle: <ref target="http://papyri.info/ddbdp/sb;6;9145">SB 6 9145</ref>.12–13 ἀνακρ[ιθ]εῖσαν κατὰ τὰ προστεταγ̣μένα, P.Oxy. 86 5569.16–17 ἀνακριθεῖ[σαν κατὰ τὰ] προστεταγμένα. In P.Bonn. inv. 54.12–13 and P.Oxy. 86 5568.33–4, the clause is given separately towards the end of the document (καὶ ἀνεκρίθη ὁ δοῦλος κτλ.). Restore e.g. καὶ κατὰ] τ̣ὰ τεταγμένα τὴν ἀνάκρισιν π̣[οιήσαντα; cf. <ref target="http://papyri.info/ddbdp/p.abinn;;64">P.Abinn. 64</ref>.7–8 (Alex.[?]; 337–350) ἣν πεποίηνται ἐπὶ τῆ[ς] δ̣ι̣καιοδο̣σίας̣ [τ]ῶν οἰκετῶν ἀνάκρισιν̣. In this period, it was the prospective buyer who initiated the procedure for the official examination of the slave; see P.Oxy. 86 5564.4–5 n.</p>
+                     </note>
+                     <note target="#ed1ln13">
+                        <ref>13–14</ref>
+                        <p xml:id="p21">καὶ τεταγμένον ὑπὲρ αὐτῆς τὸ εἰς τὰ ἀνδράπ]ο̣δα̣ καθῆκον τέλος. So P.Bonn. inv. 54.3 and P.Oxy. 86 5569.17–18; cf. slightly differently <ref target="http://papyri.info/ddbdp/p.freib;2;8">P.Freib. 2 8</ref>.15 and P.Oxy. 86 5568.21.</p>
+                     </note>
+                     <note target="#ed1ln14">
+                        <ref>14</ref>
+                        <p xml:id="p22">τὸ εἰς τὰ ἀνδράπ]ο̣δα̣ (<ref target="https://papyri.info/biblio/96043">Mitthof and Papathomas 2015</ref>: 106, 3 n.): ]  ̣δα̣ <emph rend="italics">ed. pr</emph>.</p>
+                        <p xml:id="p23">αὐτ[ῆς (<ref target="https://papyri.info/biblio/96043">Mitthof and Papathomas 2015</ref>: 108, 4–5 n.): αυτ̣[ <emph rend="italics">ed. pr</emph>.</p>
+                     </note>
+                     <note target="#ed1ln14">
+                        <ref>14–16</ref>
+                        <p xml:id="p24">κρατεῖν αὐτ[ῆς καὶ κυριεύειν καὶ ἐξουσίαν ἔχειν ἑτέροις πωλεῖ]ν καὶ διοικεῖν καὶ ἐπι̣τ̣ελεῖν πε[ρὶ αὐτῆς ὡς ἐὰν αἱρῆται ἀνεμποδίστως. Similarly <ref target="http://papyri.info/ddbdp/p.freib;2;8">P.Freib. 2 8</ref>.15–17 (with ἃς ἐὰν αἱρῆται οἰκονομίας), P.Bonn. inv. 54.4–5, P.Oxy. 86 5568.22–3 (without ἀνεμποδίστως), 5569.18–19.</p>
+                     </note>
+                     <note target="#ed1ln15">
+                        <ref>15</ref>
+                        <p xml:id="p25">πωλεῖ]ν: ]ν <emph rend="italics">ed. pr</emph>.</p>
+                     </note>
+                     <note target="#ed1ln16">
+                        <ref>16</ref>
+                        <p xml:id="p26">τῆς βεβαι]ώ̣σεως ἐξακολουθούσης α̣ὐτῷ̣ [τε τῷ ἀποδομένῳ. Similarly P.Oxy. 86 5569.21.</p>
+                        <p xml:id="p27">τῆς βεβαι]ώ̣σεως (<ref target="https://papyri.info/biblio/96055">Fogarty 2017</ref>: 262): ]  ̣σεως <emph rend="italics">ed. pr</emph>.</p>
+                     </note>
+                     <note target="#ed1ln17">
+                        <ref>17</ref>
+                        <p xml:id="p28">τῷ βεβαιω]τῇ: ]τη <emph rend="italics">ed. pr</emph>. For the likely simplex form here, see P.Oxy. 86 5569.33 n.</p>
+                        <p xml:id="p29">τ ̣ ̣[: τω ̣[ <emph rend="italics">ed. pr</emph>. The omega is difficult to confirm on the image.</p>
+                     </note>
+                     <note target="#ed1ln18">
+                        <ref>18–21</ref>
+                        <p xml:id="p30">Restored largely after <ref target="http://papyri.info/ddbdp/p.freib;2;8">P.Freib. 2 8</ref>.19–23, P.Bonn. inv. 45.5–9,<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; text-align: justify;"> In the lacuna at 7, there probably stood καὶ ὁ βεβαιωτής <emph rend="italics">vel sim.</emph>, which would necessitate changing ἀποστήσ]ε̣ι̣ to ἀποστήσουσι]ν̣ or ἀποστήσει]ν̣; cf. plural ἑ̣αυτῶν on the same line and the editors’ note ad loc.</p></note> P.Oxy. 86 5568.25–30, 5569.22–6, although all of these texts present some variations.</p>
+                     </note>
+                     <note target="#ed1ln18">
+                        <ref>18</ref>
+                        <p xml:id="p31">τ]ό̣ν: ]  ̣ν <emph rend="italics">ed. pr</emph>.</p>
+                     </note>
+                     <note target="#ed1ln19">
+                        <ref>19</ref>
+                        <p xml:id="p32">τῆς δούλη]ς: ]ς <emph rend="italics">ed. pr</emph>.</p>
+                        <p xml:id="p33">ἀφει̣σ̣[τάνειν: αφ ̣ ̣[ <emph rend="italics">ed. pr</emph>. For the <emph rend="italics">koine</emph> form of the infinitive of ἀφίστημι, see <ref target="https://papyri.info/biblio/9657">Gignac 1981</ref>: 379.</p>
+                     </note>
+                     <note target="#ed1ln20">
+                        <ref>20</ref>
+                        <p xml:id="p34">] ἤ: ]η <emph rend="italics">ed. pr</emph>.</p>
+                        <p xml:id="p35">τ̣[ῷ: [ <emph rend="italics">ed. pr</emph>.</p>
+                     </note>
+                     <note target="#ed1ln21">
+                        <ref>21</ref>
+                        <p xml:id="p36">τὰ] βλ̣ά̣β̣η̣: ]  ̣ ̣[  ̣ ̣]  ̣ ̣[ <emph rend="italics">ed. pr</emph>.</p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>2. P.Stras. 4 264</head>
+               <div type="epidoc" subtype="DDB">
+                  <div type="introduction">
+                     <p xml:id="p37">P.Oxy. 86 5565 (26 April–25 May 279) is a recently published contract for the sale of a 27-year-old enslaved woman named Stratonice. It is a virtually complete duplicate of <ref target="http://papyri.info/ddbdp/p.stras;4;264">P.Stras. 4 264</ref> but written in a different hand. Given the highly fragmentary state of P.Stras. 4 264, the editor generally did not supplement the text apart from the prescript in lines 1–2 and some standard formulas. Several of these supplements, moreover, have proved inaccurate in retrospect. I offer here a more correct transcription and fuller reconstruction of the text based on P.Oxy. 86 5565 and a digital image of the papyrus.<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; text-align: justify;"> I thank Ms Maryline Simler of the Bibliothèque nationale et universitaire de Strasbourg for providing me with a scan of the papyrus. The image is reproduced here under the library’s Open License policy.</p></note> I refer the reader to P.Oxy. 86 5565 for discussion and commentary.</p>
+                     <p xml:id="p38" style="text-align: left; text-align: justify;">The writing runs along the fibres, and the back is blank. A smaller fragment in the frame does not belong to the same document. Since neither the beginnings nor the ends of lines are preserved, the line breaks in the reconstruction below are only <emph rend="italics">exempli gratia</emph>.</p>
+                     <figure>
+                        <!--<graphic n="3" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f75ca776-1acc-47ca-a227-ba6df5a09bb3/file/id/842355/file_version/name/full"></graphic>-->
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/1614333"/>
+                        <head>Fig. 3: Coll. and photogr. BNU de Strasbourg.</head>
+                     </figure>
+                     <table type="papyrological_header">
+                        <row>
+                           <cell style="text-align: left;">Strasbourg, Bibliothèque</cell>
+                           <cell style="text-align: center;">8.5 (w) × 11 (h)</cell>
+                           <cell style="text-align: right;">26 April–25 May 279</cell>
+                        </row>
+                        <row>
+                           <cell style="text-align: left;">Nationale P. gr. 2475(a)</cell>
+                           <cell style="text-align: center;"/>
+                           <cell style="text-align: right;">Oxyrhynchus</cell>
+                        </row>
+                     </table>
+                  </div>
+                  <div copyOf="#ed2" type="edition"/>
+                  <div copyOf="#trans2" type="translation"/>
+                  <div type="commentary">
+                     <note target="#ed2ln1">
+                        <ref>1</ref>
+                        <p xml:id="p39">[ἔτους <hi rend="supraline">δ</hi>: [ἔτους   ̣ <emph rend="italics">ed. pr</emph>. The document was originally dated to 277–82, but the date range was later restricted to 279–82 on the basis of the victory titles in the imperial titulature; see BL 9.326 and <ref target="https://papyri.info/biblio/61859">Straus 1991</ref>: 299–300 and cf. P.Oxy. 86 5565.1–2 n.    </p>
+                        <p xml:id="p40">Γ̣ε̣ρ̣[μανικοῦ: Π̣α̣[ρθικοῦ <emph rend="italics">ed. pr</emph>.: Π̣ε̣[ρσικοῦ BL 6.191. See P.Oxy. 86 5565.1–2 n.</p>
+                     </note>
+                     <note target="#ed2ln2">
+                        <ref>2–3</ref>
+                        <p xml:id="p41">What appears to be an underline under Παχων is perhaps an exaggerated extension of the final upsilon of ἀσχολουμένου from the next line. Compare the horizontal extension of the final upsilon of ἀγορανομείου on the same line.</p>
+                     </note>
+                     <note target="#ed2ln3">
+                        <ref>3</ref>
+                        <p xml:id="p42">ἀσχολουμένου] ὠ̣ν̣[ή]ν̣: ἀσχολουμέν]ο̣[υ ὠ]ν̣[ήν] <emph rend="italics">ed. pr</emph>.</p>
+                        <p xml:id="p43">ἀγορανομείου: ἀ̣[γο]ρ̣[α]ν̣ομίου P.Oxy. 86 5565.3.</p>
+                     </note>
+                     <note target="#ed2ln4">
+                        <ref>4</ref>
+                        <p xml:id="p44">λα[μπρ]ᾶ̣ς̣ [καὶ λαμ]π̣ρ̣ο̣τ̣άτης Ὀξυρυγχε̣ι̣[τῶν: λα[μπρᾶς καὶ λαμπ]ρ̣ο̣τ̣άτης Ὀξυρυγχ[ιτῶν <emph rend="italics">ed. pr</emph>.</p>
+                     </note>
+                     <note target="#ed2ln5">
+                        <ref>5</ref>
+                        <p xml:id="p45">Εὐδαιμονίδος Σ[  ̣  ̣  ̣  ̣ωνος: Εὐδαιμονίδος [ἀπὸ τῆς αὐτῆς πόλεως <emph rend="italics">ed. pr</emph>. The beginning of the name of Eudaemonis’ father is not preserved in P.Oxy. 86 5565.5 [ ̣  ̣  ̣  ̣  ̣]|ωνος. It was probably Σαραπίωνος.</p>
+                     </note>
+                     <note target="#ed2ln6">
+                        <ref>6</ref>
+                        <p xml:id="p46">τοῦ ἀν̣[δρός: το̣ῦ̣ α(  ) [ <emph rend="italics">ed. pr</emph>. What the editor took to be an abbreviation sign after alpha (‘une haste sinueuse, abréviation probable d’une forme de αὐτός’) is apparently the extravagantly enlarged sigma from the previous line.</p>
+                     </note>
+                     <note target="#ed2ln7">
+                        <ref>7</ref>
+                        <p xml:id="p47">τῆς αὐτῆ]ς πόλε̣ω̣ς̣ μ̣η̣τ̣(ρὸς) Μαξίμας: ]  ̣πο  ̣  ̣  ̣  ̣  ̣  ̣  ̣ς <emph rend="italics">ed. pr</emph>. μητρός is not abbreviated in P.Oxy. 86 5565.8.</p>
+                     </note>
+                     <note target="#ed2ln8">
+                        <ref>8</ref>
+                        <p xml:id="p48">καταγραφ]ε̣ῖσαν α̣ὐτῇ̣ διὰ̣ τ̣οῦ ἐνθ̣[ά]δ̣ε̣ ἀ̣[γορ]α̣[νομείου: ]  ̣ι  ̣  ̣  ̣  ̣τη  ̣[  ̣] του  ̣ν[  ̣]  ̣  ̣  ̣[  ̣  ̣  ̣]  ̣[ <emph rend="italics">ed. pr.</emph> P.Oxy. 86 5565.9 has καταγραφῖσαν.</p>
+                     </note>
+                     <note target="#ed2ln9">
+                        <ref>9</ref>
+                        <p xml:id="p49">αὐτῆ]ς̣: ο]υ <emph rend="italics">ed. pr</emph>. The end of the sigma is curved upwards, as in the final sigma of 14 νομί]σματος.</p>
+                        <p xml:id="p50">Ἀν̣[ικήτου: α ̣[ <emph rend="italics">ed. pr</emph>. (‘ας̣[ plutôt que απ̣[’).      </p>
+                     </note>
+                     <note target="#ed2ln10">
+                        <ref>10</ref>
+                        <p xml:id="p51">π]α̣ρ’: ]  ̣  ̣ρ <emph rend="italics">ed. pr</emph>. (‘]π̣α̣ρ ou ὑ]π̣ε̣ρ’).</p>
+                        <p xml:id="p52">ἀναγκαίας: αναγ’καιας P.Oxy. 86 5565.11.</p>
+                     </note>
+                     <note target="#ed2ln11">
+                        <ref>11</ref>
+                        <p xml:id="p53">Στρατονε̣[ίκην: Στρατονί[κην <emph rend="italics">ed. pr</emph>. The middle part of the name is not extant in P.Oxy. 86 5565.12, but elsewhere the papyrus has the spelling Στρατονίκη.</p>
+                     </note>
+                     <note target="#ed2ln12">
+                        <ref>12</ref>
+                        <p xml:id="p54">δη]λ̣οῦ̣τ̣αι: ἣ]ν̣ κ̣αὶ <emph rend="italics">ed. pr</emph>.</p>
+                     </note>
+                     <note target="#ed2ln13">
+                        <ref>13</ref>
+                        <p xml:id="p55">οὖσαν ἐκτὸς ἱερᾶς νόσου καὶ ἐπ]αφῆς: [ταύτην τοιαύτην ἀναπόριφον πλὴν ἱερᾶς νόσου καὶ ἐπ]αφῆς <emph rend="italics">ed. pr</emph>.</p>
+                        <p xml:id="p56">τειμῆς: τιμῆς P.Oxy. 86 5565.15.</p>
+                     </note>
+                     <note target="#ed2ln13">
+                        <ref>13–14</ref>
+                        <p xml:id="p57">τῆς συμπ[εφωνημένης πρὸς ἀλλήλους τῆς προκειμένης δούλης Στρατονίκης: τῆς συμπ[εφωνημένης ὑπὲρ τῆς αὐτῆς δούλης Στρατονίκης <emph rend="italics">ed. pr</emph>.</p>
+                     </note>
+                     <note target="#ed2ln15">
+                        <ref>15</ref>
+                        <p xml:id="p58">[ἀπέσχεν ἡ ἀποδομένη Ῥοδίνη: [ἀπέσχεν ἡ Αὐρηλία Ῥοδίνη ἀπελευθέρα Εὐδαιμονίδος <emph rend="italics">ed. pr</emph>.</p>
+                     </note>
+                     <note target="#ed2ln16">
+                        <ref>16</ref>
+                        <p xml:id="p59">π]ω̣[λ]εῖ: πωλῖ P.Oxy. 86 5565.18.</p>
+                        <p xml:id="p60">ἡ αὐ[τὴ ἀποδομένη Ῥοδίνη: ἡ Αὐ[ρηλία Ῥοδίνη <emph rend="italics">ed. pr</emph>.</p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96055">Fogarty, S. (2017)</ref> “Bemerkungen zu Papyri XXX. &lt;Korr. Tyche&gt;,” Tyche 32: 251–267.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/9657">Gignac, F.T. (1981)</ref> A Grammar of the Greek Papyri of the Roman and Byzantine Periods. Vol. II: Morphology. Milano.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96051">van Minnen, P. (2020)</ref> “Bemerkungen zu Papyri XXXIII. &lt;Korr. Tyche&gt;,” Tyche 35: 219–239.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96043">Mitthof, F. and Papathomas, A. (2015)</ref> “Ein Sklavenkauf aus der Zeit des Decius in Form der Synchoresis,” JJP 45: 93–119.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/77932">Sänger, P. (2009)</ref> “Die Nomenklatur der <emph rend="italics">Legio II Traiana Fortis</emph> im 3. Jh. n.Chr.,” ZPE 169: 277–286.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/61859">Straus, J.A. (1991)</ref> “Sur la date de quelques contrats de vente d'esclave d'époque romaine conservés sur papyrus,” CdE 66: 297–302.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/18348">Straus, J.A. (2004)</ref> L’achat et la vente des esclaves dans l’Égypte romaine. Contribution papyrologique à l’étude de l’esclavage dans une province orientale de l’empire romain. München - Leipzig.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Sale of a Slave</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">15701</idno>
+               <idno type="HGV">15701</idno>
+               <idno type="ddb-filename">pylon.1.11_1</idno>
+               <idno type="ddb-hybrid">pylon;1;11_1</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">Berlin, Staatliche Museen P. 7345</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">16</measure>
+                              <measure type="width" unit="cm">10</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>ca. 215</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Vertrag</term>
+                  <term n="2">Kauf</term>
+                  <term n="3">Sklavin</term>
+                  <term n="4">Geld</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Sale of a Slave</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.1.11_1</idno>
+               <idno type="ddb-hybrid">pylon;1;11_1</idno>
+               <idno type="HGV">15701</idno>
+               <idno type="TM">15701</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Sale of a Slave</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1" xml:id="ed1ln1"/><gap reason="lost" quantity="7" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> τῷ καὶ <hi rend="diaeresis">Ἱ</hi>ππάρχῳ<note>ϊππαρχω papyrus</note> <hi rend="diaeresis">ἱ</hi>ερεῖ<note>ϊερει papyrus</note> ἀρχιδικαστῇ καὶ <unclear>π</unclear><supplied reason="lost">ρὸς τῇ ἐπιμελείᾳ τῶν χρηματισ</supplied>
+<lb n="2" break="no" xml:id="ed1ln2"/><supplied reason="lost">τῶν καὶ τ</supplied><unclear>ῶν</unclear> ἄλλων κριτηρίων. <space extent="unknown" unit="character"/> 
+<lb n="3" xml:id="ed1ln3"/><supplied reason="lost">παρὰ Αὐρ</supplied>ηλίου Ὡριγένους στρ<unclear>ατ</unclear>ιώτου λεγιῶν<unclear>ο</unclear><supplied reason="lost">ς δευτέρας Τραϊανῆς Γερμανικῆς</supplied>
+<lb n="4" xml:id="ed1ln4"/><supplied reason="lost">Ἀντωνινια</supplied>νῆς <hi rend="diaeresis">Ἰ</hi>σχυρᾶς,<note>ϊσχυρας papyrus</note> ἑκατονταρχίας Αὐρηλίου Μα<gap reason="lost" quantity="5" unit="character"/> <supplied reason="lost">καὶ παρὰ Ἰουλίου Εὐτύχου</supplied>
+<lb n="5" xml:id="ed1ln5"/><gap reason="lost" quantity="10" unit="character" precision="low"/> <unclear>Α</unclear>ὐρηλίου Πρωτάρχου ω<gap reason="illegible" quantity="6" unit="character"/><gap reason="lost" quantity="25" unit="character" precision="low"/>
+<lb n="6" xml:id="ed1ln6"/><gap reason="lost" quantity="10" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/> καὶ Ἀρείου το<gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>ι</unclear>ο<unclear>υ</unclear><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="25" unit="character" precision="low"/>
+<lb n="7" xml:id="ed1ln7"/><supplied reason="lost">συγχωρεῖ ὁ Ἰούλι</supplied><unclear>ο</unclear>ς Εὐτύχης διὰ <supplied reason="lost">συμ</supplied>βεβαιω<unclear>το</unclear>ῦ το<unclear>ῦ</unclear> <supplied reason="lost">Αὐρηλίου Πρωτάρχου πεπρακέναι</supplied>
+<lb n="8" xml:id="ed1ln8"/><supplied reason="lost">τῷ Αὐρηλίῳ Ὡ</supplied><unclear>ριγ</unclear>ένει δού<unclear>λ</unclear><supplied reason="lost">η</supplied><unclear>ν</unclear> ὀνόμα<unclear>τι</unclear> <unclear>Κ</unclear>ην<gap reason="lost" quantity="25" unit="character" precision="low"/>
+<lb n="9" xml:id="ed1ln9"/><gap reason="lost" quantity="7" unit="character" precision="low"/> <supplied reason="lost">γένει Π</supplied>αφλάγαιναν ἀπὸ καταπ<unclear>λόου</unclear> <supplied reason="lost">ἁπλῷ χρήματι καὶ οὖσαν ἐκτὸς ἱερᾶς</supplied>
+<lb n="10" xml:id="ed1ln10"/><supplied reason="lost">νόσου καὶ ἐπα</supplied><unclear>φῆ</unclear>ς, <choice><reg>τιμῆς</reg><orig>τειμῆς</orig></choice> ἀργυρίου δραχμῶν <gap reason="lost" quantity="25" unit="character" precision="low"/>
+<lb n="11" xml:id="ed1ln11"/><supplied reason="lost">ἃς καὶ ἀπεσχη</supplied><unclear>κ</unclear>έναι <choice><reg>τὸν Ἰούλιον Εὐτύχην</reg><orig>ὁ <hi rend="diaeresis">Ἰ</hi>ούλιος<note>ϊουλιος papyrus</note> Εὐτύχη<unclear>ς</unclear></orig></choice> <unclear>πα</unclear>ρ<unclear>ὰ</unclear> <unclear>τ</unclear><supplied reason="lost">οῦ Αὐρηλίου Ὡριγένους πρὸς τὸ ἀπὸ</supplied>
+<lb n="12" xml:id="ed1ln12"/><supplied reason="lost">τοῦ νῦν τὸν Α</supplied>ὐρήλιον Ὡρ<supplied reason="lost">ι</supplied>γ<supplied reason="lost">έ</supplied><unclear>ν</unclear>ην παρειλη<unclear>φ</unclear><supplied reason="lost">ότα τὴν δούλην Κην– </supplied><gap reason="lost" quantity="10" unit="character" precision="low"/>
+<lb n="13" xml:id="ed1ln13"/><gap reason="lost" quantity="8" unit="character" precision="low"/> <supplied reason="lost">κατὰ</supplied> <unclear>τ</unclear>ὰ τεταγμένα τὴν ἀνάκρισιν  <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="6" unit="character" precision="low"/> <supplied reason="lost">καὶ τεταγμένον ὑπὲρ αὐτῆς τὸ</supplied>
+<lb n="14" xml:id="ed1ln14"/><supplied reason="lost">εἰς τὰ ἀνδράπ</supplied><unclear>ο</unclear>δ<unclear>α</unclear> καθῆκον τέλος κρατεῖν αὐτ<supplied reason="lost">ῆς καὶ κυριεύειν καὶ ἐξουσίαν ἔχειν</supplied>
+<lb n="15" xml:id="ed1ln15"/><supplied reason="lost">ἑτέροις πωλεῖ</supplied>ν καὶ διοικεῖν καὶ ἐπ<unclear>ιτ</unclear>ελεῖν πε<supplied reason="lost">ρὶ αὐτῆς ὡς ἐὰν αἱρῆται ἀνεμποδίσ</supplied>
+<lb n="16" break="no" xml:id="ed1ln16"/><supplied reason="lost">τως, τῆς βεβαι</supplied><unclear>ώ</unclear>σεως ἐξακολουθούσης <unclear>α</unclear>ὐτ<unclear>ῷ</unclear> <supplied reason="lost">τε τῷ ἀποδομένῳ Ἰουλίῳ Εὐτύχῃ</supplied>
+<lb n="17" xml:id="ed1ln17"/><supplied reason="lost">καὶ τῷ βεβαιω</supplied>τῇ Αὐρηλίῳ Πρωτάρχῳ τ<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="25" unit="character" precision="low"/>
+<lb n="18" xml:id="ed1ln18"/><gap reason="lost" quantity="2" unit="character"/> <supplied reason="lost">καὶ πάντα τ</supplied><unclear>ὸ</unclear>ν καθ’ ὁνδη<unclear>π</unclear><supplied reason="lost">ο</supplied>τοῦν τρ<unclear>όπ</unclear><supplied reason="lost">ον ἐπελευσόμενον ἢ ἐμποιησόμε</supplied>
+<lb n="19" break="no" xml:id="ed1ln19"/><supplied reason="lost">νον τῆς δούλη</supplied>ς ἢ μέρους αὐτ<supplied reason="lost">ῆ</supplied><unclear>ς</unclear> χάριν <choice><reg>ἀφισ<supplied reason="lost">τάνειν</supplied></reg><orig>ἀφε<unclear>ισ</unclear><supplied reason="lost">τάνειν</supplied></orig></choice> <supplied reason="lost">παραχρῆμα τοῖς ἰδίοις αὐτῶν</supplied>
+<lb n="20" xml:id="ed1ln20"/><supplied reason="lost">δαπανήμασιν</supplied> ἢ <choice><reg>ἐκτίνειν</reg><orig>ἐκτίννειν</orig></choice> ἐ<unclear>ξ</unclear> <supplied reason="lost">ἀ</supplied>λληλεγγύης <unclear>τ</unclear><supplied reason="lost">ῷ ὠνησαμένῳ τό τε τῆς τιμῆς κεφά</supplied>
+<lb n="21" break="no" xml:id="ed1ln21"/><supplied reason="lost">λαιον σὺν ἡμιολίᾳ καὶ τὰ</supplied> β<unclear>λάβη</unclear> <supplied reason="lost">καὶ δαπανήματα καθάπερ ἐκ δίκης</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="21"/><gap reason="lost" extent="unknown" unit="line"/> 
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Sale of a Slave</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">15701</idno>
+               <idno type="TM">15701</idno>
+               <idno type="HGV">15701</idno>
+               <idno type="ddb-hybrid">15701</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+            <p>
+               <milestone unit="line" n="1"/> [To N.N.] alias Hipparchus, archidicastes and [superintendent of the <emph rend="italics">chrematistae</emph> and] the other courts, [from] Aurelius Horigenes, soldier of the <emph rend="italics">legio</emph> [<emph rend="italics">II Traiana Germanica</emph>] <emph rend="italics">Antoniniana fortis</emph> in the 
+century of Aurelius Ma–, [and from Iulius Eutyches …] Aurelius Protarchus … Areius … <milestone unit="line" n="7" rend="break"/> Iulius Eutyches, through his co-guarantor [Aurelius Protarchus, agrees that he has sold to Aurelius] Horigenes the female slave called 
+Ken– … Paphlagonian [by birth], imported by sea, [without warranty and being free from epilepsy and] leprosy, for the price of <emph rend="italics">n</emph> drachmas of silver, [which] Iulius Eutyches has received from [Aurelius Horigenes, so that from now on] 
+Aurelius Horigenes, having taken delivery of [the slave Ken– and having performed(?)] the examination [in accordance with] what has been ordained [and having paid for her] the tax due on slaves, possesses [and owns] her 
+[and has the right to sell her to others] and to deploy her and to make use [of her as he pleases without hindrance], the guarantee resting upon [the seller Iulius Eutyches] himself [and his] guarantor Aurelius Protarchus … 
+[Anyone who proceeds (against Aurelius Horigenes)] in any way whatsoever [or makes a claim] on account of the slave or a part of her, they (agree) to repel [at once at their own expense] or else forfeit on mutual guarantee 
+[to the buyer the principal of the price plus one-half together with the] damages [and expenses, as if in consequence of a legal decision …] </p>
+         </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Sale of a Slave</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">16988</idno>
+               <idno type="HGV">16988</idno>
+               <idno type="ddb-filename">pylon.1.11_2</idno>
+               <idno type="ddb-hybrid">pylon;1;11_2</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">Strasbourg, Bibliothèque Nationale P. gr. 2475 a</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">11</measure>
+                              <measure type="width" unit="cm">8.5</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>26 April–25 May 279</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Vertrag</term>
+                  <term n="2">Kauf</term>
+                  <term n="3">Sklavin</term>
+                  <term n="4">Geld</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Sale of a Slave</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.1.11_2</idno>
+               <idno type="ddb-hybrid">pylon;1;11_2</idno>
+               <idno type="HGV">16988</idno>
+               <idno type="TM">16988</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Sale of a Slave</head>
+            <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1" xml:id="ed2ln1"/><supplied reason="lost">ἔτους <num value="4"><hi rend="supraline">δ</hi></num> Αὐτοκράτορος Καίσαρος Μάρκου Α</supplied>ὐρηλίου Πρόβου Γοθθικοῦ Μ<supplied reason="lost">εγ</supplied><unclear>ί</unclear><supplied reason="lost">στου</supplied> <unclear>Γερ</unclear><supplied reason="lost">μανικοῦ Μεγίστου Περσικοῦ</supplied>  
+<lb n="2" xml:id="ed2ln2"/><supplied reason="lost">Μεγίστου Εὐσεβοῦς Εὐτυχοῦς Σεβαστοῦ Πανήμου</supplied> <space extent="unknown" unit="character"/> Παχων <space extent="unknown" unit="character"/> ἐν τῇ λαμπρᾷ καὶ λαμ<unclear>π</unclear>ρ<supplied reason="lost">οτάτῃ Ὀξυρυγχιτῶν πόλει,</supplied>
+<lb n="3" xml:id="ed2ln3"/><supplied reason="lost">ἐπὶ Αὐρηλίου Ἀγαθίνου τοῦ καὶ Ὡριγένους ἀσχολουμένου</supplied> <unclear>ὠν</unclear><supplied reason="lost">ὴ</supplied><unclear>ν</unclear> ἀγορανομείου. <space extent="unknown" unit="character"/>
+<lb n="4" xml:id="ed2ln4"/><supplied reason="lost">ἐπρίατο Αὐρήλιος Θέων ἀρχιερεὺς βουλευτὴς</supplied> τῆς λα<supplied reason="lost">μπρ</supplied><unclear>ᾶς</unclear> <supplied reason="lost">καὶ λαμ</supplied><unclear>προτ</unclear>άτης <choice><reg>Ὀξυρυγχι<supplied reason="lost">τῶν</supplied></reg><orig>Ὀξυρυγχ<unclear>ει</unclear><supplied reason="lost">τῶν</supplied></orig></choice> <supplied reason="lost">πόλεως υἱὸς Θέωνος</supplied> 
+<lb n="5" xml:id="ed2ln5"/><supplied reason="lost">ἀγορανομήσαντος τῆς αὐτῆς πόλεως παρὰ Αὐρηλί</supplied>ας Ῥοδί<supplied reason="lost">ν</supplied>ης ἀπελευθέρας Εὐδαιμονίδος Σ<gap reason="lost" quantity="4" unit="character"/><supplied reason="lost">ωνος ἀστῆς ὡς <expan><ex>ἐτῶν</ex></expan> <num value="42">μβ</num></supplied> 
+<lb n="6" xml:id="ed2ln6"/><supplied reason="lost">χωρὶς κυρίου <expan>χρημ<ex>ατιζούσης</ex></expan> κατὰ τὰ Ῥωμαίων ἔθη</supplied> <unclear>τ</unclear>έκ<unclear>ν</unclear><supplied reason="lost">ων</supplied> <unclear>δικα</unclear>ίῳ, συνεστῶτος αὐτῇ τοῦ ἀ<unclear>ν</unclear><supplied reason="lost">δρὸς αὐτῆς Αὐρηλίου Ἡρακλᾶ</supplied>
+<lb n="7" xml:id="ed2ln7"/><supplied reason="lost">τοῦ καὶ Διογένους υἱοῦ Δ</supplied><gap reason="lost" quantity="8" unit="character"/> <supplied reason="lost">γενομένου</supplied> <gap reason="lost" quantity="6" unit="character"/> <supplied reason="lost">τῆς αὐτῆ</supplied>ς πόλ<unclear>εως</unclear> <expan><unclear>μητ</unclear><ex>ρὸς</ex></expan> Μαξίμας ἀπὸ τῆς αὐτῆς π<supplied reason="lost">όλεως καὶ συμβεβαιοῦντος</supplied>
+<lb n="8" xml:id="ed2ln8"/><supplied reason="lost">τὴν ἑξῆς δούλην, ἐν ἀγυιᾷ τὴν ὑπάρχουσαν αὐτῇ καταγραφ</supplied><unclear>ε</unclear>ῖσαν <unclear>α</unclear>ὐτ<unclear>ῇ</unclear> δι<unclear>ὰ</unclear> <unclear>τ</unclear>οῦ ἐν<unclear>θ</unclear><supplied reason="lost">ά</supplied><unclear>δε</unclear> <unclear>ἀ</unclear><supplied reason="lost">γορ</supplied><unclear>α</unclear><supplied reason="lost">νομείου τῷ</supplied> <num><gap reason="lost" quantity="1" unit="character"/></num> <supplied reason="lost"><expan><ex>ἔτει</ex></expan> τῆς Αὐρηλιανοῦ</supplied>
+<lb n="9" xml:id="ed2ln9"/><supplied reason="lost">βασιλείας μηνὶ Ἁθυρ ὑπὸ τοῦ γενομένου καὶ μετηλλαχότος αὐτῆ</supplied><unclear>ς</unclear> ἀνδρὸς Αὐρηλίου Ὡρίωνος Ἀ<unclear>ν</unclear><supplied reason="lost">ικήτου γενομένου</supplied>
+<lb n="10" xml:id="ed2ln10"/><supplied reason="lost">γυμνασιάρχου βουλευτοῦ τῆς αὐτῆς πόλεως ἀνθ’ ὧν κατὰ μέρος ἔσχεν π</supplied><unclear>α</unclear>ρ’ αὐτῆς εἰς ἀναγκαίας αὐτοῦ χ<supplied reason="lost">ρείας ἀργυρίου</supplied>
+<lb n="11" xml:id="ed2ln11"/><supplied reason="lost">ταλάντων τεσσάρων ὄντων ἀπὸ διαπράσεως γυναικείων αὐτῆς εἰ</supplied>δῶν δούλην ὀνόματι <choice><reg>Στρατον<supplied reason="lost">ίκην</supplied></reg><orig>Στρατον<unclear>ε</unclear><supplied reason="lost">ίκην</supplied></orig></choice> <supplied reason="lost">ὡς <expan><ex>ἐτῶν</ex></expan> <num value="27">κ<hi rend="supraline">ζ</hi></num> ἄσημον,</supplied>
+<lb n="12" xml:id="ed2ln12"/><supplied reason="lost">ἥνπερ ἀνακριθεῖσαν ὡς διὰ τοῦ προτέρου χρηματισμοῦ δη</supplied><unclear>λ</unclear>ο<unclear>ῦτ</unclear>αι αὐτόθι παρείληφεν ὁ ὠν<supplied reason="lost">ούμενος Αὐρήλιος Θέων</supplied>
+<lb n="13" xml:id="ed2ln13"/><supplied reason="lost">τὴν δούλην Στρατονίκην οὖσαν ἐκτὸς ἱερᾶς νόσου καὶ ἐπ</supplied>αφῆς, <space extent="unknown" unit="character"/> <choice><reg>τιμῆς</reg><orig>τειμῆς</orig></choice> τῆς συμπ<supplied reason="lost">εφωνημένης πρὸς ἀλλήλους</supplied>
+<lb n="14" xml:id="ed2ln14"/><supplied reason="lost">τῆς προκειμένης δούλης Στρατονίκης ἀργυρίου Σεβαστοῦ νομί</supplied>σματος ταλάντων ἑπτὰ <supplied reason="lost">καὶ δραχμῶν δισχιλίων</supplied>
+<lb n="15" xml:id="ed2ln15"/><supplied reason="lost">ἑπτακοσίων, ἅπερ αὐτόθι ἀπέσχεν ἡ ἀποδομένη Ῥοδίνη παρ</supplied><unclear>ὰ</unclear> τοῦ ὠνουμένου Θέ<supplied reason="lost">ωνος ἐκ πλήρους, ἐπακολουθοῦντος</supplied>
+<lb n="16" xml:id="ed2ln16"/><supplied reason="lost">τοῦ αὐτοῦ ἀνδρὸς αὐτῆς Αὐρηλίου Ἡρακλᾶ τοῦ καὶ Διογένους. π</supplied><unclear>ω</unclear><supplied reason="lost">λ</supplied>εῖ καὶ <unclear>β</unclear>εβαιοῖ ἡ αὐ<supplied reason="lost">τὴ ἀποδομένη Ῥοδίνη</supplied>
+<lb n="16"/><gap reason="lost" extent="unknown" unit="line"/> 
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Sale of a Slave</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">16988</idno>
+               <idno type="TM">16988</idno>
+               <idno type="HGV">16988</idno>
+               <idno type="ddb-hybrid">16988</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans2" xml:lang="en" type="translation" xml:space="preserve">
+            <p>
+               <milestone unit="line" n="1"/> [In the fourth year of Imperator Caesar Marcus] Aurelius Probus Gothicus Maximus Germanicus [Maximus Persicus Maximus Pius Felix Augustus, (in the month of) Panemus] (which is) Pachon (<emph rend="italics">blank</emph>), in the splendid and most splendid 
+[city of Oxyrhynchites, before Aurelius Agathinus alias Horigenes,] concessionary of the notarial office. <milestone unit="line" n="4" rend="break"/> [Aurelius Theon, chief priest and councillor] of the splendid [and] most splendid [city] of Oxyrhynchites, [son of Theon, former 
+agoranomus of the same city, has purchased in the street from] Aurelia Rhodine, freedwoman of [the citizen] Eudaemonis daughter of S–on, [about 42 years old, acting without a guardian according to Roman custom] 
+by virtue of the <emph rend="italics">ius liberorum</emph>, with as her assistant [and co-guarantor of the following slave her] husband [Aurelius Heraclas alias Diogenes son of D–, former … of the] same city, mother Maxima, from the same city, 
+the slave [belonging to her] and conveyed to her through the notarial office here [in the <emph rend="italics">n</emph>th year of the reign of Aurelianus in the month Hathyr by her former and deceased] husband Aurelius Horion son of Anicetus, 
+[former gymnasiarch and councillor of the same city, in repayment of four talents of silver which he received] from her [in instalments] for his pressing needs [and which came from the sale of her feminine] goods. 
+<milestone unit="line" n="11"/> She is called Stratonice, [about 27 years old, with no distinguishing mark, and was formally examined as] indicated [in the previous contract]. The buyer [Aurelius Theon] has forthwith received [the slave Stratonice free from epilepsy and] 
+leprosy at the price [mutually] agreed upon [for the aforementioned slave Stratonice], seven talents [and two thousand seven hundred drachmas of silver of Imperial] coinage, [which the seller Rhodine has received on the spot in full] 
+from the buyer Theon [under the supervision of her said husband Aurelius Heraclas alias Diogenes]. The said [seller Rhodine] sells and guarantees …        </p>
+         </div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
