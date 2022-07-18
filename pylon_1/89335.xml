@@ -427,8 +427,8 @@
                <authority>Papyri.info</authority>
                <idno type="TM">39584</idno>
                <idno type="HGV">39584</idno>
-               <idno type="ddb-filename">pylon.1.4</idno>
-               <idno type="ddb-hybrid">pylon;1;4</idno>
+               <idno type="ddb-filename">pylon.1.5</idno>
+               <idno type="ddb-hybrid">pylon;1;5</idno>
             </publicationStmt>
             <sourceDesc>
                <msDesc>
@@ -490,8 +490,8 @@
             </titleStmt>
             <publicationStmt>
                <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
-               <idno type="filename">pylon.1.4</idno>
-               <idno type="ddb-hybrid">pylon;1;4</idno>
+               <idno type="filename">pylon.1.5</idno>
+               <idno type="ddb-hybrid">pylon;1;5</idno>
                <idno type="HGV">39584</idno>
                <idno type="TM">39584</idno>
                <availability>
