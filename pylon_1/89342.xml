@@ -145,58 +145,34 @@
                     </listBibl>
                 </div>
                 <div type="corrections">
-                    <table type="#corrections">
-                        <row>
-                            <cell style="text-align: left;">TargetFile</cell>
-                            <cell style="text-align: left;">
-                                <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.bagnall/p.bagnall.5v.xml#L67">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.bagnall/p.bagnall.5v.xml#L67</ref>
-                            </cell>
-                        </row>
-                        <row>
-                            <cell style="text-align: left;">Replace</cell>
-                            <cell style="text-align: justify;">&lt;lb n="6"/&gt;&lt;supplied reason="lost"&gt;εἴ τινα&lt;/supplied&gt; ἐκώλυσα ἐλεύθερον, ἐλεύθερος ἐλευθέρα μὴ ἔστω.</cell>
-                        </row>
-                        <row>
-                            <cell style="text-align: left;">With</cell>
-                            <cell style="text-align: justify;">&lt;lb n="6"/&gt;&lt;supplied reason="lost"&gt;εἴ τινα&lt;/supplied&gt; ἐκώλυσα ἐλεύθερον &lt;app type="editorial"&gt;&lt;lem resp="L.C. Colella, Pylon 1 13 n14"&gt;&lt;supplied reason="omitted"&gt;ἐλευθέραν τε εἶναι&lt;/supplied&gt;&lt;/lem&gt;&lt;rdg/&gt;&lt;/app&gt;, ἐλεύθερος ἐλευθέρα μὴ ἔστω.</cell>
-                        </row>
-                        <row>
-                            <cell style="text-align: left;"/>
-                            <cell style="text-align: left;"/>
-                        </row>
-                        <row>
-                            <cell style="text-align: left;">TargetFile</cell>
-                            <cell style="text-align: left;">
-                                <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.select/p.select.14.xml#L64">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.select/p.select.14.xml#L64</ref>
-                            </cell>
-                        </row>
-                        <row>
-                            <cell style="text-align: left;">Replace</cell>
-                            <cell style="text-align: left;">&lt;lb n="3"/&gt;&lt;supplied reason="lost"&gt;διαθήκην ἐποίησεν. ἐλεύθεραι ἔστωσαν αἱ δοῦλαί μο&lt;/supplied&gt;&lt;unclear&gt;υ&lt;/unclear&gt; Ἰουλία Ἀπολλωνάριον μ&lt;supplied reason="lost"&gt;ειζο&lt;/supplied&gt;τέρ&lt;unclear&gt;α&lt;/unclear&gt; &lt;unclear&gt;ἐτ&lt;/unclear&gt;&lt;supplied reason="lost"&gt;ῶν&lt;/supplied&gt;</cell>
-                        </row>
-                        <row>
-                            <cell style="text-align: left;">With</cell>
-                            <cell style="text-align: left;">&lt;lb n="3"/&gt;&lt;supplied reason="lost"&gt;διαθήκην ἐποίησεν. ἐλεύθεραι ἔστωσαν αἱ δοῦλαί μο&lt;/supplied&gt;&lt;unclear&gt;υ&lt;/unclear&gt; Ἰουλία Ἀπολλωνάριον  &lt;app type="editorial"&gt;&lt;lem resp="L.C. Colella, Pylon 1 13 §5"&gt;ἀμφ&lt;unclear&gt;ότ&lt;/unclear&gt;εραι&lt;/lem&gt;&lt;rdg&gt;μ&lt;supplied reason="lost"&gt;ειζο&lt;/supplied&gt;τέρ&lt;unclear&gt;α&lt;/unclear&gt; &lt;unclear&gt;ἐτ&lt;/unclear&gt;&lt;supplied reason="lost"&gt;ῶν&lt;/supplied&gt;&lt;/rdg&gt;&lt;/app&gt;</cell>
-                        </row>
-                        <row>
-                            <cell style="text-align: left;"/>
-                            <cell style="text-align: left;"/>
-                        </row>
-                        <row>
-                            <cell style="text-align: left;">TargetFile</cell>
-                            <cell style="text-align: left;">
-                                <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.select/p.select.14.xml#L66">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.select/p.select.14.xml#L66</ref>
-                            </cell>
-                        </row>
-                        <row>
-                            <cell style="text-align: left;">Replace</cell>
-                            <cell style="text-align: left;">&lt;lb n="4"/&gt;&lt;supplied reason="lost"&gt;τριάκοντα καὶ μειζοτέρα ἐτῶν τριάκοντ&lt;/supplied&gt;α καὶ κ&lt;unclear&gt;λη&lt;/unclear&gt;ρονόμοι μου ἔστωσ&lt;unclear&gt;αν&lt;/unclear&gt; </cell>
-                        </row>
-                        <row>
-                            <cell style="text-align: left;">With</cell>
-                            <cell style="text-align: left;">&lt;lb n="4"/&gt;&lt;supplied reason="lost"&gt;τριάκοντα καὶ μειζοτέρα ἐτῶν τριάκοντ&lt;/supplied&gt;α &lt;app type="editorial"&gt;&lt;lem resp="L.C. Colella, Pylon 1 13 §6"&gt;ἀποκ&lt;unclear&gt;λη&lt;/unclear&gt;ρονόμοι&lt;/lem&gt;&lt;rdg&gt;καὶ κ&lt;unclear&gt;λη&lt;/unclear&gt;ρονόμοι&lt;/rdg&gt;&lt;/app&gt; μου ἔστωσ&lt;unclear&gt;αν&lt;/unclear&gt; </cell>
-                        </row>
-                    </table>
+                    <list>
+                        <item n="1">
+                            <p>TargetFile</p>
+                            <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.bagnall/p.bagnall.5v.xml#L67">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.bagnall/p.bagnall.5v.xml#L67</ref>
+                            <p>Replace</p>
+                            <lb n="6"/><supplied reason="lost">εἴ τινα</supplied> ἐκώλυσα ἐλεύθερον, ἐλεύθερος ἐλευθέρα μὴ ἔστω.
+                            <p>With</p>
+                            <lb n="6"/><supplied reason="lost">εἴ τινα</supplied> ἐκώλυσα ἐλεύθερον <app type="editorial"><lem resp="L.C. Colella, Pylon 1 13 n14"><supplied reason="omitted">ἐλευθέραν τε εἶναι</supplied></lem><rdg/></app>, ἐλεύθερος ἐλευθέρα μὴ ἔστω.
+                        </item>
+                        
+                        <item n="2">
+                            <p>TargetFile</p>
+                            <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.select/p.select.14.xml#L64">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.select/p.select.14.xml#L64</ref>
+                            <p>Replace</p>
+                            <lb n="3"/><supplied reason="lost">διαθήκην ἐποίησεν. ἐλεύθεραι ἔστωσαν αἱ δοῦλαί μο</supplied><unclear>υ</unclear> Ἰουλία Ἀπολλωνάριον μ<supplied reason="lost">ειζο</supplied>τέρ<unclear>α</unclear> <unclear>ἐτ</unclear><supplied reason="lost">ῶν</supplied>
+                            <p>With</p>
+                            <lb n="3"/><supplied reason="lost">διαθήκην ἐποίησεν. ἐλεύθεραι ἔστωσαν αἱ δοῦλαί μο</supplied><unclear>υ</unclear> Ἰουλία Ἀπολλωνάριον  <app type="editorial"><lem resp="L.C. Colella, Pylon 1 13 §5">ἀμφ<unclear>ότ</unclear>εραι</lem><rdg>μ<supplied reason="lost">ειζο</supplied>τέρ<unclear>α</unclear> <unclear>ἐτ</unclear><supplied reason="lost">ῶν</supplied></rdg></app>
+                        </item>
+                        
+                        <item n="3">
+                            <p>TargetFile</p>
+                            <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.select/p.select.14.xml#L66">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.select/p.select.14.xml#L66</ref>
+                            <p>Replace</p>
+                            <lb n="4"/><supplied reason="lost">τριάκοντα καὶ μειζοτέρα ἐτῶν τριάκοντ</supplied>α καὶ κ<unclear>λη</unclear>ρονόμοι μου ἔστωσ<unclear>αν</unclear>
+                            <p>With</p>
+                            <lb n="4"/><supplied reason="lost">τριάκοντα καὶ μειζοτέρα ἐτῶν τριάκοντ</supplied>α <app type="editorial"><lem resp="L.C. Colella, Pylon 1 13 §6">ἀποκ<unclear>λη</unclear>ρονόμοι</lem><rdg>καὶ κ<unclear>λη</unclear>ρονόμοι</rdg></app> μου ἔστωσ<unclear>αν</unclear>
+                        </item>
+                    </list>
                 </div>
             </div>
         </body>
