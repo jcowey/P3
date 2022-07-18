@@ -109,164 +109,83 @@
                </listBibl>
             </div>
             <div type="corrections">
-               <table type="#corrections">
-                  <row>
-                     <cell style="text-align: left;">TargetFile</cell>
-                     <cell style="text-align: left;">
-                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.252.xml%23L57">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.252.xml#L57</ref>
-                     </cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">Replace</cell>
-                     <cell style="text-align: left;">&lt;lb n="3"/&gt;&lt;supplied reason="lost"&gt;Σεβαστῆς&lt;/supplied&gt;.  ὁμολογεῖ Σαταβοὺς &lt;unclear&gt;Στ&lt;/unclear&gt;εσιῆ&lt;supplied reason="lost"&gt;ος&lt;/supplied&gt; Πέρσης τῆς ἐπιγονῆς ὡς &lt;expan&gt;&lt;ex&gt;ἐτῶν&lt;/ex&gt;&lt;/expan&gt; &lt;num value="40"&gt;μ&lt;/num&gt; εὐμεγέθης οὐλὴ δ&lt;supplied reason="lost"&gt;α&lt;/supplied&gt;κτύλωι</cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">With</cell>
-                     <cell style="text-align: left;">&lt;lb n="3"/&gt;&lt;supplied reason="lost"&gt;Σεβαστῆς&lt;/supplied&gt;.  ὁμολογεῖ &lt;app type="editorial"&gt;&lt;lem resp="F. Reiter, Pylon 1, 10 §2"&gt;Σαταβοῦ&lt;supplied reason="lost"&gt;τος&lt;/supplied&gt; &lt;unclear&gt;Τε&lt;/unclear&gt;&lt;supplied reason="lost"&gt;σ&lt;/supplied&gt;&lt;unclear&gt;ι&lt;/unclear&gt;ή&lt;unclear&gt;ου&lt;/unclear&gt;&lt;supplied reason="lost"&gt;ς&lt;/supplied&gt;&lt;/lem&gt;&lt;rdg&gt;Σαταβοὺς &lt;unclear&gt;Στ&lt;/unclear&gt;εσιῆ&lt;supplied reason="lost"&gt;ος&lt;/supplied&gt;&lt;/rdg&gt;&lt;/app&gt; Πέρσης τῆς ἐπιγονῆς ὡς &lt;expan&gt;&lt;ex&gt;ἐτῶν&lt;/ex&gt;&lt;/expan&gt; &lt;num value="40"&gt;μ&lt;/num&gt; εὐμεγέθης οὐλὴ δ&lt;supplied reason="lost"&gt;α&lt;/supplied&gt;κτύλωι </cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;"/>
-                     <cell style="text-align: left;"/>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">TargetFile</cell>
-                     <cell style="text-align: left;">
-                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.252.xml%2523L69">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.252.xml#L69</ref>
-                     </cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">Replace</cell>
-                     <cell style="text-align: left;">&lt;lb n="9" break="no"/&gt;&lt;supplied reason="lost"&gt;ας ἀπαλλαγῆς&lt;/supplied&gt; ἐν ἡμέραις τρι&lt;supplied reason="lost"&gt;ά&lt;/supplied&gt;κοντα &lt;num value="30"/&gt;, ἀφʼ ἧς &lt;supplied reason="lost"&gt;ἐὰ&lt;/supplied&gt;ν ἀπα&lt;supplied reason="lost"&gt;ι&lt;/supplied&gt;τ&lt;supplied reason="lost"&gt;η&lt;/supplied&gt;θῇ· ἐὰν δὲ μὴ ἀποδῷ, καθὰ γέγραπται, τὴν πρᾶξιν εἶ&lt;supplied reason="lost"&gt;ναι&lt;/supplied&gt; </cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">With</cell>
-                     <cell style="text-align: left;">&lt;lb n="9" break="no"/&gt;&lt;supplied reason="lost"&gt;ας ἀπαλλαγῆς&lt;/supplied&gt; ἐν ἡμέραις τρι&lt;supplied reason="lost"&gt;ά&lt;/supplied&gt;κοντα &lt;num value="30"/&gt;, ἀφʼ ἧς &lt;supplied reason="lost"&gt;ἐὰ&lt;/supplied&gt;ν ἀπα&lt;supplied reason="lost"&gt;ι&lt;/supplied&gt;τ&lt;supplied reason="lost"&gt;η&lt;/supplied&gt;θῇ· ἐὰν δὲ μὴ ἀποδῷ, καθὰ γέγραπται, τὴν πρᾶξιν &lt;app type="editorial"&gt;&lt;lem resp="F. Reiter, Pylon 1, 10 n.1"&gt;&lt;unclear&gt;τῇ&lt;/unclear&gt; &lt;/lem&gt;&lt;rdg&gt;εἶ&lt;supplied reason="lost"&gt;ναι&lt;/supplied&gt;&lt;/rdg&gt;&lt;/app&gt;</cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;"/>
-                     <cell style="text-align: left;"/>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">TargetFile</cell>
-                     <cell style="text-align: left;">
-                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/stud.pal/stud.pal.22/stud.pal.22.40.xml%2523L66">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/stud.pal/stud.pal.22/stud.pal.22.40.xml#L66</ref>
-                     </cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">Replace</cell>
-                     <cell style="text-align: left;">&lt;lb n="5" break="no"/&gt;&lt;supplied reason="lost"&gt;τος&lt;/supplied&gt; τοῦ &lt;expan&gt;Ἐσο&lt;supplied reason="lost"&gt;υ&lt;/supplied&gt;ή&lt;ex&gt;ριος&lt;/ex&gt;&lt;/expan&gt; ἀπὸ κώ&lt;supplied reason="lost"&gt;μ&lt;/supplied&gt;ης Σοκνοπαίου Νήσου ὡς &lt;expan&gt;&lt;ex&gt;ἐτῶν&lt;/ex&gt;&lt;/expan&gt; &lt;num value="60"&gt;ξ&lt;/num&gt; </cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">With</cell>
-                     <cell style="text-align: left;">&lt;lb n="5" break="no"/&gt;&lt;supplied reason="lost"&gt;τος&lt;/supplied&gt; τοῦ &lt;app type="editorial"&gt;&lt;lem resp="F. Reiter, Pylon 1, 10 n.3"&gt;&lt;app type="alternative"&gt;&lt;lem&gt;Τεσ&lt;unclear&gt;ιή&lt;/unclear&gt;&lt;supplied reason="lost"&gt;ο&lt;/supplied&gt;&lt;unclear&gt;υ&lt;/unclear&gt;ς&lt;/lem&gt;&lt;rdg&gt;Τεσή&lt;supplied reason="lost"&gt;ο&lt;/supplied&gt;&lt;unclear&gt;υς&lt;/unclear&gt;&lt;/rdg&gt;&lt;/app&gt;&lt;/lem&gt;&lt;rdg&gt;&lt;expan&gt;Ἐσο&lt;supplied reason="lost"&gt;υ&lt;/supplied&gt;ή&lt;ex&gt;ριος&lt;/ex&gt;&lt;/expan&gt;&lt;/rdg&gt;&lt;/app&gt; ἀπὸ κώ&lt;supplied reason="lost"&gt;μ&lt;/supplied&gt;ης Σοκνοπαίου Νήσου ὡς &lt;expan&gt;&lt;ex&gt;ἐτῶν&lt;/ex&gt;&lt;/expan&gt; &lt;num value="60"&gt;ξ&lt;/num&gt; </cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;"/>
-                     <cell style="text-align: left;"/>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">TargetFile</cell>
-                     <cell style="text-align: left;">
-                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.87.xml%23L107">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.87.xml#L107</ref>
-                     </cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">Replace</cell>
-                     <cell style="text-align: left;">&lt;lb n="20"/&gt;&lt;supplied reason="lost"&gt;τῶν&lt;/supplied&gt; δ&lt;supplied reason="lost"&gt;ημο&lt;/supplied&gt;σίων πρὸ&lt;supplied reason="lost"&gt;ς&lt;/supplied&gt; &lt;app type="editorial"&gt;&lt;lem resp="BL 1.17"&gt;αὐτὴν&lt;/lem&gt;&lt;rdg&gt;αὐτ&lt;supplied reason="lost"&gt;ὸ&lt;/supplied&gt;ν&lt;/rdg&gt;&lt;/app&gt; ὄντων &lt;g rend="extension" type="filler"/&gt; </cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">With</cell>
-                     <cell style="text-align: left;">&lt;lb n="20"/&gt;&lt;supplied reason="lost"&gt;τῶν&lt;/supplied&gt; δ&lt;supplied reason="lost"&gt;ημο&lt;/supplied&gt;σίων πρὸ&lt;supplied reason="lost"&gt;ς&lt;/supplied&gt; &lt;app type="editorial"&gt;&lt;lem resp="F. Reiter, Pylon 1 (2022) 10 n.5"&gt;αὐτ&lt;unclear&gt;ὸ&lt;/unclear&gt;ν&lt;/lem&gt;&lt;rdg resp="BL 1.17"&gt;αὐτὴν&lt;/rdg&gt;&lt;rdg&gt;αὐτ&lt;supplied reason="lost"&gt;ὸ&lt;/supplied&gt;ν&lt;/rdg&gt;&lt;/app&gt; ὄντων &lt;g rend="extension" type="filler"/&gt; </cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;"/>
-                     <cell style="text-align: left;"/>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">TargetFile</cell>
-                     <cell style="text-align: left;">
-                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.87.xml%23L109">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.87.xml#L109</ref>
-                     </cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">Replace</cell>
-                     <cell style="text-align: left;">&lt;lb n="21"/&gt;ὑπογραφεῖς. &lt;handShift new="m2"/&gt; Σῦκος ὁ καὶ Παπῆες Νείλου ὡς &lt;expan&gt;&lt;ex&gt;ἐτῶν&lt;/ex&gt;&lt;/expan&gt; &lt;num value="40"&gt;μ&lt;/num&gt; &lt;expan&gt;οὐλ&lt;ex&gt;ὴ&lt;/ex&gt;&lt;/expan&gt; &lt;gap reason="illegible" quantity="1" unit="character"/&gt;με&lt;gap reason="illegible" quantity="4" unit="character"/&gt;&lt;gap reason="illegible" quantity="1" unit="character"/&gt; </cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">With</cell>
-                     <cell style="text-align: left;">&lt;lb n="21"/&gt;ὑπογραφεῖς. &lt;handShift new="m2"/&gt; Σῦκος ὁ καὶ Παπῆες Νείλου ὡς &lt;expan&gt;&lt;ex&gt;ἐτῶν&lt;/ex&gt;&lt;/expan&gt; &lt;num value="40"&gt;μ&lt;/num&gt; &lt;app type="editorial"&gt;&lt;lem resp="F. Reiter, Pylon 1 (2022) 10 n.5"&gt;&lt;expan&gt;οὐλ&lt;ex&gt;ὴ&lt;/ex&gt;&lt;/expan&gt; μετώπωι &lt;/lem&gt;&lt;rdg&gt;&lt;expan&gt;οὐλ&lt;ex&gt;ὴ&lt;/ex&gt;&lt;/expan&gt; &lt;gap reason="illegible" quantity="1" unit="character"/&gt;με&lt;gap reason="illegible" quantity="4" unit="character"/&gt;&lt;gap reason="illegible" quantity="1" unit="character"/&gt;&lt;/rdg&gt;&lt;/app&gt;</cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;"/>
-                     <cell style="text-align: left;"/>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">TargetFile</cell>
-                     <cell style="text-align: left;">
-                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.202.xml%2523L108-L110">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.202.xml#L108-L110</ref>
-                     </cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">Replace</cell>
-                     <cell style="text-align: left;">
-                        <p>&lt;lb n="25"/&gt;&lt;num value="60"&gt;ἑξήκον&lt;supplied reason="lost"&gt;τα&lt;/supplied&gt;&lt;/num&gt; &lt;gap reason="lost" quantity="4" unit="character"/&gt; &lt;supplied reason="lost"&gt;καθ&lt;/supplied&gt;αρὸν ἀπὸ &lt;app type="editorial"&gt;&lt;lem resp="PN F. Reiter (BerlPap, digital image)"&gt;&lt;expan&gt;&lt;supplied reason="lost"&gt;ὀ&lt;/supplied&gt;φε&lt;unclear&gt;ιλ&lt;/unclear&gt;ῆ&lt;ex&gt;ς&lt;/ex&gt;&lt;/expan&gt;&lt;/lem&gt;&lt;rdg&gt;&lt;expan&gt;&lt;supplied reason="lost"&gt;ὀ&lt;/supplied&gt;φειλ&lt;ex&gt;ῆς&lt;/ex&gt;&lt;/expan&gt;&lt;/rdg&gt;&lt;/app&gt; &lt;app type="editorial"&gt;&lt;lem resp="PN T. Backhuys (BerlPap, digital image)"&gt;&lt;unclear&gt;καὶ&lt;/unclear&gt;&lt;/lem&gt;&lt;rdg&gt;&lt;supplied reason="lost"&gt;καὶ&lt;/supplied&gt;&lt;/rdg&gt;&lt;/app&gt;</p>
-                        <p>&lt;lb n="26"/&gt;ὑποθήκ&lt;supplied reason="lost"&gt;ης καὶ παντὸς&lt;/supplied&gt; &lt;expan&gt;δ&lt;supplied reason="lost"&gt;ι&lt;/supplied&gt;ενγυ&lt;supplied reason="lost"&gt;ήμ&lt;ex&gt;ατος&lt;/ex&gt;&lt;/supplied&gt;&lt;/expan&gt;. </p>
-                     </cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">With</cell>
-                     <cell style="text-align: left;">
-                        <p>&lt;lb n="25"/&gt;&lt;num value="60"&gt;ἑξήκον&lt;supplied reason="lost"&gt;τα&lt;/supplied&gt;&lt;/num&gt; &lt;gap reason="lost" quantity="4" unit="character"/&gt; &lt;supplied reason="lost"&gt;καθ&lt;/supplied&gt;αρὸν ἀπὸ &lt;app type="editorial"&gt;&lt;lem resp="F. Reiter, Pylon 1 (2022) 10 n.5"&gt;&lt;expan&gt;&lt;supplied reason="lost"&gt;ὀ&lt;/supplied&gt;φε&lt;unclear&gt;ιλ&lt;/unclear&gt;ῆ&lt;ex&gt;ς&lt;/ex&gt;&lt;/expan&gt; &lt;lb n="26"/&gt;ὑποθήκ&lt;supplied reason="lost"&gt;ης&lt;/supplied&gt;&lt;/lem&gt;&lt;rdg resp="PN T. Backhuys (BerlPap, digital image)"&gt;&lt;expan&gt;&lt;supplied reason="lost"&gt;ὀ&lt;/supplied&gt;φειλ&lt;ex&gt;ῆς&lt;/ex&gt;&lt;/expan&gt; &lt;unclear&gt;καὶ&lt;/unclear&gt; &lt;lb n="26"/&gt;ὑποθήκ&lt;supplied reason="lost"&gt;ης&lt;/supplied&gt;&lt;/rdg&gt;&lt;rdg resp="PN F. Reiter (BerlPap, digital image)"&gt;&lt;expan&gt;&lt;supplied reason="lost"&gt;ὀ&lt;/supplied&gt;φε&lt;unclear&gt;ιλ&lt;/unclear&gt;ῆ&lt;ex&gt;ς&lt;/ex&gt;&lt;/expan&gt; &lt;lb n="26"/&gt;ὑποθήκ&lt;supplied reason="lost"&gt;ης&lt;/supplied&gt;&lt;/rdg&gt;&lt;rdg&gt;&lt;expan&gt;&lt;supplied reason="lost"&gt;ὀ&lt;/supplied&gt;φειλ&lt;ex&gt;ῆς&lt;/ex&gt;&lt;/expan&gt; &lt;supplied reason=„lost“&gt;καὶ&lt;/supplied&gt;</p>
-                        <p>&lt;lb n="26"/&gt;ὑποθήκ&lt;supplied reason="lost"&gt;ης&lt;/supplied&gt;&lt;/rdg&gt;&lt;/app&gt; &lt;supplied reason="lost"&gt;καὶ παντὸς&lt;/supplied&gt; &lt;expan&gt;δ&lt;supplied reason="lost"&gt;ι&lt;/supplied&gt;ενγυ&lt;supplied reason="lost"&gt;ήμ&lt;ex&gt;ατος&lt;/ex&gt;&lt;/supplied&gt;&lt;/expan&gt;. </p>
-                     </cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;"/>
-                     <cell style="text-align: left;"/>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">TargetFile</cell>
-                     <cell style="text-align: left;">
-                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.202.xml%23L72">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.202.xml#L72</ref>
-                     </cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">Replace</cell>
-                     <cell style="text-align: left;">&lt;lb n="7"/&gt;τῶν ἀπ&lt;supplied reason="lost"&gt;ὸ &lt;expan&gt;κώ&lt;ex&gt;μης&lt;/ex&gt;&lt;/expan&gt;&lt;/supplied&gt; Σοκνο&lt;supplied reason="lost"&gt;π&lt;/supplied&gt;αί&lt;supplied reason="lost"&gt;ου Νήσου&lt;/supplied&gt;       </cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">With</cell>
-                     <cell style="text-align: left;">&lt;lb n="7"/&gt;τῶν &lt;app type="editorial"&gt;&lt;lem resp="F. Reiter, Pylon 1 (2022) 10 §6"&gt;ἀπ&lt;supplied reason="lost"&gt;ὸ&lt;/supplied&gt; &lt;unclear&gt;τῆ&lt;/unclear&gt;ς Σοκνο&lt;unclear&gt;π&lt;/unclear&gt;αί&lt;unclear&gt;ο&lt;/unclear&gt;υ Νήσ&lt;supplied reason="lost"&gt;ο&lt;/supplied&gt;&lt;unclear&gt;υ&lt;/unclear&gt;&lt;/lem&gt;&lt;rdg&gt;ἀπ&lt;supplied reason="lost"&gt;ὸ &lt;expan&gt;κώ&lt;ex&gt;μης&lt;/ex&gt;&lt;/expan&gt;&lt;/supplied&gt; Σοκνο&lt;supplied reason="lost"&gt;π&lt;/supplied&gt;αί&lt;supplied reason="lost"&gt;ου Νήσου&lt;/supplied&gt;&lt;/rdg&gt;&lt;/app&gt; </cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;"/>
-                     <cell style="text-align: left;"/>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">TargetFile</cell>
-                     <cell style="text-align: left;">
-                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/sb/sb.20/sb.20.14683.xml%2523L57-L59">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/sb/sb.20/sb.20.14683.xml#L57-L59</ref>
-                     </cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">Replace</cell>
-                     <cell style="text-align: left;">
-                        <p>&lt;lb n="4"/&gt;&lt;unclear&gt;τ&lt;/unclear&gt;ῆς Ἁρπαγά&lt;unclear&gt;θου&lt;/unclear&gt; &lt;gap reason="lost" quantity="1" unit="character"/&gt;&lt;gap reason="illegible" quantity="2" unit="character"/&gt;&lt;gap reason="lost" quantity="8" unit="character"/&gt;&lt;supplied reason="lost"&gt; ἀπὸ&lt;/supplied&gt;  </p>
-                        <p>&lt;lb n="5"/&gt;&lt;unclear&gt;τῆς&lt;/unclear&gt; Σοκνο&lt;unclear&gt;π&lt;/unclear&gt;αί&lt;unclear&gt;ο&lt;/unclear&gt;&lt;supplied reason="lost"&gt;υ Νήσο&lt;/supplied&gt;&lt;unclear&gt;υ&lt;/unclear&gt;. &lt;supplied reason="lost"&gt;κατὰ τὰ&lt;/supplied&gt;   </p>
-                     </cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">With</cell>
-                     <cell style="text-align: left;">
-                        <p>&lt;lb n="4"/&gt;&lt;unclear&gt;τ&lt;/unclear&gt;ῆς Ἁρπαγά&lt;unclear&gt;θου&lt;/unclear&gt; &lt;gap reason="lost" quantity="1" unit="character"/&gt;&lt;gap reason="illegible" quantity="2" unit="character"/&gt;&lt;gap reason="lost" quantity="8" unit="character"/&gt; &lt;app type="editorial"&gt;&lt;lem resp="F. Reiter, Pylon 1 (2022) 10 n.11"&gt;&lt;supplied reason="lost"&gt;ἀπὸ&lt;/supplied&gt; &lt;lb n="5"/&gt;&lt;app type="alternative"&gt;&lt;lem&gt;&lt;unclear&gt;τῆς&lt;/unclear&gt;&lt;/lem&gt;&lt;rdg&gt;&lt;supplied reason="lost"&gt;κ&lt;/supplied&gt;&lt;unclear&gt;ώμης&lt;/unclear&gt;&lt;/rdg&gt;&lt;/app&gt;&lt;/lem&gt;&lt;rdg&gt;&lt;supplied reason=„lost“&gt;ἀπὸ&lt;/supplied&gt;</p>
-                        <p>&lt;lb n="5"/&gt;&lt;unclear&gt;τῆς&lt;/unclear&gt;&lt;/rdg&gt;&lt;/app&gt; Σοκνο&lt;unclear&gt;π&lt;/unclear&gt;αί&lt;unclear&gt;ο&lt;/unclear&gt;&lt;supplied reason="lost"&gt;υ Νήσο&lt;/supplied&gt;&lt;unclear&gt;υ&lt;/unclear&gt;. &lt;supplied reason="lost"&gt;κατὰ τὰ&lt;/supplied&gt;</p>
-                     </cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;"/>
-                     <cell style="text-align: left;"/>
-                  </row>
-               </table>
+               <list>
+                  <item n="1">
+                      <p>TargetFile</p>
+                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.252.xml#L57">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.252.xml#L57</ref>
+                      <p>Replace</p>
+                      <lb n="3"/><supplied reason="lost">Σεβαστῆς</supplied>.  ὁμολογεῖ Σαταβοὺς <unclear>Στ</unclear>εσιῆ<supplied reason="lost">ος</supplied> Πέρσης τῆς ἐπιγονῆς ὡς <expan><ex>ἐτῶν</ex></expan> <num value="40">μ</num> εὐμεγέθης οὐλὴ δ<supplied reason="lost">α</supplied>κτύλωι
+                      <p>With</p>
+                      <lb n="3"/><supplied reason="lost">Σεβαστῆς</supplied>.  ὁμολογεῖ <app type="editorial"><lem resp="F. Reiter, Pylon 1, 10 §2">Σαταβοῦ<supplied reason="lost">τος</supplied> <unclear>Τε</unclear><supplied reason="lost">σ</supplied><unclear>ι</unclear>ή<unclear>ου</unclear><supplied reason="lost">ς</supplied></lem><rdg>Σαταβοὺς <unclear>Στ</unclear>εσιῆ<supplied reason="lost">ος</supplied></rdg></app> Πέρσης τῆς ἐπιγονῆς ὡς <expan><ex>ἐτῶν</ex></expan> <num value="40">μ</num> εὐμεγέθης οὐλὴ δ<supplied reason="lost">α</supplied>κτύλωι 
+                  </item>
+                  
+                  <item n="2">
+                      <p>TargetFile</p>
+                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.252.xml%2523L69">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.252.xml#L69</ref>
+                      <p>Replace</p>
+                      <lb n="9" break="no"/><supplied reason="lost">ας ἀπαλλαγῆς</supplied> ἐν ἡμέραις τρι<supplied reason="lost">ά</supplied>κοντα <num value="30"/>, ἀφʼ ἧς <supplied reason="lost">ἐὰ</supplied>ν ἀπα<supplied reason="lost">ι</supplied>τ<supplied reason="lost">η</supplied>θῇ· ἐὰν δὲ μὴ ἀποδῷ, καθὰ γέγραπται, τὴν πρᾶξιν εἶ<supplied reason="lost">ναι</supplied> 
+                      <p>With</p>
+                      <lb n="9" break="no"/><supplied reason="lost">ας ἀπαλλαγῆς</supplied> ἐν ἡμέραις τρι<supplied reason="lost">ά</supplied>κοντα <num value="30"/>, ἀφʼ ἧς <supplied reason="lost">ἐὰ</supplied>ν ἀπα<supplied reason="lost">ι</supplied>τ<supplied reason="lost">η</supplied>θῇ· ἐὰν δὲ μὴ ἀποδῷ, καθὰ γέγραπται, τὴν πρᾶξιν <app type="editorial"><lem resp="F. Reiter, Pylon 1, 10 n.1"><unclear>τῇ</unclear> </lem><rdg>εἶ<supplied reason="lost">ναι</supplied></rdg></app>
+                  </item>
+                  
+                  <item n="3">
+                      <p>TargetFile</p>
+                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/stud.pal/stud.pal.22/stud.pal.22.40.xml%2523L66">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/stud.pal/stud.pal.22/stud.pal.22.40.xml#L66</ref>
+                      <p>Replace</p>
+                      <lb n="5" break="no"/><supplied reason="lost">τος</supplied> τοῦ <expan>Ἐσο<supplied reason="lost">υ</supplied>ή<ex>ριος</ex></expan> ἀπὸ κώ<supplied reason="lost">μ</supplied>ης Σοκνοπαίου Νήσου ὡς <expan><ex>ἐτῶν</ex></expan> <num value="60">ξ</num> 
+                      <p>With</p>
+                      <lb n="5" break="no"/><supplied reason="lost">τος</supplied> τοῦ <app type="editorial"><lem resp="F. Reiter, Pylon 1, 10 n.3"><app type="alternative"><lem>Τεσ<unclear>ιή</unclear><supplied reason="lost">ο</supplied><unclear>υ</unclear>ς</lem><rdg>Τεσή<supplied reason="lost">ο</supplied><unclear>υς</unclear></rdg></app></lem><rdg><expan>Ἐσο<supplied reason="lost">υ</supplied>ή<ex>ριος</ex></expan></rdg></app> ἀπὸ κώ<supplied reason="lost">μ</supplied>ης Σοκνοπαίου Νήσου ὡς <expan><ex>ἐτῶν</ex></expan> <num value="60">ξ</num> 
+                  </item>
+                  
+                  <item n="4">
+                      <p>TargetFile</p>
+                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.87.xml%23L107">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.87.xml#L107</ref>
+                      <p>Replace</p>
+                      <lb n="20"/><supplied reason="lost">τῶν</supplied> δ<supplied reason="lost">ημο</supplied>σίων πρὸ<supplied reason="lost">ς</supplied> <app type="editorial"><lem resp="BL 1.17">αὐτὴν</lem><rdg>αὐτ<supplied reason="lost">ὸ</supplied>ν</rdg></app> ὄντων <g rend="extension" type="filler"/> 
+                      <p>With</p>
+                      <lb n="20"/><supplied reason="lost">τῶν</supplied> δ<supplied reason="lost">ημο</supplied>σίων πρὸ<supplied reason="lost">ς</supplied> <app type="editorial"><lem resp="F. Reiter, Pylon 1 (2022) 10 n.5">αὐτ<unclear>ὸ</unclear>ν</lem><rdg resp="BL 1.17">αὐτὴν</rdg><rdg>αὐτ<supplied reason="lost">ὸ</supplied>ν</rdg></app> ὄντων <g rend="extension" type="filler"/> 
+                  </item>
+                  
+                  <item n="5">
+                      <p>TargetFile</p>
+                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.87.xml%23L109">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.87.xml#L109</ref>
+                      <p>Replace</p>
+                      <lb n="21"/>ὑπογραφεῖς. <handShift new="m2"/> Σῦκος ὁ καὶ Παπῆες Νείλου ὡς <expan><ex>ἐτῶν</ex></expan> <num value="40">μ</num> <expan>οὐλ<ex>ὴ</ex></expan> <gap reason="illegible" quantity="1" unit="character"/>με<gap reason="illegible" quantity="4" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> 
+                      <p>With</p>
+                      <lb n="21"/>ὑπογραφεῖς. <handShift new="m2"/> Σῦκος ὁ καὶ Παπῆες Νείλου ὡς <expan><ex>ἐτῶν</ex></expan> <num value="40">μ</num> <app type="editorial"><lem resp="F. Reiter, Pylon 1 (2022) 10 n.5"><expan>οὐλ<ex>ὴ</ex></expan> μετώπωι </lem><rdg><expan>οὐλ<ex>ὴ</ex></expan> <gap reason="illegible" quantity="1" unit="character"/>με<gap reason="illegible" quantity="4" unit="character"/><gap reason="illegible" quantity="1" unit="character"/></rdg></app>
+                  </item>
+                  
+                  <item n="6">
+                      <p>TargetFile</p>
+                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.202.xml%2523L108-L110">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.202.xml#L108-L110</ref>
+                      <p>Replace</p>
+                      <lb n="25"/><num value="60">ἑξήκον<supplied reason="lost">τα</supplied></num> <gap reason="lost" quantity="4" unit="character"/> <supplied reason="lost">καθ</supplied>αρὸν ἀπὸ <app type="editorial"><lem resp="PN F. Reiter (BerlPap, digital image)"><expan><supplied reason="lost">ὀ</supplied>φε<unclear>ιλ</unclear>ῆ<ex>ς</ex></expan></lem><rdg><expan><supplied reason="lost">ὀ</supplied>φειλ<ex>ῆς</ex></expan></rdg></app> <app type="editorial"><lem resp="PN T. Backhuys (BerlPap, digital image)"><unclear>καὶ</unclear></lem><rdg><supplied reason="lost">καὶ</supplied></rdg></app>
+                      <lb n="26"/>ὑποθήκ<supplied reason="lost">ης καὶ παντὸς</supplied> <expan>δ<supplied reason="lost">ι</supplied>ενγυ<supplied reason="lost">ήμ<ex>ατος</ex></supplied></expan>.
+                      <p>With</p>
+                      <lb n="25"/><num value="60">ἑξήκον<supplied reason="lost">τα</supplied></num> <gap reason="lost" quantity="4" unit="character"/> <supplied reason="lost">καθ</supplied>αρὸν ἀπὸ <app type="editorial"><lem resp="F. Reiter, Pylon 1 (2022) 10 n.5"><expan><supplied reason="lost">ὀ</supplied>φε<unclear>ιλ</unclear>ῆ<ex>ς</ex></expan> <lb n="26"/>ὑποθήκ<supplied reason="lost">ης</supplied></lem><rdg resp="PN T. Backhuys (BerlPap, digital image)"><expan><supplied reason="lost">ὀ</supplied>φειλ<ex>ῆς</ex></expan> <unclear>καὶ</unclear> <lb n="26"/>ὑποθήκ<supplied reason="lost">ης</supplied></rdg><rdg resp="PN F. Reiter (BerlPap, digital image)"><expan><supplied reason="lost">ὀ</supplied>φε<unclear>ιλ</unclear>ῆ<ex>ς</ex></expan> <lb n="26"/>ὑποθήκ<supplied reason="lost">ης</supplied></rdg><rdg><expan><supplied reason="lost">ὀ</supplied>φειλ<ex>ῆς</ex></expan> <supplied reason="lost">καὶ</supplied>
+                      <lb n="26"/>ὑποθήκ<supplied reason="lost">ης</supplied></rdg></app> <supplied reason="lost">καὶ παντὸς</supplied> <expan>δ<supplied reason="lost">ι</supplied>ενγυ<supplied reason="lost">ήμ<ex>ατος</ex></supplied></expan>.
+                  </item>
+                  
+                  <item n="7">
+                      <p>TargetFile</p>
+                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.202.xml%23L72">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.202.xml#L72</ref>
+                      <p>Replace</p>
+                      <lb n="7"/>τῶν ἀπ<supplied reason="lost">ὸ <expan>κώ<ex>μης</ex></expan></supplied> Σοκνο<supplied reason="lost">π</supplied>αί<supplied reason="lost">ου Νήσου</supplied>
+                      <p>With</p>
+                      <lb n="7"/>τῶν <app type="editorial"><lem resp="F. Reiter, Pylon 1 (2022) 10 §6">ἀπ<supplied reason="lost">ὸ</supplied> <unclear>τῆ</unclear>ς Σοκνο<unclear>π</unclear>αί<unclear>ο</unclear>υ Νήσ<supplied reason="lost">ο</supplied><unclear>υ</unclear></lem><rdg>ἀπ<supplied reason="lost">ὸ <expan>κώ<ex>μης</ex></expan></supplied> Σοκνο<supplied reason="lost">π</supplied>αί<supplied reason="lost">ου Νήσου</supplied></rdg></app>
+                  </item>
+                  
+                  <item n="8">
+                      <p>TargetFile</p>
+                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/sb/sb.20/sb.20.14683.xml%2523L57-L59">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/sb/sb.20/sb.20.14683.xml#L57-L59</ref>
+                      <p>Replace</p>
+                      <lb n="4"/><unclear>τ</unclear>ῆς Ἁρπαγά<unclear>θου</unclear> <gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="8" unit="character"/><supplied reason="lost"> ἀπὸ</supplied>
+                      <lb n="5"/><unclear>τῆς</unclear> Σοκνο<unclear>π</unclear>αί<unclear>ο</unclear><supplied reason="lost">υ Νήσο</supplied><unclear>υ</unclear>. <supplied reason="lost">κατὰ τὰ</supplied>
+                      <p>With</p>
+                      <lb n="4"/><unclear>τ</unclear>ῆς Ἁρπαγά<unclear>θου</unclear> <gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="8" unit="character"/> <app type="editorial"><lem resp="F. Reiter, Pylon 1 (2022) 10 n.11"><supplied reason="lost">ἀπὸ</supplied> <lb n="5"/><app type="alternative"><lem><unclear>τῆς</unclear></lem><rdg><supplied reason="lost">κ</supplied><unclear>ώμης</unclear></rdg></app></lem><rdg><supplied reason="lost">ἀπὸ</supplied>
+                      <lb n="5"/><unclear>τῆς</unclear></rdg></app> Σοκνο<unclear>π</unclear>αί<unclear>ο</unclear><supplied reason="lost">υ Νήσο</supplied><unclear>υ</unclear>. <supplied reason="lost">κατὰ τὰ</supplied>
+                  </item>                        
+               </list>
             </div>
          </div>
       </body>
