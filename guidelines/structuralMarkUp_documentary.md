@@ -25,7 +25,7 @@ In the relevant [XSLT file](https://github.com/hcayless/P3-processing/blob/main/
 Here is an **example of such mark up** as used to produce one of our test files:
 
 - To help towards the production of this [C.M. Sampson, “P.Hamb.graec. 185: Garden Tax Between the Archives of (Lucius) Iulius Serenus and Gemellus Horion,” Pylon 1 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/89345/84255)
-  - the stuctural mark up of the word document was: [ClaytorSmithWargaPage1.pdf](https://github.com/jcowey/P3/files/7389818/ClaytorSmithWargaPage1.pdf)
+  - the stuctural mark up of the word document was [Title_Author_Affil_email_Ackn.pdf](https://github.com/jcowey/P3/files/9402332/TitleAuthorAckn.pdf)
 
 
 ## For each and every separate DDB text edited in the article: DOCUMENTARY texts
