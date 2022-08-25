@@ -1,4 +1,6 @@
-# Templates for article mark up
+# Templates for Pyon article mark up
+
+Once the status of the article has been reached that the editorial board is happy with it and the author is likewise happy, Pylon asks the author to provide some extra mark up to the article, so that it can be processed by https://github.com/hcayless/P3-processing.
 
 ## Template for documentary text
 - This template (word document: .docx) may be used: [pylonMarkupTemplateDDB.docx](https://github.com/jcowey/P3/files/9425007/pylonMarkupTemplateDDB.docx)
