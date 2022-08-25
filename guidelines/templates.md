@@ -6,7 +6,7 @@
 
 #### Example of a marked up document
 - [This marked up article (word document: .docx)](https://github.com/jcowey/P3/files/9425128/pylonMarkupSample.docx)
- was used to create https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/89345/84255 
+ was used to create [C.M. Sampson, “P.Hamb.graec. 185: Garden Tax Between the Archives of (Lucius) Iulius Serenus and Gemellus Horion,” Pylon 1 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/89345/84255) 
   - The same as a PDF: [pylonMarkupSample.pdf](https://github.com/jcowey/P3/files/9425132/pylonMarkupSample.pdf)
 
 
