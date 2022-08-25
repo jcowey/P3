@@ -11,3 +11,5 @@
 
 
 ## Templates for literary text
+- Example template (word document: .docx): [pylonMarkupTemplateDCLP.docx](https://github.com/jcowey/P3/files/9425207/pylonMarkupTemplateDCLP.docx)
+  - The same as a PDF: [pylonMarkupTemplateDCLP.pdf](https://github.com/jcowey/P3/files/9425220/pylonMarkupTemplateDCLP.pdf)
