@@ -1,7 +1,7 @@
 # Templates for article mark up
 
-## Templates for documentary text
-- Example template (word document: .docx): [pylonMarkupTemplateDDB.docx](https://github.com/jcowey/P3/files/9425007/pylonMarkupTemplateDDB.docx)
+## Template for documentary text
+- This template (word document: .docx) may be used: [pylonMarkupTemplateDDB.docx](https://github.com/jcowey/P3/files/9425007/pylonMarkupTemplateDDB.docx)
   - The same as a PDF: [pylonMarkupTemplateDDB.pdf](https://github.com/jcowey/P3/files/9425023/pylonMarkupTemplateDDB.pdf)
 
 #### Example of a marked up document
@@ -10,6 +10,6 @@
   - The same as a PDF: [pylonMarkupSample.pdf](https://github.com/jcowey/P3/files/9425132/pylonMarkupSample.pdf)
 
 
-## Templates for literary text
-- Example template (word document: .docx): [pylonMarkupTemplateDCLP.docx](https://github.com/jcowey/P3/files/9425207/pylonMarkupTemplateDCLP.docx)
+## Template for literary text
+- This template (word document: .docx): [pylonMarkupTemplateDCLP.docx](https://github.com/jcowey/P3/files/9425207/pylonMarkupTemplateDCLP.docx)
   - The same as a PDF: [pylonMarkupTemplateDCLP.pdf](https://github.com/jcowey/P3/files/9425220/pylonMarkupTemplateDCLP.pdf)
