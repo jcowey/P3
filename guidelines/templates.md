@@ -7,7 +7,7 @@ Below templates for this mark up are provided as well as a sample of such mark u
 
 
 ## Template for documentary text
-- This ***template*** (word document: .docx) may be used: [pylonMarkupTemplateDDB.dcox.docx](https://github.com/jcowey/P3/files/9425954/pylonMarkupTemplateDDB.dcox.docx)
+- This ***template*** (word document: .docx) may be used: [pylonMarkupTemplateDDB.docx](https://github.com/jcowey/P3/files/9425954/pylonMarkupTemplateDDB.docx)
 
   - The same as a PDF: [pylonMarkupTemplateDDB.pdf](https://github.com/jcowey/P3/files/9425023/pylonMarkupTemplateDDB.pdf)
 
