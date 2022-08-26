@@ -19,3 +19,6 @@ Below templates for this mark up are provided as well as a sample of such mark u
 ## Template for literary text
 - This ***template*** (word document: .docx) may be used: [pylonMarkupTemplateDCLP.docx](https://github.com/jcowey/P3/files/9425207/pylonMarkupTemplateDCLP.docx)
   - The same as a PDF: [pylonMarkupTemplateDCLP.pdf](https://github.com/jcowey/P3/files/9425220/pylonMarkupTemplateDCLP.pdf)
+
+- ***Sample*** of a marked up document. [This marked up article (word document: .docx)](https://github.com/jcowey/P3/files/9431778/pylonMarkupSampleDCLP.docx) was used to create [H. Essler, “Ein Berliner Papyruskodex mit Hom., Od. 13.110–126 und 137–154,” Pylon 1 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/89343/84260) 
+  - The same as a PDF: [pylonMarkupSample.pdf](https://github.com/jcowey/P3/files/9425132/pylonMarkupSample.pdf)
