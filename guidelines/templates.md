@@ -13,7 +13,8 @@ Below templates for this mark up are provided as well as a sample of such mark u
 
 - ***Sample*** of a marked up document. [This marked up article (word document: .docx)](https://github.com/jcowey/P3/files/9425128/pylonMarkupSample.docx)
  was used to create [C.M. Sampson, “P.Hamb.graec. 185: Garden Tax Between the Archives of (Lucius) Iulius Serenus and Gemellus Horion,” Pylon 1 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/89345/84255) 
-  - The same as a PDF: [pylonMarkupSample.pdf](https://github.com/jcowey/P3/files/9425132/pylonMarkupSample.pdf)
+  - The same as a PDF: [pylonMarkupSampleDDB.pdf](https://github.com/jcowey/P3/files/9431821/pylonMarkupSampleDDB.pdf)
+
 
 
 ## Template for literary text
