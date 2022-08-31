@@ -121,7 +121,7 @@
                   
                   <item n="2">
                       <p>TargetFile</p>
-                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.252.xml%2523L69">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.252.xml#L69</ref>
+                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.252.xml#L69">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.252.xml#L69</ref>
                       <p>Replace</p>
                       <lb n="9" break="no"/><supplied reason="lost">ας ἀπαλλαγῆς</supplied> ἐν ἡμέραις τρι<supplied reason="lost">ά</supplied>κοντα <num value="30"/>, ἀφʼ ἧς <supplied reason="lost">ἐὰ</supplied>ν ἀπα<supplied reason="lost">ι</supplied>τ<supplied reason="lost">η</supplied>θῇ· ἐὰν δὲ μὴ ἀποδῷ, καθὰ γέγραπται, τὴν πρᾶξιν εἶ<supplied reason="lost">ναι</supplied> 
                       <p>With</p>
@@ -130,7 +130,7 @@
                   
                   <item n="3">
                       <p>TargetFile</p>
-                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/stud.pal/stud.pal.22/stud.pal.22.40.xml%2523L66">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/stud.pal/stud.pal.22/stud.pal.22.40.xml#L66</ref>
+                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/stud.pal/stud.pal.22/stud.pal.22.40.xml#L66">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/stud.pal/stud.pal.22/stud.pal.22.40.xml#L66</ref>
                       <p>Replace</p>
                       <lb n="5" break="no"/><supplied reason="lost">τος</supplied> τοῦ <expan>Ἐσο<supplied reason="lost">υ</supplied>ή<ex>ριος</ex></expan> ἀπὸ κώ<supplied reason="lost">μ</supplied>ης Σοκνοπαίου Νήσου ὡς <expan><ex>ἐτῶν</ex></expan> <num value="60">ξ</num> 
                       <p>With</p>
@@ -139,7 +139,7 @@
                   
                   <item n="4">
                       <p>TargetFile</p>
-                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.87.xml%23L107">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.87.xml#L107</ref>
+                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.87.xml#L107">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.87.xml#L107</ref>
                       <p>Replace</p>
                       <lb n="20"/><supplied reason="lost">τῶν</supplied> δ<supplied reason="lost">ημο</supplied>σίων πρὸ<supplied reason="lost">ς</supplied> <app type="editorial"><lem resp="BL 1.17">αὐτὴν</lem><rdg>αὐτ<supplied reason="lost">ὸ</supplied>ν</rdg></app> ὄντων <g rend="extension" type="filler"/> 
                       <p>With</p>
@@ -148,7 +148,7 @@
                   
                   <item n="5">
                       <p>TargetFile</p>
-                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.87.xml%23L109">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.87.xml#L109</ref>
+                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.87.xml#L109">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.87.xml#L109</ref>
                       <p>Replace</p>
                       <lb n="21"/>ὑπογραφεῖς. <handShift new="m2"/> Σῦκος ὁ καὶ Παπῆες Νείλου ὡς <expan><ex>ἐτῶν</ex></expan> <num value="40">μ</num> <expan>οὐλ<ex>ὴ</ex></expan> <gap reason="illegible" quantity="1" unit="character"/>με<gap reason="illegible" quantity="4" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> 
                       <p>With</p>
@@ -157,7 +157,7 @@
                   
                   <item n="6">
                       <p>TargetFile</p>
-                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.202.xml%2523L108-L110">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.202.xml#L108-L110</ref>
+                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.202.xml#L108-L110">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.202.xml#L108-L110</ref>
                       <p>Replace</p>
                       <lb n="25"/><num value="60">ἑξήκον<supplied reason="lost">τα</supplied></num> <gap reason="lost" quantity="4" unit="character"/> <supplied reason="lost">καθ</supplied>αρὸν ἀπὸ <app type="editorial"><lem resp="PN F. Reiter (BerlPap, digital image)"><expan><supplied reason="lost">ὀ</supplied>φε<unclear>ιλ</unclear>ῆ<ex>ς</ex></expan></lem><rdg><expan><supplied reason="lost">ὀ</supplied>φειλ<ex>ῆς</ex></expan></rdg></app> <app type="editorial"><lem resp="PN T. Backhuys (BerlPap, digital image)"><unclear>καὶ</unclear></lem><rdg><supplied reason="lost">καὶ</supplied></rdg></app>
                       <lb n="26"/>ὑποθήκ<supplied reason="lost">ης καὶ παντὸς</supplied> <expan>δ<supplied reason="lost">ι</supplied>ενγυ<supplied reason="lost">ήμ<ex>ατος</ex></supplied></expan>.
@@ -168,7 +168,7 @@
                   
                   <item n="7">
                       <p>TargetFile</p>
-                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.202.xml%23L72">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.202.xml#L72</ref>
+                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.202.xml#L72">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.mitt/chr.mitt.202.xml#L72</ref>
                       <p>Replace</p>
                       <lb n="7"/>τῶν ἀπ<supplied reason="lost">ὸ <expan>κώ<ex>μης</ex></expan></supplied> Σοκνο<supplied reason="lost">π</supplied>αί<supplied reason="lost">ου Νήσου</supplied>
                       <p>With</p>
@@ -177,7 +177,7 @@
                   
                   <item n="8">
                       <p>TargetFile</p>
-                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/sb/sb.20/sb.20.14683.xml%2523L57-L59">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/sb/sb.20/sb.20.14683.xml#L57-L59</ref>
+                      <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/sb/sb.20/sb.20.14683.xml#L57-L59">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/sb/sb.20/sb.20.14683.xml#L57-L59</ref>
                       <p>Replace</p>
                       <lb n="4"/><unclear>τ</unclear>ῆς Ἁρπαγά<unclear>θου</unclear> <gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="8" unit="character"/><supplied reason="lost"> ἀπὸ</supplied>
                       <lb n="5"/><unclear>τῆς</unclear> Σοκνο<unclear>π</unclear>αί<unclear>ο</unclear><supplied reason="lost">υ Νήσο</supplied><unclear>υ</unclear>. <supplied reason="lost">κατὰ τὰ</supplied>
