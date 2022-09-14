@@ -1,7 +1,7 @@
 # P3
 This is now a collection point for the Papyrological Publishing Platform (P3). 
 
-The collection of material for Pylon 2 (2022) can now, for convenience, be found [here](https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3acCM/edit#gid=0).
+The collection of material for **Pylon 2 (2022)** can now, for convenience, be found [here](https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3acCM/edit#gid=0).
 
 The online journal **Pylon** is made possible by files stored here. In other repositories in [github: P3-processing](https://github.com/hcayless/P3-processing) (_open access_) and in [gitlab: XML files for HTML production](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/tree/master/epidoc) (_login required_) there are also files used for various stages of the production.
 
