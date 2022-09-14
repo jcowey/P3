@@ -11,5 +11,9 @@ For help with editing sections of the OJS interface for the journal there is a s
 
 For versioning see: https://docs.pkp.sfu.ca/learning-ojs/3.2/en/production-publication. The last section in that file seems to cover what we need. See also https://www.youtube.com/watch?v=HcSQiDj2-zw
 
+### Published volumes
+
+- **Pylon 1 (2022)**
+
 ### Files for viewing
 Links to live files of **ALL eighteen articles in HTML** (PDFs also available, but the links are only accessible for signed up gitlab members) for the first volume of Pylon can be found in the folder: [pylon1ready](https://github.com/jcowey/P3/blob/master/pylon/pylon1ready/list.md)
