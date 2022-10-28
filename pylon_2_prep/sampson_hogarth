@@ -38,7 +38,7 @@
             <availability>
                 <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
             </availability>
-            <idno ana="hc:PrivateIdentifier">pylon.2.4</idno>
+            <idno ana="hc:PrivateIdentifier">pylon.2.5</idno>
             <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2022.1.89345</idno>
          </publicationStmt>
          <sourceDesc>
@@ -50,7 +50,7 @@
                     <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
                     <imprint>
                         <biblScope unit="volume">2</biblScope>
-                        <biblScope unit="article">4</biblScope>
+                        <biblScope unit="article">5</biblScope>
                         <date when="2022">2022</date>
                     </imprint>
                 </monogr>
