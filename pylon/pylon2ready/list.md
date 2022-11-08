@@ -8,7 +8,7 @@
  
 4. Lougovaya
  
-5. Sampson **HTML**: [Sampson, The David G. Hogarth Papyri]([https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/Lougovaya_cubits_and_fingers](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_hogarth)) 
+5. Sampson **HTML**: [Sampson, The David G. Hogarth Papyri](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_hogarth) 
 8. 
 9. Deac
 10. 
