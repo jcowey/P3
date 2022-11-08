@@ -9,17 +9,17 @@
 4. Lougovaya
  
 5. Sampson **HTML**: [Sampson, The David G. Hogarth Papyri](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_hogarth) 
-8. 
-9. Deac
-10. 
-11. Hatzilambrou
-12. 
-13. Benaissa
-14. 
-15. Balamoshev
-16. 
-17. Gonis
-18. 
-19. Lougovaya Ast
-20. 
-21. BOEP
+. 
+6. Deac: possibly to be withdrawn
+
+7. Hatzilambrou
+
+8. Benaissa
+
+9. Balamoshev
+
+10. Gonis
+
+11. Lougovaya Ast
+ 
+12. BOEP
