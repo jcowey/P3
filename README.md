@@ -15,5 +15,5 @@ For versioning see: https://docs.pkp.sfu.ca/learning-ojs/3.2/en/production-publi
 
 - **Pylon 1 (2022)** published: 2022-07-01 can be viewed at [VOL. 1 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6131)
 
-### Files for viewing
-Links to live files of **ALL eighteen articles in HTML** (PDFs also available, but the links are only accessible for signed up gitlab members) for the first volume of Pylon can be found in the folder: [pylon1ready](https://github.com/jcowey/P3/blob/master/pylon/pylon1ready/list.md)
+### Pylon 2 files for viewing
+Links to live files of **as they appear in HTML** (PDFs also available, but the links are only accessible for signed up gitlab members) for the first volume of Pylon can be found in the folder: [pylon1ready](https://github.com/jcowey/P3/blob/master/pylon/pylon1ready/list.md)
