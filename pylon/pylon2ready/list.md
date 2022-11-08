@@ -8,8 +8,8 @@
  
 4. Lougovaya
  
-5. Sampson **HTML**: [Sampson, The David G. Hogarth Papyri](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_hogarth) 
-. 
+5. **HTML**: [Sampson, The David G. Hogarth Papyri](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_hogarth) 
+
 6. Deac: possibly to be withdrawn
 
 7. Hatzilambrou
