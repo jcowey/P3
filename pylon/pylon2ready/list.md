@@ -2,7 +2,7 @@
 
 1. Claytor, Notes on Papyri from Roman Egypt
 
-2. Sampson, New Light on P.Mich. 15 686
+2. **HTML**: [Sampson, New Light on P.Mich. 15 686](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_pmich_15_686)
 
 3. Jones - Bagnall, P.Math leaf A verso, Mathematical Problem a3 revisited: A New Algorithm in Greek Mensurational Mathematics
  
