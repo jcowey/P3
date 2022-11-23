@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P.Math. leaf A verso, Mathematical Problem a3 revisited: A New Algorithm in Greek Mensurational Mathematics</title>
+            <author>
+               <name>
+                  <forename>Roger S.</forename>
+                  <surname>Bagnall</surname>
+               </name>
+               <affiliation>ISAW, New York</affiliation>
+               <email>
+                  <ref target="mailto:rsb331@nyu.edu">
+                     <seg style="text-decoration: underline;"/>
+                     <seg style="text-decoration: underline;">rsb331@nyu.edu</seg>
+                  </ref>
+               </email>
+            </author>
+            <author>
+               <name>
+                  <forename>Alexander</forename>
+                  <surname>Jones</surname>
+               </name>
+               <affiliation>ISAW, New York</affiliation>
+               <email>
+                  <ref target="mailto:alexander.jones@nyu.edu">alexander.jones@nyu.edu</ref>
+               </email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2022-11-23T17:27:00Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">P.Math. leaf A verso, Mathematical Problem a3 revisited: A New Algorithm in Greek Mensurational Mathematics</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1" style="text-align: left; ">According to our reconstruction of the order of the surviving leaves of the fourth-century codex P.Math., the mathematical problem we designate as a3 (occupying leaf A verso lines 1–7, where the line number 7 is assigned to a diagram following the text) is the second of a series of twenty problems written in no apparent order between a model contract (a1) on leaf A recto and a metrological text (e3) on E verso. We repeat here the text and translation of this problem as they appear in our edition of the codex; the restorations of the lost beginnings and endings of lines are determined by the internal mathematical logic.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/95870">Bagnall and Jones 2019</ref>: 64–65 and 122–123; a pair of accidentally omitted brackets in the translation of line 2 are restored here.</p></note></p>
+            <p xml:id="p2" style="text-align: left; ">	A typical problem text in P.Math. begins with a succinct statement of what we call the "scenario" of the problem, naming the object under consideration (say a plot of land or a cistern or a canal trench) and listing various given dimensions or other quantities pertaining to it. Then may come an explicit specification of the unknown quantity that one is required to calculate (say the plot's area or the cistern's capacity or the quantity of earth to be removed to make the trench), but this is often omitted as, presumably, obvious. The rest of the text, constituting the solution, will set out arithmetical operations on the given quantities that lead to the desired result. A diagram ostensibly representing the object of the scenario normally comes immediately below the text.</p>
+            <p xml:id="p3" style="text-align: left; ">	In the present case, one or possibly two lines are broken away at the top of the leaf, so that we are missing part of the scenario. When the extant text begins, we are in the midst of the listing of the object's given dimensions; the unknown quantity is left unspecified. The solution consists of two parts: (a) a sequence of arithmetical operations on the givens (lines 2–4) leading to the number 224—which is not provided with a name in relation to the object or with the units in which it is measured—followed by (b) further operations (lines 5–6) leading to the final result, 18⅔ fingers. Parallels in other problems in the codex (b5, c1, and g4), other papyri (P.Harris 50 and P.Oxy. 49.3455), and a metrological treatise ascribed to Didymus of Alexandria show that these last operations are a metrological conversion of a volume measured in quasi-units of one linear cubit by one linear finger by one linear finger (called χυδοι or χοιδοι—scil. χυδαῖοι—δάκτυλοι in other sources but not P.Math.) into volume units that remain unnamed but that are subdivided, on analogy with linear cubits, into 24 volumetric fingers.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/96103">Lougovaya 2022</ref>.</p></note> The constant factor 288 used for this conversion indicates that the volume unit in question is equivalent to half a cubic cubit, or as Lougovaya names it, a "three-palm solid cubit," in distinction from a "two-palm solid cubit" for which the conversion constant was 192.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> 1 palm is equivalent to 1/6 cubit, so a rectangular solid with dimensions 1 cubit × 1 cubit × 3 palms is half a cubic cubit. (See <ref target="https://papyri.info/biblio/96103">Lougovaya 2022</ref>, Fig. 2 at §11.) Since 1 cubic cubit contains 24×24 (i.e. 576) of the 1 cubit × 1 finger × 1 finger quasi-units, the number of such quasi-units in a half cubic cubit is 288.</p></note> Lougovaya convincingly argues that both these volume units were used specifically for measuring quantities of wood.</p>
+            <p xml:id="p4" style="text-align: left; ">	When part or all of the scenario of a problem text is missing, we can usually achieve at least a partial reconstruction on the basis of information contained in the solution and diagram. In particular, this genre of mathematics was algorithmic in nature: the student was expected to learn a repertoire of algorithms for different kinds of scenario, givens, and unknown, and to identify and apply the appropriate algorithm using the given quantities. In our edition of P.Math. we assembled a reference list—not claiming to be exhaustive—of nearly forty algorithms attested in Greek mathematical papyri.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/95870">Bagnall and Jones 2019</ref>: 27–49.</p></note> The algorithm employed in the solution of a problem ought naturally to be one that is suitable for the scenario.</p>
+            <p xml:id="p5" style="text-align: left; ">	We believed we could recognize in part (a) of the solution of problem a3 a pair of algorithms that, taken together, are appropriate for finding the volume of a solid prismoidal shape having a trapezoidal cross-section where we have been given the "lengths" of the two unequal parallel sides of the cross-section, the "breadth" measured across the cross-section perpendicular to the parallel sides, and the "thickness" perpendicular to the cross-section.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/95870"><seg style="text-decoration: underline;">Bagnall and Jones 2019</seg></ref>: 122–123. The algorithms in question are our P3A (trapezoid area), p. 30, and S2 (prism volume), pp. 41–42.</p></note> The first is our algorithm P3A for finding the area of a planar trapezoidal figure, given the two lengths and the breadth: take the average of the two lengths and multiply by the breadth. The second, our algorithm S2, is a general algorithm for finding the volume of any prism-like solid given the area of its unvarying cross-section and its thickness: multiply the cross-section's area by the thickness. Working backwards from the calculations, it seemed straightforward that the 6 cubits in line 1 should represent the shorter of the two lengths, and that the longer length had to have been 8 cubits, since their average is 7 cubits as stated in the text. Hence the object, whatever it was, appeared to be shaped like long board with beveled ends, as shown in the reconstructed diagram Fig. 1 reproduced from our commentary:</p>
+            <p xml:id="p6" style="text-align: left; ">	The other problems in P.Math. that employ the two-palm and three-palm solid cubits all concern rectilinear, stick-like shapes, without beveled ends. In b5, the cross-section is a trapezoid; in c1, it is an irregular quadrilateral. The scenario of g4 confusingly specifies a circular cross-section but gives dimensions appropriate for a rectangular cross-section; here, the solution treats the cross-section as a rectangle, but the diagram shows it as a circle. The diagrams in P.Math. frequently exhibit a somewhat wayward relation to the geometrical scenarios of the problems that they accompany, and so we presumed that the damaged diagram that follows a3 (redrawn in Fig. 2), which appears to have shown two crudely executed concentric circles, was "an erroneous intrusion.“</p>
+            <p xml:id="p7" style="text-align: left; ">	In a session (May 31, 2022) of the seminar "Lectures de textes mathématiques anciens" of the Laboratoire SPHERE, Université Paris Cité, during which one of us (Jones) presented selections from P.Math., Karine Chemla pointed out that in the ancient Chinese mathematical text Nine Chapters the problem of finding the area of a two-dimensional figure bounded externally and internally by two concentric circles, given the outer and inner circumferences and the "transverse diameter" (i.e. the difference between the circles' radii) is treated analogously to the algorithm for a trapezoidal area. Further discussion among the seminar's participants (to whom full credit for the outcome is due) established that if a3 was understood as a problem of finding the volume of a ring-shaped solid bounded by coaxial cylindrical surfaces and by parallel planes at right angles to the cylinders' common axis, the text and diagram would make almost perfect sense together as they stand in the manuscript.<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; "> The diagram, so far as it survives, seems to have named just one "circumference," and the numeral 18 is presumably the solution lacking its fraction.</p></note></p>
+            <p xml:id="p8" style="text-align: left; ">	The two relevant problems in the Nine Chapters are those numbered 1.37 and 1.38 in the edition of Chemla and Guo, quoted below without the interspersed commentaries.<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/96258">Chemla and Guo 2004</ref>: 192–195 with 782–783. Our translation is of their French translation.</p></note> Note that in these texts BU is both a unit of length and a unit of area (equivalent to a square with side one linear BU) while MU is an area unit equivalent to 240 (area) BU.</p>
+            <p xml:id="p9" style="text-align: left; ">These problems highlight the fact that the "transverse diameter" is not actually independent of the two given circumferences, though it is treated in the statement of the problem as a separate given. Supposing the common inexact algorithm for finding the diameter of a circle of given circumference by dividing the circumference by 3,<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; "> Our algorithm P9i (circle inverse circumference algorithm), <ref target="https://papyri.info/biblio/95870"><seg style="text-decoration: underline;">Bagnall and Jones 2019</seg></ref>: 38.</p></note> the transverse diameter should be one-sixth of the difference between the exterior and interior circumferences, as indeed it is in 1.37 but not, as the 3rd century CE commentator Liu Hui observed, in 1.38; hence Liu Hui interpreted 1.38 as concerning an incomplete ring-shaped field, namely the segment of the complete ring bounded by two radii (see Figs. 3 and 4). (For this interpretation the "circumferences" would mean the lengths of the two arcs bounded by the radii, not the complete circles.) In any event, if one applies the general "procedure" stated after 1.38 to the givens in both problems, one obtains exactly the stated solutions.</p>
+            <p xml:id="p10" style="text-align: left; ">	Our problem a3 turns out to be closely analogous to Nine Chapters 1.37, with the difference that the object in a3 is a three-dimensional one having "thickness" in addition to the dimensions that determine its ring-shaped faces (Fig. 5). Thus the "breadth" in a3 is the counterpart of the "transverse diameter" in the Chinese problem, and here too it is presented as one of the givens although its value is a consequence of the choice of circumferences, 8 fingers being (as expected) one-sixth of the difference between 8 and 6 cubits. As usual with such problems about slab-like or prismoidal solid shapes, the area of the face is first calculated and then multiplied by the thickness.</p>
+            <p xml:id="p11" style="text-align: left; ">	So far as we are aware, this is the first instance found in a Greek mathematical papyrus (taken in the broad sense, including other media such as wooden boards) of a problem concerning a three-dimensional ring-shaped figure. We have not found problems concerning the complete planar ring in papyri either, though Heron, Metrica 1.26 deduces a different algorithm for finding the area given the diameters of the bounding circles.<note place="foot" xml:id="ftn9" n="9"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/96257">Acerbi and Vitrac 2014</ref>: 214–215, and see also Metrica 3.9 and Geometrica 21.</p></note> In the first problem in MPER NS 15.178 (= P. Vind. inv. G 26740), however, we find an analogue to Liu Hui's interpretation of Nine Chapters problem 1.38 as a determination of the area of a segment of a ring-shaped area, here called a μηνίσκος, with the same algorithm.<note place="foot" xml:id="ftn10" n="10"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/49887">Bruins, Sijpesteijn, and Worp 1974</ref>: 298–299.</p></note> (The givens are called ἐκτὸς/ἐντὸς περίμετρος and βάσις, paralleling the terminology of the Chinese text.) More remotely, one can point to kinship between the planar and solid ring algorithms and algorithms for finding the surface area of a conical frustum (without its planar faces) or the number of seats in a theater that is hypothesized as a series of discrete horizontal rows of discrete seats distributed on a conical surface (e.g. the problem on the front side of PSI 3.186), since a planar ring can be thought of as the curved surface of a conical frustum.<note place="foot" xml:id="ftn11" n="11"><p style="text-align: left; "> We thank Julia Lougovaya for pointing this out for PSI 3.186.</p></note></p>
+            <p xml:id="p12" style="text-align: left; ">	We thus supplement our collection of algorithms with the following:</p>
+            <p xml:id="p13" style="text-align: left; ">P11A. Planar ring area algorithm (approximate).</p>
+            <p xml:id="p14" style="text-align: left; ">Given a planar ring bounded by two concentric circles with circumferences c1 and c2 and the difference between their radii d, to find the area A: Used in: P.Math. a3 (together with S2).</p>
+            <p xml:id="p15" style="text-align: left; ">P11B. Planar ring segment area algorithm.</p>
+            <p xml:id="p16" style="text-align: left; ">Given a segment of a planar ring bounded by two concentric circular arcs with lengths c1 and c2 and two radial lines of length d, to find the area A: Used in: MPER NS 15.178.1.1–10.</p>
+            <p xml:id="p17" style="text-align: left; ">	Chemla and Guo hypothesize that the algorithm for the ring-shaped region (complete or segment) could have been derived by imagining a deformation of the ring, cut along a radius, into a trapezoid by straightening the circumferences into parallel lines (fig. 2). Interestingly, however, the algorithm is geometrically exact when applied to a segment, and only inexact for the complete ring insofar as the assumption that the difference of the circles' radii is one-sixth the difference of the circumferences is inexact, implying π = 3. Hence the algorithm could also be deduced from the direct approach of calculating the areas of the circles separately and subtracting the smaller from the larger, on analogy with what Heron does in Metrica 1.26. To the attestations of the algorithm in texts from China and Greco-Roman Egypt, one can add a late Babylonian tablet W 23291-x in which are calculated the areas of a series of concentric planar rings whose circumferences form an arithmetical sequence, and likely also an Old Babylonian school tablet CUNES 52-02-043 that represents a similar problem in diagrammatic form without stating the steps of the solutions.<note place="foot" xml:id="ftn12" n="12"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/96261">Friberg, Hunger, and al-Rawi 1990</ref>: <ref target="https://papyri.info/biblio/96259">Brunke 2018</ref>. See also <ref target="https://papyri.info/biblio/96259">Friberg 2005</ref>: 197–198.</p></note></p>
+            <p xml:id="p18" style="text-align: left; ">	What was the object named in the lost beginning of a3, having the form of a flat ring something over a meter broad and a rectangular cross-section twice as broad as it was thick? A capping of a circular well or cistern? Or better, since the metrology appears to have been particularly associated with wooden objects, the felloe or outer rim (ἴτυς) of a large wheel? In Heron, Metrica 1.26 the planar ring is called ἴτυς, while in his mechanical writings Heron uses the same word for annular components in a water-heating device (Pneumatica 3.34) and an automatic theater (De Automatis 16) where it serves as a revolving platform for mythological figurines. Our best guess is that this might have been the word that introduced our problem, so we tentatively restore the problem and its diagram thus:</p>
+            <div type="epidoc" subtype="DCLP">
+               <div copyOf="#ed1" type="edition"/>
+               <div type="bibliography">
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96257">
+                           <seg style="text-decoration: underline;">Acerbi, F. and Vitrac, B. (2014)</seg>
+                        </ref> Héron d'Alexandrie. Metrica: Introduction, texte critique, traduction française et notes de commentaire. Mathematica graeca antiqua 4. Pisa/Rome.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95870">
+                           <seg style="text-decoration: underline;">Bagnall, R. S. and Jones, A. (2019)</seg>
+                        </ref> Mathematics, Metrology, and Model Contracts: A Codex from Late Antique Business Education (P.Math.). New York.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/49887">
+                           <seg style="text-decoration: underline;">Bruins, E. M., Sijpesteijn, P. J., and Worp, K. A. (1974)</seg>
+                        </ref> "A Greek Mathematical Papyrus," Janus 61: 297–312.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96259">
+                           <seg style="text-decoration: underline;">Brunke, H. (2018)</seg>
+                        </ref> "A New Geometric School Text from Cornell," Cuneiform Digital Library Bulletin 2018:1.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96258">
+                           <seg style="text-decoration: underline;">Chemla, K. and Guo Shuchun. (2004)</seg>
+                        </ref> Les Neuf Chapitres. Le Classique mathématique de la Chine ancienne et ses commentaires. Paris.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96259">
+                           <seg style="text-decoration: underline;">Friberg, J. (2005)</seg>
+                        </ref> Unexpected Links Between Egyptian and Babylonian Mathematics. Hackensack, N.J.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96261">
+                           <seg style="text-decoration: underline;">Friberg, J., Hunger, H., and al-Rawi, F. N. H. (1990)</seg>
+                        </ref> "'Seeds and Reeds': A Metro-Mathematical Topic Text from Late Babylonian Uruk," Baghdader Mitteilungen 21: 483–557 and plates 46–48.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96103">
+                           <seg style="text-decoration: underline;">Lougovaya, J. (2022)</seg>
+                        </ref> "On Cubic and Other Volumetric Cubits and Fingers," Pylon 1.</bibl>
+                  </listBibl>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Digital Corpus of Literary Papyri</authority>
+               <idno type="filename"/>
+               <idno type="dclp"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Digital Corpus of Literary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement/>
+                     </placeName>
+                  </msIdentifier>
+                  <history>
+                     <origin>
+                        <origPlace>unbekannt</origPlace>
+                        <origDate>unbekannt</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref></p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>    
+    <lb n="0"/><supplied reason="lost">ἴτυς. ἐκτὸς περιφέρεια πηχῶν <num value="8"><hi rend="supraline">η</hi></num>, ἐντὸς περι</supplied>
+    <lb n="1" break="no"/><supplied reason="lost">φέρεια</supplied> πηχῶν <supplied reason="lost"><num value="6"><hi rend="supraline">ϛ</hi></num></supplied>, πλάτος <choice><reg>δακ<supplied reason="lost">τύλων</supplied></reg><orig>τα<unclear>κ</unclear><supplied reason="lost">τύλων</supplied></orig></choice> <supplied reason="lost"><num value="8"><hi rend="supraline">η</hi></num>,</supplied>
+    <lb n="2"/><supplied reason="lost">πάχος</supplied> <choice><reg><supplied reason="lost">δ</supplied>ακτύλων</reg><orig><supplied reason="lost">δ</supplied><unclear>α</unclear>κτήλων</orig></choice> <num value="4"><hi rend="supraline">δ</hi></num>. οὕτω ποιοῦ<unclear>μ</unclear><supplied reason="lost">εν. συντίθω</supplied>
+    <lb n="3"/><supplied reason="lost"><num value="8"><hi rend="supraline">η</hi></num> καὶ <num value="6"><hi rend="supraline">ϛ</hi></num>.</supplied> <expan>γί<ex>νεται</ex></expan> <num value="14"><hi rend="supraline">ιδ</hi></num>. ὧν ἥμισυ <num value="7"><hi rend="supraline">ζ</hi></num>. ἐπὶ τὸ π<unclear>λ</unclear><supplied reason="lost">άτος, <num value="7"><hi rend="supraline">ζ</hi></num> ἐπὶ</supplied>
+    <lb n="4"/><supplied reason="lost"><num value="8"><hi rend="supraline">η</hi></num>.</supplied> <expan>γ<unclear>ί</unclear><ex>νεται</ex></expan> <num value="56"><hi rend="supraline">νϛ</hi></num>. ἐπὶ <choice><reg>τὸ</reg><orig>δὸ</orig></choice> πάχος, <choice><reg>δακτύλ<supplied reason="lost">ων</supplied></reg><orig>τακτή<unclear>λ</unclear><supplied reason="lost">ων</supplied></orig></choice> <supplied reason="lost"><num value="4"><hi rend="supraline">δ</hi></num>. <expan>γί<ex>νεται</ex></expan> <num value="224"><hi rend="supraline">σκδ</hi></num>.</supplied>
+    <lb n="5"/><supplied reason="lost">παρὰ</supplied> τ<unclear>ὸ</unclear>ν <num value="288"><hi rend="supraline">σπη</hi></num>, καὶ τὰ <choice><reg>λοιπὰ</reg><orig>ληπὰ</orig></choice> εἰς <supplied reason="lost">δακτύλους.</supplied>
+    <lb n="6"/><supplied reason="lost"><expan>γί<ex>νεται</ex></expan></supplied> <choice><reg>δάκτυ<supplied reason="lost">λ</supplied>οι</reg><orig>τ<unclear>ά</unclear>κτη<supplied reason="lost">λ</supplied><unclear>ο</unclear>ι</orig></choice> <num value="18"><hi rend="supraline">ιη</hi></num> <num value="2/3"><hi rend="supraline">𐅷</hi></num>. οὕτως ἔχει ὁμ<supplied reason="lost">οίως.</supplied>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
