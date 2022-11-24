@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P.Math. leaf C recto, Mathematical Problem c1 Revisited: Another New Algorithm</title>
+            <author>
+               <name>
+                  <forename>Julia</forename>
+                  <surname>Lougovaya</surname>
+               </name>
+               <affiliation>Universität Heidelberg </affiliation>
+               <email>lougovaya@uni-heidelberg.de</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2022-11-21T15:29:28Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">P.Math. leaf C recto, Mathematical Problem c1 Revisited: Another New Algorithm</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1" style="text-align: left; ">Mathematical problem c1 in P.Math. (Oxyrhynchos? 350–375; TM 92734) was interpreted in the ed.pr. as being concerned with finding the volume of a quadrangular prism, an interpretation that accounted well for the preserved computations.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> I am grateful to Alexander Jones for commenting on a draft of this paper and to both editors for kindly sharing the image of the relevant codex page with me. I am also grateful to the anonymous owner of the “Archimedes Palimpsest” for permission to reproduce it.</p></note> The statement of the problem, however, was far from clear. Here is how it appears in the edition:</p>
+            <p xml:id="p2" style="text-align: left; ">The editors were puzzled by the reference to ‘leaves’ in line 4 (φύλλων) and the incomprehensible α̣π̣ο̣ρ̣ι̣ in line 3. The latter characters in fact are very clearly visible, while the traces in line 2 printed in the edition as   ̣[  ̣ ̣]  ̣ρι  ̣οι suggest that something similar was written there, too (Fig. 1). The appearance of the sequence απορι along with φύλλων in the description of a piece of timber makes it virtually certain that it conceals a reference to the lower part of a tree, from the root(s), ἀπὸ ῥίζης or ἀπὸ ῥιζῶν, as opposed to its upper part, from the foliage, ἀπὸ φύλλων. The terminology comes up in a passage of Theophrastus in which he explains how wood should be chosen for sockets and pivots (HP 5.3.7): Ποιοῦσι δὲ αὐτοὺς ἔμπαλιν τιθέντες τὰ ξύλα τό τε ἀπὸ τῆς ῥίζης καὶ τὸ ἀπὸ τοῦ φύλλου. καλοῦσι δὲ οἱ τέκτονες τὸ ἀπὸ τοῦ φύλλου τὸ ἄνω,  “They make them (sc. hinges) by reversing the wood ‘from the root’ and ‘from the foliage’—by ‘wood from the foliage’ they mean the upper part wood.”</p>
+            <p xml:id="p3" style="text-align: left; ">That the terminology in the statement of c1 indeed refers to the ‘lower’ and ‘upper’ ends of the original tree is further supported by the measurements of the timber because the dimensions of the cross-section ‘from the root’ (16 by 8 fingers) are larger than those ‘from the foliage’ (12 by 6 fingers). References to the lower and upper ends of the timber in the statement of the problem, however, entail a reconsideration of the shape of the object and of the algorithm used for computing its volume. The description corresponds not to a quadrangular prism, but to a truncated pyramid with a rectangular base 18 by 8 fingers, a rectangular top 12 by 6 fingers, and a ‘length’, which is presumably its height, of 28 cubits. It can be illustrated with the following diagram (Fig. 2), in which no attempt is made to render the height commensurate with the dimensions of the base and of the top (one should imagine the figure in the diagram stretched out along its vertical dimension so that its height is about 40 times its width at the base):</p>
+            <p xml:id="p4" style="text-align: left; ">The volume of this truncated pyramid is computed as if it were a rectangular prism of the given height (h) with the sides of its bottom face equaling the average of the corresponding sides of the base and of the top: </p>
+            <p xml:id="p5" style="text-align: left; ">The algorithm of course produces an approximation and underestimates the volume of the object. Notably, a similar algorithm (S3A) is used in P.Math. in problem n1, in which the volume of a conic frustum is computed as if it were a cylinder with the diameter equaling the average of the lower and upper diameters.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> For the algorithm, cf. <ref target="https://papyri.info/biblio/95870">Bagnall and Jones (2019)</ref>: 42-43; the algorithm S3B, not used in P.Math. but well attested elsewhere, computes the volume of a conic frustum as if for a cylinder with a circumference equaling the average of the lower and upper circumferences. </p></note></p>
+            <p xml:id="p6" style="text-align: left; ">	The new algorithm can now be added to Bagnall and Jones’ collection of algorithms:</p>
+            <p xml:id="p7" style="text-align: left; ">S6C. Pyramidal frustum volume algorithm C (approximate).</p>
+            <p xml:id="p8" style="text-align: left; ">Given a pyramidal frustum having rectangular base with sides <seg style="font-style: italic;">a</seg> and <seg style="font-style: italic;">b</seg>, rectangular top with sides <seg style="font-style: italic;">a</seg> and <seg style="font-style: italic;">b</seg>, and height <seg style="font-style: italic;">h</seg>, find the volume <seg style="font-style: italic;">V</seg>:</p>
+            <p xml:id="p9" style="text-align: left; ">The computations of the volume in the solution of the problem c1 are followed by the conversion of the product—the interim result—to volumetric cubits and fingers. The conversion factors 288 and 12 indicate that the unnamed units in which the final result is expressed are the 3-palm cubit and its fingers.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> For volume cubits of different sizes used for expressing volume of wood, and for computation of volume, cf. <ref target="https://doi.org/10.48631/pylon.2022.1.89333">Lougovaya (2022)</ref>.</p></note> </p>
+            <p xml:id="p10" style="text-align: left; ">	There remains a question of the description of the wood as ξύλον νέον in the statement of the problem. The adjective might simply mean ‘young’, designating timber that came from a younger as opposed to an older tree. But it is tempting to see in νέον a misspelling of νεῖον, which Aelius Herodianus defines as τῆς νηὸς τὸ πυθμενοειδὲς ξύλον, ‘the keel wood of the ship’ (De prosod. catholica, 3,1, p. 356). Hesychius and Photius use the word in the plural and explain it more vaguely as ship-timber (Hesych., s.v. νεῖα· ξύλα, τὰ εἰς κατασκευὴν νεῶν ἐπιτήδεια, ‘wood suitable for building ships’; Photius, s.v. νεῖα: τὰ εἰς κατασκευὴν νεῶν ξύλα, ‘wood for building ships’). The change ει&gt;ε is relatively common, especially before the back vowel ‘o’, and occurs elsewhere in P.Math.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> Cf. <ref target="https://papyri.info/biblio/8813">Gignac (1976)</ref>:257, <ref target="https://papyri.info/biblio/95870">Bagnall and Jones (2019)</ref>:12.</p></note> If this is the word meant, the object in the problem is ship-timber, and since it is rectangular in cross-section, perhaps the keel or floor of the hull was envisaged rather than a mast.</p>
+            <div type="epidoc" subtype="DCLP">
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <note>
+                     <p xml:id="p11"><ref>2</ref> ῥίγ̣οι: it is difficult to decide from the image whether the letter after the first iota is gamma or tau, as its horizontal protrudes slightly to the left. It is certainly not a zeta, cf. also 3n.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p12"><ref>3</ref> ἀπὸ ῥι&lt;ζ-&gt; δακτύ̣[λων]:  the delta of δακτύ̣[λων] is corrected from what seems to have been a gamma; perhaps the scribe started writing ῥιγ-, as in line 2, but then corrected the gamma to the delta of the subsequent word. There seems to be no sign of an abbreviation, and the phonetic process that could have produced the interchange of γ (or τ) with ζ is not immediately clear, yet it is hardly possibly that a different word but ῥίζη, in whatever form, was meant here and in line 2.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p13"><ref>4-5</ref> One would expect εὑρεῖν at the end of line 4 to be followed by τὸ στερεὸν τοῦ ξύλου, cf. the formulation of the task in another volume problem, g3 (G verso, lines 11-12), εὑρεῖν | [τὸ στ]ερεόν, ‘find the volume’, or in similar problems in Didymus, <seg style="font-style: italic;">Mensurae marmorum ac lignorum</seg> 40 and 41 (Heiberg), εὑρεῖν αὐτοῦ τὸ στερεόν, ‘to find its volume’. That τὸ ξύλον stands in the nominative and not the genitive, would not be a problem in P.Math., which has multiple instances of the wrong usage of cases,<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/95870">Bagnall and Jones (2019)</ref>: 14 provide a useful list of wrongly used cases and other syntactical flaws in the codex.</p></note> but τὸ στερεόν is certainly too long for the lacuna. Two possibilities suggest themselves: The word for volume may have been written without the article, thus εὑρεῖν | [στερεὸν] τὸ ξύλον, l. εὑρεῖν | [στερεὸν] τοῦ ξύλοῦ. Or, a different expression was used for the question about the size of the piece, such as [πόσων] τὸ ξύλον, ‘how big is the wood?’ where πόσων would imply πόσων πηχῶν στερεῶν ἐστι τὸ ξύλον, ‘of how many volume cubits is the wood?’ Since volume units are not named in problems of this type in P.Math. (that is, a3, b5, c1 and g4), it is likely that πόσων would not be followed by the word designating units either. </p>
+                  </note>
+                  <note>
+                     <p xml:id="p14"><ref>7</ref> {ι̅}ϛ̅: I follow the editors in printing and excising the iota, although the squiggle to the left of the stigma does not really look like an iota. It could be that the writer initially miscopied from his original (cf. the omicron in τό earlier in the line, which clearly was first written as a beta with a numeral overstroke). For example, he might have begun to write kappa before switching to stigma, but without caring to delete the left vertical of the kappa. Whatever its genesis, this stroke ought to be excised. </p>
+                  </note>
+               </div>
+               <div type="bibliography">
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95870">Bagnall, R.S. and Jones, A. (2019)</ref> Mathematics, Metrology, and Model Contracts. A Codex from Late Antique Business Education (P.Math.). New York.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/8813">Gignac, F.T. (1976)</ref>
+                        <seg style="font-style: italic;">A Grammar of the Greek Papyri of the Roman and Byzantine Periods. I. Phonology.</seg>, (Milano Goliardica 1976).</bibl>
+                     <bibl>
+                        <ref target="https://doi.org/10.48631/pylon.2022.1.89333">Lougovaya, J. (2022)</ref> "On Cubic and Other Volumetric Cubits and Fingers," Pylon 1.</bibl>
+                  </listBibl>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Digital Corpus of Literary Papyri</authority>
+               <idno type="filename"/>
+               <idno type="dclp"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Digital Corpus of Literary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement/>
+                     </placeName>
+                  </msIdentifier>
+                  <history>
+                     <origin>
+                        <origPlace>unbekannt</origPlace>
+                        <origDate>unbekannt</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref></p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+    <lb n="1"/><choice><reg>ξύλον</reg><orig>ξύλων</orig></choice> νέον πη<unclear>χ</unclear><supplied reason="lost">ῶν <num value="28"><hi rend="supraline">κη</hi></num> πλάτος μὲν</supplied>
+    <lb n="2"/><unclear>ἀ</unclear><supplied reason="lost">π</supplied><unclear>ὸ</unclear> <choice><reg>ῥίζων</reg><orig><app type="alternative"><lem>ῥί<unclear>γ</unclear>οι</lem><rdg>ῥι<unclear>τ</unclear>οι</rdg></app></orig></choice> δακτύλων <num value="16">ιϛ</num>, <unclear>τ</unclear>ὸ δὲ <unclear>φ</unclear><supplied reason="lost">ύλλων</supplied>
+    <lb n="3"/><supplied reason="lost">δα</supplied>κτύλων <num value="12"><hi rend="supraline">ιβ</hi></num>, πάχος μὲν ῥι<supplied reason="omitted">ζ-</supplied> <subst><add place="inline">δακτ<unclear>ύ</unclear><supplied reason="lost">λων</supplied></add><del rend="corrected">γακτ<unclear>ύ</unclear><supplied reason="lost">λων</supplied></del></subst>
+    <lb n="4"/><supplied reason="lost"><num value="8"><hi rend="supraline">η</hi></num> τὸ δὲ</supplied> φύλλων δακτύλων <num value="6"><hi rend="supraline">ϛ</hi></num>. εὑρ<supplied reason="lost">εῖν</supplied>
+    <lb n="5"/><gap reason="lost" atLeast="6" atMost="7" unit="character"/> τ<unclear>ὸ</unclear> ξύλον. οὕτω ποιοῦμαι. συν<unclear>τί</unclear><supplied reason="lost">θω</supplied>
+    <lb n="6"/><supplied reason="lost">τὸ πλ</supplied>άτος, <num value="16"><hi rend="supraline">ιϛ</hi></num> καὶ <num value="12"><hi rend="supraline">ιβ</hi></num>, <expan>γί<ex>νεται</ex></expan> <num value="28"><hi rend="supraline">κη</hi></num>, ὧν ἥμισυ <supplied reason="lost"><num value="14"><hi rend="supraline">ιδ</hi></num>. συν</supplied>
+    <lb n="7" break="no"/><supplied reason="lost">τί</supplied><unclear>θο</unclear>μ<unclear>ε</unclear>ν τ<subst><add place="inline">ὸ</add><del rend="corrected"><hi rend="supraline">β</hi></del></subst> πάχος, <num value="16"><surplus><hi rend="supraline">ι</hi></surplus><subst><add place="inline"><hi rend="supraline">ϛ</hi></add><del rend="corrected">κ</del></subst></num> καὶ <num value="8"><hi rend="supraline">η</hi></num>. <expan>γί<ex>νεται</ex></expan> <num value="14"><hi rend="supraline">ιδ</hi></num>, ὧν ἥμι<supplied reason="lost">συ <num value="7"><hi rend="supraline">ζ</hi></num>.</supplied>
+    <lb n="8"/><supplied reason="lost">ἐ</supplied><unclear>π</unclear>ὶ δὲ <choice><reg><unclear>τ</unclear><supplied reason="lost">ὸ</supplied>ν</reg><orig><unclear>δ</unclear><supplied reason="lost">ὸ</supplied>ν</orig></choice> <num value="14"><hi rend="supraline">ιδ</hi></num>, <expan>γί<ex>νεται</ex></expan> <num value="98"><hi rend="supraline">ϙη</hi></num>. ἐπὶ τὸ <unclear>μῆ</unclear>κος<unclear>,</unclear> πη<unclear>χ</unclear>ῶν <num value="28"><hi rend="supraline">κη</hi></num>,
+    <lb n="9"/><supplied reason="lost"><expan>γί<ex>νεται</ex></expan></supplied> <num value="2744"><supplied reason="lost"><hi rend="supraline">Β</hi></supplied><hi rend="supraline"><unclear>ψμδ</unclear></hi></num>. <unclear>τα</unclear>ῦτα μερίζομαι π<supplied reason="lost">α</supplied><unclear>ρ</unclear><supplied reason="lost">ὰ</supplied> <unclear>τ</unclear>ὸν <num value="288"><hi rend="supraline">σπ<unclear>η</unclear></hi></num>, 
+    <lb n="10"/>κ<unclear>α</unclear>ὶ τὰ <choice><reg>λοιπὰ εἰς</reg><orig>λυ<unclear>πὰ</unclear> ἰς</orig></choice> δακτύλους <app type="editorial"><lem><num value="12"><hi rend="supraline">ιβ</hi></num></lem><rdg resp="ed.pr."><surplus><hi rend="supraline">ιβ</hi></surplus></rdg></app>. <expan>γί<ex>νεται</ex></expan> <num value="9"><hi rend="supraline">θ</hi></num> καὶ δακτύλ<supplied reason="lost">ων</supplied>
+    <lb n="11"/><num value="12"><hi rend="supraline">ιβ</hi></num> <num value="2/3"><hi rend="supraline">𐅷</hi></num>. οὕτως ἔχει ὁμοίως.<g type="slanting-stroke"/><g type="slanting-stroke"/>
+    <lb n="12"/>diagram <num value="6"><unclear>ϛ</unclear></num> <num value="18">κη</num> <num value="16">ι<unclear>ϛ</unclear></num> <num value="12">ι<unclear>β</unclear></num>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main"/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>
+‘A piece of ship (?) timber, 28 cubits; width from the roots 16 fingers, from the foliage 12 fingers; thickness from the roots 8 fingers, from the foliage 6 fingers. Find [how big?] is the timber. I do it this way: I add the width, 16 and 12, the result is 28, half of which is 14. I add the thickness, 6 and 8, the result is 14, half of which is 7. (Multiply) by 14, the result is 98. (Multiply) by the length of 28 cubits, the result is 2,744. This I divide by 288 and the remainder into fingers, (divide by) 12, the result is 9 and 12 2/3 fingers. So it holds for similar cases. Diagram.’
+</p></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
