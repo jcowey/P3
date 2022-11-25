@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Title of the Annunciation to the Shepherds in the Bodleian Library</title>
+             <author>
+                 <persName>
+                     <forename>Amin</forename>
+                     <surname>Benaissa</surname>
+                 </persName>
+                 <affiliation>
+                     <orgName>Christ Church, Oxford</orgName>
+                 </affiliation>
+                 <email>amin.benaissa@classics.ox.ac.uk</email>
+                 <idno ana="hc:GNDURI">https://d-nb.info/gnd/1151668966</idno>
+                 <idno ana="hc:ORCIDURI">https://orcid.org/0000-0003-1771-5451</idno>
+             </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2022-11-25</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2022">2022</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.2.8</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2022.1.89340</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">A. Benaissa, “A Title of the Annunciation to the Shepherds in the Bodleian Library,” Pylon 2 (2022). DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2022.1.89340">https://doi.org/10.48631/pylon.2022.1.89340</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">2</biblScope>
+                     <biblScope unit="article">8</biblScope>
+                     <date when="2022">2022</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2022-11-25T16:41:06Z</date>
+               <name>Amin Benaissa</name>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">A Title of the Annunciation to the Shepherds in the Bodleian Library</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+             <div type="epidoc" subtype="DCLP">
+                 <div type="introduction">
+                  <p xml:id="p1">This papyrus fragment preserves the summary heading (τίτλος) of the second chapter (κεφάλαιον) of the Gospel of Luke, the so-called Annunciation to the Shepherds (2:8–20). The lack of writing on the other side suggests that it was written in the upper margin of a codex. If this were a title from the middle of the page before the section in question, one would have expected to find writing on the other side of the leaf. A papyrus roll is not, of course, a realistic possibility at this date. The implication would be that this was a codex with lavishly wide margins, since Christian codices with margins measuring above 4 cm are relatively rare. Those with the widest upper margins include <ref target="https://papyri.info/dclp/61952">P.Beatty 5</ref> (6 cm, papyrus, 2nd cent.), the Codex Sinaiticus (5.3–6.3 cm, parchment, mid 4th cent.), the Codex Vaticanus (3.7–4.8 cm, parchment, 2nd half of 4th cent.), <ref target="http://papyri.info/dclp/59464">P.Köln 7 297</ref> (5 cm, papyrus, 4th cent.), and <ref target="http://papyri.info/dclp/62072">PSI 14 1371</ref> (5 cm, papyrus, 4th/5th cent.).<note place="foot" xml:id="ftn1" n="1"><p style="text-align: justify;"> On margin size in Christian codices, see <ref target="https://papyri.info/biblio/96264">Mugridge 2016</ref>: 57–60, 470–478, who does not distinguish between papyrus and parchment codices.</p></note> In literary papyrus rolls of the Roman period, upper margins can be as deep as 7.5 cm, and margins above 4 cm are associated with finer manuscripts.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: justify;"> See <ref target="https://papyri.info/biblio/18132">Johnson 2004</ref>: 130–141; cf. p. 141: “when a somewhat exaggerated margin was desired, a range from 4–6 cm was common for the upper margin among finely written examples, as was a range of 5–7 cm for the lower margin (though several manuscripts without pretension also employ margins of this size).” Cf. also <ref target="https://papyri.info/biblio/19701">McNamee 2007</ref>: 13.</p></note> The earliest such section titles in the upper margin are found in the Codex Alexandrinus of the fifth century, where they are written in red ink.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: justify;"> See <ref target="https://papyri.info/biblio/96262">Goswell 2009</ref> and <ref target="https://papyri.info/biblio/96266">Smith 2014</ref>: 156–179. Upper marginal τίτλοι for the Book of Acts are also present in the Codex Sinaiticus of the mid fourth century, but they are not numbered; see <ref target="https://papyri.info/biblio/96265">Milne and Skeat 1938</ref>: 38 with Figure 11. Cf. also the titles in the wide upper margins of the Codex Zacynthius (probably 8th cent.), on which see <ref target="https://papyri.info/biblio/96268">Houghton and Parker 2020</ref>: 34–39.</p></note> Unlike the marginal titles in the Codex Alexandrinus, the title here is written in tapering form over three lines in the manner of an end-title. One possible way to account for the separate preservation of the title is to suppose that the original codex was drastically trimmed when it was rebound.</p>
+                  <p xml:id="p2">The writing, in brownish ink, runs against the fibres. The hand is a medium-sized specimen of the so-called Alexandrian Majuscule.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: justify;"> On the type, see <ref target="https://papyri.info/biblio/18496">Cavallo 2005</ref>: 175–202 and <ref target="https://papyri.info/biblio/79030">Bastianini and Cavallo 2011</ref>.</p></note> The blank spaces above and below the title are each <emph rend="italics">c</emph>. 2 cm deep. The interlinear space measures <emph rend="italics">c. </emph>0.2 cm. Letters are <emph rend="italics">c. </emph>0.3 cm high. The widest letter is ω at 0.8 cm, the narrowest (besides ι) are ε and ο at 0.2 cm. The hand is bilinear, but ρ descends below the notional baseline. The bar of π extends beyond the uprights, which are of uneven length. μ is rounded, with the saddle level with the baseline. Uprights often end in a blob at the base. Strokes are generally thick, but some shading is observable, for instance on the first oblique of λ and the horizontal bar of π. Among dated parallels, the closest are <ref target="http://papyri.info/dclp/131510">PSI 16 1576</ref>, a paschal letter securely datable to 420/21, and <ref target="http://papyri.info/dclp/65050">P.Grenf. 2 112</ref> = GBEBP 37, a paschal letter probably dating from 577.</p>
+                  <p xml:id="p3">According to the Bodleian’s handlist of papyri, the papyrus was bought from the Revd Grenville John Chester (1830–92) in 1878.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: justify;"> On this collector and dealer, see <ref target="https://papyri.info/biblio/96267">Bierbrier 2019</ref>: 100–101 and <ref target="https://papyri.info/biblio/96263">Seidmann 2006</ref>: 145–150.</p></note> Its provenance is unrecorded but is likely to be the Fayum in light of other papyri sold by Chester to the Bodleian and British Libraries in that year: see R. Luiselli, Gr.Med.Pap. 1 3 introd., pp. 37–8, on MS. Gr. class. g. 69 (P), a leaf from a codex of Galen.<note place="foot" xml:id="ftn6" n="6"><p style="text-align: justify;"> I am grateful to N. Gonis for this reference.</p></note></p>
+                     <table type="papyrological_header">
+                     <row>
+                         <cell style="text-align: left;">Bodl. MS. Gr. class. g. 68 (P)</cell>
+                         <cell style="text-align: center;">6.7 (w) × 5.6 (h) cm</cell>
+                         <cell style="text-align: right;">Fifth or sixth century</cell>
+                     </row>
+                     <row>
+                         <cell style="text-align: left;">
+                             <ref target="https://digital.bodleian.ox.ac.uk/objects/544855a5-3460-4dc7-83c0-9a94b1ba4838/">digital.bodleian.ox.ac.uk</ref>
+                         </cell>
+                         <cell style="text-align: center;"/>
+                         <cell style="text-align: right;">Fayum(?)</cell>
+                     </row>
+                 </table>
+                 </div>
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#ed2" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                   <note target="ed1n1">
+                     <p xml:id="p4"><ref>1</ref> ]  ̣. A descending oblique at one-third height. It is unclear whether this is part of an ornamental stroke or just a stray mark.</p>
+                  </note>
+                   <note target="#range(ed1ln2, ed1ln3)">
+                       <p xml:id="p5"><ref>2–3</ref> [ποι]μαίνω[ν]: read ποιμένων. For the common phonetic interchange of αι and ε, see <ref target="https://papyri.info/biblio/8813">Gignac 1976</ref>: 191–193. The word is similarly spelled in the corresponding title in the Codex Alexandrinus (fol. 45r); cf. also the index of τίτλοι on fol. 43r.</p>
+                   </note>
+               </div>
+               <div type="bibliography">
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/79030">Bastianini, G. and Cavallo, G. (2011)</ref> “Un nuovo frammento di lettera festale (PSI inv. 3779),” in G. Bastianini and A. Casanova (eds.), I papiri letterari cristiani. Florence: 31–45.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96267">Bierbrier, M. L. (ed.) (2019)</ref> Who Was Who in Egyptology (5th revised edition). London.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/18496">Cavallo, G. (2005)</ref> Il calamo e il papiro: la scrittura greca dall’età ellenistica ai primi secoli di Bisanzio (Pap.Flor. XXXVI). Florence. </bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/8813">Gignac, F. T. (1976)</ref> A Grammar of the Greek Papyri of the Roman and Byzantine Periods. Vol. 1: Phonology. Milan.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96262">Goswell, G. (2009)</ref> “Early Readers of the Gospels: The <emph rend="italics">Kephalaia </emph>and <emph rend="italics">Titloi </emph>of Codex Alexandrinus,” JGRChJ 6: 134–174.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96268">Houghton, H. A. G. and Parker, D. C. (eds.) (2020)</ref> Codex Zacynthius: Catena, Palimpsest, Lectionary. Piscataway, NJ. </bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/18132">Johnson, W. A. (2004)</ref> Bookrolls and Scribes in Oxyrhynchus. Toronto. </bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/19701">McNamee, K. (2007)</ref> Annotations in Greek and Latin Texts from Egypt (ASP XLV). Oakville, CT.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96265">Milne, H. J. M. and Skeat, T. C. (1938)</ref> Scribes and Correctors of the Codex Sinaiticus. London.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96264">Mugridge, A. (2016)</ref> Copying Early Christian Texts: A Study of Scribal Practice. Tübingen.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96263">Seidmann, G. (2006)</ref> “Forgotten Pioneers of Archaeology in Victorian Oxford: The Rev. Greville John Chester (1830–1892),” Oxoniensia LXXI: 145–150. </bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96266">Smith, W. A. (2014)</ref>A Study of the Gospels in Codex Alexandrinus: Codicology, Palaeography, and Scribal Hands. Leiden.</bibl>
+                  </listBibl>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>A Title of the Annunciation to the Shepherds in the Bodleian Library</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Digital Corpus of Literary Papyri</authority>
+               <idno type="filename">012210</idno>
+               <idno type="dclp">012210</idno>
+               <idno type="dclp-hybrid">pylon;2;8</idno>
+               <idno type="TM">012210</idno>
+               <availability>
+                  <p>© Digital Corpus of Literary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                      <idno type="invNo">Bodl. MS. Gr. class. g. 68 (P)</idno>
+                  </msIdentifier>
+                  <history>
+                     <origin>
+                        <origPlace>unbekannt</origPlace>
+                        <origDate>V-VI</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref></p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">A Title of the Annunciation to the Shepherds in the Bodleian Library</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1" xml:id="ed1ln1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <num value="2"><hi rend="supraline">β</hi></num> περιτωνα<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2" xml:id="ed1ln2"/><gap reason="lost" extent="unknown" unit="character"/> λουντων<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3" xml:id="ed1ln3"/><gap reason="lost" extent="unknown" unit="character"/> μαινω<supplied reason="lost">ν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+</ab> </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">A Title of the Annunciation to the Shepherds in the Bodleian Library</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">012210</idno>
+               <idno type="TM">012210</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>
+ ‘ … 2nd (chapter) concerning the shepherds out in the fields.’
+</p></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>A Title of the Annunciation to the Shepherds in the Bodleian Library</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Digital Corpus of Literary Papyri</authority>
+               <idno type="filename">012210</idno>
+               <idno type="dclp">012210</idno>
+               <idno type="dclp-hybrid">pylon;2;8</idno>
+               <idno type="TM">012210</idno>
+               <availability>
+                  <p>© Digital Corpus of Literary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                   <msIdentifier>
+                       <repository/>
+                       <idno type="invNo">Bodl. MS. Gr. class. g. 68 (P)</idno>
+                   </msIdentifier>
+                  <history>
+                     <origin>
+                        <origPlace>unbekannt</origPlace>
+                        <origDate>V-VI</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref></p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">A Title of the Annunciation to the Shepherds in the Bodleian Library</head>
+            <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1" rend="outdent"/> <gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <num value="2"><hi rend="supraline">β</hi></num> περὶ τῶν ἀ<supplied reason="lost">γραυ</supplied>
+<lb n="2" break="no"/>λουντων <choice><reg><supplied reason="lost">ποι</supplied><lb n="3" rend="indent" break="no"/>μένω<supplied reason="lost">ν</supplied></reg><orig><supplied reason="lost">ποι</supplied>
+<lb n="3" rend="indent" break="no"/>μαίνω<supplied reason="lost">ν</supplied></orig></choice>
+</ab> </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">A Title of the Annunciation to the Shepherds in the Bodleian Library</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">012210</idno>
+               <idno type="TM">012210</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans2" xml:lang="en" type="translation" xml:space="preserve"><p>
+ ‘ … 2nd (chapter) concerning the shepherds out in the fields.’
+</p></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
