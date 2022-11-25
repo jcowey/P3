@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Known Official in an Unknown Post in 339</title>
+            <author>
+               <name>
+                  <forename>Nikolaos</forename>
+                  <surname>Gonis</surname>
+               </name>
+               <affiliation>University College London</affiliation>
+               <email>n.gonis@ucl.ac.uk</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2022-11-25</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2022-11-25T15:33:29Z</date>
+               <name>Nikolaos Gonis</name>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">A Known Official in an Unknown Post in 339</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <div type="epidoc" subtype="DDB">
+               <div type="introduction">
+                  <p xml:id="p1">The text edited in this article is a copy of an official letter dated to 339.<note place="foot" xml:id="ftn1" n="1"><p> The text was briefly discussed in a paper presented at the 30th International Congress of Papyrology (‘Heptanomia in the Fourth Century’; Paris, 25 July 2022). I am grateful to Rodney Ast and Mike Sampson for helpful comments.</p></note> It was written on the back of a piece cut from a composite roll of documents addressed to the <emph rend="italics">curator civitatis</emph> of Arsinoe in 314/315.<note place="foot" xml:id="ftn2" n="2"><p> For the acquisition history of this papyrus, see Sampson 2022: §11.</p></note> Two of these documents were published in 1897 as <ref target="https://papyri.info/ddbdp/p.grenf;2;79coli">P.Grenf. 2 79</ref>; one other, which came immediately before them in the roll, was edited forty years later (<ref target="https://papyri.info/biblio/36243">Wegener 1937</ref>: 211–217), and was republished as <ref target="https://papyri.info/hgv/14121">SB 6 9192</ref>. <ref target="https://papyri.info/biblio/36243">Wegener 1937</ref>: 212 offered the following description of the text on the other side: ‘On the verso is a letter in a handwriting of a later date than the recto, addressed by a person, one of whose names is Σερηναῖος, to the λο]γιστῇ καὶ ἐ̣κ̣δίκῳ καὶ ἐξάκτορι καὶ ἐπόπτῃ ᾿Αρσινοίτου. The occasion of the letter may have been the negligence of these magistrates (1. 4, σφαλέντας τοσοῦτον, ἀλλ’ εἰδὼς ὑμῶν τὰς [   ), which threatened to lead to a trial (ἵνα σὺν ὑμῖν ἀνέλθω   at the end of the letter).’ The text is interesting enough to warrant a full edition.</p>
+                  <p xml:id="p2">There remain the beginning and the end of a letter, written in two columns.<note place="foot" xml:id="ftn3" n="3"><p> The position of the two fragments in the frame does not reflect the original arrangement but the sequence of the text on the other side of the roll; they should ideally have been placed side by side.</p></note> To judge from the extant height, up to half of the text of the first column is missing; the second column contains the conclusion of the letter and date, a consular clause in Latin. The sender is Septimius Serenaios Apollonios. His capacity is not stated, but he is known as a procurator of the Heptanomia at an unknown date and as an ex-procurator in 333. The Latin consular date and the note that the letter was carried to its destination by an <emph rend="italics">officialis</emph> show him to be the holder of a senior government post who headed or operated within an <emph rend="italics">officium</emph>. At that time, letters of high-ranking officials often did not indicate their function.<note place="foot" xml:id="ftn4" n="4"><p> Cf. e.g. <ref target="https://papyri.info/hgv/16008">P.Oxy. 43 3129</ref> (335) and <ref target="https://papyri.info/hgv/22518">P.Oxy. 55 3794</ref> (340), letters of Fl. Philagrios, prefect of Egypt, the second with strong affinities to ours (see 1 n., 2 n.), or <ref target="https://papyri.info/hgv/15398">P.Oxy. 50 3577</ref> (342), <ref target="https://papyri.info/hgv/15400">P.Oxy. 50 3579</ref> and <ref target="https://papyri.info/hgv/12468">P.Münch. 3 69</ref> (<emph rend="italics">ca</emph>. 341–342), letters of Fl. Ausonius, <emph rend="italics">praeses</emph> of Augustamnica.</p></note> Apollonios was certainly not a prefect, since Fl. Philagrios was in office when the letter was written (cf. <ref target="https://papyri.info/biblio/96255">Agostini 2020</ref>: 221–231). He could have been a procurator, which would mean that he held more than one procuratorship or the same procuratorship at different points (he could in theory have officiated in the Heptanomia in 339), or he could have risen to the position of <emph rend="italics">rationalis</emph>. See further i 2 n.</p>
+                  <p xml:id="p3">Apollonios was clearly unhappy with the civic officials of Arsinoe. The loss of what precedes it makes the closure of the letter ambiguous and raises other questions about Apollonios’ role. He seems to say that the Arsinoite officials should meet him at Kaine, so that he would ‘go up’ (ἀνέλθω̣) with them. The verb ἀνέρχομαι indicates movement from countryside to city or from north to south; did Apollonios ask them to meet him at the port and accompany him to the city of Arsinoe, or would they all together travel to some place in the south? The position of Kaine, a port, is another problem. It may be a port on the border of the Arsinoite nome with the Heracleopolite, or even the port of Arsinoe itself (see below, ii 1 n.). If the destination was not Arsinoe, it would be the headquarters of Apollonios, but where would that be? The only major city south of Arsinoe in what was still the province of Aegyptus is Oxyrhynchus, and the only other city to which one could ‘go up’ from Heracleopolite Kaine is Heracleopolis. Potentially relevant is <ref target="https://papyri.info/hgv/15398">P.Oxy. 50 3577</ref>, a letter of a <emph rend="italics">praeses</emph> of Augustamnica to two <emph rend="italics">propoliteuomenoi</emph> of Oxyrhynchus, issued at Heracleopolis in 342. The seat of the <emph rend="italics">praeses</emph> was Pelusium, and he may have sent the letter in the course of a tour of inspection of the province. I wonder whether Heracleopolis housed a high government office, operative during the last years of the city as part of Aegyptus and then when it belonged to Augustamnica. Such an office could provide a basis for the later prominence of the city, the joint capital with Oxyrhynchus of the province of Arcadia. We still do not know which city was the basis of the procurator of the Heptanomia.</p>
+                  <p xml:id="p4">In 333, we find Apollonios in Oxyrhynchus (<ref target="https://papyri.info/hgv/21993">P.Oxy</ref><ref target="https://papyri.info/hgv/21993">. 14</ref><ref target="https://papyri.info/hgv/21993" xml:space="preserve"> 1716</ref>). Described as a former procurator and acting through an agent, he receives the repayment of a loan of money from two Oxyrhynchites. His links to the city were apparently strong. As he was in government service six years later, this would not be a retired civil servant who settled in an area where he had held office. A long stay in the city on government business is also difficult to gauge; Oxyrhynchus is not known as a provincial government centre in the 330s. Did he originate from Oxyrhynchus? His names suggest that he was a scion of a family from the East that would have acquired Roman citizenship under Septimius Severus and was probably part of the elite of Roman Egypt. He would not have been the only Egyptian in such a post: to judge from his name, the procurator of the Heptanomia Valerius Sarapodorus (<ref target="https://papyri.info/biblio/59083">Delmaire</ref><ref target="https://papyri.info/biblio/59083" xml:space="preserve"> 1988</ref>: 127, no. 36) was most probably another. Though the geographical remit of the procurator largely overlapped with that the epistrategus of the Heptanomia, this was not the world of the epistrategi of Egypt under the Principate; most of them bear Roman names and were equestrians, and we only know of one or two epistrategi of Egyptian origin (<ref target="https://papyri.info/biblio/10067">Thomas 1982</ref>: 54–56). Some of the superiors of these procurators, the <emph rend="italics">rationales</emph> –ius Sarapodorus (<ref target="https://papyri.info/biblio/59083">Delmaire</ref><ref target="https://papyri.info/biblio/59083" xml:space="preserve"> 1988</ref>: 116, no. 8) and Aurelius Sarapion (<ref target="https://papyri.info/biblio/59083">Delmaire</ref><ref target="https://papyri.info/biblio/59083" xml:space="preserve"> 1988</ref>: 117, no. 10), would likewise have been natives of Egypt. In view of their origins, these officials would have been firmly rooted in the local society and economy, pursuing their private affairs while serving the imperial government.<note place="foot" xml:id="ftn5" n="5"><p> Even at the lower levels of the administration, there were changes at this time that reduced the compulsory mobility of regional officials. In the earlier part of the third century, and probably also later, strategi served away from their place of origin; in the fourth century, <emph rend="italics">curatores civitatis</emph> and strategi/<emph rend="italics">exactores</emph> were recruited from among the local councillors (<ref target="https://papyri.info/biblio/13035">Bagnall 1993</ref>: 60–62).</p></note> We see similar patterns in the centuries that followed, with the governors of the provinces of Egypt drawn, at least in part, from the local property-owning elite, which formed the new aristocracy of service. The early fourth century offers a good taste of Egypt in late antiquity.</p>
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;">MS. Gr. Class. d. 143 (P) v</cell>
+                        <cell style="text-align: center;">fr. 1  27.4 (w) × 15.9 (h) cm</cell>
+                        <cell style="text-align: right;">Before 7 July 339</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;">
+                           <ref target="https://digital.bodleian.ox.ac.uk/objects/be57199a-8dc5-4740-9b13-6c31545f08d1/surfaces/02d9bbff-2da3-4054-9ac9-706aefc9b660/">digital.bodleian.ox.ac.uk</ref>
+                        </cell>
+                        <cell style="text-align: center;">fr. 2  22.1 (w) × 13.3 (h) cm</cell>
+                        <cell style="text-align: left;"/>
+                     </row>
+                  </table>
+               </div>
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <p xml:id="p5"><emph rend="bold">Col. i</emph></p>
+                  <note target="ed1ln1">
+                     <p xml:id="p6"><ref>1</ref> δ̣[ι](ὰ) ὀφ(φικιαλίου). What remains of δ̣ is vestigial if not illusory; only the abbreviation stroke, a high rising oblique, is clear. Another annotation that a letter was transported by an <emph rend="italics">officialis</emph> is <ref target="https://papyri.info/hgv/22518">P.Oxy. 55 3794</ref>.1 (340) δι(ὰ) Σαρα̣π̣ί̣ωνος ὀφ(φικιαλίου) Μεσορ[η , addressed by the prefect of Egypt to the same kind of officials as the Bodleian papyrus one year later (see below, i 2–3 n.). The editor noted (1 n.): ‘The annotation of the receipt of the prefect’s letter was probably made in the office of the <emph rend="italics">curator</emph>.’ The certainly holds for our text too, copied on the back of documents addressed to the <emph rend="italics">curator</emph>.</p>
+                     <p xml:id="p7">Epeiph 13 = July 7.</p>
+                  </note>
+                  <note target="ed1ln2">
+                     <p xml:id="p8"><ref>2</ref> [<emph rend="italics">ca</emph>.4? ]  ̣  ̣ Σ̣επτίμιος Σερηναῖος Ἀπολλώνιος   . The traces at the beginning of the line ought to belong to Φλάουϊος, but they are too minimal for a reading to be confirmed. At the end of the line, the papyrus breaks off after Ἀπολλώνιος, but there is not enough room to restore any title, and in any case this part of the papyrus would have been damage at the time of its reuse (see below, 3 n., para. 4).</p>
+                     <p xml:id="p9">The name Σερηναῖος is attested only for this person; there is no entry in <ref target="http://clas-lgpn2.classics.ox.ac.uk/name">Lexicon of Greek Personal Names</ref>. <ref target="https://papyri.info/biblio/96050">Solin–Salomies 1994</ref>: 168 only list Seren(n)ius among Roman <emph rend="italics">gentilicia</emph>. I wonder whether its formation was influenced by the common Εἰρηναῖος.</p>
+                     <p xml:id="p10">Flavius Septimius Serenaios Apollonios is recorded in <ref target="https://papyri.info/biblio/7669">PLRE I</ref> 85 (also <ref target="https://papyri.info/biblio/59083">Delmaire 1988</ref>: 128, no. 40) as ‘procurator Heptanomiae before 333’ from two texts: <ref target="https://papyri.info/hgv/21993">P.Oxy. 14 1716</ref>.4–5 (333) Φλάουϊος Σεπτίμιος Σερήνι[ο]ς Ἀπολλώνιος διαση|μότατος ἀπὸ ἐπιτρόπων       (the <ref target="http://ipap.csad.ox.ac.uk/POxy-bw/300dpi/P.Oxy.XIV.1716.jpg">IPAP photograph</ref> shows that Σερηνα̣ῖ[ο]ς can be read in place of Σερήνι[ο]ς), and in an undated papyrus that specifies his office. For the latter text, the reader is referred to <ref target="https://papyri.info/biblio/6631">P.Beatty Panop.</ref>, p. xvi, where Skeat noted: ‘I have also come across a note by Sir Harold Bell of an unpublished papyrus, a petition addressed ]μίῳ Σερηναίῳ Ἀπολλωνίῳ ἐπιτρόπῳ Ἑπτανομίας , from an inhabitant of Takona in the ninth <emph rend="italics">pagus</emph> of the Oxyrhynchite nome.’ Thanks to an investigation by the late Federica Micucci and to the assistance of Brendan Haug, this papyrus turned out to be <ref target="https://quod.lib.umich.edu/a/apis/x-8158">P.Mich. inv. 1932</ref> (currently under research); the relevant part reads ]μίωι Σερηναίωι Ἀπολλωνίωι | [τῶι διασ]ημ[ο]τ̣ά[τ]ω̣ι ἐπιτρόπωι Ἑπτανομίας   .</p>
+                     <p xml:id="p11">Septimius Serenaeus Apollonios was tentatively identified with the <emph rend="italics">procurator (rei) privatae Aegypti</emph> in <ref target="https://papyri.info/hgv/15296">P.Prag. 1 10</ref>.1–2, ] Ἀπολλωνίῳ διασημο̣[τ]ά̣τῳ ἐπιτρόπῳ̣ | πριουάτης Αἰγύπτου   , sender of a letter to the <emph rend="italics">exactor</emph> of the Kabasite nome in the Delta. The date of the text was placed in 309–314/315 by <ref target="https://papyri.info/biblio/59788">Cowey et al. 1989</ref>: 216 (= BL 9.221), considerably earlier than 333. A date after 314/315 was excluded for two reasons, but neither is cogent. The office (‘Amt’) of ἐπίτροπος πριουάτης Αἰγύπτου  is said to be securely attested only between 298 and 325; but the <emph rend="italics">officium</emph> (τάξις) of this procurator is recorded as late as 338 (<ref target="https://papyri.info/ddbdp/p.vind.sijp;;1">P.Vind.Sijp</ref><ref target="https://papyri.info/ddbdp/p.vind.sijp;;1">. 1</ref> i 16–17, ii 15; cf. <ref target="https://papyri.info/biblio/59083">Delmaire 1988</ref>: 134, no. 73). Another objection was that this office could not have existed between 314/315 and 325, since Lower Egypt was split into two provinces in this period (<emph rend="italics">Aegyptus Herculia</emph> and <emph rend="italics">Aegyptus Iovia</emph>); but there is no need to assume that this partition was reflected in the financial departments (cf. <ref target="https://papyri.info/biblio/13035">Bagnall 1993</ref>: 67) so that there would be no such procurator <emph rend="italics">privatae Agypti</emph> at that time; the Heptanomia, a division of the Egyptian part of the <emph rend="italics">summa res</emph>, headed by a procurator, continued its existence until the 360s regardless of the changing administrative landscape of Middle Egypt. Yet even if the date of the Prague papyrus were fairly close to 333, there would still be difficulties. <ref target="https://papyri.info/biblio/69377">Mitthof 2000</ref>: 260 n. 8 has observed that the identification would be possible only if we assumed that Apollonios held several procuratorships. We may add that these would been held in two distinct financial departments (<emph rend="italics">res privata</emph> and <emph rend="italics">summa res</emph>), but these departments were not necessarily worlds apart, as they were occasionally headed by the same person, who was a <emph rend="italics">catholicus</emph> as well as <emph rend="italics">magister rei privatae</emph> (Delmaire 1988: 119–121, nos. 17 and 19; cf. <ref target="https://papyri.info/biblio/9607">P.Oxy. 48 3416</ref> introd., p. 123). It should also be noted that the lacuna at the start of <ref target="https://papyri.info/hgv/15296">P.Prag. 1 10</ref>.1 could have taken away only one name.</p>
+                     <p xml:id="p12">Another potential but even more problematic candidate for the identification is [ <emph rend="italics">c</emph>. 4 ]ώνιος ἐπίτρ[οπο]ς̣  in P.Vind.Bosw. 14 = <ref target="https://papyri.info/hgv/17303a">SB 26 16763</ref>.2, who wrote to the Hermopolite <emph rend="italics">exactor</emph> some time between 317 and 323 (the date range is not entirely certain). He was subordinate to the <emph rend="italics">rationalis</emph>, and presumably a procurator of the Lower Thebaid. His name could but need not have been Apollonios; see <ref target="https://papyri.info/biblio/69377">Mitthof 2000</ref>: 260–262, 264 (2 n.).</p>
+                     <p xml:id="p13">More promising is <ref target="https://papyri.info/hgv/78597">P.Oxy. 66 4525</ref>.30, ] Ἀπο̣λλώνιος διαση(μότατος) εἶπ(εν)  , a record of proceedings of the city council of Oxyrhynchus from around 331. The name, rank, date, and place make it conceivable that this <emph rend="italics">perfectissimus</emph> Apollonios is the same as the procurator.</p>
+                     <p xml:id="p14">Septimius Serenaios Apollonios had been tentatively identified with the <emph rend="italics">dioiketes</emph> Septimius Apollonios (<ref target="https://papyri.info/biblio/6578">Lallemand</ref><ref target="https://papyri.info/biblio/6578" xml:space="preserve"> 1964</ref>: 262), but it later emerged that this <emph rend="italics">dioiketes</emph> (an office abolished under Diocletian) belongs to the 250s (<ref target="https://papyri.info/biblio/57209">Hagedorn 1985</ref>: 205). These are probably namesakes rather than members of the same family.</p>
+                  </note>
+                  <note target="ed1ln3">
+                     <p xml:id="p15"><ref>3</ref> For the address, cf. P.Oxy. 55 3794.2–3 (340) λογιστῇ καὶ συνδίκῳ [καὶ ἐξάκτορι καὶ] | ἐπόπτῃ καὶ προπολιτευομένοις Ὀξυρυγχειτῶν        (sim. ll.  20–21). (Our papyrus is mentioned in <ref target="https://papyri.info/biblio/6578">Lallemand 1964</ref>: 111 n. 3 among documents addressed to a plurality of municipal officials.) </p>
+                     <p xml:id="p16">[συν]δίκ̣ῳ̣. <ref target="https://papyri.info/biblio/36243">Wegener 1937</ref>: 212 read ἐ̣κ̣δίκῳ. There are a few scattered specks of ink before δ which do not support any reading, but συν accounts for the space better than ἐκ; cf. <ref target="https://papyri.info/hgv/22518">P.Oxy. 55 3794</ref>.2 (above). The Arsinoite syndic in 339 was –mion (<ref target="https://papyri.info/hgv/14649">SB 16 12692</ref>.1).</p>
+                     <p xml:id="p17">ἐπόπτῃ. This is the earliest reference to the office of ἐπόπτης εἰρήνης , taking the place of <ref target="https://papyri.info/hgv/22518">P.Oxy. 55 3794</ref>.3 (340); see <ref target="https://papyri.info/biblio/10153">P.Oxy. 50 3573</ref>.3–4 n., with <ref target="https://papyri.info/biblio/11593">P.Oxy. 55 3794</ref>.2–3 n. Its only other Arsinoite attestation may be <ref target="https://papyri.info/hgv/12468">P.Münch. 3 69</ref>.4 (<emph rend="italics">ca</emph>. 341–342) ] ε̣ἰρή̣νης .</p>
+                     <p xml:id="p18">χαίρειν̣. The papyrus is broken after ει, and the putative ν̣ stands on the opposite edge. The break must have predated the reuse of the papyrus, and the copyist added ν̣ where the surface of the papyrus allowed. Cf. προσ- in the next line.</p>
+                  </note>
+                  <note target="ed1ln4">
+                     <p xml:id="p19"><ref>4</ref> [ἴ]σμεν. The Classical form of the first person  plural of οἶδα is not attested in the papyri before the fourth century, whereas the <emph rend="italics">koine</emph> οἴδαμεν is found from the first Ptolemaic century to the early years of Arab rule; cf. <ref target="https://papyri.info/biblio/9657">Gignac 1980</ref>: 410.</p>
+                     <p xml:id="p20">τ̣ὴ̣ν ἐπιχίρησιν ὑμῶν  . Cf. <ref target="https://papyri.info/hgv/15766">P.Oxy. 46 3304</ref>.23–24 (301) τὴν παράνομον αὐτοῦ ἐπι|χείρη[σ]ιν   , ‘his unlawful enterpise’.</p>
+                     <p xml:id="p21">χαλεπένον̣τ̣α. The verb has previously occurred only in one other papyrus, a second-century record of proceedings, <ref target="https://papyri.info/hgv/27215">P.Phil. 2</ref> i 4 χαλαπήνας. It is more common in literature.</p>
+                     <p xml:id="p22">προσ-. There is a gap between πρ and οσ, with only the underlying layer of fibres visible; the front of ρ is written on this layer, which shows that the defect was present when the papyrus was reused. The damage has also affected the end of χαίρειν̣ at 3. I have articulated προσ- rather than πρός on the assumption that this is the beginning of an infinitive (compound) that goes with ἐχρῆν.</p>
+                  </note>
+                  <note target="ed1ln5">
+                     <p xml:id="p23"><ref>5</ref> The letter before ο̣ρ̣ is π̣ or τ̣. I have considered προσ|π̣ο̣ρ̣[ίζε]σ̣θ̣α̣ι̣, but the sense is not satisfactory. Before σφαλέντας, τ̣ο̣ύ̣ς is not a good match for the traces (certainly not ὑ̣μ̣ᾶ̣ς).</p>
+                     <p xml:id="p24">σφαλέντας. σφάλλω is a fairly uncommon verb in the papyri, otherwise attested in <ref target="https://papyri.info/hgv/16084">SB 12 10927</ref>.6 (?; late 1st c. bce / early 1st c. ce), <ref target="https://papyri.info/hgv/32157">P.Congr.XV 20</ref>.6 (Oxy.?; 3rd/4th c.), and <ref target="https://papyri.info/hgv/17421">PSI 12 1265</ref>.10 (Oxy.; 426).</p>
+                  </note>
+                  <note target="ed1ln6">
+                     <p xml:id="p25"><ref>6</ref> After ]  ̣σα̣ι, the top of an upright with a short oblique stroke further up, presumably ϊ; cf. ϊνα at ii 1. </p>
+                     <p xml:id="p26">γ̣ά̣ρ̣. The reading assumes that γ̣ has a (mostly abraded) cap that descends into ligature with α̣. But Mike Sampson may be right in seeing the first trace as an upright standing on its own (ι), followed by ν; what confuses me is the extra ink at the upper right of what would be the second upright of the putative ν.</p>
+                     <p xml:id="p27"><emph rend="bold">Col. ii</emph></p>
+                  </note>
+                  <note target="ed1ln8">
+                     <p xml:id="p28"><ref>1</ref> ἐν Και̣ν̣ῇ. P. Heilporn, <ref target="https://papyri.info/biblio/21045">P.Narm. 2006</ref>, pp. 44–47, has suggested that most references to this port and customs gate in Arsinoite documents (collected under <ref target="https://www.trismegistos.org/geo/detail.php?tm=950">TM Geo 950</ref>) are to Heracleopolite Kaine (<ref target="https://www.trismegistos.org/geo/detail.php?tm=953">TM Geo 953</ref>). A note appended to <ref target="https://www.trismegistos.org/geo/detail.php?tm=950">TM Geo 950</ref> reads: ‘Clarysse rather thinks that Kaine is the harbour of 00d Krokodilopolis [= Arsinoe]’. Whatever the case, our text implies that there was a close relationship between Arsinoe and Kaine.</p>
+                  </note>
+                  <note target="ed1ln9">
+                     <p xml:id="p29"><ref>2</ref> The final greeting was written very quickly.</p>
+                  </note>
+                  <note target="#range(ed1ln10, ed1ln11)">
+                     <p xml:id="p30"><ref>3–4</ref> The abbreviations employed are the usual ones: <emph rend="italics">ddnn</emph> for <emph rend="italics">d(ominis) n(ostris)</emph>, <emph rend="italics">aug</emph> for <emph rend="italics">Aug(usto)</emph>, <emph rend="italics">c̣ọṣṣ</emph> for <emph rend="italics">c̣ọ(n)ṣ(ulibus)</emph>. On other attestations of this consular pair in the papyri, see <ref target="https://papyri.info/biblio/17873">Bagnall–Worp 2004</ref>: 184. The day of the month may have been given in a note added in the left hand margin (<ref target="https://papyri.info/biblio/96254">Iovine</ref><ref target="https://papyri.info/biblio/96254" xml:space="preserve"> 2019</ref>), but this part of the papyrus is missing (and the text is copy).</p>
+                  </note>
+               </div>
+               <div type="bibliography">
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96255">Agostini, G. (2020)</ref> Prefetti e <emph rend="italics">praesides</emph> nell’amministrazione giudiziaria dell’Egitto tardoantico: ambiti di competenza e prosopografia (284-397). Diss. Sapienza, Università di Roma.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/13035">Bagnall, R.S. (1993)</ref> Egypt in Late Antiquity. Princeton. </bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/17873">Bagnall, R.S and Worp, K.A. (2004)</ref>, Chronological Systems of Byzantine Egypt. Second Edition. Leiden.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/59788">Cowey et al. (1989)</ref> = J.M.S. Cowey, R. Duttenhöfer, M. Richter, P. Schubert “Bemerkungen zu P.Prag. I,” ZPE 77: 216–224.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/59083">Delmaire, R. (1988)</ref> “Le personnel de l’administration financière en Égypte sous le Bas-Empire Romain (IVe-VIe siècles),” CRIPEL 10: 113–138.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/9657">Gignac, F.T. (1980)</ref> A Grammar of the Greek Papyri of the Roman and Byzantine Periods II. Morphology. Milan.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/57209">Hagedorn, D. (1985)</ref> “Zum Amt des διοικητής im römischen Ägypten,” YCS 28: 167–210.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96254">Iovine, G. (2019)</ref> “<emph rend="italics">Data epistula</emph>: Later Additions of Latin Dating Formulae in Latin and Greek Papyri and <emph rend="italics">Ostraka</emph> from the First to the Sixth Centuries AD,” Manuscripta 63.2: 157–230.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/6578">Lallemand, J. (1964)</ref> L’administration civile de l’Égypte de l’avènement de Dioclétien à la création du diocèse (284-382). Brussels.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/69377">Mitthof, F. (2000)</ref> “Anordnung des <emph rend="italics">rationalis</emph> Vitalis betreffs der Instandsetzung von Schiffen. Eine Neuedition von P. Vind. Bosw. 14,” ZPE 129: 259–264.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/7669">PLRE I</ref> = A.H.M. Jones, J.R. Martindale, J. Morris, The Prosopography of the Later Roman Empire. I: A.D. 260–395. Cambridge 1971.</bibl>
+                     <bibl>Sampson, C.M. (2022) “The David G. Hogarth Papyri,” Pylon 2.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96050">Solin, H. and Salomies, O. (1994)</ref>, Repertorium nominum gentilium et cognominum Latinorum. Editio nova addendis corrigendisque augmentata. Hildesheim.     </bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/10067">Thomas, J.D. (1982)</ref> The Epistrategos in Ptolemaic and Roman Egypt. Part 2. The Roman Epistrategos. Opladen.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/36243">Wegener, E.P. (1937)</ref> “Some Oxford Papyri,” JEA 23: 204–225.</bibl>
+                  </listBibl>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Letter of Septimius Serenaios Apollonios to the curator civitatis (logistes), syndic, exactor and overseer (epoptes) of the Arsinoite nome.</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">012210</idno>
+               <idno type="HGV">012210</idno>
+               <idno type="ddb-filename">pylon.2.10</idno>
+               <idno type="ddb-hybrid">pylon;2;10</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">MS. Gr. Class. d. 143 (P) v</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>Before 7 July 339</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Brief (amtlicher)</term>
+                  <term n="2">Septimius Serenaios Apollonios an Logistes</term>
+                  <term n="3">Syndikos</term>
+                  <term n="4">Exaktor</term>
+                  <term n="5">Epoptes</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Letter of Septimius Serenaios Apollonios to the curator civitatis (logistes), syndic, exactor and overseer (epoptes) of the Arsinoite nome.</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.2.10</idno>
+               <idno type="ddb-hybrid">pylon;2;10</idno>
+               <idno type="HGV">012210</idno>
+               <idno type="TM">012210</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Letter of Septimius Serenaios Apollonios to the curator civitatis (logistes), syndic, exactor and overseer (epoptes) of the Arsinoite nome.</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="i" subtype="column" type="textpart"><ab>
+<lb n="1" rend="indent"/> <expan><unclear>δ</unclear><supplied reason="lost">ι</supplied><ex>ὰ</ex></expan> <expan>ὀφ<ex>φικιαλίου</ex></expan> ᾿Επειφ <num value="13">ιγ</num>
+<lb n="2" xml:id="ed1ln2"/><supplied reason="lost" cert="low"><gap reason="illegible" quantity="4" unit="character" precision="low"/> </supplied><gap reason="illegible" quantity="2" unit="character"/> <unclear>Σ</unclear>επτίμιος Σερηναῖος Ἀπολλώνιος
+<lb n="3" xml:id="ed1ln3"/><supplied reason="lost">λ</supplied><unclear>ο</unclear>γιστῇ καὶ <supplied reason="lost">συν</supplied>δί<unclear>κῳ</unclear> καὶ ἐξάκτορι καὶ ἐπόπτῃ Ἀρσινοΐτου χαίρει<unclear>ν</unclear>.
+<lb n="4" xml:id="ed1ln4"/><supplied reason="lost">ἴ</supplied>σμεν <unclear>τὴ</unclear>ν <choice><reg>ἐπιχείρησιν</reg><orig>ἐπιχίρησιν</orig></choice> ὑμῶν. ἐχρῆν με <choice><reg>χαλεπαίνοντα</reg><orig>χαλεπένο<unclear>ντ</unclear>α</orig></choice> οὕτω πρὸς
+<lb n="5" xml:id="ed1ln5"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>ορ</unclear><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><unclear>ι</unclear><gap reason="illegible" quantity="2" unit="character"/>ς σφαλέντας τοσοῦτον, ἀλλ’ εἰδὼς ὑμῶν τὰς <gap reason="lost" quantity="4" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/>
+<lb n="6" xml:id="ed1ln6"/><gap reason="lost" quantity="12" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/>σ<unclear>α</unclear>ι<gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="1" unit="character"/><app type="alternative"><lem> <unclear>γὰρ</unclear></lem><rdg><gap reason="illegible" quantity="1" unit="character"/><unclear>ν</unclear></rdg></app> τοῦτο πεποιήκατ<unclear>ε</unclear> <gap reason="lost" quantity="4" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="3" unit="character"/>η<unclear>ς</unclear>
+<lb n="7" xml:id="ed1ln7"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="7" xml:id="ed1ln7"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+</ab></div>
+<div n="ii" subtype="column" type="textpart"><ab>
+<lb n="1" xml:id="ed1ln8"/>ἐν Κα<unclear>ιν</unclear>ῇ,<hi rend="diaeresis">ἵ</hi>να σὺν <hi rend="diaeresis">ὑ</hi>μῖν ἀνέλθω.
+<lb n="2" rend="indent" xml:id="ed1ln9"/> ἐρρῶσθαι ὑμᾶ<unclear>ς</unclear> <app type="alternative"><lem>εὔ<supplied reason="lost">χομα</supplied><unclear>ι</unclear></lem><rdg>εὔ<supplied reason="lost">χομα</supplied><unclear>ι</unclear><gap reason="lost" extent="unknown" unit="character"/></rdg></app> 
+<lb n="2" xml:id="ed1ln10"/><space extent="unknown" unit="character"/>
+<lb n="3" xml:id="ed1ln11"/><foreign xml:lang="la"><expan>d<ex>ominis</ex></expan> <expan>n<ex>ostris</ex></expan> Constantio <expan>Aug<ex>usto</ex></expan> <num value="2">ii</num> et 
+<lb n="4" xml:id="ed1ln12"/><supplied reason="lost">Const</supplied><unclear>a</unclear>nte <expan>Aug<ex>usto</ex></expan> <num value="1">i</num> <expan><unclear>co</unclear><ex>n</ex><unclear>s</unclear><ex>ulibus</ex></expan></foreign> 
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Letter of Septimius Serenaios Apollonios to the curator civitatis (logistes), syndic, exactor and overseer (epoptes) of the Arsinoite nome.</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">012210</idno>
+               <idno type="TM">012210</idno>
+               <idno type="HGV">012210</idno>
+               <idno type="ddb-hybrid">pylon;2;10</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+               <div n="i" type="textpart">
+                  <p>Through an officialis, Epeiph 13. <milestone unit="line" n="2"/> … Septimius Serenaios Apollonios to the curator civitatis and syndic and exactor and overseer of the Arsinoite (nome), greeting. We know your enterprise. It was necessary, as I was so angry … (those?) who were so much wrong, but knowing your …  because (?) you have done this …</p>
+               </div>
+               <div n="ii" type="textpart">
+                  <p> … at Kaine, so that I go up with you. I wish you well. </p>
+                  <p><milestone unit="line" n="3"/>In the consulship of our masters Constantius Augustus, for the 2nd time, and Constans Augustus, for the 1st time.</p></div>
+            </div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
