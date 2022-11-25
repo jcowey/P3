@@ -18,7 +18,7 @@
 
 9. Balamoshev, A 3rd-century manumissio inter amicos
 
-10. Gonis, A Known Official in an Unknown Post in 339
+10. **HTML**: [Gonis, A Known Official in an Unknown Post in 339](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/gonis_known_official)
 
 11. Lougovaya Ast, Thirsting for an Answer. A Reedition of P.Bodl. 1 7
 
