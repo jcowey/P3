@@ -4,9 +4,9 @@
 
 2. **HTML**: [Sampson, New Light on P.Mich. 15 686](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_pmich_15_686)
 
-3. Jones - Bagnall, P.Math leaf A verso, Mathematical Problem a3 revisited: A New Algorithm in Greek Mensurational Mathematics
+3. **HTML**: [Jones - Bagnall, P.Math leaf A verso, Mathematical Problem a3 revisited: A New Algorithm in Greek Mensurational Mathematics](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/bagnall_jones_leafA_math)
  
-4. Lougovaya, P.Math leaf A recto, Mathematical Problem c1 revisited: Another New Algorithm
+4. **HTML**: [Lougovaya, P.Math leaf A recto, Mathematical Problem c1 revisited: Another New Algorithm](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/lougovaya_c1_math)
  
 5. **HTML**: [Sampson, The David G. Hogarth Papyri](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_hogarth) 
 
@@ -20,6 +20,8 @@
 
 10. Gonis, A Known Official in an Unknown Post in 339
 
-11. Lougovaya Ast
+11. Lougovaya Ast, Thirsting for an Answer. A Reedition of P.Bodl. 1 7
+
+12. Vanderheyden, P.Ghent inv. 47 completed. A Coptic letter from Apa Diane to Dioscorus of Aphrodito
  
-12. BOEP 10.1
+13. BOEP 10.1
