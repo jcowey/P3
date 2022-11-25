@@ -14,7 +14,7 @@
 
 7. Hatzilambrou, A New Papyrus of Strabo's Geographica
 
-8. Benaissa, A Title of the Annunciation of the Shepherds in the Bodleian Library
+8. **HTML**: [Benaissa, A Title of the Annunciation of the Shepherds in the Bodleian Library](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/benaissa_annunciation)
 
 9. Balamoshev, A 3rd-century manumissio inter amicos
 
