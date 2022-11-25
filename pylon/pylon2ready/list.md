@@ -20,6 +20,8 @@
 
 10. Gonis, A Known Official in an Unknown Post in 339
 
-11. Lougovaya Ast
+11. Lougovaya Ast, Thirsting for an Answer. A Reedition of P.Bodl. 1 7
+
+12. Vanderheyden, P.Ghent inv. 47 completed. A Coptic letter from Apa Diane to Dioscorus of Aphrodito
  
-12. BOEP 10.1
+13. BOEP 10.1
