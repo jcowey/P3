@@ -101,10 +101,12 @@
                <div copyOf="#trans1" type="translation"/>
                <div type="commentary">
                    <note target="ed1n1">
-                     <p xml:id="p4"><ref>1</ref> ]  ̣. A descending oblique at one-third height. It is unclear whether this is part of an ornamental stroke or just a stray mark.</p>
+                     <ref>1</ref>
+                     <p xml:id="p4"> ]  ̣. A descending oblique at one-third height. It is unclear whether this is part of an ornamental stroke or just a stray mark.</p>
                   </note>
-                   <note target="#range(ed1ln2, ed1ln3)">
-                       <p xml:id="p5"><ref>2–3</ref> [ποι]μαίνω[ν]: read ποιμένων. For the common phonetic interchange of αι and ε, see <ref target="https://papyri.info/biblio/8813">Gignac 1976</ref>: 191–193. The word is similarly spelled in the corresponding title in the Codex Alexandrinus (fol. 45r); cf. also the index of τίτλοι on fol. 43r.</p>
+                   <note target="ed1ln2">
+                      <ref>2–3</ref>
+                      <p xml:id="p5"> [ποι]μαίνω[ν]: read ποιμένων. For the common phonetic interchange of αι and ε, see <ref target="https://papyri.info/biblio/8813">Gignac 1976</ref>: 191–193. The word is similarly spelled in the corresponding title in the Codex Alexandrinus (fol. 45r); cf. also the index of τίτλοι on fol. 43r.</p>
                    </note>
                </div>
                <div type="bibliography">

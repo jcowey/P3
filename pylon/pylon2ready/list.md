@@ -14,11 +14,11 @@
 
 7. Hatzilambrou, A New Papyrus of Strabo's Geographica
 
-8. Benaissa, A Title of the Annunciation of the Shepherds in the Bodleian Library
+8. **HTML**: [Benaissa, A Title of the Annunciation of the Shepherds in the Bodleian Library](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/benaissa_annunciation)
 
 9. Balamoshev, A 3rd-century manumissio inter amicos
 
-10. Gonis, A Known Official in an Unknown Post in 339
+10. **HTML**: [Gonis, A Known Official in an Unknown Post in 339](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/gonis_known_official)
 
 11. Lougovaya Ast, Thirsting for an Answer. A Reedition of P.Bodl. 1 7
 
