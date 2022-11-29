@@ -4,19 +4,19 @@
 
 2. **_HTML_**: [Sampson, New Light on P.Mich. 15 686](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_pmich_15_686)
 
-3. **HTML**: [Jones - Bagnall, P.Math leaf A verso, Mathematical Problem a3 revisited: A New Algorithm in Greek Mensurational Mathematics](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/bagnall_jones_leafA_math)
+3. **_HTML_**: [Jones - Bagnall, P.Math leaf A verso, Mathematical Problem a3 revisited: A New Algorithm in Greek Mensurational Mathematics](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/bagnall_jones_leafA_math)
  
-4. **HTML**: [Lougovaya, P.Math leaf A recto, Mathematical Problem c1 revisited: Another New Algorithm](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/lougovaya_c1_math)
+4. **_HTML_**: [Lougovaya, P.Math leaf A recto, Mathematical Problem c1 revisited: Another New Algorithm](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/lougovaya_c1_math)
  
-5. **HTML**: [Sampson, The David G. Hogarth Papyri](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_hogarth) 
+5. **_HTML_**: [Sampson, The David G. Hogarth Papyri](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_hogarth) 
 
 6. Hatzilambrou, A New Papyrus of Strabo's Geographica
 
-7. **HTML**: [Benaissa, A Title of the Annunciation of the Shepherds in the Bodleian Library](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/benaissa_annunciation)
+7. **_HTML_**: [Benaissa, A Title of the Annunciation of the Shepherds in the Bodleian Library](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/benaissa_annunciation)
 
 8. Balamoshev, A 3rd-century manumissio inter amicos
 
-9. **HTML**: [Gonis, A Known Official in an Unknown Post in 339](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/gonis_known_official)
+9. **_HTML_**: [Gonis, A Known Official in an Unknown Post in 339](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/gonis_known_official)
 
 10. Lougovaya Ast, Thirsting for an Answer. A Reedition of P.Bodl. 1 7
  
