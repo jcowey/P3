@@ -10,18 +10,14 @@
  
 5. **HTML**: [Sampson, The David G. Hogarth Papyri](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_hogarth) 
 
-6. Deac, A Letter by a Member of the Legio III Cyrenaica: **possibly to be withdrawn**
+6. Hatzilambrou, A New Papyrus of Strabo's Geographica
 
-7. Hatzilambrou, A New Papyrus of Strabo's Geographica
+7. **HTML**: [Benaissa, A Title of the Annunciation of the Shepherds in the Bodleian Library](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/benaissa_annunciation)
 
-8. **HTML**: [Benaissa, A Title of the Annunciation of the Shepherds in the Bodleian Library](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/benaissa_annunciation)
+8. Balamoshev, A 3rd-century manumissio inter amicos
 
-9. Balamoshev, A 3rd-century manumissio inter amicos
+9. **HTML**: [Gonis, A Known Official in an Unknown Post in 339](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/gonis_known_official)
 
-10. **HTML**: [Gonis, A Known Official in an Unknown Post in 339](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/gonis_known_official)
-
-11. Lougovaya Ast, Thirsting for an Answer. A Reedition of P.Bodl. 1 7
-
-12. Vanderheyden, P.Ghent inv. 47 completed. A Coptic letter from Apa Diane to Dioscorus of Aphrodito
+10. Lougovaya Ast, Thirsting for an Answer. A Reedition of P.Bodl. 1 7
  
-13. BOEP 10.1
+11. BOEP 10.1
