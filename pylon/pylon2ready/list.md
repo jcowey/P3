@@ -2,7 +2,7 @@
 
 1. Claytor, Notes on Papyri from Roman Egypt
 
-2. **HTML**: [Sampson, New Light on P.Mich. 15 686](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_pmich_15_686)
+2. **_HTML_**: [Sampson, New Light on P.Mich. 15 686](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_pmich_15_686)
 
 3. **HTML**: [Jones - Bagnall, P.Math leaf A verso, Mathematical Problem a3 revisited: A New Algorithm in Greek Mensurational Mathematics](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/bagnall_jones_leafA_math)
  
