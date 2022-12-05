@@ -10,7 +10,7 @@
  
 5. **_HTML_**: [Sampson, The David G. Hogarth Papyri](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_hogarth) 
 
-6. Hatzilambrou, A New Papyrus of Strabo's Geographica
+6. **_HTML_**: [Hatzilambrou, A New Papyrus of Strabo's Geographica](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/hatzilambrou_strabo)
 
 7. **_HTML_**: [Benaissa, A Title of the Annunciation of the Shepherds in the Bodleian Library](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/benaissa_annunciation)
 
