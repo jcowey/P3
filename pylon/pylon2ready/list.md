@@ -20,4 +20,4 @@
 
 10. Lougovaya Ast, Thirsting for an Answer. A Reedition of P.Bodl. 1 7
  
-11. BOEP 10.1
+11. BOEP 10
