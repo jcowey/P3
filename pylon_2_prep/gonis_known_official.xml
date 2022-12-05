@@ -67,6 +67,10 @@
                         <cell style="text-align: left;"/>
                      </row>
                   </table>
+                  <figure>
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/1715123"/>
+                     <head>Fig. 1: The Bodleian Libraries, University of Oxford, MS. Gr. class. d. 143 (P) verso. Creative Commons License Attribution-NonCommercial 4.0 (CC BY-NC 4.0).</head>
+                  </figure>
                </div>
                <div copyOf="#ed1" type="edition"/>
                <div copyOf="#trans1" type="translation"/>
@@ -139,8 +143,9 @@
                      <bibl>
                         <ref target="https://papyri.info/biblio/69377">Mitthof, F. (2000)</ref> “Anordnung des <emph rend="italics">rationalis</emph> Vitalis betreffs der Instandsetzung von Schiffen. Eine Neuedition von P. Vind. Bosw. 14,” ZPE 129: 259–264.</bibl>
                      <bibl>
-                        <ref target="https://papyri.info/biblio/7669">PLRE I</ref> = A.H.M. Jones, J.R. Martindale, J. Morris, The Prosopography of the Later Roman Empire. I: A.D. 260–395. Cambridge 1971.</bibl>
-                     <bibl>Sampson, C.M. (2022) “The David G. Hogarth Papyri,” Pylon 2.</bibl>
+                        <ref target="https://papyri.info/biblio/7669">PLRE I</ref> = Jones, A.H.M., Martindale, J.R., and Morris, J. (1971) The Prosopography of the Later Roman Empire. I: A.D. 260–395. Cambridge.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96272">Sampson, C.M. (2022)</ref> “The David G. Hogarth Papyri,” Pylon 2.</bibl>
                      <bibl>
                         <ref target="https://papyri.info/biblio/96050">Solin, H. and Salomies, O. (1994)</ref>, Repertorium nominum gentilium et cognominum Latinorum. Editio nova addendis corrigendisque augmentata. Hildesheim.     </bibl>
                      <bibl>
@@ -261,7 +266,7 @@
 <lb n="5" xml:id="ed1ln5"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>ορ</unclear><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><unclear>ι</unclear><gap reason="illegible" quantity="2" unit="character"/>ς σφαλέντας τοσοῦτον, ἀλλ’ εἰδὼς ὑμῶν τὰς <gap reason="lost" quantity="4" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/>
 <lb n="6" xml:id="ed1ln6"/><gap reason="lost" quantity="12" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/>σ<unclear>α</unclear>ι<gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="1" unit="character"/><app type="alternative"><lem> <unclear>γὰρ</unclear></lem><rdg><gap reason="illegible" quantity="1" unit="character"/><unclear>ν</unclear></rdg></app> τοῦτο πεποιήκατ<unclear>ε</unclear> <gap reason="lost" quantity="4" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="3" unit="character"/>η<unclear>ς</unclear>
 <lb n="7" xml:id="ed1ln7"/><gap reason="lost" extent="unknown" unit="line"/>
-<lb n="7" xml:id="ed1ln7"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 </ab></div>
 <div n="ii" subtype="column" type="textpart"><ab>
 <lb n="1" xml:id="ed1ln8"/>ἐν Κα<unclear>ιν</unclear>ῇ,<hi rend="diaeresis">ἵ</hi>να σὺν <hi rend="diaeresis">ὑ</hi>μῖν ἀνέλθω.
