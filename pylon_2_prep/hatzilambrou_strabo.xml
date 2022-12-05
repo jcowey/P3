@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A New Papyrus of Strabo's Geographica (12.3.1)</title>
+                <author>
+                    <name>
+                        <forename>Rosalia</forename>
+                        <surname>Hatzilambrou</surname>
+                    </name>
+                    <affiliation>National and Kapodistrian University of Athens</affiliation>
+                    <email>rosahatz@phil.uoa.gr</email>
+                </author>
+                <funder>Deutsche Forschungsgemeinschaft</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-02</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Propylaeum</orgName>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+                </publisher>
+                <pubPlace>
+                    <placeName>Heidelberg</placeName>
+                    <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+                </pubPlace>
+                <date when="2022">2022</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno ana="hc:PrivateIdentifier">pylon.2.6</idno>
+                <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2022.1.89345</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl ana="hc:RecommendedBibliographicReference">R. Hatzilambrou, “A New Papyrus of Strabo's <emph rend="italics">Geographica</emph> (12.3.1),” Pylon 2 (2022). DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2022.2.89333">https://doi.org/10.48631/pylon.2022.2.89333</ref>.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title level="j" ana="hc:MainTitle">Pylon</title>
+                        <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                        <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                        <imprint>
+                            <biblScope unit="volume">2</biblScope>
+                            <biblScope unit="article">6</biblScope>
+                            <date when="2022">2022</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+            
+        </fileDesc>
+        <encodingDesc>
+            <ab>Converted from a Word document for Pylon.</ab>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2022-12-02T16:55:16Z</date>
+                    <name>Mike Sampson</name>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="MainTitle">A New Papyrus of Strabo's <emph rend="italics">Geographica</emph> (12.3.1)</titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <div type="article">
+                <div type="epidoc" subtype="DCLP">
+                    <div type="introduction">
+                        <p xml:id="p1">A small fragment preserving the initial letters of five lines from a papyrus roll, written with the fibres. The extant left margin measures 0.3 cm. Column width based on the restored text should approximate 6.7 cm. On the back some exiguous, scattered traces of ink are visible. </p>
+                        <p xml:id="p2">The text is written in an informal round hand of the Imperial period, which is almost strictly bilinear. Some letters extend to the point of touching, if not joining the letter following (e.g., α, ε, κ). Descenders and horizontals are often furnished with small hooks, blobs of ink or loops. Comparable hands include those of  <ref target="https://papyri.info/dclp/61281"><seg style="text-decoration: underline;">P. Lond. Lit. 132</seg></ref> (= <ref target="https://papyri.info/biblio/5264"><seg style="text-decoration: underline;">Roberts, </seg><seg style="font-style: italic;text-decoration: underline;">GLH</seg></ref> 13b) of the late 1st/early 2nd century,<note place="foot" xml:id="ftn1" n="1"><p style="text-align: justify;"> The dating is after <ref target="https://papyri.info/biblio/8354">Pattie and Turner 1974</ref>: no. 33; <ref target="https://papyri.info/biblio/5264">Roberts</ref> (<emph rend="italics">GLH</emph> 13b) had assigned it to the first half of the 2nd century. See also <ref target="https://papyri.info/biblio/16212">Whitehead 2000</ref>: 3. </p></note> <ref target="https://www.trismegistos.org/text/388537"><seg style="text-decoration: underline;">P. Oxy. 80 5230</seg></ref> assigned to the early 2nd century, and <ref target="https://papyri.info/dclp/61499"><seg style="text-decoration: underline;">P. Oxy. 50 3533</seg></ref> (= <ref target="https://papyri.info/biblio/11371"><seg style="text-decoration: underline;">Turner-Parsons, </seg><seg style="font-style: italic;text-decoration: underline;">GMAW</seg><seg style="text-decoration: underline;">2</seg></ref> 86) of the later 2nd century. A date in the second century would appear plausible.</p>
+                        <p xml:id="p3">Elision is effected in the only instance that can be verified (line 1), but whether it was tacit or marked by an apostrophe cannot be confirmed because of the state of the papyrus. No other scribal marks are evident. </p>
+                        <p xml:id="p4">Fragments of Strabo’s <emph rend="italics">Geographica</emph> from five papyrus rolls have been published, all from Oxyrhynchus: </p>
+                        <list>
+                            <item>
+                                <ref target="https://papyri.info/dclp/62788">P.Oxy. 49 3447</ref>, of the early 2nd c., preserving sections of Book 9;</item>
+                            <item>
+                                <ref target="https://papyri.info/dclp/62790">P.Oxy. 65 4459 + PL/3 294A</ref>, of the late 2nd/3rd c., with Book 2.5.20‒24, </item>
+                            <item>
+                                <ref target="https://papyri.info/dclp/62789">P.Köln 1 8</ref>, of the 2nd/3rd c., with sections of Book 7;</item>
+                            <item>
+                                <ref target="https://papyri.info/dclp/704633">P.Oxy. 73 4947</ref>, of the 2nd/3rd c., preserving Book 5.4.12‒13;</item>
+                            <item>
+                                <ref target="http://www.trismegistos.org/text/704633">P.Oxy. 81 5258 + P. Messeri 8</ref>, of the 2nd/3rd c., with Book 1.2.31.</item>
+                        </list>
+                        <p xml:id="p5">The Bodleian fragment is the only papyrus witness to Book 12. The vellum Vatican palimpsest P (<ref target="https://papyri.info/dclp/62791">Vat. gr. 2306 + 2061A</ref>), attributed to the fifth century, is another early witness of Strabo’s text. The fact that no published papyrus of Strabo is assigned to a date before the second century may lend support to the case advanced by Diller, that Strabo’s <emph rend="italics">Geographica</emph> emerged from the shadows in the second century when its manuscript was brought to Alexandria. Indeed, the earliest references to passages of the <emph rend="italics">Geographica</emph> are by Dionysius (Periegetes) of Alexandria, Harpocration of Alexandria (both of the 2nd c.), and Athenaeus of Naucratis (late 2nd/early 3rd c.).<note place="foot" xml:id="ftn2" n="2"><p style="text-align: justify;"> See <ref target="https://papyri.info/biblio/96149">Diller 1975</ref>: 7–10; also <ref target="https://papyri.info/biblio/96150">Roller 2014</ref>: 27‒28.</p></note></p>
+                        <p xml:id="p6">The text was first transcribed when the edges of the papyrus were more fully visible.<note place="foot" xml:id="ftn3" n="3"><p> Due to its small size, the papyrus was glazed along with a few others. Its position within the frame has since shifted somewhat.</p></note> It has been collated with the edition of  <ref target="https://papyri.info/biblio/96152">Radt (2004)</ref>, from which all supplements but one (see 2 n.) are taken. The papyrus probably attests two or three new but, in my opinion, inferior readings (see notes on lines 2‒3, 3, and 4).</p>
+                        <p xml:id="p7">The papyrus belonged to the private collection of A. S. Hunt, and was donated to the Bodleian Library on 13 March 1935 by his widow, following his 1934 death.<note place="foot" xml:id="ftn4" n="4"><p> See Sampson 2022: §20.</p></note></p>
+                        <table type="papyrological_header">
+                            <row>
+                                <cell style="text-align: left;">Bodl. MS. Gr. class. e. 134 (P)</cell>
+                                <cell style="text-align: center;">2.2 (w) × 1.9 (h) cm</cell>
+                                <cell style="text-align: right;">Second century</cell>
+                            </row>
+                            <row>
+                                <cell style="text-align: left;">
+                                    <ref target="https://digital.bodleian.ox.ac.uk/objects/21a20b8a-8604-4e0e-a9e9-f17ddf0af387/">digital.bodleian.ox.ac.uk</ref>
+                                </cell>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: right;">Provenance unknown</cell>
+                            </row>
+                        </table>
+                        <figure>
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/"/>
+                            <head>Fig. 1: The Bodleian Libraries, University of Oxford, MS. Gr. class. e. 134 (P). Creative Commons License Attribution-NonCommercial 4.0 (CC BY-NC 4.0).</head>
+                        </figure>
+                    </div>
+                    <quote type="edition">
+                        <lb n="1"/>θ̣ εκαστα̣ [ως νυν εχει λεγεσθω μι]
+                        <lb n="2"/>κρα και τ[ων προτερων εφαπτομε]
+                        <lb n="3"/>νοι οπο̣[υ τουτο χρησιμον αρξωμεθα δ]
+                        <lb n="4"/>απο Ηρα̣[κλειας ηπερ δυσμικωτατη]
+                        <lb n="5"/>εστιν τ̣[ουτων των τοπων -ca.?- ]                        
+                    </quote>
+                    <div copyOf="#ed2" type="edition"/>
+                    <div type="commentary">
+                        <note target="#ed2ln2">
+                            <ref>2</ref>
+                            <p xml:id="p8"> προτερων has been restored with most manuscripts. Radt prints πρότερον, the <emph rend="italics">lectio difficilior</emph>, attested by PA. The majority reading may be an influence from the preceding των.</p>
+                        </note>
+                        <note target="#ed2ln2">
+                            <ref>2‒3</ref>
+                            <p xml:id="p9"> εφαπτομενοι οπο̣[υ : ἐφαπτομένοις ὅπου mss. It seems that, after copying οι, the scribe began to write sigma but then turned it into omicron. A dot seen below the space between ο and π is stray ink rather than a low point. The reading of the papyrus could be either a copying mistake or a new variant, which would be correct in terms of syntax if the first-person plural were employed in this sentence: ἡμεῖς δ’ ἐπιόντες τὰ καθ’ ἕκαστα ὡς νῦν ἔχει λέγωμεν, μικρὰ καὶ τῶν προτέρων ἐφαπτόμενοι. However, that would make for an inferior text, for the transmitted reading (ἡμῖν δ’ ἐπιοῦσι τὰ καθ’ ἕκαστα ὡς νῦν ἔχει λεγέσθω, μικρὰ καὶ τῶν προτέρων ἐφαπτομένοις) is clearly the                         <emph rend="italics">lectio difficilior.</emph></p>
+                        </note>
+                        <note target="#ed2ln3">
+                            <ref>3</ref>
+                            <p xml:id="p10"> This line, as restored with Radt, is longer than expected. It would have the right length if τουτο were not written. But that omission would in my opinion be less likely to have been written by Strabo; cf. 2.1.30 ὅπου τοῦτο δυνατόν.   </p>
+                        </note>
+                        <note target="#ed2ln4">
+                            <ref>4</ref>
+                            <p xml:id="p11"> απο Ηρα̣[κλειας : ‘τῆς ante Ἡρακλείας add. ed. pr.’ (Radt), but this requires qualification. τῆς was added later in the right margin of  <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10723956d/f175.item.zoom">Paris gr. 1395</ref>, the secondary manuscript q in Radt’s list of manuscripts, which was the exemplar to the 1516 print <emph rend="italics">editio princeps</emph>; see <ref target="https://papyri.info/biblio/96270">Radt (2002)</ref>: xii. The omission of the article before names of places is justified after prepositions; see  <ref target="https://papyri.info/biblio/96269">Radt (2008)</ref>: 348.</p>
+                            <p xml:id="p12">This line, as restored with Radt, is also slightly longer than the others. If this is an indication of textual variation, I can only think of supplying ἥ instead of ἥπερ. </p>
+                        </note>
+                        <note target="#ed2ln5">
+                            <ref>5</ref>
+                            <p xml:id="p13"> εστιν τ̣[ουτων : The primary manuscripts do not have the movable nu here; see  <ref target="https://papyri.info/biblio/96270">Radt (2002)</ref>: xvi. The marking of the movable nu routinely oscillates in the manuscripts.</p>
+                        </note>
+                    </div>
+                </div>
+                <div type="epidoc" subtype="DCLP">
+                    <div copyOf="#ed2" type="edition"/>
+                    <div type="bibliography">
+                        <listBibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/96149">Diller, A. (1975)</ref> The Textual Tradition of Strabo’s Geography. Amsterdam</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/8354">Pattie, T.S. and Turner, E.G. (1974)</ref> The Written Word on Papyrus. London.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/96269">Radt, S. (2008)</ref> Strabons Geographika, Band 7. Göttingen.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/96152">Radt, S. (2004)</ref> Strabons Geographika, Band 3. Göttingen.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/96270">Radt, S. (2002)</ref> Strabons Geographika, Band 1. Göttingen.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/5264">Roberts, C.H. (1955)</ref> Greek Literary Hands 350 B.C.–A.D. 400. Oxford.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/96150">Roller, D.W. (2014)</ref> The Geography of Strabo. Cambridge.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/96272">Sampson, C.M. (2022)</ref> “The David G. Hogarth Papyri,” Pylon 2.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/11371">Turner, E.G. and Parsons, P.J. (1987)</ref> Greek Manuscripts of the Ancient World. Second Edition Revised and Enlarged. London.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/16212">Whitehead, D. (2000)</ref> Hyperides. The Forensic Speeches. Oxford.</bibl>
+                        </listBibl>
+                    </div>
+                </div>
+                <note type="acknowledgement">My thanks are due to Prof. N. Gonis for drawing my attention to this papyrus and for his advice. I also thank Pylon’s anonymous reviewer for their comments.</note>
+            </div>
+        </body>
+    </text>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>A New Papyrus of Strabo's Geographica (12.3.1)</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Digital Corpus of Literary Papyri</authority>
+                    <idno type="filename">012210</idno>
+                    <idno type="dclp">012210</idno>
+                    <idno type="dclp-hybrid">pylon;2;6</idno>
+                    <idno type="TM">012210</idno>
+                    <availability>
+                        <p>© Digital Corpus of Literary Papyri. This work is licensed under a
+                            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative
+                                Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository/>
+                            <idno type="invNo">Bodl. MS. Gr. class. e. 134 (P)</idno>
+                        </msIdentifier>
+                        <history>
+                            <origin>
+                                <origPlace>unbekannt</origPlace>
+                                <origDate>II</origDate>
+                            </origin>
+                        </history>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <p>
+                    This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                    <ref>http://www.stoa.org/epidoc/gl/5/</ref></p>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <head xml:lang="en">A New Papyrus of Strabo's Geographica (12.3.1)</head>
+                <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1" xml:id="ed1ln1"/><unclear>θ</unclear> εκαστ<unclear>α</unclear> <supplied reason="lost">ως νυν εχει λεγεσθω μι</supplied>    
+<lb n="2" xml:id="ed1ln2"/>κρα και τ<supplied reason="lost">ων προτερων εφαπτομε</supplied>
+<lb n="3" xml:id="ed1ln3"/>νοι οπ<unclear>ο</unclear><supplied reason="lost">υ τουτο χρησιμον αρξωμεθα δ</supplied>
+<lb n="4" xml:id="ed1ln4"/>απο Ηρ<unclear>α</unclear><supplied reason="lost">κλειας ηπερ δυσμικωτατη</supplied>
+<lb n="5" xml:id="ed1ln5"/>εστιν <unclear>τ</unclear><supplied reason="lost">ουτων των τοπων</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>A New Papyrus of Strabo's Geographica (12.3.1)</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Digital Corpus of Literary Papyri</authority>
+                    <idno type="filename">012210</idno>
+                    <idno type="dclp">012210</idno>
+                    <idno type="dclp-hybrid">pylon;2;6</idno>
+                    <idno type="TM">012210</idno>
+                    <availability>
+                        <p>© Digital Corpus of Literary Papyri. This work is licensed under a
+                            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative
+                                Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository/>
+                            <idno type="invNo">Bodl. MS. Gr. class. e. 134 (P)</idno>
+                        </msIdentifier>
+                        <history>
+                            <origin>
+                                <origPlace>unbekannt</origPlace>
+                                <origDate>II</origDate>
+                            </origin>
+                        </history>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <p>
+                    This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                    <ref>http://www.stoa.org/epidoc/gl/5/</ref></p>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <head xml:lang="en">A New Papyrus of Strabo's Geographica (12.3.1)</head>
+                <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve"><ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
+<lb n="1" xml:id="ed2ln1"/><unclear>θ</unclear>’ ἕκαστ<unclear>α</unclear> <supplied reason="lost">ὡς νῦν ἔχει λεγέσθω, μι</supplied>   
+<lb n="2" break="no" xml:id="ed2ln2"/>κρὰ καὶ τ<supplied reason="lost">ῶν προτέρων ἐφαπτόμε</supplied>    
+<lb n="3" break="no" xml:id="ed2ln3"/>νοι ὅπ<unclear>ο</unclear><supplied reason="lost">υ τοῦτο χρήσιμον. ἀρξώμεθα δὲ</supplied>    
+<lb n="4" xml:id="ed2ln4"/>ἀπὸ Ἡρ<unclear>α</unclear><supplied reason="lost">κλείας, ἥπερ δυσμικωτάτη</supplied>  
+<lb n="5" xml:id="ed2ln5"/>ἐστὶν <unclear>τ</unclear><supplied reason="lost">ούτων τῶν τόπων</supplied> <gap reason="lost" extent="unknown" unit="character"/> 
+<lb n="6"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div>
+            </body>
+        </text>
+    </TEI>
+</TEI>
