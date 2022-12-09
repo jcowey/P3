@@ -23,3 +23,5 @@
 11. **_HTML_**: [BOEP 10](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/boep_10)
 
 12. **_HTML_**: [Claytor, A Karanis Penthemeros Certificate Completed](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/penthemeros_completed)
+
+13. **_HTML_**: [Claytor, Provisioning the Metropolis: A Reedition of SPP 22 94](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/claytor_provisioning)
