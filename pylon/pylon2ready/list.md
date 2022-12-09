@@ -4,7 +4,7 @@
 
 2. **_HTML_**: [Sampson, New Light on P.Mich. 15 686](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_pmich_15_686)
 
-3. **_HTML_**: [Jones - Bagnall, P.Math Leaf A vVerso, Mathematical Problem a3 rRevisited: A New Algorithm in Greek Mensurational Mathematics](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/bagnall_jones_leafA_math)
+3. **_HTML_**: [Jones - Bagnall, P.Math Leaf A Verso, Mathematical Problem a3 Revisited: A New Algorithm in Greek Mensurational Mathematics](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/bagnall_jones_leafA_math)
  
 4. **_HTML_**: [Lougovaya, A Pyramidal Frustum Volume Algorithm in P.Math. Leaf C Recto](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/lougovaya_c1_math)
  
