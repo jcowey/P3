@@ -14,7 +14,7 @@
 
 7. **_HTML_**: [Benaissa, A Title of the Annunciation of the Shepherds in the Bodleian Library](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/benaissa_annunciation)
 
-8. Balamoshev, A 3rd-century manumissio inter amicos
+8. **_HTML_**: [Balamoshev, A 3rd-century manumissio inter amicos](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/balamoshev_nowak_manumissio)
 
 9. **_HTML_**: [Gonis, A Known Official in an Unknown Post in 339](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/gonis_known_official)
 
