@@ -1,6 +1,6 @@
 # Pylon 2 articles (ordered as received for processing)
 
-1. Claytor, Notes on Papyri from Roman Egypt
+1. **_HTML_**: [Claytor, Notes on Papyri from Roman Egypt](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/claytor_corrections)
 
 2. **_HTML_**: [Sampson, New Light on P.Mich. 15 686](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_pmich_15_686)
 
