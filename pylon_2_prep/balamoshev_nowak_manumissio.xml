@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A 3rd-century manumissio inter amicos</title>
+            <author>
+               <name>
+                  <forename>Constantinos</forename>
+                  <surname>Balamoshev</surname>
+               </name>
+               <affiliation>Faculty of Archaeology Department of Papyrology, University of Warsaw</affiliation>
+               <email>
+                  <ref target="mailto:c.balamoshev@uw.edu.pl?subject=">c.balamoshev@uw.edu.pl</ref>
+               </email>
+            </author>
+            <author>
+               <name>
+                  <forename>Maria</forename>
+                  <surname>Nowak</surname>
+               </name>
+               <affiliation>Faculty of Law and Administration, University of Warsaw</affiliation>
+               <email>
+                  <ref target="mailto:m.nowak@wpia.uw.edu.pl">m.nowak@wpia.uw.edu.pl</ref>
+               </email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2022-12-12T14:34:24Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">A 3rd-century manumissio inter amicos</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">This paper was prepared within the framework of the project ‘Law in Social Networks of Late Antique Aphrodito’ (2019/35/B/HS3/02301), financed by the National Science Centre of Poland. The authors wish to thank dr. Olaf Schneider (Universitätsbibliothek Giessen, Sondernsammlungen) for permission to study and publish this document, and for supplying a new image of the papyrus. Thanks are also due to dr. W. Graham Claytor for checking the draft and his critical comments.</note>
+            <table>
+               <row>
+                  <cell style="text-align: left;">
+                     <seg style="text-decoration: underline;">Arsinoites?</seg>
+                  </cell>
+                  <cell style="text-align: center;">
+                     <seg style="text-decoration: underline;">H x W = 9.6 x 11 cm</seg>
+                  </cell>
+                  <cell style="text-align: right;">
+                     <seg style="text-decoration: underline;">262/264/266 CE</seg>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <seg style="text-decoration: underline;">P.B.U.G. inv. 513</seg>
+                  </cell>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;"/>
+               </row>
+            </table>
+            <p xml:id="p1" style="text-align: justify;">Purchase history: According to its documentation, the papyrus we edit here was purchased in 1928 from an unknown dealer in Medinet el-Faiyum by Berlin Professor Carl Schmidt.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> Gundel 1968: 5.   </p></note></p>
+            <p xml:id="p2" style="text-align: justify;">Description: A brown papyrus fragment containing ten incomplete lines of text of various degrees of preservation. The text runs along the fibers and the verso is blank. The surviving text is the Greek part of a manumission among friends (manumissio inter amicos), which might have been accompanied by a Latin counterpart placed just before the Greek text. The hand is unbalanced, employing a wide range of letter forms, some of which are characteristic: large theta in line 4, an almost Byzantine cursive kappa in line 5, elongated left stroke of the mu and lambda. The style exhibits unique features without any obvious parallels in this period.</p>
+            <p xml:id="p3" style="text-align: justify;">At least five other manumissions inter amicos have survived among Egyptian documents: the unpublished P.Vindob. L 98 from Philadelpheia, presumably dated somewhere between the second half of the 1st c. CE and the beginning of 2nd c. CE;<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> Pedone 2019: 25–26.</p></note>  <ref target="https://papyri.info/ddbdp/chr.mitt;;362">M.Chr. 362 = FIRA III 11</ref>, a Greek &amp; Latin wooden diptych dated to 221 CE; <ref target="https://papyri.info/ddbdp/p.lips;2;151">P.Lips. 2 151</ref>, a Greek papyrus dated 246/247 CE; <ref target="https://papyri.info/hgv/21591">P.Oxy. 9 1205</ref>, a Greek papyrus dated to 291 CE; P.Mich. inv. 5688c, published in Stornaiuolo (2019), a bilingual Latin &amp; Greek papyrus, dated to 212–250 CE. Furthermore, a recently published papyrus attests the payment of the vicesima for a manumission inter amicos from the year 184 CE (<ref target="https://papyri.info/hgv/976568">P.Oxy. 86 5556</ref>). </p>
+            <p xml:id="p4" style="text-align: justify;">Although based on a pattern similar to other manumissions of this type, this document stands out because the freedman was freed cum peculio, that is with a piece of property bestowed by his ex-master and possibly included in the price paid by the redemptor. Noteworthy is the name Amesysos, a rare and unusual Egyptian name associated with a feast for the birthday of Isis, for whose reading see comm. to line 8, which is the key for its restoration also in line 3 of the text.</p>
+            <p xml:id="p5" style="text-align: justify;">The proposed dates of the document are based on the reference to the consulate of Gallienus as consul prior in combination with the time of his sole reign over the empire. The year 261 is excluded as from the fall of 260 until at least the fall of 261 Egypt recognized the usurpers Macrianus and Quietus,<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; text-align: justify;"> The events in Egypt seen through the numismatic evidence are discussed and re-examined by <ref target="https://papyri.info/biblio/89645">Legutko (2002)</ref>.</p></note> who figure in documents between 17 September 260<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/ddbdp/p.oxy;49;3476">P.Oxy. 49 3476</ref>.</p></note> (the earliest) and 15 October 261 (the latest)<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/ddbdp/p.oxy;67;4595">P.Oxy. 67 4595</ref>.</p></note>; for 262 we possess only indirect evidence of the end of the hostilities and the final defeat of the pro-Macriani supporters (who included another alleged rebel, prefect L. Mussius Aemilianus), in the letter of Dionysius, bishop of Alexandria, dated to summer 262.<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/biblio/89645">Legutko (2002)</ref>:148. See also, <ref target="https://papyri.info/biblio/80283">Johne, Hartmann, Gerhardt 2008</ref>: 807.</p></note> </p>
+            <p xml:id="p6" style="text-align: justify;">A difficulty emerges with the restoration of Gallienus’s titles in line 7, which could affect the date of the text. The papyrus measures around 9.6 cm in preserved width, comprising seventeen characters in line 7. If we restore Gallien’s titulature with the inclusion of the title Περσικοῦ μεγίστου, first attested in September 266, and the name of the month, which surely was at the end of the line, then the lost characters skyrocket to approximately seventy-six.<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; text-align: justify;"> I presume that the titles are not abbreviated, which could decrease the number of characters, as is the case in all other examples we have with Gallien.</p></note> This would require a sheet about 40-42 cm wide, a rather extraordinary situation. By contrast, the exclusion of Περσικοῦ μεγίστου would produce a sheet of around 31-33 cm wide, a width within the norm for papyrus sheet dimensions. Therefore, it appears that the date could be narrowed down even more by setting September 266 as a terminus ante quem for our document.      </p>
+            <div type="epidoc" subtype="DDB">
+               <div copyOf="#ed1" type="edition"/>
+               <div type="commentary">
+                  <note>
+                     <p xml:id="p7"><ref>1-2.</ref> μεταξὺ φίλων is a direct translation of inter amicos. This was one of several methods Romans used to free their slaves, but not all of them produced the same legal effects for the emancipated person. Three formal manumissions provided a freedman with both freedom and Roman citizenship (if performed according to the provisions of the leges Aelia Sentia and Fufia Caninia):manumissio testamentaria, by which a testator could grant freedom to their slaves upon their death (e.g. <ref target="https://papyri.info/ddbdp/chr.mitt;;316">BGU 1 326 = M.Chr. 316</ref>); manumissio vindicta, a fictitious legis actiones trial;<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/ddbdp/p.mich;7;462">P.Mich. 7 462 = CPL 171 = FIRA III 10 bis</ref>, l. 3 = <ref target="https://papyri.info/biblio/77992">van Minnen, Worp 2009:</ref> 19: 2nd-century receipt for payment of vicesima resulting from manumissio vindicta; <ref target="https://papyri.info/biblio/77992">van Minnen, Worp 2009:</ref> similar receipt dated to late 2nd or 3rd c., but with no explicit mention of the manumissio vidicta; <ref target="https://papyri.info/ddbdp/p.diog;;7">P. Diog. 7</ref> (and a copy <ref target="https://papyri.info/ddbdp/p.diog;;6">P. Diog. 6</ref>): the mention of tabulae resulting from manumissio vindicta in the epikrisis documents. See <ref target="https://papyri.info/biblio/96026">Dolganov 2022</ref>.</p></note> and manumissio censu, performed by the inscription on the list of citizens (unattested in Egypt).</p>
+                     <p xml:id="p8">An indirect method of freeing slaves was manumissio fideicommissaria (<ref target="https://papyri.info/ddbdp/chla;11;496">P.Hamb. 1 72</ref> and <ref target="https://aquila.zaw.uni-heidelberg.de/hgv/70160">FIRA III2 47 = CPL 221</ref><note place="foot" xml:id="ftn9" n="9"><p style="text-align: left; "> In the literature, it has been, however, suggested that Kronion’s manumission might have been a direct one. See the summary of the discussion in <ref target="https://papyri.info/biblio/84715">Strobel 2014</ref>: 102–103.</p></note>), included in a will as an obligation imposed on the heirs, who were required to free the enslaved through one of the above inter vivos manumissiones. For the latest work on testamentary manumissions in papyri, see <ref target="https://papyri.info/biblio/96108">Colella 2022. </ref>In his Institutes, Gaius refers to manumissio inter amicos as the third type of inter vivos manumissions (G. 1.44). A person freed inter amicos did not obtain citizenship but from 17 BCE (Lex Iunia) could obtain the same rights as colonial Latins had enjoyed, now referred to as a Junian Latin. The same status could also be granted to slaves who were enfranchised in a formal ceremony before they completed thirty years of age, provided that there was proof of reasonable motive (iusta causa), and the manumission was performed before a special council (G. 1.18).</p>
+                     <p xml:id="p9">Roman law manumissions were not the only ones attested in papyri. Before 212 CE, peregrine manumissions are attested as testamentary dispositions in local wills or as mortis causa agreements (e.g. P.Oxy. 3 634 descr. = <ref target="https://papyri.info/ddbdp/zpe;214;232">Benaissa (2020): 230–235</ref>: 126 CE; <ref target="https://papyri.info/ddbdp/p.oxy;3;494">P. Oxy. 3 494 = M.Chr. 305 = Sel.Pap. 1 84 = Jur.Pap. 24</ref>: 165 CE; <ref target="https://papyri.info/ddbdp/sb;22;15345">SB 22 15345</ref>: 116 CE), and as deeds performed inter vivos through the agoranomos (<ref target="https://papyri.info/ddbdp/chr.mitt;;204">P.Lond. 2 299 = M.Chr. 204</ref>: 128 CE) or by a herald (<ref target="https://papyri.info/ddbdp/p.stras;3;135">P.Strasb. 3 135 = SB V 8017</ref>: 198–211 CE). More examples can be found in: <ref target="https://papyri.info/biblio/96284">Straus (2020)</ref>. These manumissions were recognized by Roman law as valid for peregrines (Fr. Dosith. 12). It is beyond any doubt that they granted freedom and the civic status of their manumittors (D. 50.1.6.3). See <ref target="https://papyri.info/biblio/41988">Volterra 1956</ref>. </p>
+                     <p xml:id="p10">As informal manumission was based on the will of the manumittor, however, one of these local methods, if used by a Roman, should grant a manumitted slave his freedom and the status of Junian Latin. Yet, the only informal Roman manumission found in the sources is manumissio inter amicos (and later on per epistulam). See Sirks (1983): 222–223 and 224. </p>
+                     <p xml:id="p11">Junian Latins could not make a will, inherit, or become a guardian (G. 1.23). Their property was inherited by their patron iure peculii, for which see Sirks (1983): 223. Their status could, however, be improved through the fulfillment of certain criteria, such as marrying another Latin or a Roman and having a child who would survive up to the age of one year, or having enough property, thereby opening the doors to Roman citizenship (G. 1.28–34). One of the tablets from Herculaneum consists of anniculi probatio for Junian Latins, T.Herc. 89 = FIRA III2 5 bis b = TH2 89: 69 CE, Pedone (2019): 26. </p>
+                     <p xml:id="p12">Since the status of Junian Latins was lower than that of regular freedmen, the growth of popularity of manumissio inter amicos after the universal grant in 212 CE is striking: most published enfranchisements of this type, including the present one, were made after 212 CE (see the list above). It is tempting to interpret this growth as a result of the Constitutio Antoniniana, often presented as a “universal” grant of citizenship. Yet, even though Caracalla granted citizenship to various groups of peregrines, the Junian Latins remained a separate status until 531 CE when Justinian abolished it (C. 7.6.1). </p>
+                     <p xml:id="p13">One could argue that the popularity of this type of manumission was due to the attempt to avoid paying the tax on enfranchisement. Still, it appears that such manumissions were also subject to the 5% tax, the vicesima (cf. <ref target="https://papyri.info/hgv/976568">P.Oxy. 86 5556</ref>, from 184 CE), the same as for formal manumissions. And even if the evidence is too meager to be certain that the tax was paid by persons freed among friends, the vicesima was abandoned sometime in the mid-third century (the last paid for inheritance is dated to 250 CE, <ref target="https://papyri.info/ddbdp/p.oxy;51;3609">P. Oxy. 51 3609</ref>, <ref target="https://papyri.info/biblio/77992">van Minnen, Worp 2009</ref>: 22 n. 21).</p>
+                     <p xml:id="p14">It seems that the likeliest explanation is that manumission among friends was more convenient than the formal methods, since it could be performed at any moment and did not require the presence of an official. Changing the status to Roman was not impossible. And, finally some patrons might have wanted their freedmen to remain Latins so they could inherit after their ex-slaves.</p>
+                     <p xml:id="p15">[ἠλεύθερωσεν καὶ etc.: the only secure restoration as this is the standard verb used in manumissions. It could be followed by ἐλεύθερον/ἐλευθέραν εἶναι ἐκέλευσεν<note place="foot" xml:id="ftn10" n="10"><p style="text-align: left; text-align: justify;"> Cf. <ref target="https://papyri.info/ddbdp/p.lips;2;151">P.Lips. 2 151.</ref> 5–6: μεταξὺ |[φ]ί̣λ̣ω̣ν̣ ἠλευθέρωσεν ἐλευθέραν τε εἶναι ἐκέλευσεν (= inter ami|[c]os manumisit liberamque esse ius|[si]t of <ref target="https://papyri.info/ddbdp/chr.mitt;;362">Chr.Mitt. 362.</ref> 5–7).</p></note> or ἀπέλυσεν<note place="foot" xml:id="ftn11" n="11"><p style="text-align: left; text-align: justify;"> Cf. <ref target="https://papyri.info/ddbdp/p.oxy;9;1205">P.Oxy. 9 1205.</ref>5–6: ἠλευθε|[ρώσαμεν καὶ ἀπελύσαμεν (however, based on a reconstruction).</p></note>. The verb ὡμολόγησεν in line 5 justifies the restoration of the third person singular form here. Another manumission inter amicos styled in the third person is  <ref target="https://papyri.info/ddbdp/p.lips;2;151/">P. Lips. 2 151. 8–9</ref>, while the Greek part in M. Chr. 362 is written in the first person by the manumittor (in <ref target="https://papyri.info/hgv/21591">P.Oxy. 9 1205</ref> verbs are not preserved, but the text is reconstructed as phrased in the first-person plural, even though οἰκογενῆ δούλην ἑα̣[υ]τ̣ῶν in l. 3 rather suggests the objective style. </p>
+                  </note>
+                  <note>
+                     <p xml:id="p16"><ref>3.</ref> Ἀμέσ[υσος: cf. l. 8. The name (TM Nam 1949) is connected with the feast for the birthday of Isis. See <ref target="https://papyri.info/biblio/174">Bonneau 1974</ref>; <ref target="https://papyri.info/biblio/56280">Bonneau 1985</ref>; <ref target="https://papyri.info/biblio/50158">Meeks (1974)</ref>; <ref target="https://papyri.info/biblio/13304">Perpillou-Thomas (1993)</ref>: 66–70; <ref target="https://papyri.info/biblio/15237">Frankfurter (1998)</ref>: 61. </p>
+                     <p xml:id="p17">	The date of the papyrus in the consulship of Gallienus allows for a possible identification of the individual involved in the manumission. The earliest attestation of the name is found in <ref target="https://papyri.info/ddbdp/p.berl.frisk;;1">SB 5 7515 col. 31</ref>. 16 and 18 (155 CE): Ἀμέσυσος Ἀμεσύσου; Παῆσις καὶ Ἀμέσυσος, which is a century earlier text. The next attestations are in the 3rd c. CE. A certain Amesysos is known from two texts from the archive of Heroninos: <ref target="https://papyri.info/ddbdp/p.lond;3;1122b">P.Lond. 3 1122b = P.Flor. 2 187a. 5</ref> (249-268 CE) Ἀμεσύσῳ τῷ αδιτηλάτῃ (l. βαδιστηλάτῃ), and <ref target="https://papyri.info/ddbdp/p.eirene;4;14">P.Eirene 4 14. 8-9</ref> (dated 23 Aug. 257 CE) τὰς ἁλωνίας | Ἀμεσ̣ύσου. <ref target="https://papyri.info/ddbdp/p.ifao;2;36">P.IFAO. 2 36. 2</ref>, another 3rd-c. papyrus furnishes an additional example together with the nomen: παρὰ Αὐρηλ̣[ίο]υ Ἀμεσύσου̣, as in our text. Given that the name is rare and attested in the Arsinoite nome predominantly,<note place="foot" xml:id="ftn12" n="12"><p style="text-align: left; text-align: justify;"> With the possible exception of the name Ἀμέσυστος (perhaps another variant of the name) appearing in <ref target="https://papyri.info/ddbdp/p.oxy;1;92">P.Oxy. 1 92</ref>.3 from 336 CE (a rather late text for our purposes), and the fragmentary Ἀμεσυσ̣  ̣  ̣  ̣  ̣ in <ref target="https://papyri.info/ddbdp/p.athen;;55">P.Athen. 55</ref>.25 (of unknown provenance), which could be read as Ἀμεσύ̣σ̣ῳ̣ (upon digital inspection of the printed image).</p></note> it would be tempting to assume a connection with the nome, although the evidence is insufficient.<note place="foot" xml:id="ftn13" n="13"><p style="text-align: left; text-align: justify;"> A complete list of attestations (unchanged since its publication) can be found in <ref target="https://papyri.info/biblio/70835">Armoni, Ch. and Kruse, T. (2002)</ref> : comm. to l. 1, 166.</p></note></p>
+                     <p xml:id="p18">The fragmentary nature of the papyrus complicates the assignation of the exact role of Aurelius Amesysos, who might have been either the redemptor or (less likely) the manumittor. The standard pattern recurring in other preserved manumissions is the following: They begin with the identification of the manumittor in the nominative together with his/her description, after which the slave to be freed is given in the accusative, followed by formulaic verbs either in the first or third person expressing the act of manumission, ἠλευθέρωσα or ἠλευθέρωσεν ἐλευθέραν τε εἶναι ἐκέλευσεν/ἀπέλυσεν. The previously edited manumissions also contain the information that the manumittor was paid a price for their slave’s freedom, καὶ ἔσχεν ὑπὲρ λύτρων, followed by the redemptor’s name in the genitive with the preposition παρά. In <ref target="https://papyri.info/ddbdp/p.lips;2;151">P.Lips. 2 151</ref>.8–9 and <ref target="https://papyri.info/ddbdp/chr.mitt;;362">M.Chr. 362.</ref> 10–11 and 22–24, the redemptor occurs once again as the subject of a new sentence stating that he donated the price paid for the enfranchisement to the freed person, which meant that he had no claim regarding it. In. <ref target="https://papyri.info/ddbdp/p.lips;2;151">P.Lips. 2 151</ref>, the sentence is concluded with the stipulatory clause: ἐπερωτήσεώ[ς] τε γενομένη̣[ς ὡμολ]ό̣γ̣ησ̣ε̣[ν.]. This pattern appears to fit also our text. </p>
+                     <p xml:id="p19">As the first signator, in ll. 8–9 just after the end of the dating formula, Aurelius Amesysos should presumably be the manumittor and not the redemptor, as in <ref target="https://papyri.info/biblio/96279">Stornaiuolo 2019</ref> or <ref target="https://papyri.info/ddbdp/p.lips;2;151">P. Lips. 2 151</ref>. 9–11. In <ref target="https://papyri.info/ddbdp/chr.mitt;;362">M.Chr. 362</ref>. 24–25, the subscription was written by a third party on behalf of the illiterate whose identity is unclear, as it says ὑπ(ὲρ) αὐτ(οῦ) μὴ εἰδό(τος) γρά(μματα). It could constitute a reference to either the manumitting party or the redemptor described immediately before this. The latter is more likely as the scriptura exterior on page 1 (not included in DDbDP) contains the subscriptions of the manumittor, redemptor and the witnesses to the manumission see: <ref target="https://papyri.info/biblio/96282">De Ricci 1904</ref>. The first legible subscription, as given by the editor is Αυρ[ - ca.?] | [ca.?] εσφ[ca.?]; the second:  οσαμμονιω[ ] | εσφραγισα; then follow the subscriptions of three witnesses: Aurelius Silvanus, son of [A?]mphion; a certain Aurelius Eudaimon(?), son of(?) …ammon, and M. Aurelius NN. We therefore assume that the second legible subscription belonged to the manumittor – [Μᾶρκος Αὐρήλι]ος Ἀμμωνίω[ν] | ἐσφράγισα, so the one preceding it must have been of the redemptor, Αὐρ[ήλιος Ἀλῆς Ἱναρω|οῦτος] ἐσφ[ράγισα]. The redemptor’s subscription and seal were introduced first. </p>
+                     <p xml:id="p20">The sentence starting with the name of Aurelius Amesysos is followed by the expression σὺν τῷ πεκ̣[ουλίῳ (followed perhaps by παντί), which we rather expect to be given to the freed person by their master (see commentary to l. 4). We could, however, imagine that the redemptor both paid the price for the slave’s freedom and for his peculium, which he could have subsequently donated to the slave.</p>
+                     <p xml:id="p21">Another possible interpretation is that Aurelius Amesysos was the manumittor. The sentence starting in line 3 would have expressed the donation of peculium, although the repetition of the name would be extraordinary. Based on the above, we assume that the first case holds true, whereby Aurelius Amesysos was the redemptor, and the sentence starting in line 3 most likely referred to the donation of the sum for manumission along with the granting of the entire peculium to the freedman.</p>
+                     <p xml:id="p22">In any event, it is clear that Aurelius Amesysos is not the freedman both due to his nomen Aurelius and on the grounds of syntax: in other manumissions a slave is the direct object within the sentence, which also corresponds with the logic of enfranchisement. Therefore, the name of the individual being freed is unfortunately lost together with any hints as to his/her identity. All other manumissions among friends concern slave women; in <ref target="https://papyri.info/hgv/21591">P. Oxy. 9 1205</ref>, a woman was freed with her young children, born at their patron’s house, for which see Pedone (2019) 29–31. This, however, cannot be taken as a suggestion that this type of manumission was used for women, as the data set is too small.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p23"><ref>4.</ref> σὺν τῷ πεκ̣[ουλίῳ: if our reconstruction is correct, it conforms to the idea that peculium was donated to a slave upon their manumission. Peculium was the separate property that a slave was granted by his master for the slave’s free use and disposal. The master, however, had full liberty to make changes or take it back at any moment (D. 15.1.4 pr.: Pomp.) It could consist of all types of objects, such as land, money, other slaves or claims (D. 15.1.7.4: Ulp.). See Roth (2010). As mentioned earlier, the manumission inter amicos granted a freed person the status of Junian Latin, whose property was inherited by the patron at any rate, so the gift of peculium would have returned to the manumittor unless the Latin obtained Roman citizenship.</p>
+                     <p xml:id="p24">The mention of the peculium is what makes this text special compared to other enfranchisements among friends, as none of them mention any gift for the freed person. See Pedone (2019): 31–41. Yet, it is not the only text in which a slave was provided with some financial reward. In the Latin will of Antonius Silvanus, the heirs are requested to pay the vicessima for the freed slave (<ref target="https://aquila.zaw.uni-heidelberg.de/hgv/70160">FIRA III2 47</ref>. 31 [132 CE]), while in a Greek extract from a 3rd-c. will, the testator requested his heir not only to manumit his slave with all her peculium, but also to give up his patronage rights (<ref target="https://papyri.info/ddbdp/psi;9;1040">PSI 9 1040. 18-19</ref> [3rd c. CE]). Another text, <ref target="https://papyri.info/ddbdp/p.kell;1;48">P.Kell. 1 48</ref> (355 CE), contains a manumissio per epistulam in which the female slave is granted her peculium. In <ref target="https://papyri.info/ddbdp/p.cair.masp;3;67312">P.Cair.Masp. 3 67312</ref>. 99–104, the will of Flavius Theodoros, belonging to the archive of Dioskoros from Aphrodite, the testator ordered all his slaves to be freed together with peculium and given six solidi.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p25"><ref>5-7.</ref> <ref target="https://papyri.info/ddbdp/chr.mitt;;362">M.Chr. 362</ref> (221 CE), the aforesaid diptych from Hermopolis Magna containing a manumission inter amicos, has a Latin and a Greek part. The Greek one lacks any dating formulas, whereas the Latin text is more detailed in this regard, providing a good parallel for reconstructing our text. In comparison, the dating clauses run as follows: </p>
+                  </note>
+                  <note>
+                     <p xml:id="p26"><ref>6.</ref> κυρίῳ ἡμῶν Γαλ̣λ̣ι̣[ηνῷ Σεβαστῷ τὸ number καὶ name ὑπάτοις: For the Greek expression, cf. the more-or-less contemporary <ref target="https://papyri.info/ddbdp/sb;16;12994">SB 16 12994. 25 = P.Mich. XIV 675</ref> (241 CE) τῇ πρὸ ̣ ̣ ̣ ̣ ̣][ κ]αλανδῶν Ἰουνίων τῷ κυρί(ῳ) ἡμῶν Γορδιανῷ Σεβαστῷ καὶ Ἀβιόλᾳ ὑπά[τοι]ς. Gallien’s missing consulate, where he is listed as consul prior, could be ε´, ς´or ζ´ (5th, 6th or 7th) based on what we have argued in the introduction, and accordingly, the consul posterior would be one of the Gallien’s loyalists<note place="foot" xml:id="ftn14" n="14"><p style="text-align: left; text-align: justify;"> Hächler (2019): 187. See also the relevant consular fasti in p. 671.</p></note> (L.?) Mummius Faustianus (262 CE)<note place="foot" xml:id="ftn15" n="15"><p style="text-align: left; "> Hächler (2019): 193.</p></note>, Saturninus (264 CE)<note place="foot" xml:id="ftn16" n="16"><p style="text-align: left; "> Hächler (2019): 253.</p></note> or Sabinillus (266 CE)<note place="foot" xml:id="ftn17" n="17"><p style="text-align: left; "> Hächler (2019): 249.</p></note>.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p27"><ref>7.</ref> The imperial titulature of Gallienus in the years between 262-268 CE includes the title Germanicus maximus (Γερμανικὸς μέγιστος) for the entire period, and from September 266 (the earliest attestation)<note place="foot" xml:id="ftn18" n="18"><p style="text-align: left; "> P.Coll. Youtie  II 68. 36-38.</p></note> on, the title Persicus maximus (Περσικὸς μέγιστος) is added to Germanicus.<note place="foot" xml:id="ftn19" n="19"><p style="text-align: left; text-align: justify;"> For an overview of Gallien’s titles, see <ref target="https://papyri.info/biblio/12261">Peachin 1990</ref>: 74–84.</p></note></p>
+                  </note>
+                  <note>
+                     <p xml:id="p28"><ref>8.</ref> Ἀμέσυ̣[σος: The partial preservation of the name in this line forms the basis of its restoration in line 3. Only the left stroke of the upsilon is preserved, but it is clear from the preceding Αὐρήλιος that the upsilon is sling-shaped here and not curved.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p29"><ref>10.</ref> ]  ̣ π̣ ̣ ̣ ̣[: Perhaps, ] ̣πι̣ο̣ν ̣[</p>
+                  </note>
+               </div>
+               <div type="bibliography">
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/70835">Armoni, Ch. and Kruse, T. (2002)</ref> “Papyri editae in memoriam Wm. Brashear II,” ZPE 140: 165–176.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/174">Bonneau, D. (1974)</ref> “Les fêtes Amesysia,” CdÉ 49: 366-379.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/56280">Bonneau, D. (1985)</ref> “Les fêtes Amesysia et les jours épagomènes,” ASAE 70: 366-379.</bibl>
+                     <bibl>Colella, L.C. (2022) “Aggiornamenti in tema di manumissiones nei testamenti romani d’Egitto prima di Severo Alessandro,” Pylon 1.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96282">De Ricci, S. (1904)</ref> “A Latin deed of manumission (A.D. 221) in the collection of the Right Hon. Lord Amherst of Hackey, F.S.S,” Proceedings of the Society of Biblical Archaeology (PSBA) 26: 145–152.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96026">Dolganov, A. (2022)</ref> “Documenting Roman Citizenship,” in M. Lavan and C. Ando (eds), Roman and Local Citizenship in the Long Second Century CE, New York: 185–228.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/15237">Frankfurter, D. (1998)</ref> Religion in Roman Egypt: Assimilation and Resistance. Princeton.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/7186">Gundel, H. G. (1968)</ref> Papyri bibliothecae universitatis Gissensis – Eine Einführung. Giessen.</bibl>
+                     <bibl>Hächler, N. (2019), Kontinuität und Wandel des Senatorenstandes im Zeitalter der Soldatenkaiser. Leiden. </bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/80283">Johne, K-P. - Hartmann, U. - Gerhardt, T. (2008)</ref> Die Zeit der Soldatenkaiser. Krise und Transformation des Römischen Reiches im 3. Jahrhundert n. Chr. (235-284). Berlin.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/89645">Legutko, P.A. (2002)</ref> “The Revolt of Macrianus and Quietus and its effect on Alexandrian Coinage, AD 260-263,” The Numismatic Chronicle 162: 135-168.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/50158">Meeks, D. (1974)</ref> “Les fêtes Amesysia: essai d'étymologie,” CdÉ 49: 380–383.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/13304">Perpillou-Thomas, F. (1993)</ref> Fêtes d’Égypte ptolémaique et romaine d’après la documentation papyrologique grecque. Leuven.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/12261">Peachin, M. (1990)</ref> Roman titulature and chronology. A.D. 235–284. Amsterdam</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96281">Pedone, M. (2019)</ref> “A proposito delle nuove acquisizioni testuali in tema di manumissio inter amicos,” Index 47: 23–46.</bibl>
+                     <bibl>Roth, U (2010), “Peculium, freedom, citizenship: Golden triangle or vicious circle? An act in two parts,” in U. Roth (ed), By the Sweat of Your Brow: Roman Slavery in Its Socio-Economic Setting, Oxford: 91-120</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96280">Sirks, B. (1983)</ref> “The lex Junia and the effects of informal manumission and iteration,” RIDA 30: 211–292.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96284">Straus, J. (2020)</ref> L’Esclave dans l’Égypte romaine. Choix de documents traduits et commentés. Liège.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96279">Stornaiuolo, A. (2019)</ref> “An unpublished manumissio inter amicos (P.Mich. inv. 5688c),” AnPap. 31: 43–59.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/84715">Strobel, B. (2014)</ref> Römische Testamentsurkunden aus Ägypten vor und nach der Constitutio Antoniniana. Munich.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/77992">van Minnen, P. and K.A. Worp (2009)</ref> “A Latin Manumission Tax Tablet in Los Angeles,” BASP 46: 15–22.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/41988">Volterra, E. (1956)</ref> “Manomissioni di schiavi compiute da peregrini,” in: Studi de Francisci, vol. 5, Milano: 73–106.</bibl>
+                  </listBibl>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>A 3rd-century manumissio inter amicos</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">500001</idno>
+               <idno type="HGV">500001</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P.B.U.G. inv. 513</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">9.6</measure>
+                              <measure type="width" unit="cm">11</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>262/264/266 CE</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p><placeName n="1">Arsinoites ?</placeName></p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1"> Vertrag</term>
+                  <term n="2">Freilassung einer Sklavin</term>
+                  <term n="3">manumissio inter amicos</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+            <div type="figure">
+               <p><figure n="1"><graphic url="https://www.papyrusportal.de/receive/GiePapyri_schrift_00028310"/></figure></p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>A 3rd-century manumissio inter amicos</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV">500001</idno>
+               <idno type="TM">500001</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">A 3rd-century manumissio inter amicos</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="r" type="textpart"><ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1"/><gap reason="illegible" quantity="1" unit="character"/><unclear>αι</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">μετα</supplied>
+<lb n="2" break="no"/>ξὺ φίλω<unclear>ν</unclear> <supplied reason="lost">ἠλευθέρωσεν καὶ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/>Αὐρ<unclear>ή</unclear>λιος Ἀμέσ<supplied reason="lost">υσος</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/>τος σὺν τῷ πε<unclear>κ</unclear><supplied reason="lost" cert="low">ουλίῳ παντὶ </supplied><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">καὶ ἐπερωτη</supplied>
+<lb n="5" break="no"/>θεὶς ὡμολόγησε<unclear>ν</unclear> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῇ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="6"/>κυρίῳ ἡμῶν Γα<unclear>λλι</unclear><supplied reason="lost">ηνῷ Σεβαστῷ τὸ <num><gap reason="lost" atLeast="1" atMost="2" unit="character"/></num> καὶ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ὑπάτοις <expan><ex>ἔτους</ex></expan></supplied> <num><gap reason="lost" atLeast="1" atMost="2" unit="character"/></num> <supplied reason="lost">Αὐτοκράτορος Καίσαρος</supplied>
+<lb n="7"/>Πουπλίου Λ<unclear>ικιν</unclear><supplied reason="lost">νίου Γαλλιηνοῦ Γερμανικοῦ μεγίστου Εὐσεβοῦς Εὐτυχοῦς Σεβαστοῦ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="8"/><num value="13">ιγ</num> <handShift new="m4"/>Αὐρήλιος Ἀμέσ<unclear>υ</unclear><supplied reason="lost">σος</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="9"/><gap reason="lost" quantity="9" unit="character" precision="low"/><unclear>ησε</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="10"/><handShift new="m3" cert="low"/><gap reason="lost" quantity="9" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/><unclear>π</unclear><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="11"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
