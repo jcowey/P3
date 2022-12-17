@@ -10,6 +10,7 @@ For help with editing sections of the OJS interface for the journal there is a s
 Creating an issue: https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#create-issue
 
 For skipping submissions etc: https://docs.pkp.sfu.ca/learning-ojs/3.2/en/tools.html#importexport
+
 For help see: https://www.ub.uni-heidelberg.de/service/pdf/OJS3-Handreichung.pdf (especially page 4)
 
 For versioning see: https://docs.pkp.sfu.ca/learning-ojs/3.2/en/production-publication. The last section in that file seems to cover what we need. See also https://www.youtube.com/watch?v=HcSQiDj2-zw
