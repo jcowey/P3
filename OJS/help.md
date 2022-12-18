@@ -1,5 +1,7 @@
 # Creating a new issue
 
+Creating an issue: https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#create-issue
+
 Go to issues
 
 - add data in volume and year
