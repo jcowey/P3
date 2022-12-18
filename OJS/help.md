@@ -12,6 +12,8 @@ This creates the basis for a future issue
 
 # For making a scheduled article for publication in OJS
 
+For skipping submissions etc: https://docs.pkp.sfu.ca/learning-ojs/3.2/en/tools.html#importexport
+
 Go to
 
 Tools / Import/Export / QuickSubmit Plugin
