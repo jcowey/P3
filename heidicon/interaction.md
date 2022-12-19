@@ -27,3 +27,10 @@
     - choose Aufnahmen
     - click on the 3 dots of the .jpg or whatever (underneath the IIIF Image-URL)
       - choose Teilen
+
+## Changing download, high resolution etc.
+  - Click on the relevant image
+    - make sure the you are in Editor mode
+    - Underneath the words "Pool" and "Owner" there is the word "Tags"
+    - click on that and then make the relevant choices
+    - remember to save the changes
