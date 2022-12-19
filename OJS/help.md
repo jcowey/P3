@@ -33,3 +33,5 @@ Go to identifiers
   - 10.48631/pylon.2022.1.89306 
   - 10.48631/pylon.2022.2.92969
 - click on "Assign" (but not on save)
+
+Cf. https://www.ub.uni-heidelberg.de/service/pdf/OJS3-Handreichung.pdf (pages 16 and 17)
