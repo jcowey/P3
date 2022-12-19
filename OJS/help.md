@@ -25,3 +25,8 @@ https://www.ub.uni-heidelberg.de/service/pdf/OJS3-Handreichung.pdf
 Fill that in.
 
 # How to add the relevant DOI.
+
+Go to identifiers
+
+- add the identifier (pattern is 10.48631/pylon.YEAR.VOLUME.FILENUMBER: 10.48631/pylon.2022.1.89306 or 10.48631/pylon.2022.2.92969)
+- click on "Assign" (but not on save)
