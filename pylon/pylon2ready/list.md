@@ -29,7 +29,7 @@
 
 1. **_HTML_**: [Claytor, Notes on Papyri from Roman Egypt](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92967)
 
-2. **_HTML_**: [Sampson, New Light on P.Mich. 15 686](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_pmich_15_686)
+2. **_HTML_**: [Sampson, New Light on P.Mich. 15 686](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92968)
 
 3. **_HTML_**: [Jones - Bagnall, P.Math Leaf A Verso, Mathematical Problem a3 Revisited: A New Algorithm in Greek Mensurational Mathematics](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/bagnall_jones_leafA_math)
  
