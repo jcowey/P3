@@ -47,7 +47,7 @@ Before the galleys can be uploaded, the following steps have to be taken.
 - Now transfer all
   - XML files to your desktop
   - all PDFs to your desktop
-- Now return to OJS and for each submission upload the relevant file from your desktop. (mindblowingly non automatic, but that is the way it is under OJS 3.2)
+- Now return to OJS and for each and every submission upload the relevant files (yes both HTML and PDF) from your desktop. (mindblowingly non automatic, but that is the way it is under OJS 3.2)
 
 # How to do the final stage of publishing
 
