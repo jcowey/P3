@@ -28,11 +28,10 @@ Fill that in.
 
 Go to identifiers
 
-- add the identifier 
+- click on "Assign" (the DOI will appear in the box, the system knows this from Issue and file name)
   - pattern is 10.48631/pylon.YEAR.VOLUME.FILENUMBER: 
   - 10.48631/pylon.2022.1.89306 
   - 10.48631/pylon.2022.2.92969
-- click on "Assign" (the DOI will appear in the box)
 - check that it is correct
 - if it is correct click on "Save"
 
