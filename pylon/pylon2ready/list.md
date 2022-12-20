@@ -33,9 +33,9 @@
 
 3. **_HTML_**: [Jones - Bagnall, P.Math Leaf A Verso, Mathematical Problem a3 Revisited: A New Algorithm in Greek Mensurational Mathematics](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92969)
  
-4. **_HTML_**: [Lougovaya, A Pyramidal Frustum Volume Algorithm in P.Math. Leaf C Recto](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/lougovaya_c1_math)
+4. **_HTML_**: [Lougovaya, A Pyramidal Frustum Volume Algorithm in P.Math. Leaf C Recto](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92970)
  
-5. **_HTML_**: [Sampson, The David G. Hogarth Papyri](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_hogarth) 
+5. **_HTML_**: [Sampson, The David G. Hogarth Papyri](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92971) 
 
 6. **_HTML_**: [Hatzilambrou, A New Papyrus of Strabo's Geographica](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/hatzilambrou_strabo)
 
