@@ -26,4 +26,5 @@
 
 13. **_HTML_**: [Claytor, Provisioning the Metropolis: A Reedition of SPP 22 94](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/claytor_provisioning)
 
-# xmlworkflow version (final resting place in production for the XML and PDF files, which are then uploaded to the galleys in OJS) of the above
+# xmlworkflow version 
+###(final resting place in production for the XML and PDF files, which are then uploaded to the galleys in OJS) of the above
