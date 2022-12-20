@@ -27,7 +27,7 @@
 # xmlworkflow version (of the above)
 ### final resting place in production for the XML and PDF files, which are then uploaded to the galleys in OJS
 
-1. **_HTML_**: [Claytor, Notes on Papyri from Roman Egypt]()
+1. **_HTML_**: [Claytor, Notes on Papyri from Roman Egypt](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/929767)
 
 2. **_HTML_**: [Sampson, New Light on P.Mich. 15 686](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/sampson_pmich_15_686)
 
