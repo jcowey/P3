@@ -41,11 +41,11 @@
 
 7. **_HTML_**: [Benaissa, A Title of the Annunciation of the Shepherds in the Bodleian Library](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92973)
 
-8. **_HTML_**: [Balamoshev - Nowak, A 3rd-Century manumissio inter amicos](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/balamoshev_nowak_manumissio)
+8. **_HTML_**: [Balamoshev - Nowak, A 3rd-Century manumissio inter amicos](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92974)
 
-9. **_HTML_**: [Gonis, A Known Official in an Unknown Post in 339](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/gonis_known_official)
+9. **_HTML_**: [Gonis, A Known Official in an Unknown Post in 339](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92975)
  
-10. **_HTML_**: [BOEP 10](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/boep_10)
+10. **_HTML_**: [BOEP 10](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92976)
 
 11. **_HTML_**: [Claytor, A Karanis Penthemeros Certificate Completed](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/penthemeros_completed)
 
