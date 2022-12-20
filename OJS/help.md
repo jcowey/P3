@@ -36,3 +36,33 @@ Go to identifiers
 - if it is correct click on "Save"
 
 Cf. https://www.ub.uni-heidelberg.de/service/pdf/OJS3-Handreichung.pdf (pages 16 and 17)
+
+# How to do the final stage of publishing
+
+When all galleys are loaded and you are ready to publish the volume, go to 
+
+https://journals.ub.uni-heidelberg.de/index.php/pylon/manageIssues#futureIssues
+
+call up the volume concerned and click on “Publish Issue”
+
+Now go to 
+- Tools
+- Import/Export
+- DataCite Export/Registration Plugin
+
+https://journals.ub.uni-heidelberg.de/index.php/pylon/management/importexport/plugin/DataciteExportPlugin
+
+Leave “Settings” untouched
+- If the system requires action, choose “The data on this form has changed. Do you wish to continue without
+saving”
+
+Go to 
+- “Articles”
+
+Remove tick from 
+- “Validate XML before the export and registration.”
+
+Once this is done now
+
+Click on “Register”
+
