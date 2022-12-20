@@ -37,6 +37,18 @@ Go to identifiers
 
 Cf. https://www.ub.uni-heidelberg.de/service/pdf/OJS3-Handreichung.pdf (pages 16 and 17)
 
+# Loading galleys
+
+Before the galleys can be uploaded, the following steps have to be taken.
+- Load all the XML files into the relevant file of 
+- https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/tree/main/epidoc
+- Make sure that all HTMLs and PDFs are doing what they should do.
+  - https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/tree/main/pdf
+- Now transfer all
+  - XML files to your desktop
+  - all PDFs to your desktop
+- Now return to OJS and for each submission upload the relevant file from your desktop. (mindblowingly non automatic, but that is the way it is under OJS 3.2)
+
 # How to do the final stage of publishing
 
 When all galleys are loaded and you are ready to publish the volume, go to 
