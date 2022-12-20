@@ -32,6 +32,8 @@ Go to identifiers
   - pattern is 10.48631/pylon.YEAR.VOLUME.FILENUMBER: 
   - 10.48631/pylon.2022.1.89306 
   - 10.48631/pylon.2022.2.92969
-- click on "Assign" (but not on save)
+- click on "Assign" (the DOI will appear in the box)
+- check that it is correct
+- if it is correct click on "Save"
 
 Cf. https://www.ub.uni-heidelberg.de/service/pdf/OJS3-Handreichung.pdf (pages 16 and 17)
