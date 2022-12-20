@@ -37,9 +37,9 @@
  
 5. **_HTML_**: [Sampson, The David G. Hogarth Papyri](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92971) 
 
-6. **_HTML_**: [Hatzilambrou, A New Papyrus of Strabo's Geographica](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/hatzilambrou_strabo)
+6. **_HTML_**: [Hatzilambrou, A New Papyrus of Strabo's Geographica](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92972)
 
-7. **_HTML_**: [Benaissa, A Title of the Annunciation of the Shepherds in the Bodleian Library](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/benaissa_annunciation)
+7. **_HTML_**: [Benaissa, A Title of the Annunciation of the Shepherds in the Bodleian Library](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92973)
 
 8. **_HTML_**: [Balamoshev - Nowak, A 3rd-Century manumissio inter amicos](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/balamoshev_nowak_manumissio)
 
