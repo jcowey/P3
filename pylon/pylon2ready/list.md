@@ -50,3 +50,7 @@
 11. **_HTML_**: [Claytor, A Karanis Penthemeros Certificate Completed](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92977)
 
 12. **_HTML_**: [Claytor, Provisioning the Metropolis: A Reedition of SPP 22 94](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92978)
+
+For those that can view them, the PDFs can be seen here:
+
+https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/tree/main/pdf/2
