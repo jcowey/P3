@@ -46,9 +46,11 @@ Before the galleys can be uploaded, the following steps have to be taken.
   - https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/89306
   - https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/tree/main/pdf
 - Now transfer all
-  - XML files to your desktop
-  - all PDFs to your desktop
+  - XML files to your desktop (choose "Download this directory" "zip")
+  - all PDFs to your desktop (choose "Download this directory" "zip")
 - Now return to OJS and for each and every submission upload the relevant files (yes both HTML and PDF) from your desktop. (mindblowingly non automatic, but that is the way it is under OJS 3.2)
+- When in the galleys choose "Change file" to upload
+- In "Article Component" choose "Article Text"
 
 # How to do the final stage of publishing
 
