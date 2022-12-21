@@ -73,6 +73,7 @@ saving”
 
 Go to 
 - “Articles”
+- Put a tick in all boxes of those "Not Deposited"
 
 Remove tick from 
 - “Validate XML before the export and registration.”
