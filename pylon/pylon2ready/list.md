@@ -17,7 +17,6 @@
 8. **_HTML_**: [Balamoshev - Nowak, A 3rd-Century manumissio inter amicos](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/balamoshev_nowak_manumissio)
 
 9. **_HTML_**: [Gonis, A Known Official in an Unknown Post in 339]([pylon_92975_text_.pdf](https://github.com/jcowey/P3/files/10278095/pylon_92975_text_.pdf)
-)
 
 10. **_HTML_**: [BOEP 10](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/boep_10)
 
@@ -33,7 +32,7 @@
    - [PDF: pylon_92967_text_.pdf](https://github.com/jcowey/P3/files/10278084/pylon_92967_text_.pdf)
 
 2. **_HTML_**: [Sampson, New Light on P.Mich. 15 686](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92968)
-   - [PDF: 00_pylon_92968_text_.pdf](https://github.com/jcowey/P3/files/10272066/00_pylon_92968_text_.pdf)
+   - [PDF: pylon_92968_text_.pdf](https://github.com/jcowey/P3/files/10278142/pylon_92968_text_.pdf)
 
 3. **_HTML_**: [Jones - Bagnall, P.Math Leaf A Verso, Mathematical Problem a3 Revisited: A New Algorithm in Greek Mensurational Mathematics](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92969)
    - [PDF: 00_pylon_92969_text_.pdf](https://github.com/jcowey/P3/files/10272077/00_pylon_92969_text_.pdf)
@@ -42,7 +41,7 @@
    - [PDF: 00_pylon_92970_text_.pdf](https://github.com/jcowey/P3/files/10272080/00_pylon_92970_text_.pdf)
  
 5. **_HTML_**: [Sampson, The David G. Hogarth Papyri](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92971) 
-   - [PDF: 00_pylon_92971_text_.pdf](https://github.com/jcowey/P3/files/10272081/00_pylon_92971_text_.pdf)
+   - [PDF: pylon_92971_text_.pdf](https://github.com/jcowey/P3/files/10278135/pylon_92971_text_.pdf)
 
 6. **_HTML_**: [Hatzilambrou, A New Papyrus of Strabo's Geographica](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92972)
    - [PDF: 00_pylon_92972_text_.pdf](https://github.com/jcowey/P3/files/10272117/00_pylon_92972_text_.pdf)
@@ -55,7 +54,6 @@
 
 9. **_HTML_**: [Gonis, A Known Official in an Unknown Post in 339](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92975)
    - [PDF: pylon_92975_text_.pdf](https://github.com/jcowey/P3/files/10278101/pylon_92975_text_.pdf)
-)
 
 10. **_HTML_**: [BOEP 10](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92976)
     - [PDF: 00_pylon_92976_text_.pdf](https://github.com/jcowey/P3/files/10272147/00_pylon_92976_text_.pdf)
