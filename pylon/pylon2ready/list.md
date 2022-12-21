@@ -27,8 +27,9 @@
 # xmlworkflow version (of the above)
 ### final resting place in production for the XML and PDF files, which are then uploaded to the galleys in OJS
 
+
 1. **_HTML_**: [Claytor, Notes on Papyri from Roman Egypt](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92967)
-   - [PDF: pylon_92967_text_.pdf](https://github.com/jcowey/P3/files/10272040/pylon_92967_text_.pdf)
+   - [PDF: pylon_92967_text_.pdf](https://github.com/jcowey/P3/files/10278084/pylon_92967_text_.pdf)
 
 2. **_HTML_**: [Sampson, New Light on P.Mich. 15 686](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/pylon/92968)
    - [PDF: 00_pylon_92968_text_.pdf](https://github.com/jcowey/P3/files/10272066/00_pylon_92968_text_.pdf)
