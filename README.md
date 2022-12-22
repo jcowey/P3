@@ -14,6 +14,7 @@ For versioning see: https://docs.pkp.sfu.ca/learning-ojs/3.2/en/production-publi
 ### Published volumes
 
 - **Pylon 1 (2022)** published: 2022-07-01 can be viewed at [Vol. 1 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6131)
+- **Pylon 2 (2022)** published: 2022-12-21 can be viewed at [Vol. 2 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6300)
 
 ### Pylon 2 files for viewing
 The collection of material for **Pylon 2 (2022)** can now, for convenience, be found [here in the form of a googlespreadsheet](https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3acCM/edit#gid=0).
