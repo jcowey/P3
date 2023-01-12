@@ -19,4 +19,4 @@ For versioning see: https://docs.pkp.sfu.ca/learning-ojs/3.2/en/production-publi
 ### Pylon 3 files for viewing
 The collection of material for **Pylon 3 (2023)** can now, for convenience, be found [here in the form of a googlespreadsheet](https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3acCM/edit#gid=187043614).
 
-Links to live files of **as they appear in HTML** (PDFs also available, but the links are only accessible for signed up gitlab members) for the second volume of Pylon can be found in the folder: [pylon2ready](https://github.com/jcowey/P3/blob/master/pylon/pylon2ready/list.md)
+Links to live files of **as they appear in HTML** (PDFs also available, but the links are only accessible for signed up gitlab members) for the second volume of Pylon can be found in the folder: [pylon3ready](https://github.com/jcowey/P3/blob/master/pylon/pylon2ready/list.md)
