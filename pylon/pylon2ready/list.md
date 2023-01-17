@@ -2,7 +2,7 @@
 
 1. Deac,	A Letter by a Member of the Legio III Cyrenaica
 
-2. Lougovaya - Ast,	Thirsting for an Answer. A Reedition of P.Bodl. 1 7
+2. Lougovaya - Ast,	Between Ahmes and Alcuin: P.Bodl. 1 7 Revisited
 
 3. Vanderheyden,	P.Ghent inv. 47 completed. A Coptic letter from Apa Diane to Dioscorus of Aphrodito
  
