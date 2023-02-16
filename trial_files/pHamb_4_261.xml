@@ -237,6 +237,86 @@
 </table></figure>
     <lb n="16"/><expan><ex>γίνονται</ex></expan> <expan>ἐπ<ex>ὶ τὸ αὐτὸ</ex></expan> <expan><ex>τάλαντα</ex></expan> <num value="8">η</num> <num value="4500">Δφ</num></ab></div>
                 <!-- End of the table embedding suggestion -->
+      
+      <!-- A different suggestion for how to embed the table. Line 1 and line 16 are taken as not being part of the table.
+                    <lb/> outside row/cell structure. -->
+    <lb n="1"/><expan><ex>ἔτους</ex></expan> <num value="4">δ</num>
+<figure><table>
+    <lb n="2"/>
+    <row>
+        <cell style="text-align: left;">Φαμεν<unclear>ὼθ</unclear></cell>
+        <cell style="text-align: right;"> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num></cell>
+    </row>
+    <lb n="3"/>
+    <row>
+        <cell>Φαρμο<unclear>ῦθι</unclear></cell>
+        <cell> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num></cell>
+    </row>
+    <lb n="4"/>
+    <row>
+        <cell>Παχὼν </cell>
+        <cell><expan><ex>τάλαντον</ex></expan> <num value="1">α</num></cell>
+    </row>
+    <lb n="5"/>
+    <row>
+        <cell>Παῦνι </cell>
+        <cell><num value="5000">Ε</num></cell>
+    </row>
+    <lb n="6"/>
+    <row>
+        <cell><choice><reg>Ἐπεὶφ</reg><orig>Ἐπεὶπ</orig></choice> </cell>
+        <cell><num value="4500">Δφ</num></cell>
+    </row>
+    <lb n="7"/>
+    <row>
+        <cell>Μεσορὴ </cell>
+        <cell><num value="1000">Α</num></cell>
+    </row>
+    <lb n="8"/>
+    <row>
+        <cell>Θὼθ </cell>
+        <cell><num value="5000">Ε</num></cell>
+    </row>
+    <lb n="9"/>
+    <row>
+        <cell>Φαῶφ<unclear>ι</unclear> </cell>
+        <cell><num value="3000">Γ</num></cell>
+    </row>
+    <lb n="10"/>
+    <row>
+        <cell>Ἁθὺρ </cell>
+        <cell><num value="3000"><unclear>Γ</unclear></num></cell>
+    </row>
+    <lb n="11"/>
+    <row>
+        <cell>Χοιὰκ </cell>
+        <cell><num value="3000">Γ</num></cell>
+    </row>
+    <lb n="12"/>
+    <row>
+        <cell>Τῦβι </cell>
+        <cell><num value="3000">Γ</num></cell>
+    </row>
+    <lb n="13"/>
+    <row>
+        <cell>Μεχεὶ<unclear>ρ</unclear> </cell>
+        <cell><num value="2000">Β</num></cell>
+    </row>
+    <lb n="14"/>    
+    <row>
+        <cell>Φαμενὼθ </cell>
+        <cell><num value="2000">Β</num></cell>
+    </row>
+    <lb n="15"/>
+    <row>
+        <cell>Φαρμο<supplied reason="lost">ῦ</supplied><unclear>θ</unclear>ι </cell>
+        <cell><num value="3000">Γ</num></cell>
+    </row>
+</table></figure>
+    <lb n="16"/><expan><ex>γίνονται</ex></expan> <expan>ἐπ<ex>ὶ τὸ αὐτὸ</ex></expan> <expan><ex>τάλαντα</ex></expan> <num value="8">η</num> <num value="4500">Δφ</num></ab></div>
+                <!-- End of the table embedding suggestion -->
+      
+      
          </body>
       </text>
    </TEI>
