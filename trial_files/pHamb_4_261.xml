@@ -142,7 +142,9 @@
             <head xml:lang="en"/>
             <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan><ex>ἔτους</ex></expan> <num value="4">δ</num>
-    <lb n="2"/>Φαμεν<unclear>ὼθ</unclear> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num>
+    <cell><lb n="2"/></cell>
+    <cell>Φαμεν<unclear>ὼθ</unclear>
+    </cell><cell> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num></cell>
     <lb n="3"/>Φαρμο<unclear>ῦθι</unclear> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num>
     <lb n="4"/>Παχὼν <expan><ex>τάλαντον</ex></expan> <num value="1">α</num>
     <lb n="5"/>Παῦνι <num value="5000">Ε</num>
@@ -157,6 +159,84 @@
     <lb n="14"/>Φαμενὼθ <num value="2000">Β</num>
     <lb n="15"/>Φαρμο<supplied reason="lost">ῦ</supplied><unclear>θ</unclear>ι <num value="3000">Γ</num>
     <lb n="16"/><expan><ex>γίνονται</ex></expan> <expan>ἐπ<ex>ὶ τὸ αὐτὸ</ex></expan> <expan><ex>τάλαντα</ex></expan> <num value="8">η</num> <num value="4500">Δφ</num></ab></div>
+
+                <!-- Suggestion for how to embed the table. Line 1 and line 16 are taken as not being part of the table.
+                Or is it the case that when a table is used the whole text has to go into a table?-->
+    <lb n="1"/><expan><ex>ἔτους</ex></expan> <num value="4">δ</num>
+<figure><table>
+    <row>
+        <cell><lb n="2"/></cell>
+        <cell>Φαμεν<unclear>ὼθ</unclear></cell>
+        <cell> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num></cell>
+    </row>
+    <row>
+        <cell><lb n="3"/></cell>
+        <cell>Φαρμο<unclear>ῦθι</unclear></cell>
+        <cell> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num></cell>
+    </row>
+    <row>
+        <cell><lb n="4"/></cell>
+        <cell>Παχὼν </cell>
+        <cell><expan><ex>τάλαντον</ex></expan> <num value="1">α</num></cell>
+    </row>
+    <row>
+        <cell><lb n="5"/></cell>
+        <cell>Παῦνι </cell>
+        <cell><num value="5000">Ε</num></cell>
+    </row>
+    <row>
+        <cell><lb n="6"/></cell>
+        <cell><choice><reg>Ἐπεὶφ</reg><orig>Ἐπεὶπ</orig></choice> </cell>
+        <cell><num value="4500">Δφ</num></cell>
+    </row>
+    <row>
+        <cell><lb n="7"/></cell>
+        <cell>Μεσορὴ </cell>
+        <cell><num value="1000">Α</num></cell>
+    </row>
+    <row>
+        <cell><lb n="8"/></cell>
+        <cell>Θὼθ </cell>
+        <cell><num value="5000">Ε</num></cell>
+    </row>
+    <row>
+        <cell><lb n="9"/></cell>
+        <cell>Φαῶφ<unclear>ι</unclear> </cell>
+        <cell><num value="3000">Γ</num></cell>
+    </row>
+    <row>
+        <cell><lb n="10"/></cell>
+        <cell>Ἁθὺρ </cell>
+        <cell><num value="3000"><unclear>Γ</unclear></num></cell>
+    </row>
+    <row>
+        <cell><lb n="11"/></cell>
+        <cell>Χοιὰκ </cell>
+        <cell><num value="3000">Γ</num></cell>
+    </row>
+    <row>
+        <cell><lb n="12"/></cell>
+        <cell>Τῦβι </cell>
+        <cell><num value="3000">Γ</num></cell>
+    </row>
+    <row>
+        <cell><lb n="13"/></cell>
+        <cell>Μεχεὶ<unclear>ρ</unclear> </cell>
+        <cell><num value="2000">Β</num></cell>
+    </row>
+    <row>
+        <cell><lb n="14"/></cell>
+        <cell>Φαμενὼθ </cell>
+        <cell><num value="2000">Β</num></cell>
+    </row>
+    <row>
+        <cell><lb n="15"/></cell>
+        <cell>Φαρμο<supplied reason="lost">ῦ</supplied><unclear>θ</unclear>ι </cell>
+        <cell><num value="3000">Γ</num></cell>
+    </row>
+</table></figure>
+    <lb n="16"/><expan><ex>γίνονται</ex></expan> <expan>ἐπ<ex>ὶ τὸ αὐτὸ</ex></expan> <expan><ex>τάλαντα</ex></expan> <num value="8">η</num> <num value="4500">Δφ</num></ab></div>
+                <!-- End of the table embedding suggestion -->
          </body>
       </text>
    </TEI>
