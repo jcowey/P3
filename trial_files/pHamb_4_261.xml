@@ -79,7 +79,7 @@
             <sourceDesc>
                <msDesc>
                   <msIdentifier>
-                     <repository/>
+                     <repository>Hamburg</repository>
                      <idno type="invNo"/>
                   </msIdentifier>
                   <history/>
@@ -142,9 +142,7 @@
             <head xml:lang="en"/>
             <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan><ex>ἔτους</ex></expan> <num value="4">δ</num>
-    <cell><lb n="2"/></cell>
-    <cell>Φαμεν<unclear>ὼθ</unclear>
-    </cell><cell> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num></cell>
+    <lb n="2"/>Φαμεν<unclear>ὼθ</unclear> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num>
     <lb n="3"/>Φαρμο<unclear>ῦθι</unclear> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num>
     <lb n="4"/>Παχὼν <expan><ex>τάλαντον</ex></expan> <num value="1">α</num>
     <lb n="5"/>Παῦνι <num value="5000">Ε</num>
@@ -160,10 +158,10 @@
     <lb n="15"/>Φαρμο<supplied reason="lost">ῦ</supplied><unclear>θ</unclear>ι <num value="3000">Γ</num>
     <lb n="16"/><expan><ex>γίνονται</ex></expan> <expan>ἐπ<ex>ὶ τὸ αὐτὸ</ex></expan> <expan><ex>τάλαντα</ex></expan> <num value="8">η</num> <num value="4500">Δφ</num></ab></div>
 
-                <!-- Suggestion for how to embed the table. Line 1 and line 16 are taken as not being part of the table.
-                Or is it the case that when a table is used the whole text has to go into a table?-->
-    <lb n="1"/><expan><ex>ἔτους</ex></expan> <num value="4">δ</num>
-<figure><table>
+                <!-- Suggestion for how to embed the table. Line 1 and line 16 are taken as not being part of the table. -->
+    <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve"><ab>
+       <lb n="1"/><expan><ex>ἔτους</ex></expan> <num value="4">δ</num>
+<table>
     <row>
         <cell><lb n="2"/>Φαμεν<unclear>ὼθ</unclear></cell>
         <cell/>
@@ -234,14 +232,16 @@
         <cell>Φαρμο<supplied reason="lost">ῦ</supplied><unclear>θ</unclear>ι </cell>
         <cell><num value="3000">Γ</num></cell>
     </row>
-</table></figure>
+</table>
+
     <lb n="16"/><expan><ex>γίνονται</ex></expan> <expan>ἐπ<ex>ὶ τὸ αὐτὸ</ex></expan> <expan><ex>τάλαντα</ex></expan> <num value="8">η</num> <num value="4500">Δφ</num></ab></div>
                 <!-- End of the table embedding suggestion -->
       
       <!-- A different suggestion for how to embed the table. Line 1 and line 16 are taken as not being part of the table.
                     <lb/> outside row/cell structure. -->
+    <div xml:id="ed3" xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan><ex>ἔτους</ex></expan> <num value="4">δ</num>
-<figure><table>
+<table>
     <lb n="2"/>
     <row>
         <cell style="text-align: left;">Φαμεν<unclear>ὼθ</unclear></cell>
@@ -312,7 +312,7 @@
         <cell>Φαρμο<supplied reason="lost">ῦ</supplied><unclear>θ</unclear>ι </cell>
         <cell><num value="3000">Γ</num></cell>
     </row>
-</table></figure>
+</table>
     <lb n="16"/><expan><ex>γίνονται</ex></expan> <expan>ἐπ<ex>ὶ τὸ αὐτὸ</ex></expan> <expan><ex>τάλαντα</ex></expan> <num value="8">η</num> <num value="4500">Δφ</num></ab></div>
                 <!-- End of the table embedding suggestion -->
       
