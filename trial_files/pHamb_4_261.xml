@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>261. Aufstellung über monatliche Ausgaben oder Einnahmen</title>
+            <author>
+               <name>
+                  <forename>Dieter</forename>
+                  <surname>Hagedorn</surname>
+               </name>
+               <affiliation>University of Cologne</affiliation>
+               <email>dieter.hagedorn@urz.uni-heidelberg.de</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2022-11-23T11:49:43Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">261. Aufstellung über monatliche Ausgaben oder Einnahmen</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <div type="epidoc" subtype="DDB">
+               <div type="introduction">
+                  <p xml:id="p1">Das Blatt ist praktisch unversehrt erhalten. Die Aufstellung reicht uber 14 Monate, vom Phamenoth eines 4. Regierungsjahres bis zum Pharmuthi des folgenden. Die verzeichneten Betrage sind anfangs im Durchschnitt deutlich höher als in den folgenden Monaten; so entfallen von insgesamt 52500 Drachmen allein 18000 Drachmen auf die ersten drei und 33500 Drachmen auf die ersten 7 Monate. Der Zweck der Aufstellung bleibt vollkommen verborgen. Von palaographischem Interesse sind die Zeichen fur die Tausender; vgl. die Tafel. </p>
+                  <p xml:id="p2" style="text-align: left; ">Die Aufstellung steht auf der Versoseite des Papyrus; da er auf einer Papier- unterlage verglast ist, laßt sich nicht kontrollieren, ob die Ruckseite, d.h. das Recto, wirklich unbeschrieben ist. </p>
+               </div>
+               <div copyOf="#ed1" type="edition"/>
+               <div type="bibliography">
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96094">Bagnall, R.S. (2017)</ref> The Undertakers of the Great Oasis (P. Nekr.). London.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96082">Budge, E.A.W. (1920)</ref> By Nile and Tigris: A Narrative of Journeys in Egypt and Mesopotamia on Behalf of the British Museum between the Years 1886 and 1913. Volume II. London.</bibl>
+                  </listBibl>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM"/>
+               <idno type="HGV"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve"><ab>
+    <lb n="1"/><expan><ex>ἔτους</ex></expan> <num value="4">δ</num>
+    <lb n="2"/>Φαμεν<unclear>ὼθ</unclear> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num>
+    <lb n="3"/>Φαρμο<unclear>ῦθι</unclear> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num>
+    <lb n="4"/>Παχὼν <expan><ex>τάλαντον</ex></expan> <num value="1">α</num>
+    <lb n="5"/>Παῦνι <num value="5000">Ε</num>
+    <lb n="6"/><choice><reg>Ἐπεὶφ</reg><orig>Ἐπεὶπ</orig></choice> <num value="4500">Δφ</num>
+    <lb n="7"/>Μεσορὴ <num value="1000">Α</num>
+    <lb n="8"/>Θὼθ <num value="5000">Ε</num>
+    <lb n="9"/>Φαῶφ<unclear>ι</unclear> <num value="3000">Γ</num>
+    <lb n="10"/>Ἁθὺρ <num value="3000"><unclear>Γ</unclear></num>
+    <lb n="11"/>Χοιὰκ <num value="3000">Γ</num>
+    <lb n="12"/>Τῦβι <num value="3000">Γ</num>
+    <lb n="13"/>Μεχεὶ<unclear>ρ</unclear> <num value="2000">Β</num>
+    <lb n="14"/>Φαμενὼθ <num value="2000">Β</num>
+    <lb n="15"/>Φαρμο<supplied reason="lost">ῦ</supplied><unclear>θ</unclear>ι <num value="3000">Γ</num>
+    <lb n="16"/><expan><ex>γίνονται</ex></expan> <expan>ἐπ<ex>ὶ τὸ αὐτὸ</ex></expan> <expan><ex>τάλαντα</ex></expan> <num value="8">η</num> <num value="4500">Δφ</num></ab></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
