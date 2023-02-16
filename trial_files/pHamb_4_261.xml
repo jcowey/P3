@@ -163,73 +163,60 @@
        <lb n="1"/><expan><ex>ἔτους</ex></expan> <num value="4">δ</num>
 <table>
     <row>
-        <cell><lb n="2"/>Φαμεν<unclear>ὼθ</unclear></cell>
-        <cell/>
+        <cell style="text-align: left;"><lb n="2"/>Φαμεν<unclear>ὼθ</unclear></cell>
+        <cell><space quantity="5" unit="character"/></cell>
         <cell> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num></cell>
     </row>
     <row>
-        <cell><lb n="3"/></cell>
-        <cell>Φαρμο<unclear>ῦθι</unclear></cell>
-        <cell> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num></cell>
+        <cell style="text-align: left;"><lb n="3"/>Φαρμο<unclear>ῦθι</unclear></cell>
+        <cell padding-right="5em"> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num></cell>
     </row>
     <row>
-        <cell><lb n="4"/></cell>
-        <cell>Παχὼν </cell>
+        <cell style="text-align: left;"><lb n="4"/>Παχὼν </cell>
         <cell><expan><ex>τάλαντον</ex></expan> <num value="1">α</num></cell>
     </row>
     <row>
-        <cell><lb n="5"/></cell>
-        <cell>Παῦνι </cell>
+        <cell style="text-align: left;"><lb n="5"/>Παῦνι </cell>
         <cell><num value="5000">Ε</num></cell>
     </row>
     <row>
-        <cell><lb n="6"/></cell>
-        <cell><choice><reg>Ἐπεὶφ</reg><orig>Ἐπεὶπ</orig></choice> </cell>
+        <cell style="text-align: left;"><lb n="6"/><choice><reg>Ἐπεὶφ</reg><orig>Ἐπεὶπ</orig></choice> </cell>
         <cell><num value="4500">Δφ</num></cell>
     </row>
     <row>
-        <cell><lb n="7"/></cell>
-        <cell>Μεσορὴ </cell>
+        <cell style="text-align: left;"><lb n="7"/>Μεσορὴ </cell>
         <cell><num value="1000">Α</num></cell>
     </row>
     <row>
-        <cell><lb n="8"/></cell>
-        <cell>Θὼθ </cell>
+        <cell style="text-align: left;"><lb n="8"/>Θὼθ </cell>
         <cell><num value="5000">Ε</num></cell>
     </row>
     <row>
-        <cell><lb n="9"/></cell>
-        <cell>Φαῶφ<unclear>ι</unclear> </cell>
+        <cell style="text-align: left;"><lb n="9"/>Φαῶφ<unclear>ι</unclear> </cell>
         <cell><num value="3000">Γ</num></cell>
     </row>
     <row>
-        <cell><lb n="10"/></cell>
-        <cell>Ἁθὺρ </cell>
+        <cell style="text-align: left;"><lb n="10"/>Ἁθὺρ </cell>
         <cell><num value="3000"><unclear>Γ</unclear></num></cell>
     </row>
     <row>
-        <cell><lb n="11"/></cell>
-        <cell>Χοιὰκ </cell>
+        <cell style="text-align: left;"><lb n="11"/>Χοιὰκ </cell>
         <cell><num value="3000">Γ</num></cell>
     </row>
     <row>
-        <cell><lb n="12"/></cell>
-        <cell>Τῦβι </cell>
+        <cell style="text-align: left;"><lb n="12"/>Τῦβι </cell>
         <cell><num value="3000">Γ</num></cell>
     </row>
     <row>
-        <cell><lb n="13"/></cell>
-        <cell>Μεχεὶ<unclear>ρ</unclear> </cell>
+        <cell style="text-align: left;"><lb n="13"/>Μεχεὶ<unclear>ρ</unclear> </cell>
         <cell><num value="2000">Β</num></cell>
     </row>
     <row>
-        <cell><lb n="14"/></cell>
-        <cell>Φαμενὼθ </cell>
+        <cell style="text-align: left;"><lb n="14"/>Φαμενὼθ </cell>
         <cell><num value="2000">Β</num></cell>
     </row>
     <row>
-        <cell><lb n="15"/></cell>
-        <cell>Φαρμο<supplied reason="lost">ῦ</supplied><unclear>θ</unclear>ι </cell>
+        <cell style="text-align: left;"><lb n="15"/>Φαρμο<supplied reason="lost">ῦ</supplied><unclear>θ</unclear>ι </cell>
         <cell><num value="3000">Γ</num></cell>
     </row>
 </table>
