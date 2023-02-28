@@ -4,13 +4,14 @@ This is a collection point for the Papyrological Publishing Platform (P3).
 ### Pylon 3 files for viewing
 The collection of material for **Pylon 3 (2023)** can now, for convenience, be found [here in the form of a googlespreadsheet](https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3acCM/edit#gid=187043614). May I please remind you to add any submissions that any of you may receive to the googlespreadsheet. That way we have a clear idea of how many articles we have for the volume. 
 - A deadline for submission for a Pylon 3 article should be **May 19** at the very latest. Even then if an article needs much attention and change it would probably have to be moved to Pylon 4.
+- Links to live files **as they appear in HTML** (PDFs also available, but the links are only accessible for signed up gitlab members) for the third volume of Pylon can be found in the folder: [pylon3ready](https://github.com/jcowey/P3/blob/master/pylon/pylon2ready/list.md)
 
 ### Published volumes
 
 - **Pylon 1 (2022)** published: 2022-07-01 can be viewed at [Vol. 1 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6131)
 - **Pylon 2 (2022)** published: 2022-12-21 can be viewed at [Vol. 2 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6300)
 
-Links to live files of **as they appear in HTML** (PDFs also available, but the links are only accessible for signed up gitlab members) for the second volume of Pylon can be found in the folder: [pylon3ready](https://github.com/jcowey/P3/blob/master/pylon/pylon2ready/list.md)
+
 
 
 ### General information
