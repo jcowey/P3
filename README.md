@@ -17,6 +17,6 @@ For versioning see: https://docs.pkp.sfu.ca/learning-ojs/3.2/en/production-publi
 - **Pylon 2 (2022)** published: 2022-12-21 can be viewed at [Vol. 2 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6300)
 
 ### Pylon 3 files for viewing
-The collection of material for **Pylon 3 (2023)** can now, for convenience, be found [here in the form of a googlespreadsheet](https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3acCM/edit#gid=187043614).
+The collection of material for **Pylon 3 (2023)** can now, for convenience, be found [here in the form of a googlespreadsheet](https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3acCM/edit#gid=187043614). May I please remind you to add any submissions that any of you may receive to the googlespreadsheet. That way we have a clear idea of how many articles we have for the volume.
 
 Links to live files of **as they appear in HTML** (PDFs also available, but the links are only accessible for signed up gitlab members) for the second volume of Pylon can be found in the folder: [pylon3ready](https://github.com/jcowey/P3/blob/master/pylon/pylon2ready/list.md)
