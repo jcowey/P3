@@ -9,8 +9,8 @@ The collection of material for **Pylon 3 (2023)** can now, for convenience, be f
 
 ### Published volumes
 
-- **Pylon 1 (2022)** published: 2022-07-01 can be viewed at [Vol. 1 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6131)
-- **Pylon 2 (2022)** published: 2022-12-21 can be viewed at [Vol. 2 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6300)
+- **Pylon 1 (2022)**, published 2022-07-01, can be viewed at [Vol. 1 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6131)
+- **Pylon 2 (2022)**, published 2022-12-21, can be viewed at [Vol. 2 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6300)
 
 
 
