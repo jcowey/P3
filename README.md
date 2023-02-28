@@ -11,6 +11,9 @@ The collection of material for **Pylon 3 (2023)** can now, for convenience, be f
 
 Links to live files of **as they appear in HTML** (PDFs also available, but the links are only accessible for signed up gitlab members) for the second volume of Pylon can be found in the folder: [pylon3ready](https://github.com/jcowey/P3/blob/master/pylon/pylon2ready/list.md)
 
+
+### General information
+
 The online journal **Pylon** is made possible by files stored here. In other repositories in [github: P3-processing](https://github.com/hcayless/P3-processing) (_open access_) and in [gitlab: XML files for HTML production](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/tree/master/epidoc) (_login required_) there are also files used for various stages of the production.
 
 **Pylon** already has a presence under the [journals produced and supported](https://journals.ub.uni-heidelberg.de/index.php/pylon/login) (_login required_) by the University Library in Heidelberg.  At present nothing can be clicked or viewed without a login. 
@@ -20,7 +23,3 @@ For help with editing sections of the OJS interface for the journal there is a s
 For help see: https://www.ub.uni-heidelberg.de/service/pdf/OJS3-Handreichung.pdf (especially page 4)
 
 For versioning see: https://docs.pkp.sfu.ca/learning-ojs/3.2/en/production-publication. The last section in that file seems to cover what we need. See also https://www.youtube.com/watch?v=HcSQiDj2-zw
-
-
-
-
