@@ -13,6 +13,8 @@
                </name>
                <affiliation>Institute for Papyrology, Heidelberg</affiliation>
                <email>lougovaya@uni-heidelberg.de</email>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1058244469</idno>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0001-8099-5930</idno>
             </author>
             <author>
                <name>
@@ -21,7 +23,10 @@
                </name>
                <affiliation>Institute for Papyrology, Heidelberg</affiliation>
                <email>ast@uni-heidelberg.de</email>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1020326514</idno>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0002-1812-8067</idno>
             </author>
+            <funder>Deutsche Forschungsgemeinschaft</funder>
          </titleStmt>
          <editionStmt>
             <edition>
@@ -29,10 +34,35 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <p>unknown</p>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2023">2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.3.3</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2023.3.89358</idno>
          </publicationStmt>
          <sourceDesc>
-            <p>Converted from a Word document</p>
+            <bibl ana="hc:RecommendedBibliographicReference">R. Ast, J. Lougovaya, “Between Ahmes and Alcuin: P.Bodl. 1 7 Revisited,” Pylon 3 (2023). DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2023.3.89358">https://doi.org/10.48631/pylon.2022.1.89358</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">3</biblScope>
+                     <biblScope unit="article">3</biblScope>
+                     <date when="2023">2023</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
