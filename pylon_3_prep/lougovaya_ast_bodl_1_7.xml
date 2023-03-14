@@ -62,7 +62,7 @@
             </div>
             <div type="section">
                <head>Reedition of P.Bod. 1 7 </head>
-               <div type="epidoc" subtype="DCLP#metadata">
+               <div type="epidoc" subtype="DCLP">
                   <div copyOf="#ed1" type="edition"/>
                   <div copyOf="#trans1" type="translation"/>
                   <div type="commentary">
