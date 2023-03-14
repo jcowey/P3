@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Between Ahmes and Alcuin: P.Bodl. 1 7 Revisited</title>
+            <author>
+               <name>
+                  <forename>Julia</forename>
+                  <surname>Lougovaya</surname>
+               </name>
+               <affiliation>Institute for Papyrology, Heidelberg</affiliation>
+               <email>lougovaya@uni-heidelberg.de</email>
+            </author>
+            <author>
+               <name>
+                  <forename>Rodney</forename>
+                  <surname>Ast</surname>
+               </name>
+               <affiliation>Institute for Papyrology, Heidelberg</affiliation>
+               <email>ast@uni-heidelberg.de</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2023-03-14T15:11:00Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Between Ahmes and Alcuin: P.Bodl. 1 7 Revisited</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">This article is a product of the Collaborative Research Centre 933 – Material Text Cultures. Materiality and Presence of Writing in Non-Typographic Societies (Subproject TP A09 ‘Writing on Ostraca’ and TP A02 ‘Ancient Letters’). CRC 933 is funded by the German Research Foundation (DFG) under Project Number 178035969 – SFB933. We thank Alexander Jones and Demokritos Kaltsas for helpful comments on an early draft. We are, of course, solely responsible for any errors.</note>
+            <div type="introduction">
+               <p xml:id="p1">Papyrus MS Gr. class. c 96, which is kept in the Bodleian, was edited by R. P. Salomons as <ref target="https://papyri.info/dclp/64957">P.Bodl. 1 7</ref> under the heading of an ‘arithmetical problem’ (unknown prov., 5th–7th c.; TM 64957). Salomons deciphered most of the text but was unable to read some parts and could find no close parallels to it. Examination of the papyrus at the Bodleian allowed us to make some improvements and to identify similarities with problems attested in the medieval tradition, the earliest examples of which in the Latin West are preserved in Alcuin’s collection of c. AD 800. Moreover, some features of the problem's presentation and solution find forerunners in the so-called ‘ḥ‘, or aha, problems, the majority of which are transmitted in pRhind, a mathematical papyrus copied by a scribe named Ahmes sometime in the middle of the 16th c. BC. </p>
+               <p xml:id="p2" style="text-align: left; ">Before discussing the place of P.Bodl. 1 7 within the larger tradition of mathematical problems, we first offer a revised text with translation and commentary.</p>
+            </div>
+            <div type="section">
+               <head>Reedition of P.Bod. 1 7 </head>
+               <div type="epidoc" subtype="DCLP#metadata">
+                  <div copyOf="#ed1" type="edition"/>
+                  <div copyOf="#trans1" type="translation"/>
+                  <div type="commentary">
+                     <note>
+                        <p xml:id="p3"> 1 ὃ περ⟦τι⟧αβ⟦ε̣⟧αίνων, l. ὃ παραβαίνων. An alternative reading is ὅπερ τ̣ι̣αβαίνων, l. διαβαίνων, suggested to us in correspondence by Demokritos Kaltsas, who points out that διαβάτης in Modern Greek stands for ὁδοιπόρος, παροδίτης, ‘passer-by’. However, as Kaltsas also notes, the resulting syntax with ὅπερ would then be very loose. Salomons understood ὅπερ παβαίνων for ὅπερ παραβαίνων.<lb/>4  ἐκβε\β/⟦ ̣⟧λ⟦τ⟧ημένου: The verb ἐκβάλλω seems to be used to describe the rope being cast down near the cistern, the latter being the referent of αὐτοῦ. <lb/>	ἐγγύς: Salomons read εἰτύς, l. εἰθύς, but the second letter looks more like gamma.  </p>
+                     </note>
+                     <note>
+                        <p xml:id="p4"><ref>5–6</ref> τ̣ὼν (l. τὸν) π̣ῆ̣χυ̣ν̣ τῆς χειρός: The article has the possessive meaning here, ‘a cubit of his own hand’, which is paralleled by the main character in Alcuin’s problems who adds himself to the imagined number of men in problem 2 or of sheep in 40, both discussed below.<lb/>7 ἐμέτρ⟦ε̣⟧ε̣ι̣ … ρ π(η)χ(ῶν): One may reasonably wonder why, or how, the traveler measured the assembled rope but had to determine the length of its first piece by computation.  The plausibility of details notwithstanding, there is no doubt that 100 cubits belongs to the statement of the problem. 	 <lb/>	τὸ ἐξερριμμ(ένον): We follow Salomons in printing this, albeit with considerable reservation. For one, the superimposed chi of π(η)χ(ῶν) interferes with the inserted word, giving what we believe is a false impression of the letter rho (the first rho in Salomons’ ἐξερριμμ(ένον)). Near the end of the inserted word there seems to be a further insertion resembling gamma (it could also be sigma) above the first mu; it is doubtful that this is just smudged ink from the lower part of kappa in the line above. From the standpoint of paleography, \τὸ ἐξω̣ρι\γ/ ̣μ( )/ seems to us a better reading. The letter below the gamma looks, at first glance, like mu, but the extended left-to-right ascending oblique stroke reaches farther than in any other mu. One could consider a perfect passive participle of a (hitherto unattested) compound verb ἐξοργυιόομαι (cf. ὀργυιόομαι ‘to stretch’, ‘spread out’), i.e., ἐξωρι\γ/ωμ(ένον) for ἐξωρ\γ/ιωμ(ένον), l. ἐξωργυωμένον, although that too is probably a bit of a stretch. </p>
+                     </note>
+                     <note>
+                        <p xml:id="p5"><ref>7–8</ref> τὸ α̅ κώμα π(η)χ(ῶν) λϛ … καὶ α (γίνεται) ρ. This clause combines the answer to the problem (‘the first piece is 36 cubits’) with its verification, that is, a demonstration that the quantity arrived at satisfies the conditions set out in the statement of the problem. <lb/>8 — θέλω μαθεῖν ὅτι ποσ() … Before the first theta is an ascending diagonal paragraphos sign. The theta is large and smeared and thus difficult to recognize; it is positioned at the level of the paragraphos and thus lower than the writing before the sign, with the rest of the line ascending gradually, which is possibly why Salomons treated it as a superlinear insertion above καὶ τὸ  ρ π(ή)χ(εις) at the end of line 9 and could not make sense of it. The expression belongs to the language of mathematical problems where it introduces the question about the unknown quantity to be determined, cf. problems 13, 17 and 49 in <ref target="https://papyri.info/dclp/64999">P.Cair.cat. 10758</ref> (TM <ref target="https://www.trismegistos.org/text/64999">64999</ref>) and <ref target="https://papyri.info/dclp/65020">P.Michael. 62</ref>, passim (TM <ref target="https://www.trismegistos.org/text/65020">65020</ref>). One, however, does not expect the question of the problem to be posed after its solution.  <lb/>8–9  ποσ() ἔχει τὸ α̅ κό⟦  ̣⟧μ̣μα καὶ τὸ β̅ καὶ τὸ L τῶν κώ⟦ ̣⟧μ̣α̣ καὶ τὸ : the π in ποσ( ) is corrected from an assemblage consisting of π with ο written between its legs.</p>
+                        <p xml:id="p6">	The question of the size—how many (sc. cubits)—pertains not only to the length of the first rope but to all its parts (the first rope, the second, the half and the quarter). <lb/>9–10 ρ π(ή)χ(εις) ⟦  ̣ εἰς̣ ⟧ | μέρ(ισον)  ̣ (  ̣) α̣ α, β, L, ,  ρ (παρὰ) β L : This is the method used to solve the problem: The hundred cubits, which is the length of the extended rope, is divided into the number of parts of the extended rope, which is 2 1/2 1/4. The writer evidently forgot that one cubit ‘of his own hand’ should first have been subtracted from the 100. </p>
+                        <p xml:id="p7">The first word in line 10 is abbreviated as μερ, likelier for μέρ(ισον) than for μέρ(ιζε), cf., e.g., <ref target="https://papyri.info/dclp/61614">Chester Beatty codex AC 1390</ref> (Upper Egypt, late 3rd–first half of the 4th c.; TM <ref target="https://www.trismegistos.org/text/61614">61614</ref>), where μέρισον is always spelled out. What follows it, however, is unclear. Salomons printed εἰ(ς), and the traces are compatible with a ligatured epsilon and iota, but there is no sign of an abbreviation. Next, parts of the rope are apparently added up, although there is no explicit instruction or record of the procedure, which is normally expressed with the terms σύνθες or συντίθω/συνθήσω. What we have looks somewhat like a brief note of an oral presentation: One can imagine that the person explicating the solution clarified that one piece corresponds to 1, and the other also to 1, and thus together they are 2, and then 1/2 and 1/4. All this is then summarized in a more formalized entry: 100 (sc. divide) by 2 1/2 1/4. <lb/>	⟦ ̣εἰς̣ ⟧: This reading seems to us better than ⟦  ̣εἰς̣ α̣⟧ given the horizontal stroke which is clearly visible and must have crossed the vertical of , as it does in nearly every other instance of the fraction. If the reading is correct, the erased operation, ‘(reduce) to 1/4’, would have belonged to the computation, in which both the dividend and the divisor were reduced to 1/4 to make the division easier; see below. The note, however, stands in the wrong place: One expects it to come after the operation of division is stated, i.e., after ρ (παρὰ) β L  in line 10. Perhaps the writer first skipped the calculation method and then, wanting to add it, put it in the wrong place and subsequently expunged it. Or, it could have been a marginal note—rather smudged than erased—penned after the text was completed and meant as a brief reminder that the computation should be performed by reducing to 1/4. <lb/>10 (γίνεται) τὸ α̣ κ̣ό̣μμ̣(α) λϛ π(η)χ(ῶν) τὸ \  ̣/  λϛ (καὶ) τὸ L ιη τὸ  θ (καὶ) α. It is not clear if, where we print τὸ \  ̣/  λϛ, something was inserted or some ink was simply smudged. If there was an insertion, something like τὸ \ἴσον/ or \β̅/ would make sense, but we are not sure that the traces are consistent with either reading.  </p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>Between Ahmes and Alcuin</head>
+               <p xml:id="p8" style="text-align: left; ">As we point out in the commentary, the Bodleian text displays a peculiar arrangement of constituent elements. Elsewhere in Greek papyrological evidence word problems tend to comprise a statement, often presented as a life-like situation; a question; a description of the method by which the problem is to be solved; the answer; a verification in the form of a demonstration that the answer satisfies the conditions set out in the statement.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> Cf. the discussion of the patterns of phrasing problems in papyri in P.Math., pp. 21–23.</p></note> Not all of the elements are always present in any given problem, but those that are stand in this order. The sequence of elements in the Bodleian papyrus is different. It can be rendered schematically as follows: Statement—Answer—Verification—Question—Method—Answer. At first glance, this makes little sense. The key to understanding what is going on, we believe, is furnished by the paragraphos sign in line 8, which signals a break in the text, splitting it into two parts. The part leading up to the sign is a complete and self-contained presentation of the problem, which includes the statement, answer and verification:</p>
+               <quote>
+                  <lb/>† A well located in the desert. A thirsty person came upon it and found written on top of it that ‘anyone who wants to drink from this cistern, unless he finds a rope that has the same length as and half of the piece of rope lying near it (sc. the cistern) and a quarter of it and one cubit of his own hand, will not be able to drink from the well’. And he measured the spread-out (?) rope to be 100 cubits. The first piece is 36 cubits; and 36, the result is 72; and half of 36 equals 18, (adding it) equals 90; and a quarter of 36, equals 9, and 1, totals 100 (lines 1–8).
+</quote>
+               <p xml:id="p9" style="text-align: left; ">What strikes one most about this part of the text is its resemblance to word problems conventionally labeled ‘Gott Grüß Euch-Aufgaben’, which owe their name to their common form as a story about a passerby meeting a company of people.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> For a description of the type, see <ref target="https://papyri.info/biblio/96251">Tropfke 1980</ref>: 574–575 (4.2.1.1.1); <ref target="https://papyri.info/biblio/96305">van Egmond 1996</ref>: 401.</p></note> Widely attested in the medieval tradition, these problems ask that one find the unknown quantity from the given sum of its multiples and parts and sometimes also from an additional stated amount. The collection Propositiones ad acuendos iuvenes transmitted under the name of Alcuin of York and dated to c. 800 preserves two early specimens featuring the same quantities as our papyrus does.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> For an overview of ‘Gott Grüß Euch-Aufgaben’ in Alcuin’s collection, see <ref target="https://papyri.info/biblio/96247">Folkerts 1978</ref>: 35–36.</p></note> Let us look at problem no. 2 of that collection (ed. Folkerts; our translation):  </p>
+               <quote>
+                  <lb/>
+                  <seg style="font-style: italic;">Propositio de viro ambulante in via</seg>
+               </quote>
+               <p xml:id="p10" style="text-align: left; ">No. 40 in the collection is the exact same except that a man sees sheep instead of other men, while a problem in a 15th-century Byzantine manuscript (Cod. Vindob. phil. gr. 65, no. 46) has a man meet dancing girls.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; "> Cf. <ref target="https://papyri.info/biblio/96248">Hunger and Vogel 1963</ref>: 95, where further examples are cited; <ref target="https://papyri.info/biblio/96251">Tropfke 1980</ref>: 574–575.</p></note> In all these problems, just as in the Bodleian papyrus, the task in abstracto is to find a number such that adding to it itself, its half, its quarter and 1 results in 100.  </p>
+               <p xml:id="p11" style="text-align: left; ">Besides having the same mathematical content, the versions in the Bodleian papyrus (lines 1–8) and in Alcuin’s collection as exemplified by no. 2 also have similar sets of elements and both omit the method for solving the problem, which is rather unusual for problems in papyri but characteristic of those phrased as epigrams and preserved mostly in Book 14 of the Anthologia Palatina. The differences are largely those of style: The story on the papyrus is fitting for an Egyptian environment (φρέαρ ἐν ἐρήμῳ, ‘a well in the desert’), its question is not explicitly stated but implied, and the record of the answer and demonstration is very condensed.  </p>
+               <p xml:id="p12" style="text-align: left; ">The two-and-a-half lines of the papyrus text after the paragraphos sign in line 8 not only have little in common with the later medieval version but also seem to defy logic: They open by formulating the question of the problem, even though the answer to it has already been stated, and then they give the method of solving it and (again) the answer. The sequence Question—Method—Answer would, however, be perfectly reasonable had it followed the statement directly. What seems to have happened is that the writer conceived of and/or received lines 1–8 as a complete presentation of the problem, which included its answer with verification but omitted the method for solving it. The writer then amplified the problem in the second part of the text, after the paragraphos, by writing how one was to solve it. Consequently, taking out the answer given in the first part, τὸ α̅ κώμα, l. κόμα, … (γίνεται) ρ in lines 7–8, produces a version with a very conventional structure for problems in papyri: Statement—Question—Method—Answer: </p>
+               <quote>
+                  <lb/>† A well located in the desert. A thirsty person came upon it and found written on top of it that ‘anyone who wants to drink from this cistern, unless he finds a rope that has the same length as and half of the piece of rope lying near it (sc. the cistern) and a quarter of it and one cubit of his own hand, will not be able to drink from the well’. And he measured the spread-out (?) rope to be 100 cubits. … I want to know how much are the 1st piece and the 2nd and half of the pieces and a quarter. 100 cubits divide by(?) 1 (and) 1, (that is) 2, 1/2, 1/4. 100 (divided) by 2 1/2 1/4. The result is that the first piece is 36 cubits, the (second?) 36, and a half is 18, (and) a quarter is 9; and 1. 
+</quote>
+               <p xml:id="p13" style="text-align: left; ">This version differs from that in Alcuin’s collection and from that in the first part of the papyrus text. First of all, the two versions have different tasks. To judge from the answer in the first part of the papyrus text (‘the first piece is 36 cubits’, l. 7) and in Alcuin’s version (‘the men first seen were 36’), the composers of those texts saw the task as determining one unknown quantity, just as we would. However, the question of the problem formulated in the second part of the papyrus, after the paragraphos, pertains to the lengths of all parts of the rope. This indicates that for the composer of these lines the task was to determine all the summands and that for him the problem had several unknowns. A similar concept of computing the unknown quantity and all its stated parts is found in some of the ‘ḥ‘, or aha, problems preserved in Egyptian papyri. In these problems, the majority of which are preserved in the Rhind mathematical papyrus, a large roll inscribed with mathematical problems and tables copied by the scribe Ahmes in ca. 1550 BC,<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; "> For the translations and interpretation of ‘ḥ‘ problems in pRhind and pMoscow we follow <ref target="https://papyri.info/biblio/96302">Imhausen 2002</ref>; <ref target="http://www.apple.com/de/">Imhausen 2003</ref>: 39–53. </p></note> an unknown quantity referred to as ‘ḥ‘ (aha) is to be determined on the basis of a stated transformation of it. In particular, the group of problems pRhind nos 24–27, in which a quantity and a fraction of it are added and the resulting quantity is stated, compute not only the unknown quantity but also its parts. The importance of this feature was pointed out long ago by Otto Neugebauer who, noting that ‘bei den ‘ḥ‘-Rechnungen eigentlich die Bestimmung mehrerer Unbekannten (d.h. der wirklichen einzelnen Summanden) das Ziel der Rechnung ist,’<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/96303">Neugebauer 1931</ref>: 314.</p></note> emphasized the need to understand the difference between the modern interpretation and the perception of the Egyptian computer: </p>
+               <quote>
+                  <lb/>Daß es sich offenbar um zwei gesuchte Größen handelt, scheint mir besonders beachtenswert und für den Unterschied zwischen moderner und ägyptischer Betrachtungsweise charakteristisch. Der modernen Auffassung genügt es, die  eine Unbekannte <seg style="font-style: italic;">x</seg> zu bestimmen, welche der vorgelegten linearen Gleichung genügt; der Ägypter dagegen sucht <seg style="font-style: italic;">nach den einzelnen Summanden</seg>, aus denen sich die gegebene rechte Seite aufbauen soll, und nennt sie demgemäß einzeln im Resultat.<note place="foot" xml:id="ftn8" n="8">
+                     <p style="text-align: left; "> <ref target="https://papyri.info/biblio/96303">Neugebauer 1931</ref>: 308.</p>
+                  </note>
+               </quote>
+               <p xml:id="p14" style="text-align: left; ">This point has been recently elaborated on by Annette Imhausen who, while also warning against an anachronistic interpretation of ‘ḥ‘ problems as equivalent to linear equations with one unknown, demonstrates how algorithms used to solve them could serve as the basis for a typological distinction.<note place="foot" xml:id="ftn9" n="9"><p style="text-align: left; "> See <ref target="https://papyri.info/biblio/96249">Imhausen 2001</ref>; <ref target="https://papyri.info/biblio/96302">Imhausen 2002</ref>; <ref target="http://www.apple.com/de/">Imhausen 2003</ref>: 35–53.</p></note> In other words, while all ‘ḥ‘ problems in pRhind might be the same for a modern observer, they were different for the scribe who copied them, depending on what question was asked and what method was used to answer it. The writer, or whomever he followed, of the Bodleian papyrus seems to have perceived the problem he copied in lines 1–8 differently from what the answer to it recorded in lines 7–8 would suggest, and in a way that may have been more aligned with a centuries-old tradition. </p>
+               <p xml:id="p15" style="text-align: left; ">As for the method of solving the problem, nothing is said in the first part of the papyrus about how the value of 36 cubits for the first piece of rope in line 7 has been arrived at and there are no solutions<note place="foot" xml:id="ftn10" n="10"><p style="text-align: left; "> We note that the Latin term solutio in Alcuin corresponds to the answer and verification, while our 'solutions' refers to the method by which the problem was solved.</p></note> for any of the problems in Alcuin’s collection.<note place="foot" xml:id="ftn11" n="11"><p style="text-align: left; "> The later medieval tradition attests application of the method of false position, as, for example, in problem 46 of Cod. Vindob. phil. gr. 65, which is mathematically identical to the one in the Bodleian papyrus and to Alcuin’s nos. 2 and 40; see <ref target="https://papyri.info/biblio/96248">Hunger and Vogel 1963</ref>: 105.</p></note> The second part of the papyrus text, however, contains some indication, even if not a full explication, of the method used. The procedure is described very succinctly, with no introductory clause such as ‘this is how it should be done’ or ‘I do it this way’ vel sim., nor are its stages clearly marked. Yet, the first step appears to be the addition of all the parts of the extended rope, which is what must be meant in the beginning of line 10 (α̣ α, β, L, ,), as confirmed by the divisor in the division ρ (παρὰ) β L , which immediately follows and constitutes the second step. </p>
+               <p xml:id="p16" style="text-align: left; ">How this division was carried out is not recorded, although traces at the end of line 9 suggest a possibly deleted note about reducing to 1/4, (ἀνάλυσον) εἰς , an operation that would facilitate the division with a divisor which contains a fractional part.<note place="foot" xml:id="ftn12" n="12"><p style="text-align: left; "> Reducing to 1/n of a number containing a fractional part <seg style="font-style: italic;">m</seg>/<seg style="font-style: italic;">n</seg> means finding a number, one-<seg style="font-style: italic;">n</seg>th of which would be an integer; in our case it would be 4. For the operation of ‘reduction,’ cf. problems in <ref target="https://papyri.info/dclp/63556">P.Mich. 3 145</ref> (TM <ref target="https://www.trismegistos.org/text/63556">63556</ref>) with comm. to ΙΙΙ.v.1–4.</p></note> It is likely, however, that our writer did not actually compute the division, because had he done so, he might have noticed that a necessary step had been left out from his algorithm. Indeed, he forgot to subtract the one cubit from the 100 cubits of the ‘extended’ rope, which comprised 2 1/2 1/4 parts of the first piece and one cubit: The dividend in the division by 2 1/2 1/4 ought to have been 99, not 100! That the given answer is correct was surely owed not to computations in which our writer disregarded the fractional part of the quotient (for, 100 ÷ 2 1/2 1/4 = 36 1/3 1/33), but to his taking the answer from the solution and verification of the problem in lines 7 to 8. Despite this confusion, it is possible to restore quite plausibly the method with which the problem was intended to be solved. It must have run something like the following, with the omitted step in angular brackets:</p>
+               <p xml:id="p17" style="text-align: left; ">1) subtract 1 from 100, the difference is 99;&gt;</p>
+               <p xml:id="p18" style="text-align: left; ">2) add together all parts of the rope, 1, 1, 1/2 and 1/4, the result is 2 1/2 1/4;</p>
+               <p xml:id="p19" style="text-align: left; ">3) divide 99 by 2 1/2 1/4, (reduce 2 1/2 1/4 to 1/4, the result is 11, reduce 99 to 1/4, the result is 396, 1/11 of which is 36)<note place="foot" xml:id="ftn13" n="13"><p style="text-align: left; "> We put in parentheses the method of computing the division as we cannot be sure that the expunged marginal note refers to it, likely as it might seem.</p></note>;</p>
+               <p xml:id="p20" style="text-align: left; ">4) the first rope is 36; the same is 36; the half is 18; the quarter is 9; and 1.</p>
+               <p xml:id="p21" style="text-align: left; ">The steps recorded on the papyrus find parallels in algorithms of a number of ‘ḥ‘ problems in pRhind, in which an unknown quantity and a number of its parts are added and the result of the addition is given (Group 2 in Imhausen’s classification, which comprises pRhind 30–34 and pMoscow 25)<note place="foot" xml:id="ftn14" n="14"><p style="text-align: left; "> For classification of the ‘ḥ‘ problems, cf. <ref target="https://papyri.info/biblio/96302">Imhausen 2002</ref> and <ref target="http://www.apple.com/de/">Imhausen 2003</ref>: 39–53.</p></note>. For example, in pRhind 32, ‘A quantity, its 1/3 and its 1/4 (sc. added) to it so that 2’. Solving the problem consists of two steps, just like it does in the Bodleian papyrus, an addition and a division: First, all parts are added together (1 + 1/3 + 1/4 = 1 1/3 1/4) and then their sum, given in the statement, is divided by the number of parts (2 ÷ 1 1/3 1/4). </p>
+               <p xml:id="p22" style="text-align: left; ">In the majority of transmitted ‘ḥ‘ problems, there is no ‘extra’ quantity added to the number of parts of the unknown, which would correspond to the one cubit in the Bodleian problem. In the only case where there is, the computer is fully aware that it must be first subtracted from the given sum: This is the case in pMoscow 19, in which a quantity calculated one and a half times together with 4 comes to 10 (Group 3) and in the solution of which the scribe first subtracts 4 from 10. It might be that our writer—or whomever he followed—was accustomed to solving problems without that ‘additional quantity’, and this caused his confusion.</p>
+               <p xml:id="p23" style="text-align: left; ">Now we can sum up our observations about the Bodleian papyrus. Clearly divided into two parts, it combines a text that shows striking similarities in content and structure to the ‘Gott Grüß Euch-Aufgaben’ of the later tradition, the earliest examples of which are preserved in the Latin West in Alcuin’s collection, with a text that reflects concepts and algorithms whose roots can be traced back to Pharaonic mathematical techniques. It seems plausible to us that the first, larger part of the text may have circulated either separately or as part of a collection that comprised problems with their solutions and verifications, much as Alcuin’s later collection did. The colorful scenario and ‘nice’ integer quantities might indicate an origin in the Hellenistic or early Roman period, when problems dressed up as stories seem to become popular, a trend culminating in mathematical epigrams in Book 14 of the Anthologia Palatina.<note place="foot" xml:id="ftn15" n="15"><p style="text-align: left; "> For a relatively early papyrological example attesting literary efforts in formulating the statement of a problem cf. P.Vindob. G26011e, in which a statue complains to Zeus about losing parts of its weight to various agents (TM <ref target="https://www.trismegistos.org/text/63194">63194</ref>; 1st c., Soknopaiou Nesos) = <ref target="https://papyri.info/dclp/63194">MPER 15 179</ref>, reedited in <ref target="https://papyri.info/biblio/96188">Lougovaya 2021</ref>.</p></note> By the time our writer recorded it, the narrative seems to have deteriorated in the process of copying or oral transmission, losing plausibility in its depicted scene<note place="foot" xml:id="ftn16" n="16"><p style="text-align: left; "> The ‘fact’ that the traveler could measure the final rope to be 100 cubits but not the original piece might defy common sense but does not bear on the mathematical basis of the problem.  </p></note> but preserving the catchiest elements—the well, the rope, the thirsty passerby, as well as the numerical values of the variables. The same, or similar, model must have ended up transmitted to the Latin West, where the ‘scenario’ was changed.</p>
+               <p xml:id="p24" style="text-align: left; ">The second, smaller part of the text, clearly written by the same person, may have been copied from a different source, which contained the same problem but a differently phrased question and a solution. It seems likelier, however, that it was the product of a discussion in which, for example, a teacher took the text of the first part as the starting point and then proceeded to formulate the task and explain its solution. In the environment where that discussion took place the problem was perceived as having several unknown quantities, not just one, and the algorithm used to solve it may have had its roots in the Pharaonic tradition. What we have on the papyrus could thus be the record of how a problem, which was possibly transmitted through a written source, was interpreted and solved at one particular instance somewhere in the Egyptian countryside, a process that usually took place orally and, if not for the papyrus, would have left no trace in the copying tradition that perpetuated the problem around the larger Mediterranean and beyond. </p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96305">van Egmond, Warren (1996)</ref>: “Types and traditions of mathematical problems: a challenge for historians of mathematics,” in M. Folkerts (ed), Mathematische Probleme im Mittelalter. Der lateinische und arabische Sprachbereich, Wiesbaden: 379-428.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96247">Folkerts, M. (1978)</ref> Die älteste mathematische Aufgabensammlung in lateinischer Sprache: Die Alcuin zugeschriebenen Propositiones ad Acuendos Iuvenes (Österreichische Akademie der Wissenschaften Mathematisch-naturwissenschaftliche Klasse, Denkschriften 116/6), Vienna. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96248">Hunger, H., and Vogel, K. (1963)</ref> Ein byzantinisches Rechenbuch des 15. Jahrhunderts (Österreichische Akademie der Wissenschaften, Philosophisch-historische Klasse, Denkschriften 78/2), Vienna.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96249">Imhausen, A. (2001)</ref> “Die aHa-Aufgaben der ägyptischen mathematischen Texte und ihre Lösungen,” in C.-B. Arnst, I. Hafemann and A. Lohwasser (eds), Begegnungen. Antike Kulturen im Niltal, Leipzig: 213–220.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96302">Imhausen, A. (2002) </ref>“The Algorithmic Structure of the Egyptian Mathematical Problem Texts,” in J. Steele and A. Imhausen (eds), Under One Sky. Astronomy and Mathematics in the Ancient Near East. Proceedings of the Conference held in the British Museum, London, June 25–27, 2001 (AOAT 297), Münster: 147–166.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96250">Imhausen, A. (2003)</ref> Ägyptische Algorithmen. Eine Untersuchung zu den mittelägyptischen mathematischen Aufgabentexten, Wiesbaden. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96188">Lougovaya, J. (2021)</ref> “A Statue’s Weight Problem. Reedition of P.Rain.Unterricht 179, ” ZPE 220: 254–258.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96303">Neugebauer</ref>, O. (1931) “Arithmetik und Rechentechnik der Ägypter,” in O. Neugebauer, J. Stenzel and O. Toeplitz (eds), Quellen und Studien zur Geschichte der Mathematik, Astronomie und Physik, Abteilung B: Studien, Bd. 1, Berlin: 301–380.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96251">Tropfke, J. (1980)</ref> Geschichte der Elementarmathematik. Band 1: Arithmetik und Algebra. Fourth edition, revised by K. Vogel, K. Reich and H. Gericke, Berlin / New York. </bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Digital Corpus of Literary Papyri</authority>
+               <idno type="filename"/>
+               <idno type="dclp"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Digital Corpus of Literary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement/>
+                     </placeName>
+                  </msIdentifier>
+                  <history>
+                     <origin>
+                        <origPlace>unbekannt</origPlace>
+                        <origDate>unbekannt</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref></p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/>† φρέαρ ἐν ἐρήμῳ κείμενον <app type="editorial"><lem>ὃ <choice><reg>παραβαίνων</reg><orig>περ<del rend="erasure">τι</del>αβ<del rend="erasure"><unclear>ε</unclear></del>αίνων</orig></choice></lem><rdg resp="Salomons (pi and second alpha ex corr.)">ὅπερ παβαίνων</rdg></app> τις 
+<lb n="2"/>διψῶν <app type="editorial"><lem>ε<del rend="erasure"><gap reason="illegible" quantity="1" unit="character"/></del>ὗρ<del rend="erasure">γ</del>εν</lem><rdg resp="Salomons (ex εωργεν, l. ηὗρεν)">εὗρεν</rdg></app> ἐπάνω αὐτοῦ <choice><reg>γεγραμμένον</reg><orig>γεραμμένον</orig></choice> ὅτι ὁ θέλων
+<lb n="3"/><choice><reg>πιεῖν</reg><orig>πε<hi rend="circumflex">ῖ</hi>ν</orig></choice> ἐκ τούτου τοῦ λάκκου εἰ μ<del rend="erasure">ο<unclear>ι</unclear></del>ὴ <choice><reg>εὕρῃ</reg><orig>εὕροι</orig></choice> <expan>σχο<ex>ινίον</ex></expan> ἔχον τὸ<hi rend="diaeresis">ἴ</hi>σον
+<lb n="4" rend="outdent"/> καὶ τὸ <num value="1/2">L</num> τοῦ <app type="editorial"><lem>ἐκβε<add place="above">β</add><del rend="erasure"><gap reason="illegible" quantity="1" unit="character"/></del>λ<del rend="erasure">τ</del>ημένου</lem><rdg resp="Salomons"><subst><add place="inline">ἐκβεβλημένου</add><del rend="corrected">εκβε<unclear>π</unclear>τημενου</del></subst></rdg></app> <app type="editorial"><lem>ἐγγὺς</lem><rdg resp="Salomons"><choice><reg>εὐθὺς</reg><orig>εἰτὺς</orig></choice></rdg></app> αὐτοῦ κό<del rend="erasure">γ</del>μματο<supplied reason="omitted">ς</supplied> <expan>σχο<ex>ινίου</ex></expan>
+<lb n="5"/>καὶ τὸ <num value="1/4">d</num> <expan>μέρ<ex>ος</ex></expan> αὐτοῦ καὶ <del rend="erasure"><gap reason="illegible" quantity="1" unit="character"/></del> <app type="editorial"><lem><choice><reg>τὸν</reg><orig><unclear>τ</unclear>ὼν</orig></choice> <unclear>πῆ</unclear>χ<unclear>υν</unclear></lem><rdg resp="Salomons"><unclear>τ</unclear>ὼ <unclear>ἐ</unclear><gap reason="illegible" quantity="2" unit="character"/>χ<gap reason="illegible" quantity="2" unit="character"/></rdg></app>
+<lb n="6"/><app type="editorial"><lem>τῆς χειρὸς</lem><rdg resp="Salomons"><choice><reg>τῇ χειρὶ</reg><orig>τῆς χειρὸς</orig></choice></rdg></app> οὐκ <choice><reg>ἐγχωρεῖ πιεῖν</reg><orig>ἐνχωρεῖ πεῖν</orig></choice> ἐκ τοῦ <app type="editorial"><lem>φρέατος</lem><rdg resp="Salomons"><subst><add place="inline">φρέατος</add><del rend="corrected">φρεατους<certainty match=".." locus="value"/></del></subst></rdg></app>
+<lb n="7"/>καὶ ἐμέτρ<del rend="erasure"><unclear>ε</unclear></del><unclear>ει</unclear> <add place="above">τὸ <expan>ἐ<unclear>ξερ</unclear>ριμμ<ex>ένον</ex></expan></add> <num value="100">ρ</num> <expan>π<ex>η</ex>χ<ex>ῶν</ex></expan>. τὸ <hi rend="supraline">α</hi> <choice><reg>κόμμα</reg><orig>κώμα</orig></choice> <expan>π<ex>η</ex>χ<ex>ῶν</ex></expan> <num value="36">λϛ</num>· <app type="editorial"><lem><unclear>κ</unclear><supplied reason="lost">α</supplied><unclear>ὶ</unclear></lem><rdg resp="Salomons"><expan>ὁ<ex cert="low">μοίως</ex></expan></rdg></app> <num value="36">λϛ</num> <expan><ex>γίνεται</ex></expan> <num value="72">οβ</num>· <expan><ex>καὶ</ex></expan> τὸ <num value="1/2">L</num> <unclear>τῶν</unclear> <num value="36">λϛ</num>,
+<lb n="8"/><expan><ex>γίνεται</ex></expan> <num value="18">ιη</num>, <expan><ex>γίνεται</ex></expan> <num value="90">ϙ</num>· <expan><ex>καὶ</ex></expan> τὸ <num value="1/4"></num> τῶν <num value="36">λϛ</num>, <expan><ex>γίνεται</ex></expan> <num>θ</num>, καὶ <num value="1">α</num> <expan><ex>γίνεται</ex></expan> <num value="100">ρ</num>. <app type="editorial"><lem>—</lem><rdg resp="pap.">—</rdg></app> <app type="editorial"><lem>θέλω μαθ<add place="above">εῖ</add><del rend="erasure">ι</del>ν ὅτι <del rend="erasure"><gap reason="illegible" quantity="1" unit="character"/></del> <abbr>ποσ</abbr></lem><rdg resp=" Salomons"><gap reason="illegible" quantity="2" unit="character"/>ελωμα <abbr>θιε</abbr> ν <gap reason="illegible" quantity="1" unit="character"/>τισ<gap reason="illegible" quantity="2" unit="character"/>ς</rdg></app>
+<lb n="9"/>ἔχει τὸ <hi rend="supraline">α</hi> κό<del rend="erasure"><gap reason="illegible" quantity="1" unit="character"/></del><unclear>μ</unclear>μα καὶ τὸ <hi rend="supraline">β</hi> καὶ τὸ <num value="1/2">L</num> τῶν <choice><reg>κομμάτων</reg><orig>κώ<del rend="erasure"><gap reason="illegible" quantity="1" unit="character"/></del><unclear>μα</unclear></orig></choice> καὶ τὸ <num value="1/4"></num>. <num value="100">ρ</num> <expan>π<ex>ή</ex>χ<ex>εις</ex></expan> <app type="editorial"><lem><del rend="erasure"><gap reason="illegible" quantity="1" unit="character"/> εἰ<unclear>ς</unclear> <num value="1/4"></num></del></lem><rdg resp="Salomons om."/></app>
+<lb n="10"/><app type="editorial"><lem><expan>μέρ<ex>ισον</ex></expan> <gap reason="illegible" quantity="1" unit="character"/> <gap reason="lost" atLeast="0" atMost="1" unit="character"/> <num value="1"><unclear>α</unclear></num> <num value="1">α</num>, <num value="2">β</num>, <num value="1/2">L</num>, <num value="1/4"></num>,</lem><rdg resp="Salomons"><expan>μέρ<ex>ιζε</ex></expan> <expan>εἰ<ex>ς</ex></expan> α α <expan><ex>ἥμισυ τέταρτον</ex></expan>, <expan><ex>ἥμισυ</ex></expan>, <expan><ex>τέταρτον</ex></expan></rdg></app>· <num value="100">ρ</num> <expan><ex>παρὰ</ex></expan> <num value="2">β</num> <num value="1/2">L</num> <num value="1/4"></num>, <app type="editorial"><lem><expan><ex>γίνεται</ex></expan> τὸ <unclear>α</unclear> <expan><unclear>κό</unclear>μ<unclear>μ</unclear><ex>α</ex></expan> λϛ</lem><rdg resp="Salomons"><expan>γί<ex>νονται</ex></expan> <unclear>ψοί</unclear>φο<unclear>ις</unclear> λϛ</rdg></app> <expan>π<ex>η</ex>χ<ex>ῶν</ex></expan>, τὸ <add place="above"><gap reason="illegible" quantity="1" unit="character"/></add> <num value="36">λϛ</num> <expan><ex>καὶ</ex></expan> τὸ <num value="12">L</num>, <num value="18">ιη</num>, τὸ <num value="1/4"></num>, <num value="9">θ</num>, <expan><ex>καὶ</ex></expan> <num value="1">α</num>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main"/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+            <p>
+† A well located in the desert. A thirsty person came upon it and found written on top of it that ‘anyone who wants to drink from this cistern, unless he finds a rope that has the same length as and half of the piece of rope lying near it (sc. the cistern) and a quarter of it and one cubit of his own hand, will not be able to drink from the well’. And he measured the spread-out (?) rope to be 100 cubits. The first piece is 36 cubits; and 36, the result is 72; and half of 36 equals 18, (adding it) equals 90; and a quarter of 36, equals 9, and 1, totals 100. — I want to know how long are the 1st piece and the 2nd and half of the pieces and a quarter. 100 cubits divide by(?) 1 (and) 1, (that is) 2, 1/2, 1/4. 100 (divided) by 2 1/2 1/4. The result is that the first piece is 36 cubits, the (second?) 36, and a half is 18, (and) a quarter is 9; and 1. 
+            </p>
+         </div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
