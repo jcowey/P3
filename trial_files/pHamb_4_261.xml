@@ -162,8 +162,8 @@
     <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve"><ab>
        <lb n="1" xml:id="ed1ln1"/><expan><ex>ἔτους</ex></expan> <num value="4">δ</num>
 <table>
-    <row xml:id="ed1ln2">
-        <cell style="text-align: left;"><lb n="2"/>Φαμεν<unclear>ὼθ</unclear></cell>
+    <row n="2" xml:id="ed1ln2">
+        <cell style="text-align: left;">Φαμεν<unclear>ὼθ</unclear></cell>
         <cell><space quantity="5" unit="character"/></cell>
         <cell> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num></cell>
     </row>
