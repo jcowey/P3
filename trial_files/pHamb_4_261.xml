@@ -142,7 +142,7 @@
             <head xml:lang="en"/>
             <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan><ex>ἔτους</ex></expan> <num value="4">δ</num>
-    <lb n="2"/>Φαμεν<unclear>ὼθ</unclear> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num>
+    <lb n="2" xml:id="ed1ln2"/>Φαμεν<unclear>ὼθ</unclear> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num>
     <lb n="3"/>Φαρμο<unclear>ῦθι</unclear> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num>
     <lb n="4"/>Παχὼν <expan><ex>τάλαντον</ex></expan> <num value="1">α</num>
     <lb n="5"/>Παῦνι <num value="5000">Ε</num>
@@ -160,9 +160,9 @@
 
                 <!-- Suggestion for how to embed the table. Line 1 and line 16 are taken as not being part of the table. -->
     <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve"><ab>
-       <lb n="1"/><expan><ex>ἔτους</ex></expan> <num value="4">δ</num>
+       <lb n="1" xml:id="ed1ln1"/><expan><ex>ἔτους</ex></expan> <num value="4">δ</num>
 <table>
-    <row>
+    <row xml:id="ed1ln2">
         <cell style="text-align: left;"><lb n="2"/>Φαμεν<unclear>ὼθ</unclear></cell>
         <cell><space quantity="5" unit="character"/></cell>
         <cell> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num></cell>
