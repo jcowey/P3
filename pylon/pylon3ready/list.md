@@ -1,6 +1,6 @@
 # Pylon 3 articles (ordered as received for processing)
 
-1. Deac,	A Letter by a Member of the Legio III Cyrenaica
+1. **_HTML_**: [Deac,	A Letter by a Member of the Legio III Cyrenaica](https://digi.ub.uni-heidelberg.de/editionService/viewer/p3test/deac_legio_cyrenaica)
 
 2. Lougovaya - Ast,	Between Ahmes and Alcuin: P.Bodl. 1 7 Revisited
 
