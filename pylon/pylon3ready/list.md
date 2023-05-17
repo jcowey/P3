@@ -4,7 +4,7 @@
 
 2. **_HTML_**: [Lougovaya - Ast,	Between Ahmes and Alcuin: P.Bodl. 1 7 Revisited](https://digi.ub.uni-heidelberg.de/editionService/viewer/p3test/ast_lougovaya_ahmes)
 
-3. Vanderheyden,	P.Ghent inv. 47 completed. A Coptic letter from Apa Diane to Dioscorus of Aphrodito
+3. **_HTML_**: [Vanderheyden,	P.Ghent inv. 47 completed. A Coptic letter from Apa Diane to Dioscorus of Aphrodito](https://digi.ub.uni-heidelberg.de/editionService/viewer/p3test/vanderheyden_ghent47_completed)
 
 4. Moser, P.DimeData 34v – Eine griechische Privatabrechnung aus Soknopaiu Nesos mit neuen Belegen für den Ortsnamen Halmyra
 
