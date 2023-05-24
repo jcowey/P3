@@ -11,6 +11,10 @@
 5. Lougovaya, Scholia minora to Iliad 1.1–12: P.Berol. 5014 Revisited
 
 6. Berkes, Bonnerot, Krutzsch, Nehring, Rabin, Richter, Mixed inks in two Coptic documents from the Hermopolite region relating to lease business
+
+7. Claytor, Gewerbesteuerquittung für einen Zimmerman aus der Frankfurter Papyrussammlung
+
+8. Berkes, Rent Receipt
  
 
 
