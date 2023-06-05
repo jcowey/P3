@@ -12,7 +12,7 @@
 
 6. Berkes, Bonnerot, Krutzsch, Nehring, Rabin, Richter, Mixed inks in two Coptic documents from the Hermopolite region relating to lease business
 
-7. Claytor, Gewerbesteuerquittung für einen Zimmerman aus der Frankfurter Papyrussammlung
+7. **_HTML_**: [Claytor, Gewerbesteuerquittung für einen Zimmerman aus der Frankfurter Papyrussammlung](https://digi.ub.uni-heidelberg.de/editionService/viewer/p3test/claytor_frankfurt_86)
 
 8. Berkes, Rent Receipt
  
