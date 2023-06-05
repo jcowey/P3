@@ -14,7 +14,7 @@
 
 7. **_HTML_**: [Claytor, Gewerbesteuerquittung für einen Zimmerman aus der Frankfurter Papyrussammlung](https://digi.ub.uni-heidelberg.de/editionService/viewer/p3test/claytor_frankfurt_86)
 
-8. Berkes, Rent Receipt
+8. **_HTML_**: [Berkes, Rent Receipt](https://digi.ub.uni-heidelberg.de/editionService/viewer/p3test/berkes_rent)
  
 
 
