@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mixed inks in two Coptic documents from the Hermopolite region relating to lease business</title>
+            <author>
+               <name>
+                  <forename>Lajos</forename>
+                  <surname>Berkes</surname>
+               </name>
+               <affiliation>Humboldt-Universität zu Berlin, Burgstraße 26, D-10099 Berlin</affiliation>
+               <email>berkesla@hu-berlin.de; </email>
+            </author>
+            <author>
+               <name>
+                  <forename>Grzegorz</forename>
+                  <surname>Nehring</surname>
+               </name>
+               <affiliation>Bundesanstalt für Materialforschung, Unter den Eichen 44–46, D-12203 Berlin</affiliation>
+               <email>grzegorz.nehring@bam.de; </email>
+            </author>
+            <author>
+               <name>
+                  <forename>Olivier</forename>
+                  <surname>Bonnerot</surname>
+               </name>
+               <affiliation>Universität Hamburg, Warburgstraße 26, D-20354 Hamburg; Bundesanstalt für Materialforschung, Unter den Eichen 44–46, D-12203 Berlin</affiliation>
+               <email>olivier.bonnerot@uni-hamburg.de; </email>
+            </author>
+            <author>
+               <name>
+                  <forename>Myriam</forename>
+                  <surname>Krutzsch</surname>
+               </name>
+               <affiliation>Ägyptisches Museum Berlin und Papyrussammlung SMB, Geschwister-Scholl-Str. 6, D-10117 Berlin</affiliation>
+               <email>m.krutzsch@smb.spk-berlin.de; </email>
+            </author>
+            <author>
+               <name>
+                  <forename>Ira</forename>
+                  <surname>Rabin</surname>
+               </name>
+               <affiliation>Universität Hamburg, Warburgstraße 26, D-20354 Hamburg; Bundesanstalt für Materialforschung; Unter den Eichen 44–46, D-12203 Berlin</affiliation>
+               <email>ira.rabin@bam.de; </email>
+            </author>
+            <author>
+               <name>
+                  <forename>Tonio Sebastian</forename>
+                  <surname>Richter</surname>
+               </name>
+               <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Jägerstr. 22/23, D-10117 Berlin; Freie Universität Berlin, Fabeckstr. 23–25, D-14195 Berlin</affiliation>
+               <email>sebastian.richter@fu-berlin.de.</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2023-06-12T14:44:30Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Mixed inks in two Coptic documents from the Hermopolite region relating to lease business</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1" style="text-align: justify;">Fig. 1. Photographs in reflected and transmitted light: a-b) P 11934, c-d) 11935. © M. Krutzsch.</p>
+            <div type="section">
+               <head>1. Introduction</head>
+               <p xml:id="p2" style="text-align: justify;">In this article, we present two Coptic papyri, P 11934 and P 11935 from the Berlin collection (Fig. 1) excavated in Ashmunein (ancient Hermopolis) by Otto Rubensohn in 1906. We employ a multi-disciplinary approach that takes into account both their materiality – writing support as well as ink – and their content. We aim at presenting the papyri, which were selected because of the ink corrosion during conservation work at the Berlin collection, in a format, which is exhaustive both for material and textual aspects. The inks from both papyri were analysed using a combination of techniques, contributing to our better understanding of the development of ink technology in Late Antiquity.</p>
+            </div>
+            <div type="section">
+               <head>2. Material Description (Myriam Krutzsch)</head>
+               <p xml:id="p3" style="text-align: justify;">Both documents consist of a completely preserved single sheet, except for a small part missing in P 11935. The state of preservation of both papyri can be defined as stable. The texts run parallel to the fibres on the recto. The stains on the verso of P 11935 are the result of ink that has bled through.</p>
+               <p xml:id="p4" style="text-align: justify;">The papyri differ in their materiality, not only in terms of colour, but also in shape (almost square for P 11934 and elongated for P 11935) and other properties as listed in Table 1. It is noteworthy that both documents have cut edges.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: justify; "> Similar sheet shapes, in both portrait and landscape format, can be found among demotic letters. For details, see Depauw 2006, 71–77.</p></note></p>
+               <figure>
+                  <graphic n="1003"
+                           width="11.618738888888888cm"
+                           height="5.042958333333333cm"
+                           url="media/image3.jpeg">
+                     <desc>Picture 2</desc>
+                  </graphic>
+               </figure>
+               <p xml:id="p5">Fig. 2. Detail of the papyrus structure: a) P 11934, b) 11935. </p>
+               <p xml:id="p6" style="text-align: justify;">The study of the fibre structure using photography and microscopy in transmitted light helps identify the higher quality of the papyrus of P 11935 as compared to that of P 11934. Note the contrast between the extremely dense fibre structure of P 11934, leading to a compact and opaque appearance (cf. fig. 1b and 2a), as opposed to the regularly spaced and quasi-transparent appearance of P 11935 (cf. fig. 1d and 2b). Table 1 summarizes the properties of the papyri determined during the preparative stage of the conservation work.</p>
+               <p xml:id="p7" style="text-align: justify;">Table 1. Physical description of the papyri.</p>
+               <table>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">P 11934
+                     </cell>
+                     <cell style="text-align: center;">P 11935
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <p><seg style="font-weight: bold;">Dimensions </seg></p>
+                        <p style="text-align: left;">   (H x W x thickness)</p>
+                     </cell>
+                     <cell style="text-align: center;">113 x 130 x 0.28-0.35 mm</cell>
+                     <cell style="text-align: center;">276 x 87 x 0.29-0.36 mm</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Preservation state
+                     </cell>
+                     <cell style="text-align: center;">
+                        <p style="text-align: center;">completely preserved; firm;</p>
+                        <p style="text-align: center;">only individual small holes</p>
+                     </cell>
+                     <cell style="text-align: center;">
+                        <p style="text-align: center;">flexible; tears and breaks; one small missing part;</p>
+                        <p style="text-align: center;">left edge slightly frayed</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Sheet 
+                     </cell>
+                     <cell style="text-align: center;" cols="2">no sheet joins could be found;</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">   Type</cell>
+                     <cell style="text-align: center;" cols="2">no information can be given about the type of the original sheets, because the present documents present cut-outs of the larger sheets</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">   Opacity</cell>
+                     <cell style="text-align: center;">opaque</cell>
+                     <cell style="text-align: center;">mostly transparent</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">   Surface texture </cell>
+                     <cell style="text-align: center;">recto and verso: smooth and matt</cell>
+                     <cell style="text-align: center;">recto and verso: smooth and matt</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">verso: striped</cell>
+                     <cell style="text-align: center;">verso: striped</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">   Colour</cell>
+                     <cell style="text-align: center;">recto: ochre and dark brown ochre</cell>
+                     <cell style="text-align: center;">recto: middle yellow ochre</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">verso: ochre, dark ochre, and dark brown ochre</cell>
+                     <cell style="text-align: center;">verso: vivid yellow ochre, and dark ochre</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Fibres
+                     </cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">   Type  (number / 7 mm)</cell>
+                     <cell style="text-align: center;">recto: 7 fine and 4 medium fibres</cell>
+                     <cell style="text-align: center;">recto: 3 fine and 6 medium fibres</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">verso: 5 fine and 6 medium fibres</cell>
+                     <cell style="text-align: center;">verso: 6 fine and 5 medium fibres</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">   Density</cell>
+                     <cell style="text-align: center;">dense</cell>
+                     <cell style="text-align: center;">loose</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">   Course</cell>
+                     <cell style="text-align: center;">recto: slightly wavy</cell>
+                     <cell style="text-align: center;">recto: straight</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">verso: almost straight</cell>
+                     <cell style="text-align: center;">verso: slightly slanted</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">in relation to each other: slightly oblique</cell>
+                     <cell style="text-align: center;">in relation to each other: almost 90°</cell>
+                  </row>
+               </table>
+               <figure>
+                  <graphic n="1004"
+                           width="6.657908333333333cm"
+                           height="10.000002777777778cm"
+                           url="media/image4.jpeg">
+                     <desc>Grafik 6</desc>
+                  </graphic>
+               </figure>
+               <p xml:id="p14" style="text-align: justify;">�<note place="margin" type="conversion" resp="#teitodocx">unable to handle picture here, no embed or link</note> </p>
+               <p xml:id="p15" style="text-align: justify;">Fig. 3. P 11935: a) Outline drawing with folding lines and the sequence of folds; b) cross section of the proposed folding. © M. Krutzsch.</p>
+               <p xml:id="p16" style="text-align: justify;">Single sheet documents such as letters were usually folded in one or in two directions.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: justify; "> Krutzsch 2006, 167–195.</p></note> The horizontal fold lines found on the present documents indicate that they were folded in one direction only. No folding could be reconstructed from the three faintly seen horizontal fold lines on P 11934.</p>
+               <p xml:id="p17" style="text-align: justify;">In contrast to P 11934, there are traces of eight horizontal folds on P 11935 (see fig. 3a). Based on the shape of the folding lines, their distances from each other and whether they run in the recto in the recto or verso direction, the folding can sometimes be reconstructed with certainty. In the present case, the reconstruction results in a rod folding<note place="foot" xml:id="ftn3" n="3"><p style="text-align: justify; "> Rod folding results from the folding in one direction only, Krutzsch 2008, 76.</p></note> of a rather unconventional form (see fig. 3b). The lower half of the sheet was probably folded three times from bottom up to the middle of the sheet. The folds in the upper half of the sheet, on the other hand, run from the top to the middle. There are fourfold breaks, but they have left fivefold lines, because the third fold goes over two sheet layers. The fourth fold is, so to speak, the end of the rod folding, since this last fold causes the upper part to rest on the lower one.</p>
+            </div>
+            <div type="section">
+               <head>3. Edition of the documents (Lajos Berkes – T. Sebastian Richter)</head>
+            </div>
+            <div type="section">
+               <head>3.1. Document declaring exemption from rent (<emph rend="italics">remissio mercedis</emph>)</head>
+               <table>
+                  <row>
+                     <cell style="text-align: left;">P 11934</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">6th–7th century</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Hermopolite</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">Text area: ca. 10,5 x 12,3 cm</cell>
+                  </row>
+               </table>
+               <p xml:id="p18" style="text-align: justify;">A few spots on the upper part of the papyrus are abraded and thus unreadable. The text was written parallel to the fibres. The back is blank. The somewhat clumsy handwriting tends to be quadrilinear and slightly sloping to the right. The document seems to have been written by a single scribe, probably the reader (ἀναγνώστης) Ioannes, son of Colluthus, who added his subscription in Greek at the bottom. He employs supralinear strokes and tremas. The two supralinear corrections, idiosyncratic spellings, as well as the succinct formulation show that we are dealing with a semi-professional scribe. The handwriting of the document would be difficult to date on its own, but parallels for the Greek formula at the bottom and the abbreviations used,<note place="foot" xml:id="ftn4" n="4"><p style="text-align: justify;"> Especially the fact that we only find a few raised letters to indicate them, as was usual in the 7th–8th century. Ἑρ(μοῦ) π(όλεως), ερπ pap., in l. 11 and ἰνδικ(τίων)ο(ς), ϊνδικο̣ pap., in l. 12 are abbreviated with raised letters, but these were common abbreviations already in the 6th century. </p></note> suggest a date in the second half of the 6th or early 7th century. An earlier date is unlikely, since Coptic legal documents only appear around the mid-6th century.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: justify; "> See Fournet 2020, 76–111.</p></note></p>
+               <p xml:id="p19" style="text-align: justify;">The background of this document can be reconstructed as follows: Ioannes, son of Colluthus, reader of an unnamed church in the city of Hermopolis, owned an aroura (ca. 2756 m2) of irrigated land called Hibou. He leased it to a son of Petra whose name is lost. The lease document (l. 3 mentions “your <emph rend="italics">misthōsis</emph> that you wrote me”) must have included a clause for the reduction of rent (<emph rend="italics">remissio mercedis</emph>) in case some circumstance prevented the sowing of the land. </p>
+               <p xml:id="p20" style="text-align: justify;">The Roman law of <emph rend="italics">locatio conductio</emph> allowed for risk assumption by the lessor (<emph rend="italics">periculum locatoris</emph>) in cases of force majeure (<emph rend="italics">vis maior</emph>), and by the lessee (<emph rend="italics">periculum conductoris</emph>) in cases of minor accident (<emph rend="italics">causa minor</emph>).<note place="foot" xml:id="ftn6" n="6"><p style="text-align: justify; "> Backhaus 2004; Ernst 2004; Kaser 1957; Kaser/Knütel 2003, 276 § 42,9f.; Miquel 1964; Molnár 1982; Müller 2002; Sitzia 1978.</p></note> In the realm of land leases, a discount or suspension of rent payments (<emph rend="italics">remissio mercedis</emph>) could be granted.<note place="foot" xml:id="ftn7" n="7"><p style="text-align: justify; "> De Neeve 1983; Frier 1989/90; Mayer-Maly 1956, 140–147.</p></note> Egyptian papyri attest a practice following similar principles,<note place="foot" xml:id="ftn8" n="8"><p style="text-align: justify; "> See Steinwenter 1956, 267–271 and the list of Greek lease documents with abrochos clauses in Hennig 1972, 118 n. 29 (earliest examples from the later 3rd century). In the majority of examples the reduction of rent applied in cases of insufficient flood (e.g. BGU 6 1270.20: τῆς δὲ γενομένης γῆς ἀ̣β̣[ρό]χου and similar in P.Frankf. 1,13ff. <emph rend="italics">et passim</emph>); in other cases, also accidents such as soil carried away by the flood (ποταμοφόρητος) or silted soil are included (e.g. P.Amh. 2 85, 15ff., 78 CE). On <emph rend="italics">abrochos</emph> clauses see Vandoni 1965; Herrmann 1958, 161f.; Bonneau 1994; Habermann 1997, 218–220.</p></note> and some Byzantine Greek and the Coptic lease documents (e.g., P.Ryl.Copt. 158, P.Lond.Copt. 1 1067, O.CrumVC 33) provide special clauses to envisage the possibility of absent inundation. </p>
+               <p xml:id="p21" style="text-align: justify;">Our document does not specify the cause impeding agricultural work but simply states in lines 8–9: <emph rend="italics">because you have not tilled it </emph>(ⲡⲉⲕϫⲟⲥ for ⲙⲡⲉⲕϫⲟⲥ) <emph rend="italics">this year for which you leased it</emph>. Some Coptic and Greek lease documents mention reduction by a half (e.g. P.Ryl.Copt. 158, P.Lond.Copt. 1 1067) or a third (e.g. P.Lond. 5 1770)<note place="foot" xml:id="ftn9" n="9"><p style="text-align: justify; "> Lines 11–12: τῷ ἀβρόχῳ] | – τὸ μὴ εἴη   – τοῦ τρίτου μέρους τοῦ προειρημένου φόρου      “… in (case of) remaining unwatered – may it not happen! – the third part of the rent agreed upon before”.</p></note> of the originally agreed sum, and our document explicitly confirms the lessor’s claim to receive a third share. Since, then, 1.5 artabs of wheat and 1.5 artabs of barley are being remitted, the full rent must have originally been 4.5 artabas of wheat and barley respectively, which would be in line with the usual range of rents for an aroura in Coptic lease documents. </p>
+               <div type="epidoc" subtype="DDB">
+                  <div copyOf="#ed1" type="edition"/>
+                  <div copyOf="#trans1" type="translation"/>
+                  <div type="commentary">
+                     <note target="#ed1lin1">
+                        <ref>1-2</ref>
+                        <p xml:id="p22"> ⲓ<seg style="font-weight: bold;">̈</seg>ⲱⲁⲛⲛⲏⲥ<seg style="font-weight: bold;"> … </seg>ⲡⲉ<seg style="font-weight: bold;">ϥ</seg>ⲥ<seg style="font-weight: bold;">ϩ</seg>ⲁⲓ<seg style="font-weight: bold;">. </seg>For the syntax of this (almost exclusively Hermopolite) type of clause, see Richter 2017.</p>
+                     </note>
+                     <note target="#ed1lin2">
+                        <ref>2</ref>
+                        <p xml:id="p23"> ⲛ<seg style="font-weight: bold;">̄</seg>ⲓ<seg style="font-weight: bold;">̣̈  ̣ [  ̣ ]  ̣  ̣ .</seg> We have not been able to decipher the name of the addressee.</p>
+                        <p xml:id="p24">The last letter was perhaps ⲧ, the one before could have been ⲏ or ϯ.</p>
+                     </note>
+                     <note target="#ed1lin3">
+                        <ref>3</ref>
+                        <p xml:id="p25"> ⲧ<seg style="font-weight: bold;">]</seg>ⲉⲕⲙⲓⲥⲧⲏⲥ. The context “in keeping with the force of your ⲙⲓⲥⲧⲏⲥ which you drew up for me” ensures that the word ⲙⲓⲥⲧⲏⲥ means a (lease) document. Although the article is lost in a gap, its (female) gender becomes explicit in the resumptive pronoun ⲥ(ϩ)ⲁⲓ⸗ⲥ. Despite unparalleled morphological anomalies, including the unusual replacement of ⲑ by ⲧ (as again in ⲙⲓⲥⲧⲟⲩ l. 9), there can be no doubt that it stands for μίσθωσις, the standard type of lease document which was, by default, drawn up by the lessee for the lessor. </p>
+                     </note>
+                     <note target="#ed1lin4">
+                        <ref>4</ref>
+                        <p xml:id="p26"> ⲕⲟⲩⲫⲓⲥⲉ<seg style="font-weight: bold;">.</seg> The Greek fiscal term κουφίζω ‘to relieve’, is well attested in Coptic documentary papyri, see Förster 2002, s.v.</p>
+                     </note>
+                     <note target="#ed1lin6">
+                        <ref>6</ref>
+                        <p xml:id="p27"> ⲧⲥⲓⲧⲓⲓ<seg style="font-weight: bold;">̈</seg>ⲱ<seg style="font-weight: bold;">ϩ</seg>ⲉ<seg style="font-weight: bold;">.</seg> For this term, see Richter 20082, s.v. ⲥⲉⲧⲉⲓⲱϩⲉ.</p>
+                     </note>
+                     <note target="#ed1lin6">
+                        <ref>6</ref>
+                        <p xml:id="p28"> ⲙ<seg style="font-weight: bold;">̄</seg>ⲫⲟⲓ<seg style="font-weight: bold;">̈ </seg>ⲛ<seg style="font-weight: bold;">̄ϩ</seg>ⲓⲃⲱⲩ<seg style="font-weight: bold;">̈.</seg> As far as we know, the toponym Hibou has not been attested yet. For the meaning of ϩⲟⲓ̈ “water wheel, plot of land irrigated by a water wheel, thus, irrigated land” see Richter 20082, s.v. ϩⲟⲓ I. The fact that this plot received irrigation by a water-lifting device indicates that the accident which triggered <emph rend="italics">remissio mercedis</emph> was probably not caused by the flood.</p>
+                     </note>
+                     <note target="#ed1lin8">
+                        <ref>8</ref>
+                        <p xml:id="p29"> ⲡⲉⲕ<seg style="font-weight: bold;">ϫ</seg>ⲟⲥ<seg style="font-weight: bold;">.</seg> This verb, meaning “to sow”, is standard in Coptic lease documents, see Richter 20082, s.v. ϫⲟ; it epitomizes the whole range of agricultural work to be done by the tenant. Compare the wording of the <emph rend="italics">abrochos</emph> clause in P.Ryl.Copt. 158, a <emph rend="italics">misthōsis</emph> from Ashmunein (line 28–29): ⲡϣⲟ ⲇⲉ ⲧⲟ ⲙⲏ ⲅⲉⲛⲟⲓⲧⲟ ⲉϥϣⲁⲛϣⲱⲡⲉ ⲕⲁⲛ ⲁⲓϫⲟ ⲕⲁⲛ ⲛⲡⲓϫⲟ ⲕⲁⲛ ⲁϩⲱⲃ ⲛⲓⲙ ⲉⲡⲁⲡⲛⲟⲩⲧⲉ ⲡⲉ ϣⲱⲡⲉ ⲧⲁⲧⲓ ⲧⲡⲁϣⲉ ⲛⲡⲓⲫⲟⲣⲟⲥ                   “as for the sand [i.e. dusty, unwatered soil], if it happens (may it not happen!) no matter whether I have tilled or not tilled (ⲛⲡⲓϫⲟ), or whether anything belonging to God should have happened, I will give you the half of this rent.” </p>
+                     </note>
+                     <note target="#ed1lin9">
+                        <ref>9-10</ref>
+                        <p xml:id="p30"> ⲕⲁⲧⲁ ⲡⲁ<seg style="font-weight: bold;">|</seg>ⲟⲩⲱⲱⲛ ⲛ<seg style="font-weight: bold;">̄ϣ</seg>ⲟⲙⲏ<seg style="font-weight: bold;">̄</seg>ⲧ: “according to my third share” might mean, according to the agreement in the original lease document that the lessor is entitled to receive the third share of the full, unreduced rent amount in the case of <emph rend="italics">remissio mercedis</emph>.</p>
+                     </note>
+                     <note target="#ed1lin11">
+                        <ref>11-12</ref>
+                        <p xml:id="p31"> This grammatically incorrect phrase recurs in the subscriptions of P.Stras. 4 287.7–10 (Herm., 6th c.).<note place="foot" xml:id="ftn10" n="10"><p style="text-align: justify; "> The hand of this document can be indeed dated to the 6th century, as we have been able to confirm on a photo kindly provided to us by Paul Heilporn.</p></note> As discussed by Jean Straus in the note <emph rend="italics">ad locum</emph>, χείρ equals χειρόγραφον, and, interestingly, we find in many other papyri the designation of the document in the accusative at this position. </p>
+                     </note>
+                     <note target="#ed1lin12">
+                        <ref>12</ref>
+                        <p xml:id="p32"> 13th/14th October.</p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">3.2. Receipt of land tax received and paid by monks</seg>
+               </head>
+               <table>
+                  <row>
+                     <cell style="text-align: left;">P 11935</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">7th–8th century</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Hermopolite</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">Text area: ca. 20,7 x 7 cm</cell>
+                  </row>
+               </table>
+               <p xml:id="p33" style="text-align: justify;">The text is written parallel to the fibres. The back is blank. The cursive, quadrilinear handwriting slants to the right and suggests an experienced scribe who might have been Solomon, the monk who issued the receipt. As in the case of the previous document, the handwriting does not provide <emph rend="italics">per se</emph> a solid criterion for dating the document. However, the genre and terminology are typical of the early Islamic period, when Egyptian monasteries produced a plethora of tax documents.</p>
+               <p xml:id="p34" style="text-align: justify;">The receipt is issued by Solomon, a monk of the Holy Monastery of Apa Anoup, to two other friars, Peter and Makare from the Monastery of Apa Ieremias. These two monasteries figure together with the Hermopolite monastery of Apa Apollo in P.Mon.Apoll. 11 (7th c.), which documents the aparchē collection for the monasteries. While the Monastery of Apa Apollo was no doubt the well-known one at Bawit, the location of the other two remains more elusive. Our evidence suggests that the Monastery of Apa Anoup, named after Apa Apollo’s companion, could have been situated at modern Banub, east of Bawit. There are, however, more candidates for the monastery of Apa Ieremias. Assuming that our papyrus was unearthed at Ashmunein and that the monks of the Monastery of Apa Ieremias would have been the ones to keep it, we may expect that the institution was located in or near the city. The only known monastery named after Apa Ieremias in Ashmunein was inhabited by nuns and can thus be excluded. Another one, which is also referenced in texts from Bawit, lay south of Antinoe. The famous Monastery of Apa Ieremias at Saqqara and another one further to the South near to Bala’izah can probably also be excluded, because of the close connection of the Monastery of Apa Ieremias to that of Apa Anoup in our text and P.Mon.Apoll. 11. In fact, in her edition of the latter text, Sarah Clackson suggested that these two monasteries (together with that of Apa Makare) were ‘subsumed in the general organization of the Monastery of Apa Apollo to the extent that they were considered subdivisions of that monastery.’ Overall, our document raises more questions than answers as to the location of the Monastery of Apa Ieremias: was it located in Ashmunein or was the document only found there for another, unknown reason?<note place="foot" xml:id="ftn11" n="11"><p style="text-align: justify; "> For a detailed discussion of the identification and the location of these monasteries, see P.Mon.Apollo, p. 23 and 32–33, and (for Apa Anoup) also Benaissa 2014, 207.</p></note></p>
+               <p xml:id="p35" style="text-align: justify;">P 11935 acknowledges the transfer of one <emph rend="italics">trimessis</emph> for the land tax (δημόσιον) for a plot of land (‘the fields of Pital’) from the addressed party to the issuing party. Both parties are represented by monks, and no public authority is involved. The liability for the land tax was an issue between landowners and the state, and therefore a financial issue to be settled between landlords and their tenants in lease contracts. Greek (as well as Demotic) lease documents from Ptolemaic and Roman times, and then again Arabic lease documents from the late 8th century onwards, make explicit statements as to the distribution of the land tax between lessor and lessee. Byzantine Greek lease documents, however, do not, which is usually interpreted as evidence of the lessor’s unquestioned liability for tax payments. In Coptic lease documents the situation differs according to different places. 8th-century lease documents from the Fayyum mention the payment of <emph rend="italics">embolē </emph>tax. Some of the Coptic lease documents from the wider Theban area deal with <emph rend="italics">dēmosion</emph> and make different arrangements as to its liability. Coptic <emph rend="italics">misthōsis</emph> documents from the Hermopolite region, however, conform to the usage of Byzantine Greek documents and never mention <emph rend="italics">dēmosion</emph>. Yet the word is often found in Coptic texts from this region, which is due to the documentary record of monasteries where <emph rend="italics">dēmosion</emph> occurs in various contexts, some close to ours. The closest parallel to P 11935 is P.Bawit Clackson 22, a receipt of a solidus received for <emph rend="italics">dēmosion</emph>, drawn up by the archimandrite of the monastery for a monk.<note place="foot" xml:id="ftn12" n="12"><p style="text-align: justify; "> 1| ⳨ ⲡⲉⲧⲣⲉ ⲡⲉⲡⲣⲟⲓ̈ⲥⲧⲟⲥ ⲡⲉⲧⲥ-  2| ϩⲁⲓ̈ ⲙⲡⲁⲥⲟⲛ ⲡϣⲱⲓ̈ ϫⲉⲓ̈ⲥ ⲟⲩ- 3| ϩⲟⲗⲟⲕⲟⲧⲛ ⲁⲃⲓ̈ ⲉⲧⲟⲧ ϩⲉ- 4| ⲙⲧⲉⲙⲟⲥⲉ ⲙⲃⲏⲛⲉ ⲙⲡⲟⲟⲩ 5| ⲛϩⲟⲟⲩ ⲉⲧⲉ ⲥⲟⲩ ⲓ̈ⲉ ⲙⲡⲁⲣⲉⲙ- 6| ϩⲟⲧⲡ ⲛⲧⲓ̈ⲣⲟⲡⲉ ⲧⲁⲓ̈ ⲧⲉⲕⲁ- 7| ⲧⲏⲥ ⲑⲱⲙⲁⲥ ⲡⲉⲧⲥϩⲁⲓ̣̈ 8| ⲡⲉⲧⲣⲉ ⲡ[ⲉⲡⲣⲟⲓ̈ⲥⲧⲟⲥ ⲥⲧⲏⲭⲉ + ] “It is Petre the <emph rend="italics">proestōs </emph>who writes to the friar Pshōi: Lo a solidus came to me as the <emph rend="italics">dēmosion </emph>of Bēne today, day 15 of Phamenōt of this being tenth year of indiction. It is Thomas who writes. Petre the [<emph rend="italics">proestōs </emph>agrees].”</p></note> </p>
+               <p xml:id="p36" style="text-align: justify;">Further documents contextualizing ours are P.Mon.Apollo 1–3, which are of the aforementioned type of agreements relating to the collection of <emph rend="italics">aparchē</emph>, ‘first fruit’ which is specified here as “the <emph rend="italics">dēmosion </emph>for the <emph rend="italics">xth</emph> indiction year”. Other Bawit documents relating to <emph rend="italics">dēmosion </emph>include, e.g.: </p>
+               <p xml:id="p37" style="text-align: justify;">- P.Mon.Apollo 25, a ‘renouncement’ (<emph rend="italics">apotagē</emph>) stipulating the transfer of responsibility for a plot of monastic land including the liability for its <emph rend="italics">dēmosion</emph> from the issuing monk to fellow monks,<note place="foot" xml:id="ftn13" n="13"><p style="text-align: justify; "> ⲁⲕⲛⲟϭⲥ ⲉϫⲱϥ ⲉⲧⲣⲉⲃⲥⲱⲕ ϩⲁⲛⲉⲥⲇⲏⲙⲟⲥⲓⲟⲛ “you cast it (<emph rend="italics">i.e., </emph>the plot of land, <emph rend="italics">resp</emph>. responsibility for it) to him (the issuer’s fellow-monk) so that he shall be liable (<emph rend="italics">lit</emph>. ‘draw’) for its taxes (<emph rend="italics">dēmosion</emph>)”.</p></note> </p>
+               <p xml:id="p38" style="text-align: justify;">- P.Louvre Bawit 7,<note place="foot" xml:id="ftn14" n="14"><p style="text-align: justify; "> Line 2: … ϩⲛⲛⲉⲇⲏⲙ(ⲟⲥⲓⲟⲛ) ⲛϯⲣⲟⲙⲡ(ⲉ) ⲧⲁⲓ ⲓⲇ … “as<emph rend="italics"> dēmosia </emph>for this … i(n)d(iction) year …”</p></note> </p>
+               <p xml:id="p39" style="text-align: justify;">- P.Louvre Bawit 41,<note place="foot" xml:id="ftn15" n="15"><p style="text-align: justify; "> Line 1: (ⲧ)ⲉⲧⲛⲧⲁϩⲟ ⲛⲛⲉⲛⲇⲏⲙⲟⲥⲓⲟⲛ … [ … ]ⲧ̣ⲛⲛⲟⲟⲩⲥⲟⲩ ⲛⲧⲟⲟⲧϥ ⲛⲡⲁⲥⲟⲛ ⲓ̈ⲁⲕⲱⲃ… “you have set up our <emph rend="italics">dēmosia </emph>… [we will] send them through the friar Jacob”).</p></note> </p>
+               <p xml:id="p40" style="text-align: justify;">- P.Louvre Bawit 50, an official letter of the pagarch to the village heads and apparently also the authorities of the Bawit monastery, referring to writs that he received ⲉⲧⲃⲉ ⲡ̣ⲗⲟⲓⲡⲟ̣ⲥ̣ ⲛ̣ⲉⲇⲏⲙⲟⲥⲓⲟⲛ̣ [ … ] ⲙⲛ ⲡⲥⲉⲉⲡⲉ ⲛⲉⲥⲧⲓⲭⲉ ⲧ̣ⲁⲣⲛⲡⲗⲏⲣⲟ̣[ⲩ] “concerning the remaining <emph rend="italics">dēmosia</emph> [ … ] and the rest of the <emph rend="italics">stichoi</emph>, that we shall pay in full [ … ]”. </p>
+               <p xml:id="p41" style="text-align: justify;">Another monastic dossier attesting to <emph rend="italics">dēmosion </emph>is P.Yale inv. 1804, a bilingual documentary codex supposedly from the Monastery of Apa Sourous in Antinoopolis.<note place="foot" xml:id="ftn16" n="16"><p style="text-align: justify; "> The Coptic parts are reedited in Richter 2009b.</p></note> In the bilateral contract A14 →, supposedly an <emph rend="italics">emphyteusis</emph> document, one party stipulates to the other the payment of <emph rend="italics">dēmosion</emph>. In A15 →, a <emph rend="italics">misthōsis</emph> document, the lessee agrees on the payment of <emph rend="italics">dēmosion </emph>to the lessor (being the monastery), and A16 → provides fragments of an account of money received or paid for titles such as <emph rend="italics">dēmosion</emph> ‘(land) tax’ and <emph rend="italics">chorēgion</emph> (ⲭⲩⲣⲉϭⲙ) ‘maintenance’ on single days of the months Pauni and Epeiph. Only one Coptic receipt of <emph rend="italics">dēmosion</emph> ‘land tax’ from a supposedly non-monastic context is known to us, CPR 4 142, an acknowledgement of receipt of 5 gold carats for the <emph rend="italics">dēmosion</emph> of the plot of arable land tilled by the addressee for the <emph rend="italics">karpos </emph>of the 15th indiction, which was issued by a <emph rend="italics">presbyteros</emph> to a farmer. Contemporary Greek receipts of <emph rend="italics">dēmosion</emph> ‘land tax’ or <emph rend="italics">dēmosia</emph> ‘(public) taxes’ are drawn up by public authorities (e.g. the 6th-century P.Lond. 5 1665), but there are also examples of estate managers or lessors issuing them to tenants.<note place="foot" xml:id="ftn17" n="17"><p style="text-align: justify; "> See e.g. SPP 32 1.35 (Ars., 7th–8th c.) with Sven Tost’s discussion at p. 60 and SPP 32 1.38 (Ars., 7th c.) with Sven Tost’s discussion at p. 122.</p></note></p>
+               <p xml:id="p42" style="text-align: justify;">How should we imagine the arrangement behind this rather informal tax receipt? While the general context is clear, some aspects of the business remain obscure, since we cannot establish in what exact capacity the monks involved were acting. Let us suppose that the monastery of Apa Anoup would have rented the fields of Pital for cultivation to the monastery of Apa Ieremias. In this case, Peter and Makare would have been the managers of this land on behalf of the monastery of Apa Ieremias and Solomon would have collected the land tax from them, for which the monastery of Apa Anoup would still have been liable.</p>
+               <p xml:id="p43" style="text-align: justify;">Solomon, as a monk involved in internal tax collection, would have forwarded the payment to the monastic administration, which, in turn, would have delivered it together with all its other tax payments to agents of the Hermopolite pagarchy. However, it is also possible that Solomon himself was the lessee of his own monastery and that he subleased the fields of Pital to the two other monks of the Apa Ieremias monastery. Thus, while not much would change in terms of tax-collection, the setting of the lease would be a very different one. However, the close connection of the two monasteries involved (see above) suggests that some sort of institutional collaboration is a more likely scenario.<note place="foot" xml:id="ftn18" n="18"><p style="text-align: justify; "> On leasing in monasteries and by monks, see Richter 2009a.</p></note> </p>
+               <div type="epidoc" subtype="DDB">
+                  <div copyOf="#ed2" type="edition"/>
+                  <div copyOf="#trans2" type="translation"/>
+                  <div type="commentary">
+                     <note target="#ed2lin11">
+                        <ref>11-12</ref>
+                        <p xml:id="p44"> ⲛⲉ<seg style="font-weight: bold;">|ϩ</seg>ⲓⲟⲓ<seg style="font-weight: bold;">̈ </seg>ⲡⲓ<seg style="font-weight: bold;">̈</seg>ⲧⲁⲗ. As to our knowledge, this toponym has not been attested yet.</p>
+                     </note>
+                     <note target="#ed2lin13">
+                        <ref>12-13</ref>
+                        <p xml:id="p45"> ⲙⲏⲧ<seg style="font-weight: bold;">ϫ</seg>ⲓ<seg style="font-weight: bold;">|</seg>ⲙⲏⲛ ⲛ<seg style="font-weight: bold;">̄</seg>ⲡⲉⲃⲟⲧ ⲭⲓ<seg style="font-weight: bold;">̈</seg>ⲁⲭ<seg style="font-weight: bold;">.</seg> 14th/15th December.</p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>4. Analysis of Inks (Grzegorz Nehring, Olivier Bonnerot, Ira Rabin)</head>
+               <p xml:id="p46" style="text-align: justify;">The ink from both fragments (P 11934 and P 11935) was analysed according to the standard protocol developed at the Bundesanstalt für Materialforschung und -prüfung (BAM) and the Centre for the Study of Manuscript Cultures (CSMC).<note place="foot" xml:id="ftn19" n="19"><p style="text-align: justify; "> See for example Rabin 2015 or Nehring et al. 2021.</p></note> In short, it consists of an initial photographic screening, followed by in-depth analyses such as X-ray fluorescence (XRF) or vibrational (Fourier-transform infrared and Raman) spectroscopy when relevant. In this work, we conducted XRF measurements for elemental analysis, and Raman spectroscopy to check for the presence of elemental carbon in the ink. We performed the initial photographic screening with a Dino-Lite USB microscope (model AD4113T-I2V). This device features magnification ranging from 20 to 200 times and is equipped with built-in near-infrared (NIR) and ultraviolet (UV) lights at ~940 nm and ~395 nm, respectively, and an external LED white light source. The preliminary screening allows one to differentiate between three main types of black writing inks: (1) carbon-based ink consisting of soot particles suspended in an aqueous binder solution, (2) iron-gall ink being a product of a chemical reaction between iron ions with tannins, and (3) plant or tannin ink which is an extract of tree bark or gall nuts. The determination is based on the differences in optical properties. In contrast to iron-gall and plant ink, carbon ink remains unchanged under NIR light. Iron-gall ink loses its opacity, becoming totally transparent only at some 1300-1400 nm, while plant ink becomes completely transparent under NIR illumination. Unfortunately, this method delivers no unequivocal result for mixed inks like those used in the documents presented here. Recently, we could show that such inks (inks produced by adding carbon to plant or iron-gall inks) were often used in the first centuries of the common era.<note place="foot" xml:id="ftn20" n="20"><p style="text-align: justify; "> Ghigo et al. 2020.</p></note> In these cases, further technique(s), such as infrared photography at longer wavelengths or Raman spectroscopy are needed to unequivocally identify the presence of the carbon component. The tannic component is quite difficult to determine non-destructively. Yet, UV illumination sometimes provides an indication, since tannins noticeably quench the fluorescence of the organic support be it parchment, paper, or papyrus.<note place="foot" xml:id="ftn21" n="21"><p style="text-align: justify; "> Rabin 2015.</p></note></p>
+               <figure>
+                  <graphic n="1006"
+                           width="11.6205cm"
+                           height="6.3835138888888885cm"
+                           url="media/image5.jpeg">
+                     <desc>Picture 1</desc>
+                  </graphic>
+               </figure>
+               <table>
+                  <row>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Fig. 4. Micrographs from P 11934 (top row, third omicron from <seg style="font-weight: bold;">{</seg>ⲥ<seg style="font-weight: bold;">}</seg>ⲟⲩ<seg style="font-weight: bold;">{</seg>ⲟⲩ<seg style="font-weight: bold;">}</seg>ⲟ ⲙ︤ⲛ̂,5<seg style="font-weight: bold;">th</seg> line) and P 11935 (bottom row, hori from ϩⲓⲟⲓ̈, <seg style="font-weight: bold;">12th<seg style="font-weight: bold;"> line</seg>
+                        </seg>) photographed with the Dino-Lite microscope. From left to right: UV, VIS, NIR illumination.</cell>
+                  </row>
+               </table>
+               <p xml:id="p47" style="text-align: justify;">In fig. 4 we compare micrographs under UV (1st column), visible (2nd column) and NIR (3rd column) illumination.  The constant opacity of the ink in the images of the top row (P 11394) indicates the use of carbon ink. Though no indication of the presence of a metal or tannin could be found here, we routinely conduct an XRF scan to exclude the presence of metals whose presence would not change the overall optic response of the ink<note place="foot" xml:id="ftn22" n="22"><p style="text-align: justify; "> Colini et al. 2018.</p></note>.</p>
+               <p xml:id="p48" style="text-align: justify;">By contrast, the images of the bottom row suggest the co-presence of carbon (intense black colour of the ink in the NIR micrograph) and tannin in the ink of P 11935. Note the pronounced halo that accompanies the letter in the UV and VIS micrographs but completely disappears under NIR light. In addition, the papyrus is seriously damaged just within the area of the halo: it is cracked, and fragments of the letter are missing. This form of degradation usually results from the corrosive action of the copper or iron in inks<note place="foot" xml:id="ftn23" n="23"><p style="text-align: justify; "> Steemers 2000.</p></note>.  </p>
+               <p xml:id="p49" style="text-align: justify;">To unequivocally determine whether elemental carbon is present in the ink, we tested the ink in both papyri using a Renishaw in-via Raman spectrometer specially adapted for study of manuscripts. Our Raman spectrometer is equipped with an open configuration microscope, a CCD camera for signal registration and a dual fibre optic probe connected to the lasers operating at 532 and 785 nm. It has a spectral range of 100 - 3600 cm-1 with a spectral resolution of 4 cm-1. We carried out the measurements with the 532nm laser line, using a x100 magnification Leica objective with long working distance, and an output power of about 1.4 mW. 20 to 100 scans were co-added per spectrum collected with 1-5 s exposure.</p>
+               <p xml:id="p50" style="text-align: justify;">Fig. 5 shows how the Raman spectra of the inks from both documents under study compared to that of self-made carbon ink used as a reference. The specific pattern of the spectra with two bands centred at ~1340 cm-1 and 1560 cm-1 is characteristic of carbonaceous materials confirming the identification of carbon via NIR photography.<note place="foot" xml:id="ftn24" n="24"><p style="text-align: justify; "> The exact position, relative intensity and width of these bands varies depending on several factors such as experimental conditions, crystallite size, the presence of impurities etc. For detailed discussion see Coccato et al. 2015.</p></note> </p>
+               <figure>
+                  <graphic n="1007"
+                           width="10.616847222222223cm"
+                           height="8.195027777777778cm"
+                           url="media/image6.jpeg">
+                     <desc>Grafik 12</desc>
+                  </graphic>
+               </figure>
+               <p xml:id="p51" style="text-align: justify;">Fig. 5. Representative Raman spectra of ink from P 11935 (top), ink from </p>
+               <p xml:id="p52" style="text-align: justify;">P 11934 (middle) and of reference carbon ink (bottom).</p>
+               <p xml:id="p53" style="text-align: justify;">To consider other possible components of the inks we conducted XRF analysis to determine the elemental composition of inks. We first performed the analysis of 6 spots on inscribed and non-inscribed areas of P 11935 in situ using an Elio (Bruker / XGLab GmbH) portable XRF-spectrometer. This compact spectrometer features an interaction spot of 1 mm, a 4W X-ray rhodium (Rh) tube, a 17 mm2 silicon drift detector (SDD). All measurements were conducted in air atmosphere at 40kV, 80µA, 120s acquisition time per spot.</p>
+               <p xml:id="p54" style="text-align: justify;">Later, however, both papyri, P 11934 and P 11935 were brought to the BAM for investigation, so we could use an imaging μ-XRF spectrometer M6 Jetstream (Bruker GmbH). This device features focusing X-ray optics, variable interaction spots, and high-speed scanning. It is equipped with a low-power Rh X-ray tube, a 50 mm2 Xflash SDD detector, and two microscopes for positioning. Full size scanning was conducted in air atmosphere, at 50kV, 600μA and an interaction spot of 100 µm. Since we had limited time for the analysis, we adjusted the acquisition parameters using all the previous results. To answer the question whether any metals were present in the ink of P 11934, we chose a long acquisition time (30 ms / pixel) at a lower spatial resolution (250µm / pixel size) resulting in 210816 spectra. In the case of P 11935, we could reduce the sensitivity since the XRF spot analysis had already revealed that the ink abundantly contained metals. A detailed image of P 11935 was achieved with a short acquisition time of 7 ms/pixel at a higher spatial resolution (100 µm / pixel size) resulting in 1254686 spectra.</p>
+               <p xml:id="p55" style="text-align: justify;"><graphic n="1008" width="12.719355555555556cm" height="9.313333333333333cm" url="media/image7.jpeg"><desc>Grafik 9</desc></graphic>Fig. 6. XRF spectra representative of inks (solid curves) and papyrus (broken curves). The spectra correspond to the areas of interest in the scans of P 11934 (a), P 11935 (b), and spot analysis of P 11935 (c). The non-annotated peaks at 2.7 and 2.96 keV are due to rhodium from X-ray tube and argon in the air, respectively.</p>
+               <p xml:id="p56" style="text-align: justify;">The simplest way to qualitatively identify metals in the inks is to compare the spectra of inscribed and non-inscribed areas. However, it is crucial to compare the representative spectra or, in other words, to use statistically valid sampling. When working with extremely heterogeneous writing surfaces such as papyrus, a spot analysis is at a strong disadvantage as compared to the scanning one. However, by choosing a sufficient number of micro spots or a relatively large spot, one can overcome the disadvantage. In this work, we were lucky to be able to use both sampling methods in the study of P 11935 and we will see below that we obtained the same result. The XRF spectra of fig. 6a result from the averaging of 98 spectra collected on the letter “ⲟ” from the word ⲡⲕⲁⲣⲡⲟⲥ (end of 7th line) and 99 spectra from the non-inscribed area below this letter. Comparison of the spectra of the inscribed and non-inscribed areas reveals that copper (Cu) can be attested only for the first one and, therefore, is contained in the ink only. The peaks due to calcium (Ca) and iron (Fe) are present in both spectra but they display a higher abundance in the inked one suggesting their presence in the ink. A co-presence of iron and copper in the ink indicates that a common iron-gall ink was used in combination with a carbon ink as a writing material here, unequivocally identifying it as a mixed one. Presence of calcium cannot be explained easily, because on one hand, we can exclude the use of bone black as a writing material, while on the other, no ink recipe explicitly containing a Ca-based compound could be found. It is noteworthy though because we have already found calcium-containing iron-gall ink in the early medieval European manuscripts.<note place="foot" xml:id="ftn25" n="25"><p style="text-align: justify; "> Hahn et al. 2021.</p></note> Moreover, a much higher amount of iron than copper tentatively suggests that green vitriol, i.e., hydrated iron (II) sulphate was used as an iron source for the iron-gall component.<note place="foot" xml:id="ftn26" n="26"><p style="text-align: justify; "> Karpenko et Norris 2002.</p></note></p>
+               <p xml:id="p57" style="text-align: justify;">The XRF spectra in fig. 6b result from the averaging of 470 spectra collected on the letter “ⲧ” from the word ⲉⲧⲟⲩ(ⲁⲁⲃ̣) (3rd line) and 476 spectra from the non-inscribed area just above this word. Note the effect of the spatial resolution chosen for the scans on the number of spectra required for presentation of a single letter of each manuscript. Fig. 6c shows the XRF spectra resulting from a single spot analysis from the same letter in P 11935. </p>
+               <p xml:id="p58" style="text-align: justify;">Let us first compare the outputs of two different sampling methods, i.e., the spectra obtained the scanning (fig. 6b) and spot analysis (fig. 6c) performed with the imaging M6 and portable Elio, respectively. The main difference between the spectra manifests itself in the enhanced intensity of the light elements K, Ca and Ti in the spectra collected with Elio (fig. 6c) which is due to the combined effect of longer acquisition times and smaller distance between the object and the detector. For the identification of the differences between the spectra of the inscribed and non-inscribed areas both methods deliver identical result: the ink contains the metals iron, copper and zinc. It is noteworthy that the abundancy of copper is exceptionally high and that this time the element Cu constitutes the primary metallic component of the ink. The co-presence of iron, copper and zinc with the leading role of copper indicates the use of blue vitriol, hydrated copper II sulphate, in this ink. </p>
+               <p xml:id="p59" style="text-align: justify;">It should be mentioned, however, that in less favourable cases, the heterogeneity of papyrus coupled with the low intensity of iron in the ink could present a difficulty for a spot analysis.<note place="foot" xml:id="ftn27" n="27"><p style="text-align: justify; "> Rabin et al. 2019, Ghigo et al. 2020, Maltomini et al. 2021.</p></note> With an imaging µ-XRF spectrometer such as M6 Jet Stream, distribution of the element contained in the ink in a sufficient amount would reflect the text. </p>
+               <p xml:id="p60" style="text-align: justify;">Figs. 7 and 8 depict the portions of the scans of P 11934 and P 11935, respectively. In both cases the photograph of the scanned area (Photo) is accompanied by the maps of the elements that reflect the text. In the first case, P 11934 (fig. 7), the maps of iron (orange, Fe) and calcium (white, Ca) present a legible text, while the copper map (yellow, Cu) reproduces it only partially, whereby the readable words are clearly correlated with ink intensity. In contrast, the scanned area (Photo) of fig. 8 (P 11935) lacks the map of calcium since this time it is not contained in the ink. The clarity of the text in the maps of iron (orange, Fe), copper (yellow, Cu) and zinc (violet, Zn) indicates that the main metallic element of the ink of P 11935 is copper. </p>
+               <figure>
+                  <graphic n="1009"
+                           width="11.263744444444445cm"
+                           height="3.4036cm"
+                           url="media/image8.jpeg">
+                     <desc>Grafik 13</desc>
+                  </graphic>
+               </figure>
+               <p xml:id="p61" style="text-align: justify;">Fig. 7. XRF scan of a portion of P 11934 and the corresponding distributions of iron (Fe), copper (Cu), and calcium (Ca). </p>
+               <figure>
+                  <graphic n="10010"
+                           width="9.313686111111112cm"
+                           height="6.576919444444444cm"
+                           url="media/image9.jpeg">
+                     <desc>Grafik 14</desc>
+                  </graphic>
+               </figure>
+               <p xml:id="p62" style="text-align: justify;">Fig. 8. XRF scan of a portion of P 11935 and the corresponding distributions of iron (Fe), copper (Cu), zinc (Zn). </p>
+               <p xml:id="p63" style="text-align: justify;">P 11934 and P 11935, which are penned with mixed inks but of clearly different formulation, serve as an additional indication (see below) that pure iron-gall ink was not yet universally established in the early Middle Ages. Unfortunately, we cannot determine the ratio of carbon to iron-gall ink in these inks. We can speculate that the ink of the P 11934 contains more carbon since no signs of ink corrosion could be found on this document in contrast to the brownish appearance of the ink of P 11935. We do not know whether the addition of the primitive iron-gall ink or tannic solutions have arisen from the will to adulterate the carbon ink, or to make the text more durable, since iron-gall inks penetrate deeper inside the fibres of the papyrus support. These inks also illustrate well the lack of understanding that only the iron ions (green vitriol) react with the tannins to form the complexes responsible for the black colour of iron-gall ink. In fact, no clear understanding of the difference between the blue and green vitriol existed in Late Antiquity and the early Middle Ages<note place="foot" xml:id="ftn28" n="28"><p style="text-align: justify; "> It is only around 900 CE with the classification made by Muhammad ibn Zakkarīja ar-Rāzī that the difference between “green vitriol” and “blue vitriol” became clear (<ref target="https://papyri.info/biblio/96362">Karpenko and Norris 2002</ref>).</p></note>. It is noteworthy, that inks similar in appearance to those found on P 11935 have been reported by Ghigo and Albarrán Martínez in their study of the Coptic fragments from the Roca Puig collection (cf. inv. 227 and 345) originating from the monastery of Apa Apollo in Bawit and paleographically dated to the seventh to eighth centuries. Interestingly, the mixed ink of inv. 227 had more iron than copper as opposed to the mixed ink of inv. 345<note place="foot" xml:id="ftn29" n="29"><p style="text-align: justify; "> <ref target="https://papyri.info/biblio/96361">Ghigo and Albarrán Martínez 2021</ref>.</p></note>.</p>
+            </div>
+            <div type="section">
+               <head>5. <seg style="font-weight: bold;">Conclusions</seg>
+               </head>
+               <p xml:id="p64" style="text-align: justify;">In this article, we have presented two papyri in a multidisciplinary approach. Even if the results of the material and ink analysis and the deciphering of the texts could not be brought into a dialogue in this case, we believe that such an approach holds potential for further studies. The more papyri are published with a detailed material and ink analysis, the greater the chance is that patterns could emerge, which could lead to a more integrated understanding of ancient written culture.</p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96346">Backhaus, R. (2004)</ref> “Die Gefahrtragung bei gemeinsamen Unternehmungen und ihre Modifikation durch Parteiabsprachen im klassischen römischen Recht,” Savigny-Zeitschrift für Rechtsgeschichte, Rom. Abtg. 121: 232–261. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/86388">Benaissa, A. (2014)</ref> “Frustula Beineckiana,” APF 60: 196–208.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/63740">Bonneau, D. (1994)</ref> “La sécheresse en Égypte ancienne et ses conséquences institutionelles (La terre χέρσος et la terre ἄβροχος)”, in Sch. Allam (ed.), Grund und Boden in Altägypten. Tübingen: 15–30.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96354">Coccato, A., Jehlicka, J., Moens, L., and Vandenabeele, P. (2015)</ref> “Raman spectroscopy for the investigation of carbon-based black pigments,” Journal of Raman Spectroscopy 46: 1003–1015.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96355">Colini, C., Hahn, O., Bonnerot, O., Steger, S., Cohen, Z., Ghigo, T., Christiansen, T., Bicchieri, M., Biocca, P., Krutzsch, M., and Rabin, I. (2018)</ref> “The Quest for the Mixed Inks,” Manuscript Cultures 11: 41–48.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96348">De Neeve, P.W. (1983)</ref> “Remissio mercedis,“ Savigny-Zeitschrift für Rechtsgeschichte, Rom. Abtg. 100: 296–339.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96360">Depauw, M. (2006)</ref> The Demotic letter: a study of epistolographic scribal traditions against their intra- and intercultural background. Sommerhausen.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96347">Ernst, W. (2004)</ref> “Neues zur Gefahrtragung bei emptio venditio und locatio conductio?,” Savigny-Zeitschrift für Rechtsgeschichte, Rom. Abtg. 121: 363–378.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95783">Fournet, J.-L. (2020)</ref> The Rise of Coptic. Egyptian versus Greek in Late Antiquity. Princeton/Oxford.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96353">Frier, B.W. (1989/90)</ref> “Law, Economics, and Disasters down on the Farm: ‚Remissio Mercedis‘ Revisited,” Bulletino dell’Istituto di diritto Romano „Vittorio Scialoja“ 31(92)/32(93): 237–270.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/16959">Förster, H. (2002)</ref> Wörterbuch der griechischen Wörter in den koptischen dokumentarischen Texten (Texte und Untersuchungen zur Geschichte der altchristlichen Literatur 148). Berlin.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96357">Ghigo, T., Rabin, I., and Buzi, P. (2020)</ref> “Black Egyptian Inks in Late Antiquity: New Insights on Their Manufacture and Use,” Archaeological and Anthropological Sciences 12: 70–84.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96361">Ghigo, T. and Albarrán Martínez, M.J. (2021)</ref> “The practice of writing inside an Egyptian monastic settlement: preliminary material characterisation of the inks used on Coptic manuscripts from the Monastery of Apa Apollo at Bawit,” Heritage Science 9: 62.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/66600">Habermann, W. (1997)</ref> “Aspekte des Bewässerungswesens im kaiserzeitlichen Ägypten I: Die «Erklärungen für nicht überflutetes Land» (Abrochia-Deklarationen),” in K. Ruffing and B. Tenger (eds), Miscellanea oeconomica. Studien zur antiken Wirtschaftsgeschichte. Harald Winkel zum 65. Geburtstag. St. Katharinen: 213–283.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96359">Hahn, O., Nehring, G., Freisitzer, R., and Rabin, I. (2021)</ref> “A Study of Early European Inks from St. Paul in Lavanttal,” Gazette du livre médiéval 65: 58–81.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/48902">Hennig, D. (1972)</ref> “Die Arbeitsverpflichtungen der Pächter in Landpachtverträgen aus dem Faijum,” ZPE 9: 111–131.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/5688">Herrmann, J. (1958)</ref> Studien zur Bodenpacht im Recht der graeco-aegyptischen Papyri (Münchener Beiträge zur Papyrusforschung und antiken Rechtsgeschichte 41). München.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96362">Karpenko, V. and Norris, J.A. (2002)</ref> “Vitriol in the history of chemistry,” Chem List 96: 997–1005.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96349">Kaser, M. (1957)</ref> “Periculum locatoris,” Savigny-Zeitschrift für Rechtsgeschichte, Rom. Abtg. 74: 155–200.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96378">Kaser, M. and Knütel, R. (2003)</ref> Römisches Privatrecht. München.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/75568">Krutzsch, M. (2006)</ref> “Falttechniken an Handschriften aus dem alten Ägypten,” in B. Backes, I. Munro, and S. Stöhr (eds), Studien zum Altägyptischen Totenbuch, Bd. 11. Wiesbaden: 167–195.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/77228">Krutzsch, M. (2008)</ref> “Falttechniken an altägyptischen Handschriften,” APF 24: 71–83.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96368">Maltomini, F., Ghigo, T., Hahn, O., and Rabin, I. (2021)</ref> “Florentine papyri under examination: the material study of the inks used at the beginning of the Common Era at the kôm Kâssûm near Hermopolis,” APF 67: 146–165.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96369">Mayer-Maly, Th. (1956)</ref> Locatio conductio. Eine Untersuchung zum klassischen römischen Recht. Wien – München.</bibl>
+                  <bibl>
+                     <anchor xml:id="Hlk96067505"/>Michel Colour guide, 36. Edition, München 1992.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96350">Miquel, J. (1964)</ref> “Periculum locatoris. Ricerche in tema di responsibilità contrattuale,” Savigny-Zeitschrift für Rechtsgeschichte, Rom. Abtg. 81: 134–190.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96374">Molnár, I. (1982)</ref> “Verantwortung und Gefahrtragung bei der locatio conductio zur Zeit des Principates,” ANRW II 14: 583–680.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96372">Müller, C.H. (2002)</ref> Gefahrtragung bei der locatio conductio. Miete, Pacht, Dienst- und Werkvertrag im Kommentar römischer Juristen (Rechts- und Staatswissenschaftliche Veröffentlichungen der Görres-Gesellschaft N.F. 99). Paderborn – München – Wien – Zürich.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96356">Nehring, G., Bonnerot, O., Gerhardt, M., Krutzsch, M., and Rabin, I. (2021)</ref> “Looking for the missing link in the evolution of black inks,” Archaeological and Anthropological Sciences 13: 71.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96371">Rabin, I. (2015)</ref> “Instrumental analysis in manuscript studies,” in A. Bausi et al. (eds), Comparative Oriental Manuscript Studies: an Introduction. Hamburg: 27–30.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96351">Rabin, I., Wintermann, C., and Hahn, O. (2019)</ref> “Ink characterization, performed in Biblioteca Medicea Laurenziana, in September 2018,” APapyrol 31: 301–313.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/84736">Richter, T.S. (2008)2</ref> Rechtsemantik und forensische Rhetorik: Untersuchungen zu Wortschatz, Stil und Grammatik der Sprache koptischer Rechtsurkunden (Philippika 20). Wiesbaden.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96352">Richter, T.S. (2009a)</ref> “The Cultivation of Monastic Estates in Late Antique and Early Islamic Egypt: Some Evidence from Coptic Land Leases and Related Documents,” in A. Boud’hors et al. (eds), Monastic Estates in Late Antique and Early Islamic Egypt: Ostraca, Papyri, and Essays in Memory of Sarah Clackson (P. Clackson) (American Studies in Papyrology 46). Ohio (Cincinnati): 205–215.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/77916">Richter, T.S. (2009b)</ref> “Die koptischen Paginae von P.Yale Inv. 1804. Mit einem Anhang zu den koptischen Pachturkunden,” APF 55: 426–453.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96358">Richter, T.S. (2017)</ref> “The pattern “ⲡⲉϥⲥⲱⲧⲙ ‘the one who hears’ in Coptic documentary texts,” in N. Bosson, A. Boud’hors and S.H. Aufrère (eds), Labor omnia uincit improbus. Miscellanea in honorem Arel Shisha-Halevy (OLA 256). Leuven: 315–329.</bibl>
+                  <bibl>Sitzia, F. (1978) “Considerazioni in tema di <emph rend="italics">periculum locatoris</emph> e di <emph rend="italics">remissio mercedis</emph>,” in Studi in memoria di Giuliano D’Amelio. Milano: 331–361.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96377">Steemers, T. (2006)</ref> “Damage survey of archives containing iron-gall inks,” in J. Kolar and M. Strlic (eds), Iron gall inks: on manufacture, characterization, degradation and stabilisation. Ljubljana: 20–24.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/41943">Steinwenter, A. (1956)</ref> “Vis major in griechischen und koptischen Papyri,” in I. Biez̀uńska-Malowist (ed), Symbolae Raphaeli Taubenschlag dedicatae (Eos 48/1) Warschau – Breslau: 261–271.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/45772">Vandoni, M. (1965)</ref> “Beiträge zum Pachtrecht,” JJP 15: 145–150.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Document declaring exemption from rent (remissio mercedis)</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">999998</idno>
+               <idno type="HGV">999998</idno>
+               <idno type="ddb-filename">pylon.3.6_1</idno>
+               <idno type="ddb-hybrid">pylon;3;6_1</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P.Berl. inv. P 11934</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>6th-7th century</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Vertrag</term>
+                  <term n="2">Pacht</term>
+                  <term n="3">Minderung</term>
+                  <term n="4">Weizen</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Document declaring exemption from rent (remissio mercedis)</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.3.6_1</idno>
+               <idno type="ddb-hybrid">pylon;3;6_1</idno>
+               <idno type="HGV">999998</idno>
+               <idno type="TM">999998</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Document declaring exemption from rent (remissio mercedis)</head>
+            <div xml:id="ed1" xml:lang="cop" type="edition" xml:space="preserve">
+<ab>
+<lb n="1" xml:id="ed1lin1"/><g type="rho-cross"/> <hi rend="diaeresis">ⲓ</hi>ⲱⲁⲛⲛⲏⲥ ⲡϣⲉ <unclear>ⲕⲟⲗ</unclear>ⲗⲟⲩⲑⲟⲩ ⲡⲣⲱⲙ ϣⲙⲟⲩ<add place="above">ⲛ</add>
+<lb n="2" xml:id="ed1lin2"/>ⲡⲉϥ<choice><reg>ⲥϩⲁⲓ</reg><orig>ⲥⲁ<hi rend="supraline">ⲓ</hi></orig></choice> <hi rend="supraline">ⲛ</hi><hi rend="diaeresis">ⲓ</hi><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="2" unit="character"/> <unclear>ⲡ</unclear>ϣⲉ ⲡⲉⲧⲣⲁ ϫⲉ <choice><reg xml:lang="grc">κατά</reg><orig>ⲕⲁⲧⲁ</orig></choice>
+<lb n="3" xml:id="ed1lin3"/><choice><reg xml:lang="grc">δύναμις</reg><orig>ⲧⲏⲛⲁⲙⲓⲥ</orig></choice> <unclear>ⲛ</unclear><supplied reason="lost">ⲧ</supplied>ⲉⲕ<choice><reg xml:lang="grc">μίσθωσις</reg><orig>ⲙⲓⲥⲧⲏⲥ</orig></choice> <hi rend="supraline">ⲛ</hi>ⲧⲁⲕ<choice><reg>ⲥϩⲁⲓⲥ</reg><orig>ⲥⲁⲓⲥ</orig></choice> ⲛⲁ<hi rend="diaeresis">ⲓ</hi> 
+<lb n="4" xml:id="ed1lin4"/>ϯ<choice><reg xml:lang="grc">κουφίζειν</reg><orig>ⲕⲟⲩⲫⲓⲥⲉ</orig></choice> ⲛⲁⲕ <hi rend="supraline">ⲛⲟⲩ</hi>ⲣⲧⲟϥ ⲟⲩϭ<hi rend="supraline">ⲟⲥ</hi> <hi rend="supraline">ⲛ</hi><choice><reg>ⲥⲟⲩⲟ</reg><orig>ⲥ
+<lb n="5" break="no" xml:id="ed1lin5"/><surplus>ⲥ</surplus>ⲟⲩ<surplus>ⲟⲩ</surplus>ⲟ</orig></choice> <hi rend="supraline">ⲙⲛ</hi> ⲛ<hi rend="supraline">ⲟⲩ</hi>ⲣⲧⲟϥ ⲟⲩϭ<hi rend="supraline">ⲟⲥ</hi> <hi rend="supraline">ⲛ</hi><hi rend="diaeresis">ⲓ</hi>ⲱⲧ
+<lb n="6" xml:id="ed1lin6"/>ϩⲁ ⲧⲥⲓⲧⲓ<hi rend="diaeresis">ⲓ</hi>ⲱϩⲉ <hi rend="supraline">ⲙ</hi>ⲫⲟ<hi rend="diaeresis">ⲓ</hi> <hi rend="supraline">ⲛ</hi>ϩⲓⲃⲱ<hi rend="diaeresis">ⲩ</hi> <hi rend="supraline">ⲛⲧⲓ</hi>
+<lb n="7" break="no" xml:id="ed1lin7"/>ⲣⲟⲙⲡⲉ <hi rend="supraline">ⲛ</hi>ⲟⲩ<hi rend="supraline">ⲱ</hi>ⲧ ⲉⲧⲉ ⲡ<choice><reg xml:lang="grc">καρπός</reg><orig>ⲕⲁⲣⲡⲟⲥ</orig></choice> ⲡⲉ
+<lb n="8" xml:id="ed1lin8"/><hi rend="supraline">ⲛ</hi>ⲧⲉ <num value="5"><choice><reg xml:lang="grc">πέμπτος</reg><orig>ⲡⲉⲙⲧⲏ</orig></choice></num> ⲡⲉ <choice><reg xml:lang="grc">ἐπειδή</reg><orig>ⲉⲡⲓⲧⲏ</orig></choice> <choice><reg>ⲙⲡⲉⲕϫⲟⲥ</reg><orig>ⲡⲉⲕϫⲟⲥ</orig></choice> <hi rend="supraline">ⲛ</hi>
+<lb n="9" break="no" xml:id="ed1lin9"/>ⲧⲉⲣⲟⲙⲡⲉ <hi rend="supraline">ⲛ</hi>ⲧⲁⲕ<choice><reg xml:lang="grc">μισθοῦν</reg><orig>ⲙⲓⲥ<add place="above">ⲧⲟⲩ</add></orig></choice> ϩⲓⲱⲱⲥ <choice><reg xml:lang="grc">κατά</reg><orig>ⲕⲁⲧⲁ</orig></choice> ⲡⲁ
+<lb n="10" break="no" xml:id="ed1lin10"/><choice><reg>ⲟⲩⲱⲛ</reg><orig>ⲟⲩⲱⲱⲛ</orig></choice> <hi rend="supraline">ⲛ</hi><choice><reg>ϣⲟⲙⲛⲧ</reg><orig>ϣⲟⲙ<hi rend="supraline">ⲏ</hi>ⲧ</orig></choice>  <g type="rho-cross"/> <foreign xml:lang="grc"><hi rend="diaeresis">Ἰ</hi>ωάννης Κολλού
+<lb n="11" break="no" xml:id="ed1lin11"/>θου <expan>ἀναγνώστ<ex>ης</ex></expan> ἀπὸ <expan>Ἑρ<ex>μοῦ</ex></expan> <expan>π<ex>όλεως</ex></expan> <choice><reg>στοιχεῖ</reg><orig>στοιχῖ</orig></choice> <choice><reg>μοι</reg><orig>μη</orig></choice> <choice><reg>ἡ</reg><orig>τὴν</orig></choice>
+<lb n="12" xml:id="ed1lin12"/><choice><reg>χεὶρ</reg><orig>χῖραν</orig></choice> ὡς <expan>πρόκ<ex>ειται</ex></expan>. Φαωφι <num value="16">ι<hi rend="supraline">ϛ</hi></num> <num value="4">δ</num> <expan>ἰνδικ<ex>τίων</ex><unclear>ο</unclear><ex>ς</ex></expan>.</foreign>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Document declaring exemption from rent (remissio mercedis)</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">999998</idno>
+               <idno type="TM">999998</idno>
+               <idno type="HGV">999998</idno>
+               <idno type="ddb-hybrid">999998</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+<p>
+⳨ It is Ioannes, son of Colluthus, man of Shmun, who writes to I-, son of Petra: In keeping with the force of your lease document which you drew up for me, I relieve you from one and a half artabas of wheat and one and a half artabas of barley for the aroura of the (irrigated) field of Hibou for this very year, which is the harvest of the fifth (indiction year), because you have not tilled it in this year for which you leased it, according to my third share. ⳨ Ioannes son of Collu thus, lector from Hermopolis, this deed suits me as stated above. 16th of Phaophi of the 4th indiction year. 
+</p>
+</div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Receipt of land tax received and paid by monks</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">999999</idno>
+               <idno type="HGV">999999</idno>
+               <idno type="ddb-filename">pylon.3.6_2</idno>
+               <idno type="ddb-hybrid">pylon;3;6_2</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P.Berl. inv. P 11935</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>7th-8th century</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Quittung</term>
+                  <term n="2">Steuer</term>
+                  <term n="3">Land</term>
+                  <term n="4">Mönche</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Receipt of land tax received and paid by monks</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.3.6_2</idno>
+               <idno type="ddb-hybrid">pylon;3;6_2</idno>
+               <idno type="HGV">999999</idno>
+               <idno type="TM">999999</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Receipt of land tax received and paid by monks</head>
+            <div xml:id="ed2" xml:lang="cop" type="edition" xml:space="preserve">
+<ab>
+<lb n="1" xml:id="ed2lin1"/><g type="stauros"/> ⲁⲛⲟⲕ ⲡⲁⲥⲟⲛ ⲥⲟⲗⲟⲙ
+<lb n="2" break="no" xml:id="ed2lin2"/>ⲟ<unclear>ⲛ</unclear> ⲡ<choice><reg xml:lang="grc">μοναχός</reg><orig>ⲙⲟⲛⲟⲭⲟⲥ</orig></choice> <hi rend="supraline">ⲛ</hi>ⲡ<choice><reg xml:lang="grc">τόπος</reg><orig>ⲧⲟ<lb n="3" break="no"/>ⲡⲟⲥ</orig></choice> <choice><reg>ⲡ<choice><reg xml:lang="grc">ἅγιος</reg><orig>ϩⲁⲅⲓⲟⲥ</orig></choice></reg><orig>ⲫⲁⲅⲓⲟⲥ</orig></choice> ⲉⲧⲟⲩ
+<lb n="4" break="no" xml:id="ed2lin4"/>ⲁⲁ<unclear>ⲃ</unclear> ⲁⲡⲁ ⲁⲛⲟⲩⲡ ⲉⲓ
+<lb n="5" xml:id="ed2lin5"/>ⲥϩⲁ<hi rend="diaeresis">ⲓ</hi> <hi rend="supraline">ⲛ</hi>ⲡⲁⲥⲟⲛ ⲡⲉⲧⲉⲣ
+<lb n="6" xml:id="ed2lin6"/>ⲙⲉⲛ ⲡⲁⲥⲟⲛ ⲙⲁⲕⲁ
+<lb n="7" break="no" xml:id="ed2lin7"/>ⲣⲉ ⲛⲉ<choice><reg xml:lang="grc">μοναχός</reg><orig>ⲙⲟⲛⲟⲭⲟⲥ</orig></choice>
+<lb n="8" xml:id="ed2lin8"/><hi rend="supraline">ⲛ</hi><del rend="erasure"><gap reason="illegible" quantity="1" unit="character"/></del>ⲁⲡⲁ ⲉⲓⲣⲉⲙ<hi rend="diaeresis">ⲓ</hi>ⲁⲥ
+<lb n="9" xml:id="ed2lin9"/>ϫⲉ ⲉⲓⲥ ⲟⲩ<choice><reg xml:lang="grc">τριμήσιον</reg><orig>ⲧⲉⲣⲙⲏ
+<lb n="10" break="no" xml:id="ed2lin10"/>ⲥⲉⲛ</orig></choice> ⲁϥⲉⲓ ⲉⲧⲟⲟⲧ ϩⲉⲛ 
+<lb n="11" xml:id="ed2lin11"/>ⲡ<choice><reg xml:lang="grc">δημόσιον</reg><orig>ⲧⲉⲙⲟⲥⲉⲛ</orig></choice> <hi rend="supraline">ⲛ</hi>ⲛⲉ
+12.-ϩⲓⲟⲓ̈ ⲡⲓ̈ⲧⲁⲗ <hi rend="supraline">ⲛ</hi>ⲡⲟⲟⲩ
+<lb n="13" xml:id="ed2lin13"/>ⲡⲁⲓ̈ ⲉⲧⲉ ⲥⲟⲩ <num value="18"><choice><reg>ⲙⲛⲧϣⲙⲏⲛⲉ</reg><orig>ⲙⲏⲧϫⲓ
+<lb n="14" break="no" xml:id="ed2lin14"/>ⲙⲏⲛ</orig></choice></num> <hi rend="supraline">ⲛ</hi>ⲡⲉⲃⲟⲧ ⲭ<hi rend="diaeresis">ⲓ</hi>ⲁⲭ
+<lb n="15" xml:id="ed2lin15"/><hi rend="supraline">ⲛ</hi>ⲧⲓⲣⲟⲙⲡⲉ ⲧⲁ<hi rend="diaeresis">ⲓ</hi> <num value="9"><choice><reg xml:lang="grc">ἔνατος</reg><orig>ϩⲉⲛ-
+<lb n="16" xml:id="ed2lin16"/>ⲛⲁⲧⲏⲥ</orig></choice></num> <hi rend="supraline">ⲛ</hi><choice><reg xml:lang="grc"> ἰνδικτίων</reg><orig><expan>ⲓ<ex>ⲛ</ex>ⲇ<ex>ⲓⲕⲧⲓⲱⲛⲟⲥ</ex></expan></orig></choice> ⲁⲛⲟⲕ 
+<lb n="17" xml:id="ed2lin17"/>ⲡⲁⲥⲟⲛ ⲥⲟⲗⲟⲙⲟⲛ <choice><reg>ⲡⲉⲧ<lb n="18" break="no"/>ϣⲣⲡⲥϩⲁⲓ</reg><orig>ⲡⲉ
+<lb n="18" xml:id="ed2lin18"/>ⲧϣⲉⲣⲉⲥϩⲁ<hi rend="diaeresis">ⲓ</hi></orig></choice> ⲧⲓ<choice><reg xml:lang="grc">στοιχεῖν</reg><orig><supplied reason="lost">ⲥⲧⲟ</supplied><unclear>ⲓ</unclear>
+<lb n="19" break="no" xml:id="ed2lin19"/>ⲭⲉ</orig></choice> <g type="stauros"/> 
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Receipt of land tax received and paid by monks</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">999999</idno>
+               <idno type="TM">999999</idno>
+               <idno type="HGV">999999</idno>
+               <idno type="ddb-hybrid">999999</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans2" xml:lang="en" type="translation" xml:space="preserve">
+<p>
+I, the friar Solomon the monk of the place of the holy Saint Apa Anoup, I am writing to the friar Peter and the friar Makare, the monks of Apa Ieremias Lo, one trimessis came to me for the (land) tax for the (irrigated) fields (called) Pital today, which is day eighteen of the month Choiak, of this very year of the ninth indiction. I, the friar Solomon, who wrote first, I assent.
+</p>
+</div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
