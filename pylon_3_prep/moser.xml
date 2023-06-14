@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P.DimeData 34v – Eine griechische Privatabrechnung aus Soknopaiu Nesos mit neuen Belegen für den Ortsnamen Halmyra </title>
+            <author>
+               <name>
+                  <forename>Marcel</forename>
+                  <surname>Moser</surname>
+               </name>
+               <affiliation>Universität Würzburg</affiliation>
+               <email>marcel.moser@uni-wuerzburg.de</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2023-06-13T15:34:28Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">P.DimeData 34v – Eine griechische Privatabrechnung aus Soknopaiu Nesos mit neuen Belegen für den Ortsnamen Halmyra </titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">
+               Die vorliegende Edition war Teil meiner Master-Thesis an der Julius-Maximilians Universität Würzburg, in der ich mich der editio princeps beider Seiten des P.Vindob. D 6897 (= 
+               <ref target="http://dimedata.huma-num.fr/documents/34">P.DimeData 34</ref>) gewidmet habe. Diese Arbeit entstand als Teil des deutsch-französischen Kooperationsprojekts 
+               <ref target="https://dimedata.huma-num.fr">DimeData</ref> (2018–2022), dessen Projektdatenbank seit Anfang 2023 für die Öffentlichkeit zugänglich ist. Die Datenbank umfasst aktuell die Online-Editionen 15 römerzeitlicher demotischer Abrechnungen aus dem Tempel von Soknopaiu Nesos (Stand: 08.05.2023) und wird auch in Zukunft regelmäßig aktualisiert und erweitert werden, auch um griechische Abrechnungen. Alle Editionen beinhalten eine kurze Einleitung mit den wichtigsten Informationen, ein eigenes Register, eine deutsche oder französische Übersetzung, einen umfassenden Stellenkommentar sowie hochauflösende Abbildungen der Papyri. Überdies bietet die Datenbank ein übersichtliches 
+                <ref target="https://dimedata.huma-num.fr/indices.htm">Gesamtregister</ref> sowie Erklärungen zu einigen wichtigen demotischen Lemmata. Für wertvolle Hinweise zu diesem Papyrus danke ich Marie-Pierre Chaufray, Holger Essler, W. Graham Claytor und Gert Baetens.
+            </note>                          
+                <div type="epidoc" subtype="DDB">
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;">
+                           <ref target="http://dimedata.huma-num.fr/documents/34">P.DimeData 34v</ref>
+                        </cell>
+                        <cell style="text-align: left;">22,0 (H) x 35,0 (B)</cell>
+                        <cell style="text-align: left;">Soknopaiu Nesos</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;">(P.Vindob. D 6897v)</cell>
+                        <cell style="text-align: left;">
+                           <ref target="http://www.trismegistos.org/text/983639">TM 983639</ref>
+                        </cell>
+                        <cell style="text-align: left;">2.–3. Jh. n.Chr.</cell>
+                     </row>
+                  </table>
+                  <div type="section">
+                      <head>Physische Beschreibung</head>
+                      <p xml:id="p1">Von der Versoseite ausgehend befinden sich im Mittelteil des Papyrus zwei größere und ein kleineres Loch, die zu Textverlust in Col. 2v führten. An der linken Seite und am unteren Rand ist der Papyrus grob beschädigt und weist keine durchgehende Kante auf. Für den linken und den oberen Rand ist eine solche größtenteils gegeben.</p>
+                      <p xml:id="p2">Der Papyrus ist auf beiden Seiten beschrieben. Auf dem Verso befindet sich eine griechische Abrechnung in drei Kolumnen, die in der einzig vollständig erhaltenen zweiten Kolumne 25 Zeilen umfasst. Der obere Rand liegt bei etwa 0,7 bis zu einem Zentimeter, während der untere Rand nur auf Höhe von Kolumne 2 überhaupt erhalten ist. Vom linken Rand ist nur etwa ein Streifen von zwei Zentimetern in Höhe von Col. 1v, 1 erhalten, während der rechte Rand bei großzügigen sieben Zentimetern liegt. Die beiden Interkolumnien fallen großzügig aus, insbesondere das erste. Unterhalb von Kolumne 3 befindet sich ein sehr großes Spatium, welches auf das Ende des Abrechnungsvorgangs hindeutet. Auf dem Rekto lässt sich ein Ausschnitt aus einer demotischen Abrechnungsrolle in fünf Kolumnen feststellen.</p>
+                  </div>
+                  <div type="section">
+                      <head>Herkunft</head>
+                      <p xml:id="p3">Die Papyri aus Dime sind über verschiedene Sammlungen in der ganzen Welt verteilt, wobei ihr Ursprung wohl zumeist in Raubgrabungen lag, die schlecht dokumentiert waren.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; text-align: justify;">Vgl. <ref target="https://papyri.info/biblio/85247">Stadler 2012</ref>: 249f.</p></note> Der vorliegende Papyrus gehört zu den zahlreichen demotischen Papyri aus der Wiener Sammlung, deren genaue Provenienz ungeklärt ist.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; text-align: justify;">Zahlreiche dieser Papyri gelangten ab 1891 durch die Vermittlung Jakob Kralls in die Sammlung, vgl. <ref target="https://papyri.info/biblio/55861">Loebenstein 1983</ref>: 15–17.</p></note> In diesem Fall kann die Rektoseite anhand paläographischer und inhaltlicher Aspekte<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; text-align: justify;">Ein eindeutiges Kriterium ist etwa das häufige Auftreten bestimmter Personennamen wie Stotoetis, Panephremmis und Satabus, die fast ausschließlich in Soknopaiu Nesos vorkommen, vgl. <ref target="https://papyri.info/biblio/95066">Lippert and Schentuleit 2006</ref>: 12f.</p></note> mit großer Sicherheit Soknopaiu Nesos zugeordnet werden.</p>
+                  </div>
+                  <div type="section">
+                      <head>Inhalt des demotischen Rektos</head>
+                      <p xml:id="p4">Die demotische Abrechnung auf der Rektoseite ist lediglich ein kurzer Auszug aus einer umfangreichen Abrechnungsrolle, der die Tage 11 bis 17 eines unbekannten Monats umfasst. Hierbei werden einerseits recht konventionelle Versorgungsgüter wie Brot und Wein aufgeführt, andererseits lassen sich auch einige besondere Einträge feststellen. Hierzu zählen etwa ein rekonstruierbarer Besuch eines sogenannten ‚Telones des Verkaufs‘,<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; text-align: justify;">Zum Vorkommen dieser Steuerpächter in den dokumentarischen Texten aus Dime vgl. Moser 2023b. Möglicherweise handelt es sich bei dem Telones des Verkaufs um den τελώνης ὠνίων ὑποτελῶν, der allerdings bisher nur für den thebanischen Raum belegt ist, vgl. <ref target="https://papyri.info/biblio/3811">Wallace 1938</ref>: 303.</p></note> Bauarbeiten an einem nicht näher spezifizierten Dromos<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; text-align: justify;">Vgl. Col. x+5r, 22f.; sofern es sich hierbei um den Soknopaiostempel selbst handeln sollte, wäre dies im Zusammenhang mit dem Datierungsvorschlag unten der bisher späteste Beleg für Baumaßnahmen am Tempel, welche die Besorgung von Stein involvieren.</p></note> sowie die militärische Präsenz eines Centurio und einiger ihm untergeordneter <seg style="font-style: italic;">mty</seg>-Soldaten<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; text-align: justify;">Zu diesem Titel, der abseits dieses Papyrus kaum in römischer Zeit belegt ist, vgl. Moser 2023a.</p></note>. Anhand bekannter Personennamen sowie zahlreicher eng mit Soknopaiu Nesos verknüpfter Ortsnamen lässt sich die Kontextualisierung im Umfeld des Soknopaiostempels von Dime als gegeben ansehen.</p>
+                      <p xml:id="p5">Die vollständige Edition des Rektos mit deutscher Übersetzung und ausführlichem Kommentar findet sich in der <ref target="http://dimedata.huma-num.fr/documents/34">Projektdatenbank</ref>.</p>
+                  </div>
+                  <div type="section">
+                      <head>Mögliche Datierung</head>
+                      <p xml:id="p6">In den Abrechnungen der Rekto- und Versoseite findet sich keine Jahresdatierung, sondern es werden nur Angaben zu den jeweiligen Tagen bzw. auf dem Verso auch zu den Monaten gemacht. Auch rein inhaltlich konnte bisher kein überzeugendes Datierungskriterium für die Rektoseite gefunden werden, während es im Griechischen einzelne Indizien gibt, die vorrangig in das 2./3. Jh. n.Chr. deuten (siehe unten).</p>
+                      <p xml:id="p7">Eine relative Datierung lässt sich allerdings auch durch die Verwendungsabsicht des griechischen Papyrus gewinnen: Dieser weist eine in sich geschlossene Abrechnung auf, deren Gesamtsumme in Col. 1v, 1 erhalten ist. Der Abschluss ist durch ein breites Spatium auf der rechten Seite klar ersichtlich. Vor diesem Hintergrund scheint die griechische Abrechnung auf dem Verso eine Sekundärbeschriftung zu sein, da das heutige Papyrusblatt wohl dezidiert zur Abfassung dieser Rechnung herausgetrennt wurde, während das demotische Rekto Teil einer größeren Abrechnungsrolle war.<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; text-align: justify;">Vermutlich gehörte der Papyrus zu einer sehr langen Abrechnungsrolle über ein ganzes Jahr, wie dies etwa auch bei <ref target="http://data.onb.ac.at/rec/RZ00021471">P.Vindob. D 6770</ref> + <ref target="http://data.onb.ac.at/rec/RZ00021459">6771</ref> + <ref target="http://data.onb.ac.at/rec/RZ00021472">6772</ref> r der Fall ist. Die Publikation dieser Rolle ist als P.DimeData 14 für die Datenbank geplant.</p></note></p>
+                      <p xml:id="p8">Zur besseren Datierung der Rektoseite konnte insbesondere eine sehr reduzierte Schreibung des Personennamens Stoetis herangezogen werden, die in dieser Form nur in wenigen Quittungen und Ostraka erhalten ist (vgl. zu den Details die Sektion zur Paläographie in der Edition). Diese paläographische Einordnung lässt etwa die Mitte des 2. Jh. n.Chr. als Datierungsvorschlag wahrscheinlich erscheinen, was damit auch als <seg style="font-style: italic;">terminus post quem</seg> für die Beschriftung des Versos betrachtet werden kann.</p>
+                  </div>
+                  <div type="section">
+                      <head>Paläographie</head>
+                      <p xml:id="p9">Die Schrift der griechischen Abrechnung ist keine kursive Hand eines geübten Grapheionbeamten, der die Buchstaben verbindet und verschleift, sondern vielmehr die simple, bisweilen epigraphisch anmutende Hand eines Schreibgehilfen, wie sie regelmäßig im Rahmen der griechischen Zusammenfassungen der demotischen Urkunden auftritt.<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; text-align: justify;">Vgl. <ref target="https://papyri.info/biblio/79288">Lippert, Schentuleit and Reiter 2010</ref>: 4f.; 79f. Ein Beispiel für den stetigen Wechsel solcher Hände stellt etwa die Urkunde <ref target="https://papyri.info/biblio/79288">P.Dime 3 19</ref> (= <ref target="https://papyri.info/biblio/95018">P.Ryl.Dem. 1 45</ref>) dar, bei der der Anfang sowie die Datierung der griechischen Darlehensurkunde und die Datierung der griechischen Hypographe in der kursiven Hand des Grapheionbeamten verfasst wurden, während ein Teil der Darlehensurkunde sowie der Hauptteil der Hypographe von der Hand des Schreibgehilfen übernommen wurden, die dem Duktus der vorliegenden Abrechnung ähneln.</p></note> Allerdings eignen sich diese Urkunden nicht für einen direkten Vergleich, da sie nicht weiter als bis zum Ende des 1. Jh. n.Chr. in dieser Form belegt sind.<note place="foot" xml:id="ftn9" n="9"><p style="text-align: left; text-align: justify;">Vgl. die Übersicht in <ref target="https://papyri.info/biblio/79288">Lippert, Schentuleit and Reiter 2010</ref>: 515.</p></note></p>
+                      <p xml:id="p10">Überdies finden sich in der Abrechnung typische Fehler des Griechischen, wie sie in Ägypten üblich waren, wie etwa die Verwendung des Nominativs Σώτας anstelle des richtigen Genitivs nach der Präposition διά (vgl. den Kommentar zu Col. 2v, 2), aber auch zahlreiche Fehler, die sich durch phonetische Unterschiede der beiden Sprachen erklären lassen. Derartige Fehler und der angesprochene, wenig professionelle Schriftduktus deuten auf einen Ägypter auf dem Niveau eines Schreibergehilfen hin, der die vorliegende Abrechnung auf Griechisch abgefasst hat.</p>
+                  </div>
+                  <div copyOf="#ed1" type="edition"/>
+                  <div copyOf="#trans1" type="translation"/>
+                  <div type="commentary">
+                     <note target="#ed1ln1">
+                        <ref>1</ref>
+                        <p xml:id="p11"> Diese Zeile wurde offenbar nachgetragen, nachdem der Abrechnungsvorgang abgeschlossen und alle Angaben summiert waren. Sie steht etwas über den Kolumnenanfängen von Col. 2 und 3v.</p>
+                        <p xml:id="p12"><seg style="font-weight: bold;">Ϛ̅ψκδ :</seg> Um die Tausender zu markieren, gebrauchte der Schreiber einen horizontalen Strich mit einem Kringel an der linken Seite. Eine solche Markierung findet sich auch in Col. 1v, 12 für Α (1000). Im Übrigen hat der Schreiber eine Umrechnung der 6000 Drachmen in ein Talent unterlassen.</p>
+                     </note>
+                     <note target="#ed1ln2">
+                        <ref>2</ref>
+                        <p xml:id="p13"> Diese Zeile muss wohl eine Art Überschrift gewesen sein, da kein zugehöriger Drachmenbetrag verzeichnet ist.</p>
+                     </note>
+                     <note target="#ed1ln3">
+                        <ref>3</ref>
+                        <p xml:id="p14"> Eine Ergänzung dieser Zeile zu [-ca.?-] [ϊς τὴ]ν πῶλι(ν) ist analog zu Col. 1v, 13 und 2v, 6 denkbar, aber aufgrund des fehlenden Kontexts hier nicht sicher anzusetzen. Denkbar wäre etwa auch der Dativ πόλει, bei dem ebenfalls der häufige Wechsel von Omikron zu Omega sowie derjenige des Diphthongs ει mit dem einfachen Iota möglich ist (vgl. <ref target="https://papyri.info/biblio/8813">Gignac 1976</ref>: 189-191; 275-277).</p>
+                     </note>
+                     <note target="#ed1ln9">
+                        <ref>9</ref>
+                        <p xml:id="p15"> (ὀβολοὶ) : Eine solche Abkürzung für Obolen ist bisher nicht belegt, erscheint aber in der Kombination mit Drachmen sehr wahrscheinlich. Das Zeichen selbst besteht aus einem Querstrich von unten links nach oben rechts mit einem zusätzlichen Punkt im linken oberen Bereich. Die Einheit taucht an drei weiteren Stellen auf – Col. 1v, 14.15 und 2 v, 7 (ohne Drachmenbetrag) –, wobei sie nur einmal ohne einen zusätzlichen Drachmenpreis steht und der Betrag stets durch vier teilbar ist (8, 4, 16 und 20), was jedoch ein Zufall sein kann. Die Tatsachen, dass die Zahlenwerte nicht über 20 hinausgehen und dass die Drachmenbeträge ebenfalls allesamt durch vier teilbar sind, sprechen dafür, dass eine Umrechnung von Obolen in Drachmen erst bei Tetradrachmen mit 24 Obolen stattfand, vgl. hierzu auch <ref target="https://papyri.info/biblio/15271">P.Louvre 1 50 und 51</ref> aus dem Archiv des Gutsverwalters Pakysis. Dort sind die Obolen zwar mit dem regulären waagrechten Strich ausgedrückt, allerdings entsprechen die vorkommenden Kombinationen von Drachmen und Obolen denjenigen aus dem vorliegenden Papyrus.</p>
+                     </note>
+                     <note target="#ed1ln12">
+                        <ref>12</ref>
+                        <p xml:id="p16"> Μ̣έλα̣ς : Der Personenname Melas ist in dieser Abrechnung sehr präsent. Er ist zwar bereits in ptolemäischer Zeit belegt, wird aber vor allem ab dem 2. Jh. n.Chr. in der griechischen Überlieferung immer häufiger. Der Name ist überwiegend für das Fayûm bezeugt, vgl. <ref target="http://www.trismegistos.org/name/4061">TM Nam 4061</ref>.</p>
+                        <p xml:id="p17">(δραχμαὶ) Α̅̅σ : Hierbei handelt es sich etwa um ein Sechstel der in Col. 1v, 1 genannten Gesamtsumme.</p>
+                     </note>
+                     <note target="#ed1ln14">
+                        <ref>14</ref>
+                        <p xml:id="p18"> Ἁ̣λ̣μυρ̣ά̣ : Das Epoikion Halmyra erscheint insgesamt fünfmal in dieser Abrechnung, vgl. hierzu die gesonderte Diskussion weiter unten.</p>
+                     </note>
+                     <note target="#ed1col2ln1">
+                        <ref>1</ref>
+                        <p xml:id="p19"> ϊς Ἁλ̣[μ]υ̣ρὰμ : Der Papyrus bietet an dieser Stelle die einzige Form des Akkusativs für den Ortsnamen Halmyra mit eigentlich nicht nötiger Assimilation vor Tau, vgl. <ref target="https://papyri.info/biblio/8813">Gignac 1976</ref>: 166f.</p>
+                     </note>
+                     <note target="#ed1col2ln2">
+                        <ref>2</ref>
+                        <p xml:id="p20"> διὰ Σώτας : Der Name Sotas, der insbesondere für das Fayûm und auch Soknopaiu Nesos sehr oft belegt ist (vgl. <ref target="http://www.trismegistos.org/name/5944">TM Nam 5944</ref> und z.B. die Steuerquittung <ref target="http://papyri.info/ddbdp/bgu%3B2%3B383">BGU 2 383</ref>), wurde hier nicht in den Genetiv gesetzt, vermutlich da der Schreiber die Form des Namens bereits für einen Genitiv der griechischen a-Deklination hielt.</p>
+                     </note>
+                     <note target="#ed1col2ln4">
+                        <ref>4</ref>
+                        <p xml:id="p21"> [δ]ι̣άτης : Die hier vorgeschlagene Deutung von διάτης zu διαίτης basiert auf dem Wegfall des Iota bei Langdiphthongen (vgl. <ref target="https://papyri.info/biblio/8813">Gignac 1976</ref>: 183–185). Die genaue Bedeutung von δίαιτα lässt sich dabei nicht aus dem Kontext erschließen, daher wurde das allgemeine ‚Lebensunterhalt‘ gewählt.</p>
+                     </note>
+                     <note target="#ed1col2ln6">
+                        <ref>6</ref>
+                        <p xml:id="p22"> τῷ π̣[ατρὶ] μ̣οῦ : Zu dieser Ergänzung vgl. Col. 2v, 17 mit Kommentar und 3v, 1.</p>
+                     </note>
+                     <note target="#ed1col2ln10">
+                        <ref>10</ref>
+                        <p xml:id="p23"> Π̣ειη[ο]ῦ : Der ägyptische Personenname Peeous ist in einigen Texten des 3. Jh. n.Chr. für Soknopaiu Nesos belegt, vgl. <ref target="http://www.trismegistos.org/name/11431">TM Nam 11431</ref>. Er stellt das männliche Pendant zum weiblichen Personenamen Teieous dar, der sicher in Col. 2v, 24 und 3v, 6 zu lesen ist.</p>
+                     </note>
+                     <note target="#ed1col2ln13">
+                        <ref>13-14</ref>
+                        <p xml:id="p24"> Da Zeile 13 mit der Erwähnung des neuen Monats offenbar zu lang war, hat der Schreiber den zugehörigen Preis kurzerhand mittig in Zeile 14 platziert, um die Kolumne bündig zu halten.</p>
+                     </note>
+                     <note target="#ed1col2ln15">
+                        <ref>15</ref>
+                        <p xml:id="p25"> Zu Beginn der Zeile ist vermutlich noch der Überrest einer weiteren Tageszahl des Monats Epeiph erhalten. Der Strichführung nach wäre etwa ein Delta für den 4. Epeiph denkbar.</p>
+                     </note>
+                     <note target="#ed1col2ln16">
+                        <ref>16</ref>
+                        <p xml:id="p26"> Wie in der vorangehenden Zeile schein auch hier am Anfang eine Tageszahl anzusetzen zu sein, da noch ein Strich über dem Zeichen erkennbar ist. Der Form nach handelt es sich wohl um ein Epsilon (5) oder Stigma (6).</p>
+                        <p xml:id="p27">Τιμαρχ̣[ : Hier ist vermutlich der griechische Personenname Timarchos anzusetzen (vgl. <ref target="http://www.trismegistos.org/name/6284">TM Nam 6284</ref>), allerdings ist unklar, ob es sich dabei um den Empfänger der Zahlung oder gegebenenfalls das Patronymikon zu Sotas handelt. Für Soknopaiu Nesos ist der Name bisher nicht belegt.</p>
+                     </note>
+                     <note target="#ed1col2ln17">
+                        <ref>17</ref>
+                        <p xml:id="p28"> τῷ πατρὶ μο̣ῦ̣ : Dieser Ausdruck, der auch in Col. 2v, 6 sowie 3v, 1 anzusetzen ist, ist ein weiteres Indiz für eine private Abrechnung, siehe hierzu die Gesamtbewertung unten.</p>
+                     </note>
+                     <note target="#ed1col2ln20">
+                        <ref>20</ref>
+                        <p xml:id="p29"> Die Identifizierung des Eintrages in dieser Zeile bereitet große Schwierigkeiten. Als erster Buchstabe kommen z.B. υ und ε in Frage, während in der Mitte des Wortes offenbar korrigiert wurde. So lässt sich wohl ein ursprüngliches μ erkennen, das möglicherweise mit einem κ überschrieben wurde.</p>
+                     </note> 
+                     <note target="#ed1col2ln21">
+                        <ref>21</ref>
+                        <p xml:id="p30"> σ̣τ̣ρ̣ατιώτο̣[υ ὅ]ρμου̣ : Ein Soldat des Hafens wird ebenfalls in Col. 3v, 4 erwähnt, dort allerdings mit der zusätzlichen Angabe, dass sich die Zahlung auf Wein bezieht.</p>
+                     </note>
+                     <note target="#ed1col2ln22">
+                        <ref>22</ref>
+                        <p xml:id="p31"> ἁλὰς ψάθι(α) : Dieser Ausdruck bezeichnet wohl Körbchen mit Salz, wobei die Abkürzung ψάθι nicht ganz eindeutig ist. Vermutlich handelt es sich hierbei um eine Kurzform von ψιάθια (vgl. <ref target="https://papyri.info/biblio/15271">Jördens and Zauzich 1998</ref>: 252).</p>
+                        <p xml:id="p32">ι̅γ̅ : Trotz des Überstrichs handelt es sich hier wohl nicht um eine Tagesangabe, sondern um die Anzahl der Körbchen mit Salz.</p>
+                     </note>
+                     <note target="#ed1col2ln23">
+                        <ref>23</ref>
+                        <p xml:id="p33"> β : Auch hier sollte sich der Eintrag, wie in der vorherigen Zeile, auf etwas Zählbares beziehen, ohne dass dieser Sache ein Geldwert zugeordnet ist.</p>
+                     </note>
+                     <note target="#ed1col2ln24">
+                        <p xml:id="p34"> Τ̣εϊη̣οῦ : Zu diesem ägyptischen, weiblichen Personennamen, der wohl auch in Col. 3v, 6 erscheint, vgl. <ref target="http://www.trismegistos.org/name/34807">TM Nam 34807</ref>. Der Name ist – anders als die männliche Form Peeous in Col. 2v, 10 – bisher kaum belegt, wobei die bisherigen drei Belegstellen auf das 2./3. Jh. n.Chr. entfallen.</p>
+                        <p xml:id="p35">(δραχμαὶ) ιβ : Das Iota wurde wohl nachgetragen, da es wenig Platz hat und deutlich dunklere Tinte aufweist.</p>
+                     </note>
+                     <note target="#ed1col3ln1">
+                        <ref>1</ref>
+                        <p xml:id="p36"> Vor dem geläufigen Drachmenzeichen befindet sich ein unklares Zeichen, dessen Deutung Schwierigkeiten bereitet. Denkbar wäre etwa die Bezeichnung eines Fehlbetrages oder eine anderweitige Markierung des Schreibers.</p>
+                     </note>
+                     <note target="#ed1col3ln2">
+                        <ref>2</ref>
+                        <p xml:id="p37"> Aἰή̣ου : Der seltene Personenname Aies erscheint wohl hier und in der siebten Zeile dieser Kolumne, vgl. <ref target="http://www.trismegistos.org/name/21029">TM Nam 21029</ref>. Bisher ist der Name nur ab dem Ende des. 2. Jh. n.Chr. nachgewiesen, wobei einige Belege auf das Fayûm entfallen. Alternativ ist an beiden Stellen vielleicht auch eine Lesung als οἴνου zu denken, allerdings bindet das Omikron in der einzig sicher belegten Schreibung des Wortes in Zeile 4 nicht an das Iota. Zudem erscheint im Vergleich an diesen Stellen auch eher Eta als Ny wahrscheinlich.</p>
+                     </note>
+                     <note target="#ed1col3ln3">
+                        <ref>3</ref>
+                        <p xml:id="p38"> ατακωκ̣η̣ν̣πο̣λ̣ : Vermutlich handelt es sich hierbei um einen weiteren Ortsnamen, der allerdings bisher nicht identifiziert werden konnte. Die Ergänzung der letzten drei Buchstaben zu πόλ(ιν) oder einer anderen Form von πόλις ist möglich, zumal das Wort in diesem Papyrus regelmäßig ohne Markierung abgekürzt ist. Die restlichen Buchstaben könnten ein feminines Nomen oder Adjektiv im Akkusativ Singular ergeben, wie die mögliche Lesung -ην vermuten lässt.</p>
+                     </note>
+                     <note target="#ed1col3ln5">
+                        <ref>5</ref>
+                        <p xml:id="p39"> ψάθ̣ι(α) ἁλές : Zur Deutung dieses Eintrages siehe den Kommentar zu Col. 2v, 22.</p>
+                        <p xml:id="p40">ϛ : Es lassen sich noch feine Reste einer Umkreisung der Zahl Stigma feststellen.</p>
+                     </note>
+                     <note target="#ed1col3ln7">
+                        <ref>7</ref>
+                        <p xml:id="p41"> Ἑρμ̣οῦς : Die Genitivform des Personennamens Hermes ist hier wahrscheinlich, allerdings wäre auch die seltene Genitivform Ἑρηοῦς denkbar, deren Beleglage jedoch sehr dünn ist, vgl. <ref target="https://www.trismegistos.org/ref/411920">TM Ref 411920</ref>.</p>
+                        <p xml:id="p42">Αἰήου : Hier handelt es sich entweder um das Patronymikon oder die Angabe, zu wessen Gunsten die Zahlung erfolgt, die auch in den übrigen Einträgen oftmals im Genitiv erscheint.</p>
+                        <p xml:id="p43">In der Preisspalte wurden offenbar Korrekturen vorgenommen, allerdings ist eine Lesung nicht möglich.</p>
+                     </note>
+                  </div>
+               </div>
+            <div type="section">
+               <head>Die bisherige Dokumentation zu Halmyra</head>
+               <p xml:id="p44">Die Ansiedlung Halmyra (<ref target="http://www.trismegistos.org/place/10903">TM Geo 10903</ref>), die im betrachteten Papyrus fünfmal erscheint (vgl. Col. 1v, 14; 2v, 1.13.15; 3v, 1), ist bisher in vier edierten Papyri bezeugt: In <ref target="http://papyri.info/ddbdp/bgu%3B1%3B277">BGU 1 277</ref>, der etwa auf die Jahre 130/131-160 n.Chr. datiert werden kann, erscheint der Ort im Rahmen einer Reihe von Pachtobjekten in Bezug auf Fischer aus Soknopaiu Nesos, Neilupolis und Halmyra.<note place="foot" xml:id="ftn10" n="10"><p style="text-align: left; text-align: justify;">Vgl. <ref target="http://papyri.info/ddbdp/bgu%3B1%3B277">BGU 1 277</ref>, Col. 1, 1-9; <ref target="https://papyri.info/biblio/77554">Ast<seg style="font-style: italic;"> et al.</seg> 2009</ref>: 223f.</p></note> Eine Eingabe des Priesters Stotoetis, Sohn des Stotoetis, aus Soknopaiu Nesos an den Strategen (2. Jh. n.Chr.) belegt, dass Halmyra in der Nähe zu Herakleia gelegen war.<note place="foot" xml:id="ftn11" n="11"><p style="text-align: left; text-align: justify;">Vgl. <ref target="http://papyri.info/ddbdp/bgu%3B13%3B2242">BGU 13 2242</ref>, 11f.</p></note> Zwei weitere Belege der Ansiedlung in einer Steuerquittung und einem Personenregister bestätigen die Nähe zu Herakleia und erlauben Aufschluss über die Existenz einer dortigen Ölmühle im 2. Jh. n.Chr.<note place="foot" xml:id="ftn12" n="12"><p style="text-align: left; text-align: justify;">Vgl. <ref target="http://papyri.info/ddbdp/bgu%3B3%3B790">BGU 3 790</ref>, 1-8 (198-199 n.Chr.); <ref target="http://papyri.info/ddbdp/p.lond%3B3%3B901">P.Lond. 3 901</ref>, 5 (75-125 n.Chr.).</p></note> In diesen vier Belegen ist der Name Halmyra als Genitiv Ἁλμυρᾶς stets abhängig von der Bezeichnung ἐποίκιον, was im vorliegenden Papyrus nicht der Fall ist. Zwei weitere unedierte Papyri mit Erwähnung von Halmyra komplementieren dieses Bild: <seg style="text-decoration: underline;">P.Lond. 294</seg>, Col. 2v, 31 (wohl nach 117-118 n.Chr.) erwähnt den Ort ohne den Zusatz Epoikion im Rahmen einer Abrechnung über Geflügel, während es sich bei <ref target="https://archives.bge-geneve.ch/ark:/17786/vta6c59d3778ca2991b/dao/0/1"><seg style="text-decoration: underline;">P.Gen. inv. 191</seg></ref>, 5-6 (69-118 n.Chr.) um eine Art Kaufvertrag handelt, in der Halmyra wieder den Zusatz Epoikion hat und zudem als συνοικία mit einer dazugehörigen Ölmühle erscheint.<note place="foot" xml:id="ftn13" n="13"><p style="text-align: left; text-align: justify;">Für den freundlichen Hinweis auf beide Belegstellen und den Einblick in deren vorläufige Edition bin ich W. Graham Claytor zu Dank verpflichtet.</p></note></p>
+               <p xml:id="p45">In Folge der genannten papyrologischen Evidenz ist weiterhin davon auszugehen, dass die Ansiedlung nahe am Fayûm-See lag und eine enge Beziehung zu Herakleia hatte, welches selbst eng mit Soknopaiu Nesos verknüpft war.<note place="foot" xml:id="ftn14" n="14"><p style="text-align: left; text-align: justify;">Vgl. im Detail zu Herakleias wichtiger Verbindung mit Soknopaiu Nesos hinsichtlich der Landbesitzungen und des geteilten Grapheions Römer 2019: 315–317.</p></note> Aufgrund der Verbindung des Personennamens Sotas zu dieser Ansiedlung in den genannten Papyri<note place="foot" xml:id="ftn15" n="15"><p style="text-align: left; text-align: justify;">Vgl. <ref target="http://papyri.info/ddbdp/bgu%3B1%3B277">BGU 1 277</ref>, Col. 1, 28 (als Haupt- und Vatersname aus Amyntaiou Epoikion); 2, 13.17 (jeweils aus Soknopaiu Nesos); <ref target="http://papyri.info/ddbdp/bgu%3B3%3B790">BGU 3 790</ref>, 1 (unsicher); <ref target="http://papyri.info/ddbdp/p.lond%3B3%3B901">P.Lond. 3 901</ref>, 13f.</p></note> ist ein Verständnis als einfaches ‚Salzland‘ (ἁλμυρίς) im vorliegenden Papyrus eher unwahrscheinlich. Allerdings lässt sich der Name etymologisch durch eine enge Verknüpfung mit Salz erklären, denkbar wäre dabei etwa die Existenz von unproduktivem Salzland in der Nähe der Ansiedlung<note place="foot" xml:id="ftn16" n="16"><p style="text-align: left; text-align: justify;">Vgl. dazu <ref target="https://papyri.info/biblio/87310">Monson 2013</ref>: 128–130.</p></note> oder nach Römer eine lokale Salzproduktion.<note place="foot" xml:id="ftn17" n="17"><p style="text-align: left; text-align: justify;">Vgl. Römer 2019: 327f.</p></note> Die letztere Vermutung wird möglicherweise durch zwei Einträge über Salzkörbchen im obigen Papyrus (vgl. Col. 2v, 22 &amp; 3v, 5) gestützt, die aber nicht explizit mit Halmyra in Zusammenhang stehen.</p>
+            </div>
+            <div type="section">
+               <head>Abschließende Einordnung der Abrechnung</head>
+               <p xml:id="p46">Insgesamt erweckt der Papyrus aufgrund des wenig professionellen Duktus des Griechischen sowie des eng abgesteckten Rahmen innerhalb von nicht einmal drei vollständigen Kolumnen den Eindruck einer privaten Abrechnung über Drachmen- und Obolenbeträge zu verschiedenen Zwecken. In ebendiese Richtung lässt sich auch die Lesung τῷ πατρὶ μοῦ in Col. 2 v, 6.17 und 3v, 1 interpretieren, da dies mit der Verwendung des Personalpronomens der ersten Person den Vater des Schreibers bezeichnet. Als weiteres Indiz kann die Schreibung des Ortsnamens Halmyra gelten, der in der bisherigen papyrologischen Evidenz fast ausschließlich mit dem Zusatz Epoikion und hier – in scheinbar privatem Rahmen – nur als Ἁλμυρά bezeichnet ist.</p>
+               <p xml:id="p47">Was die Beträge der Abrechnung angeht, so beläuft sich die Summe der bisher sicher gelesenen Drachmenbeträge auf etwa 3250. Das stellt etwa die Hälfte der in Col. 1v, 1 genannten Gesamtsumme von 6724 Drachmen dar. Allerdings fehlt gerade in dieser ersten Kolumne mindestens die Hälfte der Preise, sodass auch weitere Beträge über 1000 Drachmen wie in Col. 1v, 12 durchaus denkbar sind, wodurch dieses Endergebnis erreicht werden könnte. Weiterhin ist auch die oben beschriebene Kurzschreibung für Obolen bemerkenswert.</p>
+               <p xml:id="p48">In den Kolumnen 2 und 3 ist anhand einiger Tagesdaten mit Monatsangabe ein zeitlicher Rahmen vom 2. Pauni bis zum 20. Epeiph eines unbekannten Jahres auszumachen, wobei deutliche Sprünge in den erhaltenen Tagesdaten auftreten. Inhaltlich lassen sich insbesondere die häufige Nennung des Namens Melas (zehn Erwähnungen)<note place="foot" xml:id="ftn18" n="18"><p style="text-align: left; text-align: justify;">Vgl. Col. 1v, 12.13; Col. 2v, 1.3.4.9.13.15.18.22.</p></note> feststellen. Dieser ist eng mit der häufig auftretenden Nennung des Dorfes Halmyra verbunden, das einen klaren Bezug zu Soknopaiou Nesos hat. Die Einträge der Abrechnung nennen bisweilen nur Halmyra oder eine nicht weiter spezifizierte Polis (vermutlich Krokodilopolis) als Ort der Zahlungen oder gar nur die Namen der Empfänger, ohne auf den genauen Zweck des Geldes einzugehen. Überdies gibt es aber auch eindeutigere Zeilen, in denen die Abrechnung bestimmter Güter festgehalten wird, wie etwa Gerste (vgl. Col. 2v, 24), Wein (vgl. Col. 3v, 2.7) ein Posten aus Bronze (vgl. Col. 2v, 25) oder Salzkörbchen ohne direkten Geldwert (vgl. Col. 2v, 22 &amp; 3v, 5). </p>
+               <p xml:id="p49">In Sachen Datierung bestätigt sich indessen der Eindruck, dass die Versoseite nach Mitte des. 2. Jh. n.Chr. abgefasst wurde, wie dies zuvor vermutet worden war. Insbesondere die Beleglage der auftretenden Personennamen sowie die datierten Erwähnungen von Halmyra legen diesen Schluss nahe.</p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/77554">Ast, R., Benaissa, A., Gonis, N., Kovarik, S. and Sänger-Böhm, K. (2009)</ref> “Bemerkungen zu Papyri XXII (Korr. Tyche 611-632),” Tyche 24: 215–224.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/8813">Gignac, F.T. (1976)</ref> A grammar of the Greek papyri of the Roman and Byzantine periods. Volume I. Phonolgy. Mailand.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/15271">Jördens, A. and Zauzich, K.-T. (1998)</ref> Griechische Papyri aus Soknopaiu Nesos (P.Louvre I). Bonn.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95066">Lippert, S.L. and Schentuleit, M. (2006)</ref> Ostraka (DDD I). Wiesbaden.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/79288">Lippert, S.L., Schentuleit, M. and Reiter, F. (2010)</ref> Urkunden (DDD III). Wiesbaden.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/55861">Loebenstein, H. (1983)</ref> “Vom ‚Papyrus Erzherzog Rainer‘ zur Papyrussammlung der Österreichischen Nationalbibliothek. 100 Jahre Sammeln, Bewahren, Edieren,” in Papyrussammlung der Österreichischen Nationalbibliothek (ed.)<seg style="font-style: italic;">, </seg>Papyrus Erzherzog Rainer (P. Rainer Cent.)<seg style="font-style: italic;">. </seg>Festschrift zum 100-jährigen Bestehen der Papyrussammlung der Österreichischen Nationalbibliothek. Wien: 3–39.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/87310">Monson, A. (2013)</ref> “Salinization and agricultural productivity in the Fayyûm,” in C. Arlt and M. A. Stadler (eds.)<seg style="font-style: italic;">, </seg>Das Fayyûm in Hellenismus und Kaiserzeit<seg style="font-style: italic;">. </seg>Fallstudien zu multikulturellem Leben in der Antike. Wiesbaden: 123–140.</bibl>
+                  <bibl>
+                     Moser, M. (2023a) “mty,” in Marie-Pierre Chaufray and Martin Andreas Stadler (eds.)<seg style="font-style: italic;">, </seg>DimeData. (<ref target="https://dimedata.huma-num.fr/lemma/mty">https://dimedata.huma-num.fr/lemma/mty</ref>)</bibl>
+                  <bibl>
+                     Moser, M. (2023b) “trns,” in Marie-Pierre Chaufray and Martin Andreas Stadler (eds.)<seg style="font-style: italic;">, </seg>DimeData. (<ref target="https://dimedata.huma-num.fr/lemma/trns">https://dimedata.huma-num.fr/lemma/trns</ref>)</bibl>
+                  <bibl>
+                     Römer, C.E. (2019) The Fayoum survey project. The Themistou Meris. Volume A. The archaeological and papyrological survey. Löwen - Paris - Bristol (CT).</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/85247">Stadler, M.A. (2012)</ref> “Demotica aus Dime. Ein Überblick über die in Dime während der Kampagnen 2001-2009 gefundenen demotischen Texte,” in M. Capasso and P. Davoli (eds.)<seg style="font-style: italic;">, </seg>Soknopaiou Nesos Project I (2003-2009). Pisa - Rom: 249–268.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/3811">Wallace, S.L. (1938)</ref> Taxation in Egypt. From Augustus to Diocletian. Princeton.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Gewerbesteuerquittung für einen Zimmerman aus der Frankfurter Papyrussammlung</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">983639</idno>
+               <idno type="HGV">983639</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P.Vindob. D 6897v</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">22</measure>
+                              <measure type="width" unit="cm">35</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>2nd – 3rd century</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p><placeName n="1">Arsinoites (?)</placeName></p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Abrechnung</term>
+                  <term n="2">Geld</term>
+                  <term n="3">Palmyra</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Gewerbesteuerquittung für einen Zimmerman aus der Frankfurter Papyrussammlung</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV">983639</idno>
+               <idno type="TM">983639</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Gewerbesteuerquittung für einen Zimmerman aus der Frankfurter Papyrussammlung</head>
+             <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="i" subtype="column" type="textpart"><ab>
+<lb n="1"/>καὶ <unclear>και</unclear>φαλέου <expan><ex>δραχμῶν</ex></expan> <hi rend="supraline">Ϛ</hi>ψκδ
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> <gap reason="illegible" atLeast="2" atMost="3" unit="character"/> <unclear>α</unclear>
+<table>
+   <row n="3" xml:id="ed1ln3">
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/>νπωλι </cell>
+      <cell style="text-align; left;"><expan><ex>δραχμαὶ</ex></expan> φ</cell>
+   </row>
+   <row n="4" xml:id="ed1ln4">
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ενων </cell>
+      <cell style="text-align; left;"><expan><ex>δραχμαὶ</ex></expan> οϛ</cell>
+   </row>
+   <row n="5" xml:id="ed1ln5">
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/> </cell>
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/></cell>
+   </row>
+   <row n="6" xml:id="ed1ln6">
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/> </cell>
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/></cell>
+   </row>
+   <row n="7" xml:id="ed1ln7">
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/> </cell>
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/> <gap reason="illegible" atLeast="1" atMost="2" unit="character"/> <supplied reason="lost">-ca<gap reason="illegible" extent="unknown" unit="character"/>-</supplied> </cell>
+   </row>
+   <row n="8" xml:id="ed1ln8">
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/> </cell>
+      <cell style="text-align; left;"><supplied reason="lost"><expan><ex>δραχμαὶ</ex></expan></supplied> λϛ</cell>
+   </row>
+   <row n="9" xml:id="ed1ln9">
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/> </cell>
+      <cell style="text-align; left;"><expan><ex>δραχμαὶ</ex></expan> ιϛ <expan><ex>ὀβολοὶ</ex></expan> η</cell>
+   </row>
+   <row n="10" xml:id="ed1ln10">
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/><unclear>ω</unclear> </cell>
+      <cell style="text-align; left;"><expan><ex>δραχμαὶ</ex></expan> μη</cell>
+   </row>
+   <row n="11" xml:id="ed1ln11">
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/> </cell>
+      <cell style="text-align; left;"><expan><ex>δραχμαὶ</ex></expan> κ</cell>
+   </row>
+   <row n="12" xml:id="ed1ln12">
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/> <unclear>Μ</unclear>έλ<unclear>α</unclear>ς </cell>
+      <cell style="text-align; left;"><expan><ex>δραχμαὶ</ex></expan> Ασ</cell>
+   </row>
+   <row n="13" xml:id="ed1ln13">
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Μέλ</supplied>ας ϊς τὴν <expan>πό<ex>λιν</ex></expan> </cell>
+      <cell style="text-align; left;"><expan><ex>δραχμαὶ</ex></expan> ρ</cell>
+   </row>
+   <row n="14" xml:id="ed1ln14">
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/> <unclear>Ἁλ</unclear>μυ<unclear>ρά</unclear> </cell>
+      <cell style="text-align; left;"><expan><ex>δραχμαὶ</ex></expan> ρκ <add place="above"><expan><ex>ὀβολοὶ</ex></expan></add> δ</cell>
+   </row>
+   <row n="15" xml:id="ed1ln15">
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/> <gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" atLeast="0" atMost="1" unit="character"/> </cell>
+      <cell style="text-align; left;"><supplied reason="lost"><expan><ex>δραχμαὶ</ex></expan></supplied> <gap reason="lost" atLeast="0" atMost="1" unit="character"/> <unclear>ιϛ</unclear> <expan><ex cert="low">ὀβολοὶ</ex></expan> ι<unclear>ϛ</unclear></cell>
+   </row>
+   <row n="16" xml:id="ed1ln16">
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/> <gap reason="illegible" atLeast="2" atMost="3" unit="character"/> </cell>
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/></cell>
+   </row>
+   <row n="17" xml:id="ed1ln17">
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/> </cell>
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/></cell>
+   </row>
+   <row n="18" xml:id="ed1ln18">
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/> </cell>
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/></cell>
+   </row>
+   <row n="19" xml:id="ed1ln19">
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/> </cell>
+      <cell style="text-align; left;"><supplied reason="lost"><expan><ex>δραχμαὶ</ex></expan></supplied> <unclear>ρ</unclear>μ</cell>
+   </row>
+   <row n="20" xml:id="ed1ln20">
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/> </cell>
+      <cell style="text-align; left;"><gap reason="lost" extent="unknown" unit="character"/> δ</cell>
+   </row>
+</table>
+<lb n="21"/><gap reason="lost" atLeast="9" atMost="13" unit="line"/> 
+</ab></div>
+<div n="ii" subtype="column" type="textpart"><ab>
+<lb n="1"/>Παυνεῖ β̅ ϊς Ἁ<unclear>λ</unclear><supplied reason="lost">μ</supplied><unclear>υ</unclear>ρὰμ τῷ Μέλανει
+   <table>
+   <row n="2" xml:id="ed1col2ln2">
+      <cell style="text-align; left;">διὰ Σώτας </cell>
+      <cell style="text-align; left;"><expan><ex>δραχμαὶ</ex></expan> κ</cell>
+   </row>
+   <row n="3" xml:id="ed1col2ln3">
+      <cell style="text-align; left;">η̅ Μέλας </cell>
+      <cell style="text-align; left;"><expan><ex>δραχμαὶ</ex></expan> ξ</cell>
+   </row>
+   <row n="4" xml:id="ed1col2ln4">
+      <cell style="text-align; left;">ι̅δ̅ Μέλα<supplied reason="lost">ς δ</supplied><unclear>ι</unclear>άτης </cell>
+      <cell style="text-align; left;"><expan><ex>δραχμαὶ</ex></expan> κ</cell>
+   </row>
+   <row n="5" xml:id="ed1col2ln5">
+      <cell style="text-align; left;">ὑπο<gap reason="lost" atLeast="6" atMost="10" unit="character"/> </cell>
+      <cell style="text-align; left;"><expan><ex>δραχμαὶ</ex></expan> πη</cell>
+   </row>
+   <row n="6" xml:id="ed1col2ln6">
+      <cell style="text-align; left;">τῷ <unclear>π</unclear><supplied reason="lost">ατρὶ</supplied> <unclear>μ</unclear>οῦ ϊς τὴν <expan>πόλι<ex>ν</ex></expan> </cell>
+      <cell style="text-align; left;"><expan><ex>δραχμαὶ</ex></expan> τ</cell>
+   </row>
+   <row n="7" xml:id="ed1col2ln7">
+      <cell style="text-align; left;"><gap reason="lost" atLeast="9" atMost="11" unit="character"/><unclear>νου</unclear> </cell>
+      <cell style="text-align; left;"><expan><ex>ὀβολοὶ</ex></expan> κ</cell>
+   </row>
+   <row n="8" xml:id="ed1col2ln8">
+      <cell style="text-align; left;"><gap reason="lost" atLeast="6" atMost="12" unit="character"/> </cell>
+      <cell style="text-align; left;"><expan><ex>δραχμαὶ</ex></expan> ρμη</cell>
+   </row>
+   <row n="9" xml:id="ed1col2ln9">
+      <cell style="text-align; left;"><unclear>κ</unclear><gap reason="lost" atLeast="7" atMost="9" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> Μέλας </cell>
+      <cell style="text-align; left;"><expan><ex cert="low">δραχμαὶ</ex></expan> νϛ</cell>
+   </row>
+   <row n="10" xml:id="ed1col2ln10">
+      <cell style="text-align; left;">κα<gap reason="lost" atLeast="4" atMost="6" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <unclear>Π</unclear>ειη<supplied reason="lost">ο</supplied>ῦ </cell>
+      <cell style="text-align; left;"><expan><ex>δραχμαὶ</ex></expan> ι<unclear>β</unclear></cell>
+   </row>
+   <row n="11" xml:id="ed1col2ln11">
+      <cell style="text-align; left;">κ<unclear>α</unclear>ι<gap reason="illegible" quantity="1" unit="character"/>α<gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="2" unit="character"/> </cell>
+      <cell style="text-align; left;"><gap reason="illegible" extent="unknown" unit="character"/></cell>
+   </row>
+   <row n="12" xml:id="ed1col2ln12">
+      <cell style="text-align; left;"><gap reason="illegible" atLeast="4" atMost="5" unit="character"/> τῷ <supplied reason="lost">σ</supplied><unclear>τραδ</unclear>ιώτο<unclear>υ</unclear> </cell>
+      <cell style="text-align; left;"><expan><ex cert="low">δραχμαὶ</ex></expan> <gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/></cell>
+   </row>
+   <row n="13" xml:id="ed1col2ln13">
+      <cell style="text-align; left;"><unclear>Ἐπ</unclear>ε<unclear>ὶ</unclear>π α̅ Μέλας ϊς Ἁλ<unclear>μ</unclear><supplied reason="lost">υρ</supplied>ά</cell>
+      <cell style="text-align; left;"/>
+   </row>
+   <row n="14" xml:id="ed1col2ln14">
+      <cell style="text-align; left;"><space extent="unknown" unit="character"/>   <expan><ex>δραχμαὶ</ex></expan> ξη</cell>
+      <cell style="text-align; left;"/>
+   </row>
+   <row n="15" xml:id="ed1col2ln15">
+      <cell style="text-align; left;"><gap reason="illegible" quantity="1" unit="character"/> <supplied reason="lost">Μέ</supplied>λας ϊς Ἁ<supplied reason="omitted">λ</supplied>μυ<unclear>ρά</unclear> </cell>
+      <cell style="text-align; left;"><supplied reason="lost"><expan><ex>δραχμαὶ</ex></expan></supplied> <unclear>μ</unclear></cell>
+   </row>
+   <row n="16" xml:id="ed1col2ln16">
+      <cell style="text-align; left;"><gap reason="illegible" quantity="1" unit="character"/> Σώτ<unclear>α</unclear>ς Τιμαρ<unclear>χ</unclear><gap reason="lost" atLeast="2" atMost="3" unit="character"/> </cell>
+      <cell style="text-align; left;"><gap reason="lost" atLeast="2" atMost="3" unit="character"/><gap reason="illegible" quantity="1" unit="character"/></cell>
+   </row>
+   <row n="17" xml:id="ed1col2ln17">
+      <cell style="text-align; left;"><unclear>Ἐ</unclear>πεὶπ τῷ πατρὶ μ<unclear>οῦ</unclear> </cell>
+      <cell style="text-align; left;"><supplied reason="lost"><expan><ex>δραχμαὶ</ex></expan></supplied> <gap reason="lost" atLeast="0" atMost="1" unit="character"/><unclear>ξ</unclear></cell>
+   </row>
+   <row n="18" xml:id="ed1col2ln18">
+      <cell style="text-align; left;"><unclear>Μέλ</unclear>ας </cell>
+      <cell style="text-align; left;"><gap reason="lost" atLeast="1" atMost="2" unit="character"/><unclear>η</unclear></cell>
+   </row>
+   <row n="19" xml:id="ed1col2ln19">
+      <cell style="text-align; left;"><expan>ἀ<unclear>ρι</unclear>θμήσ<ex>εως</ex></expan> </cell>
+      <cell style="text-align; left;"><supplied reason="lost"><expan><ex>δραχμαὶ</ex></expan></supplied> ξ</cell>
+   </row>
+   <row n="20" xml:id="ed1col2ln20">
+      <cell style="text-align; left;"><gap reason="illegible" quantity="1" unit="character"/>πο<gap reason="illegible" quantity="2" unit="character"/>ενος </cell>
+      <cell style="text-align; left;"><gap reason="lost" quantity="1" unit="character"/> ιϛ</cell>
+   </row>
+   <row n="21" xml:id="ed1col2ln21">
+      <cell style="text-align; left;"><unclear>στρ</unclear>ατιώτ<unclear>ο</unclear><supplied reason="lost">υ ὅ</supplied>ρμο<unclear>υ</unclear> </cell>
+      <cell style="text-align; left;"><expan><ex>δραχμαὶ</ex></expan> η</cell>
+   </row>
+   <row n="22" xml:id="ed1col2ln22">
+      <cell style="text-align; left;"><unclear>Μ</unclear>έλας ἁλὰς <expan>ψάθι<ex>α</ex></expan> </cell>
+      <cell style="text-align; left;">ι̅γ̅</cell>
+   </row>
+   <row n="23" xml:id="ed1col2ln23">
+      <cell style="text-align; left;"><gap reason="lost" quantity="1" unit="character"/>ικνεν </cell>
+      <cell style="text-align; left;">β</cell>
+   </row>
+   <row n="24" xml:id="ed1col2ln24">
+      <cell style="text-align; left;"><unclear>Τ</unclear>εϊ<unclear>η</unclear>οῦ κριθῆς <expan>μέ<add place="above">τ</add><ex>ρα</ex></expan> γ </cell>
+      <cell style="text-align; left;"><expan><ex>δραχμαὶ</ex></expan> ιβ</cell>
+   </row>
+   <row n="25" xml:id="ed1col2ln25">
+      <cell style="text-align; left;"><gap reason="lost" atLeast="1" atMost="2" unit="character"/><gap reason="illegible" quantity="2" unit="character"/> χαλκί<unclear>ν</unclear>ου </cell>
+      <cell style="text-align; left;"><expan><ex cert="low">δραχμαὶ</ex></expan> δ</cell>
+   </row>
+</table>
+</ab></div>
+<div n="iii" subtype="column" type="textpart"><ab>
+<table>
+   <row n="1" xml:id="ed1col3ln1">
+      <cell style="text-align; left;"><num value="20"><hi rend="supraline">κ</hi></num> <choice><reg>εἰς</reg><orig>ϊς</orig></choice> Ἁλμ<unclear>υ</unclear>ρά τῷ π<unclear>ατρὶ</unclear> μο<supplied reason="lost">ῦ</supplied> </cell>
+      <cell style="text-align; left;"><gap reason="illegible" quantity="1" unit="character"/> <expan><ex>δραχμαὶ</ex></expan> κ</cell>
+   </row>
+   <row n="2" xml:id="ed1col3ln2">
+      <cell style="text-align; left;">Aἰ<unclear>ή</unclear>ου </cell>
+      <cell style="text-align; left;"><expan><ex>δραχμαὶ</ex></expan> <gap reason="lost" atLeast="0" atMost="1" unit="character"/>κη</cell>
+   </row>
+   <row n="3" xml:id="ed1col3ln3">
+      <cell style="text-align; left;"><choice><reg>εἰς</reg><orig>ϊς</orig></choice> τὴν ατακω<unclear>κην</unclear>π<unclear>ολ</unclear> </cell>
+      <cell style="text-align; left;"><expan><ex>δραχμαὶ</ex></expan> ιϛ</cell>
+   </row>
+   <row n="4" xml:id="ed1col3ln4">
+      <cell style="text-align; left;">στρατιώτου ὅρμου οἴν<unclear>ου</unclear> </cell>
+      <cell style="text-align; left;"><expan><ex>δραχμαὶ</ex></expan> κδ</cell>
+   </row>
+   <row n="5" xml:id="ed1col3ln5">
+      <cell style="text-align; left;"><choice><reg><expan>ψιά<unclear>θ</unclear>ι<ex>α</ex></expan></reg><orig></orig><expan>ψά<unclear>θ</unclear>ι<ex>α</ex></expan></choice> <choice><reg>ἁλός</reg><orig>ἁλές</orig></choice> </cell>
+      <cell style="text-align; left;">ϛ</cell>
+   </row>
+   <row n="6" xml:id="ed1col3ln6">
+      <cell style="text-align; left;">Τεϊη<unclear>ο</unclear>ῦ </cell>
+      <cell style="text-align; left;"><gap reason="lost" quantity="1" unit="character"/><unclear>η</unclear></cell>
+   </row>
+   <row n="7" xml:id="ed1col3ln7">
+      <cell style="text-align; left;">διὰ Ἑρμ<unclear>ο</unclear>ῦς Αἰήου </cell>
+      <cell style="text-align; left;"><gap reason="lost" atLeast="1" atMost="2" unit="character"/><gap reason="illegible" atLeast="1" atMost="2" unit="character"/></cell>
+   </row>
+</table>
+<lb n="8"/><space extent="unknown" unit="character"/> 
+</ab></div>
+      </div>
+             
+             <!-- This is the text which has been prepared for transfer to DCLP once Pylon 3 is published -->
+             <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="i" subtype="column" type="textpart"><ab>
+<lb n="1"/>καὶ <unclear>και</unclear>φαλέου <expan><ex>δραχμῶν</ex></expan> <hi rend="supraline">Ϛ</hi>ψκδ
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> <gap reason="illegible" atLeast="2" atMost="3" unit="character"/> <unclear>α</unclear>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>νπωλι <expan><ex>δραχμαὶ</ex></expan> φ
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>.ενων <expan><ex>δραχμαὶ</ex></expan> οϛ
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/> <gap reason="illegible" atLeast="1" atMost="2" unit="character"/> <supplied reason="lost">-ca<gap reason="illegible" extent="unknown" unit="character"/>-</supplied> 
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><expan><ex>δραχμαὶ</ex></expan></supplied> λϛ
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> <expan><ex>δραχμαὶ</ex></expan> ιϛ <expan><ex>ὀβολοὶ</ex></expan> η
+<lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ω</unclear> <expan><ex>δραχμαὶ</ex></expan> μη
+<lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <expan><ex>δραχμαὶ</ex></expan> κ
+<lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>Μ</unclear>έλ<unclear>α</unclear>ς <expan><ex>δραχμαὶ</ex></expan> Ασ
+<lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Μέλ</supplied>ας ϊς τὴν <expan>πό<ex>λιν</ex></expan> <expan><ex>δραχμαὶ</ex></expan> ρ
+<lb n="14"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>Ἁλ</unclear>μυ<unclear>ρά</unclear> <expan><ex>δραχμαὶ</ex></expan> ρκ <add place="above"><expan><ex>ὀβολοὶ</ex></expan></add> δ
+<lb n="15"/><gap reason="lost" extent="unknown" unit="character"/> <gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" atLeast="0" atMost="1" unit="character"/> <supplied reason="lost"><expan><ex>δραχμαὶ</ex></expan></supplied> <gap reason="lost" atLeast="0" atMost="1" unit="character"/> <unclear>ιϛ</unclear> <expan><ex cert="low">ὀβολοὶ</ex></expan> ι<unclear>ϛ</unclear>
+<lb n="16"/><gap reason="lost" extent="unknown" unit="character"/> <gap reason="illegible" atLeast="2" atMost="3" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="17"/><gap reason="lost" extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="18"/><gap reason="lost" extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="19"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><expan><ex>δραχμαὶ</ex></expan></supplied> <unclear>ρ</unclear>μ
+<lb n="20"/><gap reason="lost" extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/> δ
+<lb n="21"/><gap reason="lost" atLeast="9" atMost="13" unit="line"/> 
+</ab></div>
+<div n="ii" subtype="column" type="textpart"><ab>
+<lb n="1"/>Παυνεῖ β̅ ϊς Ἁ<unclear>λ</unclear><supplied reason="lost">μ</supplied><unclear>υ</unclear>ρὰμ τῷ Μέλανει
+<lb n="2"/>διὰ Σώτας <expan><ex>δραχμαὶ</ex></expan> κ
+<lb n="3"/>η̅ Μέλας <expan><ex>δραχμαὶ</ex></expan> ξ
+<lb n="4"/>ι̅δ̅ Μέλα<supplied reason="lost">ς δ</supplied><unclear>ι</unclear>άτης <expan><ex>δραχμαὶ</ex></expan> κ
+<lb n="5"/>ὑπο<gap reason="lost" atLeast="6" atMost="10" unit="character"/> <expan><ex>δραχμαὶ</ex></expan> πη
+<lb n="6"/>τῷ <unclear>π</unclear><supplied reason="lost">ατρὶ</supplied> <unclear>μ</unclear>οῦ ϊς τὴν <expan>πόλι<ex>ν</ex></expan> <expan><ex>δραχμαὶ</ex></expan> τ
+<lb n="7"/><gap reason="lost" atLeast="9" atMost="11" unit="character"/><unclear>νου</unclear> <expan><ex>ὀβολοὶ</ex></expan> κ
+<lb n="8"/><gap reason="lost" atLeast="6" atMost="12" unit="character"/> <expan><ex>δραχμαὶ</ex></expan> ρμη
+<lb n="9"/><unclear>κ</unclear><gap reason="lost" atLeast="7" atMost="9" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> Μέλας <expan><ex cert="low">δραχμαὶ</ex></expan> νϛ
+<lb n="10"/>κα<gap reason="lost" atLeast="4" atMost="6" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <unclear>Π</unclear>ειη<supplied reason="lost">ο</supplied>ῦ <expan><ex>δραχμαὶ</ex></expan> ι<unclear>β</unclear>
+<lb n="11"/>κ<unclear>α</unclear>ι<gap reason="illegible" quantity="1" unit="character"/>α<gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="2" unit="character"/> <gap reason="illegible" extent="unknown" unit="character"/>
+<lb n="12"/><gap reason="illegible" atLeast="4" atMost="5" unit="character"/> τῷ <supplied reason="lost">σ</supplied><unclear>τραδ</unclear>ιώτο<unclear>υ</unclear> <expan><ex cert="low">δραχμαὶ</ex></expan> <gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>
+<lb n="13"/><unclear>Ἐπ</unclear>ε<unclear>ὶ</unclear>π α̅ Μέλας ϊς Ἁλ<unclear>μ</unclear><supplied reason="lost">υρ</supplied>ά
+<lb n="14"/><space extent="unknown" unit="character"/>   <expan><ex>δραχμαὶ</ex></expan> ξη
+<lb n="15"/><gap reason="illegible" quantity="1" unit="character"/> <supplied reason="lost">Μέ</supplied>λας ϊς Ἁ<supplied reason="omitted">λ</supplied>μυ<unclear>ρά</unclear> <supplied reason="lost"><expan><ex>δραχμαὶ</ex></expan></supplied> <unclear>μ</unclear>
+<lb n="16"/><gap reason="illegible" quantity="1" unit="character"/> Σώτ<unclear>α</unclear>ς Τιμαρ<unclear>χ</unclear><gap reason="lost" atLeast="2" atMost="3" unit="character"/> <gap reason="lost" atLeast="2" atMost="3" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>
+<lb n="17"/><unclear>Ἐ</unclear>πεὶπ τῷ πατρὶ μ<unclear>οῦ</unclear> <supplied reason="lost"><expan><ex>δραχμαὶ</ex></expan></supplied> <gap reason="lost" atLeast="0" atMost="1" unit="character"/><unclear>ξ</unclear>
+<lb n="18"/><unclear>Μέλ</unclear>ας<gap reason="lost" atLeast="1" atMost="2" unit="character"/><unclear>η</unclear>
+<lb n="19"/><expan>ἀ<unclear>ρι</unclear>θμήσ<ex>εως</ex></expan> <supplied reason="lost"><expan><ex>δραχμαὶ</ex></expan></supplied> ξ
+<lb n="20"/><gap reason="illegible" quantity="1" unit="character"/>πο<gap reason="illegible" quantity="2" unit="character"/>ενος <gap reason="lost" quantity="1" unit="character"/> ιϛ
+<lb n="21"/><unclear>στρ</unclear>ατιώτ<unclear>ο</unclear><supplied reason="lost">υ ὅ</supplied>ρμο<unclear>υ</unclear> <expan><ex>δραχμαὶ</ex></expan> η
+<lb n="22"/><unclear>Μ</unclear>έλας ἁλὰς <expan>ψάθι<ex>α</ex></expan> ι̅γ̅
+<lb n="23"/><gap reason="lost" quantity="1" unit="character"/>ικνεν β
+<lb n="24"/><unclear>Τ</unclear>εϊ<unclear>η</unclear>οῦ κριθῆς <expan>μέ<add place="above">τ</add><ex>ρα</ex></expan> γ <expan><ex>δραχμαὶ</ex></expan> ιβ
+<lb n="25"/><gap reason="lost" atLeast="1" atMost="2" unit="character"/><gap reason="illegible" quantity="2" unit="character"/> χαλκί<unclear>ν</unclear>ου <expan><ex cert="low">δραχμαὶ</ex></expan> δ
+</ab></div>
+<div n="iii" subtype="column" type="textpart"><ab>
+<lb n="1"/><num value="20"><hi rend="supraline">κ</hi></num> ϊς Ἁλμ<unclear>υ</unclear>ρά τῷ π<unclear>ατρὶ</unclear> μο<supplied reason="lost">ῦ</supplied> <gap reason="illegible" quantity="1" unit="character"/> <expan><ex>δραχμαὶ</ex></expan> κ
+<lb n="2"/>Aἰ<unclear>ή</unclear>ου <expan><ex>δραχμαὶ</ex></expan> <gap reason="lost" atLeast="0" atMost="1" unit="character"/>κη
+<lb n="3"/>ϊς τὴν ατακω<unclear>κην</unclear>π<unclear>ολ</unclear> <expan><ex>δραχμαὶ</ex></expan> ιϛ
+<lb n="4"/>στρατιώτου ὅρμου οἴν<unclear>ου</unclear> <expan><ex>δραχμαὶ</ex></expan> κδ
+<lb n="5"/><choice><reg><expan>ψιά<unclear>θ</unclear>ι<ex>α</ex></expan></reg><orig></orig><expan>ψά<unclear>θ</unclear>ι<ex>α</ex></expan></choice> <choice><reg>ἁλός</reg><orig>ἁλές</orig></choice> ϛ
+<lb n="6"/>Τεϊη<unclear>ο</unclear>ῦ <gap reason="lost" quantity="1" unit="character"/><unclear>η</unclear>
+<lb n="7"/>διὰ Ἑρμ<unclear>ο</unclear>ῦς Αἰήου <gap reason="lost" atLeast="1" atMost="2" unit="character"/><gap reason="illegible" atLeast="1" atMost="2" unit="character"/>
+<lb n="8"/><space extent="unknown" unit="character"/> 
+</ab></div>
+      </div>
+         </body>
+          
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Gewerbesteuerquittung für einen Zimmerman aus der Frankfurter Papyrussammlung</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">983639</idno>
+               <idno type="TM">983639</idno>
+               <idno type="HGV">983639</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="de" type="translation" xml:space="preserve">
+                <table type="in_translation">
+                    <row n="1">
+                        <cell style="text-align; left;">Und für eine Gesamtsumme von 6724 Drachmen</cell>
+                        <cell style="text-align; right;"/>
+                    </row>
+                    <row n="2">
+                        <cell style="text-align; left;">[-ca.?-].[-ca.?-]..(.)</cell>
+                        <cell style="text-align; right;"/>
+                    </row>
+                    <row n="3">
+                        <cell style="text-align; left;">[-ca.?-].....</cell>
+                        <cell style="text-align; right;">500 Drachmen</cell>
+                    </row>
+                    <row n="4">
+                        <cell style="text-align; left;">[-ca.?-].....</cell>
+                        <cell style="text-align; right;">76 Drachmen</cell>
+                    </row>
+                    <row n="5">
+                        <cell style="text-align; left;">[-ca.?-]</cell>
+                        <cell style="text-align; right;">[-ca.?-]</cell>
+                    </row>
+                    <row n="6">
+                        <cell style="text-align; left;">[-ca.?-]</cell>
+                        <cell style="text-align; right;">[-ca.?-]</cell>
+                    </row>
+                    <row n="7">
+                        <cell style="text-align; left;">[-ca.?-]</cell>
+                        <cell style="text-align; right;">[-ca.?-].(.)[-ca.?-]</cell>
+                    </row>
+                    <row n="8">
+                        <cell style="text-align; left;">[-ca.?-]</cell>
+                        <cell style="text-align; right;">36 [Drachmen]</cell>
+                    </row>
+                    <row n="9">
+                        <cell style="text-align; left;">[-ca.?-]</cell>
+                        <cell style="text-align; right;">"16 Drachmen, 8 Obolen"</cell>
+                    </row>
+                    <row n="10">
+                        <cell style="text-align; left;">[-ca.?-].</cell>
+                        <cell style="text-align; right;">48 Drachmen</cell>
+                    </row>
+                    <row n="11">
+                        <cell style="text-align; left;">[-ca.?-]</cell>
+                        <cell style="text-align; right;">20 Drachmen</cell>
+                    </row>
+                    <row n="12">
+                        <cell style="text-align; left;">[-ca.?-] Melas</cell>
+                        <cell style="text-align; right;">1200 Drachmen</cell>
+                    </row>
+                    <row n="13">
+                        <cell style="text-align; left;">"[-ca.?-] [Mel]as</cell>
+                        <cell style="text-align; right;"> in der Stadt",100 Drachmen</cell>
+                    </row>
+                    <row n="14">
+                        <cell style="text-align; left;">[-ca.?-] Halmyra</cell>
+                        <cell style="text-align; right;">"120 Drachmen, 4 \Obolen/"</cell>
+                    </row>
+                    <row n="15">
+                        <cell style="text-align; left;">[-ca.?-]..[(.)]</cell>
+                        <cell style="text-align; right;">"[(.)]16 [Drachmen], 16 Obolen"</cell>
+                    </row>
+                    <row n="16">
+                        <cell style="text-align; left;">[-ca.?-]..(.)[-ca.?-]</cell>
+                        <cell style="text-align; right;">[-ca.?-]</cell>
+                    </row>
+                    <row n="17">
+                        <cell style="text-align; left;">[-ca.?-]</cell>
+                        <cell style="text-align; right;">[-ca.?-]</cell>
+                    </row>
+                    <row n="18">
+                        <cell style="text-align; left;">[-ca.?-]</cell>
+                        <cell style="text-align; right;">[-ca.?-]</cell>
+                    </row>
+                    <row n="19">
+                        <cell style="text-align; left;">[-ca.?-]</cell>
+                        <cell style="text-align; right;">140 [Drachmen]</cell>
+                    </row>
+                    <row n="20">
+                        <cell style="text-align; left;">[-ca.?-]</cell>
+                        <cell style="text-align; right;">4 [-ca.?-]</cell>
+                    </row>
+                    
+                    <row n="1">
+                        <cell style="text-align; left;">"2. Pauni, in Hal[m]yra: an Melas"</cell>
+                        <cell style="text-align; right;"/>
+                    </row>
+                    <row n="2">
+                        <cell style="text-align; left;">von Sotas</cell>
+                        <cell style="text-align; right;">20 Drachmen</cell>
+                    </row>
+                    <row n="3">
+                        <cell style="text-align; left;">8. (Pauni): Melas</cell>
+                        <cell style="text-align; right;">60 Drachmen</cell>
+                    </row>
+                    <row n="4">
+                        <cell style="text-align; left;">14. (Pauni): Melas für den Lebensunterhalt (?)</cell>
+                        <cell style="text-align; right;">20 Drachmen</cell>
+                    </row>
+                    <row n="5">
+                        <cell style="text-align; left;">...[......(....)]</cell>
+                        <cell style="text-align; right;">88 Drachmen</cell>
+                    </row>
+                    <row n="6">
+                        <cell style="text-align; left;">an meinen [Vater] in der Stadt</cell>
+                        <cell style="text-align; right;">300 Drachmen</cell>
+                    </row>
+                    <row n="7">
+                        <cell style="text-align; left;">[.........(..)]...</cell>
+                        <cell style="text-align; right;">20 Obolen</cell>
+                    </row>
+                    <row n="8">
+                        <cell style="text-align; left;">[......(......)]</cell>
+                        <cell style="text-align; right;">148 Drachmen</cell>
+                    </row>
+                    <row n="9">
+                        <cell style="text-align; left;">.[.......(..)]. Melas</cell>
+                        <cell style="text-align; right;">56 Drachmen</cell>
+                    </row>
+                    <row n="10">
+                        <cell style="text-align; left;">..[....(..)]. für Pee[ou]s</cell>
+                        <cell style="text-align; right;">12 Drachmen</cell>
+                    </row>
+                    <row n="11">
+                        <cell style="text-align; left;">.....[..]..</cell>
+                        <cell style="text-align; right;">[-ca.?-]</cell>
+                    </row>
+                    <row n="12">
+                        <cell style="text-align; left;">....(.) an den Soldaten</cell>
+                        <cell style="text-align; right;">[..]. Drachmen</cell>
+                    </row>
+                    <row n="13">
+                        <cell style="text-align; left;">"1. Epeiph: Melas</cell>
+                        <cell style="text-align; right;"> in Halm[yr]a",</cell>
+                    </row>
+                    <row n="14">
+                        <cell style="text-align; left;">68 Drachmen</cell>
+                        <cell style="text-align; right;"></cell>
+                    </row>
+                    <row n="15">
+                        <cell style="text-align; left;">". [Me]las</cell>
+                        <cell style="text-align; right;"> in Halmyra",40 [Drachmen]</cell>
+                    </row>
+                    <row n="16">
+                        <cell style="text-align; left;">. (Epeiph): Sotas ......[..(.)]</cell>
+                        <cell style="text-align; right;">[..(.)].</cell>
+                    </row>
+                    <row n="17">
+                        <cell style="text-align; left;">Epeiph: an meinen Vater</cell>
+                        <cell style="text-align; right;">[(.)]60 [Drachmen]</cell>
+                    </row>
+                    <row n="18">
+                        <cell style="text-align; left;">Melas</cell>
+                        <cell style="text-align; right;">[.(.)]8</cell>
+                    </row>
+                    <row n="19">
+                        <cell style="text-align; left;">für die Abrechnung</cell>
+                        <cell style="text-align; right;">60 [Drachmen]</cell>
+                    </row>
+                    <row n="20">
+                        <cell style="text-align; left;">.........</cell>
+                        <cell style="text-align; right;">16 [...]</cell>
+                    </row>
+                    <row n="21">
+                        <cell style="text-align; left;">für den Soldaten des Hafens</cell>
+                        <cell style="text-align; right;">8 Drachmen</cell>
+                    </row>
+                    <row n="22">
+                        <cell style="text-align; left;">"Melas</cell>
+                        <cell style="text-align; right;"> Körbchen Salz",13</cell>
+                    </row>
+                    <row n="23">
+                        <cell style="text-align; left;">[.].....</cell>
+                        <cell style="text-align; right;">2</cell>
+                    </row>
+                    <row n="24">
+                        <cell style="text-align; left;">für Teieous: 3 Metra Gerste</cell>
+                        <cell style="text-align; right;">12 Drachmen</cell>
+                    </row>
+                    <row n="25">
+                        <cell style="text-align; left;">für [.(.)].. aus Bronze</cell>
+                        <cell style="text-align; right;">4 Drachmen</cell>
+                    </row>
+                    
+                    <row n="1">
+                        <cell style="text-align; left;">20. (Epeiph), in Halmyra: an meinen Vater</cell>
+                        <cell style="text-align; right;">. 20 Drachmen</cell>
+                    </row>
+                    <row n="2">
+                        <cell style="text-align; left;">für Aies</cell>
+                        <cell style="text-align; right;">[(.)]28 Drachmen</cell>
+                    </row>
+                    <row n="3">
+                        <cell style="text-align; left;">in der ....</cell>
+                        <cell style="text-align; right;">16 Drachmen</cell>
+                    </row>
+                    <row n="4">
+                        <cell style="text-align; left;">für den Soldaten des Hafens, für Wein</cell>
+                        <cell style="text-align; right;">24 Drachmen</cell>
+                    </row>
+                    <row n="5">
+                        <cell style="text-align; left;">Körbchen Salz</cell>
+                        <cell style="text-align; right;">6</cell>
+                    </row>
+                    <row n="6">
+                        <cell style="text-align; left;">für Teieous</cell>
+                        <cell style="text-align; right;">8 [...]</cell>
+                    </row>
+                    <row n="7">
+                        <cell style="text-align; left;">von Herieus, Sohn des Aies (?)</cell>
+                        <cell style="text-align; right;">[.(.)].(.)</cell>
+                    </row>
+                </table>
+            </div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
