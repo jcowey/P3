@@ -22,7 +22,7 @@
 ### final resting place in production for the XML and PDF files, which are then uploaded to the galleys in OJS
 
 
-1. **_PDF_** 
+1. **_PDF_** [Deac](https://github.com/jcowey/P3/blob/master/pdfs/1_deac.pdf)
 
 2. **_PDF_**
 
