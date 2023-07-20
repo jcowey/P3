@@ -24,6 +24,14 @@ https://www.ub.uni-heidelberg.de/service/pdf/OJS3-Handreichung.pdf
 
 Fill that in.
 
+The galleys can be prepared in advance. Click on Add galley.
+- Enter HTML first(that way it appears first in the preview)
+- Choose the relevant language (should correspond to the language of the article itself)
+- Save
+- Choose Article Text
+- Click on cancel if not uploading immediately
+- Now do the same for PDF
+  
 # How to add the relevant DOI.
 
 Go to identifiers
