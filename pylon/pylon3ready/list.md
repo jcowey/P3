@@ -15,8 +15,6 @@
 7. **_HTML_**: [Claytor, Gewerbesteuerquittung für einen Zimmerman aus der Frankfurter Papyrussammlung](https://digi.ub.uni-heidelberg.de/editionService/viewer/p3test/claytor_frankfurt_86)
 
 8. **_HTML_**: [Berkes, Rent Receipt](https://digi.ub.uni-heidelberg.de/editionService/viewer/p3test/berkes_rent)
-
-9. **_HTML_**: [BOEP 11](https://digi.ub.uni-heidelberg.de/editionService/viewer/p3test/boep_11)
  
 
 
@@ -24,11 +22,22 @@
 ### final resting place in production for the XML and PDF files, which are then uploaded to the galleys in OJS
 
 
-1. 
+1. **_PDF_** 
 
-2. 
+2. **_PDF_**
 
-3. 
+3. **_PDF_** [Vanderheyden](https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/blob/main/pdf/3/pylon_98148_text_.pdf)
+
+4. **_PDF_**
+
+5. **_PDF_**
+
+6. **_PDF_**
+
+7. **_PDF_**
+
+8. **_PDF_**
+
 
 For those that can view them, the PDFs can be seen here:
 
