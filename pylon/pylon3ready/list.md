@@ -36,9 +36,8 @@
 
 7. **_PDF_**
 
-8. **_PDF_**
+8. **_PDF_** [Berkes, Rent](https://github.com/jcowey/P3/blob/master/pdfs/pylon_98236_text_.pdf)
 
-9. **_PDF_**
 
 
 
