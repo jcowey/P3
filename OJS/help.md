@@ -58,7 +58,7 @@ When all galleys are loaded and you are ready to publish the volume, go to
 
 https://journals.ub.uni-heidelberg.de/index.php/pylon/manageIssues#futureIssues
 
-call up the volume concerned and click on “Publish Issue”
+call up the volume concerned and click on the arrow to the left of the title then choose and click on “Publish Issue”
 
 Now go to 
 - Tools
