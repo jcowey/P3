@@ -22,19 +22,19 @@
 ### final resting place in production for the XML and PDF files, which are then uploaded to the galleys in OJS
 
 
-1. **_PDF_** [Deac](https://github.com/jcowey/P3/blob/master/pdfs/1_deac.pdf)
+1. **_PDF_** [Deac](https://github.com/jcowey/P3/blob/master/pdfs/pylon_98163_text_.pdf)
 
-2. **_PDF_**
+2. **_PDF_** [Ast_Lougovaya](https://github.com/jcowey/P3/blob/master/pdfs/pylon_98170_text_.pdf)
 
-3. **_PDF_** 
+3. **_PDF_** [Vanderheyden](https://github.com/jcowey/P3/blob/master/pdfs/pylon_98148_text_.pdf)
 
-4. **_PDF_**
+4. **_PDF_** [Moser](https://github.com/jcowey/P3/blob/master/pdfs/pylon_98176_text_.pdf)
   
-5. **_PDF_**
+5. **_PDF_** [Lougovaya, Scholia](https://github.com/jcowey/P3/blob/master/pdfs/pylon_98180_text_.pdf)
 
-6. **_PDF_**
+6. **_PDF_** [Berkes et al, Ink](https://github.com/jcowey/P3/blob/master/pdfs/pylon_98234_text_.pdf)
 
-7. **_PDF_**
+7. **_PDF_** [Claytor](https://github.com/jcowey/P3/blob/master/pdfs/pylon_98235_text_.pdf)
 
 8. **_PDF_** [Berkes, Rent](https://github.com/jcowey/P3/blob/master/pdfs/pylon_98236_text_.pdf)
 
