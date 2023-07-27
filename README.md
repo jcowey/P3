@@ -9,10 +9,10 @@ This is a collection point for the Papyrological Publishing Platform (P3).
 
 
 ### Pylon 3 files for viewing
-The collection of material for **Pylon 3 (2023)** can now, for convenience, be found [here in the form of a googlespreadsheet](https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3acCM/edit#gid=187043614). May I please remind you to add any submissions that any of you may receive to the googlespreadsheet. That way we have a clear idea of how many articles we have for the volume. 
+The collection of material for **Pylon 4 (2023)** can now, for convenience, be found [here in the form of a googlespreadsheet](https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3acCM/edit#gid=1426998996). May I please remind you to add any submissions that any of you may receive to the googlespreadsheet. That way we have a clear idea of how many articles we have for the volume. 
 - Links to live files **as they appear in HTML** (PDFs also available, but the links are only accessible for signed up gitlab members) for the third volume of Pylon can be found in the folder: [pylon3ready](https://github.com/jcowey/P3/blob/master/pylon/pylon3ready/list.md)
 - An announcement with the call for contributions may be viewed on the website of the journal: [see here](https://journals.ub.uni-heidelberg.de/index.php/pylon/announcement)
-- A deadline for submission for a Pylon 3 article should be **May 19, 2023** at the very latest. Even then if an article needs much attention and change it would probably have to be moved to Pylon 4.
+- A deadline for submission for a Pylon 4 article should be **May 31, 2023** at the very latest. Even then if an article needs much attention and change it would probably have to be moved to Pylon 5.
 
 
 ### General information
