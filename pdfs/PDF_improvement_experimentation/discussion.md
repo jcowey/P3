@@ -18,7 +18,7 @@ A few comments on the experiment files so far.
 2. Scholia minora to Iliad 1.1-12 in HTML [Lougovaya](https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/98180/93353)
    - Here is the PDF in its [original version](https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/98180/93354)
    - and once the new floating transformation has been implemented, a PDF in its ['floated' version](https://github.com/jcowey/P3/blob/master/pdfs/PDF_improvement_experimentation/p3test_lougovaya_scholia_text_float_after.pdf). Comment by Leo Maylein on this version: "Übrigens können jetzt theoretisch auch Tabellen gefloatet werden, wenn sie entsprechend in TEI markiert hc:DetachedTable. Und bei Tabellen sollte nun auch sichergestellt sein, dass die ersten drei und die letzten drei Zeilen zusammenhängend auf einer Seite sind."
-     - The two enhanced images which were placed after §2 the edition are now embedded in §1.
+     - The two enhanced images which were placed after §2 are now embedded in §1.
      - The images which preceded the edition have now been embedded slightly earlier in the flow of the text in §5.
 
 
