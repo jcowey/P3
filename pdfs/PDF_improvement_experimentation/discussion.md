@@ -8,7 +8,7 @@ A few comments on the experiment files so far.
    - Here is the PDF in its [original version](https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/89358/84248)
      - Each image precedes the transcription directly
    - and once the new floating transformation has been implemented, a PDF in its ['floated' version](https://github.com/jcowey/P3/blob/master/pdfs/PDF_improvement_experimentation/p3test_ast_bagnall_berenike_4_text_float_after.pdf)
-     - comment by Leo Maylein on this version: "Hier müssen wir dann aber noch dafür sorgen, dass nicht einzelne Zeilen einer Edition umgebrochen werden (siehe 10 in Seite in p3test_ast_bagnall_berenike_4_text_float_after.pdf) oder der Header eines Papyrus (siehe Seite 27) auseinander gerissen wird."
+     - comment by Leo Maylein on this version: "Hier müssen wir dann aber noch dafür sorgen, dass nicht einzelne Zeilen einer Edition umgebrochen werden (bullet point 4 below "After §22 the text of O.Berenike 4 514 is interrupted by the image under which line 3 of the text follows.") oder der Header eines Papyrus (siehe Seite 27) auseinander gerissen wird."
      - Now the images are placed whenever the system finds a place to put them.
      - In §8 the image is embedded in the middle of the paragraph, which is the introduction to O.Berenike 4 512.
      - In §12 (the second paragraph of the introduction to O.Berenike 4 513) the image is embedded/floated.
