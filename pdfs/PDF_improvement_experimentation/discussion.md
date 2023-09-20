@@ -13,7 +13,7 @@ A few comments on the experiment files so far.
      - In §8 the image is embedded in the middle of the paragraph, which is the introduction to O.Berenike 4 512.
      - In §12 (the second paragraph of the introduction to O.Berenike 4 513) the image is embedded/floated.
      - After §22 the text of O.Berenike 4 514 is interrupted by the image under which line 3 of the text follows.
-     - in §60 in the introduction to O.Berenike 4 521 Fig. 10: 520 is embedded. In other words the image of O.Berenike 4 520 **!!!** is embedded in the introduction to O.Berenike 4 521
+     - in §60 in the introduction to O.Berenike 4 521 Fig. 10: 520 is embedded. In other words the image of O.Berenike 4 520 **!!!** is embedded in the introduction to O.Berenike 4 521. Fig 11: 521 is included after the translation of O.Berenike 4 521 and just before O.Berenike 4 522. 
    
 2. Scholia minora to Iliad 1.1-12 in HTML [Lougovaya](https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/98180/93353)
    - Here is the PDF in its [original version](https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/98180/93354)
