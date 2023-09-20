@@ -15,6 +15,7 @@ A few comments on the experiment files so far.
    
 2. Scholia minora to Iliad 1.1-12 in HTML [Lougovaya](https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/98180/93353)
    - Here is the PDF in its [original version](https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/98180/93354)
+   - and once the new floating transformation has been implemented in its [floated version](https://github.com/jcowey/P3/blob/master/pdfs/PDF_improvement_experimentation/p3test_lougovaya_scholia_text_float_after.pdf)
 
 
 
