@@ -7,12 +7,13 @@ A few comments on the experiment files so far.
 1. O.Berenike 4 in HTML: [Ast, Bagnall, Vanderheyden](https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/89358/83988)
    - Here is the PDF in its [original version](https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/89358/84248)
      - Each image precedes the transcription directly
-   - and once the new floating transformation has been implemented, a PDF in its ['floated' version](https://github.com/jcowey/P3/blob/master/pdfs/PDF_improvement_experimentation/p3test_ast_bagnall_berenike_4_text_float_after.pdf). Comment by Leo Maylein on this version: "Hier müssen wir dann aber noch dafür sorgen, dass nicht einzelne Zeilen einer Edition umgebrochen werden (bullet point 4 below "After §22 the text of O.Berenike 4 514 is interrupted by the image under which line 3 of the text follows.") oder der Header eines Papyrus (siehe Seite 27) auseinander gerissen wird."
+   - and once the new floating transformation has been implemented, a PDF in its ['floated' version](https://github.com/jcowey/P3/blob/master/pdfs/PDF_improvement_experimentation/p3test_ast_bagnall_berenike_4_text_float_after.pdf). Comment by Leo Maylein on this version: "Hier müssen wir dann aber noch dafür sorgen, dass nicht einzelne Zeilen einer Edition umgebrochen werden (bullet point 4 below "After §22 the text of O.Berenike 4 514 is interrupted by the image under which line 3 of the text follows.") oder der Header eines Papyrus (bullet point 5 below "After §93 "527. Latin ostrakon" follows ...") auseinander gerissen wird."
      - Now the images are placed whenever the system finds a place to put them.
      - In §8 the image is embedded in the middle of the paragraph, which is the introduction to O.Berenike 4 512.
      - In §12 (the second paragraph of the introduction to O.Berenike 4 513) the image is embedded/floated.
      - After §22 the text of O.Berenike 4 514 is interrupted by the image under which line 3 of the text follows.
-     - in §60 in the introduction to O.Berenike 4 521 Fig. 10: 520 is embedded. In other words the image of O.Berenike 4 520 **!!!** is embedded in the introduction to O.Berenike 4 521. Fig 11: 521 is included after the translation of O.Berenike 4 521 and just before O.Berenike 4 522. 
+     - in §60 in the introduction to O.Berenike 4 521 Fig. 10: 520 is embedded. In other words the image of O.Berenike 4 520 **!!!** is embedded in the introduction to O.Berenike 4 521. Fig 11: 521 is included after the translation of O.Berenike 4 521 and just before O.Berenike 4 522.
+     - After §93 "527. Latin ostrakon" follows. Here the first two lines of the "papyrological header" are interrupted by the image of the ostracon. The last line of the "papyrological header" is place below the image just before §94.
    
 2. Scholia minora to Iliad 1.1-12 in HTML [Lougovaya](https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/98180/93353)
    - Here is the PDF in its [original version](https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/98180/93354)
