@@ -14,6 +14,7 @@ A few comments on the experiment files so far.
      - After §22 the text of O.Berenike 4 514 is interrupted by the image under which line 3 of the text follows.
    
 2. Scholia minora to Iliad 1.1-12 in HTML [Lougovaya](https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/98180/93353)
+   - Here is the PDF in its [original version](https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/98180/93354)
 
 
 
