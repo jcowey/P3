@@ -81,7 +81,7 @@ Here is an **example of such mark up** as used to produce one of our test files:
 
 Here is an **example of such mark up** as used to produce one of our test files:
 
-- [Lougovaya Cubits](https://digi.ub.uni-heidelberg.de/editionService/viewer/text/p3test/Lougovaya_cubits_and_fingers#ch_17)
+- [Lougovaya Cubits](https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/89333/84259#ch_8)
   - for which the stuctural mark up of the word document was: [pHarris50.pdf](https://github.com/jcowey/P3/files/7655522/pHarris50.pdf)
 
 
