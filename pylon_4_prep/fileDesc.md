@@ -40,7 +40,7 @@
                 <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2023.4.XXXXX</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl ana="hc:RecommendedBibliographicReference">R. Takahashi, “The Location and Size of Prektis in the Hermopolite nome,” Pylon 4 (2023). DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2023.4.XXXXX">https://doi.org/10.48631/pylon.2023.3.XXXXX</ref>.</bibl>
+                <bibl ana="hc:RecommendedBibliographicReference">R. Takahashi, “The Location and Size of Prektis in the Hermopolite nome,” Pylon 4 (2023). DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2023.4.XXXXX">https://doi.org/10.48631/pylon.2023.4.XXXXX</ref>.</bibl>
                 <biblStruct>
                     <monogr>
                         <title level="j" ana="hc:MainTitle">Pylon</title>
