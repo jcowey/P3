@@ -1,6 +1,8 @@
 # Handling of .svg files
 
-To control the size of .svg files see: https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/epidoc/Pylon_4_Lougovaya/lougovaya_notes.xml#L80
+To control the size of .svg files see: 
+
+https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/epidoc/Pylon_4_Lougovaya/lougovaya_notes.xml#L80
 
 In heidICON go to editor mode navigate to
 - Info / Erweitert
