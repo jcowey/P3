@@ -32,6 +32,12 @@ Publication.
 
 Schedule for publication.
 
+Issue: choose relevant value
+
+Save
+
+Schedule for publication.
+
 The galleys can be prepared in advance. Click on Add galley.
 - Enter HTML first(that way it appears first in the preview)
 - Choose the relevant language (should correspond to the language of the article itself)
