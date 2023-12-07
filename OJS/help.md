@@ -5,6 +5,7 @@ Creating an issue: https://docs.pkp.sfu.ca/learning-ojs/en/production-publicatio
 Go to issues
 
 - choose Future Issues
+- Create Issue
 - add data in volume and year
 - unclick the box with number and title 
 - save
