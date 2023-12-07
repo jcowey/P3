@@ -26,6 +26,12 @@ https://www.ub.uni-heidelberg.de/service/pdf/OJS3-Handreichung.pdf
 
 Fill that in.
 
+Go to submission.
+
+Publication.
+
+Schedule for publication.
+
 The galleys can be prepared in advance. Click on Add galley.
 - Enter HTML first(that way it appears first in the preview)
 - Choose the relevant language (should correspond to the language of the article itself)
