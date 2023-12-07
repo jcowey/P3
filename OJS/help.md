@@ -24,7 +24,8 @@ takes me to the first entry page (page 4 of the PDF)
 
 https://www.ub.uni-heidelberg.de/service/pdf/OJS3-Handreichung.pdf
 
-Fill that in.
+Fill that in:
+Submission Language; Section; Title; Type (Text); Languages; Keywords; List of contributors
 
 Go to submission.
 
