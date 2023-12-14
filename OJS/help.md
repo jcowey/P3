@@ -68,8 +68,8 @@ Before the galleys can be uploaded, the following steps have to be taken.
 - Make sure that all HTMLs and PDFs are doing what they should do.
   - https://digi.ub.uni-heidelberg.de/editionService/viewer/pylon/89306
   - https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/tree/main/pdf
-- Now load all the XML files into the relevant file of 
-- https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/tree/main/epidoc
+- Now check that all the XML files are in
+- https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/tree/main/converted
 - Now transfer all
   - XML files to your desktop (choose "Download this directory" "zip")
   - all PDFs to your desktop (choose "Download this directory" "zip")
