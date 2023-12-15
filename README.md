@@ -5,7 +5,8 @@ This is a collection point for the Papyrological Publishing Platform (P3).
 
 - **Pylon 1 (2022)**, published 2022-07-01, can be viewed at [Vol. 1 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6131)
 - **Pylon 2 (2022)**, published 2022-12-21, can be viewed at [Vol. 2 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6300)
-- **Pylon 3 (2023)**, published 2022-07-25, can be viewed at [Vol. 3 (2023)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6639)
+- **Pylon 3 (2023)**, published 2023-07-25, can be viewed at [Vol. 3 (2023)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6639)
+- **Pylon 4 (2023)**, published 2023-12-15, can be viewed at [Vol. 4 (2023)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6890)
 
 
 ### Pylon 3 files for viewing
