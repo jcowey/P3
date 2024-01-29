@@ -1,5 +1,5 @@
 # P3
-This is a collection point for the Papyrological Publishing Platform (P3), which ends up with publication in the journal [Pylon](https://journals.ub.uni-heidelberg.de/index.php/pylon/index). 
+This is a collection point for the Papyrological Publishing Platform (P3). It includes files and information about procedures, which are used for the production of the journal [Pylon](https://journals.ub.uni-heidelberg.de/index.php/pylon/index). 
 
 ### Preparation of Pylon 5
 The collection of material for **Pylon 5 (2024)** can now, for convenience, be found [here in the form of a googlespreadsheet](https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3acCM/edit#gid=292994264)). May I please remind you to add notification of any submissions that any of you may receive to the googlespreadsheet. That way we have a clear idea of how many articles we have for the volume. 
