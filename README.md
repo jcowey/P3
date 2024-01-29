@@ -1,6 +1,6 @@
 # P3
 This is a collection point for the Papyrological Publishing Platform (P3). 
-https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3acCM/edit#gid=292994264
+
 ### Published volumes
 
 - **Pylon 4 (2023)**, published 2023-12-15, can be viewed at [Vol. 4 (2023)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6890)
