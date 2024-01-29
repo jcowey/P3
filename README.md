@@ -9,7 +9,7 @@ https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3a
 - **Pylon 1 (2022)**, published 2022-07-01, can be viewed at [Vol. 1 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6131)
 
 ### Preparation of Pylon 5
-The collection of material for **Pylon 5 (2024)** can now, for convenience, be found [here in the form of a googlespreadsheet](https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3acCM/edit#gid=292994264)). May I please remind you to add any submissions that any of you may receive to the googlespreadsheet. That way we have a clear idea of how many articles we have for the volume. 
+The collection of material for **Pylon 5 (2024)** can now, for convenience, be found [here in the form of a googlespreadsheet](https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3acCM/edit#gid=292994264)). May I please remind you to add notification of any submissions that any of you may receive to the googlespreadsheet. That way we have a clear idea of how many articles we have for the volume. 
 
 There is now also a folder which contains all the submissions. These are in .docx format and can be downloaded by anyone. They are available here: [LP4tPoJ](https://drive.google.com/drive/folders/1DI8wMN1biiEjOBU2fg0vxDxucLP4tPoJ). May I please ask any editors who receive submsissions to upload them to this repository. That way all editors can look at any time at this folder and find the submissions that have come in.
 
