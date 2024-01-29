@@ -10,6 +10,7 @@ https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3a
 
 ### Preparation of Pylon 5
 The collection of material for **Pylon 5 (2024)** can now, for convenience, be found [here in the form of a googlespreadsheet](https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3acCM/edit#gid=292994264)). May I please remind you to add any submissions that any of you may receive to the googlespreadsheet. That way we have a clear idea of how many articles we have for the volume. 
+- There is now also a folder which contains all the submissions. These are in .docx format and can be downloaded by anyone. They are available here: [LP4tPoJ](https://drive.google.com/drive/folders/1DI8wMN1biiEjOBU2fg0vxDxucLP4tPoJ)
 - Links to live files **as they appear in HTML** (PDFs also available, but the links are only accessible for signed up gitlab members) for the third volume of Pylon can be found in the folder: [pylon3ready](https://github.com/jcowey/P3/blob/master/pylon/pylon3ready/list.md)
 - An announcement with the call for contributions may be viewed on the website of the journal: [see here](https://journals.ub.uni-heidelberg.de/index.php/pylon/announcement)
 - A deadline for submission for a Pylon 4 article should be **October 31, 2023** at the very latest. Even then if an article needs much attention and change it would probably have to be moved to Pylon 5.
