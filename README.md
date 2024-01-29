@@ -15,7 +15,7 @@ There is now also a folder which contains all the submissions as they are receiv
 
 - An announcement with the call for contributions may be viewed on the website of the journal: [see here](https://journals.ub.uni-heidelberg.de/index.php/pylon/announcement)
 - A deadline for submission for a Pylon 5 article should be **May 15, 2024** at the very latest. Even then if an article needs much attention and change it would probably have to be moved to Pylon 6.
-- Links to live files **as they appear in HTML** (PDFs also available, but the links are only accessible for signed up gitlab members) for the fifth volume of Pylon can be found in the folder: [pylon3ready](https://github.com/jcowey/P3/blob/master/pylon/pylon5ready/list.md)
+- Links to live files **as they appear in HTML** (PDFs also available, but the links are only accessible for signed up gitlab members) for the fifth volume of Pylon can be found in the folder: [pylon5ready](https://github.com/jcowey/P3/blob/master/pylon/pylon5ready/list.md)
 
 ### General information
 
