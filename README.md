@@ -3,11 +3,10 @@ This is a collection point for the Papyrological Publishing Platform (P3).
 
 ### Published volumes
 
-- **Pylon 1 (2022)**, published 2022-07-01, can be viewed at [Vol. 1 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6131)
-- **Pylon 2 (2022)**, published 2022-12-21, can be viewed at [Vol. 2 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6300)
-- **Pylon 3 (2023)**, published 2023-07-25, can be viewed at [Vol. 3 (2023)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6639)
 - **Pylon 4 (2023)**, published 2023-12-15, can be viewed at [Vol. 4 (2023)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6890)
-
+- **Pylon 3 (2023)**, published 2023-07-25, can be viewed at [Vol. 3 (2023)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6639)
+- **Pylon 2 (2022)**, published 2022-12-21, can be viewed at [Vol. 2 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6300)
+- **Pylon 1 (2022)**, published 2022-07-01, can be viewed at [Vol. 1 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6131)
 
 ### Pylon 3 files for viewing
 The collection of material for **Pylon 4 (2023)** can now, for convenience, be found [here in the form of a googlespreadsheet](https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3acCM/edit#gid=1426998996). May I please remind you to add any submissions that any of you may receive to the googlespreadsheet. That way we have a clear idea of how many articles we have for the volume. 
