@@ -10,6 +10,7 @@
  - choose `Upload files`
  - navigate to the file on your computer by clicking on `choose your files` or simply Drag the file
  - make a Commit note and press `Commit changes`
+ - it usually takes a good 30 seconds and up to a minute or even a bit longer for the conversion to be completed: you will be informed by github of completion
 
 ## Finding XML files
  - from here https://github.com/hcayless/P3-processing click on the folder `articles`
