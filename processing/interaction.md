@@ -1,6 +1,6 @@
 # First steps
  - call up https://github.com/hcayless/P3-processing
- - you must be a registered contributor to be able to upload files: for this contact Hugh Cayless
+ - you must be a registered contributor to be able to upload files: for this contact Hugh Cayless and ask him to add you to the list of contributors
 
 ## Uploading files
  - click on the folder `sources`
