@@ -107,3 +107,11 @@ Once this is done now
 
 Click on “Register”
 
+# Publishing in stages
+
+Publish let us say first 3 articles. 
+
+When the next batch is ready, simply add these to the existing journal volume. 
+- Take care when assigning DOIs
+  - Do not click on publish but on the big fat red "X"
+  - Handreichung has a description of what then has to be done to avoid problems
