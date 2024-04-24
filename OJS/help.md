@@ -115,3 +115,11 @@ When the next batch is ready, simply add these to the existing journal volume.
 - Take care when assigning DOIs
   - Do not click on publish but on the big fat red "X"
   - Handreichung has a description of what then has to be done to avoid problems
+ 
+# Using the OJS system from submission through to publication
+
+A username must be created for all participants. Once this has been done they can access the system.
+- So person Z has to contact one of the editors by mail. That editor then has to create a username and password for that person
+- once the above has been done the person Z can then upload the submission
+- all members of the editorial board will have to have their own username and password.
+
