@@ -6,7 +6,7 @@ Go to issues
 
 - choose Future Issues
 - Create Issue
-- add data in volume and year
+- add data in volume and year (number is not used - it is excludede with the step below)
 - unclick the box with number and title 
 - save
 
