@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.tei-c.org/ns/1.0"
-  xpath-default-namespace="http://www.tei-c.org/ns/1.0" version="3.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.tei-c.org/ns/1.0" xpath-default-namespace="http://www.tei-c.org/ns/1.0" version="3.0">
   <!--2018-06-13 ebb: XSLT-Identity Transformation Starter (non-namespaced XML)
   Template provided by Elisa Beshero-Bondar for the 2024 Digital Humanities Summer Institute, University of Victoria
   Developed by C.M. Sampson to provide additional processing of Pylon XML, following conversion by Hugh Cayless's .docx to .xml converter (https://github.com/hcayless/P3-processing) 
@@ -14,12 +13,15 @@
     ================
     <seg> wrangling
     ================
-    
-    - <seg style="font-weight: bold;"> => <emph rend="bold"> 
-    - <seg style="font-style: italic;"> => <emph rend="italics">
-    - <seg style="text-decoration: underline;"> => <emph rend="underlined">
-    
-    - NB: combinations are possible, e.g.
+    Possible @style for <seg>
+    - "font-weight: bold;"
+    - "font-style: italic;"
+    - "text-decoration: underline;"
+    - AND all combinations thereof
+    - so far in Pylon, we have seen
+        - "font-weight: bold;"
+        - "font-style: italic;"
+        - "text-decoration: underline;"
         - "font-weight: bold;text-decoration: underline;"
         - "font-style: italic;text-decoration: underline;"
         - "font-style: italic;font-weight: bold;"
@@ -43,7 +45,13 @@
 
   <!--
     ================
-    Remove @style from <p> 
+    Remove alignment @style junk in <p> 
+    ================
+    ================
+    Hyphens between numerals
+    ================
+    ================
+    Dimensions x => × 
     ================
   -->
   <xsl:template match="p">
@@ -52,45 +60,72 @@
       <xsl:apply-templates select="node()"/>
     </p>
   </xsl:template>
-  <!--
-    ================
-    En-dash between numerals instead of hyphens 
-    ================
-  -->
-  <xsl:template match="p/text() | bibl/text()">
+  <xsl:template match="p/text() | bibl/text() | head/text() | cell/text()">
     <xsl:analyze-string select="." regex="\d-\d">
       <xsl:matching-substring>
-        <xsl:value-of select="replace(., '-', '–') ! normalize-space()"/>
+        <xsl:analyze-string select="replace(., '-', '–')" regex="\sx\s">
+          <xsl:matching-substring>
+            <xsl:value-of select="concat(' ', normalize-space(replace(., 'x', '×')), ' ')"/>
+          </xsl:matching-substring>
+          <xsl:non-matching-substring>
+            <xsl:value-of select="."/>
+          </xsl:non-matching-substring>
+        </xsl:analyze-string>
       </xsl:matching-substring>
       <xsl:non-matching-substring>
-        <xsl:value-of select="."/>
+        <xsl:analyze-string select="." regex="\sx\s">
+          <xsl:matching-substring>
+            <xsl:value-of select="concat(' ', normalize-space(replace(., 'x', '×')), ' ')"/>
+          </xsl:matching-substring>
+          <xsl:non-matching-substring>
+            <xsl:value-of select="."/>
+          </xsl:non-matching-substring>
+        </xsl:analyze-string>
       </xsl:non-matching-substring>
     </xsl:analyze-string>
-
-    <!--
-      ================
-      Conversion to 'smart' quotes and curly apostrophes
-      NOT YET OPERATIONAL
-      ================
-      <xsl:key name="idnoLookup" match="file" use="idno[@type = 'ddb-hybrid']"/>
-      <xsl:analyze-string select="." regex="[&quot;'']">
-      <xsl:matching-substring>
-        <xsl:value-of select="replace(., '-', '–') ! normalize-space()"/>
-      </xsl:matching-substring>
-      <xsl:non-matching-substring>
-        <xsl:value-of select="."/>
-      </xsl:non-matching-substring>
-    </xsl:analyze-string>-->
   </xsl:template>
 
   <!--
     ================
-    Trimming <ref target="https://papyri.info/biblio/"> 
-    of unwanted search junk
+    Add xml:ids to line numbers in the editions
     ================
   -->
+  <xsl:template match="ab/lb">
+    <xsl:copy>
+      <xsl:attribute name="xml:id">
+        <xsl:value-of select="concat(ancestor::div/@xml:id, 'ln', @n)"/>
+      </xsl:attribute>
+      <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+  </xsl:template>
 
-  <xsl:template match="ref[matches(@target, 'papyri.info/biblio/\d+\?')]">
+  <!--
+    ================
+    repository => collection 
+    (and adding other requisite msIdentifier elements)
+    ================
+  -->
+  <xsl:template match="msIdentifier">
+    <msIdentifier>
+      <placeName>
+        <settlement/>
+      </placeName>
+      <collection/>
+      <idno type="invNo">
+        <xsl:value-of select="./idno[@type = 'invNo']"/>
+      </idno>
+    </msIdentifier>
+
+  </xsl:template>
+  
+  <!--
+    ================
+    Trimming <ref[@target="https://papyri.info/...]"> 
+    urls of unwanted search junk
+    ================
+  -->
+  
+  <xsl:template match="ref[contains(@target, 'papyri.info') and contains(@target, '?')]">
     <ref>
       <xsl:attribute name="target">
         <xsl:value-of select="substring-before(@target, '?')"/>
@@ -98,29 +133,7 @@
       <xsl:apply-templates select="node()"/>
     </ref>
   </xsl:template>
-
-  <!--
-    ================
-    Duplicate any div[@type="edition"]
-    adding @subtype/PN or @subtype/Pylon
-    PN will not have an xml:id and will therefore be ignored by HEIeditions XSLT
-    ================
-  -->
-
-  <xsl:template match="div[@type = 'edition'][not(.[@copyOf])]">
-
-    <xsl:copy>
-      <xsl:attribute name="subtype">PN</xsl:attribute>
-      <xsl:apply-templates select="@*[not(name() = 'xml:id')] | node()"/>
-    </xsl:copy>
-
-
-    <xsl:element name="div">
-      <xsl:attribute name="subtype">Pylon</xsl:attribute>
-      <xsl:apply-templates select="@* | node()"/>
-    </xsl:element>
-  </xsl:template>
-
+  
   <!--
     ================
     Remove xml:space="preserve" from <ref>
@@ -133,8 +146,26 @@
       <xsl:apply-templates select="node()"/>
     </ref>
   </xsl:template>
+  
 
- 
+  <!--
+    ================
+    Hyperlink automated lookup: NOT YET OPERATIONAL
+    ================
+    <xsl:key name="idnoLookup" match="file" use="idno[@type='ddb-hybrid']" />
+       
+    ================
+    Conversion to 'smart' quotes and curly apostrophes
+    ================
+      <xsl:analyze-string select="." regex="[&quot;'']">
+      <xsl:matching-substring>
+        <xsl:value-of select="replace(., '-', '–') ! normalize-space()"/>
+      </xsl:matching-substring>
+      <xsl:non-matching-substring>
+        <xsl:value-of select="."/>
+      </xsl:non-matching-substring>
+    </xsl:analyze-string>  
+  -->
 
 
 </xsl:stylesheet>
