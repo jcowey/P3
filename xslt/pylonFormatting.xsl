@@ -3,7 +3,7 @@
   xpath-default-namespace="http://www.tei-c.org/ns/1.0" version="3.0">
   <!--2018-06-13 ebb: XSLT-Identity Transformation Starter (non-namespaced XML)
   Template provided by Elisa Beshero-Bondar for the 2024 Digital Humanities Summer Institute, University of Victoria
-  Developed by C.M. Sampson to provide additional processing of Pylon XML, following conversion by Hugh Cayless's .docx to .xml converter (https://github.com/hcayless/P3-processing) 
+  Developed by C.M. Sampson to provide additional processing of Pylon XML prior to publication, immediately following conversion by Hugh Cayless's .docx to .xml converter (https://github.com/hcayless/P3-processing) 
   -->
 
   <xsl:output method="xml" indent="yes"/>
@@ -99,28 +99,7 @@
     </ref>
   </xsl:template>
 
-  <!--
-    ================
-    Duplicate any div[@type="edition"]
-    adding @subtype/PN or @subtype/Pylon
-    PN will not have an xml:id and will therefore be ignored by HEIeditions XSLT
-    ================
-  -->
-
-  <xsl:template match="div[@type = 'edition'][not(.[@copyOf])]">
-
-    <xsl:copy>
-      <xsl:attribute name="subtype">PN</xsl:attribute>
-      <xsl:apply-templates select="@*[not(name() = 'xml:id')] | node()"/>
-    </xsl:copy>
-
-
-    <xsl:element name="div">
-      <xsl:attribute name="subtype">Pylon</xsl:attribute>
-      <xsl:apply-templates select="@* | node()"/>
-    </xsl:element>
-  </xsl:template>
-
+  
   <!--
     ================
     Remove xml:space="preserve" from <ref>
@@ -134,7 +113,42 @@
     </ref>
   </xsl:template>
 
+  <!--
+    ================
+    Add @xml:id values to <lb/> within editions
+    ================
+  -->
+  <xsl:template match="div[@type='edition']//lb">
+    <xsl:variable name="ancestor-id" select="ancestor::div[@type='edition'][1]/@xml:id"/>
+    <xsl:variable name="ancestor-n-values">
+      <xsl:for-each select="ancestor::div/@n">
+        <xsl:value-of select="concat('', .)"/>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:copy>
+      <xsl:attribute name="xml:id">
+        <xsl:value-of select="concat($ancestor-id, $ancestor-n-values, 'ln', @n)"/>
+      </xsl:attribute>
+      <xsl:apply-templates select="@*|node()"/>
+    </xsl:copy>
+  </xsl:template>
  
-
+  <!--
+    ================
+    Place the lemma <ref> above <p> within div[@type='commentary']/<note>
+    ================
+  -->
+  <xsl:template match="div[@type='commentary']/note">
+    <xsl:copy>
+      <xsl:apply-templates select="p/ref[not(@*)]"/>
+      <xsl:apply-templates select="*"/>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="div[@type='commentary']/note/p">
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()[not(self::ref[not(@*)])]"/>
+    </xsl:copy>
+  </xsl:template>
 
 </xsl:stylesheet>
