@@ -1,4 +1,4 @@
-# Creating a new issue (Pylon 2, Pylon 3, ...)
+ # Creating a new issue (Pylon 2, Pylon 3, ...)
 
 Creating an issue: https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#create-issue
 
@@ -40,7 +40,7 @@ Save
 Schedule for publication.
 
 The galleys can be prepared in advance. Click on Add galley.
-- Enter HTML first(that way it appears first in the preview)
+- Enter HTML first (that way it appears first in the preview)
 - Choose the relevant language (should correspond to the language of the article itself)
 - Save
 - Choose Article Text
