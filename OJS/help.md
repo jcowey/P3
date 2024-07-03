@@ -26,10 +26,10 @@ https://www.ub.uni-heidelberg.de/service/pdf/OJS3-Handreichung.pdf
 
 Fill that in:
 - Submission Language;
-- Section (Articles / Notes);
+- Section (Articles / Notes and Corrections);
 - Title;
 - Type (Text);
-- Languages (en  remember to hit the return key to secure the entry);
+- Languages (`en`  remember to hit the return key to secure the entry);
 - Keywords;
 - List of contributors
 
