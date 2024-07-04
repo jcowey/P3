@@ -52,6 +52,9 @@ The galleys can be prepared in advance. Click on Add galley.
 - Choose Article Text
 - Click on cancel if not uploading immediately
 - Now do the same for PDF
+  - HTML
+  - PDF images embedded
+  - PDF images appended
   
 # How to add the relevant DOI.
 
