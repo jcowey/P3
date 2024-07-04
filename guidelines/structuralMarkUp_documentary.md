@@ -99,18 +99,18 @@ Here is an **example of such mark up** as used to produce one of our test files:
   - whenever there are corrections to existing texts, in tabular form
 
 ```XML
-                     <div type="corrections">
-                        <list>
-                            <item>
-                                <p>TargetFile</p>
-                                <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.wilck/chr.wilck.220.xml#L65">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.wilck/chr.wilck.220.xml#L65</ref>
-                                <p>Replace</p>
-                                <lb n="4"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> ἑτέρα Βερνί<supplied reason="lost">κη </supplied><gap reason="lost" quantity="17" unit="character"/> <expan>ἀδελ<ex>φὴ</ex></expan> 
-                                <p>With</p>
-                                <lb n="4"/><app type="editorial"><lem resp="B. Borrelli, Pylon 1 (2022) 9 n.4"><unclear>με</unclear>θ’ ἕτερα</lem><rdg><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> ἑτέρα</rdg></app> Βερνί<supplied reason="lost">κη </supplied><gap reason="lost" quantity="17" unit="character"/> <expan>ἀδελ<ex>φὴ</ex></expan>
-                            </item>
-                        </list>
-                    </div>
+<div type="corrections">
+   <list>
+      <item>
+         <p>TargetFile</p>
+         <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.wilck/chr.wilck.220.xml#L65">https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.wilck/chr.wilck.220.xml#L65</ref>
+         <p>Replace</p>
+         <lb n="4"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> ἑτέρα Βερνί<supplied reason="lost">κη </supplied><gap reason="lost" quantity="17" unit="character"/> <expan>ἀδελ<ex>φὴ</ex></expan> 
+         <p>With</p>
+         <lb n="4"/><app type="editorial"><lem resp="B. Borrelli, Pylon 1 (2022) 9 n.4"><unclear>με</unclear>θ’ ἕτερα</lem><rdg><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> ἑτέρα</rdg></app> Βερνί<supplied reason="lost">κη </supplied><gap reason="lost" quantity="17" unit="character"/> <expan>ἀδελ<ex>φὴ</ex></expan>
+      </item>
+   </list>
+</div>
 ```
 
 - #bibliography
