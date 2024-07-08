@@ -81,6 +81,7 @@ Before the galleys can be uploaded, the following steps have to be taken.
 - https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/tree/main/converted
 - Now transfer all
   - XML files to your desktop (choose "Download this directory" "zip")
+    - from the relevant folder in https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/tree/main/converted?ref_type=heads
   - all PDFs to your desktop (choose "Download this directory" "zip")
 - Now return to OJS and for each and every submission upload the relevant files (yes both HTML and PDF) from your desktop. (mindblowingly non automatic, but that is the way it is under OJS 3.2)
 - When in the galleys choose "Change file" to upload
