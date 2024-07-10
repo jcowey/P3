@@ -45,6 +45,27 @@
 
   <!--
     ================
+    Convert measure to dimension/width | height, if present
+    ================
+  -->
+  <xsl:template match="support">
+    <support>
+      <xsl:apply-templates select="material"/>
+      <xsl:if test="./measure">
+        <dimensions>
+          <width unit="cm">
+            <xsl:value-of select="measure[@type = 'width']"/>
+          </width>
+          <height unit="cm">
+            <xsl:value-of select="measure[@type = 'height']"/>
+          </height>
+        </dimensions>
+      </xsl:if>
+    </support>
+  </xsl:template>
+
+  <!--
+    ================
     Remove alignment @style junk in <p> 
     ================
     ================
@@ -90,8 +111,8 @@
     Add xml:ids to line numbers in the editions
     ================
   -->
-  <xsl:template match="div[@type='edition']//lb">
-    <xsl:variable name="ancestor-id" select="ancestor::div[@type='edition'][1]/@xml:id"/>
+  <xsl:template match="div[@type = 'edition']//lb">
+    <xsl:variable name="ancestor-id" select="ancestor::div[@type = 'edition'][1]/@xml:id"/>
     <xsl:variable name="ancestor-n-values">
       <xsl:for-each select="ancestor::div/@n">
         <xsl:value-of select="concat('', .)"/>
@@ -101,7 +122,7 @@
       <xsl:attribute name="xml:id">
         <xsl:value-of select="concat($ancestor-id, $ancestor-n-values, 'ln', @n)"/>
       </xsl:attribute>
-      <xsl:apply-templates select="@*|node()"/>
+      <xsl:apply-templates select="@* | node()"/>
     </xsl:copy>
   </xsl:template>
 
@@ -111,7 +132,7 @@
     (and adding other requisite msIdentifier elements)
     ================
   -->
-  <xsl:template match="TEI/TEI[descendant::idno[@type='ddb-filename']]//sourceDesc//msIdentifier">
+  <xsl:template match="TEI/TEI[descendant::idno[@type = 'ddb-filename']]//sourceDesc//msIdentifier">
     <msIdentifier>
       <placeName>
         <settlement/>
@@ -123,14 +144,14 @@
     </msIdentifier>
 
   </xsl:template>
-  
+
   <!--
     ================
     Trimming <ref[@target="https://papyri.info/...]"> 
     urls of unwanted search junk
     ================
   -->
-  
+
   <xsl:template match="ref[contains(@target, 'papyri.info') and contains(@target, '?')]">
     <ref>
       <xsl:attribute name="target">
@@ -139,44 +160,44 @@
       <xsl:apply-templates select="node()"/>
     </ref>
   </xsl:template>
-  
+
   <!--
     ================
     Remove xml:space="preserve" from <ref>
     ================
   -->
-  
+
   <xsl:template match="ref">
     <ref>
       <xsl:apply-templates select="@*[name() != 'xml:space']"/>
       <xsl:apply-templates select="node()"/>
     </ref>
   </xsl:template>
-  
+
   <!--
     ================
     Reorder ref before p in div[@type='commentary']
     ================
   -->
 
-  <xsl:template match="div[@type='commentary']">
+  <xsl:template match="div[@type = 'commentary']">
     <div type="commentary">
-      <xsl:apply-templates select="@*|node()"/>
+      <xsl:apply-templates select="@* | node()"/>
     </div>
   </xsl:template>
-  
-  <xsl:template match="div[@type='commentary']/note">
+
+  <xsl:template match="div[@type = 'commentary']/note">
     <note>
       <xsl:attribute name="target">
-        <xsl:value-of select="concat(substring-after(../preceding-sibling::div[@type='edition']/@copyOf, '#'), 'ln', string(p/ref[not(@*)]))"/>
+        <xsl:value-of select="concat(substring-after(../preceding-sibling::div[@type = 'edition']/@copyOf, '#'), 'ln', string(p/ref[not(@*)]))"/>
       </xsl:attribute>
       <xsl:apply-templates select=".//ref[not(@*)]"/>
       <xsl:apply-templates select="p"/>
       <xsl:apply-templates select="*[not(self::p)]"/>
     </note>
   </xsl:template>
-  
- 
+
+
   <!--
     ================
     Hyperlink automated lookup: NOT YET OPERATIONAL
