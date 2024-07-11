@@ -11,8 +11,7 @@
 
     <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes"/>
     <xsl:template match="processing-instruction('xml-model')"/>
-    <xsl:variable name="biblio" as="element()"
-        select="/TEI[1]/teiHeader/fileDesc/publicationStmt/idno[3]"/>
+    <xsl:variable name="biblio" as="element()" select="/TEI[1]/teiHeader/fileDesc/publicationStmt/idno[3]"/>
 
     <xsl:template match="/">
 
@@ -22,6 +21,7 @@
     ================
     -->
 
+        <!--NB: confirm location of the output folder on the local directory tree for xsl:result-document-->
         <xsl:result-document href="../../papyri/idp.data/Biblio/97/{$biblio}.xml" method="xml">
             <TEI>
                 <bibl type="article" subtype="journal">
@@ -80,8 +80,7 @@
                                     <xsl:choose>
                                         <xsl:when test="contains(./descendant::idno[@type='ddb-hybrid']/(tokenize(., ';'))[1], 'pylon')">Pylon</xsl:when>
                                         <xsl:otherwise>
-                                            <xsl:value-of
-                                                select="./descendant::idno[@type = 'ddb-hybrid']/(tokenize(., ';'))[1]"
+                                            <xsl:value-of select="./descendant::idno[@type = 'ddb-hybrid']/(tokenize(., ';'))[1]"
                                             />
                                         </xsl:otherwise>
                                     </xsl:choose>
@@ -94,15 +93,12 @@
                                 <!--NB: The following currently confuses @type="num" and what I suspect should be @type="article"-->
                                 <biblScope type="num">
                                     <xsl:choose>
-                                        <xsl:when
-                                            test="contains(./descendant::idno[@type = 'ddb-hybrid'], '_')">
-                                            <xsl:number
-                                                value="./descendant::idno[@type = 'ddb-hybrid']/(tokenize(., ';'))[3] ! string() ! substring-before(., '_')"
+                                        <xsl:when test="contains(./descendant::idno[@type = 'ddb-hybrid'], '_')">
+                                            <xsl:number value="./descendant::idno[@type = 'ddb-hybrid']/(tokenize(., ';'))[3] ! string() ! substring-before(., '_')"
                                             />
                                         </xsl:when>
                                         <xsl:otherwise>
-                                            <xsl:value-of
-                                                select="./descendant::idno[@type = 'ddb-hybrid']/(tokenize(., ';'))[3]"
+                                            <xsl:value-of select="./descendant::idno[@type = 'ddb-hybrid']/(tokenize(., ';'))[3]"
                                             />
                                         </xsl:otherwise>
                                     </xsl:choose>
@@ -120,27 +116,18 @@
                             </xsl:attribute>
                             <bibl>
                                 <title level="s" type="short">
-                                    <xsl:value-of
-                                        select="./descendant::idno[@type = 'dclp-hybrid']/(tokenize(., ';'))[1]"
-                                    />
+                                    <xsl:value-of select="./descendant::idno[@type = 'dclp-hybrid']/(tokenize(., ';'))[1]"/>
                                 </title>
                                 <biblScope type="vol">
-                                    <xsl:number
-                                        value="./descendant::idno[@type = 'dclp-hybrid']/(tokenize(., ';'))[2]"
-                                        format="I"/>
+                                    <xsl:number value="./descendant::idno[@type = 'dclp-hybrid']/(tokenize(., ';'))[2]" format="I"/>
                                 </biblScope>
                                 <biblScope type="num">
                                     <xsl:choose>
-                                        <xsl:when
-                                            test="contains(./descendant::idno[@type = 'dclp-hybrid'], '_')">
-                                            <xsl:number
-                                                value="./descendant::idno[@type = 'dclp-hybrid']/(tokenize(., ';'))[3] ! string() ! substring-before(., '_')"
-                                            />
+                                        <xsl:when test="contains(./descendant::idno[@type = 'dclp-hybrid'], '_')">
+                                            <xsl:number value="./descendant::idno[@type = 'dclp-hybrid']/(tokenize(., ';'))[3] ! string() ! substring-before(., '_')"/>
                                         </xsl:when>
                                         <xsl:otherwise>
-                                            <xsl:value-of
-                                                select="./descendant::idno[@type = 'dclp-hybrid']/(tokenize(., ';'))[3]"
-                                            />
+                                            <xsl:value-of select="./descendant::idno[@type = 'dclp-hybrid']/(tokenize(., ';'))[3]"/>
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </biblScope>
@@ -163,6 +150,7 @@
         <xsl:for-each select="TEI/TEI[descendant::idno[@type = 'ddb-filename']]">
             <xsl:variable name="tm" as="element()" select="descendant::idno[@type = 'filename']"/>
             <xsl:variable name="outputFolder" select="xs:integer($tm div 1000) + 1"/>
+            <!--NB: confirm location of the output folder on the local directory tree for xsl:result-document--> 
             <xsl:result-document href="../../papyri/idp.data/HGV_meta_EpiDoc/HGV{$outputFolder}/{$tm}.xml" method="xml">
             <xsl:processing-instruction name="xml-model">href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
             <TEI>
@@ -197,9 +185,7 @@
                                                   <xsl:value-of select=".//sourceDesc//settlement"/>
                                                 </xsl:when>
                                                 <xsl:otherwise>
-                                                  <xsl:value-of
-                                                  select=".//sourceDesc//idno[@type = 'invNo']/(tokenize(., ', '))[1]"
-                                                  />
+                                                  <xsl:value-of select=".//sourceDesc//idno[@type = 'invNo']/(tokenize(., ', '))[1]"/>
                                                 </xsl:otherwise>
                                             </xsl:choose>
                                         </settlement>
@@ -210,22 +196,17 @@
                                                 <xsl:value-of select=".//sourceDesc//collection"/>
                                             </xsl:when>
                                             <xsl:otherwise>
-                                                <xsl:value-of
-                                                  select=".//sourceDesc//idno[@type = 'invNo']/(tokenize(., ', '))[2]"
-                                                />
+                                                <xsl:value-of select=".//sourceDesc//idno[@type = 'invNo']/(tokenize(., ', '))[2]"/>
                                             </xsl:otherwise>
                                         </xsl:choose>
                                     </collection>
                                     <idno type="invNo">
                                         <xsl:choose>
                                             <xsl:when test=".//sourceDesc//idno[@type = 'invNo']">
-                                                <xsl:value-of
-                                                  select=".//sourceDesc//idno[@type = 'invNo']"/>
+                                                <xsl:value-of select=".//sourceDesc//idno[@type = 'invNo']"/>
                                             </xsl:when>
                                             <xsl:otherwise>
-                                                <xsl:value-of
-                                                  select=".//sourceDesc//idno[@type = 'invNo']/(tokenize(., ', '))[3]"
-                                                />
+                                                <xsl:value-of select=".//sourceDesc//idno[@type = 'invNo']/(tokenize(., ', '))[3]"/>
                                             </xsl:otherwise>
                                         </xsl:choose>
                                     </idno>
@@ -270,8 +251,7 @@
                                 <bibl type="publication" subtype="principal">
                                     <title level="s" type="abbreviated">Pylon</title>
                                     <biblScope n="1" type="volume">
-                                        <xsl:value-of select="//imprint/biblScope[@unit = 'volume']"
-                                        />
+                                        <xsl:value-of select="//imprint/biblScope[@unit = 'volume']"/>
                                     </biblScope>
                                     <biblScope n="2" type="fascicle">
                                         <xsl:text>(</xsl:text>
@@ -280,16 +260,12 @@
                                     </biblScope>
                                     <biblScope n="3" type="generic">
                                         <xsl:text>Art. </xsl:text>
-                                        <xsl:value-of
-                                            select="//imprint/biblScope[@unit = 'article']"/>
+                                        <xsl:value-of select="//imprint/biblScope[@unit = 'article']"/>
                                     </biblScope>
-                                    <xsl:if
-                                        test="contains(//idno[@type = 'ddb-filename'][ancestor::TEI[parent::TEI]], '_')">
+                                    <xsl:if test="contains(//idno[@type = 'ddb-filename'][ancestor::TEI[parent::TEI]], '_')">
                                         <biblScope n="4" type="number">
                                             <xsl:text>Nr. </xsl:text>
-                                            <xsl:value-of
-                                                select=".//idno[@type = 'ddb-filename']/string() ! substring-after(., '_')"
-                                            />
+                                            <xsl:value-of select=".//idno[@type = 'ddb-filename']/string() ! substring-after(., '_')"/>
                                         </biblScope>
                                     </xsl:if>
                                 </bibl>
@@ -320,8 +296,8 @@
         <xsl:for-each select="TEI/TEI[descendant::idno[@type = 'dclp']]">
             <xsl:variable name="tm" as="element()" select="descendant::idno[@type = 'filename']"/>
             <xsl:variable name="outputFolder" select="xs:integer($tm div 1000) + 1"/>
-            <xsl:result-document href="../../papyri/idp.data/DCLP/{$outputFolder}/{$tm}.xml"
-                method="xml">
+            <!--NB: confirm location of the output folder on the local directory tree for xsl:result-document-->
+            <xsl:result-document href="../../papyri/idp.data/DCLP/{$outputFolder}/{$tm}.xml" method="xml">
                 <xsl:processing-instruction name="xml-model">href="https://epidoc.stoa.org/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
                 <TEI>
                     <teiHeader>
@@ -385,14 +361,15 @@
                         </profileDesc>
                         <revisionDesc>
                             <change who="https://papyri.info/editor/users/DCLP">
-                                <xsl:attribute name="when"><xsl:value-of select="current-date()"
-                                    /></xsl:attribute>Xwalk from Pylon</change>
+                                <xsl:attribute name="when">
+                                    <xsl:value-of select="current-date()"/>
+                                </xsl:attribute>Xwalk from Pylon
+                            </change>
                         </revisionDesc>
                     </teiHeader>
                     <text>
                         <body>
-                            <xsl:apply-templates
-                                select=".//div[@type = 'edition'][@xml:space = 'preserve']"/>
+                            <xsl:apply-templates select=".//div[@type = 'edition'][@xml:space = 'preserve']"/>
                             <div type="bibliography" subtype="principalEdition">
                                 <listBibl>
                                     <bibl n="1" type="publication" subtype="principal">
@@ -412,9 +389,7 @@
                                         <bibl type="online">
                                             <ptr>
                                                 <xsl:attribute name="target">
-                                                  <xsl:value-of
-                                                  select="../descendant::publicationStmt/idno[@ana = 'hc:DOI']"
-                                                  />
+                                                  <xsl:value-of select="../descendant::publicationStmt/idno[@ana = 'hc:DOI']"/>
                                                 </xsl:attribute>
                                             </ptr>
                                         </bibl>
@@ -435,12 +410,10 @@
     -->
 
         <xsl:for-each select="TEI/TEI[descendant::idno[@type = 'HGV']][descendant::ab]">
-            <xsl:variable name="ddbSeries" as="xs:string"
-                select="descendant::publicationStmt/idno[@type = 'ddb-hybrid']/(tokenize(., ';'))[1]"/>
-            <xsl:variable name="ddbVolume" as="xs:string"
-                select="descendant::publicationStmt/idno[@type = 'ddb-hybrid']/(tokenize(., ';'))[2]"/>
-            <xsl:variable name="ddbFilename" as="element()"
-                select="descendant::idno[@type = 'filename']"/>
+            <xsl:variable name="ddbSeries" as="xs:string" select="descendant::publicationStmt/idno[@type = 'ddb-hybrid']/(tokenize(., ';'))[1]"/>
+            <xsl:variable name="ddbVolume" as="xs:string" select="descendant::publicationStmt/idno[@type = 'ddb-hybrid']/(tokenize(., ';'))[2]"/>
+            <xsl:variable name="ddbFilename" as="element()" select="descendant::idno[@type = 'filename']"/>
+            <!--NB: confirm location of the output folder on the local directory tree for xsl:result-document-->
             <xsl:result-document href="../../papyri/idp.data/DDB_EpiDoc_XML/{$ddbSeries}/{concat($ddbSeries, '.', $ddbVolume)}/{$ddbFilename}.xml" method="xml">
             <xsl:processing-instruction name="xml-model">href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
             <TEI>
@@ -480,14 +453,15 @@
                     </profileDesc>
                     <revisionDesc>
                         <change who="https://papyri.info/editor/users/DDBDP">
-                            <xsl:attribute name="when"><xsl:value-of select="current-date()"
-                                /></xsl:attribute>Xwalk from Pylon</change>
+                            <xsl:attribute name="when">
+                                <xsl:value-of select="current-date()"/>
+                            </xsl:attribute>Xwalk from Pylon
+                        </change>
                     </revisionDesc>
                 </teiHeader>
                 <text>
                     <body>
-                        <xsl:apply-templates
-                            select=".//div[@type = 'edition'][@xml:space = 'preserve'][1]"/>
+                        <xsl:apply-templates select=".//div[@type = 'edition'][@xml:space = 'preserve'][1]"/>
                     </body>
                 </text>
             </TEI>
@@ -502,6 +476,7 @@
 
         <xsl:for-each select="TEI/TEI[descendant::div[@type = 'translation']]">
             <xsl:variable name="tm" as="element()" select="descendant::idno[@type = 'TM']"/>
+            <!--NB: confirm location of the output folder on the local directory tree for xsl:result-document-->
             <xsl:result-document href="../../papyri/idp.data/HGV_trans_EpiDoc/{$tm}.xml" method="xml">
             <xsl:processing-instruction name="xml-model">href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
             <TEI>
@@ -548,8 +523,10 @@
                     </profileDesc>
                     <revisionDesc>
                         <change who="https://papyri.info/editor/users/HGV">
-                            <xsl:attribute name="when"><xsl:value-of select="current-date()"
-                                /></xsl:attribute>Xwalk from Pylon</change>
+                            <xsl:attribute name="when">
+                                <xsl:value-of select="current-date()"/>
+                            </xsl:attribute>Xwalk from Pylon
+                        </change>
                     </revisionDesc>
                 </teiHeader>
                 <xsl:apply-templates select=".//body"/>
