@@ -70,7 +70,7 @@
                     <idno type="pi">
                         <xsl:value-of select="$biblio"/>
                     </idno>
-                    <xsl:for-each select="TEI/TEI[descendant::idno[@type = 'HGV']][descendant::ab]">
+                    <xsl:for-each select="TEI/TEI[descendant::keywords[@scheme = 'hgv']]">
                         <relatedItem type="mentions">
                             <xsl:attribute name="n">
                                 <xsl:value-of select="position()"/>
@@ -87,8 +87,7 @@
                                 </title>
                                 <biblScope type="vol">
                                     <xsl:number
-                                        value="./descendant::idno[@type = 'ddb-hybrid']/(tokenize(., ';'))[2]"
-                                        format="I"/>
+                                        value="./descendant::idno[@type = 'ddb-hybrid']/(tokenize(., ';'))[2]"/>
                                 </biblScope>
                                 <!--NB: The following currently confuses @type="num" and what I suspect should be @type="article"-->
                                 <biblScope type="num">
@@ -106,6 +105,12 @@
                                 <idno type="ddb">
                                     <xsl:value-of select="descendant::idno[@type = 'ddb-hybrid']"/>
                                 </idno>
+                                <idno type="tm">
+                                    <xsl:value-of select="descendant::idno[@type = 'TM']"/>
+                                </idno>
+                                <idno type="invNo">
+                                    <xsl:value-of select="./descendant::sourceDesc/descendant::idno[@type = 'invNo']"/>
+                                </idno>
                             </bibl>
                         </relatedItem>
                     </xsl:for-each>
@@ -119,7 +124,7 @@
                                     <xsl:value-of select="./descendant::idno[@type = 'dclp-hybrid']/(tokenize(., ';'))[1]"/>
                                 </title>
                                 <biblScope type="vol">
-                                    <xsl:number value="./descendant::idno[@type = 'dclp-hybrid']/(tokenize(., ';'))[2]" format="I"/>
+                                    <xsl:number value="./descendant::idno[@type = 'dclp-hybrid']/(tokenize(., ';'))[2]"/>
                                 </biblScope>
                                 <biblScope type="num">
                                     <xsl:choose>
