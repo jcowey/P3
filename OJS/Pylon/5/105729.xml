@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:hei="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Another Receipt for the Poll Tax from Elephantine</title>
+            <author>
+               <name>
+                  <forename>Lincoln H.</forename>
+                  <surname>Blumell</surname>
+               </name>
+               <affiliation>Brigham Young University</affiliation>
+               <email>lincoln_blumell@byu.edu</email>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1075476607</idno>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0003-2922-5337</idno>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2024">2024</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.5.5</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2024.5.105729</idno>
+            <idno ana="hc:PrivateIdentifier">96862</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">L. Blumell, “Another Receipt for the Poll Tax from Elephantine,” Pylon 5 (2024) Article 5. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2024.5.105729">https://doi.org/10.48631/pylon.2024.5.105729</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">5</biblScope>
+                     <biblScope unit="article">5</biblScope>
+                     <date when="2024">2024</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2024-06-26T12:23:29Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Another Receipt for the Poll Tax from Elephantine</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">I would like to thank the curator of the Ismailia Museum, Ahmed Ismail, for permission to image and edit this piece and for his hospitality when I visited the museum in May of 2023. I would also like to thank the two anonymous reviewers of this article who recommended various emendations that improved the article. Any errors or infelicities in this work are my sole responsibility.</note>
+            <div type="introduction">
+               <p xml:id="p1">The Ismailia Museum in Egypt is home to a collection of Egyptian artifacts that span the Pharaonic through Islamic periods.<note place="foot" xml:id="ftn1" n="1"><p> The present Museum was completed and officially opened in February of 1934, but for some years prior artifacts had been on display in another building in Ismailia.</p></note> In the Graeco-Roman section of the museum there is a single Greek ostracon on display. The museum’s records indicate that it was excavated by Jean Clédat in Elephantine during the 1907/08 season and that it was held in storage until it was put on display in 2019.<note place="foot" xml:id="ftn2" n="2"><p> Jean Clédat was appointed the first curator of the museum in Ismailia in 1911 and donated several artifacts from his personal collection; see <ref target="https://papyri.info/biblio/96526">du Bourguet, 1991</ref>: 2.561.</p></note> The ostracon contains a receipt for the poll tax (λαογραφία) and preserves a date corresponding to 9 June AD 114.</p>
+               <p xml:id="p2">The individual for whom the poll tax receipt was issued, a Pachnoubis son of Phanophis whose mother was named Tisatis, appears in one other tax receipt from Elephantine from the same period: <ref target="https://papyri.info/ddbdp/o.berl;;34">O.Berl. 34</ref>.1–2 (20 July AD 116). Additionally, the intermediary who issued the receipt, a man named Polybios, is mentioned in another tax receipt from Elephantine that was written five days earlier: <ref target="https://papyri.info/ddbdp/p.bingen;;85">P.Bingen 85</ref>.8 (4 June AD 114). As the handwriting on each ostracon is quite similar and betrays distinct graphic features it is evident that both were written by the same individual.<note place="foot" xml:id="ftn3" n="3"><p> For a discussion of the shared graphic features of both ostraca see n. <ref target="#ftn5">5</ref>, below.</p></note></p>
+               <p xml:id="p3">The rate of the poll tax attested on the ostracon is 17 drachmas. In 1899 Ulrich Wilcken claimed that the rate of the poll-tax at Elephantine/Syene from AD 19 to 92/3 was 16 drachmas annually; from AD 96/7 to 112/13 was 17 drachmas annually; and that from AD 114/15 until 170/71 was 17 drachmas and ½ obol.<note place="foot" xml:id="ftn4" n="4"><p> <ref target="https://papyri.info/biblio/7585">Wilcken, 1899</ref>: 1.230–34. </p></note> In Sherman Wallace’s study of taxation in Roman Egypt published nearly four decades later in 1938, he noted that “the rates established by Wilcken from Elephantine-Syene have been confirmed” with the publication of additional tax receipts.<note place="foot" xml:id="ftn5" n="5"><p> <ref target="https://papyri.info/biblio/3811">Wallace 1938</ref>: 128. In footnote no. 76 Wallace lists the poll tax receipts that had been published in the interim.</p></note> But the present tax receipt calls into question Wilcken’s chronology of proposed rates, because, despite coming from AD 114, it attests a rate of only 17 drachmas, not the 17 drachmas and ½ obol thought to have been introduced in year AD 114.</p>
+               <p xml:id="p4">From Elephantine/Syene for the year AD 113 there are three extant poll tax receipts that attest the full 17 drachmas rate: <ref target="https://papyri.info/ddbdp/o.wilck;;85">O.Wilck. 85</ref> (13 Feb. AD 113); <ref target="https://papyri.info/ddbdp/o.wilck;;86">O.Wilck. 86</ref>  (2 Mar. AD 113) and <ref target="https://papyri.info/ddbdp/p.bingen;;80">P.Bingen 80</ref> (1 Dec. AD 113). There is an additional poll tax receipt from Thebes for AD 113 that also attests a 17 drachmas rate: <ref target="https://papyri.info/ddbdp/o.ont.mus;2;105">O.Ont.Mus. 2.105</ref> (11 Dec. AD 113). The evidence regarding the rate in AD 114 is less transparent; there is only one other receipt besides the present text that potentially sheds light on the full poll tax for this year: <ref target="https://papyri.info/ddbdp/sb;6;9604_15">SB 6.9604 (15)</ref> (Elephantine). It lists a 17 drachmas poll tax rate and records that it was issued in “year 17 of Trajan” (l. 6), but as the ostracon breaks off before the month is given and year 17 of Trajan extended from 29 Aug. AD 113 – 28 Aug. AD 114 it might be attesting a rate from either AD 113 or 114. Turning to AD 115, there are three extant poll tax receipts from Elephantine/Syene attesting the full rate and all are above 17 drachmas: <ref target="https://papyri.info/ddbdp/sb;6;9604_16">SB 6.9604 (16)</ref> (8 May AD 115; Elephantine): 17 drachmas 1 obol; <ref target="https://papyri.info/ddbdp/o.wilck;;102">O.Wilck. 102</ref> (29 Sept. – 28 Oct. AD 115; Elephantine/Syene): 17 drachmas and ½ obol; <ref target="https://papyri.info/ddbdp/zpe;195;172_2">ZPE 195 (2015) no. 2</ref><note place="foot" xml:id="ftn6" n="6"><p> <ref target="https://papyri.info/biblio/86904">Aly 2015</ref>: 172.</p></note> (29 Oct. – 27 Nov. AD 115; Elephantine): 17 drachmas and ½ obol.</p>
+               <p xml:id="p5">In light of the foregoing evidence for the years AD 113 to 115 and the date and poll tax rate of the present receipt, Wilcken’s proposed rate chronology is in need of fine tuning. It is evident, based on the new evidence from this receipt, that in the year AD 114—at least until 9 June—the rate at Elephantine for the poll tax was still 17 drachmas.<note place="foot" xml:id="ftn7" n="7"><p> There is no evidence on the receipt that the recipient was receiving a privileged reduced tax rate.</p></note> The earliest extant evidence for the poll tax rate above 17 drachmas at Elephantine/Syene comes from receipts securely dated to AD 115.</p>
+            </div>
+            <div type="epidoc" subtype="DDB">
+               <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: left;">Inv. no. 451</cell>
+                     <cell style="text-align: center;">7.5 (h) × 9.0 (w) cm</cell>
+                     <cell style="text-align: right;">9 June AD 114</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: right;">Elephantine</cell>
+                  </row>
+               </table>
+               <figure>
+                  <ptr ana="hc:HeidICONMediaResourceReference"
+                       target="https://heidicon.ub.uni-heidelberg.de/#/detail/23863827"/>
+                  <head>Figure 1. Ismailia Museum</head>
+               </figure>
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <note target="ed1ln1">
+                     <ref>1–2</ref>
+                     <p xml:id="p6"> διέγ(ραψεν) Παχνοῦβις | Φανώφεως μη(τρὸς) Τισάτ(ιος). The Παχνοῦβις who appears in this ostracon is to be identified with the individual bearing the same name (<ref target="https://www.trismegistos.org/ref/400819">TM Ref 400819</ref>) in <ref target="https://papyri.info/ddbdp/o.berl;;34">O.Berl. 34</ref>.1–2 (20 July AD 116; Elephantine) since the names of the father (Φανῶφις; <ref target="https://www.trismegistos.org/ref/400820">TM Ref 400820</ref>) and mother (Τισᾶτις; <ref target="https://www.trismegistos.org/ref/400821">TM Ref 400821</ref>) are identical (ll. 1–2): διέγραψ(εν) Παχνοῦβις Φανώφε|ως μη(τρὸς) Τισάτις.  </p>
+                     <p xml:id="p7">The Egyptian female name Τισᾶτις (see <ref target="https://www.trismegistos.org/name/12570">TM Nam 12570</ref>) most often appears as Τισᾶτις when it is clearly functioning as a gen. (e.g. <ref target="https://papyri.info/ddbdp/o.wilck;;79">O.Wilck. 79</ref>.2 [11 Apr. AD 107; Elephantine]; <ref target="https://papyri.info/ddbdp/o.berl;;34">O.Berl. 34</ref>.2 [20 July AD 116; Elephantine]; <ref target="https://papyri.info/ddbdp/o.bodl;2;817">O.Bodl. 2.817</ref>.4 [21 Apr. AD 141; Elephantine]), but should be understood as Τισάτιος. There are a handful of instances where the proper gen. termination is attested: e.g. <ref target="https://papyri.info/ddbdp/o.wilck;;197">O. Wilck. 197</ref>.4 (29 Oct. AD 144; Elephantine); <ref target="https://papyri.info/ddbdp/o.petr.mus;;383">O.Petr.Mus. 383</ref>.5 (1 Aug. AD 187; Dios Polis [Thebes east]); <ref target="https://papyri.info/ddbdp/o.bodl;2;1530">O. Bodl. 2</ref>.1530.3 (26 Apr – 25 May AD 187; Dios Polis [Thebes east]); <ref target="https://papyri.info/ddbdp/o.wilck;;688">O.Wilck. 688</ref>.3 (7 Oct. AD 179 or 211; Dios Polis [Thebes east]).</p>
+                     <p xml:id="p8">The presence of both a patronym and metronym to identify Pachnoubis is done to help ensure the correct individual is identified in the document. At Elephantine the main god was Khnum so there were various individuals bearing the same name Pachnoubis (“the one of Khnum”) who needed to be distinguished for administrative purposes. For example, during the time this receipt was issued we known of another Pachnoubis son of Phanophis, but his mother was named Tachoumtbekis: <ref target="https://papyri.info/ddbdp/o.wilck;;86">O.Wilck. 86</ref>.1–2 (2 Mar. AD 113; Elephantine/Syene); <ref target="https://papyri.info/ddbdp/o.wilck;;87">O.Wilck. 87</ref>.3–4 (13 Jul. AD 113; Elephantine/Syene); <ref target="https://papyri.info/ddbdp/o.wilck;;89">O.Wilck. 89</ref>.2–3 (20 Aug. AD 114; Elephantine/Syene); <ref target="https://papyri.info/ddbdp/o.wilck;;115">O.Wilck. 115</ref>.3–4 (12 Feb. AD 120; Elephantine/Syene); <ref target="https://papyri.info/ddbdp/o.wilck;;116">O.Wilck. 116</ref>.3–4 (25 Jul. – 23 Aug. AD 120; Elephantine/Syene); <ref target="https://papyri.info/ddbdp/o.wilck;;122">O.Wilck. 122</ref>.2–3 (1 Apr. AD 122; Elephantine/Syene); <ref target="https://papyri.info/ddbdp/o.wilck;;127">O.Wilck. 127</ref>.2–3 (6 Apr. AD 124; Elephantine/Syene); <ref target="https://papyri.info/ddbdp/o.wilck;;131">O.Wilck. 131</ref>.2–3 (19 Feb. AD 125; Elephantine/Syene).</p>
+                  </note>
+                  <note target="ed1ln3">
+                     <ref>3</ref>
+                     <p xml:id="p9"> λαο̣(γραφίας) τοῦ ιζ (ἔτους) Τραιανοῦ | τοῦ κυρίου. One typically expects ὑπὲρ λαογραφίας κτλ., but periodically λαογραφίας κτλ. appears without the preposition ὑπέρ: e.g. <ref target="https://papyri.info/ddbdp/o.wilck;;115">O.Wilck. 115</ref>.4 (12 Feb. AD 120; Elephantine). </p>
+                  </note>
+                  <note target="ed1ln4">
+                     <ref>4</ref>
+                     <p xml:id="p10"> (δραχμὰς) ιζ. One usually finds the rate of the poll tax to be first spelled out and then totaled (γίνονται) using numerals, but occasionally the rate paid is simply noted with numerals as is the case here. For a discussion of the 17 drachmas rate see above. In O.Strass. 2, p. 81 the editor notes that a 17 drachmas rate for Elephantine is attested and offers comparisons to other regions in Egypt; see also  <ref target="https://papyri.info/biblio/86513">Monson 2014</ref>: 156 who provides rates for Elephantine in the early Roman period as well as <ref target="https://papyri.info/biblio/96835">van Minnen 2022</ref>: 307, 309.</p>
+                  </note>
+                  <note target="ed1ln5">
+                     <ref>5</ref>
+                     <p xml:id="p11"> διὰ Πολυβίο(υ). The Greek name Πολύβιος (<ref target="https://www.trismegistos.org/name/5217">TM Nam 5217</ref>) is not common in published texts from Egypt; at present there are only 12 attestations for 10 individuals according to TM People. As noted above, there is one other attestation of this name from Elephantine on an ostracon written five days before the present text where the Πολύβιος (<ref target="https://www.trismegistos.org/ref/417266">TM Ref 417266</ref>) in that text is functioning in the same way as the Πολύβιος in the present text: <ref target="https://papyri.info/ddbdp/p.bingen;;85">P.Bingen 85</ref>.8 (4 June AD 114; Elephantine) Παῦνι ι διὰ Πολυβ(ίου). A comparison of the hands of both ostraca suggests that they were written by the same person. For example, in the phrase τοῦ ιζ (ἔτους) Τραιανοῦ τοῦ κυρίου that appears in each text there a number of unique parallels: the ζ followed directly by the year sign  is formed in the same way and they are joined; τρ has the same ligature; in the word κυρίου in both texts the first upsilon is written with a more distinct Y-shape while the second one is written with a distinct v-shape. Furthermore, a comparison of the formation of the word Παῦνι that appears in both ostraca shows that they have the same graphic features. There is, therefore, every reason to believe the same Polybius appeared in and wrote both texts.</p>
+                  </note>
+               </div>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/86904">Aly, S.A. (2015)</ref> “Eight Greek Tax Receipts from Elephantine,” ZPE 195: 171–178. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96526">du Bourguet, P. (1991)</ref> “Clédat, Jean,” in A.S. Atiya (ed.), The Coptic Encyclopedia. New York.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/86513">Monson, A. (2014)</ref> “Late Ptolemaic Capitation Taxes and the Poll Tax in Roman Egypt,” BASP 51: 127–160. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96835">van Minnen, P. (2022)</ref> “Poll Tax Rates in Roman Egypt,” APF 68.2: 302–317. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/3811">Wallace, S. (1938)</ref> Taxation in Egypt from Augustus to Diocletian. Princeton University Studies in Papyrology 2. Princeton: Princeton University Press, 1938.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/7585">Wilcken, U. ed. (1899)</ref> Griechische Ostraka aus Aegypten und Nubien, 2 vols. Leipzig-Berlin: Verlag von Giesecke &amp; Devrient. </bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Receipt for the poll tax from Elephantine</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">998499</idno>
+               <idno type="filename">998499</idno>
+               <idno type="ddb-filename">pylon.5.5</idno>
+               <idno type="ddb-hybrid">pylon;5;5</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement>Ismailia</settlement>
+                     </placeName>
+                     <collection>Ismailia Museum</collection>
+                     <idno type="invNo">Inv. no. 451</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Ostrakon</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Elephantine</origPlace>
+                        <origDate when="0207-05-22">22. Mai 207</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p xml:id="geoCHJI22">
+                           <placeName type="ancient"
+                                      ref="https://pleiades.stoa.org/places/786021 https://www.trismegistos.org/place/621">Elephantine</placeName>
+                        </p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Quittung</term>
+                  <term n="2">Steuer (Kopfsteuer)</term>
+                  <term n="3">Geld</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition">
+               <listBibl>
+                  <bibl type="publication" subtype="principal">
+                     <title level="s" type="abbreviated">Pylon</title>
+                     <biblScope n="1" type="volume">5</biblScope>
+                     <biblScope n="2" type="fascicle">(2024)</biblScope>
+                     <biblScope n="3" type="generic">Art. 5</biblScope>
+                  </bibl>
+               </listBibl>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Receipt for the poll tax from Elephantine</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.5.5</idno>
+               <idno type="ddb-hybrid">pylon;5;5</idno>
+               <idno type="HGV">998499</idno>
+               <idno type="TM">998499</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                                Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Receipt for the poll tax from Elephantine</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve"><ab>
+<lb xml:id="ed1ln1" n="1"/><expan>διέγ<ex>ραψεν</ex></expan> Παχνοῦβις 
+<lb xml:id="ed1ln2" n="2"/>Φανώφεως <expan>μη<ex>τρὸς</ex></expan> <expan>Τισάτ<ex>ιος</ex></expan>
+<lb xml:id="ed1ln3" n="3"/><expan>λα<unclear>ο</unclear><ex>γραφίας</ex></expan> τοῦ <num value="17">ιζ</num> <expan><ex>ἔτους</ex></expan> Τραιανοῦ 
+<lb xml:id="ed1ln4" n="4"/>τοῦ κυρίου <expan><ex>δραχμὰς</ex></expan> <num value="17">ιζ</num>, Παῦνι
+<lb xml:id="ed1ln5" n="5" rend="indent"/><num value="16">ιϛ</num> διὰ <expan>Πολυβίο<ex>υ</ex></expan>.
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Receipt for the poll tax from Elephantine</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">998499</idno>
+               <idno type="TM">998499</idno>
+               <idno type="HGV">998499</idno>
+               <idno type="ddb-hybrid">pylon;5;5</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                            a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>
+Pachnoubis, son of Phanophis, whose mother is Tisatis, paid 17 drachmas for the poll tax for year 17 of Trajan the lord. Pauni 16, though Polybios. 
+</p></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>

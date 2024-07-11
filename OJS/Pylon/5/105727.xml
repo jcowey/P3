@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:hei="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edition of the Homeric Fragment P.Oxy. 4 758 descr. (Ε 583‒596)</title>
+                <author>
+                    <name>
+                        <forename>Andrea</forename>
+                        <surname>Bernini</surname>
+                    </name>
+                    <affiliation>Universität Heidelberg</affiliation>
+                    <email>andrea.bernini@zaw.uni-heidelberg.de</email>
+                    <idno ana="hc:ORCIDURI">https://orcid.org/0000-0002-3041-3530</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2024-05-31</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Propylaeum</orgName>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+                </publisher>
+                <pubPlace>
+                    <placeName>Heidelberg</placeName>
+                    <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+                </pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno ana="hc:PrivateIdentifier">pylon.5.4</idno>
+                <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2024.5.105727</idno>
+                <idno ana="hc:PrivateIdentifier">96861</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl ana="hc:RecommendedBibliographicReference">A. Bernini, “Edition of the Homeric Fragment P.Oxy. 4 758 descr. (Ε 583‒596),” Pylon 5 (2024) Article 4. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2024.5.105727">https://doi.org/10.48631/pylon.2024.5.105727</ref>.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title level="j" ana="hc:MainTitle">Pylon</title>
+                        <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                        <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                        <imprint>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="article">4</biblScope>
+                            <date when="2024">2024</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <ab>Converted from a Word document for Pylon.</ab>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2024-05-31T14:43:30Z</date>
+                    <name/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="MainTitle">Edition of the Homeric Fragment P.Oxy. 4 758 descr. (Ε 583‒596)</titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <div type="article">
+                <note type="acknowledgement">This article originated in a course taught by Rodney Ast and James Cowey at Heidelberg University during the winter semester 2023/2024: I thank them for their help, as well as the two anonymous reviewers for their suggestions. The edition is based on the online images and those provided by Mary Ellen Budney (Beinecke Public Services, Yale Papyrus Collection, Beinecke Rare Book and Manuscript Library), whom I also thank. Unless differently indicated, all the given dates are AD.</note>
+                <table type="papyrological_header">
+                    <row>
+                        <cell style="text-align: left;">Yale University, P.CtYBR inv. 69</cell>
+                        <cell style="text-align: center;">11.5 (w) × 9.5 (h) cm</cell>
+                        <cell style="text-align: right;">ca. 200</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"><ref target="https://www.trismegistos.org/text/60740">TM 60740</ref></cell>
+                        <cell style="text-align: center;"/>
+                        <cell style="text-align: right;">Oxyrhynchus</cell>
+                    </row>
+                </table>
+                <div type="introduction">
+                    <p xml:id="p1">This fragment of a papyrus roll preserves an upper margin of 1.5 cm, and is broken off on the other three sides; a blank space of ca. 0.8 cm can be seen to the left of ll. 1‒4, which belongs to the intercolumnar space. The papyrus is of medium brown colour. The text is written with the fibres, and the verso is blank. It consists of fourteen lines in a fair state of preservation; its condition deteriorates towards the bottom of the fragment, where fewer letters per line survive. The papyrus was found during the excavations carried out between 1897 and 1903 in Oxyrhynchus.<note place="foot" xml:id="ftn1" n="1"><p> So P.Oxy. 4: V.</p></note> It was described as P.Oxy. 4 758 and P.Yale 1 7; it has been assigned no. 72 in West’s catalogue.<note place="foot" xml:id="ftn2" n="2"><p> <ref target="https://papyri.info/biblio/16711">West 2001</ref>: 91. See also <ref target="https://papyri.info/biblio/95464">West 1998</ref>: XL.</p></note></p>
+                    <p xml:id="p2">The script belongs to the so‒called ‘severe’ (or ‘formal mixed’) style, which is characterised on the whole by angular letterforms and by a contrast between narrow and wide letters. This style is used in many papyri beginning with the second century.<note place="foot" xml:id="ftn3" n="3"><p> <ref target="https://papyri.info/biblio/78171">Cavallo 2009</ref>: 131‒133.</p></note> Grenfell and Hunt assigned a date to the “[l]ate second or third century” in the editio princeps, while “[c]a. A.D. 200” was preferred in the Yale volume.<note place="foot" xml:id="ftn4" n="4"><p> See P.Oxy. 4: 249 and P.Yale 1: 27, respectively.</p></note> The closest parallel is <ref target="https://papyri.info/dclp/64229">P.Oxy. 7 1012</ref> , which is dated to the beginning of the third century: similarities emerge in the narrow ε and σ, in the υ that exceeds the notional baseline, and in the square ω.<note place="foot" xml:id="ftn5" n="5"><p> For the date of <ref target="https://papyri.info/dclp/64229">P.Oxy. 7 1012</ref>, see <ref target="https://papyri.info/biblio/75516">Del Corso 2006</ref>: 95‒97.</p></note> Therefore, a date around the year 200 can be confirmed as the most probable for P.Oxy. 4 758 descr.</p>
+                    <p xml:id="p3">The text was augmented by lectional aids, which are likely to have been drawn by the same scribe, as suggested by the uniformity of ink and thickness. Acute accents are used with α in ll. 2 and 5, and with ο in l. 3. Apostrophes consistently mark elision after γ (l. 3) and ρ (ll. 2, 5 and 6), but are absent when other letters are involved. Rough breathings occur above ὅ, ι of ἵμασ’, the first α of ἅμα (ll. 3, 7 and 9), and possibly above the υ of [το]ύ̣ς (l. 7). Punctuation is rendered through ano stigmai that mark strong stops in ll. 5, 8 and 9 (after εἱστήκει̣, στίχας and [κε]κληγώς), while milder stops are marked in ll. 4 and 13 (after κονίηισιν and Ἕκ̣τορος). Iota adscript can be seen in ll. 4 and 12.</p>
+                    <p xml:id="p4">The papyrus contains part of the fifth book of the Iliad, where Antilochos and Hector are engaged in the battle. Other papyri partially overlap with this text, namely: <ref target="https://papyri.info/dclp/60943">P.Bodmer 1</ref> col. XX, 1‒13 (= West no. 400; 3rd‒4th c.), <ref target="https://papyri.info/dclp/60297">P.Oxy. 4 757</ref> descr. (= West no. 184; 1st c. BC‒1st c. AD) and four papyri preserved in the Sackler Library (= West nos. 1016; 1025, 3rd c.; 1028, 3rd c.; 1029, Byz.).<note place="foot" xml:id="ftn6" n="6"><p> <ref target="https://papyri.info/biblio/16711">West 2001</ref>: 95, 102 and 120. <ref target="https://papyri.info/dclp/60943">P.Bodmer 1</ref> col. XX, 4 and no. 1028 in West’s catalogue contain the form εἱστήκει in Ε 587 (see <ref target="https://papyri.info/biblio/95464">West 1998</ref>: 164). <ref target="https://papyri.info/dclp/60943">P.Bodmer 1</ref> col. XX omits Ε 584 and features the correct ἵππω in l. 5 (Ε 588). </p></note> The text differs occasionally from the transmitted one.<note place="foot" xml:id="ftn7" n="7"><p> <ref target="https://papyri.info/biblio/95464">West 1998</ref> is the reference edition.</p></note> The mistake ἐλέφ̣[αν]τα instead of ἐλέφαντι in l. 1 (Ε 583) seems to have a parallel in another Iliadic passage (see <ref target="#p5">comm.</ref>). In ἵππων for ἵππω (l. 6; Ε 588), the ν was wrongly added to the case ending of the dual. Another mistake is πέσον instead of βάλον in l. 6, where the scribe is likely to have reflexively reported the same formula as in l. 1, χαμαὶ πέσον ἐν κον[ίηισιν]. There are also the phonological variants δε for τε in l. 4 (Ε 586) and εἱστήκει̣ for ἑστήκει in l. 5 (Ε 587).   </p>
+                </div>
+                <div type="epidoc" subtype="DCLP">
+                <figure>
+                    <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23854171"/>
+                        <head>Figure 1: P. CtYBR inv. 69 recto</head>
+                </figure>
+                <figure>
+                    <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23854173"/>
+                        <head>Figure 2: P. CtYBR inv. 69 verso</head>
+                </figure>
+                    <div copyOf="#ed1" type="edition"/>
+                    <div type="commentary">
+                        <note target="#ed1ln1">
+                            <ref>1</ref>
+                            <p xml:id="p5"> ἐλέφ̣[αν]τα: in the apparatus of the critical edition, West (<ref target="https://papyri.info/biblio/95464">1998</ref>: 164) tentatively compares Δ 141, where the reading ἐλέφαντα was sometimes interpreted as ἐλεφαντά standing for ἔρια λευκά (ibid.: 119). This interpretation is rejected in Ariston. Il. ad loc., while Eust. 1, 720, 22–23 writes that some consider ἐλεφαντά as a synonym of ἐλεφάντινα. A similar case could be assumed for this passage. </p>
+                        </note>
+                        <note target="#ed1ln3">
+                            <ref>3</ref>
+                            <p xml:id="p6"> ὅ γ’: both the rough breathing on ο and the apostrophe of γ extended to the right: as a consequence, the acute accent on ο was written above the apostrophe. Although the acute accent is placed above the following α, it cannot belong to it. </p>
+                        </note>
+                        <note target="#ed1ln5">
+                            <ref>5</ref>
+                            <p xml:id="p7"> εἱστήκει̣: the augment εἱ- instead of ἑ- in the pluperfect of ἵστημι is more frequently attested in the manuscript tradition; the second one was considered more genuine already by Aristarchus, see <ref target="https://papyri.info/biblio/95464">West 1998</ref>: XXVII.</p>
+                        </note>
+                        <note target="#ed1ln7">
+                            <ref>7</ref>
+                            <p xml:id="p8"> [το]ύ̣ς: above υ two traces recalling a rough breathing can be seen, which has an unclear meaning in this position. Therefore, one may assume the scribe to have initially written the rough breathing above υ instead of the ι of the following word.</p>
+                            <p xml:id="p9">ἵμασ’: above ι, only two traces remain, which point to a trema. Since the previous letter is a σ, its presence is unexpected (unless it is due to an ‘inorganic’ use; see <ref target="https://papyri.info/biblio/11371">Turner 1987</ref>, 10‒11). It is thus preferable to assume that the lectional aid is a rough breathing, the ink of which has partially disappeared (see also P.Yale 1: 27).</p>
+                        </note>
+                    </div>
+                </div>
+                <div type="bibliography">
+                    <listBibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/78171">Cavallo, G. (2009)</ref> “Greek and Latin Writing in the Papyri,” in R.S. Bagnall (ed.), The Oxford Handbook of Papyrology. Oxford: 101‒148.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/75516">Del Corso, L. (2006)</ref> “Lo ‘stile severo’ nei P.Oxy.: una lista,” Aegyptus 86: 81‒106.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/11371">Turner, E.G. (1987)</ref> Greek Manuscripts of the Ancient World (Second edition revised and enlarged by P.J. Parsons). London.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/95464">West, M.L. (1998)</ref> Homerus. Ilias, vol. 1. Stutgardiae ‒ Lipsiae.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/16711">West, M.L. (2001)</ref> Studies in the Text and Transmission of the Iliad. München ‒ Leipzig.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title/>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Digital Corpus of Literary Papyri</authority>
+                    <idno type="dclp">60740</idno>
+                    <idno type="TM">60740</idno>
+                    <idno type="LDAB">1866</idno>
+                    <idno type="filename">60740</idno>
+                    <idno type="dclp-hybrid">p.oxy;4;758</idno>
+                    <availability>
+                        <p>© Digital Corpus of Literary Papyri. This work is licensed under a
+                            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative
+                                Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository/>
+                            <idno type="invNo">New Haven, Yale University, Beinecke Library P. CtYBR 69</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc form="roll">
+                                <supportDesc>
+                                    <support>
+                                        <material>papyrus</material>
+                                        <dimensions>
+                                            <width unit="cm">11.5</width>
+                                            <height unit="cm">9.5</height>
+                                        </dimensions>
+                                    </support>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1">
+                                        <p>papyrus roll? (columns: 1, pagination: 0)</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <p>
+                                    <term>severe style</term>
+                                </p>
+                            </handDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace>Oxyrhynchos (Oxyrhynchites, Egypt)</origPlace>
+                                <origDate notBefore="0101" notAfter="0300" precision="low">II - III</origDate>
+                            </origin>
+                            <provenance type="located">
+                                <p>
+                                    <placeName n="1"
+                                        type="ancient"
+                                        ref="https://www.trismegistos.org/place/1524 https://pleiades.stoa.org/places/736983">Oxyrhynchos</placeName>
+                                    <placeName n="2"
+                                        type="ancient"
+                                        subtype="nome"
+                                        ref="https://www.trismegistos.org/place/2722 https://pleiades.stoa.org/places/736982">Oxyrhynchites</placeName>
+                                    <placeName n="3" type="ancient" subtype="region">Egypt</placeName>
+                                </p>
+                            </provenance>
+                        </history>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <p>
+                    This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                    <ref>http://www.stoa.org/epidoc/gl/5/</ref></p>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <head xml:lang="en"/>
+                <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1" xml:id="ed1ln1"/>ἡν<supplied reason="lost">ί</supplied>α λεύκ’ ἐλέ<unclear>φ</unclear><supplied reason="lost">αν</supplied>τα<note>an ἐλεφ̣[αν]τά? ἐλέφαντι mss</note> χαμαὶ πέσον ἐν κον<supplied reason="lost">ίηισιν.</supplied>
+<lb n="2" xml:id="ed1ln2"/>Ἀ<unclear>ν</unclear>τίλοχος δ’ <hi rend="acute">ἄ</hi>ρ’<g type="apostrophe"/><note>άρ’ papyrus</note> ἐπ<unclear>αΐ</unclear>ξας ξ<unclear>ί</unclear>φει ἤλασε κόρση<supplied reason="lost">ν·</supplied>
+<lb n="3" xml:id="ed1ln3"/>αὐ<unclear>τ</unclear>ὰρ <hi rend="asper"><hi rend="acute">ὅ</hi></hi> γ’<g type="apostrophe"/><note>ὅ γ’ papyrus</note>  ἀσθμαίνων εὐεργέος ἔκπεσε <unclear>δ</unclear>ίφρου
+<lb n="4" xml:id="ed1ln4"/>κύ<unclear>μ</unclear>βαχος ἐν κονίηισιν <g type="high-punctus"/><note>κονιηισιν  ̇ papyrus</note> ἐπὶ βρε<unclear>χ</unclear>μόν <choice><reg>τε</reg><orig>δε</orig></choice> καὶ ὤμ<supplied reason="lost">ους.</supplied>
+<lb n="5" xml:id="ed1ln5"/><supplied reason="lost">δη</supplied>θὰ μάλ’ εἱστήκε<unclear>ι</unclear>, <g type="high-punctus"/><note>ειστηκει̣  ̇ papyrus</note> τύχε γ<hi rend="acute">ά</hi>ρ ῥ’<g type="apostrophe"/><note>γάρ ρ’ papyrus</note> ἀμάθοιο βαθ<unclear>είη</unclear><supplied reason="lost">ς,</supplied>
+<lb n="6" xml:id="ed1ln6"/><supplied reason="lost">ὄφ</supplied><unclear>ρ</unclear>’<g type="apostrophe"/><note>[οφ]ρ̣’ papyrus</note> ἵππω<surplus>ν</surplus> πλήξα<unclear>ν</unclear>τε χαμαὶ <app type="editorial"><lem>πέσον</lem><rdg resp="mss">βάλον</rdg></app> <unclear>ἐν</unclear> κο<unclear>νί</unclear><supplied reason="lost">ηισιν.</supplied>
+<lb n="7" xml:id="ed1ln7"/><supplied reason="lost">το</supplied><hi rend="asper"><unclear>ὺ</unclear></hi>ς <note>[το]ὑ̣ς papyrus</note> <hi rend="asper">ἵ</hi>μασ’ <note>ἱμασ papyrus</note> Ἀ<unclear>ν</unclear>τίλοχ<unclear>ο</unclear>ς, <g type="high-punctus"/><note>αντ̣ιλοχο̣ς  ̇ papyrus</note> μετὰ δὲ στρατ<unclear>ὸ</unclear>ν ἤλ<supplied reason="lost">ασ’ Ἀχαιῶν.</supplied>
+<lb n="8" xml:id="ed1ln8"/><supplied reason="lost">το</supplied><unclear>ὺ</unclear>ς δ’ Ἕκτωρ ἐνόησ<unclear>ε</unclear> κατὰ στίχας, <g type="high-punctus"/><note>στιχας  ̇ papyrus</note> ὦρτο δ’ ἐπ’ α<supplied reason="lost">ὐτούς</supplied>
+<lb n="9" xml:id="ed1ln9"/><supplied reason="lost">κε</supplied>κληγώς· <g type="high-punctus"/><note>[κε]κληγως  ̇ papyrus</note> <hi rend="asper">ἅ</hi>μα<note>ἁμα papyrus</note> δὲ Τρώων εἵποντο φάλαγ<supplied reason="lost">γες</supplied>
+<lb n="10" xml:id="ed1ln10"/><supplied reason="lost">καρ</supplied>τερα<supplied reason="lost">ί·</supplied> ἦρχε δ’ ἄρά σφιν Ἄρης καὶ <unclear>π</unclear>ότνι’ Ἐνυ<supplied reason="lost">ώ,</supplied>
+<lb n="11" xml:id="ed1ln11"/><supplied reason="lost">ἣ μὲ</supplied>ν ἔχ<supplied reason="lost">ουσα</supplied> <unclear>κ</unclear>υδοιμὸν ἀ<unclear>ν</unclear>α<unclear>ιδ</unclear>έα δηϊο<supplied reason="lost">τῆτος,</supplied>
+<lb n="12" xml:id="ed1ln12"/><supplied reason="lost">Ἄρης δ’ ἐν παλ</supplied><unclear>ά</unclear>μηισι πελώριον ἔγχο<unclear>ς</unclear> ἐ<unclear>ν</unclear><supplied reason="lost">ώμα,</supplied>
+<lb n="13" xml:id="ed1ln13"/><supplied reason="lost">φοίτα δ’ ἄλλοτε</supplied> <unclear>μ</unclear>ὲν πρόσθ’ Ἕ<unclear>κ</unclear>τορος, <g type="high-punctus"/><note>εκ̣τορος  ̇ papyrus</note> ἄλλο<supplied reason="lost">τ’ ὄπισθεν.</supplied>
+<lb n="14" xml:id="ed1ln14"/><supplied reason="lost">τὸν δὲ ἰδὼν ῥίγη</supplied><unclear>σ</unclear>ε βοὴν <unclear>ἀγαθ</unclear>ὸς Διομ<supplied reason="lost">ήδης·</supplied>
+<lb n="14"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+                
+                <!-- This is the text which has been prepared for transfer to DCLP once Pylon 5 is published -->
+                <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/>ἡν<supplied reason="lost">ί</supplied>α λεύκ’ <app type="alternative"><lem><app type="editorial"><lem>ἐλέ<unclear>φ</unclear><supplied reason="lost">αν</supplied>τα</lem><rdg resp="mss">ἐλέ<unclear>φ</unclear><supplied reason="lost">αν</supplied>τι</rdg></app></lem><rdg>ἐλε<unclear>φ</unclear><supplied reason="lost">αν</supplied>τά</rdg></app> χαμαὶ πέσον ἐν κον<supplied reason="lost">ίηισιν.</supplied>
+<lb n="2"/>Ἀ<unclear>ν</unclear>τίλοχος δ’<hi rend="acute">ἄ</hi>ρ’<g type="apostrophe"/> ἐπ<unclear>αΐ</unclear>ξας ξ<unclear>ί</unclear>φει ἤλασε κόρση<supplied reason="lost">ν·</supplied>
+<lb n="3"/>αὐ<unclear>τ</unclear>ὰρ<hi rend="asper"><hi rend="acute">ὅ</hi></hi> γ’<g type="apostrophe"/>  ἀσθμαίνων εὐεργέος ἔκπεσε <unclear>δ</unclear>ίφρου
+<lb n="4"/>κύ<unclear>μ</unclear>βαχος ἐν κονίηισιν <g type="high-punctus"/> ἐπὶ βρε<unclear>χ</unclear>μόν <choice><reg>τε</reg><orig>δε</orig></choice> καὶ ὤμ<supplied reason="lost">ους.</supplied>
+<lb n="5"/><supplied reason="lost">δη</supplied>θὰ μάλ’ εἱστήκε<unclear>ι</unclear>, <g type="high-punctus"/> τύχε γ<hi rend="acute">ά</hi>ρ ῥ’<g type="apostrophe"/> ἀμάθοιο βαθ<unclear>είη</unclear><supplied reason="lost">ς,</supplied>
+<lb n="6"/><supplied reason="lost">ὄφ</supplied><unclear>ρ</unclear>’<g type="apostrophe"/> ἵππω<surplus>ν</surplus> πλήξα<unclear>ν</unclear>τε χαμαὶ <app type="editorial"><lem>πέσον</lem><rdg resp="mss">βάλον</rdg></app> <unclear>ἐν</unclear> κο<unclear>νί</unclear><supplied reason="lost">ηισιν.</supplied>
+<lb n="7"/><supplied reason="lost">το</supplied><hi rend="asper">ὺ</hi>ς<hi rend="asper">ἵ</hi>μασ’ Ἀ<unclear>ν</unclear>τίλοχ<unclear>ο</unclear>ς, <g type="high-punctus"/> μετὰ δὲ στρατ<unclear>ὸ</unclear>ν ἤλ<supplied reason="lost">ασ’ Ἀχαιῶν.</supplied>
+<lb n="8"/><supplied reason="lost">το</supplied><unclear>ὺ</unclear>ς δ’ Ἕκτωρ ἐνόησ<unclear>ε</unclear> κατὰ στίχας, <g type="high-punctus"/> ὦρτο δ’ ἐπ’ α<supplied reason="lost">ὐτούς</supplied>
+<lb n="9"/><supplied reason="lost">κε</supplied>κληγώς· <g type="high-punctus"/> <hi rend="asper">ἅ</hi>μα δὲ Τρώων εἵποντο φάλαγ<supplied reason="lost">γες</supplied>
+<lb n="10"/><supplied reason="lost">καρ</supplied>τερα<supplied reason="lost">ί·</supplied> ἦρχε δ’ ἄρά σφιν Ἄρης καὶ <unclear>π</unclear>ότνι’ Ἐνυ<supplied reason="lost">ώ,</supplied>
+<lb n="11"/><supplied reason="lost">ἣ μὲ</supplied>ν ἔχ<supplied reason="lost">ουσα</supplied> <unclear>κ</unclear>υδοιμὸν ἀ<unclear>ν</unclear>α<unclear>ιδ</unclear>έα δηϊο<supplied reason="lost">τῆτος,</supplied>
+<lb n="12"/><supplied reason="lost">Ἄρης δ’ ἐν παλ</supplied><unclear>ά</unclear>μηισι πελώριον ἔγχο<unclear>ς</unclear> ἐ<unclear>ν</unclear><supplied reason="lost">ώμα,</supplied>
+<lb n="13"/><supplied reason="lost">φοίτα δ’ ἄλλοτε</supplied> <unclear>μ</unclear>ὲν πρόσθ’ Ἕ<unclear>κ</unclear>τορος, <g type="high-punctus"/> ἄλλο<supplied reason="lost">τ’ ὄπισθεν.</supplied>
+<lb n="14"/><supplied reason="lost">τὸν δὲ ἰδὼν ῥίγη</supplied><unclear>σ</unclear>ε βοὴν <unclear>ἀγαθ</unclear>ὸς Διομ<supplied reason="lost">ήδης·</supplied>
+<lb n="14"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+            </body>
+        </text>
+    </TEI>
+</TEI>

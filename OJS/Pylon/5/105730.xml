@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:hei="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An Inscription from the Reign of Probus: Reflections on the Port of Berenike in the Third Century CE</title>
+                <author>
+                    <name>
+                        <forename>Rodney</forename>
+                        <surname>Ast</surname>
+                    </name>
+                    <affiliation>Heidelberg University</affiliation>
+                    <email>ast@uni-heidelberg.de</email>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1020326514</idno>
+                    <idno ana="hc:ORCIDURI">https://orcid.org/0000-0002-1812-8067</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2024-06-11</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Propylaeum</orgName>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+                </publisher>
+                <pubPlace>
+                    <placeName>Heidelberg</placeName>
+                    <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+                </pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno ana="hc:PrivateIdentifier">pylon.5.6</idno>
+                <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2024.5.105730</idno>
+                <idno ana="hc:PrivateIdentifier">96860</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl ana="hc:RecommendedBibliographicReference">R. Ast, “An Inscription from the Reign of Probus: Reflections on the Port of Berenike in the Third Century CE,” Pylon 5 (2024) Article 6. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2024.5.105730">https://doi.org/10.48631/pylon.2024.5.105730</ref>.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title level="j" ana="hc:MainTitle">Pylon</title>
+                        <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                        <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                        <imprint>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="article">6</biblScope>
+                            <date when="2024">2024</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <ab>Converted from a Word document for Pylon.</ab>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2024-06-11T17:16:04Z</date>
+                    <name/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="MainTitle">An Inscription from the Reign of Probus: Reflections on the Port of Berenike in the Third Century CE </titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <div type="article">
+                <note type="acknowledgement">I'm grateful to Kamila Braulińska for doing Reflectance Transformation Imaging (RTI) under challenging field conditions on inscriptions recently excavated in Berenike. Thanks are also due to the Egyptian Ministry of Tourism and Antiquities for continued support of the Berenike Project, to colleagues at the Polish Centre for Mediterranean Archaeology, especially Mariusz Gwiazda, for managing the Berenike concession, and to my colleague Steven Sidebotham and the whole Berenike team for everything that makes this such a rewarding mission.</note>
+                <div type="introduction">
+                    <p xml:id="p1">The stele published here was first exposed in 2015 near the bottom of a pile of large stones in the northwest corner of the Isis temple courtyard at the port of Berenike on Egypt’s Red Sea coast.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; ">
+                    This article is part of a larger publication project aimed at documenting inscriptions from the port of Berenike, most of which were found in the central Isis temple in recent years. For information about the Isis Temple excavations, see Sidebotham et al. <ref target="https://papyri.info/biblio/95967">2019</ref>, <ref target="https://papyri.info/biblio/95968">2020</ref>, <ref target="https://papyri.info/biblio/95969">2022</ref>, <ref target="https://papyri.info/biblio/96767">2023</ref>. </p></note> The inscribed side was not revealed until January 2022 after a large roof block had been removed from the top of the pile. </p>
+                    <figure>
+                        <ptr ana="hc:HeidICONMediaResourceReference" target="https://heidicon.ub.uni-heidelberg.de/#/detail/23871258"/>
+                        <head>Figure 1. View looking to SE of stone pile in which stele was found. Arrow indicates the location of the inscription. Photo by Szymon Popławski.</head>
+                    </figure> 
+                    <p xml:id="p2" style="text-align: left; ">The stele measures 83 × 72 × 9 cm<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> Where dimensions are given in this article, the measurements are always in the order of width × height × thickness.</p></note> and is made of the anhydritic gypsum stone commonly used in Berenike for buildings, statues, inscriptions, etc., which was sourced on Ras Banas, the peninsula that stretches north and east of the port across from Foul Bay.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> J.A. Harrell gives a detailed analysis of the local gypsum stone in <ref target="https://papyri.info/biblio/95969">Sidebotham et al. 2021</ref>: 21–22.</p></note> Broken on the top and left sides, the dedication comprises at least five lines. Incised guidelines appear at intervals of about three centimeters and give the inscription an unfinished appearance. While such guidelines are apparent in other inscriptions from the site,<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> Of the published inscriptions that show guidelines I can point to a dedication commissioned in 51 CE by Epaphroditus, the freedman of the merchant Marcus Laelius Cosmus, (<ref target="https://papyri.info/biblio/96762">Ast 2021</ref>: 150–151 with Fig. 6) as well as to the Ptolemaic inscription <ref target="https://papyri.info/biblio/8962">I.Pan</ref> 70 from 133 BCE (<ref target="https://papyri.info/biblio/95932">Ast 2020</ref>).</p></note> here they are more pronounced. There is no sign of red paint having been used to highlight the letters, a common practice in Berenike.</p>
+                    <p xml:id="p3" style="text-align: left; ">The surface of the stone is now very damaged, and decipherment is seriously impeded by flaking, but it has been possible to read most of the extant text with the help of RTI.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; "> RTI has been employed in order to enhance legibility of the inscription. Information about the technology is available on the <ref target="https://culturalheritageimaging.org/Technologies/RTI/">Cultural Heritage Imaging (CHI)</ref> website and in <ref target="https://papyri.info/biblio/96770">Earl et al. 2010</ref>. In addition to RTI, the project uses infrared photography for inked documents and photogrammetry for architectural and sculptural details.</p></note> A novelty of this online edition is that it includes an RTI Web viewer for readers to view the images in.</p>
+                    <p xml:id="p4" style="text-align: left; ">The lettering of the inscription is largely bilinear with individual letters measuring 2.6–3.0 cm in height. Omicron poses an exception: In several places it is incised so small that it resembles an exaggerated medial dot (cf. the second omicron in Πρόβου in line 3 and that in κυρίου in line 4). Following Σεβαστοῦ at the end of the regnal formula in line 4 is a punctuation mark shaped like an angle bracket (&gt;). A large ivy leaf (<emph rend="italics">hedera</emph>) is visible after the month and day, Ἁθὺρ κα, in the last line. Whether another leaf was placed before the month name is difficult to say.<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; ">See comm. <ref target="#p17"><emph rend="italics">ad loc.</emph></ref></p></note></p>
+                    <p xml:id="p5" style="text-align: left; ">The format of the stele finds parallels in other third-century dedications from Berenike. The stones are in the shape of thin slabs, not the large dedication bases that supported monumental statues which are typical of the first and early second centuries, although the latter type is also found in the third century albeit in smaller formats.<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; "> Good examples of first- and early second-century large dedication bases from Berenike are in <ref target="https://papyri.info/biblio/89162">Ast and Bagnall 2015</ref> and <ref target="https://papyri.info/biblio/96762">Ast 2021</ref>. An example of a third-century dedication base in a smaller format is BE-15/18 111.040 (inv. 111007); it is from 209 CE and measures 48 × 60 × 49 cm. </p></note> The slabs are too slender to have been self-standing. They must have leaned against a wall or other firm vertical surface. Other examples of the format are found in two Greek dedicatory stelai, one from the joint reign of Gallus and Volusianus (April 17, 253), 58 × 74 × 20 cm, another from the reign of Septimius Severus (September 7, 210), 70 × 73 × 13 cm,<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; "> Both are still unpublished. The same general format is also observed in <ref target="https://papyri.info/biblio/10381">I.Portes</ref> 86 (August 13, 219; pl. 54.2) from Coptos, although that stele is smaller in size, measuring 47 x 58 (the thickness is not recorded).</p></note> as well as in a Brahmi Sanskrit-Greek stele from the sixth year of Philip the Arab (September 9, 248), 55 × 83 × 17.5 cm.<note place="foot" xml:id="ftn9" n="9"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/96767">Sidebotham et al. 2023</ref>: 20–21 with Pl. XXIII.2; full publication of the stele and other Indian artifacts from the port will appear in Sidebotham, Ast et al. (forthcoming 2025). </p></note> Like the inscription edited here, the Sanskrit stele features a large blank space at the bottom that might have served as a backdrop to a votive offering or have been decorated in paint or some other medium that has since faded from view. </p>
+                    <p xml:id="p6" style="text-align: left; ">The present inscription is a private dedication of an individual whose name is no longer preserved. All that remains of the part identifying the person are the letters -ων at the beginning of line 2. The dedicatee’s name is also no longer extant, but it was likely either Isis or Sarapis, the two most common beneficiaries of dedications in the temple. The dedicant made the offering as an expression of piety (εὐσεβείας χάριν, ll. 2–3), the same motivation recorded in two other dedications from Berenike, one for Isis and one for Sarapis.<note place="foot" xml:id="ftn10" n="10"><p style="text-align: left; "> Respectively, these are BE-15/18 111.040 (inv. 111007) and BE-22 150b.011.001 (inv. 150[b]001), both unpublished.</p></note> </p>
+                    <p xml:id="p7" style="text-align: left; ">All that can clearly be associated with a date, besides the month and day in line 5, is the expression Πρόβου τοῦ κυρίου ἡμῶν Σεβαστοῦ in lines 3–4. As a regnal clause, this formulation is unparalleled in papyri and inscriptions. The closest formula found is the common ὁ κύριος ἡμῶν Πρόβος Σεβαστός.<note place="foot" xml:id="ftn11" n="11"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/6514">Bureth 1964</ref>: 124–125.</p></note> The only other inscription from Egypt dated in the reign of Probus has ὁ κύριος Πρόβος (<ref target="https://papyri.info/biblio/13310">SEG 40</ref> 1565; Kharga Oasis). </p>
+                    <p xml:id="p8" style="text-align: left; ">It is unclear what, if anything, directly preceded Πρόβου. After ἀγαθoῖς in the middle of line 3 there is space large enough for three to four letters. Within this space, the upper and lower guidelines are very clear, each consisting of doubled lines, as seen in other places on the stone. If Πρόβου marks the beginning of the regnal formula, then we would expect to see the year carved directly before it. There are a couple of vertical incisions visible, either of which might have belonged to the symbol for ἔτους; one could perhaps even make out remnants of a numeral. I have highlighted in Figure 2 below the area in which the traces are suggestive of letters. Alternatively, this space might have been deliberately left so that the year could be added later, which it never was. A final possibility is that Πρόβου is not the beginning of the regnal formula, but rather depends on a word, such as the preposition ὑπέρ, which is no longer legible in the space preceding it. Following this scenario, we might look to the beginning of line 5 for reference to the year, but there, too, it is very difficult to tell if anything was carved.<note place="foot" xml:id="ftn12" n="12"><p style="text-align: left; "> See the commentary <ref target="#p17"><emph rend="italics">ad loc.</emph></ref></p></note> </p>
+                     <figure>
+                        <ptr ana="hc:HeidICONMediaResourceReference" target="https://heidicon.ub.uni-heidelberg.de/#/detail/23871260"/>
+                        <head>Figure 2. Area in which the year symbol and regnal year may have been carved. Photo by Kamila Braulińska.</head>
+                    </figure> 
+                    </div>
+            <div type="section">
+               <head>Berenike in the Third Century</head>
+                    <p xml:id="p9" style="text-align: left; ">The dedication dates to a period in the history of Berenike and the wider Eastern Desert that, until recently, had not been well represented. In fact, only one precisely dated third-century inscription had been documented at the port prior to recent excavations in the Isis temple.<note place="foot" xml:id="ftn13" n="13"><p style="text-align: left; "> The inscription in question, which is dated 215, was excavated in the so-called Palmyrene shrine; see A.M.F.W. Verhoogt in <ref target="https://papyri.info/biblio/15536">Sidebotham and Wendrich 1998</ref>: 193–196 (cf. <ref target="https://papyri.info/biblio/16616">SEG 48</ref> 1977 and <ref target="https://www.trismegistos.org/text/142358">SB 28 16916</ref>). Although not precisely dated, another inscription from the same shrine likely comes from the late 2nd or early 3rd century: see <ref target="https://papyri.info/biblio/17089">SEG 49</ref> 2117; ed. pr. by M. Dijkstra and A.M.F.W. Verhoogt in <ref target="https://papyri.info/biblio/15828">Sidebotham and Wendrich 1999</ref>: 207–218. For discussion of the poor representation of the third century in Berenike, see <ref target="https://papyri.info/biblio/71692">Sidebotham 2002</ref>: 219–220, which was based on the evidence available at the time.</p></note> These excavations have substantially changed this picture, and the third century is now the second best-attested century in terms of precisely dated inscriptions. In total, eight third-century dedications have been registered: Four of them are from the first decade of the century (years 209 and 210) and one is from 215;<note place="foot" xml:id="ftn14" n="14"><p style="text-align: left; "> Cf. preceding note for the inscription from 215; the others are BE-15 111.021.067 + 111.014.037 (inv. 111005); BE-15/18 111.040 (inv. 111007); BE-15/18 111.030 (inv. 111008); BE-22 150.032.001 (inv. 150001).</p></note> the Sanskrit-Greek stele mentioned above dates to 248, and there is a dedication from the reign of Gallus and Volusianus (253);<note place="foot" xml:id="ftn15" n="15"><p style="text-align: left; "> For the Sanskrit-Greek stele, see fn. 9 above; the inscription from 253 is BE-15/18 111.030 (inv. 111010).</p></note> the inscription published here is from the period 276–281. The very latest temple inscription dates to the Tetrarchy (305).<note place="foot" xml:id="ftn16" n="16"><p style="text-align: left; "> BE-22 150.033.001 (inv. 150003).</p></note> This evidence naturally changes our perspective on the period, and there can be no doubt that the port was operating throughout the third century, even if intermittently and on a smaller scale than in the first and early second centuries. </p>
+                    <p xml:id="p10" style="text-align: left; ">The principal reason for believing that the third century was a stagnant time in Berenike has been the absence not only of dated texts, but also of coins and ceramics.<note place="foot" xml:id="ftn17" n="17"><p style="text-align: left; "> See <ref target="https://papyri.info/biblio/79310">Sidebotham 2011</ref>: 63–64, where it is acknowledged, however, that there was some evidence of activity in the late second and first part of the third centuries; cf. fn. 13 above.</p></note> As far as coins are concerned, what H. Cuvigny and K. Lach-Urgacz say about the <emph rend="italics">praesidia</emph> of the Eastern Desert could equally apply to Berenike: “the absence of 3rd c. coins is easily explained by the fact that in this period almost only billon tetradrachms were minted, a denomination which people were careful not to lose, while the State relied on old bronze coins of previous reigns to serve in daily exchanges.”<note place="foot" xml:id="ftn18" n="18"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/96765">Cuvigny and Lach-Urgacz 2020</ref>: 331.</p></note> In the case of ceramics, very few third-century <emph rend="italics">loci</emph> have been identified, but third century ostraca and dipinti have been documented among residual small finds. For example, in the area just outside the northern entrance to the Isis temple courtyard, a costrel from the second half of the second or the third century was found alongside a third-century ostracon that appears to mention Palmyrene archers.<note place="foot" xml:id="ftn19" n="19"><p style="text-align: left; "> See <ref target="https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/89358/83988#ch_112">O.Berenike 4 535</ref> with references; the ostracon is <ref target="https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/89358/83988#ch_107">O.Berenike 4 534</ref>.</p></note> Thus, given the irrefutable presence of third century material mainly from the temple but also from other parts of the site, it is tempting to suppose that either the third-century contexts still await excavation or they have not been properly identified in previous seasons, or both.<note place="foot" xml:id="ftn20" n="20"><p style="text-align: left; "> Nick Bartos and Roderick Geerts, personal comm. 28.02.2024.</p></note> </p>
+                    <p xml:id="p11" style="text-align: left; ">A significant body of third century material including dated texts has been excavated in the forts along the road that connected Berenike to the city of Coptos, which was the main emporium in the Nile valley for goods passing through Berenike from the East on their way to Alexandria. This evidence includes ostraca found in the last occupation layers of the fort of Xeron Pelagos, which are dated to 264 and overlap with the latest ostraca from the fort of Didymoi. J.-P. Brun has concluded from this material that the forts were abandoned sometime around 270. In his view, this coincided with the removal of the Palmyrene archers from the area following Zenobia’s capture of Egypt in 270.<note place="foot" xml:id="ftn21" n="21"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/96000">Brun 2018</ref> §31; cf. <ref target="https://papyri.info/biblio/96764">Cuvigny 2022</ref>: 113–114 and <ref target="https://papyri.info/biblio/96763">Cobb 2023</ref>: 125.</p></note> The Probus inscription and the dedication from the reign of the Tetrarchy mentioned above prove that there was activity at Berenike during and after this time, which encourages us to consider pushing the date of the abandonment of the forts somewhat later. The shipments arriving in Berenike were likely still being transported to Coptos so that there must have been at least some infrastructure in place to serve the caravans along the Coptos–Berenike road.<note place="foot" xml:id="ftn22" n="22"><p style="text-align: left; "> For the suggestion that the preferred sea route in this period led over Clysma and other harbors in the north, see <ref target="https://papyri.info/biblio/79186">Nappo 2007</ref>: 238–239.</p></note></p>
+                    <p xml:id="p12" style="text-align: left; ">It is unclear who was residing in Berenike in the late third century. It was a politically tumultuous time in Upper Egypt, with Coptos being a flash point for hostilities. Probus (ca. 280), Galerius (293/94) and Diocletian (297/98) all took measures to deal with unrest fomented by rebels, especially by the semi-nomadic tribe of Blemmyes.<note place="foot" xml:id="ftn23" n="23"><p style="text-align: left; "> Accounts in the <emph rend="italics">Historia Augusta</emph> (Probus 17.2–3 [ed. Hohl] = <emph rend="italics">FHN</emph> 3.284) and Zosimus (1.71.1 = <emph rend="italics">Historia Augusta </emph>3.323) of Probus’s suppression of the Blemmyes, which led to the liberation of Coptos and Ptolemais, are well known. They differ with each other in detail, and attempts have been made to reconcile them; overall, Zosimus is regarded as the more reliable source. See <ref target="https://papyri.info/biblio/96766">Kerler 1970</ref>: 253–254; so, too, <ref target="https://papyri.info/biblio/96845">Desanges 1978</ref>: 343–344 w. n. 227. For the revolts confronted by Galerius and Diocletian, see <ref target="https://papyri.info/biblio/51199">Barnes 1976</ref>: 180–182; <ref target="https://papyri.info/biblio/51720">Thomas 1976</ref> (on the date of the revolt of L. Domitius Domitianus); <ref target="https://papyri.info/biblio/52377">Bowman 1978</ref>: 26–28; <ref target="https://papyri.info/biblio/71386">Rathbone 2002</ref>: 194. For extensive treatment of material evidence for the presence of Blemmyes in the Eastern Desert of Egypt in the third century, see the contributions by Cuvigny, Chaufray, Cooper and Gates-Foster in <ref target="https://papyri.info/biblio/96764">Cuvigny 2022</ref>; for discussion of papyrological evidence related to Blemmyes, see <ref target="https://papyri.info/biblio/95999">Cuvigny 2021</ref>: 415–437. <ref target="https://papyri.info/biblio/88598">Pollard 2013</ref>: 3–9, 33–35 looks at the security situation in Egypt in the late third and the fourth century and at government measures (mainly Diocletian’s) to strengthen it.</p></note> Coptos’s status as an essential node in the trade network that joined the Mediterranean with the East was surely an important reason for imperial intervention, and this status depended on smooth operations in Berenike. Unfortunately, the inscription edited here does not shed direct light on the situation in Coptos. One might assume from the use of the regnal formula for Probus that imperial structures were still functioning at the port or that there was at least some degree of civic-mindedness, even if administrative controls like those offered by the office of the prefect of the desert no longer existed.<note place="foot" xml:id="ftn24" n="24"><p style="text-align: left; "> At Berenike the latest reference to the prefect of the desert comes sometime after the transfer of the <emph rend="italics">ala Herculiana</emph> to Coptos in 183 (<ref target="https://papyri.info/biblio/16616">SEG 48</ref> 1977). Outside Berenike, the last securely dated reference to the office is in 219; see <ref target="https://papyri.info/biblio/95999">Cuvigny 2021</ref>: 104, 109, 127–132.</p></note> But even supposing a very different scenario, for example, that the Blemmyes had seized both Coptos and Berenike, we should not presume that they would have abandoned Roman imperial regnal formulas to date dedications.<note place="foot" xml:id="ftn25" n="25"><p style="text-align: left; "> We know that at least by the late fourth or early fifth century the Blemmyes were using their own regnal system to date inscriptions, which appears to have been ‘keyed’ to Diocletianic eras. This is evidenced by an inscription from Berenike dated to the 10th year of the Blemmye King Isemne; see <ref target="https://papyri.info/biblio/95924">Ast and Rądkowska 2020</ref>.</p></note> On the other hand, the inscription edited here could postdate Probus’s intervention and thus reflect a situation in which the imperial administration had reasserted itself. A further possibility is that our sources have exaggerated the discord in Coptos,<note place="foot" xml:id="ftn26" n="26"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/71386">Rathbone 2002</ref>: 195–196.</p></note> and trade channels had not been disrupted in any meaningful way. Without additional evidence, we are unable to ascertain who was organizing trade in Berenike in the time of Probus or how regional politics were affecting the port.</p>
+                </div>
+                <div type="epidoc" subtype="DDB">
+    
+                    <figure>
+                        <ptr ana="hc:HeidICONMediaResourceReference" target="https://heidicon.ub.uni-heidelberg.de/#/detail/23867324"/>
+                        <head>Figure 3. Visualization of RTI file in DeepZoom.</head>
+                    </figure>
+                    <table type="papyrological_header">
+                        <row>
+                            <cell style="text-align: left;">BE-15/18/22 111.999.001;</cell>
+                            <cell style="text-align: center;">83 (w) × 72 (h) × 9 (d)</cell>
+                            <cell style="text-align: right;">276–281 CE, November 17/18</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">inv. 111016. TM 998119</cell>
+                            <cell style="text-align: left;"/>
+                            <cell style="text-align: right;">Berenike</cell>
+                        </row>
+                    </table>
+                    <figure>
+                        <ptr ana="hc:HeidICONMediaResourceReference" target="https://heidicon.ub.uni-heidelberg.de/#/detail/23871262"/>
+                        <head>Figure 4. Dedication from the reign of Probus. Photo by Kamila Braulińska.</head>
+                    </figure>
+                    <div copyOf="#ed1" type="edition"/>
+                    <div copyOf="#trans1" type="translation"/>
+                    <div type="commentary">
+                        <note target="#ed1ln2">
+                            <ref>2</ref>
+                            <p xml:id="p13"> On autopsy, the reading [ ca. 3 ]α̣ρ̣ων̣ seemed plausible, but not firm enough to be printed in the text.</p>
+                            <p xml:id="p14">The letters EY of the last word are easily read. Upsilon is followed by a vertical stroke connected to a horizontal hasta on top that sticks out to the right; this could be the top of either Σ or Π. At the end of the line is Ι and part of Α. While εὐπλοίας could fit these traces, it would require much less space than is present on the stone. Moreover, part of Ε can probably be discerned before Ι. Thus, the reading εὐσεβείας is preferable.</p>
+                        </note>
+                        <note target="#ed1ln3">
+                            <ref>3</ref>
+                            <p xml:id="p15"> There is empty space large enough for a single character between [χ]ά̣ριν̣ and ἐπ᾿. While blank space may have marked a vacat, it is also possible that a punctation mark stood there.</p>
+                            <p xml:id="p16">For discussion of the space between ἀγαθοῖς and Πρόβου, see the introduction above. ἐπ᾿ ἀγαθοῖς is an uncommon expression in dedications from Egypt. Much more common is the singular ἐπ᾿ ἀγαθῷ, which is attested also in numerous dedications from Berenike. The plural ἐπ᾿ ἀγαθοῖς occurs in papyri of the late second and the third century CE, many of them connected to journeys of the Egyptian prefect; see BGU 13 2211.4n.</p>
+                        </note>
+                        <note target="#ed1ln5">
+                            <ref>5</ref>
+                            <p xml:id="p17"> There appear to be deliberate incisions on the stone before the month name, which resemble the tips of two diagonal lines, a possible theta, and a rounded shape. Since Probus’s title certainly ended in the previous line, they cannot belong to that. One possibility is that ἐπ᾿ ἀγαθῷ was carved there, but there are two problems with this interpretation: 1) it does not account for the two diagonal lines (//) visible just to the right of the large lacuna; 2) it is hard to fit ω between what could be Θ and the round sign before alpha in Ἁθύρ. Another possibility is that the lines are from two slanting strokes that followed an L-shaped ἔτους symbol (L//), which was followed by Δ, not Θ. On this interpretation, the round sign before the alpha would be part of another <emph rend="italics">hedera</emph>. If this is correct, the date of the inscription will be 17 November 278. But we cannot exclude the possibility that cracks on the stone give the (false) impression of lettering and no year was recorded in this line, as it had already been referred to in line 3 (see above). </p>
+                        </note>
+                    </div>
+                </div>
+                <div type="bibliography">
+                    <listBibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/95932">Ast, R. (2020)</ref> “I.Pan 70, a Dedication from the Year 133 BC,” ZPE 213: 108–110.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96762">Ast, R. (2021)</ref> “Marcus Laelius Cosmus. Italian merchants and Roman trade at Berenike under the Julio-Claudian Emperors” L. Rahmstorf, G. Barjamovic, and N. Ialongo (eds), Merchants, Measures and Money Understanding Technologies of Early Trade in a Comparative Perspective. Weight and Value 2 (Kiel-Hamburg 2021): 142–157.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/89162">Ast, R. and Bagnall, R.S. (2015)</ref> “The Receivers of Berenike,” Chiron 45: 171–185.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/95924">Ast, R. and Rądkowska, J. (2020)</ref> “Dedication of the Blemmyan Interpreter Mochosak on Behalf of King Isemne,” ZPE 215: 147–158.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/51199">Barnes, T.D. (1976)</ref> “Imperial Campaigns, A.D. 285–311,” Phoenix 30: 174–193.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/52377">Bowman, A.K. (1978)</ref> “The Military Occupation of Upper Egypt in the Reign of Diocletian,” BASP 15: 25–38.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96000">Brun, J.-P. (2018)</ref> “Chronology of the Forts of the Routes to Myos Hormos and Berenike during the Graeco-Roman Period,” in J.-P. Brun, T. Faucher, B. Redon, S. Sidebotham (eds), The Eastern Desert of Egypt during the Greco-Roman Period: Archaeological Reports. Paris.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/6514">Bureth, P. (1964)</ref> Les Titulatures impériales dans les papyrus, les ostraca et les inscriptions d'Égypte (30 a.C. - 284 p.C.). Brussels. </bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96763">Cobb, M.A. (2023)</ref> “The Palmyrene Diaspora in Egypt: Dependency, Sustainability, and Reuse” in N. Andrade and Raja, R. (eds), Exchange and Reuse in Roman Palmyra: Examining Economy and Circularity. Turnhout: 113–129.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/95999">Cuvigny, H. (2021)</ref> Rome in Egypt’s Eastern Desert. Vol. 2. New York.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96764">Cuvigny, H. (ed.) (2022)</ref> Blemmyes. New Documents and New Perspectives, including O.Blem. 1–107. Cairo.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96765">Cuvigny, H. and Lach-Urgacz, K. (2020)</ref> “Ὀρεινὸν κέρμα. Monetary Circulation in the praesidia of the Eastern Desert During the Principate,” in T. Faucher (ed.), Money Rules! The Monetary Economy of Egypt, from the Persians until the Beginning of Islam. Cairo: 309–339.</bibl>
+                        <bibl><ref target="https://papyri.info/biblio/96845">Desanges, J. (1978)</ref> Recherches sur l'activité des méditerranéens aux confins de l'Afrique (VIe siècle av. J.-C.-IVe siècle ap. J.-C.). Rome.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96770">Earl, G. et al. (2011)</ref> “Reflectance Transformation Imaging Systems for Ancient Documentary Artefacts,” Electronic Workshops in Computing. London: 147-154.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96766">Kerler, G. (1970)</ref> Die Aussenpolitik in der Historia Augusta. Bonn. </bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/79186">Nappo, D. (2007)</ref> “The Impact of the Third Century Crisis on the International Trade with the East,”  in Olivier Hekster et al. (eds), Crises and the Roman Empire: Proceedings of the Seventh Workshop of the International Network Impact of Empire (Nijmegen, June 20-24, 2006). Brill: 233–244. </bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/88598">Pollard, N. (2013)</ref> “Imperatores castra dedicaverunt: Security, Army Bases, and Military Dispositions in Later Roman Egypt (Late Third-Fourth Century),” Journal of Late Antiquity 6: 3–36.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/71386">Rathbone, D. (2002)</ref> “Koptos the Emporion. Economy and Society, I-III AD,” Topoi. Orient-Occident. Supplément 3. Lyon.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/71692">Sidebotham, S.E. (2002)</ref> “Late Roman Berenike,” JARCE 39: 217–240.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/79310">Sidebotham, S.E. (2011)</ref> Berenike and the Ancient Maritime Spice Route. Berkeley, Los Angeles, London.</bibl>
+                            <bibl>
+                            Sidebotham, S.E., Ast, R., Bergmann, M., Bhandare, S., Rądkowska, J., Strauch, I., Popławski, S. and Castro, M. (forthcoming 2025), “Indians in Roman Berenike,” Jahrbuch des Deutschen Archäologischen Instituts.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/95967">Sidebotham, S.E. et al. (2019)</ref> “Results of the Winter 2018 Excavation Season at Berenike (Red Sea Coast), Egypt. The Belzoni Bicentennial Report,” Thetis 24: 7-19.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/95968">Sidebotham, S.E. (2020)</ref> “Berenike 2019: Report on the Excavations,” Thetis 25: 11-22.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/95969">Sidebotham, S.E. et al. (2022)</ref> “Results of the Winter 2020 Excavation Season at Berenike (Red Sea coast, Egypt),” Thetis 26: 13–23.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96767">Sidebotham, S.E. et al. (2023)</ref> “Results of the Winter 2022 Excavation Season at Berenike (Red Sea Coast), Egypt,” Thetis 27: 13–28.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/15828">Sidebotham, S.E. and Wendrich, W.Z. (1999)</ref> Berenike 1997. Report of the 1997 Excavations at Berenike and the Survey of the Egyptian Eastern Desert, including Excavations at Shenshef. Leiden 1999).</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/15536">Sidebotham, S.E. and Wendrich, W.Z. (1998)</ref> Berenike 1996. Report of the 1996 Excavations at Berenike (Egyptian Red Sea Coast) and the Survey of the Eastern Desert. Leiden.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/51720">Thomas, J.D. (1976)</ref> “The Date of the Revolt of L. Domitius Domitianus,” ZPE 22: 253–279.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title/>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Papyri.info</authority>
+                    <idno type="TM"/>
+                    <idno type="HGV"/>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository/>
+                            <idno type="invNo">inv. 111016</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <material>Papyrus</material>
+                                        <measure type="height" unit="cm">72 cm</measure>
+                                        <measure type="width" unit="cm">83 cm</measure>
+                                    </support>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                        <history/>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div type="bibliography" subtype="principalEdition"/>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title/>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename"/>
+                    <idno type="ddb-hybrid"/>
+                    <idno type="HGV"/>
+                    <idno type="TM"/>
+                    <availability>
+                        <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                                Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                    <language ident="la">Latin</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <head xml:lang="en"/>
+                <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1" xml:id="ed1ln1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
+<lb n="2" xml:id="ed1ln2"/><gap reason="lost" quantity="3" unit="character" precision="low"/><gap reason="illegible" quantity="2" unit="character"/>ω<unclear>ν</unclear> ἀνέθηκεν εὐ<unclear>σ</unclear><supplied reason="lost">εβ</supplied><unclear>ε</unclear>ία<supplied reason="lost">ς</supplied>
+<lb n="3" xml:id="ed1ln3"/><supplied reason="lost">χ</supplied><unclear>ά</unclear>ρι<unclear>ν</unclear> ἐπ᾿ ἀγαθ<unclear>oῖς</unclear> <gap reason="lost" quantity="4" unit="character" precision="low"><certainty match=".." locus="name"/></gap> Πρόβ<unclear>ο</unclear><supplied reason="lost">υ</supplied>
+<lb n="4" xml:id="ed1ln4"/><unclear>τ</unclear>οῦ <unclear>κ</unclear>υρίου ἡμῶν Σεβαστοῦ <g rend="extension" type="filler"/>
+<lb n="5" xml:id="ed1ln5"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/>(?) Ἁθὺρ κα  <g type="hedera">❦</g>
+</ab></div>
+                
+                <!-- This is the text which has been prepared for transfer to DDB once Pylon 5 is published -->
+                <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
+<lb n="2"/><gap reason="lost" quantity="3" unit="character" precision="low"/><gap reason="illegible" quantity="2" unit="character"/>ω<unclear>ν</unclear> ἀνέθηκεν εὐ<unclear>σ</unclear><supplied reason="lost">εβ</supplied><unclear>ε</unclear>ία<supplied reason="lost">ς</supplied>
+<lb n="3"/><supplied reason="lost">χ</supplied><unclear>ά</unclear>ρι<unclear>ν</unclear> ἐπ᾿ ἀγαθ<unclear>oῖς</unclear> <gap reason="lost" quantity="4" unit="character" precision="low"><certainty match=".." locus="name"/></gap> Πρόβ<unclear>ο</unclear><supplied reason="lost">υ</supplied>
+<lb n="4"/><unclear>τ</unclear>οῦ <unclear>κ</unclear>υρίου ἡμῶν Σεβαστοῦ <g rend="extension" type="filler"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><note xml:lang="en">?</note> Ἁθὺρ κα  <g type="hedera"/>
+</ab></div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main"/>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename"/>
+                    <idno type="TM"/>
+                    <idno type="HGV"/>
+                    <availability>
+                        <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                            a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>The contents of this document are generated from SOSOL.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                    <language ident="ar">Arabisch</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>
+“… set this up as an expression of piety for the benefits … of Probus our lord Augustus…Hathyr 21 (<emph rend="italics">hedera</emph>).”
+</p></div>
+            </body>
+        </text>
+    </TEI>
+</TEI>

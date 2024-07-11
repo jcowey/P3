@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:hei="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P.Ross.Georg. 2 13 and Other Corrections to Published Papyri</title>
+            <author>
+               <name>
+                  <forename>Lavinia</forename>
+                  <surname>Ferretti</surname>
+               </name>
+               <affiliation>Universität Basel</affiliation>
+               <email>lavinia.ferretti@unibas.ch</email>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0009-0005-2619-117X</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2024-06-27</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2024">2024</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.5.9</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2024.5.105734</idno>
+            <idno ana="hc:PrivateIdentifier">96865</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">L. Ferretti, “P.Ross.Georg. 2 13 and Other Corrections to Published Papyri,” Pylon 5 (2024) Article 9. DOI: <ref ana="hc:URLReference"
+                    target="https://doi.org/10.48631/pylon.2024.5.105734">https://doi.org/10.48631/pylon.2024.5.105734</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">5</biblScope>
+                     <biblScope unit="article">9</biblScope>
+                     <date when="2024">2024</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2024-06-27T15:06:01Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">P.Ross.Georg. 2 13 and Other Corrections to Published Papyri</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">This article is the result of work done in relation to two SNSF projects: Grammateus (SNSF no 182205, PI Paul Schubert) and EGRAPSA (SNSF no 211682, PI Isabelle Marthot-Santaniello). Thanks to Susan Fogarty, Isabelle Marthot-Santaniello, Paul Schubert and Pylon’s anonymous reviewers for their comments. The corrections to P.Ross.Georg. 2 13 were first presented at the “109. Papyrologisch-epigraphische Werkstatt” at the University of Vienna; in addition to the audience, I wish to thank Sophie Kovarik for inviting me and Amin Benaissa for his helpful suggestions. My thanks also go to the Korneli Kekelidze Georgian National Centre of Manuscripts for the image of P.Ross.Georg. 2 13, to Kovarik for helping me contact them, and to Marius Gerhardt and the Ägyptisches Museum und Papyrussammlung, Staatliche Museen zu Berlin, for the images of Berlin papyri.</note>
+            <div type="section">
+               <head>The Subscription to P.Ross.Georg. 2 13: a New Reading</head>
+               <p xml:id="p1">The editor of <ref target="https://papyri.info/ddbdp/p.ross.georg;2;13">P.Ross.Georg. 2 13</ref> (small livestock declaration, Oxyrhynchite nome, reign of Nero) mentioned in his commentary that the reading of the second-hand subscription was surely wrong.<note place="foot" xml:id="ftn1" n="1"><p><ref target="https://papyri.info/biblio/95013">Krüger 1929</ref>: 58: “die Subscriptio ist sicher falsch gelesen.”</p></note> The text as published is indeed hard to understand and has no parallel; I reproduce it here:</p>
+               <quote type="edition">
+                  <lb n="13"/><emph rend="bold">(hand 2)</emph> Πλουτίων̣ [Π]λουτίωνος ὄμνυ(μί)
+                  <lb n="14"/>με καταχωρῶ̣ν̣ Ἡρακλᾶς α  ̣  ̣  ̣  ̣  ̣  ̣ ρ̣α̣
+                  <lb n="15"/>ευδαιμον κ̣[αὶ] ἔγραψεν ὑπὲρ αὐτοῦ   ̣  ̣  ̣  ̣
+                  <lb n="16"/> -- -- -- -- --
+               </quote>
+               <p xml:id="p2">Thanks to a digital image of the piece (Fig. 1), I could verify and revise the reading; the final lines are not as exceptional as they seemed and preserve a standard subscription for livestock declarations, for which <ref target="https://papyri.info/ddbdp/p.oxy;71;4824">P.Oxy. 71 4824</ref>.20–26, <ref target="https://papyri.info/ddbdp/p.oxy;84;5441">P.Oxy. 84 5441</ref>.22–27 and <ref target="https://papyri.info/ddbdp/p.oxy;84;5445">P.Oxy. 84 5445</ref>.14–17 are contemporary parallels. Here is the revised text:</p>
+               <div type="epidoc" subtype="DDB">
+                  <figure>
+                        <ptr ana="hc:HeidICONMediaResourceReference" target="https://heidicon.ub.uni-heidelberg.de/#/detail/23873759"/>
+                        <head>Figure 1. P.Ross.Georg. 2 13. Image courtesy of the LEPL Korneli Kekelidze Georgian National Centre of Manuscripts, Tbilisi, inv. 232.</head>
+                  </figure>
+                  <div copyOf="#ed1" type="edition"/>
+                  <div type="commentary">
+                     <note target="ed1ln13">
+                        <ref>13</ref>
+                        <p xml:id="p3"> a diagonal stroke below the initial γ of l. 12 divides the main text from the subscription.</p>
+                     </note>
+                     <note target="ed1ln13">
+                        <ref>13–14</ref>
+                        <p xml:id="p4"> on the spelling ὀμώμεκα, cf. the commentary to P.Oxy. 84 5445.15 (<ref target="https://papyri.info/biblio/96842">Gonis et al. 2019</ref>: 144); it appears to be characteristic of the Oxyrhynchite nome. The ω at the end of l. 13 has a strange shape and ends in a horizontal stroke above the μ. It looks like an abbreviation stroke (although the word is not abbreviated) or a horizontal ruler dividing the main text from the subscription.</p>
+                     </note>
+                     <note target="ed1ln14">
+                        <ref>14–15</ref>
+                        <p xml:id="p5"> the text must contain the identification of the person who wrote on behalf of Ploution, a certain Heraklas.</p>
+                     </note>
+                     <note target="ed1ln14">
+                        <ref>14</ref>
+                        <p xml:id="p6"> the traces at the end of the line, almost a Verschleifung, are difficult to read. They could contain either the name of Heraklas’  father or, as Amin Benaissa suggested to me, the indication ἀπελεύθερος, freedman. The latter suits the presence of the ensuing feminine name better. For a parallel for a freedman signing for someone else, cf. <ref target="https://papyri.info/ddbdp/p.oxy;46;3275">P.Oxy. 46 3275</ref>.44–49 (ca. 103–111 CE, Oxyrhynchos). An alternative reading that suits the traces is Ἡρακλοῦς ἀπελευθέρα; however, women did not sign on behalf of men, so having a freedwoman signing for Ploution seems hardly probable.<note place="foot" xml:id="ftn2" n="2"><p><ref target="https://papyri.info/biblio/51147">Youtie 1975</ref>: 216 n. 41. I checked with the documents published after 1975, and Youtie’s assertion holds true.</p></note></p></note>
+                     <note target="ed1ln15">
+                        <ref>15</ref>
+                        <p xml:id="p7"> as the first editor noticed, the traces at l. 15 read either ευδαιμονιδ- or ευδαιμονκ; the former seems preferable. A feminine name Εὐδαιμονίς is well attested in Roman Egypt;<note place="foot" xml:id="ftn3" n="3"><p> The masculine Εὐδαιμονίδης, although attested in the Peloponnesos as Εὐδαιμονίδας (<ref target="https://papyri.info/biblio/95013">LGPN III.A</ref>, s.v. Εὐδαιμονίδας), is unattested in Egypt.</p></note> this would be its earliest attestation in first-century CE Oxyrhynchos.<note place="foot" xml:id="ftn4" n="4"><p> Other early attestations of the name in Oxyrhynchos may be in <ref target="https://papyri.info/ddbdp/p.eirene;4;29">P.Eirene 4 29</ref>.56 and <ref target="https://papyri.info/ddbdp/p.eirene;4;30">P.Eirene 4 30</ref>.12, dated in the edition to the late first to early second century CE, before 103/104 CE, yet their Oxyrhynchite provenance is uncertain; <ref target="https://papyri.info/ddbdp/p.oxy;3;504">P.Oxy. 3 504</ref>.7, dated to 118/119 CE by <ref target="https://papyri.info/biblio/79910">Benaissa 2011</ref>: 227, and <ref target="https://papyri.info/ddbdp/p.oxy;47;3336">P.Oxy. 47 3336</ref>.19, dated 133 CE, give slightly later yet surely Oxyrhynchite attestations of the name.</p></note> Eudaimonis can be either the mother or the former owner of Heraklas, depending on the reading of the traces at the end of l. 14. The hypothesis of the mother is less probable: the end of l. 14 does not resemble the abbreviation for (μητρός), and these widespread illiterate signatures usually lack the matronymic. Only three first-century CE exceptions exist to this tendency: <ref target="https://papyri.info/ddbdp/p.oxy;2;275">P.Oxy. 2 275</ref>.41–43; <ref target="https://papyri.info/ddbdp/p.oxy;66;4533">P.Oxy. 66 4533</ref>.14–15; <ref target="https://papyri.info/ddbdp/psi;8;871">PSI 8 871</ref>.29–32. In all these cases, none of which is a declaration, the formula is name + patronymic + papponymic + matronymic, sometimes with the maternal papponymic, too;<note place="foot" xml:id="ftn5" n="5"><p> On the extremely high frequency of the paternal papponymic in combination with a matronymic in the second half of the first century CE, cf. <ref target="https://papyri.info/biblio/78048">Depauw 2010</ref>: 132; <ref target="https://papyri.info/biblio/96836">Broux and Depauw 2015</ref>: 472. The maternal papponymic is less ubiquitous but still highly common at this time, cf. <ref target="https://papyri.info/biblio/96836">Broux and Depauw 2015</ref>: 473; 478.</p></note> there is no place for the complete sequence in the present papyrus. On the contrary, the indication of the former owner would replace the patronymic in the case of freedmen, and women slave owners named Eudaimonis are attested in the Arsinoite nome in the first century CE.<note place="foot" xml:id="ftn6" n="6"><p> Cf. <ref target="https://papyri.info/ddbdp/p.mich;2;121v">P.Mich. 2 121 V</ref> Col. 6.18; Col. 7.6 (42 CE, Arsinoite); <ref target="https://papyri.info/ddbdp/p.mich;5;281">P.Mich. 5 281</ref> (1st c. CE, Arsinoite).</p></note></p></note>
+                     <note target="ed1ln15">
+                        <ref>15</ref>
+                        <p xml:id="p8"> after the ψ of ἔγραψα, the traces become very slurred. The reading is based on the most current formula of these signatures, but one cannot exclude other options. For instance, among contemporary Oxyrhynchite livestock declarations, <ref target="https://papyri.info/ddbdp/p.oxy;71;4824">P.Oxy. 71 4824</ref>.23 (67 CE) has ἔγραψα ὑπὲρ τοῦ ἀδελφοῦ, <ref target="https://papyri.info/ddbdp/p.oxy;84;5441">P.Oxy. 84 5441</ref>.23–24 (58 CE) ἔ̣γ̣ρ̣αψα ὑπ̣ὲρ α̣(ὐτοῦ), <ref target="https://papyri.info/ddbdp/p.oxy;84;5445">P.Oxy. 84 5445</ref>.16–17 (98 CE) ἔγραψα ὑπὲρ αὐτοῦ and <ref target="https://papyri.info/ddbdp/p.oxy;84;5446">P.Oxy. 84 5446</ref>.34 (107 CE) ἔγραψα ὑπὲρ αὐτῶν.</p>
+                     </note>
+                     <note target="ed1ln16">
+                        <ref>16</ref>
+                        <p xml:id="p9"> some traces are visible below the μ of Εὐδαιμονίδ[ο]ς̣; the first editor did not mention them. The final lines should have contained the end of the formula (something like μὴ εἰδότος γράμματα) and the date.</p>
+                        <p xml:id="p10">In addition to the subscription, the text of P.Ross.Georg. 2 13.10–11 should also be corrected. The original edition reads a verbal form ὑπο̣σ̣τ̣α-λέσθαι, yet the papyrus has ὑπεσ̣τά-λεσθαι. None is a regular infinitive of ὑποστέλλω; because of the augment -ε-, ὑπεστάλεσθαι is probably an irregular form of the perfect middle/passive infinitive ὑπεστάλθαι, built by analogy with the ending -εσθαι of the present middle/passive infinitive or the second aorist middle infinitive.<note place="foot" xml:id="ftn7" n="7"><p> In any other tense of the infinitive, the verb ὑποστέλλω would have lost the augment. In the perfect, on the contrary, it preserves it, as it functions as a reduplication.</p></note> I found no parallel for such a mistake, although the use of present or aorist endings in the perfect stem is occasionally attested in Roman papyri.<note place="foot" xml:id="ftn8" n="8"><p><ref target="https://papyri.info/biblio/9657">Gignac 1981</ref>: 355–356.</p></note></p>
+                        <p xml:id="p11">The verb ὑποστέλλω is rare in oath formulas; the only parallels are <ref target="https://papyri.info/ddbdp/sb;20;14440">SB 20 14440</ref>.18–19 (census declaration, 12 CE, Arsinoite): ὑποσ̣τ̣ειλάμενος; <ref target="https://papyri.info/ddbdp/p.oxy;2;246">P.Oxy. 2 246</ref>.26 (small livestock declaration, 66 CE, Oxyrhynchite): ὑπεστά̣[λθ(αι)]; <ref target="https://papyri.info/ddbdp/p.hever;;61">P.Hever 61</ref>.3 (declaration, 127 CE, province of Arabia): ὑποστειλάμενος; and <ref target="https://papyri.info/ddbdp/p.oslo;3;98">P.Oslo 3 98</ref>.31–32 (census declaration, 132/133 CE, Herakleopolis): ὑπεστά̣λ̣θ̣αι. In all these papyri, just as in P.Ross.Georg. 2 13, the expression is μηδὲν ὑποστέλλεσθαι, “not to omit anything.”</p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>Further Textual Corrections</head>
+               <p xml:id="p12">Thanks to the digital and print images retrievable through the <ref target="https://papyri.info/">Papyrological Navigator</ref>, I can propose the following additional corrections:</p>
+               <p xml:id="p13">
+                  <ref target="https://papyri.info/ddbdp/bgu;2;591">BGU 2 591</ref>.15 (56/57 CE, Arsinoite): the papyrus has Μάρκωι, which is probably a mistake for Μαρκίω, as the person is named at l. 1 Γαίου Μαρκίου, and the iota adscript is not used anywhere else in this papyrus. The editor edited this as Μαρκ(ί)ῳ, yet this is misleading because it indicates that the iota is not on the papyrus. I found no exact parallel for such a mistake of ωι for ιω, but the confusion between the <emph rend="italics">praenomen</emph> Marcus and the <emph rend="italics">gentilicium</emph> Marcius is attested. The <emph rend="italics">epistrategos</emph> Ποπλίῳ Μάρκ̣ῳ  Κρί̣σπωι<note place="foot" xml:id="ftn9" n="9"><p> On the reading, cf. <ref target="https://papyri.info/biblio/73181">Habermann 2004</ref>: 241.</p></note> of <ref target="https://papyri.info/ddbdp/sb;20;14401">SB 20 14401</ref>.1 is probably identical with the iuridicus [Πο]π̣λ̣ίωι [Μα]ρκίωι Κρίσ̣π̣ω̣ι of <ref target="https://papyri.info/ddbdp/bgu;11;2013">BGU 11 2013</ref>.1–2, and the [Μ]άρκος Ἑρμογένης of <ref target="https://papyri.info/ddbdp/p.aberd;;16">P.Aberd. 16</ref>.2 may be identical with the procurator <emph rend="italics">Q(uintus) Marcius Hermogenes</emph> of <ref target="https://epigraphy.packhum.org/text/227959">I.Colosse Memnon 38</ref>.1.</p>
+               <p xml:id="p14">
+                  <ref target="https://papyri.info/ddbdp/bgu;3;1000">BGU 3 1000</ref> Col. 2.3 (98 BCE, Pathyris): the reading of the line was revised many times. The editor proposed γῆ <emph rend="italics">unintelligible symbol</emph> ἀρου(ῶν) ἑβδομή̣κ̣οντ̣α̣, subsequently corrected to γῆ μέρος ἕβδομον, ὧν αἱ  (cf. BL 1.86 and 3.16); the correct reading is γῆς ἀρου(ρῶν) ἕβδομ[ο]ν̣, ὧν αἱ  – the σ, made in two strokes as is common in this hand (see for instance, l. 4, τῆς), was confused by the editor with an unintelligible symbol because of the interference caused by the descending loop of the above ρ. The latter, very rounded like all descending strokes in this hand, touches the second upper stroke of the sigma to the left, so they look like one stroke instead of two.</p>
+               <p xml:id="p15">
+                  <ref target="https://papyri.info/ddbdp/bgu;4;1056">BGU 4 1056</ref> (13 BCE, Alexandria): there is no trace of a l. 27. However, l. 26 finishes with an ἀ̣ξ̣(ιοῦμεν) after πάσης; the ἀξιοῦμεν formula is current at the end of <emph rend="italics">synchoreseis</emph>, sometimes in this abbreviated form. The traces of BGU 4 1056 closely resemble those of <ref target="https://papyri.info/ddbdp/bgu;4;1050">BGU 4 1050</ref>.30 and <ref target="https://papyri.info/ddbdp/bgu;4;1124">BGU 4 1124</ref>.32 (Fig. 2), both interpreted as abbreviated ἀξ(ιοῦμεν).<note place="foot" xml:id="ftn10" n="10"><p>On the reading in BGU 4 1050.30, cf. BL 1.92. On the ἀξιοῦμεν formula, cf. <ref target="https://papyri.info/biblio/96232">Mitteis 1912</ref>: 66; <ref target="https://papyri.info/biblio/96313">Schubart 1913</ref>: 56–57; <ref target="https://papyri.info/biblio/9194">Wolff 1978</ref>: 94 with n. 61.</p></note></p>
+               <figure>
+                  <ptr ana="hc:HeidICONMediaResourceReference" target="https://heidicon.ub.uni-heidelberg.de/#/detail/23874261"/>
+                  <head>Figure 2. Closing abbreviation of BGU 4 1050 (to the left) and BGU 4 1124 (to the right). Image courtesy of the Ägyptisches Museum und Papyrussammlung, Staatliche Museen zu Berlin, Scan: Berliner Papyrusdatenbank: inv. P 13066 and 13193.</head>
+               </figure>
+               <p xml:id="p16">
+                  <ref target="https://papyri.info/ddbdp/bgu;16;2582">BGU 16 2582</ref>.14 (14–13 BCE, Herakleopolite): Hermnenouchis is a ghost name. It has no known parallel, and the reading does not fit the traces on the papyrus. After the first three letters, ερμ, whose reading is clear, the traces that were interpreted as ν, with a descending central stroke, do not fit the general shape of ν in this hand. The line rather reads ερμγε̣ν̣υχ[ ]υχιτης̣. One expects here the name (in genitive), patronymic and geographical origin of the second owner of the flock (by analogy with the first owner, mentioned at l. 12 as Σεμθέως Ὥρου Ψυχίτης, Semtheus, son of Horos, from the village of Psychis).<note place="foot" xml:id="ftn11" n="11"><p> On the name of the village, see BL 13.38.</p></note> At the end of the line, [Ψ]υχίτης is obvious. In the middle, the anonymous reviewer of Pylon suggested Χρυ̣σ̣ίππ̣[ου], which is a convincing patronym, even if slightly short. At the beginning of the line, the most logical reading would be Ἑρμο̣γέ̣ν̣ο̣υ.<note place="foot" xml:id="ftn12" n="12"><p> I cannot see a σ between the υ and the χ (the loop corresponds to the beginning of the χ in this hand, as in the two instances of the word Ψυχίτης).</p></note> Ἑρμογένης is a frequently attested name; although its usual genitive is Ἑρμογένους, a form Ἑρμογένου is attested, mostly in Ptolemaic papyri.<note place="foot" xml:id="ftn13" n="13"><p> For fully legible examples, see <ref target="https://papyri.info/ddbdp/bgu;14;2436">BGU 14 2436</ref>, Col. 2.15 (1st c. BCE, Herakleopolite); <ref target="https://papyri.info/ddbdp/psi;1;64">PSI 1 64</ref>.1 (2nd or 1st c. BCE, Oxyrhynchos); <ref target="https://papyri.info/ddbdp/p.tebt;1;72">P.Tebt. 1 72</ref>, Col. 12.213 (114–113 BCE, Arsinoite); <ref target="https://papyri.info/ddbdp/p.tebt;3.2;1045">P.Tebt. 3.2 1045</ref> V (2nd c. BCE, Herakleopolite); <ref target="https://papyri.info/ddbdp/p.tor.choach;;12">P.Tor.Choach. 12</ref>.6 (117 BCE, Thebes). The only later example is <ref target="https://papyri.info/ddbdp/p.ness;3;37">P.Ness. 3 37</ref>.29 (560–580 CE, Palestine). See <ref target="https://papyri.info/biblio/9657">Gignac 1981</ref>: 70.</p></note></p>
+               <p xml:id="p17">
+                  <ref target="https://papyri.info/ddbdp/bgu;16;2583">BGU 16 2583</ref>.2 (14–13 BCE, Herakleopolite): instead of Ἡρακλίδῃ, read Ἠρακλείδηι.</p>
+               <p xml:id="p18">
+                  <ref target="https://papyri.info/ddbdp/bgu;18.1;2731">BGU 18.1 2731</ref>.15 (87/86 BCE, Herakleopolis): Roberto Mascellari doubted whether the traces of ink read as δ in the reading δ̣[ι]ευτ̣[ύχει] were indeed writing.<note place="foot" xml:id="ftn14" n="14"><p><ref target="https://papyri.info/biblio/96192">Mascellari 2021</ref>: 1003.</p></note> The presence of a <emph rend="italics">paragraphos</emph> under the ε- of the ]ευτ̣[ύχει] indicates that the word starts there and not with the supposed initial δ (Fig. 3): otherwise, the <emph rend="italics">paragraphos</emph> would have begun under the δ. The correct reading is εὐτ̣[ύχει].</p>
+               <figure>
+                  <ptr ana="hc:HeidICONMediaResourceReference" target="https://heidicon.ub.uni-heidelberg.de/#/detail/23874263"/>
+                  <head>Figure 3. BGU 18.1 2731, end of lines 13-17, with the paragraphos under the first ε of εὐτ̣[ύχει] highlighted. Image courtesy of the Ägyptisches Museum und Papyrussammlung, Staatliche Museen zu Berlin, Scan: Berliner Papyrusdatenbank: inv. P 25817</head>
+               </figure>
+               <p xml:id="p19">
+                  <ref target="https://papyri.info/ddbdp/p.berl.moeller;;7">P.Berl.Möller 7</ref>.22 (8/9 CE, Hermopolis [found] and Oxyrhynchite [located]): instead of τ̣έ̣λ̣ο̣ς̣, read τ̣έλ(ος). / ε̣ὐ̣τύχ(ει). The λ of τέλος was written above the ε, which indicates an abbreviation; below, on an additional l. 22a, a χ was written above an υ, and contemporary declarations of small livestock usually closed with an εὐτύχει, often abbreviated, as in <ref target="https://papyri.info/ddbdp/p.oxy;84;5439">P.Oxy. 84 5439</ref>.23.</p>
+               <p xml:id="p20">
+                  <ref target="https://papyri.info/ddbdp/p.cair.zen;3;59457">P.Cair.Zen. 3 59457</ref> (mid-3rd c. BCE, Arsinoite): the verso, unpublished in the original edition, reads Ζήνω̣ν[ι].</p>
+               <p xml:id="p21">
+                  <ref target="https://papyri.info/ddbdp/p.grenf;2;17">P.Grenf. 2 17</ref>.8 (136 BCE, Thebaid): instead of προκειμένων, read προκιμένων.</p>
+               <p xml:id="p22">
+                  <ref target="https://papyri.info/ddbdp/p.lond;7;2029">P.Lond. 7 2029</ref>.1–2 (mid-3rd c. BCE, Arsinoite): instead of [ὑπόμνημα Ζήνωνι] παρὰ Δημη[τρίου], read […] παρὰ Δημη[τρίου]. There is no need to postulate the word ὑπόμνημα or the mention of an addressee; given the list that follows, something like [λόγος Ζήνωνι] παρὰ Δημη[τρίου]   or [λόγος] παρὰ Δημη[τρίου]  may also be proposed. Both formulas have parallels in the Zenon archive, for instance in <ref target="https://papyri.info/ddbdp/p.lond;7;1978">P.Lond. 7 1978</ref>.1–2 (λόγος Ζήνωνι παρὰ Δράκοντος) and P.Cair.Zen. 3 59334.2 (λόγος παρὰ Ἡρακλείδου).</p>
+               <p xml:id="p23">
+                  <ref target="https://papyri.info/ddbdp/p.mich;9;575">P.Mich. 9 575</ref>.7 (157, 90 or 6 BCE, Arsinoite):<note place="foot" xml:id="15" n="15"><p> On the date, cf. <ref target="https://papyri.info/biblio/95958">Mascellari 2018</ref>: 300.</p></note> instead of δεξάμενος, read δεξαμένους. A small υ is visible between the ο and the final σ. The clause thus reads (l. 7–8): ἀξειῶι δεξαμένους τὴν ἀπόρεισειν   – to be regularised as ἀξιῶ δεξαμένους τὴν ἀπόρρησιν. This sentence closely resembles the standard request formula at the end of petitions, an ἀξιῶ followed by an infinitive clause. The writer forgot, however, the infinitive, just as he made a mistake with the other formulas, mixing the phraseology of letters and <emph rend="italics">hypomnemata</emph> throughout this text. The fact that the addressees, the ἐπιμελητής and the other members  of an association (σύνοδος), are asked to receive (δέχεσθαι) the ἀπόρρησις (probably the sender’s resignation from the association) finds a parallel in <ref target="https://papyri.info/ddbdp/p.lond;7;2193">P.Lond. 7 2193</ref>, the law of the cultic association of Zeus Hypsistos that dates, just like P.Mich. 9 575, to the first century BCE. In the London papyrus, the members of this one specific association are forbidden to give (διδόναι) the ἀπόρρησις. The comparison of the two texts shows the general vocabulary of resignation in private associations: if a member wanted to resign, he had to give the ἀπόρρησις, and the committee had to receive it.</p>
+               <p xml:id="p24">
+                  <ref target="https://papyri.info/ddbdp/psi;10;1098">PSI 10 1098</ref>.42 (51 BCE, Arsinoite): at the end of the line, one should add συ̣[γγρα]φο̣φ̣ύ̣λαξ [Π]τολεμαῖος̣, forgotten in the original edition. The keeper of the contract is usually one witness;<note place="foot" xml:id="ftn16" n="16"><p><ref target="https://papyri.info/biblio/9194">Wolff 1978</ref>: 59. For an exception to this rule, see <ref target="https://papyri.info/ddbdp/p.berl.monte;;6">P.Berl.Monte 6</ref>, with the introductory remarks by <ref target="https://papyri.info/biblio/95733">Monte 2020</ref>: 102.</p></note> in this case, it is the Πτολεμαῖος Π̣τολεμαίου mentioned at l. 39. For a similar formula at the end of Ptolemaic contracts, see, for instance, <ref target="https://papyri.info/ddbdp/p.tebt;1;105">P.Tebt. 1 105</ref>.53.</p>
+               <p xml:id="p25">
+                  <ref target="https://papyri.info/ddbdp/p.tebt;1;40">P.Tebt. 1 40</ref>.1 (118–117 BCE, Arsinoite): the ἔτους in the first line is written as the typical L-symbol, thus one should read (ἔτους).</p>
+               <p xml:id="p26">Ptolemaic petitions never close with an abbreviated form of εὐτύχει; the only exceptions to this rule are <ref target="https://papyri.info/ddbdp/zpe;177;207_1">TM 131719</ref> (P.Texas inv. 6; 184 or 160 BCE, Arsinoite) and <ref target="https://papyri.info/ddbdp/bgu;8;1824">BGU 8 1824</ref> (60–55 BCE, Herakleopolite). In the first case, the restoration in the lacuna is undoubtedly wrong: at l. 22, the edited text proposes [εὐ(τύχει)] ἔ̣τ̣ο̣υ̣ς̣ κα Παρμοῦθι ζ, but the reading ἔ̣τ̣ο̣υ̣ς̣ κα Παρμοῦθι (<emph rend="italics">sic</emph>) ζ is to be preferred.<note place="foot" xml:id="ftn17" n="17"><p> For the edition, cf. <ref target="https://papyri.info/biblio/79177">Martinez 2011</ref>: 207–214.</p></note> Although the εὐτύχει is widespread in second-century BCE petitions, there are parallels for petitions ending simply with a date.<note place="foot" xml:id="ftn18" n="18"><p><ref target="https://papyri.info/ddbdp/p.hels;1;31">P.Hels. 1 31</ref> (160 BCE, Herakleopolite); <ref target="https://papyri.info/ddbdp/p.oxyrhyncha;;8">P.Oxyrhyncha 8</ref> (142 BCE, Arsinoite); <ref target="https://papyri.info/ddbdp/zpe;216;194">P.Tebt. 3.1 800</ref> (153 or 142 BCE, Arsinoite).</p></note> On the contrary, there are no attestations of the abbreviated form εὐ(τύχει) before the Roman period.<note place="foot" xml:id="ftn19" n="19"><p> The earliest εὐτύχει abbreviated after the εὐ( is to be found in papyri.info is <ref target="https://papyri.info/ddbdp/bgu;4;1173">BGU 4 1173</ref>.20, a <emph rend="italics">synchoresis</emph> dated to 5/4 BCE, whose reading is however uncertain: ε̣ὐ̣(τύχει). Otherwise, the only attestations of an εὐτύχει abbreviated after the εὐ( are to be found in the archive of petitions from Euhemeria (<ref target="http://www.trismegistos.org/archive/187">TM Arch 187</ref>): <ref target="https://papyri.info/ddbdp/p.ryl;2;132">P.Ryl. 2 132</ref>.18 (32 CE, ε̣ὐ̣(τύχει)), <ref target="https://papyri.info/ddbdp/p.ryl;2;136">P.Ryl. 2 136</ref>.16 (34 CE, ε̣ὐ̣(τύ)χ(ει)), <ref target="https://papyri.info/ddbdp/p.ryl;2;149">P.Ryl. 2 149</ref>.25 (39 CE, εὐ(τύ)χ(ει)), to which one can add <ref target="https://papyri.info/ddbdp/sb;12;10795">SB 12 10795</ref>.18 (28 CE, εὐ(τύ)χ(ει) – a Verschleifung that can also be read εὐτύχ(ει)) and <ref target="https://papyri.info/ddbdp/sb;12;11018">SB 12 11018</ref>.9 (first half 1st c. BCE, εὐ(τύ)χ(ει); on its date, cf. <ref target="https://papyri.info/biblio/80926">Mascellari 2009</ref>: 140). It seems common to add the χ as a mark of abbreviation after the εὐ(.</p></note> The lacuna is too short to allow εὐτύχει or even εὐτύχ(ει), and it seems more probable that it was left unwritten, especially since the text is a draft. The second occurrence is less uncertain but still doubtful. At l. 32, the edited text proposes εὐτύχ(ει). This abbreviation is more common than εὐ(τύχει) but still attested only from the Roman period onward.<note place="foot" xml:id="ftn20" n="20"><p> The first attestation is possibly <ref target="https://papyri.info/ddbdp/bgu;16;2584">BGU 16 2584</ref>.14 (before the 20/02/13 BCE, ε̣ὐ̣τ̣ύ̣χ̣(ει)). This abbreviation is common in the first century CE; in the archive of petitions from Euhemeria (<ref target="http://www.trismegistos.org/archive/187">TM Arch 187</ref>), for instance, it is used in P.Ryl. 2 125–128; 130; 133–135; 138–144; 146; 147.</p></note> On the papyrus, one can read a very cursive εὐτύχ with a long final vertical. The <emph rend="italics">paragraphos</emph> written to its right is unusual in Ptolemaic petitions; the only parallels are <ref target="https://papyri.info/ddbdp/bgu;8;1833">BGU 8 1833</ref>, <ref target="https://papyri.info/ddbdp/bgu;8;1848">BGU 8 1848</ref> and <ref target="https://papyri.info/ddbdp/p.ryl;2;69">P.Ryl. 2 69</ref>; however, in these cases, the <emph rend="italics">paragraphos</emph> is placed below the preserved letters and not after them. Such highly cursive εὐτύχει are attested at the end of Ptolemaic petitions, for instance in <ref target="https://papyri.info/ddbdp/p.tebt;1;44">P.Tebt. 1 44</ref> and <ref target="https://papyri.info/ddbdp/p.tebt;1;45">P.Tebt. 1 45</ref>, and editors usually render them as unabbreviated εὐτύχει; in the Berlin case, εὐτύχει, εὐτύχ(ει) and εὐτύχι would all be valid options. One could also postulate some lost letters above the <emph rend="italics">paragraphos</emph> and edit εὐτύχ[ει], yet this would not explain the long vertical after the χ. Overall, considering that highly cursive εὐτύχει are attested in Ptolemaic petitions while abbreviated ones are not, the safest editorial choice seems to be εὐτύχει or εὐτύχι.</p>
+               </div>
+               <div type="section">
+                  <head>Handshift corrections</head>
+               <p xml:id="p27">The editorial practices concerning changes of hands are problematic; some editors indicate as changes in hands a change in hand style of the same writer, while others only indicate changes when they consider that another person added some text to the original document.<note place="foot" xml:id="ftn21" n="21"><p> On the distinction between different hands or various styles of the same hand, cf. <ref target="https://papyri.info/biblio/96838">Fournet 2022</ref>: 465–466.</p></note> In the case of greeting formulas, the common practice is to avoid indicating changes in style.<note place="foot" xml:id="ftn22" n="22"><p> On hand change in greeting formulas, cf. <ref target="https://papyri.info/biblio/95860">Sarri 2018</ref>: 140–183; <ref target="https://papyri.info/biblio/96192">Mascellari 2021</ref>: 1004–1006.</p></note> Therefore, I propose the following handshift corrections:</p>
+               <p xml:id="p28">
+                  <ref target="https://papyri.info/ddbdp/bgu;4;1187">BGU 4 1187</ref>.36: εὐτύχει is probably written by the principal hand in a more cursive style. The ε followed by a wave indicating υτυ closely matches l. 28 (ἐπί). The upwards stroke of χ finds parallels in many instances of χ, e.g. l. 3 (ὑπαρχόντων). Likewise, the S-like final ι is to be found elsewhere in the main text, especially at line ends (cf. l. 27, φαίνηται, and l. 31, μοί).</p>
+               <p xml:id="p29">
+                  <ref target="https://papyri.info/ddbdp/p.eleph;;24">P.Eleph. 24</ref>.13: one may wonder whether there is a change of writer at l. 13 for the final εὐτύχει. The word is written in a more cursive way, but the movement of the pen finds some parallels, e.g. the χ at l. 7 (ὑπαρχόντων), the ligature ει at l. 9 (γραμματεῖς), or the general movement at l. 13 (ἱεροῦ).</p>
+               <p xml:id="p30">
+                  <ref target="https://papyri.info/ddbdp/p.nyu;2;45">P.NYU 2 45</ref>.10: the handshift at l. 10 between the prescript and the main text of the <emph rend="italics">hypomnema</emph> corresponds neither to a change of writer nor to a change of style.<note place="foot" xml:id="ftn23" n="23"><p><ref target="https://papyri.info/biblio/96843">Wilcken 1930</ref>: 236 first proposed this change of hand based only on the plate of the first edition.</p></note> Something happened with the reed (the scribe either dipped it in the inkpot, sharpened it, or changed it), but the shape of letters remains constant: cf. the shape of α, ρ, τ and υ between l. 8–9 (ὑπόμνημα, παρὰ Ἁρυώτου) and l. 12 (Θ̣ο̣τορταίου), the ligature of ηι at l. 8 (ν̣ομ̣[ά]ρ̣χηι) and l. 14 (συναγωγῆι), or the tendency to give to longer letters an s-shape (as for ι, ρ, φ). The same hand, in the same style, probably wrote the whole <emph rend="italics">hypomnema</emph> at l. 8–16, and another hand wrote the letter at l. 17–22.</p>
+               <p xml:id="p31">
+                  <ref target="https://papyri.info/ddbdp/p.ryl;4;577">P.Ryl. 4 577</ref>.20: εὐτύχει is probably written by the first hand, simply in a more cursive way, cf. the shape of the first ε and of the final ι, whose ductus is similar to that of the main text (e.g. the ε in εὐθύνης, l. 19, and the ι in ἀξιῶι, l. 13).</p>
+            </div>
+            <div type="section">
+               <head>Date corrections</head>
+               <p xml:id="p32">
+                  <ref target="https://papyri.info/ddbdp/o.stras;1;772">O.Stras. 1 772</ref> was generically dated by its editor to the second century BCE. However, the mention at l. 4 of a twenty-second year reduces the possible dates to 184/183 BCE (the twenty-second year of the reign of Ptolemy V) and 160/159 BCE (the twenty-second year of the reign of Ptolemy VI).</p>
+               <p xml:id="p33">The editor of <ref target="https://papyri.info/ddbdp/zpe;152;194">TM 58468</ref> (P.Duke inv. 360) hesitatingly dated it to the second century BCE because of the papyri cache it belongs to, a group of Duke documents extracted from one cartonnage. Most of these documents are dated to the second half of the second century, although the editor is cautious concerning this dating.<note place="foot" xml:id="ftn24" n="24"><p> For the edition, cf. <ref target="https://papyri.info/biblio/73863">Bauschatz 2005</ref>: 194–196; for the papyrus cartonnage, cf. <ref target="https://papyri.info/biblio/95685">Bauschatz 2016</ref>: 25–26; 29–33; <ref target="https://papyri.info/biblio/96204"> Bauschatz 2021</ref>: 193 nn. 2; 3.</p></note> However, P.Duke inv. 360 has no onomastic link to the other documents from the same cartonnage. The hand seems slightly older, more from the first half of the second century CE (see the asymmetrical ω and the hanging ν). Moreover, its greeting formula ἔρρωσο and the presence of an address on its back find more parallels in the <emph rend="italics">hypomnemata</emph> from the third century BCE.<note place="foot" xml:id="ftn25" n="25"><p><ref target="https://papyri.info/biblio/96234">Baetens 2020</ref>: 181; 220.</p></note> Concerning ἔρρωσο, the only second-century attestation for <emph rend="italics">hypomnemata</emph>, <ref target="https://papyri.info/ddbdp/p.tebt;3.1;793">P.Tebt. 3.1 793</ref> Col. 1.30, is early (183 BCE) and appears in an embedded document that may have undergone modifications when copied. Thus, TM 58468 may be older than suggested by the editor and may date to the first half of the second century BCE or even to the late third century BCE; it would have been reused later in cartonnage together with other documents in the second half of the second century.</p>
+            </div>
+            <div type="section">
+               <head>Corrections to the material description of papyri</head>
+               <p xml:id="p34">In the publication of <ref target="https://papyri.info/ddbdp/bgu;4;1156">BGU 4 1156</ref>, the editor indicated the document’s width as 23 cm; when the verso was subsequently published in 2021,<note place="foot" xml:id="ftn26" n="26"><p><ref target="https://papyri.info/biblio/95716">Claytor and van Minnen 2021</ref>.</p></note> the width was also given as 23 cm. Yet, in the online pictures, the document is much narrower: about 11–12 cm, according to the ruler integrated into the image. These dimensions are standard for Augustan <emph rend="italics">synchoreseis</emph>, which tend to be written on narrow and elongated sheets.<note place="foot" xml:id="ftn27" n="27"><p><ref target="https://papyri.info/biblio/65573">Brashear 1996</ref>: 368.</p></note></p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96234">Baetens, G. (2020)</ref> A Survey of Petitions and Related Documents from Ptolemaic Egypt (Trismegistos Online Publications, Special Series 5). Leuven.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/73863">Bauschatz, J. (2005)</ref> “Three Duke Petitions,” ZPE 152: 187–196.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95685">Bauschatz, J. (2016)</ref> “Lochos and Ariston,” Tyche 31: 25–45.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96204">Bauschatz, J. (2021)</ref> “Eleven Ptolemaic Documents from the Duke University Papyrus Archive,” ZPE 220: 193–206.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/79910">Benaissa, A. (2011)</ref> “Giro Transfers of Grain in the Oxyrhynchite Nome: a New Document in the Beinecke Library,” ZPE 179: 221–230.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/65573">Brashear, W.M. (1996)</ref> “An Alexandrian Marriage Contract,” in R. Katzoff, Y. Petroff, and D. Schaps (eds), Classical Studies in Honor of David Sohlberg. Ramat Gan: 367–384.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96836">Broux, Y. and Depauw, M. (2015)</ref> “The Maternal Line in Greek Identification: Signalling Social Status in Roman Egypt (30 BC – AD 400),” Historia 64: 467–478.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95716">Claytor, W.G. and van Minnen, P. (2021)</ref> “An Antichretic Loan from Early Roman Alexandria,” ZPE 217: 158–164.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/78048">Depauw, M. (2010)</ref> “Do Mothers Matter? The Emergence of Metronymics in Early Roman Egypt,”, in T. V. Evans and D. Obbink (eds), The Language of the Papyri. Oxford: 120–139.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96838">Fournet, J.-L. (2022)</ref> “Some Thoughts on the Papyrological Edition,” in M. Capasso, P. Davoli, and N. Pellé (eds), Proceedings of the 29th International Congress of Papyrology. Lecce, 28 July – 3 August 2019. Lecce: 460–470.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/9657">Gignac, F.T. (1981)</ref> A Grammar of the Greek Papyri of the Roman and Byzantine Period <emph rend="italics">Vol. II</emph> Morphology. Milan.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96842">Gonis, N. et al. (2019)</ref> The Oxyrhynchus Papyri. Volume LXXXIV (P.Oxy. LXXXIV). London.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/73181">Habermann, W. (2004)</ref> “Publius Marcius Crispus, Epistratege und Iuridicus in Ägypten unter Antoninus Pius,” in J. M. S. Cowey and B. Kramer (eds), Paramone. Editionen und Aufsätze von Mitgliedern des Heidelberger Instituts für Papyrologie zwischen 1982 und 2004. Munich, Leipzig: 241–250.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95013">Krüger, O. (1929)</ref> Papyri russischer und georgischer Sammlungen II Bd. Ptolemäische und frührömische Texte (P.Ross.Georg. II). Tbilisi.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/79177">Martinez, D. (2011)</ref> “Two Documentary Second-Century BC Papyri,” ZPE 177: 207–216.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/80926">Mascellari, R. (2009)</ref> “Note a petizioni di epoca romana,” APapyrol 21–22: 137–147.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95958">Mascellari, R. (2018)</ref> “Il saluto finale delle petizioni nei papiri di epoca romana. Da εὐτύχει a διευτύχει,” APF 64: 294–305.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96192">Mascellari, R. (2021)</ref> La lingua delle petizioni nell’Egitto romano. Florence.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96232">Mitteis, L. (1912)</ref> Grundzüge und Chrestomathie der Papyruskunde. <emph rend="italics">II Bd.</emph> Juristischer Teil. <emph rend="italics">I Hälfte.</emph> Gründzüge. Leipzig, Berlin.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95733">Monte, A. (2020)</ref> Neue Quellen zum griechisch-römisch-byzantinischen Ägypten: Erstedition von fünfzehn griechischen Papyrustexten der Berliner Papyrussammlung (P.Berl.Monte). Berlin.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95860">Sarri, A. (2018)</ref> Material Aspects of Letter Writing in the Graeco-Roman World. 500 BC – AD 300. Berlin, Boston.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96313">Schubart, W. (1913)</ref> “Alexandrinische Urkunden aus der Zeit des Augustus,” APF 5: 35–131.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96843">Wilcken, U. (1930)</ref> “III. Referate. Urkunden-Referat,” APF 9: 228–256.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/9194">Wolff, H.J. (1978)</ref> Das Recht der griechischen Papyri Ägyptens in der Zeit der Ptolemäer und des Prinzipats. <emph rend="italics">II Bd.</emph> Organisation und Kontrolle des privaten Rechtsverkehrs. Munich.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/51147">Youtie, H.C. (1975)</ref> “ὑπογραφεύς: the Social Impact of Illiteracy in Graeco-Roman Egypt,” ZPE 17: 201–221.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM"/>
+               <idno type="HGV"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve"><ab>
+<lb xml:id="ed1ln13" n="13"/>Πλουτίων <supplied reason="lost">Π</supplied>λουτίωνος <choice><reg>ὀμώ|μοκα</reg><orig>ὀμ<unclear>ώ</unclear>
+<lb xml:id="ed1ln14" n="14" break="no"/>μεκα</orig></choice> τὸν ὅρ<unclear>κο</unclear>ν. Ἡρακλᾶς α<gap reason="illegible" quantity="11" unit="character"/>
+<lb xml:id="ed1ln15" n="15"/>Εὐδαιμον<unclear>ίδ</unclear><supplied reason="lost">ο</supplied><unclear>ς</unclear> ἔγραψα <unclear>ὑπὲρ</unclear> <unclear>αὐτοῦ</unclear>
+<lb xml:id="ed1ln16" n="16"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
+<lb xml:id="ed1ln16" n="16"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+
+             <!-- This is the text which has been prepared for transfer to DDB once Pylon 5 is published -->
+            <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve"><ab>
+<lb n="13"/>Πλουτίων <supplied reason="lost">Π</supplied>λουτίωνος <choice><reg>ὀμώ<lb xml:id="ed1ln14" n="14" break="no"/>μοκα</reg><orig>ὀμ<unclear>ώ</unclear>
+<lb n="14" break="no"/>μεκα</orig></choice> τὸν ὅρ<unclear>κο</unclear>ν. Ἡρακλᾶς α<gap reason="illegible" quantity="11" unit="character"/>
+<lb n="15"/>Εὐδαιμον<unclear>ίδ</unclear><supplied reason="lost">ο</supplied><unclear>ς</unclear> ἔγραψα <unclear>ὑπὲρ</unclear> <unclear>αὐτοῦ</unclear>
+<lb n="16"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
+<lb n="16"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+            
+         </body>
+      </text>
+   </TEI>
+</TEI>

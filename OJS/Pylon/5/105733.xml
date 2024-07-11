@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:hei="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Zenon Papyri and Others: Letters of C.C. Edgar to H.I. Bell, 1919–1935 </title>
+                <author>
+                    <name>
+                        <forename>Nikolaos</forename>
+                        <surname>Gonis</surname>
+                    </name>
+                    <affiliation>University College London</affiliation>
+                    <email>n.gonis@ucl.ac.uk</email>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1105588696</idno>
+                    <idno ana="hc:ORCIDURI">https://orcid.org/0000-0003-2046-1050</idno>
+                </author>
+                <author>
+                    <name>
+                        <forename>Anna</forename>
+                        <surname>Szajbély</surname>
+                    </name>
+                    <affiliation>University College London</affiliation>
+                    <email>anna.szajbely.17@ucl.ac.uk</email>
+                    <idno ana="hc:ORCIDURI">https://orcid.org/0009-0002-7377-937X</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date/>
+                </edition>
+            </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2024">2024</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.5.8</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2024.5.105733</idno>
+            <idno ana="hc:PrivateIdentifier">96866</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <bibl ana="hc:RecommendedBibliographicReference">N. Gonis and A. Szajbély, “Zenon Papyri and Others: Letters of C.C. Edgar to H.I. Bell, 1919–1935,” Pylon 5 (2024) Article 8. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2024.5.105733">https://doi.org/10.48631/pylon.2024.5.105733</ref>.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title level="j" ana="hc:MainTitle">Pylon</title>
+                        <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                        <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                        <imprint>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="article">8</biblScope>
+                            <date when="2024">2024</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <ab>Converted from a Word document for Pylon.</ab>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2024-06-19T09:21:52Z</date>
+                    <name/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="MainTitle">Zenon Papyri and Others: Letters of C.C. Edgar to H.I. Bell, 1919–1935</titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <div type="article">
+                <div type="introduction">
+                    <p xml:id="p1">‘I am very glad the Zeno papyri have arrived safely, and am sure Edgar would be grateful for any information about double dates.’ This quotation is taken from a letter written by Grenfell to Bell on 1 June 1919, shortly after the British Museum had purchased a group of Zenon papyri from the Cairo dealer Maurice Nahman,<note place="foot" xml:id="ftn1" n="1"><p> Maurice Nahman (1868–1948) was the most prominent Cairo dealer at the time; see <ref target="https://papyri.info/biblio/84769">Hagen–Ryholt 2016</ref>: 253–255.</p></note> in April 1919 (P.Lond. inv. 2079–2101). Edgar had recently published two articles on Early Ptolemaic chronology,<note place="foot" xml:id="ftn2" n="2"><p> <ref target="https://papyri.info/biblio/96773">Edgar 1917</ref> and <ref target="https://papyri.info/biblio/96774">Edgar 1918a</ref>.</p></note> and had begun the publication of the Zenon papyri of the Egyptian Museum in Cairo in a series of articles.<note place="foot" xml:id="ftn3" n="3"><p> This series, “Selected Papyri from the Archives of Zenon”, in <emph rend="italics">Annales du Service des Antiquités</emph>, is referenced as P.Edg. in the <ref target="https://papyri.info/docs/checklist">Checklist</ref>.</p></note> It did not take long for Bell to write to Edgar, whose first letter in this assemblage is dated 12 August 1919. As expected, it concerned the Zenon papyri in London and their dates. The first letter was followed by several others on the same topic. Over time, the two correspondents became increasingly familiar with one another, with ‘Dear Mr Bell’ being replaced by the more informal ‘Dear Bell’ from 1923 onwards.<note place="foot" xml:id="ftn4" n="4"><p> It is not known whether the two had been in contact previously. Edgar had only recently turned to papyrology. They were both students at Oriel College, Oxford, but six years apart: Edgar matriculated in 1891 (not in 1890, as reported in <ref target="https://papyri.info/biblio/36812">Guéraud 1939</ref>: 3, and then <ref target="https://papyri.info/biblio/76106">Pellé 2007</ref>: 181), having previously studied at Glasgow; and Bell in 1897 (<ref target="https://papyri.info/biblio/96793">Shadwell 1902</ref>: 677, 710).</p></note></p>
+                    <p xml:id="p2">Edgar’s letters (Bell’s are not available and may be presumed lost) preserve moments in the history of the making of P.Cair.Zen. and of the nascent stages of the future <ref target="https://papyri.info/biblio/8390">P.Lond. 7</ref>. Numerous letters discuss readings in Zenon papyri in London and Cairo (<emph rend="bold">1</emph>–<emph rend="bold">5</emph>, <emph rend="bold">7</emph>–<emph rend="bold">9</emph>, <emph rend="bold">12</emph>–<emph rend="bold">15</emph>, <emph rend="bold">20</emph>, <emph rend="bold">27</emph>, <emph rend="bold">33</emph>), as well as in Manchester (<emph rend="bold">30</emph>–<emph rend="bold">31</emph>); almost all this discussion resulted in something concrete in the publications. The Zenon papyri acquired by Michigan also frequently appear in the correspondence (<emph rend="bold">16</emph>–<emph rend="bold">19</emph>, <emph rend="bold">23</emph>, <emph rend="bold">29</emph>), primarily in relation to the practicalities of their study and publication. In addition to editorial matters, the history of papyrus collections also receives coverage. The publication of the Zenon papyri in Florence had shown that fragments of the same papyrus could be divided between different collections, and the London acquisitions held the potential for further such joins. If it were discovered that fragments in one collection complete any papyri in the other, would an exchange be possible, as had been done with Florence, ‘to the advantage of both collections’ (<emph rend="bold" >9</emph>)? ‘There would be no difficulty on our side, but you may perhaps be bound to stricter rules’, Edgar noted. In the end, four London papyri that joined with others in Cairo were included in P.Cair.Zen.,<note place="foot" xml:id="ftn5" n="5"> <p> P.Lond. inv. 2352, published as part of P.Cair.Zen. 1 59062, and later republished with an additional fragment as <ref target="https://papyri.info/hgv/1510">P.Lond. 7 1943</ref>; inv. 2318A, published in <ref target="https://papyri.info/hgv/804">P.Cair.Zen 2 59156</ref>; inv. 2344, part of <ref target="https://papyri.info/hgv/828">P.Cair.Zen 2 59182</ref>; and inv. 2320, part of <ref target="https://papyri.info/hgv/1445">P.Cair.Zen 5 59821</ref>. In the preface to <ref target="https://papyri.info/biblio/95110">P.Cair.Zen. 1</ref>, Edgar thanks ‘H. I. Bell for showing me his transcripts of the unpublished material in the British Museum and for kindly enabling me to complete several of the texts in this volume’.</p> </note> but the originals remained in London. Cairo, or rather Edgar, presented to London two fragments that physically belonged with inv. 2312 = <ref target="https://papyri.info/hgv/2384">P.Lond. 7 1941</ref> and inv. 2096 = <ref target="https://papyri.info/hgv/1579">P.Lond. 7 2017</ref>.<note place="foot" xml:id="ftn6" n="6"> <p> See letters <emph rend="bold"><ref target="#ch_9">8</ref></emph> and <emph rend="bold"><ref target="#ch_17">16</ref></emph>.</p></note></p>
+                    <p xml:id="p3">Other letters refer to Petrie papyri in the British Museum, mostly from the <ref target="http://www.trismegistos.org/archive/122" >archive of Kleon and Theodoros</ref> (<emph rend="bold">2</emph>, <emph rend="bold">22</emph>, <emph rend="bold">23</emph>, <emph rend="bold" >25</emph>, <emph rend="bold">26</emph>), which is contemporary to Zenon’s. There are several new readings, but not all of them have been published.<note place="foot" xml:id="ftn7" n="7"> <p> Edgar may have planned a comprehensive re-edition of the letters of the archive but only republished four of them (<ref target="https://papyri.info/biblio/34083">Edgar 1932</ref>). The introduction to P.Pestm.Zen. C (= P.Petr. Kleon 17) acknowledges ‘an unpublished transcription by C.C. Edgar, which was put at our disposal by T.C. Skeat’. This comes from a notebook with a brief introduction and transcriptions in loose leaves, which is the source of readings attributed to ‘Edgar <emph rend="italics">in schedis</emph>’ in P.Petr. Kleon (personal communication from Willy Clarysse, whom we thank). Cf. n. <ref target="#ftn89">89</ref>.</p> </note> Suggestions on another Petrie papyrus (<emph rend="bold">28</emph>) have also remained unpublished. Some emendations were published only indirectly (<emph rend="bold">21</emph>), while others coincide with corrections proposed by others in later years (<emph rend="bold" >24, 35</emph>).</p>
+                    <p xml:id="p4">Letters <emph rend="bold">32</emph> and <emph rend="bold" >34</emph> relate to Edgar’s work on <emph rend="italics">Select Papyri</emph>. As indicated in Hunt’s preface to <ref target="https://papyri.info/biblio/3040">Select Papyri I</ref>, dated May 1932, Edgar ‘recently took upon himself the bulk of the work’. We learn that he assisted Hunt by taking over the Greek texts, i.e. their copying in the first instance, and the translations, which was the greatest but also the less exciting share of the workload. Edgar expressed a sense of inadequacy in relation to the task (<emph rend="bold">32</emph>), which is understandable; he had come to papyrology some twenty years later than Hunt,<note place="foot" xml:id="ftn8" n="8"> <p> Edgar’s earlier field of study was archaeology: his first papyrological article dates from 1917 (<ref target="https://papyri.info/biblio/96773">Edgar 1917</ref>).</p> </note> and his expertise was in the early Ptolemaic period, whereas the selection spanned a millennium. These letters, too, contain textual suggestions that have received little notice.<note place="foot" xml:id="ftn9" n="9"> <p> Several new readings are indicated as ‘E.-H.’ or ‘revised reading’ in the apparatus to <emph rend="italics">Select Papyri</emph>. Only a small number of these have been reported in the <emph rend="italics">Berichtigungsliste</emph>.</p></note></p>
+                    <p xml:id="p5">The last letter (<emph rend="bold">35</emph>) signals the beginning of Edgar’s penultimate editorial project. This was also prompted by Hunt, although unintentionally. After Hunt’s death (18 June 1934), Edgar ‘undertook the very laborious task of completing the work on Part ii of Vol. iii of the Tebtunis papyri’, as Bell put it.<note place="foot" xml:id="ftn10" n="10"> <p> <ref target="https://papyri.info/biblio/96783">Bell 1938</ref>: 134. <ref target="https://papyri.info/biblio/23487">Youtie (1942</ref>: 244) called it a ‘repugnant task’.</p> </note> In the preface to <ref target="https://papyri.info/biblio/3740" >P.Tebt. 3.2</ref>, Edgar noted that ‘the bulk of the material had not yet been examined by’ Hunt, and he was anxious not to appear inferior to the task: ‘I can only hope that the transitions from his hand to mine are not too apparent.’ However, few would make such a comparison, and ‘it should be made clear that chief credit is due to Edgar’.<note place="foot" xml:id="ftn11" n="11"> <p> <ref target="https://papyri.info/biblio/23484">Skeat 1939</ref>: 218; Skeat, who was employed at the British Museum, had first-hand knowledge of the making of the volume. Cf. <ref target="https://papyri.info/biblio/23487">Youtie 1942</ref>: 245.</p> </note> Like Hunt, Edgar did not live to see the volume in print, as he died shortly before its appearance, on 9 May 1938.<note place="foot" xml:id="ftn12" n="12"> <p> See <ref target="https://papyri.info/biblio/96783">Bell 1938</ref>: 134. The 9th is the date given in Edgar’s death notice and probate; biographical notices and even the inscription on his grave refer to the 10th.</p> </note> He had almost completed his work on <ref target="https://papyri.info/biblio/3949">P.Cair.Zen. 5</ref>, published posthumously; this was a fitting conclusion to Edgar’s journey in papyrology, which began and ended with Zenon.</p>
+                    <p xml:id="p6">Letters <emph rend="bold">1</emph>, <emph rend="bold" >5</emph>–<emph rend="bold">8</emph>, <emph rend="bold">10</emph>, and <emph rend="bold">16</emph> are written on lined white paper, close to A4 size; <emph rend="bold">4</emph> on a sheet with printed letterhead; <emph rend="bold">11</emph>–<emph rend="bold">13</emph>, <emph rend="bold">15</emph>, <emph rend="bold">17</emph>–<emph rend="bold" >21</emph>, <emph rend="bold">23</emph>–<emph rend="bold">26</emph>, and <emph rend="bold">28</emph>–<emph rend="bold">34</emph> on standard letter sheets; <emph rend="bold">2</emph>–<emph rend="bold">3</emph>, <emph rend="bold">9</emph>, <emph rend="bold">22</emph>, <emph rend="bold" >27</emph>, and <emph rend="bold">35</emph> on standard letter sheets folded in the middle; <emph rend="bold">14</emph> is a postcard. Line changes in addresses are indicated by |, page transitions by ||, insertions above the line by \ /.</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">1.</emph> BL Add. MS 59510, ff. 1–2</head>
+                    <p style="text-align: right;">Antiquities Dept. | 12.8.19</p>
+                    <p style="text-align: left;">Dear Mr. Bell,</p>
+                    <p xml:id="p7">Many thanks for your letter and postcard. It was very kind of you to send me these chronological notes, and I am very glad to know what the B.M. collection contains in the way of evidence concerning the different systems of dating. </p>
+                    <p xml:id="p8">In no. 2088 I wonder if it is possible to restore  λ Δαισίου ια, Παῦνι ια .<note place="foot" xml:id="ftn13" n="13"> <p> <ref target="https://papyri.info/hgv/1530">P.Lond. 7 1967</ref>. The date appears in the edition as ̣ λ̣α̣, Δ̣α̣ι̣σ̣ί[ο]υ̣ ι̣  ̣, Π̣αῦνι ια (l. 7), with the note that ‘Δαισίου ια could be read’.</p></note></p>
+                    <p xml:id="p9">If the date of no. 2097 is year 39, Phamenoth 10 (and not year 35),<note place="foot" xml:id="ftn14" n="14"> <p> <ref target="https://papyri.info/hgv/1570">P.Lond. 7 2008</ref>. The year is also read as 39 in the edition. </p> </note> an interesting question is raised. On the generally accepted chronology (which I see no reason for disputing), Ptolemy II died in the early spring of his 39th canonical or Egyptian year, several months before Phamenoth 10. But the date \of 2097/ may quite well refer to the financial year,<note place="foot" xml:id="ftn15" n="15"> <p> The edition also takes it to be the financial year.</p> </note> for some new evidence has come to light that the financial year began in Mecheir, in the reign of Ptolemy II as well as Ptolemy III. So Phamenoth of financial year 39 would be equivalent to Phamenoth of the 38th Egyptian year and (I think, but this is more doubtful) to Phamenoth of the 37th Macedonian year. Why is it that while so many papyri are dated year 39 of Ptolemy II and year 2 of Ptolemy III, scarcely any belong to year 1 (see the index to P. Hib. and P. Petrie)?<note place="foot" xml:id="ftn16" n="16"> <p> Cf. <ref target="https://papyri.info/biblio/54529">Pestman et al. 1981</ref>: 198. </p> </note> It may be a mere accident, but I think a more probable explanation is that a large number of papyri || are dated by the financial year, and the financial year 1 of Euergetes was extremely short, not more than a month and a half.<note place="foot" xml:id="ftn17" n="17"> <p> Edgar offers a synthesis on ‘the problem of dating’ in <ref target="https://papyri.info/biblio/95210">P.Mich.Zen.</ref>, pp. 50–57. The conclusion (p. 55) does not differ from the views expressed in this letter. On the chronology in the Zenon papyri, see <ref target="https://papyri.info/biblio/54529">Pestman et al. 1981</ref>: 215–222, which however is not the definitive treatment of the issue; cf. <ref target="https://papyri.info/biblio/79269">Bennett 2011</ref>.</p></note></p>
+                    <p xml:id="p10">With regard to no. 2092 and the reading of the docket,<note place="foot" xml:id="ftn18" n="18"> <p> <ref target="https://papyri.info/hgv/1542">P.Lond. 7 1979</ref>. When the docket was deciphered, it was shown that it did not refer to Zenon’s father.</p> </note> the name of Zenon’s father appears to have been Agreophon. In contracts and formal documents his usual appellation is Ζήνων Ἀγρεοφῶντος Καύνιος .</p>
+                    <p xml:id="p11">If you would like information about anything in the Zenonian papyri in Cairo, please let me know. </p>
+                    <p rend="indent">Yours very truly | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">2.</emph> BL Add. MS 59510, ff. 3–4</head>
+                    <p style="text-align: right;">Antiquities Dept. | Cairo | 21.2.20</p>
+                    <p style="text-align: left;">Dear Mr. Bell,</p>
+                    <p xml:id="p12">Many thanks for your note on the letter of Panakestor, <ref target="https://papyri.info/hgv/2492">P. Lond. 534</ref>.<note place="foot" xml:id="ftn19" n="19"> <p> Republished as <ref target="https://papyri.info/hgv/2492">P.Zen.Pestm. C = P.Petr. Kleon 17</ref>. This papyrus is discussed also in letters <emph rend="bold"><ref target="#ch_23" >22</ref></emph> and <emph rend="bold"><ref target="#ch_24" >23</ref></emph>.</p> </note> As you read αι, and not ηι, in l. 2, I much doubt whether κατασκάψαι is the right word. It would make better grammar, and perhaps better sense, to read ὃ κατασκ[ευ]ᾶι (Hellenistic future of κατασκευάζειν).<note place="foot" xml:id="ftn20" n="20"> <p> Edgar recorded this reading in P.Edgar 110.4 n. = <ref target="https://papyri.info/hgv/901">P.Cair.Zen. 2 59256</ref>.4 n. He had proposed κατασκ[άψ]η̣ι̣ in <ref target="https://papyri.info/biblio/96776">Edgar 1919a</ref>: 14 n. 1 (= BL 1.460; κατασκ[ . . ]αι, ed. pr., κατασκ[άψ]αι Wilcken).</p> </note> A very similar phrase occurs in a letter which I am about to || publish, ἀπόστειλον Θεόπομπον ὃς ἀγορᾶι .<note place="foot" xml:id="ftn21" n="21"> <p> P.Edgar 45 = <ref target="https://papyri.info/hgv/914">P.Cair.Zen. 2 59270</ref>.8.</p></note></p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                    <p>[f. 4] Envelope: H. I. Bell Esq. | British Museum | London | <emph rend="underlined">England.</emph> </p>
+                    <p>Postmark: Cairo 8 | 21 II 20 7.30PM</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">3.</emph> BL Add. MS 59510, ff. 5–6</head>
+                    <p style="text-align: right;">The Museum | Cairo | 20. 4. 20</p>
+                    <p>Dear Mr. Bell,</p>
+                    <p xml:id="p13">Many thanks for your notes. ἄωρος, as you say, would be quite an appropriate epithet for Demas.<note place="foot" xml:id="ftn22" n="22"> <p> The reference is to <ref target="https://www.trismegistos.org/text/104125">CPI 1 123</ref>, first published in <ref target="https://papyri.info/biblio/96777">Edgar 1919b</ref>: 217, a funerary epigram that begins ὧδ’ ὑπὸ τὸ σπιλάδος μέλαθρον, ξένε, κε̣[ῖται(?) ⏑ – ×] / Δημᾶς κτλ. Bell’s suggestion anticipated Peek’s proposal to supply ἄωρος in l. 1 some decades later.</p></note></p>
+                    <p xml:id="p14">With regard to no. 48<note place="foot" xml:id="ftn23" n="23"> <p> P.Edgar 48 = <ref target="https://papyri.info/dclp/65682">P.Cair.Zen. 4 59532</ref> (TM 65682), the epigrams for Zenon’s deceased dog. The papyrus was reproduced in <emph rend="italics">New Palaeographical Society</emph> II.2, plate 116.</p> </note> the Cairo Museum has no objection to the proposed reproduction by the N. P. S., and I shall be glad to help you in the matter if you will give me full details of what is required. The papyrus is not in a specially good state of preservation. || Many of the letters are faint and some cannot be read on the <emph rend="underlined">recto</emph> at all, but can be restored from the imprint left on the <emph rend="underlined">verso</emph>. But on the whole it is a fine specimen of writing and is well worth reproducing in collotype.</p>
+                    <p xml:id="p15">It measures 34 × 39½ cm. and has very wide margins. The upper half of the left margin is missing (<emph rend="italics">drawing</emph>). But I suppose you do not want a photograph of the whole papyrus but merely of the text. The text measures about || 27 × 20 cm. If you want a <emph rend="underlined">full size</emph> photograph of the text, I doubt if our photographer has a camera big enough for the purpose, but I could get it done by the Survey Department here. </p>
+                    <p xml:id="p16">In l.10 please correct [ο]ὐ̣κ ἐ̣π̣έμυσεν to [ο]ὐκ̣ ἀ̣ν̣εμυσεν.<note place="foot" xml:id="ftn24" n="24"> <p> (Edgar left ἀ̣ν̣εμυσεν unaccented.) The same correction is mentioned in the <ref target="#ch_5">next letter</ref>. In the first edition Edgar noted: ‘ἐ̣π̣έμυσεν: might also be ἀ̣π̣έμυσεν.’</p></note></p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">4.</emph> BL Add. MS 59510, f. 7</head>
+                    <p style="text-align: centered;">(Modèle No 39 – <foreign xml:lang="ar"> أورنيك نرة ٣٩</foreign>)</p>
+                    <p style="text-align: right;">Service des Antiquités d’Egypte. | 16th June 1920.</p>
+                    <p>Dear Mr. Bell,</p>
+                    <p xml:id="p17">The papyrus containing the epigrams has now been photographed, but I am afraid the photo is a little smaller than the original. The actual dimensions of the text are: height 26½ cm., greatest width 20 cm. I have told the photographer to send the negative and a print direct to Gilson.<note place="foot" xml:id="ftn25" n="25"> <p> J.P. Gilson (1868–1929) was Keeper of Manuscripts in the British Museum.</p></note></p>
+                    <p xml:id="p18">The text is more fully preserved than the photograph might lead you to think, for some letters which are lost or nearly illegible on the <emph rend="underlined">recto</emph> have left quite clear impressions on the <emph rend="underlined">verso</emph>.<note place="foot" xml:id="ftn26" n="26"> <p> <ref target="https://papyri.info/biblio/96775">Edgar 1918b</ref>: 173 offers the first description of mirror writing in a Zenon papyrus; see in general <ref target="https://papyri.info/biblio/81466">D’Alessio 2012</ref>: 296–298 (we owe the reference to D. Kaltsas).</p></note></p>
+                    <p xml:id="p19">I have one or two corrections to make. In l. 6, which has to be deciphered from the <emph rend="underlined">verso</emph>, the first word is probably [λ]ό̣χμα̣ι̣ς̣. Instead of ἀμ̣ε̣ρ̣γόμενος read ἀμ̣εργόμενος, for ερ is quite distinct on the verso. || In l. 10 I think I can read (again from the <emph rend="underlined">verso</emph>) [ο]ὐκ̣ ἀ̣ν̣έμυσεν, but I am not quite sure. In l. 14 read σ⟦κ<seg rendition="hc:CombinedAbove">κ</seg>⟧ύλαξ.<note place="foot" xml:id="ftn27" n="27"> <p> Edgar’s new reading in l. 10 is alluded to in <ref target="https://papyri.info/biblio/96787">Wilcken 1920</ref>: 454. The corrections to ll. 6 ([λ]ό̣χμα̣ι̣ς̣) and 10 were reported in <ref target="https://papyri.info/biblio/96788">Wilcken 1924</ref>:80. The corrections to ll. 6 and 14 were incorporated in <ref target="https://papyri.info/dclp/65682">P.Cair.Zen. 4 59532</ref>, but Edgar read οὐ πρ[ὶ]ν̣ ἔμυσεν in l. 10.</p></note></p>
+                    <p xml:id="p20">If there is any other information I can give you or any other readings that you would like to have verified on the original, please let me know. </p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">5.</emph> BL Add. MS 59510, f. 8</head>
+                    <p style="text-align: right;">Antiquities Department | Cairo | 17.4.21</p>
+                    <p>Dear Mr. Bell,</p>
+                    <p xml:id="p21">Many thanks for your notes, which interest me greatly. Paideas is a new name to me,<note place="foot" xml:id="ftn28" n="28"> <p> <ref target="https://papyri.info/hgv/1614">P.Lond. 7 2052</ref>.5. Paideas is <ref target="https://www.trismegistos.org/name/4789">TM Nam 4789</ref>, with only two attestations.</p> </note> and new also is the allusion to the farmers ἐκ τοῦ Ἡλιοπολίτου .<note place="foot" xml:id="ftn29" n="29"> <p> <ref target="https://papyri.info/hgv/1517">P.Lond. 7 1954</ref>.1 and <ref target="https://papyri.info/hgv/1518">P.Lond. 7 1955</ref>.1.</p> </note> Does the context imply that Apollonios had a private estate there also? I do not think it is possible to read Πελῶιν in my no. 60,<note place="foot" xml:id="ftn30" n="30"> <p> Πελῶιν is read in <ref target="https://papyri.info/hgv/1530">P.Lond. 7 1967</ref>.4.</p> </note> though Περῶμιν is far from certain.<note place="foot" xml:id="ftn31" n="31"> <p> P.Edg. 60r.38 reads κ̣α̣ὶ̣ Π̣ερῶ[ . ]ιν. This passage appears as   ̣  ̣  ̣π̣ερω[ ]ιν in <ref target="https://papyri.info/hgv/1005a">P.Cair.Zen. 3 59362r</ref>.38, with a note appended: ‘Possibly καὶ Περω[μ]ίν, but the reading is very doubtful.’ Περω[μ]ίν (?) appears in the index of personal names, p. 255.</p></note></p>
+                    <p xml:id="p22">With regard to the letter that went to Michigan do you remember the name of the writer and whether it was a long text? </p>
+                    <p xml:id="p23">I had a hasty glance at the papyri which Budge acquired for the B.M.<note place="foot" xml:id="ftn32" n="32"> <p> P.Lond. inv. 2243–2304 were purchased from Nahman through Budge in July 1921. They contain a few Zenon papyri; see the ‘Table of Papyri’ in <ref target="https://papyri.info/biblio/8390">P.Lond. 7</ref>.</p> </note> and for Kelsey and noticed at least one fragment of a Zenon text. If you find more I hope you will keep them in London. </p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">6.</emph> BL Add. MS 59510, f. 9</head>
+                    <p style="text-align: right;">The Museum | Cairo | 3.6.21</p>
+                    <p>Dear Mr. Bell,</p>
+                    <p xml:id="p24">I should have written before now to thank you for the information in your last letter and also for the reprint of your excellent bibliography,<note place="foot" xml:id="ftn33" n="33"> <p> <ref target="https://papyri.info/biblio/96778">Bell 1921</ref>.</p> </note> but I have been ill and have only now returned to work.</p>
+                    <p xml:id="p25">Last winter Evelyn White<note place="foot" xml:id="ftn34" n="34"> <p> H. G. Evelyn-White (1884–1924).</p> </note> bought a long Augustan papyrus for Prof. Kelsey and handed it over to me. White has gone home and Kelsey wants me to take the papyrus to England and give it to you to keep for him, or else send it to you. Though I hope to be in England shortly, I do not wish to carry antiquities out of Egypt, so I am going to send it to you after getting the Museum permit and paying the customs dues. You will no doubt recognise it when it arrives. I don’t know why Kelsey did not ask White to send the papyrus straight to its destination.<note place="foot" xml:id="ftn35" n="35"> <p> P.Mich. inv. 613. The <ref target="https://quod.lib.umich.edu/a/apis/x-7785/">APIS entry</ref> records that the papyrus ‘was forwarded to London by CC Edgar’. A letter from F.W. Kelsey to H.I. Bell dated 25 June 1921 (in BL Add. MS 89298) relates the following: ‘Under date of June 12th Mr C.C. Edgar wrote to me that he has sent to you for me a papyrus which Dr. Grenfell selected last year but which I had no time to acquire before leaving Cairo. Mr White obtained it for me, and delivered it to Mr Edgar, who kept it at the Museum. This is paid for independently, and if you will be good enough to keep it for me till I go to London it will be an additional favour.’</p></note></p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar. </p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">7.</emph> BL Add. MS 59510, ff. 10–11</head>
+                    <p style="text-align: right;">Cairo | 11.11.21</p>
+                    <p>Dear Mr. Bell, </p>
+                    <p xml:id="p26">Many thanks for your interesting letter, which I have just received. Yes, I called on you at the British Museum in September, but found you were away on leave. Perhaps I may be more fortunate next summer. The fine Zenon papyri which you mention were offered to us indirectly last spring, but the price asked was far beyond our resources. We may possibly get another collection of fragments, but it is doubtful; like most European Museums we are in very low water.</p>
+                    <p xml:id="p27">If your no. 2312<note place="foot" xml:id="ftn36" n="36"> <p> <ref target="https://papyri.info/hgv/2384">P.Lond. 7 1941</ref>.</p> </note> is between 120 and 125<note place="foot" xml:id="ftn37" n="37"> <p> Bell pencilled ‘124 mm’; the height is given as 12.5 cm in the edition.</p> </note> mill. high, I believe that we have a fragment of the same letter.<note place="foot" xml:id="ftn38" n="38"> <p> Transcribed in the <ref target="#ch_9">next letter</ref>.</p> </note> I will send you my copy as soon as I have revised it on the original, but the Museum is shut until the 13th. If I am right, the first two lines will read pretty nearly as follows: Ιεροκλης Ζηνωνι χαιρειν. ει ερρω[σαι τε τωι σωματι και εστι σου τα] αλλα [κατα γνωμην], καλως αν εχοι· υγιαινω δε και αυτο[ς. περι του παιδαριου εγραψας μο]ι, ει με[ν επισταμεθα] ακριβως οτι νικησει, αλειφειν, ει δε μη, [. In any case your new fragment not only enables us to understand my no. 11 with greater exactness, but also explains a thing which had puzzled me. Besides no. 11<note place="foot" xml:id="ftn39" n="39"> <p> <ref target="https://papyri.info/hgv/718">P.Cair.Zen. 1 59060</ref>.</p> </note> we have another letter<note place="foot" xml:id="ftn40" n="40"> <p> <ref target="https://papyri.info/hgv/719">P.Cair.Zen. 1 59061</ref>.</p> </note> from Hierokles, received on the 2nd of Xandikos || and giving the gist of the second half of no. 11. Your no. 2312 now gives the gist of the first half. Something of this sort seems to have happened. Hierokles wrote no. 11 first, found it not quite satisfactory, and wrote the other two letters instead of it. But by some mistake no. 11 was sent to Zenon as well as the other two; perhaps by a different messenger, as it arrived a day later. I infer that no. 11 was the rejected copy from the fact that it is less correctly expressed. See especially the phrase in l. 2: ἔγραψάς μοι εἰ μὲν ἀκρειβῶς ἐπιστάμεθα ἀλείφειν αὐτόν. As the words stand this means ‘you told us to train him if we know exactly how to do so’. But the new letter shows that Hierokles meant to say ‘if we are perfectly sure that he will win’. Incidentally it makes two other points quite clear, 1) that Pyrrhos was being trained to compete in the games and 2) that Hierokles wrote from Alexandria (see the expression καταγαγηις in l.11).</p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                    <p xml:id="p28">P.S. in l. 5 I think you may safely read και προς τα λοιπα δε μ[αθηματα.</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">8.</emph> BL Add. MS 59510, f. 12</head>
+                    <p style="text-align: right;">The Museum | Cairo | 13.11.21</p>
+                    <p>Dear Mr. Bell, </p>
+                    <p xml:id="p30">The fragment of which I spoke runs thus:<note place="foot" xml:id="ftn41" n="41"> <p> This fragment gives most line ends of P.Lond. inv. 2312 = <ref target="https://papyri.info/hgv/2384">P.Lond. 7 1941</ref>. According to the edition, the papyrus was ‘Acquired in three portions, the first two purchased in 1921 and 1925, the third presented in 1926.’</p></note></p>
+                    <quote type="secondary">
+                        <lb n="1"/>]αλλα[ </quote>
+                    <quote type="secondary">
+                        <lb n="2"/>]ιειμ . [ </quote>
+                    <quote type="secondary">
+                        <lb n="3"/>]γ̣ραμ[ </quote>
+                    <quote type="secondary">
+                        <lb n="4"/>]τ̣ωνο[ </quote>
+                    <quote type="secondary">
+                        <lb n="5"/>] . σεπι̣τ̣[ ? </quote>
+                    <quote type="secondary">
+                        <lb n="6"/>]μαιο[ </quote>
+                    <quote type="secondary">
+                        <lb n="7"/>]εναρ[ </quote>
+                    <quote type="secondary">
+                        <lb n="8"/>]ε̣τατ̣[ </quote>
+                    <quote type="secondary">
+                        <lb n="9"/>]νκαι̣[ </quote>
+                    <quote type="secondary">
+                        <lb n="10"/>]περιου̣[ </quote>
+                    <quote type="secondary">
+                        <lb n="11"/>]ονδε[ </quote>
+                    <p xml:id="p31">As the other letter of Hierokles<note place="foot" xml:id="ftn42" n="42"> <p> See letter <emph rend="bold"><ref target="#ch_8">7</ref></emph>.</p> </note> received along with yours<note place="foot" xml:id="ftn43" n="43"> <p> <ref target="https://papyri.info/hgv/2384">P.Lond. 7 1941</ref>.</p> </note> has had lines of about 70 letters, we may safely assume that a great deal is missing. Line 1 was probably as follows, more or less: ει ερρω[σαι τωι σωματι και εν τοις αλλοις απ]αλλα[σσεις κατα νουν. Cf. <emph rend="underlined">P.S.I</emph>. VI, p. XVIII, 645. In l. 2 read [ς. περι του παιδαριου (cf. the docket) εγραψας μο]ι ει με̣[ν επισταμεθα. 3. ειδε μεν[ in my no.11 is certain, but ει δε μη seems to be required. The meaning of the whole sentence is now clear. Read απο των] γραμ[ματων.</p>
+                    <p xml:id="p32">5. δε μ[αθηματα. 6. των δε νυν οντων τ[ must refer to the other boys who were being trained. Evidently Πτολε]μαιο[ . 8. The meaning may be that Ptolemaios says he will take no payment if the boy fails to win a prize. 9. I wonder if ἀνθῶν is possible; but no, ἀνθ’ ὧν is more probable. 10. Perhaps φροντισον [δε περι του  . . . . .  -- ], περὶ οὗ [ἔγραψά σοι, .</p>
+                    <p rend="indent">Yours sincerely, | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">9.</emph> BL Add. MS 59510, ff. 13–14</head>
+                    <p>[<emph rend="italics">added by Bell in top left corner</emph>: Answered Dec. 12, 1921]</p>
+                    <p style="text-align: right;">The Museum | Cairo | 3.12.21</p>
+                    <p>Dear Mr. Bell, </p>
+                    <p xml:id="p33">Your notes are always interesting. One of the fragments which you transcribe completes a letter in our collection beginning [Απολλωνιος] Ζηνωνι χαιρειν. μοσχευματα απιων και φυτα οτι [πλειστ]α παρακομισον εγ Μεμφεως .</p>
+                    <p xml:id="p34">It is dated L λ Διου ιγ Αθυρ γ and has on the verso the docket of the writer μοσχευματων.<note place="foot" xml:id="ftn44" n="44"> <p> <ref target="https://papyri.info/hgv/804">P.Cair.Zen. 2 59156</ref>, which includes P.Lond. inv. 2318A.</p></note></p>
+                    <p xml:id="p35">With regard to the other fragment I remember, but cannot at the moment lay my hand on, a papyrus of ours in which there is mention of honey having been delivered to an Asklepiades. So I should say that the entry on the || verso of your fragment is certainly connected with the recto and should read something like this </p>
+                    <p xml:id="p36">παρα (or παρ’) and then some proper name (Αρτεμιδωρου?)</p>
+                    <p xml:id="p37">περι μελιτος, δουναι τωι παρα Ασκληπιαδου.<note place="foot" xml:id="ftn45" n="45"> <p> <ref target="https://papyri.info/hgv/1531">P.Lond. 7 1968</ref>.13–15 παρ’ Ἀρτεμιδώρου | περὶ μέλιτος, δοῦναι τῶι παρὰ | Ἀσκληπιάδου.</p></note></p>
+                    <p xml:id="p38">If we find that we have each a number of fragments which would complete some of the papyri in our respective collections, would Br. Mus. be willing to make an exchange? There would be no difficulty on our side, but you may perhaps be bound to stricter rules. We have already exchanged some fragments with Florence, to the advantage of both collections; and it seems to me a very commendable practice. </p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                    <p xml:id="p39">P.S. I find that Asklepiades is not the name in the papyrus which I spoke of; nevertheless μελιτος seems to be the probable reading.<note place="foot" xml:id="ftn46" n="46"> <p> See <ref target="https://papyri.info/hgv/792">P.Cair.Zen. 3 59311</ref>.9 Ἀρτ̣ε̣[μίδωρος μ]έ̣λιτ̣ο̣ς̣ .</p></note></p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">10.</emph> BL Add. MS 59510, f. 15</head>
+                    <p style="text-align: right;">Antiquities Department | Cairo | 9. 4.22.</p>
+                    <p>Dear Mr. Bell,</p>
+                    <p xml:id="p40">Many thanks for letting me know about the testimonial to Wilcken. I have sent a small contribution, straight to Otto as you directed.<note place="foot" xml:id="ftn47" n="47"> <p> A letter from Schubart to Bell dated 16 Feb. 1922 (BL Add. MS 59518, f. 58) contains the information that F. Hiller von Gaertringen (Berlin) and W. Otto (Munich) organized a fundraising initiative to support Wilcken’s research on the occasion of his 60th birthday (18 Dec. 1922). Bell communicated this plan to others; in addition to Edgar’s letter, this <emph rend="italics">Wilckenspende</emph> is mentioned in letters to Bell from Hunt (BL Add. MS 59512, ff. 93 and 94, dated 13 March and 18 May 1922 respectively) and Boak (BL Add. MS 59508, f. 28, dated 30 April 1922). Wilcken acknowledged the ‘Stiftung’ in a postcard to Bell dated 6.1.1923 (BL Add. MS 59522, f. 182; we thank Holger Essler for the reference).</p></note></p>
+                    <p xml:id="p41">We bought some more Zenon papyri the other day, chiefly fragments. So far as I have examined them, they are not up to the standard of our previous purchases and seizures, though they contain many interesting things. But I shall have no time to study them till next winter. Did Kelsey buy the fine pieces you told me of?</p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">11.</emph> BL Add. MS 59510, f. 16</head>
+                    <p style="text-align: right;">Vauréal | Doctors Commons Road | Berkhamsted, | 24.6.23</p>
+                    <p>Dear Bell, </p>
+                    <p xml:id="p42">I have prepared a packet of my copies of more than two hundred Zenon fragments, some of which ought surely to complete or be completed by the fragments in the B.M. Instead of sending them through the post I will bring them myself on Tuesday or some other day this week. In case I do not see you I should like to call your attention to the following points:</p>
+                    <p xml:id="p43">They are for the most part unrevised copies and no doubt contain many errors, especially among the letters next to the breaks. As they are my only copies I should like to have them back before I return to Cairo, say about the 20th of July. The measurements are in centimetres and millimetres, height and width; || and by height I mean the height of the recto of the document, quite irrespective of the direction of the fibres. ‘Written along’ <emph rend="strikethrough">a ‘written horizontally’</emph> means that the writing is in line with the fibres; ‘written across’ means that it is at right angles to them.</p>
+                    <p xml:id="p44">Sincerely hoping that I am not inviting you to undertake a pointless labour, </p>
+                    <p rend="indent">I am | Yours very truly | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">12.</emph> BL Add. MS 59510, f. 17</head>
+                    <p style="text-align: right;">Vauréal | Doctors Commons Road | Berkhamsted | Herts | 10.7.24</p>
+                    <p>Dear Bell,</p>
+                    <p xml:id="p45">Enclosed is a copy of the papyrus of which we spoke yesterday. You may publish or make any use of it that you like.<note place="foot" xml:id="ftn48" n="48"> <p> BL Add. MS 59510, f. 18, a transcription of <ref target="https://papyri.info/hgv/1080">P.Cair.Zen. 3 59440</ref>, first published in <ref target="https://papyri.info/biblio/96795">Bell 1925</ref>: 21.</p> </note> But my reading needs to be carefully revised, especially the verso, which at present I do not understand. Perhaps in l.13 ιθϲ is a mistake for ιθ-ϲ, the ὀψώνιον being assumed to be 5 drachmae a month</p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">13.</emph> BL Add. MS 59510, f. 19</head>
+                    <p style="text-align: right;">Antiquities Dept. | Cairo | 1.8.24</p>
+                    <p>Dear Bell,</p>
+                    <p xml:id="p46">Enclosed is a fresh copy of the Herakleotes papyrus.<note place="foot" xml:id="ftn49" n="49"> <p> This is BL Add. MS 59510, f. 20, another transcription of <ref target="https://papyri.info/hgv/1080">P.Cair.Zen. 3 59440</ref>; f. 21 contains numbers and calculations in Bell’s hand which relate to this papyrus.</p> </note> The handwriting of the recto is exactly like that of the BM papyrus<note place="foot" xml:id="ftn50" n="50"> <p> <ref target="https://papyri.info/hgv/1579">P.Lond. 7 2017</ref>.</p> </note> unless my memory plays me false. ενεχ[υροις<note place="foot" xml:id="ftn51" n="51"> <p> The edition has [ἐνεχ]ύ̣ροις.</p> </note> is no doubt right; in my original copy I had supplied it and then struck it out: In l. 12 εις is more probable, paleographically, than δος, but in l. 11 we might perhaps read δ[ιδου]. I have not yet succeeded in deciphering the verso, but possibly your text will provide a clue.</p>
+                    <p xml:id="p47">Lacau<note place="foot" xml:id="ftn52" n="52"> <p> Pierre Lacau (1873–1963) was director general of the Service des Antiquités de l’Égypte at that time.</p> </note> has gone on leave and Quibell<note place="foot" xml:id="ftn53" n="53"> <p> James E. Quibell (1867–1935) was keeper in the Cairo Museum at that time.</p> </note> is acting for him. In the Museum I am all alone and do not expect to have much time for study.</p>
+                    <p rend="indent">Kind regards from | yours sincerely | C.C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">14.</emph> BL Add. MS 59510, f. 22</head>
+                    <p style="text-align: right;">[12 July 1925]</p>
+                    <p xml:id="p48">Many thanks for your excellent article from the Raccolta Lumbroso. The text is unique and very interesting. I rather think the name of Zenon’s colleague N was Nestos, not Nestor, but cannot verify this at the present moment.<note place="foot" xml:id="ftn54" n="54"> <p> <ref target="https://papyri.info/biblio/96795">Bell 1925</ref>, republished with an additional fragment as <ref target="https://papyri.info/hgv/1579">P.Lond. 7 2017</ref>; see letter <emph rend="bold"><ref target="#ch_17">16</ref></emph> and n. <ref target="#ftn59">59</ref>. Bell had read the name of the addressee as Νέστω[ρι], which has since been corrected to Νέστωι̣.</p> </note> Yours sincerely</p>
+                    <p rend="indent">C.C.E.</p>
+                    <p>Postcard: H. I. Bell Esq. | Dept. of MSS. | British Museum | London</p>
+                    <p>Postmarked: Berkhamsted | 8.15 PM | 12 JL 25</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">15.</emph> BL Add. MS 59510, f. 23</head>
+                    <p style="text-align: right;">Antiquities Dept. | Cairo | 25.8.25</p>
+                    <p>Dear Bell,</p>
+                    <p xml:id="p49">Would you mind comparing the enclosed facsimile (by our native draughtsman) of the last three lines of my no. 68 with the letter of Demetrios about the arrival of Zenon’s father at Kaunos. It struck me that the 2 letters might possibly be by the same hand.<note place="foot" xml:id="ftn55" n="55"> <p> See P.Cair.Zen. 1 59037 (P.Edgar 68) introd.: ‘The hand bears a distinct, though not perfect, resemblance to that of Lond. Inv. 2092 [= <ref target="https://papyri.info/hgv/1542">P.Lond. 7 1979</ref>], a letter from Demetrios about the arrival of Zenon’s father in Kaunos, and it is possible that Demetrios was also the writer of the present letter.’</p></note></p>
+                    <p xml:id="p50">I have just been struggling through a new book about Ptolemaic chronology by a young German called Ernst Meyer.<note place="foot" xml:id="ftn56" n="56"> <p> <ref target="https://papyri.info/biblio/96792">Meyer 1925</ref>. Meyer’s views are dismissed in <ref target="https://papyri.info/biblio/95110">P.Cair.Zen. 1</ref>, p. vii.</p> </note> Have you read it? I am afraid he will not persuade many people who take the trouble to follow his arguments and check his references.</p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">16.</emph> BL Add. MS 59510, f. 24</head>
+                    <p style="text-align: right;">Antiquities Dept. | Cairo | 28.12.25</p>
+                    <p>Dear Bell,</p>
+                    <p xml:id="p51">Many thanks for the list of division, which strikes me as quite fair and not likely to meet with much objection. Boak has just written to tell me (what you probably know already) that Kelsey has secured another good collection of Zenon papyri to be divided between Michigan and Columbia; and he very kindly offers to let me publish the Michigan share.<note place="foot" xml:id="ftn57" n="57"> <p> The matter is also mentioned in a letter from Kelsey to Bell, dated December 8, 1925; there are further details in Kelsey’s letters of 15 June, 6 July and 15 July 1925 (all in BL Add. MS 89298).</p> </note> Here we have made only one acquisition, a small lot which we repurchased from Schubart at his own suggestion.<note place="foot" xml:id="ftn58" n="58"> <p> In <ref target="https://papyri.info/biblio/95110">P.Cair.Zen. 1</ref>, p. viii, Edgar thanks ‘Grenfell, Boak and Schubart for most generously ceding to us a considerable quantity of Zenon papyri which they had themselves purchased in Cairo’. On 15 January 1926, Schubart wrote to Bell (BL Add. MS 59518, f. 120): ‘Sollten mir Zeno-Papyri zu Gesichte kommen, so werde ich Sie oder Edgar selbstverständlich benachrichtigen.’</p> </note> Among the fragments is a small piece of the text which you published in the Raccolta Lumbroso, and I have put it aside to bring or send to you.<note place="foot" xml:id="ftn59" n="59"> <p> <ref target="https://papyri.info/biblio/96795">Bell 1925</ref>. The fragment gives the line ends of P.Lond. inv. 2096 = <ref target="https://papyri.info/hgv/1579">P.Lond. 7 2017</ref>; it was ‘presented’ (so on the frame) to the British Museum in 1926 (cf. n. <ref target="#ftn41">41</ref>, on P.Lond. inv. 2312 = <ref target="https://papyri.info/hgv/2384">P.Lond. 7 1941</ref>).</p> </note> Are you coming out this year to see the work at Abydos?<note place="foot" xml:id="ftn60" n="60"> <p> We know from Bell’s correspondence with F.W. Kelsey and W. Schubart that he had plans to travel to Egypt in the early months of 1926, but these did not materialize. The excavations at Abydos, sponsored by the Egypt Exploration Society, had resumed in 1925/26; see <ref target="https://papyri.info/biblio/96785">Frankfort 1926</ref>.</p></note></p>
+                    <p xml:id="p52">With best wishes for the New Year,</p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">17.</emph> BL Add. MS 59510, f. 25</head>
+                    <p style="text-align: right;">Vauréal | Doctors Commons Rd. | Berkhamsted | 15.7.26</p>
+                    <p>Dear Bell,</p>
+                    <p xml:id="p53">Kelsey has just written to say that he is leaving for England about the 14th, that he is bringing over the new lot of Zenon papyri so that I can copy them in the Br. Mus. and that he hopes to meet me there. But as I am leaving on the morning of the 23rd it is scarcely likely that I shall be able to see him in London. Probably, however, he will be willing to leave the papyri in the B.M. until my return next summer, if you have no objection. It is much more satisfactory to copy from the originals than from photographs.</p>
+                    <p xml:id="p54">Would you mind verifying one point for me? In l. 14 of Mich. 3110 my copy reads, ἐ̣ν̣ τ̣ῶ̣ι̣ ὑ̣πογεγραμμένωι χρόνωι, whereas προγεγραμμένωι seems to be the word required.<note place="foot" xml:id="ftn61" n="61"> <p> <ref target="https://papyri.info/hgv/1983">P.Mich.Zen. 84</ref>. The reading did not change in the edition.</p> </note> Have I read wrongly?</p>
+                    <p rend="indent">Yours sincerely, | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">18.</emph> BL Add. MS 59510, f. 26</head>
+                    <p style="text-align: right;">Vauréal | Doctors Commons Rd. | Berkhamsted | 10.10.27</p>
+                    <p>Dear Bell,</p>
+                    <p xml:id="p55">Many thanks for the offprint of your interesting publication of the new Apollonios letter.<note place="foot" xml:id="ftn62" n="62"> <p> <ref target="https://papyri.info/biblio/96791">Bell 1927a</ref>, republished as <ref target="https://papyri.info/hgv/1536">P.Lond. 7 1973</ref>.</p> </note> I have of course no objection to Rostovtzeff making what use he pleases of the Michigan seals. There is one in the <emph rend="strikethrough">first</emph> second lot which ought to be examined by an Egyptologist;<note place="foot" xml:id="ftn63" n="63"> <p> This is P.Mich.Zen. 25 = <ref target="https://papyri.info/hgv/1835">P.Zen.Pestm. 4</ref>; the others must be <ref target="https://papyri.info/hgv/1919">P.Mich.Zen. 14</ref> and <ref target="https://papyri.info/hgv/1937">37</ref>.</p></note> perhaps you might show it to Hall.<note place="foot" xml:id="ftn64" n="64"> <p> H.R. Hall (1873–1930) was Keeper of the Department of Egyptian and Assyrian Antiquities in the British Museum at that time.</p></note></p>
+                    <p xml:id="p56">I saw Hunt last week and spoke to him about the bibliography but he was already in communication with you and was trying to find you a collaborator. Let us hope he will succeed.<note place="foot" xml:id="ftn65" n="65"> <p> Hunt had written to Bell on 31 July 1927 (BL Add. MS 59512, f. 176): ‘Segrè might be tried for bibliography if no one else at home can be got, but he always strikes me as rather inaccurate and I should prefer an Englishman if one can be found. I can’t say why || J.G. Milne won’t: he has plenty of time, surely. Another possibility occurs to me in C.C. Edgar who has just left Egypt for good. I should imagine that he is likely to settle somewhere within reach of books. He wrote lately that he hopes to be in Oxford shortly and would like to see me, so I could mention it if you like.’ Bell had been responsible for compiling the bibliography for Graeco-Roman Egypt in JEA since 1914. The instalment published in 1927 was signed by three contributors (<ref target="https://papyri.info/biblio/96780">Bell et al. 1927</ref>), with a note by Bell explaining the background. His promotion to Deputy Keeper in 1927 increased the difficulty of the task. The next instalment was the work of eight contributors (<ref target="https://papyri.info/biblio/96782">Milne et al. 1928</ref>); J.G. Milne was among them, but not Edgar (or Segrè). Edgar only contributed the section on ‘Publications of non-literary texts’ in the bibliography for 1932–1933 (<ref target="https://papyri.info/biblio/96781">Milne et al. 1934</ref>: 88–92), replacing Bell.</p></note></p>
+                    <p xml:id="p57">At present I am compiling the Index to my catalogue, a long but unavoidable piece of drudgery, but I hope to come next week to the B.M., Tuesday or Wednesday, and put in a few || hours on the Michigan papyri. It is good news that your Ptolemaic volume is now in prospect.<note place="foot" xml:id="ftn66" n="66"> <p> Bell (<ref target="https://papyri.info/biblio/96791">1927a</ref>: 1) noted that ‘vol. VI of the Catalogue, … will, it is hoped, contain all the Ptolemaic papyri acquired since 1906’. This had been the plan for some time (‘Volume VI of the Museum Catalogue is likely to consist entirely of Ptolemaic texts.’ [<ref target="https://papyri.info/biblio/96779">Bell 1922</ref>: 100]), and this remained the case in the years that followed (‘vol. VI … will consist entirely of Ptolemaic papyri’ [<ref target="https://papyri.info/biblio/34376">Bell 1933</ref>: 514]). The project was subsequently handed over to T. C. Skeat, and the volume was numbered VII. </p></note></p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">19.</emph> BL Add. MS 59510, f. 27</head>
+                    <p style="text-align: right;">Vauréal | Doctors Commons Rd. | Berkhamsted | 1.11.27</p>
+                    <p>Dear Bell,</p>
+                    <p xml:id="p58">On studying P. Mich. Invent. 3106, dated L ι, Αὐδναίου,<note place="foot" xml:id="ftn67" n="67"> <p> <ref target="https://papyri.info/hgv/2299">P.Mich.Zen. 70</ref> (237), first published in <ref target="https://papyri.info/biblio/96784">Edgar 1928</ref>: 291–293.</p> </note> I feel a little doubtful whether it really proves that Zenon was still alive in year 10 of Euergetes. Nor is the text published by Hunt in the Journal<note place="foot" xml:id="ftn68" n="68"> <p> <ref target="https://papyri.info/biblio/96786">Hunt 1926</ref>, now <ref target="https://papyri.info/hgv/2494">P.Zen.Pestm. E</ref>. See <ref target="#ch_21">next letter</ref>.</p> </note> quite conclusive, as it is possible that the Zenon mentioned there is not our Zenon.<note place="foot" xml:id="ftn69" n="69"> <p> This is not the current view. Cf. <ref target="https://www.trismegistos.org/arch/archives/pdf/256.pdf">TM ArchID 256</ref>: ‘[Zenon’s] last sign of life dates from 14 February 229 (Pap. Lugd. Bat. XX Suppl. E, a text which is arguably part of the archive).’</p> </note> But the letter to Achoapis in your collection may be decisive.<note place="foot" xml:id="ftn70" n="70"> <p> <ref target="https://papyri.info/hgv/1581">P.Lond. 7 2019</ref>. See <ref target="#ch_21">next letter</ref>.</p> </note> Can you tell me then if there is clear evidence, either from the handwriting or from the contents, that it was really written by Zenon and not by a younger man of the same name. The former supposition seems certainly the more probable; but, as Dr. Johnson said about the evidence for the Christian religion, “Sir, I should like more.<note place="foot" xml:id="ftn71" n="71"> <p> We have not been able to identify the reference. (It may be worth noting that Edgar was the son of a clergyman, and entered Oriel College as ‘Bible Clerk’ [<ref target="https://papyri.info/biblio/96793">Shadwell 1902</ref>: 677]).</p> </note>”</p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">20.</emph> BL Add. MS 59510, f. 28</head>
+                    <p style="text-align: right;">Vauréal | Doctors Commons Rd. | Berkhamsted | 7.11.27</p>
+                    <p>Dear Bell,</p>
+                    <p xml:id="p59">Many thanks for the copy of the letter to Achoapis.<note place="foot" xml:id="ftn72" n="72"> <p> <ref target="https://papyri.info/hgv/1581">P.Lond. 7 2019</ref>.</p> </note> It does evidently hang together with the Corpus Christi account,<note place="foot" xml:id="ftn73" n="73"> <p> <ref target="https://papyri.info/biblio/96786">Hunt 1926</ref>, now <ref target="https://papyri.info/hgv/2494">P.Zen.Pestm. E</ref>.</p> </note> for in both texts A. appears as a tax-collector dunning Z., and the probability is that both of them come from the big find. It is true that several Ptolemaic papyri <emph rend="underlined">not</emph> found in Zenon’s archive have been sold as part of it. It is true also that the name of Zenon continued to be prominent in Philadelphia after our Zenon’s death, like that of his partner Sostratos (see <ref target="https://papyri.info/biblio/95152" >Partsch - Wilcken, Jur. <emph rend="strikethrough">Pap</emph>. Urkunden</ref>, pp. 48–49<note place="foot" xml:id="ftn74" n="74"> <p> The reference is to <ref target="https://papyri.info/hgv/58491">P.Freib. 3 12a</ref> and <ref target="https://papyri.info/hgv/58490">12b</ref>.</p> </note>). Nor is it easy to see how the Corpus Christi account fell into Zenon’s hands. But on the || whole I must admit that at least three dated documents later than the bulk of the find do probably belong to it and that Z. did probably not die, or retire from Philadelphia, as early as I used to suppose.</p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">21.</emph> BL Add. MS 59510, f. 29</head>
+                    <p style="text-align: right;">Vauréal | Doctors Commons Rd. | Berkhamsted | 14.11.27</p>
+                    <p>Dear Bell,</p>
+                    <p xml:id="p60">Many thanks for your paper on the waxed tablets together with Petrie’s commentary. It is a pleasure to see how bright his imagination still is.<note place="foot" xml:id="ftn75" n="75"> <p> <ref target="https://papyri.info/biblio/96806">Bell 1927b</ref>, now <ref target="https://papyri.info/hgv/5692">SB 4 7451</ref> (= C.Ptol.Sklav. II 129).</p></note></p>
+                    <p xml:id="p61">I have not yet gone through the text very carefully but there is one suggestion which I cannot refrain from making. In l. 14 is it not possible to read ἐν] Ναυ[κρ]άτι ? If that is right, the tablets are probably an account of a voyage between Alexandria and the Fayoum. Again in l.43 could ἐν τῆι Νικίου be read? Nikios was an important town midway between Naukratis and Memphis. My suggested reading of l. 60 must be wrong, but I suppose it cannot be corrected into ἐπὶ τοῦ Δέλτα. My ἐκ in l. 75 is also wrong and ought to be ἐπὶ. In ll. 98 and 114 it || seems safe to restore = [ϲ] and [σὺν] τοῖς = ϲ.<note place="foot" xml:id="ftn76" n="76"> <p> These corrections have not been published, but Edgar gave the gist of his interpretation in P.Cair.Zen. 4 59705 introd.: ‘The tablets … record a voyage up the river by way of Naukratis, Nikiou and the Delta’.</p></note></p>
+                    <p xml:id="p62">I am busy at present with the proof sheets of <ref target="https://papyri.info/biblio/95112">Zenon III</ref>, but hope to come to the Museum before long for another look at the Michigan papyri.</p>
+                    <p rend="indent">Yours truly | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">22.</emph> BL Add. MS 59510, f. 30</head>
+                    <p style="text-align: right;">Vauréal | Doctors Commons Rd. | Berkhamsted | 6.7.28</p>
+                    <p>Dear Bell,</p>
+                    <p xml:id="p63">Yes, I had already looked at the facsimile of P.Petrie II, 13 (5)<note place="foot" xml:id="ftn77" n="77"> <p> <ref target="https://papyri.info/hgv/2492">P.Zen.Pestm. C = P.Petr. Kleon 17</ref>.</p> </note> and decided that μόνω[ι ἐπὶ σ]οί was impossible and μονωτάτ̣η almost certain. Moreover it is quite good Greek and gives just the sense required ‘that his land is the one and only that gets no water’.<note place="foot" xml:id="ftn78" n="78"> <p> μόνω[ι ἐπὶ σ]οί had been suggested by <ref target="https://papyri.info/biblio/96789">Wilcken 1927</ref>: 278. μονωτάτ̣η first appeared in Edgar 1920: 14 n. 1, and was restated in <ref target="https://papyri.info/biblio/95210">P.Mich.Zen.</ref>, p. 26 n. 1.</p></note></p>
+                    <p xml:id="p64">Your reading τ . . . αφ[ . ]ειν suggests to me a new interpretation. From the facsimile I think I can see a ν before αφ and read τ . ναφ . . ιν. It strikes me that we were all wrong in trying to find a verb here || and that a more probable reading is ἐπὶ τὴ̣ν ἄφε̣σ̣ιν καὶ ἀρχιτεκτό[νη]σ̣ο̣[ν] ὡς δεῖ, ‘meet me at the outlet of the canal and devise in what way etc.’ Cf. <ref target="https://papyri.info/hgv/825">P. Cairo Zen. 59179</ref>, συνήντησαν ἐπὶ τὴν κρίσιν. Perhaps you could test this suggestion on the original.<note place="foot" xml:id="ftn79" n="79"> <p> Edgar subsequently published these corrections in <ref target="https://papyri.info/biblio/95210">P.Mich.Zen.</ref>, p. 26.</p></note></p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">23.</emph> BL Add. MS 59510, f. 31</head>
+                    <p style="text-align: right;">Vauréal | Doctors Commons Rd. | Berkhamsted | 19.7.28</p>
+                    <p>Dear Bell,</p>
+                    <p xml:id="p65">So far as I am concerned, you may have the Michigan papyri packed up. A few passages still baffle me, but I must abandon them as unsolved problems. </p>
+                    <p xml:id="p66">With regard to the letter of Panakestor to Kleon,<note place="foot" xml:id="ftn80" n="80"> <p> <ref target="https://papyri.info/hgv/2492">P.Petrie II, 13 (5) = P.Zen.Pestm. C = P.Petr. Kleon 17</ref>, discussed in the previous letter.</p> </note> τὴν ἄφεσιν in l. 6 seems to me to accord exactly with the traces of letters, but in the next line ἀγαγεῖν cannot honestly be read; besides it is too short for the lacuna. I see (<emph rend="italics">drawing</emph>) probably αγ followed by κ or ρ, followed by ω or ο. Comparing κατασκευᾶι τοὺς ἀγκῶνας in l. 2 I am much tempted to restore ἀγκωνίζειν or ἀγκωνίσαι, which would give exactly the required sense. Though the word is not found in l. 4, ἀγκωνισμός is known and the compounds παραγκωνίζειν etc. are common.<note place="foot" xml:id="ftn81" n="81"> <p> These corrections also appear in <ref target="https://papyri.info/biblio/95210">P.Mich.Zen.</ref>, p. 26.</p></note></p>
+                    <p xml:id="p67">With DXCIII I made little headway || beyond verifying the absurdity of Crönert’s restoration.<note place="foot" xml:id="ftn82" n="82"> <p> See <ref target="https://papyri.info/biblio/38817">Skeat 1948</ref>. The text has been republished as <ref target="https://papyri.info/hgv/6220">P.Petr. Kleon 7</ref>.</p> </note> The letter begins καλῶς ἂν π]οήσαι[ς], and γραφῆι in l. 2 is of course a verb. Ll. 5–10 are not hopeless and they would be interesting if one could read a little more, for they seem in fact to accord a dialogue between the king and one of his attendants (in l. 8 read εἶπέν τις<note place="foot" xml:id="ftn83" n="83"> <p> <ref target="https://papyri.info/biblio/38817">Skeat 1948</ref>: 81 read εἶπεν· τίς [, which has been adopted in <ref target="https://papyri.info/hgv/6220">P.Petr. Kleon 7</ref>.</p> </note> and in l. 9 ὁ δ’ εἶπεν<note place="foot" xml:id="ftn84" n="84"> <p> ὁ δ’ εἶπεν was also read in <ref target="https://papyri.info/biblio/38817">Skeat 1948</ref>: 81; <ref target="https://papyri.info/hgv/6220">P.Petr. Kleon 7</ref> has ]  ̣  ̣ δ’ εἶπεν.</p> </note>). I should like to try again, but not at present. </p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">24.</emph> BL Add. MS 59510, f. 32</head>
+                    <p style="text-align: right;">Vauréal | Drs. Commons Rd. | Berkhamsted | 15.10.28</p>
+                    <p>Dear Bell,</p>
+                    <p xml:id="p68">Looking through some of the Hamburg papyri I came upon a reference to <ref target="https://papyri.info/hgv/36938">P. Lond. V., 1764</ref>, 4, τὴν τοῦ οἴνου καλλονὴν καὶ παραμονήν. Would you mind telling me if the context shows καλλονήν to mean some process of clarifying the wine, or if some other meaning is indicated. Meyer’s καλλοινήν (<ref target="https://papyri.info/hgv/31471">P.Hamb. 90</ref>) seems to me rather questionable, and I do not feel much confidence in his transcriptions. He has made nonsense of no. <ref target="https://papyri.info/hgv/28701">87</ref> by reading Βαιβ̣ίνης instead of the obvious βαροίνῃς (= βαρύνῃς), ‘do not burden yourself with the wedding outfit, but bring a reasonable amount’.<note place="foot" xml:id="ftn85" n="85"> <p> βαρύνῃς was doubtfully conjectured by Schubart (BL 2.2.75), while βαροίνῃς was read on the original much later (BL 13.105).</p> </note> In no. <ref target="https://papyri.info/hgv/28702">88</ref> again the word which he reads as ἐγαίσησες and which Wilcken amends into ἐγαὶς Ἦσες (= ὑγιὴς Ἦσις) is no doubt ἐγάμησες, as is shown by the phrase in l. 7 καὶ νῦν ὡς ἄνθρωπος τέλειος || γενάμενος ‘and now also that you are a married man’ (Hesych. τέλειοι οἱ γεγαμηκότες).<note place="foot" xml:id="ftn86" n="86"> <p> <ref target="https://papyri.info/hgv/28702">P.Hamb. 1 88</ref> was re-edited in <ref target="https://papyri.info/biblio/44020">Youtie 1961</ref>: 556–562, who read ἐγάμησες on a photograph (BL 5.40). <ref target="https://papyri.info/biblio/44020">Youtie 1961</ref>: 561 accepted Meyer’s legal interpretation of τέλειος.</p> </note> So I should not be surprised if he also has gone wrong over καλλοινήν.<note place="foot" xml:id="ftn87" n="87"> <p> The passage (<ref target="https://papyri.info/hgv/31471">P.Hamb. 1 90</ref>.5–7) was read as ὡς ἐνέτειλα Ὥρῳ π̣ε|ρὶ τοῦ γόμου τοῦ οἴνο̣υ, ἐ̣κλί|σθη καλῶς καὶ τὴν καλλοιν̣[ὴν   ̣  ̣  ̣  ̣] καὶ ἐ̣σφράγισα. The <ref target="http://resolver.sub.uni-hamburg.de/goobi/HANSh817">online image</ref> indicates that καλλοι is possible, but there is no word beginning καλλοιν-; the upright could also belong to ν. After that, there are traces of two letters; καλλον̣ή̣ν̣ is conceivable, but it is difficult to account for the accusative in the sequence. (In l. 5, read ἐνετείλ⟦λ⟧ω μοι instead of ἐνέτειλα Ὥρῳ; cf. <ref target="https://papyri.info/hgv/110132">P.Sijp 9_d</ref>.8.)</p></note></p>
+                    <p xml:id="p69">There is a difficult phrase in one of the Zenon texts, <ref target="https://papyri.info/hgv/2080">P.S.I. 396</ref>, τῆς προστάδος των καλαίνων οὗ κε οἶνος κεῖται μου. Surely καλαίνων can mean nothing but the cellars (can it be misread for καμαρίων ?),<note place="foot" xml:id="ftn88" n="88"> <p> Later corrected to καμίνων (BL 3.223).</p> </note> and it strikes me as possible that what the writer of Hamb. 90 sealed up was not the wine-jars but the deck-house in which they were loaded. Or can you give me a more satisfactory explanation?</p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">25.</emph> BL Add. MS 59510, ff. 33–34</head>
+                    <p>[<emph rend="italics">added by Bell in top left corner</emph>: ‘Ansd. | 5. Feb. /29 | See transcript’]</p>
+                    <p style="text-align: right;">Vauréal | Doctors Commons Rd. | Berkhamsted | 1.2.29</p>
+                    <p>Dear Bell,</p>
+                    <p xml:id="p70">If the Petrie papyrus DXX (= <ref target="https://papyri.info/hgv/7650">P.Petr. II, 4, 13</ref>) were smoothened out carefully, I think it might be possible to recover a few letters in ll. 4 and 5. The word in l. 4 which I read with some hesitation as στομ̣ωτ̣ήν would probably give a clue to the meaning if correctly deciphered. If στομωτήν is right, the object of χορηγεῖν would naturally be σκαφεῖα. Enclosed is a very provisional attempt at a restoration.</p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                    <p xml:id="p71">[f. 34, Edgar’s transcription of P.Petr. II, 4, 13<note place="foot" xml:id="ftn89" n="89"> <p> Several novelties in <ref target="https://papyri.info/hgv/7650">P.Petr. Kleon 24</ref> had been anticipated by Edgar: τἀντίγραφα (l. 1), [δι’ ὀλίγ]ου ταῦτα (l. 4), π]ά̣λ̣ι̣ν σχολ[ά]ζουσιν (l. 5). Bell’s reading of the verso rendered Κλέωνι in l. 1 impossible. There are also disagreements: [ὁ δεῖνα . . . . . . αίωι χ]αίρειν (l. 1); [περὶ τῶν ἔργων . . . ἃ δ]εῖ (l. 2); ἰβιῶνα (l. 3); [ -17- ] παρ’ αὐτοῦ [δ]ε̣σ̣μ̣ώτην· οἱ γὰρ καιροὶ πάλαι \ἤ̣[δη]/ (l. 4; the apparatus credited [δ]ε̣σ̣μ̣ώτην to ‘Edgar, <emph rend="italics">in schedis</emph>’, which was Edgar’s earlier reading); ]διο οὐ μήν ἀ̣λ̣λ̣ὰ̣ κ̣αὶ νῦν (l. 5a); [τρίψουσιν. οἱ δὲ . . . . . . . . π]ά̣λ̣ι̣ν̣ (l. 5); [δυνατόν ἐστιν τῶι δεῖνι ἐ]ν̣τυχεῖν (l. 6); [γράψας πρὸς αὐτὸν ἐπ]εὶ (l. 7). τὰ ὕδατα instead of ὕδατα (l. 5) is a slip of Edgar’s.</p> </note>]</p>
+                    <quote type="secondary">
+                        <lb n="1"/>[Ἀλέξανδρος (?) Κλέωνι χ]αίρειν. ἔγραψά σοι τῆς πρὸς Τιμόξενον
+                        ἐπιστολῆς τἀντίγραφα </quote>
+                    <quote type="secondary">
+                        <lb n="2"/>[περὶ τοῦ ἐγρήγματος ὃ γράφ]ει γένεσθαι ἐν τῆι διώρυγι τῆι ἀπὸ
+                        Ψεοννώφρεως ἀγούσηι ἐπὶ </quote>
+                    <quote type="secondary">
+                        <lb n="3"/>[ ]υν καὶ τὸν Ἰβίωνα, ὅπως καὶ σὺ ἐνταθῆις τῶι Τιμοξένωι χορηγεῖν </quote>
+                    <quote type="secondary">
+                        <lb n="4"/>[σκαφεῖα καὶ ἄλλον πρὸς τῶι] παρ’ αὐτοῦ σ̣τ̣ο̣μ̣ωτήν·<note
+                            place="foot" xml:id="ftn90" n="90">
+                            <p> Bell in pencil: ‘imposs. Mgt. be μηλωτην μαλλωτην’</p>
+                        </note> οἱ γὰρ καιροὶ παλαιὰ̣ <hi rend="superscript">[γινό]μεν[α]</hi> [δι’ ὀλίγ]ου ταῦτα συν- </quote>
+                    <quote type="secondary">
+                        <lb n="5"/>[τρίψουσιν. οἱ δὲ γεωργοὶ π]ά̣λ̣ι̣ν<note place="foot"
+                            xml:id="ftn91" n="91">
+                            <p> Bell added a pointed to ν leading to ‘ε̣υ̣?’.</p>
+                        </note> <hi rend="superscript">]ιο ου μην[  ̣  ̣ ]  ̣ [  ̣ ]  ̣  ̣ λ̣ινον</hi><note place="foot"
+                            xml:id="ftn92" n="92">
+                            <p> Bell in pencil: ‘ιοουμηνα̣λ̣λ̣α̣ε̣τ̣ινυν’</p>
+                        </note> σχολ[ά]ζουσιν καὶ τὰ ὕδατα ἐν τοῖς τόπ[οις ἐσ]τίν. εἰ μὲν οὖν </quote>
+                    <quote type="secondary">
+                        <lb n="6"/>[ἐξεποίησέν σοι Διονυσίωι (?) ἐν]τυχεῖν περὶ τούτων, εἰ δὲ μή,
+                        ἔτι καὶ νῦ[ν καλῶς] ποιήσεις </quote>
+                    <quote type="secondary">
+                        <lb n="7"/>[μνησθεὶς αὐτῶι, ἐπειδὴ] ἡμῶν γραφόντων οὐχ ὑπακούει. ἔρρωσο. L
+                        λα, Τῦβι ζ. </quote>
+                    <p>[<emph rend="italics">added by Bell</emph>]</p>
+                    <p>Verso:</p>
+                    <quote type="secondary">
+                        <lb n="10"/>]αιωι </quote>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">26.</emph> BL Add. MS 59510, f. 35</head>
+                    <p style="text-align: right;">Vauréal | Doctors Commons Rd. | Berkhamsted | 6.2.29</p>
+                    <p>Dear Bell,</p>
+                    <p xml:id="p72">It was kind of you to have 520 (= <ref target="https://papyri.info/hgv/7650">P.Petr. II, 4, 13</ref>) damped out, and the result is interesting, though it does not accord with my suggestion. I do not see as yet what the crucial word in l. 4 can be.<note place="foot" xml:id="ftn93" n="93"> <p> That is, not σ̣τ̣ο̣μ̣ωτήν; cf. n. <ref target="#ftn90" >90</ref>.</p> </note> As for the interpretation in l. 5, οὐ μὴν ἀλλὰ καὶ νῦν, if it can be read, is quite a good Ptolemaic phrase;<note place="foot" xml:id="ftn94" n="94"> <p> This is the reading in P.Petr. Kleon 24.5a.</p> </note> only, the preceding ιο is puzzling. I hope to have a look at the papyrus some day soon, but fear I shall not be able to decipher any more of it.</p>
+                    <p xml:id="p73">I heard from Michigan the other day. The money for my volume is secured and probably it will go to press before very long.</p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">27.</emph> BL Add. MS 59510, f. 36</head>
+                    <p style="text-align: right;">Vauréal | Doctors Commons Rd. | Berkhamsted | 24.5.29</p>
+                    <p>Dear Bell,</p>
+                    <p xml:id="p74">Many thanks for your suggestions, which I will keep for future use. ἐκρινόμεθα in <ref target="https://papyri.info/hgv/1131">59493</ref> seems a very likely word.<note place="foot" xml:id="ftn95" n="95"> <p> <ref target="https://papyri.info/hgv/1131">P.Cair.Zen. 3 59493</ref>.3–4 ἐνετυγχάνομέν σοι περὶ [ὧν  ̣  ̣  ̣  ̣ ]ν̣όμεθα. The suggestion has remained unpublished.</p> </note> I had already corrected the translation of ἐχάραξε in the addenda.<note place="foot" xml:id="ftn96" n="96"> <p> <ref target="https://papyri.info/biblio/95112">P.Cair.Zen. 3</ref>, p. 291, on 59346.8[–9] n.</p></note></p>
+                    <p rend="indent">Yours sincerely, | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">28.</emph> BL Add. MS 59510, f. 37</head>
+                    <p style="text-align: right;">Vauréal | Doctors Commons Rd. | Berkhamsted | 10.10.29</p>
+                    <p>Dear Bell,</p>
+                    <p xml:id="p75">Looking up the passages in which ἐνοχλεῖσθαι is used of animals, I came across a curious phrase in <ref target="https://papyri.info/hgv/7495" >P.Petrie II, no. 25 (a)</ref>, εἰς ἵππον ἐνοχλούμενον ἐγλοηθέν<emph rend="strikethrough">θα</emph>τα. In P.Petrie III Smyly quotes Mayser to the effect that ἐγλοηθέντα = ἐγλογηθέντα, ‘ausgeschieden’. The phrase recurs in <ref target="https://papyri.info/hgv/7496">P.P. II, no. 25 (b)</ref>, εἰς ἵππον \ἐνοχλούμενον/ ἐγλοηθέντα καὶ φλεβοτομηθέντα, but in the facsimile it seems to me that the word is clearly ἐγλουσθέντα, ‘after having received a drench and been bled.’ If you have time one day, could you verify on the originals (B.M. DLIX–X<note place="foot" xml:id="ftn97" n="97"> <p> The actual inventory numbers are DLVIII–DLIX (558–559).</p> </note>) whether my reading is right.<note place="foot" xml:id="ftn98" n="98"> <p> Bell pencilled, ‘probably’. Mayser’s interpretation, as quoted in P.Petr. 3 61b, had also been questioned by Wilcken, who suggested that ἐγλοηθέντα stands for ἐκλουθέντα (<ref target="https://papyri.info/biblio/95858">Wilcken 1906</ref>: 519 = BL 1.360).</p> </note> Mayser’s explanation strikes me as very far-fetched.</p>
+                    <p xml:id="p76">I hope you found the three off-prints on your table. Many thanks for the loan. </p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">29.</emph> BL Add. MS 59510, f. 38</head>
+                    <p style="text-align: right;">Vauréal | Doctors Commons Rd. | Berkhamsted | 23.10.29</p>
+                    <p>Dear Bell,</p>
+                    <p xml:id="p77">Would you mind giving me an impartial opinion on the following point?</p>
+                    <p xml:id="p78">The question that I have to decide is whether the enclosed “Form of the papyri etc” should be printed in full or reduced to a brief formal note like that in your <ref target="https://papyri.info/biblio/95201">Jews and Christians</ref>. The latter course would be simpler and would improve the make-up of the book. The former course would necessitate the transference of the note from the preliminary matter \(in which it is out of scale)/ to a place between the Introduction and the Texts. But is the information which it gives about the form of a typical Ptolemaic letter of sufficient interest to justify a departure from the ordinary arrangement? Or do you think that to any likely reader the information is superfluous? ||</p>
+                    <p xml:id="p79">I am in doubt myself and should in any case attach more weight to your opinion than to my own in a question of this sort.<note place="foot" xml:id="ftn99" n="99"> <p> Edgar ultimately opted for the ‘former course’; see <ref target="https://papyri.info/biblio/95210">P.Mich.Zen.</ref>, pp. 58–60 (‘The form of the papyri and the method of publication’).</p></note></p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">30.</emph> BL Add. MS 59510, f. 39</head>
+                    <p style="text-align: right;">Vauréal | Doctors Commons Rd. | Berkhamsted | 5.12.29</p>
+                    <p>Dear Bell,</p>
+                    <p xml:id="p80">Many thanks for the trouble you have taken about my proofs. It is satisfactory in a negative way to know that none of your fragments can be fitted on.</p>
+                    <p xml:id="p81">I observed lately that <emph rend="underlined">P.Cairo</emph> 59415 and <emph rend="underlined">P.S.I.</emph> 376 make up a nearly complete letter from Deinon dated L λϛ Υπερβερε ιζ. <note place="foot" xml:id="ftn100" n="100"> <p> The join was noted in <ref target="https://papyri.info/biblio/95113">P.Cair.Zen. 4</ref>, p. 289. The two fragments were published together in <ref target="https://papyri.info/hgv/1477">P.Cair.Zen. 5 59853</ref>.</p> </note> That suggested to me that the Manchester fragment might be part of B. M. 2678, and your transcript rather confirms my suspicion.<note place="foot" xml:id="ftn101" n="101"> <p> First published in <ref target="https://papyri.info/biblio/34820">Edgar 1934</ref>: 124–125 (no. 12), and then as <ref target="https://papyri.info/hgv/2421">P.Ryl. 4 565</ref>.</p> </note> Both fragments have the same number of lines, and in several cases they fit together admirably. L. 8 does not trouble me for it might be restored somewhat like this ὅτι γὰρ π[οιήσομεν δεῖ σε] νοεῖν. The only difficulty is in l. 4, where εἰ δὴ μέν ought to be εἰδῶμεν and Grenfell’s ]εαιει is not quite intelligible. But his copies were made very rapidly and need to be || revised.<note place="foot" xml:id="ftn102" n="102"> <p> Cf. <ref target="https://papyri.info/biblio/34820">Edgar 1934</ref>: 111.</p> </note> ἀναλαμβάνων in l. 5 must mean ‘recover’ and the next line ‘and see that you grow strong again’; apparently Zenon had had an illness.</p>
+                    <p xml:id="p82">I should much like to see the re-discovered Petrie papyri and hope to have an opportunity some day soon.<note place="foot" xml:id="ftn103" n="103"> <p> It is unclear what these papyri were. One possibility is that they were Petrie’s Ptolemaic cartonnage which is now kept at University College London; cf. <ref target="https://papyri.info/hgv/170010">P.Pintaudi 17</ref> (esp. p. 78 and n. 10).</p></note></p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">31.</emph> BL Add. MS 59510, f. 40</head>
+                    <p style="text-align: right;">Vauréal | Doctors Commons Rd. | Berkhamsted | 10.12.29</p>
+                    <p>Dear Bell,</p>
+                    <p xml:id="p83">Thanks for the hand copy, which accords with Grenfell’s note ‘fine large hand’. I feel little doubt about the identification. ειδημεν is not a mistake for ειδωμεν or ειδησωμεν, but the pluperfect (for the form see P.S.I 445,15).<note place="foot" xml:id="ftn104" n="104"> <p> PSI 4 445 was republished in <ref target="https://papyri.info/hgv/1274">P.Cair.Zen. 4 59643</ref>. Cf. <ref target="https://papyri.info/biblio/34820">Edgar 1934</ref>: 125, note to l. 4 (= <ref target="https://papyri.info/hgv/2421">P.Ryl. 4 565</ref>.4 n.): ‘Probably εἴδημεν = ᾔδειμεν (cf. εἴδην in P. Cairo Zen. 59643, 15) and is not to be corrected to εἰδή&lt;σω&gt;μεν or εἰδ&lt;εί&gt;ημεν. The construction is a rarity in texts of this kind, but Deinon writes a rather superior style.’</p> </note> Used quite correctly after εδει ... γραψαι.<note place="foot" xml:id="ftn105" n="105"> <p> Cf. Kühner–Gerth, <emph rend="italics">Grammatik</emph> ii 553 §7 (we owe the reference to D. Kaltsas).</p> </note> The rest of the line may have been something like this: προσεδεχομεθα γαρ σε αιει παρεσεσθαι.<note place="foot" xml:id="ftn106" n="106"> <p> <ref target="https://papyri.info/hgv/2421">P.Ryl. 4 565</ref>.4 προσεδ̣[εχόμεθα γάρ σ]ε αἰεὶ παρέσεσθαι.</p></note></p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">32.</emph> BL Add. MS 59510, f. 41</head>
+                    <p style="text-align: right;">Vauréal | Doctors Commons Rd. | Berkhamsted | 1.12.30</p>
+                    <p>My dear Bell,</p>
+                    <p xml:id="p84">Would you mind looking at <ref target="https://papyri.info/hgv/2817">P. Hib. 84 (a)</ref> (= Lond. Inv. 1833) and telling me if the name Ἡ]ρ̣α̣κλέο̣υ̣ς̣ could be read otherwise e.g. Ἱε]ροκλέους.<note place="foot" xml:id="ftn107" n="107"> <p> Bell pencilled ‘right’ below the text, accompanied by an arrow. Ἱε]ροκλέους has been printed in Sel. Pap. 1 34.15 (not in BL).</p> </note> I cannot judge from the facsimile. Divine names at this period seem to me rather suspect. There is an Ἀπόλλων in <ref target="https://papyri.info/hgv/3216">P.Lille 9</ref>,2; but if you look at the plate, you will see that the right reading is παρὰ Πολέμωνος .<note place="foot" xml:id="ftn108" n="108"> <p> [π]αρὰ Πολέμωνος has now been read by <ref target="https://papyri.info/biblio/86739">Clarysse 2013</ref>: 266 n. 11.</p></note></p>
+                    <p xml:id="p85">Hunt has promised to do a volume (or two) of selections from the papyri for the Loeb series, but as he finds it a burden on his other work I have undertaken to do the transcriptions, translations etc, leaving the general selection to him. I feel ill qualified for the task and not very keen about it, but it is evidently desirable that he should be free to get on with his proper work; there || is no one living so good all round as he is. The little that I have done as yet makes me feel that there is a good deal to be done in the verification of readings even in well-known texts, and I should like some time to revise some of those in the B.M.</p>
+                    <p xml:id="p86"> <ref target="https://papyri.info/biblio/95113">Zenon IV</ref> has now gone to the printer. </p>
+                    <p xml:id="p87">Trusting you are well,</p>
+                    <p xml:id="p88">I am</p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">33.</emph> BL Add. MS 59510, f. 42</head>
+                    <p style="text-align: right;">Vauréal | Doctors Commons Rd. | Berkhamsted | 13.2.32</p>
+                    <p>Dear Bell,</p>
+                    <p xml:id="p89">The words πόστην ἐπιγράφει ἑκατέραν might very well have the meaning which you suggest, though it puzzles me to see the connection with the rest of the sentence.<note place="foot" xml:id="ftn109" n="109"> <p> <ref target="https://papyri.info/hgv/1509">P.Lond. 7 1944</ref>; this passage reads ποστὴν ἐπιγράφει⟨ν⟩ ἑκατέραν (ll. 5–6).</p> </note> There is another example of the numbering of the letters received in <ref target="https://papyri.info/hgv/973">Cairo Zen. 59330</ref>–<ref target="https://papyri.info/hgv/974">31</ref>,<note place="foot" xml:id="ftn110" n="110"> <p> The reference is to numbers written on the back of these letters.</p> </note> and a possible instance of invitations being numbered when issued in <ref target="https://papyri.info/hgv/30672">Oxy. 2147</ref> (?).</p>
+                    <p xml:id="p90">I shall be happy to call and see Skeat next time I am in town.</p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">34.</emph> BL Add. MS 59510, f. 43</head>
+                    <p>[<emph rend="italics">added by Skeat in top left corner</emph>: ‘Ansd 26 Jan. | T.C.S. | τοῦ in l.9 certain’]</p>
+                    <p style="text-align: right;">Vauréal | Doctors Commons Rd. | Berkhamsted | 25.1.34</p>
+                    <p>Dear Bell, </p>
+                    <p xml:id="p91">Would you mind verifying a reading in the letter which you published in Archiv VI, p.102?<note place="foot" xml:id="ftn111" n="111"> <p> <ref target="https://papyri.info/biblio/96790">Bell 1913</ref>: 102. The ‘letter’ corresponds to <ref target="https://papyri.info/hgv/10732">P.Fam.Tebt. 15</ref>.110–130.</p> </note> The difficulty is the τοῦ in l. 9. Is it quite clear or would it be possible to read τὸ δ’? If τοῦ is certain Hunt suggests ἐπιλ[έξαντος in l. 8, which would do equally well and obviate the necessity of supposing τοῦ to be a mistake of the scribe for καί.<note place="foot" xml:id="ftn112" n="112"> <p> ἐπιλ[έξαντος was printed in Sel. Pap. 2 422 (not in BL). <ref target="https://papyri.info/hgv/10732">P.Fam.Tebt. 15</ref>.117 retains ἐπιλ̣[ελέχθαι of the first edition, with no mention of ἐπιλ[έξαντος.</p></note></p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <emph rend="bold">35.</emph> BL Add. MS 59510, ff. 44–45</head>
+                    <p style="text-align: right;">Vauréal | Doctors Commons Rd. | Berkhamsted | 5.1.35</p>
+                    <p>Dear Bell,</p>
+                    <p xml:id="p92">Many thanks for the offprint of your reviews. Hasn’t Boak misunderstood the construction of ll. 9–10 of the edict? It would give better grammar to read [ὧν] in l. 9<note place="foot" xml:id="ftn113" n="113"> <p> <ref target="https://papyri.info/biblio/34390">Boak 1934</ref>: 1–8, re-edited as <ref target="https://papyri.info/hgv/17375">P.Cair.Isid. 1</ref>, where the passage runs ἀπὸ τοῦ προτεθέντος θείου διατάγματος | καὶ τοῦ αὐτῷ συννηννωμένου βρεουίου [οἷς] τὰ ἀντίγραφα τούτου μου τοῦ διατάγματος | δημοσίᾳ προύταξα, ἔνεστιν κτλ. (ll. 8–10). Edgar’s proposed emendation, [ὧν] instead of [καί], is recorded in <ref target="https://papyri.info/biblio/35158">Milne et al. 1935</ref>: 89, and was also suggested by Wilcken, but the new edition preferred Collomp’s [οἷς].</p> </note> and προύταξα, ἔνεστιν πᾶσι εὖ νο[εῖ] ν in l. 10.<note place="foot" xml:id="ftn114" n="114"> <p> <ref target="https://papyri.info/hgv/17375">P.Cair.Isid. 1</ref>.10 n. records εὖ νο[εῖ]ν as a suggestion by Lewis.</p></note></p>
+                    <p xml:id="p93">The other day Mrs. Hunt<note place="foot" xml:id="ftn115" n="115"> <p> Lucy Ellen Hunt, <emph rend="italics">née</emph> Bradshaw (1880–1959), widow of A.S. Hunt.</p> </note> brought over a file of material for Tebt. III 2, which I have only partly looked through. Grenfell seems to have transcribed almost everything<note place="foot" xml:id="ftn116" n="116"> <p> Grenfell’s input is mentioned in the preface to <ref target="https://papyri.info/biblio/3137">P.Tebt. III.1</ref>, but not exactly in these terms. It would be fair to say that without Grenfell’s transcriptions there would have been no P.Tebt. III.1–2.</p> </note> and a great deal of work has been done by Hunt and Smyly also. A fair amount of commentary has already been written. Besides this material there || is a large packet of papyri which rather embarrasses me. I doubt whether it would be better to bring it all to the B.M. and take out what I need from time to time or to work through it here and deposit it with you in instalments. Probably the latter method would be better as some of the material is very fragile and might be injured by being carried backwards and forwards.<note place="foot" xml:id="ftn117" n="117"> <p> The preface to <ref target="https://papyri.info/biblio/3740">P.Tebt. III.2</ref> reports that ‘Early in 1935 the papyri were removed from Oxford and temporarily stored in the British Museum’.</p></note></p>
+                    <p rend="indent">Yours sincerely | C. C. Edgar</p>
+                </div>
+                <div type="bibliography">
+                    <listBibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96790">Bell, H.I. (1913)</ref> “Notes from Papyri in the British Museum,” APF 6.1: 100–113.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96778">Bell, H.I. (1921)</ref> “Bibliography: Graeco-Roman Egypt A. Papyri (1919–1920),” JEA 7: 87–104.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96779">Bell, H.I. (1922)</ref> “Bibliography: Graeco-Roman Egypt A. Papyri (1920–1921),” JEA 8: 83–101.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96795">Bell, H.I. (1925)</ref> “A Musical Competition in the Third Century B.C.,” in Raccolta di scritti in onore di Giacomo Lumbroso: 13–22. Milan.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96791">Bell, H.I. (1927a)</ref> “Greek Sightseers in the Fayum in the Third Century B.C.,” SO 5: 1–5.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96806">Bell, H.I. (1927b)</ref> “Waxed Tablets of the Third Century B.C.,” Ancient Egypt 3: 65–74 (with an Appendix by Flinders Petrie, ‘A Ptolemaic Holiday’, pp. 75–76).</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96780">Bell, H.I., A.D. Nock and H.J.M. Milne (1927)</ref> “Bibliography: Graeco-Roman Egypt A. Papyri (1924–1926),” JEA 13: 84–121.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/34376">Bell, H.I. (1933)</ref> “Diplomata Antinoitica,” Aegyptus 13: 514–528.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96783">Bell, H.I. (1938)</ref> [Obituary of C.C. Edgar] in “Notes and News,” JEA 24: 133–134. </bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/79269">Bennett, C. (2011)</ref> Alexandria and the Moon. An Investigation into the Lunar Macedonian Calendar of Ptolemaic Egypt. Leuven.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/34390">Boak, A.E.R. (1934)</ref> “Early Byzantine Papyri from the Cairo Museum,” ÉdP 2: 1–22.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/86739">Clarysse, W. (2013)</ref> “Dionysos, Souchos and Sarapis as Personal Names?,” ZPE 186: 259–266.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/81466">D’Alessio, G.B. (2012)</ref> “Reconstructions of the Artemidorus Papyrus,” Historia 61: 292–309.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96773">Edgar, C.C. (1917)</ref> “On the Dating of Early Ptolemaic Papyri,” ASAE 17: 209–223. </bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96774">Edgar, C.C. (1918a)</ref> “A Further Note on Early Ptolemaic Chronology,” ASAE 18: 58–64.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96775">Edgar, C.C. (1918b)</ref> “Selected Papyri from the Archives of Zenon (Nos. 1–10)”, ASAE 18: 159–182.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96776">Edgar, C.C. (1919a)</ref> “Selected Papyri from the Archives of Zenon (Nos. 22–36)”, ASAE 19: 13–36.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96777">Edgar, C.C. (1919b)</ref> “Tomb-stones from Tell el Yahoudieh,” ASAE 19: 216–224.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96784">Edgar, C.C. (1928)</ref> “Three Ptolemaic Papyri,” JEA 14: 288–293.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/34083">Edgar, C.C. (1932)</ref> “Four Petrie papyri revised,” in Studies Presented to F.Ll. Griffith on his Seventieth Birthday: 209–213. London.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/34820">Edgar, C.C. (1934)</ref> “A New Group of Zenon Papyri,” BRL 18: 111–130.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96785">Frankfort, H. (1926)</ref> “Preliminary Report of the Expedition to Abydos 1925–6,” JEA 12: 157–165.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/36812">Guéraud O., (1939)</ref> “Campbell Cowan Edgar 1870–1938,” ASAE 39: 3–10 (reproduced in <ref target="https://papyri.info/biblio/3949">P.Cair.Zen. 5</ref>, pp. ix–xv).</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/84769">Hagen F. and K. Ryholt (2016)</ref> The Antiquities Trade in Egypt 1880–1930. The H.O. Lange Papers. Copenhagen.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96786">Hunt, A.S. (1926)</ref> “A Zenon Papyrus at Corpus Christi College, Cambridge,” JEA 12: 113–115.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96792">Meyer, E. (1925)</ref> Untersuchungen zur Chronologie der ersten Ptolemäer auf Grund der Papyri. Leipzig.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96782">Milne, H.J.M., A.D. Nock, H.I. Bell, J.G. Milne, N.H. Baynes, F. De. Zulueta, M.E. Dicker and R. McKenzie (1928)</ref> “Bibliography: Graeco-Roman Egypt A. Papyri (1926–1927),” JEA 14: 131–158.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96781">Milne, H.J.M., A.D. Nock, C.C. Edgar, J.G. Milne, N.H. Baynes, F. de Zulueta, M.E. Dicker and R. McKenzie (1934)</ref> “Bibliography: Graeco-Roman Egypt A. Papyri (1932–1933),” JEA 20: 78–106.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/35158">Milne, H.J.M, A.D. Nock, T.C. Skeat, N.H. Baynes, J.G. Milne, F. de Zulueta, and R. McKenzie (1935)</ref> “Bibliography: Graeco-Roman Egypt. Part I: Papyrology (1934),” JEA 21: 71–104. </bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/76106">Pellé, N. (2007)</ref> “Campbell Cowan Edgar (1870–1938),” in M. Capasso (ed.), Hermae. Scholars and Scholarship in Papyrology: 181–186. Pisa.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/54529">Pestman, P.W., W. Clarysse, M. Korver, M. Muszynski, A.L. Schutgens, W.J. Tait, and J.K. Winnicki, eds. (1981)</ref> A Guide to the Zenon Archive, P.L.Bat. 21. Leiden.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96793">Shadwell, C.L. (1902)</ref> Registrum Orielense. An Account of the Members of Oriel College, Oxford, vol. II. London.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/23484">Skeat, T.C. (1939)</ref> Review of P.Tebt. III.2, CR 53: 218–219.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/38817">Skeat, T.C. (1948)</ref> “A Letter from Philonides to Kleon Revised,” JEA 34: 80–81.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/95858">Wilcken, U. (1906)</ref> “Referate: Papyrus-Urkunden,” APF 3: 502–569.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96787">Wilcken, U. (1920)</ref> “Referate: Papyrus-Urkunden,” APF 6.3–4: 361–454.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96788">Wilcken, U. (1924)</ref> “Referate: Papyrus-Urkunden,” APF 7: 66–114.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96789">Wilcken, U. (1927)</ref> “Referate: Papyrus-Urkunden,” APF 8: 272–316.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/23487">Youtie, H.C. (1942)</ref> Review of P.Tebt. III.2, AJP 63: 244–248.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/44020">Youtie, H.C. (1961)</ref> “Critical Notes on Documentary Papyri,” TAPA 92: 550–571.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

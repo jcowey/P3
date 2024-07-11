@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:hei="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS" xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Zwei Ilias-Papyri aus Yale</title>
+            <author>
+               <name>
+                  <forename>Moritz</forename>
+                  <surname>Schwemer</surname>
+               </name>
+               <affiliation>Ruprecht-Karls-Universität Heidelberg</affiliation>
+               <email>moritz.schwemer@stud.uni-heidelberg.de</email>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0009-0003-5114-8873</idno>
+            </author>
+            <author>
+               <name>
+                  <forename>Johanna</forename>
+                  <surname>Strauss</surname>
+               </name>
+               <affiliation>Ruprecht-Karls-Universität Heidelberg</affiliation>
+               <email>johanna.strauss@stud.uni-heidelberg.de</email>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0009-0008-5234-5541</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2024-05-31</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2024">2024</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.5.7</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2024.5.105732</idno>
+            <idno ana="hc:PrivateIdentifier">96869</idno>
+         </publicationStmt>
+            <sourceDesc>
+                <bibl ana="hc:RecommendedBibliographicReference">M. Schwemer and J. Strauss, “Zwei Ilias-Papyri aus Yale,” Pylon 5 (2024) Article 7. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2024.5.105732">https://doi.org/10.48631/pylon.2024.5.105732</ref>.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title level="j" ana="hc:MainTitle">Pylon</title>
+                        <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                        <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                        <imprint>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="article">7</biblScope>
+                            <date when="2024">2024</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2024-06-06T13:14:17Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Zwei Ilias-Papyri aus Yale</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <div type="section">
+               <head>P.Oxy. 6 952</head>
+               <p xml:id="p1">P.Oxy. 6 952 wurde bei den Grabungen von Bernard P. Grenfell und Arthur S. Hunt bei Oxyrhynchos in der Grabungssaison des Jahres 1906 gefunden.<note place="foot" xml:id="ftn1" n="1"><p> <ref target="https://papyri.info/biblio/95236">Grenfell and Hunt 1908</ref>: Preface.</p></note> Der Papyrus liegt bisher nur als Descriptum als <ref target="https://papyri.info/biblio/95236">P.Oxy. 6 952</ref> und als <ref target="https://papyri.info/biblio/7096">P.Yale 1 14</ref> vor, was etwas erstaunlich ist angesichts der Τatsache, dass es sich dabei nach dem Yale Descriptum um den einzigen erhaltenen Papyrustextzeugen für diese Iliaspassage (24. 74–90) handelt. Dementsprechend hat M.L. West den Papyrus in seiner <ref target="https://papyri.info/biblio/95465">Ausgabe der <emph rend="italics">Ilias</emph></ref> und seinen „<ref target="https://papyri.info/biblio/16711">Studies in the Text and Transmission of the Iliad</ref>“ berücksichtigt, wo er ihn als Nr. 260 auflistet.<note place="foot" xml:id="ftn2" n="2"><p> <ref target="https://papyri.info/biblio/16711">West 2001</ref>: 97.</p></note> Die vorliegende Edition möchte diese Lücke mit einer Lesung des Textes auf der Grundlage des <ref target="https://hdl.handle.net/10079/digcoll/2760671">Digitalisats aus Yale</ref> füllen.</p>
+               <p xml:id="p2">Das aus zwei Bruchstücken zusammengesetzte Fragment eines Blattes einer Rolle misst 11,2 cm mal 5 cm und enthält auf dem Rekto die Verse 74–90 aus Hom. <emph rend="italics">Il</emph>. 24, das Verso ist nicht beschriftet. Von den Rändern ist der obere Rand mit einer Höhe von 2 cm erhalten, die übrigen Abbruchkanten des Papyrus lassen keine weiteren Ränder erkennen.<note place="foot" xml:id="ftn3" n="3"><p> Die Maße sind dem Yale Descriptum entnommen; <ref target="https://papyri.info/biblio/7096">Oates/Samuel/Welles 1967</ref>: 31.</p></note> Die Oberfläche des Papyrus ist von kleinen bis mittelgroßen Löchern durchzogen und an einigen Stellen stark abgerieben und verblasst, sodass eine sichere Zuordnung der Tintenreste zu einzelnen Buchstaben nicht immer eindeutig möglich ist.</p>
+               <p xml:id="p3">Die Schrift wird von <ref target="https://papyri.info/biblio/95236">Grenfell und Hunt</ref> als „sloping oval uncials“<note place="foot" xml:id="ftn4" n="4"><p> <ref target="https://papyri.info/biblio/95236">Grenfell and Hunt 1908</ref>: 316.</p></note> und im <ref target="https://papyri.info/biblio/7096">Yale Descriptum</ref> als „good example of the oval bookhand“<note place="foot" xml:id="ftn5" n="5"><p> <ref target="https://papyri.info/biblio/7096">Oates/Samuel/Welles 1967</ref>: 31.</p></note> beschrieben. Es handelt sich um eine kleine, flache Majuskelschrift im sog. strengen Stil, wie aus der (hier eher leichten) Rechtsneigung der Schriftachse und dem Kontrast zwischen der Größe von breiten (My, Ny, Tau, Alpha und Phi) und schmalen Buchstaben (Omikron, Sigma, Theta) hervorgeht.<note place="foot" xml:id="ftn6" n="6"><p> Die Merkmale des Schreibstils sind entnommen aus <ref target="https://papyri.info/biblio/78171">Cavallo 2009</ref>: 131.</p></note> </p>
+               <p xml:id="p4">Grenfell und Hunt datieren den Papyrus ins 3. Jh. n. Chr., das Yale Descriptum um 200 n. Chr. Aus paläographischen Gründen ist die Datierung von Grenfell und Hunt ins 3. Jh. vorzuziehen. Denn zwar nahm der strenge Stil bereits im 2. Jh. seinen Anfang,<note place="foot" xml:id="ftn7" n="7"><p> <ref target="https://papyri.info/biblio/78171">Cavallo 2009</ref>: 131.</p></note> doch die in Z. 7 gut sichtbare leichte Rechtsneigung der Schriftachse lässt sich auf Parallelen aus der ersten Hälfte des 3. Jh. stützen. Ähnliche Schrift zeigen <ref target="https://papyri.info/dclp/64054">P.Oxy. 13 1612</ref> (<ref target="https://www.trismegistos.org/text/64054">TM 64054</ref>, erste Hälfte 3. Jh.), <ref target="https://papyri.info/dclp/62839">P.Oxy. 4 655</ref> (<ref target="https://www.trismegistos.org/text/62839">TM 62839</ref>, erste Hälfte 3. Jh.<note place="foot" xml:id="ftn8" n="8"><p> S. <ref target="https://papyri.info/biblio/95234">Grenfell and Hunt 1904</ref>: 23.</p></note>), <ref target="https://papyri.info/dclp/60868">P.Oxy. 3 536</ref> (<ref target="https://www.trismegistos.org/text/60868">TM 60868</ref>, erste Hälfte 3. Jh.<note place="foot" xml:id="ftn9" n="9"><p> S. <ref target="https://papyri.info/bibliosearch?q=79908">Subacus et al. 2011 (BASP 48)</ref>: 9f.</p></note>) und <ref target="https://berlpap.smb.museum/02714/">P.Berol. 9766</ref> (<ref target="https://www.trismegistos.org/text/62628">TM 62628</ref>, Mitte 3. <anchor type="commentRangeStart" n="0"/><anchor type="commentRangeStart" n="1"/>Jh.<note place="foot" xml:id="ftn10" n="10"><p> S.<ref target="https://papyri.info/biblio/68414"> CPF 1.1.3</ref>: 490–493, Nr. 80 (Plato 96T).</p></note>).<anchor type="commentRangeEnd" n="0"/></p>
+               <p xml:id="p5">An diakritischen Zeichen sind Zirkumflex (Z. 1), Akut (Z. 2, 3, 8, 11, 12, 14, 15) Gravis (Z. 2, 7, 11) und Hochpunkt (Z. 6) vorhanden. In Z. 5 ist das τε ausgefallen, vermutlich durch ein Versehen des Schreibers, da es in der Handschriftentradition gut belegt ist.<note place="foot" xml:id="ftn11" n="11"><p> Vgl. Apparat von <ref target="https://papyri.info/biblio/95465">Wests Edition</ref> zu V. 78</p></note> Sonst stimmt der Text mit der übrigen Überlieferung überein. Die Transkription wurde mit der <ref target="https://papyri.info/biblio/95465">Ausgabe von M.L. West </ref>supplementiert.</p>
+               <div type="epidoc" subtype="DCLP">
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;">P.CtYBR inv. 2201</cell>
+                        <cell style="text-align: center;">11,2 (H) × 5 (Br)</cell>
+                        <cell style="text-align: right;">Oxyrhynchos</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;">TM 60741</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">3. Jh.</cell>
+                     </row>
+                  </table>
+                  <figure>
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23868584"/>
+                        <head>Figure 1: P. CtYBR inv. 2201 recto</head>
+                  </figure>
+                  <figure>
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23868588"/>
+                        <head>Figure 2: P. CtYBR inv. 2201 verso</head>
+                  </figure>                  
+                  <div copyOf="#ed1" type="edition"/>
+                  <div type="commentary">
+                     <note target="#ed1ln1">
+                     <ref>1</ref>
+                        <p xml:id="p6"> Θεῶν: Von <ref target="https://papyri.info/biblio/95465">West (2000)</ref> im Apparat seiner Ausgabe angeführt.</p>
+                        <p xml:id="p7">Θέτ[ιν: Rechts über dem Ε befindet sich noch ein Tintenfleck, der vermutlich Teil eines Akuts ist.</p>
+                     </note>
+                     <note target="#ed1ln3">
+                        <ref>3</ref>
+                        <p xml:id="p8"> [λ]άχῃ: Über dem Η ist ein schräger Strich zu erkennen. Dabei handelt es sich trotz der geringeren Länge als z.B. in Z. 8 wahrscheinlich um einen (falsch gesetzten<note place="foot" xml:id="ftn12" n="12"><p> Von den 11 Akzenten stehen 4 an Stellen, wo sie eigentlich nicht erwartet würden: Der Gravis in Z. 2, der Akut in Z. 3, Der Gravis in Z. 7 und der Gravis in Z. 11. Zur Akzentsetzung in der Homerüberlieferung s. etwa <ref target="https://papyri.info/biblio/96804">Nagy 2008</ref> u. <ref target="https://papyri.info/biblio/96805">Nagy 2011</ref>.</p></note>) Akut. Eine Lesung des Strichs als Hochpunkt scheitert daran, dass der Hochpunkt nach π[ό]ντῳ (Z. 6) dicker und mehr gerundet ist.</p>
+                     </note>
+                     <note target="#ed1ln5">
+                        <ref>5</ref>
+                        <p xml:id="p9"> &lt;τε&gt; καὶ: Auslassung des τε von beiden Descripta und von <ref target="https://papyri.info/biblio/95465">West (2000)</ref> im Apparat seiner Ausgabe angeführt.</p>
+                     </note>
+                     <note target="#ed1ln6">
+                        <ref>6</ref>
+                        <p xml:id="p10"> μείλαν]ι: Vor dem Ι scheint es Tintenspuren zu geben. Die Neigung der Tintenreste entspricht nicht der erwarteten Neigung einer senkrechten Haste beim Ν.</p>
+                        <p xml:id="p11">π[ό]ντῳ·: Die waagerechte Haste des Π ist stark verblasst oder abgerieben. Die Tintenspuren deuten darauf hin, dass das Ν flacher ist als z.B. in Z. 1. Der Hochpunkt über dem Ω ist gut zu erkennen. Das <ref target="https://papyri.info/biblio/95236">Descriptum in den Oxyrhynchos Papyri</ref> spricht von Hochpunkten („high stops“) auf dem Papyrus, doch dieser ist der einzige, der am Digitalisat zu erkennen ist.</p>
+                     </note>
+                     <note target="#ed1ln8">
+                        <ref>8</ref>
+                        <p xml:id="p12"> ἀγραύ]λο̣ι̣ο̣: ο̣ι̣ο̣ ist fast bis zur Unkenntlichkeit verblasst; vom ersten Ο ist von der rechten Hälfte unten ein Punkt erhalten, vom zweiten von der linken Hälfte oben ein Fleck (?); Am Digitalisat lässt sich das Ι kaum erkennen.</p>
+                        <p xml:id="p13"> ἐ̣[μβεβαυῖα]: Vom Ε ist die untere Hälfte der senkrechten Haste mit dem Ansatz der mittleren waagrechten Haste erhalten.</p>
+                     </note>
+                     <note target="#ed1ln11">
+                        <ref>11</ref>
+                        <p xml:id="p14"> ἅ]λ̣ιαι̣: Vom Akut über dem Α ist die obere Hälfte erhalten.</p>
+                     </note>
+                     <note target="#ed1ln12">
+                        <ref>12</ref>
+                        <p xml:id="p15"> ἀμύ̣μον̣[ος: das Υ ist durch ein Loch senkrecht in der Mitte gespalten.</p>
+                     </note>
+                     <note target="#ed1ln15">
+                        <ref>15</ref>
+                        <p xml:id="p16"> μήδ̣[εα: Die Lage der Tintenspuren entspricht eher einem Akut als einem Gravis.</p>
+                     </note>
+                     <note target="#ed1ln16">
+                        <ref>16</ref>
+                        <p xml:id="p17"> Θ̣έτις ἀ̣ρ[γυρόπεζα·]: Es fehlt die untere Hälfte der Zeile, die Buchstaben sind aber trotzdem gut zu erkennen.</p>
+                     </note>
+                     <note target="#ed1ln17">
+                        <ref>17</ref>
+                        <p xml:id="p18"> ]γ̣ε μέ̣[: Vom Γ ist ein Teil der waagrechten Haste erhalten. Ob es wirklich Reste eines Ε gibt, ist nicht mit völliger Gewissheit zu sagen.</p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>P.Fay 211</head>
+               <p xml:id="p19">P. Yale Inv. 8 wurde im Rahmen der Grabungen von D.G. Hogarth, B.P. Grenfell und A.S. Hunt im Fayum in den Jahren 1898–99 in Qasr al-Banat, dem antiken Euhemeria, gefunden und vermutlich auch dort geschrieben. Genauere Informationen zum Kontext des Fundes sind nicht vorhanden. Bisher liegt der Papyrus als P.Fay. 211 (<ref target="https://papyri.info/biblio/95143">Hogarth, Grenfell und Hunt 1900</ref>: S. 301) und als P. Yale 1 12 (<ref target="https://papyri.info/biblio/7096">Oates, Samuel und Welles 1967</ref>: S. 30–31) in der Form zweier nicht vollständiger Descripta beziehungsweise knapper Editionen vor. <ref target="https://papyri.info/biblio/16711">West 2001</ref>: S. 97 teilt dem Papyrus in seinem Katalog der Ilias-Papyri die Nummer 255 zu.</p>
+               <p xml:id="p20">Es handelt sich um neun Fragmente von stark variierender Größe, wobei auf acht Tintenspuren zu erkennen sind. Die Position von einem der kleineren Fragmente ist aufgrund des geringen Umfangs der erhaltenen Buchstaben nicht mit Sicherheit zu eruieren, das kleinste Fragment lässt sich lediglich dem Rand zuordnen.<note place="foot" xml:id="ftn13" n="13"><p> Zur Begründung der vorgeschlagenen Anordnung der Fragmente s. Kommentar.</p></note> Der Text ist in drei Kolumnen unterteilt, die ursprünglich zwischen 36 und 38 Verse enthalten haben dürften.<note place="foot" xml:id="ftn14" n="14"><p> <ref target="https://papyri.info/biblio/7096">Oates et al.</ref> beschreiben den Papyrus folgendermaßen: “Twelve larger and smaller fragments of a papyrus roll, comprising most of Column VIII and much of the lower part of Column X of the original fifteen columns.” Die höhere Fragmentanzahl lässt sich durch ein späteres Zusammenführen der Fragmente zu einem größeren Teilstück erklären, die Angabe der Kolumnen bleibt ein Rätsel. Auch davon ausgehend, dass es sich aufgrund fehlender Verse nicht um die volle Versanzahl des 22. Buches handeln kann, geht die Rechnung von 15 Kolumnen à 36 bis 38 Versen nur schwerlich auf, zumal der erhaltene Papyrus eindeutig in drei und nicht zwei Kolumnen unterteilt ist.</p></note></p>
+               <p xml:id="p21">Ursprünglich dürfte der Papyrus ungefähr 25,5 cm hoch gewesen sein; zu seiner Breite lässt sich keine Aussage machen. Das Fragment, das die linke Hälfte von Kolumne I überliefert, misst 20,9 cm × 5,6 cm, das Fragment, das die rechte Hälfte überliefert, ist mit 17,3 cm × 5,2 cm nur ein wenig kleiner. Das Fragment, das den Beginn von Kolumne II überliefert und von der <ref target="https://hdl.handle.net/10079/digcoll/2756786">Yale University Library</ref> als Fragment 1 bezeichnet wird, misst 7,1 cm × 4,4 cm. Die Fragmente, die den unteren Teil von Kolumne III überliefern, messen 2,9 cm × 4 cm, 5,1 cm × 2,4 cm beziehungsweise 6,3 cm × 5 cm. Die Fragmente, die von der <ref target="https://hdl.handle.net/10079/digcoll/2756786">Yale University Library</ref> als Fragmente 2, 3 und 4 bezeichnet werden, messen 5,6 cm × 2,9 cm, 1,4 cm × 1 cm beziehungsweise 0,7 cm × 0,8 cm.<note place="foot" xml:id="ftn15" n="15"><p> Diese Angabe sowie alle folgenden Maße beruhen auf eigenen Messungen anhand der digital verfügbaren Abbildungen, da es keine genauen beziehungsweise vollständigen Angaben zu den Maßen der Fragmente gibt. Die <ref target="https://hdl.handle.net/10079/digcoll/2756786">Yale University Library</ref> gibt die Maße von vier kleineren der neun Fragmente an; das kleinste Fragment messe 0,8 cm × 0,7 cm, das zweitkleinste 1,4 cm × 10 cm und das nicht zuzuordnende größere Fragment 5,6 cm × 2,8 cm. Die Maße des Fragments, das die zweite Kolumne überliefert, werden mit 252 mm × 451 mm angegeben. Die Angaben zu diesem Fragment können den eigenen Messungen nach nicht zutreffen. Zu den größeren Fragmenten werden keine weiteren Angaben gemacht. <ref target="https://papyri.info/biblio/95143">Grenfell und Hunt</ref> geben die gesamte Höhe des Papyrus mit 25 cm an, <ref target="https://papyri.info/biblio/7096">Oates et al.</ref> hingegen mit über 26,5 cm.</p></note></p>
+               <p xml:id="p22">Auf dem Rekto sind die Verse 254–299, 350–355 und 358–365 von Hom.,<emph rend="italics"> Il</emph>. 22 erhalten, wobei der Vers 263 nicht im Haupttext steht, sondern am unteren Rand ergänzt wurde. Der Vers 363 fehlt zur Gänze.<note place="foot" xml:id="ftn16" n="16"><p> Beide Descripta bemerken die fehlenden beziehungsweise nachgetragenen Verse, irren jedoch in der Gesamtangabe: <ref target="https://papyri.info/biblio/95143">Grenfell und Hunt</ref> nennen die Verse 253–298, 350–355 und 358–365, <ref target="https://papyri.info/biblio/7096">Oates et al.</ref> hingegen die Verse 254–290, 328, 350–354 und 358–365, woran <ref target="https://papyri.info/biblio/16711">West</ref> sich bei seinem Katalog orientiert. </p></note> Das Verso ist nicht beschrieben.</p>
+               <p xml:id="p23">Bei der Schrift handelt es sich um eine Majuskel-Schrift, die sich vor allem durch die deutlich über die Rechtsschräge ragende Linksschräge bei Α, Δ und Λ, den gerundeten Mittelteil des Μ sowie die im oberen Drittel des rechten Schafts ansetzende Schräghaste des Ν auszeichnet. Die Buchstabenschäfte sind in der Regel gerade und verfügen weder über Serifen noch Bögen. In Bezug auf die Schreibweise des Α ähnelt der Papyrus <ref target="https://papyri.info/dclp/60229">P.Fay. 6</ref> (<ref target="https://www.trismegistos.org/text/60229">TM 60229</ref>, 1. Jh. n. Chr.), in Bezug auf das Δ <ref target="https://papyri.info/dclp/60263">P.Fay. 7</ref> (<ref target="https://www.trismegistos.org/text/60263">TM 60263</ref>, 1. Jh. n. Chr.). Das Ε und Σ gleichen denen von <ref target="https://papyri.info/ddbdp/chiron%3B47%3B297">P.Lond. 2 354 </ref>(<ref target="https://www.trismegistos.org/text/11735">TM 11735</ref>, 7–4 v. Chr.),<note place="foot" xml:id="ftn17" n="17"><p> Teilweise ist das Σ auch C-förmig, wie beispielsweise in V. 28.</p></note> das Μ dem von <ref target="https://papyri.info/dclp/59096">P.Oxy. 24 2387 </ref>(<ref target="https://www.trismegistos.org/text/59096">TM 59096</ref>, 1. Jh. v. Chr.–1. Jh. n. Chr.). In Duktus und Gesamteindruck gleicht die Schrift der von <ref target="https://papyri.info/dclp/63125">P.Ryl. 1 22</ref> (<ref target="https://www.trismegistos.org/text/63125">TM 63125</ref>, 2. Hälfte 1. Jh. n. Chr.<note place="foot" xml:id="ftn18" n="18"><p> Die Datierung folgt der von <ref target="https://papyri.info/biblio/20342">Cavallo und Maehler 2008</ref>: S. 143.</p></note>). Trotz aller Ähnlichkeit bestehen doch nicht vernachlässigbare Unterschiede: Das Ε ist offen, nicht wie bei P.Fay. 7 geschlossen, das Y hat keine Haken, das N keine Serifen, wie es P.Fay. 6 der Fall ist, das M ist im mittleren Bereich leicht gebogen, die Schäfte von Π verlaufen strikt vertikal, anders als bei P.Ryl. 1 22.</p>
+               <p xml:id="p24"><ref target="https://papyri.info/biblio/7096">Oates et al.</ref> datieren die Schrift auf das 1. Jahrhundert und spekulieren über eine mögliche Einordnung in die spätaugusteische Zeit.<note place="foot" xml:id="ftn19" n="19"><p> Dabei stützen sie sich auf die Bemerkungen, die <ref target="https://papyri.info/biblio/5264">Roberts 1955</ref>: Pl. 9b-c zu <ref target="https://papyri.info/dclp/60229">P.Fay. 6</ref> (<ref target="https://www.trismegistos.org/text/60229">TM 60229</ref>) und <ref target="https://papyri.info/dclp/60263">P.Fay. 7</ref> (<ref target="https://www.trismegistos.org/text/60263">TM 60263</ref>) macht: “The only evidence for the date of either of these manuscripts is circumstantial; both were found with a number of documents of the early first century A.D. and of the seven that carried dates six were written in the reign of Augustus.” Die Datierung in die spätaugusteische Zeit auf Basis lediglich dieser Beweislage ist nicht gerechtfertigt. Gerade die Buchstabenformen, die <ref target="https://papyri.info/biblio/96801">Schubart 1925</ref>: S. 115–116 als Grund für die mögliche Datierung von P.Fay 6 in die Zeit von Augustus anführt, wie M, O, Θ und Y gleichen nicht den Buchstabenformen des edierten Papyrus.</p></note> Diese Datierung ist allein auf Basis paläographischer Argumente recht gewagt, eine allgemeine Zuordnung in das erste nachchristliche Jahrhundert ist durch die Ähnlichkeit mit den oben angeführten Papyri aber durchaus möglich.</p>
+               <p xml:id="p25">Der unten zugefügte Vers 263 wurde in einer deutlich kleineren und kursiveren Handschrift geschrieben. Eine genauere Einordnung ist aufgrund des geringen Textumfangs schwierig; im Duktus ähnelt das Schriftbild dem von <ref target="https://papyri.info/ddbdp/p.flor;1;47a">P.Flor 1 47 </ref>(<ref target="https://www.trismegistos.org/text/23560">TM 23560</ref>, 14.01.217).</p>
+               <p xml:id="p26">Teils weisen die Buchstaben einen horizontalen Balken im unteren Bereich auf, der meist nach links, in einigen wenigen Fällen nach rechts orientiert ist. Vermutlich handelt es sich dabei um feuchte Tinte, die vom Schreiber verwischt wurde. Dieses Phänomen findet sich in den Zeilen 1, 2, 3, 8, 9, 11, 12, 14, 17, 20, 23, 24, 25, 26, 27, 28, 31, 32, 33, 35, 39, 41, 42, 43, 44, 48, 50, 57, 59, 59 und 60; außer die resultierende Tintenspur ist in ihrer Form für den jeweiligen Buchstaben ungewöhnlich oder nicht eindeutig einem einzigen Buchstaben zuordenbar findet das Phänomen im Kommentar keine weitere Erwähnung.</p>
+               <p xml:id="p27">An gesicherten diakritischen Zeichen findet sich lediglich ein Trema (προϊει Z. 36). Der lesbare Text stimmt mit der Ilias-Edition von <ref target="https://papyri.info/biblio/95465">West 2000</ref> überein, aus der auch die Ergänzungen entnommen sind. Alle Abweichungen von Wests Haupttext wurden bereits von West in seinem kritischen Apparat bemerkt, lediglich in einem Fall (Z. 13) sind die Spuren auf dem Papyrus nicht mit der Lesung in Wests Apparat, sondern mit der Lesung des Haupttexts zu vereinbaren.</p>
+               <p xml:id="p28">Die folgende Edition beruht auf den von der <ref target="https://hdl.handle.net/10079/digcoll/2756786">Yale University Library</ref> bereitgestellten Digitalisaten.</p>
+               <div type="epidoc" subtype="DCLP">
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;">P.CtYBR inv. 8 fol</cell>
+                        <cell style="text-align: center;">25,5 (H)</cell>
+                        <cell style="text-align: right;">Qasr al-Banat</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;">TM 60370</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">1. Jh. n. Chr.</cell>
+                     </row>
+                  </table>
+                  <figure>
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23868590"/>
+                        <head>Figure 3: P. CtYBR inv. 8 recto</head>
+                  </figure>
+                  <figure>
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23868592"/>
+                        <head>Figure 4: P. CtYBR inv. 8 verso</head>
+                  </figure>                  
+                  <div copyOf="#ed2" type="edition"/>
+                  <div type="commentary">
+                     <note target="#ed2ln3">
+                        <ref>i.3</ref>
+                        <p xml:id="p29"> ἐμοὶ Ζ̣ε̣ύς̣: Das Ζ scheint eine für diesen Papyrus ungewöhnliche Form zu haben (vgl. ῥέζ[ειν in Z. 6). Grundsätzlich ähnelt es einem spiegelverkehrt geschriebenen Σ, bei dem der Bogen eine kleine Cauda in die entgegengesetzte Richtung aufweist. </p>
+                     </note>
+                     <note target="#ed2ln5">
+                        <ref>i.5</ref>
+                        <p xml:id="p30"> κ̣λυ[τὰ: Lediglich zwei Tintenpunkte nach der Lacuna zeugen vom Κ.</p>
+                        <p xml:id="p31">Ἀ̣χ̣ιλ̣λ̣ε̣ῦ̣: Die Schrift ist stark abgerieben. Der Tintenfleck direkt nach der Lacuna lässt sich der Linksschräge des Α zuordnen. Der mit einigem Abstand folgende Punkt ist anhand seiner relativen Höhe als Mittelpunkt des Χ zu identifizieren, wobei der untere Teil der Linksschräge mit dem unteren Teil des Ι zusammenfällt.</p>
+                     </note>
+                     <note target="#ed2ln7">
+                        <ref>i.7</ref>
+                        <p xml:id="p32"> Ἀχ̣ι̣[λλεύς: Das Ι ist nur als Tintenpunkt erhalten.</p>
+                     </note>
+                     <note target="#ed2ln8">
+                        <ref>i.8</ref>
+                        <p xml:id="p33"> συ]νημ[οσύ]νας: Die horizontale Tintenspur nach dem Μ wird als verwischte Tinte interpretiert, nicht als Teil des Ο, da sie relativ auf die Zeilenhöhe betrachtet sehr mittig platziert ist.</p>
+                        <p xml:id="p34">ἀγ̣όρ̣ε̣[υε: Das Ρ und Ε sind stark verblasst, Spuren lassen sich allerdings erkennen.</p>
+                     </note>
+                     <note target="#ed2ln9">
+                        <ref>i.9</ref>
+                        <p xml:id="p35"> ὅρκια π̣[ιστά: Das Π ist sehr breit und der rechte Schaft ist entgegen der für den Papyrus typischen Schrift nach links geneigt.</p>
+                     </note>
+                     <note target="#ed2ln10">
+                        <ref>i.10</ref>
+                        <p xml:id="p36"> ὁμ̣ό̣φρον[α: Unter dem zweiten Ο befindet sich eine Verfärbung des Papyrus, die den Buchstaben auf den ersten Blick deutlich länger aussehen lässt. Tatsächlich ist nur ein kleiner Teil der oberen Rundung und der Anschluss zum Μ erhalten.</p>
+                     </note>
+                     <note target="#ed2ln11">
+                        <ref>i.11</ref>
+                        <p xml:id="p37"> φρονέου]σ̣ι: Ein kleiner Teil des Σ ist durch den horizontalen Balken, der mit dem Ι verschmilzt, erhalten.</p>
+                     </note>
+                     <note target="#ed2ln12">
+                        <ref>i.12</ref>
+                        <p xml:id="p38"> σ]ὲ̣: Ein Teil des Mittelbalkens zeugt vom Ε.</p>
+                     </note>
+                     <note target="#ed2ln13">
+                        <ref>i.13</ref>
+                        <p xml:id="p39"> πρί]ν̣ ἠ̣’ ἕ̣τ̣̣ε̣[ρόν: An dieser Stelle ist der Papyrus stark beschädigt; der Rekonstruktionsversuch ist keines Falls definitiv. Laut Wests Angabe im Apparat überliefert der Papyrus an dieser Stelle πρὶν γ’. Dies ist nicht mit den Spuren zu vereinbaren. Nur der erste erhaltene Buchstabenschaft könnte, wie es Wests Lesart des Papyrus verlangt, einem Γ zugeordnet werden. Der zweite Schaft ist zu nah an dem dritten; die Lacuna bietet nicht genug Platz für ein Γ sowie den zugehörigen Abstand. Der dritte Schaft verfügt über keinen erkennbaren Querbalken. Interpretiert man also den ersten Schaft als Γ, besteht das Problem der darauffolgenden Schäfte, die keinesfalls einem Ε zuzuordnen sind, das auf das Γ folgen müsste. Dementsprechend wird der erste Schaft als der rechte Schaft eines Ν und die beiden folgenden Schäfte als ein Η in die Edition aufgenommen, dessen Mittelbalken in der Lacuna verloren ist, was dem Haupttext von West entsprechen würde. Bei den nächsten erkennbaren Buchstaben handelt es sich um ΕΤΕ, wobei der Querbalken des Τ eine leichte Rechtsschräge aufweist und nur zwei Tintenflecken vom zweiten Epsilon zeugen.</p>
+                     </note>
+                     <note target="#ed2ln14">
+                        <ref>i.14</ref>
+                        <p xml:id="p40"> τ]αλαύρι̣[νον]: Vom Ι zeugt nur ein winziger Tintenfleck.</p>
+                        <p xml:id="p41">πολ[εμ]ι̣[στήν Nach der Lacuna ist nur ein vertikal verlaufender Tintenrest erhalten. Aufgrund der relativen Position des Flecks und in Anbetracht der Breite eines Μ in der vorliegenden Schrift wird er als oberer Teil des Ι interpretiert, nicht als Teil des rechten Schafts des Μ.</p>
+                     </note>
+                     <note target="#ed2ln15">
+                        <ref>i.15</ref>
+                        <p xml:id="p42"> μάλα̣: Vor der Lacuna sind im oberen Bereich der Zeile einige Tintenflecke der ursprünglichen Linksschräge des Α erhalten.</p>
+                     </note>
+                     <note target="#ed2ln16">
+                        <ref>i.16</ref>
+                        <p xml:id="p43"> πολεμ̣[ιστήν: Vom Μ ist nur ein Schatten zu erkennen.</p>
+                     </note>
+                     <note target="#ed2ln17">
+                        <ref>i.17</ref>
+                        <p xml:id="p44"> ὑπάλυξ]ις: Entweder ist das Ι nach links verwischt oder es handelt sich um den rechten Teil des untersten Balkens des in der Lacuna verlorenen Ξ.</p>
+                        <p xml:id="p45">Παλλὰς̣: Vom Σ bleibt nur ein Schatten.</p>
+                     </note>
+                     <note target="#ed2ln18">
+                        <ref>i.18</ref>
+                        <p xml:id="p46"> ν̣ῦν δ’: Wie West in seinem textkritischen Apparat bemerkt, handelt es sich bei diesem Papyrus um einen jener Textträger, die ein Δ überliefern. Vom Ν ist nur ein Punkt des rechten Schafts erhalten.</p>
+                        <p xml:id="p47">π]άντ’ ἀπ[οτίσεις]: Zwischen Τ und Α befindet sich ein Punkt im unteren Teil der Zeile, der sich nur schwer der Rechtsschräge des Α zuordnen lässt.</p>
+                     </note>
+                     <note target="#ed2ln20">
+                        <ref>i.20</ref>
+                        <p xml:id="p48"> προ̣[ΐει: Entweder bildet der rechte Schaft des Π unten eine Schlaufe aus, oder das Π ist verwischt. Nur der linke Bogen des Ο ist noch erhalten.</p>
+                     </note>
+                     <note target="#ed2ln21">
+                        <ref>i.21</ref>
+                        <p xml:id="p49"> φ]α̣ίδιμος̣: Vom Α ist nur ein Punkt vom untersten Teil der Linksschräge erhalten. Vom Σ zeugen Tintenreste des Balkens.</p>
+                     </note>
+                     <note target="#ed2ln22">
+                        <ref>i.22</ref>
+                        <p xml:id="p50"> χάλκ[εο]ν: Der Platz, den die Lacuna auf dem Papyrus einnimmt, ist für zwei Buchstaben verhältnismäßig groß, zumal Ε und Ο keine sehr breiten Buchstaben sind und am Rand nach dem Κ und vor Ν möglicherweise noch Tintenspuren zu erkennen sind.</p>
+                     </note>
+                     <note target="#ed2ln23">
+                        <ref>i.23</ref>
+                        <p xml:id="p51"> δ̣’ ἥρ̣[πασε: Vom Δ ist nur die rechte Hälfte in Teilen erkennbar.</p>
+                        <p xml:id="p52">Ἀθ[ή]νη: Nur der rechte Schaft des Ν ist erhalten.</p>
+                     </note>
+                     <note target="#ed2ln24">
+                        <ref>i.24</ref>
+                        <p xml:id="p53"> λάθ]ε δ’̣: Vom Δ ist nur der untere Teil der Linksschräge erhalten.</p>
+                        <p xml:id="p54">λ]αῶν: Vom Ν ist nur der untere Teil der beiden Schäfte erhalten.</p>
+                     </note>
+                     <note target="#ed2ln25">
+                        <ref>i.25</ref>
+                        <p xml:id="p55"> προσέειπ]εν: Zwischen Ε und Ν befindet sich ein horizontaler Strich. Möglicherweise handelt es sich um den verwischten Mittelbalken des Ε, oder der Mittelbalken ist lediglich länger als gewöhnlich.</p>
+                        <p xml:id="p56">Π]ηλεΐ̣ω̣ν̣α: Ι und Ω sind schattenhaft erkennbar, vom Ν zeugt nur ein Punkt, der dem unteren Teil des linken Schafts zuzuordnen ist.</p>
+                     </note>
+                     <note target="#ed2ln26">
+                        <ref>i.26</ref>
+                        <p xml:id="p57"> Ἀχι̣λ̣[λ]εῦ: Vom Λ ist nur die untere Hälfte erkennbar.</p>
+                     </note>
+                     <note target="#ed2ln27">
+                        <ref>i.27</ref>
+                        <p xml:id="p58"> ἔ̣φης [γε: Der Mittelbalken des Ε ist entweder verschmiert oder länger ausgeführt als gewöhnlich. Möglicherweise ist das Γ schattenhaft erkennbar.</p>
+                     </note>
+                     <note target="#ed2ln28">
+                        <ref>i.28</ref>
+                        <p xml:id="p59"> μύθω̣[ν Zwischen Μ und Υ liegt verhältnismäßig viel Raum, der teils sicherlich dem Φ von ἔφης in Z. 27 geschuldet ist. Allerdings stellt sich aufgrund eines Schattens von Tinte die Frage, ob die Lücke zwischen den Buchstaben nicht auch einer Verschreibung geschuldet sein könnte.</p>
+                     </note>
+                     <note target="#ed2ln29">
+                        <ref>i.29</ref>
+                        <p xml:id="p60"> μ]ένεος Zwischen Ν und Ε befindet sich ein Punkt.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p61"><ref>29–30</ref> Unter dem Λ von λάθ[ωμαι aus Z. 29 sind noch Tintenspuren zu erkennen. Eine genaue Bestimmung des Buchstabens ist schwierig; es handelt sich entweder um den oberen Teil des Υ von [δόρυ] oder des Π von [πήξεις].</p>
+                     </note>
+                     <note target="#ed2ln30">
+                        <ref>i.30</ref>
+                        <p xml:id="p62"> μεταφ[ρένωι: Der Mittelbalken des Ε ist schräg nach rechts oben verlängert.</p>
+                     </note>
+                     <note target="#ed2ln31">
+                        <ref>i.31</ref>
+                        <p xml:id="p63"> σ̣τήθ[εσφιν: Entweder verschmilzt der letzte Abschnitt des Bogens von Σ mit dem Schaft des Τ oder das Τ ist nach links verwischt.</p>
+                     </note>
+                     <note target="#ed2ln32">
+                        <ref>i.32</ref>
+                        <p xml:id="p64"> ν]ῦ̣ν̣: Vom Υ zeugt lediglich der oberste Teil der Linksschräge.</p>
+                        <p xml:id="p65">ἐμ[ὸν: Der Mittelbalken des Ε ist verlängert.</p>
+                     </note>
+                     <note target="#ed2ln34">
+                        <ref>i.34</ref>
+                        <p xml:id="p66"> ἐλαφρότερ]ος: Das Σ ist C-förmig.</p>
+                     </note>
+                     <note target="#ed2ln35">
+                        <ref>i.35</ref>
+                        <p xml:id="p67"> καταφθιμέ]ν[ο]ιο σὺ: Vom Ν ist der rechte Schaft erhalten.</p>
+                     </note>
+                     <note target="#ed2ln37">
+                        <ref>i.37</ref>
+                        <p xml:id="p68"> μέσον: Das Μ ist verhältnismäßig breit und den Tintenspuren nach zu urteilen, anders als im Papyrus üblich, im Mittelteil spitz gestaltet und bis in den unteren Teil der Zeile gezogen.</p>
+                     </note>
+                     <note target="#ed2ln38">
+                        <ref>ii.38</ref>
+                        <p xml:id="p69"> ἀπεπλάγχ]θη̣: Das Θ außerhalb der Lacuna ist dem kleinsten beschriebenen Fragment zuzuordnen. Am oberen Rand des Fragments wird deutlich, dass es sich um ein Bruchstück der ersten Zeile einer Kolumne handelt. Leider lässt sich die exakte Position nicht genau eingrenzen, da sowohl der erste Vers von Kolumne I als auch der von Kolumne II ein Θ enthalten (insoweit man davon ausgeht, dass der Text nicht aus mehr als drei Kolumnen bestand).<note place="foot" xml:id="ftn20" n="20"><p> Der erste Vers von Kolumne III könnte bei einer Kolumnenlänge von 36–38 Versen mit dem Vers 327 (ἀντικρὺ δ’ ἁοαλοῖο δι’ αὐχένος ἤλυθ’ ἀκωκή) zwar ein Θ enthalten, allerdings ist auf dem Fragment klar erkennbar, dass es sich bei dem auf das Θ folgenden Buchstaben nicht um ein Α handeln kann, da der folgende Tintenfleck nicht schräg, sondern vertikal ausgerichtet ist.</p></note> Im Rahmen der Edition wurde das Fragment Kolumne II zugeordnet, da der Tintenfleck rechts neben dem Θ recht gerade ist und deutlich besser zu einem H als zu einem gerundeten E passt, das im Fall einer Zuordnung zu Kolumne I auf das Θ folgen würde.</p>
+                        <p xml:id="p70">σάκ]ε̣ο̣ς̣ δ̣ό̣ρ̣υ: Die Tinte ist stark abgerieben. Der Rekonstruktionsversuch beruht auf den noch erkennbaren Rundungen der Buchstaben.</p>
+                     </note>
+                     <note target="#ed2ln40">
+                        <ref>ii.40</ref>
+                        <p xml:id="p71"> ἔ̣χ[̣ε: Vom Χ ist ein kleiner Tintenfleck des unteren Teils der Rechtsschräge unter der Lacuna erhalten.</p>
+                        <p xml:id="p72">μείλ[ινον: Ausgehend von der letzten zur langen Linksschrägen des Λ passenden Tintenspur des Verses lassen sich die vorangehenden Buchstaben eindeutig identifizieren.</p>
+                     </note>
+                     <note target="#ed2ln41">
+                        <ref>ii.41</ref>
+                        <p xml:id="p73"> λε]υκάσπ[ιδα: Das Υ ist nach rechts verwischt. Möglicherweise zog sich die resultierende Tintenspur nach rechts oben, was den Tintenfleck knapp oberhalb der Lacuna vor dem Κ erklären könnte.</p>
+                     </note>
+                     <note target="#ed2ln43">
+                        <ref>ii.43</ref>
+                        <p xml:id="p74"> ἐνὶ] φρεσὶ: Eventuell war das Ι von ἐνί verwischt, was den feinen horizontalen Strich vor dem Φ erklären würde.</p>
+                     </note>
+                     <note target="#ed2ln44">
+                        <ref>ii.44</ref>
+                        <p xml:id="p75"> θεο]ὶ θάνα[τόνδε: Vom zweiten Α ist der oberste Teil der Linksschräge erhalten.</p>
+                     </note>
+                     <note target="#ed2ln45">
+                        <ref>ii.45</ref>
+                        <p xml:id="p76"> Einige wenige Überreste des folgenden Verses lassen sich noch erkennen, hauptsächlich der oberste Abschnitt einer Linksschräge unter dem Ν von ἐφά]μην.</p>
+                     </note>
+                     <note target="#ed2ln47">
+                        <ref>iii.47</ref>
+                        <p xml:id="p77"> ὑπ̣[όσχωνται: Vom Π ist noch der unterste Teil des linken Schaftes erhalten.</p>
+                     </note>
+                     <note target="#ed2ln48">
+                        <ref>iii.48</ref>
+                        <p xml:id="p78"> χρυσ]ῶι ἐρ̣ύ̣σασθ[αι: Das Ρ ähnelt einem Υ, da der obere Teil der Rundung abgerieben ist.</p>
+                     </note>
+                     <note target="#ed2ln50">
+                        <ref>iii.50</ref>
+                        <p xml:id="p79"> γο]ή̣σεται: Das Η ist vermutlich verwischt, was den feinen horizontalen Strich vor dem Σ erklären würde.</p>
+                        <p xml:id="p80">τ̣[έκεν: Der Balken des Τ ist verhältnismäßig lang.</p>
+                     </note>
+                     <note target="ed2ln51">
+                        <ref>iii.51</ref>
+                        <p xml:id="p81"> οἰω]νοὶ̣: Vom Ι zeugen nur wenige Punkte.</p>
+                        <p xml:id="p82">κατὰ: Unter den Buchstaben Κ und Τ lassen sich zwei nicht näher identifizierbare Tintenspuren ausmachen, die zum nächsten Vers gehören.</p>
+                     </note>
+                     <note target="#ed2ln55">
+                        <ref>iii.55</ref>
+                        <p xml:id="p83"> νῦ]ν̣, μ̣[ή: Der rechte Schaft des Ν und Teile des Μ sind erhalten.</p>
+                     </note>
+                     <note target="#ed2ln56">
+                        <ref>iii.56</ref>
+                        <p xml:id="p84"> κ̣α̣ὶ̣: Der untere Teil der Linksschräge von Κ kreuzt sich kurz vor der Lacuna mit dem untersten Teil der Rechtsschräge von Α. Nach der Lacuna lässt sich wiederum der untere Teil der Linksschräge von Α erkennen, die sich ihrerseits mit dem Schaft von Ι kreuzt.</p>
+                     </note>
+                     <note target="#ed2ln57">
+                        <ref>iii.57</ref>
+                        <p xml:id="p85"> Σκα̣[ιῆισι: Vom Α lässt sich nur der unterste Abschnitt der Rechtsschräge ausmachen.</p>
+                     </note>
+                     <note target="#ed2ln58">
+                        <ref>iii.58</ref>
+                        <p xml:id="p86"> ε]ἰ̣πόντα: Das Ι ist verhältnismäßig breit. Möglicherweise befindet sich über dem Ι ein Trema, das mit dem Schaft des Τ von ἐό]ν̣τ’ aus Z. 56 verschmilzt.</p>
+                     </note>
+                     <note target="#ed2ln59">
+                        <ref>iii.59</ref>
+                        <p xml:id="p87"> π[τ]αμ̣ένη Ἄϊ̣[δος: Vom Ι ist nur der oberste Teil des Schaftes erhalten.</p>
+                     </note>
+                     <note target="#ed2ln60">
+                        <ref>iii.60</ref>
+                        <p xml:id="p88"> τεθν]ειῶ[τ]α: Wie West in seinem Apparat bemerkt, handelt es sich bei diesem Papyrus um einen der Textzeugen, die eine von τεθνεῶτα abweichende Lesart überliefern.</p>
+                        <p xml:id="p89">π[ρ]οσηύ[δ]α: Vom Α lässt sich noch der oberste Teil der Linksschräge unter dem Η von π[τ]αμ̣ένη aus Z. 59 erkennen.</p>
+                     </note>
+                     <note target="#ed2ln62">
+                        <ref>62–69</ref>
+                        <p xml:id="p90"> Das von der <ref target="https://hdl.handle.net/10079/digcoll/2756786">Yale University Library</ref> als Fragment 2 bezeichnet Bruchstück gibt Rätsel auf. Grundsätzlich handelt es sich um den linken Abschnitt eines Kolumnen-Anfangs; weder im linken noch im obersten Bereich lassen sich Tintenspuren erkennen. Der Versuch, das Fragment einer der drei Kolumnen zuzuordnen scheiterte jedoch. Nur wenige Verse im 22. Buch der Ilias beginnen mit der Buchstabenkombination ΡΟ und es gibt keinen solchen Vers, dem in unmittelbarer Nähe ein Vers folgt, der mit Σ beginnt.</p>
+                     </note>
+                  </div>
+               </div>
+               <div type="bibliography">
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/78171">Cavallo, G. (2009)</ref> “Greek and Latin Writing in the Papyri,” in R.S. Bagnall (ed.), The Oxford Handbook of Papyrology. Oxford: 101–148.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/20342">Cavallo, G. and Maehler, H. (2008)</ref> Hellenistic Bookhands. Berlin – New York.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/68414">CPF 1.1.3 (1999)</ref> Corpus dei Papiri filosofici greci e latini (CPF). Testi e lessico nei papiri di cultura greca e latina. Parte I: Autori noti. Vol. 1.3. Firenze.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95143">Grenfell, B., Hunt, A and Hogarth, D (eds.) (1900)</ref> Fayûm Towns and their Papyri, London.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95234">Grenfell, B. and Hunt, A. (eds.) (1904)</ref> The Oxyrhynchos Papyri Part IV. London.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95236">Grenfell, B. and Hunt, A. (eds.) (1908)</ref> The Oxyrhynchos Papyri Part VI. London.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96804">Nagy, G. (2008)</ref> “Traces of an Ancient System of Reading Homeric Verse in the Venetus A,” in C. Dué (ed.), Recapturing a Homeric Legacy: Images and Insights from the Venetus A Manuscript of the Iliad. Hellenic Studies 35. Washington, DC: 133–157.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96805">Nagy, G. (2011)</ref> “Reading the Homeric Hexameter Aloud While Following the Accentual Markings of a <emph rend="italics">Diorthotes</emph>,” in M.-K. Lotman and M. Lotman (eds.), Frontiers in Comparative Prosody. Linguistik Insights 113. Bern – Berlin – Bruxelles et al.: 253–267.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/7096">Oates, J., Samuel, A. and Welles, C. (eds.) (1967)</ref> Yale Papyri in the Beinecke rare book and manuscript library. Vol. I (American studies in Papyrology, Vol. II). New Haven – Toronto.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/6759">Pack, R. (1965)</ref> The Greek and Latin Literary Texts from Greco-Roman Egypt. Second Revised and Enlarged Edition. Ann Arbor.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/5264">Roberts, C. (1955)</ref> Greek Literary Hands 350 B.C.–A.D. 400. Oxford.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96801">Schubart, W. (1925)</ref> Griechische Paläographie. München.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/79908">Subacus, M. et al. (2011)</ref> “Six Homeric Papyri from Oxyrhynchus,” BASP 48: 7–26.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95465">West, M.L. (2000)</ref> Homeri Ilias. Volumen alterum. Rhapsodias XIII–XXIV continens (Bibliotheca scriptorum Graecorum et Romanorum Teubneriana). Leipzig.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/16711">West, M.L. (2001)</ref> Studies in the text and transmission of the Iliad. München.</bibl>
+                  </listBibl>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Homer, Il. 24.74–90</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Digital Corpus of Literary Papyri</authority>
+               <idno type="filename">60741</idno>
+               <idno type="dclp">60741</idno>
+               <idno type="TM">60741</idno>
+               <availability>
+                  <p>© Digital Corpus of Literary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P.CtYBR inv. 2201</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm"/>
+                              <measure type="width" unit="cm"/>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>unbekannt</origPlace>
+                        <origDate>III</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref></p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Homer, Il. 24.74–90</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1" xml:id="ed1ln1"/><supplied reason="lost">ἀλλʼ εἴ τις καλέσει</supplied>ε θε<hi rend="circumflex">ῶ</hi>ν<note>θεῶν papyrus</note> Θέ<unclear>τ</unclear><supplied reason="lost">ιν ἄσσον ἐμεῖο,</supplied>
+<lb n="2" xml:id="ed1ln2"/><supplied reason="lost">ὄφρα τί οἱ εἴπω πυ</supplied><unclear>κ</unclear><hi rend="grave">ι</hi>νὸν <hi rend="acute">ἔ</hi>πος,<note>πυ]κ̣ὶνον έπος papyrus</note> <supplied reason="lost">ὥς κεν Ἀχιλλεύς</supplied>
+<lb n="3" xml:id="ed1ln3"/><supplied reason="lost">δώρων ἐκ Πριά</supplied><unclear>μ</unclear><supplied reason="lost">o</supplied>ι<unclear>ο</unclear> <supplied reason="lost">λ</supplied>άχ<hi rend="acute">ῃ</hi><note>λ]αχή papyrus</note> ἀπ<supplied reason="lost">ό θʼ Ἕκτορα λύσηι.</supplied>
+<lb n="4" xml:id="ed1ln4"/><supplied reason="lost">ὣς ἔφατʼ· ὦρτο δ</supplied>ὲ Ἶρις ἀελλ<supplied reason="lost">όπος ἀγγελέουσα.</supplied>
+<lb n="5" xml:id="ed1ln5"/><supplied reason="lost">μεσσηγὺς δὲ Σά</supplied>μου <supplied reason="omitted">τε</supplied> καὶ Ἴμ<supplied reason="lost">βρου παιπαλοέσσης</supplied>
+<lb n="6" xml:id="ed1ln6"/><supplied reason="lost">ἔνθορε μείλαν</supplied>ι π<supplied reason="lost">ό</supplied>ντῳ<g type="high-punctus"/><note>π[ο]ντω  ̇ papyrus</note> ἐπεστ<unclear>ο</unclear><supplied reason="lost">νάχησε δὲ λίμνη·</supplied>
+<lb n="7" xml:id="ed1ln7"/><supplied reason="lost">ἣ δὲ μολυβδαίν</supplied>ῃ <supplied reason="lost">ἰ</supplied>κέλη ἐς β<hi rend="grave">υ</hi>σ<unclear>σ</unclear><supplied reason="lost">ὸν<note>βὺσσ̣[ον papyrus</note> ὄρουσεν,</supplied>
+<lb n="8" xml:id="ed1ln8"/><supplied reason="lost">ἥ τε κατʼ ἀγραύ</supplied>λ<unclear>οιο</unclear> βοὸς κ<hi rend="acute">έ</hi>ρας<note>κέρας papyrus</note> <unclear>ἐ</unclear><supplied reason="lost">μβεβαυῖα</supplied>
+<lb n="9" xml:id="ed1ln9"/><supplied reason="lost">ἔρχεται ὠμηστῆισι</supplied><unclear>ν</unclear> ἐπ’ ἰ<supplied reason="lost">χθύσι κῆρα φέρουσα.</supplied>
+<lb n="10" xml:id="ed1ln10"/><supplied reason="lost">ηὗρε δʼ ἐνὶ σπῆϊ γ</supplied>λαφυρ<unclear>ῷ</unclear> <supplied reason="lost">Θέτ</supplied>ι<unclear>ν</unclear>· <supplied reason="lost">ἀμφὶ δʼ ἄρʼ ἄλλαι</supplied>
+<lb n="11" xml:id="ed1ln11"/><supplied reason="lost">εἵαθʼ ὁμηγερέες <hi rend="acute">ἅ</hi></supplied>λια<unclear>ι</unclear><note>ά]λιαι θὲα[ι papyrus</note> θ<hi rend="grave">ε</hi>α<supplied reason="lost">ί</supplied>, <unclear>ἣ</unclear> δ’ <unclear>ἐ</unclear><supplied reason="lost">νὶ μέσσηις</supplied>
+<lb n="12" xml:id="ed1ln12"/><supplied reason="lost">κλαῖε μόρον οὗ πα</supplied><unclear>ι</unclear>δ<unclear>ὸ</unclear>ς ἀμ<hi rend="acute">ύ</hi>μο<unclear>ν</unclear><supplied reason="lost">ος<note>αμύμον[̣ος papyrus</note>, ὅς οἱ ἔμελλεν</supplied>
+<lb n="13" xml:id="ed1ln13"/><supplied reason="lost">φθείσεσθʼ ἐν Τροί</supplied><unclear>ῃ</unclear> ἐριβώλακι, τ<supplied reason="lost">ηλόθι πάτρης.</supplied>
+<lb n="14" xml:id="ed1ln14"/><supplied reason="lost">ἀγχοῦ δʼ ἱσταμέν</supplied>η προσ<hi rend="acute">έ</hi>φη<note>προσέφη papyrus</note> πόδ<unclear>α</unclear><supplied reason="lost">ς ὠκέα Ἶρις·</supplied>
+<lb n="15" xml:id="ed1ln15"/><supplied reason="lost">ὄρσο Θέτι· καλέει</supplied> Ζεὺς ἄφθιτα μ<hi rend="acute">ή</hi><unclear>δ</unclear><supplied reason="lost">εα<note>μήδ̣[εα papyrus</note> εἰδώς.</supplied>
+<lb n="16" xml:id="ed1ln16"/><supplied reason="lost">τὴν δʼ ἠμείβετʼ ἔπε</supplied>ιτα θεὰ <unclear>Θ</unclear>έτις <unclear>ἀ</unclear>ρ<supplied reason="lost">γυρόπεζα·</supplied>
+<lb n="17" xml:id="ed1ln17"/><supplied reason="lost">τίπτε με κεῖνος ἄνω</supplied><unclear>γ</unclear>ε μ<unclear>έ</unclear><supplied reason="lost">γας θεός; αἰδέομαι δέ</supplied>
+<lb n="17"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+             
+             
+             <!-- This is the text which has been prepared for transfer to DCLP once Pylon 5 is published -->
+             <div xml:id="ed3" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><supplied reason="lost">ἀλλʼ εἴ τις καλέσει</supplied>ε θε<hi rend="circumflex">ῶ</hi>ν Θέ<unclear>τ</unclear><supplied reason="lost">ιν ἄσσον ἐμεῖο,</supplied>
+<lb n="2"/><supplied reason="lost">ὄφρα τί οἱ εἴπω πυ</supplied><unclear>κ</unclear><hi rend="grave">ι</hi>νὸν <hi rend="acute">ἔ</hi>πος, <supplied reason="lost">ὥς κεν Ἀχιλλεύς</supplied>
+<lb n="3"/><supplied reason="lost">δώρων ἐκ Πριά</supplied><unclear>μ</unclear><supplied reason="lost">o</supplied>ι<unclear>ο</unclear> <supplied reason="lost">λ</supplied>άχ<hi rend="acute">ῃ</hi> ἀπ<supplied reason="lost">ό θʼ Ἕκτορα λύσηι.</supplied>
+<lb n="4"/><supplied reason="lost">ὣς ἔφατʼ· ὦρτο δ</supplied>ὲ Ἶρις ἀελλ<supplied reason="lost">όπος ἀγγελέουσα.</supplied>
+<lb n="5"/><supplied reason="lost">μεσσηγὺς δὲ Σά</supplied>μου <app type="editorial"><lem resp="mss">τε</lem><rdg resp="om. pap"/></app> καὶ Ἴμ<supplied reason="lost">βρου παιπαλοέσσης</supplied>
+<lb n="6"/><supplied reason="lost">ἔνθορε μείλαν</supplied>ι π<supplied reason="lost">ό</supplied>ντῳ<g type="high-punctus"/> ἐπεστ<unclear>ο</unclear><supplied reason="lost">νάχησε δὲ λίμνη·</supplied>
+<lb n="7"/><supplied reason="lost">ἣ δὲ μολυβδαίν</supplied>ῃ <supplied reason="lost">ἰ</supplied>κέλη ἐς β<hi rend="grave">υ</hi>σ<unclear>σ</unclear><supplied reason="lost">ὸν ὄρουσεν,</supplied>
+<lb n="8"/><supplied reason="lost">ἥ τε κατʼ ἀγραύ</supplied>λ<unclear>οιο</unclear> βοὸς κ<hi rend="acute">έ</hi>ρας <unclear>ἐ</unclear><supplied reason="lost">μβεβαυῖα</supplied>
+<lb n="9"/><supplied reason="lost">ἔρχεται ὠμηστῆισι</supplied><unclear>ν</unclear> ἐπ’ ἰ<supplied reason="lost">χθύσι κῆρα φέρουσα.</supplied>
+<lb n="10"/><supplied reason="lost">ηὗρε δʼ ἐνὶ σπῆϊ γ</supplied>λαφυρ<unclear>ῷ</unclear> <supplied reason="lost">Θέτ</supplied>ι<unclear>ν</unclear>· <supplied reason="lost">ἀμφὶ δʼ ἄρʼ ἄλλαι</supplied>
+<lb n="11"/><supplied reason="lost">εἵαθʼ ὁμηγερέες <hi rend="acute">ἅ</hi></supplied>λια<unclear>ι</unclear> θ<hi rend="grave">ε</hi>α<supplied reason="lost">ί</supplied>, <unclear>ἣ</unclear> δ’ <unclear>ἐ</unclear><supplied reason="lost">νὶ μέσσηις</supplied>
+<lb n="12"/><supplied reason="lost">κλαῖε μόρον οὗ πα</supplied><unclear>ι</unclear>δ<unclear>ὸ</unclear>ς ἀμ<hi rend="acute">ύ</hi>μο<unclear>ν</unclear><supplied reason="lost">ος, ὅς οἱ ἔμελλεν</supplied>
+<lb n="13"/><supplied reason="lost">φθείσεσθʼ ἐν Τροί</supplied><unclear>ῃ</unclear> ἐριβώλακι, τ<supplied reason="lost">ηλόθι πάτρης.</supplied>
+<lb n="14"/><supplied reason="lost">ἀγχοῦ δʼ ἱσταμέν</supplied>η προσ<hi rend="acute">έ</hi>φη πόδ<unclear>α</unclear><supplied reason="lost">ς ὠκέα Ἶρις·</supplied>
+<lb n="15"/><supplied reason="lost">ὄρσο Θέτι· καλέει</supplied> Ζεὺς ἄφθιτα μ<hi rend="acute">ή</hi><unclear>δ</unclear><supplied reason="lost">εα εἰδώς.</supplied>
+<lb n="16"/><supplied reason="lost">τὴν δʼ ἠμείβετʼ ἔπε</supplied>ιτα θεὰ <unclear>Θ</unclear>έτις <unclear>ἀ</unclear>ρ<supplied reason="lost">γυρόπεζα·</supplied>
+<lb n="17"/><supplied reason="lost">τίπτε με κεῖνος ἄνω</supplied><unclear>γ</unclear>ε μ<unclear>έ</unclear><supplied reason="lost">γας θεός; αἰδέομαι δέ</supplied>
+<lb n="17"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>                 
+                 
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Fragmente eines Homer-Papyrus, Il. 22.254–299, 350–355 und 358–365</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Digital Corpus of Literary Papyri</authority>
+               <idno type="filename">60370</idno>
+               <idno type="dclp">60370</idno>
+               <idno type="TM">60370</idno>
+               <availability>
+                  <p>© Digital Corpus of Literary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P.CtYBR inv. 8 fol</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm"/>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>unbekannt</origPlace>
+                        <origDate>I</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref></p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Fragmente eines Homer-Papyrus, Il. 22.254–299, 350–355 und 358–365</head>
+            <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="1" subtype="part" type="textpart">
+<div n="i" subtype="column" type="textpart"><ab>
+<lb n="1" xml:id="ed2ln1"/><supplied reason="lost">ἀλλ’ ἄγε δεῦρο θεοὺς ἐπιδώμεθα· τοὶ γὰρ</supplied> <unclear>ἄ</unclear>ριστοι
+<lb n="2" xml:id="ed2ln2"/><supplied reason="lost">μάρτυροι ἔσσονται καὶ ἐπίσκοπ</supplied>οι ἁρμονιά<supplied reason="lost">ων</supplied>
+<lb n="3" xml:id="ed2ln3"/><supplied reason="lost"><unclear>ο</unclear>ὐ γὰρ ἐγὼ σ’ ἔκπαγλον ἀεικίω, αἴ κε</supplied><unclear>ν</unclear> ἐμοὶ <unclear>Ζε</unclear>ύ<unclear>ς</unclear>
+<lb n="4" xml:id="ed2ln4"/><supplied reason="lost">δώηι καμμονίην, σὴν δὲ ψυχὴ</supplied><unclear>ν</unclear> ἀφέλωμαι·
+<lb n="5" xml:id="ed2ln5"/><supplied reason="lost">ἀλλ’ ἐπεὶ ἄρ κέ σε συλήσω</supplied> <unclear>κ</unclear>λυ<supplied reason="lost">τὰ τεύχε’,</supplied> <unclear>Ἀχ</unclear>ι<unclear>λλεῦ</unclear>,
+<lb n="6" xml:id="ed2ln6"/><supplied reason="lost">νεκρὸν Ἀχαιοῖσιν δώσω</supplied> πά<supplied reason="lost">λιν· ὣ</supplied>ς δὲ σὺ ῥέζ<supplied reason="lost">ειν.</supplied>
+<lb n="7" xml:id="ed2ln7"/><supplied reason="lost">τὸν δ’ ἄρ’ ὑπόδρα ἰδὼν προ</supplied>σέφ<supplied reason="lost">η πό</supplied>δας ὠκὺς Ἀ<unclear>χι</unclear><supplied reason="lost">λλεύς·</supplied>
+<lb n="8" xml:id="ed2ln8"/><supplied reason="lost">Ἕκτορ μή μοι, ἄλαστε, συ</supplied>νημ<supplied reason="lost">οσύ</supplied>νας ἀ<unclear>γ</unclear>ό<unclear>ρε</unclear><supplied reason="lost">υε·</supplied>
+<lb n="9" xml:id="ed2ln9"/><supplied reason="lost">ὡς οὐκ ἔστι λέουσι καὶ ἀ</supplied>νδρ<unclear>ά</unclear><supplied reason="lost">σιν</supplied> ὅρκια <unclear>π</unclear><supplied reason="lost">ιστά,</supplied>
+<lb n="10,minf" xml:id="ed2ln10"/><supplied reason="lost">οὐδὲ λύκοι τε κα</supplied>ὶ ἄρνες ὁ<unclear>μό</unclear>φρον<supplied reason="lost">α θυμὸν ἔχουσιν,</supplied>
+<lb n="11" xml:id="ed2ln11"/><supplied reason="lost">ἀλλὰ κακὰ φρονέου</supplied><unclear>σ</unclear>ι διαμπ<supplied reason="lost">ερὲ</supplied><unclear>ς</unclear> ἀλλ<unclear>ήλ</unclear>ο<supplied reason="lost">ισιν,</supplied>
+<lb n="12" xml:id="ed2ln12"/><supplied reason="lost">ὣς οὐκ ἔστ’ ἐμὲ καὶ σ</supplied><unclear>ὲ</unclear> φ<unclear>ι</unclear>λήμε<supplied reason="lost">ναι, ο</supplied>ὐδέ <unclear>τ</unclear>ι ν<supplied reason="lost">ῶϊν</supplied>
+<lb n="13" xml:id="ed2ln13"/><supplied reason="lost">ὅρκια ἔσσονται, πρί</supplied><unclear>ν</unclear> <unclear>ἠ</unclear>’ <unclear>ἕτε</unclear><supplied reason="lost">ρόν γ</supplied><unclear>ε</unclear> πεσ<unclear>ό</unclear><supplied reason="lost">ντα</supplied>
+<lb n="14" xml:id="ed2ln14"/><supplied reason="lost">αἵματος ἆσαι Ἄρηα τ</supplied>αλαύρ<unclear>ι</unclear><supplied reason="lost">νον</supplied> πολ<supplied reason="lost">εμ</supplied><unclear>ι</unclear><supplied reason="lost">στήν.</supplied>
+<lb n="15" xml:id="ed2ln15"/><supplied reason="lost">παντοίης ἀρετῆς μι</supplied>μνήσκ<supplied reason="lost">εο· νῦ</supplied>ν σε μάλ<unclear>α</unclear> <supplied reason="lost">χρή</supplied>
+<lb n="16" xml:id="ed2ln16"/><supplied reason="lost">αἰχμητήν τ’ ἔμεναι</supplied> καὶ θαρ<supplied reason="lost">σαλέο</supplied>ν πολε<unclear>μ</unclear><supplied reason="lost">ιστήν.</supplied>
+<lb n="17" xml:id="ed2ln17"/><supplied reason="lost">οὔ τοι ἔτ’ ἔσθ’ ὑπάλυξ</supplied>ις, ἄφαρ δ<supplied reason="lost">έ σε</supplied> Παλλὰ<unclear>ς</unclear> <supplied reason="lost">Ἀθήνη</supplied>
+<lb n="18" xml:id="ed2ln18"/><supplied reason="lost">ἔγχει ἐμῶι δαμάαι.</supplied> <unclear>ν</unclear>ῦν δ’ ἀθ<supplied reason="lost">ρόα π</supplied>άντ’ ἀπ<supplied reason="lost">οτίσεις</supplied>
+<lb n="19" xml:id="ed2ln19"/><supplied reason="lost">κήδε’ ἐμῶν ἑτάρω</supplied>ν οὓ<supplied reason="lost">ς ἔκταν</supplied>ες ἔγχε<supplied reason="lost">ϊ θύμων.</supplied>
+<lb n="20" xml:id="ed2ln20"/><supplied reason="lost">ἦ ῥα, καὶ ἀμπεπελὼν</supplied> πρ<unclear>ο</unclear><supplied reason="lost">ΐει δολιχό</supplied>σκιον ἔ<supplied reason="lost">γχος·</supplied>
+<lb n="21" xml:id="ed2ln21"/><supplied reason="lost">καὶ τὸ μὲν ἄντα ἰδ</supplied>ὼν ἠ<supplied reason="lost">λεύατο φ</supplied><unclear>α</unclear>ίδιμο<unclear>ς</unclear> <supplied reason="lost">Ἕκτωρ·</supplied>
+<lb n="22" xml:id="ed2ln22"/><supplied reason="lost">ἕζετο γὰρ προϊδών,</supplied> τὸ δ’ <supplied reason="lost">ὑπέρπτατο</supplied> χάλκ<supplied reason="lost">εο</supplied>ν <supplied reason="lost">ἔγχος,</supplied>
+<lb n="23" xml:id="ed2ln23"/><supplied reason="lost">ἐν γαίηι δ’ ἐπάγη· ἀνὰ</supplied> <unclear>δ</unclear>’ ἥ<unclear>ρ</unclear><supplied reason="lost">πασε Παλ</supplied>λὰς Ἀθ<supplied reason="lost">ή</supplied>νη,
+<lb n="24" xml:id="ed2ln24"/><supplied reason="lost">ἂψ δ’ Ἀχιλῆϊ δίδου, λάθ</supplied>ε δ<unclear>’</unclear> <supplied reason="lost">Ἕκτορα ποι</supplied>μέ<unclear>ν</unclear><supplied reason="lost">α λ</supplied>αῶν.
+<lb n="25" xml:id="ed2ln25"/><supplied reason="lost">Ἕκτωρ δὲ προσέειπ</supplied>εν ἀμ<supplied reason="lost">ύμονα Π</supplied>ηλε<unclear>ΐων</unclear>α·
+<lb n="26" xml:id="ed2ln26"/><supplied reason="lost">ἤμβροτες, οὐδ’ ἄρα</supplied> πώ τι θε<unclear>ο</unclear><supplied reason="lost">ῖς ἐπιείκ</supplied>ελ’ Ἀχ<unclear>ιλ</unclear><supplied reason="lost">λ</supplied>εῦ
+<lb n="27" xml:id="ed2ln27"/><supplied reason="lost">ἐκ Διὸς ἠείδης τὸν ἐ</supplied>μὸν μόρ<supplied reason="lost">ον, ἦ τοι</supplied> <unclear>ἔ</unclear>φης <supplied reason="lost">γε·</supplied>
+<lb n="28" xml:id="ed2ln28"/><supplied reason="lost">ἀλλά τις ἀρτιεπὴς κα</supplied><unclear>ὶ</unclear> ἐπίκλο<unclear>π</unclear><supplied reason="lost">ος ἔπλεο</supplied> μύθ<unclear>ω</unclear><supplied reason="lost">ν,</supplied>
+<lb n="29" xml:id="ed2ln29"/><supplied reason="lost">ἄφρά σ’ ὑποδείσας μ</supplied>ένεος ἀ<supplied reason="lost">λκῆς τε</supplied> λάθ<supplied reason="lost">ωμαι.</supplied>
+<lb n="30" xml:id="ed2ln30"/><supplied reason="lost">οὐ μέν μοι φεύγοντ</supplied>ι μεταφ<supplied reason="lost">ρένωι ἐν δόρυ πήξεις,</supplied>
+<lb n="31" xml:id="ed2ln31"/><supplied reason="lost">ἀλλ’ ἰθὺς μεμαῶτι δ</supplied>ιὰ <unclear>σ</unclear>τήθ<supplied reason="lost">εσφιν ἔλασσον</supplied>
+<lb n="32" xml:id="ed2ln32"/><supplied reason="lost">εἴ τοι ἔδωκε θεός· ν</supplied><unclear>ῦν</unclear> αὖτ’ ἐμ<supplied reason="lost">ὸν ἔγχος ἄλευαι</supplied>
+<lb n="33" xml:id="ed2ln33"/><supplied reason="lost">χάλκεον· ὡς δή μιν σ</supplied>ῶι ἐν χ<supplied reason="lost">ροῒ πᾶν κομίσαιο.</supplied>
+<lb n="34" xml:id="ed2ln34"/><supplied reason="lost">καί κεν ἐλαφρότερ</supplied>ος πόλεμ<supplied reason="lost">ος Τρώεσσι γένοιτο</supplied>
+<lb n="35" xml:id="ed2ln35"/><supplied reason="lost">σεῖο καταφθιμέ</supplied>ν<supplied reason="lost">ο</supplied>ιο σὺ γά<supplied reason="lost">ρ σφισι πῆμα μέγιστον.</supplied>
+<lb n="36" xml:id="ed2ln36"/><supplied reason="lost">ἦ ῥα, καὶ ἀμπεπαλὼ</supplied>ν προ<hi rend="diaeresis">ΐ</hi>ει<note>προϊει papyrus</note> δ<supplied reason="lost">ολιχόσκιον ἔγχοσς,</supplied>
+<lb n="37" xml:id="ed2ln37"/><supplied reason="lost">καὶ βάλε Πηλεΐδ</supplied>αο μέσον σ<supplied reason="lost">άκος οὐδ’ ἀφάμαρτε·</supplied>
+</ab></div>
+<div n="ii" subtype="column" type="textpart"><ab>
+<lb n="38" xml:id="ed2ln38"/><supplied reason="lost">τῆλε δ’ ἀπεπλάγχ</supplied>θ<unclear>η</unclear> <supplied reason="lost">σάκ</supplied><unclear>εος</unclear> <unclear>δόρ</unclear>υ· χώσα<supplied reason="lost">το δ’ Ἕκτωρ</supplied>
+<lb n="39" xml:id="ed2ln39"/><supplied reason="lost">ὅττί ῥά οἱ βέλος ὠκὺ ἐτ</supplied><unclear>ώσ</unclear>ιον ἔκφυ<unclear>γ</unclear><supplied reason="lost">ε χειρός,</supplied>
+<lb n="40" xml:id="ed2ln40"/><supplied reason="lost">στῆ δὲ κατηφήσας, οὐδ’ ἄ</supplied>λλ’ <unclear>ἔχ</unclear><supplied reason="lost">ε</supplied> μείλ<supplied reason="lost">ινον ἔγχος.</supplied>
+<lb n="41" xml:id="ed2ln41"/><supplied reason="lost">Δηΐφοβον δ’ ἐκάλει λε</supplied>υκάσπ<supplied reason="lost">ιδα μακρὸν ἀΰσας·</supplied>
+<lb n="42" xml:id="ed2ln42"/><supplied reason="lost">ἤιτεέ μιν δόρυ μακρόν·</supplied> ὃ δ’ οὔ τ<supplied reason="lost">ί οἱ ἐγγύθεν ἦεν.</supplied>
+<lb n="43" xml:id="ed2ln43"/><supplied reason="lost">Ἕκτωρ δ’ ἔγνω ἧισιν ἐνὶ</supplied> φρεσὶ <supplied reason="lost">φώνησέν τε·</supplied>
+<lb n="44" xml:id="ed2ln44"/><supplied reason="lost">ὢ πόποι ἦ Μάλα δή με θεο</supplied>ὶ θάνα<supplied reason="lost">τόνδε κάλεσσαν·</supplied>
+<lb n="45" xml:id="ed2ln45"/><supplied reason="lost">Δηΐφοβον γὰρ ἔγωγ’ ἐφά</supplied>μην <unclear>ἥ</unclear><supplied reason="lost">ρωα παρεῖναι·</supplied>
+<lb n="46" xml:id="ed2ln46"/><gap reason="illegible" quantity="1" unit="line"><desc>vestiges</desc></gap>
+<lb n="46"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+<div n="iii" subtype="column" type="textpart"><ab>
+<lb n="47"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="47" xml:id="ed2ln47"/><supplied reason="lost">στήσωσ’ ἐνθάδ’ ἄγοντες,</supplied> ὑ<unclear>π</unclear><supplied reason="lost">όσχωνται δὲ καὶ ἄλλα,</supplied>
+<lb n="48" xml:id="ed2ln48"/><supplied reason="lost">οὐδ’ εἴ κέν σ’ αὐτὸν χρυσ</supplied>ῶι ἐ<unclear>ρύ</unclear>σασθ<supplied reason="lost">αι ἀνώγοι</supplied>
+<lb n="49" xml:id="ed2ln49"/><supplied reason="lost">Δαρδανίδης Πρίαμος· ο</supplied>ὐδ’ ὧς σέ γε π<supplied reason="lost">ότνια μήτηρ</supplied>
+<lb n="50" xml:id="ed2ln50"/><supplied reason="lost">ἐνθεμένη λεξέεσσι γο</supplied><unclear>ή</unclear>σεται ὃν <unclear>τ</unclear><supplied reason="lost">έκεν αὐτή,</supplied>
+<lb n="51" xml:id="ed2ln51"/><supplied reason="lost">ἀλλὰ κύνες τε καὶ οἰω</supplied>νο<unclear>ὶ</unclear> κατὰ <supplied reason="lost">πάντα δάσονται.</supplied>
+<lb n="52" xml:id="ed2ln52"/><gap reason="illegible" quantity="1" unit="line"><desc>vestiges</desc></gap>
+<lb n="52"/><gap reason="lost" quantity="2" unit="line" precision="low"/>
+<lb n="55" xml:id="ed2ln55"/><supplied reason="lost">φράζεο νῦ</supplied><unclear>ν</unclear>, <unclear>μ</unclear><supplied reason="lost">ή τοί τι θεῶν μήνιμα γένωμαι</supplied>
+<lb n="56" xml:id="ed2ln56"/><supplied reason="lost">ἤματι τῶι ὅτ</supplied>ε κ<unclear>έ</unclear><supplied reason="lost">ν σε Πάρις</supplied> <unclear>καὶ</unclear> <supplied reason="lost">Φοῖβος Ἀπόλλων</supplied>
+<lb n="57" xml:id="ed2ln57"/><supplied reason="lost">ἐσθλὸν ἐό</supplied><unclear>ν</unclear>τ’ ὀλέ<supplied reason="lost">σωσιν ἐν</supplied>ὶ Σκ<unclear>α</unclear><supplied reason="lost">ιῆισι πύληισιν.</supplied>
+<lb n="58" xml:id="ed2ln58"/><supplied reason="lost">ὣς ἄρα μιν ε</supplied><unclear>ἰ</unclear>πόντα <note xml:lang="en">possibly <supplied reason="lost">ε</supplied><unclear>ϊ</unclear>ποντα on the papyrus</note> <supplied reason="lost">τέλ</supplied>ος θανά<unclear>τ</unclear><supplied reason="lost">οιο κάλυψε,</supplied>
+<lb n="59" xml:id="ed2ln59"/><supplied reason="lost">ψυχὴ δ’ ἐκ ῥε</supplied>θέων π<supplied reason="lost">τ</supplied>α<unclear>μ</unclear>ένη Ἄ<unclear>ϊ</unclear><supplied reason="lost">δος δὲ βεβήκει</supplied>
+<lb n="60" xml:id="ed2ln60"/><supplied reason="lost">τὸν καὶ τεθν</supplied>ειῶ<supplied reason="lost">τ</supplied>α π<supplied reason="lost">ρ</supplied>οσηύ<supplied reason="lost">δ</supplied>α <supplied reason="lost">δῖος Ἀχιλλεύς·</supplied>
+<lb n="61" xml:id="ed2ln61"/><supplied reason="lost">τέθναθι· κῆ</supplied><unclear>ρ</unclear>α δ’ <supplied reason="lost">ἐ</supplied><unclear>γ</unclear>ὼ τ<supplied reason="lost">ότε δέξομαι ὁππότε κεν δή</supplied>
+</ab></div>
+</div>
+<div n="2" subtype="part" type="textpart"><ab>
+<lb n="62" xml:id="ed2ln62"/>μ<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="63" xml:id="ed2ln63"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="64" xml:id="ed2ln64"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="65" xml:id="ed2ln65"/><gap reason="lost" extent="unknown" unit="character"/> <note xml:lang="en">possibly vac.1</note>
+<lb n="66" xml:id="ed2ln66"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="67" xml:id="ed2ln67"/>ρο<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="68" xml:id="ed2ln68"/>σι<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="69" xml:id="ed2ln69"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="69"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div></div>
+             
+             
+             <!-- This is the text which has been prepared for transfer to DCLP once Pylon 5 is published -->
+             <div xml:id="ed4" xml:lang="grc" type="edition" xml:space="preserve">
+             <div n="1" subtype="part" type="textpart">
+<div n="i" subtype="column" type="textpart"><ab>
+<lb n="1"/><supplied reason="lost">ἀλλ’ ἄγε δεῦρο θεοὺς ἐπιδώμεθα· τοὶ γὰρ</supplied> <unclear>ἄ</unclear>ριστοι
+<lb n="2"/><supplied reason="lost">μάρτυροι ἔσσονται καὶ ἐπίσκοπ</supplied>οι ἁρμονιά<supplied reason="lost">ων</supplied>
+<lb n="3"/><supplied reason="lost"><unclear>ο</unclear>ὐ γὰρ ἐγὼ σ’ ἔκπαγλον ἀεικίω, αἴ κε</supplied><unclear>ν</unclear> ἐμοὶ <unclear>Ζε</unclear>ύ<unclear>ς</unclear>
+<lb n="4"/><supplied reason="lost">δώηι καμμονίην, σὴν δὲ ψυχὴ</supplied><unclear>ν</unclear> ἀφέλωμαι·
+<lb n="5"/><supplied reason="lost">ἀλλ’ ἐπεὶ ἄρ κέ σε συλήσω</supplied> <unclear>κ</unclear>λυ<supplied reason="lost">τὰ τεύχε’,</supplied> <unclear>Ἀχ</unclear>ι<unclear>λλεῦ</unclear>,
+<lb n="6"/><supplied reason="lost">νεκρὸν Ἀχαιοῖσιν δώσω</supplied> πά<supplied reason="lost">λιν· ὣ</supplied>ς δὲ σὺ ῥέζ<supplied reason="lost">ειν.</supplied>
+<lb n="7"/><supplied reason="lost">τὸν δ’ ἄρ’ ὑπόδρα ἰδὼν προ</supplied>σέφ<supplied reason="lost">η πό</supplied>δας ὠκὺς Ἀ<unclear>χι</unclear><supplied reason="lost">λλεύς·</supplied>
+<lb n="8"/><supplied reason="lost">Ἕκτορ μή μοι, ἄλαστε, συ</supplied>νημ<supplied reason="lost">οσύ</supplied>νας ἀ<unclear>γ</unclear>ό<unclear>ρε</unclear><supplied reason="lost">υε·</supplied>
+<lb n="9"/><supplied reason="lost">ὡς οὐκ ἔστι λέουσι καὶ ἀ</supplied>νδρ<unclear>ά</unclear><supplied reason="lost">σιν</supplied> ὅρκια <unclear>π</unclear><supplied reason="lost">ιστά,</supplied>
+<lb n="10,minf"/><supplied reason="lost">οὐδὲ λύκοι τε κα</supplied>ὶ ἄρνες ὁ<unclear>μό</unclear>φρον<supplied reason="lost">α θυμὸν ἔχουσιν,</supplied>
+<lb n="11"/><supplied reason="lost">ἀλλὰ κακὰ φρονέου</supplied><unclear>σ</unclear>ι διαμπ<supplied reason="lost">ερὲ</supplied><unclear>ς</unclear> ἀλλ<unclear>ήλ</unclear>ο<supplied reason="lost">ισιν,</supplied>
+<lb n="12"/><supplied reason="lost">ὣς οὐκ ἔστ’ ἐμὲ καὶ σ</supplied><unclear>ὲ</unclear> φ<unclear>ι</unclear>λήμε<supplied reason="lost">ναι, ο</supplied>ὐδέ <unclear>τ</unclear>ι ν<supplied reason="lost">ῶϊν</supplied>
+<lb n="13"/><supplied reason="lost">ὅρκια ἔσσονται, πρί</supplied><unclear>ν</unclear> <unclear>ἠ</unclear>’ <unclear>ἕτε</unclear><supplied reason="lost">ρόν γ</supplied><unclear>ε</unclear> πεσ<unclear>ό</unclear><supplied reason="lost">ντα</supplied>
+<lb n="14"/><supplied reason="lost">αἵματος ἆσαι Ἄρηα τ</supplied>αλαύρ<unclear>ι</unclear><supplied reason="lost">νον</supplied> πολ<supplied reason="lost">εμ</supplied><unclear>ι</unclear><supplied reason="lost">στήν.</supplied>
+<lb n="15"/><supplied reason="lost">παντοίης ἀρετῆς μι</supplied>μνήσκ<supplied reason="lost">εο· νῦ</supplied>ν σε μάλ<unclear>α</unclear> <supplied reason="lost">χρή</supplied>
+<lb n="16"/><supplied reason="lost">αἰχμητήν τ’ ἔμεναι</supplied> καὶ θαρ<supplied reason="lost">σαλέο</supplied>ν πολε<unclear>μ</unclear><supplied reason="lost">ιστήν.</supplied>
+<lb n="17"/><supplied reason="lost">οὔ τοι ἔτ’ ἔσθ’ ὑπάλυξ</supplied>ις, ἄφαρ δ<supplied reason="lost">έ σε</supplied> Παλλὰ<unclear>ς</unclear> <supplied reason="lost">Ἀθήνη</supplied>
+<lb n="18"/><supplied reason="lost">ἔγχει ἐμῶι δαμάαι.</supplied> <unclear>ν</unclear>ῦν δ’ ἀθ<supplied reason="lost">ρόα π</supplied>άντ’ ἀπ<supplied reason="lost">οτίσεις</supplied>
+<lb n="19"/><supplied reason="lost">κήδε’ ἐμῶν ἑτάρω</supplied>ν οὓ<supplied reason="lost">ς ἔκταν</supplied>ες ἔγχε<supplied reason="lost">ϊ θύμων.</supplied>
+<lb n="20"/><supplied reason="lost">ἦ ῥα, καὶ ἀμπεπελὼν</supplied> πρ<unclear>ο</unclear><supplied reason="lost">ΐει δολιχό</supplied>σκιον ἔ<supplied reason="lost">γχος·</supplied>
+<lb n="21"/><supplied reason="lost">καὶ τὸ μὲν ἄντα ἰδ</supplied>ὼν ἠ<supplied reason="lost">λεύατο φ</supplied><unclear>α</unclear>ίδιμο<unclear>ς</unclear> <supplied reason="lost">Ἕκτωρ·</supplied>
+<lb n="22"/><supplied reason="lost">ἕζετο γὰρ προϊδών,</supplied> τὸ δ’ <supplied reason="lost">ὑπέρπτατο</supplied> χάλκ<supplied reason="lost">εο</supplied>ν <supplied reason="lost">ἔγχος,</supplied>
+<lb n="23"/><supplied reason="lost">ἐν γαίηι δ’ ἐπάγη· ἀνὰ</supplied> <unclear>δ</unclear>’ ἥ<unclear>ρ</unclear><supplied reason="lost">πασε Παλ</supplied>λὰς Ἀθ<supplied reason="lost">ή</supplied>νη,
+<lb n="24"/><supplied reason="lost">ἂψ δ’ Ἀχιλῆϊ δίδου, λάθ</supplied>ε δ<unclear>’</unclear> <supplied reason="lost">Ἕκτορα ποι</supplied>μέ<unclear>ν</unclear><supplied reason="lost">α λ</supplied>αῶν.
+<lb n="25"/><supplied reason="lost">Ἕκτωρ δὲ προσέειπ</supplied>εν ἀμ<supplied reason="lost">ύμονα Π</supplied>ηλε<unclear>ΐων</unclear>α·
+<lb n="26"/><supplied reason="lost">ἤμβροτες, οὐδ’ ἄρα</supplied> πώ τι θε<unclear>ο</unclear><supplied reason="lost">ῖς ἐπιείκ</supplied>ελ’ Ἀχ<unclear>ιλ</unclear><supplied reason="lost">λ</supplied>εῦ
+<lb n="27"/><supplied reason="lost">ἐκ Διὸς ἠείδης τὸν ἐ</supplied>μὸν μόρ<supplied reason="lost">ον, ἦ τοι</supplied> <unclear>ἔ</unclear>φης <supplied reason="lost">γε·</supplied>
+<lb n="28"/><supplied reason="lost">ἀλλά τις ἀρτιεπὴς κα</supplied><unclear>ὶ</unclear> ἐπίκλο<unclear>π</unclear><supplied reason="lost">ος ἔπλεο</supplied> μύθ<unclear>ω</unclear><supplied reason="lost">ν,</supplied>
+<lb n="29"/><supplied reason="lost">ἄφρά σ’ ὑποδείσας μ</supplied>ένεος ἀ<supplied reason="lost">λκῆς τε</supplied> λάθ<supplied reason="lost">ωμαι.</supplied>
+<lb n="30"/><supplied reason="lost">οὐ μέν μοι φεύγοντ</supplied>ι μεταφ<supplied reason="lost">ρένωι ἐν δόρυ πήξεις,</supplied>
+<lb n="31"/><supplied reason="lost">ἀλλ’ ἰθὺς μεμαῶτι δ</supplied>ιὰ <unclear>σ</unclear>τήθ<supplied reason="lost">εσφιν ἔλασσον</supplied>
+<lb n="32"/><supplied reason="lost">εἴ τοι ἔδωκε θεός· ν</supplied><unclear>ῦν</unclear> αὖτ’ ἐμ<supplied reason="lost">ὸν ἔγχος ἄλευαι</supplied>
+<lb n="33"/><supplied reason="lost">χάλκεον· ὡς δή μιν σ</supplied>ῶι ἐν χ<supplied reason="lost">ροῒ πᾶν κομίσαιο.</supplied>
+<lb n="34"/><supplied reason="lost">καί κεν ἐλαφρότερ</supplied>ος πόλεμ<supplied reason="lost">ος Τρώεσσι γένοιτο</supplied>
+<lb n="35"/><supplied reason="lost">σεῖο καταφθιμέ</supplied>ν<supplied reason="lost">ο</supplied>ιο σὺ γά<supplied reason="lost">ρ σφισι πῆμα μέγιστον.</supplied>
+<lb n="36"/><supplied reason="lost">ἦ ῥα, καὶ ἀμπεπαλὼ</supplied>ν προ<hi rend="diaeresis">ΐ</hi>ει δ<supplied reason="lost">ολιχόσκιον ἔγχοσς,</supplied>
+<lb n="37"/><supplied reason="lost">καὶ βάλε Πηλεΐδ</supplied>αο μέσον σ<supplied reason="lost">άκος οὐδ’ ἀφάμαρτε·</supplied>
+</ab></div>
+<div n="ii" subtype="column" type="textpart"><ab>
+<lb n="38"/><supplied reason="lost">τῆλε δ’ ἀπεπλάγχ</supplied>θ<unclear>η</unclear> <supplied reason="lost">σάκ</supplied><unclear>εος</unclear> <unclear>δόρ</unclear>υ· χώσα<supplied reason="lost">το δ’ Ἕκτωρ</supplied>
+<lb n="39"/><supplied reason="lost">ὅττί ῥά οἱ βέλος ὠκὺ ἐτ</supplied><unclear>ώσ</unclear>ιον ἔκφυ<unclear>γ</unclear><supplied reason="lost">ε χειρός,</supplied>
+<lb n="40"/><supplied reason="lost">στῆ δὲ κατηφήσας, οὐδ’ ἄ</supplied>λλ’ <unclear>ἔχ</unclear><supplied reason="lost">ε</supplied> μείλ<supplied reason="lost">ινον ἔγχος.</supplied>
+<lb n="41"/><supplied reason="lost">Δηΐφοβον δ’ ἐκάλει λε</supplied>υκάσπ<supplied reason="lost">ιδα μακρὸν ἀΰσας·</supplied>
+<lb n="42"/><supplied reason="lost">ἤιτεέ μιν δόρυ μακρόν·</supplied> ὃ δ’ οὔ τ<supplied reason="lost">ί οἱ ἐγγύθεν ἦεν.</supplied>
+<lb n="43"/><supplied reason="lost">Ἕκτωρ δ’ ἔγνω ἧισιν ἐνὶ</supplied> φρεσὶ <supplied reason="lost">φώνησέν τε·</supplied>
+<lb n="44"/><supplied reason="lost">ὢ πόποι ἦ Μάλα δή με θεο</supplied>ὶ θάνα<supplied reason="lost">τόνδε κάλεσσαν·</supplied>
+<lb n="45"/><supplied reason="lost">Δηΐφοβον γὰρ ἔγωγ’ ἐφά</supplied>μην <unclear>ἥ</unclear><supplied reason="lost">ρωα παρεῖναι·</supplied>
+<lb n="46"/><gap reason="illegible" quantity="1" unit="line"><desc>vestiges</desc></gap>
+<lb n="46"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+<div n="iii" subtype="column" type="textpart"><ab>
+<lb n="47"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="47"/><supplied reason="lost">στήσωσ’ ἐνθάδ’ ἄγοντες,</supplied> ὑ<unclear>π</unclear><supplied reason="lost">όσχωνται δὲ καὶ ἄλλα,</supplied>
+<lb n="48"/><supplied reason="lost">οὐδ’ εἴ κέν σ’ αὐτὸν χρυσ</supplied>ῶι ἐ<unclear>ρύ</unclear>σασθ<supplied reason="lost">αι ἀνώγοι</supplied>
+<lb n="49"/><supplied reason="lost">Δαρδανίδης Πρίαμος· ο</supplied>ὐδ’ ὧς σέ γε π<supplied reason="lost">ότνια μήτηρ</supplied>
+<lb n="50"/><supplied reason="lost">ἐνθεμένη λεξέεσσι γο</supplied><unclear>ή</unclear>σεται ὃν <unclear>τ</unclear><supplied reason="lost">έκεν αὐτή,</supplied>
+<lb n="51"/><supplied reason="lost">ἀλλὰ κύνες τε καὶ οἰω</supplied>νο<unclear>ὶ</unclear> κατὰ <supplied reason="lost">πάντα δάσονται.</supplied>
+<lb n="52"/><gap reason="illegible" quantity="1" unit="line"><desc>vestiges</desc></gap>
+<lb n="52"/><gap reason="lost" quantity="2" unit="line" precision="low"/>
+<lb n="55"/><supplied reason="lost">φράζεο νῦ</supplied><unclear>ν</unclear>, <unclear>μ</unclear><supplied reason="lost">ή τοί τι θεῶν μήνιμα γένωμαι</supplied>
+<lb n="56"/><supplied reason="lost">ἤματι τῶι ὅτ</supplied>ε κ<unclear>έ</unclear><supplied reason="lost">ν σε Πάρις</supplied> <unclear>καὶ</unclear> <supplied reason="lost">Φοῖβος Ἀπόλλων</supplied>
+<lb n="57"/><supplied reason="lost">ἐσθλὸν ἐό</supplied><unclear>ν</unclear>τ’ ὀλέ<supplied reason="lost">σωσιν ἐν</supplied>ὶ Σκ<unclear>α</unclear><supplied reason="lost">ιῆισι πύληισιν.</supplied>
+<lb n="58"/><supplied reason="lost">ὣς ἄρα μιν ε</supplied><unclear>ἰ</unclear>πόντα <note xml:lang="en">possibly <supplied reason="lost">ε</supplied><unclear>ϊ</unclear>ποντα on the papyrus</note> <supplied reason="lost">τέλ</supplied>ος θανά<unclear>τ</unclear><supplied reason="lost">οιο κάλυψε,</supplied>
+<lb n="59"/><supplied reason="lost">ψυχὴ δ’ ἐκ ῥε</supplied>θέων π<supplied reason="lost">τ</supplied>α<unclear>μ</unclear>ένη Ἄ<unclear>ϊ</unclear><supplied reason="lost">δος δὲ βεβήκει</supplied>
+<lb n="60"/><supplied reason="lost">τὸν καὶ τεθν</supplied>ειῶ<supplied reason="lost">τ</supplied>α π<supplied reason="lost">ρ</supplied>οσηύ<supplied reason="lost">δ</supplied>α <supplied reason="lost">δῖος Ἀχιλλεύς·</supplied>
+<lb n="61"/><supplied reason="lost">τέθναθι· κῆ</supplied><unclear>ρ</unclear>α δ’ <supplied reason="lost">ἐ</supplied><unclear>γ</unclear>ὼ τ<supplied reason="lost">ότε δέξομαι ὁππότε κεν δή</supplied>
+</ab></div>
+</div>
+<div n="2" subtype="part" type="textpart"><ab>
+<lb n="62"/>μ<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="63"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="64"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="65"/><gap reason="lost" extent="unknown" unit="character"/> <note xml:lang="en">possibly vac.1</note>
+<lb n="66"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="67"/>ρο<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="68"/>σι<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="69"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="69"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div></div>
+
+         </body>
+      </text>
+   </TEI>
+</TEI>
