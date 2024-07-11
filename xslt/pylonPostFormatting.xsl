@@ -154,6 +154,10 @@
             <xsl:result-document href="../../papyri/idp.data/HGV_meta_EpiDoc/HGV{$outputFolder}/{$tm}.xml" method="xml">
             <xsl:processing-instruction name="xml-model">href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
             <TEI>
+                <xsl:attribute name="xml:id">
+                    <xsl:text>hgv</xsl:text>
+                    <xsl:value-of select="$tm"/>
+                </xsl:attribute>
                 <teiHeader>
                     <fileDesc>
                         <titleStmt>
@@ -299,7 +303,11 @@
             <!--NB: confirm location of the output folder on the local directory tree for xsl:result-document-->
             <xsl:result-document href="../../papyri/idp.data/DCLP/{$outputFolder}/{$tm}.xml" method="xml">
                 <xsl:processing-instruction name="xml-model">href="https://epidoc.stoa.org/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
-                <TEI>
+                <TEI xml:lang="en">
+                    <xsl:attribute name="xml:id">
+                        <xsl:text>m</xsl:text>
+                        <xsl:value-of select="$tm"/>
+                    </xsl:attribute>
                     <teiHeader>
                         <fileDesc>
                             <titleStmt>
@@ -416,7 +424,7 @@
             <!--NB: confirm location of the output folder on the local directory tree for xsl:result-document-->
             <xsl:result-document href="../../papyri/idp.data/DDB_EpiDoc_XML/{$ddbSeries}/{concat($ddbSeries, '.', $ddbVolume)}/{$ddbFilename}.xml" method="xml">
             <xsl:processing-instruction name="xml-model">href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
-            <TEI>
+            <TEI xml:lang="en">
                 <teiHeader>
                     <fileDesc>
                         <titleStmt>
@@ -479,7 +487,7 @@
             <!--NB: confirm location of the output folder on the local directory tree for xsl:result-document-->
             <xsl:result-document href="../../papyri/idp.data/HGV_trans_EpiDoc/{$tm}.xml" method="xml">
             <xsl:processing-instruction name="xml-model">href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
-            <TEI>
+            <TEI xml:lang="en">
                 <teiHeader>
                     <fileDesc>
                         <titleStmt>
