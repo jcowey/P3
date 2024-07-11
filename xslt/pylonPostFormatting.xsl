@@ -69,7 +69,7 @@
                     <idno type="pi">
                         <xsl:value-of select="$biblio"/>
                     </idno>
-                    <xsl:for-each select="TEI/TEI[descendant::keywords[@scheme = 'hgv']]">
+                    <xsl:for-each select="TEI/TEI[descendant::idno[@type = 'ddb-filename']]">
                         <relatedItem type="mentions">
                             <xsl:attribute name="n">
                                 <xsl:value-of select="position()"/>
@@ -120,7 +120,13 @@
                             </xsl:attribute>
                             <bibl>
                                 <title level="s" type="short">
-                                    <xsl:value-of select="./descendant::idno[@type = 'dclp-hybrid']/(tokenize(., ';'))[1]"/>
+                                    <xsl:choose>
+                                    <xsl:when test="contains(./descendant::idno[@type='dclp-hybrid']/(tokenize(., ';'))[1], 'pylon')">Pylon</xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="./descendant::idno[@type = 'dclp-hybrid']/(tokenize(., ';'))[1]"
+                                        />
+                                    </xsl:otherwise>
+                                    </xsl:choose>
                                 </title>
                                 <biblScope type="vol">
                                     <xsl:number value="./descendant::idno[@type = 'dclp-hybrid']/(tokenize(., ';'))[2]"/>
@@ -164,9 +170,7 @@
                 <teiHeader>
                     <fileDesc>
                         <titleStmt>
-                            <title>
-                                <xsl:value-of select=".//titleStmt/title"/>
-                            </title>
+                            <xsl:apply-templates select=".//titleStmt/title"/>
                         </titleStmt>
                         <publicationStmt>
                             <idno type="TM">
@@ -222,9 +226,7 @@
                                     <objectDesc>
                                         <supportDesc>
                                             <support>
-                                                <material>
-                                                  <xsl:value-of select=".//sourceDesc//material"/>
-                                                </material>
+                                                <xsl:apply-templates select=".//sourceDesc//material"/>
                                             </support>
                                         </supportDesc>
                                     </objectDesc>
@@ -246,9 +248,14 @@
                     <xsl:apply-templates select=".//encodingDesc"/>
                     <xsl:apply-templates select=".//profileDesc"/>
                     <revisionDesc>
-                        <change who="https://papyri.info/editor/users/HGV">
-                            <xsl:attribute name="when"><xsl:value-of select="current-date()"
-                                /></xsl:attribute>Xwalk from Pylon</change>
+                        <change>
+                            <xsl:attribute name="when">
+                                <xsl:value-of select="current-date()"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="who">
+                                <xsl:text>HGV</xsl:text>
+                            </xsl:attribute>
+                            <xsl:text>Xwalk from Pylon</xsl:text></change>
                     </revisionDesc>
                 </teiHeader>
                 <text>
@@ -319,10 +326,11 @@
                             <change>
                                 <xsl:attribute name="when">
                                     <xsl:value-of select="current-date()"/>
-                                </xsl:attribute><xsl:attribute name="who">
+                                </xsl:attribute>
+                                <xsl:attribute name="who">
                                     <xsl:text>DCLP</xsl:text>
-                                </xsl:attribute>Xwalk from Pylon
-                            </change>
+                                </xsl:attribute>
+                                <xsl:text>Xwalk from Pylon</xsl:text></change>
                             <xsl:apply-templates select=".//change"/>
                         </revisionDesc>
                     </teiHeader>
@@ -346,6 +354,7 @@
                             <xsl:if test="../text/descendant::figure/ptr">
                                 <div type="bibliography" subtype="illustrations">
                                     <listBibl>
+                                        <xsl:apply-templates select=".//div[@type='bibliography'][@subtype='illustrations']/listBibl/bibl"/>
                                         <bibl type="online">
                                             <ptr>
                                                 <xsl:attribute name="target">
@@ -353,11 +362,12 @@
                                                 </xsl:attribute>
                                             </ptr>
                                         </bibl>
-                                        <xsl:apply-templates select=".//div[@type='bibliography'][@subtype='illustrations']/listBibl/bibl"/>
                                     </listBibl>
                                 </div>
                             </xsl:if>
-                            <xsl:if test=".//div[@type='bibliography'][@subtype='ancientEdition']"><xsl:apply-templates select=".//div[@type='bibliography'][@subtype='ancientEdition']"></xsl:apply-templates></xsl:if>
+                            <xsl:if test=".//div[@type='bibliography'][@subtype='ancientEdition']">
+                                <xsl:apply-templates select=".//div[@type='bibliography'][@subtype='ancientEdition']"/>
+                            </xsl:if>
                         </body>
                     </text>
                 </TEI>
@@ -379,45 +389,15 @@
             <xsl:processing-instruction name="xml-model">href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
             <TEI xml:lang="en">
                 <teiHeader>
-                    <fileDesc>
-                        <titleStmt>
-                            <xsl:apply-templates select=".//titleStmt/title"/>
-                        </titleStmt>
-                        <publicationStmt>
-                            <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
-                            <idno type="filename">
-                                <xsl:value-of select="$ddbFilename"/>
-                            </idno>
-                            <idno type="ddb-hybrid">
-                                <xsl:value-of select=".//idno[@type = 'ddb-hybrid']"/>
-                            </idno>
-                            <idno type="HGV">
-                                <xsl:value-of select=".//idno[@type = 'HGV']"/>
-                            </idno>
-                            <idno type="TM">
-                                <xsl:value-of select=".//idno[@type = 'TM']"/>
-                            </idno>
-                            <availability>
-                                <p>© Duke Databank of Documentary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
-                            </availability>
-                        </publicationStmt>
-                        <sourceDesc>
-                            <p/>
-                        </sourceDesc>
-                    </fileDesc>
-                    <profileDesc>
-                        <langUsage>
-                            <language ident="en">English</language>
-                            <language ident="grc">Greek</language>
-                            <language ident="la">Latin</language>
-                        </langUsage>
-                    </profileDesc>
+                    <xsl:apply-templates select=".//fileDesc"/>
+                    <xsl:apply-templates select=".//profileDesc"/>
                     <revisionDesc>
-                        <change who="https://papyri.info/editor/users/DDBDP">
+                        <change>
                             <xsl:attribute name="when">
                                 <xsl:value-of select="current-date()"/>
-                            </xsl:attribute>Xwalk from Pylon
-                        </change>
+                            </xsl:attribute>
+                            <xsl:attribute name="who">DDbDP</xsl:attribute>
+                            <xsl:text>Xwalk from Pylon</xsl:text></change>
                     </revisionDesc>
                 </teiHeader>
                 <text>
@@ -481,11 +461,12 @@
                         </langUsage>
                     </profileDesc>
                     <revisionDesc>
-                        <change who="https://papyri.info/editor/users/HGV">
+                        <change>
                             <xsl:attribute name="when">
                                 <xsl:value-of select="current-date()"/>
-                            </xsl:attribute>Xwalk from Pylon
-                        </change>
+                            </xsl:attribute>
+                            <xsl:attribute name="who">HGV</xsl:attribute>
+                            <xsl:text>Xwalk from Pylon</xsl:text></change>
                     </revisionDesc>
                 </teiHeader>
                 <xsl:apply-templates select=".//text"/>
@@ -500,8 +481,21 @@
     ================
     -->
     <xsl:template match="lb">
+        <xsl:text>&#xA;</xsl:text>
         <xsl:element name="lb">
             <xsl:apply-templates select="@*[name() != 'xml:id']"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <!--
+    ================
+    milestone, ab, and p begin on new lines
+    ================
+    -->
+    <xsl:template match="milestone | p | ab">
+        <xsl:text>&#xA;</xsl:text>
+        <xsl:element name="{name()}">
+            <xsl:apply-templates select="node()|@*"/>
         </xsl:element>
     </xsl:template>
 
@@ -518,6 +512,7 @@
     ================
     -->
     <xsl:template match="div">
+        <xsl:text>&#xA;</xsl:text>
         <xsl:element name="div">
             <xsl:apply-templates
                 select="@*[name() != 'xml:id' and name() != 'part' and name() != 'org' and name() != 'sample']"/>
@@ -525,6 +520,35 @@
         </xsl:element>
     </xsl:template>
 
+    <!--
+    ================
+    Remove <table> descendants of <ab>
+    ================
+    -->
+    <xsl:template match="ab/descendant::table">
+        <xsl:apply-templates select="node()"/>
+    </xsl:template>
+    
+    <!--
+    ================
+    Remove <cell> descendants of <ab>
+    ================
+    -->
+    <xsl:template match="ab/descendant::cell">
+        <xsl:apply-templates select="node()"/>
+    </xsl:template>
+    
+    <!--
+    ================
+    Rename <row> descendants of <ab> as the <lb/> and preserve @n value
+    ================
+    -->
+    <xsl:template match="ab/descendant::row">
+        <xsl:text>&#xA;</xsl:text>
+        <lb n="{@n}"/>
+        <xsl:apply-templates select="node()"/>
+    </xsl:template>
+    
     <!--
     ================
     Copy attributes by default 
@@ -549,6 +573,15 @@
                 select="@*[not(name() = 'instant' or name() = 'full' or name() = 'part' or name() = 'default' or name() = 'sample' or name() = 'org')]"/>
             <xsl:apply-templates/>
         </xsl:element>
+    </xsl:template>
+    
+    <!--
+    ================
+    Normalize space 
+    ================
+    -->
+    <xsl:template match="text()">
+        <xsl:value-of select="normalize-space()"/>
     </xsl:template>
 
     <!--
