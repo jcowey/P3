@@ -23,7 +23,6 @@
 
         <!--NB: confirm location of the output folder on the local directory tree for xsl:result-document-->
         <xsl:result-document href="../../GitHub/papyri/idp.data/Biblio/97/{$biblio}.xml" method="xml">
-            <TEI>
                 <bibl type="article" subtype="journal">
                     <xsl:attribute name="xml:lang">
                         <xsl:value-of select="/TEI/@xml:lang"/>
@@ -143,7 +142,6 @@
                         </relatedItem>
                     </xsl:for-each>
                 </bibl>
-            </TEI>
         </xsl:result-document>
 
         <!--
