@@ -22,7 +22,7 @@
     -->
 
         <!--NB: confirm location of the output folder on the local directory tree for xsl:result-document-->
-        <xsl:result-document href="../../papyri/idp.data/Biblio/97/{$biblio}.xml" method="xml">
+        <xsl:result-document href="../../GitHub/papyri/idp.data/Biblio/97/{$biblio}.xml" method="xml">
             <TEI>
                 <bibl type="article" subtype="journal">
                     <xsl:attribute name="xml:lang">
@@ -156,7 +156,7 @@
             <xsl:variable name="tm" as="element()" select="descendant::idno[@type = 'filename']"/>
             <xsl:variable name="outputFolder" select="xs:integer($tm div 1000) + 1"/>
             <!--NB: confirm location of the output folder on the local directory tree for xsl:result-document--> 
-            <xsl:result-document href="../../papyri/idp.data/HGV_meta_EpiDoc/HGV{$outputFolder}/{$tm}.xml" method="xml">
+            <xsl:result-document href="../../GitHub/papyri/idp.data/HGV_meta_EpiDoc/HGV{$outputFolder}/{$tm}.xml" method="xml">
             <xsl:processing-instruction name="xml-model">href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
             <TEI>
                 <xsl:attribute name="xml:id">
@@ -306,7 +306,7 @@
             <xsl:variable name="tm" as="element()" select="descendant::idno[@type = 'filename']"/>
             <xsl:variable name="outputFolder" select="xs:integer($tm div 1000) + 1"/>
             <!--NB: confirm location of the output folder on the local directory tree for xsl:result-document-->
-            <xsl:result-document href="../../papyri/idp.data/DCLP/{$outputFolder}/{$tm}.xml" method="xml">
+            <xsl:result-document href="../../GitHub/papyri/idp.data/DCLP/{$outputFolder}/{$tm}.xml" method="xml">
                 <xsl:processing-instruction name="xml-model">href="https://epidoc.stoa.org/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
                 <TEI xml:lang="en">
                     <xsl:attribute name="xml:id">
@@ -377,7 +377,7 @@
             <xsl:variable name="ddbVolume" as="xs:string" select="descendant::publicationStmt/idno[@type = 'ddb-hybrid']/(tokenize(., ';'))[2]"/>
             <xsl:variable name="ddbFilename" as="element()" select="descendant::idno[@type = 'filename']"/>
             <!--NB: confirm location of the output folder on the local directory tree for xsl:result-document-->
-            <xsl:result-document href="../../papyri/idp.data/DDB_EpiDoc_XML/{$ddbSeries}/{concat($ddbSeries, '.', $ddbVolume)}/{$ddbFilename}.xml" method="xml">
+            <xsl:result-document href="../../GitHub/papyri/idp.data/DDB_EpiDoc_XML/{$ddbSeries}/{concat($ddbSeries, '.', $ddbVolume)}/{$ddbFilename}.xml" method="xml">
             <xsl:processing-instruction name="xml-model">href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
             <TEI xml:lang="en">
                 <teiHeader>
@@ -440,15 +440,13 @@
         <xsl:for-each select="TEI/TEI[descendant::div[@type = 'translation']]">
             <xsl:variable name="tm" as="element()" select="descendant::idno[@type = 'TM']"/>
             <!--NB: confirm location of the output folder on the local directory tree for xsl:result-document-->
-            <xsl:result-document href="../../papyri/idp.data/HGV_trans_EpiDoc/{$tm}.xml" method="xml">
+            <xsl:result-document href="../../GitHub/papyri/idp.data/HGV_trans_EpiDoc/{$tm}.xml" method="xml">
             <xsl:processing-instruction name="xml-model">href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
             <TEI xml:lang="en">
                 <teiHeader>
                     <fileDesc>
                         <titleStmt>
-                            <title>
-                                <xsl:apply-templates select=".//titleStmt/title"/>
-                            </title>
+                            <xsl:apply-templates select=".//titleStmt/title"/>
                         </titleStmt>
                         <publicationStmt>
                             <idno type="filename">
@@ -492,7 +490,7 @@
                         </change>
                     </revisionDesc>
                 </teiHeader>
-                <xsl:apply-templates select=".//body"/>
+                <xsl:apply-templates select=".//text"/>
             </TEI>
             </xsl:result-document>
         </xsl:for-each>
