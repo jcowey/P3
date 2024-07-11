@@ -314,70 +314,18 @@
                         <xsl:value-of select="$tm"/>
                     </xsl:attribute>
                     <teiHeader>
-                        <fileDesc>
-                            <titleStmt>
-                                <xsl:apply-templates select=".//titleStmt/title"/>
-                            </titleStmt>
-                        </fileDesc>
-                        <publicationStmt>
-                            <authority>
-                                <xsl:text>Digital Corpus of Literary Papyri</xsl:text>
-                            </authority>
-                            <idno type="TM">
-                                <xsl:value-of select="$tm"/>
-                            </idno>
-                            <idno type="filename">
-                                <xsl:value-of select="$tm"/>
-                            </idno>
-                            <idno type="dclp">
-                                <xsl:value-of select="$tm"/>
-                            </idno>
-                            <!--Do I need to construct this idno?-->
-                            <idno type="dclp-hybrid">
-                                <xsl:value-of select=".//idno[@type = 'dclp-hybrid']"/>
-                            </idno>
-                            <availability>
-                                <p>© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
-                            </availability>
-                        </publicationStmt>
-                        <sourceDesc>
-                            <msDesc>
-                                <msIdentifier>
-                                    <xsl:apply-templates select=".//msIdentifier/idno"/>
-                                </msIdentifier>
-                                <physDesc>
-                                    <objectDesc>
-                                        <supportDesc>
-                                            <xsl:apply-templates select=".//supportDesc//support"/>
-                                        </supportDesc>
-                                    </objectDesc>
-                                </physDesc>
-                                <xsl:apply-templates select=".//history"/>
-                            </msDesc>
-                        </sourceDesc>
-                        <encodingDesc>
-                            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8 <ref>http://www.stoa.org/epidoc/gl/5/</ref></p>
-                        </encodingDesc>
-                        <profileDesc>
-                            <textClass>
-                                <keywords>
-                                    <xsl:comment>Consult TM for assigned keywords</xsl:comment>
-                                    <term/>
-                                    <term type="culture"/>
-                                    <term type="religion"/>
-                                </keywords>
-                            </textClass>
-                            <langUsage>
-                                <language ident="en">English</language>
-                                <language ident="grc">Greek</language>
-                            </langUsage>
-                        </profileDesc>
+                        <xsl:apply-templates select=".//fileDesc"/>
+                        <xsl:apply-templates select=".//encodingDesc"/>
+                        <xsl:apply-templates select=".//profileDesc"/>
                         <revisionDesc>
-                            <change who="https://papyri.info/editor/users/DCLP">
+                            <change>
                                 <xsl:attribute name="when">
                                     <xsl:value-of select="current-date()"/>
+                                </xsl:attribute><xsl:attribute name="who">
+                                    <xsl:text>DCLP</xsl:text>
                                 </xsl:attribute>Xwalk from Pylon
                             </change>
+                            <xsl:apply-templates select=".//change"/>
                         </revisionDesc>
                     </teiHeader>
                     <text>
@@ -385,7 +333,8 @@
                             <xsl:apply-templates select=".//div[@type = 'edition'][@xml:space = 'preserve']"/>
                             <div type="bibliography" subtype="principalEdition">
                                 <listBibl>
-                                    <bibl n="1" type="publication" subtype="principal">
+                                    <xsl:apply-templates select=".//div[@type='bibliography'][@subtype='principalEdition']/listBibl/bibl"/>
+                                    <bibl type="publication" subtype="principal">
                                         <ptr>
                                             <xsl:attribute name="target">
                                                 <xsl:text>https://papyri.info/biblio/</xsl:text>
@@ -406,10 +355,11 @@
                                                 </xsl:attribute>
                                             </ptr>
                                         </bibl>
+                                        <xsl:apply-templates select=".//div[@type='bibliography'][@subtype='illustrations']/listBibl/bibl"/>
                                     </listBibl>
                                 </div>
                             </xsl:if>
-                            <xsl:comment>Confirm author/work with CTS etc, in which case, supply div[@type='bibliography'][@subtype='ancientEdition']</xsl:comment>
+                            <xsl:if test=".//div[@type='bibliography'][@subtype='ancientEdition']"><xsl:apply-templates select=".//div[@type='bibliography'][@subtype='ancientEdition']"></xsl:apply-templates></xsl:if>
                         </body>
                     </text>
                 </TEI>
