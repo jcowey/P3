@@ -495,7 +495,7 @@
     <xsl:template match="milestone | p | ab">
         <xsl:text>&#xA;</xsl:text>
         <xsl:element name="{name()}">
-            <xsl:apply-templates select="node()|@*[name() != 'part']"/>
+            <xsl:apply-templates select="node()|@*"/>
         </xsl:element>
     </xsl:template>
 
@@ -575,15 +575,6 @@
         </xsl:element>
     </xsl:template>
     
-    <!--
-    ================
-    Normalize space 
-    ================
-    -->
-    <xsl:template match="text()">
-        <xsl:value-of select="normalize-space()"/>
-    </xsl:template>
-
     <!--
     ================
     replacing | with <lb n="\d+" break="no"/> in a regularization
