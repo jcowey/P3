@@ -495,7 +495,7 @@
     <xsl:template match="milestone | p | ab">
         <xsl:text>&#xA;</xsl:text>
         <xsl:element name="{name()}">
-            <xsl:apply-templates select="node()|@*"/>
+            <xsl:apply-templates select="node()|@*[name() != 'part']"/>
         </xsl:element>
     </xsl:template>
 
