@@ -28,4 +28,4 @@ EEE-00-000000
 - [Datenbanken / TM] : databases
 
 - [Verifizierungsgrundlage / Datum der Verifizierung / Verifizierer] : verification
-- [Inschriftenedition (nach ### falls i.W. unverändert übernommen)]
+  - [Inschriftenedition (nach ### falls i.W. unverändert übernommen)]
