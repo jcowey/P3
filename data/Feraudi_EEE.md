@@ -1,12 +1,12 @@
 EEE-00-000000
 
-- [Überschrift]: title
+- [Überschrift] : title
 
-- [FJ / FO / FS (ant.+mod.) / Koordinaten / Fundkontext / other events]: description
+- [FJ / FO / FS (ant.+mod.) / Koordinaten / Fundkontext / other events] : description
   - [AO (physisch o. überliefert)]
   - [IT / Mat / Beschreibung, Maße]
 
-- [IG]: typology
+- [IG] : typology
   - [IF: Beschreibung, Maße, Paläographie, Buchstabenhöhe]
 
 - [Transkription]: edition
