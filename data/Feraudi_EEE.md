@@ -1,6 +1,6 @@
 EEE-00-000000
 
-- [Überschrift] : title
+- [Überschrift] : title `<div type="title">`
 
 - [FJ / FO / FS (ant.+mod.) / Koordinaten / Fundkontext / other events] : description
   - [AO (physisch o. überliefert)]
