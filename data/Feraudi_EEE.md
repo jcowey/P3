@@ -9,23 +9,23 @@ EEE-00-000000
 - [IG] : typology
   - [IF: Beschreibung, Maße, Paläographie, Buchstabenhöhe]
 
-- [Transkription]: edition
-- [Diplomatische Edition] : diplomatic
-- [Übersetzung]: translation
+- [Transkription] : edition
+- [Diplomatische Edition]  : diplomatic
+- [Übersetzung] : translation
 
-- [Abbildungen]: fotos
+- [Abbildungen] : fotos
 
-- [Krit. App.]: apparatus
+- [Krit. App.] : apparatus
 
-- [Kommentar]: commentary
+- [Kommentar] : commentary
 
-- [Datierung(skriterien)]: dating_criteria
+- [Datierung(skriterien)] : dating_criteria
 
-- [Ältere Editionen]: other_editions
+- [Ältere Editionen] : other_editions
 
-- [Bibliogr.]: title
+- [Bibliogr.] : title
 
 - [Datenbanken / TM] : databases
 
-- [Verifizierungsgrundlage / Datum der Verifizierung / Verifizierer]: verification
+- [Verifizierungsgrundlage / Datum der Verifizierung / Verifizierer] : verification
 - [Inschriftenedition (nach ### falls i.W. unverändert übernommen)]
