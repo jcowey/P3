@@ -1,8 +1,7 @@
 EEE-00-000000
 
 - [Überschrift]
-
- - [FJ / FO / FS (ant.+mod.) / Koordinaten / Fundkontext / other events]
+- [FJ / FO / FS (ant.+mod.) / Koordinaten / Fundkontext / other events]
 [AO (physisch o. überliefert)]
 [IT / Mat / Beschreibung, Maße]
 
