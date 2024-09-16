@@ -1,30 +1,31 @@
 EEE-00-000000
 
-- [Überschrift]
-- [FJ / FO / FS (ant.+mod.) / Koordinaten / Fundkontext / other events]
+- [Überschrift]: title
+
+- [FJ / FO / FS (ant.+mod.) / Koordinaten / Fundkontext / other events]: description
   - [AO (physisch o. überliefert)]
   - [IT / Mat / Beschreibung, Maße]
 
-- [IG]
+- [IG]: typology
   - [IF: Beschreibung, Maße, Paläographie, Buchstabenhöhe]
 
-- [Transkription]
-- [Diplomatische Edition] 
-- [Übersetzung]
+- [Transkription]: edition
+- [Diplomatische Edition] : diplomatic
+- [Übersetzung]: translation
 
-- [Abbildungen]
+- [Abbildungen]: fotos
 
-- [Krit. App.]
+- [Krit. App.]: apparatus
 
-- [Kommentar]
+- [Kommentar]: commentary
 
-- [Datierung(skriterien)]
+- [Datierung(skriterien)]: dating_criteria
 
-- [Ältere Editionen]
+- [Ältere Editionen]: other_editions
 
-- [Bibliogr.]
+- [Bibliogr.]: title
 
-- [Datenbanken / TM] 
+- [Datenbanken / TM] : databases
 
-- [Verifizierungsgrundlage / Datum der Verifizierung / Verifizierer]
+- [Verifizierungsgrundlage / Datum der Verifizierung / Verifizierer]: verification
 - [Inschriftenedition (nach ### falls i.W. unverändert übernommen)]
