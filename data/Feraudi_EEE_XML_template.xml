@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sitzstein 1 (Schleiermacher 1)</title>
+                <author>
+                    <persName>
+                        <forename>Francisca</forename>
+                        <surname>Feraudi</surname>
+                    </persName>
+                    <affiliation>
+                        <orgName>Heidelberg Academy of Sciences and Humanities</orgName>
+                    </affiliation>
+                    <email>francisca.feraudi-gruenais@zaw.uni-heidelberg.de</email>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1049223152</idno>
+                    <idno ana="hc:ORCIDURI">https://orcid.org/0000-0002-6230-4750</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2024-09-16</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Propylaeum</orgName>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+                </publisher>
+                <pubPlace>
+                    <placeName>Heidelberg</placeName>
+                    <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+                </pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl ana="hc:RecommendedBibliographicReference">F. Feraudi, “Sitzstein 1 (Schleiermacher 1),” EEE-01. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2022.2.92973">https://doi.org/10.48631/pylon.2022.2.92973</ref>.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title level="j" ana="hc:MainTitle">Pylon</title>
+                        <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                        <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                        <imprint>
+                            <biblScope unit="volume">x</biblScope>
+                            <biblScope unit="article">1</biblScope>
+                            <date when="2024">2024</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <ab>Converted from a Word document for Pylon.</ab>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2024-09-16T16:41:06Z</date>
+                    <name>Francisca Feraudi-Gruenais</name>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="MainTitle">Sitzstein 1 (Schleiermacher 1)</titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <div type="article">
+                <div type="epidoc" subtype="EEE">
+                    <div type="description">
+                        <p xml:id="p1">Gefunden in XXX.</p>
+                    </div>
+                    <div type="typology">
+                        <p xml:id="p4">Sitzinschrift.</p>
+                    </div>
+                    <div copyOf="#ed2" type="edition"/>
+                    <div copyOf="#ed1" type="diplomatic"/>
+                    <div copyOf="#trans1" type="translation"/>
+                    <div type="fotos">
+                        <figure>
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23874263"/>
+                            <head>heidICON23793567</head>
+                        </figure>
+                        <p xml:id="p6">Zeichnungen: Schleiermacher, Schmidt.</p>
+                    </div>
+                    <div type="apparatus">
+                        <p xml:id="p7"><emph rend="italics">PRIVATI. BIRATI / Privatus Biratus</emph> (Schindler, Forschungsproblem 1961).</p>
+                    </div>
+                    <div type="commentary">
+                        <note target="ed2ln1">
+                            <ref>1</ref>
+                            <p xml:id="p8"> <emph rend="italics">Privatus</emph>: mehrfach bezeugter Einzelname in der Belgica .</p>
+                        </note>
+                    </div>               
+                    <div type="dating_criteria">
+                        <p xml:id="p9">Mitte 2. - Anfang 4. Jh. n. Chr.</p>
+                    </div>
+                    <div type="other_editions">
+                        <p xml:id="p10">Keine älteren Editionen.</p>
+                    </div>                
+                    <div type="bibliography">
+                        <listBibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/96276">Schindler</ref>, Forschungsproblem 1961 17; Zeichnungen.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/79030">Schleiermacher</ref>, Namen 1963 39, Nr. 1.</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/96267">Egger</ref>, Mercurius Nundinator 1965 27, Nr. 1.</bibl>
+                            <bibl>
+                                <ref target="https://edh.ub.uni-heidelberg.de/edh/bibliographie/B003130">Schillinger-Häfele</ref>, Vierter Nachtrag CIL XIII 467 Nr. 27, 1 (AE 1978, 517 a).</bibl>
+                            <bibl>
+                                <ref target="https://papyri.info/biblio/8813">Schmidt</ref>, Pachten 1986 129, Nr. 1; Abb. 1.</bibl>
+                        </listBibl>
+                    </div>
+                    <div type="databases">
+                        <p xml:id="p11"><ref target="https://edh.ub.uni-heidelberg.de/edh/inschrift/HD013794">EDH-HD013794</ref></p>
+                    </div>
+                    <div type="verification">
+                        <p xml:id="p12">Autopsie 2.11.2022, Feraudi.</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sitzstein 1 (Schleiermacher 1)</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Digital Corpus of Literary Papyri</authority>
+                    <idno type="TM">208165</idno>
+                    <availability>
+                        <p>© Digital Corpus of Literary Papyri. This work is licensed under a
+                            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative
+                                Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository/>
+                            <idno type="invNo">Bodl. MS. Gr. class. g. 68 (P)</idno>
+                        </msIdentifier>
+                        <history>
+                            <origin>
+                                <origPlace>unbekannt</origPlace>
+                                <origDate>V-VI</origDate>
+                            </origin>
+                        </history>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <p>
+                    This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                    <ref>http://www.stoa.org/epidoc/gl/5/</ref></p>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <head xml:lang="en">A Title of the Annunciation to the Shepherds in the Bodleian Library</head>
+                <div xml:id="ed1" xml:lang="grc" type="diplomatic" xml:space="preserve">
+<ab>
+<lb n="1" xml:id="ed1ln2"/>LO・PRIVATI・BIRACI
+</ab> </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main">Sitzstein 1 (Schleiermacher 1)</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="TM">208165</idno>
+                    <availability>
+                        <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                            a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>The contents of this document are generated from SOSOL.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                    <language ident="ar">Arabisch</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>
+Sitzplatz des Privatus (und) des Biracillus
+</p></div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sitzstein 1 (Schleiermacher 1)</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Digital Corpus of Literary Papyri</authority>
+                    <idno type="TM">208165</idno>
+                    <availability>
+                        <p>© Digital Corpus of Literary Papyri. This work is licensed under a
+                            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative
+                                Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository/>
+                            <idno type="invNo">Bodl. MS. Gr. class. g. 68 (P)</idno>
+                        </msIdentifier>
+                        <history>
+                            <origin>
+                                <origPlace>unbekannt</origPlace>
+                                <origDate>V-VI</origDate>
+                            </origin>
+                        </history>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <p>
+                    This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                    <ref>http://www.stoa.org/epidoc/gl/5/</ref></p>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <head xml:lang="en">A Title of the Annunciation to the Shepherds in the Bodleian Library</head>
+                <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1" xml:id="ed2ln1"/> <expan>Lo<ex>cus</ex></expan> Privati <expan>Biraci<ex>lli</ex></expan>
+</ab> </div>
+            </body>
+        </text>
+    </TEI>
+</TEI>
