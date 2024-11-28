@@ -55,6 +55,7 @@ The galleys can be prepared in advance. Click on Add galley.
   - HTML
   - PDF images embedded
   - PDF images appended
+  - XML (EpiDoc) download
   
 # How to add the relevant DOI.
 
