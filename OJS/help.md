@@ -1,4 +1,4 @@
- # Creating a new issue (Pylon 2, Pylon 3, ...)
+ # Creating a new issue (Pylon 6, Pylon 7, ...)
 
 Creating an issue: https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#create-issue
 
