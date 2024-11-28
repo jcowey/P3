@@ -39,7 +39,7 @@ Publication.
 
 Schedule for publication.
 
-Issue: choose relevant value
+Issue: choose relevant value (= volume number)
 
 Save
 
