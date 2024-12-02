@@ -7,3 +7,5 @@
   - editio princeps
 
 - For anglicized Greek words
+  - ekdosimon
+  - pronoetes
