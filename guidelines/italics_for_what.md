@@ -1,6 +1,6 @@
 # What are our rules for Pylon about when to use italics?
 
-- Not for "e.g."
+- Not for "e.g.", "cf."
 
 - For Latin words and phrases
   - *ed.pr.*
