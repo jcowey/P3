@@ -3,7 +3,7 @@
 - Not for "e.g."
 
 - For Latin words and phrases
-  - *ed.pr*
+  - *ed.pr.*
   - *editio princeps*
 
 - For anglicized Greek words
