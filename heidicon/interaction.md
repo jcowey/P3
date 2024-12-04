@@ -27,7 +27,7 @@
     - choose Aufnahmen
     - click on the 3 dots to the far right of "*Wechsel zu Aufnahme =>*"
       - click on Schnellanzeige
-      - just below the image you will see the title of the image and below that "Aufnahme/Reproduktion #" followed by a number
+      - just below the image you will see the title of the image and below that "Aufnahme/Reproduktion #" followed by an eight digit number
       - it is this number you need to put in the XML files (the number is almost always one higher than the number in the URL of the internet page you have open)
 
 ## Changing download, high resolution etc.
