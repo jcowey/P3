@@ -80,7 +80,8 @@ Before the galleys can be uploaded, the following steps have to be taken.
   - https://digi.ub.uni-heidelberg.de/editionService/viewer/pylon/89306
   - to view the PDFs one has to go to https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/pipelines
     - choose the "Passed" section. On the far right there is a download button. Click on the download button, then click on `transformation:archive`
-  - https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/tree/main/pdf
+    - that will download to your computer (in Downloads on a Mac)
+    - open the zip file and then you can view the 
 - Now check that all the XML files are in (this should happen automatically within the system)
 - https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/tree/main/converted
 - Now transfer all
