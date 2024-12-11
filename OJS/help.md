@@ -81,14 +81,14 @@ Before the galleys can be uploaded, the following steps have to be taken.
   - to view the PDFs one has to go to https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/pipelines
     - choose the "Passed" section. On the far right there is a download button. Click on the download button, then click on `transformation:archive`
     - that will download to your computer (in Downloads on a Mac)
-    - open the zip file and then you can view the 
+    - open the zip file and then you can view the PDFs
+    - it will make sense to file these clearly for uploading to the galleys
 - Now check that all the XML files are in (this should happen automatically within the system)
 - https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/tree/main/converted
 - Now transfer all
   - XML files to your desktop (go to the far right and choose "code" then choose "Download this directory" "zip")
     - from the relevant folder in https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/tree/main/converted
-  - all PDFs to your desktop (choose "Download this directory" "zip")
-    - from the relevant folder in https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/tree/main/pdf?ref_type=heads
+  - all PDFs will be on your desktop through the pipeline manoeuver described above
 - Now return to OJS and for each and every submission upload the relevant files (yes both HTML and PDF) from your desktop. (mindblowingly non automatic, but that is the way it is under OJS 3.2)
 - When in the galleys choose "Change file" to upload
 - In "Article Component" choose "Article Text"
