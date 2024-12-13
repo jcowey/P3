@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Archive of Gelasios</title>
+            <author>
+               <name>
+                  <forename>Roger S.</forename>
+                  <surname>Bagnall</surname>
+               </name>
+               <affiliation>New York University</affiliation>
+               <email>rsb331@nyu.edu</email>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0002-9817-3326</idno>
+            </author>
+            <funder>Deutsche Forschungsgemeinschaft</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2024">2024</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.6.8</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2024.6.108253</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">R.S. Bagnall, “The Archive of Gelasios,” Pylon 6 (2024) Article 8. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2024.6.108253">https://doi.org/10.48631/pylon.2024.6.108253</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">6</biblScope>
+                     <biblScope unit="article">8</biblScope>
+                     <date when="2024">2024</date>
+                  </imprint>
+               </monogr>
+             </biblStruct>
+         </sourceDesc> 
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2024-11-06T13:22:15Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+     <surface xml:id="ed1surface1" copyOf="#ed1surf1"/> 
+     <surface xml:id="ed1surface2" copyOf="#ed1surf2"/> 
+     <surface xml:id="ed2surface1" copyOf="#ed2surf1"/> 
+     <surface xml:id="ed2surface2" copyOf="#ed2surf2"/> 
+     <surface xml:id="ed3surface1" copyOf="#ed3surf1"/> 
+     <surface xml:id="ed3surface2" copyOf="#ed3surf2"/> 
+   </facsimile>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">The Archive of Gelasios</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1" style="text-align: left; ">Such is the title accorded by Trismegistos Archives (<ref target="https://www.trismegistos.org/archive/306">TM Arch ID 306</ref>) to a group of three letters republished most recently as P.Mil. 2 81–83. The editions there are not entirely satisfactory; those in the present article seek to improve them. No less importantly, since the appearance of that edition in 1966 a large amount of new evidence has come to light that allows this cluster to be given a more precise context in time, place, and social location. It is now clear that they belong to a body of material clandestinely excavated in the Dakhla Oasis, at Ismant el-Kharab, the ancient village of Kellis, long before the beginning of the Australian excavations that made this village one of the most important sources of fourth-century documents and literary texts known today.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> On the acquisitions of papyri from Dakhla in the collection of the Università Cattolica del Sacro Cuore, see <ref target="https://papyri.info/biblio/89464">Worp 2010</ref>: 53 n. 1. As he points out, this is not the only western collection to hold papyri originating from the oasis acquired before the period of legal excavation. See <ref target="https://papyri.info/biblio/75917">Heilporn and Worp 2007</ref>, with 219 n. 5. They publish there a papyrus in the Michigan collection and cite two in the Biblioteca Laurenziana. But it is entirely possible for some documents originating in the oasis to have traveled in antiquity, for example as proofs of ownership for a slave, and been excavated elsewhere; see <ref target="http://papyri.info/ddbdp/p.oxy;86;5561">P.Oxy. 86 5561</ref> introd. for examples found at Oxyrhynchos. That may well be the explanation for the Michigan and Florentine papyri. But papyri acquired in the 1960s by Milan, Duke, and perhaps elsewhere certainly come from illegal excavations. See <ref target="http://papyri.info/ddbdp/p.sijp;;11a">P.Sijp. 11</ref> introd. for the three papyri published there, as well as <ref target="http://papyri.info/ddbdp/sb;20;14293">SB 20 14293</ref>, all acquired in 1969. </p></note> I give first the revised texts, with apparatus, translation, and limited notes, and then a brief discussion of their context; some further explorations are reserved for another article, which will appear in the Bulletin de la Société d’Archéologie Copte 63 (2024), a memorial volume for Wassif Boutros Ghali.</p>
+            <div type="section">
+               <head>1. Gelasios to Isidora</head>
+               <div type="epidoc" subtype="DDB">
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;">Inv. 117</cell>
+                        <cell style="text-align: center;">6 (w) × 25 (h) cm.</cell>
+                        <cell style="text-align: right;">Found: <ref target="https://www.trismegistos.org/place/2762">Kellis</ref></cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;">Acquired in the 1960s</cell>
+                        <cell style="text-align: center;"/>
+                        <cell style="text-align: right;">IV</cell>
+                     </row>
+                  </table>
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;"><ref target="https://papyri.info/biblio/35185/">Bandi 1935</ref>: 251 (SB 5 8000); cf. <ref target="https://papyri.info/biblio/40787/">Wilcken 1937</ref>: 92. S. Daris, <ref target="http://papyri.info/ddbdp/p.mil;2;81">P.Mil. 2 81</ref>; cf. <ref target="https://papyri.info/biblio/25911?/">Hagedorn 1968</ref>: 781 (BL 6.77); <ref target="https://papyri.info/biblio/52128/">Parássoglou 1977/78</ref>: 64–66 (BL 7.103); <ref target="https://papyri.info/biblio/71982/">Gonis 2003</ref>: 167–168 (BL 13.134).</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;">Photos: P.Mil. 2, tav. xxvii; <ref target="https://papyri.info/biblio/8051/">Montevecchi 1973</ref>, tav. 88.</cell>
+                     </row>
+                  </table>
+                  <figure facs="#ed1surface1">
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23925018"/>
+                     <head>Fig. 1: P.Med. 81 recto.</head>
+                  </figure>
+                  <figure facs="#ed1surface2">
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23925020"/>
+                     <head>Fig. 2: P.Med. 81 verso.</head>
+                  </figure>
+                  <div copyOf="#ed1" type="edition"/>
+                  <div copyOf="#trans1" type="translation"/>
+                  <div type="commentary">
+                     <note target="#ed1lin8">
+                        <ref>8</ref>
+                        <p xml:id="p2"> Χαρισίαν was read correctly by Bandi in l. 43 but misread here.  The name does not appear elsewhere in Greek papyri but is not rare in Coptic texts; see TM Names <ref target="http://www.trismegistos.org/name/33985">33985</ref> and <ref target="http://www.trismegistos.org/name/12875">12875</ref>. </p>
+                     </note>
+                     <note target="#ed1lin15">
+                        <ref>15, 20</ref>
+                        <p xml:id="p3">  <ref target="https://papyri.info/biblio/52128">Parássoglou 1977/78</ref>: 66 n.2 argues (with references and bibliography) that ἀξιωθείς should be seen as an undeclined verbal participle used adverbially, and thus not needing to be corrected to a feminine form modifying the female Isidora.</p>
+                     </note>
+                     <note target="#ed1lin18">
+                        <ref>18</ref>
+                        <p xml:id="p4"> Parássoglou views τὸ μέγα οἶκος as a neuter by-formation in late Greek, for which he cites parallels: <ref target="https://papyri.info/biblio/52128">Parássoglou 1977/78</ref>: 65. </p>
+                     </note>
+                     <note target="#ed1lin26">
+                        <ref>26</ref>
+                        <p xml:id="p5"> The editor ignored the traces after ψεναμουν, but they appear to be the termination. Whether there was space for the restoration of καί is difficult to say. If not, Psenamounis might have had the second name Ammonios, or possibly Ammonios is a patronymic and should be corrected to the genitive. </p>
+                     </note>
+                     <note target="#ed1lin31">
+                        <ref>31</ref>
+                        <p xml:id="p6"> The editor’s Thetis is a most unlikely name to appear here, as names from Greek literature and mythology in the late antique oasis are borne by men but not women; see Bagnall forthcoming. Undeclined Θασι appears in <ref target="http://papyri.info/ddbdp/o.kell;;71">O.Kellis 71</ref> and <ref target="http://papyri.info/ddbdp/o.kell;;99">99</ref>, both from third-century contexts. </p>
+                     </note>
+                     <note target="#ed1lin36">
+                        <ref>36–48</ref>
+                        <p xml:id="p7"> In these lines the person doing the greeting switches from Gelasios to Tbekis. Apparently line 36 was inserted between the lines after “my mother” was deleted in line 37. She starts again in line 40, giving her name again and this time greeting Isidora, Charisia, and Eirene, who had already been greeted by Gelasios earlier in the letter, as well as others whose names are now lost but are also probably some of the same people mentioned earlier. </p>
+                     </note>
+                     <note target="#ed1lin50">
+                        <ref>50</ref>
+                        <p xml:id="p8"> I do not know of a parallel for Ταβαια.</p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>2. Gelasios to Papnouthes</head>
+               <div type="epidoc" subtype="DDB">
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;">Inv. 96</cell>
+                        <cell style="text-align: center;">5.4 (w) × 9 (h) cm.</cell>
+                        <cell style="text-align: right;">Found: <ref target="https://www.trismegistos.org/place/2762">Kellis</ref></cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;">Acquired in the 1960s</cell>
+                        <cell style="text-align: center;"/>
+                        <cell style="text-align: right;">IV</cell>
+                     </row>
+                  </table>
+                  <table type="papyrological_header">
+                      <row>
+                          <cell style="text-align: left;"><ref target="https://papyri.info/biblio/37508">Francioni 1942</ref>: 68 (SB 6 9012); cf. <ref target="https://papyri.info/biblio/40787/">Wilcken 1953</ref>: 120; <ref target="https://papyri.info/biblio/23647/">Hombert 1943</ref>: 310; S. Daris, <ref target="http://papyri.info/ddbdp/p.mil;2;82">P.Mil. 2 82</ref>.</cell>
+                      </row>
+                  </table>
+                  <figure facs="#ed2surface1">
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23925022"/>
+                     <head>Fig. 3: P.Med. 82 recto.</head>
+                  </figure>
+                  <figure facs="#ed2surface2">
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23925024"/>
+                     <head>Fig. 4: P.Med. 82 verso.</head>
+                  </figure>
+                  <div copyOf="#ed2" type="edition"/>
+                  <div copyOf="#trans2" type="translation"/>
+                  <div type="commentary">
+                     <note target="#ed2lin1">
+                        <ref>1</ref>
+                        <p xml:id="p9"> Wilcken and Hombert doubted Francioni’s reading of πατρί, but it is correctly defended by Daris. The lower parts of all of the letters survive, and they suffice to exclude the suggested alternative (ἀδελφῷ). </p>
+                     </note>
+                     <note target="#ed2lin7">
+                        <ref>7</ref>
+                        <p xml:id="p10"> The editor of P.Mil. 2 did not correct the spelling, but he says in his note to the line “si potrebbe pensare a ταινίας ma la parola non è usata all’epoca della lettera.” This is not a compelling argument, and the use of ταινία for a strip of land is well attested in the region of Alexandria and at Pathyris. There are also examples in the ostraka from Ain es-Sabil (<ref target="http://papyri.info/ddbdp/basp;58;105_7">O.Sabil 7</ref> and <ref target="http://papyri.info/ddbdp/basp;58;106_10">10</ref>); I shall discuss the word further in the final edition of those texts. </p>
+                     </note>
+                     <note target="#ed2lin10">
+                        <ref>10</ref>
+                        <p xml:id="p11"> <ref target="http://papyri.info/ddbdp/o.kell;;290">O.Kellis 290</ref> is also an order for delivery of dates to Tiberius, perhaps the same person. </p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>3. Gelasios to Papnouthes</head>
+               <div type="epidoc" subtype="DDB">
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;">Inv. 97</cell>
+                        <cell style="text-align: center;">4.3 (w) × 6 (h) cm.</cell>
+                        <cell style="text-align: right;">Found: <ref target="https://www.trismegistos.org/place/2762">Kellis</ref></cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;">Acquired in the 1960s</cell>
+                        <cell style="text-align: center;"/>
+                        <cell style="text-align: right;">IV</cell>
+                     </row>
+                  </table>
+                  <table type="papyrological_header">
+                      <row>
+                          <cell style="text-align: left;"><ref target="https://papyri.info/biblio/37508">Francioni 1942</ref>: 70 (SB 6 9013). S. Daris, <ref target="http://papyri.info/ddbdp/p.mil;2;83">P.Mil. 2 83</ref>.</cell>
+                      </row>
+                  </table>
+                  <figure facs="#ed3surface1">
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23925026"/>
+                     <head>Fig. 5: P.Med. 83 recto.</head>
+                  </figure>
+                  <figure facs="#ed3surface2">
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23925028"/>
+                     <head>Fig. 6: P.Med. 83 verso.</head>
+                  </figure>
+                  <div copyOf="#ed3" type="edition"/>
+                  <div copyOf="#trans3" type="translation"/>
+               </div>
+            </div>
+            <div type="section">
+               <head>Discussion</head>
+               <p xml:id="p12" style="text-align: left; ">In producing the first edition of <emph rend="bold">1</emph>, Bandi assigned it to a date in the third century, struck by the mention of 2000 talents and thinking that this large sum would point to that century. Wilcken pointed out her mistake, arguing that only after Diocletian would such a sum be thinkable and thus dating the papyrus to the end of the third or the fourth century, with a preference for the latter. Francioni duly dated the two related letters that he published to the third–fourth century. Such numbers of talents actually are almost unknown before the monetary reform under Constantius II in or around 353.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/97038">Bagnall and Bransbourg 2019</ref>.</p></note> These letters can therefore be securely dated no earlier than 353.</p>
+               <p xml:id="p13" style="text-align: left; ">Letters <emph rend="bold">2</emph> and <emph rend="bold">3</emph> appear to be in the same hand, as their first editor already suggested. Letter <emph rend="bold">1</emph> is in a different hand. Still other hands appear in other texts involving Gelasios discussed below. There is no basis for identifying any of them as his own hand; someone of his status will have had access to various agents to take down their letters or write orders and receipts on their behalf.</p>
+               <p xml:id="p14" style="text-align: left; ">No indication of provenance appeared in the editions. In 2010, Carla Balconi published three orders from a Perikles, likely to be the same as the man referred to in <emph rend="bold">1</emph>, and assigned these orders to the Great Oasis, recognizing that the three letters of Gelasios also should come from the same provenance.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/89462">Balconi 2010</ref>, esp. 52. </p></note> Because known toponyms of the Dakhla Oasis appear in these orders, the attribution to that oasis is secure, and we may be confident that they all came from Kellis. As Balconi noted, the name Gelasios is attested in this oasis. </p>
+               <p xml:id="p15" style="text-align: left; ">Most notably, in a contract for irrigation work (<ref target="http://papyri.info/ddbdp/p.gascou;;67">P.Gascou 67</ref>), written on a papyrus found at Kellis, the hiring party is named Aurelius Aionianos son of Gelasios, former magistrate of the city of Mothis, the capital of the oasis. The contract is dated to 368. The editor pointed out that the two men are also known from <ref target="http://papyri.info/ddbdp/p.kell;1;16">P.Kellis 1 16</ref>, a short note from Aionianos to his father Gelasios (the name is badly preserved, but the traces are compatible with the reading) instructing him to provide four artabas of dates to his “brother” (presumably, as usually, meaning “colleague”) Pataias. The note is a bit abrupt, but Gelasios’ name is given before that of Aionianos, a mark of respect. This note has no absolute date but refers to the third indiction. Aionianos is an interesting figure in his own right, whose name has a strongly Manichaean character, but I reserve discussion of him for the article mentioned above in the memorial for Wassif Boutros Ghali. This is, at any rate, an unusual case in which we have a legal document that shows that the relationship term in a private letter is to be taken literally rather than figuratively. </p>
+               <p xml:id="p16" style="text-align: left; ">Gelasios also appears in other papyri excavated at Kellis. He is the addressee of an undated letter from one Sarapion (<ref target="http://papyri.info/ddbdp/p.gascou;;82">P.Gascou 82</ref>). Men named Asterios and Optatos are mentioned, along with several military titles, suggesting connections with the local garrison.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> An Optatos also appears in <ref target="http://papyri.info/ddbdp/p.gascou;;70">P.Gascou 70</ref>, early in the fourth century; the pronoetes of a geouchos named Catulus Optatos figures in <ref target="http://papyri.info/ddbdp/o.trim;1;329">O.Trim. 1 329</ref>, from the 350s or 360s.</p></note> It is also worth noting the presence of a Pausanias son of Gelasios in <ref target="http://papyri.info/ddbdp/o.kell;;256">O.Kellis 256</ref>, with no date (given find place, probably fourth century) or textual context (and no plate on which to verify the reading). Pausanias is a name found in more than one generation of the upper class of Kellis, but it is impossible to place this person without further information.</p>
+               <p xml:id="p17" style="text-align: left; ">There is also a cluster of texts referring to a Gelasios in the ostraka from the house of Serenos at Trimithis (Amheida), datable also to the period after 353. These are listed in O.Trim. 2, p. 96. He receives rations, makes orders for payment, and signs receipts. He belongs to the circle of Serenos, who is known to have been a member of the city council. It seems entirely plausible that this Gelasios is the same. A Gelasios also receives a payment in an ostrakon from Ain es-Sabil, <ref target="http://papyri.info/ddbdp/basp;58;123_32">O.Sabil 32</ref>. In short, although we have no direct evidence that Gelasios was, like his son, a member of the local council or magistrate of Mothis, this seems very likely. </p>
+               <p xml:id="p18" style="text-align: left; ">Finally, strengthening that probability, is the appearance of a Gelasios who was strategos and exactor of the Oasis in 309 (<ref target="http://papyri.info/ddbdp/sb;18;13852">SB 18 13852</ref>),<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; "> The Great Oasis, embracing both Dakhla and Kharga, is meant, and a reference to the Hibite nome (line 17) assures us that Gelasios’ administrative domain included the entirety of the Oasis. The statement in SB that “Hibis (= el Nadura)” is the provenance of the papyrus is, however, unwarranted and not based on any indication from the editor (<ref target="https://papyri.info/biblio/57526">Thomas 1985</ref>). There is no indication where this set of official documents was kept; and the hill of Nadura is only a part of the larger area of the city of Hibis. </p></note> and the same man or a later member of the family who is described as former logistes (a higher office) in <ref target="http://papyri.info/ddbdp/p.kell;1;29">P.Kell. 1 29</ref> (331).</p>
+               <p xml:id="p19" style="text-align: left; ">What of the other personal names found in the letters, relatives or friends of Gelasios? Some are too common to be helpful: Isidora, Psais, Psenamounis, and Ammonios certainly fall into this category. Charisia is not attested in any other text from the oasis, although a woman named Charis is well known. Tsamoun is also unattested elsewhere. An Eirene appears in <ref target="http://papyri.info/ddbdp/o.kell;;272">O.Kell. 272</ref>, a receipt or memorandum probably datable after 353 from the mention of talents. Someone of this name also appears in the Kellis Agricultural Account Book (<ref target="http://papyri.info/ddbdp/p.kell;4;96">KAB)</ref> (lines 136, 1304), with no further identifying indicators. We find an Eirene (“our daughter”) as the recipient of a Coptic letter (P.Kell. 5 C.32.15). This is, even all taken together, not a lot to go on, but it does provide one slight connection to the Manichaean circles involved in the Coptic letters. </p>
+               <p xml:id="p20" style="text-align: left; ">Papnouthes is not a common name in Dakhla. A man by this name occurs in ten ostraka from the Ain es-Sabil excavations. He has no patronymic in any of them. The absence of a patronymic may be explained if he is the “father Papnouthes the monk” who is to receive an unstated product in one ostrakon from this site. A Papnouthes is a tenant in the <ref target="http://papyri.info/ddbdp/p.kell;4;96">KAB</ref> and also an intermediary and estate agent receiving rents (pp. 69, 71–72). The name is otherwise scarce in the Greek texts from Kellis, occurring in the tablet <ref target="http://papyri.info/ddbdp/p.kell;1;61">P.Kell. 1 61</ref> (probably to be dated after 353 on the basis of amounts of money), and is absent from the Coptic letters in P.Kell. 5. But Papnoute appears in five Coptic letters in P.Kell. 7, in one of which (P.Kell. 7 C. 78) he sends greetings to Pekysis. It seems highly likely that these all concern the same man and that he belongs to the Manichaean circle. There is no reason to identify him with men named Papnouthes in the Trimithis ostraka, however. In sum, it is possible that the Papnouthes of <emph rend="bold">2</emph> and <emph rend="bold">3</emph> here was connected to the Manichaean circles, but this is not a certainty.</p>
+               <p xml:id="p21" style="text-align: left; ">Tbekis is attested in the Coptic letters P.Kell. 5 C.12.16 (sending greetings) and 43.23. The name is attested at Kellis already in the second century (<ref target="http://papyri.info/ddbdp/cde;86;242">CdÉ 86 [2011] 242 no. 3</ref>), as well as at the Dakhla village of Mesobe (<ref target="http://papyri.info/ddbdp/sb;22;15614">SB 22 15614</ref>, from 154). A Tbekis is also the mother of a party to <ref target="http://papyri.info/ddbdp/p.kell;1;2">P.Kellis 1 2.7</ref>, dated to 301. No fourth-century homonyms other than those in the Coptic letters have yet come to light.</p>
+               <p xml:id="p22" style="text-align: left; ">Psenplaeus, finally, is attested in <ref target="http://papyri.info/ddbdp/p.nekr;;10">P.Nekr. 10</ref> (244) and <ref target="http://papyri.info/ddbdp/o.douch;4;473">O.Douch 4 473</ref> (late IV/early V), both from the Kharga Oasis, and <ref target="http://papyri.info/ddbdp/o.trim;2;676">O.Trim. 2 676</ref> (cf. also <ref target="http://papyri.info/ddbdp/o.trim;2;686">O.Trim. 2 686</ref>.1n.). This last is probably to be dated to the late third century and thus cannot concern the same individual. A Psenplaeus does, however, occur in an ostrakon from Ain es-Sabil, which belongs to the same chronological horizon as the Gelasios archive. This man has a decent claim to be the same person.</p>
+               <p xml:id="p23" style="text-align: left; ">Gelasios writes to people in Kellis. He has connections in Ain es-Sabil. He is involved in affairs in Trimithis. He has connections to several people who may appear in the Coptic letters emanating from Manichaean circles. He names his son Aionianos, a name best explained by Manichaean affiliation. But he certainly did not live in one of the houses at Kellis from which we have papyri, and quite possibly not at Kellis at all. Nothing actually places him in Ain es-Sabil. His relationship with Trimithis is at a high level but not well attested. He never appears himself in any of the Coptic letters as either writer or addressee. He is probably the descendant of local officials and certainly the father of a magistrate, but we know nothing about his own official posts. He is, in short, an elusive figure. Perhaps he lived in the capital, Mothis. Whether these three letters actually constitute an archive in any meaningful sense is hard to say. Overall, what we have is an intriguing but still thin dossier.</p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>Bagnall, R.S. (forthcoming) “Onomastics and classical culture in Egypt’s western oases,” in A. Almasy and Y. Broux (eds.), Greek Personal Names in Egypt. Oxford. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97038">Bagnall, R.S. and Bransbourg, G. (2019)</ref> “The Constantian monetary revolution,” ISAW Papers 14; also in T. Faucher, ed., Money Rules! The Monetary Economy of Egypt, from Persians until the Beginning of Islam (Cairo 2020) <ref target="https://papyri.info/biblio/97037">367–392</ref>.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/89462/">Balconi, C. (2010)</ref> “Tre ordini di consegna inediti provenienti dalla Grande Oasi,” Aegyptus 90: 41–51.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/35185/">Bandi, L. (1935)</ref> “Dai papiri inediti della raccolta milanese. [1–4.],” Aegyptus 15: 239–254.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/37508/">Francioni, S. (1942)</ref> “Dai papiri inediti della raccolta milanese. [11–19.],” Aegyptus 22: 55–73.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/71982/">Gonis, N. (2003)</ref> “Remarks on private letters II.,” ZPE 142: 163–170.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/25911?/">Hagedorn, D. (1968)</ref> Review of S. Daris, Papiri Milanesi (P. Med.) I nn. 1–12, Gnomon 40: 778–781.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/75917/">Heilporn, P. and Worp, K.A. (2007)</ref> “A wet nurse contract with an unusual provenance,” CdÉ 82: 218–226.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/8051/">Montevecchi, O. (1973)</ref>  La Papirologia. (Manuali Universitari. 1. Per lo studio delle Scienze dell’Antichità.). Torino.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/52128/">Parássoglou, G.M. (1977/78)</ref> “Adnotatiunculae. I. Avec résumé en grec.,”  Hellenika 30: 62–72.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/57526/">Thomas, J.D. (1985)</ref> “The earliest occurrence of the exactor civitatis in Egypt (P. Giss. inv. 126 recto),” in N. Lewis (ed.), Yale Classical Studies 28, Papyrology: 115–125.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/40787/">Wilcken, U. (1953)</ref> “Urkunden-Referat,” APF 15: 108–122.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/89464/">Worp, K.A. (2010)</ref> “SB XII 10930 revised,” Aegyptus 90: 53–56.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Gelasios to Isidora</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">33514</idno>
+               <idno type="HGV">33514</idno>
+               <idno type="ddb-filename">pylon.6.8_1</idno>
+               <idno type="ddb-hybrid">pylon;6;8_1</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement>unbekannt</settlement>
+                     </placeName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>unbekannt</origPlace>
+                        <origDate notBefore="0301" notAfter="0400" precision="low">IV</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term>Brief (privat)</term>
+                  <term>Gelasios an Isidora</term>
+                  <term>Grüße</term>
+                  <term>Namen</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+             <div type="bibliography" subtype="principalEdition">
+                 <listBibl>
+                     <bibl type="publication" subtype="principal">
+                         <title level="s" type="abbreviated">Pylon</title>
+                         <biblScope n="1" unit="volume">6</biblScope>
+                         <biblScope n="2" unit="fascicle">(2024)</biblScope>
+                         <biblScope n="3" unit="generic">Art. 8</biblScope>
+                         <biblScope n="4" unit="number">Nr. 1</biblScope>
+                     </bibl>
+                 </listBibl>
+             </div>
+             <div type="bibliography" subtype="corrections">
+                 <head>BL-Einträge nach BL-Konkordanz</head>
+                 <listBibl>
+                     <bibl type="BL-online">
+                         <ptr target="https://beehive.zaw.uni-heidelberg.de/hgv/33514"/>
+                     </bibl>
+                     <bibl type="BL">
+                         <biblScope unit="volume">XIII</biblScope>
+                         <biblScope unit="pages">134</biblScope>
+                     </bibl>
+                 </listBibl>
+             </div>
+             <div type="bibliography" subtype="illustrations">
+                 <p>
+                     <bibl type="illustration">P.Med. 1, Tavola XXVII</bibl>
+                     <bibl type="illustration">Montevecchi, Papirologia, Tav. 88</bibl>
+                 </p>
+             </div>
+             <div type="bibliography" subtype="otherPublications">
+                 <head>Andere Publikation</head>
+                 <listBibl>
+                     <bibl type="publication" subtype="other">SB V 8000</bibl>
+                     <bibl type="publication" subtype="other">P.Med. 1 81</bibl>
+                 </listBibl>
+             </div>
+             <div type="bibliography" subtype="translations">
+                 <head xml:lang="de">Übersetzungen</head>
+                 <listBibl xml:lang="it">
+                     <head xml:lang="de">Italienisch:</head>
+                     <bibl type="translations">L. Bandi, Aegyptus 15, 1935, S. 253</bibl>
+                 </listBibl>
+             </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.6.8_1</idno>
+               <idno type="ddb-hybrid">pylon;6;8_1</idno>
+               <idno type="HGV">33514</idno>
+               <idno type="TM">33514</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <facsimile> 
+      <surface xml:id="ed1surf1" ulx="0" uly="0" lrx="1672" lry="5980">
+            <zone type="text">
+               <zone type="line" xml:id="ed1_line3" points="1357,163 1335,142 1287,160 1251,159 1166,161 1079,177 1030,142 1025,158 957,139 903,199 850,188 761,197 693,192 685,178 664,184 409,178 273,205 252,326 308,384 612,420 742,341 1020,359 1053,373 1447,333 1447,254 1453,86 1384,146"/>
+      <zone type="line" xml:id="ed1_line4" points="279,523 1447,458 1513,459 1432,318 259,371 245,458"/>
+      <zone type="line" xml:id="ed1_line5" points="259,655 588,652 588,647 593,647 653,622 698,602 913,598 1008,602 1185,600 1247,617 1419,622 1462,551 1432,423 1142,453 1003,448 788,438 783,438 778,438 698,468 663,478 633,473 568,458 563,458 249,493 206,631"/>
+      <zone type="line" xml:id="ed1_line6" points="1377,533 1282,578 868,563 688,573 618,607 608,617 568,588 549,588 434,627 404,622 314,598 294,598 259,612 248,737 269,767 444,797 544,767 598,787 613,787 693,747 768,777 778,777 1028,727 1447,737 1492,702 1537,647 1482,563 1387,533"/>
+      <zone type="line" xml:id="ed1_line7" points="264,901 978,901 983,901 1028,882 1103,842 1262,832 1367,867 1372,867 1377,867 1382,867 1557,857 1595,747 1542,677 1482,662 1477,662 1472,662 1467,662 1462,662 1462,667 1457,667 1442,687 1437,697 1257,707 1212,702 1137,687 1132,687 963,712 788,742 718,727 683,722 678,722 623,732 474,767 254,757 231,860"/>
+      <zone type="line" xml:id="ed1_line8" points="249,1106 346,1094 466,1058 505,1024 534,1021 603,1051 618,1051 821,1020 909,1012 983,1031 1003,1051 1028,1051 1028,1046 1091,1002 1137,996 1150,1006 1327,991 1409,982 1532,971 1537,906 1522,827 1242,847 1191,846 1152,853 1111,860 1096,881 783,857 676,911 621,865 393,903 234,882 160,1085"/>
+      <zone type="line" xml:id="ed1_line9" points="264,1215 404,1191 502,1171 531,1196 633,1159 628,1156 693,1166 743,1176 748,1176 753,1176 758,1176 758,1171 763,1171 768,1161 822,1143 1013,1101 1071,1130 1117,1141 1122,1141 1127,1141 1322,1135 1372,1106 1377,1106 1377,1101 1476,1089 1568,1071 1581,958 878,1008 591,1058 241,1069 206,1178"/>
+      <zone type="line" xml:id="ed1_line10" points="254,1357 1437,1240 1480,1198 1474,1115 1181,1152 1083,1134 1045,1138 1031,1130 993,1139 986,1130 968,1121 903,1116 883,1128 828,1111 823,1111 818,1111 804,1145 748,1160 557,1178 221,1219 164,1257"/>
+      <zone type="line" xml:id="ed1_line11" points="214,1514 414,1475 479,1495 489,1490 519,1460 675,1441 768,1430 798,1450 823,1450 823,1445 858,1420 903,1440 928,1445 948,1445 948,1440 988,1405 1053,1430 1108,1409 1482,1365 1482,1320 1467,1215 1348,1262 1127,1260 1108,1260 1070,1268 1033,1235 963,1275 923,1245 908,1245 808,1255 633,1310 449,1310 194,1365 209,1460"/>
+      <zone type="line" xml:id="ed1_line12" points="303,1683 436,1594 624,1598 891,1528 1038,1535 1175,1524 1319,1560 1492,1509 1497,1509 1471,1519 1522,1475 1586,1411 1502,1345 1128,1419 1048,1395 1005,1389 998,1370 993,1370 988,1370 983,1370 938,1405 933,1410 928,1405 883,1385 878,1385 873,1385 239,1480 213,1589"/>
+      <zone type="line" xml:id="ed1_line13" points="292,1813 484,1738 1407,1634 1474,1582 1382,1485 1113,1519 1108,1519 1008,1490 1003,1490 962,1524 838,1554 777,1560 720,1560 678,1569 394,1569 389,1569 382,1574 232,1677 174,1846"/>
+      <zone type="line" xml:id="ed1_line14" points="324,1868 643,1868 648,1868 683,1853 723,1838 838,1843 863,1843 868,1843 873,1843 878,1843 878,1838 883,1838 958,1822 1302,1784 1475,1817 1454,1729 1377,1609 1169,1673 1048,1644 1038,1634 1033,1634 1028,1634 1023,1634 908,1644 903,1644 898,1644 898,1649 893,1649 883,1664 868,1684 758,1689 713,1679 633,1664 628,1664 623,1664 618,1664 573,1699 563,1704 544,1699 469,1684 464,1684 459,1684 314,1724 274,1859"/>
+      <zone type="line" xml:id="ed1_line15" points="272,2064 779,1969 1258,1952 1514,1897 1467,1828 1352,1759 1347,1759 1342,1759 1337,1759 1170,1791 922,1812 625,1857 279,1858 289,1968"/>
+      <zone type="line" xml:id="ed1_line16" points="294,2162 618,2117 793,2132 798,2132 803,2132 1089,2096 1427,2088 1480,2020 1422,1918 873,1928 868,1928 723,1973 708,1973 688,1973 449,1958 444,1958 439,1958 284,2003 239,2129"/>
+      <zone type="line" xml:id="ed1_line17" points="311,2303 758,2269 1147,2233 1267,2212 1272,2212 1437,2197 1499,2132 1427,2043 1190,2059 1077,2120 1003,2038 779,2122 613,2078 608,2078 297,2151 287,2256"/>
+      <zone type="line" xml:id="ed1_line18" points="301,2427 1417,2302 1558,2224 1402,2182 1242,2187 1142,2152 1137,2152 1132,2152 1127,2152 1028,2197 739,2223 576,2244 314,2257 273,2359"/>
+      <zone type="line" xml:id="ed1_line19" points="1112,2337 1040,2322 1003,2325 961,2333 928,2312 883,2327 686,2351 660,2373 550,2366 521,2370 509,2342 474,2372 252,2372 294,2521 449,2491 513,2496 568,2511 568,2506 573,2506 593,2481 638,2501 658,2501 721,2467 836,2498 1008,2451 1242,2436 1242,2431 1272,2406 1277,2396 1402,2387 1493,2330 1432,2277 1233,2325 1150,2356"/>
+      <zone type="line" xml:id="ed1_line20" points="948,2416 908,2416 833,2451 733,2456 703,2431 678,2431 643,2461 623,2446 598,2436 578,2436 578,2441 573,2441 458,2493 304,2481 257,2597 319,2651 419,2661 454,2641 499,2621 563,2646 583,2646 603,2631 658,2601 913,2616 1023,2561 1227,2546 1312,2576 1386,2458 1297,2372 1215,2408 1048,2401 998,2411"/>
+      <zone type="line" xml:id="ed1_line21" points="320,2767 1312,2686 1317,2686 1437,2646 1485,2601 1412,2486 1297,2536 1142,2526 1073,2521 1068,2521 1063,2521 1058,2521 1023,2541 968,2576 738,2596 713,2586 668,2566 663,2566 658,2566 653,2566 648,2566 648,2571 643,2571 628,2596 603,2581 598,2581 593,2581 588,2581 583,2581 578,2581 578,2586 573,2586 554,2611 554,2616 549,2611 494,2586 489,2586 484,2586 479,2586 329,2636 286,2727"/>
+      <zone type="line" xml:id="ed1_line22" points="292,2937 1392,2795 1457,2740 1382,2661 1247,2651 1257,2651 1063,2686 1018,2695 969,2727 883,2671 878,2671 748,2686 743,2686 738,2686 738,2691 713,2710 703,2720 683,2715 668,2731 589,2729 497,2745 304,2740 269,2854"/>
+      <zone type="line" xml:id="ed1_line23" points="354,3039 444,3004 544,3014 578,3019 583,3019 918,2985 923,2985 968,2965 1018,2940 1167,2940 1392,2940 1392,2935 1397,2935 1457,2900 1510,2845 1432,2770 305,2884 251,2952"/>
+      <zone type="line" xml:id="ed1_line24" points="324,3174 673,3124 743,3139 748,3139 753,3139 758,3139 848,3109 898,3129 918,3139 923,3139 1244,3127 1484,3079 1515,3009 1447,2915 1337,2885 1332,2885 1327,2885 1175,2949 1063,2959 1010,2978 947,2975 918,2975 798,2975 424,2975 419,2975 414,2975 409,2975 409,2980 374,3004 354,3024 304,3014 319,3119"/>
+      <zone type="line" xml:id="ed1_line25" points="299,3313 414,3279 668,3279 803,3279 803,3274 1088,3249 1093,3249 1098,3249 1137,3219 1142,3214 1147,3219 1172,3239 1177,3239 1182,3239 1187,3239 1362,3224 1367,3224 1423,3224 1448,3189 1460,3142 1448,3092 394,3109 389,3109 284,3154 251,3254"/>
+      <zone type="line" xml:id="ed1_line26" points="344,3443 449,3403 479,3433 484,3433 489,3433 494,3433 499,3433 514,3428 598,3398 663,3413 698,3423 703,3423 708,3423 908,3398 913,3398 918,3398 918,3393 923,3393 948,3358 1177,3348 1207,3363 1242,3383 1247,3383 1252,3383 1417,3343 1460,3284 1402,3169 1060,3237 683,3239 494,3229 489,3229 484,3229 329,3269 284,3377"/>
+      <zone type="line" xml:id="ed1_line27" points="349,3578 903,3558 1013,3513 1028,3513 1083,3533 1103,3533 1103,3528 1108,3528 1127,3503 1172,3528 1192,3528 1192,3523 1197,3523 1222,3493 1222,3488 1387,3473 1382,3403 1357,3318 1267,3343 1237,3333 1197,3313 1187,3313 1058,3323 1003,3368 878,3348 863,3348 863,3353 858,3353 843,3378 833,3388 648,3403 404,3388 334,3428 274,3611"/>
+      <zone type="line" xml:id="ed1_line28" points="264,3767 843,3692 843,3687 978,3667 1207,3627 1382,3647 1455,3580 1367,3453 1177,3488 1058,3478 1018,3478 1013,3478 1008,3478 988,3488 908,3528 349,3543 294,3688"/>
+      <zone type="line" xml:id="ed1_line29" points="1113,3617 1098,3627 374,3682 347,3793 396,3844 733,3777 1397,3747 1450,3684 1382,3592 1212,3588 1187,3588"/>
+      <zone type="line" xml:id="ed1_line30" points="357,4032 823,3896 973,3887 1068,3911 1083,3916 1088,3916 1093,3916 1098,3916 1103,3916 1117,3906 1152,3882 1447,3857 1476,3793 1427,3697 1048,3757 1023,3752 948,3727 943,3727 938,3727 633,3767 628,3767 524,3822 514,3827 509,3827 454,3807 449,3807 444,3807 439,3807 339,3842 307,3990"/>
+      <zone type="line" xml:id="ed1_line31" points="414,4101 504,4076 558,4086 603,4096 608,4096 613,4096 618,4096 618,4091 633,4081 658,4051 768,4041 808,4061 823,4066 828,4066 833,4066 1043,4041 1048,4041 1068,4036 1178,3994 1357,4001 1477,3903 1342,3847 788,3867 783,3867 778,3867 728,3906 688,3891 683,3891 678,3891 387,3967 364,4084"/>
+      <zone type="line" xml:id="ed1_line32" points="383,4332 515,4274 509,4310 514,4310 544,4285 598,4250 703,4255 708,4255 713,4255 718,4255 718,4250 779,4234 832,4196 908,4186 953,4205 992,4189 1205,4138 1453,4116 1453,4076 1417,4010 1324,3975 1262,3946 1257,3946 1252,3946 1252,3951 1247,3951 1222,3986 1018,3996 1013,3996 883,4046 878,4046 788,4016 783,4016 729,4045 623,4046 618,4046 494,4116 474,4126 469,4121 409,4091 404,4091 399,4091 394,4091 389,4091 334,4131 297,4351"/>
+      <zone type="line" xml:id="ed1_line33" points="394,4415 1427,4284 1451,4205 1387,4106 1157,4161 1113,4151 1078,4141 1073,4141 1032,4178 835,4202 813,4171 808,4171 748,4210 723,4230 703,4220 648,4200 643,4200 638,4200 633,4200 628,4200 628,4205 593,4240 588,4250 399,4307 363,4380"/>
+      <zone type="line" xml:id="ed1_line34" points="404,4569 1372,4395 1483,4359 1337,4230 379,4415 339,4546"/>
+      <zone type="line" xml:id="ed1_line35" points="374,4640 662,4600 850,4596 858,4594 863,4594 868,4594 913,4559 957,4578 953,4584 958,4584 963,4584 1080,4555 1165,4538 1194,4595 1457,4529 1457,4489 1481,4410 1367,4385 1362,4385 1357,4385 1352,4385 1257,4425 933,4464 896,4482 828,4440 773,4480 379,4519 351,4617"/>
+      <zone type="line" xml:id="ed1_line36" points="1002,4567 948,4539 899,4573 857,4582 806,4586 755,4583 705,4592 654,4600 604,4605 556,4601 505,4611 455,4619 410,4622 354,4609 349,4701 369,4729 1098,4619 1134,4567 1083,4519 1039,4544"/>
+      <zone type="line" xml:id="ed1_line37" points="1287,4574 1243,4557 1208,4565 1132,4576 1083,4579 1038,4584 988,4594 938,4604 888,4609 838,4619 788,4624 738,4634 688,4639 643,4649 593,4659 544,4664 494,4669 427,4672 399,4677 389,4659 339,4664 354,4744 364,4813 554,4754 638,4774 658,4774 663,4774 668,4774 713,4759 843,4751 1000,4695 1053,4714 1103,4709 1122,4709 1172,4684 1227,4659 1422,4644 1478,4576 1407,4539 1347,4544 1302,4554"/>
+      <zone type="line" xml:id="ed1_line38" points="1122,4644 1113,4644 1073,4649 1023,4654 973,4659 923,4659 788,4704 753,4714 718,4714 618,4709 583,4714 518,4758 344,4816 349,4843 354,4898 664,4903 806,4870 825,4840 869,4833 912,4810 924,4805 958,4793 1018,4791 1112,4763 1169,4773 1212,4771 1278,4759 1470,4765 1466,4699 1418,4644 1234,4642 1172,4644"/>
+      <zone type="line" xml:id="ed1_line39" points="355,5001 1010,4962 1131,4918 1093,4843 993,4818 988,4818 873,4874 660,4846 339,4853 349,4958"/>
+      <zone type="line" xml:id="ed1_line40" points="1031,4954 962,4964 871,4964 766,4972 652,4994 501,4983 342,4998 318,5060 354,5122 449,5092 548,5087 714,5122 788,5099 798,5117 803,5117 803,5112 808,5112 808,5107 889,5054 1033,5063 1407,5087 1453,4993 1402,4908 1150,4941 1097,4945"/>
+      <zone type="line" xml:id="ed1_line41" points="344,5217 878,5202 1207,5137 1246,5099 1189,5046 955,5047 932,5062 874,5074 803,5091 762,5105 704,5103 546,5094 482,5097 406,5101 334,5092 344,5177"/>
+      <zone type="line" xml:id="ed1_line42" points="355,5307 1322,5252 1366,5182 1312,5107 339,5182 327,5253"/>
+      <zone type="line" xml:id="ed1_line43" points="349,5242 304,5237 281,5406 309,5406 1053,5406 1449,5379 1411,5299 1087,5280 955,5270 916,5294 854,5299 772,5295 559,5303 442,5281 354,5252"/>
+      <zone type="line" xml:id="ed1_line44" points="300,5483 1131,5482 1441,5444 1406,5377 342,5387 274,5445"/>
+      <zone type="line" xml:id="ed1_line45" points="868,5446 818,5446 768,5446 718,5446 319,5446 288,5543 324,5601 1142,5586 1147,5536 1142,5446 968,5446 918,5446"/>
+      <zone type="line" xml:id="ed1_line46" points="304,5710 1152,5656 1157,5616 1142,5546 299,5561 261,5650"/>
+      <zone type="line" xml:id="ed1_line47" points="309,5810 393,5828 505,5824 582,5791 678,5790 735,5809 774,5789 799,5798 847,5807 894,5820 975,5804 1150,5797 1136,5685 977,5672 680,5672 573,5690 300,5711 309,5770"/>
+      <zone type="line" xml:id="ed1_line48" points="422,5847 470,5901 751,5889 770,5835 740,5784 524,5786 446,5795"/>
+             </zone>
+         </surface>
+         <surface xml:id="ed1surf2" ulx="0" uly="0" lrx="5972" lry="1648">
+            <zone type="text">
+               <zone type="line" xml:id="ed1_line49" points="1074,392 1233,383 1256,410 1299,408 1372,402 1389,400 1416,403 1422,411 1512,444 1547,411 1601,429 1704,408 1745,411 1768,406 1841,390 1856,417 1873,405 1895,407 1913,412 1952,412 2047,401 2067,396 2099,226 1991,200 1907,212 1874,204 1833,216 1775,212 1731,193 1700,204 1648,192 1586,199 1486,186 1457,201 1406,204 1391,195 1326,199 1303,185 1297,185 1260,203 1234,196 1197,211 1085,210 1083,343"/>
+      <zone type="line" xml:id="ed1_line50" points="1377,516 1440,516 1461,535 1517,543 1571,525 1593,584 1704,547 1772,577 1824,549 1874,540 1901,544 1934,538 1970,516 2045,513 2064,501 2139,507 2164,488 2204,506 2247,505 2274,444 2272,403 2162,378 2130,378 2086,404 2019,396 1889,424 1767,429 1688,457 1638,447 1600,434 1395,444 1374,471 1376,487"/>
+      <zone type="line" xml:id="ed1_line51" points="3693,1201 3745,1183 3808,1149 3847,1142 3854,1231 4054,1222 4133,1185 4218,1229 4432,1218 4512,1189 4572,1181 4680,1195 4767,1171 5044,1135 5145,1180 5244,1190 5291,1186 5565,1227 5752,1238 5938,1151 5798,1067 5156,980 5017,1068 4914,1047 4818,1039 4703,977 4623,954 4239,884 4168,977 4092,1035 3883,964 3609,1046 3352,931 3134,1057 3024,1163"/>
+            </zone>
+         </surface>
+      </facsimile>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="r" type="textpart"><ab>
+    <lb n="1" xml:id="ed1lin1"/><supplied reason="lost">τῇ κυρίᾳ μου ἀδελφῇ</supplied> 
+    <lb n="2" xml:id="ed1lin2"/><supplied reason="lost">Ἰσιδώρᾳ Γελάσιος</supplied> 
+    <lb n="3" xml:id="ed1lin3" facs="#ed1_line3"/>ὁ ἀδελφὸς χαίρ<supplied reason="lost">ει</supplied>ν. 
+    <lb n="4" xml:id="ed1lin4" facs="#ed1_line4"/>πρὸ παντὸς πολλ<unclear>ὰ</unclear><note>πολλο̣ῦ̣ ed., πολλά σε̣ Gonis</note> <unclear>σὲ</unclear> ἀσπά
+    <lb n="5" xml:id="ed1lin5" facs="#ed1_line5" break="no"/>ζομαι εὐχόμενος <choice><reg>ὑγιαί|νειν</reg><orig>ὑ̣ιαί<lb n="6" xml:id="ed1lin6" facs="#ed1_line6" break="no"/>νειν</orig></choice> ἐπὶ μήκιστ<unclear>ο</unclear>ν<note>μήκιστα̣ ed., μήκιστο̣ν Gonis</note> χρό
+    <lb n="7" xml:id="ed1lin7" facs="#ed1_line7" break="no"/>νον, μετὰ τὴν κυρ<supplied reason="lost">ί</supplied>αν σου 
+    <lb n="8" xml:id="ed1lin8" facs="#ed1_line8"/>ἀδελφὴν <app type="editorial"><lem>Χαρισ<unclear>ί</unclear>αν.</lem><rdg>Χαρί<unclear>τη</unclear>ν</rdg></app><note>l. μετὰ τῆς κυρ[ί]ας μου | ἀδελφῆς Χαρισίας</note> πο
+    <lb n="9" xml:id="ed1lin9" facs="#ed1_line9" break="no"/>λλὰ ἀσπ<unclear>ά</unclear><supplied reason="lost">ζο</supplied><unclear>μαι</unclear> <unclear>τὴν</unclear> μη<note>  ̣  ̣  ̣  ̣  ̣  ̣  ̣  ̣  ̣  ̣  ̣ μ̣η ed.</note>
+    <lb n="10" xml:id="ed1lin10" facs="#ed1_line10" break="no"/>τέρα Εἰρήνην, πολλὰ 
+    <lb n="11" xml:id="ed1lin11" facs="#ed1_line11"/>ἀσπάζομαι τὴν ἀδελ
+    <lb n="12" xml:id="ed1lin12" facs="#ed1_line12" break="no"/>φὴν Τσαμοῦν καὶ τὸν 
+    <lb n="13" xml:id="ed1lin13" facs="#ed1_line13"/>ἀδελφὸν Ψά<hi rend="diaeresis">ι</hi>ν<note>ψαϊν</note>. πολλὰ 
+    <lb n="14" xml:id="ed1lin14" facs="#ed1_line14"/>ἀσπάζομαι τὸν ἀδελ
+    <lb n="15" xml:id="ed1lin15" facs="#ed1_line15" break="no"/>φόν μου. ἀξιωθείς, 
+    <lb n="16" xml:id="ed1lin16" facs="#ed1_line16"/>κυρία μου ἀδελφή, <unclear>π</unclear>οίη 
+    <lb n="17" xml:id="ed1lin17" facs="#ed1_line17" break="no"/>σον<note>σ̣οι ᾖ | συνσαρωθῆναι ed., ποίη|σεν l. ποίη|σον σαρωθῆναι Hagedorn, ποίη|σον Ast</note> σαρωθῆναι καὶ ῥαν
+    <lb n="18" xml:id="ed1lin18" facs="#ed1_line18" break="no"/>θ<unclear>ῆ</unclear>ναι τὸ μέγα οἶκος<note>τὸ⟨ν⟩ μέγα⟨ν⟩ οἶκος, l. οἶκον ed.; τὸ μέγα οἶκος Parássoglou</note> 
+    <lb n="19" xml:id="ed1lin19" facs="#ed1_line19"/>τοῦ γεούχου Περικλέους 
+    <lb n="20" xml:id="ed1lin20" facs="#ed1_line20"/>ἕως ἔλθω. ἀξιωθείς, 
+    <lb n="21" xml:id="ed1lin21" facs="#ed1_line21"/>πέμψον μοι ἀργυρίου 
+    <lb n="22" xml:id="ed1lin22" facs="#ed1_line22"/>τάλαντα <num value="2000"><choice><reg>δισχίλια</reg><orig>δισχείλια</orig></choice></num> 
+    <lb n="23" xml:id="ed1lin23" facs="#ed1_line23"/>ἀλλὰ πάντω<unclear>ς</unclear><note>πάντα ed., πάντω[ς] Parássoglou</note>. οἶδα γὰρ 
+    <lb n="24" xml:id="ed1lin24" facs="#ed1_line24"/>τὴν σὴν φι<unclear>λ</unclear><supplied reason="lost">α</supplied><unclear>δ</unclear>ελφείαν<note>φι[λαδ]ελφείαν ed.</note>. 
+    <lb n="25" xml:id="ed1lin25" facs="#ed1_line25"/>πολλὰ ἀσπάζομαι τὸν 
+    <lb n="26" xml:id="ed1lin26" facs="#ed1_line26"/>πατέρα Ψεναμοῦνιν <supplied reason="lost" cert="low">καὶ </supplied><note>Ψεναμοῦν [καὶ] ed.</note> 
+    <lb n="27" xml:id="ed1lin27" facs="#ed1_line27"/>Ἀμμό<unclear>ν</unclear>ιον<note>Ἀμμό[ν]ιον ed.</note>. πο<unclear>λλ</unclear><supplied reason="lost">ὰ</supplied> 
+    <lb n="28" xml:id="ed1lin28" facs="#ed1_line28"/>ἀσπάζομαι τὴν μη
+    <lb n="29" xml:id="ed1lin29" facs="#ed1_line29" break="no"/>τέρα Ταμοῦν. πολλὰ 
+    <lb n="30" xml:id="ed1lin30" facs="#ed1_line30"/>ἀσπάζομαι τὴν ἀδελ
+    <lb n="31" xml:id="ed1lin31" facs="#ed1_line31" break="no"/>φὴν Θ<unclear>α</unclear>σι<note>Θέτι⟨ν⟩ ed., Θασι Ast</note>. πολλὰ 
+    <lb n="32" xml:id="ed1lin32" facs="#ed1_line32"/>ἀσπάζομαι τοὺς παρὰ 
+    <lb n="33" xml:id="ed1lin33" facs="#ed1_line33"/>σοὶ πάντας<note>πάντες ed., πάντα̣ς Ast</note> κατʼ ὄνο
+    <lb n="34" xml:id="ed1lin34" facs="#ed1_line34" break="no"/>μα ἐν τῇ οἰκίᾳ 
+    <lb n="35" xml:id="ed1lin35" facs="#ed1_line35"/>Ψενπλάει Ἀμμονίου<note>Ψενπλαθαμαῖον ed.</note>.
+    <lb n="36" xml:id="ed1lin36" facs="#ed1_line36"/><add place="above">ἀδελφή σου</add> 
+    <lb n="37" xml:id="ed1lin37" facs="#ed1_line37"/>ἡ <del rend="erasure">μήτηρ μου</del> Τβῆκις<note>Τβεῖσ[ις] ed.</note> 
+    <lb n="38" xml:id="ed1lin38" facs="#ed1_line38"/>πολλὰ ἀσπάζομαι τὸν 
+    <lb n="39" xml:id="ed1lin39" facs="#ed1_line39"/>ἀδελφὸν <gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="4" unit="character"/> 
+    <lb n="40" xml:id="ed1lin40" facs="#ed1_line40"/>ἡ μήτηρ Τβῆκις<note>Τβήκιον ed., Τβῆκις Ast</note> πολλὰ
+    <lb n="41" xml:id="ed1lin41" facs="#ed1_line41"/>ἀσπάζομαι τὴν κυρ<unclear>ία</unclear><supplied reason="lost">ν</supplied><note>κυρ[ίαν] ed.</note> 
+    <lb n="42" xml:id="ed1lin42" facs="#ed1_line42"/>μου ἀδελφὴν Ἰσιδώραν 
+    <lb n="43" xml:id="ed1lin43" facs="#ed1_line43"/>καὶ τὴν θυγατέρα Χαρισίαν, 
+    <lb n="44" xml:id="ed1lin44" facs="#ed1_line44"/>πολλὰ ἀσπάζομαι τὴν <unclear>ἀδελ</unclear>
+    <lb n="45" xml:id="ed1lin45" facs="#ed1_line45" break="no"/>φὴν Εἰρήνην, πολ<supplied reason="lost">λὰ<note>πο[λλά ed.</note> ἀσπά</supplied>
+    <lb n="46" xml:id="ed1lin46" facs="#ed1_line46" break="no"/>ζομαι τὸν υἱόν μ<supplied reason="lost">ου<note>μ[ου ed.</note>, πολ</supplied>
+    <lb n="47" xml:id="ed1lin47" facs="#ed1_line47" break="no"/>λὰ ἀσπάζομαι τὴν<note>το[ ed.</note> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
+    <lb n="48" xml:id="ed1lin48" facs="#ed1_line48"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> ἀσπά<unclear>ζ</unclear><supplied reason="lost">ομαι</supplied><note>om. ed.</note> <gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+    <lb n="48"/><gap reason="lost" extent="unknown" unit="line"/> 
+</ab></div>
+<div n="v" type="textpart"><ab>
+    <lb n="49" xml:id="ed1lin49" facs="#ed1_line49"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>α καὶ Ἀμμώνιον
+    <lb n="50" xml:id="ed1lin50" facs="#ed1_line50"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὴ</supplied>ν<note>]  ̣ ed.</note> μητέρα Ταβ<unclear>α</unclear>ιαν
+    <lb n="51" xml:id="ed1lin51" facs="#ed1_line51"/><handShift new="m2"/> <supplied reason="lost">τῇ κυρί</supplied><unclear>ᾳ</unclear> μου ἀδελφ<unclear>ῇ</unclear> <unclear>Ἰσι</unclear>δώρᾳ <g type="x"/> Γελάσιος ὁ ἀδελφός
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main"/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">33514</idno>
+               <idno type="TM">33514</idno>
+               <idno type="HGV">33514</idno>
+               <idno type="ddb-hybrid">pylon;6;8_1</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>
+[To my lady sister Isidora, Gelasios] her brother, greetings. Before everything, I greet (you) warmly, praying that you be well for the longest time, along with my lady sister Charisia. I greet warmly my mother Eirene. I greet warmly my sister Tsamoun and my brother Psais. I greet warmly my brother. Please, my lady sister, have the great house of our landlord Perikles be swept and sprinkled before I come. Please send me two thousand talents of money by all means. For I know your sisterly kindness. I greet warmly my father Psenamounis and (?) Ammonios. I greet warmly my mother Tamoun. I greet warmly my sister Thasi. I greet warmly all those in the house of Psenplaeus son of Ammonios with you individually. (Deleted: My mother) Your sister Tbekis, I greet warmly my brother [ ]. Mother Tbekis, I warmly greet my lady sister Isidora and my daughter Charisia. I greet warmly my sister Eirene. I greet warmly my son. I greet warmly . . (Verso) . . . and Ammonios . . . and mother Tabaia.
+To my lady sister Isidora, Gelasios her brother. 
+</p></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Gelasios to Papnouthes</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">33515</idno>
+               <idno type="HGV">33515</idno>
+               <idno type="ddb-filename">pylon.6.8_2</idno>
+               <idno type="ddb-hybrid">pylon;6;8_2</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement>unbekannt</settlement>
+                     </placeName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>unbekannt</origPlace>
+                        <origDate notBefore="0301" notAfter="0400" precision="low">IV</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term>Brief (privat)</term>
+                  <term>Gelasios an Papnuthes</term>
+                  <term>Zahlungsanweisung</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition">
+               <listBibl>
+                  <bibl type="publication" subtype="principal">
+                     <title level="s" type="abbreviated">Pylon</title>
+                     <biblScope n="1" unit="volume">6</biblScope>
+                     <biblScope n="2" unit="fascicle">(2024)</biblScope>
+                     <biblScope n="3" unit="generic">Art. 8</biblScope>
+                     <biblScope n="4" unit="number">Nr. 2</biblScope>
+                  </bibl>
+               </listBibl>
+            </div>
+            <div type="bibliography" subtype="illustrations">
+               <p>keine</p>
+            </div>
+            <div type="bibliography" subtype="otherPublications">
+               <head>Andere Publikation</head>
+               <listBibl>
+                  <bibl type="publication" subtype="other">SB VI 9012</bibl>
+                  <bibl type="publication" subtype="other">P.Med. 1 82</bibl>
+               </listBibl>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.6.8_2</idno>
+               <idno type="ddb-hybrid">pylon;6;8_2</idno>
+               <idno type="HGV">33515</idno>
+               <idno type="TM">33515</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <facsimile>
+      <surface xml:id="ed2surf1" ulx="0" uly="0" lrx="1438" lry="2325">
+            <zone type="text">
+               <zone type="line" xml:id="ed2_line1" points="1233,97 1193,96 1155,94 1114,102 1071,96 1029,99 921,102 824,110 772,107 730,79 678,81 647,66 598,81 534,57 505,81 488,81 425,75 478,81 375,81 358,72 222,29 211,215 186,284 257,266 313,272 363,258 433,271 520,261 580,233 647,207 668,193 701,194 717,218 808,189 882,192 949,250 1068,209 1121,207 1187,241 1306,248 1308,155 1315,113 1274,100"/>
+      <zone type="line" xml:id="ed2_line2" points="341,447 316,554 435,495 520,462 599,515 659,481 684,449 727,426 744,451 776,436 793,426 818,426 870,433 919,440 1122,409 1185,370 1162,352 1162,335 1179,282 1138,255 1085,258 1039,263 960,264 896,286 864,298 833,280 813,271 769,280 732,293 653,301 595,300 366,305 318,410"/>
+      <zone type="line" xml:id="ed2_line3" points="201,662 190,688 178,744 258,726 292,682 498,688 528,670 558,661 589,645 650,698 701,679 757,632 732,778 859,681 887,649 916,645 939,650 927,665 957,681 1039,687 1125,653 1173,679 1239,642 1294,621 1359,556 1322,396 1251,477 1186,484 1055,481 1004,465 965,463 903,473 817,491 761,512 678,495 518,520 395,503 302,565 212,559"/>
+      <zone type="line" xml:id="ed2_line4" points="196,974 279,946 314,980 366,987 389,908 422,936 486,887 511,899 561,968 677,964 687,905 701,931 711,932 735,913 735,914 816,918 924,908 980,905 1064,896 1104,890 1129,904 1188,885 1248,854 1258,901 1312,901 1377,895 1337,815 1349,748 1302,706 1234,740 1239,715 1200,719 1167,723 1133,737 1120,737 1080,735 1065,742 1042,755 981,754 916,788 887,778 845,775 804,762 717,798 691,748 629,748 581,758 531,754 472,790 416,790 413,747 352,780 326,749 224,777 160,930"/>
+      <zone type="line" xml:id="ed2_line5" points="250,1176 391,1207 474,1182 598,1154 641,1120 700,1154 851,1180 948,1146 990,1086 1026,1099 1153,1099 1212,1095 1243,1107 1317,1073 1355,1059 1343,1065 1379,1019 1365,947 1325,927 1276,928 1261,927 1221,939 1211,962 1182,955 1047,939 1014,946 984,941 949,929 871,956 808,979 741,995 727,983 712,976 672,979 607,989 561,986 511,989 488,1008 476,995 469,1003 400,964 318,1008 248,1007 204,1066 246,1125"/>
+      <zone type="line" xml:id="ed2_line6" points="282,1348 325,1379 399,1384 478,1373 502,1445 574,1368 611,1398 697,1351 715,1367 740,1329 750,1381 793,1358 838,1347 893,1341 1009,1321 1058,1351 1103,1351 1125,1352 1172,1321 1295,1346 1337,1290 1371,1271 1406,1229 1383,1152 1266,1167 1108,1156 1093,1171 1065,1178 1058,1152 990,1201 940,1192 744,1190 705,1214 662,1204 631,1207 569,1212 550,1197 544,1197 465,1205 451,1204 419,1209 377,1201 337,1210 298,1215 214,1216 217,1361"/>
+      <zone type="line" xml:id="ed2_line7" points="224,1569 222,1625 392,1627 478,1622 544,1582 594,1590 624,1565 684,1606 734,1565 759,1585 817,1574 863,1573 992,1559 1108,1559 1122,1546 1170,1551 1238,1523 1251,1520 1259,1520 1376,1499 1367,1473 1374,1381 1181,1344 1058,1402 992,1416 949,1410 883,1404 808,1418 770,1418 744,1433 734,1433 693,1418 625,1431 618,1431 598,1449 567,1433 568,1422 524,1435 511,1412 424,1443 350,1460 288,1451 265,1451 248,1455 240,1455 217,1466 222,1542"/>
+      <zone type="line" xml:id="ed2_line8" points="224,1814 346,1796 381,1814 475,1821 570,1827 627,1841 735,1851 768,1809 757,1745 775,1763 784,1763 803,1794 864,1774 872,1774 884,1783 961,1768 984,1787 1009,1767 1015,1767 1069,1785 1157,1789 1281,1732 1330,1622 1164,1603 1100,1613 1025,1615 980,1610 912,1627 905,1619 866,1629 800,1629 780,1642 782,1662 775,1670 726,1641 635,1639 565,1606 412,1627 301,1645 250,1656 221,1670 185,1680 181,1711"/>
+      <zone type="line" xml:id="ed2_line9" points="308,2035 353,2075 424,2026 562,2037 670,2040 722,2032 722,1980 764,2025 868,2017 960,2036 1015,2020 1062,2024 1114,2016 1186,2025 1255,2017 1331,2030 1347,1991 1263,1864 1197,1856 1151,1850 1091,1850 1083,1850 1060,1836 992,1850 967,1845 872,1856 820,1863 781,1885 761,1904 724,1885 717,1885 703,1882 689,1891 680,1891 646,1882 621,1888 564,1874 460,1869 416,1906 396,1893 356,1889 176,1894 182,2016"/>
+      <zone type="line" xml:id="ed2_line10" points="255,2159 544,2155 629,2145 692,2163 720,2232 790,2263 1003,2250 1112,2212 1169,2216 1304,2207 1305,2150 1272,2045 1239,2029 1200,2085 1113,2089 1038,2060 992,2069 964,2067 952,2091 918,2081 900,2069 875,2075 851,2067 805,2057 752,2073 722,2068 667,2076 616,2059 520,2080 421,2055 345,2077 296,2039 238,2077 220,2134"/>
+            </zone>
+         </surface>
+         <surface xml:id="ed2surf2" ulx="0" uly="0" lrx="2308" lry="1464">
+            <zone type="text">
+              <zone type="line" xml:id="ed2_line11" points="246,712 468,734 539,745 615,734 657,746 691,755 797,741 825,733 951,727 1024,725 1056,707 1069,709 1110,711 1131,705 1142,704 1169,707 1282,686 1315,636 1296,544 1184,562 1110,534 1057,529 1029,564 1001,588 989,582 965,577 933,575 884,577 823,569 765,593 693,568 667,572 621,561 591,564 559,555 387,573 339,571 288,581 248,617 230,662"/>
+               </zone>
+         </surface>
+      </facsimile>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="r" type="textpart"><ab>
+    <lb n="1" xml:id="ed2lin1" facs="#ed2_line1"/>κυρίῳ μ<supplied reason="lost">ου</supplied> πατρὶ 
+    <lb n="2" xml:id="ed2lin2" facs="#ed2_line2"/>Παπνούθῃ 
+    <lb n="3" xml:id="ed2lin3" facs="#ed2_line3"/>Γελάσιος χαίρειν. 
+    <lb n="4" xml:id="ed2lin4" facs="#ed2_line4"/>ἀργυρίου τάλαντα 
+    <lb n="5" xml:id="ed2lin5" facs="#ed2_line5"/><num value="1300">χίλια τριακόσια</num> 
+    <lb n="6" xml:id="ed2lin6" facs="#ed2_line6"/>ὑπὲρ τιμῆς<note>τ[ει]μῆς ed., τιμῆς Ast</note> οἴνου 
+    <lb n="7" xml:id="ed2lin7" facs="#ed2_line7"/>ὑπὲρ τ<unclear>ῆ</unclear>ς <note>τε⟨λω⟩νίας ed. pr., τενίας ed.;</note><choice><reg>ταινίας</reg><orig>τενίας</orig></choice> 
+    <lb n="8" xml:id="ed2lin8" facs="#ed2_line8"/>τοῦ κυρ<supplied reason="lost">ί</supplied>ου μου 
+    <lb n="9" xml:id="ed2lin9" facs="#ed2_line9"/>υἱοῦ δὸ<supplied reason="lost">ς</supplied> τῷ ἀδελ
+    <lb n="10" xml:id="ed2lin10" facs="#ed2_line10" break="no"/>φῷ <unclear>Τιβ</unclear>ερίῳ<note>[φῷ Ἐλευθ]ερίῳ ed. pr., [φῷ  ̣  ̣  ̣ ] ερίῳ ed., φῷ̣ Τιβ̣ερίῳ Ast</note> τῷ 
+    <lb n="11"/><gap reason="lost" extent="unknown" unit="line"/> 
+</ab></div>
+<div n="v" type="textpart"><ab>
+    <lb n="11" xml:id="ed2lin11" facs="#ed2_line11"/><expan><unclear>ἐ</unclear>πιστ<unclear>ολ</unclear><ex>ὴ</ex></expan> Γελασίου<note>  ̣  ̣  ̣  ̣  Γελασίου ed.</note> 
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main"/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">33515</idno>
+               <idno type="TM">33515</idno>
+               <idno type="HGV">33515</idno>
+               <idno type="ddb-hybrid">pylon;6;8_2</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans2" xml:lang="en" type="translation" xml:space="preserve"><p>
+To my lord father Papnouthes, Gelasios, greetings. Give one thousand three hundred talents of money for the price of wine for the strip of land of my lord son to my brother Tiberius the . . . 
+(Verso) Letter of Gelasios.
+</p></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Gelasios to Papnouthes</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">33516</idno>
+               <idno type="HGV">33516</idno>
+               <idno type="ddb-filename">pylon.6.8_3</idno>
+               <idno type="ddb-hybrid">pylon;6;8_3</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement>unbekannt</settlement>
+                     </placeName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>unbekannt</origPlace>
+                        <origDate notBefore="0301" notAfter="0400" precision="low">IV</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term>Brief (privat)</term>
+                  <term>Gelasios an Papnuthes</term>
+                  <term>wiederholte Bitte um Zusendung (Vögel)</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition">
+               <listBibl>
+                  <bibl type="publication" subtype="principal">
+                     <title level="s" type="abbreviated">Pylon</title>
+                     <biblScope n="1" unit="volume">6</biblScope>
+                     <biblScope n="2" unit="fascicle">(2024)</biblScope>
+                     <biblScope n="3" unit="generic">Art. 8</biblScope>
+                     <biblScope n="4" unit="number">Nr. 3</biblScope>
+                  </bibl>
+               </listBibl>
+            </div>
+            <div type="bibliography" subtype="illustrations">
+               <p>keine</p>
+            </div>
+            <div type="bibliography" subtype="otherPublications">
+               <head>Andere Publikation</head>
+               <listBibl>
+                  <bibl type="publication" subtype="other">SB VI 9013</bibl>
+                  <bibl type="publication" subtype="other">P.Med. 1 83</bibl>
+               </listBibl>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.6.8_3</idno>
+               <idno type="ddb-hybrid">pylon;6;8_3</idno>
+               <idno type="HGV">33516</idno>
+               <idno type="TM">33516</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface xml:id="ed3surf1" ulx="0" uly="0" lrx="1260" lry="1778">
+            <zone type="text">
+               <zone type="line" xml:id="ed3_line1" points="611,254 597,271 576,264 545,280 517,285 477,288 377,278 357,300 373,341 564,299 637,268 672,274 745,299 878,320 898,253 901,248 892,200 877,181 841,181 793,171 755,180 679,190 647,200 626,208 616,237"/>
+      <zone type="line" xml:id="ed3_line2" points="1010,384 984,374 976,368 944,363 920,371 831,361 809,367 759,366 684,358 648,347 625,326 479,330 420,499 506,501 551,471 581,484 625,491 667,480 693,493 710,480 717,480 736,489 775,490 873,490 918,497 929,491 989,510 1040,527 1080,512 1104,452 1099,413 1061,387"/>
+      <zone type="line" xml:id="ed3_line3" points="149,670 210,653 230,616 228,603 256,619 318,620 366,616 398,618 436,620 454,638 512,652 581,611 617,616 660,623 661,595 701,670 835,636 913,642 954,671 1009,635 1043,637 1074,715 1134,663 1153,642 1165,616 1169,598 1180,552 1182,526 1141,511 1111,503 1029,533 978,525 905,513 850,513 813,505 745,508 691,520 648,516 616,519 571,513 498,500 444,511 394,491 346,485 304,490 266,501 225,487 195,507 168,539 168,583"/>
+      <zone type="line" xml:id="ed3_line4" points="139,843 254,797 279,799 300,777 310,784 340,785 345,785 428,777 509,760 619,786 653,764 720,786 738,833 755,836 782,819 852,803 951,789 996,831 1071,852 1177,822 1099,744 1064,712 1050,674 1021,662 977,687 936,708 864,675 775,654 628,684 581,673 560,683 527,690 481,687 395,667 281,680 137,683 128,761"/>
+      <zone type="line" xml:id="ed3_line5" points="112,930 111,990 231,983 346,974 377,956 509,955 572,921 626,961 669,963 736,943 764,937 775,1023 839,980 879,951 929,952 959,953 1031,962 1086,951 1092,930 1138,838 910,862 869,853 806,812 738,850 668,842 614,828 544,820 451,847 383,846 325,840 308,834 153,831 112,920"/>
+      <zone type="line" xml:id="ed3_line6" points="131,1133 147,1150 186,1129 195,1129 217,1136 253,1123 309,1141 369,1176 459,1142 534,1141 582,1118 596,1130 629,1138 679,1139 794,1105 836,1101 888,1110 914,1088 959,1098 1007,1078 1037,1059 1037,1050 1034,1017 1001,1012 970,997 927,989 906,1001 864,1002 759,1007 740,1008 738,1003 718,1001 709,1000 679,1003 672,1000 630,997 609,994 593,997 539,985 476,1002 450,999 397,1002 325,1007 239,1017 118,1026 127,1109"/>
+      <zone type="line" xml:id="ed3_line7" points="112,1299 136,1325 185,1319 226,1343 282,1300 326,1279 358,1303 380,1298 393,1320 506,1292 554,1270 610,1226 635,1234 656,1216 766,1206 803,1231 825,1221 871,1214 892,1222 908,1228 945,1214 951,1214 1016,1206 1071,1208 1079,1179 1102,1179 1121,1166 1098,1129 1061,1126 1035,1124 1027,1110 995,1112 957,1124 938,1116 886,1111 827,1114 703,1186 603,1154 507,1149 469,1165 436,1164 357,1185 317,1195 260,1159 229,1187 179,1168 139,1214 106,1238 109,1263"/>
+      <zone type="line" xml:id="ed3_line8" points="1133,1289 1089,1276 1067,1275 1022,1229 965,1270 920,1284 874,1294 839,1303 776,1308 711,1348 608,1331 563,1317 522,1325 410,1330 314,1334 137,1345 105,1363 96,1360 102,1452 113,1513 188,1479 266,1470 292,1483 369,1452 416,1434 468,1446 572,1425 675,1389 810,1383 893,1413 964,1473 1049,1433 1071,1402 1133,1419 1172,1406 1166,1386 1169,1377 1165,1351 1143,1321"/>
+      <zone type="line" xml:id="ed3_line9" points="117,1677 207,1663 335,1658 361,1638 412,1637 449,1641 486,1637 527,1639 555,1627 592,1631 626,1593 710,1577 788,1572 816,1591 888,1623 986,1647 1048,1540 1061,1515 1071,1431 1003,1455 927,1484 909,1481 904,1489 858,1493 824,1484 785,1505 757,1536 680,1536 659,1545 649,1536 636,1518 618,1497 584,1490 559,1490 513,1485 457,1514 268,1510 135,1530 71,1592 114,1628"/>
+      <zone type="line" xml:id="ed3_line10" points="195,1742 246,1738 315,1739 344,1752 387,1756 470,1753 489,1757 533,1731 605,1711 818,1690 877,1705 930,1708 964,1708 992,1713 1020,1711 1036,1719 1058,1713 1074,1710 1089,1700 1115,1699 1102,1687 1098,1638 1056,1638 1015,1637 1007,1637 983,1646 959,1640 911,1638 868,1631 800,1638 601,1674 563,1674 552,1663 545,1663 523,1666 403,1680 385,1668 351,1669 331,1668 297,1673 234,1666 216,1686 194,1689 195,1709"/>
+         </zone>
+         </surface>
+         <surface xml:id="ed3surf2" ulx="0" uly="0" lrx="1782" lry="1205">
+            <zone type="text">
+               <zone type="line" xml:id="ed3_line11" points="158,591 136,632 183,641 270,617 332,637 397,628 430,626 529,618 632,612 739,592 817,595 907,590 1109,575 1204,570 1280,563 1342,571 1442,596 1718,573 1742,538 1744,506 1707,464 1644,464 1598,463 1551,466 1430,453 1349,440 1281,430 1198,453 1134,453 1026,457 932,476 866,478 822,480 794,481 772,476 700,483 662,487 604,489 537,493 486,471 409,468 307,471 255,544 158,588"/>
+    
+          </zone>
+         </surface>
+      </facsimile>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed3" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="r" type="textpart"><ab>
+    <lb n="1" xml:id="ed3lin1" facs="#ed3_line1"/><supplied reason="lost">κυ</supplied>ρ<supplied reason="lost">ίῳ</supplied> μου <expan>ἀ<supplied reason="lost">δελ<ex>φῷ</ex></supplied></expan> 
+    <lb n="2" xml:id="ed3lin2" facs="#ed3_line2"/>Παπνούθῃ 
+    <lb n="3" xml:id="ed3lin3" facs="#ed3_line3"/>Γελάσιος χαίρειν. 
+    <lb n="4" xml:id="ed3lin4" facs="#ed3_line4"/>ἐδήλωσά σοι ἅπαξ 
+    <lb n="5" xml:id="ed3lin5" facs="#ed3_line5"/>καὶ δεύτερον 
+    <lb n="6" xml:id="ed3lin6" facs="#ed3_line6"/>ὅτι πέμψον<note>πέμ[ψ]ον ed.</note> μοι 
+    <lb n="7" xml:id="ed3lin7" facs="#ed3_line7"/>ὀρνίθια<note>ὀρνίθι[α ed.</note> <num value="10"><supplied reason="lost">δ</supplied>έκα</num> 
+    <lb n="8" xml:id="ed3lin8" facs="#ed3_line8"/>καὶ οὐδ<supplied reason="lost">αμ</supplied>ῶς<note>οὐδ[αμῶ]ς ed.</note> ἐφρόν
+    <lb n="9" xml:id="ed3lin9" facs="#ed3_line9" break="no"/>τισας δη<supplied reason="lost">λ</supplied><unclear>ῶ</unclear>σαι<note>δ[ ̣  ̣  ̣  ̣  ̣]αι ed.</note> 
+    <lb n="10" xml:id="ed3lin10" facs="#ed3_line10"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap><note>om. ed.</note>
+    <lb n="10"/><gap reason="lost" extent="unknown" unit="line"/> 
+</ab></div>
+<div n="v" type="textpart"><ab>
+    <lb n="11" xml:id="ed3lin11" facs="#ed3_line11"/>κυρίῳ μου ἀδελφῷ Παπ<supplied reason="lost">νούθῃ</supplied><note>[κυ]ρίῳ μου ἀδελφῷ Παπ[νούθῃ ed.</note> 
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main"/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">33516</idno>
+               <idno type="TM">33516</idno>
+               <idno type="HGV">33516</idno>
+               <idno type="ddb-hybrid">pylon;6;8_3</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans3" xml:lang="en" type="translation" xml:space="preserve"><p>
+To my lord brother Papnouthes, Gelasios, greetings. I informed you once and a second time, “Send me ten chickens,” and you took no care to inform me …
+</p></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
