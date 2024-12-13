@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Critical Notes on Published Documentary Papyri and Ostraca</title>
+                <author>
+                    <name>
+                        <forename>Constantinos</forename>
+                        <surname>Balamoshev</surname>
+                    </name>
+                    <affiliation>Faculty of Archaeology Department of Papyrology, University of Warsaw </affiliation>
+                    <email>c.balamoshev@uw.edu.pl</email>
+                    <idno ana="hc:ORCIDURI">https://orcid.org/0000-0002-5700-2408</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date/>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Propylaeum</orgName>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+                </publisher>
+                <pubPlace>
+                    <placeName>Heidelberg</placeName>
+                    <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+                </pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno ana="hc:PrivateIdentifier">pylon.6.1</idno>
+                <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2024.6.108245</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc><sourceDesc>
+                <bibl ana="hc:RecommendedBibliographicReference">C. Balamoshev, “Critical Notes on Published Documentary Papyri and Ostraca,” Pylon 6 (2024) Article 1. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2024.6.108245">https://doi.org/10.48631/pylon.2024.6.108245</ref>.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title level="j" ana="hc:MainTitle">Pylon</title>
+                        <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                        <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                        <imprint>
+                            <biblScope unit="volume">6</biblScope>
+                            <biblScope unit="article">1</biblScope>
+                            <date when="2024">2024</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <ab>Converted from a Word document for Pylon.</ab>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2024-11-12T10:50:29Z</date>
+                    <name/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="MainTitle">Critical Notes on Published Documentary Papyri and Ostraca</titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <div type="article">
+                <p xml:id="p1" style="text-align: left; text-align: justify;">In this paper, I offer corrections and remarks on various documentary papyri and an ostracon. The proposed changes are based on readings conducted either through high-quality digital images accessible online or through personal inspection in Warsaw (specifically, at the National Museum and the Department of Papyrology of the University of Warsaw). Thanks are due to W.G. Claytor for reading the draft and offering useful comments and to the anonymous referees for their valuable suggestions.</p>
+                <div type="section">
+                    <head>
+                        <ref target="https://papyri.info/ddbdp/bgu;4;1031">BGU 4 1031</ref>
+                    </head>
+                    <p xml:id="p2" style="text-align: left; ">On the verso side of this private letter, the address was uncovered during conservation. The papyrus has: Ἡρακλείδηι vac. φίλωι; this text was not included in the <emph rend="italics">editio princeps</emph>, and the subsequent revisions<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/biblio/40386">Böhm 1953</ref>: 468‒470 (= <ref target="https://beehive.zaw.uni-heidelberg.de/info/47808">BL III 16</ref>); <ref target="https://papyri.info/biblio/42185">Kapsomenos 1957</ref>: 354–355 (= <ref target="https://beehive.zaw.uni-heidelberg.de/info/47809">BL IV 6</ref>); <ref target="https://papyri.info/biblio/71982">Gonis 2003</ref>: 163 (= <ref target="https://beehive.zaw.uni-heidelberg.de/info/838">BL XIII 29</ref>).</p></note> of the text had no knowledge of it. During a conservation project carried out at the Faculty of Archaeology of the University of Warsaw, when the original Berlin cardboard was removed from the glass frame, we discovered a line of text on the papyrus (Fig. 1). It contained the address line, written in an elegant upright script, comparable to the one on the recto (Fig. 2), albeit with a slight change of style and employing the iota adscript (as observed throughout the recto, interestingly forgotten by the author in the epigraphe section, where the same name Ἡρακλείδῃ is written), indicating the sender’s advanced level of education. 
+                           <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931876"/>
+                        <head>Fig. 1: verso</head>
+                    </figure> 
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931872"/>
+                        <head>Fig. 2: recto line 1</head>
+                    </figure>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>
+                        <ref target="https://papyri.info/ddbdp/sb;18;13878">BGU 7 1584 = SB 18 13878</ref>
+                    </head>
+                    <p xml:id="p3" style="text-align: left; text-align: justify;">This tax receipt together with the subsequent papyrus was personally inspected by me at the Department of Papyrology of the University of Warsaw.</p>
+                    <p xml:id="p4" style="text-align: left; text-align: justify;">Line 6: Κα̣ι̣λ̣ίου → Κα̣[ι]σ̣ίου.
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931905"/>
+                        <head>Fig. 3: line 6</head>
+                    </figure>
+                    This man reappears in the following text, <ref target="https://papyri.info/ddbdp/sb;18;13879">BGU 7 1585 = SB 18 13879</ref>.6, where once again he represents Διδύμη Μένωνος and his name is evidently written as Καισίου (for a snapshot, see the next entry). The lambda is distinctly different and there is a noticeable hook towards the right at the bottom of the lambda in question. It is worth noting that the name Caesius/Καίσιος is quite rare in Egypt, with only a total of eight documented occurrences in both papyri and inscriptions (<ref target="https://www.trismegistos.org/nam/detail.php?nam_id=9727">TM Nam 9727</ref>), excluding the example from Side in Pamphylia. With Καίλιος, however, the situation is slightly worse with a total of five confirmed attestations, if we exclude the two papyri corrected here. Surprisingly, in line 23 of 13878 we find a hook-shaped slanting stroke in the first lambda of Φιλαδελφίας.
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931907"/>
+                        <head>Fig. 4: line 23</head>
+                    </figure>
+                    However, the form of the letter in the alleged Καιλίου in line 6 of 13879 as compared to the λι of Α̣ὐ̣ρηλίου in line 2 of the same text leaves almost no doubt that it should be read as sigma.</p>
+                    <p xml:id="p5" style="text-align: left; text-align: justify;">Line 16‒17: Φαρμ(οῦθι) β̣ | διέγραψεν → Φαρμοῦ̣(θι) | θ̣̅ διέγραψεν. At the beginning of the line, a letter with a horizontal stroke above it marking a number went unnoticed in both the <emph rend="italics">editio princeps</emph> and the subsequent re-edition.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/57128">Daniel and Sijpesteijn 1985</ref>: 47ff., esp. 55‒57.</p></note> 
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931909"/>
+                        <head>Fig. 5: line 17</head>
+                    </figure>
+                    </p>
+                    <p xml:id="p6" style="text-align: left; text-align: justify;">The date should be corrected to Pharmouthi 9th (4th April 174 CE). Contrary to what R.W. Daniel and P.J. Sijpesteijn argued, the day was not written at the end of the preceding line, where the alleged number was the malformed ου of Φαρμοῦθι with an abbreviation stroke above it.</p>
+                    <p xml:id="p7" style="text-align: left; text-align: justify;">Line 18: Λούκειο[ς] Οὐαλέρις → Λούκιος vac. Οὐ̣α̣λέρις. Here I restore the original edition’s Λούκιος. There is no epsilon on the papyrus.
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931911"/>
+                        <head>Fig. 6: line 18</head>
+                    </figure>
+                    The square shape of the omicron and other strokes indicate a scribal correction of unclear nature, possibly from an initial Λουκις, cf. l. 23.</p>
+                    <p xml:id="p8" style="text-align: left; text-align: justify;">Line 23: Φιλαδελφίας → Φιλαδελφεί̣ας. On the papyrus, the ει ligature is visible.
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931913"/>
+                        <head>Fig. 7: line 23</head>
+                    </figure>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>
+                        <ref target="https://papyri.info/ddbdp/sb;18;13879">BGU 7 1585 = SB 18 13879</ref>
+                    </head>
+                    <p xml:id="p9" style="text-align: left; text-align: justify;">To the upper left corner of the papyrus, there exists line not mentioned in the original edition that is likely to be read as π̣ρ̣[ά]κ̣(τορσιν) ἀ̣ρ̣γ̣(υρικῶν) Φ̣[ι]λ̣α̣(δελφείας). The text is not well preserved but the multitude of parallels of this abbreviated phrase is sufficient to confirm the reading, cf. e.g. <ref target="https://papyri.info/ddbdp/p.gen;2;108">P.Gen. 2 108</ref>.5.
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931929"/>
+                        <head>Fig. 8: upper margin</head>
+                    </figure></p>
+                    <p xml:id="p10" style="text-align: left; text-align: justify;">Line 6: Καιλίου → Καισίου; in this case, the reliable reading of the name as “Καισίου” confirms the correction in the above <ref target="https://papyri.info/ddbdp/sb;18;13878">BGU 7 1584 = SB 18 13878</ref>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931931"/>
+                        <head>Fig. 9: line 6</head>
+                    </figure></p>
+                </div>
+                <div type="section">
+                    <head>
+                        <ref target="https://papyri.info/ddbdp/bgu;7;1647">BGU 7 1647</ref>
+                    </head>
+                    <p xml:id="p11" style="text-align: left; text-align: justify;">This contract of apprenticeship can be improved further with a few additions.</p>
+                    <p xml:id="p12" style="text-align: left; text-align: justify;">Lines 4‒5: επ̣  ̣ [  ̣  ̣  ̣  ̣  ̣]ος | [  ̣]  ̣  ̣ [  ̣  ̣  ̣  ̣  ̣] τῇ μεγ̣άλῃ π̣α̣ρ̣ε̣μ̣β̣ο̣λῇ → as a tentative reconstruction one could propose ἐπὶ̣ [ἔτη τ]έσ|σ̣σ̣α[ρα (l. τέσσαρα) ἐ]ν̣ τῇ μεγ̣άλῃ π̣α̣ρ̣ε̣μ̣β̣ο̣λῇ based on the traces, although one must presume a repetition of the first sigma of τέσσαρα after the line break. Cf. <ref target="https://papyri.info/ddbdp/p.heid;4;326">P.Heid. 4 326</ref>.12‒13 (98 CE, Ankyron) with similar phrasing right after the name of the apprentice: τὴν θυγατέραν (l. θυγατέρα) αὐτῶν Συα[ι]|ρ̣οῦν ἐπὶ ἔτη τέσσαρα.</p>
+                    <p xml:id="p13" style="text-align: left; text-align: justify;">ὥστ̣ε̣ [  ̣  ̣]  ̣  ̣ → ὥστε α̣[ὐτ]όν̣, cf. the above cited <ref target="https://papyri.info/ddbdp/p.heid;4;326">P.Heid. 4 326</ref>.16‒17.</p>
+                    <p xml:id="p14" style="text-align: left; text-align: justify;">Line 9: μηνιε̣ίων (l. μηνιαίων) → μηνιαίων.
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931933"/>
+                        <head>Fig. 10: line 9</head>
+                    </figure>
+                    </p>
+                    <p xml:id="p15" style="text-align: left; text-align: justify;">Lines 12‒13: ἢ  ̣  ̣  ̣ [  ̣  ̣]ν  ̣  ̣ | [  ̣]ε̣σ  ̣  ̣ν  ̣  ̣  ̣ διδόναι → ἢ ἰς (l. εἰς) ἕτ̣ε[ρ]ο̣ν ἐ̣ρ̣̣|[γ]α̣στ̣ή̣ρ̣ι̣ο̣ν διδόναι. This clause specifies that the owner of the shop is not allowed to outsource his apprentice to another shop.
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931943"/>
+                        <head>Fig. 11: line 12</head>
+                    </figure>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931945"/>
+                        <head>Fig. 12: line 13</head>
+                    </figure></p>
+                </div>
+                <div type="section">
+                    <head>
+                        <ref target="https://papyri.info/hgv/36872">P.Giss. 1 57</ref>
+                    </head>
+                    <p xml:id="p16" style="text-align: left; text-align: justify;">On palaeographical grounds, the papyrus should be dated to the 5th – early 6th century instead of the 6th/7th century, cf., e.g., <ref target="https://papyri.info/apis/michigan.apis.1552">P.Mich. 11 613</ref> (415 CE, Herakleopolis); <ref target="https://papyri.info/ddbdp/p.oxy;34;2718">P.Oxy. 34 2718</ref> (458 CE, Oxyrhynchos), which exhibit the characteristic horn-shaped tip of the sigma.
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931947"/>
+                        <head>Fig. 13: </head>
+                    </figure></p>
+                    <p xml:id="p17" style="text-align: left; text-align: justify;">Line 2: 	ε̣  ̣  ̣  ̣  ̣ ρει → ἐν τῷ ὄ̣ρει. The new reading shows that Apa Kollouthos is a presbyter connected with a monastic foundation in the Oxyrhynchite nome. For the term ὄρος, see <ref target="https://papyri.info/biblio/46348">Cadell and Rémondon 1967</ref>: 343‒349. Although the specific monastic foundation is not explicitly mentioned, we do have some evidence of oros-related designations in the Oxyrhynchite nome: </p>
+                    <list>
+                        <item xml:id="p18">entries in an account including pious donations directed to a monastery of Oros,<note place="foot" xml:id="ftn3" n="3">
+                            <p style="text-align: left; text-align: justify;"> εἰς τὸ μοναστήριον τοῦ Ὄρους λόγῳ εὐσεβ(είας). Could this be the Mega Oros?</p>
+                        </note> and in the following entry the <emph rend="italics">coenobium</emph> of Abba Pamoun located in the Oros Paee<note place="foot" xml:id="ftn4" n="4">
+                            <p style="text-align: left; text-align: justify;"> εἰς τὸ κοινόβι(ον) ἀββᾶ Παμοῦν ἐν τῷ Ὄρι (l. Ὄρει) Π̣άεε.</p>
+                        </note> (<ref target="https://papyri.info/ddbdp/p.oxy;27;2480">P.Oxy. 27 2480</ref>.119‒120, 565‒566 CE);</item>
+                        <item xml:id="p19">a list of offerings to religious institutions, in which a <emph rend="italics">prosphora</emph> is made to Mega Oros<note place="foot" xml:id="ftn5" n="5">
+                            <p style="text-align: left; text-align: justify;"> εἰς τὸ Μέγα Ὄρος.</p>
+                        </note> (<ref target="https://papyri.info/ddbdp/p.oxy;67;4620">P.Oxy. 67 4620</ref>.18, 5th–6th cent. CE). As a toponym, this place is also found in a 7th–8th century tax list (<ref target="https://papyri.info/ddbdp/p.leid.inst;1;80">P.Leid.Inst. 80</ref> v, 2. 7);<note place="foot" xml:id="ftn6" n="6">
+                            <p style="text-align: left; text-align: justify;"> ／ χ(ωρίον) Μ(ε)γ(άλου) Ὄρου̣ς.</p>
+                        </note> in a request by a <emph rend="italics">pronoetes</emph> to supply wheat to a monastery (<ref target="https://papyri.info/hgv/702479">P.Oxy. 82 5342</ref>.1).<note place="foot" xml:id="ftn7" n="7">
+                            <p style="text-align: left; text-align: justify;"> παρασχεῖν εἰς τὸ Μέγα Ὄρος</p>
+                        </note> See also <ref target="https://papyri.info/biblio/96514">Benaissa 2021</ref>, s.v. Oros, Mega;</item>
+                        <item xml:id="p20">a monastery named after Abba Kopreous located in the western oros of the city (<ref target="https://papyri.info/ddbdp/p.oxy;16;1890">P.Oxy. 16 1890</ref>.6‒7, 508 CE);<note place="foot" xml:id="ftn8" n="8">
+                            <p style="text-align: left; text-align: justify;"> ἐν τῷ λιβικῷ ὄρει ταύτης τῆς πόλεως | ἐν τῷ μ[ο]ναστηρίῳ τῷ καλουμένῳ ἀββᾶ Κοπρεοῦτ[ο]ς.</p>
+                        </note>
+                        </item>
+                        <item xml:id="p21">a receipt made by Kollouthos, a monk of the oros of the village Berky (<ref target="https://papyri.info/ddbdp/psi;7;786">PSI 7 786</ref>.9‒10, 581 CE),<note place="foot" xml:id="ftn9" n="9">
+                            <p style="text-align: left; text-align: justify;"> Κολλοῦθος μονάζ(ων) τοῦ ὄρους κώμ(ης) | Βερκύ.</p>
+                        </note> for which see <ref target="https://papyri.info/biblio/96514">Benaissa 2021</ref>, s.v. Berky.</item>
+                    </list>
+                    <p xml:id="p22" style="text-align: left; text-align: justify;">Line 6: ἄξασθαι → δέξασθαι, made out of a triple ligature of delta, epsilon and xi. 
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931949"/>
+                        <head>Fig. 14: line 6</head>
+                    </figure>
+                    Cf. e.g., <ref target="https://papyri.info/ddbdp/p.apoll;;37">P.Apoll. 37</ref>.9 (second half of the 7th cent. CE): ἄλλας ἀποκρίσεις ἐδεξάμην τοῦ δεσπότου ἡμῶν; <ref target="https://papyri.info/ddbdp/p.fouad;;86">P.Fouad 86</ref>.16 (6th cent. CE): οὐδὲ ἀπόκρισιν ἐδεξάμεθα.</p>
+                    <p xml:id="p23" style="text-align: left; text-align: justify;">Line 7: πρὸς τὰ̣ με̣ → πρὸς τω (l. τὸ) μέ. One observes an omega with a redundant stroke connected to the mu.
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931951"/>
+                        <head>Fig. 15: line 7</head>
+                    </figure>
+                    Cf. τω in l. 1 τῷ ὄ̣ρει. As a general principle, an alpha has one less stroke compared to omega, cf. the sequence in μετὰ τῶν in l. 4. </p>
+                    <p xml:id="p24" style="text-align: left; text-align: justify;">Line 10: For Φοιβάμμωνι βοηθ(ῷ) ἀβάκ(τις), see <ref target="https://papyri.info/biblio/96051">Benaissa 2020</ref>: 220. It is worth noting that an unpublished papyrus from Vienna (P.Vind. G 47705), which was edited in my still unpublished Ph.D. thesis, contains a reference to a Phoibammon <emph rend="italics">boethos</emph> of the <emph rend="italics">ab actis</emph>: Φ]οιβάμμονι βοηθôͅ τ̣ο̣ῦ ἀβάκτης.</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <ref target="https://papyri.info/ddbdp/p.oxy;41;2951">P.Oxy. 41 2951</ref>
+                    </head>
+                    <p xml:id="p25" style="text-align: left; text-align: justify;">In this sale of a slave, a few revised readings are proposed.</p>
+                    <p xml:id="p26" style="text-align: left; text-align: justify;">Line 20: κατέχοντος → καὶ ἔχοντος. Read καί (Fig. 16) rather than κατ-:  tau’s vertical stroke in the Greek text never descends as low as iota, as illustrated by the comparison of καί in line 29 (Fig. 17) and κατ (κατεχομένης) in line 20 (Fig. 18).
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931953"/>
+                        <head>Fig. 16: line 20</head>
+                    </figure>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931955"/>
+                        <head>Fig. 17: line 29</head>
+                    </figure>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931957"/>
+                        <head>Fig. 18: line 20</head>
+                    </figure>
+                    For a parallel, see <ref target="https://papyri.info/ddbdp/p.oxy;9;1208">P.Oxy. 9 1208</ref>.6 (291 CE): τοῦ πατρὸς τοῦ καὶ ἔχοντος αὐτὸν ὑπὸ τῇ χειρὶ κατὰ τοὺς Ῥωμαίων ννόμους (l. νόμους).</p>
+                    <p xml:id="p27" style="text-align: left; text-align: justify;">Line 22: ὀπτίωνει (l. ὀπτίωνι) → ὀπτίωνι: the vertical right leg of the nu crosses the curved horizontal stroke before its end, creating a false impression of an epsilon (Fig. 19).
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931959"/>
+                        <head>Fig. 19: line 22</head>
+                    </figure>
+                    Compare the nu in τήν in line 22, directly following ὀπτίωνι (Fig. 20), or in κατεχομένης in line 29 (Fig. 21).                    
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931963"/>
+                        <head>Fig. 20: line 22</head>
+                    </figure>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931961"/>
+                        <head>Fig. 21: line 29</head>
+                    </figure>
+            </p>
+                </div>
+                <div type="section">
+                    <head>
+                        <ref target="https://papyri.info/hgv/32313">P.Oxy. 50 3581</ref>
+                        <note place="foot" xml:id="ftn10" n="10">
+                            <p style="text-align: left; "> See <ref target="https://beehive.zaw.uni-heidelberg.de/info/5562">BL XIII 163</ref>, for the probable date of the petition (5th cent.).</p>
+                        </note>
+                    </head>
+                    <p xml:id="p28" style="text-align: left; text-align: justify;">Line 4: πρὸς γάμ̣[ον  ̣  ̣  ̣  ̣]  ̣δο  ̣  ̣  ̣  ̣μ[  ̣]  ̣ → πρὸς γάμ̣[ον καὶ ἐπα]ι̣δοπ̣ο̣ι̣η̣σά̣μ̣[η]ν̣. The insertion of καί in the lacuna is necessary to achieve a transition in the narrative of the petition. At the same time, it is one of the few suitable conjunctions narrow enough to fit together with the initial part of the verb. The impression of an αι ligature after π̣ο̣ι̣η̣σ and just before the lacuna can be misleading. Still, it can be easily dismissed by the fact that the shape of αμ sometimes resembles an αι with an elongated left upright stroke of the mu, cf. αμ in l. 6 πάντα μου̣.
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931965"/>
+                        <head>Fig. 22: line 6</head>
+                    </figure>
+                    Moreover, for a woman, the middle voice of the verb παιδοποιῶ is the standard form often accompanied by the prepositional phrase with ἐξ + the male parent, cf., e.g., <ref target="https://papyri.info/ddbdp/p.tebt;2;334">P.Tebt. 2 334</ref>.8‒9 (200/201 CE): ἐξ οὗ καὶ &lt;ἐ&gt; παιδο|ποιησάμην [πα]ιδία δύο; <ref target="https://papyri.info/ddbdp/p.ryl;2;269">P.Ryl. 2 269</ref>.5‒6 (2nd cent. CE): ἐ̣κ̣ δυεῖν οἴκ̣[ω]ν̣ | ἐπ̣α̣ιδ[οπ]ο̣ι̣ήσατο.<note place="foot" xml:id="ftn11" n="11"><p style="text-align: left; text-align: justify;"> The only exception to this pattern is <ref target="https://papyri.info/ddbdp/p.cair.masp;1;67005">P.Cair.Masp. 1 67005</ref>.10‒11 (ca. 568 CE): καὶ παιδοποιήσασα | [ἀπὸ(?)] τοῦ εὐμοίρου ἀν̣[δρὸς - ca.12 - τέκ]νον [ἀρ]ρενικόν̣, where the subject of the active participle is Sophia.</p></note></p>
+                    <p xml:id="p29" style="text-align: left; text-align: justify;">Line 5: μη̣  ̣[  ̣]ν → probably μηδ̣[ὲ]ν … She probably asserts that she was completely unaware of her husband’s ill intentions.</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <ref target="https://papyri.info/ddbdp/sb;5;8006">SB 5 8006</ref>
+                    </head>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931979"/>
+                        <head>Fig. 23: P. 13362 R (SB 5 8006)</head>
+                    </figure>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931999"/>
+                        <head>Fig. 24: P. 13362 V (SB 5 8006)</head>
+                    </figure>
+                    <p xml:id="p30" style="text-align: left; text-align: justify;">As a preliminary remark, what was printed as the verso is, in fact, the recto side, for which see <ref target="https://beehive.zaw.uni-heidelberg.de/info/51043">BL V 101</ref>. The papyrus underwent conservation in Warsaw, yet the dispersed ink blotches render some readings extremely challenging. This is particularly true for the actual verso side, where the stains are ubiquitous.</p>
+                    <p xml:id="p31" style="text-align: left; text-align: justify;">Lines 4‒5:  χαλκοῦν  ̣  ̣ χ̣|μο̣ν̣→ χαλκοῦν | μου̣<note place="foot" xml:id="ftn12" n="12"><p style="text-align: left; text-align: justify;"> Credit goes to W.G. Claytor for this suggestion.</p></note> The traces of ink after χαλκοῦν are likely meaningless blotches.
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931967"/>
+                        <head>Fig. 25: line 4</head>
+                    </figure></p>
+                    <p xml:id="p32" style="text-align: left; text-align: justify;">The lines do not exhibit uniformity in their length, although in this case χαλκοῦν aligns well with μνήσθητι in line 5.</p>
+                    <p xml:id="p33" style="text-align: left; text-align: justify;">Line 11: Σουμμηνίῳ → Σουκμηνίῳ (Fig. 26); this appears to be an alternative form for the more often attested Σοκμῆνις (<ref target="https://www.trismegistos.org/nam/detail.php?nam_id=1130">TM Nam 1130</ref>). What seems to form a mu are various ink traces that occur throughout the text. For comparison, observe the kappa in φυλά|κων in line 13 (Fig. 27).
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931969"/>
+                        <head>Fig. 26: line 11</head>
+                    </figure> 
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931971"/>
+                        <head>Fig. 27: line 13</head>
+                    </figure></p>
+                    <p xml:id="p34" style="text-align: left; text-align: justify;">Line 14: ἐρωτήσοντε (l. ἐρωτήσονται) φερνήν → ἐρώτησον Τεφεράιν <emph rend="italics">vel</emph> Τνεφεράιν (in which case Τνε corr. ex Τε), l. Τνεφερσάιν?. In <ref target="https://beehive.zaw.uni-heidelberg.de/info/51044">BL III 196</ref> a ghost-name Τεφέρνην was proposed, which is otherwise unattested.<note place="foot" xml:id="ftn13" n="13"><p style="text-align: left; text-align: justify;"> See also B. Borelli’s note in the papyri.info digital commentary, where she entertains the possibility of Τεφέρνη being a variant of Τεφερσάις.</p></note> Upon closer inspection, we can see that the author initially wrote Τε but seemingly inserted a nu in between (although due to the numerous ink stains throughout the papyrus, this impression may be incorrect). This is followed by a clear φε with the cross-stroke of epsilon being longer than usual, but still plausible, in my opinion. Otherwise, one could also consider an unattested and difficult metathesis of the sigma, i.e. Τνεφεσ̣ράιν/Τεφεσ̣ράιν. Regarding the ending, the traces are misleading. After the rho, there seems to be a letter starting with a curved line ascending to create a loop. As ligatures are not employed after a rho, this suggests that the letter is rather not a nu (which has a different shape) but a vertical alpha, otherwise used elsewhere in this text. However, it is not easy to interpret the double vertical lines that follow. It seems that the first represents the iota and the second the left vertical component of the nu (thus ΑΙΝ).
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931973"/>
+                        <head>Fig. 28: line 14</head>
+                    </figure></p>
+                    <p xml:id="p35" style="text-align: left; text-align: justify;">The omission of the nu appears to be quite common in the various renditions of feminine names commencing with the prefix Τ- and followed by the compound Νεφερ, for which we have plenty of examples: </p>
+                    <list>
+                        <item xml:id="p36">Τεφερσάις (a variant of Tnephersais, <ref target="https://www.trismegistos.org/nam/detail.php?nam_id=1433">TM Nam 1433</ref>); </item>
+                        <item xml:id="p37">Τεφερᾶς (<ref target="https://papyri.info/ddbdp/bgu;9;1891">BGU 9 1891</ref> passim, and <ref target="https://papyri.info/ddbdp/psi;1;51">PSI 1 51</ref>.4); </item>
+                        <item xml:id="p38">Τεφερῶς (a variant of Tnepheros, <ref target="https://www.trismegistos.org/nam/detail.php?nam_id=1272">TM Nam 1272</ref>).</item>
+                    </list>
+                    <p xml:id="p39" style="text-align: left; text-align: justify;">Line 18: ἔλεγ(έ) μοι → ἔλεγ&lt;έ&gt; μοι; there is no abbreviation. The author, by a <emph rend="italics">lapsus calami</emph>, conflated the epsilon with the mu.</p>
+                    <p xml:id="p40" style="text-align: left; text-align: justify;">π̣  ̣  ̣  ̣ς → πά̣̣ρ̣ε̣ς (‘do not bother as I have found it’).
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23931975"/>
+                        <head>Fig. 29: line 18</head>
+                    </figure>
+                    </p>
+                    <p xml:id="p41" style="text-align: left; text-align: justify;">Line 19:   ̣  ̣  ̣: I am uncertain how these underdots in the edition could be justified since there are no visible ink traces on the papyrus. It must be either a misprint or an ellipsis marked by the editor, who intended to imply that the text ends abruptly and the thought remained unfinished.</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <ref target="https://papyri.info/ddbdp/sb;6;9395">SB 6 9395</ref>
+                    </head>
+                    <p xml:id="p42" style="text-align: left; text-align: justify;">Since its initial edition,<note place="foot" xml:id="ftn14" n="14"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/biblio/42143">Gerstinger 1957</ref>: 100‒116.</p></note> this private letter has undergone a series of corrections. To provide a brief overview of the current state of affairs, a significant contribution to its understanding was offered by <ref target="https://papyri.info/biblio/77869">Papathomas 2009</ref>: 261‒263, where several new readings were proposed and discussed. Additionally, three other scholars offered their ideas on specific words: </p>
+                    <p xml:id="p43" style="text-align: left; text-align: justify;"><ref target="https://papyri.info/biblio/57917">Jördens 1986</ref>, esp. 106 n. 12, revised the ghost-name Σύμμαχος in line 6; <ref target="https://papyri.info/biblio/84753">Bonati 2016</ref>: esp. 203 n. 27, discussed the potential colour of the olives mentioned in the text (μελίχροας); <ref target="https://papyri.info/biblio/62503">Martinez 1992</ref>: 216, used the text as a reference to the Saite jars (Σαΐτια). In this note, I aim to present further corrections and interpretations of the content, utilizing the high-resolution images now available online.<note place="foot" xml:id="ftn15" n="15"><p style="text-align: left; "> <ref target="https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_8642472">https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_8642472</ref> </p></note></p>
+                    <p xml:id="p44" style="text-align: left; text-align: justify;">Line 2: Φαμούτ̣ωνος: an attempt to re-read this difficult name inserted above ἀδελφοῦ ἡμῶν was made by A. Papathomas (see above) as `Φ&lt;ο&gt;ι̣βάμμων̣[ος]´. Upon closer examination, it appears that this is not an isolated text, but instead a seamless extension of the address in line 1. According to Papathomas’ restoration, the letter is addressed to the plural τ̣[οῖς δεσπόται]ς (‘lords’), with the first name read as Νε̣μ̣ε̣σ̣[ι]α̣[νῷ]. If so, the available space after this name could likely accommodate merely the conjunction καί (despite the absence of visible ink traces), which would logically precede a second name (at least one additional name is necessitated by the plural form of address). Consequently, the second addressee is the person in the purportedly inserted text in line 2, but actually at the beginning of a line in its own right. Here, I read Φλ̣αουι̣ανῷ, followed by other eroded letters. The indentation of the line is certainly nothing new. The examples of such practice are abundant, but for the sake of my argument here it is worth mentioning instances such as <ref target="https://papyri.info/ddbdp/bgu;4;1082">BGU IV 1082</ref> (4th cent.), where the address (lacking χαίρειν) extends across three lines and the name of the second addressee is similarly in the second (indented) line: 
+                    <quote type="edition">
+                        <lb n="1"/>κυρίῳ μου ἀδελφῷ Ἀπφυνχίῳ
+                        <lb n="2" rend="indent"/>καὶ Διδυμος (l. Διδύμῳ) ταπιταρίου (l. ταπηταρίῳ)
+                        <lb n="3" rend="indent"/>Πετῦσις Παντηβε
+                    </quote>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23938207"/>
+                        <head>Fig. 30: BGU 4 1082 lines 1-3</head>
+                    </figure>
+                    </p>
+                    <p xml:id="p45" style="text-align: left; text-align: justify;">A difficult possibility that could be considered is to read a nominative Φλαουιανό̣ς̣, implying that he was the addresser of the letter. Nevertheless, such an interpretation is at odds with the plural address on one hand and, on the other, with the structure of the address on the verso, where a completely different name appears in the second line, presumably reserved for the sender’s details. In conclusion, the text should now be construed as follows:
+                    <quote type="edition">
+                        <lb n="1"/>† τ̣[οῖς δεσπόται]ς καὶ πάντων ἕνεκ̣α θαυμα̣σ̣ιωτάτοις ἀδ̣ε̣λφο̣ῖ̣ς̣ Νε̣μ̣ε̣σ̣[ι]α̣[νῷ καὶ]
+                        <lb n="2" rend="indent"/>Φλ̣αουιανῷ  ̣  ̣  ̣  ̣  ̣  ̣[  ̣  ̣]  ̣  ̣  ̣[  ̣  ̣]  ̣  ̣  ̣  ̣[  ̣  ̣]  ̣
+                        <lb n="3"/>[εὐ]κ̣α̣ι̣ρ̣ί̣αν εὑρὼν τοῦ κοινοῦ ἡμῶν ἀδελφοῦ ἡμῶν δα  ̣  ̣  ̣  ̣  ̣  ̣δ  ̣  ̣  ̣κω̣ν  ̣ν̣
+                    </quote>
+                    </p>
+                    <p xml:id="p46" style="text-align: left; text-align: justify;">The above restoration may have implications for the address on the verso. The original abbreviated † ἀπόδ̣(ος) \†/ τῷ κυρί(ῳ) ἀδελ(φῷ) μ̣ο̣υ̣ Ν̣ε̣μ̣ε̣σ̣ι̣α̣(νῷ)<note place="foot" xml:id="ftn16" n="16"><p style="text-align: left; "> The name should be probably read with an epsilon here, cf. the almost upright εσ in ἀπεστίλα|τε in ll. 5-6.</p></note> could be read as: † ἀπόδ̣(ος) \†/ τ(oῖς)<note place="foot" xml:id="ftn17" n="17"><p style="text-align: left; "> The alleged omega of the article τῷ is nothing but a small, slightly slanting stroke.</p></note> κυρί(οις) ἀδελ(φοῖς) μ̣ο̣υ̣ Ν̣ε̣μ̣ε̣σ̣ι̣α̣(νῷ), although it remains plausible that the primary recipient was only one to avoid unnecessary confusion. I refrain from transcribing the second line of the address as I am skeptical about the reading παρ’ Ἐτή̣ω̣ν̣[ος]. The initial two letters appear to be pi and rho marked by an abbreviation line: π̣ρ̣( ), followed by  ̣τι  ̣  ̣  ̣.</p>
+                    <p xml:id="p47" style="text-align: left; text-align: justify;">Line 3: [  ̣  ̣  ̣  ἰ]σ̣οτύ̣πως → [πρω]τ̣οτύπως, with the meaning ‘primarily/first of all,’ attested not seldom in private correspondence in Late Antiquity, e.g. <ref target="https://papyri.info/ddbdp/p.abinn;;28">P.Abinn. 28</ref>.24‒27 (around 346 CE): ἀλλὰ | πρωτοτύπως σοι τῷ ἐμῷ | δεσπότῃ ἔγραψα ἐκδικηθῆναί | με; <ref target="https://papyri.info/ddbdp/p.erl;;120">P.Erl. 120</ref>.2‒3 (546‒547 CE ?): ἐδεξάμην κ[αὶ ἔμαθον] πρωτοτύπως μὲν τὴν ἐν Χρισ[τῷ] | [α]ὐτῆς ὑγιείαν; <ref target="https://papyri.info/ddbdp/p.lond;3;1244">P.Lond. 3 1244</ref>.4 (4th cent. CE): προσγυνῆσαί (l. προσκυνῆσαι) σοι̣ (l. σου) τὸ [ε]ὔμορφον καὶ ἱλαρὸν πρόσωπον προτ[οτ]ύπως (l. πρωτοτύπως); <ref target="https://papyri.info/ddbdp/p.neph;;8">P.Neph. 8</ref>.13‒14 (352 CE): διὸ ἀνα̣[γκαῖ]ον ἡγησάμην γράψ̣αι σοι πρωτο|τύπω[ς;  <ref target="https://papyri.info/ddbdp/p.neph;;11">P.Neph. 11</ref>.6‒9 (4th cent. CE): πιστὸν ἡγησάμην καὶ πάσης | ἀποδοχῆς ἄξι\ο/ν πρωτοτύπως | προσειπεῖν ὑμῶν τὴν ἐν θ(ε)ῷ | διάθεσιν; <ref target="https://papyri.info/ddbdp/p.oslo;3;88">P.Oslo 3 88</ref>.5 (around 370 CE): ἀπετίτω (l. ἀπαιτείτω) τὸν παλεὸν (l. παλαιόν) οἶνον πρωτοτύπως; <ref target="https://papyri.info/ddbdp/p.oxy;16;1832">P.Oxy. 16 1832</ref>.5‒6 (5th–6th cent. CE): κελεῦσαι πρωτοτύπ[ως] | τὰ ἅγια κιμήλ[ια] (l. κειμήλια) ἀναδοθῆναι. These instances demonstrate how common it was, especially in stressing, as a rhetorical device, the significance of the addressee.</p>
+                    <p xml:id="p48" style="text-align: left; text-align: justify;">Line 7: ὄνον πρά̣τ̣ιον →  ὄνον πρωτῖον (l. πρωτεῖον), i.e. ‘of first quality.’ For the ωτ, compare the one in θαυμασιωτάτοις in line 1. For examples of similar references to various commodities, one may refer to, e.g., <ref target="https://papyri.info/ddbdp/bgu;3;950">BGU 3 950</ref>.3‒4 (4th–7th cent. CE): κραβατ̣ά̣λ̣ιον ἓν | πάνυ πρωτῖον (l. πρωτεῖον); <ref target="https://papyri.info/ddbdp/p.flor;1;65">P.Flor. 1 65</ref>.15 (570‒571 CE): παρασχεῖν σοι ἐν̣ π̣[ρ]ω̣τ̣ίῳ (l. πρωτείῳ) οἶ\ν/ον̣ (l. οἴνῳ); <ref target="https://papyri.info/ddbdp/p.lond;5;1764">P.Lond. 5 1764</ref>.7 (6th cent. CE): παρασχεῖν ἐν πρωτίῳ (l. πρωτείῳ) οἴνῳ; <ref target="https://papyri.info/ddbdp/p.mich;11;608">P.Mich. 11 608</ref>.17 (6th cent. CE): παρασχ(εῖν) ἐν προτίῳ (l. πρωτείῳ) οἴνῳ; <ref target="https://papyri.info/ddbdp/p.ness;3;87">P.Ness. 3 87</ref>.2‒4 (7th cent. CE): μ̣έ̣λιτος [πρ]ω̣τί[ου (l. πρωτείου)...γ̣άρου πρωτίου (l. πρωτείου); <ref target="https://papyri.info/ddbdp/sb;26;16830">SB 26 16830</ref>.27‒28 (6th–7th cent. CE): παρασχεῖν σοι τὰ ἴσα ἐ̣ν πρ̣[ω]|τίου οἴνου (l. πρωτείῳ οἴνῳ);</p>
+                    <p xml:id="p49" style="text-align: left; text-align: justify;">Line 9: θεοφοβίῳ → Θεοφοβίῳ (<ref target="https://www.trismegistos.org/nam/detail.php?nam_id=9527">TM Nam 9527</ref>). It is most likely a name known from at least one more document, <ref target="https://papyri.info/ddbdp/sb;20;14965">SB 20 14965</ref>.6 (4th cent. CE): δι(ὰ) Θεοφοβίου σί(του) (ἀρτάβαι).</p>
+                    <p xml:id="p50" style="text-align: left; text-align: justify;">Lines 10-12: ἐμοῦ λογιζομένου τὴν τούτου τιμὴν καὶ σαίτια τυρῶν δύο καὶ ἐλίας (l. ἐλαίας) κύθρας | μελιχώρας. τριβόριον δαὶ (l. δὲ) ἔλαβον &lt;παρʼ(?)&gt; Ἡρακλίδου, ὥσται (l. ὥστε) αὐτὸν μὴ ἀμελῆσαι περὶ | τούτου. The content of this line is directly related to the olive pots mentioned in line 10. The missing information that one would expect is the number of these pots, whereas the Saite jars were specified as two. A revised reading of the line produces the following meaningful text:</p>
+                    <p xml:id="p51" style="text-align: left; text-align: justify;">ἐλιας (l. ἐλαίας) κύθρας | μελίχωρας (l. μελίχροας) τρῖς̣ (l. τρεῖς). ὅρκον δαὶ (l. δέ) ἔλαβον &lt;παρὰ&gt; Ἡρακλίδου (l. Ἡρακλείδου) ὥσται (l. ὥστε) αὐτὸν μὴ ἀμελῆσαι περὶ | τούτου (= ‘three pots of honey-coloured olives. I had an oath given to me by Herakleides, to ensure that he does not show negligence in this matter’). </p>
+                    <p xml:id="p52" style="text-align: left; text-align: justify;">ὅρκον ἔλαβον is attested in <ref target="https://papyri.info/ddbdp/p.cair.masp;2;67200">P.Cair.Masp. 2 67200</ref>.4 (6th cent. CE): φρι̣κ̣[τ]ὸ̣ν̣ δ̣ὲ̣ ὅρκον ἔλαβο̣ν παρὰ Ἡρακλ̣ε̣ί̣ου.<note place="foot" xml:id="ftn18" n="18"><p style="text-align: left; text-align: justify;"> The opposite, “to give an oath,” is also attested: <ref target="https://papyri.info/ddbdp/p.flor;3;279">P.Flor. 3 279</ref>.23 (514): ὅρκον δίδομεί (l. δίδωμι) τε; <ref target="https://papyri.info/ddbdp/p.oxy;16;1862">P.Oxy. 16 1862</ref>.40 (around 624 CE?): ὅρκον δέδωκα τῷ Βίκτωρι.</p></note> Cf. also examples such as Schol. Apoll. Rhod. I, 773: (...) μέχρις οὗ ὅρκον ἔλαβον παρ’ αὐτῶν (...); <ref target="https://archive.org/details/apocalypsesapocr02tiscuoft">Vita Adam et Evae</ref>, 19.3: ὅτε δὲ ἔλαβεν ἀπ’ ἐμοῦ τὸν ὅρκον; Eur. Supp. 1188: πρῶτον λάβ’ ὅρκον.</p>
+                    <p xml:id="p53" style="text-align: left; text-align: justify;">Line 14: Here I advocate for the reading of διαφυλάξα̣ιεν (l. διαφυλάξειεν), which goes back to Gerstinger’s version, whereas Papathomas had transcribed it as διαφυλάξοιεν. Limited space leaves the latter possibility open, if one accepts the iota leaning on the omicron. I have dotted the alpha as a remote possibility of an epsilon (διαφυλάξειεν) remains. To counter this tempting idea, the few occurrences of the epsilon-iota combination in the text exhibit a distinct shape characterized by a curved line descending from the epsilon’s cross-stroke (see, e.g., εἵνα in l. 3).</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <ref target="https://papyri.info/ddbdp/o.did;;464">O.Did. 464</ref>
+                    </head>
+                    <p xml:id="p54" style="text-align: left; text-align: justify;">This private letter addressed from Beryllus to Zosime, which was found at the Didymoi <emph rend="italics">praesidium</emph>, contains two enigmatic lines at the top of the ostracon, written by a different hand than the rest of the text. The edition reads: ἔρ̣ρ̣ωσ(ο) Ζ  ̣ωσιμῆτι | ὕπ̣α ἄπανξε (l. ἀπάγξαι). It has been suggested that these lines may have been a postscript, for which reason the initial ερρωσ was interpreted as ἔρ̣ρ̣ωσ(ο) as if this was the text’s closing section. However, several problems emerge with this interpretation:</p>
+                    <list>
+                        <item xml:id="p55">Ζωσιμῆτι is in the dative, thereby indicating her as the addressee.</item>
+                        <item xml:id="p56">The two lines are written by a different hand.</item>
+                        <item xml:id="p57">ἔρρωσο never appears in this contextual position, also in the case of other ostraca from Didymoi.</item>
+                        <item xml:id="p58">There is no indication of an abbreviation after or above the sigma of ερρωσ.</item>
+                    </list>
+                    <p xml:id="p59" style="text-align: left; text-align: justify;">In light of the above considerations, a more plausible hypothesis based on a revision of the text may be proposed: Ἔρως (corr. ex Ερρως) Ζωσιμῆτι (ζ corr. ex δ̣ι̣) | ὕπα (l. ὕπαγε) ἄπανξε (l. ἄπαγξαι). ‘Eros to Zosime. Go and hang yourself.’</p>
+                    <p xml:id="p60" style="text-align: left; text-align: justify;">If Eros is viewed as the sender of the brief message, which appears probable, he may have secretly added a humorous remark before it was dispatched. The story becomes even more theatrical, if, following the editor, we assume that Beryllus was illiterate (his sister’s letter was read to him) and, thus, was incapable of reading what Eros presumably wrote to his sister. In this scenario, Beryllus did not compose the main body of the text but had someone else do it.</p>
+                    <p xml:id="p61" style="text-align: left; text-align: justify;">In line 2, although the editor does consider the reading ὑγια instead of ὑπα, the final choice of ὕπα is well founded. Two illustrative parallels corroborate this interpretation of ὕπα: <ref target="https://papyri.info/ddbdp/p.athen;;62">P.Athen. 62</ref>.9‒12 (1st–2nd cent. CE): ἡ μή|τηρ μου ὑπάγῃ εἰς Ἀρσε|νοείτην (l. Ἀρσινοΐτην) ὑπα (l. ὕπαγε) μα̣ι̣τὰ (l. μετὰ) αὐ|τῆς σύ (‘My mother is setting out to the Arsinoite. You too, go with her.’) mentioned in the edition; <ref target="https://papyri.info/ddbdp/sb;14;11588">SB 14 11588</ref>.19‒20 (late 4th cent. CE): ὑπα (l. ὕπαγε) παρὰ Μαρίαν τὴν ἀδελφήν | μου καὶ δείδει (l. δίδωσι) σου (l. σοι) αὐτά (‘Go to Maria’s, my sister, and she’ll give them to you.’), which was published by H. Youtie three years after <ref target="https://papyri.info/biblio/8046">Mandilaras 1973</ref>, where he made reference to the former instance in § 690. The form survived into Medieval Greek, cf. e.g., ὕπα καλῶς, γεράκιν μου (‘farewell, my hawk’),<note place="foot" xml:id="ftn19" n="19"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/biblio/97048">Politis 1912</ref>: 644 [= <ref target="http://www.kentrolaografias.gr/sites/default/files/Laografika_Summeikta_t_D.pdf">Politis, N.G. (1980‒1985), “Λαογραφικὰ Σύμμεικτα Δ΄,” Athens</ref>: 202].</p></note> and is attested in a number of Modern Greek folk songs.<note place="foot" xml:id="ftn20" n="20"><p style="text-align: left; text-align: justify;"> References and details can be found in <ref target="https://papyri.info/biblio/97043">Politis 1954</ref>: 271‒272, n. 4.</p></note>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23932021"/>
+                        <head>Fig. 31: lines 2–3</head>
+                    </figure></p>
+                    <p xml:id="p62" style="text-align: left; text-align: justify;">In the following section (the main body of the letter), the addressee is again Zosime in a standard dative form (Ζωσίμῃ). Various feminine names are often found in a non-standard dative form ending in -ᾶτι or -ῆτι, as observed here. I intend to explore this phenomenon in another paper currently under preparation.</p>
+                </div>
+                <div type="bibliography">
+                    <listBibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97050">Aliquot, J., Shdaifat, Y. and T.M. Weber</ref> “New Byzantine Inscribed Tombstones from the Land of Moab,” ZPE 189: 149–158.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96051">Benaissa, A. (2020)</ref> “Bemerkungen zu Papyri XXXIII,” Tyche 35: 220.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96514">Benaissa, A. (2021)</ref> Rural Settlements of the Oxyrhynchite Nome. A Papyrological Survey, Trismegistos Online Publications IV, ver. 3: 282‒283.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/40386">Böhm, R. (1953)</ref> “Contribution à l'étude de l'administration romaine en Égypte,” Hermes 81: 465–480.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/84753">Bonati, I. (2016)</ref> Il lessico dei vasi e dei contenitori greci nei papiri. Berlin‒Boston.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/46348">Cadell, H. and R. Rémondon (1967)</ref> “Sens et emplois de to oros dans les documents papyrologiques,” REG 80: 343‒349.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/57128">Daniel, R.W. and Sijpesteijn, P.J. (1985)</ref> “Some Notes on ἀριθμητικὸν κατοίκων,” ZPE 59: 47–59.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/42143">Gerstinger, H. (1957)</ref> “Sieben neue gräko-ägyptische Papyrusbriefe byzantinischer Zeit (VI.–VII. Jh. n.Chr.) aus der Sammlung “Papyrus Erzherzog Rainer”,” WS 70: 100–116.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/71982">Gonis, Ν. (2003)</ref> “Remarks on Private Letters II,” ZPE 142: 163–170.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/57917">Jördens, A. (1986)</ref> “Die ägyptischen Symmachoi,” ZPE 66: 105‒118.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/42185">Kapsomenos, S.G. (1957)</ref> Ereunai eis ten glossan ton hellenikon papyron. Seira prote, (Ἔρευναι εἰς τὴν γλῶσσαν τῶν ἑλληνικῶν παπύρων. Σειρὰ πρώτη), EEThess 7; 325–372.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/8046">Mandilaras, B.G. (1973)</ref> The Verb in the Greek Non-Literary Papyri. Athens.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/62503">Martinez, D.G. (1992)</ref> “A Memorandum with Mouzikion and Saition,” ZPE 93: 213‒218.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/77869">Papathomas, A. (2009)</ref> “Korrekturvorschläge zu zwanzig Wiener Papyrusbriefen aus Sammelbuch VI,” CdÉ 84: 247‒270.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97043">Politis, L. (1954)</ref> “Μερικές σημειώσεις στα «Ερωτοπαίγνια»,” ΕΛΛΗΝΙΚΑ 13.2: 266–273.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97048">Politis, N.G. (1912)</ref> “Δημώδη βυζαντινὰ ᾄσματα,” ΛΑΟΓΡΑΦΙΑ 3: 622–652.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
