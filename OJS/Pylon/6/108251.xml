@@ -1,0 +1,2490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bulletin of Online Emendations to Papyri (BOEP) 12 (September 12, 2024) </title>
+            <author>
+               <name>
+                  <forename>Rodney</forename>
+                  <surname>Ast</surname>
+               </name>
+               <affiliation>Universität Heidelberg</affiliation>
+               <email>ast@uni-heidelberg.de</email>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1020326514</idno>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0002-1812-8067</idno>
+            </author>
+            <author>
+               <name>
+                  <forename>Lajos</forename>
+                  <surname>Berkes</surname>
+               </name>
+               <affiliation>Humboldt-Universität zu Berlin</affiliation>
+               <email>berkes.lajos@gmail.com</email>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1058623176</idno>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0001-6697-1107</idno>
+            </author>
+            <author>
+               <name>
+                  <forename>James M.S.</forename>
+                  <surname>Cowey</surname>
+               </name>
+               <affiliation>Universität Heidelberg</affiliation>
+               <email>james.cowey@urz.uni-heidelberg.de</email>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/105908208X</idno>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0001-8646-4735</idno>
+            </author>
+            <author>
+               <name>
+                  <forename>Holger</forename>
+                  <surname>Essler</surname>
+               </name>
+               <affiliation>Università Ca'Foscari</affiliation>
+               <email>holger.essler@uni-wuerzburg.de</email>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/136871259</idno>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0003-4759-7716</idno>
+            </author>
+            <author>
+               <name>
+                  <forename>Julia</forename>
+                  <surname>Lougovaya</surname>
+               </name>
+               <affiliation>Universität Heidelberg</affiliation>
+               <email>lougovaya@uni-heidelberg.de</email>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/136871259</idno>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0003-4759-7716</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2024">2024</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.6.6</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2024.6.108251</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">R. Ast, L. Berkes, J.M.S. Cowey, H. Essler, and J. Lougovaya, “Bulletin of Online Emendations to Papyri (BOEP) 12 (September 12, 2024),” Pylon 6 (2023) Article 6. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2024.6.108251">https://doi.org/10.48631/pylon.2024.6.108251</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">6</biblScope>
+                     <biblScope unit="article">6</biblScope>
+                     <date when="2024">2024</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2024-11-29T11:49:24Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Bulletin of Online Emendations to Papyri (BOEP) 12 (September 12, 2024)</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1" style="text-align: left; ">This installment of the Bulletin reports all emendation proposals to Greek, Latin and Coptic documentary and literary texts that were accepted to either the Duke Databank of Documentary Papyri (DDbDP) or the Digital Corpus of Literary Papyri (DCLP) via the <ref target="http://www.papyri.info/editor/">Papyrological Editor (PE)</ref> between October 13, 2022 and September 12, 2024. Numbers in the left column are intended to be used to refer to the individual proposals.</p>
+            <p xml:id="p2" style="text-align: left; ">The new readings have been vetted by members of the PEʼs editorial board, with the occasional input of outside reviewers. They have not appeared previously in print and are presented together here for ease of reference and review. The arguments and evidence that were adduced to support them can be found in the “Editorial History” section at the bottom of the page following each text in papyri.info.</p>
+            <p xml:id="p3" style="text-align: left; ">Note on conventions: when a contributing author states explicitly that the proposed emendation has been checked against a published or publicly accessible photo or digital image we indicate this with the phrase ‛(from photo)ʼ. Information about the photo or a link to the image (or both) can be found at papyri.info in the header of the text in question. If an author has consulted a photo that is not in the public domain, we indicate this with ‛(from a photo)ʼ. If a reading has been verified against the original we write ‛(from original)ʼ.</p>
+            <p xml:id="p4" style="text-align: left; ">Papyrological citations are in accordance with J.D. Sosin et al. (eds), <ref target="http://papyri.info/docs/checklist">Checklist of Editions of Greek, Latin, Demotic and Coptic Papyri, Ostraca and Tablets</ref>. PDFs of BOEP 1-9 are available at <ref target="https://archiv.ub.uni-heidelberg.de/propylaeumdok/view/collections/c-19.type.html">PropylaeumDOK</ref>. As always, we are indebted to Carmen Lanz for her technical assistance in producing BOEP.</p>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">DDbDP</seg>
+               </head>
+               <table>
+                  <row xml:id="boep1538" n="1538">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/basp;53;64_4">BASP 53 64_4</ref>
+                     </cell>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">Σεραπ(ίων) → Σερᾶ\ς/, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1539" n="1539">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/basp;53;64_4">BASP 53 64_4</ref>
+                     </cell>
+                     <cell style="text-align: right;">8</cell>
+                     <cell style="text-align: left;">ἀργυρίου → ἀργύριον̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1540" n="1540">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;1;48">BGU 1 48</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.14</cell>
+                     <cell style="text-align: left;">[χ]άριν → [λο]γάριν (l. [λο]γάριον), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1541" n="1541">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;2;364">BGU 2 364</ref>
+                     </cell>
+                     <cell style="text-align: right;">9</cell>
+                     <cell style="text-align: left;">Γεερὼ γνωμ( ) ἀριθμ( ) → Γεερωγ πωμάριον, S. Kovarik (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1542" n="1542">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;2;364">BGU 2 364</ref>
+                     </cell>
+                     <cell style="text-align: right;">10</cell>
+                     <cell style="text-align: left;">[- ca.15 - τόπ]ον → [- ca.10 -ἐπίκαρ(?)]πον, S. Kovarik (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1543" n="1543">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;2;385">BGU 2 385</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.6</cell>
+                     <cell style="text-align: left;">ἐ͂σσι (l. εἶσι) → ἐσσί (l. ἐστί), C. Balamoshev</cell>
+                  </row>
+                  <row xml:id="boep1544" n="1544">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;2;414">BGU 2 414</ref>
+                     </cell>
+                     <cell style="text-align: right;">8</cell>
+                     <cell style="text-align: left;">[  ̣  ̣  ̣  ̣  ̣  ̣  ̣  ̣] → [Χοια]κ̣, F. Reiter (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1545" n="1545">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;2;473">BGU 2 473</ref>
+                     </cell>
+                     <cell style="text-align: right;">10</cell>
+                     <cell style="text-align: left;">ἐπιτέρμου (l. ἐπιτερμίῳ) BL 2.1.18 : ἐπὶ τέρμου ed.pr. → ἐπιτείμου (l. ἐπιτίμου), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1546" n="1546">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;3;805">BGU 3 805</ref>
+                     </cell>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">Ἀρσινο[ίτου] → Ἀρσινοε̣[ίτου] (l. Ἀρσινοί[του]), F. Reiter (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1547" n="1547">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;3;807">BGU 3 807</ref>
+                     </cell>
+                     <cell style="text-align: right;">6–</cell>
+                     <cell style="text-align: left;">Ἰναρι̣ω̣|οῦτος → Ἰναρω|οῦτος, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1548" n="1548">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;3;807">BGU 3 807</ref>
+                     </cell>
+                     <cell style="text-align: right;">10</cell>
+                     <cell style="text-align: left;">ἡγεμονεύσαν(τος) → ἡγεμονευσαν (l. ἡγεμονεύσαντος), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1549" n="1549">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;3;830">BGU 3 830</ref>
+                     </cell>
+                     <cell style="text-align: right;">11</cell>
+                     <cell style="text-align: left;">Σωικ̣ρ̣ά̣τ̣ο̣υ̣ς̣ (l. Σωκράτους) bgu 3 p.6 :  ̣  ̣  ̣  ̣ ed.pr. → Σωτ̣ηρίχ̣ο̣υ̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1550" n="1550">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;3;844">BGU 3 844</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.7</cell>
+                     <cell style="text-align: left;">[Ἀ]λ̣θένια (l. ἀλθεστήρια (or ἀσθένια)) BL 13.27 : [  ̣]  ̣θενια ed.pr. → [ἀ]σ̣θενίᾳ (l. ἀσθενείᾳ), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1551" n="1551">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;3;844">BGU 3 844</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.22</cell>
+                     <cell style="text-align: left;">Δομιτιαν(οῦ) → Δομιττιανο(ῦ) (l. Δομιτιανο(ῦ)), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1552" n="1552">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;3;892">BGU 3 892</ref>
+                     </cell>
+                     <cell style="text-align: right;">v.15</cell>
+                     <cell style="text-align: left;">[  ̣  ̣  ̣]  ̣ λ̣ι εὐ̣  ̣  ̣ τ̣ῆς  ̣ρ̣  ̣ α  ̣  ̣  ̣  → [  ̣  ̣ το]ῖ̣ς̣ ἁλιεῦσ̣ι τῆς Κ[ι]ρ̣κα, ὅπω\ς̣/, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1553" n="1553">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;4;1032">BGU 4 1032</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.15</cell>
+                     <cell style="text-align: left;">Βαβ[  ̣  ̣  ̣]υ̣ριου → Βαβ̣[ο]υ̣ρίου, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1554" n="1554">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;4;1078">BGU 4 1078</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.6</cell>
+                     <cell style="text-align: left;">τὰ κέρμα μιᾷ BL 4.6 : κερμάμια (l. κερμάτια) Chrest.Wilck. 59 : κερμάμια (l. κερμάτια (or κεράμια)) ed.pr. → κερμάτια, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1555" n="1555">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;4;1078">BGU 4 1078</ref>
+                     </cell>
+                     <cell style="text-align: right;">v.2</cell>
+                     <cell style="text-align: left;">ἐποικ(ίου) (or ἐποικ(ιώτῃ)) BL 8.40 : ἐποικ( ) ed.pr. → εἰς οἶκο(ν), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1556" n="1556">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;6;1244">BGU 6 1244</ref>
+                     </cell>
+                     <cell style="text-align: right;">v.46–47</cell>
+                     <cell style="text-align: left;">ὑπὸ τοῦ | Ἀνικήτου [ -ca.?- ] → ὑπὸ τ̣οῦ | Ἀνι̣κή̣το̣υ̣, M. Stern (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1557" n="1557">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;8;1848">BGU 8 1848</ref>
+                     </cell>
+                     <cell style="text-align: right;">5</cell>
+                     <cell style="text-align: left;">Πα̣υ̣ → Πυθ, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1558" n="1558">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;14;2425">BGU 14 2425</ref>
+                     </cell>
+                     <cell style="text-align: right;">6</cell>
+                     <cell style="text-align: left;">Ἀκῦρις → Ἀβοῦρις, W. Clarysse (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1559" n="1559">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2589">BGU 16 2589</ref>
+                     </cell>
+                     <cell style="text-align: right;">2</cell>
+                     <cell style="text-align: left;">νε( ) γεω(ργ ) → Τεχ̣θ̣ω, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1560" n="1560">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2598">BGU 16 2598</ref>
+                     </cell>
+                     <cell style="text-align: right;">9</cell>
+                     <cell style="text-align: left;">μέρου&lt;ς&gt; → μέρος l. μέρους, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1561" n="1561">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2598">BGU 16 2598</ref>
+                     </cell>
+                     <cell style="text-align: right;">15</cell>
+                     <cell style="text-align: left;">εἰκοστοῦ{ς} → εἰκοστοῦ, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1562" n="1562">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2606">BGU 16 2606</ref>
+                     </cell>
+                     <cell style="text-align: right;">6</cell>
+                     <cell style="text-align: left;">\τὸ ὀψώνιον/ → \τὸ ὀψώνιν/ (l. \τὸ ὀψώνιον/), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1563" n="1563">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2606">BGU 16 2606</ref>
+                     </cell>
+                     <cell style="text-align: right;">7</cell>
+                     <cell style="text-align: left;">ποιήσεις → ποήσεις (l. ποιήσεις), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1564" n="1564">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2608">BGU 16 2608</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.2</cell>
+                     <cell style="text-align: left;">ὑγιαίνειν → ὑγειαίνειν (l. ὑγιαίνειν), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1565" n="1565">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2608">BGU 16 2608</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.9</cell>
+                     <cell style="text-align: left;">ἐπιμέλου → ἐπειμέλου (l. ἐπιμέλου), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1566" n="1566">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2613">BGU 16 2613</ref>
+                     </cell>
+                     <cell style="text-align: right;">4</cell>
+                     <cell style="text-align: left;">ἐνωχλουμένοι → ἐνοχλούμενοι, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1567" n="1567">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2620">BGU 16 2620</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.2</cell>
+                     <cell style="text-align: left;">ὑγαίνειν → ὑγιαίνειν, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1568" n="1568">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2620">BGU 16 2620</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.6</cell>
+                     <cell style="text-align: left;">ὑγαίνῃς → ὑ̣γ̣ιαίνῃς, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1569" n="1569">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2621">BGU 16 2621</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.1</cell>
+                     <cell style="text-align: left;">Ἀπόλλων → Κόμων, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1570" n="1570">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2621">BGU 16 2621</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.7</cell>
+                     <cell style="text-align: left;">πο&lt;ι&gt;ήσας → ποήσις (l. ποιήσεις), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1571" n="1571">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2621">BGU 16 2621</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.16</cell>
+                     <cell style="text-align: left;">ἥδι̣σ̣τον → ἤδη τ̣ό̣ν̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1572" n="1572">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2629">BGU 16 2629</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.21</cell>
+                     <cell style="text-align: left;">κρίνειν → κρινεῖν, C. Balamoshev</cell>
+                  </row>
+                  <row xml:id="boep1573" n="1573">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2631">BGU 16 2631</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.8</cell>
+                     <cell style="text-align: left;">{  ̣} αὐτὸς → καὐτός (l. καὶ αὐτός), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1574" n="1574">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2631">BGU 16 2631</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.18</cell>
+                     <cell style="text-align: left;">πέμπψον → πέμψον, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1575" n="1575">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2632">BGU 16 2632</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.10</cell>
+                     <cell style="text-align: left;">τις → τι, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1576" n="1576">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2636">BGU 16 2636</ref>
+                     </cell>
+                     <cell style="text-align: right;">17</cell>
+                     <cell style="text-align: left;">[  ̣  ̣  ̣]νως → [ἀόκ]νως, C. Balamoshev</cell>
+                  </row>
+                  <row xml:id="boep1577" n="1577">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2636">BGU 16 2636</ref>
+                     </cell>
+                     <cell style="text-align: right;">17</cell>
+                     <cell style="text-align: left;">ἐπί⟦τασ⟧στειλε → ἐπίστελλε corr. ex επιτασ, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1578" n="1578">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2645">BGU 16 2645</ref>
+                     </cell>
+                     <cell style="text-align: right;">6</cell>
+                     <cell style="text-align: left;">τινά → τινί, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1579" n="1579">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2656">BGU 16 2656</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.8</cell>
+                     <cell style="text-align: left;">μετρει (l. μέτρῳ) → μέτρῳ, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1580" n="1580">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;16;2659">BGU 16 2659</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.11</cell>
+                     <cell style="text-align: left;">→ καί̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1581" n="1581">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/bgu;19;2771">BGU 19 2771</ref>
+                     </cell>
+                     <cell style="text-align: right;">5</cell>
+                     <cell style="text-align: left;">Γυπ → Αυπ, N. Gonis</cell>
+                  </row>
+                  <row xml:id="boep1582" n="1582">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/chr.mitt;;136">Chrest.Mitt. 136</ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">λ → λβ, M.G. Elmaghrabi (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1583" n="1583">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/chr.mitt;;316">Chrest.Mitt. 316</ref>
+                     </cell>
+                     <cell style="text-align: right;">r,1.7</cell>
+                     <cell style="text-align: left;">[μοι] P.W. Pestman, The New Papyrological Primer<hi rend="superscript">2</hi>, 50 : [  ̣  ̣  ̣] ed.pr. → [μου], C. Balamoshev</cell>
+                  </row>
+                  <row xml:id="boep1584" n="1584">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/chr.mitt;;316">Chrest.Mitt. 316</ref>
+                     </cell>
+                     <cell style="text-align: right;">r,1.21</cell>
+                     <cell style="text-align: left;">Πραπεθεῦτος → Ἡρᾶ Πεθεῦτος, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1585" n="1585">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/chr.wilck;;13">Chrest.Wilck. 13</ref>
+                     </cell>
+                     <cell style="text-align: right;">10</cell>
+                     <cell style="text-align: left;">ἰσότιμος ἑτέραν → ἤ τινος ἑτέρας, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1586" n="1586">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/chr.wilck;;13">Chrest.Wilck. 13</ref>
+                     </cell>
+                     <cell style="text-align: right;">12</cell>
+                     <cell style="text-align: left;">Π̣α̣σ̣χ̣ι̣λ̣η̣ς̣ → Πασχῖνις, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1587" n="1587">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/chr.wilck;;13">Chrest.Wilck. 13</ref>
+                     </cell>
+                     <cell style="text-align: right;">16</cell>
+                     <cell style="text-align: left;">Κερκε  ̣  ̣  ̣θ[ -ca.?- ] → Κερκεφθ[ᾶ (?) -ca.?- ], C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1588" n="1588">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/chr.wilck;;13">Chrest.Wilck. 13</ref>
+                     </cell>
+                     <cell style="text-align: right;">17</cell>
+                     <cell style="text-align: left;">  ̣ υ̣μ̣ι̣τ̣ι̣υ̣ [πρεσ]βύτερ[ος -ca.?- ] → κ̣α̣ὶ̣ ὑ λυπὺ (l. οἱ λοιποί) πρε̣σ̣βύτε̣ρ̣[οι -ca.?- ], C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1589" n="1589">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/chr.wilck;;13">Chrest.Wilck. 13</ref>
+                     </cell>
+                     <cell style="text-align: right;">18</cell>
+                     <cell style="text-align: left;">Κ̣ο̣λ̣λ̣υ̣τ̣ω̣ κρ[ -ca.?- ] → καὶ̣ λ̣υποὶ (l. λοιποί) π̣ρ[εσβύτεροι -ca.?- ], C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1590" n="1590">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/chr.wilck;;134">Chrest.Wilck. 134</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.10</cell>
+                     <cell style="text-align: left;">ἁγιωτάτῳι → ἁγιωτάτῳ, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1591" n="1591">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/chr.wilck;;134">Chrest.Wilck. 134</ref>
+                     </cell>
+                     <cell style="text-align: right;">v.11</cell>
+                     <cell style="text-align: left;">Ἀρωω( ) [ -ca.?- ] → Ἁρώο̣υ, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1592" n="1592">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/chr.wilck;;134">Chrest.Wilck. 134</ref>
+                     </cell>
+                     <cell style="text-align: right;">v.12</cell>
+                     <cell style="text-align: left;">Πιναρά(χθεως) cf. BL 9.16 : Πιναρ δ(ιά) ed.pr. → Πιναράχ(θεως), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1593" n="1593">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/cpr;1;62">CPR 1 62</ref>
+                     </cell>
+                     <cell style="text-align: right;">4</cell>
+                     <cell style="text-align: left;">κατὰ τὴ[ν -ca.?- ] → καταγειν̣[όμενος -ca.?- ], L. Weisser-Gericke (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1594" n="1594">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/cpr;1;73">CPR 1 73</ref>
+                     </cell>
+                     <cell style="text-align: right;">14</cell>
+                     <cell style="text-align: left;">[ Ἀ]νουβίων Σαραπίωνος ωρ[ -ca.?- ] → [ Ἀ]νουβίωνι Σαραπίωνος μη(τρός), L. Weisser-Gericke (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1595" n="1595">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/cpr;1;92">CPR 1 92</ref>
+                     </cell>
+                     <cell style="text-align: right;">10</cell>
+                     <cell style="text-align: left;">[ἀπὸ τῆς μητρο]πόλεως → [ἀφ' Ἡρακλέου]ς πόλεως, L. Weisser-Gericke (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1596" n="1596">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/cpr;1;102">CPR 1 102</ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">[  ̣  ̣]υ Τούρβωνος τοῦ [  ̣  ̣  ̣  ̣  ̣  ̣]κ[  ̣  ̣  ̣  ̣  ̣] → [τ]ο̣ῦ Τούρβωνος το̣[ῦ κα]ί̣ [- ca.8 - γεγυμνασιαρχ]η̣κότος or [- ca.12 - ἠγορανομ]η̣κότος, L. Weisser-Gericke (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1597" n="1597">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/cpr;1;141">CPR 1 141</ref>
+                     </cell>
+                     <cell style="text-align: right;">4-5</cell>
+                     <cell style="text-align: left;">πα- [- ca.26 -] → πα|[ραχωρῶν(?) - ca.19 -], L. Weisser-Gericke</cell>
+                  </row>
+                  <row xml:id="boep1598" n="1598">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/cpr;1;192">CPR 1 192</ref>
+                     </cell>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">ς δις καὶ Ἄμμωνι → ς Δισκάμμωνι, L. Weisser-Gericke (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1599" n="1599">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/cpr;1;238">CPR 1 238</ref>
+                     </cell>
+                     <cell style="text-align: right;">1.2–3</cell>
+                     <cell style="text-align: left;">ἀναγρ[αφό|μεν]ος → καταγεν[ό|με]νος, L. Weisser-Gericke (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1600" n="1600">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/cpr;1;244">CPR 1 244</ref>
+                     </cell>
+                     <cell style="text-align: right;">5</cell>
+                     <cell style="text-align: left;">[ -ca.?- ]υριαίνης BL 1.124 : [ -ca.?- ] Ἀπιαίνης ed.pr. → [ -ca.?- Ἰ]σ̣χυριαίνης, W.G. Claytor (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1601" n="1601">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/cpr;1;244">CPR 1 244</ref>
+                     </cell>
+                     <cell style="text-align: right;">14</cell>
+                     <cell style="text-align: left;">μ[  ̣ ̣]ενης → μ[ηχ]α̣νῆς, M. Malouta (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1602" n="1602">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/cpr;1;244">CPR 1 244</ref>
+                     </cell>
+                     <cell style="text-align: right;">14</cell>
+                     <cell style="text-align: left;">καινοῦ → καινη (l. καινῆς), W.G. Claytor (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1603" n="1603">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/cpr;10;28">CPR 10 28</ref>
+                     </cell>
+                     <cell style="text-align: right;">7</cell>
+                     <cell style="text-align: left;">[ἀργ]ήν → [  ̣  ̣  ̣]ην, N. Gonis</cell>
+                  </row>
+                  <row xml:id="boep1604" n="1604">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/mper;2_3;23">MPER 2_3 23</ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">Θωυθ → Θωθ, W.G. Claytor (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1605" n="1605">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/o.did;;44">O.Did. 44</ref>
+                     </cell>
+                     <cell style="text-align: right;">20</cell>
+                     <cell style="text-align: left;">ἀφω  ̣  ̣  ̣ → ἀφῶμε̣ν̣, R. Ast (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1606" n="1606">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/o.did;;350">O.Did. 350</ref>
+                     </cell>
+                     <cell style="text-align: right;">2</cell>
+                     <cell style="text-align: left;">χαίρειν → χάρειν l. χαίρειν, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1607" n="1607">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/o.did;;350">O.Did. 350</ref>
+                     </cell>
+                     <cell style="text-align: right;">8</cell>
+                     <cell style="text-align: left;">σουανκο̣π̣τοκον̣  ̣  ̣[  ̣]κ̣λ̣αρι̣σ̣ου. → σου ἐ̣ν Κόπτο κον  ̣  ̣[  ̣]κ̣λ̣αρι̣σ̣ου. (l. Κόπτῳ), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1608" n="1608">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/o.frange;;435">O.Frange 435</ref>
+                     </cell>
+                     <cell style="text-align: right;">2</cell>
+                     <cell style="text-align: left;">[ⲧ] → ⲧ̣, L. Jiménez (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1609" n="1609">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/o.frange;;435">O.Frange 435</ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">→  ̣, L. Jiménez (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1610" n="1610">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/o.frange;;435">O.Frange 435</ref>
+                     </cell>
+                     <cell style="text-align: right;">4</cell>
+                     <cell style="text-align: left;">→ ―?, L. Jiménez (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1611" n="1611">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/o.frange;;435">O.Frange 435</ref>
+                     </cell>
+                     <cell style="text-align: right;">5</cell>
+                     <cell style="text-align: left;">→ ⲛϩⲱⲃ ―? ̣, L. Jiménez (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1612" n="1612">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/o.frange;;435">O.Frange 435</ref>
+                     </cell>
+                     <cell style="text-align: right;">6</cell>
+                     <cell style="text-align: left;">ⲙⲱⲩⲥⲏⲥ → ⲙⲱⲩ̈ⲥⲏⲥ, L. Jiménez (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1613" n="1613">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/o.kell;;107">O.Kell. 107</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.9</cell>
+                     <cell style="text-align: left;">Ἀγαθο( ) → Ἀγαθ(οῦ) Δ(αίμονος), R.S. Bagnall (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1614" n="1614">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/o.kell;;108">O.Kell. 108</ref>
+                     </cell>
+                     <cell style="text-align: right;">5</cell>
+                     <cell style="text-align: left;">ὑπ̣(έρ) → υἱό(ς), R.S. Bagnall (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1615" n="1615">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/o.kell;;122">O.Kell. 122</ref>
+                     </cell>
+                     <cell style="text-align: right;">8</cell>
+                     <cell style="text-align: left;">᾿Ï  ̣  ̣  ̣ιανος → Ἰου̣λιανὸς, R.S. Bagnall (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1616" n="1616">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/o.kell;;128">O.Kell. 128</ref>
+                     </cell>
+                     <cell style="text-align: right;">5</cell>
+                     <cell style="text-align: left;">  ̣ ε̣ρων → Γέρων, R.S. Bagnall (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1617" n="1617">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/o.kell;;147">O.Kell. 147</ref>
+                     </cell>
+                     <cell style="text-align: right;">4</cell>
+                     <cell style="text-align: left;">[- ca.9 -]ππίῳ → [  ̣  ̣  ̣  ̣  ̣ Φιλι]ππίῳ, R.S. Bagnall</cell>
+                  </row>
+                  <row xml:id="boep1618" n="1618">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/o.kell;;270">O.Kell. 270</ref>
+                     </cell>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">Πμα̣[ -ca.?- ] → Παμω( ) [ -ca.?- ], R.S. Bagnall (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1619" n="1619">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/o.kell;;270">O.Kell. 270</ref>
+                     </cell>
+                     <cell style="text-align: right;">2</cell>
+                     <cell style="text-align: left;">Λιλοι → Λιλου, R. S. Bagnall (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1620" n="1620">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/o.kell;;272">O.Kell. 272</ref>
+                     </cell>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">τ[ -ca.?- ] → τά̣[λ(αντα) -ca.?- ], R.S. Bagnall (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1621" n="1621">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/o.kell;;279">O.Kell. 279</ref>
+                     </cell>
+                     <cell style="text-align: right;">7</cell>
+                     <cell style="text-align: left;">υἱὸ(ς) Πεκῶτος → ἐν Επεκατ, R.S. Bagnall (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1622" n="1622">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/o.kell;;283">O.Kell. 283</ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">Πιύρι̣ο̣ς̣ → Πιύριο(ς), R.S. Bagnall (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1623" n="1623">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.ant;3;193">P.Ant. 3 193</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.3</cell>
+                     <cell style="text-align: left;">τοῦτον → καὶ τοῦτον, N. Gonis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1624" n="1624">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.v.III.82</cell>
+                     <cell style="text-align: left;">κ̣α̣ → κγ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1625" n="1625">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.v.III.87</cell>
+                     <cell style="text-align: left;">Ἡρακλείου → Ἡρακλείου corr. ex   ̣ρακλείου, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1626" n="1626">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.v.III.92</cell>
+                     <cell style="text-align: left;">ἡ̣ ἐ̣κκλ(ησία) → ἐκ̣κλ(ησία) or ἡ̣ ἐκ̣κλ(ησία), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1627" n="1627">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.v.III.96</cell>
+                     <cell style="text-align: left;">Ψιμανωβ(ε)τ → Ψιμανωβτ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1628" n="1628">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.v.III.103</cell>
+                     <cell style="text-align: left;">ἡ̣ ἐκκλ(ησία) → ἐκκλ(ησία), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1629" n="1629">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.v.III.107</cell>
+                     <cell style="text-align: left;">Ψ̣[ιμ]α̣ν̣ω̣β̣(ε)τ → Ψ̣[ι]μ̣ανω̣βτ̣ υἱοῦ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1630" n="1630">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.v.III.108</cell>
+                     <cell style="text-align: left;">Ἀ[πολ]λῶτος → Ἀ[πολ]λῶτος υ̣ἱοῦ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1631" n="1631">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.v.III.110</cell>
+                     <cell style="text-align: left;">Ψιμανωβ(ε)τ → Ψ̣ιμανωβτ̣, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1632" n="1632">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.v.III.113</cell>
+                     <cell style="text-align: left;">Ψενθαησ(ίου) → Ψενθαη(σίου), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1633" n="1633">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.v.III.113-114</cell>
+                     <cell style="text-align: left;">| ζ(ήτει) Βίκτωρ → 113b, ms  ζ | [ • ] Βίκτωρ or ζ(ήτει) | Βίκτωρ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1634" n="1634">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.v.III.114</cell>
+                     <cell style="text-align: left;">Βησσημί[ου] → Βησσημί[ο]υ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1635" n="1635">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.v.III.114</cell>
+                     <cell style="text-align: left;">δ(ιά) → δ(ιά) corr. ex  ̣, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1636" n="1636">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.v.III.117</cell>
+                     <cell style="text-align: left;">πρ(εσβύτερος) → πρ̣(εσ)β̣(ύτερος), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1637" n="1637">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.v.III.118</cell>
+                     <cell style="text-align: left;">Ψιμανωβ(ε)τ → Ψιμαν̣ωβτ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1638" n="1638">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.v.III.120</cell>
+                     <cell style="text-align: left;">⟦Π̣ε̣τ̣⟧ → ⟦γεωργ(οῦ)⟧ \ἐλαιουργ(οῦ)/, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1639" n="1639">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.v.III.126</cell>
+                     <cell style="text-align: left;">Δαυείδ → Δαυείδ corr. ex -ca.?-, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1640" n="1640">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.v.III.127</cell>
+                     <cell style="text-align: left;">ωιε → ωιε, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1641" n="1641">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.r.IV.128</cell>
+                     <cell style="text-align: left;">[σ]χ̣ο(λαστικοῦ) → Σ̣[ά]κ̣κου, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1642" n="1642">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.r.IV.130</cell>
+                     <cell style="text-align: left;">Τκωρία̣ς̣ → Τκω̣ρί[α]ς̣ corr. ex Τκ ̣ρι[α]ς, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1643" n="1643">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.r.IV.143</cell>
+                     <cell style="text-align: left;">Δα[υε]ίδ → Δαυείδ’, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1644" n="1644">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.r.IV.144b,ms</cell>
+                     <cell style="text-align: left;">[Φαῶ]φι δ → [Θω]θ’ ιδ or [Θω]θ ϊδ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1645" n="1645">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.r.IV.148</cell>
+                     <cell style="text-align: left;">Δαυείδ → Δαυείδ’, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1646" n="1646">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.r.IV.148</cell>
+                     <cell style="text-align: left;">Δαυείδ → Δαυείδ’, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1647" n="1647">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.r.IV.150</cell>
+                     <cell style="text-align: left;">Κυρι̣α̣κ(οῦ) → Κυριακο̣ῦ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1648" n="1648">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.r.IV.150</cell>
+                     <cell style="text-align: left;">γ[ε]ω̣ρ(γοῦ) → Μ[ο]υ̣σ̣α̣ί̣(ου)(?), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1649" n="1649">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.r.IV.153</cell>
+                     <cell style="text-align: left;">καταβλ(ηθέντων) ὑ(πὲρ) ἀ̣[ναλώ]μ(ατος) → καταβλ(ηθέντων) εἰς [ -2-3- ]  ̣( ), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1650" n="1650">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.r.IV.156</cell>
+                     <cell style="text-align: left;">[Δ]αυ̣ὶδ → Κ̣ωμασ(ίου), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1651" n="1651">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.r.IV.160</cell>
+                     <cell style="text-align: left;">Κομασ̣ίου → Κοκκίν(ου), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1652" n="1652">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.r.IV.161</cell>
+                     <cell style="text-align: left;">[ -ca.?- Πα]ϋ̣χαβ → [ -ca.?- Πα]υ̣χαβ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1653" n="1653">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.r.IV.161</cell>
+                     <cell style="text-align: left;">Φοιβάμμ(ωνος) → Φοιβάμ(μωνος), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1654" n="1654">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.r.IV.162</cell>
+                     <cell style="text-align: left;">τ(ῶν) συνηθ(ειῶν) → τὰς συνηθ(είας) l. τῶν συνηθειῶν, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1655" n="1655">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.r.IV.166</cell>
+                     <cell style="text-align: left;">[ -ca.?- Μαρ]ιάμ → [ -ca.?- Ἀβρ]αάμ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1656" n="1656">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.r.IV.166</cell>
+                     <cell style="text-align: left;">Δαυεὶδ → Δαυεὶδ’, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1657" n="1657">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">II.r.IV.168</cell>
+                     <cell style="text-align: left;">ωγ → ωγ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1658" n="1658">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.v.V.172</cell>
+                     <cell style="text-align: left;">γε̣(ω)ρ(γοῦ) → πρεσβ(υτέρου), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1659" n="1659">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.v.V.173</cell>
+                     <cell style="text-align: left;">Ψιμανωβ(ε)τ → Ψιμανωβτ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1660" n="1660">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.v.V.174</cell>
+                     <cell style="text-align: left;">πρε̣σ̣β̣(ύτερος) → πρ̣(εσ)β(ύτερος), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1661" n="1661">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.v.V.176</cell>
+                     <cell style="text-align: left;">ἡ εἴσπραξ(ις) δημοσί(ων) → ἡ εἴσπρ(αξις) δημοσ(ίων), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1662" n="1662">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.v.V.177</cell>
+                     <cell style="text-align: left;">[πρ]εσβύτερος → π̣ρεσβύτερος, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1663" n="1663">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.v.V.178</cell>
+                     <cell style="text-align: left;">μεγαλ(οπρεπεστάτου) → μεγαλο(πρεπεστάτου), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1664" n="1664">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.v.V.178</cell>
+                     <cell style="text-align: left;">τῆς [ -ca.?- ] → τῆς ̣ ̣[ -ca.?- ] or (αὐτῆς(?)) ἰ̣ν̣[δικ(τίωνος)], or τῆς ̣η[ -ca.?- ] (l. τῆς Θ̣η̣[β(αίδος)]), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1665" n="1665">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.v.V.185</cell>
+                     <cell style="text-align: left;">συνη̣θ̣(είας) τοῦ ἐκδί(κου) → συν(ηθείας) τοῦ ἐκδίκ(ου), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1666" n="1666">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.v.V.188</cell>
+                     <cell style="text-align: left;">τῆς → ταῖς l. τῆς, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1667" n="1667">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.v.V.189</cell>
+                     <cell style="text-align: left;">[Ἀ]πολλῶτ(ος) καί → Ἀ̣πολλῶτ(ος) (καί), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1668" n="1668">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.v.V.192</cell>
+                     <cell style="text-align: left;">Βαυ → Β ̣( ) l. Βαυ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1669" n="1669">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.v.V.194</cell>
+                     <cell style="text-align: left;">Ψιμανωβ̣(ε)τ → Ψιμανω[β]τ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1670" n="1670">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.v.V.195</cell>
+                     <cell style="text-align: left;">Ψιμ̣α̣νωβ(ε)τ → Ψιμ̣α̣νωβτ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1671" n="1671">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.v.V.203</cell>
+                     <cell style="text-align: left;">ἐλει(νός) → ἐλαι(ουργός(?)), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1672" n="1672">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.r.VI.207b</cell>
+                     <cell style="text-align: left;">⳨̣ → om., J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1673" n="1673">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.r.VI.208</cell>
+                     <cell style="text-align: left;">γεωρ(γοῦ) → γεωργ(οῦ), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1674" n="1674">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.r.VI.213</cell>
+                     <cell style="text-align: left;">Β̣  ̣  ̣ → ( ), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1675" n="1675">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.r.VI.219</cell>
+                     <cell style="text-align: left;">Βαυ → Βαυ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1676" n="1676">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.r.VI.223</cell>
+                     <cell style="text-align: left;">Ψιμανωβ(ε)τ → Ψιμανωβτ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1677" n="1677">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.r.VI.224</cell>
+                     <cell style="text-align: left;">Ψιμανωβ(ε)τ → Ψιμανωβτ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1678" n="1678">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.r.VI.225</cell>
+                     <cell style="text-align: left;">ἄπα → ἀββᾶ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1679" n="1679">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.r.VI.231</cell>
+                     <cell style="text-align: left;">γ̣ε̣[ω]ρ̣(γοῦ) → απ̣[  ̣  ̣  ̣]  ̣( ) or αν̣[  ̣  ̣  ̣]  ̣( ), or αρ̣[  ̣  ̣  ̣]  ̣( ), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1680" n="1680">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.r.VI.232</cell>
+                     <cell style="text-align: left;">Ψιμανωβ(ε)τ → Ψιμανωβτ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1681" n="1681">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">III.r.VI.243</cell>
+                     <cell style="text-align: left;">παραμυθ(είας) → παραμ(υ)θ(είας), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1682" n="1682">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">IV.v.VII.247</cell>
+                     <cell style="text-align: left;">Ῥαχὴλ → Ῥαχήλ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1683" n="1683">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">IV.v.VII.270</cell>
+                     <cell style="text-align: left;">Τιμοθέου → Τιμοθέου corr. ex Τιμωθεου(?), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1684" n="1684">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">IV.v.VII.277</cell>
+                     <cell style="text-align: left;">Δαυίδ → Χάριδ(ος), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1685" n="1685">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">IV.v.VII.278</cell>
+                     <cell style="text-align: left;">Ψιμανωβ(ε)τ → Ψιμανωβτ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1686" n="1686">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">IV.r.VIII.290</cell>
+                     <cell style="text-align: left;">σπουδ(ῆς) οὕ(τως) → σπορδούλ(ων), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1687" n="1687">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">IV.r.VIII.296</cell>
+                     <cell style="text-align: left;">Ἐλισαβέτ → Ἐλισαβέτ’, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1688" n="1688">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">IV.r.VIII.296</cell>
+                     <cell style="text-align: left;">Βίκ(τορος) → Βίκτορος, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1689" n="1689">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">IV.r.VIII.300</cell>
+                     <cell style="text-align: left;">Ψιμανωβ(ε)τ → Ψιμανωβτ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1690" n="1690">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">IV.r.VIII.302</cell>
+                     <cell style="text-align: left;">Βαυ → Βαυ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1691" n="1691">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">IV.r.VIII.304</cell>
+                     <cell style="text-align: left;">Ψιμανωβ(ε)τ → Ψιμανωβτ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1692" n="1692">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">IV.r.VIII.305</cell>
+                     <cell style="text-align: left;">Βίκτορος → Βίκτορ(ος), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1693" n="1693">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">IV.r.VIII.306</cell>
+                     <cell style="text-align: left;">δ(ιὰ) Μηνᾶ → δ(ιὰ) Μηνᾶς (l. Μηνᾶ), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1694" n="1694">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">IV.r.VIII.310</cell>
+                     <cell style="text-align: left;">Ἄπ[α Β]ίκ(τορος) → γυ[ν]α̣ικ(ός), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1695" n="1695">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">IV.r.VIII.313</cell>
+                     <cell style="text-align: left;">Ἀπολλ̣ῶτος → Ἀπολλ(ῶτος) Βησ(ίου), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1696" n="1696">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">IV.r.VIII.316</cell>
+                     <cell style="text-align: left;">[εἴσπρ]αξ(ις) → [εἴσ]π̣ρ(α)ξ(ις), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1697" n="1697">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">IV.r.VIII.318</cell>
+                     <cell style="text-align: left;">[ -ca.?- ἄπ]α̣ Ἀλιτη̣ → [ -ca.?- ]τ̣αλιτη or [ -ca.?- ]π̣αλιτη, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1698" n="1698">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">IV.r.VIII.321</cell>
+                     <cell style="text-align: left;">Συρίνωος → Συρίωνος, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1699" n="1699">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">IV.r.VIII.323</cell>
+                     <cell style="text-align: left;">μο(νά)ζ(οντος) → μο&lt;νά&gt;ζ(οντος), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1700" n="1700">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">IV.r.VIII.324</cell>
+                     <cell style="text-align: left;">Τσενμουσης → Τσενμουσης corr. ex Τσεν  ̣ουσης, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1701" n="1701">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">IV.r.VIII.325</cell>
+                     <cell style="text-align: left;">Λουκ( ) → Λουκ(άνου), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1702" n="1702">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">V.v.IX.327</cell>
+                     <cell style="text-align: left;">Ἀβρααμί[ου Ἡρα]κλείου → Ἀβραὰμ Ἡρ̣[α]κ̣λείου, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1703" n="1703">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">V.v.IX.328</cell>
+                     <cell style="text-align: left;">γεωργ(οῦ) → γεωρ(γοῦ), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1704" n="1704">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">V.v.IX.329</cell>
+                     <cell style="text-align: left;">Ἀνουφίωυ (l. Ἀνουφίου) γεωρ(γοῦ) → Ἀνουφίω τέκ(τονος) l. Ἀνουφίου, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1705" n="1705">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">V.v.IX.331</cell>
+                     <cell style="text-align: left;">ὁ(νόματος(?)) → ο( ) or ὁ(μοίως(?)), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1706" n="1706">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">V.v.IX.334</cell>
+                     <cell style="text-align: left;">Ῥωμανοῦ → Ῥωμανοῦ corr. ex  ̣ωμανοῦ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1707" n="1707">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">V.v.IX.336</cell>
+                     <cell style="text-align: left;">ὁ(μοίως) → ο( ) or ὁ(μοίως(?)), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1708" n="1708">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">V.v.IX.340</cell>
+                     <cell style="text-align: left;">εἴσπραξ(ις) → εἴσπρ(α)ξ(ις), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1709" n="1709">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">V.v.IX.340</cell>
+                     <cell style="text-align: left;">χλο̣[ρ(οφαγίας)] → χλο̣[ρ(οφαγίας)] (l. χλωρ(οφαγίας) corr. ex χ  ̣  ̣[ -ca.?- ], J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1710" n="1710">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">V.v.IX.342</cell>
+                     <cell style="text-align: left;">χλ(ωροφαγίας) → ταβ( ), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1711" n="1711">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">V.v.IX.346</cell>
+                     <cell style="text-align: left;">Σουννα → Σου&lt;σά&gt;ννα, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1712" n="1712">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">V.v.IX.353</cell>
+                     <cell style="text-align: left;">ἰνδι(κτίωνος) → ἰνδικ(τίωνος), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1713" n="1713">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">V.v.IX.353</cell>
+                     <cell style="text-align: left;">κα[ταβολ(ῆς) -ca.?- ] → (καταβολῆς) [ -ca.?- ], J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1714" n="1714">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">V.v.IX.354</cell>
+                     <cell style="text-align: left;">μητρ(ός) → μητρ(ός) corr. ex μ ̣ ̣ρ( ), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1715" n="1715">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">V.v.IX.355</cell>
+                     <cell style="text-align: left;">Πχηναν ἐ̣μ̣φ(υτευτοῦ) → Τ̣χηναν πρ(εσβύτερος), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1716" n="1716">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XI.392</cell>
+                     <cell style="text-align: left;">Ἑρμαυῶς → Ἑρμαυῶ\ς/, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1717" n="1717">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XI.394</cell>
+                     <cell style="text-align: left;">πρε̣σβ(υτέρου) → Πα̣σν(ῶτος(?)), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1718" n="1718">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XI.403</cell>
+                     <cell style="text-align: left;">Φαναα̣ν → Φανω̣ν(ε) or Φανω̣ν(ίου), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1719" n="1719">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XI.405</cell>
+                     <cell style="text-align: left;">Τσεμπνοῦθ⟦ις Μ[α]καρίου⟧ → Τσεμπνουθί(α) ⟦Μακαρίου⟧, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1720" n="1720">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XI.406</cell>
+                     <cell style="text-align: left;">Βησᾶς Ἀπολ(λῶτος) → Βησᾶς( ) πολ(ιτευομένου) (l. Βησᾶ(το)ς), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1721" n="1721">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XI.407</cell>
+                     <cell style="text-align: left;">Σοφία → Σοφία{ς}, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1722" n="1722">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XI.412</cell>
+                     <cell style="text-align: left;">Τωκουλ → Τσαμ̣ουλ corr. ex Τσακ̣ουλ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1723" n="1723">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XI.413</cell>
+                     <cell style="text-align: left;">Ψιλσιλ → Ψιλσιλ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1724" n="1724">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XI.416</cell>
+                     <cell style="text-align: left;">Τριοδώρ̣ου → Τρι&lt;φι&gt;οδώρου, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1725" n="1725">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XI.419</cell>
+                     <cell style="text-align: left;">χ̣λ̣(ωροφαγίας) καὶ [π]αραμυθ(είας) → τῆ̣[ς π]α̣ραμυθ(είας), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1726" n="1726">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XII.428</cell>
+                     <cell style="text-align: left;">Λαηυ → Λαηυ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1727" n="1727">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XII.429</cell>
+                     <cell style="text-align: left;">γε(ω)ρ(γοῦ) → ψ ̣ ̣ ̣( ) or Ψε̣ν̣θ̣(αησίου), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1728" n="1728">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XII.431</cell>
+                     <cell style="text-align: left;">γεωργ(οῦ) → γεωρ(γοῦ), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1729" n="1729">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XII.433</cell>
+                     <cell style="text-align: left;">Πατσουσαν → Πατσουσαν(να), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1730" n="1730">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XII.436</cell>
+                     <cell style="text-align: left;">γε(ω)ρ(γοῦ) → σ̣τ̣ρ̣(ατιώτου) or π̣ρ̣(εσβύτερου), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1731" n="1731">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XII.438</cell>
+                     <cell style="text-align: left;">Ἀνδρέ̣α → Ἀνδρέου, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1732" n="1732">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XII.440</cell>
+                     <cell style="text-align: left;">[Ἀνασ]τασία → \Tασνεου/, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1733" n="1733">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XII.444</cell>
+                     <cell style="text-align: left;">Ψιμανωβ(ε)τ → Ψιμανωβτ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1734" n="1734">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XII.445</cell>
+                     <cell style="text-align: left;">[Βη]σαρίων → [ ̣] ̣σαρμω ̣α, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1735" n="1735">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XII.448</cell>
+                     <cell style="text-align: left;">Θωτ → Θωτ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1736" n="1736">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XII.449</cell>
+                     <cell style="text-align: left;">Λα̣β' → Λα̣β( ), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1737" n="1737">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XII.451</cell>
+                     <cell style="text-align: left;">Πτολεμαί(ου) → Πτολεμ(αίου), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1738" n="1738">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XII.455</cell>
+                     <cell style="text-align: left;">Δ[α]υίδ → Δ[α]υ̣ε̣ίδ’, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1739" n="1739">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XII.456</cell>
+                     <cell style="text-align: left;">Δ[α]υίδ → Δαυείδ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1740" n="1740">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XII.r.XII.457</cell>
+                     <cell style="text-align: left;">κοιν[ω]ν̣(οί) → ̣εσα̣ ̣[ ̣]ι̣ς, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1741" n="1741">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.r.XV.563</cell>
+                     <cell style="text-align: left;">Θεοφ( ) → Θεοφ(ίλου), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1742" n="1742">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.r.XV.563</cell>
+                     <cell style="text-align: left;">Ταντ( ) → Ταντ(εβεου(?)), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1743" n="1743">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.r.XV.564</cell>
+                     <cell style="text-align: left;">Παησί(ου) → Πωβετ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1744" n="1744">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.r.XV.566</cell>
+                     <cell style="text-align: left;">Βό̣ττος → Βελῆτος, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1745" n="1745">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.r.XV.570</cell>
+                     <cell style="text-align: left;">Χαρισίου → Χαρισίου corr. ex Χαρασίου, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1746" n="1746">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.r.XV.574</cell>
+                     <cell style="text-align: left;">Ψαχῶτ(ος) → Ψαχω, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1747" n="1747">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.r.XV.576</cell>
+                     <cell style="text-align: left;">Παμοθ( ) → Παμούθ(ου), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1748" n="1748">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.r.XV.577</cell>
+                     <cell style="text-align: left;">Τιτηρ( ) → Τιτήρ(ου), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1749" n="1749">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.v.XVI.585</cell>
+                     <cell style="text-align: left;">Σοφίας̣ → Σοφία&lt;ς&gt;, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1750" n="1750">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.v.XVI.585</cell>
+                     <cell style="text-align: left;">Βησσουροῦτ(ος) → Βησσαρίω̣ν̣ο̣ς̣ l. Βησαρίωνος, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1751" n="1751">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.v.XVI.587</cell>
+                     <cell style="text-align: left;">Πανδανίου → Πανλανίου corr. ex Παν ̣ανίου, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1752" n="1752">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.v.XVI.589</cell>
+                     <cell style="text-align: left;">[ -ca.?- ]φ̣ος → [ -ca.?- ] υἱός, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1753" n="1753">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.v.XVI.590</cell>
+                     <cell style="text-align: left;">[ -ca.?- ] ̣η̣στ( ) → [ -ca.?- ] ̣η̣στ( ) l. [ -ca.?- Χ(?)]ρηστ(οῦ(?)), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1754" n="1754">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.v.XVI.593</cell>
+                     <cell style="text-align: left;">[παρ]α̣μυθ(είας) → [ -2-3- ]ι̣νος, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1755" n="1755">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.v.XVI.598</cell>
+                     <cell style="text-align: left;">Ἀπολλῶτ(ος) → Ἀπολ&lt;λ&gt;ῶτ(ος), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1756" n="1756">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.v.XVI.599</cell>
+                     <cell style="text-align: left;">ἐμβολῆς ο̣ὕ̣(τως) → ἐμβολῆς, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1757" n="1757">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.v.XVI.602</cell>
+                     <cell style="text-align: left;">Πεκυσί(ου) → Πεκυσ(ίου), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1758" n="1758">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.v.XVI.603</cell>
+                     <cell style="text-align: left;">[ -ca.?- ] κ̣( ) → vac.?  ̣( ) or γ( ), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1759" n="1759">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.v.XVI.603</cell>
+                     <cell style="text-align: left;">Ὥρου γεοργ(οῦ) (l. γεωργ(οῦ)) → Σα̣νσνεοῦτ(ος), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1760" n="1760">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.v.XVI.604</cell>
+                     <cell style="text-align: left;">[ -ca.?- ] κ̣( ) → vac.?  ̣( ) or γ( ), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1761" n="1761">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.v.XVI.604</cell>
+                     <cell style="text-align: left;">Παησεί(ου) → Πησει or Πησεί(ου) (l. Παησίου), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1762" n="1762">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.v.XVI.604</cell>
+                     <cell style="text-align: left;">Φαν( ) → Φαν(αχωμ(?)) or Φαν(αχωμίου(?)), or Φαν(ῆς(?)), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1763" n="1763">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.v.XVI.604</cell>
+                     <cell style="text-align: left;">σ̣τρατ̣(ιώτου) → ̣ ̣ ρ ̣ ̣, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1764" n="1764">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.v.XVI.605</cell>
+                     <cell style="text-align: left;">[ -ca.?- ]ο̣( ) → [ -ca.?- γ(?)]( ), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1765" n="1765">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.v.XVI.606</cell>
+                     <cell style="text-align: left;">Ἑρμαῶτ(ος) → Ἑρμαυῶτ(ος), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1766" n="1766">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.v.XVI.608</cell>
+                     <cell style="text-align: left;">χλορ(οφαγίας) (l. χλωρ(οφαγίας)) → χλο&lt;ρο&gt;φ(αγίας) l. χλωροφ(αγίας), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1767" n="1767">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.v.XVI.610</cell>
+                     <cell style="text-align: left;">χλορ(οφαγίας) (l. χλωρ(οφαγίας)) → χλο&lt;ρο&gt;φ(αγίας) l. χλωροφ(αγίας), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1768" n="1768">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.v.XVI.618</cell>
+                     <cell style="text-align: left;">σ̣ο̣ζ → ωοζ l. σοζ, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1769" n="1769">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XIV.v.XVI.618</cell>
+                     <cell style="text-align: left;">→ ωοζ ζ̣(υγῷ), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1770" n="1770">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XV.v.XVIII.646</cell>
+                     <cell style="text-align: left;">ϛ → ϛ̅, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1771" n="1771">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XV.v.XVIII.649</cell>
+                     <cell style="text-align: left;">κομενταλεσί(ου) → κομεντανυσί(ου) (l. κομενταρησί(ου)), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1772" n="1772">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XV.v.XVIII.657</cell>
+                     <cell style="text-align: left;">γί(νεται) → τά, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1773" n="1773">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XV.v.XVIII.664</cell>
+                     <cell style="text-align: left;">γί(νεται) τὸ π(ᾶν) → γί(νεται) [ὁ](μοῦ) τὸ π(ᾶν), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1774" n="1774">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XV.v.XVIII.666</cell>
+                     <cell style="text-align: left;">[ ̣ ̣ ̣]μαθ( ) → [ ̣ ̣ ̣]μασ( ), J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1775" n="1775">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.aphrod.reg;;col1_18">P.Aphrod.Reg. col1_18</ref>
+                     </cell>
+                     <cell style="text-align: right;">XV.v.XVIII.666</cell>
+                     <cell style="text-align: left;">γί(νεται) τὸ πᾶν → γί(νεται) [ὁ](μοῦ) τὸ πᾶν corr. ex π ̣ν, J.-L. Fournet (from original)</cell>
+                  </row>
+                  <row xml:id="boep1776" n="1776">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.berl.zill;;1">P.Berl.Zill. 1</ref>
+                     </cell>
+                     <cell style="text-align: right;">5.82</cell>
+                     <cell style="text-align: left;">οἰκοδόμησιν → οἰκοδομὴν, C. Balamoshev (from original)</cell>
+                  </row>
+                  <row xml:id="boep1777" n="1777">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.cair.goodsp;;15">P.Cair.Goodsp. 15</ref>
+                     </cell>
+                     <cell style="text-align: right;">22</cell>
+                     <cell style="text-align: left;">ἐξοφθαλμιάσας → ἐ̣π̣οφθαλμιάσας, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1778" n="1778">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.cair.zen;3;59439">P.Cair.Zen. 3 59439</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.6</cell>
+                     <cell style="text-align: left;">→ vac.? εὐτύχει, S. Fogarty (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1779" n="1779">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.clackson;;44">P.Clackson 44</ref>
+                     </cell>
+                     <cell style="text-align: right;">v.11</cell>
+                     <cell style="text-align: left;">ⲙⲛ → ⲙ̅ⲛ, L. De Curtis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1780" n="1780">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.clackson;;44">P.Clackson 44</ref>
+                     </cell>
+                     <cell style="text-align: right;">v.13</cell>
+                     <cell style="text-align: left;">ⲙⲡ → ⲙ̅ⲡⲉ, L. De Curtis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1781" n="1781">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.clackson;;44">P.Clackson 44</ref>
+                     </cell>
+                     <cell style="text-align: right;">v.17</cell>
+                     <cell style="text-align: left;">ⲧⲉⲕ → ⲧⲕ̅, L. De Curtis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1782" n="1782">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.clackson;;44">P.Clackson 44</ref>
+                     </cell>
+                     <cell style="text-align: right;">v.20</cell>
+                     <cell style="text-align: left;">ⲛ → ⲛ̅, L. De Curtis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1783" n="1783">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.clackson;;44">P.Clackson 44</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.22</cell>
+                     <cell style="text-align: left;">ⲛ → ⲛ̅, L. De Curtis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1784" n="1784">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.clackson;;44">P.Clackson 44</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.23</cell>
+                     <cell style="text-align: left;">· → †, L. De Curtis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1785" n="1785">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.corn;;14">P.Corn. 14</ref>
+                     </cell>
+                     <cell style="text-align: right;">7</cell>
+                     <cell style="text-align: left;">ο̣[ὖν] → οὖ̣[ν], F. Gerardin (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1786" n="1786">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.fam.tebt;;14">P.Fam.Tebt. 14</ref>
+                     </cell>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">συμβόλου → συνβόλου (l. συμβόλου), N. Gonis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1787" n="1787">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.fam.tebt;;14">P.Fam.Tebt. 14</ref>
+                     </cell>
+                     <cell style="text-align: right;">8</cell>
+                     <cell style="text-align: left;">γ´ → (τετρώβολον), N. Gonis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1788" n="1788">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.fam.tebt;;14">P.Fam.Tebt. 14</ref>
+                     </cell>
+                     <cell style="text-align: right;">8</cell>
+                     <cell style="text-align: left;">συμβόλ(ου) → συνβόλ(ου) (l. συμβόλ(ου)), N. Gonis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1789" n="1789">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.flor;3;349">P.Flor. 3 349</ref>
+                     </cell>
+                     <cell style="text-align: right;">4</cell>
+                     <cell style="text-align: left;">προνοητής → πρ̣ονοητ(οῦ), N. Gonis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1790" n="1790">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.flor;3;362">P.Flor. 3 362</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.17</cell>
+                     <cell style="text-align: left;">[  ̣]- ca.9 -φ̣ → Π̣ευ̣ῶρις σιφ, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1791" n="1791">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.flor;3;362">P.Flor. 3 362</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.18</cell>
+                     <cell style="text-align: left;">[Εὐ]σ̣έ̣βιος → Π̣ετβῆς, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1792" n="1792">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.flor;3;362">P.Flor. 3 362</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.19</cell>
+                     <cell style="text-align: left;">Πακομίου → Παωμίου, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1793" n="1793">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.flor;3;362">P.Flor. 3 362</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.20</cell>
+                     <cell style="text-align: left;">  ̣  ̣  ̣λώου BL 10.75 : Π̣τ̣ο̣λ̣λ̣ί̣μ̣ο̣υ̣ ed.pr. → Πα̣πλώου, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1794" n="1794">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.flor;3;362">P.Flor. 3 362</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.21</cell>
+                     <cell style="text-align: left;">[ Ἆ]πϊ̣ς → Σά̣ϊς, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1795" n="1795">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.fouad;1;87">P.Fouad 1 87</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.13</cell>
+                     <cell style="text-align: left;">περὶ τῆς → περί τε τῆς, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1796" n="1796">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.fouad;1;87">P.Fouad 1 87</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.33</cell>
+                     <cell style="text-align: left;">τ̣ο̣ύ̣τ̣ω̣ν̣ ἀκαλῶς BL 6.41 : τ̣α̣ν̣τ̣ω̣ν̣ακαλῶς ed.pr. → Ταντωνα καλῶς, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1797" n="1797">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.hamb;4;241">P.Hamb. 4 241</ref>
+                     </cell>
+                     <cell style="text-align: right;">4</cell>
+                     <cell style="text-align: left;">[ -ca.?- ] μητρὸς Θ̣ε̣  ̣[ -ca.?- τῆς] → Om., L. Moutschka (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1798" n="1798">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.heid;10;451">P.Heid. 10 451</ref>
+                     </cell>
+                     <cell style="text-align: right;">ii.14</cell>
+                     <cell style="text-align: left;">ζυτηρ(ᾶς) → ζυτηρὰ (l. ζυτηρᾶς), F. Reiter (Tafel IV)</cell>
+                  </row>
+                  <row xml:id="boep1799" n="1799">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.heid.kopt;;20">P.Heid.Kopt. 20</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.1</cell>
+                     <cell style="text-align: left;">† → ⳨, C. Theilemann</cell>
+                  </row>
+                  <row xml:id="boep1800" n="1800">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.heid.kopt;;22">P.Heid.Kopt. 22</ref>
+                     </cell>
+                     <cell style="text-align: right;">7</cell>
+                     <cell style="text-align: left;">ⲛⲡ̣ⲃⲉⲛ ⲉⲧⲟ ⲛⲙⲉⲣⲟⲥ (l. μέρος) → ⲛⲡ̣ⲃⲉⲛⲉⲧⲟⲛ ⲙⲉⲣⲟⲥ i.e. Greek Βένετον μέρος L. Berkes (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1801" n="1801">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.iand;2;20">P.Iand. 2 20</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.9</cell>
+                     <cell style="text-align: left;">ποδοκαλιν → ποδοκύλιν (l. ποδοκοίλιον), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1802" n="1802">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.laur;3;60">P.Laur. 3 60</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.2</cell>
+                     <cell style="text-align: left;">χοι̣ροσκόπτου → χοι̣ρ̣οκόπτου, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1803" n="1803">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.laur;3;60">P.Laur. 3 60</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.4</cell>
+                     <cell style="text-align: left;">π̣ό̣λ̣ε̣ω̣ς̣ Traces τῆ̣[ι] BL 8.164 : Traces τῆ̣[ι] ed.pr. → π̣ο̣λ̣[εως]  ̣  ̣  ̣  ̣αφ  ̣  ̣  ̣  ̣χν̣ων τῇ̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1804" n="1804">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.lips;1;110">P.Lips. 1 110</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.26</cell>
+                     <cell style="text-align: left;">Ζώιλλο̣ν → Ζωιλλᾶν (l. Ζωιλᾶν), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1805" n="1805">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.mich;3;195">P.Mich. 3 195</ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">Ἡρακλείδου → τῆς Ἡρακ(λείδου), P. Heilporn (from original)</cell>
+                  </row>
+                  <row xml:id="boep1806" n="1806">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.mich;3;204">P.Mich. 3 204</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.12</cell>
+                     <cell style="text-align: left;">ι̣α̣ → ι̣α̣ or ι̣θ̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1807" n="1807">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.mich;3;204">P.Mich. 3 204</ref>
+                     </cell>
+                     <cell style="text-align: right;">v.1</cell>
+                     <cell style="text-align: left;">→ ☓ ἀ̣π̣ό̣δος Ἡ̣ρ̣α̣κ̣λ̣ή̣ῳ̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1808" n="1808">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.muench;3.1;106">P.Muench. 3.1 106</ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">δι(άκονος) → δι(ακόνου), N. Gonis</cell>
+                  </row>
+                  <row xml:id="boep1809" n="1809">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.oxy;1;128">P.Oxy. 1 128</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.14</cell>
+                     <cell style="text-align: left;">τ(ῷ) πάντ(ων) → τὰ̣ πάντ(α), Ν. Gonis (from photo and parallels, generally D. Hagedorn, ZPE 165 (2008) 129-32)</cell>
+                  </row>
+                  <row xml:id="boep1810" n="1810">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.oxy;14;1683">P.Oxy. 14 1683</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.24</cell>
+                     <cell style="text-align: left;">α̣η → ἀφ̣’ (l. ἀπ’), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1811" n="1811">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.oxy;14;1683">P.Oxy. 14 1683</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.26</cell>
+                     <cell style="text-align: left;">ε  ̣  ̣  ̣ιδια → εἰ̣ς̣ τὰ̣ ἴδια, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1812" n="1812">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.oxy;19;2237">P.Oxy. 19 2237</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.4</cell>
+                     <cell style="text-align: left;">λαμ[πρ]ο̣τ̣ά̣[τ]η̣ς̣ → λαμ̣π̣ρ̣[(οτάτης)], C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1813" n="1813">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.oxy;20;2266">P.Oxy. 20 2266</ref>
+                     </cell>
+                     <cell style="text-align: right;">14-15</cell>
+                     <cell style="text-align: left;">τυν̣κά|νοντας (l. τυγχά|νοντας) → τυγ’χά|νοντας, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1814" n="1814">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.oxy;36;2787">P.Oxy. 36 2787</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.1</cell>
+                     <cell style="text-align: left;">[τῇ] → τ[ῆι], W.B. Henry (from original)</cell>
+                  </row>
+                  <row xml:id="boep1815" n="1815">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.oxy;36;2787">P.Oxy. 36 2787</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.2</cell>
+                     <cell style="text-align: left;">ἀ̣δελφῇ → ἀ̣δελφῆι, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1816" n="1816">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.oxy;36;2787">P.Oxy. 36 2787</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.10</cell>
+                     <cell style="text-align: left;">σ̣τ̣  ̣  ̣  ̣λ̣  ̣  ̣  ̣  ̣  ̣  ̣ → σταφυλὰ̣ς̣ [- ca.3 -], C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1817" n="1817">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.oxy;36;2787">P.Oxy. 36 2787</ref>
+                     </cell>
+                     <cell style="text-align: right;">v.17</cell>
+                     <cell style="text-align: left;">Ἡρακλ(έους) πόλ(εως) → Ἡρακλεοπ(ολίτου), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1818" n="1818">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.oxy;48;3413">P.Oxy. 48 3413</ref>
+                     </cell>
+                     <cell style="text-align: right;">10</cell>
+                     <cell style="text-align: left;">μούγια → μούγια (l. μώια or μούια), C. Balamoshev</cell>
+                  </row>
+                  <row xml:id="boep1819" n="1819">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.oxy;57;3905">P.Oxy. 57 3905</ref>
+                     </cell>
+                     <cell style="text-align: right;">33</cell>
+                     <cell style="text-align: left;">Π̣αμ̣ε̣ῖτος → Παχόιτος, W.G. Claytor (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1820" n="1820">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.oxy;63;4394">P.Oxy. 63 4394</ref>
+                     </cell>
+                     <cell style="text-align: right;">68</cell>
+                     <cell style="text-align: left;">Γλύκαις → Γλυκαίᾳ̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1821" n="1821">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.oxy;72;4907">P.Oxy. 72 4907</ref>
+                     </cell>
+                     <cell style="text-align: right;">v.19</cell>
+                     <cell style="text-align: left;">κεφαλαίου χρυσοῦ νο(μισμάτων) γ 𐅵  → χρυσοῦ νο(μισμάτων) γ 𐅵  κεφαλα̣ί̣ο̣υ̣, N. Gonis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1822" n="1822">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.prag;2;196">P.Prag. 2 196</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.14</cell>
+                     <cell style="text-align: left;">αὐτῶ̣[ν] → ἀγαγῖν (l. ἀγαγεῖν), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1823" n="1823">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.prag;2;196">P.Prag. 2 196</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.20</cell>
+                     <cell style="text-align: left;">πρὸς σέ → πρός μ̣ε, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1824" n="1824">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.prag.varcl;1;13">P.Prag.Varcl 1 13</ref>
+                     </cell>
+                     <cell style="text-align: right;">13-14</cell>
+                     <cell style="text-align: left;">[ -ca.?- ] | χρί (l. χρή) → [ -ca.?- μέ]|χρι, Nikos Litinas </cell>
+                  </row>
+                  <row xml:id="boep1825" n="1825">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.rain.cent;;112">P.Rain.Cent. 112</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.1</cell>
+                     <cell style="text-align: left;">[ὑπατε]ίᾳ → [ὑπατ]ίᾳ (l. [ὑπατε]ίᾳ), M. Stern (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1826" n="1826">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.ross.georg;2;13">P.Ross.Georg. 2 13</ref>
+                     </cell>
+                     <cell style="text-align: right;">4</cell>
+                     <cell style="text-align: left;">ναμήσεται (l. νεμήσεται) → ναμήσετε (l. νεμήσεται), W.G. Claytor (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1827" n="1827">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.sijp;;53">P.Sijp. 53</ref>
+                     </cell>
+                     <cell style="text-align: right;">i.4</cell>
+                     <cell style="text-align: left;">δακονων → δ[ι]ακόνων, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1828" n="1828">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.tebt;2;408">P.Tebt. 2 408</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.1</cell>
+                     <cell style="text-align: left;">Ἱππόλιτο̣ς → Ἱππόνι̣κ̣[ο]ς, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1829" n="1829">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.vind.sijp;;27">P.Vind.Sijp. 27</ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">ὅ̣ν̣ π[ρ]ο̣έδω̣κ̣άς → ὅνπ[ε]ρ ἔδωκάς or ὃν π[α]ρέδωκάς, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1830" n="1830">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.vind.sijp;;27">P.Vind.Sijp. 27</ref>
+                     </cell>
+                     <cell style="text-align: right;">5</cell>
+                     <cell style="text-align: left;">Περσ̣έ̣α̣ν Σ̣οτούχων̣ BL 5.63 : περσ̣έ̣α̣ν Σ̣οτούχων̣ ed.pr. → π̣εν̣αα̣π̣οτουχων̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1831" n="1831">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.vind.sijp;;27">P.Vind.Sijp. 27</ref>
+                     </cell>
+                     <cell style="text-align: right;">5</cell>
+                     <cell style="text-align: left;">π̣ά̣τῳ σ̣ο\υ (σ̣ου corr. ex ) →  ̣  ̣  ̣σωο̣ι, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1832" n="1832">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.vind.sijp;;27">P.Vind.Sijp. 27</ref>
+                     </cell>
+                     <cell style="text-align: right;">11</cell>
+                     <cell style="text-align: left;">ἐπεὶ τοῦς → ἐπειστολάς (l. ἐπιστολάς), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1833" n="1833">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.vind.sijp;;27">P.Vind.Sijp. 27</ref>
+                     </cell>
+                     <cell style="text-align: right;">11</cell>
+                     <cell style="text-align: left;">γράφοντας ἔ̣χ̣ο̣ι (l. ἔχει) → γράφοντός̣ μοι, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1834" n="1834">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.vind.sijp;;27">P.Vind.Sijp. 27</ref>
+                     </cell>
+                     <cell style="text-align: right;">11</cell>
+                     <cell style="text-align: left;">ἐπεί (l. ἐπὶ) → ἐπί, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1835" n="1835">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.vind.sijp;;27">P.Vind.Sijp. 27</ref>
+                     </cell>
+                     <cell style="text-align: right;">13</cell>
+                     <cell style="text-align: left;">ὀ̣ρθῶς → οὕτ̣ως, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1836" n="1836">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.vind.sijp;;27">P.Vind.Sijp. 27</ref>
+                     </cell>
+                     <cell style="text-align: right;">14</cell>
+                     <cell style="text-align: left;">ἀπώλ̣ε̣σ̣εν → αὐτῷ μὲν, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1837" n="1837">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.vind.sijp;;27">P.Vind.Sijp. 27</ref>
+                     </cell>
+                     <cell style="text-align: right;">15-16</cell>
+                     <cell style="text-align: left;">τάξ\ει/ τῇ πόσ|σου (l. πόσ|ου) → τὸ κτῆνός, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1838" n="1838">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.vind.sijp;;27">P.Vind.Sijp. 27</ref>
+                     </cell>
+                     <cell style="text-align: right;">18</cell>
+                     <cell style="text-align: left;">ἠρκ\ε/ες (l. ἤρκεις) → ἦρκες (l. ἦρκας), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1839" n="1839">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.wash.univ;1;58">P.Wash.Univ. 1 58</ref>
+                     </cell>
+                     <cell style="text-align: right;">2</cell>
+                     <cell style="text-align: left;">κ(υρίᾳ) or κυ̣ρ̣(ίᾳ)(?) Ἡραεῖ BL 13.262 : κληρόσι (l. κληρώσει) ed.pr. → Κα̣λ̣ηρ̣όει (l. Καλλιρόῃ), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1840" n="1840">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.wisc;1;10">P.Wisc. 1 10</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.5</cell>
+                     <cell style="text-align: left;">Ματθ̣[α]ίου BL 7.100 : Ματα̣[ε]ίου ed.pr. → Ματ ̣[ ̣]ίου or Ματυ̣[ρ]ίου (l. Μαρτυ[ρ]ίου), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1841" n="1841">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.wisc;1;10">P.Wisc. 1 10</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.6</cell>
+                     <cell style="text-align: left;">νομοῦ → νουμοῦ (l. νομοῦ), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1842" n="1842">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.wisc;1;10">P.Wisc. 1 10</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.12</cell>
+                     <cell style="text-align: left;">εἰκάδ̣ι̣ → εἰκάς (l. εἰκάδι), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1843" n="1843">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.wisc;1;10">P.Wisc. 1 10</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.14</cell>
+                     <cell style="text-align: left;">γινομένης → γιγνομένης, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1844" n="1844">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.wisc;1;10">P.Wisc. 1 10</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.18</cell>
+                     <cell style="text-align: left;">προκεί(μενος) → προκ(είμενος), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1845" n="1845">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.wisc;1;10">P.Wisc. 1 10</ref>
+                     </cell>
+                     <cell style="text-align: right;">v.23</cell>
+                     <cell style="text-align: left;">Κολλούθου λα(χανοπώλου) ἀπ ό → Κολλούθου ἀπό, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1846" n="1846">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.wisc;2;74">P.Wisc. 2 74</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.8-9</cell>
+                     <cell style="text-align: left;">δυνά|μεθα → δυνά|μεθε (l. δυνά|μεθα), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1847" n="1847">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.wisc;2;74">P.Wisc. 2 74</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.20</cell>
+                     <cell style="text-align: left;">μεταμεληῃς (l. μεταμελήσῃς) → μεταμελή̣σ̣ῃς, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1848" n="1848">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.wisc;2;74">P.Wisc. 2 74</ref>
+                     </cell>
+                     <cell style="text-align: right;">v.22</cell>
+                     <cell style="text-align: left;">Ἀφυγχίῳ → Ἀφυχίῳ (l. Ἀφυγχίῳ), N. Gonis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1849" n="1849">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/p.wuerzb;1;11">P.Wuerzb. 1 11</ref>
+                     </cell>
+                     <cell style="text-align: right;">2</cell>
+                     <cell style="text-align: left;">Χαιρήμονος Σαταβοῦτος → Χαιρήμονος τοῦ Σαταβοῦτος, U. Gad (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1850" n="1850">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/psi;7;834">PSI 7 834</ref>
+                     </cell>
+                     <cell style="text-align: right;">2</cell>
+                     <cell style="text-align: left;">2.[ -ca.?- ]  ̣  ̣  ̣  ̣ σκευῶν μήτε → \σκευῶν μήτε/, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1851" n="1851">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/psi;8;887">PSI 8 887</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.8</cell>
+                     <cell style="text-align: left;">  ̣[  ̣]τοθι → α̣[ὐ]τόθι, C. Balamoshev</cell>
+                  </row>
+                  <row xml:id="boep1852" n="1852">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/sb;6;9396">SB 6 9396</ref>
+                     </cell>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">→ π(αρά), R.-L. Chang (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1853" n="1853">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/sb;14;12085">SB 14 12085</ref>
+                     </cell>
+                     <cell style="text-align: right;">5</cell>
+                     <cell style="text-align: left;">Τώφωι → τῷ Φαι, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1854" n="1854">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/sb;16;12571">SB 16 12571</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.14</cell>
+                     <cell style="text-align: left;">μηδὲν ἀνέχει → μηδέναν ἔχει (l. μηδένα), C. Balamoshev</cell>
+                  </row>
+                  <row xml:id="boep1855" n="1855">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/sb;16;12571">SB 16 12571</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.28</cell>
+                     <cell style="text-align: left;">ἔρρωσο → ἔρρωσσο (l. ἔρρωσο), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1856" n="1856">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/sb;16;12690">SB 16 12690</ref>
+                     </cell>
+                     <cell style="text-align: right;">1-2</cell>
+                     <cell style="text-align: left;">[ἄρ]|[ξ]αντος → προ̣αρχ̣[ιερατεύ|σ]αντος, L. Weisser-Gericke (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1857" n="1857">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/sb;16;12811">SB 16 12811</ref>
+                     </cell>
+                     <cell style="text-align: right;">2.13</cell>
+                     <cell style="text-align: left;">  ̣  ̣ → o  ̣, M.G. Elmaghrabi (from a photo)</cell>
+                  </row>
+                  <row xml:id="boep1858" n="1858">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/sb;18;13111">SB 18 13111</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.5</cell>
+                     <cell style="text-align: left;">εὔχομε (l. εὔχομαι) → ε̣ρ̣χομε (l. (-)έρχομαι), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1859" n="1859">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/sb;18;13111">SB 18 13111</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.5</cell>
+                     <cell style="text-align: left;">πο̣ (l. πω) → γε, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1860" n="1860">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/sb;20;14337">SB 20 14337</ref>
+                     </cell>
+                     <cell style="text-align: right;">6</cell>
+                     <cell style="text-align: left;">ἐ̣π̣ʼ → ε̣ἰ̣ς̣, J.R. Rea (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1861" n="1861">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/sb;20;14337">SB 20 14337</ref>
+                     </cell>
+                     <cell style="text-align: right;">19</cell>
+                     <cell style="text-align: left;">[τῆ]ς̣ → [τῆς δ]ὲ, J.R. Rea (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1862" n="1862">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/sb;26;16717">SB 26 16717</ref>
+                     </cell>
+                     <cell style="text-align: right;">12</cell>
+                     <cell style="text-align: left;">ς ὑστάτας → συστάτας, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1863" n="1863">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/sb;28;16864">SB 28 16864</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.15</cell>
+                     <cell style="text-align: left;">[ -ca.?- ]νει α  ̣  ̣  ̣  ̣  ̣ → [ἀρούρας δύο πλέ]ο̣ν ἔλατ’τον̣  ̣, S. Kovarik (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1864" n="1864">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/upz;1;72">UPZ 1 72</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.13</cell>
+                     <cell style="text-align: left;">Σαραπιείωι → Σαραπιεῖον̣ (l. Σαραπιείωι), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1865" n="1865">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/zpe;207;131">ZPE 207 131</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.1</cell>
+                     <cell style="text-align: left;">υἱῷ → υἱῶι, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1866" n="1866">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/zpe;207;131">ZPE 207 131</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.16-17</cell>
+                     <cell style="text-align: left;">φυλα|κε̣ῖ (l. φυλα|κῇ) Ch. Armoni, ZPE 207 (2018) 132 : φυλα|κῖ (l. φυλα|κῇ) → φυλα|κῇ, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1867" n="1867">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/zpe;207;131">ZPE 207 131</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.23</cell>
+                     <cell style="text-align: left;">Νεικᾶς (l. Νικᾶς) → Νείκη (l. Νίκη), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1868" n="1868">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/zpe;207;131">ZPE 207 131</ref>
+                     </cell>
+                     <cell style="text-align: right;">r.25</cell>
+                     <cell style="text-align: left;">ἔρρωσο → ἔρρωσ(ο), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1869" n="1869">
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/zpe;207;145">ZPE 207 145</ref>
+                     </cell>
+                     <cell style="text-align: right;">12</cell>
+                     <cell style="text-align: left;">ἢ τόν → τόν, W.B. Henry (from photo)</cell>
+                  </row>
+               </table>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">DCLP</seg>
+               </head>
+               <table>
+                  <row xml:id="boep1870" n="1870">
+                     <cell style="text-align: right;">
+                        <ref target="http://papyri.info/dclp/62635">62635 = LDAB 3820</ref>
+                     </cell>
+                     <cell style="text-align: right;">9-10</cell>
+                     <cell style="text-align: left;">(P.Ant. 2 79) [εἴ]|[ποι]μι → [εἴ]|[πο]ιμι, M.V. Curtolo (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1871" n="1871">
+                     <cell style="text-align: right;">
+                        <ref target="http://papyri.info/dclp/63490">63490 = LDAB 4699</ref>
+                     </cell>
+                     <cell style="text-align: right;">16</cell>
+                     <cell style="text-align: left;">[πρ]έπο̣[ν] → [π]ρ̣έπο̣[ν], B. Allgaier (from original)</cell>
+                  </row>
+                  <row xml:id="boep1872" n="1872">
+                     <cell style="text-align: right;">
+                        <ref target="http://papyri.info/dclp/64317">64317 = LDAB 5538</ref>
+                     </cell>
+                     <cell style="text-align: right;">4</cell>
+                     <cell style="text-align: left;">(P.Lund 6 11) Ἀλεξάνδρ̣ι̣α (l. Ἀλεξάνδρεια) → Ἀλεξάνδρα, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1873" n="1873">
+                     <cell style="text-align: right;">
+                        <ref target="http://papyri.info/dclp/998498">998498</ref>
+                     </cell>
+                     <cell style="text-align: right;">scorza.6</cell>
+                     <cell style="text-align: left;">(P.Herc. 472) π̣αραβ ̣ λ̣λ̣[ -ca.?- ] Capasso → π̣αραβα̣λ̣λ̣[ -ca.?- ], H. Essler (from photo)</cell>
+                  </row>
+               </table>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
