@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Another Instance of <emph rend="italics">Τherapeuteria</emph> in the Papyri? </title>
+            <author>
+               <name>
+                  <forename>Nikos</forename>
+                  <surname>Litinas</surname>
+               </name>
+               <affiliation>University of Crete, Department of Philology, Laboratory of Papyrology and Epigraphy</affiliation>
+               <email>litinasn@uoc.gr</email>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0003-3291-5806</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2024-11-13</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2024">2024</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.6.2</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2024.6.108247</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">N. Litinas, “Another Instance of <emph rend="italics">Τherapeuteria</emph> in the Papyri?,” Pylon 6 (2024) Article 2. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2024.6.108247">https://doi.org/10.48631/pylon.2024.6.108247</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">6</biblScope>
+                     <biblScope unit="article">2</biblScope>
+                     <date when="2024">2024</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2024-11-13T14:43:06Z</date>
+               <name>NIKOS LITINAS</name>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Another Instance of <emph rend="italics">Τherapeuteria</emph> in the Papyri?</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1">P.Mich. inv. 346, dated to the fourth century CE, was republished as <ref target="https://papyri.info/hgv/32954">SB 14 12173 </ref> following Youtie’s <emph rend="italics">editio princeps</emph>.<note place="foot" xml:id="ftn1" n="1"><p><ref target="https://papyri.info/biblio/52895">Youtie (1978)</ref>.</p></note> It is a private letter, and on the back, we read the address “house of Apa Kyri in the amphodon of Hierakeion”<note place="foot" xml:id="ftn2" n="2"><p> See <ref target="https://www.trismegistos.org/place/257">TM Geo 257</ref>.</p></note> in the capital of the Arsinoite nome. The letter’s writing location cannot be determined on internal grounds.<note place="foot" xml:id="ftn3" n="3"><p> The APIS record for this papyrus is available at <ref target="https://quod.lib.umich.edu/a/apis/x-1980">https://quod.lib.umich.edu/a/apis/x-1980</ref>.</p></note></p>
+            <figure>
+                    <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/#/detail/23935096"/>
+                    <head>Fig. 1: SB 14 12173. Image courtesy of the University of Michigan Library Digital Collections.</head>
+                </figure>
+            <p xml:id="p2">After the standard epistolary formulae at the beginning of the letter, the text in ll. 13–17 runs as follows: πᾶν ποίησον, Ἀφρείνγ[ιε], | σπαθείν (<emph rend="italics">l.</emph> σπαθίον) μοι γάρου ὁ̣[μο]ῦ κ̣αὶ ἀνήσ[ου] | πέμψε (<emph rend="italics">l</emph>. πέμψαι) μοι, καὶ ἔπιτα̣ (<emph rend="italics">l</emph>. ἔπειτα) [α]ὐτοῦ ἀνάγ|κῃ οἴεις (<emph rend="italics">l</emph>. οἴ&lt;σ&gt;εις) τὰ θεραπ̣[  ̣  ̣  ̣] Ἡρᾷ τῶι | πεδίον (<emph rend="italics">l</emph>. παιδίῳ) μου. πέπεμφές (<emph rend="italics">l.</emph> πέπομφάς) μοι φάσιν | ὅτι ἔρχεται Ζηνοβία [κ]αὶ ὁ ἀδελ|φὸς αὐτῆς· μεμενήκαμεν καρ|τεροῦντες ἐ[π]ά̣νο (<emph rend="italics">l.</emph> ἐπάνω) το[ῦ] ποταμοῦ, which was translated by Youtie, “make every effort, Aphreingios, to send me a spathion of fish-sauce as well as anise, and then you will bring here without fail the medicaments for my child Heras. You have sent me word that Zenobia and her brother are coming; we have patiently waited for them on the river.” Youtie contemplated whether “the writer intended ὀμοῦ = ὠμοῦ” (as a result of which one might consider reading ὠ[μο]ῦ) and, on θεραπ̣[...], that “the lacuna is too short to accommodate the neuters θεραπευτικά and θεραπεύματα. Very tempting is θεραπίδια, but this diminutive is extremely rare (see LSJ, <emph rend="italics">s.v</emph>.), and I have not felt justified in recovering it from a lacuna.” T.E. Grafton outlined the difficulties with Youtie’s readings as follows: “similarly, in <emph rend="italics">SB</emph> 14.12173 (fourth c. AD), the writer of the letter expresses religious devotion, stating at the start of the letter that she makes daily obeisance for her mother. There is also a request to bring the medication for the writer’s child Hēras. There is a hole in the document that obstructs half the word for medication, but the start of it is τα θεραπ-. Whatever the rest of the word is, it is fairly clear from context that the request is for some kind of medicine or related material that the child needs for an ongoing illness of some sort. The exact nature of the medicine or illness is never stated outright. While it is serious enough to require some medication, it does not require a special trip just for the medicine.”<note place="foot" xml:id="ftn4" n="4"><p><ref target="https://papyri.info/biblio/97047">Grafton (2017)</ref>: 77.</p></note></p>
+            <p xml:id="p3">Reconsideration of the text allows for καὶ ἐπίγε[ι (<emph rend="italics">l.</emph> ἐπείγει) α]ὐτοῦ in l. 15, instead of καὶ ἔπιτα̣ (<emph rend="italics">l</emph>. ἔπειτα) [α]ὐτοῦ. For the form of the letters γει cf. the same letters in l. 28. The phrase ἀνάγκη (without article) ἐπείγει is found in Homer (<emph rend="italics">Il.</emph> 6.85 and <emph rend="italics">Od.</emph> 19.73 ἀναγκαίη γὰρ ἐπείγει) and in prose texts, such as in Joseph., <emph rend="italics">Vit.</emph> 162 κἂν μεγάλη τις ἐπείγειν ἀνάγκη δοκῇ, Artem. <emph rend="italics">Onir.</emph> 2 ὅπου γε μὴ μεγάλη ἀνάγκη ἐπείγοι, Men.Rh. 432 (Spengel) ἀνάγκη γὰρ ἐπείγει. We find a similar expression using the compound verb κατεπείγει in <ref target="https://papyri.info/hgv/17672">PSI 7 804</ref>.2 (337 CE) [ἐπεὶ ἀνάγ]κ̣η κατεπίγει (<emph rend="italics">l</emph>. κατεπείγει) μ̣ε γενέσθαι (although ἀνάγκη is restored). This document dates to approximately the same period as the Michigan papyrus, and both private letters convey a sense of urgency. The word ἀνάγκη can be construed with the simple genitive (here the pronoun αὐτοῦ), as an equivalent of χρεία, e.g., in <ref target="https://papyri.info/hgv/31546">P.Mich. 3 213</ref>.7–10 (III CE) ἐὰν δέ \σοι/ ἀνάγκη | γένηται σείτου (<emph rend="italics">l</emph>. σίτου), δώσει σοι ὁ παραδούς σοι ταῦτά μου τὰ γράμμα|τα, “if you need wheat, the man who delivers my letter to you will give it to you,” or in <ref target="https://papyri.info/hgv/33520">P.Mert. 1 38</ref>.22–23 (mid-IV CE) ἀνάγη (<emph rend="italics">l</emph>. ἀνάγκη) μοι &lt;ἐ&gt;καίνε|τω (<emph rend="italics">l</emph>. ἐγένε|το) τῶν ἀδελφῶν μου, “there arose a need for my brothers;” cf. also the phrase τῆς δὲ χρείας ἐπειγού|σης τάχιστα τὴν κατακομιδὴν τοῦ σείτου (<emph rend="italics">l.</emph> σίτου) γενέσθαι in <ref target="https://papyri.info/hgv/27202">P.Oxy. 18 2128</ref>.32–33 (165 CE).</p>
+            <p xml:id="p4">The pronoun αὐτοῦ in l. 15 refers to something singular, presumably a spathion of fish sauce and aniseed. However, these are two different products and should be kept and sent in different containers. Therefore, αὐτοῦ refers either to the dispatched products as a single thing, or to one of these products. In addition, at the end of l. 14 we may restore ἄνησ[ον] and not the genitive, since we cannot say with certainty whether aniseed was referenced as a product without an indicated quantity, or as a substance stored and transported in a spathion or another type of container.</p>
+            <p xml:id="p5">Then, although one may compare δώει for δώ&lt;σ&gt;ει in <ref target="https://papyri.info/hgv/28362">P.Oxy. 3 522</ref>.26, I think that understanding οἴ&lt;σ&gt;εις for οἴεις is difficult.<note place="foot" xml:id="ftn5" n="5"><p> Gignac (<emph rend="italics">Gram.</emph> I, 130) refers only to omissions of medial σ before a stop, especially a dental or a nasal.</p></note> A better reading is ὁς (<emph rend="italics">l.</emph> ὡς) εἰς, with the upper part of sigma obliterated (cf. the sigma of της in l. 5, less its upper part). The incorrect spelling of ω as ο can be also be seen in ll. 12 ( Ἀπολλόνιον) and 20 (ἐ[π]ά̣νο). At the end of l. 16 we should read τον and not τωι; cf. the shape of omicron in τον (l. 12), where omicron is left open at its top. Omega, by contrast, is less likely, based on the shape of the letter in ὑμῶν (l. 9) and Σεραπίωναν (l. 11).</p>
+            <p xml:id="p6">If the reading ὁς (<emph rend="italics">l.</emph> ὡς) εἰς τά is the correct understanding of the text, ὡς functions as an adverb to indicate real intention before a preposition (see LSJ <emph rend="italics">s.v.</emph> C IIa): we may compare, e.g., <ref target="https://papyri.info/hgv/28332">P.Oxy. 7 1063</ref>.5–6 (II–III CE) ὀνόματα τρία ὡς εἰς ἀρχεφοδεί|αν (<emph rend="italics">l.</emph> ἀρχεφοδί|αν); <ref target="https://papyri.info/hgv/42856">P.Flor. 1 9</ref>.8–9 (255 CE) ὡς εἰς τὴν προ|κειμένην κώμην Θεοξ̣ε̣νίδα.</p>
+            <p xml:id="p7">As for θεραπ̣[±2] ̣ηρα, the letter after the lacuna ends with a horizontal stroke, which could be the end of an α, ε, σ, or τ. The forms of these letters are not consistent in this papyrus and their finishing strokes reach the following letter at different heights in the line. The prepositional phrase εἰς τά requires a neuter noun in the accusative plural, therefore, we could read either a word θεραπ̣[±2]α̣, as Youtie assumed and attempted to restore, or another word which included (and ended with) ηρα, that is, θεραπ̣[±2]  ̣ηρα. However, we do not know any noun beginning with θεραπ- and ending in -ηρόν (in the nominative singular). We could propose εἰς τὰ θεραπ̣[ευ]τ̣ήρ&lt;ι&gt;α τȏν πεδίον (<emph rend="italics">l</emph>. τῶν παιδίων) μου, which requires a spelling error, that is, the omission of iota; cf. similar errors in Gignac, <emph rend="italics">Gram.</emph> I 304, who also noted κεντηνάρα (for κεντηνάρια) in <ref target="https://papyri.info/hgv/10385">P.Cair.Isid. 56</ref>.3, 5 (315 CE).<note place="foot" xml:id="ftn6" n="6"><p> Cf. also the omission of ι in the feminine noun βακτηρία in <ref target="https://papyri.info/hgv/33769">BGU 13 2361</ref> Fr B Col. 1.7 (IV CE) βακτηρας (= βακτηρίας; <emph rend="italics">l.</emph> βακτηρίαι).</p></note> When Youtie published this papyrus in 1978, the word θεραπευτήρια had not yet appeared in the papyri, and we do not know what he would advise based on his rule “<emph rend="italics">iuxta lacunam ne mutaveris.</emph>” The noun θεραπευτήρια was attested for the first time in <ref target="https://papyri.info/hgv/30201">P.Oxy.Hels. 50</ref>.16–17 (III CE; found in Oxyrhynchos; place of writing is unknown), which was published in 1979 by P. Hohti, and then in two invitations to a festival <emph rend="italics">therapeuteria</emph> for girls (<ref target="https://papyri.info/hgv/78611">P.Oxy. 66 4542</ref> and <ref target="https://papyri.info/hgv/78612">P.Oxy. 66 4543</ref>), published by D. Montserrat in 1999.</p>
+            <p xml:id="p8">The purpose of this festival is not clear, and Montserrat (in the introduction of the edition, and separately in an article<note place="foot" xml:id="ftn7" n="7"><p> See <ref target="https://papyri.info/biblio/61713">Montserrat (1991)</ref>: 43–49.</p></note>) proposed that they may have related to the puberty of the girls, and probably it was a practice associated with a temple ritual which somehow involved the girls. Later, S. Huebner<note place="foot" xml:id="ftn8" n="8"><p> See <ref target="https://papyri.info/biblio/81555">Huebner (2009)</ref>: 149–171.</p></note> suggested that <emph rend="italics">therapeuteria</emph> could be a female recovery post-circumcision.<note place="foot" xml:id="ftn9" n="9"><p> So also <ref target="https://papyri.info/biblio/81597">Malouta (2012)</ref>: 300; <ref target="https://papyri.info/biblio/86137">el-Mofatch (2016)</ref>: esp. 2001.</p></note> On the other hand, A. Nifosi suggested that <emph rend="italics">therapeuteria</emph> “is probably a temporary service of unmarried girls for Isis, which included a sort of vow to guarantee their chastity. We cannot rule out completely the interpretation of the θεραπευτήρια as the ‘recovering’ of the girl from circumcision, as Huebner claims, but there are many reasons to question this theory,”<note place="foot" xml:id="ftn10" n="10"><p><ref target="https://papyri.info/biblio/97049">Nifosi (2019)</ref>: 24.</p></note> and “there are no attestations of coming-of-age rituals in the Hellenistic Period, nor is there any information about coming of age rituals outside Oxyrhynchos. Therefore, at the moment we can only safely say that the θεραπευτήρια was a ritual performed by Roman citizens living in the area of Oxyrhynchos in the 3rd century AD.”<note place="foot" xml:id="ftn11" n="11"><p><ref target="https://papyri.info/biblio/97049">Nifosi (2019)</ref>: 25.</p></note> Finally, Alba de Frutos García<note place="foot" xml:id="ftn12" n="12"><p><ref target="https://papyri.info/biblio/97045">de Frutos García (2022)</ref>: 333.</p></note> stated that “direct sources do not tell us very much, so both explanations [that is, by Monteserrat and Huebner] seem plausible. Whatever the ritual, the θεραπευτήρια could have celebrated a newly acquired girl in marriageable and fertile condition.” Ιf my suggestion of the reading εἰς τὰ θεραπ̣[ευ]τ̣ήρ&lt;ι&gt;α τȏν πεδίον (<emph rend="italics">l</emph>. τῶν παιδίων) μου is correct and is accepted, the evidence of the <emph rend="italics">therapeuteria</emph> reaches into the fourth century CE (at least mid-fourth century CE).<note place="foot" xml:id="ftn13" n="13"><p> H.C. Youtie dated the papyrus to the fourth century CE, and W. Clarysse to the mid-fourth until mid-fifth century CE, because of the name Apa Kyri, which is hardly found before the fifth century (information retrieved from the date entered in <ref target="https://www.trismegistos.org/text/32954">TM 32954</ref>).</p></note> The proposed attestation of the noun in a Christian context in our papyrus may serve to invalidate the connection to Isis. Oxyrhynchos could be only one of the many possibilities as the place of writing of the letter. The writer of the letter does not write his/her name in the opening formula or elsewhere in the letter, but only refers to his/her παιδία,<note place="foot" xml:id="ftn14" n="14"><p> Based on the new reading the person Ἡρᾶς with <ref target="https://www.trismegistos.org/person/373993">TM Per 373993</ref> should be removed as evidence.</p></note> and (s)he is the person who seems to be responsible for their <emph rend="italics">therapeuteria</emph>. The plural παιδία is interesting. Are these παιδία his/her children or his/her slaves?<note place="foot" xml:id="ftn15" n="15"><p> Certainly, the word included female slaves, as <ref target="https://papyri.info/hgv/23631">P.Ammon 1 3  </ref> Col. 4.10–11 (348 CE), a private letter, γ γ̣ὰρ τοῦ Παχὼν ἀ̣π̣ῆ̣[λθε]ν κ̣α̣τ̣έλει|[π]εν δέ μοι ἐντα̣[ῦθα] τ̣ὰ̣ παιδία αὐτοῦ ἐπεὶ θ[η]λυκά ἐστιν, and other documents show.</p></note> Are these παιδία male or female? It is obvious that these questions cannot be answered with any certainty, therefore, the problem of the nature and purpose of the <emph rend="italics">therapeuteria</emph> cannot be addressed on the basis of this papyrus. As we know from <ref target="https://papyri.info/hgv/30201">P.Oxy.Hels. 50</ref>.15–17, the feast was postponed until wine was supplied. Here, it is not certain if both fish-sauce and aniseed are needed (see above discussion concerning the pronoun αὐτοῦ in l. 15). Like wine, fish-sauce is more appropriate to the context of a feast than to medical treatment, but aniseed can be used both in cooking and medicine.<note place="foot" xml:id="ftn16" n="16"><p> See <ref target="https://papyri.info/biblio/97046">Manniche (1989)</ref>: 135.</p></note></p>
+            <p xml:id="p9">Therefore, I would prefer to read the text as follows: πᾶν ποίησον, Ἀφρείνγ[ιε], | σπαθείν (<emph rend="italics">l.</emph> σπαθίον) μοι γάρου ὁ̣[μο]ῦ (or, <emph rend="italics">l</emph>. ὠ̣[μο]ῦ?) κ̣αὶ ἀνήσ[ου] (or, ἄνησ[ον]?) | πέμψε (<emph rend="italics">l</emph>. πέμψαι) μοι, καὶ ἐπίγε[ι (<emph rend="italics">l</emph>. ἐπείγει) α]ὐτοῦ ἀνάγ|κη ὁς (<emph rend="italics">l</emph>. ὡς) εἰς τὰ θεραπ̣[ευ]τ̣ήρ&lt;ι&gt;α τȏν | πεδίον (<emph rend="italics">l</emph>. τῶν παιδίων) μου “make every effort, Aphreingios, to send me a spathion of fish-sauce as well as aniseed, and a necessity for it is pressing for the <emph rend="italics">therapeuteria</emph> of my children.”</p>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97045">de Frutos García, A. (2022)</ref> “Banquets, Reputation and Social Obligation in Roman Egypt: Some Notes on the Dinner Invitations in Papyri,” Emerita 90: 327–351.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97047">Grafton, T.E. (2017)</ref> Health and Healing in the Documentary Papyri: A Comparison with the Healing Texts in Luke-Acts. Diss: Asbury Theological Seminary, Wilmore.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/81555">Huebner, S. (2009)</ref> “Female Circumcision as a Rite de Passage in Egypt − Continuity through the Millennia?” Journal of Egyptian History 2: 149–171.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/86137">el-Mofatch, R.H. (2016)</ref> “Where is the Party?,” in T. Derda, A. Łajtar, and J. Urbanik (eds), Proceedings of the 27th International Congress of Papyrology, Warsaw, 29 July - 3 August 2013. Warsaw: 1993–2010.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/81597">Malouta, M. (2012)</ref> “Families, Households, and Children,” in C. Riggs (ed), Oxford Handbook of Roman Egypt. Oxford: 288–304.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97046">Manniche, L. (1989)</ref> An Ancient Egyptian Herbal. London.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/61713">Montserrat, D. (1991)</ref> “Mallocouria and Therapeuteria: Rituals of Transition in a Mixed Society?” BASP 28: 43–49.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97049">Nifosi, A. (2019)</ref> Becoming a Woman and Mother in Greco‑Roman Egypt: Women’s Bodies, Society and Domestic Space. London and New York.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/52895">Youtie, H.C. (1978)</ref> “P. Mich. Inv. 346: A Christian προσκύνημα,” ZPE 28: 265–268.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
