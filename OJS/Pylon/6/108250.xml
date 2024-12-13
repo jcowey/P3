@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Macedonias and Other Toponyms from the Panopolite Nome</title>
+                <author>
+                    <persName>
+                        <forename>Dan</forename>
+                        <surname>Deac</surname>
+                    </persName>
+                    <affiliation>Babeș-Bolyai University, Cluj-Napoca</affiliation>
+                    <email>dan_deac1923@yahoo.com</email>
+                    <idno ana="hc:ORCIDURI">https://orcid.org/0000-0003-4711-8623</idno>
+                </author>
+                <funder>Deutsche Forschungsgemeinschaft</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date/>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Propylaeum</orgName>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+                </publisher>
+                <pubPlace>
+                    <placeName>Heidelberg</placeName>
+                    <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+                </pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno ana="hc:PrivateIdentifier">pylon.6.5</idno>
+                <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2024.6.108250</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl ana="hc:RecommendedBibliographicReference">D. Deac, “Macedonias and Other Toponyms from the Panopolite Nome,” Pylon 6 (2024) Article 5. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2024.6.108250">https://doi.org/10.48631/pylon.2024.6.108250</ref>.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title level="j" ana="hc:MainTitle">Pylon</title>
+                        <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                        <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                        <imprint>
+                            <biblScope unit="volume">6</biblScope>
+                            <biblScope unit="article">5</biblScope>
+                            <date when="2024">2024</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <ab>Converted from a Word document for Pylon.</ab>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2024-10-24T09:55:24Z</date>
+                    <name/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface xml:id="ed1surface1" copyOf="#ed1surf1"/> 
+    </facsimile>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="MainTitle">Macedonias and Other Toponyms from the Panopolite Nome</titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <div type="article">               
+                <note type="acknowledgement">I would like to thank Andrea Jördens (Institute for Papyrology, Heidelberg University) for allowing me to publish this papyrus, Elke Fuchs (Institute for Papyrology, Heidelberg University) for providing photographs of it, and the editors and anonymous reviewers for their valuable comments and corrections on previous versions of the manuscript. All errors are my own. The dates are Common Era unless specified otherwise.</note>
+                <p xml:id="p1" style="text-align: left; text-align: justify;">This paper deals with a series of toponyms from the Panopolite nome written on a fragmentary papyrus, with a special focus on the previously unattested ‘Macedonias’. The papyrus, now kept in the Heidelberg University Papyrussammlung,<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; text-align: justify;"> The entry of this papyrus on the web page of the papyrus collection in Heidelberg (link embedded in edition header) states the following: “Verzeichnis von Dörfern? 7. Z.; 1. Z.: ἑ]ξῆς ὑποτεταγ[, dann ein größeres Spatium, bevor in Z. 2 die Liste beginnt. Die vollständig erhaltenen Namen Psinabla, Psinpelochin und Bompae weisen auf den Panopolites. Letzte Zeile: Makedonia, danach hochgestelltes Delta?, falls ebenfalls Topoynm (sic!), ist es bisher nicht bezeugt.”</p></note> was acquired by K. Reinhardt, the first Dragoman of the German Imperial General Consulate in Cairo, who purchased it in 1896 among various other papyri, parchments, and wooden tablets, which he subsequently sold to Heidelberg University in 1897.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; text-align: justify;"> See in more detail for the initial stages of the creation of the papyrus collection <ref target="https://papyri.info/biblio/45276">Seider 1964</ref>: passim. The papyrus and its content are mentioned in passing by K. Geens in her PhD thesis dealing with Panopolis and the Panopolite nome, as will be apparent later (<ref target="https://papyri.info/biblio/84609">Geens 2014</ref>: passim).</p></note></p>
+                <p xml:id="p2" style="text-align: left; text-align: justify;">The fragmentary light brown papyrus discussed here has eight partially preserved lines written in Greek along the fibers with black ink, which is slightly effaced. The top margin is the only margin preserved. Even if the right side seems to be cut in a rather straight line and the words in ll. 3 to 8 seem to be ending the line, the position of the words in the first line suggests that the original document was wider. The first line starts at a distance of roughly 3 cm from the top margin and introduces a series of toponyms through ἑ]ξ̣ῆς ὑποτεταγ[μέν–, followed by a large blank space of about 3 cm. Just beneath this line, on the left side of the papyrus, there are traces of ink, perhaps part of a stroke of a letter or, more likely, the tail of a descender from the line above. Judging by the available data, one can interpret the document perhaps as part of a tax register for the Panopolite nome or even as a partially preserved <emph rend="italics">itinerarium</emph> of the nome. The verso of the papyrus is blank. Unfortunately, nothing else can be said about the width of the document nor about the position of the words in the original text. </p>
+                <p xml:id="p3" style="text-align: left; text-align: justify;">Fragmentary as it may be, inv. G 508 provides new information regarding the toponymy of the Panopolite nome. It refers to settlements of the nome located on the left bank of the Nile which, in succession from north to south, were situated as follows: <anchor xml:id="Hlk157185359"/>Psenbelochis / Psenpelochis – Psinabla (where the fort of the <emph rend="italics">ala II Herculia Dromedariorum</emph> was located)<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; text-align: justify;"> T.C. Skeat adds that this settlement also “served as a μονή or mansio on the main highway down the left bank of the Nile” (cited from P.Panop.Beatty, page xxxvii). See also <ref target="https://papyri.info/biblio/19484">Adams 2007</ref>: 24, who locates both Psonis and Psinabla on the east bank of the Nile. However, the main road through the Nile Valley was located on the left bank of the river, as outlined by the same author (e.g. <ref target="https://papyri.info/biblio/19484">Adams 2007</ref>: xii, map 1).</p></note> – Bosochis – Bompae – Macedonias – Psiko (?) (Fig. 1).<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; text-align: justify;"> There are very few rural settlements that can be identified on the ground in the Panopolite nome, as emphasized in <ref target="https://papyri.info/biblio/84432">Verreth 2013</ref>: 1155 and, especially, in <ref target="https://papyri.info/biblio/84609">Geens 2014</ref>: 115–129.</p></note> It is known that Psinabla was incorporated into the toparchy of Pakerke and Psinabla (Πακέρκη &lt;καὶ&gt; Ψινάβλα),<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; text-align: justify;"> See the introduction by T.C. Skeat, P.Panop.Beatty, page xxxvii and also <ref target="https://papyri.info/biblio/65727">Gascou and Worp 1996</ref>: 163; <ref target="https://papyri.info/biblio/84609">Geens</ref> 2014: 114. </p></note> located a little to the south of a northern toparchy of Toeto and Synoria (Συνορίας &lt;καὶ&gt; Τοετώ),<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; text-align: justify;"> For the latest analysis of this toparchy, see <ref target="https://papyri.info/biblio/65727">Gascou and Worp 1996</ref>, and for its location in relation to the others, see <ref target="https://papyri.info/biblio/84609">Geens 2014</ref>: 114.</p></note> but still north of the middle toparchy (Mέση), which incorporated the settlement of Bompae.<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; text-align: justify;"> See <ref target="https://papyri.info/biblio/84609">Geens 2014</ref>: 113 citing <ref target="https://papyri.info/ddbdp/p.ammon;2;50">P.Ammon 2 50</ref>, ii, which is a declaration of temple land found at Panopolis and dated to 299. In total there were six toparchies in the Panopolite nome. For an overview see <ref target="https://papyri.info/biblio/84609">Geens 2014</ref>: 112–114.</p></note> Thus, it seems that this tax register or perhaps <emph rend="italics">itinerarium</emph> of the Panopolite nome included a polis and six settlements from at least two different toparchies.</p>
+                <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23925797"/>
+                        <head>Fig. 1: Detail of a map of Egypt with the main toponyms of the Panopolite nome. In inset: map of Egypt with approximate location of the Panopolite nome (© Digital Atlas of the Ancient World – <ref target="https://dh.gu.se/dare/">https://dh.gu.se/dare/</ref> – last accessed on December 22, 2023, modified by the author).</head>
+                    </figure>
+                <p xml:id="p4" style="text-align: left; text-align: justify;">The toponym ‘Macedonias’ perhaps needs further enquiry. Starting with the reigns of Diocletian and Maximian, a <emph rend="italics">vexillatio legionis V Macedonicae</emph> is attested in Egypt, part of the expeditionary force formed together with other Danubian detachments by Caesar Galerius around 293/294, being subsequently camped at Memphis and also operating in the Thebaid.<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/59645">Zuckermann 1988</ref>: 280–281 with references and <ref target="https://papyri.info/biblio/87100">Kaiser 2015</ref>: 254–255 with references.</p></note> The Coptic martyrdom of Panine and Paneu makes reference to a soldier in Panopolis, named Philemon, dubbed as a Macedoniarius, a term that Anna M. Kaiser interprets as an allusion to the <emph rend="italics">legio V Macedonica</emph>, the unit in which Philemon must have fought. Other papyri, which possibly originate further north in Antinoopolis, designate soldiers from this legion as Macedones.<note place="foot" xml:id="ftn9" n="9"><p style="text-align: left; text-align: justify;"> For an overview of the papyrological sources and other previous references, see <ref target="https://papyri.info/biblio/87100">Kaiser 2015</ref>: 254, n. 86.</p></note> In the neighboring northern nome, a part of the legion is attested possibly at Antaiopolis.<note place="foot" xml:id="ftn10" n="10"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/87100">Kaiser 2015</ref>: 251, n. 56 referring to <ref target="https://papyri.info/ddbdp/p.cair.masp;1;67005">P.Cair.Masp. 1 67005</ref> which is a 6th c. petition from the Dioscoros archive.</p></note> Although it must be viewed with extreme caution, one way of interpreting this toponym is in connection with <emph rend="italics">legio V Macedonica</emph>.<note place="foot" xml:id="ftn11" n="11"><p style="text-align: left; text-align: justify;"> Perhaps soldiers and/or veterans with their families had founded or had an already existing settlement renamed as ‘Macedonias’, although it should be mentioned that since its arrival in Egypt and throughout the 4th c. the detachment of <emph rend="italics">legio V Macedonica</emph> did not exceed more than about 400 men across Egypt at any given time (<ref target="https://papyri.info/biblio/59645">Zuckermann 1988</ref>: 285–286). A settlement called ‘Macedonica’ is mentioned in the Anonymous of Ravenna’s cosmography (VII.40), located on the main imperial road of Dacia, north of Potaissa, the garrison of the <emph rend="italics">legio V Macedonica</emph> from about 168 to the second half of the 3rd c. (for a detailed discussion, including a Latin transcript of the relevant section, see <ref target="https://papyri.info/biblio/97057">Nemeti 2014</ref>: 67–77). However, it has been argued that this could have been a simple mistake by later copyists, who confused the name of the legion with that of a settlement, as emphasized in <ref target="https://papyri.info/biblio/97056">Fodorean 2016</ref>: 86–87.</p></note> </p>
+                <p xml:id="p5" style="text-align: left; text-align: justify;"> Regarding the date, the Heidelberg catalog proposes a date in the third or fourth century, which is also adopted by Karolien Geens.<note place="foot" xml:id="ftn12" n="12"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/biblio/84609">Geens 2014</ref>: passim.</p></note></p>
+                <table type="papyrological_header">
+                    <row>
+                        <cell style="text-align: left;">
+                            <ref target="https://doi.org/10.11588/diglit.42601">P.Heid. Inv. G. 508</ref>
+                        </cell>
+                        <cell style="text-align: center;">15 (h) × 3.5 (w)</cell>
+                        <cell style="text-align: right;">
+                            <ref target="https://www.trismegistos.org/place/2719">Panopolite nome (?)</ref>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">
+                            <ref target="https://www.trismegistos.org/place/2719">TM 999648</ref>
+                        </cell>
+                        <cell style="text-align: center;"/>
+                        <cell style="text-align: right;">3rd – 4th cent.</cell>
+                    </row>
+                </table>
+                <figure facs="#ed1surface1">
+                    <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23923582"/>
+                    <head>Fig. 2: P.Heid. inv. G. 508. Photo: Elke Fuchs, © Institut für Papyrologie, Universität Heidelberg.</head>
+                </figure>
+                <div type="epidoc" subtype="DDB">
+                    <div copyOf="#ed1" type="edition"/>
+                    <div type="commentary">
+                        <note target="#ed1ln3">
+                            <ref>3</ref>
+                            <p xml:id="p6"> At first glance, the last three letters of the word before πόλεως read as omicron, iota and upsilon (the last letter being placed slightly above the line), while the letter before omicron could be, for instance, a gamma or a sigma, thus reading ]σ̣οιυ πόλεως or ]γ̣οιυ πόλεως. Either way, none of the readings would make sense in the context of known poleis of the Panopolite nome (cf. <ref target="https://papyri.info/biblio/84432">Verreth 2013</ref>: 1151–1155). One other possibility is that before upsilon there is not an iota but a narrow omicron, thus forcing a reading of the line as ]  ̣oο̣υ πόλεως. In this case, the most readily available solution would be Ἀντι]ν̣όο̣υ πόλεως (modern-day El-Sheik Ibada, <ref target="https://www.trismegistos.org/place/2774">TM Geo 2774</ref>), but the first two partially visible letters are hard to reconcile with -νο-; furthermore, this interpretation would not make sense given the presumed Panopolite context. Perhaps one should think about a toponym of Egyptian origin, indeclinable and previously unattested in Greek. For instance, if one interprets the first letter as the right side of an upsilon (given that this letter is rendered in different ways in l. 1 and ll. 3 and 7), one could read the name of the presumed polis of Kouoou.<note place="foot" xml:id="ftn13" n="13"><p style="text-align: left; text-align: justify;"> For this toponym, which is presumed to be located in the Panopolite nome, see <ref target="https://papyri.info/biblio/97015">Gauthier 1928</ref>: 128 with references; the author states: “Localité égyptienne consacrée à la déesse Triphis compagne de Min, située donc probablement dans le voisinage de Panopolis ou dʼAthribis (IXe nome de Haut-Égypte)”; see also <ref target="https://papyri.info/biblio/84432">Verreth 2013</ref>: 365; <ref target="https://www.trismegistos.org/place/10877">TM Geo 10877</ref>.</p></note></p>
+                        </note>
+                        <note target="#ed1ln4">
+                            <ref>4</ref>
+                            <p xml:id="p7"> Psenbelochis / Psenpelochis (<ref target="https://papyri.info/biblio/84432">Verreth 2013</ref>: 637; <ref target="https://papyri.info/biblio/84609">Geens 2014</ref>: 127; <ref target="https://www.trismegistos.org/place/2716">TM Geo 2716</ref>) appears exclusively on mummy labels; see, e.g., <ref target="https://papyri.info/biblio/86699">Torallas-Tovar, Worp 2013</ref>: 266, no. 25 for the latest such discovery, where the text reads Ψενβελώχεως, citing other examples, namely <ref target="https://papyri.info/ddbdp/sb;1;5208">SB 1 5208</ref>.4–5: Ψεν|βελλῶχιν; <ref target="https://papyri.info/ddbdp/sb;1;5212">SB 1 5212</ref>.4: Ψενβελώχεως, (also <ref target="https://papyri.info/biblio/97012">Worp 2016</ref>: 274, n. 10) to which one adds <ref target="https://papyri.info/ddbdp/sb;1;5212">SB 1 5203</ref>.4: Ψενβελώχεως; <ref target="https://papyri.info/ddbdp/sb;3;7094">SB 3 7094</ref>.2–3: Ψιν|πελ(ώχιος); <ref target="https://papyri.info/ddbdp/sb;10;10660">SB 10 10660</ref>.3–4: Ψενπελώχε|ως and <ref target="https://papyri.info/ddbdp/sb;12;11188">SB 12 11188</ref>.2–3: Ψιν|πελώχ(εως). Note that in two instances the first vowel is an iota just as in the papyrus under analysis, while the third consonant is encountered as beta on four occasions and four times as pi, including in the papyrus edited here. Most of the mummy labels are undated or the date is proposed to span the second to the third centuries.<note place="foot" xml:id="ftn14" n="14"><p style="text-align: left; text-align: justify;"> Cf. <ref target="https://papyri.info/biblio/84609">Geens 2014</ref>: 127, who also cites the papyrus under analysis in this paper as one of the documents attesting this name. </p></note> It has been suggested that this settlement was located some 4 km north of Akhmim, at Kôm as-Saqaf, on the East bank of the Nile in the Metropolis toparchy (<ref target="https://papyri.info/biblio/84609">Geens 2014</ref>: 127). Given the list on the papyrus under analysis, one would search for this settlement somewhere north or around Psinabla. </p>
+                        </note>
+                        <note target="#ed1ln5">
+                            <ref>5</ref>
+                            <p xml:id="p8"> In the <emph rend="italics">pars Oriens</emph> of the <emph rend="italics">Notitia dignitatum</emph>, dated ca. 400,<note place="foot" xml:id="ftn15" n="15"><p style="text-align: left; text-align: justify;"> See recently <ref target="https://papyri.info/biblio/87100">Kaiser 2015</ref>: esp. 256, for an overview of the debate revolving around the date of Not. Dig. Or.</p></note> one finds that the <emph rend="italics">ala II Herculia Dromedariorum</emph> was garrisoned in an auxiliary fort at Psinaula (Not. Dig. Or. XXXI, 54).<note place="foot" xml:id="ftn16" n="16"><p style="text-align: left; text-align: justify;"> For the Not. Dig. Or., the <emph rend="italics">ala II Herculia Dromedariorum</emph> and Psinabla, see  <ref target="https://papyri.info/biblio/64457">Worp 1994</ref>: esp. 465 and <ref target="https://papyri.info/biblio/97012">Worp 2016</ref>: esp. 271 and <ref target="https://papyri.info/biblio/13826">Alston 1995</ref>: 190. For Lower Egypt and the Not. Dig. Or., see <ref target="https://papyri.info/biblio/61930">Worp 1991</ref>. For a recent overview of the Late Roman army in Egypt, with further readings, see <ref target="https://papyri.info/biblio/96053">Fischer-Bovet and Sänger 2019</ref>. </p></note> As recently stressed by Klaas A. Worp, this information is confirmed by papyri such as <ref target="https://papyri.info/ddbdp/p.panop.beatty;;1">P.Panop.Beatty 1</ref>, passim (298), where we find out that the auxiliary fort was located somewhere between Toeto and Pakerke, and especially by <ref target="https://papyri.info/ddbdp/p.panop.beatty;;2">P.Panop.Beatty 2</ref>.169 (300), where it is written that the location of the auxiliary fort is in close proximity to the villages of Toeto and Psinabla.<note place="foot" xml:id="ftn17" n="17"><p style="text-align: left; text-align: justify;"> See the discussion in <ref target="https://papyri.info/biblio/97012">Worp 2016</ref>: 271–272.</p></note> K.A. Worp attempted to identify the auxiliary fort on the ground using Google Earth, some 20 km south of Tahta (possibly the ancient Toeto) and 40 km north of Girga (possibly ancient Pakerke).<note place="foot" xml:id="ftn18" n="18"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/biblio/97012">Worp 2016</ref> with previous references and history of the subject. The author proposes the location of Psinabla some 3 km north-east of Jazirat Shandawil and about 2 km south of At Tawayil. The distances are measured as the crow flies. However, the hypothesis regarding the identification of Pakerke with Girga does not stand ground, as this would place Pakerke some 18 km south of Ptolemaiou Hermiou, modern-day Al-Minshah (<ref target="https://www.trismegistos.org/place/2023">TM Geo 2023</ref>), that is, in the Thinite nome. See also the discussion in <ref target="https://papyri.info/biblio/84609">Geens 2014</ref>: 122 where the author places Pakerke possibly east of Psonis (modern-day Basuna; <ref target="https://www.trismegistos.org/place/3011">TM Geo 3011</ref>).</p></note> For more than a century, beginning with H. Gauthier, Ψινάβλα/Psinaula (see also <ref target="https://papyri.info/biblio/84432">Verreth 2013</ref>: 641; <ref target="https://papyri.info/biblio/84609">Geens 2014</ref>: 127–128; <ref target="https://www.trismegistos.org/place/8201">TM Geo 8201</ref>) has been associated with another toponym called Psenbelochis / Psenpelochis, discussed above; H. Gauthier noted that Psinabla could have been an earlier name of Psenbelochis / Psenpelochis,<note place="foot" xml:id="ftn19" n="19"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/biblio/97014">Gauthier 1912</ref>: 94–95, 120 who states that Psinabla “(…) me paraît pouvoir être identifié avec la localité de Psoumbeledj [i.e. Psenbelochis / Psenpelochis] (…)” (cited from page 94). The author also suggests that this could have been a fortification where Nestorius died (<ref target="https://papyri.info/biblio/97013">Gauthier 1905</ref>: 82–84, esp. 83; <ref target="https://papyri.info/biblio/97014">Gauthier 1912</ref>: 120; <ref target="https://papyri.info/biblio/84609">Geens 2014</ref>: 127, with references; <ref target="https://papyri.info/biblio/97012">Worp 2016</ref>: 274, n. 9).</p></note> a view which has also been adopted recently by K.A. Worp.<note place="foot" xml:id="ftn20" n="20"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/biblio/97012">Worp 2016</ref>: esp. 274; the author states: “Ensuite, je serais assez enclin à confondre deux camps de l’armée romaine situés dans le nome Panopolite: celui de Psinabla précisément, qui est au centre de notre examen, avec celui qui est désigné, dans des textes coptes, sous le nom de Psoumbeledj.”</p></note> Given the presence of both toponyms on the Heidelberg papyrus, it is quite clear now that we are dealing with two distinct settlements, finally ending a more than century-long dilemma.<note place="foot" xml:id="ftn21" n="21"><p style="text-align: left; text-align: justify;"> K. Geens is the first to note this: “It [i.e. Psenbelochis / Psenpelochis] is not identical with Psinabla (…) because Psenbelochis and Psinabla occur alongside each other in P.Heid. inv. 6 509 recto (sic!).”  (<ref target="https://papyri.info/biblio/84609">Geens 2014</ref>: 127). </p></note> Before the name, traces of a letter are visible.</p>
+                        </note>
+                        <note target="#ed1ln6">
+                            <ref>6</ref>
+                            <p xml:id="p9"> Bosochis (<ref target="https://papyri.info/biblio/84432">Verreth 2013</ref>, 140–141 with references; <ref target="https://papyri.info/biblio/84609">Geens 2014</ref>: 117; <ref target="https://www.trismegistos.org/place/3004">TM Geo 3004</ref>), just as Psenbelochis / Psenpelochis, was attested thus far in Greek exclusively on mummy labels, their proposed dating mostly spanning the second to the third centuries (cf. <ref target="https://papyri.info/biblio/84609">Geens 2014</ref>: 117). Before the toponym, the previous letter, just like in the second line, seems to be placed a little above the line; it is most likely an upsilon. Perhaps this settlement was located somewhere between Psinabla and Bompae.</p>
+                        </note>
+                        <note target="#ed1ln7">
+                            <ref>7</ref>
+                            <p xml:id="p10"> The village of Bompae, thought for more than a century to possibly be modern Sohag (<ref target="https://papyri.info/biblio/84432">Verreth 2013</ref>: 139 with references; <ref target="https://papyri.info/biblio/84609">Geens 2014</ref>: 116–117 with references; <ref target="https://www.trismegistos.org/place/3002">TM Geo 3002</ref>) is frequently attested in Greek documents, as early as the first century at Oxyrhynchus in an official letter (<ref target="https://papyri.info/ddbdp/p.oxy;49;3469">P.Oxy. 49 3469</ref>.9), and as late as August 24, 321 (<ref target="https://papyri.info/ddbdp/p.heid;2;224">SB 6 9544</ref>.5) in a “Liturgische Vorschlagsliste”.<note place="foot" xml:id="ftn22" n="22"><p style="text-align: left; text-align: justify;"> See also <ref target="https://papyri.info/biblio/52204">Sijpesteijn and Worp 1977:</ref> 275; <ref target="https://beehive.zaw.uni-heidelberg.de/hgv/19062">BL 7</ref>, 210 for the correct dating. </p></note> Before the toponym, the end of the previous word can be discerned ]ου, with upsilon placed slightly above the line.</p>
+                        </note>
+                        <note target="#ed1ln8">
+                            <ref>8</ref>
+                            <p xml:id="p11"> This toponym is previously unattested.<note place="foot" xml:id="ftn23" n="23"><p style="text-align: left; text-align: justify;"> This was already observed by K. Geens, while citing the papyrus under analysis in this paper, at the time unpublished: “Μακεδωνία (sic!) is named only in the unpublished P.Heid. inv. G 508 recto (third or fourth century),” cited from <ref target="https://papyri.info/biblio/84609">Geens 2014</ref>: 121.</p></note> The raised delta at the end of the preserved line signals an abbreviation, thus the toponym is Μακεδονιάδ(ος), which thus stands as a feminine third declension in the genitive;<note place="foot" xml:id="ftn24" n="24"><p style="text-align: left; text-align: justify;"> It should be noted that Psenbelochis / Psenpelochis and Bosochis are also in the genitive, while Bompae and Psinabla are indeclinable in Greek.</p></note> for other similarly constructed toponyms, see e.g. Διονυσιάς/Διονυσιάδος (<ref target="https://www.trismegistos.org/geo/detail.php?quick=565">TM Geo 565</ref>; <ref target="https://papyri.info/biblio/84432">Verreth 2013</ref>: 181);  Ἀνουβιάς/Ἀνουβιάδος (<ref target="https://www.trismegistos.org/geo/detail.php?quick=186">TM Geo 186</ref>; <ref target="https://papyri.info/biblio/84432">Verreth 2013</ref>: 69); Βακχιάς/Βακχιάδος (<ref target="https://www.trismegistos.org/place/392">TM Geo 932</ref>; <ref target="https://papyri.info/biblio/84432">Verreth 2013</ref>: 123). </p>
+                        </note>
+                        <note target="#ed1ln9">
+                            <ref>9</ref>
+                            <p xml:id="p12"> One can observe here traces of two letters and the left side of a kappa, which were possibly all part of another toponym. The first letter should be regarded as psi, of which the upper part of the long vertical stroke and the right horizontal can be discerned, while the second letter is a very effaced iota. Further, one can distinguish a kappa, with its vertical stroke missing in its lower part, and with part of its oblique upper stroke visible. Accordingly, we suggest reading the toponym  Ψ̣ι̣κ̣[ώ, previously attested exclusively on mummy labels; C. Arlt proposed that Psiko was located close to Psonis based on the fact that the Demotic hand of one mummy label was identical with the one on mummy labels discovered at Psonis (<ref target="https://papyri.info/biblio/97011">Arlt 2011</ref>: 132, 134–135; <ref target="https://papyri.info/biblio/84432">Verreth 2013</ref>: 640; <ref target="https://papyri.info/biblio/84609">Geens 2014</ref>: 127; <ref target="https://www.trismegistos.org/place/3010">TM Geo 3010</ref>). In our view, one should seek both Macedonias and Psiko somewhere close to Bompae.</p>
+                        </note>
+                    </div>
+                </div>
+                <div type="bibliography">
+                    <listBibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/19484">Adams, C. (2007)</ref> Land Transport in Roman Egypt. A Study of Economics and Administration in a Roman Province. Oxford.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/13826">Alston, R. (1995)</ref> Soldier and Society in Roman Egypt. A Social History. London &amp; New-York.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97011">Arlt, C. (2011)</ref> Deine Seele möge leben für immer und ewig: Die demotischen Mumienschilder im British Museum. Studia Demotica 10. Leuven – Paris.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96053">Fischer‐Bovet, C. and P. Sänger (2019)</ref> “Security and Border Policy: Army and Police,” in K. Vandorpe (ed.), A Companion to Greco-Roman and Late Antique Egypt. Hoboken: 163–178.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97056">Fodorean, F. (2016)</ref> Pannonia, Dacia and Moesia in the Ancient Geographical Sources. Stuttgart.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/65727">Gascou, J. and K.A. Worp (1996) </ref>“The Panopolitan Village Συνορία,” ZPE 112: 163–164.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97013">Gauthier, H. (1905)</ref> “Notes géographiques sur le nome Panopolite,” BIFAO 4: 39–101.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97014">Gauthier, H. (1912)</ref> “Nouvelles notes géographiques sur le nome Panopolite,” BIFAO 10: 89–130.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97015">Gauthier, H. (1928)</ref> Dictionnaire des noms géographiques contenus dans les textes hiéroglyphiques, vol. V. Cairo.    </bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/84609">Geens, K. (2014)</ref> Panopolis, a Nome Capital in Egypt in the Roman and Byzantine Period (ca. AD 200–600). Trismegistos Online Publications. Special Series 1. Leuven. </bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/87100">Kaiser, A.M. (2015)</ref> “Egyptian Units and the Reliability of the 'Notitia dignitatum, pars Oriens',” Historia 64.2: 243–261.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97057">Nemeti, S. (2014)</ref> Finding Arcobadara. Essay on the Geography and Administration of Roman Dacia. Cluj-Napoca.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/45276">Seider, R. (1964)</ref> “Aus der Arbeit der Universitätsinstitute. Die Universitäts-Papyrussammlung,” Heidelberger Jahrbücher 8: 142–203.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/52204">Sijpesteijn, P.J. and Worp, K.A. (1977)</ref> “Chronological Notes,” ZPE 26: 267–286.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/86699">Torallas-Tovar, S. and Worp, K.A. (2013)</ref> “New Wooden Labels from Various Collections,” ZPE 184: 257–270.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/84432">Verreth, H. (2013)</ref> A Survey of Toponyms in Egypt in the Graeco-Roman Period. Trismegistos Online Publications 2. 2nd Edition. Köln – Leuven.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/61930">Worp, K.A. (1991)</ref> “Observations on Some Military Camps and Place Names in Lower Egypt,” ZPE 87: 291–295.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/64457">Worp, K.A. (1994)</ref> “The Notitia dignitatum and the Geography of Egypt. Observations on Some Military Camps and Place Names in Upper Egypt,” in A. Bülow-Jacobsen (ed.), Proceedings of the 20th International Congress of Papyrologists, Copenhagen 1992. Copenhagen: 463–469.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97012">Worp, K.A. (2016)</ref> “Localisation d’un camp de l’armée romaine à Psinabla,” Eirene 52.1–2: 271–276.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/59645">Zuckermann, C. (1988)</ref> “Legio V Macedonica in Egypt. CPL 199 Revisited,” Tyche 3: 279–287, pl. 12.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Macedonias and other toponoyms from the Panopolite nome</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Papyri.info</authority>
+                    <idno type="TM">999648</idno>
+                    <idno type="HGV">999648</idno>
+                    <idno type="ddb-filename">pylon.6.5</idno>
+                    <idno type="ddb-hybrid">pylon;6;5</idno>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <placeName>
+                                <settlement>Heidelberg</settlement>
+                            </placeName>
+                            <collection>Papyrussammlung</collection>
+                            <idno type="invNo">P.Heid. inv. G 508</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <material>Papyrus</material>
+                                    </support>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace>Panopolites (?)</origPlace>
+                                <origDate notBefore="0201" notAfter="0400" precision="low">III - IV</origDate>
+                            </origin>
+                            <provenance type="located">
+                                <p>
+                                    <placeName type="ancient" subtype="nome" cert="low" ref="https://www.trismegistos.org/place/2719 https://pleiades.stoa.org/places/756614">Panopolites</placeName>
+                                    <placeName type="ancient" subtype="region">Ägypten</placeName>
+                                </p>
+                            </provenance>
+                        </history>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                </langUsage>
+                <textClass>
+                    <keywords scheme="hgv">
+                        <term>Liste</term>
+                        <term>Ortsnamen</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div type="bibliography" subtype="principalEdition">
+                    <listBibl>
+                        <bibl type="publication" subtype="principal">
+                            <title level="s" type="abbreviated">Pylon</title>
+                            <biblScope n="1" type="volume">6</biblScope>
+                            <biblScope n="2" type="fascicle">(2024)</biblScope>
+                            <biblScope n="3" type="generic">Art. 5</biblScope>
+                        </bibl>
+                    </listBibl>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Macedonia and other toponoyms from the Panopolite nome </title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename">pylon.6.5</idno>
+                    <idno type="ddb-hybrid">pylon;6;5</idno>
+                    <idno type="HGV">999648</idno>
+                    <idno type="TM">999648</idno>
+                    <availability>
+                        <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                                Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc> 
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                    <language ident="la">Latin</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <facsimile>
+            <surface xml:id="ed1surf1" ulx="0" uly="0" lrx="992" lry="3708">
+                <zone type="text">
+                    <zone type="line" xml:id="ed1_line1" points="139,862 321,831 355,868 358,868 358,871 361,871 364,871 491,874 494,874 497,874 516,868 574,843 596,862 599,862 602,862 605,862 608,862 676,843 911,868 937,777 909,698 831,716 704,692 695,692 692,692 689,692 686,692 633,726 516,723 479,692 475,692 472,692 439,703 346,716 145,706 142,797"/>
+                    <zone type="line" xml:id="ed1_line2" points="160,970 222,960 251,908 245,875 159,871 154,917"/>
+                    <zone type="line" xml:id="ed1_line3" points="108,1554 228,1572 231,1572 472,1557 546,1582 550,1582 553,1582 556,1582 559,1582 599,1551 602,1551 800,1551 947,1465 803,1393 704,1390 701,1390 698,1390 633,1424 516,1424 417,1402 414,1402 333,1412 244,1375 224,1370 55,1441 111,1480"/>
+                    <zone type="line" xml:id="ed1_line4" points="207,1891 355,1891 355,1887 358,1887 386,1878 479,1850 590,1863 639,1909 735,1844 757,1860 775,1875 778,1875 781,1875 784,1875 927,1847 930,1779 924,1714 198,1647 207,1795"/>
+                    <zone type="line" xml:id="ed1_line5" points="182,2230 299,2255 302,2255 305,2255 395,2230 457,2212 509,2227 525,2234 528,2234 531,2234 534,2234 556,2227 618,2212 769,2224 942,2165 750,2023 639,2064 457,2064 454,2057 438,2045 438,2042 435,2042 432,2042 429,2042 263,2030 179,2169"/>
+                    <zone type="line" xml:id="ed1_line6" points="219,2573 266,2619 392,2592 436,2638 472,2580 475,2583 491,2595 494,2595 497,2595 500,2595 503,2595 506,2595 522,2583 528,2583 531,2583 550,2601 550,2604 553,2604 556,2604 559,2604 849,2592 960,2495 840,2450 377,2465 330,2441 327,2441 324,2441 216,2441 219,2539"/>
+                    <zone type="line" xml:id="ed1_line7" points="182,2957 336,2993 534,2966 562,2969 565,2969 568,2969 571,2969 577,2966 596,2954 608,2966 611,2966 611,2969 614,2969 618,2969 698,2972 701,2972 704,2972 707,2972 713,2966 735,2947 791,2966 800,2898 797,2799 534,2818 423,2799 377,2790 373,2790 370,2790 349,2799 309,2811 185,2799 185,2882"/>
+                    <zone type="line" xml:id="ed1_line8" points="275,3321 318,3293 562,3318 571,3318 574,3318 577,3318 633,3293 698,3315 701,3315 704,3318 859,3318 862,3232 913,3117 709,3060 639,3141 361,3133 358,3133 318,3167 265,3170 268,3244"/>
+                    <zone type="line" xml:id="ed1_line9" points="377,3658 407,3658 411,3658 445,3692 445,3695 448,3695 451,3695 454,3698 531,3698 531,3695 534,3695 621,3655 621,3599 603,3506 373,3507 377,3602"/>
+                </zone>
+            </surface>
+        </facsimile>
+        <text>
+            <body>
+                <head xml:lang="en">Macedonia and other toponoyms from the Panopolite nome </head>
+                <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1" xml:id="ed1ln1" facs="#ed1_line1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἑ</supplied><unclear>ξ</unclear>ῆς ὑποτεταγ<supplied reason="lost">μέν- </supplied><gap reason="lost" extent="unknown" unit="character"/>  
+<lb n="2" xml:id="ed1ln2" facs="#ed1_line2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>       
+<lb n="3a"/><space quantity="1" unit="line"/>  
+<lb n="3" xml:id="ed1ln3" facs="#ed1_line3"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ο<unclear>ο</unclear><add place="above">υ</add> πόλεως <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4" xml:id="ed1ln4" facs="#ed1_line4"/><gap reason="lost" extent="unknown" unit="character"/> <choice><reg>Ψενπελώχεω<supplied reason="lost">ς</supplied></reg><orig>Ψιμπελώχεω<supplied reason="lost">ς</supplied></orig></choice> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="5" xml:id="ed1ln5" facs="#ed1_line5"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> Ψινάβλα <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="6" xml:id="ed1ln6" facs="#ed1_line6"/><gap reason="lost" extent="unknown" unit="character"/><unclear>υ</unclear> Βοσώχεως <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="7" xml:id="ed1ln7" facs="#ed1_line7"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ο</unclear>υ Βομπαὴ <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="8" xml:id="ed1ln8" facs="#ed1_line8"/><gap reason="lost" extent="unknown" unit="character"/> <expan>Μακεδονιάδ<ex>ος</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="9" xml:id="ed1ln9" facs="#ed1_line9"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>Ψικ</unclear><supplied reason="lost">ὼ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="10"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+            </body>
+        </text>
+    </TEI>
+</TEI>
