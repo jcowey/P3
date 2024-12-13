@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Reflections on Six Private Letters: P.Ross.Georg. 3 1, 9–11, 15, and 18</title>
+                <author>
+                    <name>
+                        <forename>Elena</forename>
+                        <surname>Chepel</surname>
+                    </name>
+                    <affiliation>Universität Wien</affiliation>
+                    <email>euchepel@gmail.com</email>
+                    <idno ana="hc:ORCIDURI">https://orcid.org/0000-0003-0924-3108</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date/>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Propylaeum</orgName>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+                </publisher>
+                <pubPlace>
+                    <placeName>Heidelberg</placeName>
+                    <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+                </pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno ana="hc:PrivateIdentifier">pylon.6.4</idno>
+                <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2024.6.108249</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc><sourceDesc>
+                <bibl ana="hc:RecommendedBibliographicReference">E. Chepel, “Reflections on Six Private Letters: P.Ross.Georg. 3 1, 9–11, 15, and 18,” Pylon 6 (2024) Article 4. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2024.6.108249">https://doi.org/10.48631/pylon.2024.6.108249</ref>.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title level="j" ana="hc:MainTitle">Pylon</title>
+                        <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                        <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                        <imprint>
+                            <biblScope unit="volume">6</biblScope>
+                            <biblScope unit="article">4</biblScope>
+                            <date when="2024">2024</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <ab>Converted from a Word document for Pylon.</ab>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2024-11-15T10:08:13Z</date>
+                    <name/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="MainTitle">Reflections on Six Private Letters: P.Ross.Georg. 3 1, 9–11, 15, and 18</titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <div type="article">
+                <note type="acknowledgement">The article has been written in the framework of the project “From the Nile to the Caucasus. G. Zereteli and his papyrological collection” (FWF, DOI <ref target="https://www.fwf.ac.at/en/research-radar/10.55776/I4674">10.55776/I4674</ref>). I would like to thank Fritz Mitthof for his comments and for discussing with me this article, as well as Nikolaos Gonis, Federico Morelli, and anonymous reviewers for their helpful suggestions.</note>
+                <p xml:id="p1" style="text-align: left; text-align: justify;">The  papyri discussed in this article were edited by G. Zereteli and P. Jernstedt in the third volume of <emph rend="italics">Papyri russischer und georgischer Sammlungen</emph> that came out in Tbilisi in 1930.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; text-align: justify;"> On the history of publication and reception of this volume, see <ref target="https://papyri.info/biblio/97039">Chepel 2019</ref>.</p></note> Letters were grouped by the editors in the first part of the volume under the heading ‘Briefe’ (nn. 1–23). Of the six papyrus letters presented here, two are held at the Archive of G. Zereteli in the Georgian National Centre of Manuscripts (10 and 15), two at the Ancient Orient Department of the State Hermitage Museum in Saint Petersburg (11 and 18), and two at the Ancient Orient Department of the Pushkin State Museum of Fine Arts in Moscow (1 and 9). I offer a discussion of some problematic readings and several corrections.</p>
+                <div type="section">
+                    <head>
+                        <ref target="https://papyri.info/ddbdp/p.ross.georg;3;1">P.Ross.Georg. 3 1</ref>
+                    </head>
+                    <table type="papyrological_header">
+                        <row>
+                            <cell style="text-align: left;">3rd c., prov. unknown.  </cell>
+                        </row>
+                    </table>
+                    <p xml:id="p2" style="text-align: left; text-align: justify;">In this letter, medical doctor Marcus updates his mother Antonia and other relatives on some military events and gives instructions regarding various matters. It has been assumed that Marcus wrote from Alexandria<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; text-align: justify;"> Roberts (<ref target="https://papyri.info/biblio/39513">1950</ref>: 112) linked the two letters P.Ross.Georg. 3 1 and 2 to the events around 270: the attacks of the Marmarides and the invasion of the Palmyrenes under Zenobia. </p></note> but there is no indication of that in the text. He reports about a battle in which fifteen <emph rend="italics">equites singulares</emph> where killed. However, the battle could have taken place anywhere in Egypt. The letter <ref target="https://papyri.info/ddbdp/p.ross.georg;3;2">P.Ross.Georg. 3 2</ref>.22, sent by Marcus’ brother Serenus, implies that they both live in a village, but it is not known how much time passed between these two letters. Another geographical indication in the first letter can be found in ll.15–16, Marcus speaks about his travels; he could not reach the land of a certain Cassianus who asked him to write about ‘the city’: καὶ γὰρ ἐξερχόμενος Κα[σ]σιανὸς ἐνετίλατό μοι γρά|ψαι αὐτῷ τὰ περὶ τῆς πόλεως [ἐ]κ &lt;κ&gt;υνου καὶ ὁ ἄρτος εἰ ἀναρπάζεται.</p>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23933053"/>
+                        <head>Fig. 1: P.Ross.Georg. 3 1, line 16</head>
+                    </figure>
+                    <p xml:id="p4" style="text-align: left; text-align: left;">The editors understood the text after a small lacuna in l. 16 as ἐκ κοινοῦ, meaning ‘in general’: <emph rend="italics">Bei seinem Aufbruch hat mir ja auch Kassianos den Auftrag gegeben, ihm über die Stadtangelegenheiten insgemein zu schreiben und ob das Getreide geraubt wird.</emph></p>
+                    <p xml:id="p6" style="text-align: left; text-align: justify;">Other scholars followed this interpretation in their discussions and translations.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; text-align: justify;"> E. g. <ref target="https://papyri.info/biblio/19205">Hirt Raj 2006</ref>: 336, <emph rend="italics">au sujet des affaires de la ville en general</emph>.</p></note> Roberts was convinced that Marcus wrote from Alexandria where granaries were looted because of general unrest. Hirt Raj observed that the city in the letter could be any other Egyptian city.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/biblio/19205">Hirt Raj 2006</ref>: 153–154.</p></note> The reading of Zereteli and Jernstedt is problematic. Ιt is not attested in this meaning in papyri or literary texts; there is not enough space for an epsilon in the lacuna; and the letter after nu is rather an omega than an omicron. It might be better to read Κ̣υνῶγ, <emph rend="italics">l</emph>. Κυνῶν, where gamma is written instead of nu before the word beginning with a velar stop, as a hypercorrection.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; text-align: justify;"> See Gignac I, 167 (no. 3).</p></note> The passage of text with the new reading is now: ... τὰ περὶ τῆς πόλεως Κ̣υνῶγ, (<emph rend="italics">l</emph>. Κυνῶν) καὶ ...</p>
+                    <p xml:id="p7" style="text-align: left; text-align: left;">The place, therefore, is either the village Kynon Polis in the Fayum (<ref target="https://www.trismegistos.org/fayum/fayum2/1195.php?geo_id=1195">TM Geo 1195</ref>), or one of the two cities named Kynopolis in Lower or Upper Egypt. The peculiar word order has parallels in P.Ryl. 2 119.1 <ref target="https://papyri.info/ddbdp/p.ryl%3B2%3B119">https://papyri.info/ddbdp/p.ryl;2;119</ref> (62–66, Hermoupolis Magna) and <ref target="https://papyri.info/ddbdp/p.lond;5;1678">P.Lond. 5 1678</ref> .2 (566–568, Antinoopolis). The village in the Arsinoite was called κώμη Kυνῶν πόλις or κώμη Kυνῶν, so a confusion is possible:  <ref target="https://papyri.info/ddbdp/bgu;13;2252">BGU 13 2252</ref>.4–5  (330, Kynopolis, Arsinoite), <ref target="https://papyri.info/ddbdp/p.oxy;51;3602">P.Oxy. 51 3602</ref>.23 (215, Arsinoite). An argument for the location in Upper Egypt is possibly supported by l. 13 where a Theban man is mentioned. </p>
+                    <p xml:id="p8" style="text-align: left; text-align: left;">Another problematic place is l. 23: </p>
+                    <p xml:id="p9" style="text-align: left; text-align: left;">ἐὰν μή σοι ἦν ἐκεῖνος, πειρῇς δοῦσα̣ τ̣ὸ̣ν σεῖτ[ο]ν.</p>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23933055"/>
+                        <head>Fig. 2: P.Ross.Georg. 3 1, line 23</head>
+                    </figure>
+                    <p xml:id="p10" style="text-align: left; text-align: left;">Zereteli – Jernstedt translated the clause thus: <emph rend="italics">Wenn er dir nicht zur Verfügung stehen wird, so mache den Versuch mit der Veräusserung des Getreides</emph>. However, the verb πειράω is used in papyrus documents in medial form and never with a participle.<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; text-align: justify;"> This grammar irregularity has been pointed out by Jan Shavrin in his MA thesis.</p></note> Palaeographically, it is better to read πλήρης instead. Although eta has more often a different shape in this handwriting, the ductus here occurs also in μη in the same line, ἐὰν μή σοι ἦν. The adjective is used in an adverbial meaning ‘in full’ and is indeclinable. It must go with the grain – give or sell all of the grain, but the meaning of the sentence remains elusive.</p>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23933057"/>
+                        <head>Fig. 3: P.Ross.Georg. 3 1, line 23</head>
+                    </figure>
+                </div>
+                <div type="section">
+                    <head>
+                        <ref target="https://papyri.info/ddbdp/p.ross.georg;3;9">P.Ross.Georg. 3 9</ref>
+                    </head>
+                    <table type="papyrological_header">
+                        <row>
+                            <cell style="text-align: left;">2nd half of 4th c., Memphis.</cell>
+                        </row>
+                    </table>
+                    <p xml:id="p11" style="text-align: left; text-align: justify;">This is a polite letter from a Christian Marcianus to his business partner and friend Isak who is in Memphis. Isak is told to receive pepper, some beans, apparently sent by Marcianus (ll. 14–17), and the payment, also from Marcianus, for palm wine (ll. 17–19), which he already sent or is about to send to Marcianus (ll. 24–25).</p>
+                    <p xml:id="p12" style="text-align: left; text-align: justify;">In l. 8, the editors read Σ̣[ε]λευίου, which is a ghost name and should be corrected to Φ̣λαυίου. Elsewhere, epsilon is written differently, especially with a following ypsilon, and the traces around the lacuna look more like a phi. The latter does not have a connecting stroke to the right, whereas lambda tends to have its upper hook extended horizontally to the left. Although it is unusual to have the name Flavius on its own, it occurs as such in <ref target="https://papyri.info/ddbdp/o.bodl;2;2141">O.Bodl. 2 2141</ref>.7 (3rd/4th c., Thebes); <ref target="https://papyri.info/ddbdp/o.douch;5;546">Ο.Douch. 5 546</ref>.3 (4th c., Kysis, Oasis Magna); <ref target="https://papyri.info/ddbdp/psi;15;1558">PSI 15 1558</ref>.1 (3rd c., Oxyrynchus), and <ref target="https://papyri.info/ddbdp/sb;14;11490">SB 14 11490</ref>.1 (2nd/3rd c., prov. unknown), of which the last two examples are letters. The author of the letter under discussion has himself a Latin name.</p>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23933059"/>
+                        <head>Fig. 4: P.Ross.Georg. 3 9, line 8</head>
+                    </figure>
+                    <p xml:id="p13" style="text-align: left; text-align: left;">In ll. 17–20, the <emph rend="italics">editio princeps</emph> has the following text and translation:</p>
+                    <quote type="edition">
+                        <lb n="17"/>καὶ τίμημα σπαθίτου
+                        <lb n="18"/>οἴνου χρυσίνων τεσσάρων διζότων παλεοχαράκτων
+                        <lb n="19"/>ἵνα προτρέψῃ μαι ἐν τούτῳ πυκνῶς τῇ λογιότητί
+                        <lb n="20"/>σου γράφιν ἐξερέτως περὶ τῆς ὑγίας σου.
+                    </quote>
+                    <quote type="secondary">
+                        <p>18 <emph rend="italics">l</emph>. διζῴδων παλαιοχαράκτων	19 <emph rend="italics">l</emph>. με	20 <emph rend="italics">l</emph>. γράφειν, ἐξαιρέτως, ὑγιείας</p>
+                    </quote>                    
+                    <p xml:id="p14" style="text-align: left; text-align: justify;"><emph rend="italics">…und den Preis Spathion-Weines in der Höhe von vier zweifigurigen Goldmünzen alter Prägung, damit du mich hierdurch bewegest, deiner Gelahrtheit</emph> (sic!) <emph rend="italics">häufig zu schreiben, insonderheit bezüglich deiner Gesundheit.</emph></p>
+                    <p xml:id="p15" style="text-align: left; text-align: justify;">The editors understand σπαθίτου as a form of the measure σπαθίον, but this variation does not occur elsewhere in papyri or other texts in Greek and is unexplainable as a mistake. Moreover, it would be highly unlikely that the writer repeated the same mistake twice, also in ll. 24–25: πόσους σπαθίτας τοῦ χρυσίνου ἀπέστιλάς μοι. Naldini in his collection of Christian letters from Egypt translates σπαθίτου οἴνου as palm-wine.<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/biblio/7245">Naldini 1968</ref>: n. 77 p. 306: <emph rend="italics">E il prezzo del vino di palma di quattro aurei a due facce antico conio, perché tu mi spinga così a scrivere spesso alla tua saggezza, particolarmente intorno alla tua salute</emph>. However, he understands σπαθίτας in l. 24 as a mistake for σπάθια. </p></note> It is well-attested as a pharmaceutical ingredient in literary texts, although there is no other mention of palm-wine in papyri.<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; text-align: justify;"> Examples of palm-wine as an ingredient in ancient medical recipes are collected in <ref target="https://papyri.info/biblio/97042">Sonina 2023</ref>: 87–89.</p></note> Grammatically, σπαθίτης is a noun, which can be seen in the word order. The phrase in l. 24 should be translated as ‘how many units of palm-wine…’.</p>
+                    <p xml:id="p16" style="text-align: left; text-align: justify;">The text as it is understood by the editors and Naldini has further problems. In ll. 17–18, Marcianus tells Isak to receive four <emph rend="italics">solidi</emph> as the payment for wine, but, in l. 24, he wants to know how much wine was sent to him for one <emph rend="italics">solidus</emph>. Furthermore, it is odd that the next sentence starts with ἵνα, although there is no causal relation between the two requests. The request in ll. 19–20 cannot in any way be connected to Isak receiving the goods and the money. The imperative ἵνα, although it can be used independently from a governing verb, still requires some sort of logical relation to the preceding sentence or to the general situation and usually appears in a clause; it never introduces a completely new idea.<note place="foot" xml:id="ftn9" n="9"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/biblio/8046">Mandilaras 1973</ref>: 262–264.</p></note> </p>
+                    <p xml:id="p17" style="text-align: left; text-align: justify;">I would like to suggest a new reading that solves these problems. The first letter of the first word in l. 19 is in fact an epsilon, not iota. (The long descender between the rounded first part of the epsilon and the nu, written with a slight slant, is in fact a crack in the papyrus, not ink.) The epsilon + nu resembles the same combination at the end of l. 11. An iota would be expected to be longer, projecting below and above the line and slightly concave to the right, not to the left.</p>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23933061"/>
+                        <head>Fig. 5: P.Ross.Georg. 3 9, line 19</head>
+                    </figure>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23933063"/>
+                        <head>Fig. 6: P.Ross.Georg. 3 9, line 11</head>
+                    </figure>
+                    <p xml:id="p18" style="text-align: left; text-align: justify;">The numeral ἕνα agrees with χρύσινων, which has a misspelled acc. sg. ending (instead of χρύσινον). The phonetic variation ο/ω occurs in the papyrus in the same line (δίζοτων, <emph rend="italics">l</emph>. δίζῳδον, ‘with images on both sides’) and also in l. 25 (καταξίοσον, <emph rend="italics">l</emph>. καταξίωσον). The remaining adjectives are also misspelled with omega instead of omicron and agree with χρύσινον. The only problem in this case is τεσσάρων. I believe that it is a colloquialism instead of longer and rare τετραγραμμιαῖον and should be probably understood as τεσσάρων γραμμάτων. The golden four-gram weight <emph rend="italics">solidus</emph> was introduced under Constantine and began to be widely used in transactions from 350 onwards.<note place="foot" xml:id="ftn10" n="10"><p style="text-align: left; text-align: justify;"> See <ref target="https://papyri.info/biblio/97038">Bagnall and Bransbourg 2019</ref>.</p></note> Its weight is referred to explicitly in two documents dated to the 4th c. and in one later document dated to 7th c. from Palestine:  </p>
+                    <list>
+                        <item xml:id="n1"><ref target="https://papyri.info/ddbdp/p.flor;1;95">P.Flor. 1 95</ref>.10 (4th c., Hermoupolis Magna), χ̣ρ̣υσοῦ νομισμάτια δεσποτικὰ τετραγραμμιαῖα ἑβδομηκονταδύο </item>
+                        <item xml:id="n2"><ref target="https://papyri.info/ddbdp/bgu;1;316">BGU 1 316</ref>.15–16 (359, Ascalon), χρυσ[ίνων] δεσποτικῶν τετραγραμμιαίων διζῴδων δέκ[α ὀκτώ]</item>
+                        <item xml:id="n3"><ref target="https://papyri.info/ddbdp/p.ness;3;46">P.Ness. 3 46</ref>.3–4 (605), χρύσινα δεσποτι̣κ̣ὰ̣ ὀμβρυζα̣ τετραγραμμιαῖα προτῖα δόκιμα τὸν̣ ἀ̣ριθμὼν ἐννέα παρὰ κεράτια ἐννέα ζυγῷ Γάζης</item>
+                    </list>
+                    <p xml:id="p19" style="text-align: left; text-align: justify;">The characteristic ‘two-imaged’ occurs in three fourth-century papyri – two contracts of money loan, and a model contract for money loan in a textbook for business education: </p>
+                    <list>
+                        <item xml:id="n4">Loan of money, <ref target="https://papyri.info/ddbdp/p.lips;1;13">P.Lips. 1 13</ref>.9–10 (366, Hermoupolis Magna), χρυσοῦ νομισμάτια δεσπ[ο]τικὰ [εὐ]χάρακτα δίζῳδα δύο.</item>
+                        <item xml:id="n5">Loan of money, <ref target="https://papyri.info/ddbdp/p.gen.2;1;12">P. Gen. 1(2) 12</ref>.12–14 (384, Philadelphia), χρυσίου δοκ[ί]μου δ̣ίζοͅτων νο[μι]σματίων ἕν.</item>
+                        <item xml:id="n6">Model contract for money loan, <ref target="https://papyri.info/dclp/92734">P. Math.</ref> A1 R 3–4 (2nd half of 4th c., Oxyrhynchite), χρ\υσ/οῦ νομισμάτιαν ε[ὐχάρακτον] δίζ̣ῳτον ἕν.</item>
+                    </list>
+                    <p xml:id="p20" style="text-align: left; text-align: justify;">The word order, where the number of <emph rend="italics">solidi</emph> is placed after the modifying adjectives also speaks against the reading of <emph rend="italics">ed.pr</emph>. </p>
+                    <p xml:id="p21" style="text-align: left; text-align: justify;">The passage is to be understood as follows. Isak purchased some palm-wine for Marcianus and informed the latter that the cost was one <emph rend="italics">solidus</emph>. Marcianus, while still waiting for the wine to be delivered, sent the said one <emph rend="italics">solidus</emph> with his servants to Isak and asked to clarify how much wine he should expect (in ll. 24–25). </p>
+                    <p xml:id="p22" style="text-align: left; text-align: justify;">The following phrase in ll.19–20 needs to be revisited as well. It serves as a polite conclusion of the main part of the letter. The expression ἐν τούτῳ summarises the business relationship and exchanges of favours between Marcianus and Isak. The reading of προτρέψῃ in <emph rend="italics">ed.pr</emph>. as 2nd <emph rend="italics">sg</emph>. has no parallels in other papyrus letters. The verb προτρέπομαι introduces a polite and urgent request to do something, for instance, to come or to write a letter. It would be absurd for Marcianus to ask Isak to ask himself (Marcianus) to write to him (Isak) enquiring about his (Isak’s) health. On the other hand, a polite request, addressed to the receiver at the end of the letter, to write frequently about their health is standard in letters, <emph rend="italics">e.g</emph>.:</p>
+                    <list>
+                        <item xml:id="n7"><ref target="https://papyri.info/ddbdp/p.ifao;2;15">P. IFAO 2 15</ref>.4–5 (3rd c., prov. unknown), προτρέπομαί σε ἐ̣π̣[ιστέλλειν] μοι περὶ τῆς ὑγείας σου.</item>
+                        <item xml:id="n8"><ref target="https://papyri.info/ddbdp/psi;12;1247v">PSI 12 1247 V</ref> 4–8 (3rd c., Oxyrhynchus), γράφω … προτρεπομένη ὑμᾶς γράφειν μοι συνεχῶς περὶ τῆς σωτηρίας ὑμῶν.</item>
+                        <item xml:id="n9"><ref target="https://papyri.info/ddbdp/sb;4;7335">SB 4 7335</ref>.6–7 (117–138, Soknopaiou Nesos ?), προτρέπομαί σε γράψαι μοι ἥιδιστα ποιήσοντι.</item>
+                    </list>
+                    <p xml:id="p23" style="text-align: left; text-align: justify;">It is difficult to pinpoint the logic behind the wrong spelling in προτρεψημαι. Some examples of o &gt; η in papyri are collected in <ref target="https://papyri.info/biblio/8813">Gignac 1976</ref>: 293. </p>
+                    <p xml:id="p24" style="text-align: left; text-align: justify;">The erroneous dative of τῇ λογιότητι is perhaps the result of the similarity in pronunciation with the accusative – nu at the end of the word tended to fall out – combined with the rarity of the word λογιότης: it is not attested in accusative in papyri and is used in dative in a total of eight out of ten texts, including this letter. Its position far from the verb προτρέπομαι in the sentence could have also contributed to the confusion of cases, and it is possible that the presence of the verb γράφειν automatically prompted the dative case, even though the relation between the subject and object is the opposite here. </p>
+                    <p xml:id="p25" style="text-align: left; text-align: justify;">The new text and translation would be, as follows:</p>
+                    <quote type="edition">
+                        <lb n="17"/>καὶ τίμημα σπαθίτου
+                        <lb n="18"/>οἴνου χρύσινων τεσσάρων δίζοτων παλεοχάρακτων
+                        <lb n="19"/>ἕ̣να. προτρέψημαι ἐν τούτῳ πυκνῶς τῇ λογιότητί
+                        <lb n="20"/>σου γράφιν ἐξερέτως περὶ τῆς ὑγίας σου.
+                    </quote>
+                    <quote type="secondary">
+                        <p>18 <emph rend="italics">l</emph>. χρύσινον τεσσάρων (<emph rend="italics">scil</emph>. γραμμάτων) δίζῳδον παλαιοχάρακτον 19 <emph rend="italics">l</emph>. προτρέψομαι <emph rend="italics">vel</emph> προτρέπομαι  <emph rend="italics">l</emph>. τὴν λογιότητα 20 <emph rend="italics">l</emph>. γράφειν, ἐξαιρέτως, ὑγιείας</p>
+                    </quote>
+                    <p xml:id="p26" style="text-align: left; text-align: left;"><emph rend="italics">[… in Memphis please order your servants to receive …] and the cost of palm-wine – one two-imaged old-minted solidus of four grams. In such circumstances, I urge Your Learnedness to write frequently, above all, about Your health.</emph></p>
+                    <p xml:id="p27" style="text-align: left; text-align: justify;">In the final greeting, Marcianus wishes Isak to lead an εὐπετῆ βίον (l. 22), according to the text of the <emph rend="italics">editio princeps</emph>. However, the papyrus reads εὐτελῆ.<note place="foot" xml:id="ftn11" n="11"><p style="text-align: left; text-align: justify;"> I am thankful to Nikolaos Gonis for this correction. </p></note> Neither adjective occurs in this context. In Byzantine private letters, εὐτελής and εὐτέλεια are used as self-deprecation: ‘my poor letter’, ‘my insignificance’, e. g. <ref target="https://papyri.info/ddbdp/p.michael;;38">P.Michael 38</ref>.12 (6th c., prov. unknown); <ref target="https://papyri.info/ddbdp/p.oxy;8;1165">P.Oxy. 8 1165</ref>.4,8 (6th c.); <ref target="https://papyri.info/ddbdp/p.bodl;1;69">P.Bodl. 1 69</ref>.1 (6th–7th c.); <ref target="https://papyri.info/ddbdp/p.gen;4;168">P.Gen. 4 168</ref>.2 (6th–7th c., Apollonopolis Magna); <ref target="https://papyri.info/ddbdp/p.oxy;59;4006">P.Oxy. 59 4006</ref>.6 (6th–7th c.); <ref target="https://papyri.info/ddbdp/p.apoll;;36">P.Apoll. 36</ref>.4 (713?). In the 4th c., this adjective had not yet acquired this pejorative sense. In literary texts in combination with βίος, it tends to mean ‘simple’ with positive connotations: D.L.6.22; Ath.1.15; and especially about Jesus, Chrys. <emph rend="italics">hom</emph>. 62.45.</p>
+                    <p xml:id="p28" style="text-align: left; text-align: justify;">Finally, the editors signal the change of hand in ll. 21–25. Although the concluding greetings and the postscript are indeed written in a slightly more cursive way and the handwriting is smaller than in the main body of the letter, the ductus is the same and these lines were written by the same person as the main body of the letter. There is also a slight confusion with the numbering of these lines. The greetings starting with υγιενα continue in the same line 20, whereas the postscript is divided in two lines which is not reflected in the <emph rend="italics">ed.pr</emph>.: in fact, -τιλάς μοι is written in the next line (l. 25) and is shifted to the right.</p>
+                </div>
+                <div type="section">
+                    <head>
+                        <ref target="https://papyri.info/ddbdp/p.ross.georg;3;10">P.Ross.Georg. 3 10</ref>
+                    </head>
+                    <table type="papyrological_header">
+                        <row>
+                            <cell style="text-align: left;">4th/5th c., prov. unknown.</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">Georgian National Centre of Manuscripts, Archive G. Zereteli N 246.</cell>
+                        </row>
+                    </table>
+                    <p xml:id="p29" style="text-align: left; text-align: justify;">In l. 2, Ψεράκου is a ghost name. It should read Ἱεράκου, with a trema on both sides of the hasta of the iota. The genitive is unusual and not attested elsewhere, being a mixture between Ἱέρακος and Ἱερακίου. The name on the verso is illegible in the present state of the papyrus.</p>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23933065"/>
+                        <head>Fig. 7: P.Ross.Georg. 3 10, line 2</head>
+                    </figure>
+                    <p xml:id="p30" style="text-align: left; text-align: justify;">In l. 19, Zereteli – Jernstedt read Ῥεάκων̣, which is in fact a ghost name. Instead, the papyrus has Ἴσακων̣, <emph rend="italics">l</emph>.  Ἴσακον, with a trema on both sides of the hasta of the iota.</p>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23933067"/>
+                        <head>Fig. 8: P.Ross.Georg. 3 10, line 19</head>
+                    </figure>
+                    <p xml:id="p31" style="text-align: left; text-align: justify;">The sigma in l. 23 is peculiar, but common for this papyrus. <emph rend="italics">Cf</emph>. l. 23 ἡσᾶς.</p>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23933069"/>
+                        <head>Fig. 9: P.Ross.Georg. 3 10, line 23</head>
+                    </figure>
+                </div>
+                <div type="section">
+                    <head>
+                        <ref target="https://papyri.info/ddbdp/p.ross.georg;3;11">P.Ross.Georg. 3 11</ref>
+                    </head>
+                    <table type="papyrological_header">
+                        <row>
+                            <cell style="text-align: left;">2nd half of 4th c., prov. unknown.</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">State Hermitage Museum, Ancient Orient Department, 5659.</cell>
+                        </row>
+                    </table>
+                    <p xml:id="p32" style="text-align: left; text-align: justify;">This letter is a brief business note from Silvanus to his mother, in which he asks her to give back to Pasiris a tunic, which had evidently been deposited by him as a pledge for wine.</p>
+                    <p xml:id="p33" style="text-align: left; text-align: justify;">In the beginning, Ἀναστασαρ(ίῳ) is a ghost name (Fig. 10). It should be read instead as ἀποστασαρ( ), resolved as ἀποστασαρ(ίῳ) or ἀποστασαρ(ίᾳ). The name of the profession ἀποστασάριος, cellar-keeper, occurs in several papyri and ostraca dated to 5th–6th c.: <ref target="https://papyri.info/ddbdp/p.col;10;292">P.Col. 10 292</ref>.5 (Oxyrhynchus); <ref target="https://papyri.info/ddbdp/p.wash.univ;2;99">P.Wash.Univ. 2 99</ref>.1 (Oxyrhynchus); and SB 12 10990, nn. 16–26 (Abu Mina). It is derived from ἀπόστασις, storehouse, wine cellar.<note place="foot" xml:id="ftn12" n="12"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/ddbdp/p.oxy;16;2044">P.Oxy.16.2044</ref>.15–16 (6th c.), <ref target="https://papyri.info/ddbdp/p.oxy;18;2197">P.Oxy.18 2197</ref>.64,164 (6th c.); <ref target="https://papyri.info/biblio/10230">Husson 1983</ref>: 41–42.</p></note> From the layout, it can be suggested that the first line was added by the writer above the line later, as something he initially forgot to include in the greeting: τῇ κυρίᾳ μου μητρὶ \ἀποστασαρ(ίᾳ)/  ‘to my lady, mother, cellar-keeper’. It looks similar to the insertion of τῷ Πασῖρι (or τῷ πατρί?) in l. 10, which was apparently added for clarification above τῷ αὐτῷ. The new interpretation shifts the numbering of the lines. In the discussion below, new line numbers are given. If my interpretation is correct, this is the first case of a female cellar-keeper.</p>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23933071"/>
+                        <head>Fig. 10: P.Ross.Georg. 3 11, line 1</head>
+                    </figure>
+                    <p xml:id="p34" style="text-align: left; text-align: justify;">In l. 3, the editors read κολοβιω, <emph rend="italics">l</emph>. κολόβιον, but in my opinion the regular version κολόβι̣ο̣ν̣ can be seen on the papyrus. The left hasta of the nu is slightly abraded on top, and the right one is written as in Σιλβανός.</p>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23933073"/>
+                        <head>Fig. 11: P.Ross.Georg. 3 11, line 3</head>
+                    </figure>
+                    <p xml:id="p35" style="text-align: left; text-align: justify;">In l. 6, the editors read τω, <emph rend="italics">l</emph>. τοῦτο. It would be a peculiar mistake; furthermore, the first sign does not resemble other taus in the text. Instead, I suggest interpreting it as the symbol for talents: (ταλάντων) ω. This line hence gives not only the quantity of the wine but also its price. 800 talents (=120 myr. den.) for 8 (in case didiploun was the same measure as diploun) or 16 (if it was equivalent to two dipla) <emph rend="italics">sextarii</emph> of wine<note place="foot" xml:id="ftn13" n="13"><p style="text-align: left; text-align: left;"> Alternatively, one diploun could measure also 4 1/2, 5, 6, or 7 . </p></note> is a rather low price that indicates the dating in the second half of the 4th c. The tunic that was given as pledge for the wine would cost much more.<note place="foot" xml:id="ftn14" n="14"><p style="text-align: left; text-align: justify;"> See <ref target="https://papyri.info/biblio/97052">Morelli 2019</ref>: 30. </p></note> </p>
+                    <p xml:id="p36" style="text-align: left; text-align: justify;">In l. 7, αὐτή of the <emph rend="italics">ed.pr.</emph> should be αὐτά.</p>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23937251"/>
+                        <head>Fig. 12: P.Ross.Georg. 3 11, lines 6–7</head>
+                    </figure>
+                    <p xml:id="p37" style="text-align: left; text-align: justify;">In l. 8, Παχύμιο\ς/ should be read as Παχυμίου. <emph rend="italics">Cf</emph>. οἴνου in l. 5 and μου in l. 1.</p>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23933077"/>
+                        <head>Fig. 13: P.Ross.Georg. 3 11, lines 8–10</head>
+                    </figure>
+                </div>
+                <div type="section">
+                    <head>
+                        <ref target="https://papyri.info/ddbdp/p.ross.georg;3;15">P.Ross.Georg. 3 15</ref>
+                    </head>
+                    <table type="papyrological_header">
+                        <row>
+                            <cell style="text-align: left;">6th c., prov. unknown. </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">Georgian National Centre of Manuscripts, Archive G. Zereteli N 247</cell>
+                        </row>
+                    </table>
+                    <p xml:id="p38" style="text-align: left; text-align: justify;">The author of the letter, Horigenes, must be employed at some administrative office, since he is supposed to get synetheia, an annual bonus usually paid to provincial officials, and writes to <emph rend="italics">singularii</emph> as his superiors.<note place="foot" xml:id="ftn15" n="15"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/biblio/97041">Fournet 2016</ref>.</p></note> Α certain Horigenes, <emph rend="italics">tractator</emph>, receives synetheia in a document belonging to Dioskoros’ archive (<ref target="https://papyri.info/ddbdp/p.cair.masp;1;67058">P.Cair.Masp. 1 67058</ref> Col. 3.3) and could be the same person. Together with the mention of <emph rend="italics">singularii</emph>, who occur frequently in the archive, this could be an argument that the letter belongs to Dioskoros’ milieu as well. Among Zereteli’s collection in Tbilisi, there are several documents from the archive of Dioskoros, including P.Ross.Georg. 3 16, 38, 41, 43–45, 48, and 5 9, 32, 35, 62.</p>
+                    <p xml:id="p39" style="text-align: left; text-align: justify;">In l. 1, π(αρά) in the middle of the line was not reported by the editors. This conventional sign written in the papyrus as a large letter pi crossed out diagonally is common for headings of Byzantine letters. The new reading shifts the numbering of lines.</p>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23937219"/>
+                        <head>Fig. 14: P.Ross.Georg. 3 15, line 1</head>
+                    </figure>
+                    <p xml:id="p40" style="text-align: left; text-align: justify;">In the address on the verso (l. 7), the editors read: </p>
+                    <quote type="edition">
+                        <lb n="7"/>θαυμασ(ιωτάτοις) [καὶ] ἐναρ(έτοις) μ[o]υ ἀδελφ(οῖς) [NN καὶ]
+                    </quote>
+                    <quote type="secondary">
+                        <p>θαυμασ, εναρ <emph rend="italics">pap</emph>.</p>
+                    </quote>
+                    <p xml:id="p41" style="text-align: left; text-align: justify;">However, the abbreviations have in fact double letters:</p>
+                    <quote type="edition">
+                        <lb n="7"/>θαυμασ(ιωτάτοις) κ̣[αὶ] ἐναρ(έτοις) ἀδελφ(οῖς) <emph rend="italics">ca</emph>. 13 [ καὶ]
+                    </quote>
+                    <quote type="secondary">
+                        <p>θαυμασσ̣, εναρρ, αδελφφͅͅ <emph rend="italics">pap</emph>.</p>
+                    </quote>
+                    <p xml:id="p42" style="text-align: left; text-align: justify;">Above the first rho in εναρρ there is a sinusoidal line that marks the abbreviation and above the second rho is another, even longer sinusoidal line. The latter was understood by the editors as a supralinear ypsilon. The top of the second rho is abraded and for this reason this letter was read by the editors as a long-legged mu. </p>
+                    <p xml:id="p43" style="text-align: left; text-align: left;">The traces of the first name after the abbreviations could read Π̣λ̣ά̣τ̣ω̣ν̣ε̣ι̣. In the following line 8, the profession of Ioannes, ἀννονι[ of <emph rend="italics">ed.pr</emph>. is not compatible with the traces. One can read with some certainty only three letters:   ̣ιγο   ̣  ̣  ̣ [. </p>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23937223"/>
+                        <head>Fig. 15: P.Ross.Georg. 3 15, lines 7–8</head>
+                    </figure>
+                </div>
+                <div type="section">
+                    <head>
+                        <ref target="https://papyri.info/ddbdp/p.ross.georg;3;18">P.Ross.Georg. 3 18</ref>
+                    </head>
+                    <table type="papyrological_header">
+                        <row>
+                            <cell style="text-align: left;">7th c., Arsinoite. </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">State Hermitage Museum, Ancient Orient Department, 13500.</cell>
+                        </row>
+                    </table>
+                    <p xml:id="p44" style="text-align: left; text-align: justify;">The author of the letter expresses deep concern about their daughter and asks <emph rend="italics">comes</emph> and <emph rend="italics">chartularius</emph> Menas to send her to the author in the Arsinoite.</p>
+                    <p xml:id="p45" style="text-align: left; text-align: justify;">The traces of letters in the first half of l. 6 are left untranscribed in the edition: </p>
+                    <quote type="edition">
+                        <lb n="6"/>κα  ̣[  ̣  ̣]λ[  ̣]  ̣  ̣[  ̣  ̣  ̣  ̣  ̣  ̣  ̣  ̣]δ̣[  ̣  ̣]ς
+                    </quote>
+                    <p xml:id="p46" style="text-align: left; text-align: justify;">One may attempt to read these as κατ̣α̣π̣λ̣έ̣ο̣υ̣[σ]α̣ν̣ κ̣α̣τ̣ὰ̣ τ̣[ά]χ̣[ο]ς.</p>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23933079"/>
+                        <head>Fig. 16: P.Ross.Georg. 3 18, line 6</head>
+                    </figure>
+                    <p xml:id="p47" style="text-align: left; text-align: justify;">In the address on the verso, κόμητι καὶ χ  ̣  ̣  ̣ (l. 13) should be read as κόμητι καὶ χα̣ρ̣τ̣(ουλαρίῳ).</p>
+                    <p xml:id="p48" style="text-align: left; text-align: justify;">The following line 14 is read as  εδω  ̣  ̣  ̣  in <emph rend="italics">ed.pr</emph>. It might contain the name of the sender, which is probably Ἐδωξ̣ί̣α̣, <emph rend="italics">l</emph>. Εὐδοξία. If this reading is correct, we have an addition to the corpus of letters whose authors are women.</p>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23933081"/>
+                        <head>Fig. 17: P.Ross.Georg. 3 18, line 14</head>
+                    </figure>
+                </div>
+                <div type="bibliography">
+                    <listBibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97038">Bagnall, R.S., and G. Bransbourg (2019)</ref> “The Constantian Monetary Revolution,” ISAW Papers 14.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97039">Chepel, E. (2019)</ref> “Arthur Hunt’s Corrections to P. Ross.Georg. III in an Unpublished Letter to Petr Jernstedt,” ZPE 211: 184–188.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97041">Fournet, J.-L. (2016)</ref> “Un reçu pour la synêtheia du tribun d’Antaioupolis provenant des archives de Dioscore d’Aphrodité (VIe s.),” in Ch. Freu, S. Janniard, and A. Ripoll (eds.), Libera curiositas: Mélanges d’histoire romaine et d’Antiquité tardive offerts à Jean-Michel Carrié. Turnhout: 91–96.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/8813">Gignac, F.T. (1976)</ref> A Grammar of the Greek Papyri of the Roman and Byzantine Periods. Vol. I. Phonology. Milan.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/19205">Hirt Raj, M. (2006)</ref> Médecins et malades de l’Égypte romaine. Étude socio-légale de la profession médicale et de ses praticiens du Ier au IVe siècle ap. J.-C. Leiden – Boston.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/10230">Husson, G. (1983)</ref> “Oikia.” Le vocabulaire de la maison privée en Égypte d'après les papyrus grecs. Paris.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/8046">Mandilaras, B.G. (1973)</ref> The Verb in the Greek Non-Literary Papyri. Athens.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97052">Morelli, F. (2019)</ref> I prezzi dei materiali e prodotti artigianali nei documenti tardoantichi e del primo periodo arabo (IV ex.–VIII d.C.). Berlin/Boston.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/7245">Naldini, M. (1968)</ref> Il Cristianesimo in Egitto. Lettere private nei papiri dei secoli II–IV. Firenze.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/39513">Roberts, C.H. (1950)</ref> “An Army Doctor in Alexandria,” in S. Morenz (ed.), Aus Antike und Orient. Festschrift Wilhelm Schubart. Leipzig: 112–115.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97042">Sonina, A.E. (2023)</ref> “A New Look at Markianos’ Letter to Isak (P. Ross. Georg. III 9),” [in Russian] // Egypt and neighbouring countries 3 (2023): 84–93. </bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
