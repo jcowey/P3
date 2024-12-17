@@ -19,18 +19,15 @@
                 <list>
                     <item n="1">
                         <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/p.ross.georg/p.ross.georg.3/p.ross.georg.3.1.xml#xpath(//div[@n='r']//lb[@n='16'])"/>
-                        <!-- reminder of what is going to be replaced -->
                         <p change="replacement"><lb n="16" break="no"/>ψαι αὐτῷ τὰ περὶ τῆς πολέως <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §6"><choice><reg>Κυνῶν</reg><orig><unclear>Κ</unclear>υνῶγ</orig></choice></lem><rdg><supplied reason="lost">ἐ</supplied>κ <choice><reg><supplied reason="omitted">κ</supplied>οινοῦ</reg><orig>υνοῦ</orig></choice></rdg></app> καὶ ὁ ἄρτος εἰ ἀναρπάζεται. </p>
                     </item>
                     <item n="2">
                         <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/p.ross.georg/p.ross.georg.3/p.ross.georg.3.1.xml#xpath(//div[@n='r']//lb[@n='23'])"/>
-                        <!-- reminder of what is going to be replaced -->
                         <p change="replacement">
                             <lb n="23"/>αὐτὰς, ἐὰν μή σοι ἦν ἐκεῖνος, <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §10">πλήρης</lem><rdg>πειρῇς</rdg></app> δοῦσ<unclear>α</unclear><supplied reason="lost">τὸ</supplied>ν <choice><reg>σῖτον</reg><orig>σεῖτ<supplied reason="lost">ο</supplied>ν</orig></choice>. </p>
                     </item>
                     <item n="3">
                         <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/p.ross.georg/p.ross.georg.3/p.ross.georg.3.9.xml#xpath(//lb[@n='8'])"/>
-                        <!-- reminder of what is going to be replaced -->
                         <p change="replacement">
                             <lb n="8"/>ὁ τοῦ <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §12"><unclear>Φ</unclear>λαυίου</lem><rdg><unclear>Σ</unclear><supplied reason="lost">ε</supplied>λευίου</rdg></app> καὶ Ἄγαθος ὁ ἡμέτερος ἅμα τοῖς </p>
                     </item>
