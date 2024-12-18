@@ -26,10 +26,123 @@
                         <p change="replacement">
                             <lb n="23"/>αὐτὰς, ἐὰν μή σοι ἦν ἐκεῖνος, <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §10">πλήρης</lem><rdg>πειρῇς</rdg></app> δοῦσ<unclear>α</unclear><supplied reason="lost">τὸ</supplied>ν <choice><reg>σῖτον</reg><orig>σεῖτ<supplied reason="lost">ο</supplied>ν</orig></choice>. </p>
                     </item>
+                    
                     <item n="3">
                         <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/p.ross.georg/p.ross.georg.3/p.ross.georg.3.9.xml#xpath(//lb[@n='8'])"/>
                         <p change="replacement">
                             <lb n="8"/>ὁ τοῦ <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §12"><unclear>Φ</unclear>λαυίου</lem><rdg><unclear>Σ</unclear><supplied reason="lost">ε</supplied>λευίου</rdg></app> καὶ Ἄγαθος ὁ ἡμέτερος ἅμα τοῖς </p>
+                    </item>
+                    <item n="4">
+                        <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/p.ross.georg/p.ross.georg.3/p.ross.georg.3.9.xml#xpath(//lb[@n='18|19'])"/>
+                        <p change="replacement">
+                            <lb n="18"/>οἴνου <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §18"><choice><reg>χρύσινον</reg><orig>χρυσίνων</orig></choice></lem><rdg>χρυσίνων</rdg></app> <num value="4">τεσσάρων</num> <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §18"><choice><reg>διζῴδον</reg><orig>διζόͅτων</orig></choice></lem><rdg><choice><reg>διζῴδων</reg><orig>διζόͅτων</orig></choice></rdg></app> <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §18"><choice><reg>παλαιοχάρακτον</reg><orig>παλεοχαράκτων</orig></choice></lem><rdg><choice><reg>παλαιοχαράκτων</reg><orig>παλεοχαράκτων</orig></choice></rdg></app>, 
+                            
+                            <lb n="19"/><app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §17">ἕνα</lem><rdg>ἵνα</rdg></app> <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §22"><choice><reg><app type="alternative"><lem>προτρέψομαι</lem><rdg>προτρέπομαι</rdg></app></reg><orig>προτρέψημαι</orig></choice></lem><rdg>προτρέψῃ με</rdg></app> ἐν τούτῳ πυκνῶς <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §24"><choice><reg>τὴν</reg><orig>τῇ</orig></choice></lem><rdg>τῇ</rdg></app> <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §24"><choice><reg>λογιότητά</reg><orig>λογιότητί</orig></choice></lem><rdg>λογιότητί</rdg></app> 
+                        </p>
+                    </item>
+                    <item n="5">
+                        <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/p.ross.georg/p.ross.georg.3/p.ross.georg.3.9.xml#xpath(//lb[@n='22'])"/>
+                        <p change="replacement">
+                            <lb n="22" break="no"/>νοια <choice><reg>διαφυλάξειεν</reg><orig>διαφυλάξιεν</orig></choice> <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §7">εὐτελῆ</lem><rdg>εὐπετῆ</rdg></app> βίον 
+                        </p>
+                    </item>
+                    
+                    <item n="6">
+                        <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/p.ross.georg/p.ross.georg.3/p.ross.georg.3.10.xml#xpath(//div[@n='r']//lb[@n='2'])"/>
+                        <p change="replacement">
+                            <lb n="2"/>παρ<supplied reason="lost">ὰ</supplied> τοῦ ἀ<supplied reason="lost">δ</supplied>ελφοῦ σου <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §29"><hi rend="diaeresis">Ἱ</hi>εράκου</lem><rdg>Ψεράκου</rdg></app> <choice><reg>αὐγουσταλίου</reg><orig>ἀγουσσταλίου</orig></choice> 
+                        </p>
+                    </item>
+                    <item n="7">
+                        <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/p.ross.georg/p.ross.georg.3/p.ross.georg.3.10.xml#xpath(//div[@n='r']//lb[@n='19'])"/>
+                        <p change="replacement">
+                            <lb n="19" break="no"/>τʼ <supplied reason="lost">ὄν</supplied>ομα· πολλὰ <choice><reg>προσαγορεύομαι</reg><orig>προσαγορευβομε</orig></choice> <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §30"><choice><reg> Ἴσακον</reg><orig><hi rend="diaeresis">Ἴ</hi>σακω<unclear>ν</unclear></orig></choice></lem><rdg>Ῥεάκω<unclear>ν</unclear></rdg></app> 
+                        </p>
+                    </item>
+                    
+                    <item n="8">
+                        <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/sb/sb.18/sb.18.13878.xml#xpath(//lb[@n='6'])"/>
+                        <p change="replacement">
+                            <lb n="6"/><app type="editorial"><lem resp="C. Balamoshev, Pylon 6 (2024) 1 §4">Κ<unclear>α</unclear><supplied reason="lost">ι</supplied><unclear>σ</unclear>ίου</lem><rdg>Κ<unclear>αιλ</unclear>ίου</rdg></app> <expan>ἀριθ<ex>μητικοῦ</ex></expan> <expan>κ<ex>ατ</ex>οί<ex>κων</ex></expan> τοῦ αὐτοῦ ἔτους <expan><ex>δραχμὰς</ex></expan> δεκαὲξ <num value="16"/> <num value="1"><expan><ex>ὀβολὸν</ex></expan></num> <num value="1/2"><expan><ex>ἡμιωβέλιον</ex></expan></num> 
+                        </p>
+                    </item>
+                    <item n="9">
+                        <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/sb/sb.18/sb.18.13878.xml#xpath(//lb[@n='16|17|18'])"/>
+                        <p change="replacement">
+                            <lb n="16"/>Ἀντωνίνου Καίσαρος <supplied reason="lost">τ</supplied>οῦ κυρίου <app type="editorial"><lem resp="C. Balamoshev, Pylon 6 (2024) 1 §5"><expan>Φαρμο<unclear>ῦ</unclear><ex>θι</ex></expan> <lb n="17"/><num value="9"><hi rend="supraline"><unclear>θ</unclear></hi></num> διέγραψεν</lem><rdg><expan>Φαρμ<ex>οῦθι</ex></expan> <num value="2"><unclear>β</unclear></num>. 
+                                
+                                <lb n="17"/>διέγραψεν</rdg></app> Ἀντωνίῳ καὶ <expan>μετόχ<ex>οις</ex></expan> <expan>πράκ<ex>τορσιν</ex></expan> 
+                            
+                            <lb n="18"/><expan>ἀργ<ex>υρικῶν</ex></expan> <expan>Φιλαδ<ex>ελφείας</ex></expan> <app type="editorial"><lem resp="C. Balamoshev, Pylon 6 (2024) 1 §7">Λούκιος <space extent="unknown" unit="character"/> <choice><reg>Οὐαλέριος</reg><orig>Ο<unclear>ὐα</unclear>λερις</orig></choice></lem><rdg><choice><reg>Λούκιος</reg><orig>Λούκειο<supplied reason="lost">ς</supplied></orig></choice> <choice><reg>Οὐαλέριος</reg><orig>Οὐ<unclear>α</unclear>λερις</orig></choice></rdg></app> 
+                        </p>
+                    </item>
+                    <item n="10">
+                        <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/sb/sb.18/sb.18.13878.xml#xpath(//lb[@n='23'])"/>
+                        <p change="replacement">
+                            <lb n="23"/>καὶ <expan>μ<ex>ε</ex>τ<ex>όχοις</ex></expan> <expan>πράκ<ex>τορσιν</ex></expan> <expan>ἀργ<ex>υρικῶν</ex></expan> <app type="editorial"><lem resp="C. Balamoshev, Pylon 6 (2024) 1 §8">Φιλαδελφε<unclear>ί</unclear>ας</lem><rdg>Φιλαδελφίας</rdg></app> <choice><reg>Λούκιος</reg><orig>Λουκις</orig></choice> 
+                        </p>
+                    </item>
+                    
+                    <item n="11">
+                        <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/bgu/bgu.7/bgu.7.1647.xml#xpath(//lb[@n='3|4|5'])"/>
+                        <p change="replacement">
+                            <lb n="3"/>Μάρ<supplied reason="lost">κῳ Ο</supplied>ὐαλερίῳ Ἀντᾷ χαίρειν. ὁμολογῶ <app type="editorial"><lem resp="PN D. Hagedorn (digital image)">ἐ<unclear>κδ</unclear>ε
+                                
+                                <lb n="4" break="no"/>δόσθ<unclear>αι</unclear></lem><rdg><choice><reg>παρα<lb n="4" break="no"/>δώσειν</reg><orig><unclear>πα</unclear><supplied reason="lost">ρ</supplied>α<lb n="4" break="no"/>δόσ<unclear>ειν</unclear></orig></choice></rdg></app> <supplied reason="lost">σο</supplied>ι τὸν υἱόν μου Χαιρήμονα <app type="editorial"><lem resp="C. Balamoshev, Pylon 6 (2024) 1 §12">ἐπ<unclear>ὶ</unclear> <supplied reason="lost">ἔτη</supplied> <choice><reg>τέσσαρα</reg><orig><supplied reason="lost">τ</supplied>έσ<lb n="5" break="no"/><unclear>σσ</unclear>α<supplied reason="lost">ρα</supplied></orig></choice> <supplied reason="lost">ἐ</supplied><unclear>ν</unclear> τῇ</lem><rdg>ε<unclear>π</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="5" unit="character"/>ος 
+                                    
+                                    <lb n="5"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="5" unit="character"/> τῇ</rdg></app> με<unclear>γ</unclear>άλῃ <unclear>παρεμβο</unclear>λῇ, <app type="editorial"><lem resp="C. Balamoshev, Pylon 6 (2024) 1 §12">ὥστε <unclear>α</unclear><supplied reason="lost">ὐτ</supplied>ό<unclear>ν</unclear></lem><rdg>ὥσ<unclear>τε</unclear> <gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="2" unit="character"/></rdg></app> 
+                        </p>
+                    </item>
+                    <item n="12">
+                        <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/bgu/bgu.7/bgu.7.1647.xml#xpath(//lb[@n='9'])"/>
+                        <p change="replacement">
+                            <lb n="9"/>τοῦ κυρί<supplied reason="lost">ου</supplied> <app type="editorial"><lem resp="C. Balamoshev, Pylon 6 (2024) 1 §12">μηνιαίων</lem><rdg><choice><reg>μηνιαίων</reg><orig>μηνι<unclear>ε</unclear>ίων</orig></choice></rdg></app> <app type="editorial"><lem resp="PN D. Hagedorn (digital image)">μισθοῦ</lem><rdg>μισ<gap reason="illegible" quantity="3" unit="character"/></rdg></app> δραχμῶν <app type="editorial"><lem resp="PN D. Hagedorn (digital image)">δ<unclear>έκα</unclear>, ἃς</lem><rdg>δ<unclear>ραχμ</unclear>άς,</rdg></app> 
+                        </p>
+                    </item>
+                    <item n="13">
+                        <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/bgu/bgu.7/bgu.7.1647.xml#xpath(//lb[@n='12/13'])"/>
+                        <p change="replacement">
+                            <lb n="12" break="no"/><supplied reason="lost">τ</supplied>ὸν ἐν<supplied reason="lost">τὸς</supplied> τοῦ ὡρισμένου χρόνου <app type="editorial"><lem resp="C. Balamoshev, Pylon 6 (2024) 1 §12">ἢ <choice><reg>εἰς</reg><orig>ἰς</orig></choice> ἕ<unclear>τ</unclear>ε<supplied reason="lost">ρ</supplied><unclear>ο</unclear>ν <unclear>ἐρ</unclear><lb n="13" break="no"/><supplied reason="lost">γ</supplied><unclear>α</unclear>σ<unclear>τήριο</unclear>ν</lem><rdg>ἢ <gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="2" unit="character"/>ν<gap reason="illegible" quantity="2" unit="character"/> 
+                                
+                                <lb n="13"/><gap reason="lost" quantity="1" unit="character"/><unclear>ε</unclear>σ<gap reason="illegible" quantity="2" unit="character"/>ν<gap reason="illegible" quantity="3" unit="character"/></rdg></app> διδόναι. ἀπέχω δὲ τὸν τοῦ Φαῶφ<supplied reason="lost">ι</supplied> μισθόν, 
+                        </p>
+                    </item>
+                    
+                    <item n="14">
+                        <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/p.giss/p.giss.1/p.giss.1.57.xml#xpath(//lb[@n='2'])"/>
+                        <p change="replacement">
+                            <lb n="2"/><g type="stauros"/> γράμματα ἐποίησεν πρὸς με ὁ εὐλαβέστατος Ἄτα Κόλλουθος ὁ πρεσβύτερος ὁ ὢ<unclear>ν</unclear> <app type="editorial"><lem resp="C. Balamoshev, Pylon 6 (2024) 1 §17">ἐν τῷ <unclear>ὄ</unclear>ρει</lem><rdg><unclear>ε</unclear><gap reason="illegible" quantity="4" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ρει</rdg></app> Ὀξυρύγχων φανερὰν δύναμ<unclear>ι</unclear>ν 
+                        </p>
+                    </item>
+                    <item n="15">
+                        <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/p.giss/p.giss.1/p.giss.1.57.xml#xpath(//lb[@n='6|7'])"/>
+                        <p change="replacement">
+                            <lb n="6"/>τὰ γράμματα καὶ ἀπόκρισιν αἰσίαν <app type="editorial"><lem resp="C. Balamoshev, Pylon 6 (2024) 1 §22">δέξασθαι</lem><rdg>ἄξασθαι</rdg></app> καὶ ἀντιγραφῆναι ἁρμοδίως καί, εἰ δέῃ, λαβεῖν <subst><add place="inline">τὸ</add><del rend="corrected">τ<gap reason="illegible" quantity="1" unit="character"/></del></subst> ἀσφαλὲς πρὸς τὰ 
+                            
+                            <lb n="7"/>γραφέντα αὐτῷ παρʼ ἐμοῦ καὶ πάλιν δοῦναι καὶ πλ<unclear>ὴ</unclear>ν τῆς σῆς φρονήσεως γράμματα πεμφθῆναί μοι πρὸς <app type="editorial"><lem resp="C. Balamoshev, Pylon 6 (2024) 1 §23"><choice><reg>τὸ</reg><orig>τω</orig></choice> μὲ</lem><rdg>τ<unclear>ά</unclear> μ<unclear>ε</unclear></rdg></app> 
+                        </p>
+                    </item>
+                    
+                    <item n="16">
+                        <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/p.oxy/p.oxy.41/p.oxy.41.2951.xml#xpath(//lb[@n='20'])"/>
+                        <p change="replacement">
+                            <lb n="20"/>πατρὸς <app type="editorial"><lem resp="C. Balamoshev, Pylon 6 (2024) 1 §26">καὶ ἔχοντος</lem><rdg>κατέχον<unclear>το</unclear>ς</rdg></app> <unclear>α</unclear>ὐτὸν ὑπὸ τῇ <choice><reg>χειρὶ</reg><orig>χηρὶ</orig></choice> κατὰ τοὺς <choice><reg>Ῥωμαίων</reg><orig>Ῥωμέων</orig></choice> νόμου<supplied reason="lost">ς</supplied>, 
+                        </p>
+                    </item>
+                    <item n="17">
+                        <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/p.oxy/p.oxy.41/p.oxy.41.2951.xml#xpath(//lb[@n='22'])"/>
+                        <p change="replacement">
+                            <lb n="22"/>Ἀπολλωνίῳ <app type="editorial"><lem resp="C. Balamoshev, Pylon 6 (2024) 1 §27">ὀπτίωνι</lem><rdg><choice><reg>ὀπτίωνι</reg><orig>ὀπτίωνει</orig></choice></rdg></app> τὴ<unclear>ν</unclear> δούλην Νίκην ἐπικεκλημένην 
+                        </p>
+                    </item>
+                    
+                    <item n="18">
+                        <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/p.oxy/p.oxy.50/p.oxy.50.3581.xml#xpath(//lb[@n='4|5'])"/>
+                        <p change="replacement">
+                            <lb n="4" break="no"/><supplied reason="lost">σέν με καὶ</supplied> συνῆλθέν μοι <app type="editorial"><lem resp="C. Balamoshev, Pylon 6 (2024) 1 §28">πρὸς γά<unclear>μ</unclear><supplied reason="lost">ον καὶ ἐπα</supplied><unclear>ι</unclear>δο<unclear>ποιη</unclear>σ<unclear>άμ</unclear><supplied reason="lost">η</supplied><unclear>ν</unclear></lem><rdg>πρὸς γά<unclear>μ</unclear><supplied reason="lost">ον </supplied><gap reason="lost" quantity="4" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>δο<gap reason="illegible" quantity="4" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>μ<gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/></rdg></app> ἐξ αὐτοῦ θηλυκὸν παιδίον 
+                            
+                            <lb n="5"/><gap reason="lost" quantity="7" unit="character"/> ε<supplied reason="lost">ἰ</supplied>σαγαγοῦσα εἰς τὸν ἡ<unclear>μ</unclear><supplied reason="lost">έτε</supplied><unclear>ρ</unclear><supplied reason="lost">ον οἶκο</supplied><unclear>ν</unclear> <app type="editorial"><lem resp="C. Balamoshev, Pylon 6 (2024) 1 §29">μη<unclear>δ</unclear><supplied reason="lost">ὲ</supplied>ν <unclear>πον</unclear></lem><rdg>μ<unclear>η</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ν<unclear>πον</unclear></rdg></app><gap reason="illegible" quantity="1" unit="character"/> <gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> τὴν ἀνελεύθερον 
+                        </p>
                     </item>
                 </list>
             </div>
