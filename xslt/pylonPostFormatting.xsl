@@ -12,6 +12,8 @@
     <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes"/>
     <xsl:template match="processing-instruction('xml-model')"/>
     <xsl:variable name="biblio" as="element()" select="/TEI[1]/teiHeader/fileDesc/publicationStmt/idno[3]"/>
+    <xsl:variable name="when" select="format-dateTime(current-dateTime(), '[Y,4]-[M,2]-[D,2]T[H]:[m]:[s][Z]')"/>
+    <xsl:variable name="whenHGV" select="format-dateTime(current-dateTime(), '[Y,4]-[M,2]-[D,2]')"/>
 
     <xsl:template match="/">
 
@@ -22,7 +24,7 @@
     -->
 
         <!--NB: confirm location of the output folder on the local directory tree for xsl:result-document-->
-        <xsl:result-document href="../../GitHub/papyri/idp.data/Biblio/97/{$biblio}.xml" method="xml">
+        <xsl:result-document href="../../../../../GitHub/papyri/idp.data/Biblio/97/{$biblio}.xml" method="xml">
                 <bibl type="article" subtype="journal">
                     <xsl:attribute name="xml:lang">
                         <xsl:value-of select="/TEI/@xml:lang"/>
@@ -160,7 +162,7 @@
             <xsl:variable name="tm" as="element()" select="descendant::idno[@type = 'filename']"/>
             <xsl:variable name="outputFolder" select="xs:integer($tm div 1000) + 1"/>
             <!--NB: confirm location of the output folder on the local directory tree for xsl:result-document--> 
-            <xsl:result-document href="../../GitHub/papyri/idp.data/HGV_meta_EpiDoc/HGV{$outputFolder}/{$tm}.xml" method="xml">
+            <xsl:result-document href="../../../../../GitHub/papyri/idp.data/HGV_meta_EpiDoc/HGV{$outputFolder}/{$tm}.xml" method="xml">
             <xsl:processing-instruction name="xml-model">href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
             <TEI>
                 <xsl:attribute name="xml:id">
@@ -250,12 +252,13 @@
                     <revisionDesc>
                         <change>
                             <xsl:attribute name="when">
-                                <xsl:value-of select="current-date()"/>
+                                <xsl:value-of select="$whenHGV"/>
                             </xsl:attribute>
                             <xsl:attribute name="who">
                                 <xsl:text>HGV</xsl:text>
                             </xsl:attribute>
-                            <xsl:text>Xwalk from Pylon</xsl:text></change>
+                            <xsl:text>Xwalk from Pylon</xsl:text>
+                        </change>
                     </revisionDesc>
                 </teiHeader>
                 <text>
@@ -276,7 +279,7 @@
                                         <xsl:text>Art. </xsl:text>
                                         <xsl:value-of select="//imprint/biblScope[@unit = 'article']"/>
                                     </biblScope>
-                                    <xsl:if test="contains(//idno[@type = 'ddb-filename'][ancestor::TEI[parent::TEI]], '_')">
+                                    <xsl:if test="contains(., '_')">
                                         <biblScope n="4" type="number">
                                             <xsl:text>Nr. </xsl:text>
                                             <xsl:value-of select=".//idno[@type = 'ddb-filename']/string() ! substring-after(., '_')"/>
@@ -285,15 +288,23 @@
                                 </bibl>
                             </listBibl>
                         </div>
-                        <xsl:if test=".//text/body/div[@type = 'commentary']">
-                            <xsl:apply-templates select=".//text/body/div[@type = 'commentary']"/>
+                        <xsl:if test=".//text/body/div[@subtype = 'illustrations']">
+                            <xsl:apply-templates select=".//text/body/div[@subtype = 'illustrations']"/>
                         </xsl:if>
-                        <xsl:if test=".//text/body/div[@type = 'illustrations']">
-                            <xsl:apply-templates select=".//text/body/div[@type = 'illustrations']"
-                            />
+                        <xsl:if test=".//text/body/div[@subtype = 'otherPublications']">
+                            <xsl:apply-templates select=".//text/body/div[@subtype = 'otherPublications']"/>
+                        </xsl:if>
+                        <xsl:if test=".//text/body/div[@subtype = 'general']">
+                            <xsl:apply-templates select=".//text/body/div[@subtype = 'general']"/>
+                        </xsl:if>
+                        <xsl:if test=".//text/body/div[@subtype = 'translations']">
+                            <xsl:apply-templates select=".//text/body/div[@subtype = 'translations']"/>
                         </xsl:if>
                         <xsl:if test=".//text/body/div[@type = 'figure']">
                             <xsl:apply-templates select=".//text/body/div[@type = 'figure']"/>
+                        </xsl:if>
+                        <xsl:if test=".//text/body/div[@subtype = 'corrections']">
+                            <xsl:apply-templates select=".//text/body/div[@subtype = 'corrections']"/>
                         </xsl:if>
                     </body>
                 </text>
@@ -311,7 +322,7 @@
             <xsl:variable name="tm" as="element()" select="descendant::idno[@type = 'filename']"/>
             <xsl:variable name="outputFolder" select="xs:integer($tm div 1000) + 1"/>
             <!--NB: confirm location of the output folder on the local directory tree for xsl:result-document-->
-            <xsl:result-document href="../../GitHub/papyri/idp.data/DCLP/{$outputFolder}/{$tm}.xml" method="xml">
+            <xsl:result-document href="../../../../../GitHub/papyri/idp.data/DCLP/{$outputFolder}/{$tm}.xml" method="xml">
                 <xsl:processing-instruction name="xml-model">href="https://epidoc.stoa.org/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
                 <TEI xml:lang="en">
                     <xsl:attribute name="xml:id">
@@ -325,7 +336,7 @@
                         <revisionDesc>
                             <change>
                                 <xsl:attribute name="when">
-                                    <xsl:value-of select="current-date()"/>
+                                    <xsl:value-of select="$when"/>
                                 </xsl:attribute>
                                 <xsl:attribute name="who">
                                     <xsl:text>DCLP</xsl:text>
@@ -385,7 +396,7 @@
             <xsl:variable name="ddbVolume" as="xs:string" select="descendant::publicationStmt/idno[@type = 'ddb-hybrid']/(tokenize(., ';'))[2]"/>
             <xsl:variable name="ddbFilename" as="element()" select="descendant::idno[@type = 'filename']"/>
             <!--NB: confirm location of the output folder on the local directory tree for xsl:result-document-->
-            <xsl:result-document href="../../GitHub/papyri/idp.data/DDB_EpiDoc_XML/{$ddbSeries}/{concat($ddbSeries, '.', $ddbVolume)}/{$ddbFilename}.xml" method="xml">
+            <xsl:result-document href="../../../../../GitHub/papyri/idp.data/DDB_EpiDoc_XML/{$ddbSeries}/{concat($ddbSeries, '.', $ddbVolume)}/{$ddbFilename}.xml" method="xml">
             <xsl:processing-instruction name="xml-model">href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
             <TEI xml:lang="en">
                 <teiHeader>
@@ -394,7 +405,7 @@
                     <revisionDesc>
                         <change>
                             <xsl:attribute name="when">
-                                <xsl:value-of select="current-date()"/>
+                                <xsl:value-of select="$when"/>
                             </xsl:attribute>
                             <xsl:attribute name="who">DDbDP</xsl:attribute>
                             <xsl:text>Xwalk from Pylon</xsl:text></change>
@@ -418,7 +429,7 @@
         <xsl:for-each select="TEI/TEI[descendant::div[@type = 'translation']]">
             <xsl:variable name="tm" as="element()" select="descendant::idno[@type = 'TM']"/>
             <!--NB: confirm location of the output folder on the local directory tree for xsl:result-document-->
-            <xsl:result-document href="../../GitHub/papyri/idp.data/HGV_trans_EpiDoc/{$tm}.xml" method="xml">
+            <xsl:result-document href="../../../../GitHub/papyri/idp.data/HGV_trans_EpiDoc/{$tm}.xml" method="xml">
             <xsl:processing-instruction name="xml-model">href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
             <TEI xml:lang="en">
                 <teiHeader>
@@ -463,7 +474,7 @@
                     <revisionDesc>
                         <change>
                             <xsl:attribute name="when">
-                                <xsl:value-of select="current-date()"/>
+                                <xsl:value-of select="$when"/>
                             </xsl:attribute>
                             <xsl:attribute name="who">HGV</xsl:attribute>
                             <xsl:text>Xwalk from Pylon</xsl:text></change>
@@ -483,7 +494,19 @@
     <xsl:template match="lb">
         <xsl:text>&#xA;</xsl:text>
         <xsl:element name="lb">
-            <xsl:apply-templates select="@*[name() != 'xml:id']"/>
+            <xsl:apply-templates select="@*[name() != 'xml:id' and name() != 'facs']"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <!--
+    ================
+    Remove @status from <bibl>
+    ================
+    -->
+    <xsl:template match="bibl">
+        <xsl:text>&#xA;</xsl:text>
+        <xsl:element name="bibl">
+            <xsl:apply-templates select="node()|@*[name() != 'status' and name() != 'default']"/>
         </xsl:element>
     </xsl:template>
     
@@ -495,7 +518,7 @@
     <xsl:template match="milestone | p | ab">
         <xsl:text>&#xA;</xsl:text>
         <xsl:element name="{name()}">
-            <xsl:apply-templates select="node()|@*"/>
+            <xsl:apply-templates select="node()|@*[name() != 'part']"/>
         </xsl:element>
     </xsl:template>
 
