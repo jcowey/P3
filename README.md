@@ -1,17 +1,18 @@
 # P3
 This is a collection point for the Papyrological Publishing Platform (P3). It includes files and information about procedures, which are used for the production of the journal [Pylon](https://journals.ub.uni-heidelberg.de/index.php/pylon/index). 
 
-### Preparation of Pylon 5
-The collection of material for **Pylon 5 (2024)** can now, for convenience, be found [here in the form of a googlespreadsheet](https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3acCM/edit#gid=292994264)). May I please remind you to add information to the googlespreadsheet of any submissions that any of you may receive. That way we have a clear idea of how many articles we have for the volume. 
+### Preparation of Pylon 7
+The collection of material for **Pylon 7 (2024)** can now, for convenience, be found [here in the form of a googlespreadsheet](https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3acCM/edit?gid=1001634197#gid=1001634197)). May I please remind you to add information to the googlespreadsheet of any submissions that any of you may receive. That way we have a clear idea of how many articles we have for the volume. 
 
-There is now also a folder which contains all the submissions as they are received. These are in .docx format and can be downloaded by any member of the editorial board. They are available here: [folder in google - LP4tPoJ](https://drive.google.com/drive/folders/1DI8wMN1biiEjOBU2fg0vxDxucLP4tPoJ). May I please ask any editors who receive submsissions to upload them to this repository. That way all editors can look at any time at this folder and find the submissions that have come in.
+There is now also a folder which contains all the submissions as they are received. These are in .docx format and can be downloaded by any member of the editorial board. They are available here: [folder in google - LP4tPoJ](https://drive.google.com/drive/folders/1oAVpMJQRbV5QCCohetMong0HMsAhgjod). May I please ask any editors who receive submsissions to upload them to this repository. That way all editors can look at any time at this folder and find the submissions that have come in.
 
 - An announcement with the call for contributions may be viewed on the website of the journal: [see here](https://journals.ub.uni-heidelberg.de/index.php/pylon/announcement)
-- A deadline for submission for a Pylon 5 article should be **May 15, 2024** at the very latest. Even then if an article needs much attention and change it would probably have to be moved to Pylon 6.
-- Links to live files **as they appear in HTML** (PDFs also available, but the links are only accessible for signed up gitlab members) for the fifth volume of Pylon can be found in the folder: [pylon5ready](https://github.com/jcowey/P3/blob/master/pylon/pylon5ready/list.md)
+- A deadline for submission for a Pylon 7 article should be **March 7, 2025** at the very latest. Even then if an article needs much attention and change it would probably have to be moved to Pylon 8.
 
 ### Published volumes
 
+- **Pylon 6 (2024)**, published 2024-12-13, can be viewed at [Vol. 4 (2023)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/7236)
+- **Pylon 5 (2024)**, published 2024-07-11, can be viewed at [Vol. 4 (2023)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/7074)
 - **Pylon 4 (2023)**, published 2023-12-15, can be viewed at [Vol. 4 (2023)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6890)
 - **Pylon 3 (2023)**, published 2023-07-25, can be viewed at [Vol. 3 (2023)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6639)
 - **Pylon 2 (2022)**, published 2022-12-21, can be viewed at [Vol. 2 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6300)
