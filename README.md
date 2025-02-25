@@ -11,8 +11,8 @@ There is now also a folder which contains all the submissions as they are receiv
 
 ### Published volumes
 
-- **Pylon 6 (2024)**, published 2024-12-13, can be viewed at [Vol. 4 (2023)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/7236)
-- **Pylon 5 (2024)**, published 2024-07-11, can be viewed at [Vol. 4 (2023)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/7074)
+- **Pylon 6 (2024)**, published 2024-12-13, can be viewed at [Vol. 6 (2024)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/7236)
+- **Pylon 5 (2024)**, published 2024-07-11, can be viewed at [Vol. 5 (2024)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/7074)
 - **Pylon 4 (2023)**, published 2023-12-15, can be viewed at [Vol. 4 (2023)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6890)
 - **Pylon 3 (2023)**, published 2023-07-25, can be viewed at [Vol. 3 (2023)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6639)
 - **Pylon 2 (2022)**, published 2022-12-21, can be viewed at [Vol. 2 (2022)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6300)
