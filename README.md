@@ -8,6 +8,7 @@ There is now also a folder which contains all the submissions as they are receiv
 
 - An announcement with the call for contributions may be viewed on the website of the journal: [see here](https://journals.ub.uni-heidelberg.de/index.php/pylon/announcement)
 - A deadline for submission for a Pylon 7 article should be **March 7, 2025** at the very latest. Even then if an article needs much attention and change it would probably have to be moved to Pylon 8.
+- The deadline in March is early, because we want to publish in May and November, rather than July and December. That way we hope to involve the University Library as little as possible in the period leading up to Christmas.
 
 ### Published volumes
 
