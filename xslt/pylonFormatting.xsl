@@ -78,7 +78,7 @@
   <xsl:template match="p">
     <p>
       <xsl:apply-templates select="@*[name() != 'style']"/>
-      <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates select="node()[not(self::ref) or self::ref[@*]]"/>
     </p>
   </xsl:template>
   <xsl:template match="p/text() | bibl/text() | head/text() | cell/text()">
