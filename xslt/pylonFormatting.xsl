@@ -74,6 +74,9 @@
     ================
     Dimensions x => × 
     ================
+    ================
+    Add whitespace before uncombined underdot characters 
+    ================
   -->
   <xsl:template match="p">
     <p>
@@ -82,7 +85,7 @@
     </p>
   </xsl:template>
   <xsl:template match="p/text() | bibl/text() | head/text() | cell/text()">
-    <xsl:analyze-string select="." regex="\d-\d">
+    <xsl:variable name="processed"><xsl:analyze-string select="." regex="\d-\d[^A-Za-z]">
       <xsl:matching-substring>
         <xsl:analyze-string select="replace(., '-', '–')" regex="\sx\s">
           <xsl:matching-substring>
@@ -103,7 +106,11 @@
           </xsl:non-matching-substring>
         </xsl:analyze-string>
       </xsl:non-matching-substring>
-    </xsl:analyze-string>
+    </xsl:analyze-string></xsl:variable>
+    <xsl:value-of select="replace($processed, '([^A-Za-zαβγδεϛζηθικλμνοξπρστυφχψωϙᾳῳῃΑΒΓΔΕΖΗΘΙΚΛΜΝΟΞΠΡΣΤΥΦΧΨΩϘϚϠϡάὰᾶἀἁἄἅἂἆἇέὲἐἑἔἔἕἒἓίὶῖἰἱἴἵἲἳἶἶόὸὀὁὄὅὂὃύὺῦὐὑὔὕὒὓὖὗήὴῆἠἡἤἥἢἣἦἧῇώὼῶὠὡὤὥὢὣὦὧῷΆᾺἈἉἌἍἊἋἎἏΈῈἘἙἜἝἚἛΊῚἸἹἼἽἺἻἾἿΌῸὈὉὌὍὊὋΎῪΉῊἨἩἬἭἪἫἮἯΏῺὨὩὬὭὪὫὮὯῬῥ])&#x0323;', '$1 &#x0323;')"/> 
+    
+    
+    
   </xsl:template>
 
   <!--
@@ -177,6 +184,7 @@
   <!--
     ================
     Reorder ref before p in div[@type='commentary']
+    Add @target (without hyphen) that points to an approximate @xml:id (any div/@n values will not be found)
     ================
   -->
 
@@ -187,9 +195,10 @@
   </xsl:template>
 
   <xsl:template match="div[@type = 'commentary']/note">
+    <xsl:variable name="ed" select="substring-after(../preceding-sibling::div[@type = 'edition']/@copyOf, '#')"/>
     <note>
       <xsl:attribute name="target">
-        <xsl:value-of select="concat(substring-after(../preceding-sibling::div[@type = 'edition']/@copyOf, '#'), 'ln', string(p/ref[not(@*)]))"/>
+        <xsl:value-of select="concat('#', $ed, 'ln', tokenize(p/ref[not(@*)],'–')[1])"/>
       </xsl:attribute>
       <xsl:apply-templates select=".//ref[not(@*)]"/>
       <xsl:apply-templates select="p"/>
