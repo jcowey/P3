@@ -29,17 +29,17 @@
 
   <xsl:template match="seg[@style = 'font-style: italic;']">
     <emph rend="italics">
-      <xsl:apply-templates select=". ! normalize-space()"/>
+      <xsl:apply-templates/>
     </emph>
   </xsl:template>
   <xsl:template match="seg[@style = 'font-weight: bold;']">
     <emph rend="bold">
-      <xsl:apply-templates select=". ! normalize-space()"/>
+      <xsl:apply-templates/>
     </emph>
   </xsl:template>
   <xsl:template match="seg[@style = 'text-decoration: underline;']">
     <emph rend="underlined">
-      <xsl:apply-templates select=". ! normalize-space()"/>
+      <xsl:apply-templates/>
     </emph>
   </xsl:template>
 
