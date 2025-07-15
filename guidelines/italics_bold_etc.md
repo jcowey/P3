@@ -1,6 +1,6 @@
 # Italics, bold, ...
 
-https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/local_transformations/text_p3_attributeValues_misc.xsl#L60-90
+https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/local_transformations/text_p3_attributeValues_misc.xsl#L60-98
 
 - `<emph rend="italics">ekdosimon</emph>`
 - `<emph rend="bold">Important</emph>`
