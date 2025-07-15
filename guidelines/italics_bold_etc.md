@@ -2,6 +2,8 @@
 
 https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/local_transformations/text_p3_attributeValues_misc.xsl#L60-98
 
+## `<emph rend="xxx">`
+
 - `<emph rend="italics">ekdosimon</emph>`
 - `<emph rend="bold">Important</emph>`
 - `<emph rend="underlined">Stadt</emph>`
