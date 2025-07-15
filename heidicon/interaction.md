@@ -18,7 +18,7 @@
   - The word Detail has now changed to Editor
   - Now about two thirds of the way down the screen there are boxes marked Gegenstand/Werk Aufnahmen Beziehungen Erschließung
   - Choose Aufnahmen and click on it
-  - Where the image can be seen there are three vertical dots, click on it and choose the first in the list Hochladen and click on it
+  - Where the image can be seen there are three vertical dots, click on it and choose the first in the list `Datei Hochladen` and click on it
   - Now choose the target file from you computer and double click on it. 
   - Once the loading process is finished click on Speichern (bottom right hand corner)
 
