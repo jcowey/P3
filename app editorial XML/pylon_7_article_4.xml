@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pylon 7 Article 4</title>
+            </titleStmt>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <ab/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="corrections">
+                <list>
+                    <item n="1"><!-- Datei 1 -->
+                        <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/sb.kopt/sb.kopt.4/sb.kopt.4.1807.xml"/>
+                        <list type="replacments">
+                            <item n="1">
+                                <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/sb.kopt/sb.kopt.4/sb.kopt.4.1807.xml#//ab/node()[preceding-sibling::lb[@n='17']]/ab"/>
+                                <p change="replacement">
+                                    <lb n="18"/><handShift new="m3"/><app type="editorial"><lem resp="S. Kovarik, Pylon 7 (2025) 4 §5"><supplied reason="lost"><g type="stauros"/> δι’ ἐμ</supplied><unclear>οῦ</unclear> <supplied reason="lost">Ἰωάν</supplied><unclear>νου</unclear> υἱ<unclear>οῦ</unclear></lem><rdg><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>υ</unclear></rdg></app> Φῖβ ἐγράφη <g type="stauros"/><g type="stauros"/>
+                                </p>
+                            </item>
+                        </list>
+                    </item>
+                    
+                    <item n="2"><!-- Datei 2 -->
+                        <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/p.ross.georg/p.ross.georg.3/p.ross.georg.3.9.xml"/>
+                        <list type="replacments">
+                            <item n="1">
+                                <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/p.ross.georg/p.ross.georg.3/p.ross.georg.3.9.xml#//ab/node()[preceding-sibling::lb[@n='8']][following-sibling::lb[@n='9']]"/>
+                                <p change="replacement">
+                                    <lb n="8"/>ὁ τοῦ <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §12"><unclear>Φ</unclear>λαυίου</lem><rdg><unclear>Σ</unclear><supplied reason="lost">ε</supplied>λευίου</rdg></app> καὶ Ἄγαθος ὁ ἡμέτερος ἅμα τοῖς 
+                                </p>
+                            </item>
+                            <item n="2">
+                                <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/p.ross.georg/p.ross.georg.3/p.ross.georg.3.9.xml#//ab/node()[preceding-sibling::lb[@n='18']][following-sibling::lb[@n='20']]"/>
+                                <p change="replacement">
+                                    <lb n="18"/>οἴνου <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §18"><choice><reg>χρύσινον</reg><orig>χρυσίνων</orig></choice></lem><rdg>χρυσίνων</rdg></app> <num value="4">τεσσάρων</num> <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §18"><choice><reg>διζῴδον</reg><orig>διζόͅτων</orig></choice></lem><rdg><choice><reg>διζῴδων</reg><orig>διζόͅτων</orig></choice></rdg></app> <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §18"><choice><reg>παλαιοχάρακτον</reg><orig>παλεοχαράκτων</orig></choice></lem><rdg><choice><reg>παλαιοχαράκτων</reg><orig>παλεοχαράκτων</orig></choice></rdg></app>, 
+                                    
+                                    <lb n="19"/><app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §17">ἕνα</lem><rdg>ἵνα</rdg></app> <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §22"><choice><reg><app type="alternative"><lem>προτρέψομαι</lem><rdg>προτρέπομαι</rdg></app></reg><orig>προτρέψημαι</orig></choice></lem><rdg>προτρέψῃ με</rdg></app> ἐν τούτῳ πυκνῶς <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §24"><choice><reg>τὴν</reg><orig>τῇ</orig></choice></lem><rdg>τῇ</rdg></app> <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §24"><choice><reg>λογιότητά</reg><orig>λογιότητί</orig></choice></lem><rdg>λογιότητί</rdg></app> 
+                                </p>
+                            </item>
+                            <item n="3">
+                                <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/p.ross.georg/p.ross.georg.3/p.ross.georg.3.9.xml#//ab/node()[preceding-sibling::lb[@n='22']][following-sibling::lb[@n='23']]"/>
+                                <p change="replacement">
+                                    <lb n="22" break="no"/>νοια <choice><reg>διαφυλάξειεν</reg><orig>διαφυλάξιεν</orig></choice> <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §7">εὐτελῆ</lem><rdg>εὐπετῆ</rdg></app> βίον 
+                                </p>
+                            </item>
+                        </list>
+                    </item>
+                    
+                    
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>
