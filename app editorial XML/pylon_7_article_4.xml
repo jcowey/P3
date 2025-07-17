@@ -21,7 +21,7 @@
                         <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/sb.kopt/sb.kopt.4/sb.kopt.4.1807.xml"/>
                         <list type="replacments">
                             <item n="1">
-                                <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/sb.kopt/sb.kopt.4/sb.kopt.4.1807.xml#//ab/node()[preceding-sibling::lb[@n='18']]/ab"/>
+                                <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/sb.kopt/sb.kopt.4/sb.kopt.4.1807.xml#//ab/node()[preceding-sibling::lb[@n='18']]/ab"/>  !-- no, will have to be sorted --!
                                 <p change="replacement">
                                     <lb n="18"/><handShift new="m3"/><app type="editorial"><lem resp="S. Kovarik, Pylon 7 (2025) 4 §5"><supplied reason="lost"><g type="stauros"/> δι’ ἐμ</supplied><unclear>οῦ</unclear> <supplied reason="lost">Ἰωάν</supplied><unclear>νου</unclear> υἱ<unclear>οῦ</unclear></lem><rdg><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>υ</unclear></rdg></app> Φῖβ ἐγράφη <g type="stauros"/><g type="stauros"/>
                                 </p>
