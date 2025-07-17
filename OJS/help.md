@@ -75,6 +75,7 @@ Cf. https://www.ub.uni-heidelberg.de/service/pdf/OJS3-Handreichung.pdf (pages 16
 Before the galleys can be uploaded, the following steps have to be taken.
 - Load all the XML files into the relevant file of 
 - https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/tree/main/epidoc
+  - The files must be renamed to `\d+.xml`, where `\d+` is the DOI six digit number.
   - When making the commit it is helpful to type "Added \d+ (OJS number of the file you are uploading) as new file. That will help to identify it in the list at https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/pipelines
 - Make sure that all HTMLs and PDFs are doing what they should do.
   - https://digi.ub.uni-heidelberg.de/editionService/viewer/pylon/89306
