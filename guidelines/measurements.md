@@ -1,6 +1,6 @@
 * Measurements
 
-  |Language|form1|form2|word1|word2|
+  |Language|how|how|Height|Width|
   |--------|--------|--------|--------|--------|
   |English|(h)|(w)|height|width|
   |Deutsch|(H)|(B)|Höhe|Breite|
