@@ -55,7 +55,7 @@ The galleys can be prepared in advance. Click on Add galley.
   - HTML
   - PDF images embedded
   - PDF images appended
-  - XML (EpiDoc) download
+  - XML (EpiDoc) download (choose TEI Source Document)
   
 # How to add the relevant DOI.
 
@@ -93,6 +93,7 @@ Before the galleys can be uploaded, the following steps have to be taken.
 - Now return to OJS and for each and every submission upload the relevant files (yes both HTML and PDF) from your desktop. (mindblowingly non automatic, but that is the way it is under OJS 3.2)
 - When in the galleys choose "Change file" to upload
 - In "Article Component" choose "Article Text"
+- For "XML EpiDoc download" in "Article Component" choose "TEI Source Document"
 
 # How to do the final stage of publishing
 
