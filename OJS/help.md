@@ -52,9 +52,9 @@ The galleys can be prepared in advance. Click on Add galley.
 - Choose Article Text
 - Click on cancel if not uploading immediately
 - Now do the same for PDF
-  - HTML
-  - PDF images embedded
-  - PDF images appended
+  - HTML (choose Article Text)
+  - PDF images embedded (choose Article Text)
+  - PDF images appended (choose Article Text)
   - XML (EpiDoc) download (choose TEI Source Document)
   
 # How to add the relevant DOI.
