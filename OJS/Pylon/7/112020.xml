@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>An 8th-Century Heracleopolite <emph rend="italics">compromissum</emph> from the Bodleian Library</title>
+            <title xml:lang="en">An 8th-Century Heracleopolite <emph rend="italics">compromissum</emph> from the Bodleian Library</title>
             <author>
                <name>
                   <forename>Sophie</forename>
@@ -36,6 +36,7 @@
               </availability>
               <idno ana="hc:PrivateIdentifier">pylon.7.4</idno>
               <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.7.112020</idno>
+             <idno ana="hc:PrivateIdentifier">97398</idno>
           </publicationStmt>
           <sourceDesc>
               <bibl ana="hc:RecommendedBibliographicReference">S. Kovarik, “An 8th-Century Heracleopolite compromissum from the Bodleian Library,” Pylon 7 (2025) Article 4. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2025.7.112020">https://doi.org/10.48631/pylon.2025.7.112020</ref>.</bibl>

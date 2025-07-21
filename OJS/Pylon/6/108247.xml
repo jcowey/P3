@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Another Instance of <emph rend="italics">Τherapeuteria</emph> in the Papyri? </title>
+            <title xml:lang="en">Another Instance of <emph rend="italics">Τherapeuteria</emph> in the Papyri? </title>
             <author>
                <name>
                   <forename>Nikos</forename>
@@ -36,6 +36,7 @@
             </availability>
             <idno ana="hc:PrivateIdentifier">pylon.6.2</idno>
             <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2024.6.108247</idno>
+            <idno ana="hc:PrivateIdentifier">97062</idno>
          </publicationStmt>
          <sourceDesc>
             <bibl ana="hc:RecommendedBibliographicReference">N. Litinas, “Another Instance of <emph rend="italics">Τherapeuteria</emph> in the Papyri?,” Pylon 6 (2024) Article 2. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2024.6.108247">https://doi.org/10.48631/pylon.2024.6.108247</ref>.</bibl>

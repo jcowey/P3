@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Macedonias and Other Toponyms from the Panopolite Nome</title>
+                <title xml:lang="en">Macedonias and Other Toponyms from the Panopolite Nome</title>
                 <author>
                     <persName>
                         <forename>Dan</forename>
@@ -37,6 +37,7 @@
                 </availability>
                 <idno ana="hc:PrivateIdentifier">pylon.6.5</idno>
                 <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2024.6.108250</idno>
+                <idno ana="hc:PrivateIdentifier">97065</idno>
             </publicationStmt>
             <sourceDesc>
                 <bibl ana="hc:RecommendedBibliographicReference">D. Deac, “Macedonias and Other Toponyms from the Panopolite Nome,” Pylon 6 (2024) Article 5. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2024.6.108250">https://doi.org/10.48631/pylon.2024.6.108250</ref>.</bibl>
@@ -198,7 +199,7 @@
                 <publicationStmt>
                     <authority>Papyri.info</authority>
                     <idno type="TM">999648</idno>
-                    <idno type="HGV">999648</idno>
+                    <idno type="filename">999648</idno>
                     <idno type="ddb-filename">pylon.6.5</idno>
                     <idno type="ddb-hybrid">pylon;6;5</idno>
                 </publicationStmt>

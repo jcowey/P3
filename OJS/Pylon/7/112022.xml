@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wohnen im spätantiken Arsinoe: ein neuer Mietvertrag</title>
+            <title xml:lang="de">Wohnen im spätantiken Arsinoe: ein neuer Mietvertrag</title>
             <author>
                <name>
                   <forename>Micha</forename>
@@ -36,6 +36,7 @@
             </availability>
             <idno ana="hc:PrivateIdentifier">pylon.7.6</idno>
             <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.7.112022</idno>
+            <idno ana="hc:PrivateIdentifier">97400</idno>
          </publicationStmt>
          <sourceDesc>
             <bibl ana="hc:RecommendedBibliographicReference">M. Teufel, “Wohnen im spätantiken Arsinoe: ein neuer Mietvertrag,” Pylon 7 (2025) Article 6. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2025.7.112022">https://doi.org/10.48631/pylon.2025.7.112022</ref>.</bibl>
