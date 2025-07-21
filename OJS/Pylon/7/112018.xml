@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Three Homeric <emph rend="italics">Descripta</emph> from Karanis</title>
+            <author>
+               <name>
+                  <forename>C. Michael</forename>
+                  <surname>Sampson</surname>
+               </name>
+               <affiliation>University of Manitoba</affiliation>
+               <email>mike.sampson@umanitoba.ca</email>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/104985960X</idno>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0002-2438-7102</idno>
+            </author>
+            <author>
+               <name>
+                  <forename>T. Mae</forename>
+                  <surname>Sawatzky</surname>
+               </name>
+               <email>mae.i.see.jesus@gmail.com</email>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0009-0001-4645-5153</idno>
+            </author>
+            <author>
+               <name>
+                  <forename>Colin</forename>
+                  <surname>Shields</surname>
+               </name>
+               <email>colin.m.shields@gmail.com</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2025-04-29</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>
+                    <orgName>Propylaeum</orgName>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+                </publisher>
+                <pubPlace>
+                    <placeName>Heidelberg</placeName>
+                    <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+                </pubPlace>
+                <date when="2025">2025</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno ana="hc:PrivateIdentifier">pylon.7.1</idno>
+                <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.7.112017</idno>
+                <idno ana="hc:PrivateIdentifier">97293</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl ana="hc:RecommendedBibliographicReference">C.M. Sampson, C. Shields, and T.M. Sawatzky “Three Homeric <emph rend="italics">Descripta</emph> from Karanis,” Pylon 7 (2025) Article 1. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2025.7.112017">https://doi.org/10.48631/pylon.2025.7.112017</ref>.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title level="j" ana="hc:MainTitle">Pylon</title>
+                        <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                        <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                        <imprint>
+                            <biblScope unit="volume">7</biblScope>
+                            <biblScope unit="article">1</biblScope>
+                            <date when="2025">2025</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2025-04-29T17:25:36Z</date>
+               <name>Mike Sampson</name>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Three Homeric <emph rend="italics">Descripta</emph> from Karanis</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">Responsibility for this article’s contents was distributed as follows: Sawatzky and Shields prepared the editions of P.Fay. 141 descr. and P.Vindob. G 19768, respectively, as part of their MA training at the University of Manitoba. Sampson supervised them and edited P.Vindob. G 19791 + 19794. We are grateful to Michelle Fontenot (University of Michigan Kelsey Museum of Archaeology), Lucy Smith and Richard Allen (Magdalen College Archives), Bernhard Palme and Claudia Kreuzsaler (ÖNB Papyrussammlung), and Francesca Maltomini (Instituto Papirologico ‘G. Vitelli’). Quotations from the Papers of David George Hogarth (1860s–2017), which are now in the Magdalen College Archives (<ref target="https://archive-cat.magd.ox.ac.uk/records/MCA/P/452">P452</ref>), are published by kind permission of the President and Fellows, Magdalen College. Financial support for the research was provided by the Social Sciences and Humanities Research Council of Canada as part of the research project ‘<ref target="https://twitter.com/karanisbooks">the Books of Karanis</ref>’.</note>
+            <div type="section">
+               <head>1. P.Fay. 141 descr. (<emph rend="italics">Il</emph>. 1.273–362)</head>
+               <p xml:id="p1">
+                  <ref target="https://papyri.info/dclp/60315">P.Fay. 141 descr.</ref> (TM 60315; LDAB 1436; MP3 596) was unearthed by Said Achmet at Kom Aushim on 3 January 1896, towards the end of the first phase of Bernard P. Grenfell and David G. Hogarth’s pioneering excavations for the Egypt Exploration Fund (EEF).<note place="foot" xml:id="ftn1" n="1">
+                     <p> On the 1895/6 EEF excavations at Kom Aushim, which ran in two phases (24 December 1895–4 January 1896 and 23–29 February 1896), see <ref target="https://papyri.info/biblio/15202">Davoli 1998</ref>: 74–76, <ref target="https://papyri.info/biblio/65966">Montserrat 1996</ref>, <ref target="https://papyri.info/biblio/96272">Sampson 2022</ref>, and <ref target="https://papyri.info/biblio/96751">Sampson 2023</ref>: 442–445. Arthur S. Hunt arrived only on 16 January 1896: see <ref target="https://papyri.info/biblio/96072">Hogarth and Grenfell 1895–6</ref>: 18. The EEF was renamed in 1919 as the Egypt Exploration Society (EES). Although Hogarth and Grenfell employed workers from el-Lahun who had been trained by Petrie, it does not appear that Said Achmet was one of them: the name is absent from the lists assembled by <ref target="https://papyri.info/biblio/97072">Quirke 2010</ref>: 227–234.</p>
+                  </note> Hogarth’s daybook records the discovery as follows: “In chamber next (E.) of plastered room Said Achmet found fragments of Homer. Abdullah just S. of pylon, nothing. Mahmud to W. of him a red vase… All these at floor level.”<note place="foot" xml:id="ftn2" n="2">
+                     <p> Daybook for 3 January 1896 (<ref target="https://archive-cat.magd.ox.ac.uk/records/MCA/P/452">P452</ref>/ARC/3/3). Cf. the slight chronological discrepancy recorded in David G. Hogarth to Laura V. Hogarth, 4 January 1896: “But all know it’s papyrus we want. Today a bit of Homer rewarded us. Yesterday it was a bit of some attic orator.” <ref target="https://archive-cat.magd.ox.ac.uk/records/MCA/P/452">P452</ref>/PER/2/2/2. Cf. <ref target="https://papyri.info/biblio/96072">Hogarth and Grenfell 1895–6</ref>: 16 and P.Cair.Cat. 10217 descr., which specifies the date and acquisition as “1896 (Hogarth-Grenfell).” </p>
+                  </note> The plastered room which provides the reference point is described in previous daybook entries as a chamber to the southeast of the temple, full of wood, twigs, and remains of mats,<note place="foot" xml:id="ftn3" n="3">
+                     <p> Daybook for 1 January 1896 (<ref target="https://archive-cat.magd.ox.ac.uk/records/MCA/P/452">P452</ref>/ARC/3/3).</p>
+                  </note> where “two oatmeal boxes full” of papyrus scraps had previously been discovered.<note place="foot" xml:id="ftn4" n="4">
+                     <p> Daybook for 27 December 1895 (<ref target="https://archive-cat.magd.ox.ac.uk/records/MCA/P/452">P452</ref>/ARC/3/3). Cf. Daybook for 29 December 1895 (<ref target="https://archive-cat.magd.ox.ac.uk/records/MCA/P/452">P452</ref>/ARC/3/3): “Put two onto papyrus chamber, but nothing more found, &amp; evidently only in top rubbish.”</p>
+                  </note> In his daybook, Hogarth elsewhere remarks upon that room’s rough frescoes and “large remains of roof.”<note place="foot" xml:id="ftn5" n="5">
+                     <p> Daybook for 2 January 1896 (<ref target="https://archive-cat.magd.ox.ac.uk/records/MCA/P/452">P452</ref>/ARC/3/3). Cf. the entry for 28 February 1896, which refers back to these frescoes in describing a house on the north side of the <emph rend="italics">kôm</emph>: “One chamber had rude fresco of Christ with two bulls supporting, &amp; two female? saints below. very bad art &amp; colour, &amp; rather like the frescoes near entrance of Temple. Must try tracing them tomorrow. Little or no ‘avsh’ in these chambers &amp; no pap. so useless to continue.”</p>
+                  </note> Homer was not the last of the papyri found in this part of the temple precinct; in the final days of the season, there emerged “a few more inscribed sherds &amp; bits of pap.”<note place="foot" xml:id="ftn6" n="6">
+                     <p> Daybook for 27 February 1896 (<ref target="https://archive-cat.magd.ox.ac.uk/records/MCA/P/452">P452</ref>/ARC/3/3). </p>
+                  </note> as well as “a tax-receipt &amp; a good deal of Byzantine pap. fragments.”<note place="foot" xml:id="ftn7" n="7">
+                     <p> Daybook for 28 February 1896 (<ref target="https://archive-cat.magd.ox.ac.uk/records/MCA/P/452">P452</ref>/ARC/3/3); see also P.Fay.: p. 31. The tax receipt is more likely to be <ref target="https://papyri.info/hgv/35147">P.Fay. 143</ref> than <ref target="https://papyri.info/hgv/28610">P.Fay. 69</ref> or <ref target="https://papyri.info/hgv/28611">P.Fay. 70</ref>; the edition of <ref target="https://papyri.info/hgv/28610">P.Fay. 69</ref> indicates that it was found together with <ref target="https://papyri.info/hgv/28611">P.Fay. 70</ref>. </p>
+                  </note>
+               </p>
+               <p xml:id="p2">A collation of Hogarth’s notes, the plan of the temple precinct he published (<ref target="https://digi.ub.uni-heidelberg.de/editionService/viewer/p3test/sampson_shields_sawatzky_homer#fig1">Figure 1</ref>), and the plan of the precinct subsequently produced by the University of Michigan excavations (<ref target="https://digi.ub.uni-heidelberg.de/editionService/viewer/p3test/sampson_shields_sawatzky_homer#fig2">Figure 2</ref>) indicates that the structure which yielded the <emph rend="italics">Iliad</emph> papyrus was the <emph rend="italics">deipneterion</emph>, whose lintel bore an inscription from the reign of Vespasian identifying it as such.<note place="foot" xml:id="ftn8" n="8">
+                     <p> The inscription is <ref target="https://www.trismegistos.org/text/41652">I.Fayoum 87</ref>. Early entries in Hogarth’s daybook refer to the Vespasianic Gate (as does P.Fay.: Plate II): the inscription’s date was evidently legible, even though text otherwise proved a challenge. The daybook entry for 29 December 1895, for example, includes the remark “Squeezed Vespasian erasure” (<ref target="https://archive-cat.magd.ox.ac.uk/records/MCA/P/452">P452</ref>/ARC/3/3). </p>
+                  </note> That doorway is labelled ‘Gate of Vespasian’ in <ref target="https://digi.ub.uni-heidelberg.de/editionService/viewer/p3test/sampson_shields_sawatzky_homer#fig1">Figure 1</ref>: in the nomenclature of the Michigan dig, the <emph rend="italics">deipneterion</emph> is T4.<note place="foot" xml:id="ftn9" n="9">
+                     <p> See <ref target="https://papyri.info/biblio/3116">Boak 1933</ref>: 41.</p>
+                  </note>
+               </p>
+               <figure xml:id="fig1">
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23956738"/>
+                  <head>Figure 1: Hogarth’s Plan of the Temple Precinct (P.Fay. Plate II).</head>
+               </figure>
+               <figure xml:id="fig2">
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23956740"/>
+                  <head>Figure 2: Precinct of Temple of Pnepheros and Petesouchos, Level E (Kelsey Museum of Archaeology, University of Michigan).</head>
+               </figure>
+               <figure xml:id="fig3">
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23956742"/>
+                  <head>Figure 3: The east facade of the temple with gateway T3, forecourt T2 and the entrance to T4 (Kelsey Museum of Archaeology, University of Michigan, neg. no. 5.3311).</head>
+               </figure>
+               <figure xml:id="fig4">
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23956744"/>
+                  <head>Figure 4: Dec. 31 1929. Stone gateway to T4. View looking south. (Kelsey Museum of Archaeology, University of Michigan, neg. no. 5.3399).</head>
+               </figure><p xml:id="p3">That Hogarth’s daybook does not immediately describe the structure as a <emph rend="italics">deipneterion</emph> is no obstacle to this conclusion; the dedicatory inscription is badly damaged, especially in the third and fourth lines where the structure’s function is mentioned.<note place="foot" xml:id="ftn10" n="10">
+                     <p> See P.Fay.: p. 33. </p>
+                  </note> Only later in the 1895/6 season, evidently, was it fully analyzed.<note place="foot" xml:id="ftn11" n="11">
+                     <p> Hogarth’s daybook does not specifically mention a “dipniterion” until 27 February – the dig’s antepenultimate day of work (<ref target="https://archive-cat.magd.ox.ac.uk/records/MCA/P/452">P452</ref>/ARC/3/3).</p>
+                  </note> To the <emph rend="italics">deipneterion</emph>’s immediate west lay a chamber that was indeed notable for the plaster on its wall. When the University of Michigan excavations returned to the South Temple precinct in 1929, they designated this chamber T7, and recorded that one of its niches preserved no less than eighteen layers of plaster.<note place="foot" xml:id="ftn12" n="12">
+                     <p>
+                        <ref target="https://papyri.info/biblio/3116">Boak 1933</ref>: 38–39. On the archaeology of T7 see most recently Shields 2023: 34–43.</p>
+                  </note> Given the decades-long interval following the conclusion of Grenfell and Hogarth’s 1895/6 season, during which time the structure was not backfilled but remained exposed to the elements, the plaster’s preservation is remarkable. </p>
+               <p xml:id="p4">Grenfell and Hunt described the papyrus’ hand as a “good-sized round uncial”, and we may more accurately categorize it as a formal round of the rounded majuscule (or ‘Roman uncial’) type. Decent parallels are <ref target="https://papyri.info/dclp/60054">P.Oxy. 8 1090</ref> (late I) and especially <ref target="https://papyri.info/dclp/61330">P.Oxy. 5 844</ref> (mid I–mid II; see <ref target="https://digi.ub.uni-heidelberg.de/editionService/viewer/p3test/sampson_shields_sawatzky_homer#fig6">Figure 6</ref>).<note place="foot" xml:id="ftn13" n="13">
+                     <p> On the assignment of this papyrus to a date earlier than that published in P.Oxy. 5 (“earlier decades of the second”), see <ref target="https://papyri.info/biblio/46365">Cavallo 1967</ref>: 214.</p>
+                  </note> To a lesser extent, classic second-century examples of rounded majuscule such as <ref target="https://papyri.info/dclp/60507">P.Oxy. 1 20</ref> or the famous Hawara Homer (<ref target="https://papyri.info/dclp/60571">TM 60571</ref>) are also appropriate. The Karanis papyrus shares with the latter three parallels an elegant variation in the thickness of penstrokes. As in the parallel rolls, serifs adorn the bases of upright strokes on the Karanis papyrus, but the spacing of both its lines and especially the letters within them is somewhat compact. The letters’ ratio of width-to-height (i.e., their ‘modulus’) is also less uniformly square: alpha, lambda, and delta are somewhat upright and narrow. Of particular note is the ductus of epsilon, whose upper arm curves around clockwise to the point of touching the rightmost edge of the elevated middle arm, forming an eyelet and thereby hazarding confusion with theta. The script is on the whole less refined than classic examples of rounded majuscule and therefore probably earlier: Grenfell and Hunt assigned it to the first or second century, which we would revise slightly to the <emph rend="italics">late</emph> first or second century. </p>
+               <figure xml:id="fig5">
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23956746"/>
+                  <head>Figure 5: P.Fay. 141 descr.</head>
+               </figure>
+               <figure xml:id="fig6">
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23956748"/>
+                  <head>Figure 6: P.Oxy. 5 844 (MS Gr SM6162a. Houghton Library, Harvard University).</head>
+               </figure>
+               <p xml:id="p5">The papyrus survives in ca. 20 fragments preserving two partial columns from a roll of <emph rend="italics">Iliad</emph> 1.<note place="foot" xml:id="ftn14" n="14">
+                     <p> The papyrus has evidently deteriorated in the interval between its description by Grenfell and Hunt (which states that there are fourteen fragments) and the photography conducted by the International Photographic Archive of Papyri (IPAP), upon which our edition is based. On the genesis and conduct of IPAP’s work, which includes blanket permissions for the publication of <emph rend="italics">descripta</emph> it photographed, see <ref target="https://papyri.info/biblio/49421">Riad and Koenen 1973</ref>.</p>
+                  </note> Each of the extant columns almost certainly preserved forty-five lines of text: only a trio of lines from the vulgate are wholly lacunose, none of which are omitted in the mss. tradition. On the assumption that previous columns contained a similar number of lines, and allowing for the occasional omission or addition of lines, these were evidently the seventh and eighth columns of the roll: they begin with <emph rend="italics">Iliad</emph> 1.273 and 1.318, respectively. Apart from a single orthographic variant in the first extant line – μυ for μεo – the text is unremarkable. There are no scribal diacriticals, punctuation, or paratextual additions except for a possible scribal apostrophe in vii.5. With a single exception at the end of vii.22, iota adscript is written. Supplements to the text are drawn from the Teubner edition.<note place="foot" xml:id="ftn15" n="15">
+                     <p>
+                        <ref target="https://papyri.info/biblio/95464">West 1998</ref>.</p>
+                  </note>
+               </p>
+               <p xml:id="p6">After it was described by Grenfell and Hunt, the papyrus was returned to Cairo by the EEF, along with a great many others from both its Fayum season as well as the first three volumes of Oxyrhynchus papyri.<note place="foot" xml:id="ftn16" n="16">
+                     <p> P.Cair.Cat. p. viii.</p>
+                  </note> It was inventoried as P.Cair.Cat. (= CG) 10217, but was subsequently transferred to the Antiquities Museum of the Bibliotheca Alexandrina, where it now has the serial number 0520. </p>  
+               <div type="epidoc" subtype="DCLP">
+                  <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: left;">P.Fay. 141 descr. (= CG 10217)</cell>
+                     <cell style="text-align: left;"> 14.4 (h) × 13.3 (w)</cell>
+                     <cell style="text-align: right;"> Late I – II </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Bibliotheca Alexandrina Antiquities</cell>
+                     <cell style="text-align: center;"/>
+                     <cell style="text-align: right;">Karanis</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Museum Serial 0520</cell>
+                     <cell style="text-align: center;"/>
+                     <cell style="text-align: right;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"><ref target="http://ipap.csad.ox.ac.uk/4DLink4/4DACTION/IPAPwebquery?vPub=P.Fay.&amp;vVol=&amp;vNum=141">ipap.csad.ox.ac.uk</ref></cell>
+                     <cell style="text-align: center;"/>
+                     <cell style="text-align: right;"/>
+                  </row>
+               </table>
+                  <div copyOf="#ed1" type="edition"/>
+               </div>
+            </div>
+            <div type="section">
+               <head>2. P.Vindob. G 19768 (<emph rend="italics">Il</emph>. 8.436–461)</head>
+               <p xml:id="p7">On the handwritten inventory card Carl Wessely made for the catalogue in Vienna, <ref target="https://papyri.info/dclp/60326">P.Vindob. G 19768</ref> (= TM 60326; LDAB 1447; MP3 832) is described as follows: “Papyrus. Stammt aus den Funden Grenfells <emph rend="underlined">in Karanis</emph>, wurde 1896 von Wessely um je 1 £ Sterling (und einen Band Corpus Papyrorum Raineri I) für jedes Fragment gekauft, hierauf der erzherzoglichen Sammlung geschenkt. Unciale Schrift”.<note place="foot" xml:id="ftn17" n="17">
+                     <p> Cf. <ref target="https://papyri.info/biblio/95865">Gerstinger 1926</ref>: 90, #11, which is evidently based on Wessely’s inventory. </p>
+                  </note> It is not immediately clear which <emph rend="italics">Funde</emph> yielded the fragment. Given the date, one thinks immediately of the recently concluded 1895/6 EEF excavations at Kom Aushim (<ref target="#p1">discussed above</ref>), but it would have been uncharacteristic of Grenfell to distribute papyri that were not from his personal collection. Unless Wessely’s inventory records an inference on his part as opposed to the provenance supplied by Grenfell,<note place="foot" xml:id="ftn18" n="18">
+                     <p> If Wessely’s report is indeed an inference on his part, we must also admit that the assigned provenance to Karanis is subject to doubt.</p>
+                  </note> I assume rather that Grenfell acquired this papyrus on another occasion – either on his 1894 survey of the Fayum or during the April 1896 visit he paid to the site with Arthur S. Hunt, prior to their departure from Egypt at season’s end.<note place="foot" xml:id="ftn19" n="19">
+                     <p> On Grenfell’s previous survey, see Hogarth’s daybook for 28 February and 23 March 1894 (<ref target="https://archive-cat.magd.ox.ac.uk/records/MCA/P/452">P452</ref>/ARC/3/1); it is also mentioned by <ref target="https://papyri.info/biblio/96072">Hogarth and Grenfell 1895–6</ref>: 14. I owe the detail regarding Grenfell and Hunt’s April 1896 visit to Nick Gonis. </p>
+                  </note> The only evidence that the papyrus might have derived from the EEF excavations at Karanis is Hogarth’s passing reference in an article for <emph rend="italics">The Times</emph> to the “many scraps of Homer” they found there, which is incongruent with the fact that P.Fay. 141 descr. is the only Homeric papyrus from Karanis published in <emph rend="italics">Fayum Towns and their Papyri</emph>.<note place="foot" xml:id="ftn20" n="20">
+                     <p> D.G. Hogarth (1896) “Dead Cities of the Fayûm” <emph rend="italics">The Times</emph> (7 April), transcribed in <ref target="https://papyri.info/biblio/65966">Montserrat 1996</ref>: 171–175. For the quote see <ref target="https://papyri.info/biblio/65966">Montserrat 1996</ref>: 173.</p>
+                  </note> As part of the same 1896 Grenfell lot, Wessely purchased for the Vienna collection additional fragments of Homer at the same price.<note place="foot" xml:id="ftn21" n="21">
+                     <p> See further, below, and especially <ref target="#ftn32">fn. 32</ref>, where a date in the month of July is recorded.</p>
+                  </note>
+               </p>
+               <p xml:id="p8">Palaeography indicates that this papyrus originates in the same roll of <emph rend="italics">Iliad</emph> 8 as <ref target="https://papyri.info/dclp/60326">P.Grenf. 1 2 + P.Flor. 2 109</ref>, whose hand we date, with Gallazzi, to the first century CE.<note place="foot" xml:id="ftn22" n="22">
+                     <p> Gallazzi 1988: 61–62. </p>
+                  </note> Grenfell noted the archaic form of his fragment’s zeta but assigned a date in the first or second century, while Comparetti posited a range between that of the Herculaneum papyri and the first half of the second century.<note place="foot" xml:id="ftn23" n="23">
+                     <p> See P.Grenf. 1 2, p. 6; P.Flor. 2 109, p. 7: “La scrittura è una unciale piuttosto grande, ben formata e di mano assai buona ma libera e fluente fino a legare colla seguente, pel tratto mediano, le Α, Ε, Θ. Non vedrei ragione per assegnare una data di molto posterior ai papiri ercolanesi; si può pensare all prima metà del 2° sec.” For another related, but less regular hand, cf. also <ref target="https://digicoll.lib.berkeley.edu/record/231938">P.Tebt.Tin 01</ref> (I BCE – I CE).</p>
+                  </note> An excellent parallel which also features the archaic zeta and which justifies a somewhat earlier assigned date is <ref target="https://papyri.info/dclp/59199">PSI 15 1478</ref> (mid I BCE–mid I CE; see <ref target="https://digi.ub.uni-heidelberg.de/editionService/viewer/p3test/sampson_shields_sawatzky_homer#fig8">Figure 8</ref>).<note place="foot" xml:id="ftn24" n="24">
+                     <p> While the hand of the Vienna papyrus closely resembles that of <ref target="https://papyri.info/dclp/59199">PSI 15 1478</ref>, we do not feel the same way regarding the parallels Pernigotti cites to justify the I BCE – I CE date he assigns to that papyrus (i.e., <ref target="https://papyri.info/dclp/59053">P.Oxy. 21 2303</ref>, <ref target="https://papyri.info/dclp/59096">P.Oxy. 24 2387</ref>), and we are therefore reluctant similarly to extend our assignment into the first century BCE.</p>
+                  </note> Like <ref target="https://papyri.info/dclp/60315">P.Fay. 141 descr.</ref>, the Vienna papyrus’ script can be classified as an early example of what would become the rounded majuscule or ‘Roman uncial’ type.<note place="foot" xml:id="ftn25" n="25">
+                     <p> Although the letter forms are not especially regular, I would not label the hand as “informale rotunda”, as <ref target="https://papyri.info/biblio/59143">Gallazzi 1988</ref>: 62. </p>
+                  </note> Several palaeographical peculiarities (including the broad horizontals of epsilon, theta, and alpha, the arms of kappa that do not touch the letter’s hasta, and the diagonal of nu that begins above and beyond its left hasta) are all shared by the various fragments. Hypsilon is written in two straight diagonal strokes, like the lower-case letter ‘y’ in English. Gallazzi argued that the bookroll included both <emph rend="italics">Iliad</emph> 7 and 8,<note place="foot" xml:id="ftn26" n="26">
+                     <p> Cf. <ref target="https://papyri.info/biblio/59143">Gallazzi 1988</ref>: 60–61.</p>
+                  </note> to which point we would add only that the testimony of the Vienna papyrus, whose column ends with <emph rend="italics">Iliad</emph> 8.461, indicates that most of the ten columns separating it from the Oxford and Florence fragments contained thirty-three instead of thirty-four lines (barring further omissions). The testimony of Vienna’s inventory card is sufficient grounds for locating all of the fragments in Karanis.</p>
+               <figure xml:id="fig7">
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23956750"/>
+                  <head>Figure 7: P.Vindob. G 19768 (Österreichische Nationalbibliothek, Papyrussammlung).</head>
+               </figure>
+               <figure xml:id="fig8">
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23956752"/>
+                  <head>Figure 8: PSI 15 1478 (Florence, Istituto Papirologico ‘G. Vitelli’).</head>
+               </figure>
+               <p xml:id="p9">The various fragments constituting this roll are all ‘early’ acquisitions. The Oxford portion (P.Grenf. 1 2) is among the earliest of Grenfell’s purchases after arriving in Egypt – Hogarth probably saw it in the spring of 1894<note place="foot" xml:id="ftn27" n="27">
+                     <p> “Drove back with N. at 4.30 &amp; after tea with him at Shepheard’s went with Grenfell to see latter’s papyri: (bits of Homer, &amp; a Greek codex of Gospels ? bought of Faragh.” Daybook entry for 27 Mar. 1894 (<ref target="https://archive-cat.magd.ox.ac.uk/records/MCA/P/452">P452</ref>/ARC/3/1). See further <ref target="https://papyri.info/biblio/96272">Sampson 2022</ref>: §13, n. 40. A viewing by Hogarth in the spring of 1894 is compatible with the Preface of P.Grenf. I, dated 13 December 1895: “The papyri published in this volume were obtained by myself in the last two winters…” On Grenfell’s arrival in Egypt in January 1894 and his apprenticeship under Petrie, see <ref target="https://papyri.info/biblio/96217">Mazza 2022</ref>: 232–234.</p>
+                  </note> – while the Florentine papyrus (P.Flor. 2 109) was bought in 1903.<note place="foot" xml:id="ftn28" n="28">
+                     <p> So <ref target="https://papyri.info/biblio/59143">Gallazzi 1988</ref>: 60: “Nel 1908, entro il I fascicolo di P.Flor. II apparvero al nr. 109 due esigui frammenti di rotolo con Ilias Θ 62–5 e 106–14, i quali erano stati comprati cinque anni prima, al Cairo oppure a Gizeh, nell’ambito di una serie di acquisti compiuti da Vitelli, Schiapparelli e Breccia.” </p>
+                  </note> As was previously noted, Wessely purchased the Vienna fragment edited here directly from Grenfell in 1896. It is admittedly curious that different fragments from this palaeographically distinct roll passed through Grenfell’s hands on separate occasions, but that conclusion appears inescapable. The alternative hypothesis, that they were acquired together during Grenfell’s 1894 survey of Kom Aushim, requires that Grenfell either failed to connect (and publish) them immediately or somehow misplaced a fragment, only to rediscover it years later. Neither alternative seems particularly likely. It is preferable, then, to suppose that they were distinct acquisitions. Grenfell failed to recall a familiar hand for the simple reason that he was reading vast numbers of papyri in these years; yet another fragment of Homer was less likely to catch anything more than his passing attention, a supposition consistent with his willingness to part with it without first publishing the text, which was otherwise his typical practice. </p>
+               <p xml:id="p10">The Vienna fragment is notable for a few textual peculiarities. In <ref target="#ed2ln10">line 10</ref>, the scribe assimilated the final vowel of οὐδέ τι to οὐδέ τε, and (more unusually), appears to have written [οὕ]θω in <ref target="#ed2ln12">line 12</ref>, whose false aspiration violates Grassman’s law. Although Gignac notes the frequent interchange of theta and tau in the papyri, a sigma typically precedes;<note place="foot" xml:id="ftn29" n="29">
+                     <p>
+                        <ref target="https://papyri.info/biblio/8813">Gignac, Gram.</ref>: I.63–64, 84.</p>
+                  </note> his examples of false aspiration in composition, meanwhile, all involve prepositional prefixes.<note place="foot" xml:id="ftn30" n="30">
+                     <p>
+                        <ref target="https://papyri.info/biblio/8813">Gignac Gram.</ref>: I.136–137.</p>
+                  </note> The only parallel known to us is <ref target="https://papyri.info/ddbdp/p.lond;3;991">P.Lond. 3 991</ref>.22, where οὕθως is perhaps explained as a slip in anticipation of ὀρθῶς, which follows in the formula. Here, [οὕ]θω may similarly be attributed to the influence of τίφθ’, which immediately precedes. Iota adscript is written in <ref target="#ed2ln8">line 8</ref>, as elsewhere in the roll’s other fragments. Like <ref target="https://papyri.info/dclp/60725">P.Sorb. 1 3</ref> and P.Mich. inv. 5694d (<ref target="https://papyri.info/dclp/66091">TM 66091</ref>), the papyrus omits <emph rend="italics">Iliad</emph> 8.458. No scribal accents or punctuation can be discerned, which is consistent with the testimony of the roll’s other fragments, which preserve a mere trio of diaireseis. Supplements to the text are drawn from the Teubner edition.<note place="foot" xml:id="ftn31" n="31">
+                     <p>
+                        <ref target="https://papyri.info/biblio/95464">West 1998</ref>.</p>
+                  </note>
+               </p>
+               <div type="epidoc" subtype="DCLP">
+                  <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: left;">P.Vindob. G 19768</cell>
+                     <cell style="text-align: left;"> 16.8 (h) × 2.5 (w)</cell>
+                     <cell style="text-align: right;">I CE </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="http://data.onb.ac.at/rec/RZ00010399">data.onb.ac.at</ref>
+                     </cell>
+                     <cell style="text-align: center;"/>
+                     <cell style="text-align: right;">Karanis</cell>
+                  </row>
+               </table>
+                  <div copyOf="#ed2" type="edition"/>
+               </div>
+            </div>
+            <div type="section">
+               <head>3. P.Vindob. G 19791 + 19794 (<emph rend="italics">Il. </emph>10.41–57, 10.76–100, 10.103–112)</head>
+               <p xml:id="p11">In addition to the previous item (G 19768), Wessely also acquired further fragments of Homer from Grenfell in July 1896<anchor xml:id="Ref144991882"/>.<note place="foot" xml:id="ftn32" n="32">
+                     <p> So <ref target="https://papyri.info/biblio/3034">MPER N.S. 1 3</ref> (= II.–III.b): “Der Papyrus stammt aus den Ausgrabungen in Karanis und wurde 1896 von B. P. Grenfell um den Preis von 1 £ an unsere Sammlung verkauft”; see also <ref target="https://papyri.info/biblio/3889">MPER N.S. 3 1</ref>: “Der Papyrus wurde im Juli 1896 durch C. Wessely von B. P. Grenfell, der ihn in Karanis ausgegraben hatte, für die Sammlung angekauft.” These remarks correspond to Wessely's handwritten inventory cards: “Papyrus, gekauft und der Sammlung geschenkt von Wessely (1896 von Grenfell aus dessen Ausgrabungen in Karanis). Preis 1 £ Sterling” (G. 19791) and “Papyrus, gekauft um 1 £ Sterling von Wessely aus den Ausgrabungen von Grenfell in Karanis 1896” (G. 19794).</p>
+                  </note> They derive from a single roll (<ref target="https://papyri.info/dclp/60366">TM 60366</ref>; LDAB 1487; MP3 853), but were inventoried separately as P.Vindob. G 19791 and G 19794. The latter item consists of eight individual fragments. Their text is written against the fibers in a bilinear script which aspires to the Alexandrian majuscule.<note place="foot" xml:id="ftn33" n="33">
+                     <p> On this script, see especially <ref target="https://papyri.info/biblio/50557">Cavallo 1975</ref>.</p>
+                  </note> Particularly distinctive is the alpha in two strokes, with an elaborately capped diagonal that tends to bow gently as the penstroke descends toward the baseline. The letter’s oblong belly is drawn separately at the midpoint of that diagonal. Some letters – especially alpha, delta, lambda, mu, nu, pi, tau, and chi – are notably wider than they are tall. Reasonable palaeographical parallels are <ref target="https://papyri.info/dclp/60678">P.Lond.Lit. 8</ref> (II–III), <ref target="https://papyri.info/dclp/59986">P.Oxy. 50 3527</ref> (early III), <ref target="https://papyri.info/dclp/64102">P.Ryl. 3 527v</ref> (III). Oellacher’s assessment – “Die Schrift des Homertextes ist unausgeglichen und ungemein zaghaft, also ein Schülerelaborat”<note place="foot" xml:id="ftn34" n="34">
+                     <p>
+                        <ref target="https://papyri.info/biblio/3889">MPER N.S. 3 1</ref>.</p>
+                  </note> – is unduly harsh: the verses are simply stacked quite closely atop one another and, in places, wavy, as though the notional lines containing them were not strictly ruled. </p>
+               <p xml:id="p12">The fragments’ obverse preserves documents whose primary hand is a cursive characteristic of the second or third centuries, written with the fibers. A kollesis is visible to the left of the text on G 19791. Blank space on either side of that kollesis is suggestive of margins, and that these were originally separate sheets, pasted together into a composite roll which was subsequently reused to receive the text of <emph rend="italics">Iliad</emph> 10 on its verso. The appearance of a subscription in a second, unpracticed hand at the bottom of the principal column of G 19794 is consistent with this inference, but we note that no such kollesis is discernible to the left of that column. The obverse texts are in any event helpful for establishing a date: although only traces of the first line of G 19794 survive, its legible portion begins τῷ καὶ Ἁρποκρ̣[ατί]ω̣νι σ̣τ̣ρ̣(ατηγῷ) Ἀρσι(νοίτου) | Θ̣ε̣μίστ(ου) καὶ Πολέμω(νος) μερίδων [Μᾶρ]|κος Αὐρήλιος Θέων ἀπάτωρ [μη]|τρὸς Θεανοῦτος ἀπὸ κώμης Πτολ̣[ε]|μ̣αίδος Μελ̣ισσουργ̣ῶν τῆς Πολέμω|νος μερίδος. ὀ[μνύω] τ̣ὴ̣ν Μάρ̣κ̣ου̣ Αὐρηλίου | Σεου̣ήρου Ἀν[τωνί]ν̣ου Παρ̣θ̣ικο[ῦ] | μεγ[ί]σ̣του Βρε̣[ταννι]κ̣οῦ μεγίστου.<note place="foot" xml:id="ftn35" n="35">
+                     <p> The recto texts will be fully edited elsewhere.</p>
+                  </note> The strategos to whom this oath was addressed is Calpurnius Isidorus alias Harpocration, who held office in the Arsinoite between 214–216.<note place="foot" xml:id="ftn36" n="36">
+                     <p> See, e.g., <ref target="https://papyri.info/ddbdp/p.koeln;10;416">P.Köln 10 416</ref>; <ref target="https://papyri.info/ddbdp/p.oxy;45;3243">P.Oxy 45 3243</ref>; <ref target="https://papyri.info/ddbdp/p.oxy;45;3263">P.Oxy. 45 3263</ref>. In <ref target="https://papyri.info/hgv/31834">P.Oxy. 38 2876</ref> (212–214) and <ref target="https://papyri.info/hgv/15807">P.Oxy.Hels. 23</ref> (213), he is strategos in the Memphite nome. See further the commentary to P.Oxy. 38 2876.14–16; <ref target="https://papyri.info/biblio/11207">Bastianini and Whitehorne 1987</ref>: 47.</p>
+                  </note> The ‘twenty-fourth year’ [κδ (ἔτος)] mentioned in G 19791.7 allows for further precision, and is moreover reassuringly compatible with the testimony of G 19794: the twenty-fourth year of Caracalla’s reign was 215/216. The Homer text written against the fibers may therefore be dated to the third century, post 216.</p>
+               <p xml:id="p13">G 19794 survives in eight individual fragments that were reassembled into a single column of text: both the upper and the lower margin are visible. Portions of 35 lines survive, and only two lines from the mss. tradition (<emph rend="italics">Il.</emph> 10.101–102) are entirely lost:<note place="foot" xml:id="ftn37" n="37">
+                     <p>
+                        <ref target="http://papyri.info/dclp/61021">P.Ant. 3 161</ref>, <ref target="http://papyri.info/dclp/60420">PSI 12 1274</ref> and an Oxyrhynchite ineditum (<ref target="https://papyri.info/dclp/68310">TM 68310</ref>) all preserve <emph rend="italics">Il.</emph> 10.101–102, as does the mss. tradition unanimously.</p>
+                  </note> fully reconstructed, in other words, the column plausibly contained 37 lines. Assuming that the roll in question contained only <emph rend="italics">Iliad</emph> 10, G 19791 preserves its second column, and the fragments of G 19794 its third. At the time the papyrus was glazed and imaged, the placement of two small fragments of G 19794 had not been definitively established, but our closer analysis – confirmed by the ÖNB – has established their position.<note place="foot" xml:id="ftn38" n="38">
+                     <p>New photography, when completed, will be available via the <ref target="http://data.onb.ac.at/rec/RZ00003953">ÖNB catalogue</ref></p>
+                  </note> The first, upside down in the picture, contains a few letters of <emph rend="italics">Iliad</emph> 10.88–91. Its right edge does not in fact preserve a margin (as it might appear); instead, the ink there has been abraded. The other small fragment contains letters from the beginnings of <emph rend="italics">Iliad</emph> 10.87–91. The text includes occasional orthographical variants, corrections, scribal punctuation, and apostrophes (noted below), but is otherwise unremarkable. Supplements are drawn from the Teubner edition.<note place="foot" xml:id="ftn39" n="39">
+                     <p>
+                        <ref target="https://papyri.info/biblio/95464">West 1998</ref>.</p>
+                  </note>
+               </p>
+               <figure xml:id="fig9">
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23956754"/>
+                  <head>Figure 9: P.Vindob. G 19791 + 19794 verso (Österreichische Nationalbibliothek, Papyrussammlung).</head>
+               </figure>
+               <div type="epidoc" subtype="DCLP">
+                  <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: left;">P.Vindob. G 19791 + 19794 verso</cell>
+                     <cell style="text-align: left;"> 8.2 (h) × 8.2 (w)</cell>
+                     <cell style="text-align: right;">post 216 </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="http://data.onb.ac.at/rec/RZ00003953">data.onb.ac.at</ref>
+                     </cell>
+                     <cell style="text-align: center;"/>
+                     <cell style="text-align: right;">Karanis</cell>
+                  </row>
+               </table>
+                  <div copyOf="#ed3" type="edition"/>
+               </div>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/11207">Bastianini, G. and Whitehorne, J. (1987)</ref> Strategi and Royal Scribes of Roman Egypt. Chronological List and Index. Second edition. Firenze.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/3116">Boak, A.E.R. (1933)</ref> Karanis: the Temples, Coin Hoards, Botanical and Zoölogical Reports. Seasons 1924–31. Ann Arbor.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/46365">Cavallo, G. (1967)</ref> “Osservazioni paleografiche sul canone e la cronologia della cosidetta ‘onciale romana’,” ASNP 36: 209–220.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/50557">Cavallo, G. (1975)</ref> “Grammata Alexandrina,” JÖBG 24: 23–54.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/15202">Davoli, P. (1998)</ref> L’archeologia urbana nel Fayyum di età ellenistica e romana. Napoli.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/59143">Gallazzi, C. (1988)</ref> “Membra disiecta: PSI VII 748 + PSI VII 749; P.Flor. II 109 + P.Grenf. I 2; P.Mil.Vogl. III 117 + P.Mil.Vogl. III 118,” ZPE 71: 55–70.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95865">Gerstinger, H. (1926)</ref> “Zur Geschichte der Griechischen Abteilung der Papyrussamlung der Nationalbibliothek in Wien, mit einem Anhang: Katalog der Homerpapyri der Sammlung ‘Papyrus Erzherzog Rainer’,” Archiv für Bibliographie 1: 82–93.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96072">Hogarth, D.G., and Grenfell, B.P. (1895–6)</ref> “Cities of the Faiyûm: Karanis and Bacchias,” Egypt Exploration Fund: Archaeological Report 1895–1896: 14–19.</bibl>
+                  <bibl>Hogarth, D.G. (1896) “Dead Cities of the Fayûm,” The Times (7 April).</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96217">Mazza, R. (2022)</ref> “Narratives of Discovery: Petrie, Grenfell and Hunt, and the First Finding of the Oxyrhynchus Papyri,” BASP 59: 221–258.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/65966">Montserrat, D. (1996)</ref> “‘No Papyrus and No Portraits’: Hogarth, Grenfell, and the First Season in the Fayum, 1895–6,” BASP 33: 133–176.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97072">Quirke, S. (2010)</ref>. Hidden Hands: Egyptian Workforces in Petrie Excavation Archives, 1880–1924. London.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/49421">Riad H. and Koenen, L. (1973)</ref> “Das photographische Archiv griechischer Papyri; Mitteilungen über neue Lesungen an Kairener Papyri.” ZPE 11: 201–234.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96272">Sampson, C.M. (2022)</ref> “The David G. Hogarth Papyri.” Pylon 2.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96751">Sampson, C.M. (2023)</ref>. “Area G and the Digging of Kom Aushim.” Trends in Classics 15: 441–467.</bibl>
+                  <bibl>Shields, C. (2023) Karanis: Understanding Religious Activity and Identity in Legacy Archaeology. MA Thesis. Winnipeg. http://hdl.handle.net/1993/37535</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95464">West, M.L. (1998)</ref>. Homeri Ilias. Volumen prius rhapsodias I–XII continens. Stuttgart/Leipzig.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m60315" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P. Fay. 141</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">60315</idno>
+            <idno type="TM">60315</idno>
+            <idno type="LDAB">1436</idno>
+            <idno type="filename">60315</idno>
+            <idno type="dclp-hybrid">p.fay;;141</idno>
+            <idno type="MP3">00596.000</idno>
+            <availability>
+               <p>© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Cairo, Egyptian Museum CG 10217</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p>papyrus roll (columns: 2, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Found: Karanis (Arsinoites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0076" notAfter="0200" precision="low">Ende I - II</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p>
+                        <placeName type="ancient" subtype="nome">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/1008 https://pleiades.stoa.org/places/736932">Karanis</placeName>
+                        <placeName n="4" type="modern">Kom Aushim</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p>
+                        <placeName type="ancient" subtype="region">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+                This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>poetry</term>
+               <term>epic</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-12-10" who="DCLP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="vii" subtype="column" type="textpart"><ab>
+<lb xml:id="ed1viiln1" n="1"/><supplied reason="lost">καὶ μ</supplied>έν <choice><reg>μεο</reg><orig>μυ</orig></choice> <unclear>βο</unclear>υλ<unclear>έ</unclear>ων ξύ<supplied reason="lost">νιεν πείθοντό τε μύθωι·</supplied>
+<lb xml:id="ed1viiln2" n="2"/><supplied reason="lost">ἀλλὰ πίθεσθ</supplied><unclear>ε</unclear> <unclear>κ</unclear><supplied reason="lost">α</supplied><unclear>ὶ</unclear> ὔμμες, ἐ<supplied reason="lost">πεὶ πείθεσθαι ἄμεινον·</supplied>
+<lb xml:id="ed1viiln3" n="3"/><supplied reason="lost">μήτε σὺ τόνδ’ ἀ</supplied><unclear>γ</unclear>αθός <unclear>περ</unclear> <supplied reason="lost">ἐὼν ἀποαίρεο κούρην,</supplied>
+<lb xml:id="ed1viiln4" n="4"/><supplied reason="lost">ἀλλ’ ἔα, ὥς οἱ πρ</supplied><unclear>ῶτ</unclear><supplied reason="lost">α δ</supplied>ό<unclear>σ</unclear>αν γ<unclear>έ</unclear><supplied reason="lost">ρας υἷες Ἀχαιῶν·</supplied>
+<lb xml:id="ed1viiln5" n="5"/><supplied reason="lost">μήτε σὺ</supplied> <app type="alternative"><lem><supplied reason="lost">Πηλεί</supplied>δ’<unclear><g type="apostrophe"/></unclear><note>δ’̣ papyrus</note> ἤθελ’</lem><rdg><supplied reason="lost">Πηλεί</supplied>δη θέλ’</rdg></app> ἐριζ<unclear>έ</unclear><supplied reason="lost">μεναι βασιλῆϊ</supplied>
+<lb xml:id="ed1viiln6" n="6"/><supplied reason="lost">ἀντιβίην, ἐπεὶ ο</supplied>ὔ ποθ’ ὁμοί<supplied reason="lost">ης ἔμμορε τιμῆς</supplied>
+<lb xml:id="ed1viiln7" n="7"/><supplied reason="lost">σκηπτοῦχος βασ</supplied>ιλεύς, ὧι τε <supplied reason="lost">Ζεὺς κῦδος ἔδ</supplied><unclear>ωκε</unclear>ν.
+<lb xml:id="ed1viiln8" n="8"/><supplied reason="lost">εἰ δὲ σὺ καρτερός</supplied> <unclear>ἐ</unclear>σσι, θεὰ δέ <supplied reason="lost">σε γείνατο μήτη</supplied><unclear>ρ</unclear>,
+<lb xml:id="ed1viiln9" n="9"/><supplied reason="lost">ἀλλ’ ὅδε φέρτερ</supplied><unclear>ός</unclear> <unclear>ἐστ</unclear><supplied reason="lost">ιν</supplied>, <unclear>ἐπε</unclear><supplied reason="lost">ὶ</supplied> <unclear>πλ</unclear>ε<supplied reason="lost">ό</supplied><unclear>ν</unclear><supplied reason="lost">εσ</supplied><unclear>σ</unclear>ιν <unclear>ἀ</unclear><supplied reason="lost">νά</supplied><unclear>σσει</unclear>.
+<lb xml:id="ed1viiln10" n="10"/><supplied reason="lost">Ἀτρείδη, σὺ δὲ</supplied> παῦε τεὸν μένος· α<unclear>ὐ</unclear><supplied reason="lost">τ</supplied>ὰρ ἐγ<unclear>ώ</unclear> <unclear>γ</unclear>ε
+<lb xml:id="ed1viiln11" n="11"/><supplied reason="lost">λίσσομ’ Ἀχιλλ</supplied><unclear>ῆ</unclear>ϊ μεθέμεν χόλον, ὃς <unclear>μ</unclear>έγα π<supplied reason="lost">ᾶ</supplied><unclear>σ</unclear>ιν
+<lb xml:id="ed1viiln12" n="12"/><supplied reason="lost">ἕρκος Ἀχαιοῖσιν</supplied> <unclear>πέλ</unclear>εται πολέμοιο <unclear>κ</unclear><supplied reason="lost">α</supplied><unclear>κ</unclear>οῖο.
+<lb xml:id="ed1viiln13" n="13"/><supplied reason="lost">τὸν δ’ ἀπαμειβ</supplied><unclear>ό</unclear>μενος προσέφη κρ<supplied reason="lost">ε</supplied><unclear>ί</unclear>ων <unclear>Ἀ</unclear>γαμέμ<unclear>ν</unclear><supplied reason="lost">ων·</supplied>
+<lb xml:id="ed1viiln14" n="14"/><supplied reason="lost">ναὶ δὴ ταῦτά γε π</supplied><unclear>ά</unclear>ντα, γέρον, κατὰ <supplied reason="lost">μοῖ</supplied><unclear>ρ</unclear>αν ἔει<unclear>π</unclear>ες·
+<lb xml:id="ed1viiln15" n="15"/><supplied reason="lost">ἀλλ’ ὅδ’ ἀνὴρ ἐθέλει περ</supplied><unclear>ὶ</unclear> <unclear>πάν</unclear><supplied reason="lost">των ἔμ</supplied><unclear>μ</unclear>ενα<unclear>ι</unclear> <supplied reason="lost">ἄ</supplied><unclear>λ</unclear>λων,
+<lb xml:id="ed1viiln16" n="16"/><supplied reason="lost">πάντων μὲν κρατέειν ἐθέλ</supplied><unclear>ε</unclear><supplied reason="lost">ι</supplied>, <unclear>π</unclear><supplied reason="lost">άντεσσι δ’ ἀνά</supplied><unclear>σσ</unclear><supplied reason="lost">ε</supplied><unclear>ιν</unclear>,
+<lb xml:id="ed1viiln17" n="17"/><supplied reason="lost">πᾶσι δὲ σημαίνειν, ἅ τ</supplied><unclear>ι</unclear>ν’ οὐ π<unclear>εί</unclear><supplied reason="lost">σ</supplied>ε<unclear>σ</unclear><supplied reason="lost">θαι</supplied> <unclear>ὀ</unclear>ΐ<supplied reason="lost">ω</supplied>.
+<lb xml:id="ed1viiln18" n="18"/><supplied reason="lost">εἰ δέ μιν αἰχμητὴν</supplied> <unclear>ἔ</unclear>θεσαν θε<unclear>ο</unclear>ὶ <supplied reason="lost">αἰὲν</supplied> <unclear>ἐ</unclear>όντες
+<lb xml:id="ed1viiln19" n="19"/><supplied reason="lost">τούνεκά οἱ προθέο</supplied><unclear>υ</unclear>σιν ὀνείδ<supplied reason="lost">εα μ</supplied><unclear>υθ</unclear>ήσα<unclear>σθ</unclear><supplied reason="lost">αι;</supplied>
+<lb xml:id="ed1viiln20" n="20"/><supplied reason="lost">τὸν δ’ ἄρ’ ὑποβλήδη</supplied><unclear>ν</unclear> ἠμείβετο <supplied reason="lost">δῖος</supplied> Ἀχιλ<unclear>λ</unclear>εύς·
+<lb xml:id="ed1viiln21" n="21"/><supplied reason="lost">ἦ γάρ κεν δειλός τε</supplied> <unclear>κα</unclear>ὶ οὐτιδαν<unclear>ὸ</unclear><supplied reason="lost">ς κα</supplied><unclear>λ</unclear>εοί<unclear>μ</unclear><supplied reason="lost">ην,</supplied>
+<lb xml:id="ed1viiln22" n="22"/><supplied reason="lost">εἰ δὴ σοὶ πᾶν ἔρ</supplied><unclear>γ</unclear><supplied reason="lost">ο</supplied>ν <unclear>ὑ</unclear>πείξομα<unclear>ι</unclear> <unclear>ὅ</unclear><supplied reason="lost">ττί κε</supplied>ν εἴπῃς.
+<lb xml:id="ed1viiln23" n="23"/><supplied reason="lost">ἄλλοισιν δὴ τα</supplied><unclear>ῦ</unclear>τ’ ἐπι<unclear>τ</unclear>έλλεο, μ<unclear>ὴ</unclear> <supplied reason="lost">γὰρ ἐ</supplied><unclear>μ</unclear>οί γε
+<lb xml:id="ed1viiln24" n="24"/><supplied reason="lost">σήμαιν’· οὐ γὰρ ἐ</supplied>γώ γ’ <unclear>ἔ</unclear>τι σοὶ πείσ<supplied reason="lost">εσθα</supplied><unclear>ι</unclear> <unclear>ὀΐ</unclear>ω.
+<lb xml:id="ed1viiln25" n="25"/><supplied reason="lost">ἄλλο δέ τοι ἐρέ</supplied>ω, σὺ <unclear>δ</unclear>’ <unclear>ἐ</unclear>νὶ φρεσὶ β<unclear>ά</unclear><supplied reason="lost">λλ</supplied>ε<unclear>ο</unclear> σῆισι·
+<lb xml:id="ed1viiln26" n="26"/><supplied reason="lost">χερσὶ μὲν οὔ τ</supplied><unclear>ο</unclear>ι ἔ<unclear>γωγ</unclear>ε μαχέσσομ<supplied reason="lost">αι</supplied> <unclear>εἵνεκ</unclear>α κούρης,
+<lb xml:id="ed1viiln27" n="27"/><supplied reason="lost">οὔτε σοὶ οὔτέ τωι ἄλ</supplied><unclear>λ</unclear>ωι, ἐπεί μ’ ἀφ<supplied reason="lost">έλεσθέ γε</supplied> <unclear>δ</unclear>όντες·
+<lb xml:id="ed1viiln28" n="28"/><supplied reason="lost">τῶν δ’ ἄλλων ἅ μοί ἐ</supplied><unclear>στ</unclear>ι θοῆι παρὰ νηῒ <unclear>μελα</unclear>ίνηι,
+<lb xml:id="ed1viiln29" n="29"/><supplied reason="lost">τῶν οὐκ ἄν τι φέροι</supplied><unclear>ς</unclear> ἀνελὼν ἀέκον<unclear>τ</unclear>ος ἐμεῖο.
+<lb xml:id="ed1viiln30" n="30"/><supplied reason="lost">εἰ δ’ ἄγε μὴν πείρησαι ἵ</supplied><unclear>ν</unclear>α <unclear>γ</unclear>νώωσι καὶ <unclear>ο</unclear>ἵδε·
+<lb xml:id="ed1viiln31" n="31"/><supplied reason="lost">αἶψά τοι αἷμα κελαινὸν</supplied> ἐρωήσει περὶ <unclear>δ</unclear><supplied reason="lost">ο</supplied><unclear>υ</unclear>ρί.
+<lb xml:id="ed1viiln32" n="32"/><supplied reason="lost">ὣς τώ γ’ ἀντιβίοισι μαχ</supplied>εσσα<unclear>μ</unclear>ένω ἐπ<unclear>έε</unclear><supplied reason="lost">σσιν</supplied>
+<lb xml:id="ed1viiln33" n="33"/><supplied reason="lost">ἀνστήτην, λῦσαν δ’ ἀγορὴ</supplied><unclear>ν</unclear> παρ<supplied reason="lost">ὰ</supplied> νηυσὶ<unclear>ν</unclear> Ἀχαιῶν.
+<lb xml:id="ed1viiln34" n="34"/><supplied reason="lost">Πηλεΐδης μὲν ἐπὶ κλισί</supplied><unclear>α</unclear>ς κα<unclear>ὶ</unclear> νῆας ἐ<unclear>ΐσα</unclear><supplied reason="lost">ς</supplied>
+<lb xml:id="ed1viiln35" n="35"/><supplied reason="lost">ἤϊε σύν τε Μενοιτιάδηι καὶ</supplied> <unclear>ο</unclear><supplied reason="lost">ἷ</supplied><unclear>ς</unclear> ἑτάροισιν·
+<lb xml:id="ed1viiln36" n="36"/><supplied reason="lost">Ἀτρείδης δ’ ἄρα νῆα θοὴν ἅλαδε προέρυ</supplied><unclear>σσε</unclear>ν,
+<lb xml:id="ed1viiln37" n="37"/><supplied reason="lost">ἐν δ’ ἐρέτας ἔκρινεν ἐείκοσιν, ἐς δ’ ἑκατ</supplied>όμβην
+<lb xml:id="ed1viiln38" n="38"/><gap reason="lost" quantity="1" unit="line"/>
+<lb xml:id="ed1viiln39" n="39"/><supplied reason="lost">εἷσεν ἄγων· ἐν δ’ ἀρχὸς ἔβη πολύμητις Ὀδυσσεύ</supplied><unclear>ς</unclear>.
+<lb xml:id="ed1viiln40" n="40"/><supplied reason="lost">οἳ μὲν ἔπειτ’ ἀναβάντες ἐπέπλεον ὑγρὰ κέλευ</supplied><unclear>θα</unclear>,
+<lb xml:id="ed1viiln41" n="41"/><supplied reason="lost">λαοὺς δ’ Ἀτρείδης ἀπολυμαίνε</supplied><unclear>σθα</unclear><supplied reason="lost">ι ἄνωγεν.</supplied>
+<lb xml:id="ed1viiln42" n="42"/><supplied reason="lost">οἳ δ’ ἀπελυμαίνοντο καὶ εἰς</supplied> <unclear>ἅ</unclear>λα λύματ’ ἔ<supplied reason="lost">βα</supplied>λλον,
+<lb xml:id="ed1viiln43" n="43"/><supplied reason="lost">ἔρδον δ’ Ἀπόλλωνι τεληέσσ</supplied><unclear>α</unclear>ς ἑκατόμβ<supplied reason="lost">ας</supplied>
+<lb xml:id="ed1viiln44" n="44"/><supplied reason="lost">ταύρων ἠδ’ αἰγῶν παρὰ θῖν’ ἁ</supplied><unclear>λ</unclear>ὸς ἀτρυγ<unclear>έ</unclear><supplied reason="lost">τ</supplied><unclear>οι</unclear><supplied reason="lost">ο·</supplied>
+<lb xml:id="ed1viiln45" n="45"/><supplied reason="lost">κνίση δ’ οὐρανὸν ἷκεν ἑλισσ</supplied>ομένη π<unclear>ε</unclear><supplied reason="lost">ρὶ</supplied> <unclear>κ</unclear>απνῶι.
+</ab></div>
+<div n="viii" subtype="column" type="textpart"><ab>
+<lb xml:id="ed1viiiln1" n="1"/>ὣς <unclear>ο</unclear><supplied reason="lost">ἳ μὲν τὰ πένοντο κατὰ στρατόν· οὐδ’ Ἀγαμέμνων</supplied>
+<lb xml:id="ed1viiiln2" n="2"/><unclear>λ</unclear>ῆγ’ <supplied reason="lost">ἔριδος, τὴν πρῶτον ἐπηπείλησ’ Ἀχιλῆϊ,</supplied>
+<lb xml:id="ed1viiiln3" n="3"/>ἀλλ’ <unclear>ὅ</unclear> <supplied reason="lost">γε Ταλθύβιόν τε καὶ Εὐρυβάτην προσέειπεν,</supplied>
+<lb xml:id="ed1viiiln4" n="4"/><unclear>τώ</unclear> <unclear>ο</unclear><supplied reason="lost">ἱ ἔσαν κήρυκε καὶ ὀτρηρὼ θεράποντε·</supplied>
+<lb xml:id="ed1viiiln5" n="5"/><gap reason="lost" quantity="1" unit="line"/>
+<lb xml:id="ed1viiiln6" n="6"/>χειρ<unclear>ὸ</unclear><supplied reason="lost">ς ἑλόντ’ ἀγέμεν Βρισηΐδα καλλιπάρηον.</supplied>
+<lb xml:id="ed1viiiln7" n="7"/>εἰ δέ <unclear>κ</unclear><supplied reason="lost">ε μὴ δώησιν, ἐγὼ δέ κεν αὐτὸς ἕλωμαι</supplied>
+<lb xml:id="ed1viiiln8" n="8"/>ἐλ<unclear>θὼν</unclear> <supplied reason="lost">σὺν πλεόνεσσι, τό οἱ καὶ ῥίγιον ἔσται.</supplied>
+<lb xml:id="ed1viiiln9" n="9"/>ὣ<supplied reason="lost">ς εἰπὼν προΐει, κρατερὸν δ’ ἐπὶ μῦθον ἔτελλεν.</supplied>
+<lb xml:id="ed1viiiln10" n="10"/>τ<unclear>ὼ</unclear> <supplied reason="lost">δ’ ἀέκοντε βάτην παρὰ θῖν’ ἁλὸς ἀτρυγέτοιο,</supplied>
+<lb xml:id="ed1viiiln11" n="11"/><unclear>Μ</unclear><supplied reason="lost">υρμιδόνων δ’ ἐπί τε κλισίας καὶ νῆας ἱκέσθην.</supplied>
+<lb xml:id="ed1viiiln12" n="12"/><unclear>τὸν</unclear> <unclear>δ</unclear>’ <unclear>ε</unclear><supplied reason="lost">ὗρον παρά τε κλισίηι καὶ νηῒ μελαίνηι</supplied>
+<lb xml:id="ed1viiiln13" n="13"/>ἥμεν<unclear>ο</unclear><supplied reason="lost">ν· οὐδ’ ἄρα τώ γε ἰδὼν γήθησεν Ἀχιλλεύς.</supplied>
+<lb xml:id="ed1viiiln14" n="14"/>τὼ μὲ<unclear>ν</unclear> <supplied reason="lost">ταρβήσαντε καὶ αἰδομένω βασιλῆα</supplied>
+<lb xml:id="ed1viiiln15" n="15"/>στήτη<supplied reason="lost">ν, οὐδέ τί μιν προσεφώνεον οὐδ’ ἐρέοντο·</supplied>
+<lb xml:id="ed1viiiln16" n="16"/>αὐτὰρ <unclear>ὃ</unclear> <supplied reason="lost">ἔγνω ἧισιν ἐνὶ φρεσὶ φώνησέν τε·</supplied>
+<lb xml:id="ed1viiiln17" n="17"/>χα<unclear>ίρετε</unclear> <supplied reason="lost">κήρυκες, Διὸς ἄγγελοι ἠδὲ καὶ ἀνδρῶν,</supplied>
+<lb xml:id="ed1viiiln18" n="18"/>ἆσσον <unclear>ἴτ</unclear>’· <supplied reason="lost">οὔ τί μοι ὔμμες ἐπαίτιοι, ἀλλ’ Ἀγαμέμνων,</supplied>
+<lb xml:id="ed1viiiln19" n="19"/>ὃ σφῶϊ <unclear>π</unclear><supplied reason="lost">ροΐει Βρισηΐδος εἵνεκα κούρης.</supplied>
+<lb xml:id="ed1viiiln20" n="20"/>ἀλ<unclear>λ</unclear>’ <unclear>ἄγε</unclear>, <unclear>δ</unclear><supplied reason="lost">ιογενὲς Πατρόκλεις, ἔξαγε κούρην</supplied>
+<lb xml:id="ed1viiiln21" n="21"/><gap reason="lost" quantity="1" unit="line"/>
+<lb xml:id="ed1viiiln22" n="22"/><unclear>πρ</unclear><supplied reason="lost">ός τε θεῶν μακάρων πρός τε θνητῶν ἀνθρώπων</supplied>
+<lb xml:id="ed1viiiln23" n="23"/>καὶ π<unclear>ρὸ</unclear><supplied reason="lost">ς</supplied> <unclear>το</unclear>ῦ βασι<supplied reason="lost">λῆος ἀπηνέος, εἴ ποτε δὴ αὖτε</supplied>
+<lb xml:id="ed1viiiln24" n="24"/>χρει<unclear>ὼ</unclear> <supplied reason="lost">ἐ</supplied><unclear>μεῖο</unclear> <unclear>γένητ</unclear><supplied reason="lost">αι ἀεικέα λοιγὸν ἀμῦναι</supplied>
+<lb xml:id="ed1viiiln25" n="25"/><unclear>τ</unclear>ο<unclear>ῖ</unclear><supplied reason="lost">ς ἄλλ</supplied>οις. ἦ <unclear>γ</unclear>ὰ<unclear>ρ</unclear> ὅ <unclear>γ</unclear>’ <unclear>ὀλ</unclear><supplied reason="lost">οιῆισι φρεσὶ θυίει,</supplied>
+<lb xml:id="ed1viiiln26" n="26"/>ο<supplied reason="lost">ὐδέ τι</supplied> <unclear>ο</unclear>ἶδε <supplied reason="lost">ν</supplied><unclear>οῆσαι</unclear> <supplied reason="lost">ἅμα πρόσσω καὶ ὀπίσσω,</supplied>
+<lb xml:id="ed1viiiln27" n="27"/>ὅ<unclear>ππ</unclear>ως οἱ παρὰ νη<unclear>υ</unclear><supplied reason="lost">σὶ σόοι μαχεοίατ’ Ἀχαιοί.</supplied>
+<lb xml:id="ed1viiiln28" n="28"/>ὣ<unclear>ς</unclear> <supplied reason="lost">φ</supplied>άτο, Πάτροκλος <supplied reason="lost">δὲ φίλωι ἐπεπείθεθ’ ἑταίρωι,</supplied>
+<lb xml:id="ed1viiiln29" n="29"/>ἐκ <unclear>δ</unclear>’ ἄγαγε κλισίης Β<unclear>ρ</unclear><supplied reason="lost">ισηΐδα καλλιπάρηον,</supplied>
+<lb xml:id="ed1viiiln30" n="30"/><supplied reason="lost">δῶκ</supplied><unclear>ε</unclear> <supplied reason="lost">δ’ ἄγειν. τὼ δ’ αὖτις ἴτην παρὰ νῆας Ἀχαιῶν,</supplied>
+<lb xml:id="ed1viiiln31" n="31"/><supplied reason="lost">ἣ δ’ ἀέκο</supplied><unclear>υ</unclear>σ’ ἅμα <unclear>τοῖσι</unclear> <supplied reason="lost">γυνὴ κίεν. αὐτὰρ Ἀχιλλεὺς</supplied>
+<lb xml:id="ed1viiiln32" n="32"/><supplied reason="lost">δακρύσ</supplied>ας ἑτάρων ἄ<supplied reason="lost">φαρ ἕζετο νόσφι λιασθείς</supplied>
+<lb xml:id="ed1viiiln33" n="33"/><supplied reason="lost">θῖν’ ἔφ’ ἁ</supplied>λὸς πολιῆς, <supplied reason="lost">ὁρόων ἐπὶ οἴνοπα πόντον·</supplied>
+<lb xml:id="ed1viiiln34" n="34"/><supplied reason="lost">πολλὰ δ</supplied><unclear>ὲ</unclear> μητρὶ φίλη<unclear>ι</unclear> <supplied reason="lost">ἠρήσατο χεῖρας ὀρεγνύς·</supplied>
+<lb xml:id="ed1viiiln35" n="35"/><supplied reason="lost">μῆτερ, ἐ</supplied>πεί μ’ <unclear>ἔτε</unclear>κ<unclear>ές</unclear> <supplied reason="lost">γε μινυνθάδιόν περ ἐόντα,</supplied>
+<lb xml:id="ed1viiiln36" n="36"/><supplied reason="lost">τιμήν π</supplied>έρ μοι ὄφελλ<supplied reason="lost">εν Ὀλύμπιος ἐγγυαλίξαι</supplied>
+<lb xml:id="ed1viiiln37" n="37"/><supplied reason="lost">Ζεὺς ὑ</supplied>ψιβρεμέτης· <supplied reason="lost">νῦν δ’ οὐδέ με τυτθὸν ἔτισεν.</supplied>
+<lb xml:id="ed1viiiln38" n="38"/><supplied reason="lost">ἦ γάρ μ’ Ἀτ</supplied>ρείδης <unclear>εὐρὺ</unclear> <supplied reason="lost">κρείων Ἀγαμέμνων</supplied>
+<lb xml:id="ed1viiiln39" n="39"/><supplied reason="lost">ἠτίμη</supplied>σε<unclear>ν</unclear>, <unclear>ἑλὼ</unclear><supplied reason="lost">ν γὰρ ἔχει γέρας αὐτὸς ἀπούρας.</supplied>
+<lb xml:id="ed1viiiln40" n="40"/><unclear>ὣ</unclear><supplied reason="lost">ς</supplied> φ<unclear>άτ</unclear><supplied reason="lost">ο δά</supplied><unclear>κρυ</unclear> <unclear>χ</unclear><supplied reason="lost">έων, τοῦ δ’ ἔκλυε πότνια μήτηρ</supplied>
+<lb xml:id="ed1viiiln41" n="41"/><unclear>ἡ</unclear><supplied reason="lost">μένη</supplied> <unclear>ἐν</unclear> <unclear>βέ</unclear>νθ<unclear>εσ</unclear><supplied reason="lost">σιν ἁλὸς παρὰ πατρὶ γέροντι.</supplied>
+<lb xml:id="ed1viiiln42" n="42"/><supplied reason="lost">κα</supplied><unclear>ρπαλίμ</unclear>ως δ’ <unclear>ἀ</unclear>νέ<unclear>δ</unclear><supplied reason="lost">υ πολιῆς ἁλὸς ἠΰτ’ ὀμίχλη,</supplied>
+<lb xml:id="ed1viiiln43" n="43"/>κ<unclear>αί</unclear> ῥα πάροιθ’ αὐτοῖο <unclear>κ</unclear><supplied reason="lost">αθέζετο δάκρυ χέοντος,</supplied>
+<lb xml:id="ed1viiiln44" n="44"/>χειρί τέ <unclear>μ</unclear>ιν κατέρεξ<supplied reason="lost">εν, ἔπος τ’ ἔφατ’ ἔκ τ’ ὀνόμαζε·</supplied>
+<lb xml:id="ed1viiiln45" n="45"/>τέκνον, <unclear>τ</unclear>ί κλαίεις; τί δ<supplied reason="lost">έ σε φρένας ἵκετο πένθος;</supplied>
+</ab></div></div>
+<div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">   
+                  <ptr target="http://papyri.info/biblio"/>
+                  <biblScope unit="number">1</biblScope>
+               </bibl>
+               <bibl type="reference" subtype="previous">
+                  <ptr target="http://papyri.info/biblio/95143"/>
+                  <biblScope unit="number">141</biblScope>
+                  <biblScope unit="generic">descr.</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">P. Fay.</title>
+                  <!--ignore - stop-->
+               </bibl>
+               <bibl type="reference" subtype="catalogue">
+                  <!-- ignore - start, i.e. SoSOL users may not edit this -->
+                  <title level="m" type="main">Studies in the Text and Transmission of the Iliad.</title>
+                  <author>
+                     <surname>West</surname>
+                     <forename>Martin L.</forename>
+                  </author>
+                  <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/16711"/>
+                  <biblScope unit="number">125</biblScope>
+               </bibl>
+               <bibl type="reference" subtype="catalogue">
+                  <!-- ignore - start, i.e. SoSOL users may not edit this -->
+                  <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/95104"/>
+                  <biblScope unit="number">10217</biblScope>
+                  <biblScope unit="generic">descr.</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="ancientEdition">
+            <listBibl>
+               <bibl type="publication" subtype="ancient">
+                  <author xml:lang="grc"
+                          ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0012 http://cwkb.org/author/id/927/rdf">Homerus</author>
+                  <title type="main"
+                         level="m"
+                         xml:lang="grc"
+                         ref="http://www.trismegistos.org/authorwork/511 http://cwkb.org/work/id/2815/rdf">Ilias</title>
+                  <biblScope n="1" unit="book">1</biblScope>
+                  <biblScope n="2" unit="line" from="273" to="362">273-362</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <listBibl>
+               <bibl type="printed">Liège</bibl>
+            </listBibl>
+         </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m60326" xml:lang="en">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragments of Iliad 8 in Florence, Oxford, and Vienna</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">60326</idno>
+            <idno type="TM">60326</idno>
+            <idno type="LDAB">1447</idno>
+            <idno type="filename">60326</idno>
+            <idno type="dclp-hybrid">pylon;7;1_2</idno>
+            <idno type="MP3">00821.000</idno>
+            <availability>
+               <p>
+            © Digital Corpus of Literary Papyri. This work is licensed under a
+            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>
+            .
+          </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>
+                     <idno type="invNo" n="1">Florence, Biblioteca Medicea Laurenziana P. Flor. 109</idno>
+                     <idno type="invNo" n="2">Oxford, Bodleian Library MS. Gr. class. d. 20 (P)</idno>
+                     <idno type="invNo" n="3">Vienna, Nationalbibliothek G 19768</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p>papyrus roll (columns: 1, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Found: Karanis (Arsinoites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0001" notAfter="0100" precision="low">I</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p>
+                        <placeName type="ancient" subtype="nome">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/1008 https://pleiades.stoa.org/places/736932">Karanis</placeName>
+                        <placeName n="4" type="modern">Kom Aushim</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p>
+                        <placeName type="ancient" subtype="region">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term n="1">epic</term>
+               <term n="2" type="religion">classical</term>
+               <term n="3" type="culture">literature</term>
+               <term n="4">poetry</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-06-05T21:16:57-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go </change>
+         <change when="2022-06-05T21:15:22-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - Accept-Straight-to-Finalization - yes</change>
+         <change when="2022-06-05T21:14:40-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Submit - Typo in biblios</change>
+         <change when="2022-06-05T20:59:15-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+         <change when="2022-06-05T20:48:19-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - Accept-Straight-to-Finalization - Yes.</change>
+         <change when="2022-06-05T20:47:43-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Submit - Initial entry, from Gallazzi 1988.</change>
+         <change when="2022-06-05T20:59:15-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+         <change when="2022-06-05T20:48:19-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - Accept-Straight-to-Finalization - Yes.</change>
+         <change when="2022-06-05T20:47:43-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Submit - Initial entry, from Gallazzi 1988.</change>
+         <change when="2014-12-10" who="DCLP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <!-- ed4 is the text of the Oxford and Florence fragments which should precede the text of ed2 following transfer to DCLP upon publication of Pylon 7 -->
+            <div xml:id="ed4" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="i" subtype="column" type="textpart"><ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1"/><supplied reason="lost">χαλκεοθωρήκων· ἀτὰρ ἀσπίδες ὀμ</supplied>φαλόε<unclear>σ</unclear><supplied reason="lost">σαι</supplied>
+<lb n="2"/><supplied reason="lost">ἔπληντ’ ἀλλήλῃσι, πολὺς δ’ ὀρυμαγδὸς</supplied> ὀρώρ<unclear>ε</unclear><supplied reason="lost">ι.</supplied>
+<lb n="3"/><supplied reason="lost">ἔνθα δ’ ἅμ’ οἰμωγή τε καὶ εὐχωλὴ</supplied> πέλεν ἀνδρῶν
+<lb n="4"/><supplied reason="lost">ὀλλύντων τε καὶ ὀλλυμένων, ῥέε δ’ αἵ</supplied><unclear>μ</unclear>ατι γα<unclear>ῖ</unclear>α.
+<lb n="5"/><supplied reason="lost">ὄφρα μὲν ἠὼς ἦν καὶ ἀέξετο</supplied> ἱερὸ<unclear>ν</unclear> ἦμαρ,
+<lb n="5a"/> <add place="interlinear"><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/></add>
+<lb n="6"/><supplied reason="lost">τόφρα μάλ’ ἀμφοτέρων βέλε’ ἥπ</supplied><unclear>τε</unclear>το, <subst><add place="inline">πῖπτε</add><del rend="corrected">πεῖπτε</del></subst> δὲ λαό<unclear>ς</unclear>.
+<lb n="7"/><supplied reason="lost">ἦμος δ’ Ἠέλιος μέσον οὐρανὸν ἀμ</supplied><unclear>φ</unclear>ιβεβήκει,
+<lb n="8"/><supplied reason="lost">καὶ τότε δὴ χρύσεια πατὴρ ἐτίταινε</supplied> τάλαντ<unclear>α</unclear>.
+<lb n="9"/><supplied reason="lost">ἐν δ’ ἐτίθει <num value="2">δύο</num> κῆρε τανηλεγέος θ</supplied><unclear>α</unclear>νάτο<supplied reason="lost">ι</supplied>ο
+<lb n="10"/><supplied reason="lost">Τρώων θ’ ἱπποδάμων καὶ Ἀχαιῶ</supplied>ν χαλκο<unclear>χι</unclear>τ<unclear>ώνω</unclear>ν,
+<lb n="11"/><supplied reason="lost">ἕλκε δὲ μέσσα λαβών· ῥέπε δ’ αἴσι</supplied><add place="above">μ</add>ο<supplied reason="lost">ν ἦ</supplied>μαρ Ἀχ<unclear>α</unclear>ιῶν.
+<lb n="12"/><supplied reason="lost">αἳ μὲν Ἀχαιῶν κῆρες ἐπὶ χθονὶ</supplied> <subst><add place="inline">πουλυβοτείρῃ</add><del rend="corrected">πουλυποτείρῃ</del></subst>
+<lb n="13"/><supplied reason="lost">ἑζέσθην, Τρώων δὲ πρὸς οὐρανὸν εὐ</supplied>ρὺν ἄ<unclear>ε</unclear>ρθεν.
+<lb n="14"/><supplied reason="lost">αὐτὸς δ’ ἐξ Ἴδης μεγάλ’ ἔκτυπε, δαιόμε</supplied><unclear>νο</unclear><supplied reason="lost">ν δ</supplied><unclear>ὲ</unclear>
+<lb n="14"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+<div n="ii" subtype="column" type="textpart"><ab>
+<lb n="1"/>ἀλλὰ μέν’ ὄφρα γ<unclear>έ</unclear>ροντος ἀπώσομεν ἄ<supplied reason="lost">γριον ἄνδρα.</supplied>
+<lb n="2"/><add place="left"><expan>πο<ex>ιητής</ex></expan></add> ὣς ἔφατ’, οὐδ’ ἐσάκουσε πολύτλας δῖος Ὀ<unclear>δ</unclear><supplied reason="lost">υσσεύς,</supplied>
+<lb n="3"/>ἀλλὰ παρή<hi rend="diaeresis">ϊ</hi>ξε<unclear>ν</unclear> <unclear>κ</unclear>οίλας ἐ<unclear>π</unclear>ὶ νῆας Ἀχα<unclear>ι</unclear><supplied reason="lost">ῶν.</supplied>
+<lb n="4"/>Τυδεΐδης δ’ αὐτός περ ἐὼν προμάχοισιν <subst><add place="inline">ἐμίχθη</add><del rend="corrected">ἐμείχθη</del></subst>,
+<lb n="5"/>στῆ δὲ πρόσθ’ ἵππων Νηλη<hi rend="diaeresis">ϊ</hi>άδαο γέροντος,
+<lb n="6"/>καί μιν φωνήσας ἔπεα πτερόεντα <subst><add place="inline">προσηύδα</add><del rend="corrected">προσεύδα</del></subst>·
+<lb n="7"/><add place="left"><gap reason="illegible" quantity="4" unit="character"/> <unclear>Α</unclear> <gap reason="illegible" quantity="1" unit="character"/></add> ὦ γέρον ἦ μάλα <unclear>δή</unclear> σε νέοι τείρουσι μαχηταί,
+<lb n="8"/><add place="left"><expan>Δι<unclear>ομ</unclear><ex>ήδης</ex></expan> <expan><unclear>πρ</unclear><ex>ὸς</ex></expan> <expan><unclear>Νέ</unclear>σ<ex>τορα</ex></expan></add> σὴ δὲ βίη λέλυται, χαλεπὸν δέ σε γῆρας ὀπάζει,
+<lb n="9"/>ἠπεδανὸς δέ νύ <unclear>τ</unclear>οι θεράπων, βραδέε<unclear>ς</unclear> δέ τοι ἵππο<supplied reason="lost">ι</supplied>.
+<lb n="10"/><unclear>ἀ</unclear>λλ’ ἄγ’ ἐμῶν ὀχέων ἐπιβήσεο, ὄφ<unclear>ρ</unclear>α <hi rend="diaeresis">ἴ</hi>δηαι 
+<lb n="11"/><unclear>οἷ</unclear>οι <unclear>Τ</unclear>ρώϊοι ἵππο<supplied reason="lost">ι</supplied> ἐπιστάμενοι πεδίοι<supplied reason="omitted">ο</supplied>
+<lb n="12"/>κ<supplied reason="lost">ραι</supplied><unclear>πνὰ</unclear> μάλ’ ἔνθα καὶ ἔνθα διωκέμεν ἠδὲ φέβ<supplied reason="lost">εσθαι</supplied>,
+<lb n="13"/>οὕ<supplied reason="lost">ς π</supplied>οτ’ ἀπ’ Αἰνείαν ἑλόμ<supplied reason="lost">ην</supplied> <unclear>μ</unclear>ή<unclear>στ</unclear>ωρε φ<unclear>ό</unclear><supplied reason="lost">β</supplied><unclear>οιο</unclear>.
+<lb n="14"/><choice><reg><supplied reason="lost">τού</supplied>τω</reg><orig><supplied reason="lost">τού</supplied><unclear>τ</unclear>ωι</orig></choice> μὲν θεράποντ<unclear>ε</unclear> <supplied reason="lost">κο</supplied>μείτων, τώιδε <supplied reason="lost">δὲ νῶϊ</supplied>
+<lb n="15"/><supplied reason="lost">Τρωσ</supplied>ὶν ἐφ’ ἱπποδάμοις ἰ<supplied reason="lost">θύνομεν, ὄ</supplied>φρα <supplied reason="lost">καὶ Ἕκτωρ</supplied>
+<lb n="16"/><supplied reason="lost">εἴσετ</supplied>αι <choice><reg>εἰ</reg><orig>ἠ</orig></choice> καὶ ἐμὸ<unclear>ν</unclear> δόρυ μ<supplied reason="lost">αίνεται ἐν παλάμῃσιν.</supplied>
+<lb n="17"/><supplied reason="lost">ὣς ἔφ</supplied>ατ’, οὐδ’ ἀπίθησε Γε<supplied reason="lost">ρήνιος ἱππότα Νέστωρ.</supplied>
+<lb n="18"/><supplied reason="lost">Νεστ</supplied>ορέας μὲν ἔπειθ’ ἵ<supplied reason="lost">ππους θεράποντε κομείτην</supplied>
+<lb n="19"/><supplied reason="lost">ἴφθιμ</supplied>ος Σθένελ<unclear>ό</unclear>ς τε κ<unclear>α</unclear><supplied reason="lost">ὶ Εὐρυμέδων ἀγαπήνωρ.</supplied>
+<lb n="20"/><supplied reason="lost">τὼ δ’ εἰς ἀμφοτέρ</supplied>ωι Διομ<unclear>ή</unclear><supplied reason="lost">δεος ἅρματα βήτην·</supplied>
+<lb n="21"/><supplied reason="lost">Νέστωρ δ’ ἐν χείρεσ</supplied><unclear>σι</unclear> <unclear>λ</unclear>άβ’ <unclear>ἡ</unclear><supplied reason="lost">νία σιγαλόεντα,</supplied>
+<lb n="21"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div></div>
+<div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb xml:id="ed2ln1" n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="6" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed2ln2" n="2"/><supplied reason="lost">μίγδ’</supplied> <unclear>ἄ</unclear>λλοι<unclear>σ</unclear><supplied reason="lost">ι θεοῖσι, φίλον τετιημέναι ἦτορ.</supplied>
+<lb xml:id="ed2ln3" n="3"/><supplied reason="lost">Ζεὺς δ</supplied><unclear>ὲ</unclear> πατὴ<supplied reason="lost">ρ Ἴδηθεν ἐΰτροχον ἅρμα καὶ ἵππους</supplied>
+<lb xml:id="ed2ln4" n="4"/><supplied reason="lost">Οὔλυμ</supplied><unclear>π</unclear>όνδ’ ἐδ<supplied reason="lost">ίωκε, θεῶν δ’ ἐξίκετο θώκους.</supplied>
+<lb xml:id="ed2ln5" n="5"/><supplied reason="lost">τῶι δ</supplied><unclear>ὲ</unclear> καὶ ἵππ<supplied reason="lost">ους μὲν λῦσε κλυτὸς Ἐννοσίγαιος,</supplied>
+<lb xml:id="ed2ln6" n="6"/><supplied reason="lost">ἅρματ</supplied>α δ’ ἂμ β<supplied reason="lost">ωμοῖσι τίθει, κατὰ λῖτα πετάσσας.</supplied>
+<lb xml:id="ed2ln7" n="7"/><supplied reason="lost">αὐτὸς</supplied> <unclear>δ</unclear>ὲ χρύσε<supplied reason="lost">ιον ἐπὶ θρόνον εὐρύοπα Ζεύς</supplied>
+<lb xml:id="ed2ln8" n="8"/><supplied reason="lost">ἕζετ</supplied><unclear>ο</unclear>, τῶι δ’ ὑ<unclear>π</unclear><supplied reason="lost">ὸ ποσσὶ μέγας πελεμίζετ’ Ὄλυμπος.</supplied>
+<lb xml:id="ed2ln9" n="9"/><supplied reason="lost">αἳ δ’ οἶ</supplied><unclear>α</unclear>ι Διὸς ἀμ<supplied reason="lost">φὶς Ἀθηναίη τε καὶ Ἥρη</supplied>
+<lb xml:id="ed2ln10" n="10"/><supplied reason="lost">ἥσθην,</supplied> <unclear>ο</unclear>ὐδέ <app type="editorial"><lem resp="papyrus">τέ</lem><rdg resp="mss.">τί</rdg></app> <unclear>μ</unclear><supplied reason="lost">ιν προσεφώνεον οὐδ’ ἐρέοντο.</supplied>
+<lb xml:id="ed2ln11" n="11"/><supplied reason="lost">αὐτὰρ ὃ</supplied> <unclear>ἔ</unclear>γνω ἧ<supplied reason="lost">ισιν ἐνὶ φρεσὶ φώνησέν τε·</supplied>
+<lb xml:id="ed2ln12" n="12"/><supplied reason="lost">τίφθ’</supplied> <app type="editorial"><lem resp="papyrus"><supplied reason="lost">οὕ</supplied>θω</lem><rdg resp="mss.">οὕτω</rdg></app> τετ<supplied reason="lost">ίησθον, Ἀθηναίη τε καὶ Ἥρη;</supplied>
+<lb xml:id="ed2ln13" n="13"/><supplied reason="lost">οὐ μέν</supplied> θην κά<unclear>μ</unclear><supplied reason="lost">ετόν γε μάχηι ἔνι κυδιανείρηι</supplied>
+<lb xml:id="ed2ln14" n="14"/><supplied reason="lost">ὀλλῦσ</supplied><unclear>αι</unclear> <unclear>Τ</unclear>ρῶ<unclear>α</unclear><supplied reason="lost">ς, τοῖσιν κότον αἰνὸν ἔθεσθε.</supplied>
+<lb xml:id="ed2ln15" n="15"/><supplied reason="lost">πάντ</supplied><unclear>ω</unclear>ς, <unclear>οἷ</unclear><supplied reason="lost">ο</supplied><unclear>ν</unclear> <supplied reason="lost">ἐμόν γε μένος καὶ χεῖρες ἄαπτοι,</supplied>
+<lb xml:id="ed2ln16" n="16"/><supplied reason="lost">οὐκ ἄν</supplied> με <unclear>τ</unclear>ρέ<supplied reason="lost">ψειαν, ὅσοι θεοί εἰσ’ ἐν Ὀλύμπωι.</supplied>
+<lb xml:id="ed2ln17" n="17"/><supplied reason="lost">σφῶϊν</supplied> δὲ πρίν π<unclear>ε</unclear><supplied reason="lost">ρ τρόμος ἔλλαβε φαίδιμα γυῖα,</supplied>
+<lb xml:id="ed2ln18" n="18"/><supplied reason="lost">πρὶν πό</supplied>λεμόν τ<supplied reason="omitted">ε</supplied> ἰ<unclear>δ</unclear><supplied reason="lost">εῖν πολέμοιό τε μέρμερα ἔργα.</supplied>
+<lb xml:id="ed2ln19" n="19"/><supplied reason="lost">ὧδε γὰρ</supplied> ἐξερέω, <unclear>τ</unclear><supplied reason="lost">ὸ δέ κεν τετελεσμένον ἦεν·</supplied>
+<lb xml:id="ed2ln20" n="20"/><supplied reason="lost">οὐκ ἂν ἐ</supplied>φ’ ὑμε<unclear>τέρ</unclear><supplied reason="lost">ων ὀχέων πληγέντε κεραυνῶι</supplied>
+<lb xml:id="ed2ln21" n="21"/><supplied reason="lost">ἂψ ἐς Ὄλ</supplied><unclear>υ</unclear>μπον <unclear>ἵκ</unclear><supplied reason="lost">εσθον, ἵν’ ἀθανάτων ἕδος ἐστίν.</supplied>
+<lb xml:id="ed2ln22" n="22"/><supplied reason="lost">ὣς ἔφαθ’·</supplied> <unclear>αἳ</unclear> <unclear>δ</unclear>’ <unclear>ἐπέ</unclear><supplied reason="lost">μυξαν Ἀθηναίη τε καὶ Ἥρη.</supplied>
+<lb xml:id="ed2ln23" n="23"/><supplied reason="lost">ἤτοι Ἀθ</supplied>ην<unclear>α</unclear>ίη ἀ<supplied reason="lost">κέων ἦν οὐδέ τι εἶπεν,</supplied>
+<lb xml:id="ed2ln24" n="24"/><supplied reason="lost">σκυζομ</supplied>ένη Δ<unclear>ιὶ</unclear> <unclear>π</unclear><supplied reason="lost">ατρί, χόλος δέ μιν ἄγριος ἥιρει·</supplied>
+<lb xml:id="ed2ln25" n="25"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="25"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+         <div type="bibliography" subtype="ancientEdition">
+            <listBibl>
+               <bibl type="publication" subtype="ancient">
+                  <author xml:lang="grc"
+                          ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0012 http://cwkb.org/author/id/927/rdf">Homerus</author>
+                  <title type="main"
+                         level="m"
+                         ref="http://www.trismegistos.org/authorwork/511 http://cwkb.org/work/id/2815/rdf">Ilias</title>
+                  <biblScope n="1" unit="book">8</biblScope>
+                  <biblScope n="2" unit="line" from="62" to="75">62-75</biblScope>
+                  <biblScope n="3" unit="generic">and</biblScope>
+                  <biblScope n="4" unit="book">8</biblScope>
+                  <biblScope n="5" unit="line" from="96" to="116">96-116</biblScope>
+                  <biblScope n="6" unit="generic">and</biblScope>
+                  <biblScope n="7" unit="book">8</biblScope>
+                  <biblScope n="8" unit="line" from="436" to="461">436-461</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <listBibl>
+               <bibl type="printed" n="1">P.Flor. 02, pl.2</bibl>
+               <bibl type="printed" n="2">ZPE 71, pl.2</bibl>
+               <bibl type="printed" n="3">G. Cavallo e.a., Scrivere libri e documenti nel mondo antico, Mostra di papiri Firenze 1998, tav. 14</bibl>
+               <bibl type="printed" n="4">cd-ROM, Papiri letterari della Bibl. Medicea Laurenziana</bibl>
+               <bibl type="online" n="1">
+                  <ptr target="https://medieval.bodleian.ox.ac.uk/catalog/manuscript_5501"/>
+               </bibl>
+               <bibl type="online" n="2">
+                  <ptr target="http://www.accademiafiorentina.it/paplett/scheda.asp?id=4"/>
+               </bibl>
+               <bibl type="online">
+                  <ptr target="https://digital.bodleian.ox.ac.uk/objects/4e0fb848-6f85-4f67-835e-7243de44a7fb/"/>
+               </bibl>
+               <bibl type="online">
+                  <ptr target="http://www.psi-online.it/documents/pflor;2;109"/>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl n="1" type="reference" subtype="catalogue">
+                  <title level="m" type="main">Studies in the Text and Transmission of the Iliad.</title>
+                  <!-- ignore - start, i.e. SoSOL users may not edit this -->
+                  <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/16711"/>
+                  <biblScope n="1" unit="number">20</biblScope>
+                  <biblScope n="2" unit="book"/>
+                  <biblScope n="3" unit="book"/>
+               </bibl>
+               <bibl n="2" type="reference" subtype="catalogue">
+                  <title level="m" type="main">Studies in the Text and Transmission of the Iliad.</title>
+                  <!-- ignore - start, i.e. SoSOL users may not edit this -->
+                  <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/16711"/>
+                  <biblScope n="1" unit="number">55</biblScope>
+                  <biblScope n="2" unit="book"/>
+                  <biblScope n="3" unit="book"/>
+               </bibl>
+               <bibl n="3" type="reference" subtype="partial">
+            <!-- ignore - start, i.e. SoSOL users may not edit this -->
+            <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/95161"/>
+                  <biblScope n="1" unit="number">2</biblScope>
+                  <biblScope n="2" unit="chapter"/>
+                  <biblScope n="3" unit="page"/>
+               </bibl>
+               <bibl n="4" type="reference" subtype="partial">
+            <!-- ignore - start, i.e. SoSOL users may not edit this -->
+            <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/95146"/>
+                  <biblScope n="1" unit="number">109</biblScope>
+                  <biblScope n="2" unit="chapter"/>
+                  <biblScope n="3" unit="page"/>
+               </bibl>
+               <bibl n="5" type="reference" subtype="partial">
+            <!-- ignore - start, i.e. SoSOL users may not edit this -->
+            <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/"/>
+                  <biblScope n="1" unit="number">2</biblScope>
+               </bibl>
+               <bibl n="6" type="reference" subtype="partial">
+            <!-- ignore - start, i.e. SoSOL users may not edit this -->
+            <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/59143"/>
+                  <biblScope n="1" unit="number">2</biblScope>
+                  <biblScope n="2" unit="chapter"/>
+                  <biblScope n="3" unit="page" from="60" to="66">60-66</biblScope>
+               </bibl>
+               <bibl n="7" type="reference" subtype="study">
+            <!-- ignore - start, i.e. SoSOL users may not edit this -->
+            <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/76872"/>
+                  <biblScope n="1" unit="volume"/>
+                  <biblScope n="2" unit="chapter"/>
+                  <biblScope n="3" unit="page">35</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+</body>
+      </text>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m60366" xml:lang="en">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragments of Iliad 10</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">60366</idno>
+            <idno type="TM">60366</idno>
+            <idno type="LDAB">1487</idno>
+            <idno type="filename">60366</idno>
+            <idno type="dclp-hybrid">pylon;7;1_3</idno>
+            <idno type="MP3">00853.000</idno>
+            <availability>
+               <p>
+            © Digital Corpus of Literary Papyri. This work is licensed under a
+            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>
+            .
+          </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>
+                     <idno type="invNo" n="1">Vienna, Nationalbibliothek G 19794</idno>
+                     <idno type="invNo" n="2">Vienna, Nationalbibliothek G 19791</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                           <dimensions>
+                              <width unit="cm">7.5</width>
+                              <height unit="cm">7.5</height>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p>papyrus roll (columns: 1, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Fundort: Karanis (= Kom Aushim) (Arsinoites, Egypt); Schreibort: Egypt</origPlace>
+                     <origDate notBefore="0001" notAfter="0199">1 - 199</origDate>
+                  </origin>
+                  <provenance n="1" type="found">
+                     <p>
+                        <placeName n="1" type="ancient" subtype="nome">Arsinoites</placeName>
+                        <placeName n="2" type="ancient" subtype="region">Egypt</placeName>
+                        <placeName n="3"
+                                   type="ancient"
+                                   ref="https://www.trismegistos.org/place/1008 https://pleiades.stoa.org/places/736932">Karanis</placeName>
+                        <placeName n="4" type="modern">Kom Aushim</placeName>
+                     </p>
+                  </provenance>
+                  <provenance n="2" type="composed">
+                     <p>
+                        <placeName type="ancient" subtype="region">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term n="1" type="religion">classical</term>
+               <term n="2" type="culture">literature</term>
+               <term n="3">poetry</term>
+               <term n="4">epic</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-12-16T11:50:33-05:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+         <change when="2021-12-16T11:44:15-05:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - Accept-Straight-to-Finalization - Fine</change>
+         <change when="2021-12-16T11:18:42-05:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Submit - Updated meta and provided image link</change>
+         <change when="2014-12-10" who="DCLP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed3" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="G19791" type="textpart">
+<div n="ii" subtype="column" type="textpart">
+<ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb xml:id="ed3G19791iiln1" n="1"/><supplied reason="lost">νύκτα δι’ ἀμβροσίη</supplied>ν· μάλα τις <unclear>θρ</unclear><supplied reason="lost">ασυκάρδιος ἔσται.</supplied>
+<lb xml:id="ed3G19791iiln2" n="2"/><supplied reason="lost">τὸν δ’ ἀπαμειβόμε</supplied><unclear>ν</unclear>ος προσέφη κρ<unclear>ε</unclear><supplied reason="lost">ίων Ἀγαμέμνων·</supplied>
+<lb xml:id="ed3G19791iiln3" n="3"/><supplied reason="lost">χρεὼ βουλῆς ἐμὲ κ</supplied><unclear>α</unclear>ὶ σέ, διοτρεφὲς ὦ <supplied reason="lost">Μ</supplied><unclear>ε</unclear>ν<supplied reason="lost">έλαε,</supplied>
+<lb xml:id="ed3G19791iiln4" n="4"/><supplied reason="lost">κερδαλέης, ἥ τίς κ</supplied><unclear>ε</unclear>ν ἐρύσσεται ἠδὲ <supplied reason="lost">σα</supplied><unclear>ώ</unclear>σ<supplied reason="lost">ει</supplied>
+<lb xml:id="ed3G19791iiln5" n="5"/><supplied reason="lost">Ἀργείους καὶ νῆα</supplied>ς, ἐπεὶ Διὸς ἐτρά<unclear>π</unclear>ετ<unclear>ο</unclear> φ<supplied reason="lost">ρήν.</supplied>
+<lb xml:id="ed3G19791iiln6" n="6"/><supplied reason="lost">Ἑκτορέοις ἄρα μ</supplied><unclear>ᾶ</unclear>λλον ἐπὶ φρένα θῆχ’<g type="apostrophe"/><note>θῆχ’ papyrus</note> ἱερ<supplied reason="lost">οῖσιν.</supplied>
+<lb xml:id="ed3G19791iiln7" n="7"/><supplied reason="lost">οὐ γάρ πω ἰδόμ</supplied><unclear>η</unclear>ν, οὐδ’ ἔκλυον αὐδήσα<unclear>ν</unclear><supplied reason="lost">τος,</supplied>
+<lb xml:id="ed3G19791iiln8" n="8"/><supplied reason="lost">ἄνδρ’ <num value="1">ἕνα</num> τοσσά</supplied><unclear>δ</unclear>ε μέρμερ’ <subst><add place="inline">ἐπ’</add><del rend="corrected">απ</del></subst> ἤματι μ<unclear>η</unclear><supplied reason="lost">τίσασθαι,</supplied>
+<lb xml:id="ed3G19791iiln9" n="9"/><supplied reason="lost">ὅσσ’ Ἕκτωρ ἔρρεξε</supplied> <unclear>δ</unclear>ιίφ<unclear>ιλ</unclear>ος υἷας Ἀχαιῶν<g type="middot"/>
+<lb xml:id="ed3G19791iiln10" n="10"/><supplied reason="lost">αὔτως, οὔτε θεᾶς</supplied> υἱὸς φίλος οὔτε θεοῖο.<g type="middot"/>
+<lb xml:id="ed3G19791iiln11" n="11"/><supplied reason="lost">ἔργα δ’ ἔρεξ’ ὅσα φη</supplied>μὶ μελη<unclear>σ</unclear>έμεν <choice><reg>Ἀργείοισι</reg><orig>Ἀργίοισι</orig></choice>
+<lb xml:id="ed3G19791iiln12" n="12"/><supplied reason="lost">δηθά τε καὶ δολι</supplied><unclear>χ</unclear>όν· <subst><add place="inline">τόσα</add><del rend="corrected">τ<gap reason="illegible" quantity="1" unit="character"/>σα</del></subst> γὰρ κ<unclear>ακ</unclear>ὰ μήσατ’ <supplied reason="lost">Ἀχαιούς.</supplied>
+<lb xml:id="ed3G19791iiln13" n="13"/><supplied reason="lost">ἀλλ’ ἴθι νῦν Αἴαντ</supplied><unclear>α</unclear> καὶ Ἰδομεν<unclear>ῆα</unclear> <unclear>κάλεσ</unclear><supplied reason="lost">σον</supplied>
+<lb xml:id="ed3G19791iiln14" n="14"/><supplied reason="lost">ῥίμφα θέων παρὰ</supplied> νῆας· ἐγὼ <unclear>δ</unclear>’ ἐπὶ <unclear>Νέσ</unclear>τορα <supplied reason="lost">δῖον</supplied>
+<lb xml:id="ed3G19791iiln15" n="15"/><supplied reason="lost">εἶμι καὶ ὀτρυνέω</supplied> ἀνστήμεναι, αἴ <unclear>κ</unclear>’ ἐθέληι<supplied reason="lost">σιν</supplied>
+<lb xml:id="ed3G19791iiln16" n="16"/><supplied reason="lost">ἐλθεῖν ἐς φυλάκ</supplied>ων ἱερὸν τέλος <unclear>ἠδ</unclear>’ <unclear>ἐ</unclear>πιτ<supplied reason="lost">εῖλαι.</supplied>
+<lb xml:id="ed3G19791iiln17" n="17"/><supplied reason="lost">κείνου γάρ κε μάλι</supplied><unclear>στα</unclear> <unclear>π</unclear><supplied reason="lost">ιθο</supplied><unclear>ί</unclear>ατ<supplied reason="lost">ο· τοῖο γὰρ υἱὸς</supplied>
+</ab></div></div>
+<div n="G19794" type="textpart">
+<div n="iii" subtype="column" type="textpart">
+<ab>
+<lb xml:id="ed3G19794iiiln1" n="1"/><supplied reason="lost">ἀσ</supplied><unclear>π</unclear>ὶς καὶ <num value="2">δύο</num> <unclear>δ</unclear><supplied reason="lost">ο</supplied><unclear>ῦρ</unclear>ε φαεινή <unclear>τ</unclear><supplied reason="lost">ε τρυ</supplied><unclear>φάλεια</unclear>·
+<lb xml:id="ed3G19794iiiln2" n="2"/><supplied reason="lost">π</supplied>ὰρ δὲ ζωστὴρ κεῖτο παναί<supplied reason="lost">ολος, ὧι</supplied> <unclear>ῥ</unclear>’ <unclear>ὁ</unclear> γεραιός
+<lb xml:id="ed3G19794iiiln3" n="3"/><supplied reason="lost">ζ</supplied><unclear>ώ</unclear>ννυθ’, ὅτ’ ἐ<unclear>ς</unclear> πόλεμον φθ<supplied reason="lost">εισήνο</supplied><unclear>ρ</unclear><supplied reason="lost">α</supplied> <choice><reg>θωρή<supplied reason="lost">σσοιτο</supplied></reg><orig>θωρί<supplied reason="lost">σσοιτο</supplied></orig></choice>
+<lb xml:id="ed3G19794iiiln4" n="4"/><supplied reason="lost">λ</supplied><unclear>α</unclear>ὸν ἄγων, ἐπ<unclear>εὶ</unclear> οὐ μὲ<unclear>ν</unclear> ἐπέ<supplied reason="lost">τρεπε γ</supplied><unclear>ήρ</unclear>α<supplied reason="lost">ϊ λυγρῶι.</supplied>
+<lb xml:id="ed3G19794iiiln5" n="5"/><supplied reason="lost">ὀρ</supplied>θωθεὶς δ’ ἄ<supplied reason="lost">ρ</supplied>’ ἐπ’ ἀγκῶνος, <supplied reason="lost">κεφαλ</supplied><unclear>ὴ</unclear>ν ἐ<supplied reason="lost">παείρας,</supplied>
+<lb xml:id="ed3G19794iiiln6" n="6"/><supplied reason="lost">Ἀτ</supplied>ρείδην π<unclear>ρ</unclear>οσέε<unclear>ι</unclear>πε καὶ <unclear>ἐ</unclear><supplied reason="lost">ξερεε</supplied><unclear>ί</unclear><supplied reason="lost">ν</supplied>ετ<supplied reason="lost">ο μύθωι·</supplied>
+<lb xml:id="ed3G19794iiiln7" n="7"/><supplied reason="lost">τί</supplied>ς δ’ οὗτος κα<unclear>τὰ</unclear> ν<unclear>ῆ</unclear>ας ἀνὰ <unclear>σ</unclear><supplied reason="lost">τρατ</supplied>ὸν ἔρ<unclear>χ</unclear><supplied reason="lost">εαι οἶος</supplied>
+<lb xml:id="ed3G19794iiiln8" n="8"/><supplied reason="lost">νύ</supplied><unclear>κ</unclear>τα δι’ ὀρ<supplied reason="lost">φναίη</supplied>ν, ὅτε θ’ ε<unclear>ὕ</unclear><supplied reason="lost">δουσι</supplied> <unclear>β</unclear>ρο<unclear>τ</unclear><supplied reason="lost">οὶ ἄλλοι,</supplied>
+<lb xml:id="ed3G19794iiiln9" n="9"/><supplied reason="lost">ἠέ</supplied> <unclear>τ</unclear>ιν’ οὐρήω<supplied reason="lost">ν διζ</supplied><unclear>ή</unclear>μενο<supplied reason="lost">ς, ἤ τιν’ ἑ</supplied>ταί<supplied reason="lost">ρων;</supplied>
+<lb xml:id="ed3G19794iiiln10" n="10"/><supplied reason="lost">φθέ</supplied>γγεο, μηδ’<g type="apostrophe"/><note>μηδ’ papyrus</note> <supplied reason="lost">ἀκέω</supplied>ν ἐπ’ ἔ<supplied reason="lost">μ’ ἔρ</supplied><unclear>χε</unclear><supplied reason="lost">ο. τ</supplied><unclear>ί</unclear>πτ<supplied reason="lost">ε δέ σε χρεώ;</supplied>
+<lb xml:id="ed3G19794iiiln11" n="11"/><supplied reason="lost">τὸ</supplied><unclear>ν</unclear> δ’ ἠμεί<unclear>βε</unclear><supplied reason="lost">τ’ ἔπε</supplied>ιτα ἄ<supplied reason="lost">ναξ ἀ</supplied><unclear>νδρ</unclear>ῶν <supplied reason="lost">Ἀγαμέμνων·</supplied>
+<lb xml:id="ed3G19794iiiln12" n="12"/><supplied reason="lost">ὦ Νέ</supplied><unclear>στ</unclear>ο<supplied reason="lost">ρ</supplied> Νηλ<supplied reason="lost">ηϊάδη, μέγα κῦδος Ἀχαιῶν,</supplied>
+<lb xml:id="ed3G19794iiiln13" n="13"/><supplied reason="lost">γνώσε</supplied><unclear>α</unclear>ι Ἀτ<supplied reason="lost">ρείδη</supplied><unclear>ν</unclear> Ἀγ<supplied reason="lost">αμέμνονα, τὸν περὶ πάντων</supplied>
+<lb xml:id="ed3G19794iiiln14" n="14"/><supplied reason="lost">Ζεὺς ἐνέ</supplied>ηκε <supplied reason="lost">πόνοισ</supplied>ι δι<supplied reason="lost">αμπερές, εἰς ὅ κ’ ἀϋτμή</supplied>
+<lb xml:id="ed3G19794iiiln15" n="15"/><supplied reason="lost">ἐν στήθ</supplied><unclear>ε</unclear>σσ<unclear>ι</unclear> <supplied reason="lost">μένηι</supplied> καί μ<supplied reason="lost">οι φίλα γούνατ’ ὀρώρηι.</supplied>
+<lb xml:id="ed3G19794iiiln16" n="16"/><supplied reason="lost">πλάζομαι ὧ</supplied><unclear>δ</unclear>’, <supplied reason="lost">ἐπεὶ οὔ</supplied> <unclear>μο</unclear>ι <supplied reason="lost">ἐ</supplied>π’ <unclear>ὄμ</unclear><supplied reason="lost">μασι νήδυμος ὕπνος</supplied>
+<lb xml:id="ed3G19794iiiln17" n="17"/><supplied reason="lost">ἱζάνει, ἀλλὰ μέλει πό</supplied>λεμο<unclear>ς</unclear> <unclear>κ</unclear>αὶ <supplied reason="lost">κήδε’ Ἀχαιῶν.</supplied>
+<lb xml:id="ed3G19794iiiln18" n="18"/><supplied reason="lost">αἰνῶς γὰρ Δαναῶν</supplied> <unclear>π</unclear>ε<unclear>ρ</unclear><supplied reason="lost">ι</supplied>δ<supplied reason="lost">ε</supplied>ίδ<supplied reason="lost">ια, οὐδέ μοι ἦτορ</supplied>
+<lb xml:id="ed3G19794iiiln19" n="19"/><supplied reason="lost">ἔμπεδον, ἀλλ’ ἀλαλ</supplied><unclear>ύκ</unclear>τη<unclear>μαι</unclear>, <unclear>κ</unclear><supplied reason="lost">ραδίη δέ μοι ἔξω</supplied>
+<lb xml:id="ed3G19794iiiln20" n="20"/><supplied reason="lost">στηθέων ἐκθρώισκει,</supplied> <unclear>τρ</unclear>ο<unclear>μέ</unclear><supplied reason="lost">ει δ’ ὑπὸ φαίδιμα γυῖα.</supplied>
+<lb xml:id="ed3G19794iiiln21" n="21"/><supplied reason="lost">ἀλλ’ εἴ τι δραίνεις, ἐπεὶ</supplied> <unclear>ο</unclear>ὐδ<supplied reason="lost">ὲ σέ γ’ ὕπνος ἱκάνει,</supplied>
+<lb xml:id="ed3G19794iiiln22" n="22"/><supplied reason="lost">δεῦρ’ ἐς τοὺς φύλακας</supplied> <unclear>κ</unclear>α<unclear>τ</unclear><supplied reason="lost">αβείομεν, ὄφρα ἴδωμεν,</supplied>
+<lb xml:id="ed3G19794iiiln23" n="23"/><supplied reason="lost">μὴ τοὶ μὲν καμάτωι ἀδ</supplied><unclear>ηκό</unclear><supplied reason="lost">τες ἠδὲ καὶ ὕπνωι</supplied>
+<lb xml:id="ed3G19794iiiln24" n="24"/><supplied reason="lost">κοιμήσωνται, ἀτὰρ φ</supplied>υλ<unclear>α</unclear><supplied reason="lost">κῆς ἐπὶ πάγχυ λάθωνται·</supplied>
+<lb xml:id="ed3G19794iiiln25" n="25"/><supplied reason="lost">δυσμενέες δ’ ἄνδρες σ</supplied>χεδ<supplied reason="lost">ὸν εἵαται, οὐδέ τι ἴδμεν,</supplied>
+<lb xml:id="ed3G19794iiiln26" n="26"/><gap reason="lost" quantity="2" unit="line"/>
+<lb xml:id="ed3G19794iiiln28" n="28"/><supplied reason="lost">Ἀτρείδη</supplied> <unclear>κύ</unclear><supplied reason="lost">διστε, ἄν</supplied><unclear>αξ</unclear> <unclear>ἀν</unclear><supplied reason="lost">δρ</supplied><unclear>ῶ</unclear><supplied reason="lost">ν Ἀγάμεμνον,</supplied>
+<lb xml:id="ed3G19794iiiln29" n="29"/><supplied reason="lost">οὔ θην Ἕκτο</supplied><unclear>ρι</unclear> <supplied reason="lost">πάντα</supplied> <unclear>νο</unclear><supplied reason="lost">ήμ</supplied><unclear>ατα</unclear> <unclear>μη</unclear><supplied reason="lost">τίετα Ζεύς</supplied>
+<lb xml:id="ed3G19794iiiln30" n="30"/><supplied reason="lost">ἐκτελέει, ὅσ</supplied><unclear>α</unclear> <unclear>π</unclear>ο<supplied reason="lost">ύ</supplied> ν<unclear>υν</unclear> <supplied reason="lost">ἐ</supplied><unclear>έλπε</unclear>ται· ἀ<supplied reason="lost">λλά μιν οἴω</supplied>
+<lb xml:id="ed3G19794iiiln31" n="31"/><supplied reason="lost">κήδεσι μοχ</supplied><unclear>θή</unclear><supplied reason="lost">σειν</supplied> καὶ πλ<supplied reason="lost">ε<supplied reason="omitted">ί</supplied></supplied>ο<supplied reason="lost">σ</supplied><unclear>ι</unclear>ν, εἴ κ<unclear>ε</unclear><supplied reason="lost">ν Ἀχιλλεύς</supplied>
+<lb xml:id="ed3G19794iiiln32" n="32"/><supplied reason="lost">ἐκ χόλου ἀργα</supplied><unclear>λέ</unclear>οιο με<unclear>τ</unclear>ασ<supplied reason="lost">τ</supplied><unclear>ρ</unclear>έ<unclear>ψη</unclear><supplied reason="lost">ι</supplied> φ<unclear>ί</unclear><supplied reason="lost">λον ἦτορ.</supplied>
+<lb xml:id="ed3G19794iiiln33" n="33"/><supplied reason="lost">σοὶ δὲ μάλ’ ἕ</supplied><unclear>ψ</unclear>ομ’ ἐγώ· πρ<unclear>ο</unclear><supplied reason="lost">τὶ</supplied> δ’ αὖ καὶ ἐ<supplied reason="lost">γείρομεν ἄλλους,</supplied>
+<lb xml:id="ed3G19794iiiln34" n="34"/><supplied reason="lost">ἠμὲν Τυδείδ</supplied><unclear>ην</unclear> <unclear>δ</unclear>ου<unclear>ρικλυτ</unclear>ὸ<unclear>ν</unclear> <choice><reg>ἠ<supplied reason="lost">δ’</supplied></reg><orig>εἰ<supplied reason="lost">δ’</supplied></orig></choice> Ὀ<unclear>δυ</unclear><supplied reason="lost">σῆα</supplied>
+<lb xml:id="ed3G19794iiiln35" n="35"/><supplied reason="lost">ἠδ’ Αἴαντα ταχ</supplied><unclear>ὺ</unclear>ν καὶ Φ<unclear>υ</unclear><supplied reason="lost">λ</supplied><unclear>έο</unclear>ς ἄλκι<supplied reason="lost">μον υἱόν.</supplied>
+<lb xml:id="ed3G19794iiiln36" n="36"/><supplied reason="lost">ἀλλ’ εἴ τις καὶ</supplied> τ<unclear>ο</unclear>ύσδε μετ<unclear>οι</unclear>χόμε<supplied reason="lost">ν</supplied><unclear>ο</unclear>ς <supplied reason="lost">καλέσειεν,</supplied>
+<lb xml:id="ed3G19794iiiln37" n="37"/><supplied reason="lost">ἀντίθεόν τ’ Αἴ</supplied><unclear>α</unclear>ντα καὶ Ἰδο<unclear>με</unclear><supplied reason="lost">ν</supplied><unclear>ῆα</unclear> <unclear>ἄ</unclear>ν<supplied reason="lost">ακτα·</supplied>
+</ab></div></div></div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl n="1" type="reference" subtype="previous">
+                  <title level="s" type="abbreviated">MPER N.S.</title>
+                  <!-- ignore - start, i.e. SoSOL users may not edit this -->
+                  <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/3034"/>
+                  <biblScope n="1" unit="number">3</biblScope>
+                  <biblScope n="2" unit="generic">(= 2-3 b)</biblScope>
+                  <biblScope n="3" unit="volume"/>
+               </bibl>
+               <bibl n="2" type="reference" subtype="catalogue">
+                  <title level="m" type="main">Studies in the Text and Transmission of the Iliad.</title>
+                  <!-- ignore - start, i.e. SoSOL users may not edit this -->
+                  <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/16711"/>
+                  <biblScope n="1" unit="number">288</biblScope>
+                  <biblScope n="2" unit="book"/>
+                  <biblScope n="3" unit="book"/>
+               </bibl>
+               <bibl n="3" type="reference" subtype="catalogue">
+                  <title level="m" type="main">Studies in the Text and Transmission of the Iliad.</title>
+                  <!-- ignore - start, i.e. SoSOL users may not edit this -->
+                  <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/16711"/>
+                  <biblScope n="1" unit="number">367</biblScope>
+                  <biblScope n="2" unit="book"/>
+                  <biblScope n="3" unit="book"/>
+               </bibl>
+               <bibl n="4" type="reference" subtype="partial">
+            <!-- ignore - start, i.e. SoSOL users may not edit this -->
+            <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/3889"/>
+                  <biblScope n="1" unit="number">1</biblScope>
+                  <biblScope n="2" unit="chapter"/>
+                  <biblScope n="3" unit="page"/>
+               </bibl>
+               <bibl n="5" type="publication" subtype="principal">
+                  <ptr target="https://papyri.info/biblio/"/>
+                  <biblScope n="1" unit="number">3</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="ancientEdition">
+            <listBibl>
+               <bibl type="publication" subtype="ancient">
+                  <author xml:lang="grc"
+                          ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0012 http://cwkb.org/author/id/927/rdf">Homerus</author>
+                  <title type="main"
+                         level="m"
+                         ref="http://www.trismegistos.org/authorwork/511 http://cwkb.org/work/id/2815/rdf">Ilias</title>
+                  <biblScope n="1" unit="book">10</biblScope>
+                  <biblScope n="2" unit="line" from="41" to="57">41-57</biblScope>
+                  <biblScope n="3" unit="generic">and</biblScope>
+                  <biblScope n="4" unit="book">10</biblScope>
+                  <biblScope n="5" unit="line" from="76" to="100">76-100</biblScope>
+                  <biblScope n="6" unit="generic">and</biblScope>
+                  <biblScope n="7" unit="book">10</biblScope>
+                  <biblScope n="8" unit="line" from="103" to="112">103-112</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <listBibl>
+               <bibl type="printed">Liège</bibl>
+               <bibl type="online">
+                  <ptr target="http://data.onb.ac.at/rec/RZ00003953"/>
+               </bibl>
+            </listBibl>
+         </div>
+</body>
+      </text>
+   </TEI>
+</TEI>
