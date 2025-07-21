@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+               <title>A Late Antique Receipt for Grain from the Hermopolite Nome </title>
+                    <author>
+                    <name>
+                        <forename>Lincoln H.</forename>
+                        <surname>Blumell</surname>
+                    </name>
+                    <affiliation>Brigham Young University</affiliation>
+                    <email>lincoln_blumell@byu.edu</email>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1075476607</idno>
+                    <idno ana="hc:ORCIDURI">https://orcid.org/0000-0003-2922-5337</idno>
+                    </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date/>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Propylaeum</orgName>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+                </publisher>
+                <pubPlace>
+                    <placeName>Heidelberg</placeName>
+                    <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+                </pubPlace>
+                <date when="2025">2025</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno ana="hc:PrivateIdentifier">pylon.7.5</idno>
+                <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.7.112021</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl ana="hc:RecommendedBibliographicReference">L.H. Blumell, “A Late Antique Receipt for Grain from the Hermopolite Nome,” Pylon 7 (2025) Article 5. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2025.7.112021">https://doi.org/10.48631/pylon.2025.7.112021</ref>.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title level="j" ana="hc:MainTitle">Pylon</title>
+                        <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                        <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                        <imprint>
+                            <biblScope unit="volume">7</biblScope>
+                            <biblScope unit="article">5</biblScope>
+                            <date when="2025">2025</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <ab>Converted from a Word document for Pylon.</ab>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2025-05-26T10:32:40Z</date>
+                    <name/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="MainTitle">A Late Antique Receipt for Grain from the Hermopolite Nome</titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <div type="article">
+                <note type="acknowledgement">I would like to thank Luise Poulton who was the former Managing Curator, Rare Books Division, Special Collections, J. Willard Marriott Library, University of Utah, for bringing this piece to my attention and for her permission to image and publish this papyrus. I would also like to thank Lajos Berkes for looking over an earlier draft of this papyrus and for providing valuable feedback.  </note>
+            <div type="introduction">
+                <p xml:id="p1">This papyrus is kept in the J. Willard Marriott Library, Special Collections Division, of the University of Utah. It is the only Greek papyrus in its collection.<note place="foot" xml:id="ftn1" n="1">
+                    <p> There is one other Greek item in the collection, a Greek burial stele from Egypt from the third or fourth century; on this item see: <ref target="https://brill.com/view/journals/jsj/47/3/article-p310_2.xml">Blumell 2016</ref>: 310–29.  </p>
+                    </note> The catalog record for the piece is terse. It contains a one-sentence description that purports that the papyrus comes from “Asia Minor,” and then there is a note that identifies the piece as “P. von Scherling g. 211.”<note place="foot" xml:id="ftn2" n="2">
+                    <p> The catalogue entry reads: “Papyrus sample in Greek. 6th Century A.D. Grain receipt. Probably from Asia Minor”.</p>
+                    </note> As the content of the receipt makes clear, it does not come from Asia Minor but rather the Hermopolite Nome in Egypt; the latter reference should be understood as “P(apyrus) von Scherling g(reek) 211” and has reference to Erik von Scherling, the Swedish-Dutch antiquities dealer, who sold papyri to collections all over Europe and the USA from the 1920s through the 1950s.<note place="foot" xml:id="ftn3" n="3">
+                    <p> On the global commercial activities of von Scherling see <ref target="https://papyri.info/biblio/76273">Bakker, Bakkers and Worp 2007</ref>: 39–72. More recently see <ref target="https://papyri.info/biblio/95699">Worp 2016</ref>: 61–78. </p>
+                    </note>
+                </p>
+                <p xml:id="p2">Despite a thorough search of all the issues of <emph rend="italics">Rotulus</emph>, a quarterly bulletin circulated by von Scherling beginning in 1931 to market his antiquities, I have not found an entry for this papyrus.<note place="foot" xml:id="ftn4" n="4">
+                    <p> The last issue of <emph rend="italics">Rotulus</emph> was published in 1954. I have not been able to locate a text with the inventory number “g. 211” in any issue and I have not found any description of a Greek text that matches the features of the present text.   </p>
+                    </note> Given this reference, it assuredly originated with von Scherling, but it is uncertain how it made its way to the University of Utah. A possible explanation could be that it was acquired for the university via Aziz Atiya, who joined the faculty at the University of Utah in 1959 and immediately began procuring texts (mainly Coptic and Arabic) from his native Egypt for the university’s Middle East Center.<note place="foot" xml:id="ftn5" n="5">
+                    <p> On the Coptic acquisitions of Atiya see <ref target="https://papyri.info/biblio/86542">Blumell 2013</ref>: 182. All the ancient and medieval items of Egyptian provenance in the University of Utah’s collection for which there is a detailed catalogue record were acquired through Atiya.   </p>
+                    </note> Whether Atiya obtained the text directly from von Scherling or through some intermediary is unknown. As Atiya was not hired until 1959 and von Scherling died in 1956, there is a three-year gap; if Atiya were involved in the procurement of the papyrus it was either done through an intermediary or Atiya had procured it sometime earlier from von Scherling, and it was part of his personal collection before it ended up at the University of Utah.<note place="foot" xml:id="ftn6" n="6">
+                    <p> After Atiya’s death in 1988 various personal artifacts he had collected over the course of this academic career, which began in the late 1930s, were bequeathed to the University of Utah.</p>
+                    </note>
+                </p>
+                <p xml:id="p3">The papyrus preserves seven lines of Greek text written along the fibers with dark brown ink; there is no writing on the backside. Three distinct horizontal creases on the papyrus suggest that the piece was originally folded. The right side of the papyrus is broken off, but it cannot be determined how much text is lost in the break. The text is written with a rapid cursive script, typical of documents from the later sixth or seventh century, and finds paleographic parallels in the following documents: <ref target="https://papyri.info/hgv/37894">P.Oxy. 16 1952</ref> (21 May 564; Oxyrhynchus), <ref target="https://papyri.info/hgv/786163">P.Oxy. 83 5389</ref> (10 Mar. 588; Oxyrhynchus), and <ref target="https://papyri.info/hgv/18752">SPP 20 218</ref> (28 Aug. 624 [?]; Hermopolite). </p>
+                <p xml:id="p4">The text preserves a receipt for grain issued by two <emph rend="italics">komarchs</emph> to an individual (the name is lost in a lacuna) who was associated with the “Holy Monastery of Apa Dorotheos” and was connected to the “<emph rend="italics">epoikion</emph> of Neilammon.” Both the monastery and the <emph rend="italics">epoikion</emph> are previously attested. The payment for the levy is made in kind using the “Athenian measure,” which is well-attested in documents from the Hermopolite Nome and is accompanied by a monetary payment. Regarding the overall content found on the papyrus, the closest parallels appear in the following receipts: <ref target="https://papyri.info/hgv/35961">BGU 12 2194</ref> (VI A.D.; Hermopolis); <ref target="https://papyri.info/hgv/36857">P.Flor. 3 289</ref> (VI; Antaiopolis);
+                    <ref target="https://papyri.info/hgv/128703">P.Jena 2 22</ref> (V–VI A.D.; Hermopolite); and <ref target="https://papyri.info/hgv/35288">PSI 1 43</ref> (V AD; Hermopolite). </p>
+            </div>
+            <div type="epidoc" subtype="DDB">
+                <table type="papyrological_header">
+                   <row>
+                        <cell style="text-align: left;">Hermopolite Nome</cell>
+                        <cell style="text-align: left;">8.3 (h) × 16.5 (w)</cell>
+                        <cell style="text-align: right;">A.D. late VΙ/VIΙ</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                   </row>
+                </table>
+                <figure>
+                    <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23956579"/>
+                    <head>Fig. 1: P. von Scherling g. 211.</head>
+                </figure>
+                <div copyOf="#ed1" type="edition"/>
+                <div copyOf="#trans1" type="translation"/>
+                <div type="commentary">
+                    <note target="ed1ln1">
+                        <ref>1</ref>
+                        <p xml:id="p5"> ⳨ τῷ ἁγίῳ μοναστηρίου ἄπα Δωροθέο̣[υ. <ref target="https://papyri.info/hgv/702566">P.Gascou 66</ref>.2–3 (V/VI A.D.; Hermopolis), a salary receipt, has a similar error where it begins in the dative case but then the writer mistakenly defaults to the genitive for the addressee.   </p>
+                        <p xml:id="p6">The monastery of Apa Dorotheos is attested in <ref target="https://papyri.info/hgv/20110">P.Sorb. 2 69</ref>.16.2.42 and 93.C.1 (A.D. VII; Hermopolis). Additionally, it is attested in a previously unpublished dossier of Greek and Coptic documents from the collections at Strasburg and the Sorbonne assembled by A. Boud’hors and J. Gascou.<note place="foot" xml:id="ftn7" n="7">
+                            <p>
+                                <ref target="https://papyri.info/biblio/86125">Boud’hors and Gascou 2016</ref>.</p>
+                            </note> The four texts that comprise the dossier (P Strasb. inv. K 686 [Greek; A.D. VI]; P. Sorb. inv. 2764 ro [Greek; 28 Nov. – 27 Dec., A.D. 571]; P Sorb. inv. 2764 vo [Coptic, two letters on one papyrus; late A.D. VI/early VII]), either come from Hermopolis or Antinoopolis, two centers that were closely linked. On the titles used for the monastery, which include ἅγιος, see <ref target="https://papyri.info/biblio/86125">Boud’hors and Gascou 2016</ref>: 1006.</p>
+                    </note>
+                    <note target="ed1ln2">
+                        <ref>2</ref>
+                        <p xml:id="p7">   ̣  ̣  ̣  ̣[  ̣]  ̣  ̣ η  ̣ ω ἀπὸ ἐποικείου Νιλάμμωνος π(αρά). The first word (or words) on this line, before ἀπό, is not readable since the first horizontal crease on the papyrus resulted in damage to the beginning of the line and papyrus being torn away. The last letter is securely an ω, and the third last letter is securely an η; between these two letters, there are vestiges of a horizontal upper stroke that could either be a γ or a τ. If it were a γ, the reading might be [ἀ]ρ̣χ̣ηγ̣ῷ as the extant traces could lend themselves to this reconstruction; while this term is rare in the papyri and is typically used metaphorically, it is attested in <ref target="https://papyri.info/hgv/36919">P.Lond. 5 1680</ref>.15 (A.D. VI; Aphrodito). Whatever the word (or words) is, given its placement and dative ending, it seems likely to have been the title/occupation that belongs to the person representing the monastery and who was named in the lacuna at the end of l. 1.</p>
+                        <p xml:id="p8">The toponym ἐποίκιον Νειλάμμωνος is attested on two previous occasions, see <ref target="https://www.trismegistos.org/place/13496">TM Geo 13496</ref>. For a map containing its approximate location within the Hermopolite Nome, see <ref target="https://papyri.info/biblio/21293">CPR 30</ref> p. 116.   </p>
+                        <p xml:id="p9">Before the papyrus breaks off at the end of the line, there is a larger-than-usual π. Though it is slightly effaced, it appears a stroke intersects it: e.g., <emph rend="strikethrough">π</emph>. The reading that lends itself is π(αρά), and the same kind of abbreviation is used for χαίρειν in l. 4: e.g. <emph rend="strikethrough">χ</emph>.</p>
+                    </note>
+                    <note target="ed1ln3">
+                        <ref>3</ref>
+                        <p xml:id="p10"> Ἰωσῆφις Ἰερεμίου. On the name Ἰωσῆφις, a variant of the name Ἰωσήφ, see <ref target="https://www.trismegistos.org/name/3467">TM Nam 3467</ref>; for ᾽Ιερεμίας see <ref target="https://www.trismegistos.org/name/3405">TM Nam 3405</ref>. There are no other attestations in Greek of a Josephis son of Jeremiah; another Komarch bearing the name Joseph appears in <ref target="https://papyri.info/hgv/79114">SB 22 15601</ref>.14 (A.D. V/VI; provenance unknown), but there is no way of knowing if it is the same individual.</p>
+                    </note>
+                    <note target="ed1ln3">
+                        <ref>3–4</ref>
+                        <p xml:id="p11"> ἀμφο̣τέρ̣(ων) κωμαρχῶ̣[ν κώμης   ca.?   τοῦ Ἑρμοπολείτου] | νομοῦ. The office of Komarch is attested but is rare in this period; see <ref target="https://papyri.info/biblio/95961">Berkes, 2017</ref>: 29–35. Based on parallels, one anticipates a village in the lacuna, e.g., <ref target="https://papyri.info/hgv/18002">SB 5 7758</ref>.6–7 (A.D. 497; Magdola Boukolon [Hermopolite]): κώμαρχος [κ]ώμης Μαγδώλων Β[ου]κόλων τοῦ Ἑρμοπολίτου νομοῦ   . The reading Ἑρμοπολίτου may have been abbreviated. For a list of the κῶμαι of the Hermopolite, see <ref target="https://papyri.info/biblio/925">Drew-Bear 1979</ref>: 383–386. </p>
+                    </note>
+                    <note target="ed1ln4">
+                        <ref>4</ref>
+                        <p xml:id="p12"> πεπληρώθην. The form of the verb is unusual for a couple of reasons. (1) It is a hybrid form that contains the perfect reduplication (πεπ-) and the aorist passive ending (-θην); perfect: πεπλήρωμαι; aorist: ἐπληρώθην. At present, this is the only example of this hybrid form of the verb in the papyri, although hybridization of the type attested here for the perfect and aorist is attested: see <ref target="https://papyri.info/biblio/9657">Gignac 1981</ref>, 317–18, 347–48. (2) Since there are two <emph rend="italics">Komarchs</emph> (l. 3), one expects either the plural (perf.) πεπληρώμεθα or (aor.) ἐπληρώθημεν; the latter is more widely attested, but the former appears most in texts from the Hermopolite Nome. The use of the mistaken singular also appears in <ref target="https://papyri.info/hgv/15297">P.Prag 1.15</ref> (A.D. 353; Pompano [Kynopolite]), where there are two <emph rend="italics">Komarchs</emph>(ll. 2–4), but the initial verb δίδωμι (l. 7) is in the singular. See also <ref target="https://papyri.info/hgv/38280">ZPE 219 (2021) no. 7</ref>
+                        <note place="foot" xml:id="ftn8" n="8">
+                            <p><ref target="https://papyri.info/biblio/95881">Benaissa 2021</ref>: 186.</p>
+                        </note> l. 4 (A.D. VI – VII; Hermopolis) where πεπλήρωμαι is mistakenly written instead of πεπληρώμεθα. </p>
+                    </note>
+                    <note target="ed1ln4">
+                        <ref>4–5</ref>
+                        <p xml:id="p13"> ὑπὲρ σίτ[ου   ̣  ̣  ̣  ̣  ̣]  ̣επι  ̣[    ca.?      ] | τετάρτου μέτρῳ Ἀθηναίῳ. In the lacuna between lines 4 and 5 one anticipates a reference to an artaba(s) and a whole number based on parallels: <ref target="https://papyri.info/hgv/128703">P.Jena 2 22</ref>.3 (A.D. V/VI; Hermopolite): σίτου ῥυπαρο̣ῦ ἀρτάβης μιᾶς ἡμίσους μέτρῳ Ἀθηναίῳ; <ref target="https://papyri.info/hgv/14029">SB 5 7758</ref>.15–17 (A.D. 497; Hermopolite): ἀναγκαίαν χρείαν κεφάλαιον σίτου ἀρτάβα[ς] δέκα καὶ κριθῶν ἀρτάβας δύο ἥμισυ μέτρῳ Ἀθηναίῳ; <ref target="https://papyri.info/hgv/143375">P. Scholl 8</ref>.18 (A.D. 515; Hermopolis): ἀρ[τά]βης μιᾶς τ̣ρ̣ίτου μέτρῳ Ἀθηναίῳ. </p>
+                        <p xml:id="p14">μέτρῳ Ἀθηναίῳ. An “Athenian measure” is used almost exclusively in the Hermopolite Νome and appears in both the Roman and Byzantine periods. On the meaning of the “Athenian measure,” see <ref target="https://papyri.info/biblio/57106">Clarysse 1985</ref>: 232–36; for the use of the dative, see p. 234; <ref target="https://papyri.info/biblio/50275">Ronchi 1974</ref>: 1.77–80 provides an enumeration of the passages in which the measure appears.</p>
+                    </note>
+                    <note target="ed1ln6">
+                        <ref>6–7</ref>
+                        <p xml:id="p15"> καὶ πρὸς σὴν ἀσφάλειαν ἐξέδοκά σοι τήνδ̣ε̣ [τ]ὴ̣ν̣ π̣[ληρωτικὴν ἀποχὴν     ca. ?      ] | ηνως. In l. 6, the phraseology becomes somewhat formulaic; cf. notably (from a different nome) <ref target="https://papyri.info/hgv/36857">P.Flor. 3 289</ref>.10–13 (A.D. VI; Antaiopolis): καὶ εἰς σὴν ἀσφά̣λ(ειαν) ἐξεδ[ώκ]αμέν σοι τήνδε τὴν πληρωτικὴν ἀποχὴν ὡς πρόκ(ειται). On l. 7 the third and fourth letters are ως, but it is followed by ἐγράφη and not πρόκειται. The formula that precedes ἐγράφη must end with an adverb, but it is unclear what it should be. </p>
+                    </note>
+                </div>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        <ref target="https://papyri.info/biblio/76273">Bakker, M., A. Bakkers and K. Worp (2007)</ref> “Back to Oegstgeest. The von Scherling Papyrus Collection. Some von Scherling Texts in Minnesota,” BASP 44: 41–73.</bibl>
+                    <bibl>
+                        <ref target="https://papyri.info/biblio/95881">Benaissa, A. (2021)</ref> “Late antique papyri from Hermopolis in the British Library II,” ZPE 219: 183–201.</bibl>
+                    <bibl>
+                        <ref target="https://papyri.info/biblio/95961">Berkes, L. (2017)</ref> Dorfverwaltung und Dorfgemeinschaft in Ägypten von Diokletian zu den Abbasiden. Wiesbaden.</bibl>
+                    <bibl>
+                        <ref target="https://papyri.info/biblio/86125">Boud’hors, Α. and J. Gascou, (2016)</ref> “Le monastère de Dorothée dans la montagne d’Antinoopolis.” In T. Derda, A. Łajtar, and J. Urbanik, eds., <emph rend="italics">Proceedings of the 27th International Congress of Papyrology Warsaw, 29 July - 3 August 2013</emph>. The Journal of Juristic Papyrology Supplements Vol. XXVIII. Warsaw, 991–1010. </bibl>
+                    <bibl>
+                        <ref target="https://papyri.info/biblio/86542">Blumell, L. H. (2013)</ref> “Two Coptic Ostraca in the Brigham Young University Collection,” CdÉ 88: 182–187.</bibl>
+                    <bibl>
+                        <ref target="https://brill.com/view/journals/jsj/47/3/article-p310_2.xml">Blumell, L.H. (2016)</ref> “A New Jewish Epitaph Commemorating Care for Orphans,” JSJ 47: 310–329.</bibl>
+                    <bibl>
+                        <ref target="https://papyri.info/biblio/57106">Clarysse, W. (1985)</ref> “The Athenian Measure at Hermopolis,” ZPE 60: 232–236.</bibl>
+                    <bibl>
+                        <ref target="https://papyri.info/biblio/9253">Drew-Bear, M. (1979</ref>) Le Nome Hermopolite. Toponymes et Sites. Missoula.</bibl>
+                    <bibl>
+                        <ref target="https://papyri.info/biblio/9657">Gignac, F.T. (1981)</ref> A Grammar of the Greek Papyri of the Roman and Byzantine Periods. II. Morphology. Milano.</bibl>
+                    <bibl>
+                        <ref target="https://papyri.info/biblio/50275">Ronchi, G. (1974)</ref> Lexicon theonymon rerumque sacrarum et divinarum ad Aegyptum pertinentium quae in papyris ostracis titulis graecis latinisque in Aegypto repertis laudantur. Fascicolo primo: “A – Dioskoureion”<emph rend="italics">.</emph>Milano.</bibl>
+                    <bibl>
+                        <ref target="https://papyri.info/biblio/95699">Worp, K. (2016)</ref> “New von Scherling Papyri in Uppsala,” BASP 53: 61–78. </bibl>
+                </listBibl>
+            </div>
+        </div>
+    </body>
+    </text>
+    <TEI>
+        <teiHeader>
+         <fileDesc>
+            <titleStmt>
+                <title>A Late Antique Receipt for Grain from the Hermopolite Nome</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Papyri.info</authority>
+                <idno type="TM">1000277</idno>
+                <idno type="HGV">1000277</idno>
+                <idno type="ddb-filename">pylon.7.5</idno>
+                <idno type="ddb-hybrid">pylon;7;5</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>
+                            <settlement/>
+                        </placeName>
+                        <collection/>
+                        <idno type="invNo">P. von Scherling g. 211</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Papyrus</material>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Hermopolites</origPlace>
+                            <origDate when="0207-05-22">22. Mai 207</origDate>
+                        </origin>
+                        <provenance type="located">
+                            <p>
+                                <placeName type="ancient"
+                                      subtype="nome"
+                                      ref="https://www.trismegistos.org/place/2720">Hermopolites</placeName>
+                                <placeName type="ancient" subtype="region">Ägypten</placeName>
+                            </p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+            </fileDesc>
+                <encodingDesc>
+                    <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+                </encodingDesc>
+                <profileDesc>
+                    <langUsage>
+                        <language ident="fr">Französisch</language>
+                        <language ident="en">Englisch</language>
+                        <language ident="de">Deutsch</language>
+                        <language ident="it">Italienisch</language>
+                        <language ident="es">Spanisch</language>
+                        <language ident="la">Latein</language>
+                        <language ident="el">Griechisch</language>
+                    </langUsage>
+                </profileDesc>
+            </teiHeader>
+        <text>
+            <body>
+                <div type="bibliography" subtype="principalEdition">
+                        <listBibl>
+                        <bibl type="publication" subtype="principal">
+                            <title level="s" type="abbreviated">Pylon</title>
+                            <biblScope n="1" type="volume">7</biblScope>
+                            <biblScope n="2" type="fascicle">(2025)</biblScope>
+                            <biblScope n="3" type="generic">Art. 5</biblScope>
+                        </bibl>
+                    </listBibl>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+                <title>A Late Antique Receipt for Grain from the Hermopolite Nome</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                <idno type="filename">pylon.7.5</idno>
+                <idno type="ddb-hybrid">pylon;7;5</idno>
+                <idno type="HGV">1000277</idno>
+                <idno type="TM">1000277</idno>
+                <availability>
+                    <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                                Commons Attribution 3.0 License</ref>.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head xml:lang="en">A Late Antique Receipt for Grain from the Hermopolite Nome</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+    <lb xml:id="ed1ln1" n="1"/><g type="rho-cross">⳨</g> τῷ ἁγίῳ <choice><reg>μοναστηρίῳ</reg><orig>μοναστηρίου</orig></choice> ἄπα Δωροθέ<unclear>ο</unclear><supplied reason="lost">υ</supplied> <gap reason="lost" extent="unknown" unit="character"/>      
+    <lb xml:id="ed1ln2" n="2"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>η<gap reason="illegible" quantity="1" unit="character"/>ω ἀπὸ <choice><reg>ἐποικίου</reg><orig>ἐποικείου</orig></choice> <choice><reg>Νειλάμμωνος</reg><orig>Νιλάμμωνος</orig></choice> <expan>π<ex>αρὰ</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> 
+    <lb xml:id="ed1ln3" n="3"/>καὶ <hi rend="diaeresis">Ἰ</hi>ωσῆφις<note ana="hc:EditorialNote">ϊωσηφις papyrus</note> Ἰερεμίου <expan>ἀμφ<unclear>ο</unclear>τέ<unclear>ρ</unclear><ex>ων</ex></expan> κωμαρχ<unclear>ῶ</unclear><supplied reason="lost">ν κώμης</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τοῦ Ἑρμοπολίτου</supplied>
+    <lb xml:id="ed1ln4" n="4"/>νομοῦ <expan>χ<ex>αίρειν</ex></expan>. <choice><reg><app type="alternative"><lem>πεπληρώμεθα</lem><rdg>ἐπληρώθημεν</rdg></app></reg><orig>πεπληρώθην</orig></choice> παρὰ σοῦ ὑπὲρ σίτ<supplied reason="lost">ου</supplied> <gap reason="lost" quantity="5" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>επι<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>  
+    <lb xml:id="ed1ln5" n="5"/>τετάρτου μέτρῳ Ἀθηναίῳ καὶ χρυσοῦ <expan><unclear>νο</unclear><ex>μίσματα</ex></expan> <num value="4"><unclear>τ</unclear>έσσαρ<supplied reason="lost">α</supplied></num> <gap reason="lost" extent="unknown" unit="character"/>
+    <lb xml:id="ed1ln6" n="6"/>καὶ πρὸς σὴν ἀσφάλειαν <choice><reg>ἐξεδώκαμεν</reg><orig>ἐξέδοκά</orig></choice> σοι τήν<unclear>δε</unclear> <supplied reason="lost">τ</supplied><unclear>ὴν</unclear> <unclear>π</unclear><supplied reason="lost">ληρωτικὴν ἀποχὴν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+    <lb xml:id="ed1ln7" n="7"/>ηνως. <expan><unclear>ἐ</unclear>γράφ<ex>η</ex></expan> Μεσορὴ <num value="9">θ</num>, <num value="9">θ</num> <expan>ἰνδ<ex>ικτίωνος</ex></expan>. <gap reason="lost" extent="unknown" unit="character"/>
+</ab></div>
+        </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main">A Late Antique Receipt for Grain from the Hermopolite Nome</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename">1000277</idno>
+                    <idno type="TM">1000277</idno>
+                    <idno type="HGV">1000277</idno>
+                    <idno type="ddb-filename">pylon.7.5</idno>
+                    <idno type="ddb-hybrid">pylon;7;5</idno>
+                <availability>
+                    <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                            a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">Französisch</language>
+                <language ident="en">Englisch</language>
+                <language ident="de">Deutsch</language>
+                <language ident="it">Italienisch</language>
+                <language ident="es">Spanisch</language>
+                <language ident="la">Latein</language>
+                <language ident="el">Griechisch</language>
+                <language ident="ar">Arabisch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+<p>
+To the Holy Monastery of apa Dorotheus [to N.N. ...] ... from the epoikion of Neilammon from [N.N. son of N.N.] and Josephis son of Jeremiah, both Komarchs [of the village of ... of the Hermopolite] nome, greeting. We have been paid in full by you for the levy of grain ... one quarter on the Athenian measure and four nomismata of gold ... and for your security, we have issued to you this [receipt for full payment ...]. Written Mesore 9, 9th indiction.
+</p>
+</div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
