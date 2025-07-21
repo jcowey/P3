@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en">An 8th-Century Heracleopolite <emph rend="italics">compromissum</emph> from the Bodleian Library</title>
+            <title>An 8th-Century Heracleopolite <emph rend="italics">compromissum</emph> from the Bodleian Library</title>
             <author>
                <name>
                   <forename>Sophie</forename>
@@ -1609,6 +1609,7 @@
                <idno type="filename">1000275</idno>
                <idno type="TM">1000275</idno>
                <idno type="HGV">1000275</idno>
+               <idno type="ddb-hybrid">pylon;7;4</idno>
                <availability>
                   <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
                 a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
