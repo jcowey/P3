@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An Arabic Private Letter from the Eighth Century</title>
+                <author>
+                    <name>
+                        <forename>Lajos</forename>
+                        <surname>Berkes</surname>
+                    </name>
+                    <affiliation>Humboldt-Universität zu Berlin, Theologische Fakultät, Seminar: Neues Testament</affiliation>
+                    <email>berkesla@hu-berlin.de</email>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1058623176</idno>
+                    <idno ana="hc:ORCIDURI">https://orcid.org/0000-0001-6697-1107</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date/>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Propylaeum</orgName>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+                </publisher>
+                <pubPlace>
+                    <placeName>Heidelberg</placeName>
+                    <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+                </pubPlace>
+                <date when="2025">2025</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno ana="hc:PrivateIdentifier">pylon.7.3</idno>
+                <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.7.112019</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl ana="hc:RecommendedBibliographicReference">L. Berkes, “An Arabic Private Letter from the Eighth Century,” Pylon 7 (2025) Article 3. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2025.7.112019">https://doi.org/10.48631/pylon.2025.7.112019</ref>.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title level="j" ana="hc:MainTitle">Pylon</title>
+                        <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                        <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                        <imprint>
+                            <biblScope unit="volume">7</biblScope>
+                            <biblScope unit="article">3</biblScope>
+                            <date when="2025">2025</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <ab>Converted from a Word document for Pylon.</ab>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2025-04-15T13:37:29Z</date>
+                    <name/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="MainTitle">An Arabic Private Letter from the Eighth Century</titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <div type="article">
+                <note type="acknowledgement">I thank Andrea Jördens and Rodney Ast for permission to publish P.Heid. Inv. Arab 734. Thanks are also due to Ursula Hammed, Marie Legendre, and Naïm Vanthieghem for helpful corrections and comments.</note>
+                <p xml:id="p1">The left part of a private letter sent by a certain ʿUmar b. Muslim has been preserved. The message is addressed to his son and daughter and another person, presumably also from his household, perhaps his wife. The phraseology and handwriting are consistent with the conventional format of early Arabic papyrus letters, which suggests that the document dates from the eighth century, see <ref target="https://papyri.info/biblio/97228">Grob 2010</ref>: 40–42. The subject matter remains obscure, but the mention of the <emph rend="italics">ʿāmil</emph> of ʾUshmūn is a point of interest. The term is generally understood to refer to an unspecified official, but in this context, it may also signify the representative of the financial director, see <ref target="https://papyri.info/biblio/97227">Legendre 2016</ref>: 15–16. ʿUmar b. Muslim appears to have been involved in the affairs or the network of the <emph rend="italics">ʿāmil</emph> of ʾUshmūn, possibly even as an official. The mention of ʾUshmūn may indicate a provenance from its region for the papyrus, but the text may well have been written elsewhere and may only make passing reference to the city.</p>
+                <p xml:id="p2">P.Heid. Inv. Arab. 734 belongs to the so-called 'Schott-Reinhard papyri'. They were part of the collection of C. Reinhard, the dragoman of the German Consulate in Cairo, which he acquired in Egypt in 1897. After his death, the collection was purchased by the industrial magnate and philanthropist Friedrich Schott and donated to the University of Heidelberg in 1904. On the 'Schott-Reinhard papyri', see C. Becker, P.Heid.Arab. 1, p. 5–6.</p>
+                <p xml:id="p3">The fragment is only complete on the top and the left side. Three distinct vertical folds are discernible, suggesting that the papyrus was broken along a vertical and a horizontal fold. The writing in black ink goes against the fibres on the recto, and parallel to it on the verso. Some Arabic words are visible between the lines, such as for instance on the top of the recto and between the third and the fourth lines. These words, which I have not been able to decipher, give a rather clumsy impression, suggesting that they were writing exercises. Some undecipherable traces of ink on the verso, especially below the address, could also indicate that the papyrus was reused for pen trials.</p>
+                    <div type="epidoc" subtype="DDB">
+                    <table type="papyrological_header">
+                        <row>
+                            <cell style="text-align: left;">P.Heid. Inv. Arab. 734</cell>
+                            <cell style="text-align: center;">15.6 (w) × 12.2 (h)</cell>
+                            <cell style="text-align: right;">Provenance unknown</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;"/>
+                            <cell style="text-align: left;"/>
+                            <cell style="text-align: right;">8th century</cell>
+                        </row>
+                    </table>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23926513"/>
+                        <head>Fig. 1: P.Heid. Inv. Arab. 734 recto.</head>
+                    </figure>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23926522"/>
+                        <head>Fig. 1: P.Heid. Inv. Arab. 734 verso.</head>
+                    </figure>
+                    <div copyOf="#ed1" type="edition"/>
+                    <div copyOf="#trans1" type="translation"/>
+                    <div type="commentary">
+                        <note target="ed1ln4">
+                            <ref>4–5</ref>
+                            <p xml:id="p4"> <emph rend="italics">āfānā Allāh wa-iyyākum bi-aḥ]san ʿāfiyati-hi fī l-dunyā | [wa-l-āḫirati</emph>: The same initial blessing can be found in P.Berl.Arab 2 75.5–6 (Fayyum, 8th c.). Cf. also P.Mird 42.4 (Khirbet al-Mird, 7th c.), P.JoySorrow 32.4 (Dimyāṭ, 8th c.), and P.JoySorrow 39.4 (Provenance unknown, 8th c.).</p>
+                        </note>
+                        <note target="ed1ln5">
+                            <ref>5</ref>
+                            <p xml:id="p5"> <emph rend="italics">wa-llah maḥmūd</emph>: This phrase was preceded by the sender's affirmation of his good health and was used to thank God for it, see <ref target="https://papyri.info/biblio/97228">
+                                    <emph rend="underlined">Grob 2010</emph>
+                                </ref>: 49–50. </p>
+                        </note>
+                        <note target="ed1ln5">
+                            <ref>5–6</ref>
+                            <p xml:id="p6"> <emph rend="italics">lam yaḥduṯ ʿalayya baʿda-kum ʾillā [ḫayrun</emph>: For this phrase and its parallels, see Khaled Younes’ comments in P.JoySorrow 8.4–5n.</p>
+                        </note>
+                        <note target="ed1ln7">
+                            <ref>7</ref>
+                            <p xml:id="p7"> <emph rend="italics">qad katabta ʾilayya biḫabari min ḥāli-ka</emph>: There is no exact parallel for this phrase, but one may compare the fragmentary P.Heid.Arab. 2 25.1 (provenance unknown, 8th c.): <emph rend="italics">min ḫabari-ka wa-ḥālika</emph> which may have contained a similar phrase to P.RagibLettres 4.7–8 (provenance unknown, 8th c.): <emph rend="italics">ǧāʾa-nī kitābu-ka al-ʾawwalu wa-alʾāḫaru wa-fahimtu mā ḏakarta fī-hi | min ḥāli-ka wa-ḥāli mā qibala-ka</emph>.
+                            </p>
+                        </note>
+                    </div>
+                </div>
+                <div type="bibliography">
+                    <listBibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97228">Grob, E.M. (2010)</ref> Documentary Arabic Private and Business Letters on Papyrus: Form and Function, Content and Context (APF Beihefte 29). Berlin.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97227">Legendre, M. (2016)</ref> “Neither Byzantine nor Islamic? The Duke of the Thebaid and the Formation of the Umayyad State, “ Historical Research 89: 3–18.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>An Arabic Private Letter from the Eighth Century</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Papyri.info</authority>
+                    <idno type="TM">704976</idno>
+                    <idno type="HGV">704976</idno>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository/>
+                            <idno type="invNo">P.Heid. inv. Arab. 734</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <material>Papyrus</material>
+                                        <dimensions>
+                                            <width unit="cm">15.6</width>
+                                            <height unit="cm">12.2</height>
+                                        </dimensions>
+                                    </support>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate>8th century</origDate>
+                            </origin>
+                            <provenance type="located">
+                                <p>
+                                    <placeName n="1">Arsinoites</placeName>
+                                </p>
+                            </provenance>
+                        </history>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                </langUsage>
+                <textClass>
+                    <keywords scheme="hgv">
+                        <term n="1">Brief (privat)</term>
+                        <term n="2">Gesundheit</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div type="bibliography" subtype="principalEdition"/>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>An Arabic Private Letter from the Eighth Century</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename"/>
+                    <idno type="ddb-hybrid"/>
+                    <idno type="HGV">704976</idno>
+                    <idno type="TM">704976</idno>
+                    <availability>
+                        <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                                Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                    <language ident="la">Latin</language>
+                    <language ident="ar">Arabic</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <head xml:lang="en">An Arabic Private Letter from the Eighth Century</head>
+                <div xml:id="ed1" xml:lang="ar" type="edition" xml:space="preserve">
+<div n="r" type="textpart"><ab>
+<lb xml:id="ed1ln1" n="1"/><supplied reason="lost">بسم اللـه الرحمن الرحيم</supplied>
+
+<lb xml:id="ed1ln2" n="2"/><supplied reason="lost">من عمر بن مسلم الى</supplied><gap reason="lost" quantity="13" unit="char"/>ــد واحمد وفاطمة ابني عمر
+
+<lb xml:id="ed1ln3" n="3"/><supplied reason="lost">سلم عليكم فانــي احمــد اليكم الـ</supplied>ـله الذي لا اله الا هو
+
+<lb xml:id="ed1ln4" n="4"/><supplied reason="lost">اما بعد عافنا اللّه واياكم باحـ</supplied>ـسن عافيته فاتمها في الدنيا
+    
+<lb xml:id="ed1ln5" n="5"/><supplied reason="lost">والآخرة</supplied> <gap reason="lost" quantity="15" unit="char"/> والله محمود لم يحدث علي بعدكم
+
+<lb xml:id="ed1ln6" n="6"/><supplied reason="lost">الا خير</supplied> <gap reason="lost" quantity="15" unit="char"/> مع عامل اشمون وكتبت<gap reason="lost" extent="unknown" unit="char"/>ـعه
+    
+<lb xml:id="ed1ln7" n="7"/><gap reason="lost" quantity="20" unit="char"/>ــ<gap reason="lost" quantity="1" unit="char"/>ـو قد كتبت الي بخـ<supplied reason="lost">ـبـ</supplied>ـر من حالك
+    
+<lb xml:id="ed1ln8" n="8"/><gap reason="lost" quantity="15" unit="char"/> ىــحـه العامل يستوصي به
+    
+<lb xml:id="ed1ln9" n="9"/><gap reason="lost" quantity="20" unit="char"/> <gap reason="illegible" quantity="2" unit="char"/>ـشـ<gap reason="illegible" quantity="3" unit="char"/>
+    
+<lb n="9"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+<div n="v" type="textpart"><ab>
+<lb xml:id="ed1ln10" n="10"/>من عمر بن مسلم الى <gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> <gap reason="lost" extent="unknown" unit="char"/>
+</ab></div>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main">An Arabic Private Letter from the Eighth Century</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename">704976</idno>
+                    <idno type="TM">704976</idno>
+                    <idno type="HGV">704976</idno>
+                    <availability>
+                        <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                            a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>The contents of this document are generated from SOSOL.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                    <language ident="ar">Arabisch</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+<p>
+‘|<hi rend="superscript">1</hi> In the name of God, the Compassionate, the Merciful.
+|<hi rend="superscript">2</hi> [From ʿUmar b. Muslim to … ]d and Aḥmad and Fāṭima, the children of ʿUmar. |<hi rend="superscript">3</hi> [Peace be upon you. I praise for your sake G]od besides Whom there is no god but He.
+|<hi rend="superscript">4</hi> [As for what follows, may God grant us and you the best of his health and may He perfect it in this world |<hi rend="superscript">5</hi> [and the hereafter … ] and God is blessed. Nothing happened to me after you (pl.), |<hi rend="superscript">6</hi> [except good things  … ] with the <emph rend="italics">ʿāmil</emph> of Ushmūn and you/I wrote  … |<hi rend="superscript">7</hi> [ … ] and you (sing.) have already written to me about the news concerning your condition… |<hi rend="superscript">8</hi> [ … ] … the <emph rend="italics">ʿāmil</emph> takes care of/has good intentions towards him/it |<hi rend="superscript">9</hi> [ … ] …’
+	Back:
+‘From ʿUmar b. Muslim to …’
+</p>
+</div>
+            </body>
+        </text>
+    </TEI>
+</TEI>
