@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ein mögliches Beispiel für das Kolumnenmaß in der antiken Stichometrie</title>
+                <author>
+                    <name>
+                        <forename>Holger</forename>
+                        <surname>Essler</surname>
+                    </name>
+                    <affiliation>Universität Würzburg</affiliation>
+                    <email>holger.essler@uni-wuerzburg.de</email>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/136871259</idno>
+                    <idno ana="hc:ORCIDURI">https://orcid.org/0000-0003-4759-7716</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date/>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Propylaeum</orgName>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+                </publisher>
+                <pubPlace>
+                    <placeName>Heidelberg</placeName>
+                    <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+                </pubPlace>
+                <date when="2025">2025</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno ana="hc:PrivateIdentifier">pylon.7.8</idno>
+                <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.7.112024</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl ana="hc:RecommendedBibliographicReference">H. Essler, “Ein mögliches Beispiel für das Kolumnenmaß in der antiken Stichometrie,” Pylon 7 (2025) Article 8. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2025.7.112024">https://doi.org/10.48631/pylon.2025.7.112024</ref>.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title level="j" ana="hc:MainTitle">Pylon</title>
+                        <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                        <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                        <imprint>
+                            <biblScope unit="volume">7</biblScope>
+                            <biblScope unit="article">8</biblScope>
+                            <date when="2025">2025</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <ab>Converted from a Word document for Pylon.</ab>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2025-05-23T10:27:47Z</date>
+                    <name/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="MainTitle">Ein mögliches Beispiel für das Kolumnenmaß in der antiken Stichometrie</titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <div type="article">
+                <p xml:id="p1">Angaben über den Umfang eines Textes erfolgten in der Antike in der Regel in Zeilen, <emph rend="italics">stichoi</emph>. Verwendet wurden diese Angaben für mehrere Zwecke, unter anderem zur Feststellung des Schreiberlohns für eine Abschrift, zur Kontrolle der Vollständigkeit des Textes und als Entscheidungsgrundlage, ob ein Buch auf zwei Schriftrollen aufgeteilt werden sollte.<note place="foot" xml:id="ftn1" n="1">
+                        <p> Vgl. bereits <ref target="https://papyri.info/biblio/97269">Birt 1882</ref>: 206–222, und die grundlegende Behandlung bei <ref target="https://papyri.info/biblio/97272">Ohly 1928</ref>: 86–123. Einzelne Aspekte bei <ref target="https://papyri.info/biblio/83797">Cavallo 1983</ref>: 21; <ref target="https://papyri.info/biblio/12676">Blanck 1992</ref>: 124; und <ref target="https://papyri.info/biblio/15771">Mazal 1999</ref>: 124.</p>
+                </note> Die <emph rend="italics">stichoi</emph> entsprachen bei Dichtungstexten den Versen, in der Prosa fand eine Normzeile Anwendung,<note place="foot" xml:id="ftn2" n="2">
+                    <p> Ich verwende den Begriff „Normzeile“ analog zur heute noch gebräuchlichen „Normseite“, mit der ebenfalls ein Standardmaß zur Bestimmung des Textumfangs bezeichnet wird. Hier wie dort ist damit nicht gemeint, daß dieses Format regelmäßig zur Anwendung kommt. Vielmehr handelt es sich um eine normierte Größe.</p>
+                </note> die in etwa die Länge eines Hexameterverses, nämlich 34–38 Buchstaben beziehungsweise 15–16 Silben hatte.<note place="foot" xml:id="ftn3" n="3">
+                    <p> In der Antike wurde wohl eher nach Silben gezählt, vgl. <ref target="https://papyri.info/biblio/97272">Ohly 1928</ref>: 22–30, und <ref target="https://papyri.info/biblio/15771">Mazal 1999</ref>: 124.</p>
+                </note> Durch dieses einheitliche Maß wurde eine Vergleichbarkeit hergestellt, die auch galt, wenn die Texte im konkreten Fall in anderem Format und mit anderer Zeilenlänge geschrieben waren. Die Länge der Normzeile stellte bereits <ref target="https://papyri.info/biblio/97271">Graux 1878</ref> fest,<note place="foot" xml:id="ftn4" n="4">
+                    <p> Vgl. die umfangreiche Liste von Beispielen bei <ref target="https://papyri.info/biblio/97271">Graux 1878</ref>: 100–112.</p>
+                </note> indem er den tatsächlichen Textumfang durch die am Ende einzelner Bücher angegebenen Gesamtsummen der <emph rend="italics">stichoi</emph> teilte. Solche Angaben finden sich in manchen Handschriften und mehreren Papyri, namentlich den herkulanischen Rollen. Seit der Entdeckung der Normzeile stellte sich die Frage nach der Stichometrie, d. h. wie die in verschiedenen Handschriften und Papyri angegebenen Gesamtsummen der Normzeilen bestimmt wurden, zumal die erhaltenen Zeugnisse von Prosatexten regelmäßig andere Zeilenlängen als die Normzeile aufweisen. </p>
+                <p xml:id="p2">Eine Lösung dieser Frage schlug <ref target="https://papyri.info/biblio/97269">Birt 1882</ref> nur wenige Jahre nach Graux’ Arbeit in seiner grundlegenden Studie über „Das antike Buchwesen“ vor, indem er dort das Konzept des „Normalbuchs“ einführte. Da es zu jener Zeit außer einigen Texten aus Herculaneum fast keine Ausgaben von literarischen Papyri gab, beruhte Birts Forschung hauptsächlich auf sekundären Quellen, den herkulanischen Texten und den Angaben über die Gesamtzahl der <emph rend="italics">stichoi</emph>, die sich in den mittelalterlichen Handschriften am Ende einzelner Bücher erhalten haben. Birt nahm nun an, daß in der Antike diese Gesamtsummen von <emph rend="italics">stichoi</emph> dadurch bestimmt wurden, daß man den Text bereits in einem Format schrieb, bei dem jede Zeile der Handschrift einer Normzeile entsprach. Für eine solche Handschrift prägte er den Begriff „Normalbuch“ und knüpfte daran die Vermutung, daß Rollen dieser Art die endgültige Reinschrift eines Textes vor der Veröffentlichung enthielten. Die dort festgestellte Gesamtzahl der <emph rend="italics">stichoi</emph> wäre in alle folgenden, auch in anderen Formaten gehaltenen Abschriften übernommen worden.<note place="foot" xml:id="ftn5" n="5">
+                        <p>
+                            <ref target="https://papyri.info/biblio/97269">Birt 1882</ref>: 285.</p>
+                </note> Damit wäre ein „Normalbuch“ die vom Autor herrührende Vorlage des Textes, die Mutterkopie, von der alle weiteren Abschriften ausgingen. Die Hypothese fand keine allgemeine Anerkennung, zumal Birt kein unzweifelhaftes Beispiel eines solchen „Normalbuches“ anführen konnte.<note place="foot" xml:id="ftn6" n="6">
+                    <p> Auch heute finden sich unter tausenden von veröffentlichten literarischen Papyri auffällig wenige in einem Format, bei dem die Zeilenlänge in den Bereich der Normzeile fällt. Für Oxyrhynchus vgl. die Aufstellung bei <ref target="https://papyri.info/biblio/18132">Johnson 2004</ref>: 114–115.</p>
+                </note>
+                </p>
+                <p xml:id="p3">2017 habe ich vorgeschlagen, ein solches „Normalbuch“ in <ref target="https://papyri.info/dclp/62386">P.Herc. 152/157</ref> zu sehen.<note place="foot" xml:id="ftn7" n="7">
+                        <p>
+                            <ref target="https://papyri.info/biblio/97270">Essler 2017</ref>. Auch <ref target="https://papyri.info/biblio/97269">Birt 1882</ref>: 216–217, hatte bereits ein Normalbuch in diesem Papyrus gesehen, stützte sich jedoch auf die Kolumnen nach dem Formatwechsel, mit dem offenbar das Standardformat aufgegeben wurde, vgl. <ref target="https://papyri.info/biblio/97270">Essler 2017</ref>: 65–66. Im Papyrus finden sich auch mehrere Änderungen von zweiter Hand, die einen augenscheinlich korrekten Text betreffen und als stilistische Verbesserungen gedeutet werden können. Diese sind <ref target="https://papyri.info/biblio/97270">Essler 2017</ref>: 71–75 eingehender behandelt. Da in <ref target="https://papyri.info/biblio/97270">Essler 2017</ref> die Tafel mit den stichometrischen Buchstaben nicht gedruckt wurde, sind die Abbildungen hier nachgetragen.</p>
+                </note> Die für unseren Zweck wichtigste Eigenschaft liegt in den fünf erhaltenen Buchstaben der sogenannten Marginalstichometrie. Diese Buchstaben stehen am linken Rand der Kolumne, sind mit einer darübergeschriebenen horizontalen Linie gekennzeichnet und markieren jeweils Blöcke von 100 Normzeilen. Zum ersten Mal hat <ref target="https://papyri.info/biblio/97274">Wigodsky 2004</ref> auf zwei dieser Buchstaben in <ref target="https://papyri.info/dclp/62386">P.Herc. 152/157</ref> hingewiesen (für Frg. 25 und 26).<note place="foot" xml:id="ftn8" n="8">
+                    <p>
+                        <ref target="https://papyri.info/biblio/97274">Wigodsky 2004</ref>: 216 und 226 Anm. 16.</p>
+                </note> Inzwischen sind fünf aus <ref target="https://papyri.info/dclp/62386">P.Herc. 152/157</ref> und ein weiterer aus dem wohl zur selben Rolle gehörigen <ref target="https://chartes.it/index.php?r=document/view&amp;id=1715">P.Herc. 1691</ref>, pz. 5 bekannt.<note place="foot" xml:id="ftn9" n="9">
+                    <p> Vgl. <ref target="https://papyri.info/biblio/83416">Del Mastro 2012</ref>: 281–282.</p>
+                </note> Ihr Vorkommen zeigt eine gewisse Unordnung in der traditionellen Numerierung der Fragmente:</p>
+                <table>
+                    <row>
+                        <cell style="text-align: left;">
+                            <emph rend="bold">Stichometrischer Buchstabe</emph>
+                        </cell>
+                        <cell style="text-align: left;">
+                            <emph rend="bold">Anzahl der <emph rend="italics">stichoi</emph></emph>
+                        </cell>
+                        <cell style="text-align: left;">
+                            <emph rend="bold">Fragment</emph>
+                        </cell>
+                        <cell style="text-align: left;">
+                            <emph rend="bold">Abbildung</emph>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">ε</cell>
+                        <cell style="text-align: left;">500</cell>
+                        <cell style="text-align: left;">
+                            <ref target="https://chartes.it/index.php?r=document/view&amp;id=1715">P.Herc. 1691</ref>, pz. 5</cell>
+                        <cell style="text-align: left;"><ref target="#fig1">1</ref></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">ζ</cell>
+                        <cell style="text-align: left;">600</cell>
+                        <cell style="text-align: left;">
+                            <ref target="https://papyri.info/dclp/62386">P.Herc. 152/157</ref>, Frg. 26</cell>
+                        <cell style="text-align: left;"><ref target="#fig2">2</ref></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">η</cell>
+                        <cell style="text-align: left;">700</cell>
+                        <cell style="text-align: left;">
+                            <ref target="https://papyri.info/dclp/62386">P.Herc. 152/157</ref>, Frg. 25</cell>
+                        <cell style="text-align: left;"><ref target="#fig3">3</ref></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">ι</cell>
+                        <cell style="text-align: left;">900</cell>
+                        <cell style="text-align: left;">
+                            <ref target="https://papyri.info/dclp/62386">P.Herc. 152/157</ref>, Frg. 17</cell>
+                        <cell style="text-align: left;"><ref target="#fig4">4</ref></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">ν</cell>
+                        <cell style="text-align: left;">1300</cell>
+                        <cell style="text-align: left;">
+                            <ref target="https://papyri.info/dclp/62386">P.Herc. 152/157</ref>, Frg. 30</cell>
+                        <cell style="text-align: left;"><ref target="#fig5">5</ref></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">π</cell>
+                        <cell style="text-align: left;">1600</cell>
+                        <cell style="text-align: left;">
+                            <ref target="https://papyri.info/dclp/62386">P.Herc. 152/157</ref>, Frg. 35</cell>
+                        <cell style="text-align: left;"><ref target="#fig6">6</ref></cell>
+                    </row>
+                </table>
+                <p xml:id="p4">Das interessanteste Merkmal ist jedoch ihre Position im Papyrus. Alle stehen auf Höhe der letzten Zeile ihrer Kolumne. Aus der Rekonstruktion der Fragmentreihenfolge ergibt sich, daß in diesem Papyrus 100 Normzeilen genau drei Kolumnen ausmachen. Nach der wahrscheinlichsten Rekonstruktion, nach der zwischen dem oberen und unteren Teil der auseinandergebrochenen Rolle höchstens 1–2 Zeilen ausgefallen sind, entsprachen die 100 Normzeilen auch 100 Zeilen im Papyrus, wurde der Papyrus also auch nach der Regel von Birts Normalbuch geschrieben.<note place="foot" xml:id="ftn10" n="10">
+                        <p> Das Standardformat wird anscheinend in der Kolumne 7 aufgegeben. Die durchschnittliche Buchstabenzahl der Zeilen vor dem Formatwechsel ist mit 30–32 etwas geringer als die des Hexameters. Dies wird jedoch durch die Verwendung von Abkürzungen kompensiert. Zu den Einzelheiten des Formats vgl. <ref target="https://papyri.info/biblio/97270">Essler 2017</ref>: 63–66. </p>
+                </note> Bisher ist ein solches Format der Stichometrie, in dem 100 <emph rend="italics">stichoi</emph> einer bestimmten Anzahl vollständiger Kolumnen entsprechen und damit die Buchstaben der Marginalstichometrie immer an der selben Stelle, nämlich am Kolumnenende, stehen, in keinem anderen Papyrus, weder aus Herculaneum noch aus Ägypten bekannt. Gleichzeitig geht ein solches Format noch über die von Birt festgelegten Kriterien eines „Normalbuchs“ hinaus. Denn um die Gesamtzahl der <emph rend="italics">stichoi</emph> in einem solchen Papyrus festzustellen, kann man sich darauf beschränken, ganze Kolumnen zu zählen und muß nur nach der letzten vollen Hundertschaft noch einzelne Zeilen berücksichtigen.</p>
+                <p xml:id="p5">Es stellt sich die Frage, ob man diese erhebliche Vereinfachung der Zählung öfter genutzt und ein Kolumnenformat gewählt hat, dessen Vielfaches exakt 100 <emph rend="italics">stichoi</emph> entsprach. In diesem Fall wäre es auch nicht nötig, daß die Zeilenlänge gleich der Normzeile ist, weil das Hauptaugenmerk auf der Zählung der Kolumnen läge. Da bisher keine umfassenden Daten zur Textmenge von Kolumnen vorliegen und ein eindeutiges Kriterium wie die Zeilenlänge fehlt, wird freilich ein Nachweis ohne die im Falle von <ref target="https://papyri.info/dclp/62386">P.Herc. 152/157</ref> eindeutige Marginalstichometrie schwer halten.</p>
+                <p xml:id="p6">Im Folgenden soll ein Beispiel vorgestellt werden, bei dem zumindest einige Indizien für die Annahme sprechen, daß ein solches Format vorliegt, obwohl keine Marginalstichometrie erhalten ist. Nach meiner Rekonstruktion verteilten sich dort 100 <emph rend="italics">stichoi</emph> auf exakt vier Kolumnen, während bei <ref target="https://papyri.info/dclp/62386">P.Herc. 152/157</ref> jeweils drei Kolumnen 100 <emph rend="italics">stichoi</emph> entsprachen. Bei dem neuen Beispiel handelt es sich um zwei von derselben Hand geschriebene Fragmente mit Teilen von Demosthenes, <emph rend="italics">De corona.</emph> Das erste Fragment, <ref target="https://papyri.info/dclp/59512">P.Oslo 2 10 + P.Harr. 1 45</ref> (<ref target="http://www.trismegistos.org/text/59512">TM 59512</ref>), besteht aus zwei Teilen, die ursprünglich getrennt veröffentlicht und dann 1967 von E.G. Turner zusammengefügt wurden. Das so gewonnene Stück ist 11,9 breit und 23,2 cm hoch.<note place="foot" xml:id="ftn11" n="11">
+                        <p>
+                            <ref target="https://papyri.info/biblio/96449">Sardone 2021</ref>: 177.</p>
+                </note> Der literarische Text steht auf dem <emph rend="italics">verso</emph> einer auf 26/27 n. Chr. datierten Urkunde über die Übergabe von Grundbesitz (<ref target="https://papyri.info/ddbdp/p.oslo%3B3%3B190">P.Oslo 3 190</ref>). Die klare, aber informelle Hand des literarischen Texts wurde auf die erste Hälfte des 2. Jh. datiert.<note place="foot" xml:id="ftn12" n="12">
+                    <p> Vgl. <ref target="https://papyri.info/biblio/75199">Maravela-Solbakk 2006</ref>: 6 Anm. 3. Der Papyrus stammt aus dem Arsinoites (Theadelphia ?).</p>
+                </note> Der obere und untere Rand der Kolumne ist erhalten. Das Format ist mit 31 Zeilen pro Kolumne à durchschnittlich 32 Buchstaben (992 Buchstaben) kleiner als jenes des „Normalbuchs“ in <ref target="https://papyri.info/dclp/62386">P.Herc. 152/157</ref>, wo die Kolumne 33 Zeilen à 30–31 Buchstaben umfaßt. Die Urkunde war wahrscheinlich ursprünglich Teil eines <emph rend="italics">tomos synkollesimos</emph>, also einer Schriftrolle, die aus verschiedenen zusammengeklebten Dokumenten unterschiedlicher Abmessung bestand. Unser Text auf der Rückseite stammt aus der zweiten Hälfte von Demosthenes' Kranzrede. In diesem Format würde der Text unserer Ausgaben rund 116 Kolumnen einnehmen;<note place="foot" xml:id="ftn13" n="13">
+                    <p> Division der 115519 Buchstaben durch 992 ergibt gerundet 116,45.</p>
+                </note> unser Fragment wäre Kolumne 77.<note place="foot" xml:id="ftn14" n="14">
+                    <p> Davor stehen 74982 Buchstaben, geteilt durch 992 ergibt 75,59. Daß all diese Angaben nur Näherungswerte zur Illustration sein können, ergibt sich bereits aus den unten angeführten zusätzlichen Dokumenten.</p>
+                </note>
+                </p>
+                <p xml:id="p7">Das zweite Fragment (<ref target="https://papyri.info/dclp/59518">P.Haun. 1 5</ref>, <ref target="https://www.trismegistos.org/text/59518">TM 59518</ref>) ist 70,4 cm breit und 31,8 hoch.<note place="foot" xml:id="ftn15" n="15">
+                        <p> Vgl. <ref target="https://papyri.info/biblio/96449">Sardone 2021</ref>: 182.</p>
+                </note> Es enthält fünf Kolumnen mit Demosthenes, <emph rend="italics">De corona</emph> 217–222. Im oben rekonstruierten Format würde es vier Kolumnen nach dem ersten Fragment (<ref target="https://papyri.info/dclp/59512">P.Oslo 2 10 + P.Harr. 1 45</ref>) folgen (Kol. 82–86).<note place="foot" xml:id="ftn16" n="16">
+                    <p> Vor Kol. 2 stehen 80966 Buchstaben, geteilt durch 992 ergibt 81,62.</p>
+                </note> Der Text steht wiederum auf der Rückseite einer Urkunde, diesmal eines unveröffentlichten Prozeßprotokolls (<ref target="https://papyri.info/biblio/4073">P.Haun. 1</ref>: 14).<note place="foot" xml:id="ftn17" n="17">
+                    <p> Es ist fraglich, ob <ref target="https://papyri.info/dclp/59518">P.Haun. 1 5</ref> angesichts des großen Unterschieds in der Blatthöhe auch Teil desselben <emph rend="italics">tomos synkollesimos</emph> gewesen sein kann. </p>
+                </note> Allerdings ist dieses zweite Fragment 8,6 cm höher als das erste und hat somit ein anderes Format der Kolumnen. Diese enthalten 37 Zeilen à ca. 25 Buchstaben, mithin ca. 925 Buchstaben pro Kolumne. Aufgrund des unterschiedlichen Formats hat man daran gezweifelt, ob beide zu derselben Schriftrolle gehören.<note place="foot" xml:id="ftn18" n="18">
+                    <p> Vgl. <ref target="https://papyri.info/biblio/75199">Maravela-Solbakk 2006</ref>: 8–9; <ref target="https://papyri.info/biblio/96449">Sardone 2021</ref>: 178–179 und 182–183, mit dem Hinweis auf den unbeschriebenen Raum am Ende von <ref target="https://papyri.info/dclp/59518">P.Haun. 1 5</ref>, der für ein Ende der Abschrift an dieser Stelle spricht.</p>
+                </note>
+                </p>
+                <p xml:id="p8">Zusätzlich zum Umstand, daß die beiden Fragmente von der gleichen Hand geschrieben wurden und in geringem Abstand innerhalb des Werkes standen, scheint mir noch ein weiterer Aspekt dafür zu sprechen, daß die beiden Fragmente wenigstens Teil ein und desselben Buchprojekts waren. Denn die unterschiedliche Höhe der Fragmente (23,2 bzw. 31,8 cm) spiegelt sich im Format der literarischen Texte wider, indem die Kolumnenhöhe von 31 auf 37 Zeilen ansteigt, gleichzeitig aber die Zeilenlänge entsprechend sinkt: Anstatt den zusätzlichen Platz schlicht für einige Zeilen mehr pro Kolumne zu nutzen und die Zeilenlänge gleich zu lassen, wird diese durch den Schreiber von 32 auf 25 Buchstaben gekürzt. Das Ergebnis sind zwei Kolumnen in unterschiedlichem Format, die aber eine ähnliche Textmenge (925–992 Buchstaben) enthalten. Zwar ist das gerundete Ergebnis keine exakte Entsprechung, doch liegen die Zahlen so nahe beieinander, daß sie für die Stichometrie vielleicht als gleich groß gelten können. Dazu kommt, daß vier Kolumnen dieser Größe 3700–3968 Buchstaben enthalten würden, was 100 Zeilen à 37-39 Buchstaben entspräche. Da die Normzeile 34–38 Buchstaben lang ist, entsprechen in diesem Format vier Kolumnen 100 <emph rend="italics">stichoi</emph>. Handelt es sich um ein und dasselbe Buchprojekt, kann kaum Zweifel an der Absicht des Schreibers bestehen, die Textmenge – und damit die Anzahl der Stichoi – pro Kolumne beizubehalten. Unter der Annahme, daß dieser Papyrus in einem speziellen Kolumnenformat zur Feststellung der Stichometrie geschrieben wurde, liegt der Grund dafür auf der Hand. Da bei diesem Format die Stichometrie hauptsächlich durch das Zählen von Kolumnen ermittelt wird, muß die Textmenge pro Kolumne konstant bleiben, während die Länge der einzelnen Zeilen keine Rolle spielt und entsprechend angepaßt werden kann.</p>
+                <p xml:id="p9">Es bleibt die Frage, warum jemand sich die Mühe machen sollte, die Stichometrie eines Werkes von Demosthenes in der ersten Hälfte des zweiten Jahrhunderts zu bestimmen. Der Grund liegt wohl im Inhalt des zweiten unserer beiden Fragmente:<note place="foot" xml:id="ftn19" n="19">
+                        <p>
+                            <ref target="https://papyri.info/biblio/97273">Salemenou 2019</ref>: 114.</p>
+                </note> Keine mittelalterliche Handschrift enthält in der Kranzrede irgendwelche Dokumente nach dem Dekret des Demosthenes (§§181–187). <ref target="https://papyri.info/dclp/59518">P.Haun. 1 5</ref> jedoch enthält fünf zusätzliche Dokumente, zwei Staatsbriefe (zu §221), ein Dekret (zu §217) und Reste von zwei weiteren (zu §222). Nach diesen Zusätzen zu urteilen, scheint unser „Buch“ eine <emph rend="italics">editio auctior</emph> des Werkes gewesen zu sein, die erheblich mehr Dokumente enthielt als die von den Handschriften überlieferte Version. Dies führte zu einem längeren Text und folglich zu einer anderen, neu zu bestimmenden Stichometrie. </p>
+                <p xml:id="p10">Die vorliegenden Daten lassen es nicht zu, über eine Vermutung hinauszugehen. Es spricht einiges dafür, läßt sich aber nicht beweisen, daß diese spezielle Formatänderung stichometrische Gründe hatte und daß die beiden Fragmente zum selben Buchprojekt gehörten, ohne daß sie deswegen notwendig Teil ein und derselben (wohl nachträglich aus verschiedenen Dokumenten zusammengeklebten) Rolle, geschweige denn desselben <emph rend="italics">tomos synkollesimos</emph> waren.<note place="foot" xml:id="ftn20" n="20">
+                        <p> Ebenso muß offen bleiben, ob das Format in diesem Fall von Blatt zu Blatt jeweils wechselte.</p>
+                </note> Der Zweck dieses Buchprojekts wäre jedenfalls nach der Qualität und Ausfertigung der beiden Fragmente zu schließen wohl nicht der eines „Normalbuchs“ als Mutterkopie im Sinne Birts gewesen, vielmehr wird das spezielle stichometrische Format eher dazu gedient haben, den Umfang des erweiterten Demosthenestextes und damit den Schreiberlohn festzustellen.<note place="foot" xml:id="ftn21" n="21">
+                    <p> D. Kaltsas verdanke ich den berechtigten Hinweis, daß es dafür genügt hätte, die Zeilen der zusätzlichen Urkunden zusammenzählen und sie zur bekannten Gesamtsumme von <emph rend="italics">De corona</emph>zu addieren. Ein solches Verfahren setzt freilich die Bestimmung des Umfanges des zusätzlichen Textes voraus, für die man ebenfalls ein geeignetes Format annehmen müßte. Nicht ausschließen möchte ich auch, daß unser „Buchprojekt“ nur den Teil nach dem Dekret des Demosthenes (§§181–187) umfaßte.</p>
+                </note> Daß die Stichometrie häufiger der Festsetzung des Schreiberlohns als der Feststellung des Textumfanges für künftige Kopien diente, liegt auf der Hand. So wird das Autorenexemplar von <ref target="https://papyri.info/dclp/62386">P.Herc. 152/157</ref> wohl einen selteneren Fall darstellen als das hier rekonstruierte Szenario für <ref target="https://papyri.info/dclp/59512">P.Oslo 2 10 + P.Harr. 1 45</ref> und <ref target="https://papyri.info/dclp/59518">P.Haun. 1 5</ref>. Es bleibt zu hoffen, daß sich weitere Beispiele finden und durch den Vergleich größere Klarheit über die praktische Umsetzung der antiken Zeilenzählung gewinnen läßt.<note place="foot" xml:id="ftn22" n="22">
+                    <p>
+                        <ref target="https://papyri.info/dclp/59483">P.Oxy. 5 842</ref> (<ref target="https://www.trismegistos.org/text/59483">TM 59483</ref>) steht ebenfalls auf der Rückseite einer Urkunde, scheint im Format aber kein stichometrisches Kolumnenmaß anzustreben. Die vom ersten Schreiber geschriebenen Kolumnen haben durchschnittlich rund 1510 Buchstaben mit einer Standardabweichung von über 100. </p>
+                </note>
+                </p>
+                <figure>
+                    <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23976478"/>
+                    <head>Abbildung 1: P.Herc. 1691, pz. 5 mit stichometrischem <hi rend="supraline">ε</hi>, wiedergegeben mit Erlaubnis des Ministero Italiano della Cultura (Aufnahme Steven W. Booras (c) Biblioteca Nazionale, Napoli- Brigham Young University, Provo, USA). Alle Rechte vorbehalten.</head>
+                </figure>
+                <figure>
+                    <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23976480"/>
+                    <head>Abbildung 2: P.Herc. 152/157, Frg. 26 mit stichometrischem <hi rend="supraline">ζ</hi>, wiedergegeben mit Erlaubnis des Ministero Italiano della Cultura (Aufnahme Steven W. Booras (c) Biblioteca Nazionale, Napoli- Brigham Young University, Provo, USA). Alle Rechte vorbehalten.</head>
+                </figure>
+                <figure>
+                    <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23976482"/>
+                    <head>Abbildung 3: P.Herc. 152/157, Frg. 25 mit stichometrischem <hi rend="supraline">η</hi>, wiedergegeben mit Erlaubnis des Ministero Italiano della Cultura (Aufnahme Steven W. Booras (c) Biblioteca Nazionale, Napoli- Brigham Young University, Provo, USA). Alle Rechte vorbehalten.</head>
+                </figure>
+                <figure>
+                    <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23976484"/>
+                    <head>Abbildung 4: P.Herc. 152/157, Frg. 17 mit stichometrischem <hi rend="supraline">ι</hi>, wiedergegeben mit Erlaubnis des Ministero Italiano della Cultura (Aufnahme Steven W. Booras (c) Biblioteca Nazionale, Napoli- Brigham Young University, Provo, USA). Alle Rechte vorbehalten.</head>
+                </figure>
+                <figure>
+                    <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23976486"/>
+                    <head>Abbildung 5: P.Herc. 152/157, Frg. 30 mit stichometrischem <hi rend="supraline">ν</hi>, wiedergegeben mit Erlaubnis des Ministero Italiano della Cultura (Aufnahme Steven W. Booras (c) Biblioteca Nazionale, Napoli- Brigham Young University, Provo, USA). Alle Rechte vorbehalten.</head>
+                </figure>
+                <figure>
+                    <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23976488"/>
+                    <head>Abbildung 6: P.Herc. 152/157, Frg. 35 mit stichometrischem <hi rend="supraline">π</hi>, wiedergegeben mit Erlaubnis des Ministero Italiano della Cultura (Aufnahme Steven W. Booras (c) Biblioteca Nazionale, Napoli- Brigham Young University, Provo, USA). Alle Rechte vorbehalten.</head>
+                </figure>
+                <div type="bibliography">
+                    <listBibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97269">Birt, T. (1882)</ref> Das antike Buchwesen in seinem Verhältniss zur Litteratur. Berlin: Wilhelm Hertz. </bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/12676">Blanck, H. (1992)</ref> Das Buch in der Antike. München.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/83797">Cavallo, G. (1983)</ref> Libri scritture scribi a Ercolano. Introduzione allo studio dei materiali greci. Napoli (Cronache Ercolanesi. Supplemento 1).</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/83416">Del Mastro, G. (2012)</ref> “Altri frammenti dal PHerc. 1691: Filodemo, Historia Academicorum e Di III,” Cronache Ercolanesi 42: 277–292.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97268">Del Mastro, G. (2024)</ref> “Frustula Herculanensia IV,” Cronache Ercolanesi 54: 259–270.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97270">Essler, H. (2017)</ref> “P.Herc. 152/157 – an Author's Master Copy,” Segno e Testo 15: 57–80.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97271">Graux, C. (1878)</ref> “Nouvelle recherches sur la stichometrie,” Revue de Philologie 2: 97–143.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/18132">Johnson, W.A. (2004)</ref> Bookrolls and Scribes in Oxyrhynchus. Toronto (Studies in Book and Print Culture).</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/75199">Maravela-Solbakk, A. (2006)</ref> “P.Oslo 10 + P.Harr. 45 (M-P<emph rend="bold">3</emph> 285, LDAB 0613): Demosthenes <emph rend="italics">De Corona</emph>§§ 201–205. A Re-edition,” APF 52. 1: 6–13.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/15771">Mazal, O. (1999)</ref> Geschichte der Buchkultur. Band 1. Griechisch-römische Antike. Graz.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97272">Ohly, K. (1928)</ref> Stichometrische Untersuchungen. Leipzig.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97273">Salemenou, M. (2019)</ref> “State Letters and Decrees in P.Haun. I 5 and P.Oxy. XLII 3009: an Evaluation of Authenticity,” in: <ref target="https://papyri.info/biblio/95559">PapCongr 28</ref>: 114–123.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96449">Sardone, L. (2021)</ref> I papiri del de Corona di Demostene. Storia e critica del testo, Bari (Documenti e studi 73).</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97274">Wigodsky, M. (2004)</ref> Emotions and Immortality in Philodemus On the Gods 3 and the Aeneid, in <ref target="https://papyri.info/biblio/83343">D. Armstrong et all. (eds)</ref>, Vergil, Philodemus, and the Augustans. Austin, Texas: 211–228.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
