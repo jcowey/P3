@@ -1,0 +1,1641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An 8th-Century Heracleopolite <emph rend="italics">compromissum</emph> from the Bodleian Library</title>
+            <author>
+               <name>
+                  <forename>Sophie</forename>
+                  <surname>Kovarik</surname>
+               </name>
+               <affiliation>Universität Wien</affiliation>
+               <email>sophie.kovarik@univie.ac.at</email>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0003-2378-3661</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+          <publicationStmt>
+              <publisher>
+                  <orgName>Propylaeum</orgName>
+                  <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+              </publisher>
+              <pubPlace>
+                  <placeName>Heidelberg</placeName>
+                  <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+              </pubPlace>
+              <date when="2025">2025</date>
+              <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+              </availability>
+              <idno ana="hc:PrivateIdentifier">pylon.7.4</idno>
+              <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.7.112020</idno>
+          </publicationStmt>
+          <sourceDesc>
+              <bibl ana="hc:RecommendedBibliographicReference">S. Kovarik, “An 8th-Century Heracleopolite compromissum from the Bodleian Library,” Pylon 7 (2025) Article 4. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2025.7.112020">https://doi.org/10.48631/pylon.2025.7.112020</ref>.</bibl>
+              <biblStruct>
+                  <monogr>
+                      <title level="j" ana="hc:MainTitle">Pylon</title>
+                      <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                      <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                      <imprint>
+                          <biblScope unit="volume">7</biblScope>
+                          <biblScope unit="article">4</biblScope>
+                          <date when="2025">2025</date>
+                      </imprint>
+                  </monogr>
+              </biblStruct>
+          </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2025-06-26T13:12:21Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle"> An 8th-Century Heracleopolite <emph rend="italics">compromissum</emph> from the Bodleian Library
+            </titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+             <note type="acknowledgement">The following article was written within the framework of the project “From the Nile to the Caucasus” (<ref target="https://www.fwf.ac.at/en/research-radar/10.55776/I4674">I 4674-G</ref>), funded by the Austrian Science Fund (FWF) which I thank for its continuous support. The papyrus was first transcribed in 2010 when I joined Amin Benaissa and Nikolaos Gonis in cataloguing the unpublished papyri of the Bodleian library. Thanks go to Lajos Berkes and Nikolaos Gonis for comments on the edition and Paul Schubert for checking the Geneva papyrus catalogue. Peter Tóth kindly provided a picture of <ref target="https://papyri.info/hgv/22592">P.Bodl. 1 73</ref>. Remaining errors are my own responsibility.</note>
+            <div type="introduction">
+               <p xml:id="p1">The papyrus edited in this article is one of the latest legal documents from Egypt written in Greek. The sheet is complete, all margins are preserved. The format is unusual for a contract: it was neither cut from a roll and written with the fibres, nor was the roll turned and written <emph rend="italics">transversa charta</emph> alongside its height, as would be expected from a notarial document. Its width rather suggests that the roll was split in half to accommodate two documents written <emph rend="italics">transversa charta</emph>, and then cut after the writing was completed. This is known especially for letters in the 7th century, see <ref target="https://papyri.info/biblio/21293">CPR 30</ref>: 38 for the practice in the Senouthios-archive, and would also fit with the space around the notarial signature (written in a larger contract cursive and in pale ink), which might suggest that a window was left to be written in at a later stage. The 15 lines of text slightly slant to the right. Lines 5–7 are damaged; the papyrus is held together by a few vertical fibres. Most of the back fibres are missing. The last semi-loose fragment on the right needs to be moved half a centimetre to the right, in order to join the <emph rend="italics">my</emph> of νομοῦ in l. 4. There is evidence of slightly uneven horizontal folds (which are not parallel to the bottom margin, but higher on the right-hand side), suggesting that the document was stored folded up. These folds run parallel to the writing on the recto as well as to the endorsement on the verso (now unfortunately illegible), which was probably written at 180° rather than in the same direction as the recto. This is supported by a few legible letters (α, ν, π) and by the fact that the last fold at the bottom is incomplete which implies that the document was folded from top to bottom; if it was not turned after folding, the docket would indeed run at 180° in relation to the recto. The papyrus displays a typical eighth-century minuscule. The date can be confirmed on prosopographical grounds, see below <ref target="#ch_4">II</ref>. Most abbreviations belong to the dating in l. 12, as is customary. The subscription is in Coptic. </p>
+               <p xml:id="p2">The papyrus was donated to the Bodleian library by Lucy Hunt, A.S. Hunt’s widow, in 1934. </p>
+            </div>
+            <div type="section">
+               <head>I. Provenance</head>
+               <p xml:id="p3">This <emph rend="italics">compromissum</emph> was drawn up by a notary named Ioannes on the 21st of Phamenoth in an 11th indiction. The origin of both parties suggests that it was written in Leukogion (<ref target="http://www.trismegistos.org/place/1248">TM Geo 1248</ref>), an important harbour (ὅρμος) and trading place between the Arsinoite and Heracleopolite nomes. Its location is unknown; <ref target="https://papyri.info/biblio/15230">Falivene 1998</ref>: 122 places it at the Nile, but Morelli in <ref target="https://papyri.info/hgv/70243">CPR 22 3</ref>.5n. at the Bahr Yusuf at the entrance to the Fayum. It is mostly referred to as κώμη (‘village’) or κτῆμα (‘piece of land, estate’) and might once have belonged to the Arsinoite nome (<ref target="https://papyri.info/hgv/10421">P.Cair. Isid. 9</ref>.282, 284 [309]), but it is exclusively attested in the Heracleopolite nome from the 6th to 8th centuries. Although notarial documents were usually drawn up in the nome capitals, Leukogion seems to have had its own notarial practices, at least in the 7th and 8th centuries, which differ from the tabellionic tradition of Heracleopolis.<note place="foot" xml:id="ftn1" n="1">
+                   <p> This goes along with a number of Heracleopolite localities that we encounter as places of composition in the 5th to 8th centuries, which all appear to be on edge of the Heracleopolite nome either bordering the Arsinoite (Bousiris: <ref target="https://papyri.info/hgv/15454">P.Rain. Cent. 124</ref> [492], Leukogion, Tinteris: <ref target="https://papyri.info/hgv/21426">P.Michael. 126</ref> [538]) or Oxyrhynchite (Kerkesephis: <ref target="https://papyri.info/hgv/18745">SPP 20 127</ref> [463], Koba: <ref target="https://papyri.info/hgv/18740">SPP 20 117</ref> [411], Papa megale: <ref target="https://papyri.info/hgv/38728">P.Köln 7 323</ref> [7th/8th c.], Pasei: <ref target="https://papyri.info/hgv/17169">P.Vind. Sijp. 7</ref> [463], Phebichis: <ref target="https://papyri.info/hgv/15453">P.Rain. Cent. 123</ref> [478], Tosachmis: <ref target="https://papyri.info/hgv/36844">SB 6 9593</ref> [6th/7th c.]). Perhaps the distance to the nome capital was the deciding factor for the development of local notarial traditions, or, as in the case of Leukogion, the importance as a centre of trade, see <ref target="https://papyri.info/biblio/73452">Morelli 2004</ref>: 184, n. 39.</p>
+                  </note> Apart from Ioannes, son of Phib, we only know of three more local notaries, Eugenios in <ref target="https://papyri.info/hgv/37474">P.Dubl. 24</ref>, and two unread names in <ref target="https://papyri.info/hgv/22592">P.Bodl. 1 73</ref> and <ref target="https://papyri.info/hgv/129803">P.Gen. 4 181</ref>, cf. the corrections in <ref target="#ch_11">Appendix II</ref>. All 7th- and 8th-century documents from Leukogion are collected in <ref target="#ch_10">Appendix I</ref>. </p>
+            </div>
+            <div type="section">
+               <head>II. Date and Notary</head>
+               <p xml:id="p4">The date of the Bodleian papyrus may be narrowed down thanks to additional information on the notary who appears in two other documents from Leukogion. One of them is an unpublished deed of sale housed in the Pushkin Museum (inv. ИГ-4814; I.1.б 608), which preserves the end of the body of the document and the subscriptions, including the notarial signature of Ioannes. There is another fragment in the same collection (ИГ-4812; I.1.б 706), the beginning of a contract of similar width, written in Leukogion, in the same clear and upright minuscule which seems to connect it to ИГ-4814, and with a precise dating to 4 April 718 (Diocletian era year 434, 1st indiction). They were initially assumed to be part of the same document, but this cannot ultimately be confirmed. Nevertheless, there is a strong indication that these papyri are related.<note place="foot" xml:id="ftn2" n="2">
+                     <p> Thumbnail images and metadata for both papyri were once available on the website of the Pushkin Museum but have since been taken down; see the catalogue of <ref target="https://papyri.info/biblio/97326">Chepel 2018</ref>, which records the two documents as belonging together. However, the woman subscribing in ИГ-4814, l. 6 (what else survives of the contract is likewise formulated in the singular) does not match the group of people who appear as the issuing party at the beginning of the greeting formula in ИГ-4812, l. 4. Both papyri were once part of the private collection of V.S. Golenischev, who sold them to the Moscow museum (through the Egyptologist B.A. Turaev) between 1908 and 1912.</p>
+               </note> The Bodleian papyrus was drawn up in an 11th indiction which, if we bear in mind the date of ИГ-4814 (718), likely corresponds to either 713 or 728. If so, this would make it the latest attested contract in Greek known from Egypt.<note place="foot" xml:id="ftn3" n="3">
+                     <p> This is something I claimed before for another <emph rend="italics">compromissum</emph> from the 8th century, edited in <ref target="https://papyri.info/biblio/96142">Kovarik 2020</ref>: 67 for which I suggested the date 724–725 (?).</p>
+                  </note>
+               </p>
+               <p xml:id="p5">The other papyrus signed by the notary Ioannes is <ref target="https://papyri.info/hgv/129811">P.Gen. 4 189</ref>, in which the notarial signature is only partly preserved as [   ̣  ̣  ̣  ̣  ̣  ̣  ̣  ̣  ̣  ̣]   ̣  ̣ Φιβ ἐγράφη. It can now be restored with the help of the two other documents as [† δι᾿ ἐμ]ο̣ῦ̣ [Ἰωάν]ν̣ο̣υ̣ υἱο̣ῦ̣ Φιβ ἐγράφη † †. Drawn up in Pachon (day of the month unclear) of a 15th indiction, it could be tentatively dated to April/May 717. The indiction in the Heracleopolite nome ran concurrently to the Egyptian civil year, starting with Thoth, and there is no reason to assume this changed in the post-conquest period.<note place="foot" xml:id="ftn4" n="4">
+                     <p> Rarely do we find the specification with ἀρχῇ/τέλει after the month; no Arab-period examples are preserved for the Heracleopolite nome. In the Arsinoite nome, where the indiction starts in Epeiph, we find τέλει still for Payni (<ref target="https://papyri.info/hgv/70351">CPR 24 33.</ref>3 [653]), <ref target="https://papyri.info/hgv/39479">SPP 8 866</ref>.4 (7th c.) and ἀρχῇ still for Epeiph (<ref target="https://papyri.info/hgv/41011">SPP 20 243</ref>.5 [648], <ref target="https://papyri.info/hgv/41335">SB 1 4763</ref>.3 (2nd half 7th c.), <ref target="https://papyri.info/hgv/41289">SPP 8 941</ref>.2 [7th c.]) or Mesore (<ref target="https://papyri.info/hgv/21398">P.Mich. 15 748</ref>.2 [651] or even Thoth (<ref target="https://papyri.info/hgv/41090">CPR 14 16</ref>.7 [644?]. If, however, for some reason the starts of indiction became unified in the Arab period, beginning in Pachon (like in the Thebaid and probably the delta), then <ref target="https://papyri.info/hgv/129811">P.Gen. 4 189</ref> would date to the year 716. ИГ-4812.3 dates to Pharmouthi and  has no indication of τέλει, <ref target="https://papyri.info/hgv/39695">SB 20 15092</ref>.4 (2nd half 7th c.), also from Leukogion, from Pachon has no ἀρχῇ which of course does not count for much. From Oxyrhynchos, however, we have the case of <ref target="https://papyri.info/hgv/38681">P.Wisc. 1 11</ref>.3–4 (646?): Ἐπεὶφ η ἰνδ(ικτί)ο(νος) τετάρτης ̣ ἀ̣ρχ(ῇ) σὺν θ(εῷ) πέμπτης and    <ref target="https://papyri.info/hgv/21398">P.Mich. 15 748</ref>.2 (651): Μεσορὴ κ ἰνδ(ικτίονος) θ, ἀρχ(ῇ) σὺν θ(εῷ) δεκάτης ἰ(νδικτίονος), which must refer to the fiscal indiction and is in line with Oxyrhynchite practice since the late fifth century, see e.g. <ref target="https://papyri.info/hgv/21392">P.Mich. 15 731</ref>.2 (499) Ἐπεὶφ [  ̣] ἰνδ(ικτίονος) ζ ἀρχ(ῇ) η.</p>
+               </note> In Arsinoite and Heracleopolite papyri from 657 onwards we additionally find the era of Diocletian, which is calculated from the first year of Diocletian’s reign). Discrepancies between era dating and indiction usually differ a whole year and are of no help in establishing the starting point of either the indiction or the era. The Geneva papyrus lacks the invocation that usually introduces the prescript of a notarial document and provides only an informal date with month, indiction, and place of issue. It is written with the fibres in a vertical format, meaning its length corresponds to the height of a papyrus roll. It is almost complete with only the beginning of the notarial signature broken off, but it is partly abraded. <ref target="https://papyri.info/biblio/79081">Diethart and Hasitzka 2011</ref>: 239 and <ref target="https://papyri.info/biblio/87150">Gascou 2015</ref> suggested corrections to the unread parts of the document in the body and the Coptic subscription (= <ref target="https://papyri.info/hgv/129811">SB 4 Kopt. 1807</ref>). The papyrus was bought by Édouard Naville for Jules Nicole in the ‘période d’achat 1882–1897’.<note place="foot" xml:id="ftn5" n="5">
+                     <p> The <ref target="https://archives.bge-geneve.ch/ark:/17786/vta2648eaa40b282d94">online catalogue</ref> also notes that “C. Wehrli renvoie dans son catalogue à P.Gen. inv. 61, mais ce dernier manque dans la collection de Genève depuis 1987” – <ref target="https://archives.bge-geneve.ch/ark:/17786/vtab09a4b1b3089a8c9">this latter papyrus</ref>, however, seems to be <ref target="https://papyri.info/hgv/129817">P.Gen. 4 198</ref> (P.Gen. inv. 150), of Arsinoite origin, which dates to 634.</p>
+                  </note> At first glance, therefore, there is no indication of a shared provenance for the documents drawn up by our notary Ioannes. </p>
+               <p xml:id="p6">The diversity of these three documents in format, layout and style attests to the blurring of Late Roman traditions in the 8th century: two of the three testimonies of this notary dispense with the proper prescript (the Oxford and Geneva documents), and two use the minuscule (Oxford and Moscow). This would not happen in a standard tabellionic document, which remained a refuge of the cursive until the very end (apart from subscriptions), see Kovarik (forthcoming b). Two of the documents (Geneva and Oxford) contain a Coptic subscription. All three notarial signatures, however, are written in cursive and are identical in their composition and possibly even in handwriting (see <ref target="#p34">l. 15n.</ref>), but for a cross above the <emph rend="italics">omega</emph> of Ἰωάννου in the Moscow papyrus. The verb of completion is ἐγράφη, which is not typical for contemporary notarial documents from this region. Ioannes also mentions the name of his father, Phib, which is also uncommon in late Heracleopolite documents, but the other two (or three) notaries from Leukogion (<ref target="https://papyri.info/hgv/37474">P.Dubl. 24</ref>, <ref target="https://papyri.info/hgv/22592">P.Bodl. 1 73</ref>) also do this; cf. <ref target="#ch_11">Appendix II</ref>. We do not know of any notarial documents in Greek from the 8th century from outside the Heracleopolite region (see <ref target="https://papyri.info/biblio/96142">Kovarik 2020</ref>), but there are Coptic documents with Greek notarial signatures, which also use ἐγράφη. On family relations and the long-lasting notarial traditions in those late texts, see Kovarik (forthcoming).</p>
+            </div>
+            <div type="section">
+               <head>III. <emph rend="italics">Compromissa</emph>
+               </head>
+               <p xml:id="p7">Among these Arsinoite and Heracleopolite contracts from the 6th to the 8th centuries there is a preponderance of <emph rend="italics">compromissa.</emph> A <emph rend="italics">compromissum</emph> is an agreement between two contractual parties to appoint one or more arbitrators to resolve an ongoing conflict between them with their judgement (ὅρος, <emph rend="italics">sententia</emph>) and is a stage in the process of out-of-court arbitration. Another route of dispute resolution is the settlement (διάλυσις), which accounts for most of our documentation in this context; it usually recounts all stages of the conflict in detail, see <ref target="https://papyri.info/biblio/79781">Kreuzsaler 2010</ref>: 22–25. Arbitration decisions, on the other hand, are very few and vary in style. All these document types (<emph rend="italics">compromissum, dialysis, horos</emph>) seem to have required the participation of a notary.</p>
+               <p xml:id="p8">There are two such ὅροι preserved from early 7th-century Leukogion, <ref target="https://papyri.info/hgv/78712">P.Paramone 16</ref>.1, 17 (616) and <ref target="https://papyri.info/hgv/37060">P.Paramone 17</ref>.1 (early 7th c.), both broken off at the bottom. They, too, do not begin with a prescript, but start directly <emph rend="italics">in medias res</emph>: ὅρος (l. ὅρον) δεδώκαμεν ἡμεῖς + names. Another ὅρος, which probably comes from the Heracleopolite nome, is <ref target="https://papyri.info/hgv/129803">P.Gen. 4 181</ref>, assigned to the early 7th century, but it is probably not earlier than the middle of the century.<note place="foot" xml:id="ftn6" n="6">
+                     <p> It is the arbitrators who issue and sign the document (ἐπιδέδωκα), cf. <ref target="https://papyri.info/hgv/78712">P.Paramone 16</ref>.1, 17 and <ref target="https://papyri.info/hgv/37060">17</ref>.1. On this papyrus, see further <ref target="#ch_11">Appendix II</ref>.</p>
+                  </note> Perhaps their small number is due to the fact that they were usually announced orally, and not necessarily written down.</p>
+               <p xml:id="p9">There are more than 100 papyri, in Greek and Coptic, attesting alternative dispute resolution (see <ref target="https://papyri.info/biblio/79781">Kreuzsaler 2010</ref>: 17), among which are ca. 25 published Greek <emph rend="italics">compromissa</emph> and a few inedita. Their structure consistently contains the same elements from the 4th to the 8th centuries. The <emph rend="italics">compromissum</emph> is usually (at least in part) styled objectively as a bilateral document (see <ref target="https://papyri.info/biblio/87430">Kovarik 2012</ref>: 213–217), and is potentially signed by both parties, who agree on arbitrators (who are mostly specified by name) and pledge to abide by their ruling; otherwise a penalty (<emph rend="italics">poena compromissi</emph>) had to be paid (cf. <ref target="#p31">l. 12n.</ref>), see <ref target="https://papyri.info/biblio/79781">Kreuzsaler 2010</ref>: 19; <ref target="https://papyri.info/biblio/7792">Ziegler 1971</ref>: 90–104. A discussion of the cause of the dispute is not required in this kind of document. There is no trace in the papyri of the counterpart of the arbitrators, the <emph rend="italics">receptum arbitri</emph>, in which the arbitrators confirm that they will act as such in the case, see <ref target="https://papyri.info/biblio/79781">Kreuzsaler 2010</ref>: 20–21; <ref target="https://papyri.info/biblio/7792">Ziegler 1971</ref>: 77–80<emph rend="italics">.</emph> Almost as silent is the situation for arbitration proceedings, one famous exception being the Coptic P.Budge<note place="foot" xml:id="ftn7" n="7">
+                     <p> See <ref target="https://papyri.info/biblio/47131">Schiller 1968</ref>. The papyrus is currently being reedited by T.S. Richter with a legal discussion by M. Wojtczak and J. Urbanik.</p>
+                  </note> which also resulted in a <emph rend="italics">dialysis</emph>, <ref target="https://papyri.info/hgv/17841">SB 6 8988</ref> (Apollonopolis, 647).<note place="foot" xml:id="ftn8" n="8">
+                     <p> On alternative dispute resolution, see in general <ref target="https://papyri.info/biblio/7767">Steinwenter 1925</ref>, <ref target="https://papyri.info/biblio/40186">Modrzejewski 1952</ref>, <ref target="https://papyri.info/biblio/7792">Ziegler 1971</ref>, <ref target="https://papyri.info/biblio/13571">Gagos and van Minnen 1994</ref>, <ref target="https://papyri.info/biblio/76819">Urbanik 2007</ref>, <ref target="https://papyri.info/biblio/79781">Kreuzsaler 2010</ref> and <ref target="https://papyri.info/biblio/96816">Wojtczak 2016.</ref>
+                     </p>
+                  </note>
+               </p>
+               <p xml:id="p10">Two more Heracleopolite <emph rend="italics">compromissa</emph> also date from the 8th century, <ref target="https://papyri.info/hgv/15452">P.Rain. Cent. 121</ref> (719) and <ref target="https://papyri.info/hgv/39378">SPP 3 415 + P.Vindob. G 40284</ref>, both (re)edited in <ref target="https://papyri.info/biblio/96142">Kovarik 2020</ref>: 60, 62. Both were drawn up by the notary Paulos and display an anomalous format, i.e. written <emph rend="italics">transvera charta</emph> while not preserving a vertical format. This could again have been a half-roll-format, but a taller one with 37cm for the full roll. There is no prescript; the first line starts directly with the greeting formula.</p>
+               <p xml:id="p11">Another fragmentary <emph rend="italics">compromissum</emph> from Leukogion is <ref target="https://papyri.info/hgv/35934">CPR 6 7</ref>. This has been linked to the decisions recorded in <ref target="https://papyri.info/hgv/78712">P.Paramone 16</ref> and <ref target="https://papyri.info/hgv/37060">P.Paramone 17</ref> by <ref target="https://papyri.info/biblio/73452">Morelli 2004</ref>: 182, in particular <ref target="https://papyri.info/hgv/78712">P.Paramone 16</ref>, in which the same person, Chonis, son of Naaraous, might appear and which may have been written by the same hand, cf. <ref target="#p19">l. 3n</ref>. <ref target="https://papyri.info/hgv/38350">SB 1 4673</ref>, from the late 6th century, preserves only the end of the document, <ref target="https://papyri.info/hgv/37704">SPP 3 402</ref>, which breaks off in the middle of the text and might be a draft from the 6th or early 7th century, and the unpublished P.Vindob. G 26321, which again only preserves the top part, complete the picture of the Heracleopolite <emph rend="italics">compromissa</emph>. The latter two omit the prescript, similar to the Bodleian papyrus edited here.</p>
+               <p xml:id="p12">More <emph rend="italics">compromissa</emph> survive from Arsinoe,<note place="foot" xml:id="ftn9" n="9"><p><ref target="https://papyri.info/hgv/41059">BGU 1 315</ref> (627/642), <ref target="https://papyri.info/hgv/40945">P.Prag. 1 49</ref> (643), <ref target="https://papyri.info/hgv/41366">SB 1 5681</ref> (624), and <ref target="https://papyri.info/hgv/133270">SB 30 17412</ref> (596) are preserved in full. <ref target="https://papyri.info/hgv/14558">SB 14 12194</ref> (mid 7th c.) is almost complete. Fragmentary are <ref target="https://papyri.info/hgv/9045">BGU 1 309</ref> (602), <ref target="https://papyri.info/hgv/997966">BGU 21 2895</ref> (624), <ref target="https://papyri.info/hgv/997967">BGU 21 2896r</ref> (659), <ref target="https://papyri.info/hgv/15775">CPR 6 8</ref> (509?), <ref target="https://papyri.info/hgv/37012">P.Lond. 2 456</ref> (2nd half 7th c.), <ref target="https://papyri.info/hgv/12773">P.Prag. 1 48</ref> (615), <ref target="https://papyri.info/hgv/33915">SB 1 4847</ref> (6th-7th c.), see <ref target="#ch_11">Appendix II</ref>, <ref target="https://papyri.info/hgv/33984">SB 1 5257</ref> (mid 7th c.), <ref target="https://papyri.info/hgv/41364">SB 1 5271</ref> (615), <ref target="https://papyri.info/hgv/41310">SB 8 9775</ref> (649), <ref target="https://papyri.info/hgv/41363">SB 24 15899</ref> (608), and a handful of Viennese inedita. From Oxyrhynchos is only <ref target="https://papyri.info/hgv/35304">P.Iand. 3 41</ref> (6th c.). See <ref target="#ch_11">Appendix II</ref> for corrections to <ref target="https://papyri.info/hgv/41059">BGU 1 315</ref>, <ref target="https://papyri.info/hgv/33984">SB 1 5257</ref> and <ref target="https://papyri.info/hgv/41366">SB 1 5681</ref></p>
+                  </note> but none of them is as late as the Heracleopolite material. Recently, the latest dated Arsinoite <emph rend="italics">compromissum</emph> from 675 was published in <ref target="https://papyri.info/biblio/96571">Harrauer and Pintaudi 2021</ref>: 56–57, with the same opening as the Bodleian papyrus (see <ref target="#p13">l. 1n</ref>.) and preserved in its entirety. The names of the arbitrators are curiously omitted, but they are referred to in their capacity as judges of the public prison. Although clearly a <emph rend="italics">compromissum</emph>, the summary in the endorsement describes the document as a <emph rend="italics">horos</emph>. For more details and corrections, see <ref target="#ch_11">Appendix II</ref>.</p>
+               <div type="epidoc" subtype="DDB">
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;">
+                           <ref target="https://digital.bodleian.ox.ac.uk/objects/f6a1db13-d155-41b6-bbfa-145fc7117ff1/">MS. Gr. Class. e 135 (P)</ref>
+                        </cell>
+                        <cell style="text-align: center;">18.8 (h) × 15.6 (w)</cell>
+                        <cell style="text-align: right;">
+                           <ref target="http://www.trismegistos.org/place/1248">Leukogion</ref>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;">
+                           <ref target="https://digital.bodleian.ox.ac.uk/">digital.bodleian.ox.ac.uk</ref>
+                        </cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">17 March 713 or 728</cell>
+                     </row>
+                  </table>
+                  <figure>
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23957969"/>
+                     <head>Fig. 1: MS. Gr. Class. e 135 (P) recto.</head>
+                  </figure>
+                  <figure>
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23957971"/>
+                     <head>Fig. 2: MS. Gr. Class. e 135 (P) verso.</head>
+                  </figure>
+                  <div copyOf="#ed1" type="edition"/>
+                  <div copyOf="#trans1" type="translation"/>
+                  <div type="commentary">
+                     <note target="#ed1ln1">
+                        <ref>1</ref>
+                        <p xml:id="p13"> The format and formulary of <emph rend="italics">compromissa</emph> usually fall into one of two distinctive categories: either the document, as in the present case, emphasises the κομπρόμισσον at the very beginning, followed by the bilateral objective greeting formula – τὸ παρὸν κομπρόμισσον ποιοῦνται … ἐκ τοῦ ἑνὸς/ἑτέρου μέρους … χαίρειν – which appears to be the Heracleopolite version<note place="foot" xml:id="ftn10" n="10">
+                              <p> Also probably <ref target="https://papyri.info/hgv/35934">CPR 6 7</ref> (early 7th c.) and P.Vindob. G 26321 (6th c.) as well as the Arsinoite <emph rend="italics">compromissum</emph> <ref target="https://papyri.info/hgv/980060">PL III/1029</ref>.</p>
+                           </note> of the introductory τόδε τὸ κομπρόμισσον ποιοῦνται, typical of the 7th-century <emph rend="italics">compromissum</emph> in Arsinoe;<note place="foot" xml:id="ftn11" n="11">
+                              <p>
+                                 <ref target="https://papyri.info/hgv/9045">BGU 1 309</ref> (602), subjective; <ref target="https://papyri.info/hgv/41059">BGU 1 315</ref> (627/642); <ref target="https://papyri.info/hgv/15775">CPR 6 8</ref> (6th c.): τοῦτο τὸ κομπρόμισσον;   <ref target="https://papyri.info/hgv/41364">SB 1 5271</ref> (615), subjective; <ref target="https://papyri.info/hgv/41366">SB 1 5681</ref> (624), <ref target="https://papyri.info/hgv/14558">SB 14 12194</ref> (2nd half 7th c.), <ref target="https://papyri.info/hgv/41363">SB 24 15899</ref> (608)</p>
+                           </note> or it is reduced to just the greeting formula, omitting any reference to the <emph rend="italics">compromissum</emph>, followed by ᾑρήσαντο κοινῇ γνώμῃ in some Heracleopolite documents.<note place="foot" xml:id="ftn12" n="12">
+                              <p>
+                                 <ref target="https://papyri.info/hgv/37704">SPP 3 402</ref> (6th c.), <ref target="https://papyri.info/hgv/15452">P.Rain. Cent. 121</ref> (719), <ref target="https://papyri.info/hgv/39378">SPP 3 415 + P.Vindob. G 40284</ref> (720s)</p>
+                           </note> In the Arsinoite material, there is also a variant in which the contracting parties are both mentioned in the nominative: N. N. καὶ Ν. Ν. (ἀλλήλοις) χ(αίρειν).<note place="foot" xml:id="ftn13" n="13">
+                              <p>
+                                 <ref target="https://papyri.info/hgv/133270">SB 30 17412</ref> (596), <ref target="https://papyri.info/hgv/12773">P.Prag. 1 48</ref> (615), <ref target="https://papyri.info/hgv/40945">P.Prag. 1 49</ref> (643), <ref target="https://papyri.info/hgv/41310">SB 8 9775</ref> (649). The Heracleopolite document <ref target="https://papyri.info/hgv/129811">P.Gen. 4 189</ref> (717?), mentioned above, seems to be constructed the same way.</p>
+                           </note> Cf. <ref target="https://papyri.info/biblio/87430">Kovarik 2012</ref>: 213–216.
+                        </p>
+                     </note>
+                     <note target="#ed1ln2">
+                        <ref>2</ref>
+                        <p xml:id="p14"> The Name Pekysios (<ref target="http://www.trismegistos.org/namvar/12766">TM NamVar 12766</ref>) is very common throughout Egypt, as well as Naaraous (<ref target="http://www.trismegistos.org/namvar/2750">TM NamVar 2750</ref>), the Middle Egyptian variant of the name Inaros. Naaraous is a particularly common name in Leukogion, including both fathers in our text, ll. 2–3.<note place="foot" xml:id="ftn14" n="14">
+                              <p> Naaraous, father of Pechysios in <ref target="https://papyri.info/hgv/78712">P.Paramone 16</ref>.3; father of Chonis in <ref target="https://papyri.info/hgv/35934">CPR 6 7</ref>.6 and <ref target="https://papyri.info/hgv/37060">P.Paramone 17</ref>.3; father of Maria and Georgios in <ref target="https://papyri.info/hgv/37474">P.Dubl. 24</ref>.1, 5, and son of Senouthios in in <ref target="https://papyri.info/hgv/37474">P.Dubl. 24</ref>.6; father of Makarios in <ref target="https://papyri.info/hgv/34838">CPR 7 44</ref>.5. Naaraous in <ref target="https://papyri.info/hgv/37003">P.Lond. 2 391</ref>.1, 4, 5, 9, 10, 12 and the deceased husband of Tamene in <ref target="https://papyri.info/hgv/129811">P.Gen. 4 189</ref>.3; Naaraous, son of Andreas as <emph rend="italics">hypographeus</emph> in ИГ-4814.7, and the father of two witnesses, l. 8.</p>
+                           </note> One Pechysios, son of Naaraous Chonis appears in <ref target="https://papyri.info/hgv/78712">P.Paramone 16</ref>.3, dated to 616 – perhaps an ancestor? In general, the onomastic material in the Leukogion documents is limited. This either suggests that people chose from a narrow pool of names or that these documents concern the same people and families. See the table of Leukogion documents in <ref target="#ch_10">Appendix I</ref>.</p>
+                     </note>
+                     <note target="#ed1ln3">
+                        <ref>3</ref>
+                        <p xml:id="p15"> ἐκ δὲ τοῦ δευτέ̣ρου μέρους: The use of the ordinal is singular; typically, ἑτέρου μέρους is found, but sometimes this is replaced by θατέρου, as in <ref target="https://papyri.info/hgv/15452">P.Rain. Cent. 121</ref>.2.</p>
+                        <p xml:id="p16">Αμπα υἱῷ Νααρ(αo)υ Πκανεε: Αμπα is most likely Σαμβᾶς, written haplographically with the <emph rend="italics">sigma</emph> of μέρους before, like e.g. <ref target="https://papyri.info/hgv/40989">P.Ross. Georg. 3 32</ref>.14, 15 (Arsinoe, 504), where after υἱός the initial <emph rend="italics">sigma</emph> is omitted.<note place="foot" xml:id="ftn15" n="15">
+                              <p> A potential variant of Ἀμβας (<ref target="http://www.trismegistos.org/name/41053">TM Nam 41053</ref>) can be excluded. It is only recorded in <ref target="https://papyri.info/hgv/40989">P.Ross. Georg. 3 32</ref>.15, which clearly concerns the name Sambas. <ref target="https://papyri.info/hgv/35531">SPP 3 314</ref>.1 (7th c., Hermopolis) probably has νοσοκ(ομίου) τοῦ ἁγίου Αβ̣β̣[α Λ]εο̣ντίου and not Α̣μ̣β̣[α; <ref target="https://papyri.info/hgv/18408">SB 18 13218</ref>.13 (713, Aphrodito) Ἀμβᾶ Κουμνᾶ  is the name Αμβακουμ, transliteration of biblical Habakuk (<ref target="http://www.trismegistos.org/name/8469">TM Nam 8469</ref>). The name Ambas does not exist.</p>
+                           </note> There is a Sambas, brother of Theodoros, in the Pushkin Museum ИГ-4812.4 (718); the papyrus breaks before the patronym.</p>                        
+                        <p xml:id="p17"> Πκανεε: or perhaps Πκανεθ. There is no exact equivalent, but there are similar names in 8th-century Aphrodito like Πκανα (<ref target="http://www.trismegistos.org/name/49969">TM Nam 49969</ref>). Pkanee could either be an alias of the father, or the name of the grandfather. </p>
+                        <p xml:id="p18">The specification of a person with three determinants is common in this period; this could either be three names or two names and the profession, like in the case of the priest Pekysios in l. 2, who also gives the name of his father. When three names are arranged one after the other, it is not easy to ascertain whether the third name is the name of the grandfather or the alias name of either the person in question or their father. In the documents from Leukogion, we see in <ref target="https://papyri.info/hgv/37060">P.Paramone 17</ref>.1: Ἀπανάκιος υἱὸς Ἐνὼχ υἱὸς Αἰούλιος, where the filiation υἱός indicates that the third name is the one of the grandfather (although it should then actually be υἱοῦ). Different is the case in <ref target="https://papyri.info/hgv/78712">P.Paramone 16</ref>.3: Πεχυσίω  υ̣ἱ̣ῶ Ναρ(άου) Χῶνι, where initially the name Chonis was written and Ναρ(άου) was added above the line only later.
+                        <figure>
+                           <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24006004"/>
+                           <head>Fig. 3: P.Paramone 16 line 3.</head>
+                        </figure></p>
+                        <p xml:id="p19">If we assume Pechysios’ father is the same person who appears as Χῶνις υἱὸς Νααραου in <ref target="https://papyri.info/hgv/35934">CPR 6 7</ref>.5–6, this would mean that he shared his father’s name – not very common in late antiquity, when papponymy prevailed – but was actually known as Chonis. According to <ref target="https://papyri.info/biblio/73452">Morelli 2004</ref>: 188, the second is the principal name. We see something similar in <ref target="https://papyri.info/hgv/37474">P.Dubl. 24</ref>.1, where the alias must also refer to the father of the issuing party (Μαρίας θυγατρὸς Να[αρ]αοῦς Παχῶς); this only becomes apparent as such in the <emph rend="italics">hypographe</emph>, ll. 10–11, where the name Naaraous is dropped: Α[ὐρη]λ̣ιας Μαριας θυγατρος Παχο͂ς.<note place="foot" xml:id="ftn16" n="16">
+                              <p> Perhaps Chonis (<ref target="http://www.trismegistos.org/name/12942">TM Nam 12942</ref>), a name exclusively attested for this person, is a nick-name for Pachos (<ref target="http://www.trismegistos.org/name/4777">TM Nam 4777</ref>), then the Naaraous Pachos, father of Maria could also be the same person.</p>
+                           </note> In <ref target="https://papyri.info/hgv/129811">P.Gen. 4 189</ref>.3, Tamene is called widow of Naaraous without any alias at all; the second name, Elias, appears only in the Coptic <emph rend="italics">hypographe</emph> in l. 14, which omits Naaraous. It thus seems that when names are added one after the other without filiation, the second is the father’s (mostly) Egyptian alias. See also <ref target="https://papyri.info/hgv/39341">SPP 3<hi rend="superscript">2</hi> 68</ref>.1 Ὀνοφρίου υἱὸς Μηνᾶ Πμουει, <ref target="https://papyri.info/hgv/78712">P.Paramone 16</ref>.2 Παφνούθιος υἱὸς Ἰωσὴφ Πουααλ.<note place="foot" xml:id="ftn17" n="17">
+                              <p> I would suggest that the Μακάρις υἱὸς Να̣α̣ράου Παψ̣[ίου    mentioned in <ref target="https://papyri.info/hgv/34838">CPR 7 44</ref>.4–5 (?, 5th-6th c.), referred to only as Makarios, son of Papsios in the <emph rend="italics">hypographe</emph> (l. 20), gives reason to assume a 7th-century Heracleopolite provenance for this text which seems to be confirmed by paleography („Hand A”, see <ref target="#ch_11">Appendix II</ref>).</p>
+                           </note> In contrast, in <ref target="https://papyri.info/hgv/39695">SB 20 15092</ref>.5–6: Αὐρήλιος Σεν   ̣[   ̣   ̣   ̣   ̣   ̣   ̣ υἱὸς] τοῦ μακαρίου Ἀνοῦπ ὁ καὶ Καν̣[, the alias-name, although given after the patronym, in fact refers to the issuer Aurelios Sen[outhios?] himself. In this case, however, ὁ καὶ needs to be included for clarity. </p>
+                        <p xml:id="p20">In light of this naming practice, Pekysios, son of Apakyrios in ИГ-4812 (718), which was probably drawn up by the same notary, could indeed be the same individual as our Pekysios, son of Naaraous, with Apakyrios serving as alias. The father, Naaraous, in turn, could also have been the deceased husband of Tamene in <ref target="https://papyri.info/hgv/129811">P.Gen. 4 189</ref>.3 who was likely a priest as well.</p>
+                        <p xml:id="p21">υἱός (l. 2) – υἱῷ (l. 3): Both parties should be introduced in the nominative; the structure nominative – dative, however, recalls the pattern of the introduction of the contractual parties in unilateral documents, i.e. the standard tabellionic instrument. It is likely that this structure was used by analogy with the usual practice, see <ref target="https://papyri.info/biblio/87430">Kovarik 2012</ref>: 214. </p>
+                     </note>
+                     <note target="#ed1ln4">
+                        <ref>4</ref>
+                        <p xml:id="p22"> κώμης Λευκογίο[υ]: Leukogion is also called κτῆμα. The other examples of our notary Ioannes, <ref target="https://papyri.info/hgv/129811">P.Gen. 4 189</ref>.2 and ИГ-4812.3, also have κώμη. The expression κτῆμα seems to disappear in the Arab period; the latest dated example is <ref target="https://papyri.info/hgv/78712">P.Paramone 16</ref>.4 and the other texts from this dossier (see <ref target="#ch_10">Appendix I</ref>). <ref target="https://papyri.info/hgv/37060">P.Paramone 17</ref> and <ref target="https://papyri.info/hgv/21610">P.Dubl. 28</ref> are noteworthy in that they distinguish between κώμη and κτῆμα as places of origin. In <ref target="https://papyri.info/hgv/37060">P.Paramone 17</ref>, the arbitrators (l. 2) are from the κώμη, while the conflicting parties are associated with the κτῆμα (l. 4). In <ref target="https://papyri.info/hgv/21610">P.Dubl. 28</ref>, one party originates from the κώμη, the other from the κτῆμα.<note place="foot" xml:id="ftn18" n="18">
+                              <p> Another example of κτῆμα used for a village that is otherwise referred to as κώμη (e.g. <ref target="https://papyri.info/hgv/37570">SPP 3<hi rend="superscript">2</hi> 71</ref>.2) is the Arsinoite Tamauis in <ref target="https://papyri.info/hgv/37476">P.Dubl. 26</ref>.2. Interestingly, this designation of the village is used in the case of an inhabitant of Onne, a Heracleopolite village near Leukogion, who was residing at Tamauis (cf. <ref target="#ch_10">Appendix I</ref>).</p>
+                           </note>
+                        </p>
+                     </note>
+                     <note target="#ed1ln4">
+                        <ref>4–5</ref>
+                        <p xml:id="p23"> ἀμφιβολ̣εία̣[ν] ἔ̣[χ]ο̣ν̣τε̣[ς] μετ’ ἀλλήλ[ων: The reference to the dispute as ἀμφιβολία (‘ambiguity, uncertainty of mind’) does not occur very often and is mostly found in the context of arbitration (<emph rend="italics">compromissa</emph> and <emph rend="italics">dialyseis</emph>) in the 6th to 8th centuries (<ref target="https://papyri.info/hgv/36530">P.Cair. Masp. 3 67313</ref>.16 [Aphrodito], <ref target="https://papyri.info/hgv/41101">P.Heid. 7 404</ref>.15 [Arsinoe], <ref target="https://papyri.info/hgv/21374">P.Mich. 13 659</ref>.125, 134 [Antinoe], <ref target="https://papyri.info/hgv/39651">SB 22 15764</ref>.17 [Arsinoe], <ref target="https://papyri.info/hgv/37704">SPP 3 402</ref>.2 [Heracleopolis]); cf. <ref target="https://papyri.info/hgv/41101">P.Heid. 7 404</ref>.15–16n. An exact parallel is the Heracleopolite <ref target="https://papyri.info/hgv/35934">CPR 6 7</ref>.8 with πρὸς ἀλλήλους instead of μετ’ ἀλλήλων. <ref target="https://papyri.info/hgv/37060">P.Paramone 17</ref>.6 similarly has [τὰ μετα]ξὺ αὐ̣τοὺς χάρι̣ν τ̣ῶν [ἀμ]φιβαλλομένων παρ’ αὐτῶν̣, while the Arsinoite <emph rend="italics">compromissa</emph> have δίκην ἔχοντες πρὸς ἀλλήλους, see <ref target="https://papyri.info/hgv/41059">BGU 1 315</ref>.11 and <ref target="https://papyri.info/hgv/41366">SB 1 5681</ref>.23–24, and ἐπείπερ δίκην ἔχουσα in <ref target="https://papyri.info/hgv/41011">SPP 20 243</ref>.12 (648). Sometimes the synonyms φιλονικία or ἀμφισβήτησις are used, e.g. in <ref target="https://papyri.info/hgv/37474">P.Dubl. 24</ref>.4 ἐπειδὴ περὶ φιλονικίας γεναμένης μεταξὺ ἡμῶν, or <ref target="https://papyri.info/hgv/39089">P.Apoll. 28</ref>.2: ἀμφισβήτησις ἐγένετο μετα[ξὺ αὐτῶ]ν. There is also the clause δίχα πάσης ἀμφιβολίας καὶ δίκης καὶ κρίσεως vel. sim. in contracts of the Thebaid tradition, showing the ambivalence of the terminology (<ref target="https://papyri.info/hgv/18431">P.Cair. Masp. 3 67305</ref>.21, <ref target="https://papyri.info/hgv/19732">P.Lond. 5 1716</ref>.8, <ref target="https://papyri.info/hgv/15683">P.Vat.Aphrod. 1</ref>.24), cf. <ref target="#p29">l. 11n.</ref>. </p>
+                     </note>
+                     <note target="#ed1ln5">
+                        <ref>5-6</ref>
+                        <p xml:id="p24"> π]ε̣[ρί τ]ι̣ν̣ων [αὐτῶν κ]ε̣[φ]αλαίων: τι is written as in ἐμμέν[ο]ντι in l. 11 with <emph rend="italics">iota</emph> ascending over the line. <ref target="https://papyri.info/hgv/35934">CPR 6 7</ref>.10 contains the same expression: πε̣ρ̣ί̣ τινων αὐτῶν κεφαλ(αίων); the Arsinoite <emph rend="italics">compromissum</emph>
+                           <ref target="https://papyri.info/hgv/41366">SB 1 5681</ref>.24 has περί τινων κεφαλαίων. κεφάλαιον is a legal technical term, the exact meaning of which is not entirely clear; see the detailed discussion in <ref target="https://papyri.info/biblio/97352">Simon 1969</ref>: 21–24. <ref target="https://papyri.info/hgv/41011">SPP 20 243</ref>.24–27 (Arsinoe, 648) illustrates how, after asking a relative to represent her in a legal dispute, Christodora agrees to regard as valid everything done by him in this present matter (<emph rend="italics">kephalaion</emph>): πάντα τὰ παρὰ σοῦ ὑπὲρ ἐμοῦ πραττόμενα καὶ πραχθησόμενα ἐπὶ τῷ παρόντι κεφαλαίῳ. In <ref target="https://papyri.info/hgv/16125">BGU 12 2173</ref>.2–3 (Hermopolis, 498), a certain Eucharistia brings an action (αἰτισίαν) against someone who was liable to her in various points (ἐνεχομένου αὐτῇ ἐπὶ διαφόροις κεφαλαίοις). These points are then enumerated (ll. 4–7) and seem to denote either the charges brought or the offences committed: he violently forced his way into a house in Hermopolis, where he illegally took up residence and stole moveable belongings deposited there as well as the servants. In l. 15 the κεφάλαια are specified as χρηματικά or ἐγκληματικά, that is, civil and criminal claims.</p>
+                     </note>
+                     <note target="#ed1ln6">
+                        <ref>6–7</ref>
+                        <p xml:id="p25"> μὴ δυ̣[νηθέντ]ες [δι’ ἑαυτῶν ἀ]παλ̣λα̣γῆναι: The same collocation appears in the <emph rend="italics">compromissa</emph>
+                           <ref target="https://papyri.info/hgv/41366">SB 1 5681</ref>.25–26. μὴ δυνηθέντες δι’ ἑαυ̣τοὺς ἀ̣[παλ]λαγκῆναι and again, as for the preceding lines, <ref target="https://papyri.info/hgv/35934">CPR 6 7</ref>.10–12 μὴ δυνηθέντες δι’ ἑαυτῶν τὸ πρᾶγμα ἀπαλλαγῆναι.     </p>
+                     </note>
+                     <note target="#ed1ln7">
+                        <ref>7–8</ref>
+                        <p xml:id="p26"> ᾕ̣[ρέσαν]τ̣ο ἑ[κουσίας] αὐτῶν γνώμης: This expression is used in three other late Heracleopolite <emph rend="italics">compromissa</emph> (<ref target="https://papyri.info/hgv/35934">CPR 6 7</ref>.13, <ref target="https://papyri.info/hgv/15452">P.Rain. Cent. 121</ref>.2 and <ref target="https://papyri.info/hgv/39378">SPP 3 415 + P.Vindob. G 40284</ref>.2), see <ref target="https://papyri.info/biblio/96142">Kovarik 2020</ref>: 63, while in Arsinoite <emph rend="italics">compromissa</emph>, we find αἱρέομαι in infinitive-constructions<note place="foot" xml:id="ftn19" n="19">
+                              <p> Also, in <ref target="https://papyri.info/hgv/41011">SPP 20 243</ref>.17–23 (Arsinoe, 648), when Christodora asks to be represented: καὶ μὴ δυνηθεῖσα τὴν τοιαύτην δίκην ποιήσασθαι πρὸς αὐτοὺς παρακέκλη[κά] σε ἀπαλάσσειν τὸ ἐμὸ(ν) πρόσωπον καὶ              <emph rend="bold">αἱρέσασθαι πρὸς αὐτ(οὺς) ἐπὶ τῶν μεταξὺ σοῦ καὶ αὐτῶν αἱρεθησομέ(νων) δικαστῶν</emph> καὶ κομπρόμισσα ἐκθέσθαι καὶ πρόστιμον ἐπὶ παραβασίᾳ.      </p>
+                        </note> such as ἔδοξεν αὐτοὺς αἱρήσασθαι (<ref target="https://papyri.info/hgv/41059">BGU 1 315</ref>.12–13, <ref target="https://papyri.info/hgv/41366">SB 1 5681</ref>.26) or ὁμολογῶ αἱρήσασθαι (<ref target="https://papyri.info/hgv/133270">SB 30 17412</ref>.9–10). Some Arsinoite documents have different constructions, such as ὁμολογοῦμεν δικάσασθαι πρὸς ἀλλήλους ἐπὶ + anonymous arbitrators (<ref target="https://papyri.info/hgv/40945">P.Prag. 1 49</ref>.15–16, <ref target="https://papyri.info/hgv/14558">SB 14 12194</ref>.16–17, <ref target="https://papyri.info/hgv/980060">PL III/1029</ref>.10, ed. in <ref target="https://papyri.info/biblio/96571">Harrauer and Pintaudi 2021</ref>: 56, cf. <ref target="#p27">l. 9n.</ref>).</p>
+                     </note>
+                     <note target="#ed1ln9">
+                        <ref>9</ref>
+                        <p xml:id="p27"> δικαιολογήσασθαι: δικαιολογέομαι means “plead one’s cause before the judge” (LSJ), which cannot be what is required of the arbitrators: in this context they were rather called upon for their opinion, and in consequence, a decision. This is otherwise attested in three 6th-century <emph rend="italics">dialyseis</emph>, <ref target="https://papyri.info/hgv/41019">P.Lond. 1 113, 1</ref>.16 (Arsinoe, 6th c.), <ref target="https://papyri.info/hgv/21374">P.Mich. 13 659</ref>.40, 53, 108 (Antinoopolis, 527–547), and <ref target="https://papyri.info/hgv/15314">P.Münch. 1 6</ref>.54 (Syene?, 583), where it refers to the pleading of the parties. There are also numerous attestations of δικαιολογία, e. g.  <ref target="https://papyri.info/hgv/15322">P.Münch. 1 14</ref>.35 (Syene, 594). In our case it might have been mistaken for δικάσασθαι, see <ref target="#p26">l. 7–8n.</ref></p>
+                     </note>
+                     <note target="#ed1ln10">
+                        <ref>10–11</ref>
+                        <p xml:id="p28"> παραβαῖνον and ἐμμέν[ο]ντι are <emph rend="italics">termini technici</emph> for the breaching- and non-breaching party to a contract and typical for the penalty clauses in both <emph rend="italics">compromissa</emph> and <emph rend="italics">dialyseis</emph>.</p>
+                     </note>
+                     <note target="#ed1ln11">
+                        <ref>11</ref>
+                        <p xml:id="p29"> δίκην refers to the decision of the arbitrators. It is not a specific technical term, since other terms (δίκη, ὅρος or κρίσις) may also indicate the decision or judgement of the arbitrators. These terms are sometimes used within the same text, which suggests that they were synonyms associated with certain clauses (see also introduction). δίκη, however, is most common, and a fixture of the ἐμμένειν-clause in all <emph rend="italics">compromissa</emph>: καὶ ἐμμένειν or ἐμμεῖναι τῇ διδομένῃ ἡμῖν or τῇ αὐτῶν δίκῃ vel. sim. in <ref target="https://papyri.info/hgv/41059">BGU 1 315</ref>.15–17, <ref target="https://papyri.info/hgv/129803">P.Gen. 4 181</ref>.2, <ref target="https://papyri.info/hgv/40945">P.Prag. 1 49</ref>.21–22, <ref target="https://papyri.info/hgv/41366">SB 1 5681</ref>.33–34, <ref target="https://papyri.info/hgv/14558">SB 14 12194</ref>.18–20, <ref target="https://papyri.info/hgv/78171">SB 26 16564</ref>.4 (unknown origin, probably a <emph rend="italics">compromissum</emph>) and <ref target="https://papyri.info/hgv/980060">PL III/1029</ref>.10, as well as in <ref target="https://papyri.info/hgv/41011">SPP 20 243</ref>.18 (see <ref target="#ftn19">n. 19.</ref>) and 28 in the context of a lawsuit. Yet δίκη is also the reason given: “we have a conflict” (δίκην ἔχοντες πρὸς ἀλλήλους) in <ref target="https://papyri.info/hgv/41059">BGU 1 315</ref>.11, <ref target="https://papyri.info/hgv/41366">SB 1 5681</ref>.23, and <ref target="https://papyri.info/hgv/41011">SPP 20 243</ref>.12. Most often, the word appears in the καθάπερ ἐκ δίκης-clause, where δίκη means ‘trial’. This can lead to terminological confusion. Cf. <ref target="#p23">l. 4–5n.</ref></p>
+                        <p xml:id="p30">The designation for the few written judgements that we have (which were already discussed in the introduction), is, however, always ὅρος (‘boundary, landmark’), see <ref target="https://papyri.info/hgv/78712">P.Paramone 16</ref>.1 and <ref target="https://papyri.info/hgv/37060">P.Paramone 17</ref>.1, which start with ⳨ ὅρος δεδόκαμεν ἡμεῖς + names; <ref target="https://papyri.info/hgv/39651">SB 22 15764</ref>.22 has ἐγράφη ὁ παρὼν ὅρος ἐκ φωνῆς τῶν εἰρημένων δικ̣ασ̣τ̣ῶ̣ν. We find it also – erroneously – in the summary of <ref target="https://papyri.info/hgv/980060">PL III/1029</ref>.25 in the place of κομπρόμισσον (see <ref target="#ch_11">Appendix II</ref>). The penalty clauses of <ref target="https://papyri.info/hgv/14558">SB 14 12194</ref>. 21 and <ref target="https://papyri.info/hgv/78171">SB 26 16564</ref>.5 refer to ὅρος as well: εἰ δέ τις ἐξ ἡμῶν μὴ στέρξῃ τῷ ὅρῳ, while <ref target="https://papyri.info/hgv/41059">BGU 1 315</ref>.17–18, <ref target="https://papyri.info/hgv/40945">P.Prag.1 49</ref>.23, <ref target="https://papyri.info/hgv/41366">SB 1 5681</ref>.34–35 and <ref target="https://papyri.info/hgv/980060">PL III/1029</ref>.10, and <ref target="https://papyri.info/hgv/33915">SB 1 4847</ref>.3 (see <ref target="#ch_11">Appendix II</ref> for corrections) on the other hand use κρίσις in this context: εἰ δέ τις ἐκ τῶν μερῶ(ν)/ἐξ ἡμῶν μὴ στέρξῃ τῇ αὐτῶν κρίσει. Along the same line, the decision-makers, the arbitrators, are either called δικασταί like in <ref target="https://papyri.info/hgv/39651">SB 22 15764</ref>.22, <ref target="https://papyri.info/hgv/14558">SB 14 12194</ref>.21, <ref target="https://papyri.info/hgv/41011">SPP 20 243</ref>.22; ὁρισταί in <ref target="https://papyri.info/hgv/40945">P.Prag. I 49</ref>.19 and <ref target="https://papyri.info/hgv/14558">SB 14 12194</ref>.17, so someone who settles boundaries, and κριταί potentially only in <ref target="https://papyri.info/hgv/980060">PL III/1029</ref>.10 (see <ref target="#ch_11">Appendix II</ref> for corrections). <ref target="https://papyri.info/hgv/37704">SPP 3 402</ref>.3 mentions an ἀκροατής, someone who listens.</p>
+                     </note>
+                     <note target="#ed1ln12">
+                        <ref>12</ref>
+                        <p xml:id="p31"> προστίμου χρυ(σοῦ) νο(μισμάτια) δ: It is not clear whether there is a correlation between the amount of the penalty and the value that lies at the heart of the dispute, since the context is not given in the <emph rend="italics">compromissum</emph> agreements. The four solidi could indicate a substantial sum as cause of the conflict, but there are examples of higher sums, such as the 12 solidi in <ref target="https://papyri.info/hgv/980060">PL III/1029</ref>.15–16; see also <ref target="https://papyri.info/biblio/96142">Kovarik 2020</ref>: 65–66. This penalty is usually paid to the other contractual party. But in the 8th-century parallels from Heracleopolis (<ref target="https://papyri.info/hgv/15452">P.Rain. Cent. 121</ref>.5, <ref target="https://papyri.info/hgv/39378">SPP 3 415 + P.Vindob. G 40284</ref>.5) and some Arsinoite documents from the 7th century (<ref target="https://papyri.info/hgv/40945">P.Prag. I 49</ref>.26 and <ref target="https://papyri.info/hgv/14558">SB 14 12194</ref>.22–23), the penalty was to be paid to the <emph rend="italics">praetorium</emph>, the residence or office of a high official, possibly the <emph rend="italics">dux, topoteretes</emph>, or pagarch, see <ref target="https://papyri.info/biblio/96142">Kovarik 2020</ref>: 64–65. As there will have been no such a building in Leukogion, the other party would have been the rightful recipient of a any penalty.</p>
+                     </note>
+                     <note target="#ed1ln13">
+                        <ref>13–14</ref>
+                        <p xml:id="p32"> The subscription is written in Coptic. There are parallels in late 7th- and early 8th-century contracts for this practice, mostly from the Heracleopolite region: first and foremost, <ref target="https://papyri.info/hgv/129811/">P.Gen. 4 189</ref>, which was signed by the same notary Ioannes from Leukogion, <ref target="https://papyri.info/hgv/78189">P.Eirene 2 6</ref>, <ref target="https://papyri.info/hgv/38721">SB 6 9146</ref>, and a number of unpublished papyri from Vienna. </p>
+                        <p xml:id="p33">Ⲡⲓϭⲱϣ (<ref target="http://www.trismegistos.org/namvar/54904">TM NamVar 54904</ref>), a variant of the more common Ⲡⲉϭⲱϣ or Ⲡⲉⲕⲱϣ, is the Coptic equivalent of Pekysios and is attested in a variety of contemporary texts. On the person Pekysios, see above <ref target="#p14">l. 2n.</ref> and <ref target="#p19">l. 3n.</ref> </p>
+                     </note>
+                     <note target="#ed1ln15">
+                        <ref>15</ref>
+                        <p xml:id="p34"> For the notary Ioannes, son of Phib, see <ref target="#p5">introduction</ref>. The use of patronyms in Heracleopolite documents is only known from Leukogion: the three testimonies of our notary Ioannes, as well as <ref target="https://papyri.info/hgv/37474">P.Dubl. 24</ref>, <ref target="https://papyri.info/hgv/22592">P.Bodl. 1 73</ref>, and probably <ref target="https://papyri.info/hgv/129803">P.Gen. 4 181</ref> (see <ref target="#ch_11">Appendix II</ref>). <ref target="https://papyri.info/hgv/37474">P.Dubl. 24</ref> even has a digraphic Latinate-Greek signature. For the use of patronyms in notarial signatures of Arsinoite documents, where mentioning the father is customary, see <ref target="https://papyri.info/biblio/96554">Kovarik 2023b</ref>: 197–199 and 210–212. On the notarial signature in general, see <ref target="https://papyri.info/biblio/96755">Kovarik 2023</ref>. In Heracleopolite documents, however, this is not common practice and our notary is exceptional in this way. </p>
+                        <p xml:id="p35">ἐγράφη is written with a peculiar and idiosyncratic ligature of <emph rend="italics">phi</emph> and <emph rend="italics">eta</emph> which is added low at the descender of <emph rend="italics">phi</emph>. Then two or more strokes run through it. The same can be found in his other two signatures in ИГ-4814 and <ref target="https://papyri.info/hgv/129811">P.Gen. 4 189</ref>. All three signatures are virtually identical in their various elements, written in cursive with minuscule intrusions in form of the hooks on the descenders and the shape of <emph rend="italics">ny</emph>.
+                        <figure>
+                           <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24006008"/>
+                           <head>Fig. 4: MS. Gr. Class. e. 135 (P) line 15.</head>
+                        </figure>
+                        <figure>
+                           <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24006010"/>
+                           <head>Fig. 5: Pushkin Museum inv. ИГ-4814; I.1.б 608 line 10.</head>
+                        </figure>
+                        <figure>
+                           <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24006012"/>
+                           <head>Fig. 6: P.Gen. 4 189 line 18.</head>
+                        </figure>                        
+                        </p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>
+                  <emph rend="bold">Appendix I: Leukogion</emph>
+               </head>
+               <p xml:id="p36">The following table lists all documents from the 7th to 8th centuries (there are no attestations for the 5th–6th centuries) from or relating to Leukogion.<note place="foot" xml:id="ftn20" n="20">
+                   <p> The names κώμη and κτῆμα are used interchangeably, cf. above <ref target="#p3">introduction</ref>. I exclude lists of toponyms, such as <ref target="https://papyri.info/hgv/97284">SB 26 16442</ref>.11 (6th-7th c.) and <ref target="https://papyri.info/hgv/37045">SPP 10 149</ref>.8 (6th c.). There is also a small sub-group of documents from the Heracleopolite village Onne, which appear to be connected.</p>
+                  </note> Most of these documents are legal in nature and were either drawn up in Leukogion (ἐν Λευκογίῳ vel. sim.) and/or involve parties from there. Some of them only mention Leukogion in passing. In total, there are about 30 testimonies, which fall into a few distinct groups or dossiers of papyri. It is all the more striking that their acquisition history appears to be varied. The majority date from the early 7th century, and then there is the small dossier of our notary Ioannes from the early 8th century, as well as some contemporary fiscal documents. These papyri may therefore stem from only two archival finds.</p>
+               <p xml:id="p37">For the 7th century, the documentation can be assigned to various sub-groups according to different criteria like handwriting, prosopography or acquisition.</p>
+               <p xml:id="p38">The first and earliest group is connected via the script (“hand A”) and comes from the early 7th century: <ref target="https://papyri.info/hgv/140512">SB 30 17667</ref> (603), <ref target="https://papyri.info/hgv/21610">P.Dubl. 28</ref> (611/612), <ref target="https://papyri.info/hgv/22592">P.Bodl. 1 73</ref> (615/616), and <ref target="https://papyri.info/hgv/37060">P.Paramone 17</ref> are all written by the same hand. Another papyrus (<ref target="https://papyri.info/hgv/34838">CPR 7 44</ref>), assigned to the fifth/sixth century and said to be of unknown provenance, is written in the same hand (and shares other peculiarities typical of Leukogion, see <ref target="#ch_11">Appendix II</ref>). Also, <ref target="https://papyri.info/hgv/22592">P.Bodl. 1 73</ref> concerns a Menas, son of a late Apollôs, who in turn might be identical with Apollôn, son of Menas in <ref target="https://papyri.info/hgv/140512">SB 30 17667</ref>. There is no obvious connection by acquisition history. The three Vienna papyri (<ref target="https://papyri.info/hgv/140512">SB 30 17667</ref>, <ref target="https://papyri.info/hgv/37060">P.Paramone 17</ref>, <ref target="https://papyri.info/hgv/34838">CPR 7 44</ref>) were bought (or registered) in different years<note place="foot" xml:id="ftn21" n="21">
+                     <p> 1881, 1883 and 1896. But the Vienna inventory is not entirely reliable. The recorded provenance for <ref target="https://papyri.info/hgv/140512">SB 30 17667</ref> as Hermopolis is clearly unlikely. Erroneous Hermopolite provenance for papyri from the First Fayum find in the Vienna collection is not uncommon, see e.g. <ref target="https://papyri.info/biblio/7729">Morelli 2008</ref>: 142–144. </p>
+                  </note>; the Bodleian papyrus was donated as well by Hunt’s widow in 1934 (but bought sometime between 1894/5 and 1906/7). The papyri at Trinity College Dublin, by contrast, are of <ref target="https://www.tcd.ie/library/research-collections/subject-strengths/papyri.php">unknown provenance</ref>. </p>
+               <p xml:id="p39">The second group concerns a conflict and its resolution involving a certain Pechysios, son of Naaraous (<ref target="https://papyri.info/hgv/78712">P.Paramone 16</ref>), his father Chonis, son of Naaraous (<ref target="https://papyri.info/hgv/37060">P.Paramone 17</ref>, <ref target="https://papyri.info/hgv/35934">CPR 6 7</ref>) and a priest named Herakleides (<ref target="https://papyri.info/hgv/78712">P.Paramone 16</ref>), who also appears in <ref target="https://papyri.info/hgv/21610">P.Dubl. 28</ref>, <ref target="https://papyri.info/hgv/37003">P.Lond. 2 391</ref>, and <ref target="https://papyri.info/hgv/37004">P.Lond. 2 392</ref>. <ref target="https://papyri.info/hgv/78712">P.Paramone 16</ref> can be dated to 616, and the other documents are approximately from the same period – similar to group 1. On the whole dispute see <ref target="https://papyri.info/biblio/73452">Morelli 2004</ref>. The first three papyri belong to the Vienna collection, the other three to Trinity College Dublin and the British Library. Through Herakleides and “hand A”, this group is connected to the first and the third groups. </p>
+               <p xml:id="p40">There is another small group connected by acquisition, which is housed in the British Library. Like the Vienna papyri, they were bought from Theodor Graf, in March (<ref target="https://papyri.info/hgv/38877">P.Lond. 2 450</ref>) and April 1893 (<ref target="https://papyri.info/hgv/37003">P.Lond. 2 391</ref>, <ref target="https://papyri.info/hgv/37004">P.Lond. 2 392</ref>, P.Lond. inv. 399, ed. <ref target="https://papyri.info/biblio/96726">Gonis 2023</ref>: 124) respectively. They again come from the early 7th century, and <ref target="https://papyri.info/hgv/37004">P.Lond. 2 392</ref> can tentatively be dated to 621. <ref target="https://papyri.info/hgv/37003">P.Lond. 2 391</ref> and <ref target="https://papyri.info/hgv/37004">P.Lond. 2 392</ref> also concern the priest Herakleides, the former also a Theophilos like in <ref target="https://papyri.info/hgv/78712">P.Paramone 16</ref>, which connects this group as well to the other two groups. <ref target="https://papyri.info/hgv/38877">P.Lond. 2 450</ref> (7th c.) mentions a Leukogiotes (see <ref target="https://papyri.info/biblio/96726">Gonis 2023</ref>: 124 and <ref target="https://papyri.info/biblio/96957">Gonis 2024</ref>: 144–145). </p>
+               <p xml:id="p41">A common provenance was already established by <ref target="https://papyri.info/biblio/73452">Morelli 2004</ref>: 180–183, who counted six documents as belonging to the dossier of Pekysios and Chonis, a combination of all three groups (<ref target="https://papyri.info/hgv/78712">P.Paramone 16</ref>, <ref target="https://papyri.info/hgv/37060">P.Paramone 17</ref>, <ref target="https://papyri.info/hgv/35934">CPR 6 7</ref>, <ref target="https://papyri.info/hgv/37003">P.Lond. 2 391</ref>, <ref target="https://papyri.info/hgv/37004">P.Lond. 2 392</ref>, <ref target="https://papyri.info/hgv/21610">P.Dubl. 28</ref>). It is possible that there are more documents to be added to the dossier (see <ref target="https://papyri.info/biblio/73452">Morelli 2004</ref>: 183, n. 32 “sospetti mi sembrano ad esempio P.Dubl. 24, 25, e 26, cronologicamente e geograficamente vicini al nostro gruppetto di documenti”). </p>
+               <p xml:id="p42">The μονὴ (τοῦ) Λευκογίου that is mentioned in <ref target="https://papyri.info/hgv/37004">P.Lond. 2 392</ref>.2–3 (14th indiction) also appears in <ref target="https://papyri.info/hgv/35933">PUG 1 50</ref>.6 (6th–7th c.) from a 15th indiction; the latter was acquired by B.P. Grenfell on the antiquities market before 1897 (cf. PUG 1, p. 103). It appears to concern “des liturgies postales” (<ref target="https://papyri.info/biblio/86373">Gascou 2014</ref>: 215). The importance of Leukogion for the <emph rend="italics">cursus publicus</emph> is underlined by the existence of a postal station (ἀλλαγή) in <ref target="https://papyri.info/hgv/37984">SPP 8 952</ref>.2 (6th c.): σταβλίτ(ῃ) γ̣(  ) ἀλλαγη(  ) Λευκογι(  ), which is probably Arsinoite. </p>
+               <p xml:id="p43">Three other contemporary papyri from Leukogion are <ref target="https://papyri.info/hgv/37474">P.Dubl. 24</ref>, <ref target="https://papyri.info/hgv/39695">SB 20 15092</ref>, purchased in Egypt by B.P. Grenfell and F.W. Kelsey in March–April 1920 and kept in Michigan, and <ref target="https://papyri.info/hgv/39341">SPP 3<hi rend="superscript">2</hi> 68</ref> from the Vienna collection which was purchased in Heracleopolis. <ref target="https://papyri.info/hgv/37474">P.Dubl. 24</ref> might be connected by its handwriting to the arbitration papers of the second group via <ref target="https://papyri.info/hgv/35934">CPR 6 7</ref> and <ref target="https://papyri.info/hgv/78712">P.Paramone 16</ref>. <ref target="https://papyri.info/hgv/37474">P.Dubl. 24</ref> has a Latinate signature, which seems to imitate the official notarial tradition, but it is written <emph rend="italics">transversa charta</emph> and without a prescript and uses a hypomnematic greeting formula (τῷ δεῖνι παρὰ τοῦ δεῖνος); both parties come from Leukogion. It is also possible that the fathers of Pechysios in <ref target="https://papyri.info/hgv/78712">P.Paramone 16</ref>.3 and Maria in <ref target="https://papyri.info/hgv/37474">P.Dubl. 24</ref>.1, 10–11 are the same person, see <ref target="#p19">l. 3n.</ref> with <ref target="#ftn16">n. 16</ref>. There are also some paleographical similarities, especially in the form of the <emph rend="italics">ny</emph>, between <ref target="https://papyri.info/hgv/39695">SB 20 15092</ref> and <ref target="https://papyri.info/hgv/39341">SPP 3<hi rend="superscript">2</hi> 68</ref>, but they are not sufficient to suggest a common origin. All three preserve indiction datings; <ref target="https://papyri.info/hgv/37474">P.Dubl. 24</ref> is dated Mesore of a 3rd indiction which could equate 600/615/630. In <ref target="https://papyri.info/hgv/39695">SB 20 15092</ref>, a <emph rend="italics">delta</emph> remains from the indiction-number, but there is no regnal year, so Pachon in a 10th (δεκάτης), 12th (δωδεκάτης) or 2nd (δευτέρας) indiction, and probably less likely also a 4th (δ), could be meant, covering the years 623, 625 or 629 of the Sasanian occupation (a date after the Arab conquest seems less likely). <ref target="https://papyri.info/hgv/39341">SPP 3<hi rend="superscript">2</hi> 68</ref> records Payni of a 14th indiction, potentially 611/626; one party comes from the <emph rend="italics">kome</emph> Onne, which connects this document, in turn, to <ref target="https://papyri.info/hgv/37475">P.Dubl. 25</ref>, a loan in which all parties come from Onne. On the back is a draft of a labour contract (<ref target="https://papyri.info/hgv/37476">P.Dubl. 26</ref>) in which a certain Kosmas (l. 1), potentially the same person who is mentioned on the other side (only the patronym survives in l. 2), now resides in the Arsinoite village of Tamauis. These documents could have been acquired together with <ref target="https://papyri.info/hgv/37474">P.Dubl. 24</ref> or <ref target="https://papyri.info/hgv/21610">P.Dubl. 28</ref>. Two more documents concern the village Onne and both come from the Vienna collection, <ref target="https://papyri.info/hgv/35855">P.Rain. Cent. 137</ref> and <ref target="https://papyri.info/hgv/35546">SPP 3 371</ref>. The latter is a fragmentary receipt written in a similar style and with a typical <emph rend="italics">ny</emph>. In <ref target="https://papyri.info/hgv/35855">P.Rain. Cent. 137</ref>.1 Enoch and Theodoros appear; people by this name are attested in <ref target="https://papyri.info/hgv/37060">P.Paramone 17</ref>.1 and <ref target="https://papyri.info/hgv/35933">PUG 1 50</ref>.4. In <ref target="https://papyri.info/hgv/37475">P.Dubl. 25</ref>.2 there is a Daniel whom we may know from <ref target="https://papyri.info/hgv/37004">P.Lond. 2 392</ref>.2, but without any indication of filiation and profession. However, these are common names connected with different villages, so that it is not possible to draw any firm conclusions.</p>
+               <p xml:id="p44">Lastly, there is one document in the dossier of the (probably) Arsinoite notary Apollôs from the 7th century, who works for people who come explicitly from the Arsinoite (<ref target="https://papyri.info/hgv/41144">SPP 3 344</ref>, <ref target="https://papyri.info/hgv/37548">SPP 3<hi rend="superscript">2</hi> 40</ref>), as well as Heracleopolite (<ref target="https://papyri.info/hgv/37635">SPP 3<hi rend="superscript">2</hi> 185</ref>) nomes; <ref target="https://papyri.info/hgv/38352">SB 1 4681</ref> and <ref target="https://papyri.info/hgv/38382">SB 1 5259</ref> have Arsinoite-style <emph rend="italics">completiones</emph>. One ineditum in the dossier of this notary also mentions Leukogion (P.Vindob. G 26398.5), but it is too fragmentary to give any more context. Apart from <ref target="https://papyri.info/hgv/38352">SB 1 4681</ref>, bought from Chester in June 1879 and housed in the Louvre, all the papyri are currently kept in Vienna and were bought in the 1880s.<note place="foot" xml:id="ftn22" n="22">
+                     <p> The few catalogue entries seem to match the internal information: <ref target="https://papyri.info/hgv/38382">SB 1 5259</ref> (P.Vindob. G 24442) “Ex 1881/4 Erster Faijûmer Fund” and <ref target="https://papyri.info/hgv/37548">SPP 3<hi rend="superscript">2</hi> 40</ref> (P.Vindob. G 11040) “Fayum ex 1883” come from the Fayum; <ref target="https://papyri.info/hgv/37635">SPP 3<hi rend="superscript">2</hi> 185</ref> (P.Vindob. G 11040) “Ahnas ex 1883” from Heracleopolis.</p>
+                  </note>
+               </p>
+               <p xml:id="p45">While some of these documents are only loosely connected, groups 1–3 are clearly related and may, despite the difference in acquisition history, all concern one archival find which was later dispersed and spread around in different collections. This presumptive common provenance might even extend to all early 7th-century documents from this same geographical region, including the village of Onne. </p>
+               <p xml:id="p46">A second, larger dossier is the one around our notary Ioannes<note place="foot" xml:id="ftn23" n="23">
+                     <p> This dossier of notarial or pseudo-notarial documents from the Heracleopolite countryside fits with other documents from similar localities, mostly from the 5th century, see <ref target="#ftn1">n. 1</ref> above.</p>
+                  </note> from the beginning of the 8th century, with the Bodleian papyrus edited above (MS. Gr. Class. e. 135 (P)), the Geneva (<ref target="https://papyri.info/hgv/129811">P.Gen. 4 189</ref>) and Moscow pieces ИГ-4814 and possibly also ИГ-4812 (see <ref target="#ftn2">n. 2</ref>), the latter dated 718. This suggests that the remaining papyri in this group date to the early 8th century (713/728 and 717). </p>
+               <p xml:id="p47">These dates coincide with a number of tax documents from Leukogion. <ref target="https://papyri.info/hgv/9885">CPR 8 76</ref> (698), <ref target="https://papyri.info/hgv/38722">SB 6 9262</ref> (714), and <ref target="https://papyri.info/hgv/23698">SB 20 14234</ref> (716) have no obvious internal or external connection. The first belongs to the Vienna collection and was acquired in Heracleopolis; the second is in Cairo and the last came to Berlin via the collection of the German Egyptologist Heinrich Brugsch in 1891. <ref target="https://papyri.info/hgv/23698">SB 20 14234</ref>, however, forms part of a small archive of well-preserved and sealed tax receipts around Menas, son of Senouthios Baouch who is known from two more tax receipts (<ref target="https://papyri.info/hgv/18409">SB 18 13269</ref>, <ref target="https://papyri.info/hgv/18414">SB 18 13268</ref>), from 719 and 722 respectively; his brother, Georgios, is found in another receipt (<ref target="https://papyri.info/hgv/18410">SB 18 13270</ref>) dated to 719. These papyri also come from the Brugsch collection and have the consecutive inventory numbers P. 7885–7888 in the Berlin museum, suggesting that they were acquired together. Two more <emph rend="italics">entagia</emph> (<ref target="https://papyri.info/hgv/11321">P.Grenf. 2 105</ref> and <ref target="https://papyri.info/hgv/11322">P.Grenf. 2 106</ref>), issued in 719 by the same Arab official, also refer to Leukogion; they were both purchased by the Bodleian Library from B.P. Grenfell in 1896. <ref target="https://papyri.info/hgv/11322">P.Grenf. 2 106</ref> refers to Menas, son of Senouthios Baouch, which connects these texts to the rest of the dossier (on this group of texts see <ref target="https://papyri.info/biblio/70057">Gonis 2001</ref>: 225–226 with n. 6). Apart from their dates (714–719), there seems to be no reason to connect these documents to the deeds from Leukogion (MS. Gr. Class. e. 135 (P),
+                  <ref target="https://papyri.info/hgv/129811">P.Gen. 4 189</ref>, ИГ-4812 and ИГ-4814), which are probably datable to 713–718.<note place="foot" xml:id="ftn24" n="24">
+                     <p> It may only be noted that a Damianos from Leukogion appears in <ref target="https://papyri.info/hgv/38722">SB 6 9262</ref>.2 and in a witness subscription in ИГ-4814.8.</p>
+                  </note>
+               </p>
+               <p xml:id="p48">The two Bodleian documents from the early 7th and the early 8th centuries, <ref target="https://papyri.info/hgv/22592">P.Bodl. 1 73</ref> and MS. Gr. Class. e. 135 (P), both of which were donated by Lucy Hunt,<note place="foot" xml:id="ftn25" n="25">
+                     <p> The donation was recorded as having taken place in 1934 in the catalogue of E. Lobel, then Keeper of Western Manuscripts. However, <ref target="https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/92971/87741#ftn53">Sampson (2022: §20, n. 53)</ref> questions this date in favour of 1935, stating: “But I have confirmed the 13 March 1935 date in the Bodleian’s Register of donations, 1932–1936 (Oxford, Bodleian Libraries, Library Records b. 220).”.</p>
+                  </note> link the two larger chronological dossiers through a possible common provenance.</p>
+               <p xml:id="p49">The onomastic material in these texts is very limited, but it is unclear whether this means all the people with the same names are identical or related. A few people in the two major groups can, however, be identified with a fairly high degree of certainty: Apollôn, son of Menas in <emph rend="bold">1</emph>, Menas son of Apollôs in <emph rend="bold">3</emph>. Chonis in <emph rend="bold">4, 5</emph> and <emph rend="bold">6</emph> (and <emph rend="bold">13</emph> (?), cf. <ref target="#ftn16">n. 16</ref>); the priest Herakleides in <emph rend="bold">2, 4, 9</emph> and <emph rend="bold">10</emph>. A Theophilos appears in <emph rend="bold">4</emph> and <emph rend="bold">9</emph>; Biktor, son of Aioulios in <emph rend="bold">5</emph> and <emph rend="bold">6</emph> (another or the same as the Aioulios in <emph rend="bold">5</emph>). There is a Menas, son of Senouthios Baouchi in <emph rend="bold">21</emph> and a Menas, son of Baouch, son of Menas in <emph rend="bold">26</emph>. The same “hand A” (or the same writing style?) appears at least in <emph rend="bold">1, 2</emph>, <emph rend="bold">3</emph>, <emph rend="bold">5</emph>, <emph rend="bold">7</emph> and “hand B” in <emph rend="bold">4</emph>, and <emph rend="bold">6</emph>, and perhaps <emph rend="bold">13</emph>.</p>
+               <p xml:id="p50">The following table brings together all the information discussed above, listing papyri in chronological order and adding details about the contracting parties,<note place="foot" xml:id="ftn26" n="26">
+                     <p> A † means that the mentioned person was deceased.</p>
+                  </note> genre, handwriting, place names, and acquisition history. </p>
+               <table style="font-size: 80%;">
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">Date</emph>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">Publication</emph>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">Place</emph>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">Genre/Hand</emph>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">Parties</emph>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">Acquisition history</emph>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;" cols="7">
+                        <emph rend="bold">Early 7th century</emph>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">1</emph>
+                     </cell>
+                     <cell style="text-align: left;">603</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/140512">SB 30 17667</ref>
+                        </p>
+                        <p>(P.Vindob. G 14047)</p>
+                        <p>same hand as <emph rend="bold">2</emph>, <emph rend="bold">3</emph>, <emph rend="bold">5</emph>, <emph rend="bold">7</emph>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>l. 4: ἐν [Λευκογί]ῳ <emph rend="bold">κτήμ[ατ]ι</emph>
+                        </p>
+                        <p>both parties</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>loan (γραμμάτειον)</p>
+                        <p>Hand A</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>1. Aur. <emph rend="bold">Apollôn, s. of Menas (†) (?)</emph>
+                        </p>
+                        <p>2. Aur. Naaraous alias Papa, s. of Apa Pnas (†)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>Vienna</p>
+                        <p>from Theodor Graf “Ex 1883 Hermopolis Magna”</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">2</emph>
+                     </cell>
+                     <cell style="text-align: left;">611/612</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/21610">P.Dubl. 28</ref>
+                        </p>
+                        <p>(Pap. Gr. 113)</p>
+                        <p>same hand as <emph rend="bold">1</emph>, <emph rend="bold">3</emph>, <emph rend="bold">5</emph>, <emph rend="bold">7</emph>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>l. 4: ἐν Λε(υκογίου) <emph rend="bold">κτ(ήματι)</emph> corr. <ref target="https://papyri.info/biblio/96726">Gonis 2023</ref>: 125, n. 2</p>
+                        <p>first party κώμη l. 6; second κτήμα l. 9</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>loan</p>
+                        <p>Hand A</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>1. pair of brothers</p>
+                        <p>2. <emph rend="bold">Heraklides, priest</emph>, s. of Assias, priest</p>
+                     </cell>
+                     <cell style="text-align: left;">Dublin, Trinity College</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">3</emph>
+                     </cell>
+                     <cell style="text-align: left;">615/616</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/22592">P.Bodl. 1 73</ref> <note place="foot" xml:id="ftn27" n="27">
+                              <p> See <ref target="#ch_11">Appendix II</ref> for the correction.</p>
+                           </note>
+                        </p>
+                        <p>(MS. Gr. class. c. 123 (P)</p>
+                        <p>same hand as <emph rend="bold">1</emph>, <emph rend="bold">2</emph>, <emph rend="bold">5</emph>, <emph rend="bold">7</emph>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>ἐν τ̣ῷ Λευκογίῳ <emph rend="bold">κτήματι</emph>, l. 3, corr. <ref target="https://papyri.info/biblio/96726">Gonis 2023</ref>: 125, n. 2</p>
+                        <p>both parties</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>loan</p>
+                        <p>Hand A</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>1. Aur. <emph rend="bold">Menas, s. of Apollôs (†)</emph>
+                        </p>
+                        <p>2. –</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>Bodleian Library; donated by Lucy Hunt in 1934,</p>
+                        <p>relation to MS. Gr. class. c. 124 (P) = P.Bodl. 1, p. 334 (fragments from the back of <ref target="https://papyri.info/hgv/22592">P.Bodl. 1 73</ref>)</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">4</emph>
+                     </cell>
+                     <cell style="text-align: left;">616</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/78712">
+                              <emph rend="underlined">P.Paramone 16</emph>
+                           </ref>
+                        </p>
+                        <p>(P.Vindob. G 35606)</p>
+                        <p>same hand as <emph rend="bold">6</emph>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">both parties ἀπὸ τοῦ Λευκογίου   <emph rend="bold">κτήματος</emph> (l. 4)</cell>
+                     <cell style="text-align: left;">
+                        <p>ὅρος</p>
+                        <p>Hand B</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>1.<emph rend="bold">Theophilos</emph>, s. of Theonas</p>
+                        <p>2. Paphnouthios, s. of Ioseph Pouaal</p>
+                        <p>
+                           <emph rend="bold">for Heraklites, priest and Pechysios, s. of Naaraous Chonis</emph>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>Vienna</p>
+                        <p>from Theodor Graf </p>
+                        <p>cf. <ref target="https://papyri.info/hgv/35934">CPR 6 7</ref>
+                        </p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">5</emph>
+                     </cell>
+                     <cell style="text-align: left;">early 7th c.</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/37060">P.Paramone 17</ref> = SPP 10 234 (P.Vindob. G 12234)</p>
+                        <p>same hand as <emph rend="bold">1</emph>, <emph rend="bold">2, 3</emph> and <emph rend="bold">7</emph>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>arbitrators ἀπὸ <emph rend="bold">κώμης</emph> Λευκογίου (l. 2)</p>
+                        <p>parties ἀπὸ τοῦ αὐτοῦ   <emph rend="bold">κτήματος</emph> (l. 4)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>ὅρος</p>
+                        <p>Hand A</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>1. Apanakios, s. <emph rend="bold">Enoch</emph>, s. of <emph rend="bold">Aioulios</emph>
+                        </p>
+                        <p>2. Ioannes, s. of Timotheos for <emph rend="bold">Chonis, s. of Naaraous</emph> and <emph rend="bold">Biktor, s. of Aioulios</emph>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>Vienna</p>
+                        <p>from Theodor Graf</p>
+                        <p>“ex 1886” (edition)</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">6</emph>
+                     </cell>
+                     <cell style="text-align: left;">early 7th c.</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/35934">CPR 6 7</ref>
+                        </p>
+                        <p>(P.Vindob. G 25954)</p>
+                        <p>same hand as <emph rend="bold">4</emph>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">both parties ἀπὸ τοῦ Λευκογίου   <emph rend="bold">κτήματος</emph> (l. 6–7)</cell>
+                     <cell style="text-align: left;">
+                        <p>κομπρόμισσον</p>
+                        <p>Hand B</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>1. <emph rend="bold">Aur. Biktor, s. of Aioulios</emph>
+                        </p>
+                        <p>2.<emph rend="bold">Chonis, s. of Naaraous</emph>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>Vienna</p>
+                        <p>from Theodor Graf </p>
+                        <p>“Erster Faijûmer Fund ex 1881/4”</p>
+                        <p>“2 Stück amtlicher Art, 1 Compromiss und 1 ὄρος“, probably <ref target="https://papyri.info/hgv/78712">
+                              <emph rend="underlined">P.Paramone 16</emph>
+                           </ref>, see <ref target="https://papyri.info/biblio/73452">
+                              <emph rend="underlined">Morelli 2004</emph>
+                           </ref>: 186</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">7</emph>
+                     </cell>
+                     <cell style="text-align: left;">early 7th c.</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/34838">CPR 7 44</ref><note place="foot" xml:id="ftn28" n="28">
+                              <p> See <ref target="#ch_11">Appendix II</ref> for the correction.</p>
+                           </note>
+                        </p>
+                        <p>(P.Vindob. G 26722)</p>
+                        <p>same hand as <emph rend="bold">1</emph>, <emph rend="bold">2</emph>, <emph rend="bold">3</emph> and <emph rend="bold">5</emph>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">–</cell>
+                     <cell style="text-align: left;">
+                        <p>division of property (διαίρεσις)</p>
+                        <p>Hand A</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>1. Petamos alias Kapareou, s. of Phib </p>
+                        <p>2. Makarios, s. of Naaraous Papsios</p>
+                        <p>3. <emph rend="bold">Apollôs</emph>, s. of Georgios <emph rend="italics">hypographeus</emph>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>Vienna</p>
+                        <p>from Theodor Graf</p>
+                        <p>“Ex 1896”</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">8</emph>
+                     </cell>
+                     <cell style="text-align: left;">early 7th c.</cell>
+                     <cell style="text-align: left;">P.Lond. inv. 399a, ed. <ref target="https://papyri.info/biblio/96726">Gonis 2023</ref>: 124</cell>
+                     <cell style="text-align: left;">[ἐν τ̣ῷ Λευκογίῳ <emph rend="bold">κτήματι</emph>] (?) </cell>
+                     <cell style="text-align: left;">loan</cell>
+                     <cell style="text-align: left;">–</cell>
+                     <cell style="text-align: left;">
+                        <p>British Library</p>
+                        <p>from Theodor Graf April 1893</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">9</emph>
+                     </cell>
+                     <cell style="text-align: left;">early 7th c.</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/37003">P.Lond. 2 391</ref>
+                        </p>
+                        <p>(Pap 391)</p>
+                     </cell>
+                     <cell style="text-align: left;">–</cell>
+                     <cell style="text-align: left;">lease</cell>
+                     <cell style="text-align: left;">
+                        <p>1. <emph rend="bold">Theophilos</emph> and <emph rend="bold">Naaraous</emph> and <emph rend="bold">Heraklite, priest</emph>
+                        </p>
+                        <p>2. –</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>British Library</p>
+                        <p>from Theodor Graf March 1893</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">10</emph>
+                     </cell>
+                     <cell style="text-align: left;">early 7th c. (620/621)</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/37004">P.Lond. 2 392</ref>
+                        </p>
+                        <p>(Pap 392)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <emph rend="italics">Oikonomos</emph> τῆς <emph rend="bold">μωνῆς</emph> το\ῦ/ Λευκωγίου (l. 2–3) </p>
+                        <p>monastery (?), see <ref target="https://papyri.info/biblio/86373">Gascou 2014</ref>: 215</p>
+                     </cell>
+                     <cell style="text-align: left;">receipt </cell>
+                     <cell style="text-align: left;">
+                        <p>1. Alexas and <emph rend="bold">Daniel</emph>, <emph rend="italics">oikonomos</emph>
+                        </p>
+                        <p>
+                           <emph rend="bold">2. Herakleitai, priest</emph>
+                        </p>
+                        <p>grammateus <emph rend="bold">Pekysios</emph>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>British Library </p>
+                        <p>from Theodor Graf March1893</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">11</emph>
+                     </cell>
+                     <cell style="text-align: left;">6th–7th c.</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/35933">PUG 1 50</ref>
+                        </p>
+                        <p>(number unknown)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>l. 6: ὑπὲρ τοῦ σου μέρους <emph rend="bold">μονῆς</emph> Λευκογίου</p>
+                        <p>monastery (?), see <ref target="https://papyri.info/biblio/86373">Gascou 2014</ref>: 215</p>
+                     </cell>
+                     <cell style="text-align: left;">receipt</cell>
+                     <cell style="text-align: left;">
+                        <p>1. Abraamios, s. of Thomas (†), <emph rend="italics">bouleutes</emph>
+                        </p>
+                        <p>2. Theodoros, s. of Ioannes (†), <emph rend="italics">bouleutes</emph>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">Genova</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">12</emph>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>7th c.</p>
+                        <p>(6th c. ed.)</p>
+                        <p>2nd ind.</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/37984">SPP 8 952</ref>
+                        </p>
+                        <p>(P.Vindob. G 11662)</p>
+                     </cell>
+                     <cell style="text-align: left;">l. 2: σταβλίτ(ῃ) γ̣(  ) ἀλλαγη(  ) Λευκογι(  )</cell>
+                     <cell style="text-align: left;">order</cell>
+                     <cell style="text-align: left;">
+                        <p>1. N.N. from Arsinoe (village)</p>
+                        <p>2. N.N. <emph rend="italics">stablites</emph>, via Apa (?) <emph rend="italics">scholasticus</emph>, s. of Menas</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>Vienna</p>
+                        <p>from Theodor Graf </p>
+                        <p>“Faijûm ex 1883”</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">13</emph>
+                     </cell>
+                     <cell style="text-align: left;">7th c.</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/37474">
+                              <emph rend="underlined">P.Dubl. 24</emph>
+                           </ref>
+                        </p>
+                        <p>(Pap. C 2)</p>
+                     </cell>
+                     <cell style="text-align: left;">both parties ἀπὸ τοῦ Λευκογίου <emph rend="bold">κτήματος</emph> (l. 2)</cell>
+                     <cell style="text-align: left;">
+                        <p>ἀμεριμνία/ἀσφάλεια (conflict resolution)</p>
+                        <p>Hand B (?)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>1. Matthias, s. of Phoibammon</p>
+                        <p>2. Maria, d. of <emph rend="bold">Naaraous</emph> Pachos</p>
+                     </cell>
+                     <cell style="text-align: left;">Dublin, Trinity College</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">14</emph>
+                     </cell>
+                     <cell style="text-align: left;">7th c.</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/39695">SB 20 15092</ref>
+                        </p>
+                        <p>(P. 489)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>l. 5: ἐν Λευκογίῳ ,</p>
+                        <p>corr. <ref target="https://papyri.info/biblio/96726">Gonis 2023</ref>: 125, n. 2</p>
+                        <p>both parties ἀπὸ <emph rend="bold">κώμης</emph> (ll. 8, 11)</p>
+                     </cell>
+                     <cell style="text-align: left;">loan</cell>
+                     <cell style="text-align: left;">
+                        <p>1. Aur. Senouthios (?), s. of Anoup (†) alias Kan[</p>
+                        <p>2. Aur. Markos, s. of Andreas (†)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>Ann Arbor</p>
+                        <p>purchased in Egypt by B.P. Grenfell and F.W. Kelsey in March-April 1920</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">15</emph>
+                     </cell>
+                     <cell style="text-align: left;">7th c.</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/38877">P.Lond. 2 450</ref>
+                        </p>
+                        <p>(Pap 450)</p>
+                     </cell>
+                     <cell style="text-align: left;">l. 2–3: κυρ(ίου) Ἰωάνν(ου) Λευκογιώτ(ο)υ</cell>
+                     <cell style="text-align: left;">receipt</cell>
+                     <cell style="text-align: left;">
+                        <p>1. Ioannes <emph rend="italics">stippourgos</emph>
+                        </p>
+                        <p>2. Ioannes, Leukogiotes</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>British Library </p>
+                        <p>from Theodor Graf April 1893</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">16</emph>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>7th c.</p>
+                        <p>(14th ind. 596 or 611 ed.pr.)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/39341">SPP 3<hi rend="superscript">2</hi> 68</ref>
+                        </p>
+                        <p>(P.Vindob. G 11068)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>1. ἀπὸ κώμ(ης) <emph rend="bold">Ὀννή</emph>
+                        </p>
+                        <p>2. ἀπὸ <emph rend="bold">κώμης</emph> Λευκογίου (l. 3)</p>
+                     </cell>
+                     <cell style="text-align: left;">receipt </cell>
+                     <cell style="text-align: left;">
+                        <p>1. Onnophrios, s. of Menas Pmouei and</p>
+                        <p>Paniskos, s. of Pekysios</p>
+                        <p>2. Menas, s. of Eiatros</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>Vienna</p>
+                        <p>from Theodor Graf</p>
+                        <p>“Ahnas ex 1883”</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">7th c.</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/37475">P.Dubl. 25</ref>
+                        </p>
+                        <p>(Select Box 136.1), back <ref target="https://papyri.info/hgv/37476">P.Dubl. 26</ref>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>1.+2 from <emph rend="bold">κώμη Ὀννή</emph>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>Loan with mortgage</p>
+                        <p>Same hand like <ref target="https://papyri.info/hgv/37476">P.Dubl. 26</ref> (Hand B?)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>1. N.N., s. of <emph rend="bold">Daniel</emph>
+                        </p>
+                        <p>2. N.N., s. of Menas</p>
+                     </cell>
+                     <cell style="text-align: left;">Dublin, Trinity College</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">7th c.</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/37476">P.Dubl. 26</ref>
+                        </p>
+                        <p>(Select Box 136.2), back <ref target="https://papyri.info/hgv/37475">P.Dubl. 25</ref>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>1. from Onne, but now in Tamauis</p>
+                        <p>2. from either Onne or Tamauis</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>Draft contract of labour</p>
+                        <p>Same hand like <ref target="https://papyri.info/hgv/37475">P.Dubl. 25</ref> (Hand B?)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>1. Aur. Kosmas, s. of –</p>
+                        <p>2. Aurelios (draft)</p>
+                     </cell>
+                     <cell style="text-align: left;">Dublin, Trinity College</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">6th c.</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/35855">P.Rain. Cent. 137</ref>
+                        </p>
+                        <p>(P.Vindob. G 25880)</p>
+                     </cell>
+                     <cell style="text-align: left;">1. Onne</cell>
+                     <cell style="text-align: left;">Order of payment</cell>
+                     <cell style="text-align: left;">
+                        <p>1. <emph rend="bold">Enoch</emph>, <emph rend="italics">grammateus</emph> of Onne</p>
+                        <p>2. <emph rend="bold">Theodoros</emph>, s. of Iakob, through Ioannes <emph rend="italics">notarios</emph>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>Vienna</p>
+                        <p>from Theodor Graf “Ex 1881”</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">
+                        <p>6th–7th c.</p>
+                        <p>(ed. pr. 5ht–6th c.)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/35546">SPP 3 371</ref>
+                        </p>
+                        <p>(P.Vindob. G 11276)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <emph rend="italics">boethos</emph> of Onne is mentioned</cell>
+                     <cell style="text-align: left;">receipt</cell>
+                     <cell style="text-align: left;">1. N. N. + Apa Neilos, s. of Anysios, farmers</cell>
+                     <cell style="text-align: left;">
+                        <p>Vienna</p>
+                        <p>from Theodor Graf “ex 1883”</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">17</emph>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>6th–7th c.</p>
+                        <p>notary Apollôs</p>
+                     </cell>
+                     <cell style="text-align: left;">P.Vindob. G 26398</cell>
+                     <cell style="text-align: left;">l. 6 Λευκογίου</cell>
+                     <cell style="text-align: left;">
+                        <emph rend="italics">diamartyria</emph> (?)</cell>
+                     <cell style="text-align: left;">–</cell>
+                     <cell style="text-align: left;">
+                        <p>Vienna</p>
+                        <p>from Theodor Graf “Ex 1881/4 Erster Faijûmer Fund”</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;" cols="7">
+                        <emph rend="bold">Late 7th to 8th century</emph>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">18</emph>
+                     </cell>
+                     <cell style="text-align: left;">698</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/9885">CPR 8 76</ref>
+                        </p>
+                        <p>(P.Vindob. G 11837)</p>
+                     </cell>
+                     <cell style="text-align: left;">l. 2: ὑπὲρ τ(ο ) χω(ριο ) Λευκ(ο)γ(ίου)</cell>
+                     <cell style="text-align: left;">
+                        <p>Dossier of Atias</p>
+                        <p>minuscule</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>1. Flavius Atias, <emph rend="italics">dux</emph>
+                        </p>
+                        <p>2. N.N. from the village Isiou for Leukogion</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>Vienna</p>
+                        <p>from Theodor Graf “Ex 1883 Heracleopolis Magna”</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">19</emph>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>713/728</p>
+                        <p>notary Ioannes</p>
+                     </cell>
+                     <cell style="text-align: left;">MS. Gr. Class. e. 135 (P)</cell>
+                     <cell style="text-align: left;">
+                        <p>both parties </p>
+                        <p>ἀπὸ <emph rend="bold">κώμης</emph> (l. 4)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>κομπρόμισσον </p>
+                        <p>minuscule</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           1. <emph rend="bold">Pekysios, s. of Naaraous, priest</emph>
+                        </p>
+                        <p>2. Sambas (?), s. of <emph rend="bold">Naaraous</emph> Pkanee</p>
+                        <p>Arbitrators: Kosmas, s. of Papas and Menas, s. of Antonios</p>
+                     </cell>
+                     <cell style="text-align: left;">donated by Lucy Hunt in 1934</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">20</emph>
+                     </cell>
+                     <cell style="text-align: left;">714</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/38722">SB 6 9262</ref>
+                        </p>
+                        <p>(P. Fouad 131)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>l. 2: ἀπὸ <emph rend="bold">χ(ωρίου)</emph> Λευκογ(ίου)</p>
+                        <p>Damianos from Leukogion (χωρίον)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <emph rend="italics">entagion</emph>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           1. <emph rend="bold">Mohammed Aboulqasim</emph>
+                        </p>
+                        <p>2. Damianos, deacon </p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>Cairo, IFAO Fouad Collection</p>
+                        <p>purchased in 1930 </p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">21</emph>
+                     </cell>
+                     <cell style="text-align: left;">716</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/23698">SB 20 14234</ref>
+                        </p>
+                        <p>(P. 7888)</p>
+                        <p>
+                           <emph rend="bold"> </emph>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">l. 2: ἀπὸ <emph rend="bold">χ(ωρίου)</emph> Λευκογ(ίου)</cell>
+                     <cell style="text-align: left;">
+                        <p>tax receipt</p>
+                        <p>minuscule</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           1. <emph rend="bold">Mohammed Aboulqasim</emph>
+                        </p>
+                        <p>
+                           2. <emph rend="bold">Menas, s. of Senouthios Baouchi</emph>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">Berlin Sammlung Brugsch 1891</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">22</emph>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>8th c.</p>
+                        <p>(717?)</p>
+                        <p>notary Ioannes</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://papyri.info/hgv/129811">P.Gen. 4 189</ref> (P. Gr. 149)</cell>
+                     <cell style="text-align: left;">
+                        <p>l. 2: ἐν κώμῃ Λευκογίῳ  </p>
+                        <p>both parties </p>
+                        <p>ἀπὸ <emph rend="bold">κώμης</emph> (l. 6)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>ὁμολογία</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>1. Tamene, widow of <emph rend="bold">Naaraous</emph>, s. of Arasios?</p>
+                        <p>2. Lacher, widow of Papaioannes, s. of Pseeios, priest</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>Geneva</p>
+                        <p>Bibliothèque</p>
+                        <p>1882–1897 by Edouard Naville for Jules Nicole </p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">23</emph>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>718</p>
+                        <p>notary Ioannes (?)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>Pushkin Museum</p>
+                        <p>ИГ-4812</p>
+                     </cell>
+                     <cell style="text-align: left;">l. 3 ἐν <emph rend="bold">κώμῃ</emph> Λευκογίῳ</cell>
+                     <cell style="text-align: left;">
+                        <p>contract</p>
+                        <p>minuscule</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>1. <emph rend="bold">Aur. Pekysios, s. of Apakyrios</emph> (†), s. of Koueisan</p>
+                        <p>2. <emph rend="bold">Sambas</emph> and Theodoros, brothers</p>
+                     </cell>
+                     <cell style="text-align: left;">from V. S. Golenischev between 1908–1912</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">24</emph>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>8th c.</p>
+                        <p>notary Ioannes</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>Pushkin Museum</p>
+                        <p>ИГ-4814</p>
+                     </cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">
+                        <p>sale (πρᾶσις)</p>
+                        <p>minuscule</p>
+                     </cell>
+                     <cell style="text-align: left;">1. Maria, d. of Anoup (†)</cell>
+                     <cell style="text-align: left;">from V. S. Golenischev between 1908–1912</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">25</emph>
+                     </cell>
+                     <cell style="text-align: left;">719</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/11321">P.Grenf. 2 105</ref>
+                        </p>
+                        <p>(MS. Gr. Arab. d. 75 (P))</p>
+                     </cell>
+                     <cell style="text-align: left;">l. 4: ἐρχο(μένου) ἀπὸ Λευκ(ογίου)</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <emph rend="italics">entagion</emph>
+                        </p>
+                        <p>minuscule</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>1. <emph rend="bold">Zoubeir, s. of Ziada</emph>
+                        </p>
+                        <p>2. Senouthios, s. of Aioulios Amei( ) via Laios </p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>SC 32373</p>
+                        <p>presented by F.C. Conybeare or bought from B. P. Grenfell in 1896</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">26</emph>
+                     </cell>
+                     <cell style="text-align: left;">719</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/11322">P.Grenf. 2 106</ref>
+                        </p>
+                        <p>(MS. Gr. Arab. d. 75 (P))</p>
+                     </cell>
+                     <cell style="text-align: left;">l. 4: Μην(ᾶ)    ̣   ̣   ̣   ̣ Λευκογεί(ο)υ</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <emph rend="italics">entagion</emph>
+                        </p>
+                        <p>minuscule</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>1. <emph rend="bold">Zoubeir, s. of Ziada</emph>
+                        </p>
+                        <p>2. <emph rend="bold">Menas, s. of Baouch, s. of Menas</emph>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>SC 32373</p>
+                        <p>presented by F.C. Conybeare or bought from B.P. Grenfell in 1896</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">719</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/18409">SB 18 13269</ref>
+                        </p>
+                        <p>(P.Berol. 7887)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>–</p>
+                        <p>cf. <emph rend="bold">21</emph>, <emph rend="bold">26</emph>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>tax receipt</p>
+                        <p>minuscule, seal</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">Menas, s. of Senouthios Baouch</emph>
+                     </cell>
+                     <cell style="text-align: left;">Berlin Sammlung Brugsch 1891, Fayum</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">719</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/18410">SB 18 13270</ref>
+                        </p>
+                        <p>(P.Berol. 7885)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>–</p>
+                        <p>cf. <emph rend="bold">21</emph>, <emph rend="bold">26</emph> (brother)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>tax receipt</p>
+                        <p>minuscule, seal</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">Georgios, s. of Senouthios Baouch</emph>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>Berlin Sammlung Brugsch 1891</p>
+                        <p>Fayum</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">722</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/18414">SB 18 13268</ref>
+                        </p>
+                        <p>(P.Berol. 7886)</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>–</p>
+                        <p>cf. <emph rend="bold">21</emph>, <emph rend="bold">26</emph>
+                        </p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>tax receipt</p>
+                        <p>minuscule, seal</p>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">Menas, s. of Senouthios Baouch</emph>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <p>Berlin Sammlung Brugsch 1891</p>
+                        <p>Fayum</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <emph rend="bold">27</emph>
+                     </cell>
+                     <cell style="text-align: left;">8th c.</cell>
+                     <cell style="text-align: left;">
+                        <p>
+                           <ref target="https://papyri.info/hgv/82300">CPR 4 171</ref> <note place="foot" xml:id="ftn29" n="29">
+                              <p> The provenance is based on an Oxyrhynchite village mentioned in the text, but the papyrus was either found elsewhere, possibly somewhere in the Heracleopolite nome, or it originated from a small, earlier find in the area. Official excavations at Oxyrhynchos did not begin until 1895/6, while CPR II, in which the papyrus was first published as no. CXLIX (and which includes at least one other papyrus with the same provenance, no. CL), appeared in 1895.</p>
+                           </note>
+                        </p>
+                        <p>(P.Vindob. K 4010)</p>
+                        <p>from Oxy (?)</p>
+                     </cell>
+                     <cell style="text-align: left;">l. 17: ἀπὸ <emph rend="bold">χ(ωρίου)</emph> Λευκωγ(ίου) μαρτηρῶ</cell>
+                     <cell style="text-align: left;">
+                        <p>ἀσφάλεια</p>
+                        <p>Coptic</p>
+                     </cell>
+                     <cell style="text-align: left;">Witness (correction of Lajos Berkes via PN)</cell>
+                     <cell style="text-align: left;">
+                        <p>Vienna</p>
+                        <p>from Theodor Graf “aus Oxyrhynchus”</p>
+                     </cell>
+                  </row>
+               </table>
+            </div>
+            <div type="section">
+               <head>
+                  <emph rend="bold">Appendix ΙI: Corrections to papyri</emph>
+               </head>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/41059">BGU 1 315</ref>
+               </head>
+               <p xml:id="p51">This <emph rend="italics">compromissum</emph> is drawn up by the notary Georgios and is datable to the years 627 or 642; the earlier date is probably more likely. A fuller (κναφεύς), Apa Ioulios, son of the deceased Ioseph, and a shop-keeper (κάπηλος), Ioseph, son of Aioulios, agree to have Apa Hol, another shop-keeper, as arbitrator in their dispute. This is repeated in the endorsement, read as † κομπρόμισσ(ον) γενόμε(νον) μεταξ(ὺ) Α[ὐρ(ηλίου) ἄπα] Ἰ[ου]λίου κν[αφέως υἱοῦ] Ἰ[ωσ]ὴφ κ[αί in the ed. pr. The names should be corrected to Aπα̣ Ἰο̣[υ]λίου̣ κν[α]φ̣(έως) (κ̣α̣ὶ̣) Ἰω̣σ̣ὴφ καπ̣ή̣λ̣(ου). μεταξξ has a plural abbreviation to indicate that there was more than one party (cf. <ref target="https://papyri.info/hgv/40945">P.Prag. 1 49</ref> and <ref target="https://papyri.info/hgv/41366">SB 1 5681</ref>, see below). The rest of the docket is covered by cardboard.</p>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/34838">CPR 7 44</ref>
+               </head>
+               <p xml:id="p52">This large and patchy document consists of two fragments and concerns a division of property (διαίρεσις, frg. 2.28) between two men, Makari(o)s, son of Naaraous Papsios and Petamos alias Kapareous, son of Phib. The former omits the first alias-name of his father, Naaraous, in the <emph rend="italics">hypographe</emph>, the second his own first alias-name. The text is not easy to understand because of its fragmentary state, orthography and linguistic peculiarities.</p>
+               <p xml:id="p53">The name Kapareous (<ref target="http://www.trismegistos.org/name/19571">TM Nam 19571</ref>) is otherwise unattested. It first appears in l. 3 to denote a <emph rend="italics">kella</emph> (<emph rend="italics">kellia</emph> in the papyrus) of his: κελλίας \Κα/παρέως – the ending survives only in traces. In l. 6 we have Πεταμος ὁ καὶ Κα̣παρέους τ̣ὸ ἐπιβάλλον μέρος. Ιn Petamos, which is peculiar, to say the least, the <emph rend="italics">alpha</emph> is difficult, but the name is attested twice in earlier periods (<ref target="https://papyri.info/hgv/5159">P. Hels. 1 24</ref>.v2 [Heracleopolis, 163/162 BCE]); <ref target="https://papyri.info/hgv/12824">P.Princ. 1 9</ref>.6 [Arsinoe, 31]); the final <emph rend="italics">sigma</emph> reaches the baseline and almost has a descender. In Κα̣παρέους, the final <emph rend="italics">sigma</emph> is written in ligature with a following stroke. I would rather read Κα̣παρέου, εἰ τ̣ὸ ἐπιβάλλον μέρος. This also finds confirmation in the signature, l. 29, where there is no space for a <emph rend="italics">sigma.</emph> The name is thus apparently indeclinable, and reads Καπαρεου in all cases, and not Καπαρευς, Καπαρεως, or Καπαρει, as the editor assumed. Read Καπαρέου also in l. 3 accordingly.</p>
+               <p xml:id="p54">The beginning of l. 17 is very fragmentary: δε   ̣   ̣   ̣ε   ̣   ̣πσα[   ̣   ̣]   ̣. It can be improved, though it is still not properly understood: δε   ̣   ̣θέντ̣ως α̣   ̣ [; perhaps it stands for  δὲ α̣ὐ̣θεν&lt;τι&gt;κῶς. </p>
+               <p xml:id="p55">In l. 24–25, ἕκαστον ἐξ ἡμῶ̣ν̣ κρατεῖν καὶ κυρι̣εύειν καὶ δεσποτεύειν τὸν [- - - ] | σὺν τέκνοις    ̣   ̣   ̣ (the rest of the line remains unread), I would read instead: σὺν τέκνοις αὐτοῦ Μα̣κ[α]ρ̣(ίου) κ̣υ̣ρι̣ε̣ύ̣ε̣ι̣ν (κ̣α̣ὶ̣) δε̣σ̣π̣οτ̣(εύειν) (κ̣α̣ὶ̣) ο̣ἰ̣κο̣δ(ομῆσαι) (κ̣α̣ὶ̣) κρ̣α̣τ̣ε̣ῖ̣ν̣   ̣  ̣  ̣  ̣  ̣  ̣, apparently repeating the phrase from the line before.</p>
+               <p xml:id="p56">In l. 28, the stipulation at the end of the line, ἐπερω(τηθέντες) ὁμολογ(ήσαμεν) † † † has indeed a plural abbreviation, read ἐπερω(τηθέντες) (επερρ pap.) ὁ̣μω̣λογ(ήσαμεν), l. ὡμολογήσαμεν.</p>
+               <p xml:id="p57">In ll. 29–30, we find the concluding <emph rend="italics">hypographe</emph>: † Αὐρήλιος Καπαρε̣ὺ̣ς ̣ σ̣τ̣ο̣ι̣χ̣ε̣ῖ̣ μ̣ο̣ι̣    ̣   ̣   ̣   ̣ | ἔγρ̣αψα [ὑπὲ]ρ αὐτοῦ μ̣ὴ̣ εἰ[δότος γρά]μ̣[μ]α̣τ̣[α]; but what survives is more stubstantial: </p>
+               <quote type="edition">
+                  <lb n="29"/> (<emph rend="italics">m2</emph>) † ̣ Αὐρήλιος Καπαρεο̣υ̣ υἱ(ὸς) Φ̣ι̣β στιχῖ̣ μοι. ἐγ̣ῶ Ἀ̣π̣ολλῶ υἱ(ὸς) Γεω[ργίου]     
+                  <lb n="30"/> ἔ̣γρ̣αψα [ὑπ]ὲ̣ρ αὐτ̣οῦ ἀ̣[γραμ]μ̣[άτου ὄντος †] 
+               </quote>
+               <p xml:id="p58">This should be the <emph rend="italics">agrammatos</emph>-clause attested for Middle Egypt; on the Arsinoite one, see <ref target="https://papyri.info/biblio/77554">Kovarik 2009</ref>: 222–223.</p>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/129803">P.Gen. 4 181</ref> and <ref target="https://papyri.info/hgv/22592">P.Bodl. 1 73</ref>
+               </head>
+               <p xml:id="p59">The text of the Geneva papyrus has already been corrected extensively by D. Hagedorn in <ref target="https://papyri.info/biblio/86328">Kruse 2013</ref>: 230, but several doubtful points remain, not helped by the poor quality of the online <ref target="https://www.ville-ge.ch/musinfo/imageZoom/?iip=bgeiip/papyrus/pgen151-ri.ptif">photo</ref>. The signatures of the ed. pr., ll. 14–15, read ἐγ\ὼ/ Ψ̣ε̣[είου παρὼν ἐπιδέδωκα.] † ̣ ἐγὼ Ἀπολλώνιο(ς) π[α]ρὼν ἐπιδέδωκα † † ἐγὼ Ἰωάννης νο(τάριος) μαρ̣[τυρῶ τῇ διαλύσει.] </p>
+               <p xml:id="p60">However, as <ref target="https://papyri.info/biblio/97327">van Minnen 2013</ref>: 325 has already suggested, this document is a judgement, not a <emph rend="italics">dialysis</emph>. This is evident from ἐπιδέδωκα (cf. <ref target="#ftn6">n. 6</ref>) in the only completely preserved signature at the beginning of l. 15, which indicates the subscription of the arbitrators. This means that the one who signs there cannot be the same as the conflicting parties mentioned in the document. The name in the second signature was already corrected by both Hagedorn and van Minnen to: Ἀπολλὼ υἱὸ(ς) Πραοῦ –– he is the first arbitrator; the supposed witness subscription in the same line, also corrected by both to † ἐγὼ Ἰωάννης υἱὸ(ς) Μα   ̣[- - - ἐπιδέδωκα], is the signature of the second arbitrator. Hagedorn has suggested Μαθθαίου or Ματθαίου; the first option seems more likely to me. I agree with van Minnen that the supplement in l. 15 (τῇ διαλύσει) should be changed – to τῷ ὅρῳ or τῇ δίκῃ/κρίσει, see <ref target="#p29">l. 11n.</ref> For the first signature at the end of l. 14, ἐγ\ὼ/ Ψ̣ε̣[είου, I concur with the correction of Hagedorn who tentatively reads ἐγρά(φη) instead, with supralinear <emph rend="italics">alpha</emph>, μη([νί)], like in the judgement <ref target="https://papyri.info/hgv/78712">P.Paramone 16</ref>.15–16: † ὅρος ἐγράφη μηνὶ Φαμενὼ̣θ̣ κϛ τ̣ῆς δ ἰνδ(ικτίονος). The people mentioned in the body of the document, the priest Ψέειος (πρεσβύτερος, translated in the edition as “l’ancien”),  in l. 8 and 9 and the deacon Apollôs (read as Ἀπολλώ(νιος) in the ed. pr.) in l. 12, are the conflict parties. They were taken to be the signatories, but it is the arbitrators who sign, and it is a coincidence that one of them is also called Apollôs (the name is in the genitive, Ἀπολλῶ, in both cases).</p>
+               <p xml:id="p61">An Arsinoite provenance was suggested in the edition and the name Pseeios in ll. 5, 8, 9, and 13 confirms a middle Egyptian origin, but the Arsinoite nome is not likely. Hagedorn suggests the Oxyrhynchite nome, because of the use of χρυσοῦ in l. 10 and the name Πραοῦς (<ref target="http://www.trismegistos.org/name/11771">ΤΜ Nam 11771</ref>) in l. 15, which he described as a “typisch oxyrhynchitischer Name”, but Praous is attested also in the Arsinoite and Heracleopolite areas, for example in Leukogion, in the already mentioned <ref target="https://papyri.info/hgv/22592">P.Bodl. 1 73</ref>.12. Several other points indicate a Heracleopolite origin. </p>
+               <p xml:id="p62">Paleographic evidence suggests that the papyrus likely dates from the early Arab period in the second half of the 7th century, or possibly even later, rather than from the early 7th century as proposed by the editors. The notary signs in Greek and we would expect an Arsinoite notarial <emph rend="italics">completio</emph>, also post-conquest, to be Latinate. However, this feature disappears soon in the Arab period in the Heracleopolite documentation,<note place="foot" xml:id="ftn30" n="30">
+                  <p> The very few post-conquest Oxyrhynchite contracts also have a Latinate signature and show that there was no change in the decades after the conquest, like in the Arsinoite evidence; see <ref target="https://papyri.info/hgv/17840">SB 6 8987</ref> (644–645) <ref target="https://papyri.info/hgv/38681">P.Wisc. 1. 11</ref> (646/661/676), <ref target="https://papyri.info/hgv/20129">PSI 1 52</ref> (647), <ref target="https://papyri.info/hgv/36144">PSI 10 1122</ref> (651–652?), <ref target="https://papyri.info/hgv/37342">P.Michael. 35</ref> (652?), <ref target="https://papyri.info/hgv/39286">P.Merton 2 98</ref> (mid 7th c.).</p>
+                  </note> see <ref target="https://papyri.info/biblio/96755">Kovarik 2023</ref>: 96–97 and Kovarik forthcoming.</p>
+               <p xml:id="p63">The notary’s name, Ἄπα Ἰε̣[ρ]ε̣μί\ου/ according to the ed. pr.,  was again already corrected by Hagedorn who proposes to read it as † Αππα Κ[ύ]ρ̣ου υἱοῦ [. In Heracleopolite deeds, patronyms within the notarial <emph rend="italics">completio</emph> are, so far, only attested from the Arab period, and exclusively from Leukogion (see above, <ref target="#p34">l. 15n.</ref>). Specifically, the <emph rend="italics">delta</emph> in δι also resembles that in the signature of <ref target="https://papyri.info/hgv/22592">P.Bodl. 1 73</ref>, another notary from Leukogion. I would thus propose a Leukogion provenance for <ref target="https://papyri.info/hgv/129803">P.Gen. 4 181</ref> and possibly also a familial relationship between these two notaries. I would, in turn, suggest reading <ref target="https://papyri.info/hgv/22592">P.Bodl. 1 73</ref>, whose notarial signature has been read as:</p> 
+               <quote type="edition">
+                  <lb n="13"/> † δι᾿ ἐμοῦ Ἀ̣  ̣  ̣  ̣ί̣ου ἐλαχί(στου) †   ̣[  ̣  ̣]  ̣γι  ̣  ̣  ̣  ̣[- - -]  
+               </quote>
+               <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: center;">but which should instead be read as:</cell>
+                  </row>
+               </table>
+               <quote type="edition">
+                  <lb n="13"/> † δι᾿ ἐμοῦ Κανώβ̣ου̣ ἐλαχ(ίστου) υἱ(ο)ῦ Γ[εω]ρ̣γίου πρεσ[βυτέρου] 
+               </quote>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24006014"/>
+                  <head>Fig. 7: P.Gen. 4 81 line 16.</head>
+               </figure>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24006016"/> 
+                  <head>Fig. 8: P.Bodl. 1 73 line 13.</head>
+               </figure>
+               <p xml:id="p64">This suggests that <ref target="https://papyri.info/hgv/129803">P.Gen. 4 181</ref> may have been acquired together with <ref target="https://papyri.info/hgv/129811">P.Gen. 4 189</ref>, which was drawn up in Leukogion as well. The inventory numbers are P. Gr. 151 and P. Gr. 149. </p>
+               <p xml:id="p65">Another correction to <ref target="https://papyri.info/hgv/22592">P.Bodl. 1 73</ref>.10 is Μη̣ν̣ᾶς υἱ(ος) Ἀπολλῶ  instead of Μη̣ν̣ᾶ\ς/ Ὡρ̣απολλῶ. The abbreviation stroke running through <emph rend="italics">iota</emph> is unmistakable.</p>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/129811">P.Gen. 4 189</ref>
+               </head>
+               <p xml:id="p66">Corrections have already been suggested by <ref target="https://papyri.info/biblio/79081">Diethart and Hasitzka 2011</ref>: 239 and <ref target="https://papyri.info/biblio/87150">Gascou 2015</ref>, but some problems still remain.</p>
+               <p xml:id="p67">At least the notary’s signature in l. 18 can now be emended in light of the new papyrus and the Moscow piece, restoring the name as: </p>
+               <quote type="edition">
+                  <lb n="13"/> [† δι’ ἐμοῦ Ἰωάν]ν̣[ου] υἱο̣ῦ̣ Φιβ ἐγράφη † † 
+               </quote>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/33915">
+                     <emph rend="bold">SB 1 4847</emph>
+                  </ref>
+               </head>
+               <p xml:id="p68">This is a fragment of a 6th- or 7th-century <emph rend="italics">compromissum</emph> in the Louvre, the text of which can be improved by the online <ref target="https://collections.louvre.fr/en/ark:/53355/cl010040288">photo</ref> and the help of parallels such as <ref target="https://papyri.info/hgv/980060">PL III/1029</ref>.13–17, <ref target="https://papyri.info/hgv/40945">P.Prag. 1 49</ref>.21–28, <ref target="https://papyri.info/hgv/41366">SB 1 5681</ref>.33–38, and <ref target="https://papyri.info/hgv/14558">SB 14 12194</ref>.19–24. In what follows, the reading of the <emph rend="italics">editio princeps</emph> is given on the left, and a revised version on the right. </p>
+               <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">[στέργειν ἡμᾶς καὶ ἐμ-]</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">μι[- - -]</cell>
+                     <cell style="text-align: left;">μεῖ̣ν̣α̣ι̣ τ̣[ῇ αὐτῶν δ]ί̣[κῃ]</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">εἰ δέ τι δέξει [  ̣  ̣]μου ἐμ[  ̣  ̣]</cell>
+                     <cell style="text-align: left;">εἰ δέ τις ἐξ αὐτῶν μὴ</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">ἑτέραι ἢ τῇ κρίσει αὐτῶν,</cell>
+                     <cell style="text-align: left;">στέρξῃ τῇ κ̣ρ̣ί̣σει αὐτῶν</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">ἐνέχεσθαι τὸ παραβαῖνον</cell>
+                     <cell style="text-align: left;">ἐνέχεσθαι τὸ παραβαῖν(ον)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">μέρος διδόναι τῷ γεουχ(οῦντι)</cell>
+                     <cell style="text-align: left;">μέρος διδόναι τῷ γεούχ(ῳ)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">λόγῳ προστίμου χρυσοῦ</cell>
+                     <cell style="text-align: left;">λόγῳ προστίμου χρυσίου</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">νομισμάτια δώδεκ(α)</cell>
+                     <cell style="text-align: left;">νομισμάτια δώδεκ(α)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">χ̣ρ̣(υσίου) ν̣ο̣(μισμάτια) ι̣β̣. κ̣ύ̣[ρ(ιον)] τ̣ὸ̣</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">[κομπρόμισσον - - -]</cell>
+                  </row>
+               </table>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/41364">SB 1 5271</ref>
+               </head>
+               <p xml:id="p69">Only the beginning and the endorsement of this seventh-century <emph rend="italics">compromissum</emph> have been preserved. A few corrections have already been made and recorded in the <ref target="https://beehive.zaw.uni-heidelberg.de/hgv/41364">BL</ref>. The first party in l. 7 is a certain Paulos who is defined by his employer as ὑπουργὸς τῆς ἐνδόξου ὑπηρεσίας Στρατηγίου τοῦ ὑπερφυ[εστ]άτου πατρικίου (ll. 8–9), followed by the filiation, υἱοῦ Θεοδότ̣ου Κίλικος (ll. 9–10), and the second party, ἐκ δὲ τοῦ ἑτέρου μέρους Μαροῦς [– – –]της [– – – χ]ωρὶς κυρίου [χρηματίζουσα – – –] (ll. 10–11). I suggest reading υἱοῦ Θεοδότ̣ου Κῖλιξ, which was already suggested in <ref target="https://beehive.zaw.uni-heidelberg.de/info/60226">BL 8 320</ref>; <ref target="https://beehive.zaw.uni-heidelberg.de/info/60230">BL 10 183</ref> adds the supplement of ἀνδρός and <ref target="https://beehive.zaw.uni-heidelberg.de/info/60228">BL 11 197</ref> the name of the father; but the name of Marous’ father alone is not enough to fill the lacuna. The mother’s name must have followed as well, cf. <ref target="https://papyri.info/hgv/41060">BGU 1 317</ref>.3–4 (Arsinoe, 580/581): θυγά]τηρ τοῦ μακαρίου Γεωργίο(υ) μητρὸς ἄμα Ἡραίδος [χωρὶς κυρίου χρημα]τίζουσα.<note place="foot" xml:id="ftn31" n="31">
+                     <p> Here, ἀνδρός should probably be added as well, suggested by contemporary Arsinoite parallels (<ref target="https://papyri.info/hgv/41304">P.Grenf. 2 85</ref>.3–4 (536), <ref target="https://papyri.info/hgv/41001">SPP 20 139</ref>.3–4 (531), and <ref target="https://papyri.info/hgv/41363">SB 24 15899</ref>.10 (608). This addition would necessitate longer supplements in the surrounding lines. For example, one might reconstruct [ταύτην τὴν παροῦσαν ἔγγραφον] ὁμολογίαν in line 2; cf. <ref target="https://papyri.info/hgv/50307">CPR 19 50</ref>.4–5 (7th c.) rather than τὴν [π]α̣ροῦσ̣α̣ν ἔγγραφον ὁμολογ[ίαν.  </p>
+                  </note> The whole passage would then read: ἐκ δὲ τοῦ ἑτέρου μέρους Μαροῦς θ̣[υ]γ̣[ά]τηρ Τιμ̣[οθέου μητρὸς Ν.Ν. χ]ωρὶς κυρίου [ἀνδρὸς χρηματίζουσα – – –].</p>
+               <p xml:id="p70">In the endorsement, the papyrus breaks off after κομπρόμισσ(ον) γεν, taken as γεν(όμενον), but the abbreviation γεν[όμε(νον) or γεν[άμε(νον) is more likely. There is also a cross before † κομπρόμισσ(ον)  and a <emph rend="italics">staurogramm</emph> before the invocation written below the endorsement, which was read as a cross and a few letters that are or are not there; therefore, instead of † ἐν ὀν[όμ]ατι τοῦ κυρίου καὶ δεσπ[ότου read ⳨ ἐν ὀνόματι τοῦ κυρίου καὶ δε̣σ[πότου. </p>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/41366">SB 1 5681</ref>
+               </head>
+               <p xml:id="p71">This is another example of the same style of <emph rend="italics">compromissum</emph> as <ref target="https://papyri.info/hgv/41059">BGU 1 315</ref>. The first party consists of two priests, both named Georgios, sons of Ioannes (ll. 6–9). The first Georgios has an alias mentioned at the beginning of line 8    ̣   ̣[   ̣]μ̣άρωνος. This should be read as Σα̣μ̣βαρί̣ω̣νος, with a small <emph rend="italics">alpha</emph> and majuscule-<emph rend="italics">my</emph>, cf. <ref target="https://papyri.info/hgv/41088">CPR 14 10</ref>.6 (Arsinoe, 556–578). </p>
+               <p xml:id="p72">The reading at the beginning of l. 21, ἐν|ταῦθα [ἐ]ν τῷ Ἀρσινοίτῃ, appears too short for the available space; a better restoration is ἐν|ταῦθα̣ ἐ̣ν̣ τ̣ῷ̣ αὐ̣τῷ Ἀρσινοίτῃ.   </p>
+               <p xml:id="p73">The clumsy <emph rend="italics">hypographe</emph> can be corrected in a number of small details: The first Georgios signs in his own hand across the space of 4 lines. Instead of of υἱὸς Ἰώννου [στοι]χῖ μ[οι] τ[όδε] τὼ κομπρόμισον (corrected from [   ̣   ̣   ̣]   ̣   ̣   ̣[   ̣   ̣   ̣   ̣]   ̣ω κομπρόμισσον [ὡς] πρόκ[ει]ται in <ref target="https://beehive.zaw.uni-heidelberg.de/info/11347">BL 12 183</ref>) in ll. 40–42, I read Ἰωάννου [στοι]χῖ μ̣[οι] τὼ κομπρόμισον [ὡ]ς. In the following subscriptions in ll. 42–43, † Γεώργιος πρ(εσβύτερος). (hand 4) Φοι[βά]μ̣μ[ω]ν ὁ̣ προκ(είμενος) στοιχεῖ ἡμῖν, ὡς πρ(όκειται), we find a plural formulation instead: Γεώργιος πρ(εσβύτερος) (καὶ) Φοι[βά]μ̣μ[ω]ν οἱ προκ(είμενοι), that is, one communal signature          despite the fact that the signers belong to different parties.</p>
+               <p xml:id="p74">The notary’s name in the <emph rend="italics">completio</emph> in the next line was corrected in <ref target="https://beehive.zaw.uni-heidelberg.de/info/60236">BL 8 322</ref> from Eliu to Fib esemio(the), which should be read as esemioth.</p>
+               <p xml:id="p75">The docket has † κο̣μπρ(όμισσον)    ̣   ̣   ̣[   ̣   ̣]   ̣   ̣   ̣   ̣ μεταξὺ̣ Γεωργίου̣, which should be corrected to † κομπρόμισσ(ον) γενόμε(νον) μεταξ(ύ), again with the plural-abbreviation μεταξξ, as in <ref target="https://papyri.info/hgv/41059">BGU 1 315</ref> and <ref target="https://papyri.info/hgv/40945">P.Prag. 1 49</ref>.</p>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/980060">PL III/1029</ref>, ed. <ref target="https://papyri.info/biblio/96571">Harrauer and Pintaudi (2021)</ref>: 56–57
+               </head>
+               <p xml:id="p76">This is a new and complete <emph rend="italics">compromissum</emph> which is exactly dated by the era of Diocletian: ἔτους Διοκλ(η)τ(ιανοῦ) τξα Θῶθ κϛ γ ἰνδ(ικτίωνος) in l. 3, which corresponds to 23 September 645. The notary is already known from <ref target="https://papyri.info/hgv/40995">P.Ross. Georg. 3 53</ref>, dated by era-year to 674/675 (τϙα), month lost. Indeed, the second cypher, which is split by a tear on a fold-line, should be read as a <emph rend="italics">qoppa</emph> in <ref target="https://papyri.info/hgv/980060">PL III/1029</ref> as well. Our papyrus therefore dates to the same year 675, τϙα (the era-year runs concurrently to the indiction-year starting in Epeiph, see <ref target="https://papyri.info/biblio/17873">CSBE<hi rend="superscript">2</hi></ref>: 66). </p>
+               <p xml:id="p77">The two conflict parties are Aurelios Apa Hol, fruit gardener (πωμαρίτης), son of Apa Ision (ll. 5–6), and Aurelios Phoibammon, sandal maker (σανδαλᾶς), son of Ptollon (ll. 6–7). The reading of this patronym Πτόλλωνος, is again disturbed by a break. As already mentioned by the editors, the standard form of the name is Πτολλίων, and I believe this is also what we have here: read Πτολλί̣ων.</p>
+               <p xml:id="p78">In the following lines 7–9, the origin of the two parties is given: ἀπὸ τῆς | Ἀρσινοι{νοι}τῶν πόλεω̣[ς] ἀπὸ ἀμφ[όδ]ου μητ̣ρ̣οπόλ(εως) Ψαππαλλίου | ὁ δὲ Φοιβάμμων Κλεοπατρίου. Psappalliou and Kleopatriou are both city quarters, and we would expect a parallel construction: the one from here, the other from there. Line 8 has to be revised to read ἀπὸ ἀμφό̣δ̣[ο]υ ὁ μὲν Α̣π̣α Ολ Ψαππαλλ(ί)ου to correspond to the second part – the name of the city quarter at the end of the line has been abbreviated internally.      <note place="foot" xml:id="ftn32" n="32">
+                     <p> The name of the <emph rend="italics">amphodon</emph> Ψαππαλλίου – attested also in <ref target="https://papyri.info/hgv/41056">BGU 1 305</ref>.7, 12 (556) and <ref target="https://papyri.info/hgv/41089">CPR 14 11</ref>.9–10 (578), is more often written Ψανπαλλίου. However, an examination of all known attestations shows that the spelling ππ is consistent across all examples. See the <ref target="https://collections.louvre.fr/en/ark:/53355/cl010001372">photo</ref> of <ref target="https://papyri.info/hgv/41354">SB 1 4903</ref>.2 and the <ref target="https://collections.louvre.fr/en/ark:/53355/cl010001378">photo</ref> of <ref target="https://papyri.info/hgv/13970">SB 1 4899</ref>.2 (ca. 630–645) and also <ref target="https://papyri.info/hgv/41093">P.Muench. 3 100</ref>.6 (574), <ref target="https://papyri.info/hgv/97359">SB 26 16362</ref>.24 (6th-7th c.), and <ref target="https://papyri.info/hgv/41011">SPP 20 243</ref>.9. The letter <emph rend="italics">ny</emph>, often mistaken for <emph rend="italics">pi</emph> and vice versa, cannot form a ligature with the following letter. The variant Ψανπαλλίου does not exist.</p>
+                  </note>
+               </p>
+               <p xml:id="p79">This part is followed by their agreement to have the matter judged by arbitrators in ll. 9–11: ὁμολογοῦμεν | δικάσασθαι πρὸς ἀλλήλους ἐπὶ τοὺς ὁριστὰς | τὴμ̣ δημοσία[ν] ὀφιλὰν τῆς α̣ὐ̣τ̣ῆς πόλεως. This passage is problematic for a variety of reasons. First, the reading of τούς is difficult; <emph rend="italics">tau</emph> seems to be written in two strokes and has a superfluous ascender above; perhaps something was corrected here. Then, the expression denoting the arbitrators at the end of l. 10 presents paleographical difficulties. An initial <emph rend="italics">omicron</emph> appears unlikely; rather, the presence of an ascender in the first letter seems undeniable. On this basis, I would consider reading κριτάς instead. However, this term is not yet attested for arbitrators in this specific context. That said, their decision is called κρίσις in l. 13, which is an alternative to δίκη, also used here in l. 12, and to ὅρος, found on the verso, see below and <ref target="#p29">l. 11n.</ref> A reading ὡριστάς cannot be entirely excluded either; on the verso we also find ὥρος for ὅρος.</p>
+               <p xml:id="p80">Their remit is described in the next line, where we should read τῆς δημοσίας φυλακῆς; the arbitrators work for the public prison. Parallels have ἐπὶ τοὺς ὁριστὰς ἐποικ̣[ίου in     <ref target="https://papyri.info/hgv/14558">SB 14 12194</ref>.17 or ἐ̣[π]ὶ ὁριστ̣ο̣ῦ τοῦ αὐ̣τ(οῦ) νομοῦ in    <ref target="https://papyri.info/hgv/40945">P.Prag. 1 49</ref>.19, where the arbitrators also remain anonymous. </p>
+               <p xml:id="p81">In l. 16 the abbreviation of χρ(υσίου) has what looks like a supralinear <emph rend="italics">ypsilon</emph> and should be resolved χρυ(σίου); the <emph rend="italics">kyria-</emph>clause κύριον τὸ κομπρώμισσον is actually correctly written κομπρόμισσον. The stipulation ἐπερ(ωτηθέντες) ὡμολ(ογήσαμεν) in the following line 17 has a plural abbreviation, ωμμ instead of ωμολ. The verb in the <emph rend="italics">hypographe</emph>, which starts at the end of the line with Ἄπα Ὃλ καὶ Φοιβ(άμμων) στοιχ(oῦμεν) ἡμῖν    , should be resolved στοιχ(εῖ) ἡμῖν. In the second witness subscription, l. 20, read μαρτυρῶ instead of μαρτυρo. And in the last witness subscription in ll. 20–21 the abbreviation is κομπρομίσῳ ⟨ὡ⟩ς, not κομπρομ(ίσσῳ) ὡς. </p>
+               <p xml:id="p82">Finally, the notarial <emph rend="italics">completio</emph> should be read <hi rend="superscript">θμγ</hi> di emu Cosma Fib δι’ ἐμοῦ Φιβ ϙ θ, cf. <ref target="https://papyri.info/biblio/97353">Kovarik 2019</ref>: 251, where a Latinate signature of the same notary in <ref target="https://papyri.info/hgv/40995">P.Ross. Georg. 3 53</ref> (674/675) is corrected. <ref target="https://papyri.info/hgv/980060">PL III/1029</ref> shows the only complete Latinate-Greek signature (the same notary also appears with his father’s name in Greek in <ref target="https://papyri.info/hgv/37716">SPP 3 422</ref> and in <ref target="https://papyri.info/hgv/38356">SB 1 4699</ref>; <ref target="https://papyri.info/hgv/64904">SB 28 17202</ref> might concern the same notary with another fragmentary Latinate signature). </p>
+               <p xml:id="p83">The summary in the endorsement of this <emph rend="italics">compromissum</emph> reads: † Ὧρος Φοιβ(άμμων) σανταλ(ᾶς) (καὶ) Ἄπα Ὃλ πομ(αρί)τ(ης), l. πωμ(αρί)τ(ης)   . The first word in the docket usually indicates the type of the contract, and we would expect κομπρόμισσον, but instead it is labeled as a judgement, that is ὥρος, l. ὅρος. The editors took ὥρος as a spelling mistake for Αὐρήλιος and resolve the whole phrase in nominative. Instead, we have the judgement of Phoibammon und Apa Hol, and the names and professions need to be resolved in genitive. Read thus † ὥρος (l. ὅρος) Φοιβάμμ(ωνος) σανταλᾶ̣ (καὶ) Aπα Ολ πομ(αρί)τ(ου), l. πωμ(αρί)τ(ου). </p>
+               <p xml:id="p84">The second part of the docket, after a small <emph rend="italics">vacat</emph>, which is transcribed as χ  ̣  ̣η̣λ̣ιγ̣ρ  ̣[  ̣  ̣  ̣]  ̣  ̣ μ̣ι̣σ̣θ̣οπρασείας τξα †, is also doubtful, but the quality of the photo does not help. Complete endorsements of <emph rend="italics">compromissa</emph> mostly show the construction with μεταξύ, see e.g. <ref target="https://papyri.info/hgv/40945">P.Prag. 1 49</ref>: † κομπρόμισσ(ον) γενόμε(νον) μεταξ(ὺ) Ἰωάννου γρ̣[αμμ]α(τέως) [καὶ Παύλο]υ̣ (καὶ) Πεκυσίου †. In our case the structure is different and the first part already gives the necessary information. In addition, perhaps the reason for the dispute is given, the fine of 12 <emph rend="italics">solidi</emph>, or the names of the arbitrators, who however remain anonymous on the recto. Perhaps, the initial <emph rend="italics">chi</emph> points to the second option, χρυ(σίου) νο(μισμάτια) ιβ λό(γῳ) π̣ροστ[ίμου, but this is mere conjecture. The presumed reference to the year τξα at the very end is obsolete with the correction above. Instead, these letters look like τρα or τρου, and could be read with the three preceding letters as εἰατροῦ, either as a personal name (cf. <ref target="https://papyri.info/hgv/39341">SPP 3<hi rend="superscript">2</hi> 68</ref>.3: Εἰατροῦ) or the profession ἰατρός (physician) of one of the anonymous arbitrators. Unfortunately, the remaining letters are too hard to read satisfactorily. </p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/17873">CSBE<hi rend="superscript">2</hi></ref> (2004) = R.S. Bagnall and K.A. Worp, Chronological Systems of Byzantine Egypt. Second Edition. Leiden.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97326">Chepel, E. (2018)</ref> “Russian Collections of Greek Papyri and History of their Publication: An Overview (With the Catalogue of Greek Papyri held at the Pushkin State Museum of Fine Arts in Moscow),” Egypt and Neighbouring Countries 3: 57–62.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/79081">Diethart, J.M. and M. Hasitzka (2011)</ref> “Eine ungewöhnliche koptische Schreibhelferformel in P.Gen. IV 189 und Korrekturen zum griechischen und koptischen Teil der Urkunde,” ZPE 177: 237–239.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/15230">Falivene, M.R. (1998)</ref> The Herakleopolite Nome. A Catalogue of the Toponyms, with Introduction and Commentary (American Studies in Papyrology 37). Atlanta.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/13571">Gagos, T. and P. van Minnen (1994)</ref> Settling a Dispute. Toward a Legal Anthropology of Late Antique Egypt. Ann Arbor.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/86373">Gascou, J. (2014)</ref> “Un nouveau document sur le cursus publicus (P.Würzb. inv. 48), ” APF 60: 209–216.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/87150">Gascou, J. (2015)</ref> “Korr. Tyche 782: P. Gen. IV 189,” Tyche 30: 219.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/70057">Gonis, N. (2001)</ref> “Reconsidering Some Fiscal Documents from Early Islamic Egypt,” ZPE 137: 225–228.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96726">Gonis, N. (2023)</ref> “Sealed Gold for Wine,” ZPE 227: 124–126.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96957">Gonis, N. (2024)</ref> “Abbreviations in Late Documents Resolved (III),” APF 70: 141–150.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96571">Harrauer, H. and R. Pintaudi (2021)</ref> “Ein neuer Kompromißvertrag (PL III/1029),” AnalPap 33: 55–65.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/77554">Kovarik, S. (2009)</ref> “Korr. Tyche 629–631: Zur arsinoitischen Agrammatos-Formel,” Tyche 24: 222–223.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/87430">Kovarik, S. (2012)</ref> “Der Brief in der Urkunde. Zur Briefform in spätantiken Verträgen,” in U. Yiftach-Firanko (ed.), Law, State, Society and the Epistolary Format in the Ancient World. Proceedings of a Colloquium held at the American Academy in Rome (28–30.9.2008). Wiesbaden: 201–217.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97353">Kovarik, S. (2019)</ref> “Korr. Tyche 922: P.Ross. Georg. III 53,” Tyche 34: 251.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96142">Kovarik, S. (2020)</ref> “Der herakleopolitische Notar Paulos: Ein Kompromiss aus dem umayyadischen Ägypten — der bisher späteste griechische Vertrag,” Tyche 35: 55–70.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96755">Kovarik, S. (2023)</ref> “The Evolution of the Notarial Signature in Late Antique Egypt. A diachronic comparison of the Middle Egyptian Evidence (Province of Arcadia: Arsinoite, Heracleopolite, Oxyrhynchite),” in A. Ghignoli, M. Boccuzzi, A. Monte, N. Sietis (eds.), Segni, sogni, materie e scrittura dall'Egitto tardoantico all'Europa Carolingia. Roma: 71–118.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96554">Kovarik, S. (2023b)</ref> “A Generous Salter and a Noble Landlady. Two New Contracts from Late Antique Arsinoe in the British Library,” BASP 60: 185–212.</bibl>
+                  <bibl>Kovarik, S. (forthcoming) “Continuity and change in the Notarial practice of Middle Egypt,” in S. Esders, F. Krueger, S. Polla, T.S. Richter, Chr. Wickham (eds.), The 8th Century. Patterns of Transition in Economy and Trade Throughout the Late Antique, Early Medieval and Islamicate Mediterranean in Multidisciplinary Perspectives. Millennium. Berlin – New York.</bibl>
+                  <bibl>Kovarik, S. (forthcoming b) “The minuscule in Greek legal documents from early Arab Egypt: tradition, functionality and deviation,” in: D. Bianconi (ed.), Proceedings of the Conference ‘La corsiva bizantina nei secoli VII-VIII. Articolazioni, sviluppi, contesti’. Roma (forthcoming).</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/79781">Kreuzsaler, C. (2010)</ref> “Die Beurkundung außergerichtlicher Streitbeilegung in den ägyptischen Papyri,” in Ch. Gastgeber (ed.), Quellen zur byzantinischen Rechtspraxis. Aspekte der Textüberlieferung, Paläographie und Diplomatik. Wien: 17–26.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/86328">Kruse, Th. (2013)</ref> “Urkundenreferat 2010,” APF 59: 208–266.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97327">van Minnen, P. (2013)</ref> “Review of S. Gaffino Moeri, S. Gallnö, N. Poget, and P. Schubert, Les Papyrus de Genève; Genève 2010,” BASP 50: 323–326.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/40186">Modrzejewski, J. (1952)</ref> “Private Arbitration in the Law of Greco-Roman Egypt,” JJP 6: 239–256.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/73452">Morelli, F. (2004)</ref> “P.Paramone 16–17. Due sententiae arbitri e una famiglia di affaristi poco onesti,” in J.M.S. Cowey and B. Kramer, Paramone. Editionen und Aufsätze von Mitgliedern des Heidelberger Instituts für Papyrologie zwischen 1982 und 2004. Munich – Leipzig: 174-198.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/77329">Morelli, F. (2008)</ref> “SB XXVI 16222: due patrizi e un Liciniano,” Tyche 23: 139–157.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96272">Sampson, C.M. (2022)</ref> “The David. G. Hogarth Papyri,” Pylon 2: Article 5.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/47131">Schiller, A.A. (1968)</ref> “The Budge Papyrus of Columbia University,” JARCE 7: 79–118.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97352">Simon, D. (1969)</ref> Untersuchungen zum Justinianischen Zivilprozeß (Münchener Beiträge 54). München.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/7767">Steinwenter, A. (1925)</ref> Die Streitbeendigung durch Urteil, Schiedsspruch und Vergleich nach griechischem Rechte (Münchener Beiträge 8). München.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96834">Urbanik, J. (2007)</ref> “Compromesso o processo? Alternativa risoluzione di conflitti e tutela dei diritti nella prassi della tarda antichità,” in E. Cantarella, Symposion 2005. Vorträge zur griechischen und hellenistischen Rechtsgeschichte. Wien: 377-400.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96816">Wojtczak, M. (2016)</ref> “Legal aspects of dispute resolution in Late Antiquity. The case of <emph rend="italics">P.Mich.</emph>XIII 659,” JJP 46: 275–308.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/7792">Ziegler, K.-H. (1971)</ref> Das private Schiedsgericht im antiken römischen Recht (Münchener Beiträge 58). München.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Compromissum</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="filename">1000275</idno>
+               <idno type="TM">1000275</idno>
+               <idno type="ddb-filename">pylon.7.4</idno>
+               <idno type="ddb-hybrid">pylon;7;4</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement>Heidelberg</settlement>
+                     </placeName>
+                     <collection>Institut für Papyrologie</collection>
+                     <idno type="invNo">MS. Gr. Class. e 135 (P)</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <dimensions>
+                                 <width unit="cm">15.6</width>
+                                 <height unit="cm">18.8</height>
+                              </dimensions>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Leukogion (Herakleopolites)</origPlace>
+                        <origDate xml:id="dateAlternativeX" when="0713-03-17">
+                           <certainty locus="value" match="../year-from-date(@when)"/>17. März 713 (Jahr unsicher)</origDate>
+                        <origDate xml:id="dateAlternativeY" when="0728-03-17">
+                           <certainty locus="value" match="../year-from-date(@when)"/>17. März 728 (Jahr unsicher)</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p>
+                           <placeName type="ancient"
+                                 ref="https://pleiades.stoa.org/places/741509 https://www.trismegistos.org/place/1248">Leukogion</placeName>
+                           <placeName type="ancient"
+                                 subtype="nome"
+                                 ref="https://www.trismegistos.org/place/2713 https://pleiades.stoa.org/places/736921">Herakleopolites</placeName>
+                           <placeName type="ancient" subtype="region">Ägypten</placeName>
+                        </p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term>Kompromiß</term>
+                  <term>Urteil</term>
+                  <term>Bußgeld</term>                   
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition">
+               <listBibl>
+                  <bibl type="publication" subtype="principal">
+                     <title level="s" type="abbreviated">Pylon</title>
+                     <biblScope n="1" type="volume">7</biblScope>
+                     <biblScope n="2" type="fascicle">(2025)</biblScope>
+                     <biblScope n="3" type="generic">Art. 4</biblScope>
+                  </bibl>
+               </listBibl>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Compromissum</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.7.4</idno>
+               <idno type="ddb-hybrid">pylon;7;4</idno>
+               <idno type="HGV">1000275</idno>
+               <idno type="TM">1000275</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Compromissum</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab> 
+<lb xml:id="ed1ln1" n="1"/><g type="stauros">†</g> τὸ παρὸν κομ<unclear>π</unclear>ρόμισσον ποιοῦνται πρὸς ἀλλήλους ἑκου<unclear>σ</unclear>ίᾳ
+<lb xml:id="ed1ln2" n="2"/><unclear>γν</unclear>ώμῃ ἐκ μ<supplied reason="lost">ὲ</supplied><unclear>ν</unclear> τοῦ ἑνὸς <choice><reg>μέρους</reg><orig>μέρος</orig></choice> <expan>Πεκύ<ex>σιος</ex></expan> <expan>πρε<ex>σβύτερος</ex></expan> <unclear>υ</unclear><hi rend="diaeresis">ἱ</hi><unclear>ὸ</unclear>ς <unclear>Ν</unclear>ααραoυ
+<lb xml:id="ed1ln3" n="3"/>ἐκ δὲ τοῦ δευτ<unclear>έ</unclear>ρου μέρους Αμπα <choice><reg>υἱὸς</reg><orig>υ<hi rend="diaeresis">ἱ</hi>ῷ</orig></choice> <expan>Νααρ<ex>αo</ex>υ</expan> Πκανεε ἀμφ
+<lb xml:id="ed1ln4" n="4" break="no"/>ότεροι ἀπὸ κώμης Λευκογίο<supplied reason="lost">υ</supplied> τοῦ <expan>Ἡρ<ex>ακλεο</ex>π<ex>ολίτου</ex></expan> <subst><add place="inline"><unclear>ν</unclear>ομοῦ</add><del rend="corrected">πομου</del></subst>. <choice><reg>ἀμφιβολία<supplied reason="lost">ν</supplied></reg><orig>ἀμφιβο<unclear>λ</unclear>εί<unclear>α</unclear><supplied reason="lost">ν</supplied></orig></choice>
+<lb xml:id="ed1ln5" n="5"/><unclear>ἔ</unclear><supplied reason="lost">χ</supplied><unclear>ον</unclear>τ<unclear>ε</unclear><supplied reason="lost">ς</supplied> μετ’ ἀλλήλ<unclear>ω</unclear><supplied reason="lost">ν π</supplied><unclear>ε</unclear><supplied reason="lost">ρί τ</supplied><unclear>ιν</unclear>ων <supplied reason="lost">αὐτῶν κ</supplied><unclear>ε</unclear>
+<lb xml:id="ed1ln6" n="6" break="no"/><supplied reason="lost">φ</supplied>αλαίων καὶ μὴ δ<unclear>υ</unclear><supplied reason="lost">νηθέντ</supplied>ες <supplied reason="lost">δι’ ἑαυτῶν</supplied>
+<lb xml:id="ed1ln7" n="7"/><supplied reason="lost">ἀ</supplied>πα<unclear>λ</unclear>λ<unclear>α</unclear>γῆναι <unclear>ᾑ</unclear><supplied reason="lost">ρέσαν</supplied><unclear>τ</unclear>ο ἑ<supplied reason="lost">κουσίας</supplied>
+<lb xml:id="ed1ln8" n="8"/>αὐτῶν γνώμης <choice><reg>Κοσμᾶν</reg><orig>Κοσμᾶ</orig></choice> υἱὸν Παπᾶ κ<unclear>α</unclear>ὶ <choice><reg>Μηνᾶν</reg><orig>Μην<unclear>ᾶ</unclear></orig></choice>
+<lb xml:id="ed1ln9" n="9"/>υἱὸν Ἀντ<unclear>ω</unclear>νίου ὥστε αὐτοὺς δικαιολογήσασθαι
+<lb xml:id="ed1ln10" n="10"/>αὐτοῖς. τὸ δὲ παραβαῖνον μέρος τὴν διδομένη<unclear>ν</unclear>
+<lb xml:id="ed1ln11" n="11"/>π<unclear>α</unclear>ρ’ αὐτ<unclear>ῶ</unclear>ν δίκην παράσχῃ τῷ ἐμμέν<supplied reason="lost">ο</supplied>ντι ὑπ<unclear>ὲ</unclear>ρ
+<lb xml:id="ed1ln12" n="12"/>προστίμου <expan>χρυ<ex>σοῦ</ex></expan> <expan>νο<ex>μισμάτια</ex></expan> <num value="4">δ</num>. <expan>ἐγρ<ex>άφη</ex></expan> <expan>μ<ex>ηνὶ</ex></expan> <expan>Φαμ<ex>ενω</ex>θ</expan> <num value="21">κα</num> <expan>ἰνδ<ex>ικτίωνος</ex></expan> <num value="11">ια</num>. <g type="stauros">†</g>
+<lb xml:id="ed1ln13" n="13"/><handShift new="m2"/><foreign xml:lang="cop"><g type="stauros">†</g> ⲡⲓϭⲱϣ ⲡⲣⲉⲥⲃⲏⲧⲉⲣⲟⲥ<note><emph rend="italics">i.e.</emph> Greek πρεσβύτερος</note> ⲥⲧⲓⲭⲓⲛ<note><emph rend="italics">i.e.</emph> Greek στοιχεῖν</note> ⲉⲡⲉⲓⲕⲟⲩ<add place="above">ⲛ</add>
+<lb xml:id="ed1ln14" n="14" break="no"/>ⲡⲣⲱⲙⲓⲥⲥⲟⲛ<note>or ⲕⲟⲩⲛ|ⲡⲣⲱⲙⲓⲥⲱⲛ, <emph rend="italics">i.e.</emph> Greek κομπρόμισσον</note></foreign>  
+<lb xml:id="ed1ln15" n="15" rend="indent"/> <app type="alternative"><lem><handShift new="m1"/></lem><rdg><handShift new="m3"/></rdg></app> <g type="stauros">†</g> δι’ ἐμοῦ Ἰωάννου υἱοῦ Φιβ ἐγράφη <g type="stauros">†</g> <g type="stauros">†</g>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Compromissum</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">1000275</idno>
+               <idno type="TM">1000275</idno>
+               <idno type="HGV">1000275</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>
+† On the one side Pekysios, priest, son of Naaraous, and on the other side Sambas (?), son of Naaraous Pkanee, both from the village Leukogion of the Heracleopolite nome, make the present <emph rend="italics">compromissum</emph> with each other of their own free will. Because they have a disagreement with each other about some matters between them and they could not agree among themselves, they chose of their own free will Kosmas, son of Papas, and Menas, son of Antonios, that they should make a judgement for them; the party that does not abide by the judgement they deliver, should hand over as fine to the complying party 4 gold solidi. Written on the 21st of the month of Phamenoth, 11th indiction †. (Coptic) I, Pikosh, priest, I agree with the <emph rend="italics">compromissum</emph>. † Written by me, Ioannes, son of Phib † †.
+</p></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
