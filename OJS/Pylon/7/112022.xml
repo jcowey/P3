@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wohnen im spätantiken Arsinoe: ein neuer Mietvertrag</title>
+            <author>
+               <name>
+                  <forename>Micha</forename>
+                  <surname>Teufel</surname>
+               </name>
+               <affiliation>Universität Wien</affiliation>
+               <email>micha.teufel@univie.ac.at</email>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0009-0006-0589-6768</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2025">2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.7.6</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.7.112022</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">M. Teufel, “Wohnen im spätantiken Arsinoe: ein neuer Mietvertrag,” Pylon 7 (2025) Article 6. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2025.7.112022">https://doi.org/10.48631/pylon.2025.7.112022</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">7</biblScope>
+                     <biblScope unit="article">6</biblScope>
+                     <date when="2025">2025</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>   
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2025-04-08T13:22:57Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">
+               <emph rend="bold">Wohnen im spätantiken Arsinoe: ein neuer Mietvertrag</emph>
+            </titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">Die Edition ist im Rahmen eines Seminars an der Universität Wien entstanden. Ich möchte Sophie Kovarik für ihre vielen hilfreichen Hinweise und ihre umfassende Unterstützung herzlich danken.</note>
+            <div type="introduction">
+               <p xml:id="p1">Ein bisher unedierter Papyrus aus dem 6. Jahrhundert aus der Papyrussammlung der Österreichischen Nationalbibliothek bietet einen weiteren urkundlichen Beleg für das Formular von Mietverträgen aus dem byzantinischen Arsinoe.<note place="foot" xml:id="ftn1" n="1">
+                     <p>
+                        <ref target="https://papyri.info/biblio/21244">Daniel 2010</ref>: 56–63 listet 22 bekannte Mietverträge aus Arsinoe in byzantinischer Zeit Frühere Auflistungen der byzantinischen Mietverträge finden sich in der detailierten Studie zur Misthosis von <ref target="https://papyri.info/biblio/10864">Müller 1985</ref>: 350–361, ergänzt durch <ref target="https://papyri.info/biblio/69093">Gonis 2000</ref>: 191–192 und <ref target="https://papyri.info/biblio/72532">Kruit and Worp 2003</ref>: 50.</p>
+                  </note> Im vorliegenden Mietvertrag werden Räume (τόποι) eines Hauses im Stadtviertel Dionysiu Topon in Arsinoe vermietet. Weitere 19 Mietverträge stammen aus dem Zeitraum des 6.–7. Jahrhunderts. Die Bezeichnung τόπος wird in Mietverträgen für nicht näher spezifizierte Räume von vermutlich geringer Qualität verwendet, die früher möglicherweise als Abstellräume oder Unterkünfte für Sklaven dienten (<ref target="https://papyri.info/biblio/21244">Daniel 2010</ref>: 117–118). Aus byzantinischer Zeit liegt eine Reihe von Belegen für die Unterteilung von größeren Häusern in Subeinheiten vor. So wurden z. B. ehemalige Speisesäle (συμπόσια) als Wohnräume vermietet oder in der ἐξέδρα von Häusern Wände eingezogen, um den Raum permanent zu unterteilen (<ref target="https://papyri.info/biblio/21244">Daniel 2010</ref>: 152–157, 198–201). Finanzieller Druck bewegte die städtische Oberschicht dazu, Teile ihrer großen Wohnhäuser zu vermieten, um Einkommen zu generieren. Hinzu kam das Bevölkerungswachstum und der dementsprechend größere Bedarf an Wohnraum. Ein ähnlicher Trend lässt sich für die Portiken an öffentlichen Gebäuden feststellen, die an Kaufleute vermietet oder an reiche Immobilieneigentümer verkauft wurden. Zuweilen wurden Wohnräumlichkeiten in Häusern nur zur Hälfte vermietet. Ob die Besitzer des Hauses neben den Mietern der Räumlichkeiten gewöhnlich weiterhin im Haus wohnten, lässt sich nicht sicher feststellen.<note place="foot" xml:id="ftn2" n="2">
+                     <p> Vgl. für die historischen Hintergründe der papyrologischen Evidenz <ref target="https://papyri.info/biblio/67817">Saradi 1998</ref>: 30–43.</p>
+                  </note>
+               </p>
+               <p xml:id="p2">Die Lage des Hauses, in dem die Räume gemietet werden, wird durch mehrere Angaben genau bestimmt: Neben der Angabe des Stadtviertels wird beschrieben, nach welcher Himmelsrichtung die Haustüren ausgerichtet sind. Die im Text verwendete Terminologie zur architektonischen Orientierung (ἀνοίγνυμι, βλέπω, βάλλω – jeweils in Verbindung mit Himmelsrichtungen) tritt fast ausschließlich erst ab byzantinischer Zeit auf. Die entsprechenden Texte aus Arsinoe stammen mehrheitlich aus dem 6. und 7. Jahrhundert (<ref target="https://papyri.info/biblio/21244">Daniel 2010</ref>: 56–57, 84–87, 93–94). Türen werden in byzantinischen Urkunden aus Mittelägypten häufiger explizit erwähnt, um Angaben zur räumlichen Orientierung zu machen. Beispiele dafür bieten etwa <ref target="https://papyri.info/hgv/22065">P.Oxy. 16 1966</ref>.14–15 (505, Oxyrhynchos), <ref target="https://papyri.info/hgv/38257">P.Lond. 3 1044</ref>.10 (6. Jh., Hermopolis), <ref target="https://papyri.info/hgv/22757">P. Lond 3 978</ref>.11–12 (331, Hermopolis) und <ref target="https://papyri.info/dclp/65105">T.Varie 15</ref>.21–24 (6.Jh., Kynopolites). Auch <ref target="https://papyri.info/hgv/36140">P.Ross. Georg. 5 39</ref>, ein Lieferungsvertrag aus dem 6. Jahrhundert aus dem Arsinoites gehört möglicherweise zu dieser Liste (<ref target="https://papyri.info/biblio/21244">Daniel 2010</ref>: 62–63 führt die Ergänzung ἄχρι τῆς [θύρας] an). In der byzantinischen Zeit etabliert sich für den Haupteingang die Bezeichnung αὐθεντικὴ θύρα.  <note place="foot" xml:id="ftn3" n="3">
+                     <p>
+                        <ref target="https://papyri.info/biblio/10230">Husson 1983</ref>: 102.</p>
+                  </note> Wenig üblich ist hingegen, dass zusätzlich zur Haupttür auch die Nebentür explizit erwähnt wird, um die Orientierung des Hauses zu beschreiben. Das geschieht z. B. in einem Mietvertrag aus Herakleopolis, in dem ein sehr ähnliches Formular wie im vorliegenden Text verwendet wird: ἐν δυσὶ θύραις, μιᾷ [μὲν] αὐθεντικ(ῇ) εἰς λ[ί]β̣α, τῇ δὲ ἄλλῃ πλαγίᾳ εἰς ἀπηλ(ιώ)τ(ην) (<ref target="https://papyri.info/hgv/19058">SB 6 9462</ref>.6–7, Mitte 7. Jh.). Alternativ zum Begriff πλαγία für die Nebentür existiert noch die Bezeichnung παράθυρος (<ref target="https://papyri.info/hgv/36530">P.Cair. Masp. 3 67313</ref>.56, 6. Jh.; <ref target="https://papyri.info/hgv/316240">P.Petra 2 17</ref>.205, ca. 505–537).</p>
+               <p xml:id="p3">Das Mietobjekt befindet sich im Stadtviertel Dionysiu Topon (<ref target="http://www.trismegistos.org/place/569">TM Geo 569</ref>). Interessant ist an der Urkunde, dass für das Stadtviertel ein Aliasname angegeben wird. Von diesem ist nur die Endung erhalten (eine Oberlänge und danach ein Sigma). Der bisher späteste bekannte Beleg für das Stadtviertel Dionysiu Topon stammt aus dem Jahr 305 (<ref target="https://papyri.info/hgv/13075">P.Sakaon 59</ref>). In einer Quittung aus dem Jahr 578 aus Arsinoe (<ref target="https://papyri.info/hgv/41034">BGU 3 838</ref>.13) erscheint das Stadtviertel Dionysiu Sebastes (Διονυσίου Σεβαστῆς,  <ref target="http://www.trismegistos.org/place/12385">TM Geo 12385</ref>), das auch in einem unedierten Papyrus aus dem Jahr 608 (Liv. 30.8.78.72) erwähnt wird. Die Größe der Lücke und die erhaltenen Buchstabenreste passen sehr gut zur Ergänzung Διονυσίου Τ̣ό̣πων ἤτοι [Σεβαστ]ῆ̣ς (s. Zeilenkommentar). Die vorliegende Urkunde erweist sich somit als Bindeglied zwischen den beiden bekannten Namen und bestätigt, dass es sich dabei um dasselbe Stadtviertel in Arsinoe handelt. Die Urkunde dokumentiert mutmaßlich die Zeit im 6. Jh. (vor 578), in der sich der Name zu wandeln beginnt und deshalb beide Versionen angegeben werden. </p>
+               <p xml:id="p4">Der Wiener Papyrus ist mittelbraun und nur am rechten Rand erhalten, die übrigen Ränder sind ausgebrochen. Der Papyrus weist Wurmfraßlöcher auf und ist mit schwarzer Rußtinte entlang der Faser beschrieben. Die regelmäßige, charakteristische Schriftführung ist sehr gerade und eng, auffällig sind die spitzen Ypsila. Die vorliegende Urkunde kann paläographisch in das 6. Jh. datiert werden. Die Schrift von <ref target="https://papyri.info/hgv/40957">P.Rainer Cent. 112</ref> (509, Arsinoe) weist z.B. ebenfalls das charakteristische spitze Ypsilon und das eng geführte Eta auf. Ebenso gleicht sich die Epsilon-Iota-Ligatur. Die Schreibweise des Beta ist auffällig, da es oben beinahe geschlossen ist und Ähnlichkeiten mit einem Omikron aufweist. Der Papyrus weist vermutlich drei Faltungen auf. Ein ursprünglich loses Fragment konnte am oberen rechten Rand aufgrund der Verbindung eines Buchstabens (Rho) mit seiner Unterlänge nach konservatorischer Behandlung genau platziert werden. Das Verso ist unbeschriftet.</p>
+               <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="http://data.onb.ac.at/rec/RZ00056717">P.Vindob. G 20941</ref>
+                     </cell>
+                     <cell style="text-align: left;">11,2 (H) × 19,3 (B)</cell>
+                     <cell style="text-align: right;">Arsinoe</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: right;">6. Jh.</cell>
+                  </row>
+               </table>
+            </div>
+            <figure>
+               <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23964915"/>
+                  <head>Fig. 1: P.Vindob. G 20941 recto.</head>
+            </figure>
+            <figure>
+               <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23964917"/>
+                  <head>Fig. 1: P.Vindob. G 20941 verso.</head>
+            </figure>
+            <div type="epidoc" subtype="DDB">
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <note target="ed1ln2">
+                     <ref>2</ref>
+                     <p xml:id="p5"> ]ς Ἀθ[αν]ασι[: Die Angabe bezieht sich vermutlich auf den Vater oder die Mutter des Vermieters bzw. der Vermieterin. Der im Dativ stehende Name der vermietenden Person ist nicht erhalten. Sowohl die vermietende Person als auch deren Elternteil könnten zusätzlich ein Rangprädikat tragen. Falls der Elternteil über keinen Rang verfügte, wäre es möglich υἱῷ/θυγατρὶ τοῦ τῆς μακαρίας [μνήμη]ς Ἀθ[αν]ασί[ου] aufzulösen („Sohn/Tochter des Athanasios seligen Angedenkens“). Neben der Nennung des Vaters wäre auch die Angabe der Mutter möglich: [μητρὸ]ς Ἀθ[αν]ασί[ας]. Die Vatersangabe ist wahrscheinlicher, da sie in spätantiken Vertragsurkunden häufiger belegt ist.   </p>
+                  </note>
+                  <note target="ed1ln4">
+                     <ref>4</ref>
+                     <p xml:id="p6"> [ἑξῆς ὑπογράφων ἰ]δίᾳ χ[ειρὶ]: „unten mit eigener Hand unterschreibend“. Der Mieter oder die Mieterin (im Nominativ) konnte schreiben, was in den späten Urkunden eher selten der Fall ist und möglicherweise Rückschlüsse auf Beruf oder Status zulässt. Wenn es sich um eine schriftkundige Mieterin handelt, was möglich, jedoch seltener ist, wäre ὑπογράφουσα zu ergänzen. Das Geschlecht der mietenden Person ist nicht eindeutig festzumachen, da einige wenige Belege auch schriftkundige Frauen in Urkunden bezeugen ( <ref target="https://papyri.info/hgv/35821">P.Prag. 1 42</ref>.11, <ref target="https://papyri.info/hgv/15685">P.Vat. Aphrod. 14</ref>.5, <ref target="https://papyri.info/hgv/38388">SB 1 6000</ref>.2).</p>
+                     <p xml:id="p7">ὁμ̣[ο]λ̣ογῶ: Das nicht erhaltene Omikron könnte mit einer Schleife, die das My und den unteren Teil des Lambda verbindet, geschrieben worden sein (wie <ref target="https://papyri.info/hgv/41001">SPP 20 139</ref>.6, Darlehensvertrag aus Arsinoe aus dem Jahr 531). Möglich ist auch, dass das My in Ligatur mit dem Lambda steht und das Omikron dazwischen ausfällt (wie in <ref target="https://papyri.info/hgv/40961">CPR 8 61</ref>.10, Mietvertrag aus Arsinoe aus dem Jahr 542). Wie in der vorliegenden Urkunde befindet sich in arsinoitischen Papyri aus dem 6. Jh. im initialen Omikron des ὁμολογῶ häufig ein Punkt (gehäuft scheint dies im Zeitraum 520<emph rend="bold">–</emph>580 vorzukommen).</p>
+                  </note>
+                  <note target="ed1ln5">
+                     <ref>5</ref>
+                     <p xml:id="p8"> οἰκίας μεγάλης: Wie beim μ von ἀνεῳγμένον in Z.8 wird auch hier zuerst die Haste geschrieben und dann der Bauch angehängt. Die Bezeichnung μεγάλη οἰκία zur Beschreibung von Häusern ist in Mittelägypten in byzantinischer Zeit mehrfach dokumentiert (vgl.  <ref target="https://papyri.info/hgv/8868">P.Grenf. 2 83</ref>.4, <ref target="https://papyri.info/hgv/22100">P.Oxy. 16 2015</ref>.2), u.a. in einem Mietvertrag aus dem 6. Jh. (<ref target="https://papyri.info/hgv/16138">BGU 12 2202</ref>.13).</p>
+                     <p xml:id="p9">καλουμέν̣ης Ψαείου: Die Praxis, Häuser mit Eigennamen zu bezeichnen, ist mehrfach belegt. Beispiele bietet <ref target="https://papyri.info/biblio/21244">Daniel 2010</ref>: 179 Anm. 11. Der Name Psaeios (<ref target="http://www.trismegistos.org/namvar/15407">TM NamVar 15407</ref>), eine Variation des ägyptischen Namens Psais (<ref target="http://www.trismegistos.org/name/949">TM Nam 949</ref>), erscheint in Ägypten im 5. und 6. Jh. in den Papyri.</p>
+                  </note>
+                  <note target="ed1ln6–7">
+                     <ref>6–7</ref>
+                     <p xml:id="p10"> Διονυσίου Τόπων ἤτοι | [Σεβαστ]ῆ̣ς: Manche Stadtviertel in Arsinoe sind nur in römischer Zeit belegt, während andere erst ab byzantinischer bzw. früharabischer Zeit erscheinen (  <ref target="https://papyri.info/biblio/73739">Worp 2004</ref>: 244). Für dasselbe Stadtviertel hat sich also eine neue Bezeichnung etabliert.</p>
+                     <p xml:id="p11">Belegt ist dieser Vorgang für Ταμείων, dessen neuer Aliasname Κατωτέρου ab dem Ende des 6. Jh. auftritt (Ταμείων ἤτοι Κατωτέρου, z. B.  <ref target="https://papyri.info/hgv/78212">P.Eirene 2 29</ref>.13–14). Der Aliasname endet in einem Sigma. Der Buchstabe davor hat eine Oberlänge. Der erhaltene Rest weist auf ein Eta hin, wofür auch die übrigen Beispiele einer Eta-Sigma-Kombination in der Urkunde sprechen (vgl. z. B. [διακειμ]έ̣νης in Z. 6). Auch die Länge der Lücke (ca. 6 Buchstaben fehlen) passt sehr gut zur Ergänzung [Σεβαστ]ῆ̣ς. In <ref target="https://papyri.info/hgv/41034">BGU 3 838</ref>.13 wird im Text zwar Διονυσίου Σεβαστη- gelesen, beim letzten Buchstaben handelt es sich aber um ein abgeriebenes Sigma (wie von Wilcken schon im Zeilenkommentar erwogen). Der Name wird durch einen unedierten Liverpooler Papyrus (Liv. 30.8.78.72) bestätigt. Andere bekannte Namen für Stadtviertel scheiden aus: Μοήρεως und Παρεμβολῆς sind schon in römischer Zeit mehrfach belegt. Das Stadtviertel Περσέας ( <ref target="http://www.trismegistos.org/place/1702">TM Geo 1702</ref>) erscheint erst ab dem 6. Jh. in den Papyri (<ref target="https://papyri.info/hgv/41334">SB 1 4753</ref>.5). Die Alpha-Sigma-Kombination am Ende eines Wortes wird in der vorliegenden Urkunde aber anders geschrieben (vgl. οἰκίας in Z. 5 und πλαγίας in Z. 8). <ref target="https://papyri.info/biblio/97229">Wessely 1902</ref>: 25 wies Διονυσίου Σεβαστῆς bereits Διονυσίου Τόπων zu,   <ref target="https://papyri.info/biblio/16854">Alston (2002)</ref>, 383 lehnte dies ab. Wesselys Vermutung wird durch die vorliegende Urkunde bestätigt. </p>
+                  </note>
+                  <note target="ed1ln7">
+                     <ref>7</ref>
+                     <p xml:id="p12"> ἐν δυσεὶ θύραις τῆς μὲν αὐθεντικῆς βλεπούσης: βλέπω bezieht sich gewöhnlich auf die Sicht, die Fenster bieten, und nicht auf Türen (    <ref target="https://papyri.info/biblio/21244">Daniel 2010</ref>: 89). Für die Ausrichtung von Türen ist βλέπω sonst nur in einem magischen Text belegt (<ref target="https://papyri.info/dclp/64446">Pap.Graec.Mag. 13</ref>.8). Dort wird beschrieben, dass man für eine Zauberhandlung ein Zimmer aufsuchen soll, dessen Tür nach Westen ausgerichtet ist (ἔστω δὲ ἡ θύρα πρὸς δυσμὰς βλέπουσα). Möglicherweise ist die Verwendung in der vorliegenden Urkunde darauf zurückzuführen, dass eine Eingangstür anstatt einer Tür im Haus beschrieben wird.  </p>
+                  </note>
+                  <note target="ed1ln8">
+                     <ref>8</ref>
+                     <p xml:id="p13"> [εἰς βορρᾶ]: Häuser in Arsinoe sind (orientiert an der Ausrichtung ihrer Haupttür) gewöhnlich Richtung Norden oder Westen ausgerichtet (vgl. die Übersicht bei <ref target="https://papyri.info/biblio/21244">Daniel 2010</ref>: 96–97). Da die Nebentür bereits Richtung Westen ausgerichtet ist und die Länge der Lücke exakt passt, ist die Ergänzung plausibel. </p>
+                  </note>
+                  <note target="ed1ln9">
+                     <ref>9</ref>
+                     <p xml:id="p14"> ]ν̣τα ἄλλου τ̣[ό]που: Vermutlich handelt es sich bei ]ν̣τα um eine Partizipialendung. Diese erklärt jedoch den folgenden Genitiv nicht. Möglich wäre ὄντα. νεύοντα kann nicht gänzlich ausgeschlossen werden, das Partizip wird jedoch gewöhnlich in Verbindung mit Himmelsrichtungen verwendet und ist im Arsinoites nicht üblich. </p>
+                     <p xml:id="p15">διαφερόντων σοι καὶ ἁρμοττόντων: WB 1 214 vermerkt für ἁρμόττειν „passend sein“, in einem konkreten Beispiel passend bzw. übereinstimmend mit dem Eigentumsrecht (κατὰ πᾶν ἐκ νόμων ἁρμόττον προπριαιταρίας δίκαιον, <ref target="https://papyri.info/hgv/18905">P.Cair. Masp. 2 67151</ref>.150; 6. Jh.). Die Kombination mit διαφέρειν in einer Phrase scheint in der papyrologischen Evidenz singulär zu sein. Über dem Omega von ἁρμοτ'τόντων steht ein supralinearer Buchstabe, der vermutlich ein Alpha ist.</p>
+                  </note>
+                  <note target="ed1ln10">
+                     <ref>10</ref>
+                     <p xml:id="p16"> ]υπε  ̣  ̣  ̣  ̣ε[  ̣  ̣]  ̣ χρη̣[στ]η̣[ρ]ί̣ω̣ν: χρηστηρίων πάντων, „sämtliches Zubehör“, ist in Mittelägypten im 6. Jh. in Mietverträgen gehäuft belegt (vgl. <ref target="https://papyri.info/hgv/41056">BGU 1 305</ref>.16–17, <ref target="https://papyri.info/hgv/40961">CPR 8 61</ref>.16–17, <ref target="https://papyri.info/hgv/41298">P.Bodl. 1 36</ref>.14, <ref target="https://papyri.info/hgv/971702">BASP 58 157</ref>.19). Davor steht möglicherweise ὑπερῴου, „(Zimmer im) Obergeschoss“, das in <ref target="https://papyri.info/hgv/44545">P.Bingen 130</ref>.7 mit χρηστηρίων verbunden ist. Der geringe Platz bis zur folgenden Oberlänge ist bei dieser Lesung aber problematisch. </p>
+                  </note>
+               </div>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/16854">Alston, R. (2002)</ref> The City in Roman and Byzantine Egypt. London.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/21244">Daniel, R.W. (2010)</ref> Architectural Orientation in the Papyri (Papyrologica Coloniensia 34). Paderborn.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/69093">Gonis, N. (2000)</ref> “P. Oxy. XVI 1964: A Lease of a Room from Byzantine Oxyrhynchus,” ZPE 132: 189–192.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/10230">Husson, G. (1983)</ref> Oikia. Le vocabulaire de la maison privée en Égypte d'après les papyrus grecs. Paris.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/72532">Kruit, N. and Worp, K.A. (2003)</ref> “Eine Hausmiete aus der Zeit des Kaisers Mauricius,” Tyche 18: 47–53. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/10864">Müller, H. (1985)</ref> Untersuchungen zur "misthosis" von Gebäuden im Recht der gräko-ägyptischen Papyri (Erlanger Juristische Abhandlungen 33). Köln et al.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/67817">Saradi, H. (1998)</ref> “Privatization and Subdivision in the Early Byzantine Centuries. Social and Cultural Implications,” BASP 35: 30–43.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97229">Wessely, C. (1902)</ref> Die Stadt Arsinoë (Krokodilopolis) in griechischer Zeit. Wien.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/73739">Worp, K.A. (2004)</ref> “Town Quarters in Greek, Roman, Byzantine and Early Arab Egypt,” in P.M. Sijpesteijn und L. Sundelin (Hrsg.), Papyrology and the History of Early Islamic Egypt (2004). Leiden: 227–248.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Wohnen im spätantiken Arsinoe: ein neuer Mietvertrag</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">1000278</idno>
+               <idno type="HGV">1000278</idno>
+               <idno type="ddb-filename">pylon.7.7</idno>
+               <idno type="ddb-hybrid">pylon;7;7</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement/>
+                     </placeName>
+                     <collection/>
+                     <idno type="invNo">P.Vindob. G 20941</idno>
+                  </msIdentifier>
+                  <history>
+                     <origin>
+                        <origPlace>Arsinoiton Polis</origPlace>
+                        <origDate notBefore="0501" notAfter="0600" precision="low">VI</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p>
+                           <placeName type="ancient"
+                                      ref="https://pleiades.stoa.org/places/736948 https://www.trismegistos.org/place/327">Arsinoiton Polis</placeName>
+                           <placeName type="ancient"
+                                      subtype="nome"
+                                      ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                           <placeName type="ancient" subtype="region">Ägypten</placeName>
+                        </p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term>Vertrag</term>
+                  <term>Miete</term>
+                  <term>Haus</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.7.7</idno>
+               <idno type="ddb-hybrid">pylon;7;7</idno>
+               <idno type="TM">1000278</idno>
+               <idno type="HGV">1000278</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                                Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb xml:id="ed1ln1" n="1"/><gap reason="lost" quantity="39" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="13" unit="character" precision="low"/>
+<lb xml:id="ed1ln2" n="2"/><gap reason="lost" quantity="39" unit="character" precision="low"/>ς Ἀθ<supplied reason="lost">αν</supplied>ασι<gap reason="lost" quantity="6" unit="character" precision="low"/>
+<lb xml:id="ed1ln3" n="3"/><gap reason="lost" quantity="17" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/><supplied reason="lost"><gap reason="illegible" quantity="5" unit="character" precision="low"/> </supplied><unclear>σ</unclear><gap reason="lost" quantity="5" unit="character" precision="low"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="3" unit="character"/><unclear>σ</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/> <supplied reason="lost">ἀπὸ</supplied> <unclear>τ</unclear>ῆς <supplied reason="lost">αὐτ</supplied>ῆς πόλ<supplied reason="lost">εως</supplied>
+<lb xml:id="ed1ln4" n="4"/><supplied reason="lost">ἑξῆς ὑπογράφων ἰ</supplied>δίᾳ χ<supplied reason="lost">ειρὶ</supplied> <expan>χ<ex>αίρειν</ex></expan>. ὁ<unclear>μ</unclear><supplied reason="lost">ο</supplied><unclear>λ</unclear>ογῶ <supplied reason="lost">μ</supplied><unclear>εμ</unclear><supplied reason="lost">ι</supplied>σ<supplied reason="lost">θῶ</supplied>σθαι <unclear>π</unclear>αρὰ <unclear>σ</unclear><supplied reason="lost">οῦ</supplied>
+<lb xml:id="ed1ln5" n="5"/><supplied reason="lost">ἀπὸ τοῦ δι</supplied><unclear>α</unclear>φέροντός σοι μ<unclear>έ</unclear>ρους οἰκίας <unclear>μ</unclear>ε<unclear>γά</unclear>λης καλουμέ<unclear>ν</unclear>ης Ψαείου
+<lb xml:id="ed1ln6" n="6"/><supplied reason="lost">διακειμ</supplied><unclear>έ</unclear>νης ἐπὶ τῆσδ<unclear>ε</unclear> τῆς πόλεως ἐπ’ ἀμφόδου Διονυσίου <unclear>Τό</unclear>πων ἤτοι
+<lb xml:id="ed1ln7" n="7"/><supplied reason="lost">Σεβαστ</supplied><unclear>ῆ</unclear>ς ἀνεῳγμένης ἐν <choice><reg>δυσὶ</reg><orig>δυσεὶ</orig></choice> θύραις τῆς μὲν αὐθεντικῆς βλεπούσης
+<lb xml:id="ed1ln8" n="8"/><supplied reason="lost">εἰς βορρᾶ τ</supplied><unclear>ῆ</unclear><supplied reason="lost">ς δ</supplied>ὲ πλαγίας <supplied reason="lost">εἰ</supplied><unclear>ς</unclear> λίβα τόπο<unclear>ν</unclear> ἕ<unclear>να</unclear> ἀνεῳγμένον εἰς λίβα
+<lb xml:id="ed1ln9" n="9"/><gap reason="lost" quantity="12" unit="character" precision="low"/><unclear>ν</unclear>τα ἄλ<g type="apostrophe"/>λου<note>ἄλ’λου papyrus</note> <unclear>τ</unclear><supplied reason="lost">ό</supplied>που σὺν τῶν διαφερόντων σοι καὶ ἁρμοτ<g type="apostrophe"/>τόντων<note>ἁρμοτ’τόντων papyrus</note> 
+<lb xml:id="ed1ln10" n="10"/><supplied reason="lost"><gap reason="illegible" quantity="14" unit="character" precision="low"/> </supplied>υπε<gap reason="illegible" quantity="4" unit="character"/>ε<gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> χρ<unclear>η</unclear><supplied reason="lost">στ</supplied><unclear>η</unclear><supplied reason="lost">ρ</supplied><unclear>ίω</unclear>ν <gap reason="lost" quantity="9" unit="character"/><unclear>η</unclear><gap reason="illegible" quantity="1" unit="character"/><unclear>η</unclear><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="11"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main"/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">1000278</idno>
+               <idno type="TM">1000278</idno>
+               <idno type="HGV">1000278</idno>
+               <idno type="ddb-hybrid">pylon;7;7</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                            a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>
+„[– – –] aus derselben Stadt, unten mit eigener Hand unterschreibend, Grüße. Ich stimme zu, dass ich von dir Teile des dir gehörigen Hauses, das ,des Psaeios‘ genannt wird, gemietet habe, das sich in der eben genannten Stadt, im Stadtviertel Dionysiu Topon, auch genannt Dionysiu Sebastes, befindet, mit zwei Türen, die Haupttür geöffnet nach Norden, die Nebentür geöffnet nach Westen, einen Raum geöffnet nach Westen [– – –] eines anderen Raums mit dem dir gehörenden und passenden [– – –] Zubehör [– – –]“.
+</p></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
