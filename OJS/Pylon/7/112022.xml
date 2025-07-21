@@ -192,8 +192,8 @@
                <authority>Papyri.info</authority>
                <idno type="TM">1000278</idno>
                <idno type="filename">1000278</idno>
-               <idno type="ddb-filename">pylon.7.7</idno>
-               <idno type="ddb-hybrid">pylon;7;7</idno>
+               <idno type="ddb-filename">pylon.7.6</idno>
+               <idno type="ddb-hybrid">pylon;7;6</idno>
             </publicationStmt>
             <sourceDesc>
                <msDesc>
@@ -259,8 +259,8 @@
             </titleStmt>
             <publicationStmt>
                <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
-               <idno type="filename">pylon.7.7</idno>
-               <idno type="ddb-hybrid">pylon;7;7</idno>
+               <idno type="filename">pylon.7.6</idno>
+               <idno type="ddb-hybrid">pylon;7;6</idno>
                <idno type="TM">1000278</idno>
                <idno type="HGV">1000278</idno>
                <availability>
@@ -313,7 +313,7 @@
                <idno type="filename">1000278</idno>
                <idno type="TM">1000278</idno>
                <idno type="HGV">1000278</idno>
-               <idno type="ddb-hybrid">pylon;7;7</idno>
+               <idno type="ddb-hybrid">pylon;7;6</idno>
                <availability>
                   <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
                             a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
