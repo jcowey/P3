@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en">An Arabic Private Letter from the Eighth Century</title>
+                <title>An Arabic Private Letter from the Eighth Century</title>
                 <author>
                     <name>
                         <forename>Lajos</forename>
@@ -143,8 +143,10 @@
                 </titleStmt>
                 <publicationStmt>
                     <authority>Papyri.info</authority>
-                    <idno type="TM">704976</idno>
-                    <idno type="HGV">704976</idno>
+                    <idno type="filename">704976</idno>
+                    <idno type="TM">704976</idno>                    
+                    <idno type="ddb-hybrid">pylon;7;3</idno>
+                    <idno type="ddb-filename">pylon.7.3</idno>
                 </publicationStmt>
                 <sourceDesc>
                     <msDesc>
@@ -167,11 +169,12 @@
                         </physDesc>
                         <history>
                             <origin>
-                                <origDate>8th century</origDate>
+                                <origPlace>Arsinoites</origPlace>
+                                <origDate notBefore="0701" notAfter="0800" precision="low">VIII</origDate>
                             </origin>
                             <provenance type="located">
                                 <p>
-                                    <placeName n="1">Arsinoites</placeName>
+                                    <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
                                 </p>
                             </provenance>
                         </history>
@@ -201,7 +204,16 @@
         </teiHeader>
         <text>
             <body>
-                <div type="bibliography" subtype="principalEdition"/>
+                <div type="bibliography" subtype="principalEdition">
+                    <listBibl>
+                        <bibl type="publication" subtype="principal">
+                            <title level="s" type="abbreviated">Pylon</title>
+                            <biblScope n="1" type="volume">7</biblScope>
+                            <biblScope n="2" type="fascicle">(2025)</biblScope>
+                            <biblScope n="3" type="generic">Art. 3</biblScope>
+                        </bibl>
+                    </listBibl>
+                </div>
             </body>
         </text>
     </TEI>
@@ -213,8 +225,8 @@
                 </titleStmt>
                 <publicationStmt>
                     <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
-                    <idno type="filename"/>
-                    <idno type="ddb-hybrid"/>
+                    <idno type="filename">pylon.7.3</idno>
+                    <idno type="ddb-hybrid">pylon;7;3</idno>
                     <idno type="HGV">704976</idno>
                     <idno type="TM">704976</idno>
                     <availability>
@@ -279,6 +291,7 @@
                     <idno type="filename">704976</idno>
                     <idno type="TM">704976</idno>
                     <idno type="HGV">704976</idno>
+                    <idno type="ddb-hybrid">pylon;7;3</idno>
                     <availability>
                         <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
                             a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>

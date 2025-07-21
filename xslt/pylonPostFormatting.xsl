@@ -24,7 +24,8 @@
     -->
 
         <!--NB: confirm location of the output folder on the local directory tree for xsl:result-document-->
-        <xsl:result-document href="../../../../../GitHub/papyri/idp.data/Biblio/97/{$biblio}.xml" method="xml">
+        <xsl:variable name="outputFolder" select="xs:integer($biblio div 1000) + 1"/>
+        <xsl:result-document href="../../../../../GitHub/papyri/idp.data/Biblio/{$outputFolder}/{$biblio}.xml" method="xml">    
                 <bibl type="article" subtype="journal">
                     <xsl:attribute name="xml:lang">
                         <xsl:value-of select="/TEI/@xml:lang"/>
@@ -130,9 +131,12 @@
                                     </xsl:otherwise>
                                     </xsl:choose>
                                 </title>
-                                <biblScope type="vol">
-                                    <xsl:number value="./descendant::idno[@type = 'dclp-hybrid']/(tokenize(., ';'))[2]"/>
-                                </biblScope>
+                                <xsl:variable name="secondToken" select="tokenize(./descendant::idno[@type = 'dclp-hybrid'], ';')[2]" />
+                                <xsl:if test="normalize-space($secondToken)">
+                                    <biblScope type="vol">
+                                        <xsl:number value="$secondToken"/>
+                                    </biblScope>
+                                </xsl:if>
                                 <biblScope type="num">
                                     <xsl:choose>
                                         <xsl:when test="contains(./descendant::idno[@type = 'dclp-hybrid'], '_')">

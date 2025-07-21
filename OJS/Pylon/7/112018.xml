@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -37,6 +37,7 @@
             </availability>
             <idno ana="hc:PrivateIdentifier">pylon.7.2</idno>
             <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.7.112018</idno>
+            <idno ana="hc:PrivateIdentifier">97404</idno>
          </publicationStmt>
          <sourceDesc>
             <bibl ana="hc:RecommendedBibliographicReference">C.M. Sampson, “More on the Homeric Papyri from Karanis,” Pylon 7 (2025) Article 2. DOI: <ref ana="hc:URLReference"
