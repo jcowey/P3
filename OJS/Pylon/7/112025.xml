@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Arabic Documents from the Staatsbibliothek in Hamburg I: Two Acknowledgements of Debt for Seed Advances (P.Hamb.Arab. Inv. 80-81)</title>
+            <author>
+               <name>
+                  <forename>Naïm</forename>
+                  <surname>Vanthieghem</surname>
+               </name>
+               <affiliation>CNRS Délégation Paris B: Paris, Île-de-France</affiliation>
+               <email>nvthiegh@gmail.com</email>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0002-1380-5153</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2025">2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.7.9</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.7.112025</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">N. Vanthieghem, “Arabic Documents from the Staatsbibliothek in Hamburg I: Two Acknowledgements of Debt for Seed Advances (P.Hamb.Arab. Inv. 80-81),” Pylon 7 (2025) Article 9. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2025.7.112025">https://doi.org/10.48631/pylon.2025.7.112025</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">7</biblScope>
+                     <biblScope unit="article">9</biblScope>
+                     <date when="2025">2025</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2025-07-06T18:11:03Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Arabic Documents from the Staatsbibliothek in Hamburg I: Two Acknowledgements of Debt for Seed Advances (P.Hamb.Arab. Inv. 80-81) </titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <div type="introduction">
+               <p xml:id="p1">The Staatsbibliothek in Hamburg holds a modest collection of Arabic papyri, acquired between 1910 and 1912 through the Deutsches Papyruskartell at the initiative of C.H. Becker, a papyrologist and Arabist who was then a professor at the city’s Colonial Institute.<note place="foot" xml:id="ftn1" n="1">
+                     <p><ref target="https://papyri.info/biblio/97368">Tillier and Vanthieghem 2024</ref>: 7–8.</p>
+                  </note> Of the 135 pieces mounted under glass by the skilled restorer H. Ibscher—many more remain in the institution’s archives—roughly half were published by A. Dietrich in two volumes, released in 1937 and 1955, respectively.<note place="foot" xml:id="ftn2" n="2">
+                     <p><ref target="https://papyri.info/biblio/97361">Dietrich 1955</ref>.</p>
+                  </note> Dietrich also authored an article featuring a fascinating Mamluk-era marriage contract written on silk.<note place="foot" xml:id="ftn3" n="3">
+                     <p><ref target="https://papyri.info/biblio/97363">Dietrich 1952</ref>.</p>
+                  </note> With the exception of the recent publication of 14 bifolios of papyrus containing nearly the entire text of Surah II of the Qur’an<note place="foot" xml:id="ftn4" n="4">
+                     <p> This text was the subject of an edition and study in <ref target="https://papyri.info/biblio/97368">Tillier and Vanthieghem 2024</ref>.</p>
+                  </note>—commonly known as the Surah of the Cow—the collection has received limited attention from papyrologists.<note place="foot" xml:id="ftn5" n="5">
+                     <p> E. Grob appears to be the only one who conducted on-site research to examine some of the letters discussed in her dissertation, for which she also reproduces images. See, in particular, <ref target="https://papyri.info/biblio/97228">Grob 2010</ref>: 165, 167, 175, 180 et 190.</p>
+                  </note> During a visit to Hamburg in March 2010, I had the opportunity to examine the unpublished materials in this collection and uncovered several particularly noteworthy pieces, some of which are now in press.<note place="foot" xml:id="ftn6" n="6">
+                     <p> P.Hamb.Ar. Inv. 42 (<emph rend="italics">amān</emph>), P.Hamb.Ar. Inv. 77 (fiscal register) and P.Hamb.Ar. Inv. 83 (<emph rend="italics">amān</emph>) will appear in N. Vanthieghem, “Letters of protection (<emph rend="italics">amāns</emph>) from the Fatimid period,” and in <ref target="https://papyri.info/biblio/97367">Tillier and Vanthieghem 2025</ref>.</p>
+                  </note>
+               </p>
+               <p xml:id="p2">This article presents the edition of two debt acknowledgments from the Fatimid period preserved in this collection (P.Hamb.Ar. Inv. 80 and 81). Determining their provenance would have been impossible were it not for one of the witnesses, a certain ǦJamāʿa, whose family name is not mentioned. In document <emph rend="bold">2</emph>, he is identified as the preacher (<emph rend="italics">ḫkhaṭīb</emph>) of Ṭuṭūn, a village in southern Fayyum located on the Baḥr Tanabṭawayh, where other pieces from Hamburg’s collection were also found. <note place="foot" xml:id="ftn7" n="7">
+                     <p> On the provenance of the Hambourg papyrus collection, see <ref target="https://papyri.info/biblio/97368">Tillier and Vanthieghem 2024</ref>: 8–9. Beyond the documents cited in this book as originating from Ṭuṭūn, the documents P. Hamb. Inv. 42, 77, and 83 can now also be noted as coming from the same village.</p>
+                  </note>
+               </p>
+            </div>
+            <div type="section">
+               <head>
+                  <emph rend="bold">Layout, Script, and Formulary</emph>
+               </head>
+               <p xml:id="p3">The two documents exhibit similar formal and formulary features. From a formal perspective, both are written on sheets of what appears to be laid paper, identifiable by faint parallel laid lines running vertically relative to the text. These sheets were cut from an old — most likely the same — accounting ledger. Traces of writing in the left and right margins of the debt acknowledgments suggest that the original ledger was likely written on both recto and verso, at least in part. This implies that the entries were initially recorded in an oblong kind of <emph rend="italics">codex</emph> of the <emph rend="italics">daftar</emph> type, a format well-documented in Fatimid accounting practices, but still insufficiently studied and in need of systematic scholarly analysis. The reused ledger appears to have recorded receipts and expenses of grains, legumes, and other agricultural produce from a village and its surrounding area (<emph rend="italics">nāḥiya</emph>), though the village name is not specified—given the mention of the village of Ṭuṭūn in document <emph rend="bold">2</emph>, it is possible that the surrounding area refers to this location. The preserved portion of this ledger lists in sequence beans (<emph rend="italics">fūl</emph>), wheat (<emph rend="italics">qamḥ</emph>), and barley (<emph rend="italics">shaʿīr</emph>), all quantified in sacks (<emph rend="italics">tillīs</emph>). These items were either distributed as seed advances (<emph rend="italics">taqwiya</emph>), a matter that will be explored later in this article, or sold (<emph rend="italics">mabīʿ</emph>).<note place="foot" xml:id="ftn8" n="8">
+                     <p> An edition of the remaining portions of this ledger will be published separately in a forthcoming issue of this journal.</p>
+                  </note>
+               </p>
+               <p xml:id="p4">The main body of both documents was written in black ink by the same hand. This handwriting, marked by frequent abusive ligatures and graphic simplifications, reflects the work of a skilled and experienced scribe. In contrast, the two witness statements were added by a different hand, that of Nahār b. ǦJamāʿa, the preacher ( <emph rend="italics">ḫkhaṭīb</emph>) of Ṭuṭūn. This second hand, equally skilled as the main scribe, used ink of a different composition, which has since faded to a reddish hue. Notably, while the primary scribe employed diacritical marks sparingly, the second hand omitted them altogether.</p>
+               <p xml:id="p5">The formularies of the two documents are nearly identical. Following the religious invocation (<emph rend="italics">basmala</emph>), the text begins with the verb <emph rend="italics">aqarra</emph>, commonly used at the start of debt acknowledgments from this period. This is followed by the debtor’s name and a formula stating that the debtor is of sound mind and body (<emph rend="italics">fī siḥḥat ʿaqli-hi wa-badni-hi</emph>), legally competent (<emph rend="italics">jawāz amrihi</emph>), and acting freely and without coercion (<emph rend="italics">ghayr mukrah wa-lā mujbar</emph>). The text then specifies the name of the creditor using the formula <emph rend="italics">an ʿalayhi wa-ʿinda-ha wa-qibali-hi wa-fī khāliṣ mālihi wa-dhimmatihi li-fulān</emph> (“is indebted and liable, from his own resources and under his responsibility, to”). The nature of the obligation is detailed with the preposition <emph rend="italics">min</emph>, followed by the amount in <emph rend="italics">irdabbs</emph>. It is declared binding (<emph rend="italics">daynan thābitan wa-ḥaqqan wājiban lāziman</emph>), with an explicit acknowledgment made in the presence of witnesses (<emph rend="italics">iʿtarafa lahu bi-dhālika ʿinda shuhūd hādhā l-wathīqa</emph>). Further, the individual commits not to evade repayment in any way (ʿ<emph rend="italics">an al-khurūj min al-dayn</emph>). The acknowledgment is made explicitly “under the guarantee” of a third party (<emph rend="italics">bi-ḍamān fulān</emph>), a detail that needs further discussion. The document concludes by noting that witnesses were called to testify (<emph rend="italics">ashhada ʿalā nafsihi</emph>), with the date also specified. Finally, the two witness statements follow, each beginning with the customary  <emph rend="italics">shahida</emph> (“He testified”) followed by the witness’ name.</p>
+            </div>
+            <div type="section">
+               <head>
+                  <emph rend="bold">The Nature of the Debt</emph>
+               </head>
+               <p xml:id="p6">The debt acknowledgments concern, in one case, two-thirds of an <emph rend="italics">irdabb</emph> of <emph rend="italics">barsīm</emph> seeds (<emph rend="bold">1</emph>), and in the other, one and one-third <emph rend="italics">irdabbs</emph> of <emph rend="italics">julbān</emph> seeds (<emph rend="bold">2</emph>). <emph rend="italics">Barsīm</emph> (<emph rend="italics">Trifolium alexandrinum</emph>), commonly referred to in papyri as <emph rend="italics">qurṭ</emph> (a term borrowed from the Greek χόρτος), is an herbaceous plant often mistranslated as "clover," though it bears no resemblance to the European variety. Instead, it is a type of alfalfa, which historically—and still today—served as the primary forage for working animals like donkeys, camels, horses, and mules, as well as for larger livestock such as cows and buffaloes.<note place="foot" xml:id="ftn9" n="9">
+                     <p> For more details on barsīm, see <ref target="https://papyri.info/biblio/97364">Fairchild 1902</ref>.</p>
+                  </note> According to Ibn Mammāti (d. 606/1209), alfalfa could be sown at various times of the year, between Bāba (September) and Hatūr (January), depending on the region and the variety.<note place="foot" xml:id="ftn10" n="10">
+                     <p>
+                        <ref target="https://papyri.info/biblio/97370">Ibn Mammāṭī, Kitāb qawānīn al-dawāwīn</ref>: 262; <ref target="https://papyri.info/biblio/97359">Cooper 1974</ref>: 117.</p>
+                  </note> However, sowing could not begin until after the Nile floodwaters receded, a process that was not complete in the Fayyum region until late November or even December.<note place="foot" xml:id="ftn11" n="11">
+                     <p> For details on the receding of waters in the Fayyum following the inundation, see <ref target="https://papyri.info/biblio/97356">Tillier and Vanthieghem 2020</ref>: 357–359. </p>
+                  </note>
+               </p>
+               <p xml:id="p7">Once the water had receded, farmers in the Fayyum plowed the land before sowing, unlike in other parts of the Nile Valley where seeds were sown directly onto the silt deposited by the flood.<note place="foot" xml:id="ftn12" n="12">
+                     <p>
+                        <ref target="https://papyri.info/biblio/97365">Girard 1882</ref>: 42. </p>
+                  </note> Approximately 2½ <emph rend="italics">waybas</emph> of seeds were needed to sow a <emph rend="italics">feddān</emph> of land.<note place="foot" xml:id="ftn13" n="13">
+                     <p>
+                        <ref target="https://papyri.info/biblio/97370">Ibn Mammāṭī, Kitāb qawānīn al-dawāwīn</ref>: 262; <ref target="https://papyri.info/biblio/97359">Cooper 1974</ref>: 117.</p>
+                  </note> Depending on the region and climatic conditions, alfalfa could be harvested two to three times a year, or even four times in particularly humid areas. Under ideal conditions, harvesting occurred roughly every thirty days. The first or first two cuts provided green forage for livestock, while the final cut was left to dry in the field and then transported to threshing areas for seed production.<note place="foot" xml:id="ftn14" n="14">
+                     <p>
+                        <ref target="https://papyri.info/biblio/97365">Girard 1882</ref>: 43–44.</p>
+                  </note> During the four-month growing season, depending on weather conditions, a single <emph rend="italics">feddān</emph> of <emph rend="italics">barsīm</emph> could sustain between one and four oxen for nearly a month,<note place="foot" xml:id="ftn15" n="15">
+                     <p>
+                        <ref target="https://papyri.info/biblio/97365">Girard 1882</ref>: 43–44. The author notes that in the Minūfiyya province, two oxen could graze on ¹⁄ ₂₄ of a <emph rend="italics">feddān</emph> per day, while in Tanta, the same pair required ½ a <emph rend="italics">feddān </emph>for a month.</p>
+                  </note> or produce 44,005 kilograms of green forage over three to four cuts.<note place="foot" xml:id="ftn16" n="16">
+                     <p>
+                        <ref target="https://papyri.info/biblio/97364">Fairchild 1902</ref>: 14 states that the average yield of forage in 1902 was 28 tons per acre (4047 m2), which means ± 44,05 tons per feddān (6368 m2)</p>
+                  </note> The final cut typically yielded between two and three <emph rend="italics">irdabbs</emph> of <emph rend="italics">barsīm</emph> seeds.<note place="foot" xml:id="ftn17" n="17">
+                     <p>
+                        <ref target="https://papyri.info/biblio/97370">Ibn Mammāṭī, Kitāb qawānīn al-dawāwīn</ref>: 263; <ref target="https://papyri.info/biblio/97359">Cooper 1974</ref>:117 and <ref target="https://papyri.info/biblio/97365">Girard 1882</ref>: 43.</p>
+                  </note>
+               </p>
+               <p xml:id="p8">
+                  <emph rend="italics">Julbān</emph>, or grass pea (<emph rend="italics">Lathyrus sativus</emph> L.), is a legume whose peas were used for human consumption, while the stalks served as animal fodder.<note place="foot" xml:id="ftn18" n="18">
+                     <p><ref target="https://papyri.info/biblio/97365">Girard 1882</ref>: 45.</p>
+                  </note> It also had medicinal properties.<note place="foot" xml:id="ftn19" n="19">
+                     <p><ref target="https://papyri.info/biblio/97371">Ibn El-Beïthar, Traité des Simples Ibn al-Beithar</ref>: 358–359.</p>
+                  </note> Ibn Mammāti notes that it was sown between Hatūr (November) and Kayhak (December), alongside other legumes such as lentils (<emph rend="italics">ʿads</emph>) and chickpeas (<emph rend="italics">ḥimmis</emph>).<note place="foot" xml:id="ftn20" n="20">
+                     <p><ref target="https://papyri.info/biblio/97370">Ibn Mammāṭī, Kitāb qawānīn al-dawāwīn</ref>; 260–261; <ref target="https://papyri.info/biblio/97359">Cooper 1974</ref>: 116.</p>
+                  </note> Greek documents from the Fayyum suggest that sowing could extend into January and even February.<note place="foot" xml:id="ftn21" n="21">
+                     <p><ref target="https://papyri.info/biblio/12541">Rathbone 1991</ref>: 260–262.</p>
+                  </note> To sow a <emph rend="italics">feddān</emph>, between four <emph rend="italics">waybas</emph> and one <emph rend="italics">irdabb</emph> of seeds were required,<note place="foot" xml:id="ftn22" n="22">
+                     <p><ref target="https://papyri.info/biblio/97370">Ibn Mammāṭī, Kitāb qawānīn al-dawāwīn</ref>: 260–261; <ref target="https://papyri.info/biblio/97359">Cooper 1974</ref>: 116.</p>
+                  </note> though Girard specifies that two-thirds of an <emph rend="italics">irdabb</emph> could suffice.<note place="foot" xml:id="ftn23" n="23">
+                     <p><ref target="https://papyri.info/biblio/97365">Girard 1882</ref>: 45.</p>
+                  </note> After sixty days, <emph rend="italics">julbān</emph> could be harvested as forage. Its peas matured after approximately one hundred days<note place="foot" xml:id="ftn24" n="24">
+                     <p><ref target="https://papyri.info/biblio/97365">Girard 1882</ref>: 45.</p>
+                  </note> and were harvested in Barmūda (April), according to Ibn Mammāti.<note place="foot" xml:id="ftn25" n="25">
+                     <p><ref target="https://papyri.info/biblio/97370">Ibn Mammāṭī, Kitāb qawānīn al-dawāwīn</ref>: 261; ; <ref target="https://papyri.info/biblio/97359">Cooper 1974</ref>: 116.</p>
+                  </note> A <emph rend="italics">feddān</emph> of grass pea could yield about ten <emph rend="italics">irdabbs</emph> of peas and ten to fifteen camel-loads of green forage,<note place="foot" xml:id="ftn26" n="26">
+                     <p><ref target="https://papyri.info/biblio/97365">Girard 1882</ref>: 45.</p>
+                  </note> equivalent to 1800–2700 kilograms.<note place="foot" xml:id="ftn27" n="27">
+                     <p> The average camel load, estimated at 180 kg, is used here as a reference. See <ref target="https://papyri.info/biblio/19484">Adams 2007</ref>: 49–52.</p>
+                  </note>
+               </p>
+               <p xml:id="p9">Beyond their vital role as fodder crops and in human nutrition, these two species were integral to agricultural cycles. Sown on fallow or nutrient-depleted lands, particularly those affected by salinization, they played a key role in soil regeneration. Land cultivated with these crops, known as <emph rend="italics">bāq</emph>, was highly valued for its proven ability to restore fertility for growing wheat and barley.<note place="foot" xml:id="ftn28" n="28">
+                     <p><ref target="https://papyri.info/biblio/97357">Cooper 1974b</ref>: 94 and 97–101. </p>
+                  </note>
+               </p>
+            </div>
+            <div type="section">
+               <head>
+                  <emph rend="bold">The Context and Mechanism of the Debt</emph>
+               </head>
+               <p xml:id="p10">The two acknowledgements were issued in the name of Ḥarīr b. Muḥammad, who admits to having incurred a debt involving quantities of seed to a certain Muḥammad b. Ayyūb. In both cases, the transaction is carried out explicitly “with the guarantee” (<emph rend="italics">bi-ḍamān</emph>) of an individual identified as ʿUmar b. Aḥmad. On the surface, the arrangement appears straightforward: Ḥarīr b. Muḥammad owes a debt in seed to his creditor, and ʿUmar b. Aḥmad guarantees repayment from his own assets should Ḥarīr default.</p>
+               <p xml:id="p11">Such acknowledgements of debt for small amounts of grain or seed are common in Arabic documentary material.<note place="foot" xml:id="ftn29" n="29">
+                     <p> For examples, see in particular <emph rend="italics">Chrest.Khoury</emph> 34–36; <emph rend="italics">CPR</emph> XXVI 19; <emph rend="italics">P.Cair.Arab.</emph> II 106–112; <emph rend="italics">P.RagibQalamun</emph> 1.</p>
+                  </note> Most editors interpret them as grain debts or debts related to agricultural produce, though they rarely clarify the precise nature or purpose of the debt. Werner Diem has suggested viewing these as micro-loans mainly of cereals between acquaintances, similar to those mentioned in private letters—where it is not unusual to find someone asking a correspondent to send a small amount of wheat.<note place="foot" xml:id="ftn30" n="30">
+                     <p><ref target="https://papyri.info/biblio/97366">Diem 2006</ref>: 47–49.</p>
+                  </note> More recently, L. Bondioli has offered a compelling hypothesis that these documents may represent forward contracts, whereby a merchant would purchase a future agricultural yield still in the field, in exchange for which the cultivator committed to delivering the crop after the harvest.<note place="foot" xml:id="ftn31" n="31">
+                     <p><ref target="https://papyri.info/biblio/97358">Bondioli 2021</ref>: 106–135.</p>
+                  </note> Such arrangements are well attested in papyrological sources, particularly for commodities such as flax, grapes, and wood, though they typically involve large quantities.<note place="foot" xml:id="ftn32" n="32">
+                     <p> On advance sales in general, see the overview by <ref target="https://papyri.info/biblio/97369">Rāġib 1982</ref>: 7–12 along with <ref target="https://papyri.info/biblio/97366">Diem 2006</ref>.</p>
+                  </note> It therefore seems unlikely that merchants would have devoted their time to purchasing trivial amounts in advance—especially for something like clover (<emph rend="italics">barsīm</emph>) or grass pea (<emph rend="italics">julbān</emph>) seeds, which held little market value.</p>
+               <p xml:id="p12">In a forthcoming book, Mathieu Tillier and I argue that these so-called microcredits or forward sales are, in reality, debt acknowledgements issued by the fiscal administration in connection with seed advances distributed by state agents or their representatives to cultivators (<emph rend="italics">muzāriʿūn</emph>) to enable them to sow their fields.<note place="foot" xml:id="ftn33" n="33">
+                     <p><ref target="https://papyri.info/biblio/97367">Tillier and Vanthieghem 2025</ref>.</p>
+                  </note> These advances, known as <emph rend="italics">taqwiya</emph> (pl. <emph rend="italics">taqāwī</emph>), were typically allocated shortly before the sowing season and, in principle, were to be repaid within the year. In practice, however, repayments were often significantly delayed—if made at all—leaving the burden of the debt to fall on the heirs. During the period under consideration, the distribution of seeds in villages was typically handled by the <emph rend="italics">khāzin</emph> (“cashier”), who was in charge of the public granaries. Alternatively, it could be undertaken through the intermediary of a <emph rend="italics">ḍāmin</emph>—usually a wealthy individual from the village or nearby, who was granted a tax farm (<emph rend="italics">ḍamān</emph>) allowing him to collect taxes on behalf of the state from a particular village over a set period.</p>
+               <p xml:id="p13">In the case of the two debt acknowledgements presented here, Ḥarīr b. Muḥammad appears to have been a cultivator (<emph rend="italics">muzāriʿ</emph>). As the recipient of such seed advances, he would have been able to sow approximately 1.59 <emph rend="italics">feddāns</emph> (c. 10,093 m²) of clover (<emph rend="italics">barsīm</emph>), and 2 <emph rend="italics">feddāns</emph> (12,696 m²) of grass pea (<emph rend="italics">julbān</emph>).<note place="foot" xml:id="ftn34" n="34">
+                     <p> The calculation for <emph rend="italics">barsīm</emph> is as follows: 2½ <emph rend="italics">waybas</emph> (approximately 0.42 irdabb) of seed are required to sow one feddan. The ⅔ irdabb received by Ḥarīr b. Muḥammad would thus have allowed him to cultivate approximately 1.59 feddans. As for grass pea, since ⅔ <emph rend="italics">irdabb</emph> of seed is sufficient to sow one <emph rend="italics">feddan</emph> (see above), the 1⅓ <emph rend="italics">irdabb</emph> (i.e., 4/3 <emph rend="italics">irdabb</emph>) mentioned in document <emph rend="bold">2</emph> would have been enough to sow 2 <emph rend="italics">feddans</emph>.</p>
+                  </note> However, if we accept the model of state-distributed seed advances outlined above, what then were the respective roles of Muḥammad b. Ayyūb and ʿUmar b. Aḥmad in this transaction? The phrase <emph rend="italics">bi-ḍamān</emph> associated with the latter strongly suggests that ʿUmar b. Aḥmad was the <emph rend="italics">ḍāmin</emph>—the tax farmer—for the village of Ṭuṭūn that year. As for Muḥammad b. Ayyūb, he was most likely the local representative of the <emph rend="italics">ḍāmin</emph> within the village.</p>
+            </div>
+            <div type="section">
+               <head>
+                  <emph rend="bold">Editions</emph>
+               </head>
+            </div>
+            <div type="section">
+               <head>1. Acknowledgement of Debt for Clover (barsīm) Seed Advances.</head>
+               <p xml:id="p14">An oblong fragment of beige paper, preserved in its full height and width. The top and bottom margins are relatively narrow; the lateral margins are even tighter, with the text written almost up to the right and left edges. The document comprises fifteen lines, penned—as in the following document—by two different hands. The first hand wrote the main body of the text (lines 1–11) in black ink, while the second hand added two testimonial subscriptions (lines 12–15) in ink that has since browned with age. Both hands use a cursive script characterized by numerous ligatures. Some letters are marked with diacritical dots.</p>
+               <div type="epidoc" subtype="DDB">
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;">P.Hamb.Arab. Inv. 80</cell>
+                        <cell style="text-align: center;">18.2 (h) × 8.3 (w)</cell>
+                        <cell style="text-align: right;">Ṭuṭūn</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">Shawwāl 441 / </cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">February-March 1050</cell>
+                     </row>
+                  </table>
+                  <figure>
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/#/detail/23964402"/>
+                     <head>Fig. 1: P.Hamb.Arab. Inv. 80.</head>
+                   </figure>
+                  <div copyOf="#ed1" type="edition"/>
+                  <div copyOf="#trans1" type="translation"/>
+                  <div type="commentary">
+                     <note target="#ed1ln5">
+                        <ref>5</ref>
+                        <p xml:id="p15">
+                           <emph rend="bolditalics">al-mugharbal al-muhrab</emph>: The participle <emph rend="italics">mugharbal</emph>, a denominal form derived from <emph rend="italics">ghirbāl</emph> (“sieve”), is rarely attested in the published documentary record to date. See P.Cambr.Genizah 54.5; P.QuseirArab. I 12 recto.4. The second participle, for its part, is a hapax legomenon: it is a Form IV derivative of the root ḥ-r-b, which literally means “to drive out” or “to remove” (cf. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k3413099w/f1417.item">Kazimirski, <emph rend="italics">Dictionnaires</emph>, II, 1409b</ref>). Both epithets serve to indicate that the <emph rend="italics">barsīm</emph> seeds were entirely free of impurities—whether plant debris, such as the calyx surrounding the seed, soil, or small stones.</p>
+                     </note>
+                     <note target="#ed1ln12">
+                        <ref>12</ref>
+                        <p xml:id="p16">
+                           <emph rend="bolditalics">wa-kutiba bi-idhnihi wa-maḥḍarihi</emph>: To indicate that a testimony was written not by the witness himself but by a third party, notaries typically employ the phrase <emph rend="italics">wa-kutiba bi-amrihi wa-maḥḍarihi</emph> (“written by his order and in his presence”). I am not aware of any instance in which the term <emph rend="italics">amr</emph> is substituted with <emph rend="italics">idhn</emph>.</p>
+                     </note>
+                     <note target="#ed1ln14">
+                        <ref>14–15</ref>
+                        <p xml:id="p17"> 
+                           <emph rend="bolditalics">wa-shahida shahādatahu … wa-kataba bi-khattihi</emph>: The witness, here as in the second document, alters the standard formulation of the subscription, which would normally follow the structure <emph rend="italics">wa-shahida … wa-kataba shahādatahu bi-khaṭṭihi</emph> (“and he testified … and wrote his testimony in his own hand”).</p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>2. Acknowledgement of Debt for Advances of Grass Pea (<emph rend="italics">julbān</emph>) Seeds</head>
+               <p xml:id="p18">An oblong piece of beige paper, preserved in its full height and width, though the upper left part shows slight damage. The top and bottom margins are relatively narrow, while the side margins are even more constricted, with the text extending almost to the very edges. The document contains thirteen lines, written—like the previous document—by two distinct hands. The first hand composed the main body of the text (lines 1–10) in black ink, while the second hand added two testimonial subscriptions (lines 11–13) in ink that has since faded to brown. Both hands employ a semi-cursive script with numerous ligatures, and some letters are marked with diacritical dots.</p>
+               <div type="epidoc" subtype="DDB">
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;">P.Hamb.Arab. Inv. 81</cell>
+                        <cell style="text-align: center;">16.4 (h) × 8.31 (w)</cell>
+                        <cell style="text-align: right;">Ṭuṭūn</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">Shawwāl 441 / </cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">February-March 1050</cell>
+                     </row>
+                  </table>
+                  <figure>
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/#/detail/23964404"/>
+                     <head>Fig. 1: P.Hamb.Arab. Inv. 81.</head>
+                   </figure>
+                  <div copyOf="#ed2" type="edition"/>
+                  <div copyOf="#trans2" type="translation"/>
+               </div>
+               <div type="bibliography">
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/19484">Adams, C. (2007)</ref> Land Transport in Roman Egypt. A Study of Economics and Administration in a Roman Province, Oxford.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97358">Bondioli, L (2021)</ref> Peasants, Merchants, and Caliphs: Capital and Empire in Fatimid Egypt, unpublished PhD thesis, Princeton.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97359">Cooper, R.S. (1974)</ref> Ibn Mammati's Rules for the Ministries. Translation with Commentary of the Qawānīn al-Dawāwīn, unpublished PhD thesis, Berkeley.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97357">Cooper, R.S. (1974b)</ref> “Land Classification Terminology and the Assessment of the Kharāj Tax in Medieval Egypt,” Journal of the Economic and Social History of the Orient 17: 91–102.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97366">Diem, W. (2006)</ref> Arabischer Terminkauf: Ein Beitrag zur Rechts- und Wirtschaftsgeschichte Ägyptens im 8. bis 14. Jahrhundert, Wiesbaden.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97360">Dietrich, A. (1937)</ref> Arabische Papyri aus der Hamburger Staats- und UniversitätsBibliothek, Leipzig.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97361">Dietrich, A. (1955)</ref> Arabische Briefe aus der Papyrussammlung der Hamburger Staats- und Universitäts-Bibliothek, Hamburg.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97363">Dietrich, A. (1952)</ref> “Eine arabische Eheurkunde aus der Aiyūbidenzeit,” in J. Fück (ed.), Documenta islamica inedita, Berlin.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97364">Fairchild, D.G. (1902)</ref> “Berseem. The Great Forage and Soiling Crop of the Nile Valley,” Bulletin of the United States Bureau of Plant Industry, 23: 1–28.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97365">Girard, P.-S. (1822)</ref> Mémoire sur l’agriculture, l’industrie et le commerce de l’Égypte, Paris.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97228">Grob, E.M. (2010)</ref> Documentary Arabic Private and Business Letters on Papyrus: Form and Function, Content and Context, Berlin.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97371">Ibn El-Beïthar, Traité des Simples Ibn al-Beithar</ref>, transl. L. Leclerc, Paris, 1877.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97370">Ibn Mammāṭī, Kitāb qawānīn al-dawāwīn</ref>, éd. ʿAzīz S. ʿAṭiyya, Maktabat Madbūlī, Cairo, 1943.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/12541">Rathbone, D.W. (1991)</ref> Economic Rationalism and Rural Society in Third-Century A.D. Egypt. The Heroninos Archive and the Appianus Estate, Cambridge.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97369">Rāġib, Y. (1982)</ref> Marchands d’étoffes du Fayyoum au iiie/ixe siècle: d’après leurs archives (actes et lettres). I. Les actes des Banū ʿAbd al-Muʾmin, Cairo.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97367">Tillier, M. and N. Vanthieghem (2025)</ref>  Bulǧusūq. Un village du Fayoum sous les Fatimides (IV<hi rend="superscript">e</hi>-V<hi rend="superscript">e</hi> / X<hi rend="superscript">e</hi>-XI<hi rend="superscript">e</hi> siècles), Leuven.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97368">Tillier, M. and N. Vanthieghem (2024)</ref> The Book of the Cow: An Early Qurʾānic Codex on Papyrus (P. Hamb. Arab. 68) Leiden.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97356">Tillier, M. and N. Vanthieghem (2020)</ref> “Un voyageur au Fayoum témoin d’une guerre civile (III<hi rend="superscript">e</hi> / IX<hi rend="superscript">e</hi> siècle),” CdE 95: 347–367.</bibl>
+                  </listBibl>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Acknowledgements of Debt for Seed Advance</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="filename">1000281</idno>
+               <idno type="TM">1000281</idno>
+               <idno type="ddb-filename">pylon.7.9_1</idno>
+               <idno type="ddb-hybrid">pylon;7;9_1</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement>Hamburg</settlement>
+                     </placeName>
+                     <collection>Staats- und Universitätsbibliothek</collection>
+                     <idno type="invNo">P.Hamb.Arab. Inv. 80</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <dimensions>
+                                 <width unit="cm">8.3</width>
+                                 <height unit="cm">18.2</height>
+                              </dimensions>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Ṭuṭūn</origPlace>
+                        <origDate notBefore="1050-02" notAfter="1050-05">Febr. - März 1050</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p>
+                           <placeName n="1"></placeName>
+                        </p>
+                        <p>
+                           <placeName type="ancient"
+                              ref="https://pleiades.stoa.org/places/737072 https://www.trismegistos.org/place/2287">Ṭuṭūn</placeName>
+                        </p>     
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Vertrag</term>
+                  <term n="2">Darlehen</term>
+                  <term n="3">Saatgut</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition">
+               <listBibl>
+                  <bibl type="publication" subtype="principal">
+                     <title level="s" type="abbreviated">Pylon</title>
+                     <biblScope n="1" unit="volume">7</biblScope>
+                     <biblScope n="2" unit="fascicle">(2025)</biblScope>
+                     <biblScope n="3" unit="generic">Art. 9</biblScope>
+                     <biblScope n="4" unit="number">Nr. 1</biblScope>
+                  </bibl>
+               </listBibl>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Acknowledgements of Debt for Seed Advance</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.7.9_1</idno>
+               <idno type="ddb-hybrid">pylon;7;9_1</idno>
+               <idno type="HGV">1000281</idno>
+               <idno type="TM">1000281</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Acknowledgements of Debt for Seed Advance</head>
+            <div xml:id="ed1" xml:lang="ar" type="edition" xml:space="preserve">
+<ab>
+   <lb xml:id="ed1ln1" n="1"/> <handShift new="m1"/> بسم اللـه <note> بسم الله .chart</note> الرحمن الرحيم
+   <lb xml:id="ed1ln2" n="2"/> اقر <note> اقر عقله .chart</note> حرير بن محمد واشهد على نفسه طوعا في صحة عقله
+   <lb xml:id="ed1ln3" n="3"/> وبدنه <note> دمته .chart</note> وجواز امره غير مكره ولا مجبر ان عليه وعنده وقبله
+   <lb xml:id="ed1ln4" n="4"/> وفي خالص ماله وذمته لمحمد بن ايوب من البرسيم
+   <lb xml:id="ed1ln5" n="5"/> المغربل <note> اعترف .chart</note> المهرب ثلثي اردب دينا ثابتا
+   <lb xml:id="ed1ln6" n="6"/> وحقا واجبا لازما اعترف له بذلك عند شهود
+   <lb xml:id="ed1ln7" n="7"/> هذه الوثيقة لا يدافع بذلك ولا يحتج فيه بحجة
+   <lb xml:id="ed1ln8" n="8"/> ولا يعتل فيه بعلة عن الخروج من الدين
+   <lb xml:id="ed1ln9" n="9"/> المذكور ذلك بضمان <note> بصماں .chart</note> عمر بن احمد
+   <lb xml:id="ed1ln10" n="10"/> وبذلك اشهد على نفسه في شوال سنة احدى
+   <lb xml:id="ed1ln11" n="11"/> <note> مابه .chart</note>واربعين واربعماية 
+   <lb xml:id="ed1ln12" n="12"/> <handShift new="m2"/> شهد حفاظ بن كناني بجميع ما فيه
+   <lb xml:id="ed1ln13" n="13"/> وكتب عنه باذنه ومحضره
+   <lb xml:id="ed1ln14" n="14"/> شهد شهادته جماعة على اقرار المقر بما فيه
+   <lb xml:id="ed1ln15" n="15"/> وكتب بيد<supplied reason="omitted">ه</supplied> في تاريخه
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Acknowledgements of Debt for Seed Advance</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">1000281</idno>
+               <idno type="TM">1000281</idno>
+               <idno type="HGV">1000281</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>
+|<hi rend="superscript">1</hi> In the name of God, the Compassionate, the Merciful.
+|<hi rend="superscript">2</hi> Ḥarīr b. Muḥammad has acknowledged and given testimony against himself willingly, while sound in mind 
+|<hi rend="superscript">3</hi> and body, fully competent, under no constraint or coercion that he owes, is liable for, and is a debtor 
+|<hi rend="superscript">4</hi>  from his own funds and under his own responsibility to Muḥammad b. Ayyūb. He owes him, in 
+|<hi rend="superscript">5</hi> sifted and winnowed |<hi rend="superscript">4</hi> clover seeds, two-thirds of an <emph rend="italics">irdabb</emph>, that constitutes a confirmed debt 
+|<hi rend="superscript">6</hi> and an obligatory, binding right. He has acknowledged this in the presence of the witnesses 
+|<hi rend="superscript">7</hi> of this document. He may neither dispute it, nor invoke any evidence, 
+|<hi rend="superscript">8</hi> nor offer any excuse to be released from the debt, 
+|<hi rend="superscript">9</hi> whose repayment is guaranteed by ʿUmar b. Aḥmad. 
+|<hi rend="superscript">10</hi> He has given testimony against himself in the month of Shawwāl, of year 
+|<hi rend="superscript">11</hi> four hundred and forty-|<hi rend="superscript">10</hi>one. |<hi rend="superscript">12</hi> Ḥafāẓ b. Kinānī testifies to all the contents of the document. 
+|<hi rend="superscript">13</hi> Written on his behalf with his permission and in his presence. 
+|<hi rend="superscript">14</hi> Jamāʿa testifies that the obligor acknowledges the content of the document. 
+|<hi rend="superscript">15</hi> Written in his own hand, on the date recorded in the document.
+</p></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Acknowledgements of Debt for Seed Advance</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="filename">1000282</idno>
+               <idno type="TM">1000282</idno>
+               <idno type="ddb-filename">pylon.7.9_2</idno>
+               <idno type="ddb-hybrid">pylon;7;9_2</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement>Hamburg</settlement>
+                     </placeName>
+                     <collection>Staats- und Universitätsbibliothek</collection>
+                     <idno type="invNo">P.Hamb.Arab. Inv. 81</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <dimensions>
+                                 <width unit="cm">8.31</width>
+                                 <height unit="cm">16.4</height>
+                              </dimensions>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Ṭuṭūn</origPlace>
+                        <origDate notBefore="1050-02" notAfter="1050-05">Febr. - März 1050</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p>
+                           <placeName n="1"></placeName>
+                        </p>
+                        <p>
+                           <placeName type="ancient"
+                              ref="https://pleiades.stoa.org/places/737072 https://www.trismegistos.org/place/2287">Ṭuṭūn</placeName>
+                        </p>     
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Vertrag</term>
+                  <term n="2">Darlehen</term>
+                  <term n="3">Saatgut</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition">
+               <listBibl>
+                  <bibl type="publication" subtype="principal">
+                     <title level="s" type="abbreviated">Pylon</title>
+                     <biblScope n="1" unit="volume">7</biblScope>
+                     <biblScope n="2" unit="fascicle">(2025)</biblScope>
+                     <biblScope n="3" unit="generic">Art. 9</biblScope>
+                     <biblScope n="4" unit="number">Nr. 2</biblScope>
+                  </bibl>
+               </listBibl>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Acknowledgements of Debt for Seed Advance</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.7.9_2</idno>
+               <idno type="ddb-hybrid">pylon;7;9_2</idno>
+               <idno type="HGV">1000282</idno>
+               <idno type="TM">1000282</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Acknowledgements of Debt for Seed Advance</head>
+            <div xml:id="ed2" xml:lang="ar" type="edition" xml:space="preserve">
+<ab>
+    <lb xml:id="ed2ln1" n="1"/> <handShift new="m1"/> بسم اللـه الرحمن الرحيم 
+    <lb xml:id="ed2ln2" n="2"/> اقر حرير بن محمد واشهد على نفسه طوعا في<note> فى <seg xml:lang="en">.chart</seg></note> صحة <supplied reason="lost">عقله وبدنه</supplied> 
+    <lb xml:id="ed2ln3" n="3"/> وجواز امره غير مكره ولا مجبر ان عليه وعنده وقبله
+    <lb xml:id="ed2ln4" n="4"/> وفي خالص ماله وذمته <note> دمته <seg xml:lang="en">.chart</seg></note> لمحمد بن ايوب من الجلبان النقي 
+    <lb xml:id="ed2ln5" n="5"/> من العلث والقصل <note> القصل <seg xml:lang="en">.chart</seg></note> وجميع ذلك اردب
+    <lb xml:id="ed2ln6" n="6"/> واحد وثلث اردب دينا ثابتا وحقا واجبا
+    <lb xml:id="ed2ln7" n="7"/> لازما اعترف له بذلك عند شهود هذه الوثيقة
+    <lb xml:id="ed2ln8" n="8"/> لا يدافع بذلك ولا بشي فيه عن الخروج من الدين المذكور
+    <lb xml:id="ed2ln9" n="9"/> وذلك بضمان <note> بضماں <seg xml:lang="en">.chart</seg></note> عمر بن احمد وبذلك اشهد على
+    <lb xml:id="ed2ln10" n="10"/>  نفسه في شوال من سنة احدى واربعين واربع ماية<note> مايه <seg xml:lang="en">.chart</seg></note> 
+    <lb xml:id="ed2ln11" n="11"/> <handShift new="m2"/> شهد شهادته جماعة
+    <lb xml:id="ed2ln12" n="12"/> الخطيب بططون على اقرار المقر بما فيه وكتب بيده في تاريخه
+    <lb xml:id="ed2ln13" n="13"/> شهد حفاظ بن كناني؟ بجميع ما فيه وكتب عنه بامره ومحضره
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Acknowledgements of Debt for Seed Advance</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">1000282</idno>
+               <idno type="TM">1000282</idno>
+               <idno type="HGV">1000282</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans2" xml:lang="en" type="translation" xml:space="preserve"><p>
+|<hi rend="superscript">1</hi> In the name of God, the Compassionate, the Merciful.
+|<hi rend="superscript">2</hi> Ḥarīr b. Muḥammad has acknowledged and given testimony against himself  willingly, while sound [in mind and body], 
+|<hi rend="superscript">3</hi> fully competent, under no constraint or coercion that he owes, is liable for, and is a debtor 
+|<hi rend="superscript">4</hi> from his own funds and under his own responsibility to Muḥammad b. Ayyūb, 
+|<hi rend="superscript">5</hi> in grass pea (<emph rend="italics">julbān</emph>) free from any admixture and from any defect, in the total amount of one 
+|<hi rend="superscript">6</hi> and one-third irdabbs, that constitutes a confirmed debt and an obligatory, 
+|<hi rend="superscript">7</hi>  binding right. He has acknowledged this in the presence of the witnesses of this document. 
+|<hi rend="superscript">8</hi> He may neither dispute it, nor (invoke) anything whatsoever to be released from the debt, 
+|<hi rend="superscript">9</hi> whose repayment is guaranteed by ʿUmar b. Aḥmad. He has given testimony against 
+|<hi rend="superscript">10</hi> himself in the month of Shawwāl, of the year four hundred and forty-one. 
+|<hi rend="superscript">11</hi> Jamāʿa, |<hi rend="superscript">12</hi> the preacher at Ṭuṭūn, |<hi rend="superscript">11</hi> testifies |<hi rend="superscript">12</hi> that the obligor acknowledges the content of the document. 
+|<hi rend="superscript">12</hi> Written in his own hand, on the date recorded in the document. |<hi rend="superscript">13</hi> Ḥafāẓ b. Kinānī testifies to all the content of the document. 
+|<hi rend="superscript">13</hi> Written on his behalf with his permission and in his presence.
+</p></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
