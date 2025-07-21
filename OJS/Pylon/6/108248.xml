@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><emph rend="italics">Domine ivimus</emph>? <emph rend="italics">CIIP</emph> I.2 787 Reconsidered</title>
+                <title xml:lang="en"><emph rend="italics">Domine ivimus</emph>? <emph rend="italics">CIIP</emph> I.2 787 Reconsidered</title>
                 <author>
                     <name>
                         <forename>Tommi</forename>
@@ -46,6 +46,7 @@
                 </availability>
                 <idno ana="hc:PrivateIdentifier">pylon.6.3</idno>
                 <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2024.6.108248</idno>
+                <idno ana="hc:PrivateIdentifier">97063</idno>
             </publicationStmt>
             <sourceDesc>
                 <p>Converted from a Word document</p>

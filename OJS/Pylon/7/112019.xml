@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>An Arabic Private Letter from the Eighth Century</title>
+                <title xml:lang="en">An Arabic Private Letter from the Eighth Century</title>
                 <author>
                     <name>
                         <forename>Lajos</forename>
@@ -37,6 +37,7 @@
                 </availability>
                 <idno ana="hc:PrivateIdentifier">pylon.7.3</idno>
                 <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.7.112019</idno>
+                <idno ana="hc:PrivateIdentifier">97397</idno>
             </publicationStmt>
             <sourceDesc>
                 <bibl ana="hc:RecommendedBibliographicReference">L. Berkes, “An Arabic Private Letter from the Eighth Century,” Pylon 7 (2025) Article 3. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2025.7.112019">https://doi.org/10.48631/pylon.2025.7.112019</ref>.</bibl>

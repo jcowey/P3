@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ein mögliches Beispiel für das Kolumnenmaß in der antiken Stichometrie</title>
+                <title xml:lang="de">Ein mögliches Beispiel für das Kolumnenmaß in der antiken Stichometrie</title>
                 <author>
                     <name>
                         <forename>Holger</forename>
@@ -37,6 +37,7 @@
                 </availability>
                 <idno ana="hc:PrivateIdentifier">pylon.7.8</idno>
                 <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.7.112024</idno>
+                <idno ana="hc:PrivateIdentifier">97402</idno>
             </publicationStmt>
             <sourceDesc>
                 <bibl ana="hc:RecommendedBibliographicReference">H. Essler, “Ein mögliches Beispiel für das Kolumnenmaß in der antiken Stichometrie,” Pylon 7 (2025) Article 8. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2025.7.112024">https://doi.org/10.48631/pylon.2025.7.112024</ref>.</bibl>

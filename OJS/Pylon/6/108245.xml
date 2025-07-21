@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Critical Notes on Published Documentary Papyri and Ostraca</title>
+                <title xml:lang="en">Critical Notes on Published Documentary Papyri and Ostraca</title>
                 <author>
                     <name>
                         <forename>Constantinos</forename>
@@ -36,6 +36,7 @@
                 </availability>
                 <idno ana="hc:PrivateIdentifier">pylon.6.1</idno>
                 <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2024.6.108245</idno>
+                <idno ana="hc:PrivateIdentifier">97061</idno>
             </publicationStmt>
             <sourceDesc>
                 <p>Converted from a Word document</p>

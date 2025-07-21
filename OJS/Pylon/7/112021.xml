@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-               <title>A Late Antique Receipt for Grain from the Hermopolite Nome </title>
+               <title xml:lang="en">A Late Antique Receipt for Grain from the Hermopolite Nome </title>
                     <author>
                     <name>
                         <forename>Lincoln H.</forename>
@@ -37,6 +37,7 @@
                 </availability>
                 <idno ana="hc:PrivateIdentifier">pylon.7.5</idno>
                 <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.7.112021</idno>
+                <idno ana="hc:PrivateIdentifier">97399</idno>
             </publicationStmt>
             <sourceDesc>
                 <bibl ana="hc:RecommendedBibliographicReference">L.H. Blumell, “A Late Antique Receipt for Grain from the Hermopolite Nome,” Pylon 7 (2025) Article 5. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2025.7.112021">https://doi.org/10.48631/pylon.2025.7.112021</ref>.</bibl>

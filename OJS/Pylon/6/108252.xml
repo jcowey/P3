@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>A Property Declaration from Theadelphia</title>
+            <title xml:lang="en">A Property Declaration from Theadelphia</title>
             <author>
                <name>
                   <forename>W. Graham</forename>
@@ -38,6 +38,7 @@
               </availability>
               <idno ana="hc:PrivateIdentifier">pylon.6.7</idno>
               <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2024.6.108252</idno>
+              <idno ana="hc:PrivateIdentifier">97066</idno>
           </publicationStmt>
          <sourceDesc>
             <p>Converted from a Word document</p>
@@ -227,7 +228,7 @@
             <publicationStmt>
                <authority>Papyri.info</authority>
                <idno type="TM">566211</idno>
-               <idno type="HGV">566211</idno>
+               <idno type="filename">566211</idno>
                <idno type="ddb-filename">pylon.6.7</idno>
                <idno type="ddb-hybrid">pylon;6;7</idno>
             </publicationStmt>

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Fragment eines Ehevertrages aus Oxyrhynchοs</title>
+                <title xml:lang="de">Fragment eines Ehevertrages aus Oxyrhynchοs</title>
                 <author>
                     <name>
                         <forename>Eleni</forename>
@@ -36,6 +36,7 @@
                 </availability>
                 <idno ana="hc:PrivateIdentifier">pylon.7.7</idno>
                 <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.7.112023</idno>
+                <idno ana="hc:PrivateIdentifier">97401</idno>
             </publicationStmt>
             <sourceDesc>
                 <bibl ana="hc:RecommendedBibliographicReference">E. Avdoulou, “Fragment eines Ehevertrages aus Oxyrhynchοs,” Pylon 7 (2025) Article 7. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2025.7.112023">https://doi.org/10.48631/pylon.2025.7.112023</ref>.</bibl>

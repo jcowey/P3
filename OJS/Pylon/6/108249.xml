@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Reflections on Six Private Letters: P.Ross.Georg. 3 1, 9–11, 15, and 18</title>
+                <title xml:lang="en">Reflections on Six Private Letters: P.Ross.Georg. 3 1, 9–11, 15, and 18</title>
                 <author>
                     <name>
                         <forename>Elena</forename>
@@ -36,6 +36,7 @@
                 </availability>
                 <idno ana="hc:PrivateIdentifier">pylon.6.4</idno>
                 <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2024.6.108249</idno>
+                <idno ana="hc:PrivateIdentifier">97064</idno>
             </publicationStmt>
             <sourceDesc>
                 <p>Converted from a Word document</p>

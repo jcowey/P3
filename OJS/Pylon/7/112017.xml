@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Three Homeric <emph rend="italics">Descripta</emph> from Karanis</title>
+            <title xml:lang="en">Three Homeric <emph rend="italics">Descripta</emph> from Karanis</title>
             <author>
                <name>
                   <forename>C. Michael</forename>
