@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment eines Ehevertrages aus Oxyrhynchοs</title>
+                <author>
+                    <name>
+                        <forename>Eleni</forename>
+                        <surname>Avdoulou</surname>
+                    </name>
+                    <affiliation>Università di Pisa</affiliation>
+                    <email>eleni.avdoulou@fileli.unipi.it</email>
+                    <idno ana="hc:ORCIDURI">https://orcid.org/0009-0002-9906-4882</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date/>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Propylaeum</orgName>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+                </publisher>
+                <pubPlace>
+                    <placeName>Heidelberg</placeName>
+                    <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+                </pubPlace>
+                <date when="2025">2025</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno ana="hc:PrivateIdentifier">pylon.7.7</idno>
+                <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.7.112023</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl ana="hc:RecommendedBibliographicReference">E. Avdoulou, “Fragment eines Ehevertrages aus Oxyrhynchοs,” Pylon 7 (2025) Article 7. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2025.7.112023">https://doi.org/10.48631/pylon.2025.7.112023</ref>.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title level="j" ana="hc:MainTitle">Pylon</title>
+                        <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                        <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                        <imprint>
+                            <biblScope unit="volume">7</biblScope>
+                            <biblScope unit="article">7</biblScope>
+                            <date when="2025">2025</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <ab>Converted from a Word document for Pylon.</ab>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2025-05-28T09:34:02Z</date>
+                    <name/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="MainTitle">Fragment eines Ehevertrages aus Oxyrhynchοs</titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <div type="article">
+                <note type="acknowledgement">Die Edition des Papyrus basiert auf seinem Photo, das online unter folgendem Link verfügbar ist: <ref target="https://digitalisate.sub.uni-hamburg.de/">https://digitalisate.sub.uni-hamburg.de/</ref>. Für die Publikationserlaubnis bedanke ich mich bei Katrin Janz-Wenig von der Staats- und Universität Bibliothek Hamburg Carl von Ossietzky. Mein Dank gilt auch Lajos Berkes und Nikolaos Gonis für die hilfreichen Bemerkungen. Diese Forschung wurde durch das ERC <emph rend="italics"><ref target="https://greekschools.eu/">Advanced Grant 885222-GreekSchools</ref> (Europäische Kommission, Exzellente Wissenschaft, Horizon 2020)</emph> gefördert. </note>
+                <p xml:id="p1">Die Schrift des mittelbraunen Papyrus verläuft parallel zu den Fasern; das Verso ist verdeckt, vermutlich weil es unbeschrieben ist. Der obere Rand ist erhalten, während der rechte und der untere Rand fehlen. Der Verlust am linken Rand ist gering. Der vorliegende Papyrus überliefert den Anfang eines Ehevertrages aus Oxyrhynchοs. Es fehlt die übliche Datierungsformel, was die Frage aufwirft, ob es sich bei diesem Dokument um einen Auszug oder eine Kopie handeln könnte. Besonders bemerkenswert ist das Fehlen eines Verbs wie ἐξέδοτο direkt nach ἀγ̣α̣θῇ τύχῃ,<note place="foot" xml:id="ftn1" n="1"><p>S. <ref target="https://papyri.info/biblio/17588">Yiftach-Firanko 2003</ref>: 45–46.</p></note> das üblicherweise auf die Übergabe der Frau durch ihren Vater oder einen Vertreter (κύριος) der Frau an den Ehemann hinweist. Polykrates in Z. 1 ist vermutlich als Vater der Braut zu verstehen, da der Genitiv Πολυκράτους in Z. 2 auf einen Vaternamen hinzudeuten scheint. Eine Suche in der DDbDP ergibt, dass die Wendung πρὸς/εἰς γάμου κοινωνίαν erst ab der zweiten Hälfte des 1. Jh. n.Chr. belegt ist. Die Paläographie des Papyrus spricht für eine Datierung ins 2. Jh. n.Chr., vgl. die Schrift von <ref target="https://papyri.info/hgv/11984">P.Mich. 3 178</ref> (119 n.Chr.); <ref target="https://papyri.info/hgv/11987">P.Mich. 3 184</ref> (121 n.Chr.); <ref target="https://papyri.info/hgv/21633">P.Oxy. 62 4335</ref> (128 n.Chr.); und <ref target="https://papyri.info/hgv/12347">P.Mil. Vogl. 1 27</ref> (129 n.Chr.). </p>
+                <div type="epidoc" subtype="DDB">
+                    <table type="papyrological_header">
+                        <row>
+                            <cell style="text-align: left;">
+                                <ref target="https://resolver.sub.uni-hamburg.de/goobi/HANSh3691">P. Hamb. graec. inv. 489</ref>
+                                <note place="foot" xml:id="ftn2" n="2">
+                                    <p> Zur Erwerbungsgeschichte der Hamburger Papyri s. <ref target="https://papyri.info/biblio/96031">Essler 2021</ref>. Für den Erwerb des P. Hamb. graec. inv. 489 liegen jedoch keine konkreten Informationen vor.</p>
+                                </note>
+                            </cell>
+                            <cell style="text-align: justify;">6,9 (H) × 10,9 (B)</cell>
+                            <cell style="text-align: right;">
+                                <ref target="https://www.trismegistos.org/place/1524">Oxyrhynchοs</ref>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;"/>
+                            <cell style="text-align: left;"/>
+                            <cell style="text-align: right;">2 Jh. n.Chr.</cell>
+                        </row>
+                    </table>
+                    <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/23964400"/>
+                        <head>Fig. 1: P. Hamb. graec. inv. 489.</head>
+                    </figure>
+                    <div copyOf="#ed1" type="edition"/>
+                    <div copyOf="#trans1" type="translation"/>
+                    <div type="commentary">
+                        <note target="ed1ln1">
+                            <ref>1</ref>
+                            <p xml:id="p3"> ἀγ̣α̣θῇ τύχῃ: Für diese Wendung in Eheverträgen vgl. <ref target="https://papyri.info/hgv/20632">P.Oxy. 3 496.1</ref> (127 n.Chr.) sowie <ref target="https://papyri.info/hgv/21791">P.Oxy. 10 1273.1</ref> (260 n.Chr.). S. dazu <ref target="https://papyri.info/biblio/17588">Yiftach-Firanko 2003</ref>: 41 mit Anm. 2, und 46. Bemerkenswert ist, dass auf ἀγ̣α̣θῇ τύχῃ nicht die übliche Ekdosis-Klausel (ἐξέδοτο) folgt, die in Eheverträgen aus Oxyrhynchοs häufig vorkommt, s. auch Einl. Alternativ erscheint direkt nach ἀγ̣α̣θῇ τύχῃ eine Form von ὁμολογῶ wie in <ref target="https://papyri.info/hgv/2675">BGU 6 1283.7</ref> (216/215 v.Chr.). Dies ist aber hier gleichfalls nicht der Fall.</p>
+                            <p xml:id="p4">Πολυκράτης: Polykrates soll der Vater der Braut sein.</p>
+                            <p xml:id="p5">Ἀθην̣[: Ἀθην̣[αίου oder Ἀθην̣[οδώρου sind möglich. Anschließend könnte der Eigenname der Mutter des Polykrates gestanden haben, vgl. z.B. <ref target="https://papyri.info/hgv/20592">P.Oxy. 2 372.2</ref> (74/5 n.Chr.); <ref target="https://papyri.info/hgv/20632">P.Oxy. 3 496.2</ref> (127 n.Chr.). Jedoch ist dies nicht erforderlich. Am Ende der Zeile fehlt vermutlich der Name der Tochter des Polykrates.</p>
+                        </note>
+                        <note target="ed1ln2">
+                            <ref>2</ref>
+                            <p xml:id="p6"> Nach Ὀξυρύ[γχων πόλεως sollte der Name des Ehemanns im Dativ stehen.</p>
+                        </note>
+                        <note target="ed1ln3">
+                            <ref>3</ref>
+                            <p xml:id="p7"> Σερύφεως: Dieses Dorf (<ref target="https://www.trismegistos.org/place/2897">ΤΜ Geo 2897</ref>) ist gut bezeugt. </p>
+                            <p xml:id="p8">ὑπὲρ πρυκὸς λό̣[γου: Vgl. <ref target="https://papyri.info/hgv/16759">P.Mur. 2 115.7</ref> (124 n.Chr.) ε̣ἰ̣ς λόγον προικός. Die Präposition ὑπέρ wird hier erstmalig mit προίξ konstruiert. Die Mitgift wird häufig im Zusammenhang mit der Ekdosis der Braut erwähnt, s. <ref target="https://papyri.info/biblio/17588">Yiftach-Firanko</ref> 2003: 42.</p>
+                        </note>
+                        <note target="ed1ln4">
+                            <ref>4</ref>
+                            <p xml:id="p9"> ]ο̣υ: Es könnte hier der Name der Ehefrau im Genetiv fehlen, was eine Konstruktion mit παρά + Name nahelegt. Vgl. <ref target="https://papyri.info/hgv/18495">BGU 4 1052.9-10</ref> (13 v.Chr.) παρὰ τῆς Θερμίου διὰ χειρὸς ἐξ οἴ|κου.</p>
+                            <p xml:id="p10">ἀργυρίο̣[υ δραχμὰς: Es ist plausibel, dass zwischen ἀργυρίου und δραχμάς ein Wort wie z.B. ἐπισήμου zu ergänzen ist.</p>
+                            <p xml:id="p11">Es wird an dieser Stelle nur die Gesamtsumme der Mitgift angegeben, während ihre einzelnen Bestandteile nicht erwähnt werden. Dieses Phänomen war laut <ref target="https://papyri.info/biblio/17588">Yiftach-Firanko 2003</ref>: 179 bis ins frühe 2. Jh. n.Chr. üblich.</p>
+                        </note>
+                        <note target="ed1ln6">
+                            <ref>6</ref>
+                            <p xml:id="p12"> ]ς̣: πρό]ς̣ oder εἰ]ς̣.</p>
+                            <p xml:id="p13">]ς̣ γάμου κυνω[νίαν: Vgl. z.B. <ref target="https://papyri.info/hgv/20592">P.Oxy. 2 372.2</ref> (74/75 n.Chr.) πρὸς γάμου κοινωνίαν.</p>
+                        </note>
+                    </div>
+                </div>
+                <div type="bibliography">
+                    <listBibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96031">Essler, H. (2021)</ref> “Zur Entstehung der Hamburger Papyrussammlung,” APF 67.1: 166–208.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/17588">Yiftach-Firanko, U. (2003)</ref> Marriage and Marital Arrangements. A History of the Greek Marriage Document in Egypt. 4th century BCE – 4th century CE, Münchener Beiträge zur Papyrusforschung und antiken Rechtsgeschichte, Heft 93. München.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Fragment eines Ehevertrages aus Oxyrhynchοs</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Papyri.info</authority>
+                    <idno type="TM">1000279</idno>
+                    <idno type="HGV">1000279</idno>
+                    <idno type="ddb-filename">pylon.7.7</idno>
+                    <idno type="ddb-hybrid">pylon;7;7</idno>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <placeName>
+                                <settlement>Hamburg</settlement>
+                            </placeName>
+                            <collection>Staats- und Universitätsbibliothek</collection>
+                            <idno type="invNo">P.Hamb. Graec. inv. 489</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <material>Papyrus</material>
+                                        <dimensions>
+                                            <width unit="cm">10.9</width>
+                                            <height unit="cm">6.9</height>
+                                        </dimensions>
+                                    </support>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace>Oxyrhynchos (Oxyrhynchites, Ägypten)</origPlace>
+                                <origDate notBefore="0101" notAfter="0200" precision="low">II</origDate>
+                            </origin>
+                            <provenance type="located">
+                                <p>
+                                    <placeName n="1"
+                                        type="ancient"
+                                        ref="https://www.trismegistos.org/place/1524 https://pleiades.stoa.org/places/736983">Oxyrhynchos</placeName>
+                                    <placeName n="2"
+                                        type="ancient"
+                                        subtype="nome"
+                                        ref="https://www.trismegistos.org/place/2722 https://pleiades.stoa.org/places/736982">Oxyrhynchites</placeName>
+                                    <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                                </p>
+                            </provenance>
+                        </history>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                </langUsage>
+                <textClass>
+                    <keywords scheme="hgv">
+                        <term n="1">Vertrag</term>
+                        <term n="2">Ehe</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div type="bibliography" subtype="principalEdition">
+                    <listBibl>
+                        <bibl type="publication" subtype="principal">
+                            <title level="s" type="abbreviated">Pylon</title>
+                            <biblScope n="1" type="volume">7</biblScope>
+                            <biblScope n="2" type="fascicle">(2025)</biblScope>
+                            <biblScope n="3" type="generic">Art. 7</biblScope>
+                        </bibl>
+                    </listBibl>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Fragment eines Ehevertrages aus Oxyrhynchοs</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename">pylon.7.7</idno>
+                    <idno type="ddb-hybrid">pylon;7;7</idno>
+                    <idno type="HGV">1000279</idno>
+                    <idno type="TM">1000279</idno>
+                    <availability>
+                        <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                                Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                    <language ident="la">Latin</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <head xml:lang="en">Fragment eines Ehevertrages aus Oxyrhynchοs</head>
+                <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb xml:id="ed1ln1" n="1"/>ἀ<unclear>γα</unclear>θῇ τύχῃ. Πολυκράτης Ἀθη<unclear>ν</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed1ln2" n="2"/>Πολυκράτους τῶν ἀπ’ Ὀξυρύ<supplied reason="lost">γχων πόλεως</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed1ln3" n="3"/>ἀπ<unclear>ὸ</unclear> κώμης Σερύφεως <gap reason="illegible" quantity="1" unit="character"/><unclear>ο</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed1ln4" n="4"/><gap reason="lost" quantity="4" unit="character"/><unclear>ο</unclear>υ διὰ χειρὸς ἀργυρί<unclear>ο</unclear><supplied reason="lost">υ δραχμὰς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed1ln5" n="5"/><gap reason="lost" quantity="4" unit="character"/><unclear>κ</unclear>οσίας ὑπὲρ <choice><reg>προικὸς</reg><orig>πρυκὸς</orig></choice> λ<unclear>ό</unclear><supplied reason="lost">γου</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed1ln6" n="6"/><gap reason="lost" quantity="8" unit="character"/><unclear>ς</unclear> γάμου <choice><reg>κοινω<supplied reason="lost">νίαν</supplied></reg><orig>κυνω<supplied reason="lost">νίαν</supplied></orig></choice> <gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed1ln7" n="7"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> 
+<lb n="8"/><gap reason="lost" extent="unknown" unit="line"/> 
+</ab></div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main">Fragment eines Ehevertrages aus Oxyrhynchοs</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename">1000279</idno>
+                    <idno type="TM">1000279</idno>
+                    <idno type="HGV">1000279</idno>
+                    <idno type="ddb-filename">pylon.7.7</idno>
+                    <idno type="ddb-hybrid">pylon;7;7</idno>
+                    <availability>
+                        <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                            a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>The contents of this document are generated from SOSOL.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                    <language ident="ar">Arabisch</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+<p>
+Zu gutem Geschick. Polykrates Sohn des Athen- … [Tochter] des Polykrates, eine von denen aus der Stadt Oxyrhynchοs, … aus dem Dorf Seryphis … in bar [Drachmen] aus Silber … als Mitgift … [für] Ehepartnerschaft …
+</p>
+</div>
+            </body>
+        </text>
+    </TEI>
+</TEI>
