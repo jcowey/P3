@@ -205,6 +205,21 @@
       <xsl:apply-templates select="*[not(self::p)]"/>
     </note>
   </xsl:template>
+  
+  <!--
+    ================
+    Use ddb-filename for title in DDB
+    ================
+  -->
+  <xsl:template match="titleStmt[following-sibling::publicationStmt[child::idno[contains(., '.')]]]">
+    <xsl:variable name="title" select="../descendant::idno[@type='filename']"/>
+    <titleStmt>
+      <title><xsl:value-of select="$title"/></title>
+    </titleStmt>  
+  </xsl:template>
+  
+    
+  
 
 
   <!--
