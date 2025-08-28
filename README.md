@@ -7,7 +7,7 @@ The collection of material for **Pylon 8 (2025)** can now, for convenience, be f
 There is now also a folder which contains all the submissions as they are received. These are in .docx format and can be downloaded by any member of the editorial board. They are available here: [folder in google](https://drive.google.com/drive/folders/11K5T6K_MLX8gou5KG9Ad4BJ78O96FT2J). May I please ask any editors who receive submsissions to upload them to this repository. That way all editors can look at any time at this folder and find the submissions that have come in.
 
 - An announcement with the call for contributions may be viewed on the website of the journal: [see here](https://journals.ub.uni-heidelberg.de/index.php/pylon/announcement)
-- A deadline for submission for a Pylon 8 article should be **October 10, 2025** at the very latest. Even then, if an article needs much attention and change, it would probably have to be moved to Pylon 8.
+- The deadline for submission for a Pylon 8 article should be **October 10, 2025** at the very latest. Even then, if an article needs much attention and change, it would probably have to be moved to Pylon 8.
 - The deadline in October is early, because we want to publish in November, rather than December. That way we hope to involve the University Library as little as possible in the period leading up to Christmas.
 
 ### Published volumes
