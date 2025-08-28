@@ -2,7 +2,7 @@
 This is a collection point for the Papyrological Publishing Platform (P3). It includes files and information about procedures, which are used for the production of the journal [Pylon](https://journals.ub.uni-heidelberg.de/index.php/pylon/index). 
 
 ### Preparation of Pylon 8
-The collection of material for **Pylon 8 (2025)** can now, for convenience, be found [here in the form of a googlespreadsheet]((https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3acCM/edit?gid=151755939#gid=151755939))). May I please remind you to add information to the googlespreadsheet of any submissions that any of you may receive. That way we have a clear idea of how many articles we have for the volume. 
+The collection of material for **Pylon 8 (2025)** can now, for convenience, be found [here in the form of a googlespreadsheet]((https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3acCM/edit?gid=151755939#gid=151755939). May I please remind you to add information to the googlespreadsheet of any submissions that any of you may receive. That way we have a clear idea of how many articles we have for the volume. 
 
 There is now also a folder which contains all the submissions as they are received. These are in .docx format and can be downloaded by any member of the editorial board. They are available here: [folder in google](https://drive.google.com/drive/folders/1oAVpMJQRbV5QCCohetMong0HMsAhgjod). May I please ask any editors who receive submsissions to upload them to this repository. That way all editors can look at any time at this folder and find the submissions that have come in.
 
