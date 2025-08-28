@@ -12,6 +12,8 @@ There is now also a folder which contains all the submissions as they are receiv
 
 ### Published volumes
 
+
+- **Pylon 7 (2025)**, published 2025-07-21, can be viewed at [Vol. 7 (2025)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/7380)
 - **Pylon 6 (2024)**, published 2024-12-13, can be viewed at [Vol. 6 (2024)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/7236)
 - **Pylon 5 (2024)**, published 2024-07-11, can be viewed at [Vol. 5 (2024)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/7074)
 - **Pylon 4 (2023)**, published 2023-12-15, can be viewed at [Vol. 4 (2023)](https://journals.ub.uni-heidelberg.de/index.php/pylon/issue/view/6890)
