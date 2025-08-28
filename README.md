@@ -4,11 +4,11 @@ This is a collection point for the Papyrological Publishing Platform (P3). It in
 ### Preparation of Pylon 8
 The collection of material for **Pylon 8 (2025)** can now, for convenience, be found [here in the form of a googlespreadsheet](https://docs.google.com/spreadsheets/d/1UGFvjVt8KOZOfwsZCRbaH-jGoAorzKbmBCmWzv3acCM/edit?gid=151755939#gid=151755939). May I please remind you to add information to the googlespreadsheet of any submissions that any of you may receive. That way we have a clear idea of how many articles we have for the volume. 
 
-There is now also a folder which contains all the submissions as they are received. These are in .docx format and can be downloaded by any member of the editorial board. They are available here: [folder in google](https://drive.google.com/drive/folders/1oAVpMJQRbV5QCCohetMong0HMsAhgjod). May I please ask any editors who receive submsissions to upload them to this repository. That way all editors can look at any time at this folder and find the submissions that have come in.
+There is now also a folder which contains all the submissions as they are received. These are in .docx format and can be downloaded by any member of the editorial board. They are available here: [folder in google](https://drive.google.com/drive/folders/11K5T6K_MLX8gou5KG9Ad4BJ78O96FT2J). May I please ask any editors who receive submsissions to upload them to this repository. That way all editors can look at any time at this folder and find the submissions that have come in.
 
 - An announcement with the call for contributions may be viewed on the website of the journal: [see here](https://journals.ub.uni-heidelberg.de/index.php/pylon/announcement)
-- A deadline for submission for a Pylon 7 article should be **March 7, 2025** at the very latest. Even then if an article needs much attention and change it would probably have to be moved to Pylon 8.
-- The deadline in March is early, because we want to publish in May and November, rather than July and December. That way we hope to involve the University Library as little as possible in the period leading up to Christmas.
+- A deadline for submission for a Pylon 8 article should be **October 10, 2025** at the very latest. Even then if an article needs much attention and change it would probably have to be moved to Pylon 8.
+- The deadline in October is early, because we want to publish in November, rather than December. That way we hope to involve the University Library as little as possible in the period leading up to Christmas.
 
 ### Published volumes
 
