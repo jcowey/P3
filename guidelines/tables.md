@@ -1,4 +1,4 @@
-#Tables
+# Tables
 
 https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/issues/200
 
