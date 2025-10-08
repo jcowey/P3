@@ -8,6 +8,5 @@ There have been problems with the width of cells in tables in Pylon articles.
 - see `<table style="font-size: 80%;">` at https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/blob/main/epidoc/7/112020.xml?ref_type=heads#L299
 - this is the issue, [200](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/issues/200), used to solve the problem.
 
-see here: 
-https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/issues/180
+Here is another outstanding issue: https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/issues/180
 
