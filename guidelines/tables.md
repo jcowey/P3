@@ -10,3 +10,4 @@ There have been problems with the width of cells in tables in Pylon articles.
 
 see here: 
 https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/issues/180
+
