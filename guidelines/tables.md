@@ -1,8 +1,11 @@
 # Tables
 
-https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/issues/200
+## Cell width problems
 
-provided a solution for Kovarik: https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/112020/107699#tab2
+There have been problems with the width of cells in tables in Pylon articles. 
+
+- In the case of the article by Kovarik in Pylon 7 the following [table](https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/issues/200) was made acceptable by reducing the percentage on @style="font-size":
+- see `<table style="font-size: 80%;">` at https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/112020/107699#tab2
 
 see here: https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/blob/main/epidoc/7/112020.xml?ref_type=heads#L299
 
