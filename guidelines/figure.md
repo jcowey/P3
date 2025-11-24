@@ -1,0 +1,3 @@
+# Figure
+
+Templates for figures
