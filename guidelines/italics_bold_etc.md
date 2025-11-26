@@ -13,6 +13,7 @@ https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/bl
 
 ### `<hi rend="yyy">`
 - `<hi rend="superscript">15</hi>`
+- `<hi rend="subscript">α</hi>`
 
 # em dash, en dash, hyphen ...
 
