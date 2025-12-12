@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Irrwege und <emph rend="italics">theōría</emph>. Einige Bemerkungen zu Karneiskos, <emph rend="italics">Philistas</emph> 2, <emph rend="italics">PHerc.</emph> 1027 col. XIV Capasso</title>
+            <author>
+               <name>
+                  <forename>Jan E.</forename>
+                  <surname>Heßler</surname>
+               </name>
+               <affiliation>Universität Würzburg</affiliation>
+               <email>jan.hessler@uni-wuerzburg.de</email>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0003-3488-2331</idno>
+            </author>
+            <funder>Deutsche Forschungsgemeinschaft</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2025">2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.8.1</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.8.114579</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">J.E. Heßler, “Irrwege und theōría. Einige Bemerkungen zu Karneiskos, <emph rend="italics">Philistas</emph> 2, <emph rend="italics">PHerc.</emph> 1027 col. XIV Capasso,” Pylon 8 (2025) Article 1. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2025.8.114579">https://doi.org/10.48631/pylon.20225.8.114579</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">8</biblScope>
+                     <biblScope unit="article">1</biblScope>
+                     <date when="2025">2025</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2025-11-19T20:12:17Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Irrwege und <emph rend="italics">theōría</emph>. Einige Bemerkungen zu Karneiskos, <emph rend="italics">Philistas</emph> 2, <emph rend="italics">PHerc.</emph> 1027 col. XIV Capasso</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">Ich danke dem Herausgebergremium, voran Holger Essler, für die Bereitschaft zur Aufnahme dieses Aufsatzes und zeitliche Kulanz. Herrn Essler danke ich außerdem sehr für die Überprüfung des Originalpapyrus in Neapel an meiner Statt. Der Nationalbibliothek Vittorio Emanuele III in Neapel danke ich für das Überlassen der MSI-Aufnahmen des Papyrus sowie die Erlaubnis zur Veröffentlichung der Kolumne im Rahmen dieses Artikels. Zuletzt danke ich den anonymen Gutachter(inne)n sehr für ihre zeitnahe wie genaueste Durchsicht und zahlreiche äußerst scharfsinnige wie nützliche Verbesserungsvorschläge, von denen dieser Artikel sehr profitiert hat.</note>
+            <p xml:id="p1">In der Schule Epikurs, dem <emph rend="italics">Kēpos</emph>, zeigte sich die treue Ergebenheit gegenüber dem Meister und die Verehrung vorbildlicher Mitglieder der philosophischen Gemeinschaft unter anderem in der Abfassung von Memorialschriften.<note place="foot" xml:id="ftn1" n="1">
+                  <p> Zu Memorialschriften und Gedächtniskult vgl. <ref target="https://papyri.info/biblio/83643">Capasso 1988</ref>, 37–53; <ref target="https://papyri.info/biblio/97471">Indelli and Leone 2019</ref>.</p>
+               </note> Trotz des bedauerlichen Verlusts des Großteils der Texte können wir uns ein Bild machen dank der Tatsache, dass umfangreiche Teile eines solchen Texts auf einem herculanischen Papyrus enthalten sind (<emph rend="italics">PHerc.</emph> 1027). Es handelt sich um das zweite Buch des <emph rend="italics">Philistas</emph>: Hier beschreibt der Autor Karneiskos, ein Zeitgenosse Epikurs, das tadellose Verhalten des namensgebenden Epikureers vor allem in seinem Umgang mit Freunden und auch mit deren Tod.<note place="foot" xml:id="ftn2" n="2">
+                  <p>
+                     <ref target="https://papyri.info/biblio/97464">Erler 1994</ref>, 241–243; Edition in <ref target="https://papyri.info/biblio/83643">Capasso 1988</ref>. S. auch <ref target="https://papyri.info/biblio/95446">Crönert 1906</ref>, pp. 69–74 mit Nachtrag p. 179; Matelli 2012, 80–94.</p>
+               </note> In diesem Kontext erfolgt u.a. in Kolumne XIV die Auseinandersetzung mit den Auffassungen des Peripatetikers Praxiphanes über die Freundschaft.<note place="foot" xml:id="ftn3" n="3">
+                  <p> Zur polemischen Auseinandersetzung mit Praxiphanes und peripatetischer Lehre vgl. Wehrli <hi rend="superscript">2</hi>1969, 107f.; <ref target="https://papyri.info/biblio/97499">Bignone <hi rend="superscript">2</hi>1973</ref>, 1, 420–423; <ref target="https://papyri.info/biblio/83643">Capasso 1988</ref>, 56–82; <ref target="https://papyri.info/biblio/97460">Dorandi 2012</ref>, 447–451; <ref target="https://papyri.info/biblio/97462">Matelli (2012b)</ref>, 559.</p>
+               </note> Der erhaltene Text präsentiert sich in der Edition von M. Capasso wie folgt:<note place="foot" xml:id="ftn4" n="4">
+                  <p> Carn. Phil. <emph rend="italics">PHerc.</emph> 1027 col. XIV Capasso = <ref target="https://papyri.info/biblio/83643">Capasso 1988</ref>, pp. 190f.</p>
+               </note>
+            </p>            
+            <quote type="secondary">
+               <lb/>[<emph rend="italics">Eine Zeile fehlt</emph>] <hi rend="superscript">2</hi>| ω. καὶ ὑπὸ το[ύτ]ου μ[οι] | δοκεῖ πλανᾶσθα[ι] π̣λέ[ον] | δὲ τοῦ μὴ πά[ντοτ]ε θεω<hi rend="superscript">5</hi>|ρεῖσθαι περὶ τῶν̣ ἐμπ̣[ρ]ο|[εκ]κειμένων γινομένας | ψευδεῖς ὑπολήψεις κα|θ’ ὃν ἐξέθηκα [τ]ρόπον· ἐν|τεῦθεν γὰρ ἐ[π]ε[ίγ]ε̣ι πρὸς <hi rend="superscript">10</hi>| τὸ νομίζειν [  ̣  ̣  ̣  ̣] ὅλως | γίνεσθαι διὰ ψεύ[δ]η ἐν | [το]ῖ̣[ς] τοιούτοις, ἃ μᾶλ|[λο]ν̣ μὲν δύσκολ[όν ἐστι |  ̣  ̣  ̣  ̣]τα διειλ[η]μμ[  ̣  ̣  ̣ <hi rend="superscript">15</hi>|  ̣  ̣  ̣  ̣  ̣]υτο[ -ca.?- ]
+            </quote>
+            <p xml:id="p2">Capassos Übersetzung lautet :</p>
+            <quote type="secondary">
+               <lb/>... e da ciò mi sembra che egli sia indotto in errore piu che dal non considerare sempre, a proposito delle cose prima esposte, false supposizioni che si originano nella maniera che ho indicata. Giacché, di conseguenza, egli induce a credere che in generale si verifica ... a causa delle falsità racchiuse in cose siffatte, che è piuttosto difficile ...
+                </quote>
+            <p xml:id="p3">Im Rahmen seines Kommentars hat Capasso diese Passage besprochen. Jedoch finden einige Aspekte dort keine Berücksichtigung, weshalb an dieser Stelle einige ergänzende Bemerkungen vorgebracht werden:</p>
+            <p xml:id="p4">In Zeile 3 steht πλανᾶσθα[ι], was in Capassos Edition als textkritisch unstrittig ausgewiesen ist (s.u.). Hat das Verbum in der klassischen Literatur in erster Linie die Bedeutung „umherirren/umherwandern“, was nicht zuletzt im kosmischen Sinne auf die Planeten (πλανῆται) bezogen wird, so kann es auch im übertragenen Sinne eines „sich täuschen“ bzw. „getäuscht werden“ eingesetzt werden.<note place="foot" xml:id="ftn5" n="5">
+                  <p> Liddell/Scott/Jones 1996, s.v.</p>
+               </note> Besonders in epikureischen Texten, und gerade in den zahlreichen Schriften Philodems, die den Großteil der bisher edierten herculanischen Papyri ausmachen, ist diese Verwendung nicht unüblich. Capasso äußert hierzu korrekt, der Begriff umfasse unter anderem „aspetti dell’ attività umana, per esempio nella valutazione dell’essenza della retorica ... in cui spesso si viene ingannati dai retori sofisti“.<note place="foot" xml:id="ftn6" n="6">
+                  <p>
+                     <ref target="https://papyri.info/biblio/83643">Capasso 1988</ref>, 225.</p>
+               </note> Nennt er hierzu interessante Parallelstellen aus Philodems <emph rend="italics">Rhetorik</emph>, so führt er doch eine wichtige nicht an, und zwar eine Passage im dritten Buch:<note place="foot" xml:id="ftn7" n="7">
+                  <p> Philod. Rh. <emph rend="italics">PHerc.</emph> 1426 col. ΙΙΙ 5–17 Hammerstaedt = <ref target="https://papyri.info/biblio/83475">Hammerstaedt 1992</ref>: 26f., ergänzt ˻ ˼ durch die andere Buchkopie in <emph rend="italics">PHerc.</emph> 1506 col. L 20–32 und die Oxforder bzw. Neapolitaner Disegni ˹ ˺ (zuvor abgedruckt in <ref target="https://papyri.info/biblio/97501">Sudhaus 1895</ref>, 2, 256), Übersetzung Hammerstaedt.</p>
+               </note>
+            </p>
+            <quote type="secondary">
+               <lb/>... πλ̣α̣ν˻ῶ˼ν|˹τα˺ι πάν̣τες οἱ σ̣ο̣φιστ̣˻αῖ˼ς̣ ἀ˻ρ˼|γ̣ύριον ἀναλίσκον̣τ˻ες. ὅ˼|ταν γὰρ̣ ἀ̣κ̣ούσω̣σ̣˻ι̣ν α˼ὐ̣|τῶν ἐν̣ τα̣ῖ̣ς δε̣ί̣ξ˻εσι̣˼[ν] ˻κ̣˼α̣ὶ | τ̣αῖς πανη̣γύρεσι̣[ν, φ]η̣σ̣ὶν [ὁ] | Ἐ̣π̣ίκο̣υρος, κα̣˻ὶ̣ ψ̣˼[υ]χαγω|γηθῶσι̣ διὰ ˻τ̣˼[ὸ] ˻μ̣˼ὴ̣ ˻ε̣˼ἶ̣ν̣α̣ι̣ | π̣ε̣ρ̣ὶ̣ σ̣υ̣μ̣βο˻λ˼[αί]˻ου τ̣ι̣˼νὸς | τὸν λόγ̣ο̣[ν ἢ] ˻π̣ερ̣ὶ τ̣ῶ̣˼ν | σ̣υ̣˹μ˺φερόν̣[των, ὥσ]˻π̣ε̣ρ̣˼ ἐ̣ν | τ˻α̣ῖ̣ς̣˼ ἐκκ̣λ̣˻η̣σίαις κ̣α̣ὶ̣ τ˼οῖς | δικα̣σ̣τηρ˻ίοις γ̣εί˼ν̣εται | […].
+                </quote>
+            <quote type="secondary">
+               <lb/>... alle, welche Sophisten Geld bezahlen, werden betrogen. Jedesmal wenn sie nämlich Sophisten bei den Schaustellungen und Festen zuhören, sagt Epikur, und wenn sie in ihrem Gemüt bewegt werden, weil nicht von einer vertraglichen Abmachung die Rede ist, [oder] von nützlichen Dingen, wie es in den Volksversammlungen und den Gerichten geschieht [...].
+                </quote>
+            <p xml:id="p5">Diese hochinteressante Stelle habe ich in den letzten Jahren mehrfach besprochen, da sie aus ganz verschiedenen Perspektiven von Bedeutung ist.<note place="foot" xml:id="ftn8" n="8">
+                  <p>
+                     <ref target="https://papyri.info/biblio/97467">Heßler 2016</ref>: 149–155; <ref target="https://papyri.info/biblio/97469">Heßler 2021</ref>: 252–255; <ref target="https://papyri.info/biblio/97470">Heßler 2022</ref>: 154–158.</p>
+               </note> Im vorliegenden Falle bei Karneiskos drückt das Verb aus, wie umfassend der Peripatetiker Praxiphanes in seiner Täuschung verhaftet ist, genauso, wie es bei Philodem die Opfer der sophistischen Rhetorik sind. Während die Zuhörer sich dort täuschen (lassen) unter dem Einfluss von Personen, so täuscht sich Praxiphanes in der vorliegenden Kolumne unter dem Einfluss/aufgrund eines Umstands (ὑπὸ το[ύτ]ου). Matelli übersetzt „he seems to have been led astray by that“,<note place="foot" xml:id="ftn9" n="9">
+                  <p>
+                     <ref target="https://papyri.info/biblio/97461">Matelli 2012a</ref>: 85.</p>
+               </note> eher aktivisch und etwas ältlich könnte man übersetzen „dies trog ihn, mehr aber noch...“. Bei πλανάομαι im Präsensstamm ist jeweils nicht eindeutig, ob es sich um ein Passiv handelt oder eine Medialform. Ιn jedem Fall gehört die Stelle aus Philodems <emph rend="italics">Rhetorik</emph> Buch 3 ebenso in den Kontext von Erkenntis/Durchschauen etc. wie alle anderen Passagen aus der <emph rend="italics">Rhetorik</emph>, die Capasso <emph rend="italics">ad locum</emph> einbezieht.</p>
+            <p xml:id="p6">Während obige Stelle bereits idealerweise eine nützliche Ergänzung zu den von Capasso ausgewerteten Parallelstellen sein kann, so fehlt im Kommentar bedauerlicherweise die vermutlich wichtigste Bezugsstelle, es handelt sich um Epikurs <emph rend="italics">Brief an Menoikeus</emph>. Dort lesen wir folgendes:<note place="foot" xml:id="ftn10" n="10">
+                  <p>  Ep. Men. 128,1, Üb. Heßler.</p>
+               </note>
+            </p>
+            <quote type="secondary">
+               <lb/>τούτων γὰρ ἀπλανὴς θεωρία πᾶσαν αἵρεσιν καὶ φυγὴν ἐπανάγειν οἶδεν ἐπὶ τὴν τοῦ σώματος ὑγίειαν καὶ τὴν τῆς ψυχῆς ἀταραξίαν, ἐπεὶ τοῦτο τοῦ μακαρίως ζῆν ἐστι τέλος.
+                </quote>
+            <quote type="secondary">
+               <lb/>Denn die unbeirrte Betrachtung dieser Zusammenhänge kann jede Entscheidung über Tun und Lassen an der körperlichen Gesundheit und dem störungsfreien Zustand der Seele orientieren, da dies das Ziel eines glücklichen Lebens ist.
+                </quote>
+            <p xml:id="p7">Im Kontext seiner Ausführungen über Begierden und Lustempfindungen spricht Epikur also von der ἀπλανὴς θεωρία, der „unbeirrten Betrachtung“, die letzten Endes zur Glückseligkeit verhilft. Genau diese ἀπλανὴς θεωρία hat Praxiphanes, der Nicht-Epikureer eben nicht, und daher urteilt Karneiskos δοκεῖ πλανᾶσθα[ι] π̣λέ[ον] | δὲ τοῦ μὴ πά[ντοτ]ε θεω|ρεῖσθαι. Er weiß konsequenterweise auch nicht, wie falsche Meinungen (ψευδεῖς ὑπολήψεις) entstehen – das gilt auch für die eigenen, die ihn von der Wahrheit abbringen. Auch die ψευδεῖς ὑπολήψεις finden im <emph rend="italics">Brief an Menoikeus</emph> prominent Erwähnung.<note place="foot" xml:id="ftn11" n="11">
+                  <p>
+                     <ref target="https://papyri.info/biblio/83643">Capasso 1988</ref>, 226f.</p>
+               </note> Im Falle derjenigen, die Karneiskos dem Peripatetiker zuschreibt, dürfte es sich um dessen Annahmen auf dem Gebiet der Freundschaft handeln, und insbesondere was das Verhalten nach einem Todesfall im Freundeskreis angeht (der verstorbene Philistas war ein Freund beider).<note place="foot" xml:id="ftn12" n="12">
+                  <p>
+                     <ref target="https://papyri.info/biblio/83643">Capasso 1988</ref>, 228; anders <ref target="https://papyri.info/biblio/95446">Crönert 1906</ref>, 72: „ Die falschen Vorstellungen, von denen IX 7 die Rede ist, betreffen ohne Zweifel den Punkt, der für den Epikureer beim Sterben vornehmlich in Betracht kam, nämlich die Nichtigkeit der Todesfurcht“; s. auch <ref target="https://papyri.info/biblio/97464">Erler 1994</ref>, 241–243; <ref target="https://papyri.info/biblio/97461">Matelli 2012a</ref>, 81–83 mit Literatur.</p>
+               </note>
+            </p>
+            <p xml:id="p8">Diese Stelle aus dem <emph rend="italics">Philistas</emph> zeigt also gut, dass sich die Epikureer im Ausdruck bzw. in der Terminologie an den durch den Meister festgelegten Begriffen orientieren, und sogar die direkte Bezugnahme auf einen konkreten Referenztext ist mehr als wahrscheinlich. In seiner Darstellung des Philistas und seines idealen Lebens und Sterbens als epikureischer Weiser ist es auch nachvollziehbar, wenn sich Karneiskos auf denjenigen Epikurbrief bezieht, der ein Leben als eine Art Gott auf Erden verheißt.<note place="foot" xml:id="ftn13" n="13">
+                  <p> Epic. Ep. Men. 135,2: ὡς θεὸς ἐν ἀνθρώποις. Zum Konzept der „Angleichung an den Weisen“ in der Tradition der „Angleichung an Gott“ vgl. <ref target="https://papyri.info/biblio/97465">Erler 2002</ref>; <ref target="https://papyri.info/biblio/97474">Heßler 2014</ref>, 327–333; zur Formulierung und Isokrates als Referenz vgl. <ref target="https://papyri.info/biblio/97470">Heßler 2022</ref>.</p>
+               </note>
+            </p>
+            <p xml:id="p9">Wenn man sich länger mit einem fragmentarischen Text wie der besprochenen Karneiskos-Kolumne intensiv beschäftigt, kommt man nicht umhin, sich anhand des Textbefundes zu überlegen, ob gegenüber dem bisherigen Wortlaut der letzten Edition(en) ggf. Änderungen/Verbesserungen möglich wären. Einige solche Modifikationen möchte ich im Folgenden vorschlagen. Zunächst wird ein Lesetext geboten, der nicht von einem ausführlichen Apparat begleitet wird: Ein solcher kann bei Capasso eingesehen werden, textkritische Fragen werden auf den nächsten Seiten <emph rend="italics">ad locum</emph> besprochen.<note place="foot" xml:id="ftn14" n="14">
+                  <p>
+                     <ref target="https://papyri.info/biblio/83643">Capasso 1988</ref>, 190.</p>
+               </note> Textbasis sind neben Capassos Edition die ältere Ausgabe Crönerts, die Abzeichnungen des Papyrus in Neapel und Oxford<note place="foot" xml:id="ftn15" n="15">
+                  <p> Das <ref target="https://dl.bnnonline.it/explore?bitstream_id=144632&amp;handle=20.500.12113/3275&amp;provider=iiif-image">Neapolitaner <emph rend="italics">disegno</emph>
+                     </ref> (N) ist Teil der <emph rend="italics">Collectio altera</emph> (<ref target="https://www.epikur-wuerzburg.de/vh2/VH2_05_191.jpg">VH<hi rend="superscript">2</hi>, 5, 191</ref>); die <ref target="https://portal.sds.ox.ac.uk/articles/online_resource/MS_Gr_class_c_4_788/24006213"> Oxforder Abzeichnung</ref> (O) von <emph rend="italics">MS Gr. class. c</emph>. 4 788 der Bodleian library Oxford.</p>
+               </note> sowie Multispektralaufnahmen des Textträgers (s.u.). Gegenüber der letzten kritischen Edition<note place="foot" xml:id="ftn16" n="16">
+                  <p> In Matellis Praxiphanes-Ausgabe (2012a) ist der Text auch vorhanden, allerdings ohne Änderungen gegenüber Capasso.</p>
+               </note> ist hier durch ⌈⌉ gekennzeichnet, wo ausschließlich die <emph rend="italics">disegni</emph> zur Rekonstruktion herangezogen werden können. Eine Überprüfung des Papyrus in Autopsie am Original war mir persönlich leider nicht möglich. Holger Essler war aber so freundlich, eine solche Kontrolle vor Ort vorzunehmen. Dem griechischen Wortlaut folgt eine Übersetzung, und zuletzt werden noch Erläuterungen zu den vorgenommenen Änderungen und dem Kontext der Passage vorgebracht. Zunächst also der neue Text:</p>
+            <quote type="secondary">
+               <lb/>[<emph rend="italics">Eine Zeile fehlt</emph>] <hi rend="superscript">2</hi>| ω[1-2]  καὶ ὑπὸ το[ύτ]⌈ου μ⌉[ὲν]<emph rend="bold">|</emph> δοκεῖ πλανᾶ<emph rend="bold">σθα</emph>[ι], ⌈π̣λέ⌉[ον] | ⸏ δὲ τοῦ μὴ πά[ντοτ]⌈ε θεω⌉<hi rend="superscript">5</hi>|ρεῖσθαι περὶ τῶν̣ ⌈ἐμ π̣⌉ọ|[σὶ] κειμένων γινομέν̣ας | ψευδ̣εῖς ὑπολήψεις κα|θ’ ὃν ἐξέθηκα̣ [τ]ρόπον· ἐν|τεῦθεν γὰρ ἐ̣[κφ]ε[ύγ]ε̣ι πρὸς <hi rend="superscript">10</hi>| τὸ νομίζειν [ἅπανθ’] ὅλως | γίνεσθαι διὰ ψεύ[δ]η ἐν | [το]ῖ̣[ς] τοιούτοις ἅμα δ̣[ὲ | καὶ] ἡ̣μῖ̣ν δυσκολ[ίας παρ|έχον]τα. διειλ[η]μμ⌈έν⌉<hi rend="superscript">15</hi>|[ως δὲ ο]ὗτο[ς -ca.?- ] | [<emph rend="italics">Vier Zeilen fehlen</emph>]|
+            </quote>
+            <figure>
+               <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24150915"/>
+               <head>Fig. 1: <emph rend="italics">PHerc.</emph> 1027, cr 7, col. XIV linke Seite © Nationalbibliothek Neapel</head>
+            </figure>
+            <figure>
+               <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24150916"/>
+               <head>Fig. 2: <emph rend="italics">PHerc.</emph> 1027, cr 7, col. XIV rechte Seite © Nationalbibliothek Neapel</head>
+            </figure>
+            <p xml:id="p10">In der Übersetzung:</p>
+            <quote type="secondary">
+               <lb/>... und hiervon scheint er (sc. Praxiphanes) in die Irre geführt zu werden, mehr aber noch davon, dass er nicht in jedem Fall in Betracht zieht, bei dem, was direkt zu Füßen liegt, dass falsche Annahmen entstehen auf die von mir dargestellte Weise. Deshalb nämlich flieht er in den Glauben, dass in einem solchen Kontext alles generell geschieht aufgrund von Dingen, die (sc. aus epikureischer Perspektive faktisch) nicht der Wahrheit entsprechen, zugleich aber auch uns Probleme machen. Dieser (?) sehr deutlich, ...
+                </quote>
+            <p xml:id="p11">Z. 2 ω[1–2]: Neben dem Ꞷ ist auf den hochauflösenden Aufnahmen noch eine Spur zu erkennen, die auch bei näherer Überprüfung nicht endgültig bestimmbar ist. </p>
+            <p xml:id="p12">Z. 2 ⌈μ⌉[έν]: Im Text ist die Rede von zwei Varianten des Irrtums. Eine wird ausgelöst von einem nicht erschließbaren „hiervon“ (ὑπὸ το[ύτ]⌈ου⌉), eine andere beginnt bei ⌈π̣λέ⌉[ον] | δέ. Bei μ[..] bietet sich eher als Capassos μ[οι] an, das Gegensatzpaar μέν ... δέ herzustellen. Das Ende von Zeile 2, wie auch die Zeilenenden in 3–5, ist ausschließlich in der Oxforder Abzeichnung vorhanden, wenn auch nur partiell.</p>
+            <p xml:id="p13">Z. 3 πλανᾶ<emph rend="bold">σθα</emph>[ι]: An dieser Stelle wurde bisher immer der Infinitiv zu πλανάομαι (s.o.) in den Text aufgenommen, bei Crönert gesamt, bei Capasso den Textzeugen folgend bis πλανᾶσθα. Allerdings liegt nach ΠΛΑΝΑ im Papyrus ein <emph rend="italics">sottoposto</emph> vor: Hier bestätigte die Ansicht des Originals den Hinweis eines Gutachters. Wenn im Text dennoch weiterhin der Infinitiv geführt wird, dann deswegen, weil in der Kombination mit dem umliegenden Textbefund, gerade mit δοκεῖ plus Infinitiv, ein anderer Wortlaut denkbar, aber nicht sehr naheliegend wäre. Dies veranlasste Crönert und Capasso wohl auch, trotz Ansicht des Originals -σθα([ι]) als gesichert in den Text zu setzen. Geändert werden müssen am Ende die diakritischen Zeichen, ich beschränke mich auf den Fettdruck der Buchstaben <emph rend="bold">σθα</emph>.</p>
+            <p xml:id="p14">Z. 3f. ⌈π̣λέ⌉[ον] | δὲ τοῦ: Diese Angabe kann entweder bedeuten, dass die Person, von der gesprochen wird, d.h. Praxiphanes, „hiervon“ mehr getäuscht wird als durch das Nichtbedenken der Entstehung falscher Meinungen (so Capasso mit <emph rend="italics">genitivus comparationis</emph>). Wahrscheinlicher ist aber, dass die erwähnte, nicht angewandte Betrachtung des Sachverhalts der schlimmere Irrtum ist („mehr aber noch davon“). Ein zweites Mal den Urheber/Anlass des Irrtums durch die Präposition ὑπό anzugeben, wäre erwartbar, diese nur einmal zu setzen, ist aber ebenso möglich.<note place="foot" xml:id="ftn17" n="17">
+                  <p> Kühner/Gerth <hi rend="superscript">3</hi>1898, 548–552 = § 451 i.</p>
+               </note> In jedem Fall ist der Gedankengang δοκεῖ πλανᾶσθαι πλέον ὑπὸ τοῦ μὴ πάντοτε θεωρεῖσθαι ... Nach Zeile 3 befindet sich im Papyrus eine Paragraphos.</p>
+            <p xml:id="p15">Z. 5f. ⌈ἐμ π̣⌉ọ|[σὶ] κειμένων: An dieser Stelle ist im Papyrus nur noch Ọ|. [.]Κ̣ΕΙΜΕΝꞶΝ zu lesen, was sich mit der Neapolitaner Abschrift (N) deckt. Im Oxforder <emph rend="italics">disegno</emph> (O) wiederum ist zu lesen ΕΜΠ̣Ο̣|[..]Κ̣ΕΙΜΕΝꞶΝ. Hierauf basierend kam dann zunächst Crönert auf den Wortlaut ἐμπ̣ρ̣ο|κειμένων, bevor sich Capasso entschied für ἐμπ̣[ρ]ο|[εκ]κειμένων. Beide Vorschläge wollen nicht recht überzeugen: Die Varianten basieren ausschließlich auf dem Oxforder <emph rend="italics">disegno</emph> (also eigentlich ⌈ἐμπ̣ρ̣⌉ο bzw. ⌈ἐμπ̣ρ̣⌉ο|[εκ]), wo aber für ein Rho weder Spuren noch Raum vorhanden sind. Im Papyrus findet sich zu Beginn von Zeile 6 ein <emph rend="italics">sottoposto</emph>, was mit Capassos [εκ] theoretisch vereinbar wäre. Allerdings ist sein Vorschlag, wie er selbst einräumt, ein ἅπαξ λεγόμενον. Dies gilt, so sei angemerkt, für alle Formen von ἐμπροεκκεῖσθαι (und -τιθέναι), den Wortbeginn ἐμπροεκ- generell und auch alle Formen von Crönerts Vorschlag ἐμπροκεῖσθαι (und -τιθέναι). Für den Befund περὶ τῶν̣ ⌈ἐμ π̣⌉ọ setze ich in den Text τῶν̣ ⌈ἐμ π̣⌉ọ|[σὶ] κειμένων, wörtlich „das, was zu Füßen liegt“. ἐμ statt ἐν findet sich allenthalben in den herculanischen Papyri, u.a. auch in der Folgekolumne im <emph rend="italics">Philistas</emph> (col. 15,9f. Capasso: ἐμ | φίλω̣ν τελευταῖς). Dies ist möglich, wenn das Wort im Anschluss beginnt mit μ oder einem p-Laut (β, π, φ), was hier gegeben wäre. In Zeile 6 sind nur noch als die zwei auch von Capasso konstatierten fehlenden Buchstaben Sigma und Iota zu ergänzen. Im Gegensatz zu den oben angeführten Lösungen Capassos und Crönerts gibt es bei ⌈ἐμ π̣⌉ọ|[σὶ] zunächst kein Problem mit dem Platz. Zum zweiten ist die Junktur in verschiedenen Varianten gut belegt: τὰ ἐν ποσί(ν) bezeichnet die Dinge, die einem direkt zu Füßen liegen, ähnlich wie der Ausdruck „vor Augen‟ (ἐν ὄμμασι/πρὸ ὀμμάτων u.ä.). Neben diesen „konkreten/ gegenwärtigen/greifbaren Dingen“, steht τὰ ἐν ποσί(ν) auch für Angelegenheiten des Alltags, die manch ein Philosoph überhaupt nicht in sein Denken einbezieht.<note place="foot" xml:id="ftn18" n="18">
+                  <p> Pl. Tht. 175b; Arist. Pol. 1263a18; Max. Tyr. 4,5; D.L. 6,28; D.H. 4,23,3; vgl. auch Pl. Tht. 174c: περὶ τῶν παρὰ πόδας καὶ τῶν ἐν ὀφθαλμοῖς διαλέγεσθαι; LSJ s.v. 4c.</p>
+               </note> κεῖσθαι ἐν ποσί(ν) ist erst relativ spät belegt,<note place="foot" xml:id="ftn19" n="19">
+                  <p> Bas. hom. 3 p. 31,7 Rudberg; Dam. Isid. Fr. 183*,10 Zintzen; Ascl. in Metaph. p. 404,25 Hayduck. Zu κεῖσθαι ἐν in epikureischen Texten vgl. Epic. Ep. Men. 131,3: τὰς ἐν ἀπολαύσει κειμένας; Phld. Po. 1, <emph rend="italics">PHerc</emph>. 994, 20f. Janko: ἐν συν|θέσε̣ι̣ χρηστῆι̣ κείμενον.  </p>
+               </note> aber eben kein sonst nicht vorhandenes Wort. Es geht in diesem Kontext darum, dass Praxiphanes keine ἀπλανὴς θεωρία hat, die sich bei Epikur auf den Kontext ἡδονή/ἐπιθυμία/πάθος bezieht (s.o.), oder ganz allgemein um das Wählen und Vermeiden bestimmter Verhaltensweisen. Im vorliegenden Fall täuscht sich aus der Sicht des Karneiskos in Kolumne XIV Praxiphanes bei ganz grundlegenden Dingen, wie hier erschlossen wurde. Da nimmt es nicht wunder, wenn in der nächsten Kolumne weiter von seiner Fehlauffassung gesprochen und betont wird, wie weit sein Denken in puncto Freundschaft von dem entfernt ist, was zu erwarten ist.<note place="foot" xml:id="ftn20" n="20">
+                  <p> Carn. Phil. <emph rend="italics">PHerc.</emph> 1027 Col. XV,4–13 Capasso = <ref target="https://papyri.info/biblio/83643">Capasso 1988</ref>, 191.</p>
+               </note> Und auch in der Schlusskolumne von Buch 2 wird ein letztes Mal davon gesprochen, wie falsch Praxiphanes’ Lehren und somit auch sein ganzes Leben sind:<note place="foot" xml:id="ftn21" n="21">
+                  <p> Carn. Phil. <emph rend="italics">PHerc.</emph> 1027 Col. XXI,1–7 Capasso = <ref target="https://papyri.info/biblio/83643">Capasso 1988</ref>, 194.</p>
+               </note>
+            </p>
+            <quote type="secondary">
+               <lb/>... [τὸ σύγγραμμα τὸ κα]|τ̣ὰ κ[ακ]ὰς δ[ό]ξας γινό[με]|νον καὶ δεῖγμα καθ[ε]σ̣|τηκὸς τῆς καθ’ ὅλον τὸν <hi rend="superscript">5</hi>| βίον φαύλης διαγωγῆς | καὶ φίλοις οὐ τῆς ἀρίστης | συναναστροφῆς·
+                </quote>
+            <quote type="secondary">
+               <lb/>... die Schrift, entstanden nach seinen falschen Meinungen, und ein bestehendes Zeugnis seines im ganzen Leben schlechten Habitus und seines suboptimalen Umgangs mit Freunden.
+                </quote>
+            <p xml:id="p16">Z. 9 ἐ̣[κφ]ε[ύγ]ε̣ι: Capasso liest im Papyrus Ε[.]Ε[..]Ε̣Ι, die Abschriften N und O bieten beide sogar lediglich Ε[.]Ε[..]Ι. In seinen Text setzt Capasso das konjizierte ἐ[π]ε[ίγ]ε̣ι, und dann lautet der Satz „hiervon ausgehend/daher (ἐντεῦθεν) drängt er dazu, zu glauben (πρὸς τὸ νομίζειν) ...“. Hier gibt also ἐντεῦθεν die Ursache an, ἐπείγει erhält (im erhaltenen Text) kein Objekt, und „drängen zu“ wird ausgedrückt durch einen substantivierten Infinitiv mit der Präposition πρός. Gerade der letzte Punkt will nicht recht überzeugen. Ein Blick in die Aufnahmen des Papyrus zeigt an der Stelle in der Tat nur die Buchstaben E E I, allerdings mit größeren Lücken als Capasso und erst recht N und O bieten. Dies dürfte auch Crönert so gesehen haben, wenn er hier die Lösung ἐ[νπ]εί̣[πτ]ε̣ι in seinen Text aufnimmt.<note place="foot" xml:id="ftn22" n="22">
+                  <p> Das Verb ist in der Schreibweise πειπ statt πιπ jeweils einmal belegt in der erhaltenen griechischen Literatur: Phld. Po. 2, <emph rend="italics">PHerc.</emph> 994 col. 32 = Fr. 216,17f. Janko (τ̣ὸ ἐμ|πεῖπτον); Diog. Oen. Fr. 9, col. 2,11 Smith (ἐνπείπτοντα).</p>
+               </note>
+            </p>
+            <p xml:id="p17">Nach reiflicher Überlegung möchte ich an dieser Stelle konjizieren ἐ̣[κφ]ε[ύγ]ε̣ι. Bei diesem Wortlaut ist folglich Praxiphanes im Irrtum verfangen, und „aus dieser Lage heraus/deshalb (ἐντεῦθεν) flieht er in den Glauben, dass ...“. Das Verbum kommt innerhalb der Herculanensia bei Philodem vor und wird in der Kombination ἐκφεύγειν πρός im Sinne von  „fliehen zu“ bereits von Platon verwendet.<note place="foot" xml:id="ftn23" n="23">
+                  <p> Phld. Ira, <emph rend="italics">PHerc.</emph> 182, col. 40,24f. <ref target="https://papyri.info/biblio/97463">Armstrong and McOsker 2020</ref>; Pl. Ti. 57b.</p>
+               </note> Matelli übersetzt in ihrer Praxiphanes-Edition „he goes on to think“, sieht also ebenfalls kein ‚Drängen zum Glauben, dass ...ʻ, sondern ein ‚Gelangen zum Glauben, dass ...ʻ ἐντεῦθεν.<note place="foot" xml:id="ftn24" n="24">
+                  <p>
+                     <ref target="https://papyri.info/biblio/97461">Matelli 2012a</ref>, 85. Die Übersetzung passt freilich nicht gut zum abgedruckten ἐ[π]ε[ίγ]ε̣ι.</p>
+               </note> Die Lösung ἐ̣[κφ]ε[ύγ]ε̣ι hat den Vorteil, dass das Verbum gut verbunden ist mit dem Lokaladverb ἐντεῦθεν sowie der Präposition πρός („von hier aus fliehen zu“). Inhaltlich ist der Satz mit der Flucht aus einer schwierigen Lage in eine (vermeintlich) bessere auch dahingehend erschließlicher, dass kein Objekt für das Drängen zu einer Handlung zu suchen ist. </p>
+            <p xml:id="p18">Für νομίζειν im Sinne von (weiteren) falschen Vorstellungen lässt sich erneut der <emph rend="italics">Brief an Menoikeus</emph> heranziehen, wo man sich die Götter so vorstellt, wie sie nicht sind.<note place="foot" xml:id="ftn25" n="25">
+                  <p> Epic. Ep. Men. 123,5; Kommentar bei <ref target="https://papyri.info/biblio/97474">Heßler 2014</ref>: 170–174.</p>
+               </note>
+            </p>
+            <p xml:id="p19">Z. 10 [ἅπανθ’]: Im bisher inhaltlich erschlossenen Satz flüchtet sich Praxiphanes als Alternative zum πλανᾶσθαι zu einem anderen Glauben. Dieser besteht analog zu den ψευδεῖς ὑπολήψεις im Satz zuvor darin, dass „[Lücke] generell in solchen Kontexten geschehe wegen ψεύδη“. Letztere sind hier also wieder Dinge, die so nicht sind/nicht der Wahrheit entsprechen, also Fehlaufassungen. Das „generell“ (ὅλως) weist darauf hin, dass das Subjekt des Infinitivs am ehesten etwas ist wie „alles“. Unter Beachtung der Hiatregeln setze ich daher als Ergänzung ein ἅπανθ’. Praxiphanes täuscht sich also und begibt sich als (vermeintlichen) Ausweg endgültig in einen allumfassenden Irrglauben.</p>
+            <p xml:id="p20">Ζ. 11f. ἐν | [το]ῖ̣[ς] τοιούτοις: Das Demonstrativum im Neutrum Plural „Derlei/Derartiges“ bezieht sich auf das zuvor, auch vor Beginn dieser Kolumne, Gesagte und bedeutet somit „in einem solchen Kontext/bei derartigen Fragestellungen“. Der Beginn von Zeile 12 ist verderbt, Crönert bietet γε̣ gefolgt von einem ergänzten [τοῖς], was Capasso in der Form [το]ῖ̣[ς] zum Zeilenbeginn seines Texts machte. Während er im Papyrus Ε[.]Ι̣[.] liest und das Epsilon als <emph rend="italics">sottoposto</emph> ausweist, bietet O [.]E[.]N und N nach einem Epsilon zu Zeilenbeginn eine längere Lücke vor τοιούτοις. Inhaltlich ist der Artikel relativ alternativlos.</p>
+            <p xml:id="p21">Z. 12–14 ἅμα δ̣[ὲ | καὶ] ἡ̣μῖ̣ν δυσκολ[ίας παρ|έχον]τα: Der Text lautet bei Capasso ἃ μᾶλ|[λο]ν̣ μὲν δύσκολ[όν ἐστι |    ̣   ̣   ̣   ̣]τα, Crönert bietet bis μέν fast dasselbe und fährt anders fort (ἃ μᾶλ̣|[λον] μὲν δυσκόλ[ου ἐστί | εἰς δὲ] τὰ). Der erhaltene Text lässt sich sowohl als ΑΛΛΑ, aber auch als ΑΜΑ lesen (so auch in O). Danach kann nicht eindeutig entschieden werden, ob es sich um ein Δ oder ein Λ handelt. Im Anschluss ist noch Platz für einen weiteren Buchstaben, weshalb mein Text lautet ἅμα δ̣[ὲ].</p>
+            <p xml:id="p22">In der nächsten Zeile lese ich statt eines in bisherigen Editionen als eindeutig suggerierten ΜΕΝ ein ΜΙ̣Ν. Als Buchstabe zuvor wurden von Capasso Spuren eines Νy gelesen, was bereits Crönert vorschlug, allerdings in eckigen Klammern. Von diesen Spuren ist es nicht weit zu einem möglichen Η̣. Ein Rekurs auf ein „wir“ findet sich auch noch später im Text, inhaltlich besteht auch eine gewisse Nähe (col. 20,5f. Capasso: πᾶν τὸ ματαίως ἡμᾶς | παρενοχλοῦν). </p>
+            <p xml:id="p23">Βisher lautete die Deutung, ein ἅ, im Sinne von „welches Verhalten ...“ ist entweder „charakteristisch für einen schwierigen Zeitgenossen“ (so Crönerts δυσκόλ[ου ἐστί]) oder „schwierig/komplex“ (so Capassos δύσκολ[όν ἐστι]). Für Letzteres ließen sich einige Stellen aus epikureischen Texten anführen,<note place="foot" xml:id="ftn26" n="26">
+                  <p> Epic. GV 7; Phld. Rh. 6, <emph rend="italics">PHerc.</emph> 1669 col. 19,6 = 1, p. 252 Sudhaus; Phld. Po. 2, <emph rend="italics">PHerc.</emph> 994, col. 24, 9–11 = Fr. 207, 9–11 Janko; <ref target="https://papyri.info/biblio/95940">Voojis 1934</ref>: 90; Usener 1977, 208.</p>
+               </note> für Crönerts Ansatz finden sich diverse Passagen zu δύσκολος im Kontext der Freundschaft, u.a. bei Plutarch.<note place="foot" xml:id="ftn27" n="27">
+                  <p> Plu. <emph rend="italics">Quomodo adulator ab amico internoscatur</emph> 2 = Mor. 50b.</p>
+               </note> Neben dem  Adjektiv ist auch an das Substantiv δυσκολία zu denken, „Unzufriedenheit“ oder „Schwierigkeit“, was im Rahmen des Befundes ἅμα δ̣[ὲ | ...] ἡ̣μῖ̣ν δυσκολ[5–6 | 4–5]τα zum Partizipium von δυσκολίαν παρέχειν/δυσκολίας παρέχειν führt, „Ärger machen/Probleme bereiten“.<note place="foot" xml:id="ftn28" n="28">
+                  <p> Arist. Ph. 239b10; Pol. 1263a11; Pos. Fr. 441c <ref target="https://papyri.info/biblio/97477">Theiler 1982</ref> = Plu. <emph rend="italics">De virtute moralia</emph> 7 = Mor. 448a; D.S. 10,12,1.</p>
+               </note> Nun fehlen noch 2–3 Buchstaben zwischen ἅμα δ̣[ὲ] und ἡ̣μῖ̣ν, wofür sich anbietet ἅμα δ̣[ὲ | καὶ], „zugleich aber auch“, was auch mit Partizipien kombiniert wird und auch Glieder verbindet, die nicht dieselbe Wortart repräsentieren.<note place="foot" xml:id="ftn29" n="29">
+                  <p> Vgl. z.Β. Thuc. 1,25,3; 1,92,1; Arist. GA 774b22; APr. 99b16; EE 1233a7 u.ö.</p>
+               </note>
+            </p>
+            <p xml:id="p24">Praxiphanes glaubt also, zumindest in diesem Kontext (ἐν | [το]ῖ̣[ς] τοιούτοις), aufgrund von Dingen, die 1. (aus epikureischer Perspektive) nicht der Realität entsprechen, also quasi alternativen Fakten, und 2. zugleich Karneiskos und den Epikureern (ἡ̣μῖ̣ν) Probleme machen. Diese dürften nicht substantiell philosophischer Natur sein, denn Karneiskos hat offenbar keine Schwierigkeiten Gegenargumente zu finden. Vielmehr dürften die konstatierten Unwahrheiten eher schwierig im Sinne von ‚belästigendʻ sein, denn offenbar lassen sie sich auch nicht einfach ignorieren: Derartige Störungen von außen sind der Seelenruhe abträglich und verhindern das Erreichen des gottgleichen Status, den die Epikureer für sich beanspruchen.<note place="foot" xml:id="ftn30" n="30">
+                  <p> Epic. 50 F1–2 Erbì = 72a-b 2Arrighetti = Diog. Oen. Frr. 125–126 Smith; <ref target="https://papyri.info/biblio/97468">Heßler 2020</ref>; <ref target="https://papyri.info/biblio/97470">Heßler 2022</ref>.</p>
+               </note> Denn die epikureischen Götter als höchstes Idealmodell kennen keine Probleme, die jemand an sie heranträgt, und sie machen wiederum niemandem Schwierigkeiten.<note place="foot" xml:id="ftn31" n="31">
+                  <p> Epic. KD 1.</p>
+               </note>
+            </p>
+            <p xml:id="p25">Z 14f. διειλ[η]μμ⌈έν⌉|[ως: Es folgt eine Form des Partizipiums διειλημμένoς. Das Wort διαλαμβάνω hat ein breites Spektrum an Bedeutungen, in epikureischen Texten<note place="foot" xml:id="ftn32" n="32">
+                  <p> Voojis 1934, 74; Usener 1977, 177; <ref target="https://papyri.info/biblio/97474">Heßler 2014</ref>: 161f.</p>
+               </note> u.a. „gliedern“,<note place="foot" xml:id="ftn33" n="33">
+                  <p> Phld. Rh. 4, <emph rend="italics">PHerc.</emph> 1007 col. 17a,5–7 = 1, p. 198 Sudhaus.</p>
+               </note> „erkennen/verstehen“,<note place="foot" xml:id="ftn34" n="34">
+                  <p> Epic. GV 26; Ep. Men. 123,1; 133,2; Phld. Sign. <emph rend="italics">PHerc.</emph> 1065 col. 29, 4f. De Lacy/De Lacy.</p>
+               </note> „festhalten“.<note place="foot" xml:id="ftn35" n="35">
+                  <p> Epic. Ep. Pyth. 85 im Sinne von nicht „loslassen“; Ep. Hdt. 38 im Sinne „von klarmachen“.</p>
+               </note> Das Perfekt Passiv übersetzt Diels mit „im Zustande der Aufmerksamkeit“ und „sorgfältig geprüft“,<note place="foot" xml:id="ftn36" n="36">
+                  <p> Phld. D. 1, <emph rend="italics">PHerc.</emph> 26 col. 14,10 Diels: διειλημμένως mit <ref target="https://papyri.info/biblio/97472">Diels 1916</ref>, p. 69; D. 1, <emph rend="italics">PHerc.</emph> 26 col. 24,24 Diels: διειλημμένας mit Diels 1916, p. 94.</p>
+               </note> auch die Bedeutung „die Auffassung besteht“ ist zu finden.<note place="foot" xml:id="ftn37" n="37">
+                  <p> Phld. Po. 5, <emph rend="italics">PHerc.</emph> 1538 col. 28,1 = col. 2,1 <ref target="https://papyri.info/biblio/83650">Mangoni 1993</ref>: διείλη[π]ται.</p>
+               </note> An dieser Stelle des <emph rend="italics">Philistas</emph> entschied sich Crönert für den Wortlaut τά διειλ[η]μμ[ένα]. Im nun vorgeschlagenen Text sind die Buchstaben TΑ bereits dem Wort zuvor zugeordnet. Ohne den Artikel ist die am häufigsten in den herculanischen Papyri präsente Form des Partizipiums das Adverb διειλημμένως: Neben der bereits erwähnten Bedeutung „aufmerksam“ entspricht es auch „deutlich“ oder „präzise“ und ist bei Philodem (mindestens) fünfmal überliefert.<note place="foot" xml:id="ftn38" n="38">
+                  <p> Phld. Po. 2, <emph rend="italics">PHerc.</emph> 1677a, 98,15 Janko; M. 4, <emph rend="italics">PHerc.</emph> 1050, col. 32,20f. Henry; Rh. 4, <emph rend="italics">PHerc.</emph> 1423 col. 16,12f. = 1, p. 158 Sudhaus; Rh. 8<emph rend="italics">, PHerc.</emph> 832, col. 11,2,7 = 2, pp. 2f. Sudhaus; Phld. D. 1, <emph rend="italics">PHerc.</emph> 26 col. 14,10 Diels; Voojis 1934, 82f.; Usener 1977, 178.</p>
+               </note> Das Zeilenende bei  διειλ[η]μμ⌈έν-⌉ deckt sich mit der Oxforder Abzeichnung. In Zeile 15 geht es dann also weiter [ως ca. 2–3]ΥΤΟ[ -ca.?- ]. Nach ως ist nun eine Satzverbindung zu erwarten, gefolgt von einem Demonstrativum/Personalpronomen. Dies führt mich zu einem Wortlaut <emph rend="italics">exempli gratia</emph> διειλ[η]μμ⌈έν⌉|[ως δὲ ο]ὗτο[ς -ca.?- ], bevor für den Rest der Kolumne keine Aussage mehr zum Text getroffen werden kann. Bei dieser Formulierung sagt Praxiphanes ganz deutlich, dass ..., alternativ fährt Karneiskos nach der Aussage ‚Praxiphanes liegt völlig falschʻ fort mit etwas wie ‚wenn man die Sache genau betrachtet, ...ʻ o.ä.</p>
+            <p xml:id="p26">Nach den Hinweisen zu Karneiskos’ Referenztexten sowie einigen Überlegungen zum Text möchte ich mit der Hoffnung schließen, dass diese Erwägungen eine gute Ergänzung zu Capassos Kommentierung darstellen können. Dass nach über 30 Jahren eine erneute Edition und Kommentierung auch zu diesem Papyrus lohnend sein dürfte, konnte diese exemplarische Untersuchung vielleicht zeigen. </p>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97463">Armstrong, D and M. McOsker (2020)</ref> Philodemus, On Anger. Introduction, Greek Text, and Translation, Atlanta. [Writings from the Greco-Roman world 45].</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97499">Bignone, E. (1973)</ref> L’Aristotele perduto e la formazione filosofica di Epicuro, Firenze <hi rend="superscript">2</hi>1973; ND Milano 2007.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/83643">Capasso, M. (1988)</ref> Carneisco. Il secondo libro del Filista (PHerc. 1027). Edizione, traduzione e commento, Napoli. [La Scuola di Epicuro 10]. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95446">Crönert, W. (1906)</ref>, Kolotes und Menedemos, Leipzig; ND Amsterdam 1965.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/83644">DeLacy, P.H. and E.A. DeLacy (1978)</ref> Philodemus, On Methods of Inference. A Study in Ancient Empiricism. Edited, with translation and commentary, Napoli. [La Scuola di Epicuro 1].</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97472">Diels, H. (1916)</ref> Philodemos, Über die Götter. Erstes Buch. Griechischer Text und Erläuterung, Berlin.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97460">Dorandi, T. (2012)</ref> “Aspects of the Epigraphical and Papyrological Tradition of Praxiphanes,” in: A. Martano, E. Matelli and D. Mirhady (eds.), Praxiphanes of Mytilene and Chamaeleon of Heraclea. Text, translation, and discussion, London - New York: 445–462.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97473">Erbì, M. (2020)</ref> Epicuro. Lettere, frammenti e testimonianze. Introduzione, testo e commento, Pisa - Roma.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97464">Erler, M. (1994)</ref> “Epikur – Die Schule Epikurs – Lukrez,” in: H. Flashar (ed.), Grundriss der Geschichte der Philosophie. Begründet von F. Ueberweg. Völlig neu bearbeitete Ausgabe. Die Philosophie der Antike, 4. Die hellenistische Philosophie, Basel: 29–490.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97465">Erler, M. (2002)</ref> “Epicurus as Deus Mortalis, Homoiosis Theoi and Epicurean Self-Cultivation,” in: D. Frede and A. Laks (eds.), Traditions of Theology. Studies in Hellenistic Theology, its Background and Aftermath, Leiden - Boston - Köln: 159–181.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97466">Erler, M. (2012)</ref> “Ἀπλανὴς θεωρία. Einige Aspekte der epikureischen Vorstellung vom βίος θεωρητικός,” in: Th. Bénatouïl and M. Bonazzi (eds.), Theoria, Praxis, and the Contemplative Life after Plato and Aristotle, Leiden - Boston: 39–54.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/83475">Hammerstaedt, J. (1992)</ref> “Der Schlußteil von Philodems drittem Buch über Rhetorik,” Cronache Ercolanesi 22 (1992) 9–117.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/83821">Henry, W.B.</ref> Philodemus, On Death, Atlanta 2009 [Writings from the Greco-Roman World 29].</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97474">Heßler, J.E. (2014)</ref> Epikur, Brief an Menoikeus. Edition, Übersetzung, Einleitung und Kommentar, Basel. [Epicurea IV]. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97467">Heßler, J.E. (2016)</ref> “τὸν σοφὸν οὐ δοκεῖ ῥητορεύσειν καλῶς? Rhetorik in Texten Epikurs,” in: I. Männlein-Robert, W. Rother, S. Schorn and C. Tornau (eds.), Philosophus orator. Rhetorische Strategien und Strukturen in philosophischer Literatur, Basel: 138–158.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97468">Heßler, J.E. (2020)</ref> “ἄφθαρτός μοι περιπάτει καὶ ἡμᾶς ἀφθάρτους διανοοῦ. Korrespondenz unter gottgleichen Freunden und Lehrbriefe in der Schule Epikurs,” in: G.M. Müller, S. Retsch and J. Schenk (eds.), Adressat und Adressant in antiken Briefen: Rollenkonfigurationen und kommunikative Strategien in griechischer und römischer Epistolographie, Berlin - Boston: 27–48.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97469">Heßler, J.E. (2021)</ref> “Rhetoric, trickery, and tyranny. Testimonies on sophists of the Hellenistic period,” Rhetorica 39: 247–272.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97470">Heßler, J.E. (2022)</ref> “Ein Gott unter Menschen. Epikur und die ὁμοίωσις θεῷ in Isokrates’ <emph rend="italics">Euagoras</emph> in ihrem Verhältnis zu Platon,” Hermes 150: 150–169.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97471">Indelli, G. and G. Leone (2019)</ref> Gli Epicurei e il culto della memoria, in: V. Lucherini and M. Squillante (eds.), La memoria post mortem dall’ Antichità al Medioevo, Roma: 27–41.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97475">Janko, R. (2003)</ref> Philodemus, On Poems, Book 1, edited with Introduction, Translation, and Commentary, Oxford.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97476">Janko, R. (2020)</ref> Philodemus, On Poems, Book 2: With the fragments of Heracleodorus and Pausimachus, Oxford.</bibl>
+                  <bibl>R. Kühner/B. Gerth, Ausführliche Grammatik der Griechischen Sprache. Zweiter Teil: Satzlehre, Erster Band, Hannover <hi rend="superscript">3</hi>1898.</bibl>
+                  <bibl>H.G. Liddell/R. Scott/H.S. Jones, A Greek-English Lexicon. Revised Supplement by P.W. Glare, Oxford <hi rend="superscript">9</hi>1996.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/83650">Mangoni, C. (1993)</ref>, Filodemo. Il quinto libro della Poetica (PHerc. 1425 e 1538), Napoli. [La Scuola di Epicuro 14].</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97461">Matelli, E. (2012a)</ref> “Praxiphanes of Mytilene called “of Rhodes”. The Sources, Text and Translation,” in: A. Martano, E. Matelli and D. Mirhady (eds.), Praxiphanes of Mytilene and Chamaeleon of Heraclea. Text, translation, and discussion, London - New York: 1–156.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97462">Matelli, E. (2012b)</ref> “Praxiphanes, Who Is He?,” in: A. Martano, E. Matelli and D. Mirhady (eds.), Praxiphanes of Mytilene and Chamaeleon of Heraclea. Text, translation, and discussion, London - New York: 525–578. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97501">Sudhaus, S.</ref>, Philodemi volumina rhetorica, Leipzig 1892–1896; ND Amsterdam 1964.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97477">Theiler, W. (1982)</ref> Posidonios. Die Fragmente, Bd. 1, Berlin.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97535">H. Usener, Glossarium Epicureum</ref> M. Gigante and W. Schmid (eds.), Roma 1977.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95940">Voojis C.J. (1934)</ref>, Lexicon Philodemeum. Pars prior, Purmerend.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97513">Wehrli, F. (<hi rend="superscript">2</hi>1969)</ref>, Die Schule des Aristoteles. Texte und Kommentar. Heft IX: Phainias von Eresos, Chamaileon, Praxiphanes, Basel.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
