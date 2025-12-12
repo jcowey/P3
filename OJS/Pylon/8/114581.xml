@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inspectors’ Annotations in Episkepsis Registers</title>
+            <author>
+               <name>
+                  <forename>Elena</forename>
+                  <surname>Chepel</surname>
+               </name>
+               <affiliation>Universität Wien</affiliation>
+               <email>euchepel@gmail.com</email>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0003-0924-3108</idno>
+            </author>
+            <funder>Deutsche Forschungsgemeinschaft</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2025">2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.8.3</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.8.114581</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">E. Chepel, “Inspectors’ Annotations in Episkepsis Registers,” Pylon 8 (2025) Article 3. DOI: <ref ana="hc:URLReference"
+               target="https://doi.org/10.48631/pylon.2025.8.114581">https://doi.org/10.48631/pylon.20225.8.114581</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">8</biblScope>
+                     <biblScope unit="article">3</biblScope>
+                     <date when="2025">2025</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2025-11-25T16:02:29Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Inspectors’ Annotations in Episkepsis Registers</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">This research was funded by the Austrian Science Fund (FWF) [10.55776/I4674]. I am grateful to the reviewers for their comments and suggestions. In the article, I examine inspectors’ annotations in registers of state property, proposing corrections to six of those (<ref target="https://papyri.info/hgv/41752">SB 24 15930</ref> and <ref target="https://papyri.info/hgv/79246">15934</ref>, <ref target="https://papyri.info/hgv/12891">P.Ross.Georg. 2 28</ref> and <ref target="https://papyri.info/hgv/27254">42</ref>, <ref target="https://papyri.info/hgv/29135">P. Bodl. 1 99</ref> and <ref target="https://papyri.info/hgv/29140">110 R</ref>) and offering a new interpretation based on the revised readings. </note>
+            <div type="section">
+               <head>Introduction</head>
+               <p xml:id="p1">Episkepsis was a Roman administrative practice of inspecting immovable property to determine or update its condition and value.<note place="foot" xml:id="ftn1" n="1">
+                     <p>
+                        <ref target="https://papyri.info/biblio/44970">Bonneau 1964</ref>, <ref target="https://papyri.info/biblio/7814">Bonneau 1972</ref>: 89–95; <ref target="https://papyri.info/biblio/55567">Bonneau 1983</ref>; <ref target="https://papyri.info/biblio/71200">Kruse 2002</ref>: 281–306; <ref target="https://papyri.info/biblio/20796">Jördens 2009</ref>: 103–20.</p>
+                  </note> Among its various functions, this procedure was necessary to establish the rent for future tenants of state–owned property (land and real estate).<note place="foot" xml:id="ftn2" n="2">
+                     <p> On the lease of state land, see <ref target="https://papyri.info/biblio/20796">Jördens 2009</ref>: 468–77.</p>
+                  </note> The glossary of administrative terminology <ref target="https://papyri.info/hgv/31831">P.Oxy. 38 2847 R</ref> (1st half of 3rd c.) reports that a type of episkepsis, called ὁρισμός, assessed the rent (ὁ φόρος) based on the annual yield of the land. This practice is also reflected in episkepsis registers, in which years of draught were exempt from rent payments (see below <ref target="https://papyri.info/hgv/22479">P.Pher. 1</ref>, 196/7). Additionally, the episkepsis commission<note place="foot" xml:id="ftn3" n="3">
+                     <p> On the members of the commission, see <ref target="https://papyri.info/biblio/71200">Kruse 2002</ref>: 284–306. </p>
+                  </note> took into account the presence or absence of the tenant for a particular plot – if there was no tenant, the land was declared ἐν χέρσῳ (‘fallow’)<note place="foot" xml:id="ftn4" n="4">
+                     <p> On this term, see <ref target="https://papyri.info/biblio/97515">Kruse 2015</ref>, 155 with n.6.</p>
+                  </note>, meaning uncultivated, and thus generating no income, ἐξ ἧς μηδὲν δύνασθαι περιγίνεσθαι, cf. <ref target="https://papyri.info/hgv/20112a">P.Thmouis 1 1</ref> Col. 69.1–15 (170/71).</p>
+               <p xml:id="p2">In preparation for the upcoming revision, local officials compiled preliminary land surveys or ‘roadmaps’, πορεία πρὸς ἐπίσκεψιν. Examples of such surveys include <ref target="https://papyri.info/hgv/11284">P.Giss.Univ. 6 52</ref>.3 (222/3, Arsinoite), <ref target="https://papyri.info/hgv/11368">SB 26 16414</ref>.3 (219/20, Arsinoite), <ref target="https://papyri.info/hgv/13794">PSI 7 796</ref>.3 (222/3, Arsinoite), <ref target="https://papyri.info/hgv/17343">P.Iand. 7 136</ref>.3 (135/6, Oxyrynchite). See also a report on submission of such a survey in <ref target="https://papyri.info/hgv/44092">P.Congr. 15 15</ref>.17–18 (80, Karanis), a promise to submit it as part of the preparation in P.Congr. 15 15.60, and references to it in official correspondence, e.g. <ref target="https://papyri.info/hgv/21244">P.Laur. 3 63</ref>.8 (159, Oxyrhynchite). Following the revision, the commission produced finalised registers that recorded the results of the episkepsis. These registers often contain special notes added against each entry in a different hand. The main formula used in these inspector’s annotations is ἐπεσκέφθη, usually abbreviated to the first two letters, with pi taking its abbreviated, lunate form: ε.<note place="foot" xml:id="ftn5" n="5">
+                     <p> On this abbreviation, see <ref target="https://papyri.info/biblio/13349">Sijpesteijn and Worp 1993</ref>: 11.</p>
+                  </note> In what follows, I discuss the various expressions that may follow this verb in the formula, their interpretation, and their implications for the process of episkepsis.</p>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/22479">P.Pher. 1</ref>
+               </head>
+               <p xml:id="p3">One of the most prominent examples of episkepsis registers is <ref target="https://papyri.info/hgv/22479">P.Pher. 1</ref>.<note place="foot" xml:id="ftn6" n="6">
+                     <p> With the correct interpretation in <ref target="https://papyri.info/biblio/30714">Hagedorn 1997</ref> and <ref target="https://papyri.info/biblio/30715">Rathbone 1995</ref>.  </p>
+                  </note> It is a survey (ὁρισμός) of property, both buildings and plots of land, that were sequestrated or confiscated from individuals for various reasons. Each entry includes the name of the previous owner, the size and physical description of the parcel, its neighbours, and the annual rent that was assessed for (and presumably collected from) the property during a five-year period from 32nd year of Commodus till 4th year of Septimius Severus: λβ (ἔτους) ἕως δ (ἔτους) ὡρ(ίσθη), followed by the amount of rent – given in drachmas for buildings or in grain for land.<note place="foot" xml:id="ftn7" n="7">
+                     <p> On the structure of the entries, see <ref target="https://papyri.info/biblio/97516">Alessandrì 2015</ref>: 13, 105–106. On the five-year period of lease, op. cit.: 115–122  </p>
+                  </note> When the poor condition of the property or the absence of tenants rendered it unprofitable, these circumstances were noted instead of the rent amount, using terms such as ἐν συμπ(τώσει), ἀοίκ(ητος), or ἐν διαψίλ(ῳ).</p>
+               <p xml:id="p4">In almost all entries assessing land (as opposed to houses), the five-year period is interrupted in the third year, when the plots were not inundated (ἀβρόχου), and thus no rent was payable to the fiscus that year. In the fourth year, rent resumed as before, with the formula: δ (ἔτους) τῶν προτελ(ουμένων). The genitive here is best understood as a genitivus pretii, i.e., ‘in the year 4 – the rent is as previously paid’. The same principle applies to other genitive phrases in this formula, such as: (δραχμῶν) η, ‘at the rate of 8 dr.’; τῶν δημ(οσίων), ‘for (payment of) taxes,’ etc. </p>
+               <p xml:id="p5">At the end of each entry, there is an inspector’s annotation that verifies the rent rate and confirms its validity for the next lease period.<note place="foot" xml:id="ftn8" n="8">
+                     <p> For this structure, see <ref target="https://papyri.info/biblio/97516">Alessandrì 2015</ref>: 19.</p>
+                  </note> This annotation always matches the rate stated in the main entry for the current period. The only exception occurs in ll. 283–6, where ἐπ(εσκέφθη) (δραχμῶν) ιβ appears instead of (δραχμῶν) β in the main entry. This is likely a scribal slip; see <ref target="https://papyri.info/biblio/97516">Alessandrì 2015</ref>: 57 n.227. Another case offers insight into the practices behind episkepsis registers. In ll. 87–91, the main entry states that no revenue was to be collected from the property from year 32 until year 4. However, it then adds that, in year 4, the rate was assessed at 3 drachmas. This rate is confirmed in the inspector’s annotation. The discrepancy can be explained as follows: the previous inspection had assessed the property as unproductive (i.e. without a tenant during that five-year period), whereas the current inspection reassessed it as rentable for 3 drachmas annually. This likely indicates that a tenant volunteered to lease the property for the upcoming five-year lease. I believe a similar interpretation should be applied to <ref target="https://papyri.info/hgv/29140">P.Bodl. 1 110 R</ref>. This entry also implies that the current episkepsis took place in year 4, i.e., during the final year of the ongoing lease. </p>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/980057">AnalPap 33 (2021) S 41 Nr 2</ref> R. 4, 7, 10 (after 216, Arsinoite)
+               </head> 
+               <p xml:id="p6">In this survey, the inspector’s annotation appears three times, each time confirming the status of the plots under revision as unsown land:</p>
+               <quote type="edition">
+                  <lb n="9"/>κα (ἔτους) ἕως κγ (ἔτους) ἐν ἀσ(πόρῳ) κδ (ἔτους) ὁμοί(ως) [--]
+                  <lb n="10"/>[-- ] (m. 2) ἐπ(εσκέφθη) ὁμ(οίως) ὡς π(ρόκειται)
+               </quote>
+               <p xml:id="p7">The annotation can be translated as: “Upon revision: the same as above.” </p>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/29449">P.Pher.Anhang</ref> 1 and 7 (3rd c., Arsinoite)
+               </head>
+               <p xml:id="p8">In this fragment of a register of houses, the annotation refers to the assessment from the 8th year, which was likely the year of the ongoing revision: </p>
+               <quote type="secondary">
+                  <p> ἐ]π(εσκέφθη) ὡς ἐπὶ τοῦ η (ἔτους), “Upon revision: as in the 8th year.”</p>
+               </quote>
+               <p xml:id="p9">In the second annotation preserved on this papyrus, the inspector confirms the amount of 8 drachmas recorded in the main entry, which was also assessed in the 8th year, using the following phrase:</p>
+               <quote type="secondary">
+                  <p> ἐπ(εσκέφθη) τῶν ἴσων, “Upon revision: of equal amount.”</p>
+               </quote>
+               <p xml:id="p10">These attestations show that the inspector’s annotations confirm the rent assessment recorded in the main entry – whether it reflects the rate established earlier for the ongoing five-year period or, more rarely, results from an update during the ongoing episkepsis. In three further registers, inspectors’ annotations follow this pattern as well: BGU 3 734 (re-edited in <ref target="https://papyri.info/biblio/96983">Messeri 2022</ref>);<note place="foot" xml:id="ftn9" n="9">
+                     <p> See also corrections to the text in <ref target="https://papyri.info/biblio/13349">Sijpesteijn and Worp 1993</ref>: 6 n.8 and p. 11, and accepted in <ref target="http://www.apple.com/uk">Alessandrì 2015</ref>: 117, with n.159 (BL 10.16).</p>
+                  </note> BGU 3 735 (re-edited in <ref target="https://papyri.info/biblio/96963">Messeri 2023</ref>); and SB 12 10892 (re-edited in <ref target="https://papyri.info/biblio/97534">Messeri 2024</ref>).</p>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/41752">SB 24 15930</ref> and <ref target="https://papyri.info/hgv/79246">15934</ref> (before 264, Arsinoite)
+               </head>
+               <p xml:id="p11">At first glance, these two registers of sequestrated or confiscated houses appear to deviate from the usual pattern, in which the inspector’s annotations always confirm the rent recorded in the main entry. However, I will show that the opposite is in fact the case.</p>
+               <p xml:id="p12">In <ref target="https://papyri.info/hgv/41752">SB 24 15930</ref>, the editors read the inspector’s annotations for the first seven entries as ἐπ(εσκέφθη) ϛ/, “é stato ispezionato 6” (ll. 2, 4, 7, 10, 14, 17 and 21), and interpret this number as the amount in drachmas to be collected as rent from each property. However, this interpretation contradicts the descriptions of these properties: five of them are described as vacant, unbuilt plots (ψιλὸς τόπος) from which nothing is collected (ἐξ οὗ μηδὲν περιγίνεται). Moreover, the sigma written with a diagonal stroke above does not conform to the standard practice of indicating sums in drachmas. Instead, it should be corrected to σ(υμφώνως), meaning ‘accordingly’. This abbreviation is attested in several second-century documents, e.g. <ref target="https://papyri.info/ddbdp/p.prag%3B1%3B21">P.Prag. 1 21</ref>.22–23 (181, Soknopaiou Nesos), <ref target="https://papyri.info/ddbdp/zpe%3B190%3B215">ZPE 190 (2014) p. 215</ref>.19–21 (158, Soknopaiou Nesos). This expression is a standard administrative term in the context of episkepsis, as can be seen from the following examples:</p>
+               <quote type="secondary">
+                  <p><ref target="https://papyri.info/hgv/20112a">P.Thmouis 1 1</ref></p>
+                  <p>Col. 139.17–18: ἐ[δηλ(ώθη) χε]ρσεύειν | καὶ συμφώνως ἐ[πεσκέφθ(η)], “… fut déclaré comme terre ‘sèche’ et fut trouvé lors de l’inspection dans un état conforme.”</p>
+                  <p>Col. 140.21: τούτων δὲ συμφώνως ἐπ[ισκ(εφθέντων)], “du fait que ces terrains avaient été trouvés dans un état conforme lors de l’inspection…”.</p>
+               </quote>
+               <quote type="secondary">
+                  <p><ref target="https://papyri.info/hgv/44092">P.Congr. 15 15</ref></p>
+                  <p>Col. 3.47: ἐπισκ(έψεις) σύμφωναι, “inspections in accord.”</p>
+                  <p>Col. 2.39–40: ἐπισκ(έψεως) χέρσου μὴ σπειρομένης ἴσαι συμφώνως.</p>
+               </quote>
+               <quote type="secondary">
+                  <p><ref target="https://papyri.info/hgv/21039">P.Hamb. 1 12</ref> (209/10)</p>
+                  <p>Line 15: συμφώνως ἐπι[σκεφθεῖσαι].</p>
+               </quote>
+               <p xml:id="p13">An example of identical annotation can be found in the land register <ref target="https://papyri.info/hgv/27254">P.Ross.Georg. 2 42</ref> (2nd c., Memphite), where σ(υμφώνως) should be read after ἐπ(εσκέφθη) in col. 3.7, 11 and 15. In this papyrus, the annotations are written in the same hand as the rest of the text, suggesting that they were likely copied together with the main entries from an earlier episkepsis register. </p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24148342"/>
+                  <head>Fig. 1: P.Ross.Georg. 2 42 Col. 3.7.</head>
+               </figure>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24148344"/>
+                  <head>Fig. 2: P.Ross.Georg. 2 42 Col. 3.11.</head>
+               </figure>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24148346"/>
+                  <head>Fig. 3: P.Ross.Georg. 2 42 Col. 3.15.</head>
+               </figure>               
+               <p xml:id="p14">Therefore, at <ref target="https://papyri.info/hgv/41752">SB 24 15930</ref>.2, 4, 7, 10, 14 and 21, the inspector confirmed that the buildings were to remain without generating income. The same corrections apply to <ref target="https://papyri.info/hgv/79246">SB 24 15934</ref>. In the inspector’s annotation in l. 3, the editors printed ἐπ(εσκέφθη) ϛ/, whereas it should read ἐπ(εσκέφθη) σ(υμφώνως).</p>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/12891">P.Ross.Georg. 2 28</ref> (after 163/4, Arsinoite)
+               </head>
+               <p xml:id="p15">This is another register of state property (land and buildings) that contains inspector’s annotations beginning with the abbreviation ἐπ(εσκέφθη) in ll. 6, 14, 18, 23, 28 and 33. The sign following it in ll. 14, 18, 23, and 28 cannot represent the amount of rent in drachmas. First, three of four corresponding entries (except for the one in ll. 24–27) describe vineyards and olive groves. Therefore, it is to be expected that the revenue from these agricultural properties would be collected, at least in part, in kind; cf. <ref target="https://papyri.info/hgv/22477">P.Marm. R</ref> Col. 7.8–12; <ref target="https://papyri.info/hgv/17345">P.Iand. 7.142</ref> Col. 1.23–29 (164/5, Kysis). </p>
+               <p xml:id="p16">Second, the two of the plots are explicitly stated to yield no revenue. In l. 12, the vineyard appears to be uncultivated, ἐν χέρσῳ. In l. 26, the revision confirms the absence of income: ἐξ οὗ ἐδηλ(ώθη) μηδὲν δύνασθ(αι) περ[ιγίν(εσθαι).</p>
+               <p xml:id="p17">After consulting a photograph of the papyrus, I suggest reading ἐπ(εσκέφθη) συ(μφώνως) in all four cases. A similar form of abbreviation, reducing the latter word to two letters, followed by a stroke, is attested in <ref target="https://papyri.info/hgv/8953">BGU 1 192</ref>.5–7 (163, Soknopaiou Nesos).</p>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/29140">P.Bodl. 1 110 R</ref> (2nd c., Karanis)
+               </head>
+               <p xml:id="p18">The fragment preserves the right half of a column from a register of land. In l. 6, the editor printed:</p>
+               <quote type="secondary">
+                  <lb/>(m.2) [--- ἐπ]εσ(κέφθησαν) ἐν ἀβρόχ(ῳ) (m. 1) φό(ρου) (πυροῦ ἀρταβῶν) ε
+               </quote>
+               <p xml:id="p19">However, the abbreviation before ἐν ἀβρόχ(ῳ) features a tau written above the line, not a sigma. I suggest reading π]έντ(ε) ἐν ἀβρόχ(ῳ), where the number five corresponds to the number of arouras in the main entry, l. 5: τό(που) Βωμοῦ (ἀρουρῶν) ε. The same structure can be seen in other entries. In l. 9, instead of [--- ἐπ]εσ(κέφθη), the line repeats the number of arouras repeated from the preceding line: </p>
+               <quote type="secondary">
+                  <lb/>(ἀρούρας) α δ´] η´ λβ´ ἐν ἀβρόχ(ῳ)
+               </quote>
+               <p xml:id="p20">In l.12, only the horizontal stroke above the line of the fraction is visible:</p>
+               <quote type="secondary">
+                  <lb/>(ἀρούρας) α 𐅵 η´ ιβ]´ ἐν ἀβρόχ(ῳ)
+               </quote>
+               <p xml:id="p21">Thus, there are no inspector’s annotations preserved in this fragment, although they may have been present in the missing left portion of the vacant lines between the entries, i.e., between ll. 6 and 7, 9 and 10. The structure of the document can be reconstructed as follows: the main entry contains a description of the parcel, including its size, followed by a statement that the entire parcel was not inundated (for a specified period of time, now lost). Subsequently, an assessment is made regarding the revenue to be collected from it (e.g. φόρου πυροῦ ἀρταβῶν ε). This assessment was the result of the ongoing episkepsis. </p>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/29135">P.Bodl. 1 99</ref> (2nd c., Arsinoite)
+               </head>
+               <p xml:id="p22">The editor prints ὑπό after ἐπ(εσκέφθησαν) in ll. 5, 7, 9, 12, and 14, assuming that it is followed by a personal name identifying a member of the episkepsis commission responsible for the assessment. However, I propose ὑπολόγου or ὑπόλογος should be read in all five annotations. In l. 12, the word is abbreviated to the first letter, while in l. 14, it is abbreviated to the first three letters. The structure of the text and the precise function of the annotations remain uncertain due to the fragmentary state of the document. In l. 14, ὑπο( ) is followed by δ̣η̣ which may be resolved as δη(μοσίων), potentially referring to a specific type of episkepsis targeting unproductive land: ἐπ(ίσκεψις) ὑπό(λογος) δημοσίων ἐδαφῶν. For parallels, see <ref target="https://papyri.info/hgv/19597">P.Brem 12</ref>.8–10 (2nd c., Hermopolis), <ref target="https://papyri.info/ddbdp/p.berl.leihg%3B1%3B14">P.Berl.Leihg. 1 14</ref>.45 (2nd c., Arsinoite), <ref target="https://papyri.info/ddbdp/p.giss%3B1%3B60">P.Giss. 1 60</ref> Col. 2.20 (118, Apollonopolis Heptakomias), and <ref target="https://papyri.info/hgv/31831">P.Oxy. 38 2847</ref>.12–13.</p>
+            </div>
+            <div type="section">
+               <head>Conclusion</head>
+               <p xml:id="p23">The verb ἐπ(εσκέφθη) in inspectors’ annotations is always followed by a phrase that confirms the information provided in the main entry of the register. This phrase may either repeat the amount of rent – whether in money or kind, report the unprofitable status of the property (implying that no revenue could be collected from it), or express general agreement with the data in the entry (e.g. συμφώνως). In cases where the rent amount was updated as a result of the revision, these changes were recorded to the main entry, as in <ref target="https://papyri.info/hgv/22479">P.Pher. 1</ref>.283–286 or <ref target="https://papyri.info/hgv/29140">P.Bodl. 1 110 R</ref>. The inspector’s annotation served as final validation of the assessment, extending it for the next five-year period of lease for future tenants.</p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97516">Alessandrì, S. (2015)</ref> Un registro di beni confiscate. P. Pher. (P. Vindob. Inv. G 257+24568+29781). Bari.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/44970">Bonneau, D. (1964)</ref> “La disparition de l'episkepsis officielle des terres au IVe s. ap. J.-C.,” in J. Wolski (ed), Actes du Xe Congrès International de Papyrologues, Varsovie - Cracovie, 3–9 septembre 1961. Wroclaw - Varsovie - Cracovie.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/7814">Bonneau, D. (1972)</ref> Le fisc et le Nil. Incidences des irrégularités de la crue du Nil sur la fiscalité foncière dans l'Égypte grecque et romaine. Paris.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/55567">Bonneau, D. (1983)</ref> “Recherches sur le Kyriakos logos (Commentaire de P. Oxy. 2847),” JJP 19: 131–153.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/30714">Hagedorn, D. (1997)</ref> Review of P.J. Sijpesteijn and K.A. Worp, Eine Steuerliste aus Pheretnuis (P.Pher.), Gnomon 69: 39–46. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/20796">Jördens, A. (2009)</ref> Statthalterliche Verwaltung in der römischen Kaiserzeit. Stuttgart.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/71200">Kruse, Th. (2002)</ref> Der königliche Schreiber und die Gauverwaltung Untersuchungen zur Verwaltungsgeschichte Ägyptens in der Zeit von Augustus bis Philippus Arabs (30 v.Chr. - 245 n.Chr.). München - Leipzig.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97515">Kruse, Th. (2015)</ref> “Die Fiskalverkäufe von Land im kaiserzeitlichen Ägypten und ihre Dokumentation,” in: E. Jákab (Hg.), Legal Documents in Ancient Societies V: Sale and Community. Documents from the Ancient World. Individuals’ Autonomy and State Interference in the Ancient World. Proceedings of a Colloquium supported by the University of Szeged, Budapest 5–8.10.2012 (Graeca Tergestina 2), Trieste 2015, 153–170.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96983">Messeri, G. (2022)</ref> “Scampoli VII, ”  Aegyptus 102: 175–202.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96963">Messeri, G. (2023)</ref> “Scampoli VIII,” Aegyptus 103: 67–77.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97534">Messeri, G. (2024)</ref> “SB XII 10892, Riedizione,” JJP 54: 139–175.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/30715">Rathbone, D.W. (1995)</ref> Review of P.J. Sijpesteijn and K.A. Worp, Eine Steuerliste aus Pheretnuis (P.Pher.), CR N.S. 45:145–147.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/13349">Sijpsteijn, P.J. and Worp, K.A. (1993)</ref> Eine Steuerliste aus Pheretnuis (P.Pher.). Amsterdam.</bibl>
+               </listBibl>
+            </div>
+            <div type="corrections">
+               <list>
+                  <item n="1">
+                     <p>TargetFile</p>
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.ross.georg/p.ross.georg.2/p.ross.georg.2.42.xml#L105"/>
+                     <p>Replace</p>
+                        <lb n="7"/><abbr>ἐπ</abbr> <num value="1/6" rend="tick"><unclear>ϛ</unclear></num> 
+                     <p>With</p>
+                        <lb n="7"/><app type="editorial"><lem resp="E. Chepel, Pylon 8 (2025) 3 §13"><expan>ἐπ<ex>εσκέφθη</ex> σ<ex>υμφώνως</ex></expan></lem><rdg><abbr>ἐπ</abbr> <num value="1/6" rend="tick"><unclear>ϛ</unclear></num></rdg></app>
+                  </item>
+                  <item n="2">
+                     <p>TargetFile</p>
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/sb/sb.24/sb.24.15930.xml#L62"/>
+                     <p>Replace</p>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <abbr>Πετεμ</abbr> ἀδελφοῦ <handShift new="m2"/><expan>ἐπ<ex>εσκέφθη</ex></expan> <num value="6">ϛ</num>
+                     <p>With</p>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <abbr>Πετεμ</abbr> ἀδελφοῦ <handShift new="m2"/><expan>ἐπ<ex>εσκέφθη</ex></expan> <app type="editorial"><lem resp="E. Chepel, Pylon 8 (2025) 3 §14"><expan>σ<ex>υμφώνως</ex></expan></lem><rdg><num value="6">ϛ</num></rdg></app>
+                     </item>
+                  <item n="3">
+                     <p>TargetFile</p>
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/sb/sb.24/sb.24.15930.xml#L66"/>
+                     <p>Replace</p>
+                        <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> ἐξ <expan><ex>οὗ</ex></expan> <expan>μηδ<ex>ὲν</ex></expan> <expan>περιγ<ex>ίνεται</ex></expan> <handShift new="m2"/><expan>ἐπ<ex>εσκέφθη</ex></expan> <num value="6">ϛ</num>
+                     <p>With</p>
+                        <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> ἐξ <expan><ex>οὗ</ex></expan> <expan>μηδ<ex>ὲν</ex></expan> <expan>περιγ<ex>ίνεται</ex></expan> <handShift new="m2"/><expan>ἐπ<ex>εσκέφθη</ex></expan> <app type="editorial"><lem resp="E. Chepel, Pylon 8 (2025) 3 §14"><expan>σ<ex>υμφώνως</ex></expan></lem><rdg><num value="6">ϛ</num></rdg></app>
+                  </item>
+                  <item n="4">
+                     <p>TargetFile</p>
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/sb/sb.24/sb.24.15930.xml#L72"/>
+                     <p>Replace</p>
+                        <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <handShift new="m2"/><expan>ἐπ<ex>εσκέφθη</ex></expan> <num value="6">ϛ</num>
+                     <p>With</p>
+                        <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <handShift new="m2"/><expan>ἐπ<ex>εσκέφθη</ex></expan> <app type="editorial"><lem resp="E. Chepel, Pylon 8 (2025) 3 §14"><expan>σ<ex>υμφώνως</ex></expan></lem><rdg><num value="6">ϛ</num></rdg></app>
+                  </item>
+                  <item n="5">
+                     <p>TargetFile</p>
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/sb/sb.24/sb.24.15930.xml#L78"/>
+                     <p>Replace</p>
+                        <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <handShift new="m2"/><expan>ἐπ<ex>εσκέφθη</ex></expan> <num value="6">ϛ</num>
+                     <p>With</p>
+                        <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <handShift new="m2"/><expan>ἐπ<ex>εσκέφθη</ex></expan> <app type="editorial"><lem resp="E. Chepel, Pylon 8 (2025) 3 §14"><expan>σ<ex>υμφώνως</ex></expan></lem><rdg><num value="6">ϛ</num></rdg></app>
+                  </item>
+                  <item n="6">
+                     <p>TargetFile</p>
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/sb/sb.24/sb.24.15930.xml#L86"/>
+                     <p>Replace</p>
+                        <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/> ἐξ <expan><ex>οὗ</ex></expan> <expan>μηδ<ex>ὲν</ex></expan> <expan>περιγί<ex>νεται</ex></expan> <handShift new="m2"/><expan>ἐπ<ex>εσκέφθη</ex></expan> <num value="6">ϛ</num>                     
+                     <p>With</p>
+                        <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/> ἐξ <expan><ex>οὗ</ex></expan> <expan>μηδ<ex>ὲν</ex></expan> <expan>περιγί<ex>νεται</ex></expan> <handShift new="m2"/><expan>ἐπ<ex>εσκέφθη</ex></expan> <app type="editorial"><lem resp="E. Chepel, Pylon 8 (2025) 3 §14"><expan>σ<ex>υμφώνως</ex></expan></lem><rdg><num value="6">ϛ</num></rdg></app>
+                  </item>
+                  <item n="7">
+                     <p>TargetFile</p>
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/sb/sb.24/sb.24.15930.xml#L100"/>
+                     <p>Replace</p>
+                        <lb n="21"/><gap reason="lost" extent="unknown" unit="character"/> <handShift new="m2"/><expan>ἐπ<ex>εσκέφθη</ex></expan> <num value="6">ϛ</num>
+                     <p>With</p>
+                        <lb n="21"/><gap reason="lost" extent="unknown" unit="character"/> <handShift new="m2"/><expan>ἐπ<ex>εσκέφθη</ex></expan> <app type="editorial"><lem resp="E. Chepel, Pylon 8 (2025) 3 §14"><expan>σ<ex>υμφώνως</ex></expan></lem><rdg><num value="6">ϛ</num></rdg></app>
+                  </item>
+                  <item n="8">
+                     <p>TargetFile</p>
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/sb/sb.24/sb.24.15934.xml#L62"/>
+                     <p>Replace</p>
+                        <lb n="3"/><expan>ἐπ<ex>εσκέφθη</ex></expan> <num value="6">ϛ</num>
+                     <p>With</p>
+                        <lb n="3"/><expan>ἐπ<ex>εσκέφθη</ex></expan> <app type="editorial"><lem resp="E. Chepel, Pylon 8 (2025) 3 §14"><expan>σ<ex>υμφώνως</ex></expan></lem><rdg><num value="6">ϛ</num></rdg></app>
+                  </item>
+                  <item n="9">
+                     <p>TargetFile</p>
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.ross.georg/p.ross.georg.2/p.ross.georg.2.28.xml#L85"/>
+                     <p>Replace</p>
+                        <lb n="14"/><handShift new="m2"/> <expan>ἐπ<ex>ι  </ex></expan> <num value="63">ξγ<certainty match="../@value" locus="value"/></num>
+                     <p>With</p>
+                        <lb n="14"/><handShift new="m2"/> <app type="editorial"><lem resp="E. Chepel, Pylon 8 (2025) 3 §17"><expan>ἐπ<ex>εσκέφθη</ex></expan> <expan>συ<ex>μφώνως</ex></expan></lem><rdg><expan>ἐπ<ex>ι  </ex></expan> <num value="63">ξγ<certainty match="../@value" locus="value"/></num></rdg></app> 
+                  </item>
+                  <item n="10">
+                     <p>TargetFile</p>
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.ross.georg/p.ross.georg.2/p.ross.georg.2.28.xml#L93"/>
+                     <p>Replace</p>
+                        <lb n="18"/><handShift new="m2"/> <expan>ἐπ<ex>ι  </ex></expan> <num value="63">ξγ<certainty match="../@value" locus="value"/></num>
+                     <p>With</p>
+                        <lb n="18"/><handShift new="m2"/> <app type="editorial"><lem resp="E. Chepel, Pylon 8 (2025) 3 §17"><expan>ἐπ<ex>εσκέφθη</ex></expan> <expan>συ<ex>μφώνως</ex></expan></lem><rdg><expan>ἐπ<ex>ι  </ex></expan> <num value="63">ξγ<certainty match="../@value" locus="value"/></num></rdg></app> 
+                  </item>
+                  <item n="11">
+                     <p>TargetFile</p>
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.ross.georg/p.ross.georg.2/p.ross.georg.2.28.xml#L103"/>
+                     <p>Replace</p>
+                        <lb n="23"/><handShift new="m2"/> <expan>ἐπ<ex>ι  </ex></expan>  <num value="63">ξγ<certainty match="../@value" locus="value"/></num>
+                     <p>With</p>
+                        <lb n="23"/><handShift new="m2"/> <app type="editorial"><lem resp="E. Chepel, Pylon 8 (2025) 3 §17"><expan>ἐπ<ex>εσκέφθη</ex></expan> <expan>συ<ex>μφώνως</ex></expan></lem><rdg><expan>ἐπ<ex>ι  </ex></expan> <num value="63">ξγ<certainty match="../@value" locus="value"/></num></rdg></app> 
+                  </item>
+                  <item n="12">
+                     <p>TargetFile</p>
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.ross.georg/p.ross.georg.2/p.ross.georg.2.28.xml#L113"/>
+                     <p>Replace</p>
+                        <lb n="28"/><handShift new="m2"/> <expan>ἐπ<ex>ι  </ex></expan> <num value="63">ξγ<certainty match="../@value" locus="value"/></num>
+                     <p>With</p>
+                        <lb n="28"/><handShift new="m2"/> <app type="editorial"><lem resp="E. Chepel, Pylon 8 (2025) 3 §17"><expan>ἐπ<ex>εσκέφθη</ex></expan> <expan>συ<ex>μφώνως</ex></expan></lem><rdg><expan>ἐπ<ex>ι  </ex></expan> <num value="63">ξγ<certainty match="../@value" locus="value"/></num></rdg></app> 
+                  </item>
+                  <item n="13">
+                     <p>TargetFile</p>
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.bodl/p.bodl.1/p.bodl.1.110.xml#L63-L64"/>
+                     <p>Replace</p>
+                        <lb n="6"/><handShift new="m2"/>  <gap reason="lost" extent="unknown" unit="character"/> <expan><supplied reason="lost">ἐπ</supplied>εσ<ex>κέφθησαν</ex></expan> ἐν <expan>ἀβρόχ<ex>ῳ</ex></expan>
+                     <handShift new="m1"/> <expan>φό<ex>ρου</ex></expan> <expan><ex>πυροῦ ἀρταβῶν</ex></expan> <num value="5">ε</num>
+                     <p>With</p>
+                        <lb n="6"/><handShift new="m2"/>  <app type="editorial"><lem resp="E. Chepel, Pylon 8 (2025) 3 §19"><gap reason="lost" extent="unknown" unit="character"/> <expan><supplied reason="lost">π</supplied>έντ<ex>ε</ex></expan></lem><rdg><gap reason="lost" extent="unknown" unit="character"/> <expan><supplied reason="lost">ἐπ</supplied>εσ<ex>κέφθησαν</ex></expan></rdg></app> ἐν <expan>ἀβρόχ<ex>ῳ</ex></expan>
+                     <handShift new="m1"/> <expan>φό<ex>ρου</ex></expan> <expan><ex>πυροῦ ἀρταβῶν</ex></expan> <num value="5">ε</num>
+                  </item>
+                  <item n="14">
+                     <p>TargetFile</p>
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.bodl/p.bodl.1/p.bodl.1.110.xml#L71-L72"/>
+                     <p>Replace</p>
+                        <lb n="9"/><handShift new="m2"/>  <gap reason="lost" extent="unknown" unit="character"/> <expan><supplied reason="lost">ἐ</supplied>πεσ<ex>κέφθη</ex></expan> ἐν <expan>ἀβρόχ<ex>ῳ</ex></expan> <handShift new="m1"/> <expan>φό<ex>ρου</ex></expan> <expan><ex>πυροῦ ἀρτάβης</ex></expan>
+                     <num value="1">α</num> <num value="1/3" rend="tick">γ</num> <num value="1/12" rend="tick">ιβ</num>
+                     <p>With</p>
+                        <lb n="9"/><handShift new="m2"/>  <app type="editorial"><lem resp="E. Chepel, Pylon 8 (2025) 3 §19"><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><expan><ex>ἀρούρας</ex></expan> <num value="1">α</num><num value="1/4" rend="tick">δ</num></supplied> <num value="1/8" rend="tick">η</num> <num value="1/32" rend="tick">λβ</num></lem><rdg><gap reason="lost" extent="unknown" unit="character"/> <expan><supplied reason="lost">ἐ</supplied>πεσ<ex>κέφθη</ex></expan></rdg></app> ἐν <expan>ἀβρόχ<ex>ῳ</ex></expan> <handShift new="m1"/> <expan>φό<ex>ρου</ex></expan> <expan><ex>πυροῦ ἀρτάβης</ex></expan>
+                     <num value="1">α</num> <num value="1/3" rend="tick">γ</num> <num value="1/12" rend="tick">ιβ</num>
+                  </item>
+                  <item n="15">
+                     <p>TargetFile</p>
+                     <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.bodl/p.bodl.1/p.bodl.1.110.xml#L79-L80"/>
+                     <p>Replace</p>
+                        <lb n="12"/><handShift new="m2"/> <expan><supplied reason="lost">ἐπεσ</supplied><ex>κέφθη</ex></expan> ἐν <expan>ἀβρόχ<ex>ῳ</ex></expan>
+                     <handShift new="m1"/> <expan>φό<ex>ρου</ex></expan> <expan><ex>πυροῦ ἀρτάβης</ex></expan> <num value="1">α</num> <num value="2/3">𐅷</num><num value="1/24" rend="tick">κδ</num>
+                     <p>With</p>
+                        <lb n="12"/><handShift new="m2"/> <app type="editorial"><lem resp="E. Chepel, Pylon 8 (2025) 3 §20"><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><expan><ex>ἀρούρας</ex></expan> <num value="1">α</num> <num value="1/2">𐅵</num> <num value="1/8" rend="tick">η</num></supplied> <num value="1/12" rend="tick"><supplied reason="lost">ιβ</supplied></num></lem><rdg><gap reason="lost" extent="unknown" unit="character"/> <expan><supplied reason="lost">ἐπεσ</supplied><ex>κέφθη</ex></expan></rdg></app> ἐν <expan>ἀβρόχ<ex>ῳ</ex></expan>
+                     <handShift new="m1"/> <expan>φό<ex>ρου</ex></expan> <expan><ex>πυροῦ ἀρτάβης</ex></expan> <num value="1">α</num> <num value="2/3">𐅷</num><num value="1/24" rend="tick">κδ</num>
+                  </item>
+                  <item n="16">
+                     <p>TargetFile</p>
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.bodl/p.bodl.1/p.bodl.1.99.xml#L68"/>
+                     <p>Replace</p>
+                        <lb n="5"/><handShift new="m2"/> <expan>ἐπ<ex>εσκέφθησαν</ex></expan> ὑπ<supplied reason="lost">ό </supplied><gap reason="lost" extent="unknown" unit="character"/>
+                     <p>With</p>
+                        <lb n="5"/><handShift new="m2"/> <app type="editorial"><lem resp="E. Chepel, Pylon 8 (2025) 3 §22"><expan>ἐπ<ex>ίσκεψις</ex></expan> <app type="alternative"><lem>ὑπ<supplied reason="lost">ολόγου</supplied> <gap reason="lost" extent="unknown" unit="character"/></lem><rdg>ὑπ<supplied reason="lost">όλογος</supplied> <gap reason="lost" extent="unknown" unit="character"/></rdg></app></lem><rdg><expan>ἐπ<ex>εσκέφθησαν</ex></expan> ὑπ<supplied reason="lost">ό </supplied><gap reason="lost" extent="unknown" unit="character"/></rdg></app>
+                     <handShift new="m1"/> <expan>φό<ex>ρου</ex></expan> <expan><ex>πυροῦ ἀρτάβης</ex></expan> <num value="1">α</num> <num value="2/3">𐅷</num><num value="1/24" rend="tick">κδ</num>
+                  </item>
+                  <item n="17">
+                     <p>TargetFile</p>
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.bodl/p.bodl.1/p.bodl.1.99.xml#L72"/>
+                     <p>Replace</p>
+                        <lb n="7"/><handShift new="m2"/> <expan>ἐπ<ex>εσκέφθησαν</ex></expan> ὑ<supplied reason="lost">πό </supplied><gap reason="lost" extent="unknown" unit="character"/>
+                     <p>With</p>
+                        <lb n="7"/><handShift new="m2"/> <app type="editorial"><lem resp="E. Chepel, Pylon 8 (2025) 3 §22"><expan>ἐπ<ex>ίσκεψις</ex></expan> <app type="alternative"><lem>ὑ<supplied reason="lost">πολόγου</supplied> <gap reason="lost" extent="unknown" unit="character"/></lem><rdg>ὑ<supplied reason="lost">πόλογος</supplied> <gap reason="lost" extent="unknown" unit="character"/></rdg></app></lem><rdg><expan>ἐπ<ex>εσκέφθησαν</ex></expan> ὑ<supplied reason="lost">πό </supplied><gap reason="lost" extent="unknown" unit="character"/></rdg></app>
+                     <handShift new="m1"/> <expan>φό<ex>ρου</ex></expan> <expan><ex>πυροῦ ἀρτάβης</ex></expan> <num value="1">α</num> <num value="2/3">𐅷</num><num value="1/24" rend="tick">κδ</num>
+                  </item>
+                  <item n="18">
+                     <p>TargetFile</p>
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.bodl/p.bodl.1/p.bodl.1.99.xml#L76"/>
+                     <p>Replace</p>
+                        <lb n="9"/><handShift new="m2"/> <expan>ἐπ<ex>εσκέφθησαν</ex></expan> ὑ<supplied reason="lost">πό </supplied><gap reason="lost" extent="unknown" unit="character"/>
+                     <p>With</p>
+                        <lb n="9"/><handShift new="m2"/> <app type="editorial"><lem resp="E. Chepel, Pylon 8 (2025) 3 §22"><expan>ἐπ<ex>ίσκεψις</ex></expan> <app type="alternative"><lem>ὑ<supplied reason="lost">πολόγου</supplied> <gap reason="lost" extent="unknown" unit="character"/></lem><rdg>ὑ<supplied reason="lost">πόλογος</supplied> <gap reason="lost" extent="unknown" unit="character"/></rdg></app></lem><rdg><expan>ἐπ<ex>εσκέφθησαν</ex></expan> ὑ<supplied reason="lost">πό </supplied><gap reason="lost" extent="unknown" unit="character"/></rdg></app>
+                     <handShift new="m1"/> <expan>φό<ex>ρου</ex></expan> <expan><ex>πυροῦ ἀρτάβης</ex></expan> <num value="1">α</num> <num value="2/3">𐅷</num><num value="1/24" rend="tick">κδ</num>
+                  </item>
+                  <item n="19">
+                     <p>TargetFile</p>
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.bodl/p.bodl.1/p.bodl.1.99.xml#L82"/>
+                     <p>Replace</p>
+                        <lb n="12"/><handShift new="m2"/> <expan>ἐπ<ex>εσκέφθησαν</ex></expan> ὑπ<supplied reason="lost">ό </supplied><gap reason="lost" extent="unknown" unit="character"/>
+                     <p>With</p>
+                        <lb n="12"/><handShift new="m2"/> <app type="editorial"><lem resp="E. Chepel, Pylon 8 (2025) 3 §22"><expan>ἐπ<ex>ίσκεψις</ex></expan> <app type="alternative"><lem>ὑπ<supplied reason="lost">ολόγου</supplied> <gap reason="lost" extent="unknown" unit="character"/></lem><rdg>ὑπ<supplied reason="lost">όλογος</supplied> <gap reason="lost" extent="unknown" unit="character"/></rdg></app></lem><rdg><expan>ἐπ<ex>εσκέφθησαν</ex></expan> ὑπ<supplied reason="lost">ό </supplied><gap reason="lost" extent="unknown" unit="character"/></rdg></app>
+                     <handShift new="m1"/> <expan>φό<ex>ρου</ex></expan> <expan><ex>πυροῦ ἀρτάβης</ex></expan> <num value="1">α</num> <num value="2/3">𐅷</num><num value="1/24" rend="tick">κδ</num>
+                  </item>
+                  <item n="20">
+                     <p>TargetFile</p>
+                        <ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.bodl/p.bodl.1/p.bodl.1.99.xml#L86"/>
+                     <p>Replace</p>
+                        <lb n="14"/><handShift new="m2"/> <expan>ἐπ<ex>εσκέφθησαν</ex></expan> ὑπὸ Δ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                     <p>With</p>
+                        <lb n="14"/><handShift new="m2"/> <app type="editorial"><lem resp="E. Chepel, Pylon 8 (2025) 3 §22"><expan>ἐπ<ex>ίσκεψις</ex></expan> <expan>ὑπό<ex>λογος</ex></expan> <unclear>δη</unclear><supplied reason="lost">μοσίων</supplied> <gap reason="lost" extent="unknown" unit="character"/></lem><rdg><expan>ἐπ<ex>εσκέφθησαν</ex></expan> ὑπὸ Δ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></rdg></app>
+                     <handShift new="m1"/> <expan>φό<ex>ρου</ex></expan> <expan><ex>πυροῦ ἀρτάβης</ex></expan> <num value="1">α</num> <num value="2/3">𐅷</num><num value="1/24" rend="tick">κδ</num>
+                  </item>    
+               </list>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
