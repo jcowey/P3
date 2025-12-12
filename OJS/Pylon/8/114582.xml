@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Copres, a Village <emph rend="italics">tesserarius</emph> of Pharbaithos, in the Arsinoite Nome</title>
+            <author>
+               <persName>
+                  <forename>Dan</forename>
+                  <surname>Deac</surname>
+               </persName>
+               <affiliation>Babeș-Bolyai University, Cluj-Napoca</affiliation>
+               <email>dan_deac1923@yahoo.com</email>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0003-4711-8623</idno>
+            </author>
+            <funder>Deutsche Forschungsgemeinschaft</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2025">2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.8.4</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.8.114582</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">D. Deac, “Copres, a Village <emph rend="italics">tesserarius</emph>  of Pharbaithos, in the Arsinoite Nome,” Pylon 8 (2025) Article 4. DOI: <ref ana="hc:URLReference"
+                    target="https://doi.org/10.48631/pylon.2025.8.114582">https://doi.org/10.48631/pylon.20225.8.114582</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">8</biblScope>
+                     <biblScope unit="article">4</biblScope>
+                     <date when="2025">2025</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2025-11-13T16:52:04Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Copres, a Village <emph rend="italics">tesserarius</emph> of Pharbaithos, in the Arsinoite Nome</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">I would like to thank Elke Fuchs (Institute for Papyrology, Heidelberg University) for providing photographs of the papyrus, and the editors and anonymous reviewers for their valuable comments and corrections on previous versions of the manuscript.</note>
+            <div type="introduction">
+               <p xml:id="p1">The papyrus was sold to Heidelberg University by K. Reinhardt, the first Dragoman of the German Imperial General Consulate in Cairo, who purchased it in 1896.<note place="foot" xml:id="ftn1" n="1">
+                     <p> See in detail <ref target="https://papyri.info/biblio/45276">Seider 1964</ref>: passim. Most recently about the history of the acquisition also in <ref target="https://papyri.info/biblio/97065">Deac 2024</ref>, §1.</p>
+                  </note> The provenance is unknown, but the village name Pharbaithos points to the Arsinoite.<note place="foot" xml:id="ftn2" n="2">
+                     <p> https://doi.org/10.11588/diglit.67024 accessed on October 3rd 2024 (link embedded in edition header). ʽInhalt: Liste; Steuer; Liste mit Namen von Steuerzahlern u. ihren Zahlungen. Militär: tessararius. Personennamen: Kopres. Herkunft: Arsinoites(?)ʼ.</p>
+                  </note> The verso is blank.</p>
+            </div>
+            <div type="epidoc" subtype="DDB">
+               <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="https://digi.ub.uni-heidelberg.de/diglit/p_g_263">P.Heid. inv. G 263</ref>
+                     </cell>
+                     <cell style="text-align: center;">14 (h) × 6.5 (w)</cell>
+                     <cell style="text-align: right;">Arsinoite nome (?)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: right;">4th century</cell>
+                  </row>
+               </table>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24060368"/>
+                  <head>Fig. 1: P. Heid. inv. G 263. Photo: Elke Fuchs; © Institut für Papyrologie, Universität Heidelberg.</head>
+               </figure>
+               <p xml:id="p2">The light brown papyrus contains remains of two columns. Col. I preserves the end of several lines and is separated from the next column by an <emph rend="italics">intercolumnium</emph> of 1.5 cm. The extant part of col. II has parts of 12 lines written in black ink. The lines are incomplete, with some names and numbers missing on the right. The text is written along the fibers. The endings of the lines in col. I are in a slightly finer ink, perhaps in a different hand from col. II. </p>
+               <p xml:id="p3">Although the papyrus is fragmentary, it appears to be from a tax register or account, or similar document. The bottom half of col. II refers to individuals from the village of Pharbaithos in the Arsinoite nome. The upper half might refer to individuals from another settlement of the Arsinoite nome. </p>
+                <p xml:id="p4">Pharbaithos (<ref target="https://www.trismegistos.org/place/1750">TM Geo 1750</ref>) was located in the Herakleides district, somewhere near the village of Persea (<ref target="https://www.trismegistos.org/place/1701">TM Geo 1701</ref>). This is only the second occurrence of this village name in papyri securely dated to the 4th century, the previous one being in a list of payments from Karanis, perhaps also a tax register
+                or account (<ref target="https://papyri.info/hgv/41669">SB 22 15825</ref>).</p>
+               <p xml:id="p5"> Given what appears to be a total amount in λίτραι, οὐγκίαι and γράμματα in l. 6 of the second column, one might interpret the text as referring to either gold or silver. The next section concerns residents of Pharbaithos, including a Sarapion, Copres the village <emph rend="italics">tesserarius</emph>, and Aunion.</p>
+               <p xml:id="p6">Οne of the most interesting aspects revolves around Copres, the <emph rend="italics">tesserarius</emph> of the village of Pharbaithos. The office of <emph rend="italics">tesserarius</emph> was a compulsory public service about which we know little. It is attested in the fourth century, which aligns with our document. The semi-cursive, rather practiced and upright handwriting points to this same period. What has been established so far, based on the available papyrological sources, is that this office lasted for six months, individuals like Copres being appointed either at the beginning of the year (Thoth 1) or on Phamenoth 1.<note place="foot" xml:id="ftn3" n="3">
+                     <p>However, recent research has suggested that the office spanned an entire year, and that the <emph rend="italics">tesserarius</emph> was appointed by the <emph rend="italics">praepositus</emph> after being nominated by the komarch (<ref target="https://papyri.info/biblio/81715">Solieman 2012</ref>: 715-716).</p>
+                  </note>
+N. Lewis notes that ‘a confusing variety of duties is attested in the documents’ related to the <emph rend="italics">tesserarius</emph> (<ref target="https://papyri.info/biblio/14864">Lewis 1997</ref>: 47)<emph rend="italics">.</emph> A.E.R. Boak had earlier noted that the <emph rend="italics">tesserarius</emph> ‘was a civilian village official appointed primarily to supervise the collection of certain public imposts levied upon the villages, particularly perhaps the levies imposed to meet the needs of the military establishment’ (<ref target="https://papyri.info/biblio/39662">Boak 1951</ref>: 333; see also <ref target="https://papyri.info/biblio/95961">Berkes 2017: 203</ref>). Apparently, as N. Lewis points out, literacy was not required for this office (<ref target="https://papyri.info/biblio/14864">Lewis 1997</ref>: 47), as the best known <emph rend="italics">tesserarius</emph>, Aurelius Isidorus from Karanis, who held the position around 313 – early 314, was himself illiterate, as is revealed by a number of documents from his archive (<ref target="https://www.trismegistos.org/arch/detail.php?quick=34">TM archID 34</ref>). </p>
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+            </div>
+            <div type="commentary">
+               <head>Col. I</head>
+               <note target="#ed1col1lin1">
+                  <ref>1-12</ref>
+                  <p xml:id="p7"> Except for Φ̣ιλοξ( ) in l. 11, traces of letters are visible. The abbreviated Φ̣ιλοξ( ) might refer to the name Φ̣ιλόξ(ενος) (<ref target="https://www.trismegistos.org/nam/detail.php?nam_id=3267">TM Nam 3267</ref>) or one of its variants, perhaps indicating the same person as in Col. 2, l. 5.</p>
+               </note>
+               <head>Col. II</head>
+               <note target="#ed1col2lin1">
+                  <ref>1</ref>
+                  <p xml:id="p8"> Above omicron and sigma from Germanos one can distinguish two descending strokes which must be part of the first name in this line. For the second name of the line, which is heavily effaced, one can observe a vertical stroke and parts of the diagonal strokes (especially the descending one) which stands for kappa; traces of the next letter are visible as well, namely a part of the left diagonal stroke of a letter that might be interpreted as a lambda. Thus, the name should be a form, for instance, of Ἡρακλῆς (<ref target="https://www.trismegistos.org/nam/detail.php?nam_id=4560">TM Nam 4560</ref>) or Ἡρακλείδης (<ref target="https://www.trismegistos.org/nam/detail.php?nam_id=4550">TM Nam 4550</ref>). A second way to construe it which cannot be completely disregarded is with Ἡρακ̣λ̣ε̣ί̣[δου μερίδος].</p>
+               </note>
+               <note target="#ed1col2lin2">
+                  <ref>2</ref>
+                  <p xml:id="p9"> Παός instead of Παῶς appears with omicron instead of omega only once more, in the nominative, in a fiscal diary from Dionysias, in the Arsinoite nome (<ref target="https://papyri.info/hgv/78167">SB 26 16560</ref>.107). However, the name here should have been in genitive since it must have been a patronymic.  </p>
+               </note>
+               <note target="#ed1col2lin3">
+                  <ref>3</ref>
+                  <p xml:id="p10"> Ἀμαει is likely genitive of the name Ἀμαις (<ref target="https://www.trismegistos.org/nam/detail.php?nam_id=1926">TM Nam 1926</ref>). The end of the line is quite effaced, which makes reading the second name difficult. Before it, the preposition διά can be read without alpha, an abbreviation stroke being visible after iota; here one can observe a diaeresis over the beginning of the following name, likely Ἰανο̣υ̣[αρίου (<ref target="https://www.trismegistos.org/nam/detail.php?nam_id=9608">TM Nam 9608</ref>).</p>
+               </note>
+               <note target="#ed1col2lin6">
+                  <ref>6</ref>
+                  <p xml:id="p11"> The closest analogy is an unprovenanced inventory of silver tableware dated to the 1st century, which on two occasions states after γίνονται the number of λίτραι, οὐγκίαι and γράμματα (<ref target="https://papyri.info/hgv/25637">BGU 3 781</ref> col. I, l.9 and col. VI, l.5). The same succession of λίτραι, οὐγκίαι and γράμματα is to be found in an early 4th century assessment of gold and silver (<ref target="https://papyri.info/hgv/32497">P.Oxy. 46 3307</ref>. 26), in accounts of receipts and expenditures (<ref target="https://papyri.info/hgv/22046">P.Oxy. 16 1918</ref>, esp. recto col. I, l. 15) from the Apion archive (<ref target="https://www.trismegistos.org/archive/15">TM Arch 15</ref>) and in an account issued by the Antaiopolis office of finance (<ref target="https://papyri.info/hgv/19011">P.Cair. Masp. 1 67057</ref>. 19–22), part of the Dioskoros archive (<ref target="https://www.trismegistos.org/archive/72">TM Arch 72</ref>).</p>
+               </note>
+               <note target="#ed1col2lin7">
+                  <ref>7</ref>
+                  <p xml:id="p12"> Φαρβέθων is to be understood as the genitive plural. It occurs in this form in a register of a tax collector from Philadelphia (<ref target="https://papyri.info/hgv/14887b">SB 20 14576</ref>. 516); in two other instances in the same document the village name appears as Φαρβαίθ(ων) (<ref target="https://papyri.info/hgv/14887b">SB 20 14576</ref>. 540, 549); for this very common interchange – αι/ε – see <ref target="https://papyri.info/biblio/8813">Gignac 1976</ref>: 192–193.</p>
+               </note>
+               <note target="#ed1col2lin8">
+                  <ref>10</ref>
+               
+                  <p xml:id="p13"> The large oblique stroke before Aunion looks like a checkmark and belongs to col. II.</p>
+               </note>
+               <note target="#ed1col2lin11">
+                  <ref>11</ref>
+                  <p xml:id="p14"> It is tempting to read οὐ(γκίαι) δ̣ γρ(άμματα)  ̣ καὶ  ̣  ̣[, but there are no good parallels for οὐ(γκίαι) being abbreviated this way. Only slightly possible, and certainly less attractive, is the personal name Οὐενέριος (l. Οὐηνέριος) (<ref target="https://www.trismegistos.org/nam/detail.php?nam_id=10910">TM Nam 10910</ref>); outside Egypt the name is understood in an epitaph discovered at Thessalonike, in Macedonia, dated between the mid 2nd and mid 3rd century (<ref target="https://papyri.info/biblio/97493">Adam-Velene and Sverkos 2001</ref>: 24–26, no. 5; AE 2001, 1773; BE 2002, 278; SEG 51, 895).</p>
+               </note>
+               <note target="#ed1col2lin12">
+                  <ref>12</ref>
+                  <p xml:id="p15"> There are three possibilities for the name in this line: Ḳάστορο̣[ς, the patronymic of a person named in the preceding line; Ḳαστορί̣[ων; or Ḳαστορί̣[ωνος.</p>
+               </note>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97493">Adam-Velene, P. and Sverkos, E. (2001)</ref> “Επιτάφιες στήλες από τη Θεσσαλονίκη,” in Η. Σβέρκος (εκδ.),  Α΄ Πανελλήνιο Συνέδριο Επιγραφικής. Στη μνήμη Δημήτριου Κανατσούλη, Θεσσαλονίκη 22–23 Οκτωβρίου 1999. Θεσσαλονίκη: 13–34.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95961">Berkes, L. (2017)</ref> Dorfverwaltung und Dorfgemeinschaft in Ägypten von Diokletian zu den Abbasiden. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/39662">Boak, A.E.R. (1951)</ref> “<emph rend="italics">Tesserarii</emph> and <emph rend="italics">Quadrarii</emph> as Village Officials in Egypt of the Fourth Century,” in Paul R. Coleman-Norton (ed.), Studies in Roman Economic and Social History in Honor of Allan Chester Johnson, Princeton: 322–335.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97065">Deac, D. (2024)</ref> “Macedonias and Other Toponyms from the Panopolite Nome,” Pylon 6: Article 5.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/8813">Gignac, F.T. (1976)</ref> A Grammar of the Greek Papyri of the Roman and Byzantine Periods. Milano.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/14864">Lewis, N. (1997)</ref> The Compulsory Public Services of Roman Egypt. Papyrologica Florentina XXVIII. 2nd Edition. Florence.</bibl>
+                  
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/45276">Seider, R. (1964)</ref> “Aus der Arbeit der Universitätsinstitute. Die Universitäts-Papyrussammlung,” Heidelberger Jahrbücher 8: 142–203.</bibl>
+                  <bibl> 
+                     <ref target="https://papyri.info/biblio/81715">Solieman, M. (2012)</ref> “Tesserarius and quadrarius: Village Officials in Fourth Century Egypt,” in Paul Schubert (ed), Actes du 26e Congrès international de papyrologie. Genève, 16-21 août 2010, Genève: 715–719.</bibl>
+                  
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Copres, a Village tesserarius of Pharbaithos, in the Arsinoite Nome</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">1000280</idno>
+               <idno type="filename">1000280</idno>
+               <idno type="ddb-filename">pylon.8.4</idno>
+               <idno type="ddb-hybrid">pylon;8;4</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement>Heidelberg</settlement>
+                     </placeName>
+                     <collection>Institut für Papyrologie</collection>
+                     <idno type="invNo">P.Heid.inv. G 263</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Liste</term>
+                  <term n="2">Namen</term>
+                  <term n="3">tesserarius</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">Pylon</title>
+                  <biblScope n="1" type="volume">8</biblScope>
+                  <biblScope n="2" type="fascicle">(2025)</biblScope>
+                  <biblScope n="3" type="generic">Art. 4</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+                <figure n="1">
+                    <graphic url="https://digi.ub.uni-heidelberg.de/diglit/p_g_263" />
+                </figure>
+            </p>
+        </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Copres, a Village tesserarius  of Pharbaithos, in the Arsinoite Nome</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.8.4</idno>
+               <idno type="ddb-hybrid">pylon;8;4</idno>
+               <idno type="HGV">1000280</idno>
+               <idno type="TM">1000280</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Copres, a Village tesserarius  of Pharbaithos, in the Arsinoite Nome</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="I" subtype="column" type="textpart"><ab>
+<lb xml:id="ed1col1lin1" n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>
+<lb xml:id="ed1col1lin2" n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> ιβ <gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed1col1lin3" n="3"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed1col1lin4" n="4"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>
+<lb xml:id="ed1col1lin5" n="5"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>
+<lb xml:id="ed1col1lin6" n="6"/><gap reason="lost" extent="unknown" unit="character"/><unclear>θ</unclear> 
+<lb xml:id="ed1col1lin7" n="7"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed1col1lin8" n="8"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed1col1lin9" n="9"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>
+<lb xml:id="ed1col1lin10" n="10"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>
+<lb xml:id="ed1col1lin11" n="11"/><gap reason="lost" extent="unknown" unit="character"/> <expan><unclear>Φ</unclear>ιλοξ<ex> </ex></expan>
+<lb xml:id="ed1col1lin12" n="12"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="12"/><gap reason="lost" extent="unknown" unit="line"/> 
+</ab></div>
+<div n="II" subtype="column" type="textpart"><ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
+<lb xml:id="ed1col2lin1" n="1"/><gap reason="lost" quantity="6" unit="character" precision="low"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="2" unit="character"/> Ἡρα<unclear>κλ</unclear><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed1col2lin2" n="2"/>Γερμανὸς <choice><reg>Παῶτος</reg><orig>Παὸς</orig></choice> <gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed1col2lin3" n="3"/>Πᾶσις Ἀμαει <expan>δι<ex>ὰ</ex></expan> <hi rend="diaeresis">Ἰ</hi><unclear>α</unclear>ν<unclear>ου</unclear><supplied reason="lost">αρίου</supplied><note>ϊα̣νο̣υ̣[αρίου papyrus</note> <gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed1col2lin4" n="4"/>Διόσκορος καὶ Ὡ<unclear>ρ</unclear>ίων <gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed1col2lin5" n="5"/>Φιλόξενος Διοσκόρου <gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed1col2lin6" n="6"/><expan>γίν<ex>ονται</ex></expan> <expan>λί<ex>τραι</ex></expan> <gap reason="lost" quantity="1" unit="character"/> <supplied reason="lost"><expan>οὐ<ex>γκίαι</ex></expan></supplied> <gap reason="lost" quantity="1" unit="character"/> <expan>γρ<ex>άμματα</ex></expan> <num value="11">ια</num> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
+<lb xml:id="ed1col2lin7" n="7"/><choice><reg>Φαρβαίθων</reg><orig>Φαρβέθων</orig></choice> 
+<lb xml:id="ed1col2lin8" n="8"/><choice><reg>Ἀπία</reg><orig>Ἀπέα</orig></choice> καὶ Σαραπίων <gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed1col2lin9" n="9"/>Κοπρῆς <choice><reg>τεσσεράριος</reg><orig>τεσαλάριος</orig></choice> <gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed1col2lin10" n="10"/>Αὐνίων Σαραπίωνος <gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed1col2lin11" n="11"/><gap reason="illegible" quantity="3" unit="character"/> <expan>γρ<ex>άμματα</ex></expan> <gap reason="illegible" quantity="1" unit="character"/> <unclear>καί</unclear><gap reason="illegible" quantity="2" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/> 
+<lb xml:id="ed1col2lin12" n="12"/><unclear>K</unclear>αστορ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="13"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Copres, a Village tesserarius  of Pharbaithos, in the Arsinoite Nome</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">1000280</idno>
+               <idno type="TM">1000280</idno>
+               <idno type="HGV">1000280</idno>
+               <idno type="ddb-hybrid">pylon;8;4</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>
+[…] son of Herakl[…] | Germanos, son of Paos […] | Pasis, son of Amaeis, through Ianuar[ius?… ], | Dioskoros and Horion […] | Philoxenos, son of Disokoros […]. | […] total: [x] pounds, [x ounces], 11 grams […] | (The village of) Pharbaithos […] | Apia and Sarapion […] | Copres, <emph rend="italics">tesserarius</emph> […] | Aunion, son of Sarapion […] | […] | (son of) Kastor/Kastorion […].
+</p></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
