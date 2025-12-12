@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oath of an Estate Farmer</title>
+            <author>
+               <name>
+                  <forename>W. Graham</forename>
+                  <surname>Claytor</surname>
+               </name>
+               <affiliation>University of Warsaw</affiliation>
+               <email>w.claytor-vi@uw.edu.pl</email>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1164982230</idno> 
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0001-9838-3318</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2025-11-13</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2025">2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.8.8</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.8.114586</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">W.G. Claytor, “Oath of an Estate Farmer,” Pylon 8 (2025) Article 8. DOI: <ref ana="hc:URLReference"
+                    target="https://doi.org/10.48631/pylon.2025.8.114586">https://doi.org/10.48631/pylon.20225.8.114586</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">8</biblScope>
+                     <biblScope unit="article">8</biblScope>
+                     <date when="2025">2025</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2025-11-17T11:32:25Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Oath of an Estate Farmer</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1">The main interest of this oath is the earliest mention of the estate of Dionysodoros, the longtime Arsinoite <emph rend="italics">strategos</emph> under Tiberius and a major local landowner.<note place="foot" xml:id="ftn1" n="1">
+                  <p>
+                     <ref target="http://www.trismegistos.org/person/34687">TM Per 34687</ref>. On his office, see <ref target="https://papyri.info/biblio/19394">Str.R.Scr.2</ref>, pp. 10–11; <ref target="https://papyri.info/biblio/71200">Kruse 2002</ref>: 34–38; <ref target="https://papyri.info/biblio/19085">Derda 2006</ref>: 91–92 and 95. On his estate, see <ref target="https://papyri.info/biblio/9145">Parássoglou 1978</ref>: 19; <ref target="https://www.trismegistos.org/top/">Broux 2024</ref>: 17. New attestations from Karanis in 26 CE are found in <ref target="https://papyri.info/biblio/97479">Borrelli and Claytor 2024</ref>.</p>
+               </note> Both his landholdings and lengthy tenure in office mark him out as a unique figure in the administration and economic development of the early Roman Fayum.<note place="foot" xml:id="ftn2" n="2">
+                  <p> The <emph rend="italics">Gnomon</emph> of the <emph rend="italics">Idios Logos</emph> §70 (<ref target="https://papyri.info/hgv/9472">BGU 5 1210</ref>.viii.174–180) prohibits officials from buying or lending in the regions in which they serve, although it is not known when this regulation was laid down. Cf. <ref target="https://papyri.info/biblio/71200">Kruse 2002</ref>: 44–46. A contemporary large landowner who probably held a high nome office was Asklepiades in the Herakleopolite: see <ref target="https://papyri.info/biblio/96416">Armoni 2018</ref>, ll. 1–2 n. in the reedition of <ref target="https://papyri.info/hgv/23324">BGU 16 2601</ref>.</p>
+               </note> We learn here that his property was in imperial hands by 40 CE at the latest. The manager of this newly-acquired imperial estate was a <emph rend="italics">servus vicarius</emph> named Probus, who is also addressed in a petition from an estate farmer the previous year (<ref target="https://papyri.info/hgv/10137">P.Athen. 32</ref>, Karanis, 39). </p>
+            <p xml:id="p2">The oath was prompted by the assumption of a new leasehold comprising three arouras around the village of Herakleia. For oaths of this type, common to both imperial and public land, cf. <ref target="https://papyri.info/hgv/9653">BGU 13 2245</ref>
+               <note place="foot" xml:id="ftn3" n="3">
+                  <p> On this text and the estate in question, cf. <ref target="https://papyri.info/hgv/47155">CPR 23 1</ref> with commentary.</p>
+               </note> (Soknopaiou Nesos, 14–37), <ref target="https://papyri.info/hgv/397761">SB 30 17666</ref> (Ptolemais Melissourgon, 54), and <ref target="https://papyri.info/hgv/12038">P.Mich. 9 545</ref> (Karanis, 88/89).<note place="foot" xml:id="ftn4" n="4">
+                  <p> Oaths were also made by public and estate farmers upon the receipt of seed loans: see now <ref target="https://papyri.info/biblio/97479">Borrelli and Claytor 2024</ref>. </p>
+               </note> As usual, the oath was written by the local notary. </p>
+            <p xml:id="p3">The papyrus was presumably found in Soknopaiou Nesos, the origin of most documents related to Herakleia and of many papyri that came to London (and elsewhere) in the 1890s.</p>
+            <div type="epidoc" subtype="DDB">
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24078171"/>
+                  <head>Fig. 1: British Library Board: Papyrus 278.</head>
+               </figure>
+               <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: left;">P.Lond. 2 278 descr.<note place="foot" xml:id="ftn5" n="5">
+                        <p>Acquired in 1893: Catalogue of Additions to the Manuscripts in the British Museum in the Years MDCCCLXXXVIII–MDCCCXCIII (London 1894): 412–450 at <ref target="https://babel.hathitrust.org/cgi/pt?id=njp.32101033248210">423</ref>. This edition has been made from an image of the papyrus (enhanced with <ref target="https://hierax.ch">Hierax</ref> for legibility), and the measurements are taken from the descriptum. </p>
+                     </note></cell>
+                     <cell style="text-align: center;">21 (h) × 11.5 (w)</cell>
+                     <cell style="text-align: right;">
+                        <ref target="http://www.trismegistos.org/place/772">Herakleia</ref> (Arsinoite Nome)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"><ref target="https://www.trismegistos.org/text/19977">TM 19977</ref></cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: right;">26 Feb. – 26 March, 40 CE </cell>
+                  </row>
+               </table>
+               <p xml:id="p4">The sheet is nearly complete in its outer dimensions, missing only a presumed left margin. Margins remain at the top and bottom, while the preserved line ends usually reach the right edge with the help of extended final strokes or space fillers. The papyrus is framed on paper, so the back has not been seen. The document is written by the anonymous notary of Herakleia in a quick, professional hand with unexceptional orthography.</p>
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <note target="#ed1ln1">
+                     <ref>1</ref>
+                     <p xml:id="p5"> The personal description of the oath-taker, with only traces remaining of his name. Personal descriptions are commonly found above oaths in this period: <ref target="https://papyri.info/biblio/97479">Borrelli and Claytor 2024</ref>: 27.</p>
+                  </note>
+                  <note target="#ed1ln2">
+                     <ref>2</ref>
+                     <p xml:id="p6"> Π̣αν̣εὺς ̣ Π̣  ̣  ̣εος. Possibly Π̣α̣ν̣έος, though not an attested genitive of the name Πανεύς (<ref target="http://www.trismegistos.org/namvar/12242">TM NamVar 12242</ref>).</p>
+                  </note>
+                  <note target="#ed1ln3">
+                     <ref>3</ref>
+                     <p xml:id="p7"> Πρόβου Τυράννου Γαίου Καίσαρος Σεβαστοῦ Γερμ̣[ανικοῦ]. On this identification pattern for slaves of slaves (known as <emph rend="italics">vicarii</emph>), see <ref target="https://papyri.info/biblio/52814">Straus 1978</ref>: 259–260 and Mitthof, <ref target="https://papyri.info/hgv/47155">CPR 23 1</ref>.11–13 n., including discussion of other relationships expressed by the bare genitive. As mentioned above, Probus is also addressed in <ref target="https://papyri.info/hgv/10137">P.Athen. 32</ref> (Karanis, 39, with Mitthof, <ref target="https://papyri.info/biblio/70873">Korr.Tyche 416</ref> for the correct understanding of his identification pattern).</p>
+                  </note>
+                  <note target="#ed1ln7">
+                     <ref>7–8</ref>
+                     <p xml:id="p8"> Explicit reference to the estate of the emperor Caligula (<ref target="http://www.trismegistos.org/ousia/17">TM Ousia 17</ref>) is found in two other texts, the aforementioned <ref target="https://papyri.info/hgv/10137">P.Athen. 32</ref> (Karanis, 39) and <ref target="https://papyri.info/hgv/12934">P.Ryl. 2 148</ref> (40), a petition from a προεστώς of the estate holdings around Euhemeria. He owned much more property in Egypt, of course, both as the heir of Tiberius, and from his earlier inheritance from his father Germanicus (TM Ousia <ref target="http://www.trismegistos.org/ousia/145">145</ref> and <ref target="http://www.trismegistos.org/ousia/146">146</ref>).</p>
+                  </note>
+                  <note target="#ed1ln8">
+                     <ref>8</ref>
+                     <p xml:id="p9"> Dionysodoros served as <emph rend="italics">strategos</emph> for about two decades, from the end of Augustus’ reign well into Tiberius’ (14–33; cf. fn. 1). <ref target="https://papyri.info/biblio/9145">Parássoglou 1978</ref>: 19 convincingly identified him as the landowner behind the later Διονυσοδωριανὴ οὐσία on the strength of his known landholdings in the nome (<ref target="https://papyri.info/hgv/12915">P.Ryl. 2 129</ref>, 30 CE) and the local toponym Στρατηγοῦ attached to a palm orchard on this estate (<ref target="https://papyri.info/hgv/11232">P.Gen. 1<hi rend="superscript">2</hi> 38 = W.Chr. 366</ref>.5–6, 208/209). The imperial estate (<ref target="http://www.trismegistos.org/ousia/14">TM Ousia 14</ref>) was previously known only from the Flavian period on, so the chronological gap is now closed: the estate went immediately into imperial hands upon his death between 33–40. Due to this narrowed range, we can now also conclude that the Dionysodoros (<ref target="http://www.trismegistos.org/person/34690">TM Per 34690</ref>) who authored the letter <ref target="https://papyri.info/hgv/18055">SB 4 7461</ref> (45) to a Herakleopolite <emph rend="italics">strategos</emph> was indeed not the same man (cf. <ref target="https://papyri.info/biblio/19085">Derda 2006</ref>: 92 n. 91 and 95 n. 99).</p>
+                  </note>
+                  <note target="#ed1ln10">
+                     <ref>10–11</ref>
+                     <p xml:id="p10"> κα(ὶ) λήμψομαι τὰ ὑ|π̣ὲ̣ρ αὐτῶ̣ν σπέρματα. Usually one artaba per aroura.</p>
+                  </note>
+                  <note target="#ed1ln12">
+                     <ref>12</ref>
+                     <p xml:id="p11"> προσμετρούμενα. In <ref target="https://papyri.info/hgv/12951">P.Ryl. 2 166</ref>.16–17 (Karanis, 26), defined as an additional 2% of the rent.</p>
+                  </note>
+                  <note target="#ed1ln12">
+                     <ref>12–13</ref>
+                     <p xml:id="p12"> There does not appear to be a precise parallel for the conclusion of the oath. At the end of l. 12 perhaps καὶ  ̣[, καθ̣[αρά, or καθ̣’ [ἔτος (for κατ’ ἔτος).</p>
+                  </note>
+                  <note target="#ed1ln15">
+                     <ref>15</ref>
+                     <p xml:id="p13"> ὁ [τῆ]ς ̣ Ἡρακλ̣είας νο̣μ̣ο̣γ̣ρ̣ά̣φ̣ο̣ς. Though not in doubt, the title is difficult to follow after the initial nu; it may have been abbreviated or written in <emph rend="italics">Verschleifung</emph>. For other anonymous notarial subscriptions in first-century oaths, cf. <ref target="https://papyri.info/hgv/397761">SB 30 17666</ref>.16–17 (Ptolemais Melissourgon, 54) and <ref target="https://papyri.info/hgv/12038">P.Mich. 9 545</ref>.21–22 (Karanis, 88/89).</p>
+                     <p xml:id="p14">This is the earliest reference to the <emph rend="italics">grapheion</emph> of Herakleia, which in the following years was in the hands of Hermias son of Neilos, an entrepreneur who also held the concession of the <emph rend="italics">grapheia</emph> of Nilopolis and Soknopaiou Nesos, the last of which, at least, he subleased to a local man. His dossier (<ref target="https://papyri.info/hgv/9626">BGU 13 2214</ref>, <ref target="https://papyri.info/hgv/11324">M.Chr. 183</ref>, and <ref target="https://papyri.info/hgv/9040">BGU 1 297</ref>) is to be discussed in a forthcoming reedition of M.Chr. 183, which was addressed to and signed by Hermias.</p>
+                  </note>
+                  <note target="#ed1ln17">
+                     <ref>17</ref>
+                     <p xml:id="p15"> The short-lived month Γάιος Σεβαστός (also simply Γάιος or Γαίειος) equates to Phamenoth (cf. <ref target="https://papyri.info/biblio/56505">Hanson 1984</ref>: 1110–1111 and <ref target="https://papyri.info/hgv/68754">P.Oxy. 55 3780</ref>.7 n.) and thus the oath was drawn up between 26 Feb. – 26 March, 40.</p>
+                  </note>
+               </div>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96416">Armoni, C. (2018)</ref> “Aus dem Archiv des Διοικητής Athenodoros: Neuedition von BGU XVI 2601, 2605 und 2618,” ZPE 207: 123–134.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97479">Borrelli, B. and Claytor, W.G. (2024)</ref> “A Dossier of Seed Orders and Farmers’ Oaths from Karanis,” Tyche 39: 11–55.</bibl>
+                  <bibl>
+                     <ref target="https://www.trismegistos.org/top/">Broux, Y. (2024)</ref> The Imperial Ousiai of Roman Egypt. Leuven.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/19085">Derda, T. (2006)</ref> Ἀρσινοΐτης νομός. Administration of the Fayum under Roman Rule. Warsaw.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/56505">Hanson, A.E. (1984)</ref> “Caligulan Month-Names at Philadelphia and Related Matters,” Pap.Congr. 17: 1107–1118.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/71200">Kruse, T. (2002)</ref> Der königliche Schreiber und die Gauverwaltung. Untersuchungen zur Verwaltungsgeschichte Ägyptens in der Zeit von Augustus bis Philippus Arabs (30 v.Chr. – 245 n.Chr.). Munich - Leipzig.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/9145">Parássoglou, G.M. (1978)</ref> Imperial Estates in Roman Egypt. Amsterdam.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/52814">Straus, J.A. (1978)</ref> “Notes sur quelques papyrus concernant l’esclavage dans l’Égypte romaine,” ZPE 32: 259–262.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Oath of an Estate Farmer</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">19977</idno>
+               <idno type="HGV">19977</idno>
+               <idno type="ddb-filename">pylon.8.8</idno>
+               <idno type="ddb-hybrid">pylon;8;8</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement>London</settlement>
+                     </placeName>
+                     <collection>British Library</collection>
+                     <idno type="invNo">Pap 278</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                     	<origPlace>Herakleia (Arsinoites)</origPlace>
+                        <origDate notBefore="0040-02-26" notAfter="0040-03-26">26. Febr. - 26. März 40</origDate>
+                     </origin>
+                     <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/741467 https://www.trismegistos.org/place/772">Herakleia</placeName>
+                        <placeName type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Eid</term>
+                  <term n="2">Land</term>
+                  <term n="3">Arbeiten</term>
+                  <term n="4">Abgaben</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition">
+               <listBibl>
+                  <bibl type="publication" subtype="principal">
+                     <title level="s" type="abbreviated">Pylon</title>
+                     <biblScope n="1" type="volume">8</biblScope>
+                     <biblScope n="2" type="fascicle">(2025)</biblScope>
+                     <biblScope n="3" type="generic">Art. 8</biblScope>
+                  </bibl>
+               </listBibl>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Oath of an Estate Farmer</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.8.8</idno>
+               <idno type="ddb-hybrid">pylon;8;8</idno>
+               <idno type="HGV">19977</idno>
+               <idno type="TM">19977</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Oath of an Estate Farmer</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb xml:id="ed1ln1" n="1"/><gap reason="illegible" quantity="8" unit="character"/><unclear>εο</unclear>ς ὡς <expan><ex>ἐτῶν</ex></expan> <num value="50">ν</num> <expan><unclear>ο</unclear>ὐ<ex>λὴ</ex></expan> <expan>ἀντικ<ex>νημίῳ</ex></expan> ἀρισ<unclear>τερ</unclear>ῷ
+<lb xml:id="ed1ln1a" n="1a"/><space quantity="1" unit="line"/>
+<lb xml:id="ed1ln2" n="2"/><unclear>Π</unclear>α<unclear>ν</unclear>εὺ<unclear>ς</unclear> <unclear>Π</unclear><gap reason="illegible" quantity="2" unit="character"/>εος τῶν ἀπὸ Ἡρακλείας τοῖ<unclear>ς</unclear> π<unclear>αρ</unclear>ὰ
+<lb xml:id="ed1ln3" n="3"/>Πρόβου Τυράννου Γαίου Καίσαρος Σεβαστοῦ Γερ<unclear>μ</unclear><supplied reason="lost">ανικοῦ·</supplied>
+<lb xml:id="ed1ln4" n="4"/>ὀμν<unclear>ύ</unclear><supplied reason="lost">ω</supplied> <unclear>Γ</unclear><supplied reason="lost">ά</supplied><unclear>ι</unclear>ον Καίσαρα Σεβαστὸν Γερμανικὸν εἶ μὴν
+<lb xml:id="ed1ln5" n="5"/><choice><reg>γεωργήσειν</reg><orig><expan><supplied reason="lost">γεωρ</supplied><unclear>γ</unclear>ήσι<ex>ν</ex></expan></orig></choice> ἀπὸ τοῦ ἐνεστ<unclear>ῶ</unclear><supplied reason="lost">τος</supplied> τετάρτου ἔ<supplied reason="lost">τ</supplied>ους Γαίου
+<lb xml:id="ed1ln6" n="6"/>Καίσαρο<supplied reason="lost">ς</supplied> Σ<supplied reason="lost">εβ</supplied>αστοῦ Γερμανικοῦ ἀπὸ τῶν περὶ τὴν
+<lb xml:id="ed1ln7" n="7"/><unclear>π</unclear>ρογεγρα<supplied reason="lost">μ</supplied>μέ<unclear>νη</unclear>ν κώμην τῆς Γαίου Καίσαρος Σεβαστοῦ
+<lb xml:id="ed1ln8" n="8"/><unclear>Γε</unclear>ρ<unclear>μα</unclear>νι<unclear>κοῦ</unclear> ο<unclear>ὐσί</unclear>ας πρότερον Διονυσοδώρου ἐδαφῶν
+<lb xml:id="ed1ln9" n="9"/><unclear>ἀρού</unclear>ρα<unclear>ς</unclear> <unclear>τ</unclear>ρεῖς ὑπὲρ ὧ<unclear>ν</unclear> ποιήσομαι τὰ κ<unclear>αθ</unclear>ήκοντα
+<lb xml:id="ed1ln10" n="10"/><unclear>γε</unclear>ωργικὰ ἔργα πάντα ἐκ τοῦ ἰδίου <expan>κα<ex>ὶ</ex></expan> λήμψομαι τὰ ὑ
+<lb xml:id="ed1ln11" n="11" break="no"/><unclear>πὲ</unclear>ρ αὐτ<unclear>ῶ</unclear>ν σπέρματα καὶ <choice><reg>μετρήσω</reg><orig>μετρήσωι</orig></choice> τὰ <choice><reg>εἰθισμένα</reg><orig>ἠθισμένα</orig></choice>
+<lb xml:id="ed1ln12" n="12"/><unclear>ὑπὲρ</unclear> <unclear>αὐτῶ</unclear><supplied reason="lost">ν</supplied> <unclear>ἐ</unclear>κφόρια καὶ προσμετρούμενα κα<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="5" unit="character" precision="low"/>
+<lb xml:id="ed1ln13" n="13"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="5" unit="character"/><gap reason="lost" quantity="3" unit="character"/> <unclear>τὴν</unclear> <choice><reg>γεωργίαν</reg><orig>γεωργείαν</orig></choice>. εὐορκο<unclear>ῦντ</unclear><supplied reason="lost">ι μέν μοι</supplied> 
+<lb xml:id="ed1ln14" n="14"/><unclear>εὖ</unclear> <unclear>εἴη</unclear>, <unclear>ἐφι</unclear>ορκοῦντι δὲ τὰ ἐναντία. ἔγραψε <supplied reason="lost">ὑπὲρ αὐτοῦ</supplied>
+<lb xml:id="ed1ln15" n="15"/>ὁ <supplied reason="lost">τῆ</supplied><unclear>ς</unclear> Ἡρακ<unclear>λ</unclear>είας ν<unclear>ομογράφο</unclear>ς <supplied reason="lost">διὰ</supplied> <unclear>τὸ</unclear> <supplied reason="lost">μὴ εἰδέναι</supplied>
+<lb xml:id="ed1ln16" n="16"/><unclear>αὐ</unclear>τὸν γράμματα. <expan><ex>ἔτους</ex></expan> δ Γαίου Καίσαρο<supplied reason="lost">ς Σεβαστοῦ</supplied>
+<lb xml:id="ed1ln17" n="17"/><supplied reason="lost">Γερμανικοῦ</supplied> <expan>μηνὸ<ex>ς</ex></expan> <unclear>Γαίο</unclear>υ <unclear>Σεβ</unclear>αστοῦ <supplied reason="lost"><gap reason="illegible" quantity="2" unit="character"/>.</supplied>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Oath of an Estate Farmer</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">19977</idno>
+               <idno type="TM">19977</idno>
+               <idno type="HGV">19977</idno>
+               <idno type="ddb-hybrid">pylon;8;8</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+<p>
+“ … about 50 years old, mark on his left shin.
+Paneus son of … from Herakleia to the agents of Probus, (slave) of Tyrannos, (slave) of Gaius Caesar Augustus Germanicus. I swear by Gaius Caesar Augustus Germanicus that I will farm from the present fourth year of Gaius Caesar Augustus Germanicus three arouras of the fields around the said village, which belong to the estate of Gaius Caesar Augustus Germanicus, previously belonging to Dionysodoros, on behalf of which I will perform all requisite agricultural tasks at my own expense and I will receive seed for the fields and I will measure out the customary rents on the fields with surcharges … the leasehold. If [I] keep the oath, may it be to my benefit, but if I break the oath, the opposite. The notary of Herakleia wrote [for him because] he [does not know] letters. Year 4 of Gaius Caesar Augustus Germanicus, <emph rend="italics">n</emph>th of the month Gaius Augustus.”
+</p>
+</div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
