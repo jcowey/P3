@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Notes on Papyri from Roman Egypt III</title>
+            <author>
+               <name>
+                  <forename>W. Graham</forename>
+                  <surname>Claytor</surname>
+               </name>
+               <affiliation>University of Warsaw</affiliation>
+               <email>w.claytor-vi@uw.edu.pl</email>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1164982230</idno>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0001-9838-3318</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2025-11-13</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2025">2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.8.10</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.8.114588</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">W.G. Claytor, “Notes on Papyri from Roman Egypt III,” Pylon 8 (2025) Article 10. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2025.8.114588">https://doi.org/10.48631/pylon.20225.8.114588</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">8</biblScope>
+                     <biblScope unit="article">10</biblScope>
+                     <date when="2025">2025</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2025-11-17T11:55:24Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Notes on Papyri from Roman Egypt III</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <div type="section">
+               <head>16. <ref target="https://papyri.info/hgv/11315">W.Chr. 200a</ref> and <ref target="https://papyri.info/hgv/11316">200b</ref>: At Home in the <emph rend="italics">Esenremphieion</emph></head>
+               <p xml:id="p1">This pair of documents from Theadelphia is often adduced in discussions of the early Roman census (e.g. <ref target="https://papyri.info/biblio/86643">Claytor and Bagnall 2015</ref>) and poll-tax (<ref target="https://papyri.info/biblio/97483">Rathbone 2019</ref>). Submitted in back-to-back years (19 and 18 BCE) by the same public farmer, Pnepheros son of Phanemieus (also spelled Panemeiees), they include information about the declarant’s identity, status, and dwelling, but no mention of other household members.</p>
+               <p xml:id="p2">Pnepheros’ dwelling place in the first declaration was printed as ἐν δὲ τῶ(ι) [  ̣   ̣]εαγραμφιη(  ) | καταγίνομαι, with Wilcken reading τ<hi rend="superscript">ω</hi> for the first editor’s τ<hi rend="superscript">η</hi> and noting, “es liegt wohl eine griechische Ableitung des ägyptischen Wortes auf ιεῖον vor, geschrieben ιή(ῳ).” Wilcken’s inclination was right, and on the image, the name of the sanctuary can be read as Ἐ̣σενρεμφιή(ωι), the first attestation of this term. The farmer was thus living within the sacred precinct of (Isis) Esenremphis, whose temple in Theadelphia was already known from the <emph rend="italics">asylia</emph> decree <ref target="https://epigraphy.packhum.org/text/215956">I.Fay. II 114</ref>.16–17 (70 BCE): ἱεροῦ Ἴσιδος Ἐσερέμφιος θεᾶς μεγίστης.<note place="foot" xml:id="ftn1" n="1">
+                  <p> On Isis Ese(n)remphis, see <ref target="https://papyri.info/biblio/56002">Quaegebeur 1983</ref>. The female personal name Esenremphis (<ref target="http://www.trismegistos.org/name/178">TM Nam 178</ref>) is found in Theadelphia in <ref target="https://papyri.info/hgv/832123">P.Mich. inv. 4188</ref> = <ref target="https://papyri.info/biblio/96039">Claytor and Wegner 2022</ref> (62 BCE) and <ref target="https://www.trismegistos.org/text/28661">P.Cair.Gad 6</ref>, frag. b.8 (II CE).</p>
+                  </note> In the next year, Pnepheros is said to be living simply in a “private house,” which is probably a different description of the same dwelling, since houses within sacred precincts, often called παστοφόρια, could be privately owned and alienated (cf. <ref target="https://www.trismegistos.org/text/976587">P.Aegyptus Cent. 28</ref>.7 n.).</p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24148356"/>
+                  <head>Fig. 1: British Library Board, Papyrus 646.</head>
+               </figure>               
+               <p xml:id="p3">The image of <ref target="https://papyri.info/hgv/11316">W.Chr. 200b</ref> also affords some small improvements. Both the first edition and Wilcken’s text give the impression that a line containing the addressee is lost, but the papyrus in fact contains traces of ink, amounting to perhaps two letters, which were washed out. In line 7, οἰδίᾳ is written, either a phonetic spelling of ἰδία and/or in anticipation of the following οἰκίᾳ. Under line 8, the papyrus is cleanly broken, and the current placement of the lower fragment is incorrect, since the end of [ἐπιδίδωμι] in line 9 ought to be visible in this case. The lower fragment needs to be moved down to accommodate at least one missing line, or rather two if the declaration ended with the same formula as <ref target="https://papyri.info/hgv/11315">200a</ref>: διὸ ἐπιδίδωμι τὸ ὑπόμνη(μα) ὅπως καταχωρισθῇ.</p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24148358"/>
+                  <head>Fig. 2: British Library Board, Papyrus 647.</head>
+               </figure>
+            </div>
+            <div type="section">
+               <head>17. Kallistratos in <ref target="https://papyri.info/hgv/12774">P.Prag. 1 54</ref> (Arsinoite, 19–21)</head>
+               <p xml:id="p4">The opening of this receipt was printed [ … σ]ιτολόγος τῶν̣ [Κ]αλλιστράτου Τ̣εσενοῦφι Δημᾶτος | γεγ̣ε̣[νημέ]νη̣ Κ[α]λλισ̣τράτ̣ου χ(αίρειν) and translated, “… sitologo del distretto di Kallistratos a Tesenuphis figlia di Demas originaria di Kallistratos salve.” The unusual γεγ̣ε̣[νημέ]νη̣ Κ[α]λλισ̣τράτ̣ου is rather γεω̣ρ̣[γ(ῷ)] τ̣ῶν Κ[α]λλισ̣τράτ̣ου, a parallel construction to the circumscription of the sitologos in the previous line.<note place="foot" xml:id="ftn2" n="2">
+                     <p> The image is not of the highest quality, but τ̣ῶν is clear: there is a trace of the tail of tau, a bit longer than that of τῶν in the previous line, which descends nearly to the omicron of ἐκφορίων in l. 3. Little remains following γε (it is unclear whether the dark line above and to the right of ε is ink and, if so, whether it is from the previous line), but traces of the expected initial curving stroke of omega can perhaps be made out, followed by what appears to be a faint trace of the descending rho. This reading leaves room for a gamma raised in abbreviation before τ̣ῶν.</p>
+                  </note> Tesenouphis is a cross-gender name, here referring not to a woman, as the editor thought, but rather to a male tenant.<note place="foot" xml:id="ftn3" n="3">
+                     <p> On such names in Egypt, see <ref target="https://doi.org/10.1093/9780198947042.003.0008">Schentuleit 2025</ref> (with pp. 233–234 on the etymology of the name Tesenouphis and 241–242 on the deified individual behind the name). </p>
+                  </note> With τῶν Καλλιστράτου the editor understood τόπων, and this supposed toponym has been registered as <ref target="http://www.trismegistos.org/place/982">TM Geo 982</ref>. Kallistratos should instead be taken as an estate owner, with τῶν marking an understood ἐδαφῶν <emph rend="italics">vel sim.</emph>. Two examples from the archive of the estate manager Athenodoros (<ref target="http://www.trismegistos.org/archive/26">TM Arch 26</ref>) support this interpretation: παρ̣ʼ Ἀθ̣η̣ν̣οδ̣ώρου φρο̣ντιστοῦ <emph rend="bold">τῶ̣ν̣ Ἀ̣[σ]κ̣ληπ̣ι̣ά̣δ̣ο̣υ̣</emph> [τ]ῶ̣ν ἐν τῶ̣ι Ἡρακλεοπολί̣τ̣η̣ι̣ (<ref target="https://papyri.info/hgv/23328">BGU 16 2605</ref>.1–3 = <ref target="https://papyri.info/biblio/96416">Armoni 2018</ref>: 129–131) and  Ἀθηνόδωρος φροντιστὴς <emph rend="bold">τῶν</emph> ἐν τῶ[ι Ἡρακλε]οπολίτηι <emph rend="bold">Ἀσκληπιάδου</emph> (<ref target="https://papyri.info/hgv/23388">BGU 16 2664</ref>.3–4).<note place="foot" xml:id="ftn4" n="4">
+                     <p> Similar examples are found in the later Heroninos archive (<ref target="https://papyri.info/biblio/12541">Rathbone 1991</ref>: 30–31). For other variations of Athenodoros’ title as administrator of Asklepiades’ estate in the Herakleopolite nome, see <ref target="https://papyri.info/biblio/96416">Armoni 2018</ref>: 123–124. This estate is referred to more specifically in <ref target="https://papyri.info/hgv/23324">BGU 16 2601</ref>.8 (= <ref target="https://papyri.info/biblio/96416">Armoni 2018</ref>: 127–129) and <ref target="https://papyri.info/hgv/23387">BGU 16 2663</ref>.4–5 as τὰ τοῦ Ἀσκληπιάδου ἐδάφη and τὰ ἐδάφη τοῦ οἴκου respectively.</p>
+                  </note> Both Kallistratos in the Arsinoite nome and Asklepiades in the Herakleopolite were owners of private estates large enough to support permanent staff.<note place="foot" xml:id="ftn5" n="5">
+                     <p> Kallistratos’ tenant Tesenouphis was no ordinary smallholder, but a lessee of 200 arouras (l. 4). Given the names involved (besides Tesenouphis, a Herieus son of Satabous appears in l. 10), the Prague papyrus was likely found in Soknopaiou Nesos, although the large tract of land in question was no doubt located elsewhere.</p>
+                  </note>
+               </p>
+               <p xml:id="p5">Kallistratos is a common name, but given that his estate employed a σιτολόγος, it reasonable to see a connection with the θ(ησαυροῦ) Καλλιστράτου in the contemporary order <ref target="https://papyri.info/hgv/74865">O.Lund. 1</ref> with <ref target="https://beehive.zaw.uni-heidelberg.de/hgv/74865">BL 8 522</ref> (Euhemeria, 19).<note place="foot" xml:id="ftn6" n="6">
+                  <p> On this type of order, specific to the Fayum and mentioning private granaries, see <ref target="https://papyri.info/biblio/39615">Youtie 1950</ref>: 102 and <ref target="https://papyri.info/hgv/74865">O.Lund. 1</ref> introduction.</p>
+                  </note> Another possible reference to the estate is found in <ref target="https://quod.lib.umich.edu/a/apis/x-15438/4447DR.TIF">P.Mich. inv. 4447d</ref> (Arsinoite, 3 July, 12: edition in preparation), a brief rent receipt written by Δημ̣ή̣τριος ἐνυκιωλόγος (l. ἐνοικιολόγος) Καλλ̣ι̣στράτου.</p>
+               <p xml:id="p6">Another prominent Kallistratos in the Fayum at this time is the agent working for the estate of Livia and Germanicus as προεστὼς κτηνῶν, who submitted the petition <ref target="https://papyri.info/hgv/14117">P.NYU 2 3</ref> in 5 CE against an ὀνηλάτης in his employ. Little is known of the background of these προεστῶτες of imperial properties,<note place="foot" xml:id="ftn7" n="7">
+                     <p> See <ref target="https://papyri.info/biblio/97495">Broux 2024</ref>: 76–77, with reference to this Kallistratos προεστὼς κτηνῶν.</p>
+                  </note> but they may themselves have been local landowners of some note (as were the administrators of Appianus’ estate, for instance), so an identification of Kallistratos the landowner with Kallistratos the προεστώς is not out of the question.<note place="foot" xml:id="ftn8" n="8">
+                     <p> The NYU petitions gives his father’s name, likewise Kallistratos. I note two other contemporary texts in which a Kallistratos son of Kallistratos appears: <ref target="https://papyri.info/hgv/12318">P.Mich. 14 677</ref> (6 BCE), a rent receipt for land around Herakleia, and <ref target="https://quod.lib.umich.edu/a/apis/x-11929/4232R.TIF">P.Mich. inv. 4232</ref> (1 BCE; edition in preparation), a receipt for taxes on land around Philadelphia and Hephaistias.  </p>
+                  </note>
+               </p>
+            </div>
+            <div type="section">
+               <head>18. <ref target="https://papyri.info/hgv/27625">SPP 22 1</ref> (Soknopaiou Nesos, II–III)</head>
+               <p xml:id="p7">This summons sent to Soknopaiou Nesos refers to charges brought ὑπὸ Ἀμμ[ωνί]ου πράκτορος ταμι[ακ]ῶν, as the edition has it (ll. 3–4). Such an official is not known elsewhere, and the date (before ca. 240 due to the mention of Soknopaiou Nesos) would be early for the use of ταμιακός. The image shows that there is not enough room for the reading, and in any case the top half of an epsilon (not alpha) follows tau. τειμ̣ῶν is possible palaeographically but also entails an otherwise-unattested remit, and the mu would also have an unusually-tall peak to its first stroke. Probably we are dealing with the omission of a syllable with haplography, πράκτορος ⟨σι⟩τεικ̣ῶν, although this solution runs against the Lex Youtie. In any case, the πράκτωρ ταμιακῶν can be discarded.</p>
+            </div>
+            <div type="section">
+               <head>19. <ref target="https://papyri.info/hgv/9137">BGU I 98</ref> (Sonopaiou Nesos, 211)</head>
+               <p xml:id="p8">
+                  <ref target="https://papyri.info/biblio/78018">Worp 2009</ref>: 148 pointed to this text as the only example of a woman described by an οὐλή on her thigh and suggested on the basis of gender roles that μηρῷ in l. 26 was a phonetic variant of μήλῳ, thereby moving the mark to her cheek. The image now available in <ref target="https://berlpap.smb.museum/01705/">BerlPap</ref> shows that it was there all along: the papyrus has μήλῳ.</p>
+            </div>
+            <div type="section">
+               <head>20. <ref target="https://papyri.info/hgv/30957">BGU 7 1683</ref> = <ref target="https://papyri.info/biblio/97485">Kolveris 2025</ref> (Philadelphia, III–IV)</head>
+               <p xml:id="p9">The new edition, made from a digital image, provides an improved text of this third or fourth century business letter excavated at Philadelphia by Viereck and Zucker. The first line is badly smudged but should contain the names of the correspondents (or at least the recipient), since χαίρειν follows in the next line. The new edition prints Ευ  ̣   ̣ι  ̣   ̣   ̣ν̣ε  ̣   ̣   ̣   ̣   ̣   ̣   ̣ where the first edition had Εὐγ̣ε̣  ̣  ̣  ̣  ̣  ̣ ἀδ̣[ε]λφῷ.</p>
+               <p xml:id="p10">Examination of the original in Warsaw with the aid of a digital microscope shows that the sender’s name is Εὔνους, which is otherwise not found in Egypt after 109 (<ref target="http://www.trismegistos.org/name/3048">TM Nam 3048</ref>). Fig. 3 contains infrared images of the ending -νους, with a wide nu whose final hasta starts with a hook, as elsewhere in the text, followed by a small omicron filled with ink, a V-shaped upsilon starting above the omicron, and finally a sigma in two parts. </p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24148360"/>
+                  <head>Fig. 3: Infrared section of BGU 7 1683 line 1.</head>
+               </figure>
+               <p xml:id="p11">What follows is more difficult, but if the original editors’ ἀδελφῷ is retained, the recipient’s name must be short. In this case, Ὁλ works: the omicron is small, and the lambda is just cut off by the break (part of the ink in between could be the “wind up” of the second stroke of lambda, as in ἀμελήσῃς, l. 7): see Fig. 4, with the beginning of the following alpha.</p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24148362"/>
+                  <head>Fig. 4: Infrared section of BGU 7 1683 line 4.</head>
+               </figure>
+               <p xml:id="p12">The proposal for line 1 is thus: Εὔνους Ὁλ ἀδ̣ε̣λ̣φ̣ῷ̣. As mentioned, the name Eunous is rare, but since he is the sender of the business letter, he might not belong to the community of Philadelphia. Hol, on the other hand, a variant of Horos, is well established in the village (and the Fayum generally) from the end of the third century.<note place="foot" xml:id="ftn9" n="9">
+                  <p> Four different men of this name are found in <ref target="https://papyri.info/hgv/32964">BGU 7 1628</ref> (Philad., IV), for instance. An Aurelius Hol is also the protagonist of <ref target="http://www.trismegistos.org/archive/35">TM Arch 35</ref> (late IV).</p>
+                  </note>
+               </p>
+            </div>
+            <div type="section">
+               <head>21. Compensation for the Work of Slave Girl</head>
+               <p xml:id="p13">In my edition of the <emph rend="italics">eiromenon</emph> <ref target="https://papyri.info/hgv/25730">P.Fay. 344 recto</ref>, I described the abstract in ll. 23–24 (labeled with the letter <emph rend="bold">l</emph>) as a “loan of 60 drachmas with παραμονή of slave girl in exchange for interest” (<ref target="https://papyri.info/biblio/86477">Claytor 2013</ref>: 82). Line 23 contains the receipt of the loan, while the next line contains the end of the clause regarding the girl’s work, the penalty clause for absence, and the return clause. This last was printed: μ̣ετὰ τὸν χρό(νον) ἀποδότο ἀργυ(ρίου) ⟨(δραχμὰς)⟩  ̣ καὶ δώσ̣ε̣ι ὁ Δι  ̣  ̣  ̣ο( ) τ̣ῇ̣ παι̣δ(ίσκηι)    ̣  ̣ο( ) κ̣α̣ὶ̣ [. A reexamination of the image (excerpted in Fig. 5) has produced some new ideas.</p>
+               <p xml:id="p14">Following ἀργυ(ρίου), the expected (δ̣ρ̣α̣χ̣μ̣ὰ̣ς̣) ξ̣ should be read: the ligature between the overstroke of αργ ̅ and the drachma sign is damaged but otherwise resembles the others, even if the drachma sign is less wavy than elsewhere. It is difficult to distinguish between the xi and the beginning of καί, but the figure is not much in doubt, since the amount is spelled out in the previous line: ἔχιν παρ’ αὐ(τοῦ) δ[ι]ὰ̣ χ̣ε(ιρὸς) ἀργυ(ρίου) (δραχμὰς) ἑξήκοντα.</p>
+               <p xml:id="p15">The name following the article is certainly Δίδ̣υ̣μο(ς), with the base of the second delta and the low undulations of mu clearly visible. The name is added because the two verbs have different subjects: at the end of the contract, the first party must return (ἀποδότο, l. ἀποδότω) the 60-drachma principal, while Didymos, the lender, must give something to the slave girl. The article before Δίδ̣υ̣μο(ς) is anaphoric, since he was already introduced in the lost beginning of the abstract.</p>
+               <p xml:id="p16">
+                  <ref target="https://papyri.info/hgv/27808">PSI 6 710</ref>.9–10 (Oxyrhynchos [?], II), another <emph rend="italics">paramone</emph> contract for a slave (but based on lease, not a loan), provides a parallel: δώσει δὲ ὁ Διόσκορος τῷ παιδὶ πλ̣ηρώσαν̣τ̣ι̣ τ[ … ] | χ̣ιτῶνα ἄξιον δραχμῶν δέκα κ̣α̣ὶ̣ δραχμὰς δεκαδύ[ο  … ]. As the editor already considered, line 9 can be supplemented πλ̣ηρώσαν̣τ̣ι̣ τ[ὸν χρόνον] (the equivalent of μετὰ τὸν χρόνον). Dioskoros, the lessee of the slave, must, in addition to the regular wages, provide a <emph rend="italics">chiton</emph> worth 12 drachmas at the conclusion of the contract. This parallel suggests that clothing might have supplemented the compensation package in the Fayum contract as well, but the papyrus is bunched up here, and little besides the raised omicron is legible.</p>
+               <p xml:id="p17">The proposed reading is:</p>
+               <p xml:id="p18">μετὰ τὸν χρό(νον) ἀποδότο ἀργυ(ρίου) (δ̣ρ̣α̣χ̣μ̣ὰ̣ς̣) ξ̣ καὶ δώσ̣ε̣ι ὁ Δίδ̣υ̣μο(ς) τῇ παι̣δ(ίσκηι) θ̣  ̣  ̣ο( ) κ̣  ̣  ̣  ̣[</p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24148364"/>
+                  <head>Fig. 5: P.Fay. 344 recto line 24.</head>
+               </figure>
+            </div>
+            <div type="section">
+               <head>22. Reflections of Hadrian’s Tax Relief Edict of 136</head>
+               <p xml:id="p19">Following two dangerously low inundations, Hadrian ordered a moratorium on the payment of ἀργυρικὸς φόρος by the γεωργοί of Egypt: payments due for the 20th year (135/136) could be spread over five years in the hard-hit Thebaid, four years in the Heptanomia, and three years in Lower Egypt.<note place="foot" xml:id="ftn10" n="10">
+                  <p> The edict was published in Alexandria on 31 May, 136 and has been transmitted in four fragmentary copies: three are printed under <ref target="https://papyri.info/hgv/12576">P.Oslo 3 78</ref> (= <ref target="https://papyri.info/biblio/11850">Oliver 1989</ref>, no. 88A–C), the fourth as <ref target="https://papyri.info/hgv/21661">P.Heid. 7 396</ref>.</p>
+                  </note> Herbert Youtie first identified signs of the implementation of this edict in the payment of (πέμπτον) μέρος γεωμετρίας, that is, an annual installment of ⅕ of the land-survey tax, in several Theban ostraka between 136–140, and the evidence base has since expanded to include a range of money taxes from Thebes and Elephantine, recently examined by Andrea Jördens.<note place="foot" xml:id="ftn11" n="11">
+                     <p> <ref target="https://papyri.info/biblio/97484">Jördens 2019</ref>: 334–337, drawing on <ref target="https://papyri.info/biblio/49715">Youtie 1973</ref>: 854–856; <ref target="https://papyri.info/biblio/61048">Shelton 1990</ref>: 227; Heilporn, <ref target="https://papyri.info/biblio/20775">O.Stras. 2</ref>, pp. 94–97; <ref target="https://papyri.info/biblio/86603">Heilporn 2016</ref>: 214–216; <ref target="https://papyri.info/biblio/96451">Duttenhöfer 2017</ref>: 228–229.</p>
+                  </note>
+               </p>
+               <p xml:id="p20">The Fayum, I believe, also offers a reflection of the edict. <ref target="https://papyri.info/hgv/12782a">P.Prag. 1 62a</ref> is a garden-tax receipt dated to Pauni 17 of Hadrian’s 22nd year (11 June, 138),<note place="foot" xml:id="ftn12" n="12">
+                     <p> The letter “a” refers to the first receipt on the papyrus, which is followed in a second column by a receipt for the φόρος προβάτων (b) and two poorly-preserved receipts (c–d).</p>
+               </note> which opens with payments for the previous 21st year. Since garden taxes were normally settled the year following, the payment is routine and can be taken as the full set of dues on what amounts to just under two arouras, as the editor noted. The receipt then takes an unusual turn in that it backtracks to garden taxes of the 20th year, with amounts corresponding to about ½ an aroura according to the editor, “quindi circa un quarto della prima serie” (<ref target="https://papyri.info/hgv/12782a">P.Prag. I 62a</ref>.7 n.). The quarter payment for the 20th year is a significant clue: rather than pertaining to a smaller plot of land, it likely represents a τέταρτον μέρος of the full payment on the same plot, just as Hadrian’s edict permitted in the Heptanomia.<note place="foot" xml:id="ftn13" n="13">
+                     <p> There follows an installment of the γεωμετρία for the 20th year, about half the full amount. The amount is usual, but such late payment is not. The γεωμετρία was due every four years and generally settled in two installments, one the year of, one the year following (<ref target="https://papyri.info/biblio/5337">P.Col. 5</ref>, pp. 272–275); the payment in the 22nd year was thus either one or two years late depending on which installment it was. The laxness with the deadline fits the spirit of the edict, even if the taxpayer should have been allowed to disperse payment of the γεωμετρία over four annual installments. Cf. Jördens 2019: 336–337, remarking on the various methods of implementing Hadrian’s edict: “Dies läßt zugleich darauf schließen, daß das kaiserliche Zugeständnis erneut die Prinzipien vorgab, den lokalen Behörden hingegen relativ freie Hand darin gelassen war, diese Vorgaben in konkrete Maßnahmen zu überführen. Dadurch wurde es möglich, flexibel auf die jeweilige Situation vor Ort zu reagieren und allfälligen Besonderheiten gerecht zu werden, so daß es in den verschiedenen Steuerbezirken zum Teil zu erheblichen Abweichungen bei der Umsetzung kam. Doch war es möglicherweise nicht zum geringsten eben dieser Flexibilität zu danken, daß das Verfahren auf so große Akzeptanz der Bevölkerung stieß und sich letztlich auch als solches bewährte.” Indeed, the τέταρτον μέρος γεωμετρίας later became institutionalized as a method of payment for dues on ousiac land (<ref target="https://papyri.info/biblio/5337">P.Col. 5</ref>, pp. 274–275): while not a direct result of Hadrian’s edict (which concerned taxes for 135/6 only), it may nevertheless have been inspired by it. I plan on returning to the topic of garden taxes in the Fayum via editions of the receipts P.Lond. inv. 2708 and 2712 in a future volume of P.Lond.</p>
+                  </note>
+               </p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96416">Armoni, C. (2018)</ref> “Aus dem Archiv des Διοικητής Athenodoros: Neuedition von BGU XVI 2601, 2605 und 2618,” ZPE 207: 123–134.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97495">Broux, Y. (2024)</ref> The Imperial Ousiai of Roman Egypt. Leuven.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/86477">Claytor, W.G. (2013)</ref>, “A Schedule of Contracts and a Private Letter: P.Fay. 344,” BASP 50: 77–121.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/86643">Claytor, W.G. and Bagnall, R.S. (2015)</ref> The Beginnings of the Roman Provincial Census: A New Declaration from 3 BCE,” GRBS 55: 637–653.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96039">Claytor, W.G. and Wegner, W. (2022)</ref> “Eine Quittung über didrachmia des Suchos,” CdÉ 97: 173–196.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96451">Duttenhöfer, R. (2017)</ref> “Korrekturen zu Ostraka aus Elephantine III: Anmerkungen zu O.Bankes und verwandten Texten” ZPE 202: 221–247.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/86603">Heilporn, P. (2016)</ref> “Papyrologica. III: 17. P. Bingen 87 et l’étalement des impôts de l’an 20 d’Hadrien,” CdÉ 91: 214–216.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97484">Jördens, A. (2019)</ref> “Reflexe kaiserlichen Wirkens in ägyptischen Papyri und Ostraka” Chiron 49: 299–342.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97485">Kolveris, N. (2025)</ref> “A New Edition of BGU VII 1683” ZPE 234: 222–223.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/11850">Oliver, J.H. (1989)</ref> Greek Constitutions of Early Roman Emperors from Inscriptions and Papyri (Philadelphia).</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/56002">Quaegebeur, J. (1983)</ref> “Eseremphis: Une Isis de haute époque en vogue dans l'Égypte gréco-romaine,” in G. Grimm et al. (eds) Das römisch-byzantinische Ägypten. Akten des internationalen Symposions. Trier, 26.–30. September 1978. Mainz: 67–75.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/12541">Rathbone, D. (1991)</ref> Economic Rationalism and Rural Society in Third-Century A.D. Egypt. The Heroninos Archive and the Appianus Estate. Cambridge.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97483">Rathbone, D. (2019)</ref> “The Age of Poll-Tax Exemption in Roman Egypt” in M. Maiuro et al. (eds) Uomini, istituzioni, mercati. Studi di storia per Elio Lo Cascio. Bari: 353–361.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/61048">Shelton, J.C. (1990)</ref> “Ostraca from Elephantine in the Fitzwilliam Museum” ZPE 80: 221–238.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97495">Schentuleit, M. (2025)</ref> “Egyptian Cross-gender Names in Graeco-Roman Dime and Beyond,” in Almásy-Martin, A. and Broux, Y. (eds), Greek Personal Names in Egypt. Oxford: 221–258.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/78018">Worp, K.A. (2009)</ref> “Οὐλαί on Women’s Thighs?” ZPE 170: 147–148.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/39615">Youtie, H.C. (1950)</ref> “Greek Ostraca from Egypt,” TAPA 81: 99–116.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/49715">Youtie, H.C. (1973)</ref> “Review. Tax Rolls from Karanis. Part I.” Scriptiunculae II (Amsterdam): 851–857.</bibl>
+               </listBibl>
+            </div>
+            <div type="corrections">
+               <list>
+                  <item n="1">
+                     <p>TargetFile</p>
+                     	<ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.wilck/chr.wilck.200a.xml#L83"/>
+                     <p>Replace</p>
+                     	<lb n="9"/>ἐν δὲ <expan>τῶ<ex>ι</ex></expan> <abbr><gap reason="lost" quantity="2" unit="character"/>εαγραμφιη</abbr> 
+                     <p>With</p>
+                     	<lb n="9"/>ἐν δὲ <expan>τῶ<ex>ι</ex></expan> <app type="editorial"><lem resp="W.G. Claytor, Pylon 8 (2025) 10 §2"><expan><unclear>Ἐ</unclear>σενρεμφιή<ex>ωι</ex></expan></lem><rdg><abbr><gap reason="lost" quantity="2" unit="character"/>εαγραμφιη</abbr></rdg></app>  
+                  </item>
+                  <item n="2">
+                     <p>TargetFile</p>
+                     	<ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.wilck/chr.wilck.200b.xml#L64"/>
+                     <p>Replace</p>
+                     	<lb n="1"/><gap reason="lost" quantity="13" unit="character"/> 
+                     <p>With</p>
+                     	<lb n="1"/><app type="editorial"><lem resp="W.G. Claytor, Pylon 8 (2025) 10 §3"><del rend="erasure"><gap reason="illegible" quantity="2" unit="character"/></del></lem><rdg><gap reason="lost" quantity="13" unit="character"/></rdg></app> 
+                  </item>
+                  <item n="3">
+                     <p>TargetFile</p>
+                     	<ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.wilck/chr.wilck.200b.xml#L76"/>
+                     <p>Replace</p>
+                     	<lb n="7"/><expan><ex>ἐτῶν</ex></expan> <num value="64">ξδ</num>, ἐν δὲ τῇ ἰδίᾳ οἰκίᾳ  
+                     <p>With</p>
+                     	<lb n="7"/><expan><ex>ἐτῶν</ex></expan> <num value="64">ξδ</num>, ἐν δὲ τῇ <app type="editorial"><lem resp="W.G. Claytor, Pylon 8 (2025) 10 §3"><choice><reg>ἰδίᾳ</reg><orig>οἰδίᾳ</orig></choice></lem><rdg>ἰδίᾳ</rdg></app> οἰκίᾳ 
+                  </item>
+                  <item n="4">
+                     <p>TargetFile</p>
+                     	<ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/chr.wilck/chr.wilck.200b.xml#L78-L80"/>
+                     <p>Replace</p>
+                     	<lb n="8"/><supplied reason="lost">κα</supplied>τ<supplied reason="lost">α</supplied>γίνομαι. διὸ 
+
+                        <lb n="9"/><supplied reason="lost">ἐπιδίδωμι.</supplied> 
+                     <p>With</p>
+                     	<lb n="8"/><supplied reason="lost">κα</supplied>τ<supplied reason="lost">α</supplied>γίνομαι. <app type="editorial"><lem resp="W.G. Claytor, Pylon 8 (2025) 10 §3">διὸ <lb n="9"/><gap reason="lost" atLeast="1" atMost="2" unit="line"/> </lem><rdg>διὸ 
+
+                        <lb n="9"/><supplied reason="lost">ἐπιδίδωμι.</supplied></rdg></app>
+                  </item>
+                  <item n="5">
+                     <p>TargetFile</p>
+                     	<ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/p.prag/p.prag.1/p.prag.1.54.xml#L56"/>
+                     <p>Replace</p>
+                     	<lb n="2"/>γε<unclear>γε</unclear><supplied reason="lost">νημέ</supplied>ν<unclear>η</unclear> Κ<supplied reason="lost">α</supplied>λλι<unclear>σ</unclear>τρά<unclear>τ</unclear>ου <expan>χ<ex>αίρειν</ex></expan>. μεμέτρημαι παρὰ σοῦ εἰς λόγον  
+                     <p>With</p>
+                     	<lb n="2"/><app type="editorial"><lem resp="W.G. Claytor, Pylon 8 (2025) 10 §4"><expan>γε<unclear>ωρ</unclear><supplied reason="lost">γ<ex>ῷ</ex></supplied></expan> <unclear>τ</unclear>ῶν Κ<supplied reason="lost">α</supplied>λλι<unclear>σ</unclear>τρά<unclear>τ</unclear>ου</lem><rdg>γε<unclear>γε</unclear><supplied reason="lost">νημέ</supplied>ν<unclear>η</unclear> Κ<supplied reason="lost">α</supplied>λλι<unclear>σ</unclear>τρά<unclear>τ</unclear>ου</rdg></app> <expan>χ<ex>αίρειν</ex></expan>. μεμέτρημαι παρὰ σοῦ εἰς λόγον 
+                  </item>
+                  <item n="6">
+                     <p>TargetFile</p>
+                     	<ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/stud.pal/stud.pal.22/stud.pal.22.1.xml#L58"/>
+                     <p>Replace</p>
+                     	<lb n="4"/>πράκτορος ταμι<supplied reason="lost">ακ</supplied>ῶν ἐξαυτῆ<supplied reason="lost">ς</supplied>
+                     <p>With</p>
+                     	<lb n="4"/>πράκτορος <app type="editorial"><lem resp="W.G. Claytor, Pylon 8 (2025) 10 §7"><supplied reason="omitted">σι</supplied>τει<unclear>κ</unclear>ῶν</lem><rdg>ταμι<supplied reason="lost">ακ</supplied>ῶν</rdg></app> ἐξαυτῆ<supplied reason="lost">ς</supplied>. 
+                  </item>
+                  <item n="7">
+                     <p>TargetFile</p>
+                     	<ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/bgu/bgu.1/bgu.1.98.xml#L103"/>
+                     <p>Replace</p>
+                     	<lb n="4"/><lb n="26"/>Τανομιεὺς <unclear>ὡ</unclear>ς <expan><ex>ἐτῶν</ex></expan> <num value="3">γ</num><gap reason="illegible" quantity="1" unit="character"/> <expan>οὐλ<ex>ὴ</ex></expan> μηρῷ <expan>δεξ<ex>ιῷ</ex></expan> 
+                     <p>With</p>
+                        <lb n="26"/>Τανομιεὺς <unclear>ὡ</unclear>ς <expan><ex>ἐτῶν</ex></expan> <num value="3">γ</num><gap reason="illegible" quantity="1" unit="character"/> <expan>οὐλ<ex>ὴ</ex></expan> <app type="editorial"><lem resp="W.G. Claytor, Pylon 8 (2025) 10 §8">μήλῳ</lem><rdg>μηρῷ</rdg></app> <expan>δεξ<ex>ιῷ</ex></expan> 
+                  </item>
+                  <item n="8">
+                     <p>TargetFile</p>
+                     	<ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/zpe/zpe.234/zpe.234.222.xml#L53"/>
+                     <p>Replace</p>
+                     	<lb n="1"/><app type="editorial"><lem>Εὐ<gap reason="illegible" quantity="2" unit="character"/>ι<gap reason="illegible" quantity="3" unit="character"/><unclear>ν</unclear>ε<gap reason="illegible" quantity="7" unit="character"/></lem><rdg>Εὐ<unclear>γε</unclear><gap reason="illegible" quantity="4" unit="character"/> ἀ<unclear>δ</unclear><supplied reason="lost">ε</supplied>λφ<unclear>ῷ</unclear></rdg></app> 
+                     <p>With</p>
+                        <lb n="1"/><app type="editorial"><lem resp="W.G. Claytor, Pylon 8 (2025) 10 §12">Εὔνους Ὁλ ἀ<unclear>δελφῷ</unclear></lem><rdg resp="ZPE 234 222">Εὐ<gap reason="illegible" quantity="2" unit="character"/>ι<gap reason="illegible" quantity="3" unit="character"/><unclear>ν</unclear>ε<gap reason="illegible" quantity="7" unit="character"/></rdg><rdg resp="BGU 7 1683">Εὐ<unclear>γε</unclear><gap reason="illegible" quantity="4" unit="character"/> ἀ<unclear>δ</unclear><supplied reason="lost">ε</supplied>λφ<unclear>ῷ</unclear></rdg></app> 
+                  </item>
+                  <item n="9">
+                     <p>TargetFile</p>
+                     	<ref target="https://github.com/papyri/idp.data/blob/master/DDB_EpiDoc_XML/basp/basp.50/basp.50.89.xml#L113"/>
+                     <p>Replace</p>
+                     	<lb n="24"/><gap reason="lost" extent="unknown" unit="character"/> π<unclear>άντα</unclear> τὰ <expan>ἐπιτα<unclear>σ</unclear><supplied reason="lost">σό</supplied><unclear>μ</unclear>ε<ex>να</ex></expan>. ἑκάστης δὲ ἡμέρας ἧς ἐὰν μ<unclear>ὴ</unclear> <expan>π<unclear>αραμ</unclear><ex>είνηι</ex></expan> <expan>ἀποτ<ex>εισάτω</ex></expan> <expan><ex>δραχμὴν</ex></expan> <num value="1">α</num>. <unclear>μ</unclear>ετὰ τὸν <expan>χρό<ex>νον</ex></expan> <choice><reg>ἀποδότω</reg><orig>ἀποδότο</orig></choice> <expan>ἀργυ<ex>ρίου</ex></expan> <supplied reason="omitted"><expan><ex>δραχμὰς</ex></expan></supplied> <gap reason="illegible" quantity="1" unit="character"/> καὶ δώ<unclear>σε</unclear>ι ὁ <abbr>Δι<gap reason="illegible" quantity="3" unit="character"/>ο</abbr> <unclear>τῇ</unclear> <expan>πα<unclear>ι</unclear>δ<ex>ίσκηι</ex></expan> <gap reason="illegible" quantity="2" unit="character"/><abbr>ο</abbr> <unclear>καὶ</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                     <p>With</p>
+                        <lb n="24"/><gap reason="lost" extent="unknown" unit="character"/> π<unclear>άντα</unclear> τὰ <expan>ἐπιτα<unclear>σ</unclear><supplied reason="lost">σό</supplied><unclear>μ</unclear>ε<ex>να</ex></expan>. ἑκάστης δὲ ἡμέρας ἧς ἐὰν μ<unclear>ὴ</unclear> <expan>π<unclear>αραμ</unclear><ex>είνηι</ex></expan> <expan>ἀποτ<ex>εισάτω</ex></expan> <expan><ex>δραχμὴν</ex></expan> <num value="1">α</num>. <unclear>μ</unclear>ετὰ τὸν <expan>χρό<ex>νον</ex></expan> <choice><reg>ἀποδότω</reg><orig>ἀποδότο</orig></choice> <expan>ἀργυ<ex>ρίου</ex></expan> <app type="editorial"><lem resp="W.G. Claytor, Pylon 8 (2025) 10 §14"> <expan><ex cert="low">δραχμὰς</ex></expan> <num value="60"><unclear>ξ</unclear></num></lem><rdg><supplied reason="omitted"><expan><ex>δραχμὰς</ex></expan></supplied> <gap reason="illegible" quantity="1" unit="character"/></rdg></app> καὶ δώ<unclear>σε</unclear>ι ὁ <app type="editorial"><lem resp="W.G. Claytor, Pylon 8 (2025) 10 §15"><expan>Δί<unclear>δυ</unclear>μο<ex>ς</ex></expan></lem><rdg><abbr>Δι<gap reason="illegible" quantity="3" unit="character"/>ο</abbr></rdg></app> <unclear>τῇ</unclear> <expan>πα<unclear>ι</unclear>δ<ex>ίσκηι</ex></expan> <gap reason="illegible" quantity="2" unit="character"/><abbr>ο</abbr> <unclear>καὶ</unclear> <gap reason="lost" extent="unknown" unit="character"/> 
+                  </item>
+               </list>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
