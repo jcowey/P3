@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Four Unpublished Papyri from Hamburg </title>
+            <author>
+               <name>
+                  <forename>Constantinos</forename>
+                  <surname>Balamoshev</surname>
+               </name>
+               <affiliation>Faculty of Archaeology Department of Papyrology, University of Warsaw</affiliation>
+               <email>c.balamoshev@uw.edu.pl</email>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1345828071</idno>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0002-5700-2408</idno>
+            </author>
+            <funder>Deutsche Forschungsgemeinschaft</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2025">2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.8.7</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.8.114585</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">M. Nowak, “Four Unpublished Papyri from Hamburg,” Pylon 8 (2025) Article 7. DOI: <ref ana="hc:URLReference"
+                    target="https://doi.org/10.48631/pylon.2025.8.114585">https://doi.org/10.48631/pylon.20225.8.114585</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">8</biblScope>
+                     <biblScope unit="article">7</biblScope>
+                     <date when="2025">2025</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2025-12-02T16:00:09Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Four Unpublished Papyri from Hamburg</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">The research was supported by a grant from the University of Warsaw: Małe Granty CRAC w Działaniu I.3.11 „Przygotowanie i uruchomienie projektu badawczego: Ancient Societies in Action (ASA)” realized within the scope of the programme „Inicjatywa Doskonałości – Uczelnia Badawcza”.</note>
+            <p>I would like to express my gratitude to the Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky staff for their assistance during my research at the library. The papyri were examined through a combination of high-resolution digital images, personal inspection in situ and a Dino-Lite digital microscope. Some of the snippets appearing in this paper come directly from microscope photographic material.</p>
+            <p>Special thanks are due to the anonymous or eponymous reviewers of the draft of this article for their valuable comments and thought-provoking observations.</p>
+            <div type="introduction">
+               <p xml:id="p1">This contribution presents an edition of four fragmentary papyri housed in the Staats- und Universitätsbibliothek in Hamburg. The acquisition history of these papyri is closely linked to the broader formation of the Hamburg collection, primarily through purchases coordinated by the Papyruskartell between 1906 and 1913, with additional acquisitions extended until 1939. Conservation of the papyri was carried out in Berlin by H. Ibscher.<note place="foot" xml:id="ftn1" n="1">
+                     <p> On the history of the collection, see <ref target="https://doi.org/10.1515/apf-2021-0011">Essler 2021</ref>.</p>
+                  </note> While the provenance of certain pieces may be identified through internal indicators (e.g., Oxyrhynchos), the origins of others remain indeterminate. At any rate, the information on the library website regarding their alleged Theadelpheia provenance seems to be a technical error.</p>
+            </div>
+            <div type="section">
+               <head>I. Private letter referring to quinquennial games</head>
+               <div type="epidoc" subtype="DDB">
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;">
+                           <ref target="https://resolver.sub.uni-hamburg.de/kitodo/HANSh3950">
+                              <emph rend="bold">P.Hamb. graec. 742</emph>
+                           </ref>
+                        </cell>
+                        <cell style="text-align: center;">8.2 (w) × 11.2 (h)</cell>
+                        <cell style="text-align: right;">1st c. – beginning of 2nd c. CE?</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">provenance unknown</cell>
+                     </row>
+                  </table>
+                  <p xml:id="p2">This light-brown papyrus is regularly cut off at the left and right, preserving the original margins; at the bottom, only a small portion of the text is lost, but can be confidently restored, while the extensive margin survives, together with the original edge. The top has sustained significant damage resulting in the loss of probably more than half of the original text. Written in a flowing but irregular cursive script, it displays characteristics typical of rapid cursive hands from the 1st up to the beginning of the 2nd century CE; cf., for instance, <ref target="https://papyri.info/hgv/8958">BGU 1 197</ref> (Dionysias, 17 CE) or documents from the grapheion of Tebtynis (the Kronion archive, <ref target="https://www.trismegistos.org/arch/archives/pdf/93.pdf">ArchID 93</ref>), such as <ref target="https://papyri.info/hgv/12159">P.Mich. 5 349</ref> (Tebtynis, 30 CE). This dating is further supported by the concise farewell formula including the day of the month, which is uncommon in papyri from the 2nd century onwards.<note place="foot" xml:id="ftn2" n="2">
+                        <p> See <ref target="https://papyri.info/biblio/95860">Sarri 2018</ref>: 117–118.</p>
+                     </note>
+                  </p>
+                  <p xml:id="p3">With only the final part of the letter preserved in a good state, the text contains greetings to the addressee and his family from the author and his people. As an afterthought the sender informs the addressee that he failed to send him a mirror in connection with the Quinquennial (counting inclusively, i.e. every four years) games. He promises to buy and send one once the occasion appears.</p>
+                  <p xml:id="p4">The games mentioned likely refer to the so-called Ἄκτια (see <ref target="#p9">6–7 n.</ref>), held every four years at Nicopolis near Alexandria in the mid-1st century CE, as reported by Strabo.<note place="foot" xml:id="ftn3" n="3">
+                        <p> See <ref target="https://papyri.info/biblio/97533">Remijsen 2014</ref>: 192–193.</p>
+                     </note> Given that the latest (dated) attestation of the Pentaetērikos agon in Alexandria is in c. 110 CE, it provides a convenient chronological framework, corroborating the internal evidence of the papyrus.</p>
+                  <figure>
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24060382"/>
+                     <head>Fig. 1: P.Hamb. graec. 742 Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky. Creative Commons License Attribution 4.0 International (CC BY-SA 4.0).</head>
+                  </figure>
+                  <div copyOf="#ed1" type="edition"/>
+                  <div copyOf="#trans1" type="translation"/>
+                  <div type="commentary">
+                     <note target="#ed1ln1">
+                        <ref>1–3</ref>
+                        <p xml:id="p5"> In these lines, one expects to find a greeting formula that could have looked as follows: 
+                        <table type="papyrological_header" style="font-size: 90%;">
+                           <row>
+                              <cell style="text-align: center;">ἄσπα-]</cell>
+                              <cell style="text-align: center;"/>
+                              <cell style="text-align: center;">ἄσπα-]</cell>
+                           </row>
+                           <row>
+                              <cell style="text-align: left;">[σαι]<note place="foot" xml:id="ftn4" n="4"><p>ἀσπά|[ζου] could also be considered</p></note> τοὺς παρ[ά σοι πάν-]</cell>
+                              <cell style="text-align: left;">or</cell>
+                              <cell style="text-align: left;">[σαι] τοὺς παρ’ [ὑμῖν πάν-]</cell>
+                           </row>
+                           <row>
+                              <cell style="text-align: left;">[τας ἀ]σπάζετα[ί σε etc.</cell>
+                              <cell style="text-align: left;"/>
+                              <cell style="text-align: left;">[τας ἀ]σπάζετα[ί σε etc.</cell>
+                           </row>
+                        </table>
+                        <table type="papyrological_header" style="font-size: 90%;">
+                           <row>
+                              <cell style="text-align: center;">ἀσπάζο-]</cell>
+                              <cell style="text-align: center;"/>
+                              <cell style="text-align: center;">ἀσπάζο-]</cell>
+                           </row>
+                           <row>
+                              <cell style="text-align: left;">[μαι] τοὺς παρ[ά σοι πάν-]</cell>
+                              <cell style="text-align: left;">or</cell>
+                              <cell style="text-align: left;">[μαι] τοὺς παρ’ [ὑμῖν πάν-]</cell>
+                           </row>
+                           <row>
+                              <cell style="text-align: left;">[τας ἀ]σπάζετα[ί σε etc.</cell>
+                              <cell style="text-align: left;"/>
+                              <cell style="text-align: left;">[τας ἀ]σπάζετα[ί σε etc.</cell>
+                           </row>
+                        </table>
+                        </p>
+                     </note>
+                     <note target="#ed1ln3">
+                        <ref>3–4</ref>
+                        <p xml:id="p6"> -δοῦς: this is the ending of a feminine name starting in line 3, where the partially preserved descending stroke of a rho can be observed. It is not clear where line 3 ended as the lengths of the subsequent lines vary. However, presumably, after the rho a single additional letter may be sufficient to complete the sequence. In such a case, a good option would be Ἀφροδοῦς (Ῥοδοῦς would be too short). Other names that could be considered include: Ἡραϊδοῦς, Χαριδοῦς, Ζωιδοῦς (if the descending stroke is interpreted as an iota). </p>
+                     </note>
+                     <note target="#ed1ln4">
+                        <ref>4</ref>
+                        <p xml:id="p7"> Μητρόβ̣[ις]: &lt; Μητρόβιος. Τhe reading of the final part of the name is not secure but a nominative is expected here. However, the majority of search results in the papyrological corpus include -almost exclusively- only two long compound names with the first compound Μητρο-: Μητρόδωρος/-δώρα and Μητροφάνης. Thankfully, we find one example of a slave named Μητρόβις in <ref target="https://papyri.info/hgv/14986">SPP 4 pp. 62-78</ref>.322 (c. 73 CE). In contrast, the name Μητρόβιος is ubiquitous in inscriptions, particularly those originating from Asia Minor.</p>
+                     </note>
+                     <note target="#ed1ln5">
+                        <ref>5–6</ref>
+                        <p xml:id="p8"> ὄ|συπτρον: This form of the classical ἔσοπτρον/εἴσοπτρον (‘mirror’) has been recognized as a variant, not a deviation, apparently limited to Egypt only.<note place="foot" xml:id="ftn5" n="5">
+                              <p>
+                                 <ref target="https://papyri.info/biblio/97530">Bonati and Reggiani 2020</ref>: 63–67.</p>
+                           </note> In fact, ὄσυπτρον produces more attestations than the standard ἔσοπτρον. Although found in 2nd–3rd c. CE papyri predominantly, one re-edited papyrus, <ref target="https://papyri.info/hgv/4560">BGU 6 1300</ref>.17 (210/193 BCE), furnishes a much earlier example of this form, suggesting a continuity of its use since the Ptolemaic period. </p>
+                     </note>
+                     <note target="#ed1ln6-7">
+                        <ref>6–7</ref>
+                        <p xml:id="p9"> τὸν πεντα|ετηρικόν: as previously stated, it is probable that the games in question are those held in Alexandria, known simply by the adjective πενταετηρικός. This is evident in the inscriptions that attest to these games, listed by Moretti,<note place="foot" xml:id="ftn6" n="6">
+                              <p>
+                                 <ref target="https://openlibrary.org/books/OL15544740M/Iscrizioni_agonistiche_greche.">IAG</ref> 65 (c. 60 CE, ἐν Ἀλεξανδρέᾳ τῇ κατ᾽ Αἴγ[υπτον] | πενταετηρικόν), 67 (c. 90 CE, ἐν Ἀλεξανδρείᾳ τὸν ἱερὸν πενταετη[ρι|κόν]), 68 (c. 110 CE, ἐν Ἀλεξανδρείᾳ ἱερὸν πενταετηρικὸν ἀγῶνα Ἀκ[τιακῶν παίδων] | παγκράτιον), as well as <ref target="https://cil.bbaw.de/ace/id/46218">CIL 2 4136</ref>, where one reads: Alexan|driae agonothetae | certaminis penta|heterici.</p>
+                           </note> who associates them with the Actia established by Augustus in nearby Nicopolis, which mirrored the Actia of the Epeirotan city of the same name.<note place="foot" xml:id="ftn7" n="7">
+                              <p>
+                                 <ref target="https://www.jstor.org/stable/20185859">Hanson 1980</ref>: 249–250 with notes.</p>
+                           </note> A variety of other games is also attested, albeit exclusively in late-second century sources: a Sebasteios, a Seleukeios, a Hadrianeios Philadelphios agon and Olympia.<note place="foot" xml:id="ftn8" n="8">
+                              <p>
+                                 <ref target="https://papyri.info/biblio/97526">Fauconnier 2023</ref>: 154–158.</p>
+                           </note> These Quinquennial Games could not have been any local Capitolia (also quinquennial), which were established much later in the 3rd century, initially in Hermopolis under Septimius Severus, it seems (<ref target="https://papyri.info/biblio/97533">Remijsen 2014</ref>: 194).</p>
+                     </note>
+                     <note target="#ed1ln7">
+                        <ref>7</ref>
+                        <p xml:id="p10"> ἐὰν ἐκβῇ: the sentence uses an impersonal construction of ἐκβαίνω to convey the meaning ‘if it works out well,’ ‘if it occurs.’ </p>
+                        <p xml:id="p11">ἀγορῶ: contracted future forms of ἀγοράζω do not occur after the early 2nd century CE. One additional example, dated only broadly to the 2nd century (see below), cannot be considered an exception. Another papyrus (<ref target="https://papyri.info/hgv/33251">BGU 3 948</ref>.20 from Herakleopolis, 4th-5th c.) contains an anomalous middle-voice future form, ἀποστελῶ [σο]ι τὸ κέρμα ὅσου αὐτὰ ἀγορᾷ (2nd pers. sg. of an unattested ἀγορῶμαι), but its reading cannot be verified because the papyrus was destroyed in the Hamburg fire of 1899. However, it is important to note that future forms of this verb are not frequently encountered, even prior to this period. Perhaps it is useful to cite the limited examples that are present in our documents:</p>
+                        <p xml:id="p12">
+                           <ref target="https://papyri.info/hgv/809">P.Cair.Zen. 2 59161</ref>.4 (255 BCE) ἀγορᾶν; <ref target="https://papyri.info/hgv/44595">P.Cair.Zen. 3 59499</ref>.48 (254 BCE) ἀγορῶ;<note place="foot" xml:id="ftn9" n="9">
+                              <p> In <ref target="https://papyri.info/hgv/880">P.Cair.Zen. 2 59235</ref>.7 the Future form ἀγορᾶι is restored.</p>
+                           </note>
+                           <ref target="https://papyri.info/hgv/44616">P.Leid.Inst. 1 31</ref>.13 (late 1st – early 2nd c. CE) ἀγ̣ο̣ρ̣ᾷ̣ς̣; <note place="foot" xml:id="ftn10" n="10">
+                              <p> This one and the next two belong to the small archive of Asklas from the Panopolite nome (<ref target="https://www.trismegistos.org/arch/detail.php?arch_id=274">TM Arch id: 274</ref>), consisting of four letters only.</p>
+                           </note>
+                           <ref target="https://papyri.info/hgv/25206">SB 10 10529 b</ref>.19/23 (late 1st – early 2nd c. CE) ἀγορῶμεν / ἀγορῶ; <ref target="https://papyri.info/hgv/25069/">SB 12 11148</ref>.17 (late 1st – early 2nd c. CE): ἀγο̣ρ̣\ῶ̣/; <ref target="https://papyri.info/hgv/79035">SB 22 15453</ref>.10 (2nd c.): ἀγορῶ.</p>
+                        <p xml:id="p13">For such forms, see <ref target="https://papyri.info/biblio/8046">Mandilaras 1973</ref>: 358, although the work lacks later published examples. A comprehensive and updated overview of the formation of the future tense of similar verbs (e.g. ἐκβιβάζω) can be found in <ref target="https://papyri.info/biblio/97532">Benuzzi 2024</ref>.<note place="foot" xml:id="ftn11" n="11">
+                              <p> Last update on 30/04/2025.  </p>
+                           </note> Cf. also <ref target="https://papyri.info/biblio/97522">Jannaris 1897</ref>: 889–890.</p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>II. Sworn declaration to the chief of the nome’s police</head>
+               <div type="epidoc" subtype="DDB">
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;">
+                           <ref target="http://resolver.sub.uni-hamburg.de/kitodo/HANSh3946">
+                              <emph rend="bold">P.Hamb. Graec. 739</emph>
+                           </ref>
+                        </cell>
+                        <cell style="text-align: center;">11.5 (w) × 11.5 (h)</cell>
+                        <cell style="text-align: right;">12 Nov. 340</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">Oxyrhynchos</cell>
+                     </row>
+                  </table>
+                  <p xml:id="p14">This is a light brown papyrus with the upper portion of the text almost completely intact. Only parts remain of the left and right margins, with the right extending into several more lines. The latter is cut regularly at the edge, while the letters in some cases appear cramped to fit in the available space. The lower part of the document is lost and its extent unknown. Presumably though, based on standard heights, approximately a half of the text is missing. The verso is blank. The handwriting is characterized by irregular letter shapes, a certain lack of dexterity, and the presence of corrections.</p>
+                  <p xml:id="p15">The text is a sworn declaration addressed to Aurelius Dioscorus, a police official known from other Oxyrhynchite documents, who held the title ἐπόπτης εἰρήνης. It was issued by a certain Aspidas, son of Dius, from the village of Chysis. From the limited information available, we may assume that Aspidas is a lower ranking police officer,<note place="foot" xml:id="ftn12" n="12">
+                        <p> On the police hierarchy, see <ref target="https://papyri.info/biblio/69587">Torallas-Tovar 2000</ref>: 115–123; further insights are offered in the printed edition of <ref target="https://papyri.info/hgv/170011">P.Pintaudi. 18</ref>. A similarly structured Oxyrhynchitan text from roughly ten years later (<ref target="https://papyri.info/hgv/22183">P.Oxy. 19 2233</ref>, 350 CE) is addressed to the riparii of the nome by eirenarchs of two pagi.</p>
+                     </note> possibly an eirenarch, who acts in accordance with the chain of command.<note place="foot" xml:id="ftn13" n="13">
+                        <p> On eirenarchs, their role in the local policing activities, as well as their standing in the police hierarchy, see <ref target="https://papyri.info/biblio/74502">Sänger 2005</ref>.</p>
+                     </note> reporting to the chief of the nome police about robbers held in custody at the local station. However, the overall details are unclear due to the poor condition of the papyrus at the beginning of the narratio.</p>
+                  <figure>
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24060384"/>
+                     <head>Fig. 2: P.Hamb. Graec. 739 Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky. Creative Commons License Attribution 4.0 International (CC BY-SA 4.0).</head>
+                  </figure>
+                  <div copyOf="#ed2" type="edition"/>
+                  <div copyOf="#trans2" type="translation"/>
+                  <div type="commentary">
+                     <note target="#ed2ln1">
+                        <ref>1</ref>
+                        <p xml:id="p16"> The consulship of Septimius Acindynus and Populonius Proclus, see <ref target="https://papyri.info/biblio/17873">CSBE<hi rend="superscript">2</hi></ref> 188.</p>
+                     </note>
+                     <note target="#ed2ln4">
+                        <ref>4</ref>
+                        <p xml:id="p17"> Αὐρηλίῳ Διοσ̣κόρῳ ἐπόπτῃ εἰρήνης Ὀξυρυγχ`ω̣´(ν): Interestingly, all our evidence for ἐπόπτης εἰρήνης comes from a narrow chronological span between the years 339 and 342. Most of this evidence comes from Oxyrhynchos,<note place="foot" xml:id="ftn14" n="14">
+                              <p> In chronological order: <ref target="https://papyri.info/hgv/20399">P.Oxy. 6 991</ref> (5 Apr. 341); <ref target="https://papyri.info/hgv/21925">P.Oxy. 12 1559</ref> (13 Nov. 341); <ref target="https://papyri.info/hgv/15396">P.Oxy. 50 3575</ref> (28. Oct. – 26. Nov. 341) and <ref target="https://papyri.info/hgv/15397">3576</ref> (30 Nov. 341); <ref target="https://papyri.info/hgv/15399">P.Oxy. 50 3578</ref> (25 Febr. – 26 Mar. 342); <ref target="https://papyri.info/hgv/21059">P.Harr. 1 65</ref> (5 May 342). </p>
+                           </note> with the exception of a recently published papyrus (dated before July 339) addressed to officials of Arsinoe, among whom is an ἐπόπτης (without εἰρήνης).<note place="foot" xml:id="ftn15" n="15">
+                              <p>
+                                 <ref target="https://papyri.info/biblio/96273">Gonis 2022</ref>. This is the earliest attestation of the official in Egypt.</p>
+                           </note> The earliest reference to an epoptēs in Oxyrhynchos is found in <ref target="https://papyri.info/hgv/22518">P.Oxy. 55 3794</ref>.3/20 (16 July – 1 August 340). The editor (J.R. Rea) suggests that the person implied is Dioscorus since he is the only known holder of the office. This is a reasonable suggestion as the present document (12 Nov. 340) bridges the gap between his attestation by name on 5 April 341 and the nameless reference in July-August 340.</p>
+                        <p xml:id="p18">Among the Oxyrhynchite attestations, four documents (<ref target="https://papyri.info/hgv/20399">P.Oxy. 6 991</ref>, <ref target="https://papyri.info/hgv/21925">P.Oxy. 12 1559</ref>, <ref target="https://papyri.info/hgv/15396">P.Oxy. 50 3575</ref>, <ref target="https://papyri.info/hgv/15399">P.Oxy. 50 3578</ref>) are petitions addressed to Dioscorus, one document (<ref target="https://papyri.info/hgv/15397">P.Oxy. 50 3576</ref>) is an undertaking on oath likewise addressed to him, another (<ref target="https://papyri.info/hgv/21059">P.Harr. 1 65</ref>), is a bail for a prisoner (not explicitly stating the name of the epoptēs but it is probably Dioscorus), and one other is a private letter (<ref target="https://papyri.info/hgv/22532">P.Oxy. 55 3821</ref>) from Dioscorus ἐπόπτης Ὀξ(υρυγχίτου) to Heras.<note place="foot" xml:id="ftn16" n="16">
+                              <p> To be dated to c. 340–342. On Dioscorus and his correspondence, see <ref target="https://www.jstor.org/stable/20187180?seq=1">Frend 1989</ref>: 248–250.</p>
+                           </note> Therefore, we can safely assume that all documents including the present one come from the same office and that the career of Dioscorus spanned at least from July–August 340 until May 342.</p>
+                        <p xml:id="p19">	Another notable feature is Dioscorus’ nomen. Sometimes he is named Aurelius, sometimes Flavius, which may reflect a fluctuation between municipal and state status (for Flavius), though this interpretation remains tentative. Rea attempted to explain this inconsistency in <ref target="https://papyri.info/hgv/15396">P.Oxy. 50 3575</ref>.3–4 n., arguing that the variation implied that Dioscorus first held state office (with the name Flavius) but later reverted to Aurelius, possibly due to a demotion from state to municipal rank. However, this argument appears unsatisfactory as in this earlier text from November 340 he is addressed as Aurelius and not Flavius. Perhaps then, the position was originally a municipal one, subsequently elevated to a state office for a brief time (hence the nomen Flavius), and finally, reverting back to its municipal status. Nevertheless, scribal ignorance could not be excluded. At any case, the current data indicates that the specific office of ἐπόπτης εἰρήνης (a police authority over the nome) seems to have been a short-lived innovation of 339, soon abandoned.</p>
+                     </note>
+                     <note target="#ed2ln5">
+                        <ref>5–6</ref>
+                        <p xml:id="p20"> κώμης Χύσεως α̣ / πάγ̣ου: the village is located in the southern part (former Upper Toparchy) of the Oxyrhychite nome, see <ref target="https://www.trismegistos.org/dl.php?id=19">Benaissa 2021</ref>: 443–445. The present text adds a further, hitherto unknown detail that the village belonged to the 1st pagus. The transcribed alpha is somewhat ambiguous and could also be interpreted as a beta, given its large upper loop. However, the ductus of the stroke — continuing from the loop toward the pi of πάγου — suggests that alpha is the more likely reading. The papyrus additionally confirms that Chysis in this period was part of the Oxyrhynchite nome before switching to the Hermopolite nome later in the 4th century (<ref target="https://papyri.info/hgv/22428">P.Lips. 1 99</ref>, 375/376 or 390/391).</p>
+                     </note>
+                     <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24151042"/>
+                        <head>Fig. 3: line 6.</head>
+                     </figure>
+                     <note target="#ed2ln7">
+                        <ref>7</ref>
+                        <p xml:id="p21"> ἡ̣ σὴ ἐμμέλια (l. ἐμμέλεια): this abstract noun was used to address various officials: logistēs, ekdikos, syndikos, riparius, exactor, epitropos and beneficiarius, see <ref target="https://papyri.info/hgv/15207">P.Harris 2 207</ref>.11n. For a concise overview of its origins, see also <ref target="https://papyri.info/biblio/4538">Zilliacus 1949</ref>: 45.</p>
+                        <p xml:id="p22">Ἡ σὴ ἐμμέλια could have been preceded by a verb such as ἐπέθετο, cf. <ref target="https://papyri.info/hgv/20360">P.Oxy. 6 897</ref>.7 (a similar declaration to riparii, 346): ἐπέθετο ἡμῖν ἡ ὑμῶν ἐμμέλια (l. ἐμμέλεια), or <ref target="https://papyri.info/hgv/21807">P.Oxy. 10 1265</ref>.11–12 (336) ἐπέθετό μοι ἡ | σὴ ἐμμέλε̣[ια. It is possible to read the verb ending -ε̣τ̣ο̣ just before ἡ σὴ with some effort. However, the poor state of the text as well as the idiosyncratic handwriting makes the reading particularly challenging.</p>
+                     </note>
+                     <note target="#ed2ln8">
+                        <ref>8–9</ref>
+                        <p xml:id="p23"> ἐν̣ τῇ ἡμετέρᾳ τ̣ηρή|σει: τήρησις = Lat. custodia, see also <ref target="https://papyri.info/hgv/22461">P.Oxy. 47 3346</ref>.5–6 n. Cf. e.g. <ref target="https://papyri.info/hgv/19614">P.Brem. 28 V</ref>.8 (113–120) ἐν τηρήσει ἔσχον. </p>
+                     </note>
+                     <note target="#ed2ln10">
+                        <ref>10</ref>
+                        <p xml:id="p24"> δ]ε̣[σ]π̣οτ̣ῶ(ν̣): The section restored in the lacuna should be followed by the expected δεσποτῶν followed by ἡμῶν Αὐγούστων etc. in the following line, cf. e.g. <ref target="https://papyri.info/hgv/20360">P.Oxy. 6 897</ref>.10–12 κατὰ ταῦτα | ὁμολογοῦμεν ὀμνύντες τὸν σεβάσμιον | θεῖον ὅρκον τῶν δεσποτῶν ἡμῶν Αὐγούστων.</p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>III. Petition</head>
+               <div type="epidoc" subtype="DDB">
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;">
+                           <ref target="http://resolver.sub.uni-hamburg.de/kitodo/HANSh3956">
+                              <emph rend="bold">P.Hamb. Graec. 749</emph>
+                           </ref>
+                        </cell>
+                        <cell style="text-align: center;">6.7 (w) × h 13.3 (h)</cell>
+                        <cell style="text-align: right;">351–352</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">provenance unknown</cell>
+                     </row>
+                  </table>
+                  <p xml:id="p25">This light-brown papyrus is broken on all sides, with only part of the bottom margin preserved. The verso is blank. The document was penned by a trained professional hand, exhibiting a continuous flowing ductus and many ligatures, letter strokes of varying thickness, and a slight rightward slope. The handwriting bears a resemblance to that of <ref target="https://papyri.info/hgv/22183">P.Oxy. 19 2233</ref> (a declaration to the riparii, dated 350 CE).</p>
+                  <p xml:id="p26">From a structural standpoint, the document exhibits certain characteristics of petitions: it is divided into two sections—the preserved main body and the subscription written in a different hand; there is a narratio, where the petitioner employs the first person (ἐμοῦ).</p>
+                  <p xml:id="p27">Presumably, the text is a denunciation, according to which someone promised to give something (ὑποσχομένου διδόναι) but showed disregard (καταφρονῶν τελείως) in connection with some finished work (ἔργον τελειωθέν). There is a reference to a speculator (on whom, see <ref target="#p28">7n.</ref>), to items being taken away (ἀφαιρεθέντων) and to the court (δικαστήριον). Perhaps most importantly, the text mentions the praeses of Augustamnica Flavius Areianus Alypius, which serves to anchor the events chronologically. The lack of further context makes it challenging to assess the content in more detail, but a criminal case should not be excluded.</p>
+                  <figure>
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24060386"/>
+                     <head>Fig. 4: P.Hamb. Graec. 749 Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky. Creative Commons License Attribution 4.0 International (CC BY-SA 4.0).</head>
+                  </figure>
+                  <div copyOf="#ed3" type="edition"/>
+                  <div copyOf="#trans3" type="translation"/>
+                  <div type="commentary">
+                     <note target="#ed3ln7">
+                        <ref>7</ref>
+                        <p xml:id="p28"> σπ]εκουλάτορος: The speculatores were mobile military intelligence officers serving on the governor’s staff. They were charged with the duties of scouts, special messengers, and enforcers, sometimes collaborating with beneficiarii, and, occasionally, acting as executioners too. On speculatores, see the Introduction to <ref target="https://papyri.info/hgv/33571">P.Neph. 20</ref> with 23 n., and a list on pp. 96–99; <ref target="https://papyri.info/hgv/33123">P.Oxy. 59 4002</ref> 6 n.; <ref target="https://papyri.info/biblio/97519">Palme 1999 [2000]</ref>: 85–133, esp. 94/110/119; <ref target="https://papyri.info/biblio/16112">Nelis-Clément 2000</ref>:117–118 / 282–283 / 338 with 32 n. See also <ref target="https://papyri.info/biblio/97527">Dickey 2023</ref>, s.v. σπεκουλάτωρ.</p>
+                     </note>
+                     <note target="#ed3ln8">
+                        <ref>8</ref>
+                        <p xml:id="p29"> Φλαουίου Ἀρηι]ανοῦ Ἀλυπίου:  This constitutes merely the third occurrence of his name in the papyri. The other two are <ref target="https://papyri.info/hgv/9869">CPR 5 12</ref>.10 (Arsinoites, 351) [Φλ(άουιος) Ἀρηι]ανὸς Ἀ[λύπιος] ὁ διασημ̣ό̣τατος κόμε̣ς̣ καὶ ἡ̣γ̣εμών, and <ref target="https://papyri.info/hgv/22571">P.Oxy. 60 4091</ref>.8–9 (352): [ἀ]κ̣ο̣λούθως τοῖς προστ̣αχθεῖσιν ὑπὸ τοῦ διασημοτάτου | [ἡγε]μ̣[ό]ν̣ο̣ς ̣ Φλ̣[αο]υ̣ίου Ἀρηϊανοῦ Ἀ̣λ̣υ̣π̣ί̣ο̣υ̣. His career included both an appointment as praeses of Augustamnica and as a praeses of Pamphylia, honoured in an inscription for the repair of the harbour and the city of Sidē (presumably sometime between 338–350).<note place="foot" xml:id="ftn17" n="17">
+                              <p>
+                                 <ref target="https://epigraphy.packhum.org/text/276380?hs=40-48">AE 1958, 201</ref>, see <ref target="https://papyri.info/biblio/7669">PLRE I</ref>, Alypius 12, p. 49. For the date of the inscription, I have consulted <ref target="https://papyri.info/biblio/97521">Moser 2018</ref>: 105, as it has been ambiguously dated to the late 3rd - early 4th century. <ref target="https://papyri.info/biblio/96255">Agostini 2020</ref>: 319–320, disagrees with the conclusive assignment of his term-in-office as praeses Pamphyliae prior to his governorship of Augustamnica.</p>
+                           </note> For an overview of his career, see <ref target="https://papyri.info/biblio/96255">Agostini 2020</ref>: 316–320 with further literature.</p>
+                     </note>
+                     <note target="#ed3ln11">
+                        <ref>11</ref>
+                        <p xml:id="p30"> ]   ̣  ̣ε̣ια̣π̣τα[  ̣]   ̣  ̣: following a clearly marked section division with a horizontal stroke, this line was written by a second hand, which I was unable to resolve into something coherent. The text can be transcribed in various ways, including   ̣ὑ̣(π̣ὲ̣ρ̣) θ̣υ̣γα[τέ]ρ̣[ων. Should this be considered a petition, one could expect the name of the petitioner to be given here, followed by the verb ἐπιδέδωκα or, in the event that the petitioner was illiterate, an additional clause referring to an amanuensis: Name + ἔγραψα ὑπὲρ αὐτοῦ γράμματα μὴ εἰδότος et sim. There are multiple ways to read the letter sequence, yet none has thus far proven to be compelling.</p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>IV. Private letter</head>
+               <div type="epidoc" subtype="DDB">
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;">
+                           <ref target="http://resolver.sub.uni-hamburg.de/kitodo/HANSh3923">P.Hamb. Graec. 762</ref>
+                        </cell>
+                        <cell style="text-align: center;">15.4 (w) × h 20.7 (h)</cell>
+                        <cell style="text-align: right;">6th c.</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">provenance unknown</cell>
+                     </row>
+                  </table>
+                  <p xml:id="p31">This is a light-brown papyrus with the top margin and part of the right margin preserved. The text is written transversa charta with the address on the verso running along the fibres. It is uncertain whether the last line marks the letter’s closing, though the absence of potential ink traces in the interlinear space suggests that it does. Despite the fluctuating breadth of the interlinear space in general, after line 10 the lines appear rather squashed, thereby indicating shortage of space. The hand can be characterized as rudimentary but elegant overall, with clearly formed letters executed slowly with a thick pen, showing a mix of uncial and more cursive forms, e.g. the diverse shapes of epsilon or eta.</p>
+                  <p xml:id="p32">The sole internal chronological marker that limits the span is the mention of τρακτευτής (tractator), whose first dated attestation is in 524 (<ref target="https://papyri.info/hgv/18454">P.Cair.Masp. 3 67329 = ChLA 41 1194</ref>), on whom see <ref target="#p46">10n</ref>. From a palaeographical perspective, the hand can be convincingly placed to the 6th century. Handwriting specimens worthy of comparison are <ref target="https://papyri.info/hgv/22089">P.Oxy. 16 1995</ref> (Oxyrhynchos, 542) and <ref target="https://papyri.info/hgv/15505">SB 14 11982</ref> (Upper Egypt, 554).</p>
+                  <p xml:id="p33">The addressee of the letter is unknown, but he is clearly referred to on the back side as the most brilliant (λαμπρότατος) and the most distinguished (εὐδοκιμώτατος). It is conceivable that the author is a subordinate clerk in the office of the exceptores, though the precise nature of his rank remains uncertain. This hypothesis is supported by his use of πριμηκηρίων αὐθεντῶν (‘my lords the primicerii’), on which see <ref target="#p50">13n</ref>. The addressee is requested to grant the author leave lasting until Thoth (the day is not preserved). Despite the text’s fragmentary state, one may infer that the reasons for his absence are financial, in that he was required to pay a certain amount of money (probably to repay a tax), and then issue a receipt (πληρωτικὴ ἀποχή). The amount of money appears to be substantial, counted in the tens of solidi (“-ty five”). The involvement of a trakteutēs could offer a justification as he was responsible for overseeing the tax collection process and issuing payment receipts in his capacity as a tax clerk attached to the pagarchy or the provincial administration. The amount in question amount could correspond to a specific village. The author also urges the addressee to come before the month of Mesorē, so that he can give him the money. The final part contains greetings seemingly from a woman named Toma (sc. Thomais?), but the passage is ambiguous and various interpretations can be proposed.</p>
+                  <p xml:id="p34">It is notable that the address appears twice on the verso. It can be hypothesized that the line at the top served as a model for the second version, which was written by the same hand that wrote the main body of the text on the recto. After the papyrus was folded, the “model” would be hidden from sight, while the second line would be visible both to the courier and the addressee. In this case, however, one wonders how the author managed to misspell the “model’s” δεσπ(ότῃ) as τεσπό(τῃ). Conversely, one may argue for the opposite chain of events. Initially, the second line was written. Subsequently, someone decided to intervene and rewrite the address, now without the misspelt δεσπότῃ, in a more elaborate style (the hand is certainly more professional), placing it above the first one (without deleting it). </p>
+                  <p xml:id="p35">The address is followed by six lines of tachygraphic text of unknown content.</p>
+                  <figure>
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24060388"/>
+                     <head>Fig. 5: P.Hamb. Graec. 762 R Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky. Creative Commons License Attribution 4.0 International (CC BY-SA 4.0).</head>
+                  </figure>
+                  <figure>
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24060390"/>
+                     <head>Fig. 6: P.Hamb. Graec. 762 V Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky. Creative Commons License Attribution 4.0 International (CC BY-SA 4.0).</head>
+                  </figure>
+                  <div copyOf="#ed4" type="edition"/>
+                  <div copyOf="#trans4" type="translation"/>
+                  <div type="commentary">
+                     <note target="#ed4rln1">
+                        <ref>1</ref>
+                        <p xml:id="p36"> ]κιμιωτάτου: perhaps the author conflated τιμιωτάτου with εὐδοκιμωτάτου, thus producing the form εὐδοκιμιωτάτου. It seems, however, that he aimed for εὐδοκιμωτάτου. For our context, the honorific epithet is known to be borne by scribes (exceptor, ταχυγράφος, singularius) of the ducal office: e.g. <ref target="https://papyri.info/hgv/37135">P.Oxy. 6 942</ref> v (6th–7th cent.) λαμπρ(οτάτῳ) εὐδοκ(ιμωτάτῳ) π̣ά(ντων) φιλ(τάτῳ) ἀδελφ(ῷ) Πετρωνίῳ ἐξκ(έπτορι); <ref target="https://papyri.info/hgv/17287">P.Berl.Zill. 7</ref>.4–5 (Oxyrhynchos, 574) Φλαουίῳ Φιλοξένῳ τῷ εὐδοκιμωτάτῳ ταχυγράφῳ τῆς ἡγεμο(νικῆς) | τάξεως ταύτης τῆς Ἀρκάδων ἐπαρχίας; <ref target="https://papyri.info/hgv/16228">SB 16 12378</ref>.4–7 (Hermopolites, 504) Φλ(αουίοις) [Ὡ]ρουωγχίῳ καὶ Ἁδριανῷ υἱοι̣ (l. υἱοῖς) Φοι-|βάμ[μω]νος τῶν εὐδοκιμωτάτων σιγγω-|λα̣[ρί]ω̣ν (l. σιγγουλαρίων) τῆς κατὰ τὴν Θηβαΐδαν (l. Θηβαΐδα) ἡγεμωνι-|κ[ῆς] (l. ἡγεμονικῆς) [τά]ξεως; and by notaries, e.g. <ref target="https://papyri.info/hgv/19725">P.Lond. 5 1708</ref>.167 (567/568) ἐπὶ Ἰωάννου τοῦ εὐδοκ(ιμωτάτου) νοταρίου; <ref target="https://papyri.info/hgv/36209">P.Köln. 7 317</ref>.36 (Hermopolites ?, 6th cent.) τὸν] εὐδοκιμώτατ[ον ταβου]λάριον.</p>
+                        <p xml:id="p37">Ἰούστου: an εὐδοκιμώτατος Ἰοῦστος appears as the dioikētēs of the estate of Flavia Maria from Oxyrhynchos (<ref target="https://papyri.info/hgv/80739">P.Oxy. 69 4754</ref>, 572). The date is conceivably fitting for our papyrus, although the limitations of palaeography, in terms of the too broad chronological span it affords, must be noted.</p>
+                        <p xml:id="p38">	μαλ   ̣   ̣[c.3–4]: probably μάλι̣σ̣[τα</p>
+                     </note>
+                     <note target="#ed4rln2">
+                        <ref>2</ref>
+                        <p xml:id="p39"> ]μεν τὼν πανελεωνυμω̣ν̣[α θεὸν]: Despite assuming a series of spelling and grammatical errors, I restore the verb of this epistolary cliché as εὔχο]μεν (l. εὔχομαι), cf. e.g. <ref target="https://papyri.info/hgv/36108">P.Iand. 6 103</ref>.1–2 (6th c.): πρὸ μὲν | πάντων εὔχομε (l. εὔχομαι) τὸν πανελεήμονα θεόν; <ref target="https://papyri.info/hgv/36208">P.Wash.Univ. 2 108</ref>.1 (6th c.): [εὔχομαι τὸν] π̣α̣ν̣ε̣λεήμονα θεό[ν]. A search for πανελε- in both DDbDP and TLG yields almost exclusively forms of πανελεήμων. The term is so deeply embedded with God as all-merciful that there seem to be no other alternatives. It is reasonable to expect a short formula such as πρὸ μὲν πάντων εὔχομαι τῷ πανελεήμονι Θεῷ περὶ τῆς ὑγιείας σου, cf. <ref target="https://papyri.info/hgv/35476">P.Oxy. 56 3865</ref>.5–8 (late 5th c.).</p>
+                        <p xml:id="p40">	εὔχο]μεν (l. εὔχομαι): the form of the verb itself occurs three more times in papyrus letters from Late Antiquity: <ref target="https://papyri.info/hgv/32377">P.Haun. 2 25</ref>.4–5 (4th-5th c.) πρὸ με (l. μὲν) πάν|των [εὔ]χομεν (l. εὔχομαι) τῷ παν̣τ̣ωγράτωρρ[ι] (l. παντοκράτορι) Θεῷ; <ref target="https://papyri.info/hgv/33549">P.Münch. 3 127</ref>.2–3 (4th c.) πρὸ μὲν πάντων εὔχομέν (l. εὔχομαί) | σαι (σε) ὁλοκληρῖν (l. ὁλοκληρεῖν); <ref target="https://papyri.info/hgv/35475">P.Oxy. 56 3864</ref>.5–6/36–37 (5th c.) πρὸ μ[ὲν π]ά̣ντων εὔχομεν (l. εὔχομαι) τῷ πανελεύμονι (l. πανελεήμονι) | θεῷ πε̣ρ̣ὶ τῆς ὁλοκλίας (l. ὁλοκληρίας) ἡμῶν / ἐρρῖσθέ (l. ἐρρῶσθαί) σ̣υ̣ (l. σε) εὔχομεν (l. εὔχομαι) | πολλῦ (l. πολλοῖς) χρό̣νης (l. χρόνοις). The verb εὔχομαι is seemingly a worthy companion to ἀσπάζομαι, whose active forms (ἀσπάζω, ἀσπάζομεν, ἄσπαζε etc.) in private letters are well-known.<note place="foot" xml:id="ftn18" n="18">
+                              <p>
+                                 <ref target="https://papyri.info/biblio/97520">Nachtergaele 2023</ref>: 68–70.</p>
+                           </note> The reasons for their formation appear to be more complex than simply the loss of middle voice forms, especially when considering the transitional nature of the middle voice (placed between the active and the passive).<note place="foot" xml:id="ftn19" n="19">
+                              <p>
+                                 <ref target="https://papyri.info/biblio/97523">Horrocks 2020</ref>; <ref target="https://papyri.info/biblio/97525">Lavidas and Papangeli 2007</ref>: 108–114 furnish plenty of examples of the phenomenon of deponents in Ancient Greek shifting to active in Postclassical/Modern Greek and vice versa.</p>
+                           </note> A phonetic background may also have contributed to the shift of the very popular duo ἀσπάζομαι / εὔχομαι. The merger of the αι and ε into a single [e] sound resulted in forms such as ἀσπάζομαι and ἀσπάζομε / εὔχομαι and εὔχομε sounding identical, and sometimes developing a movable nu as if it was the first-person plural of an active (ἀσπάζομεν, εὔχομεν).</p>
+                     </note>
+                     <note target="#ed4rln4">
+                        <ref>4</ref>
+                        <p xml:id="p41"> ]  ̣ν κώμην: likely ]υ̣ν κώμην or ]ε̣ν κώμην. Etas do not have a redundant connecting stroke in this text. One potential interpretation is that this could be a misspelled form of the feminine article τὴν with an upsilon (itacized), which is unsurprising given the many spelling problems in this text. Alternatively, it could be ]ε̣ν instead of ην, cf. πληρωτικέν in line 9 and the way epsilon connects with the nu there.<note place="foot" xml:id="ftn20" n="20">
+                              <p> A somewhat difficult scenario would be to read ἐ̣ν κώμην (l. κώμῃ).</p>
+                           </note>
+                        </p>
+                        <p xml:id="p42">ἐν χώρᾳ̣: the final alpha of the word is not absolutely certain. An alternative possible reading is ἐνχωρω̣, i.e. the text would run ὡστ᾽ ἐνχωρῶ̣ (‘so that I permit’). However, I consider ἐν χώρᾳ more appropriate than ἐνχωρῶ in the context of assuming someone’s financial burdens to meet the payments described in the text. See LSJ s.v. χώρα (4): ἐν χώρᾳ τινὸς εἶναι, and cf. Preisigke, WB s.v. χώρα (2). </p>
+                     </note>
+                     <note target="#ed4rln6">
+                        <ref>6</ref>
+                        <p xml:id="p43"> τὰ Ἀλεκξ̣[αν-: For such forms with a reduplication of the kappa sound, see <ref target="https://archive.org/details/gignac-a-grammar-of-the-greek-papyri-of-the-roman-and-byzantine-periods-vol.-1-phonology-1975">Gignac 1976</ref>: 140.</p>
+                        <p xml:id="p44">Presumably this refers to something Alexandrian, which could be solidi on the Alexandrian standard (τὰ Ἀλεξανδρείας). For the syntax, cf. <ref target="https://papyri.info/hgv/18404">SB 18 13173</ref>.117 (629/644) νομισματίων τεσσάρων εὐστ(άθμων) τῶ(ν) Ἀλεξα(νδρείας).</p>
+                     </note>
+                     <note target="#ed4rln7">
+                        <ref>7</ref>
+                        <p xml:id="p45"> The papyrus has κεφαλε̣ωσετωκω̣  ̣. Various interpretations are possible, such as τωκω̣ (l. τόκῳ?) for the final part. As an alternative approach, one could split τωκω into τῷ κω̣  ̣[ or τῷ κα̣  ̣[ , or even propose an Aoristic form of δίδωμι: δωκ. However, a more probable expectation would be a combined reference to the capital and interest, cf. e.g. <ref target="https://papyri.info/hgv/18923">P.Cair.Masp. 2 67167</ref>.45 (566–573) κεφαλαίῳ τε καὶ τόκῳ, while the preceding ]των could be the ending of νομισμά]των,<note place="foot" xml:id="ftn21" n="21">
+                              <p> I do not believe that the adverb κεφαλέως (l. κεφαλαίως) is suitable for the context.</p>
+                           </note> cf. <ref target="https://papyri.info/hgv/22072">P.Oxy. 16 1975</ref>.7 (496) νομισμάτων κεφαλαίου; <ref target="https://papyri.info/hgv/114288">P.Oxy. 72 4907</ref>.7–8 (422) νομίσματα | κεφαλαίου; <ref target="https://papyri.info/hgv/41027">P.Lond. 1 113 6 c</ref>.20–21 with BL 9 125 (620/635): ν[όμισ]μα κε-|φ[αλαίου].</p>
+                     </note>
+                     <note target="#ed4rln10">
+                        <ref>10</ref>
+                        <p xml:id="p46"> τρακτευτήν: = Lat. tractator. These were tax clerks attached to the governor’s office or the pagarchy (with a minimum of two per pagarchy). They were responsible for auditing the tax amounts delivered and were accountable to the senior tractatores of the prefecture. For a comprehensive overview of τρακτευταί, see <ref target="https://papyri.info/biblio/18384">Zuckerman 2004</ref>: 123–127. For the most recent discussion of τρακτευταί, see <ref target="https://papyri.info/biblio/97518">Stern 2025</ref>, esp. 78–79. A lexical analysis can be found in <ref target="https://papyri.info/biblio/97527">Dickey 2023</ref>, s.v. τρακτευτής. It is noteworthy that Justinian appears to have attempted to abolish these functionaries at least in certain provinces.<note place="foot" xml:id="ftn22" n="22">
+                              <p> Just. Nov. 30, cap. 2: Τὸ μὲν γὰρ τῶν ἐπιτρόπων καὶ τῶν τρακτευτῶν ὄνομα οὐδὲ εἶναι παντελῶς βουλόμεθα, πρὸς τὰ ἔμπροσθεν βλέποντες παραδείγματα καὶ τὴν πολλὴν αὐτῶν ἐπήρειαν ἣν τοῖς ἀθλίοις ἐπῆγον συντελέσιν (‘Bearing in mind the example of former times, and the enormous injury inflicted by curatores (epitropoi) and tractatores (trakteutai) upon Our wretched subjects, We do not desire the names of these officials to longer exist.’ trans. Scott S.P., <emph rend="italics">The Civil Law</emph>, XVI, Cincinnati, 1932).</p>
+                           </note> However, in Egypt, they are consistently attested in papyri throughout the 6th century and into the 7th century.</p>
+                        <p xml:id="p47">The text probably reads τὼν (l. τὸν) τρακτευτήν, preceded by a genitive in -ου.</p>
+                     </note>
+                     <note target="#ed4rln11">
+                        <ref>11</ref>
+                        <p xml:id="p48"> α]ὐτὰ: or τα]ῦτα.</p>
+                        <p xml:id="p49">κατ̣[α]λ̣άμπανε (l. καταλάμβανε): an uncommon phonetic rendition, attested in one more papyrus only, <ref target="https://papyri.info/hgv/13396">P.Stras. 6 538</ref>.12 (281 CE) ἀναλαμπανομένου<note place="foot" xml:id="ftn23" n="23">
+                              <p> Listed by <ref target="https://archive.org/details/gignac-a-grammar-of-the-greek-papyri-of-the-roman-and-byzantine-periods-vol.-1-phonology-1975">Gignac, Grammar I</ref>, 83.</p>
+                           </note> and 14 λαμπάνει [κ]ατὰ̣ μέρος.</p>
+                     </note>
+                     <note target="#ed4rln13">
+                        <ref>13</ref>
+                        <p xml:id="p50"> πριμικ(ηρίων): On civil primicerii and the various departments (scholae) they could head within the governor’s office, see (concisely) <ref target="https://papyri.info/biblio/75471">Benaissa 2006</ref>: 5, n. 8–12. It is reasonable to assume that the term in question refers to the chief of the schola exceptorum (i.e. ταχυγράφων), attached to the provincial administration.<note place="foot" xml:id="ftn24" n="24">
+                              <p> See <ref target="https://papyri.info/biblio/97519">Palme 1999 [2000]</ref>: 85–133, esp. 110.</p>
+                           </note> It is, therefore, not without reason that a tachygraphic text is written on the back of the papyrus, suggesting a case related to the staff of the scribal office.</p>
+                     </note>
+                     <note target="#ed4rln14">
+                        <ref>14</ref>
+                        <p xml:id="p51"> εἱ κυρά σου: The most straightforward way to accommodate this passage is to see it as an inserted greeting by a woman, who is either the author’s “lady” (κυρά) or is called Κύρα (leaving Τωμ̣α to be explained otherwise). According to this version the texts reads: προσα]κ̣[ο]ρε̣ύω (l. προσαγορεύω) εἱ (l. ἡ) κυρά σου or εἱ (l. ἡ) Κύρα σου. Such “interpolations” in the first person are known from earlier periods (at least), cf. <ref target="https://papyri.info/hgv/28784">P.Mert. 2 82</ref>.16–21 (unknown provenance, late 2nd c. CE): ἄσπα[σαι] τ̣ὴ̣ν μητέρα σου Ἀθηναΐδα κ̣α̣ὶ̣ τ̣ὸ̣ν̣ ἀδελφὸν ἡμῶν Ἀχιλλίωνα καὶ πάντας κατ’ ὄ̣ν̣ομα. Σαραπ̣ά̣μ̣μων ⟦ο⟧ σε ἀσπάζ̣ο̣μαι, καὶ Ἱερατική σ̣ε̣ ἀ̣σπάζεται and <ref target="https://papyri.info/hgv/32557">PSI 7.831</ref>.17–24 (4th c.) with multiple greetings in both third and first person: Νόνα ἀσπάδεται (l. ἀσπάζεται) | [ὑμᾶς] πολλά. Σιλβανὴ ἀσπάδαιται (l. ἀσπάζεται)  ὑμῆς (l. ὑμᾶς). | Ἀννοῦτις καὶ Θεωνίλας καὶ Ἰσχυρίων | ἀσπάδωμμαι (l. ἀσπάζομαι) ὑμᾶς. Ἀπίωνʼ ἀσπά|δωμαι (l. ἀσπάζομαι) καὶ τὸν αἰπιστάτην (l. ἐπιστάτην) καὶ τὴν συ|βιων (l. σύμβιον) αὐτοῦ καὶ τὰ πεδα (l. παιδία). καὶ ἐγὼ Μίκη | ἀσ[π]άδωμαι (l. ἀσπάζομαί) τὸν αἰπιστάτην (l. ἐπιστάτην) συ (l. σὺν) τοῖς | τέκνυς (l. τέκνοις) καὶ την (l. τῇ) συβίῳ (l. συμβίῳ) αὐτοῦ.</p>
+                        <p xml:id="p52">A second scenario, albeit less likely, is to read either εἱκυρά (l. ἑκυράν) or εἱκυρω (l. ἑκυρόν) σου, given the vexing similarity of alpha and omega. In this interpretation, we would be dealing with the terms ἑκυρός - ἑκυρά (father-in-law and mother-in-law from the wife’s perspective),<note place="foot" xml:id="ftn25" n="25">
+                              <p> Cf. Sch. Basil. XLV 3.2.4: Καίτοι παρὰ τοῖς Ἕλλησι κυρίως ὁ τοῦ ἀνδρὸς πατὴρ ἑκυρὸς καλεῖται, ἡ δὲ μήτηρ αὐτοῦ ἑκυρά, ὁ δὲ τῆς γαμετῆς πατὴρ πενθερὸς καὶ ἡ μήτηρ αὐτῆς πενθερά (‘and yet Greeks call the husband’s father ἑκυρός, and ἑκυρά his mother, while πενθερός the wife’s father and πενθερά her mother’).</p>
+                           </note> unique terms, which are not attested in Egypt. Additionally, the text would have to be addressed to a woman, which is not the case.  </p>
+                        <p xml:id="p53">A third, albeit highly speculative, hypothesis to be considered is that of reading εἱ κυρά σου as the accusative τὴν κυράν σου, assuming that the author committed two errors, both phonetically and morphologically.</p>
+                        <p xml:id="p54">Τωμ̣α: the feminine name appears to be unique. The relationship between this name and the masculine name Θωμᾶς remains to be clarified, as does the question of whether it is a form of the name Θωμαΐς. We know of a martyr called Thomais from Alexandria, from a text associated with Daniel of Scētis,<note place="foot" xml:id="ftn26" n="26">
+                              <p> Thomais Alexandrina (BHG 2453–2453b), see <ref target="https://papyri.info/biblio/97528">Dahlman 2007</ref>: 130–132.</p>
+                           </note> so the name would not be unprecedented. The mu is dotted because the letter also resembles a nu. The latter is less probable due to the connecting stroke with the alpha, which the nus in the next normally do not have.</p>
+                        <p xml:id="p55">I do not believe that the faint ink traces after the alpha represent something of significance. The image captured with a microscope is unambiguous in one respect: the alpha is extended, which suggests that this is the word’s final letter.</p>
+                     </note>
+                  </div>
+               </div>
+               <div type="bibliography">
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96255">Agostini, G. (2020)</ref> Prefetti e praesides nell’amministrazione giudiziaria dell’Egitto tardoantico: ambiti di competenza e prosopografia (284–397). Roma.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/75471">Benaissa, A. (2006)</ref> “An Oxyrhyncite Sale on Delivery from the Reign of Mauricius,’ Tyche 21: 1–11.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96514">Benaissa, A. (2021)</ref> Rural Settlements of the Oxyrhynchite Nome. A Papyrological Survey, TOP Vol. 4 Version 3.0. Leuven.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97532">Benuzzi, F. (2024)</ref> “κρεμῶ, κρεμάσω, ὀμοῦμαι, ὀμόσω (Antiatt. κ 38, Moer. ο 8, [Hdn.] Philet. 54, Thom.Mag. 254.18),” in O. Tribulato (ed.), Digital Encyclopedia of Atticism. With the assistance of E.N. Merisio.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97530">Bonati, I. and Reggiani, N. (2020)</ref> “Mirrors of women, mirrors of words: The mirror in the Greek papyri,” in M. Gerolemou and L. Diamantopoulou (eds.), Mirrors and Mirroring from Antiquity to the Early Modern Period. London - New York: 59–71.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/17873">CSBE<hi rend="superscript">2</hi></ref> = Bagnall, R.S. and Worp, K.A. (2004), The Chronological Systems of Byzantine Egypt. Leiden - Boston.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97528">Dahlman, B. (2007)</ref> Saint Daniel of Sketis: A Group of Hagiographic Texts Edited with Introduction, Translation and Commentary. Studia Byzantina Upsaliensia 10. Uppsala: Acta Universitatis Upsaliensis.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97527">Dickey, E. (2023)</ref> Latin Loanwords in Ancient Greek. A Lexicon and Analysis. Cambridge.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96031">Essler, H. (2021)</ref> “Zur Entstehung der Hamburger Papyrussammlung,” APF 67: 166–208.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97526">Fauconnier, B. (2023)</ref> Athletes and Artists in the Roman Empire: The History and Organisation of the Ecumenical Synods. Cambridge - New York.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/59862">Frend, W.H.C. (1989)</ref> “Dioscorus of Oxyrhynchus and His Correspondence (P. Oxy. LV 3820),” ZPE 79: 248–250.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/8813">Gignac, Grammar I = Gignac, F.T. (1976)</ref> A Grammar of the Greek Papyri of the Roman and Byzantine Periods. I. Phonology, Milano.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96273">Gonis, N. (2022)</ref> “A Known Official in an Unknown Post in 339,” Pylon 2: Article 9.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/53733">Hanson, A.E. (1980)</ref> “Juliopolis, Nicopolis, and the Roman Camp,” ZPE 37: 249–254.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97523">Horrocks, G. (2020)</ref> “What’s in the Middle? Two Voices or Three in Ancient Greek?”. Keria: Studia Latina Et Graeca 22 (2): 7–23.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97522">Jannaris, A. (1897)</ref> An historical Greek grammar. London.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97525">Lavidas, N. and Papangeli, D. (2007)</ref> “Deponency in the Diachrony of Greek,” in M. Baerman (ed.) et al., Deponency and Morphological Mismatches. [The British Academy] Oxford: 97–126).</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/8046">Mandilaras, B.G. (1973)</ref> The Verb in the Greek Non-Literary Papyri. Athens.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97521">Moser, M. (2018)</ref> Emperor and Senators in the Reign of Constantius II: Maintaining Imperial Rule Between Rome and Constantinople in the Fourth Century AD. Cambridge.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97520">Nachtergaele, D. (2023)</ref> The Formulaic Language of the Greek Private Papyrus Letters. TOP Vol. 6. Leuven.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/16112">Nelis-Clément, J. (2000)</ref> Les Beneficiarii militaires et administrateurs au service de l’empire Ier s. a.C.-VIe s. p.C. Bordeaux.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97519">Palme, B. (1999 [2000])</ref> Die Officia der Statthalter in der Spätantike. Forschungsstand und Perspektiven, AnTard 7: 85–133.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/7669">PLRE 1</ref> = Jones, A.H.M., Martindale, J.R., and Morris, J. (1971) The Prosopography of the LaterRoman Empire. I: A.D. 260–395. Cambridge.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97533">Remijsen, S. (2014)</ref> “Games, Competitors, and Performers in Roman Egypt,” in W.B. Henry and P.J. Parsons (eds.), The Oxyrhynchus Papyri. Volume LXXIX. London. 190–206.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95860">Sarri, A. (2018)</ref> Material Aspects of Letter Writing in the Graeco-Roman World: 500 BC - AD 300. Berlin - Boston.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/74502">Sänger, P. (2005)</ref> Die Eirenarchen im römischen und byzantinischen Ägypten, Tyche 20: 143–204.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97518">Stern, M. (2025)</ref> Taxes and Authority in the Late Antique Countryside: The Reach of the State and the Pagarchs of Byzantine Egypt 284–642 CE. De Gruyter.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/69587">Torallas-Tovar, S. (2000)</ref> “The Police in Byzantine Egypt: The Hierarchy in the Papyri from the Fourth to Seventh Centuries,” in A. McDonald and C. Riggs (eds), Current Research in Egyptology, BAR International Series, vol. 909. Oxford. 115–123.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/4538">Zilliacus, H. (1949)</ref> Untersuchungen zu den abstrakten Anredeformen und Höflichkeitstiteln im Griechischen, Helsingfors.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/18384">Zuckerman, C. (2004)</ref> Du village à l’empire Autour du registre fiscal d'Aphroditô (525/526). Paris.</bibl>
+                  </listBibl>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Private letter referring to quinquennial games</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">1001065</idno>
+               <idno type="HGV">1001065</idno>
+               <idno type="ddb-filename">pylon.8.7_1</idno>
+               <idno type="ddb-hybrid">pylon;8;7_1</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement>Hamburg</settlement>
+                     </placeName>
+                     <collection>Staats- und Universitätsbibliothek</collection>
+                     <idno type="invNo">P.Hamb. graec. 742</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>unbekannt</origPlace>
+                        <origDate notBefore="0001" notAfter="0125" precision="low">I - Anfang II</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Brief</term>
+                  <term n="2">Spiele</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition">
+               <listBibl>
+                  <bibl type="publication" subtype="principal">
+                     <title level="s" type="abbreviated">Pylon</title>
+                     <biblScope n="1" type="volume">8</biblScope>
+                     <biblScope n="2" type="fascicle">(2025)</biblScope>
+                     <biblScope n="3" type="generic">Art. 7</biblScope>
+                     <biblScope n="4" type="number">Nr. 1</biblScope>
+                  </bibl>
+               </listBibl>
+            </div>
+            <div type="figure">
+               <p>
+                  <figure>
+                     <graphic url="https://resolver.sub.uni-hamburg.de/kitodo/HANSh3950"/>
+                  </figure>
+               </p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Private letter referring to quinquennial games</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.8.7_1</idno>
+               <idno type="ddb-hybrid">pylon;8;7_1</idno>
+               <idno type="HGV">1001065</idno>
+               <idno type="TM">1001065</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Private letter referring to quinquennial games</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
+<lb xml:id="ed1ln1" n="1"/><gap reason="lost" quantity="6" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="11" unit="character" precision="low"/>
+<lb xml:id="ed1ln2" n="2"/><gap reason="lost" quantity="4" unit="character" precision="low"/> τοὺς παρ<gap reason="lost" quantity="7" unit="character" precision="low"/>
+<lb xml:id="ed1ln3" n="3"/><supplied reason="lost">c<gap reason="illegible" quantity="3" unit="character"/> ἀ</supplied><unclear>σ</unclear>πάζετα<supplied reason="lost">ί σε</supplied> <gap reason="lost" quantity="2" unit="character" precision="low"/><unclear>ρ</unclear><gap reason="lost" atLeast="2" atMost="3" unit="character"/>
+<lb xml:id="ed1ln4" n="4" break="no"/>δοῦς καὶ Μητρό<unclear>β</unclear><supplied reason="lost">ις</supplied> καὶ
+<lb xml:id="ed1ln5" n="5"/>Ἡρᾶς. οὐκ ἔπεμψα τὸ <choice><reg>ἔ|σοπτρον</reg><orig>ὄ<lb n="6" break="no"/>συπτρον</orig></choice> διὰ τὸν πεντα
+<lb xml:id="ed1ln7" n="7" break="no"/>ετηρικόν. ἐὰν ἐκβῇ, ἀγορῶ
+<lb xml:id="ed1ln8" n="8"/>καὶ πέμψω.
+<lb xml:id="ed1ln9" n="9"/>ἔρρωσο
+<lb xml:id="ed1ln10" n="10"/><choice><reg>Ἐπεὶφ</reg><orig><supplied reason="lost">Ἐ</supplied><unclear>π</unclear>ὶ<unclear>φ</unclear></orig></choice> <num value="3"><hi rend="supraline">γ</hi></num>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Private letter referring to quinquennial games</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">1001065</idno>
+               <idno type="TM">1001065</idno>
+               <idno type="HGV">1001065</idno>
+               <idno type="ddb-hybrid">pylon;8;7_1</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+<p>
+‘... greets you …dous and Metrobis and Heras. I did not send the mirror for the Quinquennial Games. If everything pans out well, I will buy it and send it. Farewell. Epeiph 3.’
+</p>
+</div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Sworn declaration to the chief of the nome’s police</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">1001066</idno>
+               <idno type="HGV">1001066</idno>
+               <idno type="ddb-filename">pylon.8.7_2</idno>
+               <idno type="ddb-hybrid">pylon;8;7_2</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement>Hamburg</settlement>
+                     </placeName>
+                     <collection>Staats- und Universitätsbibliothek</collection>
+                     <idno type="invNo">P.Hamb. graec. 739</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Oxyrhynchos (Oxyrhynchites, Ägypten)</origPlace>
+                        <origDate when="0340-11-12">12. Nov. 340</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p>
+                           <placeName n="1"
+                                      type="ancient"
+                                      ref="https://pleiades.stoa.org/places/736982 https://www.trismegistos.org/place/1524">Oxyrhynchos</placeName>
+                           <placeName n="2"
+                                      type="ancient"
+                                      subtype="nome"
+                                      ref="https://www.trismegistos.org/place/2722 https://pleiades.stoa.org/places/736982">Oxyrhynchites</placeName>
+                           <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                        </p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Deklaration</term>
+                  <term n="2">Eid</term>
+                  <term n="3">Räuber</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition">
+               <listBibl>
+                  <bibl type="publication" subtype="principal">
+                     <title level="s" type="abbreviated">Pylon</title>
+                     <biblScope n="1" type="volume">8</biblScope>
+                     <biblScope n="2" type="fascicle">(2025)</biblScope>
+                     <biblScope n="3" type="generic">Art. 7</biblScope>
+                     <biblScope n="4" type="number">Nr. 2</biblScope>
+                  </bibl>
+               </listBibl>
+            </div>
+            <div type="figure">
+               <p>
+                  <figure>
+                     <graphic url="https://resolver.sub.uni-hamburg.de/kitodo/HANSh3946"/>
+                  </figure>
+               </p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Sworn declaration to the chief of the nome’s police</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.8.7_2</idno>
+               <idno type="ddb-hybrid">pylon;8;7_2</idno>
+               <idno type="HGV">1001066</idno>
+               <idno type="TM">1001066</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Sworn declaration to the chief of the nome’s police</head>
+            <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb xml:id="ed2ln1" n="1"/>ὑπατείας Σεπτιμί<unclear>ου</unclear> Ἀκινδύνου, τ<unclear>οῦ</unclear> <expan>λαμ<ex>προτάτου</ex></expan>
+<lb xml:id="ed2ln2" n="2"/>ἐπάρχου τοῦ <hi rend="diaeresis">ἱ</hi>εροῦ<note>ϊερου papyrus</note> <unclear>πρ</unclear><supplied reason="lost">αι</supplied><unclear>τ</unclear>ωρίου καὶ Ποπουλω
+<lb xml:id="ed2ln3" n="3" break="no"/><unclear>ν</unclear>ίο<unclear>υ</unclear> Πρόκλου του <expan>λαμ<ex>προτάτου</ex></expan> Ἀθὺρ <num value="16">ιϛ</num>
+<lb xml:id="ed2ln4" n="4"/>Αὐρηλίῳ Διο<unclear>σ</unclear>κόρῳ ἐπόπτῃ εἰρήνης <expan>Ὀξυρύγχ<unclear>ω</unclear><ex>ν</ex></expan>
+<lb xml:id="ed2ln5" n="5"/>παρὰ Α<unclear>ὐρ</unclear>ηλίου Ἀσπιδᾶ Δίου ἀπὸ κώμης Χύσεως
+<lb xml:id="ed2ln6" n="6"/><unclear>α</unclear> <g type="slanting-stroke">/</g> πά<unclear>γ</unclear>ου <gap reason="lost" quantity="2" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="5" unit="character" precision="low"/><gap reason="illegible" quantity="4" unit="character"/> εσ<unclear>εψα</unclear>ιο<unclear>σ</unclear>τα<unclear>ι</unclear> αὐ
+<lb xml:id="ed2ln7" n="7" break="no"/><gap reason="lost" quantity="15" unit="character" precision="low"/><gap reason="illegible" quantity="5" unit="character"/> <unclear>ἡ</unclear> <unclear>σ</unclear>ὴ <choice><reg>ἐμμέλεια</reg><orig>ἐμμέλια</orig></choice>
+<lb xml:id="ed2ln8" n="8"/><gap reason="lost" quantity="12" unit="character" precision="low"/> <unclear>κακ</unclear><supplied reason="lost">ο</supplied><unclear>ῦ</unclear>ργοι ἐ<unclear>ν</unclear> τῇ <subst><add place="inline">ἡμετέρᾳ</add><del rend="corrected">ημετα</del></subst> <unclear>τ</unclear>ηρή
+<lb xml:id="ed2ln9" n="9" break="no"/><supplied reason="lost">σει</supplied> <gap reason="lost" quantity="17" unit="character" precision="low"/><gap reason="illegible" quantity="2" unit="character"/> κατὰ τα<unclear>ῦτα</unclear> <unclear>ὁμ</unclear>ολο
+<lb xml:id="ed2ln10" n="10" break="no"/><supplied reason="lost">γͅῶ ὁμνὺς τὸν σεβάσμιον θεῖον ὅρκον τῶν</supplied> <expan><supplied reason="lost">δ</supplied><unclear>ε</unclear><supplied reason="lost">σ</supplied><unclear>π</unclear>ο<unclear>τ</unclear>ῶ<ex>ν</ex></expan>
+<lb xml:id="ed2ln11" n="11"/><supplied reason="lost">ἡμῶν Αὐγούστων</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="11"/><gap reason="lost" extent="unknown" unit="line"/> 
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Sworn declaration to the chief of the nome’s police</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">1001066</idno>
+               <idno type="TM">1001066</idno>
+               <idno type="HGV">1001066</idno>
+               <idno type="ddb-hybrid">pylon;8;7_2</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans2" xml:lang="en" type="translation" xml:space="preserve">
+<p>
+‘In the consulate of Septimius Acindynus, the most brilliant prefect of the sacred praetorium, and Populonius Proclus the most brilliant. Hathyr 16th.
+To Aurelius Dioscorus, overseer of the peace of the Oxyrhynchite nome, from Aurelius Aspidas son of Dius from the village of Chysis of the 1st pagus. … your Diligency … robbers in our custody … Regarding this, I acknowledge that it is true, swearing the august imperial oath of our lords the Augusts …’
+</p>
+</div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Petition</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">1001067</idno>
+               <idno type="HGV">1001067</idno>
+               <idno type="ddb-filename">pylon.8.7_3</idno>
+               <idno type="ddb-hybrid">pylon;8;7_3</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement>Hamburg</settlement>
+                     </placeName>
+                     <collection>Staats- und Universitätsbibliothek</collection>
+                     <idno type="invNo">P.Hamb. graec. 749</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>unbekannt</origPlace>
+                        <origDate notBefore="0351" notAfter="0352">351 - 352</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Eingabe</term>
+                  <term n="2">Arbeit</term>
+                  <term n="3">Diebstahl</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition">   
+               <listBibl>
+                  <bibl type="publication" subtype="principal">
+                     <title level="s" type="abbreviated">Pylon</title>
+                     <biblScope n="1" type="volume">8</biblScope>
+                     <biblScope n="2" type="fascicle">(2025)</biblScope>
+                     <biblScope n="3" type="generic">Art. 7</biblScope>
+                     <biblScope n="4" type="number">Nr. 3</biblScope>
+                  </bibl>
+               </listBibl>
+            </div>
+            <div type="figure">
+               <p>
+                  <figure>
+                     <graphic url="https://resolver.sub.uni-hamburg.de/kitodo/HANSh3956"/>
+                  </figure>
+               </p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Petition</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.8.7_3</idno>
+               <idno type="ddb-hybrid">pylon;8;7_3</idno>
+               <idno type="HGV">1001067</idno>
+               <idno type="TM">1001067</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Petition</head>
+            <div xml:id="ed3" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
+<lb xml:id="ed3ln1" n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>λ</unclear>η<gap reason="illegible" quantity="1" unit="character"/><unclear>α</unclear> πρὸς ἕ<unclear>κασ</unclear>το<unclear>ν</unclear> τ<unclear>ῶ</unclear><supplied reason="lost">ν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed3ln2" n="2"/><gap reason="lost" extent="unknown" unit="character"/>εξ<gap reason="illegible" quantity="2" unit="character"/><unclear>εσα</unclear> τὸ ἔργον <app type="alternative"><lem>τελιω<unclear>θ</unclear>ε<unclear>ν</unclear><gap reason="lost" extent="unknown" unit="character"/></lem><rdg>τελειωθέν</rdg><rdg>τελειωθέν<supplied reason="lost">τ- </supplied></rdg></app> <gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed3ln3" n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ὑ</supplied><unclear>π</unclear>οσχομένου διδόναι <unclear>θ</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed3ln4" n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">εὐ</supplied>θὺ πα<unclear>ρ</unclear>αγενέσθαι, ἐ<unclear>γ</unclear>ὼ <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed3ln5" n="5"/><gap reason="lost" extent="unknown" unit="character"/> δὲ καταφρονῶν <choice><reg>τελείως</reg><orig>τ<unclear>ελίω</unclear>ς</orig></choice> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed3ln6" n="6"/><gap reason="lost" extent="unknown" unit="character"/> οὐ<unclear>δ</unclear>ὲν ἀποδοῦναι Ἡρ<unclear>α</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed3ln7" n="7"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">σπ</supplied>εκουλάτορος αὐτὰ ταῦτα <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed3ln8" n="8"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Φλαουίου Ἀρηι</supplied>ανοῦ Ἀλυπίου ἐμοῦ ἤ<unclear>δ</unclear>η <unclear>μέλ</unclear><supplied reason="lost">λοντος</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed3ln9" n="9"/><gap reason="lost" extent="unknown" unit="character"/> <abbr><unclear>ἀ</unclear>ποχ</abbr> περ<unclear>ὶ</unclear> <unclear>δ</unclear>ὲ τῶν ἀφαι<unclear>ρ</unclear>εθέ<unclear>ν</unclear><supplied reason="lost">των</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed3ln10" n="10"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>δικαστηρι<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/> <supplied reason="lost">το</supplied><unclear>ίνυ</unclear>ν κ<unclear>ατὰ</unclear> <unclear>ε</unclear><gap reason="illegible" quantity="1" unit="character"/><unclear>ι</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb xml:id="ed3ln11" n="11"/><supplied reason="lost"><handShift new="m2"/></supplied><gap reason="illegible" quantity="2" unit="character"/><unclear>ε</unclear>ι<unclear>απ</unclear>τα<gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Petition</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">1001067</idno>
+               <idno type="TM">1001067</idno>
+               <idno type="HGV">1001067</idno>
+               <idno type="ddb-hybrid">pylon;8;7_3</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans3" xml:lang="en" type="translation" xml:space="preserve">
+<p>
+‘the work was completed ... having promised to give … to come immediately, Ι … disregarding completely … did not return to Hera[ ]… speculator … of Flavius Areianus Alypius, while I was already about to … concerning the things taken away … court …’
+</p>
+</div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Private letter</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">1001068</idno>
+               <idno type="HGV">1001068</idno>
+               <idno type="ddb-filename">pylon.8.7_4</idno>
+               <idno type="ddb-hybrid">pylon;8;7_4</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement>Hamburg</settlement>
+                     </placeName>
+                     <collection>Staats- und Universitätsbibliothek</collection>
+                     <idno type="invNo">P.Hamb. graec. 762</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>unbekannt</origPlace>
+                        <origDate notBefore="0501" notAfter="0600" precision="low">VI</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Brief (privat)</term>
+                  <term n="2">Zahlung</term>
+                  <term n="3">Geld</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition">
+               <listBibl>
+                  <bibl type="publication" subtype="principal">
+                     <title level="s" type="abbreviated">Pylon</title>
+                     <biblScope n="1" type="volume">8</biblScope>
+                     <biblScope n="2" type="fascicle">(2025)</biblScope>
+                     <biblScope n="3" type="generic">Art. 7</biblScope>
+                     <biblScope n="4" type="number">Nr. 4</biblScope>
+                  </bibl>
+               </listBibl>
+            </div>
+            <div type="figure">
+               <p>
+                  <figure>
+                     <graphic url="https://resolver.sub.uni-hamburg.de/kitodo/HANSh3923"/>
+                  </figure>
+               </p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Private letter</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.8.7_4</idno>
+               <idno type="ddb-hybrid">pylon;8;7_4</idno>
+               <idno type="HGV">1001068</idno>
+               <idno type="TM">1001068</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Private letter</head>
+            <div xml:id="ed4" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="r" type="textpart"><ab>
+<lb xml:id="ed4rln1" n="1"/><gap reason="lost" extent="unknown" unit="character"/>κιμιωτάτου Ἰούστου μαλ<gap reason="illegible" quantity="2" unit="character"/><gap reason="illegible" atLeast="3" atMost="4" unit="character"/>
+<lb xml:id="ed4rln2" n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">εὔχο</supplied>μεν<note><emph rend="italics">l</emph>. [εὔχο]μαι</note> τὼν πανελεωνυμ<unclear>oν</unclear><supplied reason="lost">α θεὸν</supplied>
+<lb xml:id="ed4rln3" n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">παρακαλ</supplied><unclear>ῶ</unclear> σε <choice><reg>ἵνα</reg><orig>εἵνα</orig></choice>εἵνα <choice><reg>ἀφῇς</reg><orig>ἀφῖς</orig></choice> με ἕως Θὼ<unclear>θ</unclear> <num atLeast="1" atMost="30"><gap reason="lost" atLeast="1" atMost="2" unit="character"/></num>
+<lb xml:id="ed4rln4" n="4"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ν κώμην ὥστ’ ἐν χώρ<unclear>ᾳ</unclear> <gap reason="lost" quantity="3" unit="character" precision="low"/>
+<lb xml:id="ed4rln5" n="5"/><gap reason="lost" extent="unknown" unit="character"/>των ἕως τοῦ πληρῶ<unclear>σαι</unclear> <gap reason="lost" quantity="3" unit="character" precision="low"/>
+<lb xml:id="ed4rln6" n="6"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>μάτων πληρῶ τὰ Ἀλεκ<unclear>ξ</unclear><supplied reason="lost">αν</supplied>
+<lb xml:id="ed4rln7" n="7" break="no"/><supplied reason="lost">δρ- </supplied><supplied reason="lost"><gap reason="illegible" extent="unknown" unit="character"/></supplied>των <choice><reg>κεφαλαίῳ</reg><orig>κεφαλέ<unclear>ω</unclear></orig></choice> σε <choice><reg cert="low">τόκῳ</reg><orig>τωκ<unclear>ω</unclear></orig></choice> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="3" unit="character" precision="low"/>
+<lb xml:id="ed4rln8" n="8"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">κ</supplied><unclear>ο</unclear>ντα πέντε <choice><reg>νομισμάτων</reg><orig>νομισσ<unclear>μά</unclear>τ<unclear>ων</unclear></orig></choice>
+<lb xml:id="ed4rln9" n="9"/><gap reason="lost" extent="unknown" unit="character"/> <choice><reg>πληρωτικήν</reg><orig><unclear>π</unclear>ληρωτικὲν</orig></choice> ἀποχ<unclear>ὴ</unclear><supplied reason="lost">ν</supplied>
+<lb xml:id="ed4rln10" n="10"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><unclear>υ</unclear>των τρακτ<unclear>ε</unclear>υτὴν
+<lb xml:id="ed4rln11" n="11"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">α</supplied><unclear>υ</unclear>τα <choice><reg>καταλάμβανε</reg><orig>κα<unclear>τ</unclear><supplied reason="lost">α</supplied><unclear>λ</unclear>άμπανε</orig></choice> ἕως Μ<unclear>εσ</unclear>ο<unclear>ρ</unclear><supplied reason="lost">ὴ</supplied>
+<lb xml:id="ed4rln12" n="12"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">πα</supplied><unclear>ρ</unclear>άσχω σὲ αὐτὰ μετὰ καλο<unclear>ῦ</unclear>
+<lb xml:id="ed4rln13" n="13"/><gap reason="lost" extent="unknown" unit="character"/> μετὰ τῶν <expan>πριμικ<ex>ηρίων</ex></expan> αὐθεντῶ<supplied reason="lost">ν</supplied>
+<lb xml:id="ed4rln14" n="14"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">προσα</supplied><unclear>κ</unclear><supplied reason="lost">ο</supplied>ρ<unclear>ε</unclear>ύω<note><emph rend="italics">l</emph>. προσαγορεύω</note> εἱ κυρά σου Τω<unclear>μ</unclear>α
+</ab></div>
+<div n="v" type="textpart"><ab>
+<lb xml:id="ed4vln15" n="15"/><g type="rho-cross">⳨</g> <expan>ἐπίδ<ex>ος</ex></expan> τῷ <expan>δεσπ<ex>ότῃ</ex></expan> μου τὰ πάντα <expan>λαμπρ<ex>οτάτῳ</ex></expan> <expan><ex>καὶ</ex></expan> <expan>εὐδοκ<ex>ιμωτάτῳ</ex></expan> <gap reason="illegible" quantity="2" unit="character"/>
+<lb xml:id="ed4vln16" n="16"/><expan><supplied reason="lost">ἐ</supplied>πίδ<ex>ος</ex></expan> τῷ <choice><reg>δεσπότῃ</reg><orig>τεσπ<add place="above">ό</add>τι</orig></choice> μου τὰ πάντα λα<supplied reason="lost">μπρ- </supplied> <gap reason="lost" extent="unknown" unit="character"/>
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Private letter</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">1001068</idno>
+               <idno type="TM">1001068</idno>
+               <idno type="HGV">1001068</idno>
+               <idno type="ddb-hybrid">pylon;8;7_4</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans4" xml:lang="en" type="translation" xml:space="preserve">
+<p>
+‘ … the most distinguished Iustus … I pray that the all-merciful God … [I beg (?)] you to let go of me until Thoth … the village, so that I … in [somebody’s] place  … until the repayment 
+… I pay for the Alexandrian? … x-five solidi … a payment receipt … the tractator … Come here until Mesorē and I will give them to you, if all goes well … together with our lords the primicerii… I, your lady Toma (?), send greetings.
+Deliver to my lord the most brilliant and distinguished in all …’
+</p>
+</div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
