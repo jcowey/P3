@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Coptic Order for the Village Headmen of Tin (Girga) </title>
+            <author>
+               <name>
+                  <forename>Lincoln H.</forename>
+                  <surname>Blumell</surname>
+               </name>
+               <affiliation>Brigham Young University</affiliation>
+               <email>lincoln_blumell@byu.edu</email>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1075476607</idno>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0003-2922-5337</idno>
+            </author>
+            <author>
+               <name>
+                  <forename>Jonathan</forename>
+                  <surname>Vassar</surname>
+               </name>
+               <affiliation>Brigham Young University</affiliation>
+               <email>jonathan.vassar25@gmail.com</email>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0009-0001-7395-6826</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2025-11-13</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2025">2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.8.11</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.8.114589</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">L.H. Blumell, “A Coptic Order for the Village Headmen of Tin (Girga),” Pylon 8 (2025) Article 11. DOI: <ref ana="hc:URLReference"
+                    target="https://doi.org/10.48631/pylon.2025.8.114589">https://doi.org/10.48631/pylon.20225.8.114589</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">8</biblScope>
+                     <biblScope unit="article">11</biblScope>
+                     <date when="2025">2025</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2025-11-17T14:38:02Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">A Coptic Order for the Village Headmen of Tin (Girga)</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">We want to thank the L. Tom Perry Special Collections staff at the Harold B. Lee Library, Brigham Young University, particularly Magie Kopp and Cindy Brightenburg, for facilitating our work on this ostracon. We also want to thank John Gee and Frederic Krueger for providing valuable feedback on an earlier edition of this ostracon. </note>
+            <div type="epidoc" subtype="DDB">
+               <p xml:id="p1">In 1981, Brigham Young University (BYU) acquired a small collection of papyri and ostraca through Aziz Atiya, Professor of Languages and History at the University of Utah.<note place="foot" xml:id="ftn1" n="1">
+                     <p> On the BYU collection acquired from Atiya, see discussions in <ref target="https://papyri.info/biblio/86542">Blumell 2013</ref>: 182 and <ref target="https://papyri.info/biblio/97497">Blumell and Wayment 2014</ref>: 59–60. </p>
+                  </note> Atiya approached BYU to sell some of the Greek and Coptic materials he had amassed in his personal collection since he was refining it to reflect his primary interest in Arabic documents. Since the late 1940s, Atiya had been acquiring Greek, Coptic, and Arabic texts from his native Egypt, and when he joined the University of Utah in 1959, he brought many of these with him. In the 1981 purchase agreement with Atiya, the Harold B. Lee Library acquisition records report the purchase of 20 ostraca (inv. nos. 67–87).<note place="foot" xml:id="ftn2" n="2">
+                     <p> Most of the ostraca preserve Coptic text, but three preserve Greek text (inv. nos. 68, 72, 79). Unfortunately, neither the acquisition records, the library’s catalog, nor any of Atiya’s extant correspondence mentions the ostraca’s provenance.</p>
+                  </note>
+               </p>
+               <p xml:id="p2">Ostracon inv. no. 67 preserves a document written in Coptic (Sahidic) consisting of 12 lines of text, inscribed on the convex side. The ostracon is reddish-brown or terracotta in color. It has ribbing on the upper portion that transitions to a smoother side, suggesting that the sherd was once part of a truncated, cone-shaped transport amphora.<note place="foot" xml:id="ftn3" n="3">
+                     <p> The ostracon may have come from amphora Type AE 3T-3.1; see <ref target="https://papyri.info/biblio/79333">Dixneuf 2011</ref>: 138–40, fig. 127.  </p>
+                  </note> The ink has a dark brown, almost black, hue. The top, right, and bottom margins of the text are preserved. For the first six lines, the opening text of each is lost, with at most 4 or 5 characters missing. But with each successive line, based on the breakage of the ostracon, the missing text progressively diminishes. The lost text can be confidently restored.</p>
+               <p xml:id="p3">Letters are written clearly and consistently with well-spaced lines, and many letters are written with a slight right-leaning tilt. While letters generally lack any ornate features, the left end of the crossbar of the tau often contains a small but distinct serif. The writer consistently uses a macron to mark the e-vowel and inserts a trema over the iota. </p>
+               <p xml:id="p4">The document, which preserves an order, is terse and to the point and contains considerable implicit information. It is sent from a person identified as “John, the chief attendant” (ⲁⲣⲭⲩⲡⲉⲣⲉⲧⲏⲥ) and is addressed “to the village headmen of Tin” (ⲛ̅ⲛ̅ⲗⲁϣⲛⲏⲩ ⲛ︦ⲧⲓⲛ). John opens the document by reporting that an unnamed man had come to him and reported mistreatment at the hands of the group: specifically, that they had dismissed him from a “field-share” (ⲟⲩⲙⲉⲣⲟⲥ ⲛ︦ϩⲟⲓ̈) and had given it to someone else. John informs the village officials that their actions were unjust and reminds them that he had previously instructed them to leave the man there. Given the reference to “Tin,” a village located in Upper Egypt on the west side of the Nile, almost 20 km south of Ptolemais Hermeiou, it can reasonably be assumed that the land was not located too far away.</p>
+               <p xml:id="p5">There are many scenarios that could involve the removal or reassignment of individuals to land. <ref target="http://papyri.info/apis/duke.apis.32143626">P.Duk.inv. 839 R</ref> and <ref target="http://papyri.info/apis/duke.apis.32143628">P.Duk.inv. 839 V</ref> illustrate an example of the assignment of individuals to a piece of land, revealing a situation where instructions are given to appoint men to a place on an island (ⲙⲟⲩ) and give them wages. Another situation that may entail the reassignment of land is a dispute, as in <ref target="https://papyri.info/hgv/23200">P.KRU 50</ref>, which illustrates an argument where divisions of what may be an estate are negotiated. Along this line, the present document could fit into a larger conversation about a dispute over a “field-share” being negotiated by the village headmen. However, there are other possibilities that may result in the removal and assignment of individuals to land, and the evidence in this document is insufficient to determine the specific situation it addresses.</p>
+               <p xml:id="p6">A date for the document falling somewhere in the sixth to eighth centuries is likely. Paleographically, the hand shares graphic features that can be found in dated Coptic texts from this period: e.g., <ref target="https://papyri.info/hgv/15303">P.Prag. 1.46</ref> (A.D. 522; Antinoopolis)<note place="foot" xml:id="ftn4" n="4">
+                     <p> While this text is written in Greek, the last line on the verso is written in Coptic.</p>
+                  </note> and <ref target="https://papyri.info/hgv/86005">P.KRU 10</ref> (8 Dec. A.D. 722; Thebes ?). Furthermore, the title ⲗⲁϣⲁⲛⲉ (“village head man”) appears in texts typically thought to date between the sixth and eighth centuries.<note place="foot" xml:id="ftn5" n="5">
+                     <p>
+                        <ref target="https://papyri.info/biblio/95961">Berkes 2017</ref>: 82.</p>
+                  </note>
+               </p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24078173"/>
+                  <head>Fig. 1: BYU Inv. no. 67</head>
+               </figure>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24078175"/>
+                  <head>Fig. 2: BYU Inv. no. 67</head>
+               </figure>
+               <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: left;">Inv. no. 67</cell>
+                     <cell style="text-align: center;">18.5 (h) × 9.0 (w)</cell>
+                     <cell style="text-align: right;">A.D.VI–VIII</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;"/>
+                     <cell style="text-align: right;">Tin (Girga)</cell>
+                  </row>
+               </table>
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <note target="#ed1ln2">
+                     <ref>2–3</ref>
+                     <p xml:id="p7"> <hi rend="supraline">ⲛ</hi>ⲧⲁⲧⲉⲧ<hi rend="supraline">ⲛⲛ</hi>ⲧ<hi rend="supraline">ϥ</hi> | [ⲉⲃⲟⲗ]. For the meaning “dismiss,” see <ref target="https://papyri.info/biblio/96532">Crum 1939</ref>: 79b. 
+                     It could also be read as a temporal perfect (“when you dismissed him”) with ⲁⲧⲉⲧ<hi rend="supraline">ⲛ</hi>ⲧⲉⲕ<hi rend="supraline">ϥ</hi> in ll. 3–4 as the apodosis. </p>
+                  </note>
+                  <note target="#ed1ln3">
+                     <ref>3</ref>
+                     <p xml:id="p8"> ⲟⲩⲙⲉⲣⲟⲥ <hi rend="supraline">ⲛ</hi>ϩⲟⲓ̈. On the meaning of ϩⲟⲓ̈, see <ref target="https://papyri.info/biblio/96532">Crum 1939</ref>: 650b, where the meanings include “field” or “pasture,” or alternatively “canal, ditch,” or “water wheel, sâḳiyah.” Given the use of ⲙⲉⲣⲟⲥ, it seems that the first meaning is most likely: i.e., “field” or “pasture.” E.g.,  <ref target="https://papyri.info/hgv/82160">CPR 4 28</ref>.9 (A.D. VIII; Nubia): … ⲙⲡⲁⲙⲉⲣⲟⲥ̣ ⲛⲕⲧⲏⲙⲁ (“… my portion of the ktema …”). Cf. <ref target="https://papyri.info/hgv/85052">P.Bas. 2 66</ref>.3 (=SB Kopt. 4 1805.3; A.D. VI/VII; Hermopolis Magna): ⲟⲩⲛⲟϭ ⲛϩⲟⲓ̈ (“large cog-wheel”); <ref target="https://papyri.info/hgv/109918">P.Bawit Clackson 52</ref>.2–3 (A.D. VIII; Hermopolite): ⲟⲩⲕⲗⲟⲙ ⲛϩⲟⲓ̈ (“field klom” [agricultural implement]). </p>
+                  </note>
+                  <note target="#ed1ln4">
+                     <ref>4–5</ref>
+                     <p xml:id="p9"> ⲟⲩⲇⲓⲕⲁⲓ|ⲟⲛ ⲁⲛ ⲡⲉ. For parallel readings, see <ref target="https://papyri.info/hgv/86005">P.KRU 104</ref>.46 (A.D. 771–72; Thebes) and <ref target="https://papyri.info/hgv/86707">P.Mon.Epiph. 174</ref>.7 (1st half A.D. VII; Thebes). Cf. <ref target="https://papyri.info/hgv/85975">P.KRU 74</ref>.43 (A.D. 733 or 748; Thebes) and <ref target="https://papyri.info/hgv/86023">P.KRU 122</ref>.19 (A.D. 500–799; Thebes): ⲟⲩⲇⲓⲕⲁⲓⲟⲛ ⲡⲉ.</p>
+                  </note>
+                  <note target="#ed1ln5">
+                     <ref>5–6</ref>
+                     <p xml:id="p10"> ⲛⲏⲧ<hi rend="supraline">ⲛ</hi> | [ⲛ]ⲕ ̣ⲉⲥⲟⲡ. For parallel readings, see <ref target="https://papyri.info/hgv/219904">O.Frange 365</ref>.6 (A.D. 700–750; Thebes) and <ref target="https://papyri.info/hgv/39847">P.Lond. 4 1634</ref>.16 (early A.D. VIII; Aphrodite Kome)</p>
+                  </note>
+                  <note target="#ed1ln8">
+                     <ref>8</ref>
+                     <p xml:id="p11"> ⲡⲓⲣⲱⲙⲉ. As noted by <ref target="https://papyri.info/biblio/96532">Crum 1939</ref>: 258b, the masculine definite article ⲡ is periodically rendered ⲡⲓ in Sahidic. This rendering is not uncommon in non-literary texts. See additional discussion in <ref target="https://papyri.info/biblio/5126">P.Bal. 1</ref> pp. 122–23.   </p>
+                  </note>
+                  <note target="#ed1ln9">
+                     <ref>9</ref>
+                     <p xml:id="p12"> <hi rend="supraline">ⲛ</hi>ϩⲏⲧϥ. + ⲧⲁⲁⲥ. The vertical stroke of the ϥ is used as the vertical element of a cross, as there is a horizontal line intersecting its lower half. The cross marks the beginning of the address that starts with ⲧⲁⲁⲥ. On Coptic address formulae employing ⲧⲁⲁⲥ, see <ref target="https://papyri.info/biblio/88404">Richter 2008</ref>: 764.</p>
+                  </note>
+                  <note target="#ed1ln10">
+                     <ref>10</ref>
+                     <p xml:id="p13"> <hi rend="supraline">ⲛⲛ</hi>ⲗⲁϣⲛⲏⲩ <hi rend="supraline">ⲛ</hi>ⲧⲓⲛ. The rendering ⲗⲁϣⲛⲏⲩ is the plural of ⲗⲁϣⲁⲛⲉ. The term is descended from the Demotic <emph rend="italics">mr-šn</emph>. <ref target="https://papyri.info/biblio/96532">Crum 1939</ref>: 148a gives the translation as “village magistrate” or “village official,” and notes that it is equivalent to the Greek μειζότερος or πρωτοκωμήτης. For a detailed discussion of the office of ⲗⲁϣⲁⲛⲉ, see <ref target="https://papyri.info/biblio/95961">Berkes 2017</ref>: 82–84. </p>
+                     <p xml:id="p14">The village of ⲧⲓⲛ (Grk. Θις; modern name Girga) was located in Upper Egypt on the west side of the Nile, almost 20 km south of Ptolemais Hermeiou. It was located in the Thinite Nome and was one of the principal villages. On the toponym, see <ref target="https://www.trismegistos.org/place/2400">TM Geo 2400</ref> and <ref target="https://papyri.info/biblio/62740">Timm 1992</ref>: 2682–685.</p>
+                  </note>
+                  <note target="#ed1ln11">
+                     <ref>11–12</ref>
+                     <p xml:id="p15"> + ϩⲓⲧ<hi rend="supraline">ⲛ</hi> ϊⲱϩⲁⲛⲛⲏⲥ ⲡⲁⲣⲭⲩⲡⲉⲣⲉⲧⲏⲥ. The Coptic title ⲡⲁⲣⲭⲩⲡⲉⲣⲉⲧⲏⲥ is a direct rendering from the Greek ἀρχυπηρέτης, properly rendered ἀρχιυπηρέτης, that generically means “chief attendant” or “chief servant.” Outside of this example, it is only attested on two other occasions in Coptic, where it appears on gravestones and is spelled ⲡⲁⲣⲭⲏⲡⲉⲣⲉⲧⲏⲥ: <ref target="https://papyri.info/biblio/97497">Quibell 1912</ref>: nos. 184 and 345.3; cf. <ref target="https://papyri.info/biblio/16959">Förster 2002</ref>: 111. In Greek, the title is attested in papyri from the Ptolemaic period through to the seventh or eighth century A.D., with the latest example appearing in <ref target="https://papyri.info/hgv/39987">P.Louvre 3 245</ref>.5 (A.D. VII/VIII; Arsinoite Nome). Another “John the chief attendant” is attested in <ref target="https://papyri.info/hgv/50307">CPR 19 50</ref>.7, 10 (A.D. 650–699; Arsinoite): Ἰωάννης ἀρχιυπηρέτης. On the use of the name John, see <ref target="https://www.trismegistos.org/nam/detail.php?nam_id=3464">TM Nam 3464</ref>.  </p>
+                     <p xml:id="p16">The document appears to present a scenario in which the “chief attendant” is exercising authority over the “village headmen.” Is such authority inherent to this position at this time, or is the “chief attendant” acting under the authority of another? Similarly, could he be issuing this order from a nearby city, such as Achmim (Panopolis)/Sohag?  </p>
+                  </note>
+               </div>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95961">Berkes, L. (2017)</ref> Dorfverwaltung und Dorfgemeinschaft in Ägypten von Diokletian zu den Abbasiden. Wiesbaden.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/86542">Blumell, L.H. (2013)</ref> “Two Coptic Ostraca in the Brigham Young University Collection,” CdÉ 88: 182–187.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97497">Blumell, L.H. and T.A. Wayment (2014)</ref> “Coptic New Testament Fragments in the Brigham Young University Collection,” JCSCS 6: 59–88. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96532">Crum. W.E. (1939)</ref> A Coptic Dictionary. Oxford.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/79333">Dixneuf, D. (2011)</ref> Amphores égyptiennes. Production, typologie, contenu et diffusion (IIIe siècle avant J.-C. - IXe siècle après J.-C.). Études alexandrines. 22. Alexandria.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/16959">Förster, H. (2002)</ref> Wörterbuch die griechischen Wörter in den koptischen dokumentarischen Texten. Berlin. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/88404">Richter, T.S. (2008)</ref> “Coptic Letters” in E.M. Grob and A. Kaplony (eds.), Documentary Letters From the Middle East. The Evidence in Greek, Coptic, South Arabian, Pehlevi, and Arabic (1st–15th c. CE) = Asiatische Studien 62: 739–770. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97497">Quibell, J.E. (1912)</ref> Excavations at Saqqara (1908–9, 1909–10). The Monastery of Apa Jeremias. The Coptic inscriptions edited by Sir Herbert Thompson. Cairo. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/62740">Timm, S. (1992)</ref> Das christlich-koptische Ägypten in arabischer Zeit: Eine Sammlung christlicher Stätten in Ägypten in arabischer Zeit unter Ausschluss von Alexandria, Kairo, des Apa-Mena-Klosters (Der Abu Mina), der Sketis (Wadi n-Natrun) und der Sinai-Region. Teil 6 (T–Z). Wiesbaden.   </bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>A Coptic Order for the Village Headmen of Tin (Girga)</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">1001331</idno>
+               <idno type="HGV">1001331</idno>
+               <idno type="ddb-filename">pylon.8.11</idno>
+               <idno type="ddb-hybrid">pylon;8;11</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement>Utah</settlement>
+                     </placeName>
+                     <collection>Brigham Young University</collection>
+                     <idno type="invNo">Inv. no. 67</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Tin</origPlace>
+                        <origDate notBefore="0501" notAfter="0800" precision="low">VI - VIII</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p xml:id="geoCFE5AB">
+                           <placeName type="ancient"
+                                      ref="https://www.trismegistos.org/place/1561 https://pleiades.stoa.org/places/736987">Tin</placeName>
+                        </p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Anordnung</term>
+                  <term n="2">Land</term>
+                  <term n="3">Zuweisung</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition">
+               <listBibl>
+                  <bibl type="publication" subtype="principal">
+                     <title level="s" type="abbreviated">Pylon</title>
+                     <biblScope n="1" unit="volume">8</biblScope>
+                     <biblScope n="2" unit="fascicle">(2025)</biblScope>
+                     <biblScope n="3" unit="generic">Art. 11</biblScope>
+                  </bibl>
+               </listBibl>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>A Coptic Order for the Village Headmen of Tin (Girga)</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.8.11</idno>
+               <idno type="ddb-hybrid">pylon;8;11</idno>
+               <idno type="HGV">1001331</idno>
+               <idno type="TM">1001331</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">A Coptic Order for the Village Headmen of Tin (Girga)</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb xml:id="ed1ln1" n="1"/><supplied reason="lost"><g type="stauros">†</g> ⲁⲟⲩⲣ</supplied>ⲱⲙⲉ ⲉⲓ ⲛⲁ<hi rend="diaeresis">ⲓ̈</hi> ⲉϥϫⲱ <hi rend="supraline">ⲙ</hi>
+<lb xml:id="ed1ln2" n="2" break="no"/><supplied reason="lost">ⲙⲟⲥ</supplied> <unclear>ϫ</unclear>ⲉ <hi rend="supraline">ⲛ</hi>ⲧⲁⲧⲉⲧ<hi rend="supraline">ⲛⲛ</hi>ⲧ<hi rend="supraline">ϥ</hi>
+<lb xml:id="ed1ln3" n="3"/><supplied reason="lost">ⲉⲃⲟⲗ</supplied> <unclear>ϩ</unclear><hi rend="supraline">ⲛ</hi> ⲟⲩ<choice><reg xml:lang="grc">μέρος</reg><orig>ⲙⲉⲣⲟⲥ</orig></choice> <hi rend="supraline">ⲛ</hi>ϩⲟ<hi rend="diaeresis">ⲓ̈</hi> ⲁⲧⲉ
+<lb xml:id="ed1ln4" n="4" break="no"/><supplied reason="lost">ⲧ<hi rend="supraline">ⲛ</hi></supplied><unclear>ⲧ</unclear>ⲉⲕ<hi rend="supraline">ϥ</hi> <unclear>ⲉ</unclear>ⲕⲉⲟⲩ<hi rend="supraline">ⲁ</hi>. ⲟⲩ<choice><reg xml:lang="grc">δίκαιος</reg><orig>ⲇⲓⲕⲁⲓ
+<lb xml:id="ed1ln5" n="5" break="no"/><supplied reason="lost">ⲟⲛ</supplied></orig></choice> ⲁⲛ ⲡⲉ. ⲁ<hi rend="diaeresis">ⲓ̈</hi>ϫⲟⲟⲥ ⲛⲏⲧ<hi rend="supraline">ⲛ</hi>
+<lb xml:id="ed1ln6" n="6"/><supplied reason="lost">ⲛ</supplied><unclear>ⲕ</unclear>ⲉⲥⲟⲡ ϫⲉ <hi rend="supraline">ⲙ</hi>ⲡ<hi rend="supraline">ⲣ</hi>ⲉⲓⲛⲉ
+<lb xml:id="ed1ln7" n="7"/><hi rend="supraline"><unclear>ⲙ</unclear></hi>ⲡ<hi rend="supraline">ⲣ</hi>ⲧⲓⲕⲉ ⲉϩⲣⲁ<hi rend="diaeresis">ⲓ̈</hi>. ⲡⲙⲁ
+<lb xml:id="ed1ln8" n="8"/>ⲉⲧⲉⲣⲉ<choice><reg>ⲡⲣⲱⲙⲉ</reg><orig>ⲡⲓⲣⲱⲙⲉ</orig></choice> <hi rend="supraline">ⲛ</hi>ϩⲏⲧ<hi rend="supraline">ϥ</hi>
+<lb xml:id="ed1ln9" n="9"/>ⲕⲁⲁϥ <hi rend="supraline">ⲛ</hi>ϩⲏⲧϥ. <g type="stauros">†</g> ⲧⲁⲁⲥ
+<lb xml:id="ed1ln10" n="10"/><hi rend="supraline">ⲛⲛ</hi>ⲗⲁϣⲛⲏⲩ <hi rend="supraline">ⲛ</hi>ⲧⲓⲛ.
+<lb xml:id="ed1ln11" n="11"/><g type="stauros">†</g> ϩⲓⲧ<hi rend="supraline">ⲛ</hi><hi rend="diaeresis">ϊ</hi>ⲱϩⲁⲛⲛⲏⲥ
+<lb xml:id="ed1ln12" n="12"/>ⲡ<choice><reg xml:lang="grc">ἀρχυπηρέτης</reg><orig>ⲁⲣⲭⲩⲡⲉⲣⲉⲧⲏⲥ</orig></choice>. <g type="stauros">†</g>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">A Coptic Order for the Village Headmen of Tin (Girga)</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">1001331</idno>
+               <idno type="TM">1001331</idno>
+               <idno type="HGV">1001331</idno>
+               <idno type="ddb-hybrid">pylon;8;11</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+<p>
++ Someone came to me and said that you (pl.) have dismissed him from a field-share and assigned it to someone else. This is an injustice! 
+I have told you (pl.) on another occasion: “Do not remove and do not reassign.” The place (i.e., the disputed field-share) where the man was, 
+leave him there. + Give it (i.e., the document) to the village headmen of Tin. + From John, the chief attendant. +
+</p>
+</div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
