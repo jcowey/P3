@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alkimos and Soterichos, Secretaries of the <emph rend="italics">Grapheion</emph> of Herakleia</title>
+            <author>
+               <name>
+                  <forename>W. Graham</forename>
+                  <surname>Claytor</surname>
+               </name>
+               <affiliation>University of Warsaw</affiliation>
+               <email>w.claytor-vi@uw.edu.pl</email>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1164982230</idno>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0001-9838-3318</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2025-11-13</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2025">2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.8.9</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.8.114587</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">W.G. Claytor, “Alkimos and Soterichos, Secretaries of the <emph rend="italics">Grapheion</emph> of Herakleia,” Pylon 8 (2025) Article 9. DOI: <ref ana="hc:URLReference"
+                    target="https://doi.org/10.48631/pylon.2025.8.114587">https://doi.org/10.48631/pylon.20225.8.114587</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">8</biblScope>
+                     <biblScope unit="article">9</biblScope>
+                     <date when="2025">2025</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2025-11-13T16:47:09Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Alkimos and Soterichos, Secretaries of the <emph rend="italics">Grapheion</emph> of Herakleia</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1">A few decades ago, Dieter Hagedorn assembled a dossier of documents from Herakleia drawn up by the γραμματεύς Alkimos (<ref target="https://papyri.info/biblio/56493">Hagedorn 1984</ref>): 83. In addition to a group of three London papyri long known to have been signed by Alkimos (<ref target="https://papyri.info/ddbdp/chr.mitt%3B%3B160">P.Lond. 2 303 = M.Chr. 160</ref>, <ref target="https://papyri.info/ddbdp/p.lond%3B2%3B308">P.Lond. 2 308</ref>, and <ref target="https://papyri.info/ddbdp/chr.mitt%3B%3B237">P.Lond. 2 311= M.Chr. 237</ref>), Hagedorn reread his name in one document (<ref target="https://papyri.info/ddbdp/p.flor%3B3%3B302">P.Flor. 3 302</ref>), identified his distinctive hand in two others (<ref target="https://papyri.info/ddbdp/chr.wilck%3B%3B263">P.Lond. 2 306 = W.Chr. 263</ref> and <ref target="https://papyri.info/ddbdp/p.ryl%3B2%3B155">P.Ryl. 2 155</ref>), and pointed to two further documents dated to his period of activity, which we can now confirm from images are likewise part of the dossier (<ref target="https://papyri.info/ddbdp/bgu%3B1%3B290">BGU 1 290</ref> and <ref target="https://papyri.info/ddbdp/p.stras%3B1%3B13">P.Stras. 1 13</ref>).</p>
+            <p xml:id="p2">The best-preserved document is <ref target="https://papyri.info/ddbdp/p.lond%3B2%3B308">P.Lond. 2 308</ref> (13 Sept., 145), which contains a body contract, subscription, and registration, all written in a hand attributable to Alkimos, since he signs with his name and title in the subscription. This document illustrates all the characteristic features of his diplomatic style, the two most visually striking of which are his large, stylized opening epsilon in ἔτους with its “teeth” or loops, two at the bottom in the shape of a mu, and one at the top, and his registration docket, written ἐντέτακ(ται) διὰ τοῦ ἐν Ἡρακ(λείᾳ) γρα(φείου), with the first stroke of the tall, skinny initial epsilon extending well below the line. His hand is otherwise characterized by a slant to the right, emphasized diagonal strokes, including thin and long bellies of alpha, and final upsilons with hooks at the top right.</p>
+            <figure>
+               <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24152043"/>
+               <head>Fig. 1 British Library Board: Papyrus 308.</head>
+            </figure>
+            <p xml:id="p3">These distinctive features allow us to add four further documents to the dossier, including <ref target="https://papyri.info/ddbdp/p.amh%3B2%3B111">P.Amh. 2 111</ref>, which pushes the beginning of his activity back to 132 CE. <ref target="https://papyri.info/ddbdp/bgu%3B2%3B664">BGU 2 664</ref>, previously dated to the first century, can now be placed in the second and assigned to Herakleia. The texts of Alkimos’ dossier are listed below; additions are marked with an asterisk and discussed below.</p>
+            <p xml:id="p4">Alkimos, <emph rend="italics">grammateus</emph> of the <emph rend="italics">grapheion</emph> of Herakleia</p>
+            <table>
+               <row>
+                  <cell style="text-align: left;">No.</cell>
+                  <cell style="text-align: left;">Text</cell>
+                  <cell style="text-align: center;">Date</cell>
+                  <cell style="text-align: right;">Attribution<note place="foot" xml:id="ftn1" n="1">
+                  <p>In addition to his handwriting, the key diplomatic feature(s) of Alkimos’ work that supports the attribution: ἔτους = Alkimos’ stylized ἔτους; subscr. = his subscription; registr. = his registration docket.</p></note></cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <emph rend="bold">1</emph>
+                  </cell>
+                  <cell style="text-align: left;">
+                     <ref target="https://papyri.info/hgv/15115">SPP 22 46</ref>*</cell>
+                  <cell style="text-align: center;">ca. 118–151</cell>
+                  <cell style="text-align: right;">registr.</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <emph rend="bold">2</emph>
+                  </cell>
+                  <cell style="text-align: left;">
+                     <ref target="https://papyri.info/hgv/25649">BGU 2 664</ref>*</cell>
+                  <cell style="text-align: center;">ca. 132–151</cell>
+                  <cell style="text-align: right;">registr.</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <emph rend="bold">3</emph>
+                  </cell>
+                  <cell style="text-align: left;">
+                     <ref target="https://papyri.info/hgv/10094">P.Amh. 2 111</ref>*</cell>
+                  <cell style="text-align: center;">132</cell>
+                  <cell style="text-align: right;">ἔτους, registr.</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <emph rend="bold">4</emph>
+                  </cell>
+                  <cell style="text-align: left;">
+                     <ref target="https://papyri.info/hgv/12940">P.Ryl. 2 155</ref>
+                  </cell>
+                  <cell style="text-align: center;">138–161</cell>
+                  <cell style="text-align: right;">registr.</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <emph rend="bold">5</emph>
+                  </cell>
+                  <cell style="text-align: left;">
+                     <ref target="https://papyri.info/hgv/13152">P.Stras. 1 13</ref> (+ inv. 39d*)</cell>
+                  <cell style="text-align: center;">138–161</cell>
+                  <cell style="text-align: right;">ἔτους</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <emph rend="bold">6</emph>
+                  </cell>
+                  <cell style="text-align: left;">
+                     <ref target="https://papyri.info/hgv/11683">P.Lond. 2 303 = M.Chr. 303</ref>
+                  </cell>
+                  <cell style="text-align: center;">142</cell>
+                  <cell style="text-align: right;">ἔτους, subscr.</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <emph rend="bold">7</emph>
+                  </cell>
+                  <cell style="text-align: left;">
+                     <ref target="https://quod.lib.umich.edu/a/apis/x-17248">P.Mich. inv. 6114b</ref>*</cell>
+                  <cell style="text-align: center;">145</cell>
+                  <cell style="text-align: right;">ἔτους, registr.</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <emph rend="bold">8</emph>
+                  </cell>
+                  <cell style="text-align: left;">
+                     <ref target="https://papyri.info/hgv/11685">P.Lond. 2 306= W.Chr. 263</ref>
+                  </cell>
+                  <cell style="text-align: center;">145</cell>
+                  <cell style="text-align: right;">ἔτους</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <emph rend="bold">9</emph>
+                  </cell>
+                  <cell style="text-align: left;">
+                     <ref target="https://papyri.info/hgv/11687">P.Lond. 2 308</ref>
+                  </cell>
+                  <cell style="text-align: center;">145</cell>
+                  <cell style="text-align: right;">ἔτους, subscr., registr.</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <emph rend="bold">10</emph>
+                  </cell>
+                  <cell style="text-align: left;">
+                     <ref target="https://papyri.info/hgv/11690">P.Lond. 2 311= M.Chr. 237</ref>
+                  </cell>
+                  <cell style="text-align: center;">149</cell>
+                  <cell style="text-align: right;">subscr., registr.</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <emph rend="bold">11</emph>
+                  </cell>
+                  <cell style="text-align: left;">
+                     <ref target="https://papyri.info/hgv/9036">BGU 1 290</ref>
+                  </cell>
+                  <cell style="text-align: center;">150</cell>
+                  <cell style="text-align: right;">ἔτους</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">
+                     <emph rend="bold">12</emph>
+                  </cell>
+                  <cell style="text-align: left;">
+                     <ref target="https://papyri.info/hgv/11166">P.Flor. 3 302</ref>
+                  </cell>
+                  <cell style="text-align: center;">151</cell>
+                  <cell style="text-align: right;">ἔτους, subscr., registr.</cell>
+               </row>
+            </table>
+            <p xml:id="p5">
+               <ref target="https://papyri.info/hgv/15115">SPP 22 46</ref>: the bottom of a return of a loan containing the end of the body contract in Alkimos’ hand, the first party’s subscription in another hand, and the registration again by Alkimos. The verb of registration was read as ἐνδέτακ(ται), but there is smudged ink at the beginning of the line, which I think gave the appearance of delta: the expected ἐντέτακ(ται) should be read instead. The date of the contract is missing, but the original loan was made in the 18th year of the deified Trajan, which places its return in the reign of Hadrian or later. This contract may well be the earliest document in Alkimos’ corpus, but since loans could remain unpaid for many years it might still fall within the known bounds of the scribe’s career. A conservative dating places it between 118 and ca. 151.</p>
+            <p xml:id="p6">
+               <ref target="https://papyri.info/hgv/25649">BGU 2 664</ref>: this small fragment of a contract was dated to the first century. It contains the last line of the body contract, a good part of the seven-line subscription in another hand, and the first half of the registration. Since the registration is clearly the work of Alkimos, it should be supplemented ἐντέτακ(ται) διὰ τοῦ ἐν [Ἡρακ(λείᾳ) γρα(φείου)] and assigned to Herakleia in the period of Alkimos’ activity (ca. 132–151).</p>
+            <p xml:id="p7">
+               <ref target="https://papyri.info/hgv/10094">P.Amh. 2 111</ref>: the sheet is well preserved, with some damage at the top. The image online is not of great quality, but Alkimos wrote the body contract (note the typical opening epsilon) and the registration (the subscription is in the hand of the acknowledging party himself).</p>
+            <p xml:id="p8">
+               <ref target="https://papyri.info/hgv/13152">P.Stras. 1 13</ref> (+ P.Stras. inv. 39d): Hagedorn already suspected the inclusion of this piece in Alkimos’ dossier, which the handwriting confirms; the new fragment, identified by Paul Heilporn, contains the telltale opening epsilon of ἔτους.</p>
+            <p xml:id="p9">
+               <ref target="https://quod.lib.umich.edu/a/apis/x-17248">P.Mich. inv. 6114b</ref>: this unpublished contract was excavated at Soknopaiou Nesos by the University of Michigan (31-I-112D-P)<note place="foot" xml:id="ftn2" n="2">
+                  <p> Part of a large group inventoried as P.Mich. inv. 6111–6135, most of which were returned to Egypt and remain unpublished: on these papyri and their archaeological context, see <ref target="https://papyri.info/biblio/95843">Claytor 2020</ref>: 325–327 (N.B. the papyrus published in this article is <ref target="https://papyri.info/hgv/942905">P.Mich. inv. 6134d</ref>, not 613d as printed on pp. 325 and 329).</p>
+               </note> and is now located in the Egyptian Museum in Cairo. A photo held in the Michigan Papyrology Collection shows that it belongs to Alkimos’ dossier.</p>
+            <p xml:id="p10">In at least five of the above documents (4, 6, 9, 10, and 12) Alkimos not only pens the main contract but also subscribes on behalf of the acknowledging party, from which we learn his name and title. With minor variations in abbreviation, he signs as Ἄλκιμος γρα(μματεὺς) τοῦ προκ(ειμένου) γρα(φείου).<note place="foot" xml:id="ftn3" n="3">
+                  <p> Strictly speaking, the <emph rend="italics">grapheion</emph> is not previously mentioned in these documents; the phrase is used in reference to ἐν Ἡρακλείᾳ in the opening protocol. The phrase διὰ τοῦ αὐτοῦ γραφείου is frequently used in the same way.</p>
+               </note>
+            </p>
+            <p xml:id="p11">This formula is found in one other text, <ref target="https://papyri.info/hgv/15113">SPP 22 45</ref> (169 with BL 8 482), also from Herakleia, and the latest attestation of its <emph rend="italics">grapheion</emph>.<note place="foot" xml:id="ftn4" n="4">
+                  <p> Shortly after, notarial services would be concentrated in the metropolis: <ref target="https://papyri.info/biblio/95843">Claytor 2020</ref>.</p>
+               </note> This contract, written all in one hand,<note place="foot" xml:id="ftn5" n="5">
+                  <p> The writer does switch pens after τεσσαράκοντα in l. 21 due to the bleeding of ink seen in previous lines.</p>
+               </note> concludes (with minor changes from the ed. pr.): Σωτήριχος γρα(μματεὺς) τοῦ προ|κιμένου γρ̣α̣φείου ἔγραψα ὑπὲρ αὐτοῦ ἀγρα(μμάτου). | ἐγρά(φη) διὰ τοῦ ἐν Ἡρακ(λείᾳ) γρα(φείου). Soterichos had clearly taken on the same role as his predecessor Alkimos. His hand is also found in <ref target="https://papyri.info/hgv/26947">BGU 11 2049</ref>, a contract from Herakleia whose date is lost but which can now be assigned to ca. 169. Here, the first party wrote his own subscripton (ll. 16–19), but Soterichos penned the body contract and registration, which should be read as ἐ̣γρά(φη) διὰ τοῦ ἐ[ν] Ἡ̣ρακ̣(λείᾳ) γρα(φείου)<note place="foot" xml:id="ftn6" n="6">
+                  <p> [ἐντέτακ]ται διὰ τοῦ ἐ̣[ν Ἡ]ρ̣α̣κ̣(λείᾳ) γ̣ρ̣(αφείου) ed. pr.</p>
+               </note> in comparison with the Vienna text.</p>
+            <p xml:id="p12">From Alkimos’ long service in the <emph rend="italics">grapheion</emph> and the fact that both he and Soterichos wrote registration dockets, one might conclude that they were village notaries,<note place="foot" xml:id="ftn7" n="7">
+                  <p> For an overview of the village <emph rend="italics">grapheion</emph>, see <ref target="https://papyri.info/biblio/97481">Langellotti 2020</ref>.</p>
+               </note> but their title, γραμματεύς rather than the usual νομογράφος, is at odds with this idea. Village notaries are known to have had secretaries to assist them: an early case has now been identified in Karanis, where the νομογράφος Sotas alias NN was assisted by his γραμματεύς (Pete)souchos, who even wrote in his boss’ name,<note place="foot" xml:id="ftn8" n="8">
+                  <p>
+                     <ref target="https://papyri.info/biblio/97479">Borrelli and Claytor 2024</ref>.</p>
+               </note> and a contemporary example is found in <ref target="https://papyri.info/hgv/12387">P.Mil.Vogl. 3 145</ref> (142) (with BL 5 72), an offer to lease that concludes: ἐγράφη καὶ εἰκονίσθ(η) διὰ [γραφ(είου) Τεβ]τύνεως διά τε Κρονίου γραμματέως. We should therefore conclude that Alkimos and Soterichos were not formally heads of the <emph rend="italics">grapheion</emph>, although they clearly performed the main duties in the office, possibly on a contractual basis.<note place="foot" xml:id="ftn9" n="9">
+                  <p> Cf. <ref target="https://papyri.info/ddbdp/p.mich%3B11%3B603">P.Mich. 11 603</ref> (Arsin., 134), a work contract for nine secretaries (γραμματεῖς) employed by the γραμματεῖς μητροπόλεως.</p>
+               </note>
+            </p>
+            <p xml:id="p13">A few other later documents from Herakleia’s <emph rend="italics">grapheion</emph> can be commented upon in light of the careers of Alkimos and Soterichos:</p>
+            <p xml:id="p14">
+               <ref target="https://papyri.info/hgv/12765">P.Prag. 1 31</ref> (148?) appears to fall within Alkimos’ period of activity<note place="foot" xml:id="ftn10" n="10">
+                  <p> On the date, see <ref target="https://papyri.info/biblio/59788">Cowey et al. 1989</ref>: 223.</p>
+               </note> but is not in his hand.</p>
+            <p xml:id="p15">
+               <ref target="https://papyri.info/hgv/12766">P.Prag. 1 32</ref> (157) is dated six years after Alkimos’ last known appearance. The contract opens with an epsilon that bears a striking resemblance to those in the dossier, but the contract does not seem to be in Alkimos’ hand. This may be a sign that a successor had taken over, perhaps trained by Alkimos himself.</p>
+            <p xml:id="p16">
+               <ref target="https://papyri.info/hgv/88780">P.Louvre 2 113</ref> (159) is the next document written in Herakleia’s <emph rend="italics">grapheion</emph> but is not in the hand of Alkimos, Soterichos, or the writers of the previous documents. </p>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97479">Borrelli, B. and Claytor, W.G. (2024)</ref> “A Dossier of Seed Orders and Farmers’ Oaths from Karanis,” Tyche 39: 11–55.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95843">Claytor, W.G. (2020)</ref> “The Central Manager of the Arsinoite Notariate in the Late Second Century,” APF 66: 323–338.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/59788">Cowey, J.M.S. et al. (1989)</ref> “Bemerkungen zu P.Prag. I,” ZPE 77: 216–224.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/56493">Hagedorn, D. (1984)</ref> “Bemerkungen zu Urkunden,” ZPE 57: 82–84.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97481">Langellotti, M. (2020)</ref> “Record-Offices in Villages in Roman Egypt,” in M. Langellotti and D. Rathbone (eds), Village Institutions in Egypt in the Roman to Early Arab Periods, Oxford: 94–108.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
