@@ -41,7 +41,7 @@
                             <item n="1">
                                 <ref target="https://github.com/papyri/idp.data/blame/master/DDB_EpiDoc_XML/p.ross.georg/p.ross.georg.3/p.ross.georg.3.9.xml#//ab/node()[preceding-sibling::lb[@n='8']][following-sibling::lb[@n='9']]"/>
                                 <p change="replacement">
-                                    <lb n="8"/>ὁ τοῦ <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §12"><unclear>Φ</unclear>λαυίου</lem><rdg><unclear>Σ</unclear><supplied reason="lost">ε</supplied>λευίου</rdg></app> καὶ Ἄγαθος ὁ ἡμέτερος ἅμα τοῖς 
+                                    <lb n="8"/>ὁ τοῦ <app type="editorial"><lem resp="E. Chepel, Pylon 6 (2024) 4 §12"><unclear>Φ</unclear>λαυίου</lem><rdg><unclear>Σ</unclear><supplied reason="lost">ε</supplied>λευίου</rdg></app> καὶ Ἄγαθος ὁ ἡμέτερος ἅμα τοῖς  
                                 </p>
                             </item>
                             <item n="2">
