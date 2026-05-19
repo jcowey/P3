@@ -11,5 +11,7 @@ Templates for figures
                </figure>
 ```
 
-If a figure has to be embedded in the commentary section, then `<figure>` is added at the same level as `<note>` and at the end of the note it in which it is required.
+## Minor notes
+
+- If a figure has to be embedded in the commentary section, then `<figure>` is added at the same level as `<note>` and at the end of the note it in which it is required.
 
