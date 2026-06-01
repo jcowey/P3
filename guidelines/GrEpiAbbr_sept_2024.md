@@ -4,7 +4,7 @@
 
 ## (GrEpiAbbr – Version 03, septembre 2024)
 
-- [online PDF](https://www.aiegl.org/grepiabbr.html?file=files/aiegl/documents/GrEpiAbbr/GrEpiAbbr_1Version_Mai2020.pdf&cid=1167)
+- [online PDF]([file:///Users/jamescowey/Downloads/GrEpiAbbr_3Version_Septembre2024.pdf](https://www.aiegl.org/grepiabbr.html?_hash=bM6dNFwTxClqn_DoCmfhNQGe2iqCaew7J1VeKvh8sDk&cid=1167&ctx=a%3A1%3A%7Bs%3A2%3A%22id%22%3Bi%3A1167%3B%7D&d=attachment&f=GrEpiAbbr_3Version_Septembre2024.pdf&file=files%2Faiegl%2Fdocuments%2FGrEpiAbbr%2FGrEpiAbbr_1Version_Mai2020.pdf&p=aiegl%2Fdocuments%2FGrEpiAbbr%2FGrEpiAbbr_3Version_Septembre2024.pdf))
 
 <table>
     <thead>
