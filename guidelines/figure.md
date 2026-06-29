@@ -11,6 +11,15 @@ Templates for figures
                </figure>
 ```
 
+Use this to create new figure elements. 
+
+Make the relevant changes to the content of the the head element, so that you have the text that you want to see for the title and credits and licensing of the image.
+
+In the pointer element `<ptr>` simply insert the relevant `System-Objekt-ID` of the heidICON image you want to upload.
+`<ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24060368"/>`
+
+`<ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/xxxxxxxx"/>`. Replace the `xxxxxxxx` with the relevant number.
+
 ## Where in the XML file do I place the figure element?
 
 - If the figure has to be embedded as part of the edition, it is standardly placed in the row following the `<div type="epidoc" subtype="DDB">`
