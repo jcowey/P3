@@ -11,6 +11,20 @@ Templates for figures
                </figure>
 ```
 
+## Where in the XML file do I place the figure element?
+
+- If the figure has to be embedded as part of the edition, it is standardly placed in the row following the `<div type="epidoc" subtype="DDB">`
+
+- e.g. https://gitlab.ub.uni-heidelberg.de/verlag/PapyrologicalPublicationPlatform/-/blob/master/epidoc/Pylon_8_Claytor_Oath/claytor_oath.xml?ref_type=heads#L91-L95
+
+```XML
+            <div type="epidoc" subtype="DDB">
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24078171"/>
+                  <head>Fig. 1: British Library Board: Papyrus 278.</head>
+               </figure>
+```
+
 ## Minor notes
 
 - If a figure has to be embedded in the commentary section, then `<figure>` is added at the same level as `<note>` and at the end of the note it in which it is required.
