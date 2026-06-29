@@ -2,7 +2,7 @@
 
 Templates for figures
 
-- normal
+- standard
 
 ```XML
                <figure>
