@@ -33,6 +33,8 @@ Fill that in:
 - Keywords;
 - List of contributors
 
+Hit save
+
 Go to submission.
 
 Publication.
