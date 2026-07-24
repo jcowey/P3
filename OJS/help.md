@@ -32,6 +32,9 @@ Fill that in:
 - Languages (`en`  remember to hit the return key to secure the entry);
 - Keywords;
 - List of contributors
+  - Family Name
+  - email
+  - click Author or Contributor
 
 Hit save
 
