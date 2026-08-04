@@ -28,7 +28,7 @@ https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/blob/main/epid
 
 It is in this text that you must make the change and save it. 
 
-The system is set up in such a way that when you save in the `epidoc folder` then the corresponding file in the [converted folder](https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/tree/main/converted?ref_type=heads) reflects the update.
+The system is set up in such a way that when you save in the `epidoc folder` then the corresponding file in the `converted folder`: https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/tree/main/converted?ref_type=heads reflects the update.
 
 You must remember that you take the xml file from the converted folder NOT from the epidoc folder.
 
