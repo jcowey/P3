@@ -6,7 +6,7 @@ e.g. https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/116432
 
 https://doi.org/10.48631/pylon.2026.9.116432
 
-In this case the six digit number is: *116432*
+In this case the six digit number is: **116432**
 
 First of all prepare the the files that you will have to upload to the galleys in OJS.
 
