@@ -63,3 +63,5 @@ Sign in.
 In the top right hand corner you will see your sign in name. Click on it, then click on dashboard.
 
 On the left hand side below the cover icon you will see `Issues` as the second word below the icon. Click on `Issues` and then click on `Back Issues`
+
+Now go to the relevant volume and click on it. Choose the article you want to change and click on it. There you will see `Submission` and `Removve`. Click on `Submission`
