@@ -75,3 +75,9 @@ Below the word `Publication` which is now highlighted with a white background, y
 You must click on `Unpublish`.
 
 Now go to the section marked `Galleys` and click on it.
+
+There you will see: 
+- HTML
+- PDF images embedded
+- PDF images appended
+- XML (EpiDoc) download
