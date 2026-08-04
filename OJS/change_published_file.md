@@ -30,7 +30,7 @@ It is in this text that you must make the change and save it.
 
 The system is set up in such a way that when you save in the `epidoc folder` then the corresponding file in the `converted folder`: https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/tree/main/converted?ref_type=heads reflects the update.
 
-You must remember that you take the xml file from the converted folder NOT from the epidoc folder.
+You must remember that you take the xml file from the `converted folder` NOT from the epidoc folder.
 
 Now you have to navigate to the file in this converted folder. Click on the file. In the upper right hand corner you will see a black button with the word edit in it. Below that is a white button with the word History in it. Below that you will see two buttons: to the left a white button with the word Blame in it. To the right choose the download icon. This will download the updated version of the file you need to put into the the OJS interface to update the live online version of the article.
 
