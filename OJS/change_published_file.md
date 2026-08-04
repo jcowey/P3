@@ -81,3 +81,7 @@ There you will see:
 - PDF images embedded
 - PDF images appended
 - XML (EpiDoc) download
+
+You will now have to change the uploaded file in each of these galleys. 
+
+Click on HTML
