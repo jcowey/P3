@@ -12,6 +12,8 @@ First of all prepare the the files that you will end up uploading to the galleys
 
 Sign in to gitlab.
 
+## Accessing, changing and downloading the XML file 
+
 Navigate in the gitlab folders and files to get to that file
 
 https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon
