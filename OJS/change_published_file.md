@@ -52,4 +52,14 @@ https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/pipelines
  
 You will now have the XML file and the two PDF files which you will have to upload to the relevant galleys in the OJS system. Make sure that you know where these are saved on your desktop. Creating a folder for them and storing them there will be helpful.
 
+## Uploading the saved files to the relevant galleys in OJS
 
+Go to Pylon:
+
+https://journals.ub.uni-heidelberg.de/index.php/pylon/index
+
+Sign in.
+
+In the top right hand corner you will see your sign in name. Click on it, then click on dashboard.
+
+On the left hand side below the cover icon you will see `Issues` as the second word below the icon. Click on Ìssues`
