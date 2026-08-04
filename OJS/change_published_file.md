@@ -49,5 +49,7 @@ https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/pipelines
   - that will download to your computer (in Downloads on a Mac)
   - open the zip file and then you can view the PDFs
   - it will make sense to file these clearly for uploading to the galleys
+ 
+You will now have the XML file and the two PDF files which you will have to upload to the relevant galleys in the OJS system. Make sure that you know where these are saved on your desktop. Creating a folder for them and storing them there will be helpful.
 
 
