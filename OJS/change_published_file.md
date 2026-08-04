@@ -69,3 +69,5 @@ Now go to the relevant volume and click on it. Choose the article you want to ch
 Now you will see a green button with the word `Published` in it. Next to that is the six digit number you had noted, as described above. This and the name of the author(s) as well as the title of the article allows you to be sure that you are in the correct place.
 
 Immediately below this you will see two words `Workflow` and `Publication`. You must click on `Publication`.
+
+Below the word `Publication` which is now highlighted with a white background, you will see `Status: Published`.
