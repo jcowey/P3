@@ -10,6 +10,8 @@ https://doi.org/10.48631/pylon.2026.9.116432
 
 First of all prepare the the files that you will end up uploading to the galleys in OJS.
 
+You will need to change and download the XML file. You will need to download the PDFs.
+
 Sign in to gitlab.
 
 ## Accessing, changing and downloading the XML file 
