@@ -65,3 +65,7 @@ In the top right hand corner you will see your sign in name. Click on it, then c
 On the left hand side below the cover icon you will see `Issues` as the second word below the icon. Click on `Issues` and then click on `Back Issues`
 
 Now go to the relevant volume and click on it. Choose the article you want to change and click on it. There you will see `Submission` and `Removve`. Click on `Submission`
+
+Now you will see a green button with the word `Published` in it. Next to that is the six digit number you had noted, as described above. This and the name of the author(s) as well as the title of the article allows you to be sure that you are in the correct place.
+
+Immediately below this you will see two words `Workflow` and `Publication`. You must click on `Publication`.
