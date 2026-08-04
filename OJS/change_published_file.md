@@ -30,7 +30,7 @@ There you will find the .xml file which you need
 
 https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/blob/main/epidoc/9/116432.xml?ref_type=heads
 
-It is in this text that you must make the change and save it. 
+It is in this text that you must make the change or changes and save it / them. 
 
 The system is set up in such a way that when you save in the `epidoc folder` then the corresponding file in the `converted folder`: https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/tree/main/converted?ref_type=heads reflects the update.
 
