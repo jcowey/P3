@@ -70,4 +70,8 @@ Now you will see a green button with the word `Published` in it. Next to that is
 
 Immediately below this you will see two words `Workflow` and `Publication`. You must click on `Publication`.
 
-Below the word `Publication` which is now highlighted with a white background, you will see `Status: Published`.
+Below the word `Publication` which is now highlighted with a white background, you will see `Status: Published`. To the right of this you will see in red letters the word `Unpublish`.
+
+You must click on `Unpublish`.
+
+Now go to the section marked `Galleys` and click on it.
