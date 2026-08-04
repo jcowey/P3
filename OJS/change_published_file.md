@@ -40,3 +40,10 @@ Now you have to locate the two PDF files which you will upload the the PDF galle
 
 https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/pipelines 
 
+- to view the PDFs one has to go to https://gitlab.ub.uni-heidelberg.de/verlag/xmlworkflow_zs_pylon/-/pipelines
+  - choose the "Passed" section. On the far right there is a download button. Click on the download button, then click on transformation:archive
+  - that will download to your computer (in Downloads on a Mac)
+  - open the zip file and then you can view the PDFs
+  - it will make sense to file these clearly for uploading to the galleys
+
+
