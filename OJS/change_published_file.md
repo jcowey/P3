@@ -85,3 +85,10 @@ There you will see:
 You will now have to change the uploaded file in each of these galleys. 
 
 Click on HTML
+
+Now choose `Change file`
+- Choose the XML file you saved on your desktop and click on upload. Save. Then click `continue`.
+- In `Article Component` choose `Article Text`. Save. Then click `continue`.
+
+
+For "XML EpiDoc download" in "Article Component" choose "TEI Source Document"
