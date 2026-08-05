@@ -88,7 +88,13 @@ Click on HTML
 
 Now choose `Change file`
 - Choose the XML file you saved on your desktop and click on upload. Save. Then click `continue`.
-- In `Article Component` choose `Article Text`. Save. Then click `continue`.
-
+- In `Article Component` you should find `Article Text`. Here you should not have to make any changes. Then click `continue`.
+- Click `continue` again. And then click `complete`.
 
 For "XML EpiDoc download" in "Article Component" choose "TEI Source Document"
+
+Now click schedule for publication. 
+
+Then click Publish. 
+
+Now it is done.
