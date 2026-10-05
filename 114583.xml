@@ -1,0 +1,1518 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS/tei_hes.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS/tei_hes.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader xmlns:hei="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS">
+      <fileDesc>
+         <titleStmt>
+            <title>Bulletin of Online Emendations to Papyri (BOEP) 13 (August 28, 2025)</title>
+            <author>
+               <persName>
+                  <forename>Rodney</forename>
+                  <surname>Ast</surname>
+               </persName>
+               <affiliation>Universität Heidelberg</affiliation>
+               <email>ast@uni-heidelberg.de</email>
+            </author>
+            <author>
+               <persName>
+                  <forename>Lajos</forename>
+                  <surname>Berkes</surname>
+               </persName>
+               <affiliation>Humboldt-Universität zu Berlin</affiliation>
+               <email>berkes.lajos@gmail.com</email>
+            </author>
+            <author>
+               <persName>
+                  <forename>James M.S.</forename>
+                  <surname>Cowey</surname>
+               </persName>
+               <affiliation>Universität Heidelberg</affiliation>
+               <email>james.cowey@urz.uni-heidelberg.de</email>
+            </author>
+            <author>
+               <persName>
+                  <forename>Holger</forename>
+                  <surname>Essler</surname>
+               </persName>
+               <affiliation>Università Ca'Foscari</affiliation>
+               <email>holger.essler@uni-wuerzburg.de</email>
+            </author>
+            <author>
+               <persName>
+                  <forename>Julia</forename>
+                  <surname>Lougovaya</surname>
+               </persName>
+               <affiliation>Universität Heidelberg</affiliation>
+               <email>lougovaya@uni-heidelberg.de</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2025">2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.8.5</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2025.8.114583</idno>
+         <listBibl><bibl ana="hc:RecommendedBibliographicReference">R. Ast, L. Berkes, J.M.S. Cowey, H. Essler, and J. Lougovaya, “Bulletin of Online Emendations to Papyri (BOEP) 13 (August 28, 2025),” Pylon 8 (2023) Article 5. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2025.8.114583">https://doi.org/10.48631/pylon.2025.8.114583</ref>.</bibl><biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">8</biblScope>
+                     <biblScope unit="article">5</biblScope>
+                     <date when="2025">2025</date>
+                  </imprint>
+               </monogr>
+            </biblStruct></listBibl></publicationStmt>
+         <sourceDesc>
+            
+            
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2025-12-01T14:53:51Z</date>
+               <persName/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader><text xmlns:hei="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS" ana="hc:CompleteExpression hc:BornDigitalExpression hc:ScholarlyArticle">
+      
+      <body>
+         <div rendition="hc:SuppressInTOC" type="article">
+            <p n="1" xml:id="p1">This installment of the Bulletin reports all emendation proposals to Greek, Latin and Coptic documentary and literary texts that were accepted to either the Duke Databank of Documentary Papyri (DDbDP) or the Digital Corpus of Literary Papyri (DCLP) via the <ref ana="hc:ExternalLink" target="http://www.papyri.info/editor/">Papyrological Editor (PE)</ref> between September 13, 2024 and August 28, 2025. We are pleased to say that the Bulletin has now surpassed 2000 corrections made directly through the editor to texts in papyri.info. Numbers in the left column are intended to be used to refer to the individual proposals.</p>
+            <p n="2" xml:id="p2">The new readings have been vetted by members of the PEʼs editorial board, with the occasional input of outside reviewers. They have not appeared previously in print and are presented together here for ease of reference and review. The arguments and evidence that were adduced to support them can be found in the “Editorial History” section at the bottom of the page following each text in papyri.info.</p>
+            <p n="3" xml:id="p3">Note on conventions: when a contributing author states explicitly that the proposed emendation has been checked against a published or publicly accessible photo or digital image we indicate this with the phrase ‛(from photo)ʼ. Information about the photo or a link to the image (or both) can be found at papyri.info in the header of the text in question. If an author has consulted a photo that is not in the public domain, we indicate this with ‛(from a photo)ʼ. If a reading has been verified against the original we write ‛(from original)ʼ.</p>
+            <p n="4" xml:id="p4">Papyrological citations are in accordance with J.D. Sosin et al. (eds), <ref ana="hc:ExternalLink" target="http://papyri.info/docs/checklist">Checklist of Editions of Greek, Latin, Demotic and Coptic Papyri, Ostraca and Tablets</ref>. PDFs of BOEP 1–9 are available at <ref ana="hc:ExternalLink" target="https://archiv.ub.uni-heidelberg.de/propylaeumdok/view/collections/c-19.type.html">PropylaeumDOK</ref>. As always, we are indebted to Carmen Lanz for her technical assistance in producing BOEP.</p>
+            <div xml:id="ch_1" ana="hc:Section" type="section">
+               <head>
+                  <emph ana="hc:StrongEmphasis">DDbDP</emph>
+               </head>
+               <table xml:id="tab1" ana="hc:ConnectedTable" rendition="hc:Embedded">
+                  <row xml:id="boep1874" n="1874">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bacps;30;23_1">BACPS 30 23_1</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">4</cell>
+                     <cell rendition="hc:FlushLeft">τοῦ (l. τοῖς) ἀντιγεούχ(οις) (αντιγεουχ(οισ) corr. ex οντιγεουχ) → τοῦ ἀντιγεούχ(ου), N. Gonis</cell>
+                  </row>
+                  <row xml:id="boep1875" n="1875">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;1;286">BGU 1 286</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1</cell>
+                     <cell rendition="hc:FlushLeft">ἡμῶν → ἡμ(ῶν), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1876" n="1876">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;1;286">BGU 1 286</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">10</cell>
+                     <cell rendition="hc:FlushLeft">μην[ῶν] → μῆνα̣ς̣, N. Gonis (from photo and parallels)</cell>
+                  </row>
+                  <row xml:id="boep1877" n="1877">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;1;323">BGU 1 323</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">3</cell>
+                     <cell rendition="hc:FlushLeft">κ̣τ̣  ̣[  ̣  ̣  ̣  ̣  ̣  ̣  ̣  ̣] → κ̣τ̣ή̣[τορος], N. Gonis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1878" n="1878">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;1;327">BGU 1 327</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1-3</cell>
+                     <cell rendition="hc:FlushLeft">διαδεχομένῳ καί → διαδεχομένῳ | καί, G. Schwendner (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1879" n="1879">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;1;338">BGU 1 338</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">2</cell>
+                     <cell rendition="hc:FlushLeft">λύχνον → λύχ&lt;ν&gt;ον, M.G. Elmaghrabi (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1880" n="1880">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;2;641">BGU 2 641</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1</cell>
+                     <cell rendition="hc:FlushLeft">Σαρήνῳ (l. Σερήνῳ) → Σερήνῳ, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1881" n="1881">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;2;644">BGU 2 644</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">6</cell>
+                     <cell rendition="hc:FlushLeft">πατ̣ρ̣ὸ̣ς̣ ἀδελφου → πατραδέλφου, W.G. Claytor (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1882" n="1882">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;2;644">BGU 2 644</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">8</cell>
+                     <cell rendition="hc:FlushLeft">&lt;τοῦ&gt; ἄλλου S.L. Lippert and M. Schentuleit, Fs. Jasnow (2022) 251 : Ἁπ̣λ̣οῦς ed.pr. → αἱ τοῦ, W.G. Claytor (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1883" n="1883">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;3;857">BGU 3 857</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1</cell>
+                     <cell rendition="hc:FlushLeft">Ψεύνι[ος] Ποσιδ̣ῶνος → Ἀ̣ρούντ[ιο]ς̣ Ποσιδώ̣νιος, W.G. Claytor (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1884" n="1884">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;4;1032">BGU 4 1032</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.12</cell>
+                     <cell rendition="hc:FlushLeft">[Ἰ]ούλ̣ι̣ο̣ν → Μ̣άρκον, R. Ast (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1885" n="1885">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;4;1069r">BGU 4 1069r</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.8</cell>
+                     <cell rendition="hc:FlushLeft">ἀφʼ → ἀφʼ (l. ἐφʼ), N. Litinas (from parallels)</cell>
+                  </row>
+                  <row xml:id="boep1886" n="1886">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;7;1636">BGU 7 1636</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">2.4</cell>
+                     <cell rendition="hc:FlushLeft">λ̣α̣χ̣[άνῳ] α → λ̣α̣χ̣[άνῳ (ἄρουρα)] α, N. Gonis</cell>
+                  </row>
+                  <row xml:id="boep1887" n="1887">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;7;1636">BGU 7 1636</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">2.4</cell>
+                     <cell rendition="hc:FlushLeft">καταβ̣( ) → καταβ̣(ρώματος), A. Stornaiuolo (cf. P.Berl.Leihg. 2 32.12)</cell>
+                  </row>
+                  <row xml:id="boep1888" n="1888">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;7;1636">BGU 7 1636</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">2.11</cell>
+                     <cell rendition="hc:FlushLeft">καταβ( ) → καταβ(ρώματι), A. Stornaiuolo (cf. P.Berl.Leihg. 2 32.12)</cell>
+                  </row>
+                  <row xml:id="boep1889" n="1889">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;7;1636">BGU 7 1636</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">3.21</cell>
+                     <cell rendition="hc:FlushLeft">Δ  ̣  ̣και  ̣σακ  ̣  ̣ → δρ(αγματηγίας) καὶ σακ(κηγίας), A. Stornaiuolo (from photo; cf. BL 2.2.33)</cell>
+                  </row>
+                  <row xml:id="boep1890" n="1890">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;7;1636">BGU 7 1636</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">3.37</cell>
+                     <cell rendition="hc:FlushLeft">κο( ) → κο(πῆς), N. Gonis (cf. SB 16 13035.47)</cell>
+                  </row>
+                  <row xml:id="boep1891" n="1891">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;7;1636">BGU 7 1636</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">3.38</cell>
+                     <cell rendition="hc:FlushLeft">καταβ( ) → καταβ(ρώματος), A. Stornaiuolo (cf. P.Berl.Leihg. II 32.12)</cell>
+                  </row>
+                  <row xml:id="boep1892" n="1892">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;8;1762">BGU 8 1762</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">4</cell>
+                     <cell rendition="hc:FlushLeft">Χαιρᾶ̣τ̣ι → Χαιρέ̣α̣ι, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1893" n="1893">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;9;1893">BGU 9 1893</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">6.159</cell>
+                     <cell rendition="hc:FlushLeft">Σ  ̣μ̣εω̣ς̣ → Σ[ο]ύ̣λ̣εω̣[ς], N. Gonis (from photo; cf. H.C. Youtie, ClPh 33, 1938, 426)</cell>
+                  </row>
+                  <row xml:id="boep1894" n="1894">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;9;1893">BGU 9 1893</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">10.306</cell>
+                     <cell rendition="hc:FlushLeft">Ἁρμιύ(σεως) → Ἑρμίο(υ), N. Gonis (from photo; cf. H.C. Youtie, ClPh 33, 1938, 426)</cell>
+                  </row>
+                  <row xml:id="boep1895" n="1895">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;12;2135">BGU 12 2135</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.4</cell>
+                     <cell rendition="hc:FlushLeft">Τ̣ελ̣εύτο[υ] → Π̣ετ̣εῦτο[ς], C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1896" n="1896">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;16;2607">BGU 16 2607</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.1</cell>
+                     <cell rendition="hc:FlushLeft">Ἀθηνοδώρωι τῶι ἀδελφῷ → Ἀθηνοδώρῳ τῷ ἀδελφῶι, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1897" n="1897">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;16;2607">BGU 16 2607</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.5-6</cell>
+                     <cell rendition="hc:FlushLeft">ἐνκέ|κληκα (l. ἐγκέ|κληκα) → ἐνκέ|κ̣λι̣κα (l. ἐγκέ|κλεικα), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1898" n="1898">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;16;2607">BGU 16 2607</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.25</cell>
+                     <cell rendition="hc:FlushLeft">ἵνʼ εἰδῇς μὴ στραγευση (l. στραγεῦσαι) → ἵνʼ εἰδῇς. μὴ στραγεύσῃ (l. στραγγεύσῃ), C. Balamoshev</cell>
+                  </row>
+                  <row xml:id="boep1899" n="1899">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;16;2637">BGU 16 2637</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.4</cell>
+                     <cell rendition="hc:FlushLeft">ἐπιμελῆσθαι → ἐ̣π̣ιμέ̣[λ]ε̣σθαι, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1900" n="1900">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;16;2637">BGU 16 2637</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.7</cell>
+                     <cell rendition="hc:FlushLeft">χειρουργει  ̣  ̣  ̣  ̣  ̣[ → χειρουργεῖσ̣θ̣α̣ι̣   ̣  ̣[, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1901" n="1901">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;16;2637">BGU 16 2637</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.9</cell>
+                     <cell rendition="hc:FlushLeft">φροντίζοις [  ̣  ̣] → φροντίζον[τα], C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1902" n="1902">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;16;2657">BGU 16 2657</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.16</cell>
+                     <cell rendition="hc:FlushLeft">πειθανάγκην → πειθανάγκης, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1903" n="1903">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;16;2658">BGU 16 2658</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">5</cell>
+                     <cell rendition="hc:FlushLeft">[  ̣  ̣  ̣  ̣]  ̣αν ἔχονταί → [οὐ]κ̣ ἀ̣νέχονταί, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1904" n="1904">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;16;2669">BGU 16 2669</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1.5</cell>
+                     <cell rendition="hc:FlushLeft">κλ{ε}ίναι → κλεῖναι (l. κλῖναι), C. Balamoshev</cell>
+                  </row>
+                  <row xml:id="boep1905" n="1905">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;16;2669">BGU 16 2669</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">2.19</cell>
+                     <cell rendition="hc:FlushLeft">κιβώ[τι]ον → κιβω[τ]ός̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1906" n="1906">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;16;2669">BGU 16 2669</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">3.35</cell>
+                     <cell rendition="hc:FlushLeft">ἐν ἱματιοφοριν δερματίνῃ (l. ἱματιοφορίῳ δερματίνῳ or ἐν ἱματιοφορίδι δερματίνῃ) → ἱματιοφορίδι δερματίν\ῃ/, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1907" n="1907">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;19;2775">BGU 19 2775</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">6</cell>
+                     <cell rendition="hc:FlushLeft">πλοῖ[ον ἁπλ]ῶς → πλοῖ[ο]ν̣ [τέ(?)]ως, C. Balamoshev</cell>
+                  </row>
+                  <row xml:id="boep1908" n="1908">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/bgu;19;2775">BGU 19 2775</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">11</cell>
+                     <cell rendition="hc:FlushLeft">ἀπειλοῦντε&lt;ς&gt; → ἀπειλοῦντες, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1909" n="1909">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/chla;43;1247">Ch.L.A. 43 1247</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">4</cell>
+                     <cell rendition="hc:FlushLeft">praes(es) → pres(es) (l. praes(es)), G. Papaioannou (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1910" n="1910">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/chla;43;1247">Ch.L.A. 43 1247</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">12</cell>
+                     <cell rendition="hc:FlushLeft">praes(es) → pres(es) (l. praes(es)), G. Papaioannou (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1911" n="1911">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/chr.mitt;;277">Chrest.Mitt. 277</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">13</cell>
+                     <cell rendition="hc:FlushLeft">ἡμίσειαν → ἡμίσιαν (l. ἡμίσειαν), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1912" n="1912">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/chr.mitt;;277">Chrest.Mitt. 277</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">21</cell>
+                     <cell rendition="hc:FlushLeft">  ̣  ̣  ̣ β̣  ̣  ̣φ̣  ̣ ους →  ̣  ̣ κολ̣[ο]βοφυοῦς, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1913" n="1913">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/chr.mitt;;277">Chrest.Mitt. 277</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">24</cell>
+                     <cell rendition="hc:FlushLeft">τ̣ούτων  ̣  ̣  ̣ο̣ μου → σου τ  ̣  ̣  ̣  ̣ομου or σου τ  ̣  ̣  ̣  ̣ ὁμοῦ, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1914" n="1914">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/chr.mitt;;316">Chrest.Mitt. 316</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.2dupl.22</cell>
+                     <cell rendition="hc:FlushLeft">προκείμενον → προκίμενον (l. προκείμενον), G. Schwender (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1915" n="1915">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/chr.wilck;;219">Chrest.Wilck. 219</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">2.6</cell>
+                     <cell rendition="hc:FlushLeft">Ταα̣μ̣τίου → Ταωτίου, B. Borrelli (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1916" n="1916">
+                     <cell rendition="hc:FlushLeft">
+                       <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/cpr;7;57">CPR 7 57</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.14–15</cell>
+                     <cell rendition="hc:FlushLeft">θ̣αῦμα | ὅ̣τ̣ι̣ οὐδέπως → θαυμά|ζω δὲ πῶς, C. Balamoshev (from photo)</cell>
+                  </row> 
+ <row xml:id="boep1917" n="1917">
+                     <cell rendition="hc:FlushLeft">
+<ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/cpr;35;38">CPR 35 38</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">4</cell>
+                     <cell rendition="hc:FlushLeft">πρυτάνε&lt;ως&gt; corr. ex πρυτανσ → πρυτάνε&lt;ω&gt;ς, N. Gonis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1918" n="1918">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/ddbdp;2000;1">DDbDP 2000 1</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">2</cell>
+                     <cell rendition="hc:FlushLeft">ἱερ(ῶν) → ἱερ(ατικῶν), N. Gonis (cf. O.Cair. 106.2 n.)</cell>
+                  </row>
+                  <row xml:id="boep1919" n="1919">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/ddbdp;2020;7">DDbDP 2020 7</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">5</cell>
+                     <cell rendition="hc:FlushLeft">(hand 2) στοι(χεῖ) → monogr., N. Gonis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1920" n="1920">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/ddbdp;2020;8">DDbDP 2020 8</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">6</cell>
+                     <cell rendition="hc:FlushLeft">(hand 2) στοι(χεῖ) → monogr., N. Gonis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1921" n="1921">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/ddbdp;2020;9">DDbDP 2020 9</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">5</cell>
+                     <cell rendition="hc:FlushLeft">(hand 2) στοι(χεῖ) → monogr., N. Gonis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1922" n="1922">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/jjp;52;11">JJP 52 11</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">i.11</cell>
+                     <cell rendition="hc:FlushLeft">βελ( ) → Βελ(λῆτος), W.G. Claytor (parallels)</cell>
+                  </row>
+                  <row xml:id="boep1923" n="1923">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/jjp;52;11">JJP 52 11</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">i.15</cell>
+                     <cell rendition="hc:FlushLeft">βελλ( ) → Βελλ(ῆτος), W.G. Claytor (parallels)</cell>
+                  </row>
+                  <row xml:id="boep1924" n="1924">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/o.deiss;;34">O.Deiss. 34</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1-3</cell>
+                     <cell rendition="hc:FlushLeft">Κάλλων[ος] | vac.? κα̣[ὶ] | μέτο̣χ(οι) τελ(ῶναι) → καὶ̣ τ̣ῶν | μετό̣χ(ων) τελ(ωνῶν), N. Gonis (from photo, after O.Heid. p. 147 n. 7)</cell>
+                  </row>
+                  <row xml:id="boep1925" n="1925">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/o.heid;;286">O.Heid. 286</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1</cell>
+                     <cell rendition="hc:FlushLeft">Με(μνονείων) ιγ → Με(μνονείων) γενήμ(ατος) ιγ, N. Gonis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1926" n="1926">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/o.kell;;102">O.Kell. 102</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.6</cell>
+                     <cell rendition="hc:FlushLeft">π̣αντ( ) → Παντ(ωνύμου), R.S. Bagnall (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1927" n="1927">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/o.lund;;5">O.Lund. 5</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">5</cell>
+                     <cell rendition="hc:FlushLeft">Πορεγέβ(θους) → Πορεγέβ(θιος), N. Gonis (from parallels)</cell>
+                  </row>
+                  <row xml:id="boep1928" n="1928">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/o.ont.mus;1;19">O.Ont.Mus. 1 19</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">5</cell>
+                     <cell rendition="hc:FlushLeft">(δυόβολον) BL 8.528 : (διώβολον) (χαλκοῖ δ) ed.pr. → (διώβολον) (ἡμιωβέλιον), N. Gonis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1929" n="1929">
+                     <cell rendition="hc:FlushLeft">
+<ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/o.theb;;18">O.Theb. 18</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">2</cell>
+                     <cell rendition="hc:FlushLeft">Ψεμώ(νθεως) → Ψεμώ(νθου), N. Gonis (cf. O.Theb. 19.2, with BL 2.1.34)</cell>
+                  </row>
+<row xml:id="boep1930" n="1930">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/o.theb;;22">O.Theb. 22</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">2</cell>
+                     <cell rendition="hc:FlushLeft">θησαυρόν → θη(σαυρόν), N. Gonis (from photo)</cell>
+                  </row>
+<row xml:id="boep1931" n="1931">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/o.theb;;104">O.Theb. 104</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">6</cell>
+                     <cell rendition="hc:FlushLeft">̅κ̅α → ̅κ̅ζ, N. Gonis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1932" n="1932">
+                     <cell rendition="hc:FlushLeft">
+<ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/o.theb;;122">O.Theb. 122</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">4</cell>
+                     <cell rendition="hc:FlushLeft">Παῦνι → Παῦ(νι), N. Gonis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1933" n="1933">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/o.theb;;122">O.Theb. 122</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">8</cell>
+                     <cell rendition="hc:FlushLeft">Φ(ιλ ) BL 2.1.40 : Φ( ) ed.pr. → Φιλ( ), N. Gonis (from photo; cf. O.Stras. 2, pp. 166–7 with n. 580)</cell>
+                  </row>
+                   <row xml:id="boep1934" n="1934">
+                     <cell rendition="hc:FlushLeft">
+<ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/o.theb;;131">O.Theb. 131</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">7</cell>
+                     <cell rendition="hc:FlushLeft">(γίνονται) vac.? → (γίνονται) ε, N. Gonis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1935" n="1935">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/o.wilck;;752">O.Wilck. 752</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">4</cell>
+                     <cell rendition="hc:FlushLeft">Traces → Ἀ̣ν̣τ(ιγένης), N. Gonis (from photo, after BL 6.215)</cell>
+                  </row>
+                  <row xml:id="boep1936" n="1936">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.bas;2;43">P.Bas. 2 43</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">8</cell>
+                     <cell rendition="hc:FlushLeft">μν̣ί̣σαι (l. μνῆσαι) → λαλ̣ῆ̣σαι, L. Berkes (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1937" n="1937">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.berl.leihg;2;30">P.Berl.Leihg. 2 30</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">14</cell>
+                     <cell rendition="hc:FlushLeft">(γίνεται) [τὸ προκείμενον] → (γίνονται) [αἱ π(ροκείμεναι)], N. Gonis</cell>
+                  </row>
+                  <row xml:id="boep1938" n="1938">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.bour;;12">P.Bour. 12</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.18</cell>
+                     <cell rendition="hc:FlushLeft">ὑπάρ|χητε → ὑπάρ|χηιτε (l. ὑπάρ|χητε), B. Laudenbach (from original)</cell>
+                  </row>
+                  <row xml:id="boep1939" n="1939">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.bour;;12">P.Bour. 12</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.20</cell>
+                     <cell rendition="hc:FlushLeft">→ —— (paragraphos), B. Laudenbach (from original)</cell>
+                  </row>
+                  <row xml:id="boep1940" n="1940">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.cair.goodsp;;13">P.Cair.Goodsp. 13</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1</cell>
+                     <cell rendition="hc:FlushLeft">ἐποκίας (l. ἐπο&lt;ι&gt;κίας) → ἐποκίο̣υ̣ (l. ἐποικίου), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1941" n="1941">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.cair.goodsp;;13">P.Cair.Goodsp. 13</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">9</cell>
+                     <cell rendition="hc:FlushLeft">κυρίαν → κυρίαν (l. κυριείαν), C. Balamoshev (from parallels)</cell>
+                  </row>
+                  <row xml:id="boep1942" n="1942">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.cair.goodsp;;13">P.Cair.Goodsp. 13</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">12</cell>
+                     <cell rendition="hc:FlushLeft">ἥ τε ἔφοδος BL 1.172 : ἡ ἔφοδος ed.pr. → &lt;ἥ&gt; τʼ ἔφοδος, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1943" n="1943">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.cair.isid;;127">P.Cair.Isid. 127</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1</cell>
+                     <cell rendition="hc:FlushLeft">Ο[ὐ]αλε̣[ρίῳ]  ̣  ̣  ̣  ̣ [  ̣  ̣ ]απίωνι → Οὐ̣αλε̣ρ̣ίῳ Σαραπίωνι, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1944" n="1944">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.cair.mich;3;8_1">P.Cair.Mich. 3 8_1</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">17</cell>
+                     <cell rendition="hc:FlushLeft">[- ca.15 - περὶ κώμην] → [- ca.20 - περὶ] or [- ca.14 - περὶ πέδιον], W.G. Claytor (cf. Selim, PapCongr. 27, pp. 1979–1980)</cell>
+                  </row>
+                  <row xml:id="boep1945" n="1945">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.cair.mich;3;8_2">P.Cair.Mich. 3 8_2</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">i.20</cell>
+                     <cell rendition="hc:FlushLeft">[- ca.12 - περὶ κώμην] → [- ca.17 - περὶ] or [- ca.12 - περὶ πέδιον], W.G. Claytor (cf. Selim, PapCongr. 27, pp. 1979–1980)</cell>
+                  </row>
+                  <row xml:id="boep1946" n="1946">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.col;7;171">P.Col. 7 171</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1</cell>
+                     <cell rendition="hc:FlushLeft">Καίσων̣ι πραιπ(οσίτῳ) → καὶ Σωτᾷ πραιπ(οσίτοις), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1947" n="1947">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.col;7;171">P.Col. 7 171</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">10</cell>
+                     <cell rendition="hc:FlushLeft">μεγα (l. μεγά&lt;λῳ&gt;) ῥοπάλῳ → μετὰ ῥοπάλων̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1948" n="1948">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.coll.youtie;2;79">P.Coll.Youtie 2 79</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">17</cell>
+                     <cell rendition="hc:FlushLeft"> ] ̣  ̣  ̣  ̣ → ] ̣  ̣  ̣ ὁ, W.G. Claytor (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1949" n="1949">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.coll.youtie;2;79">P.Coll.Youtie 2 79</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">17</cell>
+                     <cell rendition="hc:FlushLeft">  ̣  ̣  ̣  ̣[ -ca.?- ]ς → Σερπιο̣ς, C. Balamoshev – N. Gonis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1950" n="1950">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.edfou;1;2">P.Edfou 1 2</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.2</cell>
+                     <cell rendition="hc:FlushLeft">Ἄπα Δῖος (l. Δίου) BL 8.118 : Ἀπάδιος ed.pr. → Ἄπα Δίου, L. Berkes (from a photo)</cell>
+                  </row>
+                  <row xml:id="boep1951" n="1951">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.edfou;1;2">P.Edfou 1 2</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.10</cell>
+                     <cell rendition="hc:FlushLeft">ἀσφ(άλειον) → ἀσφ(αλές), N. Gonis (from a photo)</cell>
+                  </row>
+                  <row xml:id="boep1952" n="1952">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.edfou;1;2">P.Edfou 1 2</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.12</cell>
+                     <cell rendition="hc:FlushLeft">Κ  ̣[  ̣  ̣  ̣] → Κῦρ̣[ος], L. Berkes (from a photo)</cell>
+                  </row>
+                  <row xml:id="boep1953" n="1953">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.edfou;1;2">P.Edfou 1 2</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.13</cell>
+                     <cell rendition="hc:FlushLeft">ἀσφαλεί(ῳ) → ἀσφαλεῖ, L. Berkes (from a photo)</cell>
+                  </row>
+                  <row xml:id="boep1954" n="1954">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.eleph.wagner;1;38">P.Eleph.Wagner 1 38</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">5</cell>
+                     <cell rendition="hc:FlushLeft">[κ (ἔτους)] → [ ̣ ̣(ἔτους)], N. Gonis</cell>
+                  </row>
+                  <row xml:id="boep1955" n="1955">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.genova;1;10">P.Genova 1 10</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">3</cell>
+                     <cell rendition="hc:FlushLeft">τῇ → τῆι̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1956" n="1956">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.genova;1;10">P.Genova 1 10</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">6</cell>
+                     <cell rendition="hc:FlushLeft">ἡδῖαν (l. ἡδεῖαν) → ἥδιον, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1957" n="1957">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.genova;1;10">P.Genova 1 10</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">6</cell>
+                     <cell rendition="hc:FlushLeft">ποιω[ -ca.?- ] → ποιῶ, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1958" n="1958">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.genova;1;35">P.Genova 1 35</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1</cell>
+                     <cell rendition="hc:FlushLeft">ἐπ̣[ερωτηθεὶς ὡμολόγησα.] BL 7.275 : ε  ̣ [ -ca.?- ] ed.pr. → ἐπ̣[ερωτηθέντες ὡμολόγησαμεν.], N. Gonis (from photo; cf. l. 3)</cell>
+                  </row>
+                  <row xml:id="boep1959" n="1959">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.gron;;9">P.Gron. 9</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.2</cell>
+                     <cell rendition="hc:FlushLeft">ἐποικ[ίου   ̣  ̣  ̣  ̣  ̣  ̣  ̣  ̣] → ἐποικί̣[ου Κολοφoνίου (?)], C. Balamoshev (cf. l. 8)</cell>
+                  </row>
+                  <row xml:id="boep1960" n="1960">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.gron;;9">P.Gron. 9</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.4</cell>
+                     <cell rendition="hc:FlushLeft">Ἀκα̣μ̣ο̣ύ̣σ̣α̣ι̣ α̣ὐτο̣[  ̣  ̣  ̣  ̣] → Ἀκάμου̣ Σαρ̣μάτο[υ  ̣  ̣  ̣  ̣], C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1961" n="1961">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.gron;;9">P.Gron. 9</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.8</cell>
+                     <cell rendition="hc:FlushLeft">Κολο  ̣  ̣σ̣ο̣ν̣  ̣  ̣  ̣ → Κολοφ̣ονίο̣υ (l. Κολοφωνίου), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1962" n="1962">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.harr;3;244">P.Harr. 3 244</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">6</cell>
+                     <cell rendition="hc:FlushLeft">ἀνα&lt;π&gt;λέοντος → ἀναπλέοντος, R. Ast (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1963" n="1963">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.harr;3;254">P.Harr. 3 254</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">3</cell>
+                     <cell rendition="hc:FlushLeft">Θώνιος → Θῶνις, R. Ast (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1964" n="1964">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.harr;3;309">P.Harr. 3 309</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">3</cell>
+                     <cell rendition="hc:FlushLeft">μὴ Διονυσαγόρας ἀγοράσ\ῃ/ → {μὴ} Διονῦς \μὴ/ ἀγοράσῃ, W.G. Claytor (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1965" n="1965">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.heid;2;215">P.Heid. 2 215</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">9</cell>
+                     <cell rendition="hc:FlushLeft">ἐν Ταλῆθι → ἐντάληθι (l. ἔντειλαι), C. Balamoshev</cell>
+                  </row>
+                  <row xml:id="boep1966" n="1966">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.herm;;52dupl">P.Herm. 52dupl</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">7-8</cell>
+                     <cell rendition="hc:FlushLeft">ἐν Θα  ̣  ̣  ̣  ̣ε̣ιν | [ἅπαν]τ̣α → ἔνθα ἀ̣πόκειν|[ται] τά, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1967" n="1967">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.herm;;52dupl">P.Herm. 52dupl</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">8</cell>
+                     <cell rendition="hc:FlushLeft">  ̣ ο̣λ̣  ̣  ̣ο̣ς̣ → οὖσ̣αν (l. οὔσῃ), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1968" n="1968">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.herm;;52dupl">P.Herm. 52dupl</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">8</cell>
+                     <cell rendition="hc:FlushLeft">Τυχε̣ί̣ῳ → Τυχέῳ (l. Τυχαίῳ), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1969" n="1969">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.iand;2;19">P.Iand. 2 19</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1</cell>
+                     <cell rendition="hc:FlushLeft">ἀγγέλους → ἀπέλυσα, L. Berkes (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1970" n="1970">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.iand;2;19">P.Iand. 2 19</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1</cell>
+                     <cell rendition="hc:FlushLeft">τα̣[ξεώ]τ̣[ην -ca.?- ] → τ  ̣[  ̣]τ̣[ -ca.?- ], L. Berkes (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1971" n="1971">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.iand;2;19">P.Iand. 2 19</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">4</cell>
+                     <cell rendition="hc:FlushLeft">☓ → †, N. Gonis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1972" n="1972">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.iand;6;119">P.Iand. 6 119</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">6</cell>
+                     <cell rendition="hc:FlushLeft">Traces → [  ̣  ̣  ̣  ̣  ̣  ̣  ̣  ̣ κ]ώ̣μης ̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1973" n="1973">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.ital;1;4_5">P.Ital. 1 4_5</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">B.VI.13</cell>
+                     <cell rendition="hc:FlushLeft">ind(ictione) → indict(ione), G. Papaioannou (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1974" n="1974">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.laur;3;94">P.Laur. 3 94</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1</cell>
+                     <cell rendition="hc:FlushLeft">Ἕλλων → Ἑλλῶτι (l. Ἑλλῶς), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1975" n="1975">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.laur;3;94">P.Laur. 3 94</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">4</cell>
+                     <cell rendition="hc:FlushLeft">Ἕλλων → Ἑλλῶς, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1976" n="1976">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.lips;1;21">P.Lips. 1 21</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.6</cell>
+                     <cell rendition="hc:FlushLeft">Λ̣  ̣  ̣  ̣θε(ου) → Λαμαθε, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1977" n="1977">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.lips;1;21">P.Lips. 1 21</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">v.1</cell>
+                     <cell rendition="hc:FlushLeft">  ̣  ̣εαθε(ου) → Λαμαθε, C. Balamoshev</cell>
+                  </row>
+                  <row xml:id="boep1978" n="1978">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.lips;1;43">P.Lips. 1 43</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">19</cell>
+                     <cell rendition="hc:FlushLeft">  ̣  ̣έξασθαι → τ̣ε̣ύ̣ξασθαι, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1979" n="1979">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.lips;1;55">P.Lips. 1 55</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.11</cell>
+                     <cell rendition="hc:FlushLeft">ἀποσειν (l. ἀπο&lt; ̣  ̣  ̣ &gt;σειν) BL 1.209 : ἀνασχεῖν ed.pr. → ἀγαγ̣εῖν, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1980" n="1980">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.lund;2;5">P.Lund 2 5</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.21</cell>
+                     <cell rendition="hc:FlushLeft">(τάλαντα) Ηωϛ BL 8.205 : (τάλαντα(?)) Η ὡς ed.pr. → τήως (l. τέως), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1981" n="1981">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.lund;2;5">P.Lund 2 5</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.21–22</cell>
+                     <cell rendition="hc:FlushLeft">με|τά → με|τέ (l. με|τά), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1982" n="1982">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.mert;2;80">P.Mert. 2 80</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.8</cell>
+                     <cell rendition="hc:FlushLeft">ἀνέφ̣αινε → ἀνέμ̣ινε (l. ἀνέμεινε), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1983" n="1983">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.mert;2;80">P.Mert. 2 80</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.12</cell>
+                     <cell rendition="hc:FlushLeft">ἐστὶ τ̣ί̣ → ἐστίν̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1984" n="1984">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.mich;15;738">P.Mich. 15 738</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">5</cell>
+                     <cell rendition="hc:FlushLeft">κωλυ  ̣  ̣  ̣  ̣ → κωλυον̣  ̣  ̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1985" n="1985">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.mich;15;738">P.Mich. 15 738</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">9</cell>
+                     <cell rendition="hc:FlushLeft">[ -ca.?- το]ῦ → [  ̣  ̣]  ̣ καθ’ ἑκάστης̣ τ̣ο̣ῦ, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1986" n="1986">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.mich;15;738">P.Mich. 15 738</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">10</cell>
+                     <cell rendition="hc:FlushLeft">Traces 1 line → [ -ca.?- ]ι̣ουμ̣εν̣[- ca.5 -]κ[ -ca.?- ], C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1987" n="1987">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oslo;2;64">P.Oslo 2 64</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">v.13</cell>
+                     <cell rendition="hc:FlushLeft">Κα̣μ̣  ̣  ̣ῃ → Ἰωά̣νῃ (l. Ἰωάννῃ), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1988" n="1988">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oslo;3;161">P.Oslo 3 161</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.18</cell>
+                     <cell rendition="hc:FlushLeft">ἐπεχθῆναι (l. ἐπαχθῆναι) → ἐνεχθῆναι, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1989" n="1989">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;12;1469">P.Oxy. 12 1469</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.2</cell>
+                     <cell rendition="hc:FlushLeft">Πιβήμιος → Πιβήκ̣ιος, C. Balamoshev (cf. l. 23)</cell>
+                  </row>
+                  <row xml:id="boep1990" n="1990">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;12;1469">P.Oxy. 12 1469</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">v.23</cell>
+                     <cell rendition="hc:FlushLeft">Πιβῆμις → Πιβῆκις, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1991" n="1991">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;12;1494">P.Oxy. 12 1494</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.9</cell>
+                     <cell rendition="hc:FlushLeft">ἀσπαζομ (l. ἀσπάζομ&lt;αι&gt;) → ἀσπάζω, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1992" n="1992">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;12;1494">P.Oxy. 12 1494</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.11</cell>
+                     <cell rendition="hc:FlushLeft">τὴν δούλην → τὸ̣[ν] δο̣ῦ̣λον, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1993" n="1993">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;12;1494">P.Oxy. 12 1494</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.12</cell>
+                     <cell rendition="hc:FlushLeft">Ἀχειλλί̣δαν corr. ex αχειλλ  ̣  ̣  ̣ν̣ → Ἀχειλλέαν corr. ex αχειλλεον (l. Ἀχιλλέα), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1994" n="1994">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;12;1494">P.Oxy. 12 1494</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.17</cell>
+                     <cell rendition="hc:FlushLeft">ὡς → ξ̣ϛ̣ or ξ̣ ὡ̣ς, W.G. Claytor (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1995" n="1995">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;16;1931">P.Oxy. 16 1931</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.5</cell>
+                     <cell rendition="hc:FlushLeft">κατὰ κεφαλον̣ N. Gonis, ZPE 233 (2025) 138 : κατὰ κεφάλε̣ο̣ν̣ (l. κεφάλαιον) ed.pr. → κατακέφαλον̣ (l. κατακέφαλα), C. Balamoshev</cell>
+                  </row>
+                  <row xml:id="boep1996" n="1996">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;20;2267">P.Oxy. 20 2267</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.2</cell>
+                     <cell rendition="hc:FlushLeft">χρηματίζωι (l. χρηματίζω) → χρηματίζων, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1997" n="1997">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;20;2267">P.Oxy. 20 2267</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.6</cell>
+                     <cell rendition="hc:FlushLeft">φιλοπ̣ρ̣α̣γ̣ματίας (l. φιλοπραγματείας) → φιλοχ̣ρηματίας, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1998" n="1998">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;20;2267">P.Oxy. 20 2267</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.7</cell>
+                     <cell rendition="hc:FlushLeft">εισμου → σισμούς (l. σεισμούς), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep1999" n="1999">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;20;2267">P.Oxy. 20 2267</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.13</cell>
+                     <cell rendition="hc:FlushLeft">ζ → ξ, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2000" n="2000">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;22;2348">P.Oxy. 22 2348</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">2.47</cell>
+                     <cell rendition="hc:FlushLeft">Εὐτυχοῦς Ἐπείφ → Εὐτυχοῦς Σεβαστοῦ Ἐπείφ, G.W. Schwendner (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2001" n="2001">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;24;2421">P.Oxy. 24 2421</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1.15</cell>
+                     <cell rendition="hc:FlushLeft">Ἁγία → Ἀπ[ί]α, N. Gonis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2002" n="2002">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;24;2421">P.Oxy. 24 2421</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1.18</cell>
+                     <cell rendition="hc:FlushLeft">[  ̣]μ̣[  ̣]  ̣ονιον → [Ἀ]μ̣[α]ζ̣όνιον, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2003" n="2003">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;31;2585">P.Oxy. 31 2585</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">9</cell>
+                     <cell rendition="hc:FlushLeft">ἐκ τοῦ → ἐκ τοῦ (l. ἐν τοῖς), C. Balamoshev (from parallels)</cell>
+                  </row>
+                  <row xml:id="boep2004" n="2004">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;31;2585">P.Oxy. 31 2585</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">9</cell>
+                     <cell rendition="hc:FlushLeft">ε̣[ἴ]κ̣οσ̣ι̣ BL 6.110 :  ̣ [  ̣ ]  ̣οσ̣ι̣ ed.pr. → ν̣[ό]τ̣ον, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2005" n="2005">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;31;2588">P.Oxy. 31 2588</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">2-3</cell>
+                     <cell rendition="hc:FlushLeft">γυ|μνασιαρχηκότων → &lt;γε&gt;γυ|μνασιαρχηκότων, F. Reiter</cell>
+                  </row>
+                  <row xml:id="boep2006" n="2006">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;36;2771">P.Oxy. 36 2771</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.4</cell>
+                     <cell rendition="hc:FlushLeft">ἄδωκα (l. ἔδωκα) → αἴ̣δωκα (l. ἔδωκα), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2007" n="2007">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;42;3060">P.Oxy. 42 3060</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.1</cell>
+                     <cell rendition="hc:FlushLeft">Πτολεμα[ῖ]ος → Πτολεμ̣ᾶς, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2008" n="2008">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;42;3060">P.Oxy. 42 3060</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.8</cell>
+                     <cell rendition="hc:FlushLeft">  ̣ [  ̣]  ̣γ̣  ̣α → [ἀ]ν̣γῖα (l. [ἀ]γγεῖα), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2009" n="2009">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;42;3060">P.Oxy. 42 3060</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.12</cell>
+                     <cell rendition="hc:FlushLeft">Τρύφωνα ἤ → Τρυφωνᾶτι, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2010" n="2010">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;42;3060">P.Oxy. 42 3060</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.12</cell>
+                     <cell rendition="hc:FlushLeft">κυρ̣ί̣αν → συρίαν, W.B. Henry (from autopsy)</cell>
+                  </row>
+                  <row xml:id="boep2011" n="2011">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;42;3060">P.Oxy. 42 3060</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.13</cell>
+                     <cell rendition="hc:FlushLeft">ὑποτέθειμαι → ὑποτέθιμαι (l. ὑποτέθειμαι), W.B. Henry (via autopsy)</cell>
+                  </row>
+                  <row xml:id="boep2012" n="2012">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;42;3060">P.Oxy. 42 3060</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.16</cell>
+                     <cell rendition="hc:FlushLeft">Τρύφωνος → Τρυφωνᾶτος, W.B. Henry (from autopsy)</cell>
+                  </row>
+                  <row xml:id="boep2013" n="2013">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;42;3060">P.Oxy. 42 3060</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">v.17</cell>
+                     <cell rendition="hc:FlushLeft">Πτολεμα⟦λεμ⟧ίου → Πτολεμαᾶδο̣ς̣ (l. Πτολεμᾶτος), W.B. Henry (from autopsy)</cell>
+                  </row>
+                  <row xml:id="boep2014" n="2014">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.oxy;42;3060">P.Oxy. 42 3060</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">v.17</cell>
+                     <cell rendition="hc:FlushLeft">ἀδε̣λ̣φ̣ο̣ῦ̣ → ἀ̣δ̣ελφῆ̣ς̣, W.B. Henry (from autopsy)</cell>
+                  </row>
+                  <row xml:id="boep2015" n="2015">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.princ;2;65">P.Princ. 2 65</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.12</cell>
+                     <cell rendition="hc:FlushLeft">λ̣ωιεαρ̣ πο̣δ̣[ι]σ̣θήτωι (l. ποδισθήτω) → μὴ ἐνποδ̣[ι]σ̣θήτωι (l. ἐμποδισθήτω), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2016" n="2016">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.princ;2;77">P.Princ. 2 77</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">8-9</cell>
+                     <cell rendition="hc:FlushLeft">αὐ|[ -ca.?- ] → αὐ|[τῆς -ca.?- ], C. Balamoshev (from parallels)</cell>
+                  </row>
+                  <row xml:id="boep2017" n="2017">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.princ;3;179">P.Princ. 3 179</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.7</cell>
+                     <cell rendition="hc:FlushLeft">ειτ̣  ̣  ̣  ̣[ -ca.?- ] → ἐλλογ̣[ιμότητι -ca.?- ], T.M. Hickey (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2018" n="2018">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.ross.georg;5;66">P.Ross.Georg. 5 66</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1.4</cell>
+                     <cell rendition="hc:FlushLeft">Ἀ̣βρα(άμ) → Ἀ̣βρα(αμίου), N. Gonis (cf. BL 8.293)</cell>
+                  </row>
+                  <row xml:id="boep2019" n="2019">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.ryl;4;648">P.Ryl. 4 648</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1-2</cell>
+                     <cell rendition="hc:FlushLeft">το(ῦ) | περὶ νο  ̣  ̣( ) τῷ → τοπ(αρχίας) Περὶ Πόλ(ιν) Κ̣ά̣τω, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2020" n="2020">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.ryl;4;648">P.Ryl. 4 648</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">7</cell>
+                     <cell rendition="hc:FlushLeft">̣ο̣υψ → Β̣ουσί(ρεως), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2021" n="2021">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.ryl;4;648">P.Ryl. 4 648</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">9</cell>
+                     <cell rendition="hc:FlushLeft">Σέλλεχ → Σελλέχ(μη), C. Balamoshev (from photo; cf. BL 12.171)</cell>
+                  </row>
+                  <row xml:id="boep2022" n="2022">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.ryl;4;650">P.Ryl. 4 650</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1</cell>
+                     <cell rendition="hc:FlushLeft">ἐργάτ(ης) → ἀργάτ(ης) (l. ἐργάτ(ης)), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2023" n="2023">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.ryl;4;650">P.Ryl. 4 650</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1</cell>
+                     <cell rendition="hc:FlushLeft">πηλοαρτ( ) → πηλοάρτ(ης), C. Balamoshev (from parallels)</cell>
+                  </row>
+                  <row xml:id="boep2024" n="2024">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.ryl;4;650">P.Ryl. 4 650</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">5</cell>
+                     <cell rendition="hc:FlushLeft">ἐργάτ(αι) → ἀργάτ(αι) (l. ἐργάτ(αι)), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2025" n="2025">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.sakaon;;4">P.Sakaon 4</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1.3</cell>
+                     <cell rendition="hc:FlushLeft">ἰνδικτίωνος → ἰνδικτίονος, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2026" n="2026">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.sakaon;;4">P.Sakaon 4</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1.4</cell>
+                     <cell rendition="hc:FlushLeft">ἱερεως (l. ἱερεύς) → ἱερεύς, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2027" n="2027">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.sakaon;;4">P.Sakaon 4</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">2.12</cell>
+                     <cell rendition="hc:FlushLeft">Σερᾶτο(ς) → Ἑρμᾶ, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2028" n="2028">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.sakaon;;4">P.Sakaon 4</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">2.13</cell>
+                     <cell rendition="hc:FlushLeft">Καγ̣όλ → Κανολ, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2029" n="2029">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.soter;;3">P.Soter. 3</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">26</cell>
+                     <cell rendition="hc:FlushLeft">τετραχοιν̣[ίκωι] → τετραχοινε̣ί̣[κωι] (l. τετραχοινί[κωι]), V. Iannace (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2030" n="2030">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.thomas;;14">P.Thomas 14</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.6-7</cell>
+                     <cell rendition="hc:FlushLeft">Παν  ̣μ̣αυ|λ̣ης → Παν̣βαυ|λ̣ης, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2031" n="2031">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.thomas;;14">P.Thomas 14</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.12</cell>
+                     <cell rendition="hc:FlushLeft">ἐκεῖθεν → ἐκεῖ ἔ[σ]ω̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2032" n="2032">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.thomas;;14">P.Thomas 14</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.13</cell>
+                     <cell rendition="hc:FlushLeft">γρά̣[μ]μ̣α̣ BL 12.283 : πρ̣  ̣[  ̣]  ̣  ̣[ -ca.?- ] ed.pr. → γρά̣[ψα]ι̣ ἤ̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2033" n="2033">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/p.thomas;;14">P.Thomas 14</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">v.1</cell>
+                     <cell rendition="hc:FlushLeft">οἰ{π}νοπωλήτῃ → οἰπνοπώλῃ π(αρά) (l. οἰνοπώλῃ), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2034" n="2034">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/psi;7;783">PSI 7 783</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">B.17</cell>
+                     <cell rendition="hc:FlushLeft">ολ[  ̣  ̣]ος → ὀλ[ί]γ̣ος, N. Gonis (from note in edition and photo)</cell>
+                  </row>
+                  <row xml:id="boep2035" n="2035">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/psi;8;881">PSI 8 881</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">9</cell>
+                     <cell rendition="hc:FlushLeft">ἔτ̣ι̣ κειμένου → ἐγ’κειμένου, N. Gonis (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2036" n="2036">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/psi;8;915">PSI 8 915</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">3</cell>
+                     <cell rendition="hc:FlushLeft">τ̣ι̣στέγου (l. διστέγου) → δ̣ιστέγου, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2037" n="2037">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/psi;8;915">PSI 8 915</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">3-4</cell>
+                     <cell rendition="hc:FlushLeft">ν̣ό̣|[του -ca.?- ]η̣δρι̣ο̣ν → ν̣ό̣|[του μέρους αὐλ]ύδριον, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2038" n="2038">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/psi;8;915">PSI 8 915</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">7</cell>
+                     <cell rendition="hc:FlushLeft">Ψ  ̣  ̣θε̣ρσαο̣υ̣τ̣ο̣υ → ψιαθοπλόκου, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2039" n="2039">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/psi;8;915">PSI 8 915</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">9</cell>
+                     <cell rendition="hc:FlushLeft">ἐμπ̣[  ̣]  ̣ις → ἐνπ̣[οι]η̣σ̣ις (l. ἐμποιήσεως), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2040" n="2040">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/psi;8;915">PSI 8 915</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">10</cell>
+                     <cell rendition="hc:FlushLeft">ἡμω (l. ἡμῶ&lt;ν&gt;) → ἡμῶν, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2041" n="2041">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/psi;8;915">PSI 8 915</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">10</cell>
+                     <cell rendition="hc:FlushLeft">Χαιρεμανις → Χαιρεμανις (l. Χαιρήμονος), C. Balamoshev</cell>
+                  </row>
+                  <row xml:id="boep2042" n="2042">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/psi;8;915">PSI 8 915</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">11</cell>
+                     <cell rendition="hc:FlushLeft">Χαιρεμανις → Χαιρεμανις (l. Χαιρήμονος), C. Balamoshev</cell>
+                  </row>
+                  <row xml:id="boep2043" n="2043">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/psi;8;915">PSI 8 915</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">11</cell>
+                     <cell rendition="hc:FlushLeft">Καλαγεῦτις → Καλατῦτις, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2044" n="2044">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/psi;13;1324">PSI 13 1324</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">13</cell>
+                     <cell rendition="hc:FlushLeft">παρά → παρ’, F. Reiter (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2045" n="2045">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/psi;13;1324">PSI 13 1324</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">22</cell>
+                     <cell rendition="hc:FlushLeft">ἐγγράπτου → ἐνγράπτου (l. ἐγγράπτου), F. Reiter (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2046" n="2046">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/psi;13;1324">PSI 13 1324</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">30</cell>
+                     <cell rendition="hc:FlushLeft">ἀπαιτοῦμεν ὡς πρόκειτ(αι) → ἐνκαλοῦμεν ὡς πρόκειται, F. Reiter (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2047" n="2047">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/psi;13;1324">PSI 13 1324</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">30–31</cell>
+                     <cell rendition="hc:FlushLeft">Ὀν|νωφρις (l. Ὀν|νώφρεως) → Ὀν|νωφρις corr. ex Ὀν|νωρρις (l. Ὀν|νώφρεως), F. Reiter (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2048" n="2048">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/psi;13;1324">PSI 13 1324</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">32</cell>
+                     <cell rendition="hc:FlushLeft">πρόχειται (l. πρόκειται) → πρόκειται, F. Reiter (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2049" n="2049">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/sb;1;1194">SB 1 1194</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">4</cell>
+                     <cell rendition="hc:FlushLeft">Ἐπείφ → Ἐπείφ’, F. Reiter (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2050" n="2050">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/sb;6;9399">SB 6 9399</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r,ctr.1</cell>
+                     <cell rendition="hc:FlushLeft">Δι[οσ]κουρίδης | [ε]ὖ πράττειν A. Papathomas, CdÉ 84 (2009) 267 : Δι[οσ]κουρίδης [ε]ὖ πράττειν ed.pr. → Δι[οσ]κουρίδης | εὖ πράττειν, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2051" n="2051">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/sb;6;9399">SB 6 9399</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r,ctr.10</cell>
+                     <cell rendition="hc:FlushLeft">πεδῖ (l. πεζῇ) → πεζῇ̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2052" n="2052">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/sb;6;9399">SB 6 9399</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r,ctr.15</cell>
+                     <cell rendition="hc:FlushLeft">κεφαλαιωτίαν → κεφαλαιωτίαν corr. ex κεφαλαιωτ\ει̣/, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2053" n="2053">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/sb;6;9399">SB 6 9399</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r,ctr.16</cell>
+                     <cell rendition="hc:FlushLeft">δώσω̣σι π̣άλι (l. πάλιν) τὰ → δώσω̣σιν̣ ὀλίγα̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2054" n="2054">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/sb;6;9399">SB 6 9399</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r,ctr.21</cell>
+                     <cell rendition="hc:FlushLeft">[το]ῦ ἀρχίο̣υ̣ (l. ἀρχείου) → [ν]α̣υαρχίας ̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2055" n="2055">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/sb;6;9399">SB 6 9399</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r,ctr.27</cell>
+                     <cell rendition="hc:FlushLeft">[αὖ]θις → τῆς, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2056" n="2056">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/sb;6;9399">SB 6 9399</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r,ms.30</cell>
+                     <cell rendition="hc:FlushLeft">οὐκ εὑρών BL 7.208 : ε̣ὔκ̣ολ(ον) εὗρον ed.pr. → οὐκ (l. οὐχ) εὗρον, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2057" n="2057">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/sb;18;13613">SB 18 13613</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.13</cell>
+                     <cell rendition="hc:FlushLeft">ἐρρῶσθαί → ἐρρῶσσθαί (l. ἐρρῶσθαί), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2058" n="2058">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/sb;18;13888">SB 18 13888</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">3</cell>
+                     <cell rendition="hc:FlushLeft">ὄξους → ὄξου(ς), L. Berkes (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2059" n="2059">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/sb;18;13949">SB 18 13949</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">13–14</cell>
+                     <cell rendition="hc:FlushLeft">τὴν̣ γεωργουμένην | τρο̣[χ]ει̣άν → χρεωστουμένην | π̣ρο[χρ]είαν, T.M. Hickey (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2060" n="2060">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/sb;30;17294">SB 30 17294</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.i.6</cell>
+                     <cell rendition="hc:FlushLeft">Τοκω(έως) → Τοκω(υτος), Y. Broux</cell>
+                  </row>
+                  <row xml:id="boep2061" n="2061">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/sb;30;17412">SB 30 17412</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">r.25</cell>
+                     <cell rendition="hc:FlushLeft">µακαρ(ιωτάτου) → µακαρ(ίου), N. Gonis (cf. l. 8)</cell>
+                  </row>
+                  <row xml:id="boep2062" n="2062">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/stud.pal;3;605">Stud.Pal. 3 605</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">3-4</cell>
+                     <cell rendition="hc:FlushLeft">| [ -ca.?- ]α θ traces → [ -ca.?- κερά]τ̣ι̣α εἰκ̣ο̣σ̣ι̣δύο̣ ἥμισυ | [τέταρτον ὄγδοον -ca.?- ], L. Berkes (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2063" n="2063">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/stud.pal;8;1208">Stud.Pal. 8 1208</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">6</cell>
+                     <cell rendition="hc:FlushLeft">τρ[οφ(ίμου)] πόλ[ε(ως)] BL 1.417 : τρ[οφ(ίμων)] πολ[ -ca.?- ] ed.pr. → τ̣ρ̣ο̣(φίμου) τ̣ῆ̣(ς) πόλε̣(ως), L. Berkes (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2064" n="2064">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/stud.pal;8;1208">Stud.Pal. 8 1208</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">8</cell>
+                     <cell rendition="hc:FlushLeft">τρο(φίμου) πόλε(ως) → τρο(φίμου) τῆ(ς) πόλε(ως), L. Berkes (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2065" n="2065">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/stud.pal;10;65">Stud.Pal. 10 65</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1</cell>
+                     <cell rendition="hc:FlushLeft">ἀ̣π̣ο̣[  ̣  ̣  ̣  ̣  ̣  ̣  ̣] → ἀπὸ δη̣μ̣[οσ]ί̣[ω]ν̣ (καί), L. Berkes (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2066" n="2066">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/stud.pal;10;65">Stud.Pal. 10 65</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1</cell>
+                     <cell rendition="hc:FlushLeft">κανονικ(ῶν) → κανόνο̣(ς), L. Berkes (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2067" n="2067">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/stud.pal;20;70">Stud.Pal. 20 70</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">31</cell>
+                     <cell rendition="hc:FlushLeft">Αὐρή(λιος) → Αὐρή(λιοι), M.G. Elmaghrabi</cell>
+                  </row>
+                  <row xml:id="boep2068" n="2068">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/t.alb;;2">T.Alb. 2</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">2b.8</cell>
+                     <cell rendition="hc:FlushLeft">numero semis→ unum semis quod solidu, R. Ast (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2069" n="2069">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/t.varie;;81">T.Varie 81</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">3</cell>
+                     <cell rendition="hc:FlushLeft">Πεταλκέ̣ο̣ς → Πεταλίωνος, W. Graham Claytor (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2070" n="2070">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/ddbdp/t.varie;;81">T.Varie 81</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">11</cell>
+                     <cell rendition="hc:FlushLeft">Διογένη(ς) → Διογένης, W. Graham Claytor (from photo)</cell>
+                  </row>
+               </table>
+            </div>
+            <div xml:id="ch_2" ana="hc:Section" type="section">
+               <head>
+                  <emph ana="hc:StrongEmphasis">DCLP</emph>
+               </head>
+               <table xml:id="tab2" ana="hc:ConnectedTable" rendition="hc:Embedded">
+                  <row xml:id="boep2071" n="2071">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/dclp/61149">61149</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">ii.13</cell>
+                     <cell rendition="hc:FlushLeft">(P.Ryl. 1 44) → [  ̣  ̣]  ̣[ -ca.?- ], B. Laudenbach (from photo)</cell>
+                  </row>
+                  <row xml:id="boep2072" n="2072">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/dclp/61240">61240</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">1</cell>
+                     <cell rendition="hc:FlushLeft">(BIFAO 65 (1967) p. 67 no. 2) Πάριν → Πάριμ (l. Πάριν), B. Laudenbach (autopsy)</cell>
+                  </row>
+                  <row xml:id="boep2073" n="2073">
+                     <cell rendition="hc:FlushLeft">
+                        <ref ana="hc:ExternalLink" target="http://papyri.info/dclp/65755">65755</ref>
+                     </cell>
+                     <cell rendition="hc:FlushRight">401.19.ii.38</cell>
+                     <cell rendition="hc:FlushLeft">(P.Heid. inv. 401)   ̣  ̣  ̣  ̣  ̣  ̣  ̣  ̣[- ca.15 -] Gerhard → 5–6 [- ca.17 -], M. Schwemer</cell>
+                  </row>
+               </table>
+            </div>
+         </div>
+      </body>
+   </text></TEI>
