@@ -16,4 +16,4 @@ Once the word file has been vetted and is satisfactory for the editorial board a
 
 ### Use of P3-processing
 
-- When at [P3-processing](https://github.com/hcayless/P3-processing) click on `sources`
+- When at [P3-processing](https://github.com/hcayless/P3-processing) click on `sources` - [here](https://github.com/hcayless/P3-processing/tree/main/sources)
