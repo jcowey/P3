@@ -13,7 +13,10 @@ Once the word file has been vetted and is satisfactory for the editorial board a
 - Follow the guidelines for mark up of the text (in some cases this will have been done by contributors - again some are good at this - for others it has to be done for them): [see these guidelines](https://github.com/jcowey/P3/blob/master/guidelines/structuralMarkUp_documentary.md). There are also [Templates](https://github.com/jcowey/P3/blob/master/guidelines/templates.md), which might be helpful to look at.
 - Now make sure that the file, which has been prepared and saved, has a `.docx` suffix on it.
 - The file is now ready to be uploaded to [P3-processing](https://github.com/hcayless/P3-processing)
+- I have found it helpful to prefix each file with the number of the pylon volume and then a clear indication of the author, thus e.g. `10pylon_balamoshev.docx`, but, of course, everyone has their own way of making it possible to find output files within the list of files already processed for earlier volumes
 
 ### Use of P3-processing
 
 - When at [P3-processing](https://github.com/hcayless/P3-processing) click on `sources` - [here](https://github.com/hcayless/P3-processing/tree/main/sources)
+- Now click on `Add file` (top right hand corner) and choose `Upload files` then navigate on your computer to where the file is stored and double click on it.
+- Remember to add a note in the box e.g. 
