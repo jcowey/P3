@@ -19,4 +19,5 @@ Once the word file has been vetted and is satisfactory for the editorial board a
 
 - When at [P3-processing](https://github.com/hcayless/P3-processing) click on `sources` - [here](https://github.com/hcayless/P3-processing/tree/main/sources)
 - Now click on `Add file` (top right hand corner) and choose `Upload files` then navigate on your computer to where the file is stored and double click on it.
-- Remember to add a note in the box e.g. 
+- Remember to add a note in the box e.g. Added new file.
+- One then has to wait about 20 seconds, sometimes a bit longer. If everything has been transformed the corresponding XML file can then be found in the folder `articles` [here](https://github.com/hcayless/P3-processing/tree/main/articles)
