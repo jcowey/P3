@@ -10,4 +10,4 @@ Once the word file has been vetted and is satisfactory for the editorial board a
 
 ### Further preparation for P3-processing
 
-- Follow the guidelines for mark up of the text (in some cases this will have been done by contributors - again some are good at this - for others it has to be done for them): [see these guidelines](https://github.com/jcowey/P3/blob/master/guidelines/structuralMarkUp_documentary.md)
+- Follow the guidelines for mark up of the text (in some cases this will have been done by contributors - again some are good at this - for others it has to be done for them): [see these guidelines](https://github.com/jcowey/P3/blob/master/guidelines/structuralMarkUp_documentary.md). There are also [Templates](https://github.com/jcowey/P3/blob/master/guidelines/templates.md), which might be helpful to look at.
