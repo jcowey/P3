@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Zwei neue Papyri aus der Hamburger Papyrussammlung </title>
+            <author>
+               <name>
+                  <forename>Eleni</forename>
+                  <surname>Avdoulou</surname>
+               </name>
+               <affiliation>Università di Pisa</affiliation>
+               <email>eleni.avdoulou@fileli.unipi.it</email>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0009-0002-9906-4882</idno>
+            </author>
+            <author>
+               <name>
+                  <forename>Ilias</forename>
+                  <surname>Sourlas</surname>
+               </name>
+               <affiliation>Universität Athen</affiliation>
+               <email>isourlas@phil.uoa.gr</email>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0009-0009-4698-4838</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.9.5</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2026.9.116430</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">E. Avdoulou and I. Sourlas, “Zwei neue Papyri aus der Hamburger Papyrussammlung,” Pylon 9 (2026) Article 5. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2026.9.116430">https://doi.org/10.48631/pylon.2026.9.116430</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">9</biblScope>
+                     <biblScope unit="article">5</biblScope>
+                     <date when="2026">2026</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2026-06-22T12:24:38Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Zwei neue Papyri aus der Hamburger Papyrussammlung</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">Für die Publikationserlaubnis bedanken wir uns bei Katrin Janz-Wenig von der Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky. Die Forschung von Avdoulou wurde durch das ERC FARE 2020: EpicureanPolemic gefördert. Sourlas’ Forschung wurde im Rahmen seines Postdoc-Forschungsprojekts an der Universität Athen durchgeführt.</note>
+            <div type="section">
+               <head>
+                  <emph rend="bold">Ι. Eine Eingabe aus der römischen Zeit</emph>
+               </head>
+               <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="https://resolver.sub.uni-hamburg.de/kitodo/HANSh3634">P.Hamb.graec. 393</ref>
+                     </cell>
+                     <cell style="text-align: center;">B. 17 × H. 18 cm</cell>
+                     <cell style="text-align: right;">1. Hälfte 2. Jh. n. Chr.</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;"/>
+                     <cell style="text-align: right;">Herkunft unbekannt</cell>
+                  </row>
+               </table>
+               <p xml:id="p1" style="text-align: left; text-align: justify;">Erhalten ist der untere und teilweise der rechte Teil des Papyrusblattes. Der Rand beträgt rechts ca. 0,4 bis 1,2 cm, wobei die Schrift in manchen Zeilen bis an die Blattkante reicht. Unten gibt es einen Freiraum in Höhe von ca. 5,5 cm. Am oberen Teil des Papyrus, wo das Blatt abgerissen worden ist, gibt es starke Beschädigungen und Texteinbußen. Die Lücken am unteren Rand sind auf die vertikalen Faltungen des Papyrus zurückzuführen. Der Text befindet sich auf dem Recto des Papyrus. Am unteren Rand des Blattes sowie auf dem Verso sind noch Tintenspuren zu erkennen, die zu einem anderen Text gehören. Die Schrift läuft parallel zu den Fasern; sie ist eine deutliche römische Kursive. Die Buchstaben sind groß und gut lesbar. Die Tinte ist schwarz.</p>
+               <p xml:id="p2" style="text-align: left; text-align: justify;">Die paläographischen Merkmale sowie der generelle Duktus des Textes sprechen für eine Datierung in die erste Hälfte des zweiten Jahrhunderts n. Chr. Für Texte aus dieser Zeit mit vergleichbaren Buchstabenformen vgl. <ref target="https://papyri.info/hgv/12347">P.Mil.Vogl. 1 27</ref> (128/129 n. Chr.) und <ref target="https://papyri.info/hgv/10801">P.Fay. 21</ref> (134 n. Chr.). Die Provenienz des Textes muss offenbleiben, da er inhaltlich keinen diesbezüglichen Hinweis bietet.</p>
+               <p xml:id="p3" style="text-align: left; text-align: justify;">Der Papyrustext überliefert eine Eingabe; dafür spricht die bei Eingaben häufig auftretende Formel in den Z. 18–19 ἵν’ ὦμεν πεφιλανθρωπη|[μένοι. Sowohl die Namen der Petenten als auch der des Funktionärs, an den die vorliegende Eingabe gerichtet ist, bleiben unbekannt. Abwesend ist das Verb der Antragstellung (z.B. ἀξιοῦμεν), welches in der Lücke der Z. 18 vorzustellen wäre. Am Ende des Textes fehlt die in Eingaben während des zweiten Jahrhunderts n. Chr. weit häufiger belegte Schlussformel διευτύχει im Vergleich zu εὐτύχει, welche in den vorherigen Jahrhunderten beherrschte; dazu s. <ref target="https://papyri.info/biblio/96192">Mascellari 2021</ref>: 1003. Ebenso fehlen die Unterschriften der Petenten, die Datierung bzw. die amtlichen Vermerke, was zum Teil auf den fragmentarischen Erhaltungszustand des Papyrus zurückzuführen ist. Wie groß der verlorene untere linke Teil des Papyrus (Z. 12–19) gewesen ist, lässt sich nicht beantworten. Aufgrund des Textzusammenhanges ist wohl mit keinem besonders umfangreichen Textverlust zu rechnen. Vor ἵν’ ὦμεν πεφιλανθρωπη|[μένοι würde das Petitum oder die Petita der Eingabe gestanden haben. Βei der auf diesem Papyrus erhaltenen Eingabe handelt es sich höchstwahrscheinlich um eine Kopie.</p>
+               <p xml:id="p4" style="text-align: left; text-align: justify;">Der fragmentarische Erhaltungszustand des Papyrus erschwert zudem die Rekonstruktion der <emph rend="italics">narratio</emph> dieser Eingabe. Wie die Lesung ἐ]ψευδογραφ̣[ημ]ένου in Z. 5 zeigt, haben die Angeklagten entweder ein Dokument gefälscht oder ein Dokument vorgelegt, das nicht der Wahrheit entspricht. Es lässt sich nicht eindeutig feststellen, ob die Angeschuldigten mit oder ohne Absicht ein falsches Dokument dargestellt haben. Das Auftreten von ἐπηρεάζειν in Z. 17 mag ebenfalls auf einen Amtsmissbrauch (z.B. Fälschung eines öffentlichen Dokuments) hinweisen, wie <ref target="https://papyri.info/biblio/96192">Mascellari 2021</ref>: 360–362 bemerkt. Es scheint, dass die Angeklagten Ansprüche zu Lasten der Petenten erheben (Z. 14), die finanzieller Natur sein könnten, wie die Z. 16–17 nahelegen. Die Petenten berufen sich auf die Urteile der Präfekten bezüglich ähnlicher Vorfälle, sodass sich die Angeschuldigten nicht der Justiz entziehen und sie weiter beeinträchtigen (Z. 14–15, 17).</p>
+               <p xml:id="p5" style="text-align: left; text-align: justify;">Zur Erwerbungsgeschichte der Hamburger Papyri s. <ref target="https://papyri.info/biblio/96031">Essler 2021</ref>. Für den Erwerb des P.Hamb.graec. inv. 393 sowie des nachstehenden P.Hamb.graec. inv. 23 liegen jedoch keine konkreten Informationen vor.</p>
+               <div type="epidoc" subtype="DDB">
+                     <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24235812"/>
+                        <head>Fig. 1: P.Hamb.graec. 393. Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky. Creative Commons License Attribution 4.0 International (CC BY-SA 4.0).</head>
+                     </figure>
+                  <div copyOf="#ed1" type="edition"/>
+                  <div copyOf="#trans1" type="translation"/>
+                  <div type="commentary">
+                     <note target="#ed1ln4">
+                        <ref>4</ref>
+                        <p xml:id="p6"> ]ως ἐχ[: Ein Ausdruck wie οὕ]τ̣ως ἔχ[ει könnte den Anfang der Erzählung der Fakten signalisieren; s. <ref target="https://papyri.info/biblio/96192">Mascellari 2021</ref>: 311–312, 315ff.</p>
+                     </note>
+                     <note target="#ed1ln4">
+                        <ref>4–5</ref>
+                        <p xml:id="p7"> καταστη̣σαν|[: Ein Partizip wie etwa καταστή̣σαν|[τες ist zu erwarten.</p>
+                     </note>
+                     <note target="#ed1ln5">
+                        <ref>5</ref>
+                        <p xml:id="p8"> ἐ]ψευδογραφ̣[ημ]ένου: Zu ψευδογραφέω und ψευδογραφία in Eingaben s. PSI 17 1689,14 Komm. Ein Partizip Präsens (ψευδογραφ̣[ουμ]ένου) scheint aus Platzmangel weniger wahrscheinlich zu sein. Sowohl das Verb ψευδογραφέω als auch das Substantiv ψευδογραφία sind bisher selten belegt, nur in Eingaben und Dokumenten administrativen Inhalts; vgl. <ref target="https://papyri.info/hgv/3338">P.Enteux. 63</ref>,18 (224–218 v. Chr.); W. A. Johnson, <ref target="https://papyri.info/ddbdp/zpe%3B206%3B159">ZPE 206 (2018) 158–161</ref>,3 (ca. 185–125 v. Chr.); <ref target="https://papyri.info/hgv/3714">P.Tebt. 1 78</ref>,17 (111–107 v. Chr.); <ref target="https://papyri.info/ddbdp/psi%3B17%3B1689">PSI 17 1689</ref>,14 (ca. 140 n. Chr.; s. <ref target="https://papyri.info/biblio/96192">Mascellari 2021</ref>: 114); <ref target="https://papyri.info/ddbdp/psi%3B3%3B235">PSI 3 235</ref>,21 (nach 174–175 n. Chr.; s. BL 11.244); <ref target="https://papyri.info/hgv/13729">P.Wisc. 2 86</ref>,28–29 (245, 246 oder 247 n. Chr.; s. BL 10.284).</p>
+                     </note>
+                     <note target="#ed1ln6">
+                        <ref>6</ref>
+                        <p xml:id="p9"> ἀ̣ληθ[: Das von ἀ̣ληθ[- stammende Wort (z.B. ἀλήθεια/ἀληθής/ἀληθῶς) kontrastiert mit dem vorherigen ἐ]ψευδογραφ̣[ημ]ένου.</p>
+                     </note>
+                     <note target="#ed1ln8">
+                        <ref>8</ref>
+                        <p xml:id="p10"> ]κρίσε̣ι[: Εin Kompositum des Substantivs κρίσις (z.B. ἀνα]κρίσε̣ι oder ἀνα]κρίσε̣ις̣) ist nicht auszuschließen.</p>
+                     </note>
+                     <note target="#ed1ln9">
+                        <ref>9</ref>
+                        <p xml:id="p11"> σοι: Das Pronomen soll sich auf den Funktionär beziehen, an den diese Petition addressiert ist.</p>
+                     </note>
+                     <note target="#ed1ln12">
+                        <ref>12</ref>
+                        <p xml:id="p12"> μ̣ασμα̣[: ἡ̣μ̣ᾶς μα̣[- ?</p>
+                     </note>
+                     <note target="#ed1ln13">
+                        <ref>13</ref>
+                        <p xml:id="p13"> []α̣νων: Unter Berücksichtigung des Kontextes wären δα]π̣α̣νῶν und βα]σ̣ά̣νων möglich.</p>
+                     </note>
+                     <note target="#ed1ln14">
+                        <ref>14</ref>
+                        <p xml:id="p14"> ειν με̣τερχομένους: Die Endung eines Infinitivs wäre hier plausibel. In diesem Zusammenhang bedeutet μετέρχομαι „Ansprüche erheben, jmd. mit Forderungen behelligen“. Zu diesem Sinn sowie zu Parallelen vgl. WB 2, s.v. 5; <ref target="https://papyri.info/hgv/15628">P.Oxy. 49 3466</ref>,9–12 (81–96 n. Chr.); <ref target="https://papyri.info/ddbdp/p.oxy%3B65%3B4491">P.Oxy. 65 4491</ref>,8–9 (307 n. Chr.).</p>
+                     </note>
+                     <note target="#ed1ln15">
+                        <ref>15</ref>
+                        <p xml:id="p15"> περὶ ὁ]μ̣οίων ὑποθέσεων: An dieser Textstelle kommt der Ausdruck ὁμοία ὑπόθεσις erstmals im Plural vor, was auf eine allgemeinere Anwendung <anchor xml:id="Hlk219389682"/>der Entscheidungen der Präfekten hindeutet. Im Singular vgl. z.B. <ref target="https://papyri.info/hgv/20506">P.Oxy. 2 237</ref> Kol. 7,34 (186 n. Chr.) Τειτιανὸν τὸν ἡγεμονεύσαντα ὁμοίας ὑποθέσεως κτλ.; <ref target="https://papyri.info/hgv/27521">SB 14 12139</ref> Kol. 3,16–17 (2./3. Jh. n. Chr.) … ὁ τιμιώτατος ἀρχιδικαστὴς Κλαύδιος Ἱέραξ | ἤκο[υ]σεν περὶ ὁμοίας ὑποθέσεως κτλ.</p>
+                        <p xml:id="p16">ἡγεμονικαῖς κρίσεσι: Die Wendung ἡγεμονικαὶ κρίσεις erscheint erst ab dem zweiten nachchristlichen Jahrhundert und spielt auf die erhoffte Wiederherstellung von Gerechtigkeit an; vgl. <ref target="https://papyri.info/hgv/17842">SB 6 9016</ref> Kol. 1,15 (160 n. Chr.); <ref target="https://papyri.info/hgv/21740">P.Oxy. 8 1119</ref>,18 und 21 (253 n. Chr.; s. BL 1.332 und 2 2.98), wo die kaiserliche Gesetzgebung und die Entscheidungen der Präfekten nebeneinandergestellt sind.</p>
+                     </note>
+                     <note target="#ed1ln16">
+                        <ref>16-17</ref>
+                        <p xml:id="p17"> ἐφίε|[νται: Vgl. WB 2, s.v. 2 (Med. „wonach trachten“). Die Form ἐφίεμαι kommt hauptsächlich in Eingaben und Briefen vor.</p>
+                     </note>
+                     <note target="#ed1ln17">
+                        <ref>17</ref>
+                        <p xml:id="p18"> φυ]γ̣οδικεῖν: αὐ]τ̣οδικεῖν ist bisher in den Papyri nicht belegt. Das Verb φυγοδικέω kommt im juristischen Kontext vor; vgl. z.B. <ref target="https://papyri.info/hgv/15996">P.Oxy. 43 3117</ref>,7 (235 n. Chr.); <ref target="https://papyri.info/hgv/13049">P.Sakaon 31</ref>,19 (280–281 n. Chr.).</p>
+                        <p xml:id="p19">ἐπηρεάζειν: Ein weiteres Wort, welches in Eingaben häufig vorkommt; zu ἐπήρεια und ἐπηρεάζω s. <ref target="https://papyri.info/biblio/96192">Mascellari 2021</ref>: 360–368.</p>
+                     </note>
+                     <note target="#ed1ln18">
+                        <ref>18-19</ref>
+                        <p xml:id="p20"> ἵν’ ὦμεν πεφιλανθρωπη|[μένοι: Zu einigen Parallelen aus der römischen Zeit vgl. z.B. <ref target="https://papyri.info/ddbdp/p.oxy%3B49%3B3463">P.Oxy. 49 3463</ref>,23–24 (58 n. Chr.); <ref target="https://papyri.info/hgv/9480">BGU 7 1572</ref>,16 (139 n. Chr.); <ref target="https://papyri.info/ddbdp/p.tebt%3B2%3B397">P.Tebt. 2 397</ref>,27 (198 n. Chr.). Zu φιλανθρωπία in Eingaben s.<ref target="https://papyri.info/biblio/96192"> Mascellari 2021</ref>: 979–981.</p>
+                     </note>
+                     <note target="#ed1ln19">
+                        <ref>19</ref>
+                        <p xml:id="p21"> α[]-5–6-: Die Lesung von α gilt als sicher, sodass διευτύχει nicht zur Frage kommt. Das Wort ἀντίγραφον scheint ebenfalls nicht kompatibel mit den erhaltenen Buchstabenspuren.</p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>
+                  <emph rend="bold">ΙΙ. Ein Brief des Posis an Anthestios</emph>
+               </head>
+               <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="https://resolver.sub.uni-hamburg.de/kitodo/HANSh3578">P.Hamb.graec. 23</ref>
+                     </cell>
+                     <cell style="text-align: center;">B. 8,5 × H. 6,7 cm</cell>
+                     <cell style="text-align: right;">2. Jh. n. Chr.</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;"/>
+                     <cell style="text-align: right;">Arsinoites (?)</cell>
+                  </row>
+               </table>
+               <p xml:id="p22" style="text-align: left; text-align: justify;">Erhalten ist der obere, der linke und der rechte Teil des Papyrusblattes. Der Rand beträgt oben ca. 0,7 cm und links ca. 1 cm. Am rechten Rand des Papyrus ist das Blatt abgerissen worden. Das Blatt war einmal vertikal gefaltet. Die Schrift, die parallel zu den Fasern läuft, ist eine deutliche römische Kursive des zweiten nachchristlichen Jahrhunderts.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; text-align: justify;"> Vgl. z.B. <ref target="https://papyri.info/hgv/10438">P.Cair.Preis.2 24</ref> (173 n. Chr.); <ref target="https://papyri.info/hgv/9286">BGU 2 646</ref> (193 n. Chr.).</p></note> Die Schreibweise und die Rechtschreibfehler lassen darauf schließen, dass der Text von einem nicht sehr schnellen und fleißigen Schreiber verfasst wurde. Das Verso ist unbeschriftet.</p>
+               <p xml:id="p23" style="text-align: left; text-align: justify;">Der Papyrus enthält einen Brief des Posis an Anthestios, der als τιµιώτατος bezeichnet wird (Z. 1–2). Die Beziehung zwischen den Korrespondenten ist nicht eindeutig; es ist höchstwahrscheinlich, dass beide gleichgestellte Militärangehörige sind (s. unten den Komm. zu Z. 2). Nach dem in Briefen üblichen Gruß bestätigt Posis, dass er durch Kopres den Brief des Anthestios und ein Protokoll über militärische Fragen erhalten hat (Z. 3–5). Am Ende des fragmentarischen Textes versichert der Absender dem Empfänger des Briefes, dass die gewünschten Lebensmittelvorräte erfolgreich versandt wurden (Z. 6–8). Es ist nicht bekannt, wie viel uns am Ende des Textes fehlt; vermutlich fehlt nur der Abschiedsgruß.</p>
+               <p xml:id="p24" style="text-align: left; text-align: justify;">Zwei Indizien könnten für eine arsinoitische Herkunft des vorliegenden Textes sprechen; einerseits die sehr häufig im arsinoitischen Gau auftretenden Personennamen (Posis, Anthestios, Kopres) und andererseits die mögliche Verbindung unseres Anthestios mit dem Dossier des T. Flavius Antas, dessen Texte aus dem Arsinoites stammen (s. unten den Komm. zu Z. 1).</p>
+               <div type="epidoc" subtype="DDB">
+                     <figure>
+                        <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24235816"/>
+                        <head>Fig. 2: P.Hamb.graec. 23. Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky. Creative Commons License Attribution 4.0 International (CC BY-SA 4.0).</head>
+                     </figure>
+                  <div copyOf="#ed2" type="edition"/>
+                  <div copyOf="#trans2" type="translation"/>
+                  <div type="commentary">
+                     <note target="#ed2ln1">
+                        <ref>1</ref>
+                        <p xml:id="p25"> Πόσις: Der Name Πόσις (<ref target="https://www.trismegistos.org/name/5238">TM Nam 5238</ref>) ist im zweiten und dritten Jahrhundert n. Chr. gut belegt. Die meisten Belege stammen aus dem Arsinoites.</p>
+                        <p xml:id="p26">Ἀνθεστίῳ: Dieser Name (<ref target="https://www.trismegistos.org/name/8543">TM Nam 8543</ref>) erscheint im ähnlichen Zusammenhang auch in einem weiteren Papyrus aus Hamburg, welcher aus dem Dossier des Militärangehörigen T. Flavius Antas stammt;<note place="foot" xml:id="ftn2" n="2">
+                              <p> Zu diesem Dossier s. <ref target="https://papyri.info/biblio/95701">Mitthof – Stauner 2016</ref>: 215.</p>
+                           </note> vgl. <ref target="https://papyri.info/hgv/11369">P.Hamb. 1 102</ref>,1–4 (138–161 n. Chr.) Λο]υκίῳ Ἀνθεσ|[τίῳ - - - χαίρειν]. ἀποσυνέστα|[κά σε ἀντ’ ἐμοῦ πλη]ρατὴν (<emph rend="italics">l.</emph> πληρωτήν) χρεωσ|[τουμένων μοι ὑπὸ] Φλαουίου Ἀντᾶ. Es ist wahrscheinlich, dass unser Anthestios mit der Person des oben zitierten Papyrus zu identifizieren ist.</p>
+                     </note>
+                     <note target="#ed2ln2">
+                        <ref>2</ref>
+                        <p xml:id="p27"> τῷ τιμιωτάτῳ: Die Verwendung des Epithetons τιµιώτατος in dem Präskript weist normalerweise auf eine distanzierte persönliche Beziehung bzw. einen Rangunterschied zwischen den Korrespondenten hin. Diese weitverbreitete Anredeform, welche im zweiten bis vierten Jahrhundert sehr häufig in halbamtlichen und privaten Briefen auftritt, deutet meistens an, dass der Brief „an eine höher stehende Person gerichtet oder wenigstens subjektiv in dieser Richtung stilisiert ist, wenn es sich in Wirklichkeit auch vielleicht um gleichgestellte Personen handeln sollte“ (<ref target="https://papyri.info/biblio/5384">Koskenniemi 1956</ref>: 101), wie es hier der Fall zu sein scheint.</p>
+                     </note>
+                     <note target="#ed2ln4">
+                        <ref>4</ref>
+                        <p xml:id="p28"> Κοπρῆτος: Der Name Κοπρῆς (<ref target="https://www.trismegistos.org/name/3702">TM Nam 3702</ref>) ist zwischen dem zweiten und vierten Jahrhundert n. Chr. gut belegt, wobei er vor allem im Arsinoites vorkommt.</p>
+                     </note>
+                     <note target="#ed2ln4">
+                        <ref>4-5</ref>
+                        <p xml:id="p29"> τὸ ἐπισ|τόλιον: Zum Begriff ἐπιστόλιον in den dokumentarischen Papyri der römischen Zeit, welcher meist auf die materiellen Aspekte des Briefes hinweist, s. <ref target="https://papyri.info/biblio/95860">Sarri 2018</ref>: 19–22<emph rend="bold">.</emph>
+                        </p>
+                     </note>
+                     <note target="#ed2ln5">
+                        <ref>5</ref>
+                        <p xml:id="p30"> τὸν ὑπομ(νηματισμόν): Das Substantiv ὑπομνηματισμός verweist in diesem Kontext auf ein Protokoll betreffend militärische Angelegenheiten; vgl. z.B. <ref target="https://papyri.info/hgv/13583">P.Tebt. 2 488 descr.</ref> (nach 121–122 n. Chr.); <ref target="https://papyri.info/hgv/16325">SB 16 12949</ref> (207 oder 268 n. Chr.). Zu einem ähnlichen Fall von ὑπομνηματισμός, der einem Brief beigefügt ist, vgl. <ref target="https://papyri.info/hgv/26781">P.Mich.Mchl. 24</ref>,15–16 (2./3. Jh. n. Chr.) κόμισαι ἀντί̣γραφον ὑπομνημα|τισμοῦ συνειλημ̣έ̣νον τῆι ἐπιστολῆι.</p>
+                     </note>
+                     <note target="#ed2ln8">
+                        <ref>8</ref>
+                        <p xml:id="p31"> τὸ κομιᾶτον: Lat. <emph rend="italics">commeatus</emph>. Das Wort kommt in den griechischen Papyri entweder als κομιᾶτον oder als κομ(μ)εᾶτος<note place="foot" xml:id="ftn3" n="3">
+                              <p> Nur in <ref target="https://papyri.info/hgv/118373">O.Claud. 4 721</ref>,6 (138 oder 147–148 n. Chr.) findet sich die Form κομμεάτα̣; der Herausgeber vermerkt im Kommentar jedoch, dass „κομμεάτ(ῳ) α is also possible“.</p>
+                           </note> vor und bedeutet „Urlaub“; zum Begriff s. <ref target="https://papyri.info/biblio/57502">Speidel 1985</ref>; <ref target="https://papyri.info/biblio/95438">Adamson 2012</ref>: 89 mit Anm. 27 für weitere Literatur.</p>
+                        <p xml:id="p32">Das Substantiv wird in der Regel mit λαμβάνω und δίδωμι konstruiert; vgl. z.B. <ref target="https://papyri.info/hgv/26735">SB 16 12570</ref>,15 (2./3. Jh. n. Chr.) … κ̣ο̣μμεᾶτο̣ν̣ λαβεῖν; <ref target="https://papyri.info/hgv/24149">O.Claud. 1 137</ref>,16–18 (ca. 110 n. Chr.) … οὐ|δείς μοι κομειᾶτον (<emph rend="italics">l.</emph> κομιᾶτον) | ἔδωκεν κτλ.; <ref target="https://papyri.info/hgv/31777">P.Oxy. 14 1666</ref>,12–14 (3. Jh. n. Chr.) … ἀπὸ τοῦ | δοθέντος [τῷ παι]δ̣ί̣ῳ ὑπὸ τοῦ λαμπροτάτου ἡγεμόνος | κομ̣εάτ̣[ου] κτλ.</p>
+                        <p xml:id="p33">Der Ausdruck πέμπω κομιᾶτον ist bisher nicht bezeugt. Daher lässt sich annehmen, dass der Begriff in unserem Papyrus auf seine weitere Bedeutung „Lebensmittelvorräte“ hinweisen könnte; dazu vgl. OLD, s.v. 4; ΤLL, s.v. II; LSJ Suppl., s.v.; <ref target="https://papyri.info/biblio/97527">Dickey 2023</ref>: 214. Es ist jedoch nicht auszuschließen, dass der Satz nach ἔπεμ|ψά συ endet und mit τὸ κομιᾶτον ein neuer Satz beginnt. In diesem Fall wäre τὸ κομιᾶτον im Sinne von „Urlaub“ zu verstehen.</p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95438">Adamson, G. (2012)</ref> “Letter from a Soldier in Pannonia,” BASP 49: 79–94. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97527">Dickey, E. (2023)</ref> Latin Loanwords in Ancient Greek. A Lexicon and Analysis. Cambridge – New York.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96031">Essler, H. (2021)</ref> “Zur Entstehung der Hamburger Papyrussammlung,” APF 67: 166–208.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/5384">Koskenniemi, H. (1956)</ref> Studien zur Idee und Phraseologie des griechischen Briefes bis 400 n. Chr., Annales Academiae Scientiarum Fennicae Ser. B 102.2. Helsinki.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96192">Mascellari, R. (2021)</ref> La lingua delle petizioni nell’Egitto romano: Evoluzione di lessico, formule e procedure dal 30 a.C. al 300 d.C., Edizioni dell’Istituto Papirologico «G. Vitelli» 11. Firenze.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95701">Mitthof, F. – Stauner, K. (2016)</ref> “Zwei Kassen in der römischen Armee und die Rolle der <emph rend="italics">signiferi</emph>. Ein neues Papyruszeugnis: P.Hamb. inv. 445,” Tyche 31: 205–225.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95860">Sarri, A. (2018)</ref> Material Aspects of Letter Writing in the Graeco-Roman World: 500 BC–AD 300, Materiale Textkulturen 12. Berlin – Boston. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/57502">Speidel, M.P. (1985)</ref> “Furlough in the Roman Army,” YCS 28: 283–293.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Eine Eingabe aus der römischen Zeit</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">1003736</idno>
+               <idno type="HGV">1003736</idno>
+               <idno type="ddb-filename">pylon.9.6_1</idno>
+               <idno type="ddb-hybrid">pylon;9;6_1</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement>Hamburg</settlement>
+                     </placeName>
+                     <collection>Staats- und Universitätsbibliothek</collection>
+                     <idno type="invNo">P.Hamb. graec. 393</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>unbekannt</origPlace>
+                        <origDate notBefore="0101" notAfter="0150" precision="low">1. Hälfte II</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Eingabe</term>
+                  <term n="2">Eigentum</term>
+                  <term n="3">Prozess</term>
+                  <term n="4">Verschiebung</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition">
+               <listBibl>
+                  <bibl type="publication" subtype="principal">
+                     <title level="s" type="abbreviated">Pylon</title>
+                     <biblScope n="1" type="volume">9</biblScope>
+                     <biblScope n="2" type="fascicle">(2026)</biblScope>
+                     <biblScope n="3" type="generic">Art. 6</biblScope>
+                     <biblScope n="4" type="number">Nr. 1</biblScope>
+                  </bibl>
+               </listBibl>
+            </div>
+            <div type="figure">
+               <p>
+                  <figure>
+                     <graphic url="https://resolver.sub.uni-hamburg.de/kitodo/HANSh3634"/>
+                  </figure>
+               </p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Eine Eingabe aus der römischen Zeit</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.9.6_1</idno>
+               <idno type="ddb-hybrid">pylon;9;6_1</idno>
+               <idno type="HGV">1003736</idno>
+               <idno type="TM">1003736</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Eine Eingabe aus der römischen Zeit</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb xml:id="ed1ln1" n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><unclear>ν</unclear><gap reason="lost" quantity="4" unit="character"/>
+<lb xml:id="ed1ln2" n="2"/><gap reason="lost" extent="unknown" unit="character"/>να<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="4" unit="character"/>
+<lb xml:id="ed1ln3" n="3"/><gap reason="lost" extent="unknown" unit="character"/><unclear>δ</unclear>ηγε <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="4" unit="character"/>
+<lb xml:id="ed1ln4" n="4"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ως ἐχ<gap reason="lost" quantity="5" unit="character"/>την καταστ<unclear>η</unclear>σαν
+<lb xml:id="ed1ln5" n="5" break="no"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" atLeast="3" atMost="4" unit="character"/>τω<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="5" unit="character"/> <supplied reason="lost">ἐ</supplied>ψευδογρα<unclear>φ</unclear><supplied reason="lost">ημ</supplied>ένου
+<lb xml:id="ed1ln6" n="6"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/>δ<gap reason="lost" quantity="7" unit="character"/> <unclear>ἀ</unclear>ληθ<gap reason="lost" quantity="6" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>
+<lb xml:id="ed1ln7" n="7"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>εωσ<gap reason="lost" quantity="7" unit="character"/>σο<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="6" unit="character"/>
+<lb xml:id="ed1ln8" n="8"/><gap reason="lost" extent="unknown" unit="character"/>κρίσ<unclear>ε</unclear>ι <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="6" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>υ<gap reason="illegible" quantity="1" unit="character"/>η<gap reason="lost" quantity="6" unit="character"/>
+<lb xml:id="ed1ln9" n="9"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ω<gap reason="illegible" quantity="1" unit="character"/>ε<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="5" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ν σοι <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="5" unit="character"/>
+<lb xml:id="ed1ln10" n="10"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>σ<gap reason="illegible" atLeast="1" atMost="2" unit="character"/><gap reason="lost" quantity="9" unit="character"/><unclear>ε</unclear><gap reason="lost" quantity="7" unit="character"/>
+<lb xml:id="ed1ln11" n="11"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed1ln12" n="12"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>ι</unclear>να<gap reason="lost" quantity="5" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><unclear>μ</unclear>ασμ<unclear>α</unclear><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>δι<unclear>κα</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>
+<lb xml:id="ed1ln13" n="13"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>ὑ</unclear>πὸ τῶν <gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>α</unclear>νων ἡμῶ<unclear>ν</unclear> <supplied reason="lost">π</supplied><unclear>α</unclear>ρὰ τὴν <gap reason="illegible" atLeast="4" atMost="5" unit="character"/>α
+<lb xml:id="ed1ln14" n="14"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>ειν μ<unclear>ε</unclear>τερχομένους, ἀκολούθ<unclear>ως</unclear> <subst><add place="inline">καὶ</add><del rend="corrected">χαι</del></subst> αἷς
+<lb xml:id="ed1ln15" n="15"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">περὶ ὁ</supplied><unclear>μ</unclear>οίων ὑποθέσεων ἡγεμονικαῖς κρίσεσι
+<lb xml:id="ed1ln16" n="16"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐλευ</supplied>θερίας καὶ τῶν ἡμετέρων ἀδίκως ἐφίε
+<lb xml:id="ed1ln17" n="17" break="no"/><supplied reason="lost">νται</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">φυ</supplied><unclear>γ</unclear>οδικεῖν καὶ <choice><reg>ἡμῖν</reg><orig>ἡμεῖν</orig></choice> ἐπηρεάζειν οὐκ οὖσιν
+<lb xml:id="ed1ln18" n="18"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> ὑπερτιθ<unclear>ε</unclear>μένους, ἵν’ ὦμεν πεφιλανθρωπη
+<lb xml:id="ed1ln19" n="19" break="no"/><supplied reason="lost">μένοι.</supplied> <gap reason="lost" extent="unknown" unit="character"/><del rend="erasure"><gap reason="illegible" quantity="4" unit="character"/></del>α<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" atLeast="5" atMost="6" unit="character"/> <del rend="erasure"><gap reason="illegible" quantity="8" unit="character"/></del>
+<lb xml:id="ed1ln20" n="19"/><space extent="unknown" unit="character"/>
+<lb xml:id="ed1ln21" n="20"/><gap reason="lost" extent="unknown" unit="character"/><del rend="erasure"><gap reason="illegible" atLeast="3" atMost="4" unit="character"/></del>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Eine Eingabe aus der römischen Zeit</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">1003736</idno>
+               <idno type="TM">1003736</idno>
+               <idno type="HGV">1003736</idno>
+               <idno type="ddb-hybrid">pylon;9;6_1</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>
+„[…] weil es falsch niedergeschrieben ist […] dir […] unter/von unseren […] entgegen/wegen der […] da sie Ansprüche erheben, gemäß auch den Entscheidungen der Präfekten, die […] (in) ähnlichen Sachverhalten […] sie trachten zu Unrecht nach (unserer) Freiheit und unserem Eigentum […] dass sie dem Prozess ausweichen und uns schlecht behandeln, obwohl wir nicht […] sind […] weil sie (die Sache) aufschieben, auf dass wir Wohltat erfahren haben […]“
+</p></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Ein Brief des Posis an Anthestios</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">1003737</idno>
+               <idno type="HGV">1003737</idno>
+               <idno type="ddb-filename">pylon.9.6_2</idno>
+               <idno type="ddb-hybrid">pylon;9;6_2</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement>Hamburg</settlement>
+                     </placeName>
+                     <collection>Staats- und Universitätsbibliothek</collection>
+                     <idno type="invNo">P.Hamb. graec. 23</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Arsinoites (?)</origPlace>
+                        <origDate notBefore="0101" notAfter="0200" precision="low">II</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p>
+                           <placeName type="ancient"
+                              subtype="nome"
+                              cert="low"
+                              ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                           <placeName type="ancient" subtype="region">Ägypten</placeName>
+                        </p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Eingabe</term>
+                  <term n="2">Eigentum</term>
+                  <term n="3">Prozess</term>
+                  <term n="4">Verschiebung</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition">
+               <listBibl>
+                  <bibl type="publication" subtype="principal">
+                     <title level="s" type="abbreviated">Pylon</title>
+                     <biblScope n="1" type="volume">9</biblScope>
+                     <biblScope n="2" type="fascicle">(2026)</biblScope>
+                     <biblScope n="3" type="generic">Art. 6</biblScope>
+                     <biblScope n="4" type="number">Nr. 2</biblScope>
+                  </bibl>
+               </listBibl>
+            </div>
+            <div type="figure">
+               <p>
+                  <figure>
+                     <graphic url="https://resolver.sub.uni-hamburg.de/kitodo/HANSh3578"/>
+                  </figure>
+               </p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Ein Brief des Posis an Anthestios</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.9.6_2</idno>
+               <idno type="ddb-hybrid">pylon;9;6_2</idno>
+               <idno type="HGV">1003737</idno>
+               <idno type="TM">1003737</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Ein Brief des Posis an Anthestios</head>
+            <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb xml:id="ed2ln1" n="1"/>Πόσις Ἀνθεστίῳ
+<lb xml:id="ed2ln2" n="2"/>τῷ τιμιωτάτῳ χαίρε<unclear>ιν</unclear>.
+<lb xml:id="ed2ln3" n="3"/>ἐκομισάμην παρὰ
+<lb xml:id="ed2ln4" n="4"/>Κοπρῆτος τὸ ἐπισ
+<lb xml:id="ed2ln5" n="5" break="no"/>τόλιον καὶ τὸν <expan>ὑπομ<ex>νηματισμόν</ex></expan>.
+<lb xml:id="ed2ln6" n="6"/><choice><reg>ἀμερίμνει</reg><orig>ἀμερίμνι</orig></choice> περὶ ὧν
+<lb xml:id="ed2ln7" n="7"/>μοι ἔγραψας. ἔπεμ
+<lb xml:id="ed2ln8" n="8" break="no"/>ψά <choice><reg>σοι</reg><orig>συ</orig></choice> τὸ κομιᾶτον
+<lb xml:id="ed2ln9" n="9"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>
+<lb n="9"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Ein Brief des Posis an Anthestios</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">1003737</idno>
+               <idno type="TM">1003737</idno>
+               <idno type="HGV">1003737</idno>
+               <idno type="ddb-hybrid">pylon;9;6_2</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans2" xml:lang="en" type="translation" xml:space="preserve"><p>
+„Posis an seinen verehrtesten Anthestios, Grüße. Ich erhielt durch Kopres den Brief und das Protokoll. Sei unbesorgt über das, was Du mir geschrieben hast. Ich habe Dir die Lebensmittelvorräte gesandt […]“
+</p></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>

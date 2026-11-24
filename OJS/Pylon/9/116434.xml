@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Heracleopolite Sale of Barley on Delivery </title>
+            <author>
+               <name>
+                  <forename>Nikolaos</forename>
+                  <surname>Gonis</surname>
+               </name>
+               <affiliation>University College London</affiliation>
+               <email>n.gonis@ucl.ac.uk</email>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1105588696</idno>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0003-2046-1050</idno>
+            </author>
+            <author>
+               <name>
+                  <forename>Sophie</forename>
+                  <surname>Kovarik</surname>
+               </name>
+               <affiliation>University of Edinburgh</affiliation>
+               <email>skovarik@ed.ac.uk</email>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0003-2378-3661</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.9.9</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2026.9.116434</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">N. Gonis and S. Kovarik, “A Heracleopolite Sale of Barley on Delivery,” Pylon 9 (2026) Article 9. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2026.9.116434">https://doi.org/10.48631/pylon.2026.9.116434</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">9</biblScope>
+                     <biblScope unit="article">9</biblScope>
+                     <date when="2026">2026</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2026-05-28T14:40:19Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">
+               <emph rend="bold">A Heracleopolite Sale of Barley on Delivery</emph>
+            </titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <div type="epidoc" subtype="DDB">
+               <div type="introduction">
+                  <p xml:id="p1">The document was first published as a ‘Quittung über ein Getreidedarlehen’ (<ref target="https://papyri.info/biblio/43715">Gerstinger 1961</ref>: 59–60), later republished as <ref target="http://papyri.info/hgv/22902">SB 8 9773</ref> under the title ‘Quittungshomologie über den Empfang eines Getreidedarlehens’. Its correct identification as a ‘Kauf bei Vorauszahlung’ was first recognized by P.J. Sijpesteijn, who also offered a number of corrections to the text (<ref target="https://papyri.info/biblio/52194">Sijpesteijn 1977</ref>: 98 n. 20, 108–109). Shortly thereafter, R.S. Bagnall and K.A. Worp made further improvements, establishing the date of the text as 540 (<ref target="https://papyri.info/biblio/52330">Bagnall and Worp 1978</ref>: 227–229), previously placed in 405. These corrections were not incorporated into the <emph rend="italics">Berichtigungsliste</emph>, since a new edition in <emph rend="italics">Sammelbuch</emph> had been envisaged (<ref target="https://beehive.zaw.uni-heidelberg.de/info/45113">BL 7.214</ref>). No such edition has appeared, however, and the text as it currently stands cannot be used without consulting these two articles. While revising the text for DDbDP, it became clear that not all earlier proposals could be confirmed, that further emendations were required, and that, following autopsy, more than two dozen adjustments to brackets and underdots had to be made. Although the number of genuinely new readings is limited, the need for a reliable and readily accessible text justifies the present edition.</p>
+                  <p xml:id="p2">The document records that a priest of a church of Heracleopolis acknowledges receipt from Aurelia Manna of the full price of ten artabas of barley, paid in advance of delivery. The name of Manna’s father was intended to be added later but was never supplied. Six years earlier, in 534, Aurelia Manna, daughter of Ioannes and Ania, and Aurelia Nymphe, daughter of Apollos and Thamoule, appear as lessors of four arouras of land to the bishop of Heracleopolis, with a deacon of the cathedral church acting as guarantor for the women (<ref target="https://papyri.info/hgv/22923">SB 8 9876</ref>). It is likely that both texts concern the same Manna; taken together, they form a small dossier documenting the financial dealings of a propertied woman who repeatedly engaged with representatives of the local church. The circumstances underlying these transactions cannot be determined on present evidence.</p>
+                  <figure>
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24253866"/>
+                     <head>Fig. 1: P.Vindob. Inv. G 26248 recto (= SB 8 9773r). © Österreichische Nationalbibliothek, Papyrussammlung.</head>
+                  </figure>
+                  <figure>
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24253870"/>
+                     <head>Fig. 1: P.Vindob. Inv. G 26248 verso (= SB 8 9773v). © Österreichische Nationalbibliothek, Papyrussammlung.</head>
+                  </figure>
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;">P.Vindob. G 26248</cell>
+                        <cell style="text-align: center;">10 (h) × 17 (w) cm</cell>
+                        <cell style="text-align: right;">28 Sept. – 5 Oct. 540</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">Heracleopolis</cell>
+                     </row>
+                  </table>
+               </div>
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <note target="#ed1r1ln1">
+                     <ref>1–6</ref>
+                     <p xml:id="p3"> The reading of these lines is essentially after <ref target="https://papyri.info/biblio/52330">Bagnall and Worp 1978</ref>: 228. We have only transposed some dots and brackets.</p>
+                  </note>
+                  <note target="#ed1r1ln5">
+                     <ref>5</ref>
+                     <p xml:id="p4"> Φαωφ[ι   ̣  ̣  ̣  ̣]ῃ̣: Φαωφ[ι εἰκάδ]ι <ref target="https://papyri.info/biblio/52330">Bagnall and Worp 1978</ref>: 228. [πρώτ]ῃ̣, [τρίτ]ῃ̣, [ἕκτ]ῃ̣, [ὀγδό]ῃ̣ (28, 30 September; 3, 5 October) would fit.</p>
+                  </note>
+                  <note target="#ed1r1ln8">
+                     <ref>8</ref>
+                     <p xml:id="p5"> Ἀπανα̣κίο̣υ is after <ref target="https://papyri.info/biblio/52194">Sijpesteijn 1977</ref>: 108.</p>
+                  </note>
+                  <note target="#ed1r1ln10">
+                     <ref>10–11</ref>
+                     <p xml:id="p6"> Cf. <ref target="https://papyri.info/hgv/22923">SB 8 9876</ref>.5–6 (534) Αὐρη]λίαι Μάννα θυγάτηρ Ἰωάννου, μητρὸς | Ἀνίας καὶ Ν[ύμφη θυγάτ]ηρ Ἀπολλῶ, μητρὸς Θαμούλης.</p>
+                  </note>
+                  <note target="#ed1r1ln11">
+                     <ref>11</ref>
+                     <p xml:id="p7"> The <emph rend="italics">vacat</emph> was first recognized by <ref target="https://papyri.info/biblio/52194">Sijpesteijn 1977</ref>: 109.</p>
+                     <p xml:id="p8">Ἡρακλέ̣[ου]ς ̣ πόλεως: Ἡρακλ[εου]πόλεως ed. pr.</p>
+                  </note>
+                  <note target="#ed1r1ln15">
+                     <ref>15</ref>
+                     <p xml:id="p9"> ⟨ἀρταβῶν⟩ δέκα μέ̣τ̣ρῳ̣ is due to <ref target="https://papyri.info/biblio/52194">Sijpesteijn 1977</ref>: 109.</p>
+                     <p xml:id="p10">τούτων: τούτου ed. pr.</p>
+                  </note>
+                  <note target="#ed1r1ln18">
+                     <ref>18</ref>
+                     <p xml:id="p11"> καρπῶν. The first edition restored γεννημάτων, which is unparalleled and too long for the available space. The phrase ἀπὸ τῶν καρπῶν is not attested in this position in any of the few Heracleopolite documents of this type (<ref target="https://papyri.info/hgv/36582">SPP 20 148</ref>.15 has only καρπῶν), though it is known from other regions, including the neighbouring Fayum; cf. e.g. <ref target="https://papyri.info/hgv/41065">CPR 10 23</ref>.7 (Ars.; 523). </p>
+                  </note>
+                  <note target="#ed1r1ln19">
+                     <ref>19–20</ref>
+                     <p xml:id="p12"> [ἀνυπερθέτως καὶ] ἄ̣ν̣ευ πά[ση]ς | [ἀντιλογίας. τὸ γραμ]μ̣άτιον [κύριον]. <ref target="https://papyri.info/biblio/52194">Sijpesteijn 1977</ref>: 108 proposed [ἀνυπερθέτως καὶ ἄν]ευ πά[σης ἀντιλογίας] | [τῆς πράξεώς σοι οὔσης] κ̣α̣ὶ̣ τ̣ο̣[ῖς παρὰ σοῦ] (he numbered these lines as 18–19) There is no room for ἀντιλογίας in l. 19, and it is unlikely that the word was divided between the lines. Furthermore, there is a tiny horizontal stroke immediately after the lacuna, which we take to belong to the extended cap of the final sigma of πά[ση]ς ̣. In l. 20, κ̣α̣ὶ̣ τ̣ο̣[ῖς is not a possible reading; ed. pr. read το]ῦ̣ ἁγίου, which is close to what the papyrus has but not correct. We read γραμ]μ̣άτιον, as expected at this point in Heracleopolite documents; cf. e.g. <ref target="https://papyri.info/hgv/36582">SPP 20 148</ref>.19 (6th c.). This formulation is another indication that <ref target="https://papyri.info/hgv/851609">P.Hoogendijk 39</ref>, endorsed Ἡ]ρ̣ακλ(  ), is Heracleopolite.</p>
+                  </note>
+                  <note target="#ed1r1ln21">
+                     <ref>21</ref>
+                     <p xml:id="p13"> [καὶ ἐπερ(ωτηθεὶς) ὡμολ(όγησα). Ἰο]ύ̣λ̣ι̣ο̣[ς]. The first edition read [δι’ ἐμοῦ ]ου ἐ̣[τελειώθη], while <ref target="https://papyri.info/biblio/52194">Sijpesteijn 1977</ref>: 108 stated that the traces were ‘zu undeutlich, um eine Deutung zu wagen’.</p>
+                  </note>
+                  <head>Fr. 2</head>
+                  <note target="ed1r2ln1">
+                     <ref>1</ref>
+                     <p xml:id="p14"> A composite of two minute, possibly contiguous fragments mounted in the same frame as fr. 1 and originally glued together 
+upside down, has since been separated. ]κει in l. 1 could be part of προκείμενος, which would have belonged to Ioulios’ declaration and l. 21, that is, [πρεσβύτερος υἱὸς Ἀπανακίου ὁ προ]κεί|[μενος], but the remains of the next two lines cannot be placed in this context. An alternative is ὡς πρό]κει|[ται, from the end of the declaration, but it is again impossible to reconstruct a text that could include the rest of the fragment. </p>
+                  </note>
+                  <head>Back</head>
+                  <note target="ed1vln1">
+                     <ref>1</ref>
+                     <p xml:id="p15"> χι(ρόγραφον): ὁμο]λ(ογία) ed. pr. The monogram chi-iota for χειρόγραφον is standard in endorsements of Arsinoite and Heracleopolite documents in this period; see <ref target="https://papyri.info/biblio/97711">Monte (2024)</ref>, with a list of attestations in Table 1.1, pp. 197–200.</p>
+                     <p xml:id="p16">Ἀπα̣ν̣ακίο(υ): cf. <ref target="https://papyri.info/biblio/52194">Sijpesteijn 1977</ref>: 109.</p>
+                     <p xml:id="p17">ἀπ̣[ὸ] κώμ̣η̣[ς Πεενη] <ref target="https://papyri.info/biblio/52194">Sijpesteijn 1977</ref>: 98 n. 20, who further notes that the name of the village may have been followed by a reference to the nome.</p>
+                  </note>
+               </div>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/52330">Bagnall, R.S. and K.A. Worp (1978)</ref> “Ten Consular Dates,” ZPE 28: 221–230.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/43715">Gerstinger, H. (1961)</ref> “Neue byzantinische Vertragsurkunden aus der Sammlung „Papyri Erzherzog Rainer“ in Wien,” JJP 13: 53–65.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97711">Monte, A. (2024)</ref> “Le abbreviazioni monogrammatiche <emph rend="italics">chi-iota</emph> e <emph rend="italics">chi-rho</emph> per χειρόγραφον nei papiri greci di epoca bizantina (IV-VII sec. d.C.),” in M. Boccuzzi (ed.), Mani e scritture, simboli e testi. Ricerche su fonti documentarie ed epigrafiche tardoantiche, Roma: 195–211.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/52194">Sijpesteijn, P.J. (1977)</ref> “Addenda et Corrigenda zu Wiener Texten,” ZPE 24: 95–109.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="filename">22902</idno>
+               <idno type="TM">22902</idno>
+               <idno type="ddb-filename">pylon.9.10</idno>
+               <idno type="ddb-hybrid">pylon;9;10</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement/>
+                     </placeName>
+                     <collection/>
+                     <idno type="invNo">G 26248</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Herakleopolis</origPlace>
+                        <origDate when="0540-10-17">17. Okt. 540</origDate>
+                        <origDate notBefore="0540-09-28" notAfter="0540-10-05">128. Sept. - 5. Okt. 540</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p>
+                           <placeName type="ancient" ref="https://pleiades.stoa.org/places/736920 https://www.trismegistos.org/place/801">Herakleopolis</placeName>
+                           <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2713 https://pleiades.stoa.org/places/736921">Herakleopolites</placeName>
+                           <placeName type="ancient" subtype="region">Ägypten</placeName>
+                        </p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="commentary" subtype="general">
+               <p>Zur Datierung vgl. ZPE 28, 1978, S. 227 - 228.</p>
+            </div>
+            <div type="bibliography" subtype="principalEdition">
+               <listBibl>
+                  <bibl type="publication" subtype="principal">
+                     <title level="s" type="abbreviated">Pylon</title>
+                     <biblScope type="volume">9</biblScope>
+                     <biblScope n="2" type="fascicle">(2026)</biblScope>
+                     <biblScope n="3" type="generic">Art. 10</biblScope>
+                  </bibl>
+               </listBibl>
+            </div>
+            <div type="bibliography" subtype="illustrations">
+               <p>keine</p>
+            </div>
+            <div type="bibliography" subtype="translations">
+               <head xml:lang="de">Übersetzungen</head>
+               <listBibl xml:lang="de">
+                  <head xml:lang="de">Deutsch:</head>
+                  <bibl type="translations">H. Gerstinger, JJP 13. 1961, S. 60</bibl>
+               </listBibl>
+            </div>
+            <div type="figure">
+               <p>
+                  <figure>
+                     <graphic url="http://data.onb.ac.at/rec/RZ00006212"/>
+                  </figure>
+               </p>
+            </div>
+            <div type="bibliography" subtype="corrections">
+               <head>BL-Einträge nach BL-Konkordanz</head>
+               <listBibl>
+                  <bibl type="BL-online">
+                     <ptr target="https://beehive.zaw.uni-heidelberg.de/hgv/22902"/>
+                  </bibl>
+                  <bibl type="BL">
+                     <biblScope type="volume">VII</biblScope>
+                     <biblScope type="pages">214</biblScope>
+                  </bibl>
+                  <bibl type="BL">
+                     <biblScope type="volume">VIII</biblScope>
+                     <biblScope type="pages">354</biblScope>
+                  </bibl>
+               </listBibl>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.9.10</idno>
+               <idno type="ddb-hybrid">pylon;9;10</idno>
+               <idno type="HGV">22902</idno>
+               <idno type="TM">22902</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="r" type="textpart">
+<div n="1" subtype="fragment" type="textpart"><ab>
+    <lb xml:id="ed1r1ln1" n="1"/><unclear><g type="stauros">†̣</g></unclear> <unclear>β</unclear><supplied reason="lost">ασιλείας τοῦ θειοτάτου καὶ εὐσεβεστάτου</supplied>
+    <lb xml:id="ed1r1ln2" n="2"/>ἡ<supplied reason="lost">μῶ</supplied><unclear>ν</unclear> δε<unclear>σπό</unclear><supplied reason="lost">τ</supplied>ου Φλα<supplied reason="lost">ουΐου Ἰουστινι</supplied><unclear>ανοῦ</unclear>
+    <lb xml:id="ed1r1ln3" n="3"/>τοῦ αἰωνίου Αὐγούστου <unclear>κ</unclear><supplied reason="lost">αὶ Αὐ</supplied><unclear>τ</unclear>οκράτορ<unclear>ο</unclear><supplied reason="lost">ς</supplied>
+    <lb xml:id="ed1r1ln4" n="4"/>ἔτου<supplied reason="lost">ς</supplied> <num value="14"><supplied reason="lost">ι</supplied>δ</num><note>]δ’ papyrus</note> <hi rend="diaeresis">ὑ</hi><unclear>π</unclear><supplied reason="lost">ατ</supplied><unclear>εία</unclear><supplied reason="lost">ς</supplied><note>ϋπ̣[ papyrus</note> <unclear>Φ</unclear><supplied reason="lost">λαουΐο</supplied><unclear>υ</unclear> Ἰουστ<unclear>ί</unclear><supplied reason="lost">νο</supplied><unclear>υ</unclear>
+    <lb xml:id="ed1r1ln5" n="5"/>το<unclear>ῦ</unclear> <supplied reason="lost">ἐν</supplied>δοξοτά<unclear>τ</unclear><supplied reason="lost">ο</supplied>υ Φαωφ<supplied reason="lost">ι</supplied> <gap reason="lost" quantity="4" unit="character"/><unclear>ῃ</unclear> τῆ<unclear>ς</unclear>
+    <lb xml:id="ed1r1ln6" n="6"/>εὐτυχοῦς τετάρ<unclear>της</unclear> <unclear>ἰ</unclear><supplied reason="lost">ν</supplied>δι<unclear>κ</unclear><supplied reason="lost">τίονος</supplied> ἐν <expan><unclear>Ἡρακλ</unclear><ex>έους</ex></expan> 
+    <lb xml:id="ed1r1ln7" n="7"/>πόλει. <hi rend="diaeresis">Ἰ</hi>ούλιος<note>ϊουλιος papyrus</note> πρεσβύτ<unclear>ερ</unclear><supplied reason="lost">ο</supplied><unclear>ς</unclear> <unclear>τῆ</unclear><supplied reason="lost">ς</supplied> ἁγίας
+    <lb xml:id="ed1r1ln8" n="8"/>ἐκκλησίας, υ<hi rend="diaeresis">ἱ</hi>ὸς<note>υϊος papyrus</note> Ἀπαν<unclear>α</unclear>κί<unclear>ο</unclear>υ μητρὸς
+    <lb xml:id="ed1r1ln9" n="9"/>Μαρίας ἀ<unclear>π</unclear>ὸ κώ<unclear>μ</unclear>ης Π<unclear>ε</unclear>ενη τοῦ <expan>Ἡρακ<unclear>λ</unclear><ex>εο</ex></expan>
+    <lb xml:id="ed1r1ln10" n="10" break="no"/>πολίτου νομοῦ Αὐρηλίᾳ Μάννᾳ 
+    <lb xml:id="ed1r1ln11" n="11"/>θυγατρὶ <space extent="unknown" unit="character"/> <supplied reason="lost">ἀ</supplied>φ’ Ἡρακλ<unclear>έ</unclear><supplied reason="lost">ου</supplied><unclear>ς</unclear> πόλεως
+    <lb xml:id="ed1r1ln12" n="12"/>χαίρε<unclear>ι</unclear>ν. ὁμολογῶ ἐσχηκέν<unclear>αι</unclear> <unclear>π</unclear>αρὰ σοῦ
+    <lb xml:id="ed1r1ln13" n="13"/>διὰ χε<unclear>ιρ</unclear>ὸς ἐξ οἴκου καὶ πεπληρῶσθαι
+    <lb xml:id="ed1r1ln14" n="14"/>τὴν τιμὴν κριθῶν ἐπιτηδείων
+    <lb xml:id="ed1r1ln15" n="15"/><supplied reason="omitted">ἀρταβῶν</supplied> δέκα μ<unclear>έτ</unclear>ρ<unclear>ῳ</unclear> τῷ ἐμῷ καὶ τὴν τούτων
+    <lb xml:id="ed1r1ln16" n="16"/>ἀπόδ<supplied reason="lost">ο</supplied>σίν σοι ποιήσομαι <unclear>με</unclear><supplied reason="lost">τὰ</supplied> πίστεως
+    <lb xml:id="ed1r1ln17" n="17"/>ἀγαθ<unclear>ῆ</unclear>ς τῷ Παυ<unclear>ν</unclear>ι μην<unclear>ὶ</unclear> <supplied reason="lost">ἀπὸ</supplied> τῶν
+    <lb xml:id="ed1r1ln18" n="18"/><supplied reason="lost">καρπῶν τ</supplied><unclear>ῆ</unclear>ς π<supplied reason="lost">έ</supplied>μπτη<supplied reason="lost">ς</supplied> ἰ<supplied reason="lost">νδικ</supplied><unclear>τ</unclear>ίονος
+    <lb xml:id="ed1r1ln19" n="19"/><supplied reason="lost">ἀνυπερθέτως καὶ</supplied> <unclear>ἄν</unclear>ευ πά<supplied reason="lost">ση</supplied><unclear>ς</unclear>
+    <lb xml:id="ed1r1ln20" n="20"/><supplied reason="lost">ἀντιλογίας. τὸ γραμ</supplied><unclear>μ</unclear>άτιον <supplied reason="lost">κύριον</supplied>
+    <lb xml:id="ed1r1ln21" n="21"/><supplied reason="lost">καὶ <expan>ἐπερ<ex>ωτηθεὶς</ex></expan> <expan>ὡμολ<ex>όγησα</ex></expan>. Ἰο</supplied><unclear>ύλιο</unclear><supplied reason="lost">ς</supplied>
+    <lb xml:id="ed1r1ln22" n="22"/><gap reason="lost" extent="unknown" unit="character"/>
+</ab></div>
+<div n="2" subtype="fragment" type="textpart"><ab>
+    <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+    <lb xml:id="ed1r2ln1" n="1"/><gap reason="lost" extent="unknown" unit="character"/>κει
+    <lb xml:id="ed1r2ln2" n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>η</unclear>ς
+    <lb xml:id="ed1r2ln3" n="3"/><gap reason="lost" extent="unknown" unit="character"/>ς
+    <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+</div>
+<div n="v" type="textpart"><ab>
+    <lb xml:id="ed1vln1" n="1"/><choice><reg><expan>χει<ex>ρόγραφον</ex></expan></reg><orig><expan>χι<ex>ρόγραφον</ex></expan></orig></choice> Ἰουλίου υἱοῦ <expan>Ἀπ<unclear>αν</unclear>ακίο<ex>υ</ex></expan> <expan>πρεσβ<ex>υτέρου</ex></expan> ἀ<unclear>π</unclear><supplied reason="lost">ὸ</supplied> κώ<unclear>μη</unclear><supplied reason="lost">ς Πεενη</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main"/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">22902</idno>
+               <idno type="HGV">22902</idno>
+               <idno type="TM">22902</idno>
+               <idno type="ddb-filename">pylon.9.10</idno>
+               <idno type="ddb-hybrid">pylon;9;10</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>
+<milestone unit="line" n="1"/> In the reign of our most godly and most pious master, Flavius Iustinianus, 
+the eternal Augustus and Imperator, year 14, in the consulship of Flavius Iustinus, 
+vir gloriosissimus, Phaophi …, of the auspicious fourth indiction, at Heracleopolis. 
+I, Ioulios, priest of the Holy Church, son of Apanakios, mother Maria, 
+from the village of Peene of the Heracleopolite nome, 
+to Aurelia Manna daughter of … from Heracleopolis, greetings. 
+I acknowledge that I have received from you, by hand, from (your) house, 
+and have been paid in full the price of ten artabas of quality barley, 
+(measured) by my own measure, and I will deliver them to you in good faith 
+in the month of Pauni from the produce of the fifth indiction, with no delay 
+and without any dispute. The deed is binding, 
+and in reply to the formal question I assented. I, Ioulios, …
+Back: Chirograph of Ioulios son of Apanakios, priest, from the village of Peene …
+</p></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>

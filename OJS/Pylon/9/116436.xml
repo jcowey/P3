@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Petition to the Prefect of Egypt Clodius Culcianus: Locating the Lower Cynopolite Nome and a Hitherto Unknown Tripolis of Egypt </title>
+            <author>
+               <name>
+                  <forename>Constantinos</forename>
+                  <surname>Balamoshev</surname>
+               </name>
+               <affiliation>Faculty of Archaeology, Department of Papyrology, University of Warsaw</affiliation>
+               <email>c.balamoshev@uw.edu.pl</email>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1345828071</idno>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0002-5700-2408</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.9.11</idno>
+            <idno ana="hc:DOI">https://doi.org/10.116432/pylon.2026.9.116436</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">C. Balamoshev, “A Petition to the Prefect of Egypt Clodius Culcianus: Locating the Lower Cynopolite Nome and a Hitherto Unknown Tripolis of Egypt,” Pylon 9 (2026) Article 11. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2026.9.116436">https://doi.org/10.48631/pylon.2026.9.116436</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">9</biblScope>
+                     <biblScope unit="article">11</biblScope>
+                     <date when="2026">2026</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2026-07-13T10:10:51Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">A Petition to the Prefect of Egypt Clodius Culcianus: Locating the Lower Cynopolite Nome and a Hitherto Unknown Tripolis of Egypt</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">I am grateful to Nikolaos Gonis for the discussion of and suggestions on a preliminary version of this paper, to Rodney Ast for further comments, and to G. Ochała for his assistance with Coptic.</note>
+            <div type="introduction">
+               <p xml:id="p1">This is a dark-brown papyrus broken at the right and bottom side. The left and top margins are preserved with some deterioration at the top as the text progresses towards the right. The completely preserved lines 2 and 3 facilitate an estimation of the approximate number of letters lost towards the right side in the following lines. The text on the recto is written along the fibres while the verso is blank. The script is generally professional, upright and cursive, with the scribe employing the trēma over the upsilon on two occasions (line 3 and 7). The text appears to be written in good-quality Greek, exhibiting no spelling anomalies except for an occasional use of ει instead of an ι and one instance of an apparent phonetic confusion of αι and ε. Peculiar, oblique extensions (cross-lines) occur in <ref target="#fig1">line 5 (Fig. 1)</ref> νόμοις, <ref target="#fig2">line 7 (Fig. 2)</ref> ἐπί, and <ref target="#fig3">line 8 (Fig. 3)</ref> at the end of μεταλλικῶν and through the kappa of κατασκευήν. They do not resemble a typical χιασμός (cross-cancellation) of a contract, hence their function remains unclear.</p>
+               <figure xml:id="fig1">
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258924"/>
+                  <head>Fig. 1: P.CtYBR inv. 170, line 5 νόμοις.</head>
+               </figure>  
+               <figure xml:id="fig2">
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258926"/>
+                  <head>Fig. 2: P.CtYBR inv. 170, line 7 ἐπί.</head>
+               </figure>
+               <figure xml:id="fig3">
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258928"/>
+                  <head>Fig. 3: P.CtYBR inv. 170, line 8 at the end of μεταλλικῶν.</head>
+               </figure>
+               <p xml:id="p2">Although the papyrus was purchased in Medinet el-Faiyum, the internal evidence indicates that it was written in the Lower Cynopolite nome (in the Delta, see the discussion below). I quote from the relevant page of the Beinecke Library for the acquisition history: “Purchased in Egypt on behalf of Yale, with funds that may have been donated by the General Education Fund of the Rockefeller Foundation’s General Education Board. The dealers’ names are given as Harold Idris Bell reported them in his 1927 report. P.CtYBR inv. 168–212, and 2147–2154 were purchased by Francis Willey Kelsey and Dr. David L. Askren from Tadaros in Medinet el-Faiyum, late 1926 or early 1927. The manuscripts were brought to Yale from the British Museum between 9 May and 11 October 1927.”</p>
+               <p xml:id="p3">The document is a petition to Clodius Culcianus the prefect of Egypt in 301–306 (PLRE I 233–234) submitted by a certain Aurelius Sοnsamounis hailing from the village of Temry in the Lower Cynopolite nome, a nome said to belong to a tripolis. Regrettably, a large portion of the text is lost, but the surviving lines yield some information regarding the case, which seems to concern an allegedly unfair repeated performance of a public service. The petitioner starts by referring to the laws that commend those who perform public services (δημοσίας ὑπηρεσίας) with diligency, attempts to flatter the prefect referencing his religious adherence (νεωκορῶν) to the laws, and goes on to assert that he, a coppersmith, has fulfilled his duty of manufacturing metal wedges (σφηνῶν μεταλλικῶν) already thrice. Subsequently, he mentions fellow-craftsmen who have never undertaken the same services before and who are now expected to take up the duties (χρείας) through official notices (διὰ φάσεων). From this point onwards, the text becomes increasingly fragmentary and its content is difficult to determine.</p>
+               <p xml:id="p4"><ref target="https://papyri.info/biblio/6411">Lewis 1963</ref> published an interesting set of documents that included protests against nomination to consecutive liturgies. In the introduction to <ref target="https://papyri.info/hgv/23655">P.Leit. 7</ref> (219–224), he provides the legal basis for such complaints. This consists of the Constitutions of Septimius Severus and Gordian (Dig. 50.1.18; Cod. Just. 10.41.2), as well as an earlier edict by the prefect Gaius Avidius Heliodorus (138–142),<note place="foot" xml:id="ftn1" n="1">
+                     <p>
+                        <ref target="https://papyri.info/hgv/17153">P.Eirene 4 4 = PSI 14 1406</ref>.</p>
+                  </note> which condemned the practice of successive services without ἀνάπαυσις (‘rest’). Despite this legal framework, the situation was far from ideal, as it seems, as such protests are still documented in the early fourth century, as evidenced by the present papyrus.</p>
+                <p xml:id="p5">A notable detail of the text is the petitioner’s provenance, the Lower Cynopolite nome. There has been a long debate, starting with Grenfell and Hunt’s publication of <ref target="https://papyri.info/hgv/21986">P.Oxy. 14 1708</ref> in 1920,<note place="foot" xml:id="ftn2" n="2">
+                     <p> In the introduction, they write: “The transfer had taken place at the market of the Cynopolite nome, which is here, as in 1256. 4, called ὁ ἄνω Κυνοπολίτης to distinguish it from the Cynopolite nome in the Delta (that ἄνω refers to a toparchy, as proposed in the translation of 1256, is less likely).” </p>
+                  </note> on whether the Lower Cynopolite was a new nome created in the Delta or a subdivision of the existing Cynopolite nome, which split into an Upper and a Lower part. The attestations of the former appear from the 180s on,<note place="foot" xml:id="ftn3" n="3">
+                     <p> If the restoration of Κυνός in <ref target="https://www.trismegistos.org/text/63688">P.Oxy. 11 1380</ref>.49–50 is plausible (ἐν Κυνὸς] πόλει | τοῦ Βο̣υ̣[σε]ι[ρε]ίτ[ο]υ), making Cynopolis part of the Busirite nome, then indeed Grenfell and Hunt’s dating on palaeographical grounds is correct (recto in the reign of Trajan/Hadrian; verso under the Antonines, but not later). </p>
+                  </note> while the first attestation of the Lower Kynopolitēs is in 270 (<ref target="https://papyri.info/hgv/15637">P.Oxy. 49 3477</ref>, col. 2.506: ἀπὸ τῆς μητροπόλεως τοῦ κάτω Κυνοπ[ολί]|του νομοῦ. </p>
+                <p xml:id="p6">In 1927, Hunt retracted the idea of two nomes (<ref target="https://papyri.info/hgv/12607">P.Oxy. 17 2136</ref>, 291: trans. “the lower division of the Cynopolite nome”). In her monograph on the nomes and toparchies <ref target="https://papyri.info/biblio/96468">Eller 2022</ref>: 262, refers to the proposal of <ref target="https://papyri.info/biblio/34465">Gauthier 1935</ref>: 193–194, according to whom this nome was carved out of the Busirite nome, having another Κυνὸς πόλις as its metropolis, closely associated with the town of Busiris [TM Geo 469]. Gauthier further mentions its name in some later sources: Greek Κουνο κάτω<note place="foot" xml:id="ftn4" n="4">
+                     <p> ⲕⲩⲛⲟⲩ ⲕⲁⲧⲱ as given by <ref target="https://papyri.info/biblio/96467">Amélineau 1893</ref>: 85.</p>
+                  </note> and Coptic ⲠⲀⲚⲀⲨ, attested as a bishopric,<note place="foot" xml:id="ftn5" n="5">
+                     <p>
+                        <ref target="https://papyri.info/biblio/97755">Hyvernat 1886</ref>: 174.</p>
+                  </note> whose bishop for an unknown period oversaw the sees of both neighbouring towns, Busiris (modern Abu Sir Bana) and Cynopolis (modern Bana Abu Sir).<note place="foot" xml:id="ftn6" n="6">
+                     <p> Their bishop, Hermaion, attends the Council of Nicaea (325), as one of the partisans of Meletius: Ἑρμαίων ἐν Κυνῷ καὶ Βούσιρι (Athan. Apol. sec. 71.6.32). Cf. also John of Nikiu, Chron. 97.3–5, mentioning the two towns under one “governor”: “Now John the prefect of the city of Alexandria had made them governors over many cities in Egypt. Their own city Aikelah was near the city of Alexandria. And these four men were in the enjoyment of great wealth, but not being able to bear (it) they attacked the Blue Faction, and sacked the two cities of Bena and Busir, without the permission of the governor of the province. Now the latter was a good, excellent, and chaste man. And these four men whom we have already mentioned, shed much blood, and burnt the city of Busir and the public bath. And the governor of the city of Busir fled by night” (trans. <ref target="https://papyri.info/biblio/97722">R.H. Charles 1916</ref>). See also <ref target="https://papyri.info/biblio/96467">Amélineau 1893</ref>: 9–11&amp; 84–85 s.v. Abousîr and Banâ. A detailed overview of Kyno/Bana’s history can be found in the indispensable <ref target="https://papyri.info/biblio/56888">Timm 1984</ref>: 318–324. See also <ref target="https://papyri.info/biblio/21303">Peust 2010</ref>: 21.</p>
+                  </note> Furthermore, in <ref target="https://papyri.info/hgv/22460">P.Oxy. 47 3345</ref>.50n. Coles, who is in favour of two distinct nomes, observes that on one occasion the reference to a Κυνοπολίτης κάτω is linked with the Leontopolite nome in the Delta.<note place="foot" xml:id="ftn7" n="7">
+                     <p>
+                         <ref target="https://papyri.info/hgv/12607">P.Oxy. 17 2136</ref>, where the amanuensis of the illiterate Aurelius Nemesas, who hails from the Lower Cynopolite nome, is an ex-gymnasiarch of Leontopolis.</p>
+                  </note> Hagedorn agrees with him in <ref target="https://papyri.info/hgv/33551">P.Muench. 3 138</ref>.3n., noting that the disproportion of the evidence in favour of the Upper Cynopolite nome is an argument by itself that the Upper and the Lower nome were two different entities distant from each other, with naturally much less attestations of the latter because it was located in the Delta. Helck <ref target="https://papyri.info/biblio/97756">(1974: 115)</ref>, on the other hand, disagreed with the distinction, insisting on the geographic continuity of the Upper and Lower Cynopolite nomes. More recently Abd el-Ghani <ref target="https://papyri.info/biblio/97736">(2022)</ref>, after examining the evidence currently available, has argued against the idea of a separate nome in the Delta. However, <ref target="https://papyri.info/biblio/96468">Eller 2022</ref>: 263 draws attention to an interesting detail: in two cases the Cynopolite nome bears the descriptive “the one above Memphis” (τοῦ ὑπὲρ Μέμφιν),<note place="foot" xml:id="ftn8" n="8">
+                     <p>
+                         <ref target="https://papyri.info/hgv/27860">P.Bad. 4 73</ref>.3 (2nd cent.) τ̣[ο]ῦ̣ [ὑ]π̣ὲρ̣ Μ̣[έ]μφιν Κ̣υνοπ[ο]λίτη νομῶ (l. Κυνοπολίτου νομοῦ); <ref target="https://papyri.info/hgv/316270">PSI 16 1631</ref>.1 (185–186) ἀπὸ Εὐεργέτιδος πόλεως τοῦ ὑπὲρ [Μέμφιν Κυνοπολίτου, where it is restored, but there is little doubt that this is the expression.</p>
+                  </note> i.e. situated south of it. As an argumentum ex silentio, this implies that there was another Cynopolite nome north of Memphis, lending support to Gauthier’s arguments. Gauthier’s Κουνο κάτω may be understood as evidence from the opposite perspective, suggesting that there indeed was a κάτω and an ἄνω Κυνώ with respect to Memphis as a conventional point of reference.<note place="foot" xml:id="ftn9" n="9">
+                     <p> For such formations of names of towns in Egypt, cf. the comment of Eusebius, Comm. ad Isaiam I 98: τὰ αἰσθητὰ ζῷα καθ’ ὅλης τῆς Αἰγύπτου θεοποιούμενα. καὶ γὰρ λέοντας ἀληθῶς καὶ ἀσπίδας καὶ ὄφεις καὶ ἄλλα μυρία οἷα θεοὺς τετιμήκασιν. ἤδη γοῦν ἀπὸ τῆς τῶν αὐτοῖς νομιζομένων θεῶν ἐπωνυμίας καὶ τὰς πόλεις οὕτως κεκλήκασιν, ἀπὸ μὲν τοῦ λέοντος τὴν Λεοντώ (sc. Leontopolis), ἀπὸ δὲ τοῦ κυνὸς τὴν Κυνώ, καὶ ἀπὸ ἄλλου πάλιν θηρὸς ἑτέραν πόλιν (‘the perceptible animals deified throughout all of Egypt were images. For indeed they have honored as gods true lions and asps and snakes and countless others. At any rate, from the naming of the gods they believed in, they have also called their cities thus: from the lion, Leonto, from the dog, Kuno, and again another city from another beast’ (trans. J. J. Armstrong in <ref target="https://papyri.info/biblio/97759">Bray - Oden 2013</ref>). Cf. also the later form Αντινώ for Antinoopolis. Indeed, the term ἄνω Κυνώ is found in the aforementioned Athan. Apol. sec. 71.6.32 (see n. 2), being under the bishop Kollouthos: Κόλλουθος ἐν τῇ ἄνω Κυνῷ. </p>
+                  </note>
+               </p>
+               <p xml:id="p7">The solution to the debate emerges from an analysis of the present text in combination with literary evidence.<note place="foot" xml:id="ftn10" n="10">
+                     <p> Nikos Litinas, per litteras, has informed me of the existence of an unpublished papyrus from ca. 214–215 that further proves that the Lower Cynopolite nome is in the Delta. Furthermore, an old source (<ref target="https://papyri.info/biblio/97758">De Mas Latrie 1889</ref>: 1865–1866) that went under the radars of the scholarly discussion furnishes two clearly distinct administrative areas. There, in a list of ancient suffragan bishoprics of the Alexandrian Patriarchate, the bishopric of “Cynopoleos inferioris” and “Busiris” are listed under the province of Aegyptus II. By contrast, the bishopric of “Cynopoleos” is included in the list of the province of Arcadia. #fig4#</p>
+                  </note> Our papyrus describes the “Lower Kynopolitēs of tripolis”, a hitherto unattested area in the papyrological documentation. However, a passage in Athanasius (vita Antonii 58), provides strong indication for its geographical location: Παρθένος δέ τις ἀπὸ Βουσίρεως τῆς Τριπόλεως πάθος εἶχε δεινὸν καὶ λίαν αἰσχρόν (“a virgin from Busiris of Tripolis suffered from a terrible and very hideous condition”).<note place="foot" xml:id="ftn11" n="11">
+                     <p> Some translators are perplexed with the reference to Tripolis and attribute it to Athanasius’ “bad geography” (<ref target="https://papyri.info/biblio/97761">Meyer 1950</ref>: 122) or translate it as “Busiris Tripolitana” (<ref target="https://papyri.info/biblio/97752">Ellershaw 1907</ref>: 211).</p>
+                  </note> It is beyond certain that the Busiris mentioned is the Busiris in the Delta, which was very close to Κυνώ/Κυνόπολις (also in the Delta).<note place="foot" xml:id="ftn12" n="12">
+                     <p> Cynopolis was important enough to be included as a station on the road to Alexandria in the Antonine Itinerary (v. Cyno, § 150), which lists it after Thmuis (Mendēsios) [TM Geo 2405] and before Taua (mod. Tanta, Phthemphoutitēs) [TM Geo 3075].</p>
+                  </note> This piece of evidence suggests that Busiris, Cynopolis and a third, unknown town joined together at some point to form a tripolis, and it is exactly this tripolis, which is recorded in the present papyrus. It would be tempting to assume that the third town was Sebennytos (mod. Sammanoud) [TM Geo 2104] to the north (roughly 6 km from Busiris). However, this scenario is difficult to reconcile with the fact that the bishop Ausonius of Sebennytos, withοut an accompanying Τριπόλεως, took part in and spoke at the Fourth Ecumenical Council of Chalkēdōn in 451, as we find in the ACO II.1.1: Αὐσόνιος ὁ εὐλαβέστατος ἐπίσκοπος Σεβεννύτου εἶπεν, alongside the bishop of Busiris of <emph rend="bold">tripolis,</emph> Athanasios, who spoke before him: Ἀθανάσιος ὁ εὐλαβέστατος ἐπίσκοπος Βουσίρεως Τριπόλεως τῆς κατὰ Αἴγυπτον εἶπεν.<note place="foot" xml:id="ftn13" n="13">
+                     <p> He also attended the Second Council of Ephesos in 449 (ACO II.3.1): Athanasius episcopus ciuitatis Busiridis definiens suscripsi. Cf. Liberatus, Breviarium XIV: Athanasius Busireos/Busiridis episcopus.</p>
+                  </note> Therefore, while Sebennytos appears to be formally incompatible, it is topographically possible based on proximity. One could argue that since Busiris and Kynopolis had one or more counterparts in the south, the specification of tripolis could act as a distinguishing factor. Yet Sebennytos had also at least one mirroring village in the Fayum [TM Geo 2103] and Kynopolis is frequently qualified with κάτω, so this argument is not compelling. As a result, the operation of this tripolis remains obscure.</p>
+               <p xml:id="p8">Tripolis is mentioned once more in Laudatio Sancti Antonii in connection with the story of the virgin from Busiris: Ἐῶ τἆλλα, τὴν ἐκ Βουσίρεως τῆς κατὰ Τρίπολιν ὁρμωμένην παρθένον καὶ τὸ περὶ αὐτὴν παραδόξως γενόμενον. The attestations prove that, as a topographical designation, this tripolis existed and functioned from at least the beginning of the 4th and into the mid-5th century. </p>
+               <p xml:id="p9">The name of the village, Temry, which occurs for the first time, is not of much help as to its location. It means “the harbour” (see the Commentary), and, therefore, it could be located anywhere on a navigable river or its branches. There are at least two settlements whose names resemble the ancient one thus rendering them possible candidates for identification: Demrou/Damru in the Gharbiah governorate, roughly 25 km to the North-West of Bana, and Dimayrah, which is given as Demrou in the Atlas Géographique de l’Égypte, approximately 30 km to the North-East in a straight line.<note place="foot" xml:id="ftn14" n="14">
+                     <p> For Damru, see <ref target="https://papyri.info/biblio/96467">Amélineau 1893</ref>: 505–506 s.v. Tiemrô and <ref target="https://papyri.info/biblio/21303">Peust 2010</ref>: 33, also known with the expanded name Damrū Khammārah. The name could be spelled in various ways: Damru, Damro, Demro, <ref target="https://maps.app.goo.gl/6yhzBXAnRu9nkUz17">https://maps.app.goo.gl/6yhzBXAnRu9nkUz17</ref>; </p>
+                     <p>Dimayrah/Demrou: <ref target="https://maps.app.goo.gl/j8hNGGaPkzdRp1N59">https://maps.app.goo.gl/j8hNGGaPkzdRp1N59</ref>, accessed on 8 Apr. 2026. But cf. Peust <ref target="https://papyri.info/biblio/21303">(2010: 36)</ref> who gives an etymology from ϯⲁⲙⲏⲓⲣⲓ (‘the Nile-crossing’).</p>
+                  </note> However, from a topographical point of view, they would belong to the Upper Sebennyte nome in antiquity, which is a serious obstacle for their consideration.</p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258932"/>
+                  <head>Fig. 4: Source: Google maps with explanatory additions of my own.</head>
+               </figure>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258934"/>
+                  <head>Fig. 5: Image taken from Description de L'Égypte. Atlas Géographique, pl. 35. Source: Library of Congress.</head>
+               </figure>
+               <p xml:id="p10">Apart from the fact that the Lower Cynopolite nome was created by splitting the Busirite nome, we do not possess indisputable evidence of the exact administrative boundaries of the nome, and we cannot assert how far it could reach or whether it took away parts of another nome.<note place="foot" xml:id="ftn15" n="15">
+                     <p> Upper Sebennytēs appears certainly improbable as the Lower Kynopolitēs would have to absorb the Busirite nome.</p>
+                  </note> Let us not forget that the environment of the Delta remained highly dynamic hydrographically, with branches silting or changing courses, which might have contributed to administrative changes.</p>
+               <p xml:id="p11">Nikolaos Gonis<note place="foot" xml:id="ftn16" n="16">
+                     <p> Per recensionem.</p>
+                  </note> has drawn my attention to the possibility that the third town of tripolis might have been the Mendesian Hermopolis, roughly 25 km to the East of Kyno, based on P.Lond. inv. 2304b from the British Library, which contains a reference to a Hermopolitēs, followed by Busiritēs.<note place="foot" xml:id="ftn17" n="17">
+                     <p> See <ref target="https://papyri.info/biblio/96873">Gonis 2024</ref>: 165–166.</p>
+                  </note>
+               </p>
+                <p xml:id="p12">In the Roman period, the Hermopolite was a toparchy of the Mendesian nome (<ref target="https://papyri.info/hgv/20818">P.Tebt. 2 340</ref>.i.3–4 (206), but during its long-recorded history, it underwent a series of hydrographically driven administrative and territorial changes,<note place="foot" xml:id="ftn18" n="18">
+                     <p> The Mendesian branch used to flow through Hermopolis and Mendēs, before the emergence of the Boutic canal, see Fig. 5 in <ref target="https://papyri.info/biblio/84569">Blouin 2014</ref>: 95.</p>
+                </note> from being a separate nome more than 1200 years earlier to re-integration into the Mendesian nome during the Third Intermediate Period. With the gradual decline of Mendēs, Hermopolis became part of the administrative system dominated by Thmuis, see <ref target="https://papyri.info/biblio/84569">Blouin 2014</ref>: 95–103. Nevertheless, I am not keen on seeing Hermopolis as being the third town of the tripolis, as the natural water boundaries tend to correspond to the administrative boundaries. In our case, the border of the Mendesian nome with Busirite and Lower Cynopolite was the Athribitic branch in the Roman period, where the Chiastitēs toparchy marked the nome’s south-westernmost part, see map 4 in <ref target="https://papyri.info/biblio/84569">Blouin 2014</ref>: xxiv. From a topographical perspective, a better candidate would be Thelbōnthis (mod. Telbent Aga) called Μεγάλη in <ref target="https://papyri.info/hgv/45297a">P.Bub. 2 5</ref>. col.17.4 and col.19.6 (Bubastos, 205–206), see <ref target="https://papyri.info/biblio/84569">Blouin 2014</ref>: 109, which is closer to Busiris and Kyno than Hermopolis.</p>
+               <p xml:id="p13">Perhaps, it is useful to append two maps that may reflect the administrative realities in the region on the eve of the Arab conquest and post-conquest, respectively.</p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258936"/>
+                  <head>Fig. 6: Maps created by Toussoun (1926): Pl. I &amp; II, sourced from Kamal 1930: 488. The first is based on George of Cyprus, the second on later Arab sources.</head>
+               </figure>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258938"/>
+                  <head>Fig. 7: Maps created by Toussoun (1926): Pl. I &amp; II, sourced from Kamal 1930: 488. The first is based on George of Cyprus, the second on later Arab sources.</head>
+               </figure>
+               <p xml:id="p14">On the first map, one can see the administrative area belonging to Koino = Κυνώ/Κυνόπολις, and on the second this area has been (presumably) moved under Damsis = Copt. ⲧⲓⲉⲙⲥⲓⲱϯ, whose identification and location is not without problems, see <ref target="https://papyri.info/biblio/96467">Amélineau 1893</ref>: 119–120 and <ref target="https://papyri.info/biblio/97760">Evetts 1895</ref>: 34, 1n. It is noteworthy that from among the known poleis in these two old nomes, Busirite and Lower Cynopolite, only Busiris and Kyno/Bana are consistently attested. </p>
+               <p xml:id="p15">To conclude, the name of the third constituent town of the tripolis remains a mystery, but presumably it must have been located not far away from the two recorded towns.</p>
+               <p xml:id="p16">A lot can be conjectured or asserted based primarily on sources from the Byzantine and Arab times. However, the above discussion does not attempt to exhaust the topic of the administrative and topographical evolution in the central Delta area, but merely to prepare the ground for further research.</p>
+            </div>
+            <div type="epidoc" subtype="DDB">
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258944"/>
+                  <head>Fig. 8: P.CtYBR inv. 170. © Beinecke Rare Book and Manuscript Library, Yale University.</head>
+               </figure>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258942"/>
+                  <head>Fig. 9: P.CtYBR inv. 170. © Beinecke Rare Book and Manuscript Library, Yale University.</head>
+               </figure>
+               <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="https://collections.library.yale.edu/catalog/33164275">P.CtYBR inv. 170</ref>
+                     </cell>
+                     <cell style="text-align: center;">w 16.7 × h 19.5 cm</cell>
+                     <cell style="text-align: right;">301–306 CE</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">TM 1003738</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: right;">Lower Kynopolitēs (Delta)</cell>
+                  </row>
+               </table>
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <note target="#ed1ln1">
+                     <ref>1</ref>
+                     <p xml:id="p17"> Κλωδίῳ̣ Κουλκιανῷ: see most recently <ref target="https://papyri.info/biblio/96255">Agostini (2020</ref>: 156–169).</p>
+                  </note>
+                  <note target="#ed1ln2">
+                     <ref>2</ref>
+                      <p xml:id="p18"> Σονσαμοῦνις: the name Sonsamounis [<ref target="https://www.trismegistos.org/nam/detail.php?nam_id=17935">TM Nam 17935</ref>] is known only from one document, <ref target="https://papyri.info/hgv/16057">P.Brux. 1 21</ref>.12 (175–176 / 207–208 CE) from the Prosopite nome in the Delta, which further reinforces the argument for the nome being located in the Delta. Names such as Σανσᾶς [<ref target="https://www.trismegistos.org/name/23293">TM Nam 23293</ref>] could be a shortened version, in theory, but they could also be formed from other names having the Σανσα- component.</p>
+                     <p xml:id="p19">Τεμρυ: the village’s name suggests that it was a harbour: f. def. art. ⲧⲉ + noun ⲙⲣⲩ = the harbour (Gr. ὅρμος), cf. Coptic ⲧⲉⲙⲣⲱ. See <ref target="https://archive.org/details/copticetymologic0000ernj/page/88/mode/1up">Černý CED</ref> s.v. ⲙⲣⲱ = ‘harbour, landing stage’ 88; <ref target="https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/CDD_M.pdf">CDD</ref> <emph rend="italics">mr.(t)</emph> / <emph rend="italics">mry.t</emph> “harbor, riverbank” 150–151. On its possible location and the problems associated with identification, see the Introduction.</p>
+                     <p xml:id="p20">[Κ]άτ̣ω̣: the introduction has shown why this is the Lower Cynopolite nome. Had we not been able to decipher the region, palaeography would not suffice as the kappa is lost, while after the alpha one could, in theory, read a nu as an alternative. However, the ligature of alpha with nu is markedly different from that of alpha with tau. With nu alpha connects at the base of its left leg, while with tau at the top. This is exactly what we observe here, with the loop of the alpha turning towards the right to form the horizontal stroke of the tau.</p>
+                  </note>
+                  <note target="#ed1ln3">
+                     <ref>3-4</ref>
+                      <p xml:id="p21"> οἱ εὐμα̣ρῶς τὰς δημοσίας ̣ ὑπη|ρεσίας ἐκτελοῦν̣τ̣ε̣ς: The passage echoes orders regarding the performance of compulsory services from roughly the same period: <ref target="https://papyri.info/hgv/44881a">P.Panop.Beatty 1</ref>.265 (298) πρὸς τὸ εὐμαρῶς τή̣[ν τε ἀπα]ί̣τησιν καὶ διάδοσιν γενέσθαι ὑπʼ αὐτῶν. </p>
+                  </note>
+                  <note target="#ed1ln4">
+                     <ref>4</ref>
+                     <p xml:id="p22"> ἀποδεκταῖοι (l. ἀποδεκτέοι): this form occurs only once more as reported by DGE s.v. ἀποδεκταῖος = acceptable. But it should be most likely considered a phonetic error. For the construction with the preposition παρά + dative, cf. e.g. Zos. Panop. Περὶ ὀργάνων καὶ καμίνων, 26: Ἀλλ’ οἱ τοιοῦτοι οὐκ ἀποδεκτέοι οὔτε παρὰ θεῷ, οὔτε φιλοσόφοις ἀνθρώποις.</p>
+                      <p xml:id="p23">The lacuna after ἐγώ must have contained one or two particles, typical for texts of this type, such as τοίνυν, cf. <ref target="https://papyri.info/hgv/17598">PSI 6 944</ref>.3–4 (364–366?), another petition to the prefect: ἡγεμὼν κύρι[ε, c.?] | [ἐγ]ὼ̣ τ̣οίνυν συνήφθην ἀνδρὶ etc., or <ref target="https://papyri.info/hgv/219304">P.Bagnall 27</ref>.8 (c. 397–398) ἐγὼ τοίνυν πρὸς τ̣ἆλλα τοιαῦτα παθὼν κα̣ὶ̣ ο̣ὐ̣δεμ̣ίαν βοήθειαν ἔχων, πολλοὺς ̣ τ̣οὺ̣[ς π]αρόντας ἐμαρτυράμην.</p>
+                  </note>
+                  <note target="#ed1ln4">
+                     <ref>4-5</ref>
+                      <p xml:id="p24"> παρὰ πᾶ̣σ̣[ι τοῖς] | νόμοις: as <ref target="https://papyri.info/biblio/97522">Jannaris 1897</ref>: 391, § 1632 correctly notes, oftentimes παρά with dative “borders on the meaning of agency (by),” especially after passive and intransitive verbs, which is the case here: ἀποδεκταῖοι καθεστήκασιν, cf. <ref target="https://papyri.info/hgv/21726">P.Oxy. 8 1101</ref>.12 (367–370) κεκώλυται παρὰ τοῖς νόμοις τοῦτο.</p>
+                      <p xml:id="p25">νόμοις (…) δικάζεις: cf. <ref target="https://papyri.info/hgv/14034">SB 5 7696</ref>.93 (Ptolemais Euergetis, 249 CE) [ν]ό̣μῳ δικά[ζ]εις Ἀρσινοΐταις τοῖς πάλαι μὲν πολυαν̣θ̣ρώπο̣ις. </p>
+                     <p xml:id="p26">νεωκορῶν: I have opted for the participle νεωκορῶν from νεωκορέω and not νεωκόρων, as it is the only logical choice.</p>
+                     <p xml:id="p27">
+                        <ref target="https://aquila.zaw.uni-heidelberg.de/hgv/14034">SB 5 7696</ref> provides a good parallel in ll. 86–87 δικάζεις δὲ τηρῶν τῶν ἡγεμ̣ό|νων τ[ῶ]ν κε̣ικεινημένω̣ν (l. κεκινημένων) πρὸς τὰ\ς/ τῶ[ν πό]λε̣[ω]ν̣ χρείας. The analogy would be between δικάζεις τηρῶν and δικάζεις νεωκορῶν. In the latter case, the participle has a figurative meaning ‘cherish religiously’, that is to say ‘the laws, which you cherish religiously, lord prefect.’ A (literal) temple-warden (νεωκόρος) would have otherwise no function in the text. The comparison of the laws with a sanctuary, and the prefect with a temple-warden is an intentional strategy of captatio benevolentiae at the beginning of the petition. It must be seen through the spectrum of both the physical protection afforded by religious spaces (sanctuary) and the philosophical idea of law as a refuge for the innocent, also in the light of the belief that laws emanated from the divine emperors.</p>
+                  </note>
+                  <note target="#ed1ln6">
+                     <ref>6</ref>
+                     <p xml:id="p28"> χαλκεύς: other terms for coppersmiths recorded by <ref target="https://papyri.info/biblio/67324">Burkhalter 1998</ref>: 126 are χαλκουργοί, χαλκοτύποι, but also certain specialised groups: κλειδοποιοί (locksmiths), χαλκοκολληταί (copper-welders) and σιδηροχαλκεῖς (smiths of both iron and copper, but more precisely indicated than the simple χαλκεύς).</p>
+                  </note>
+                  <note target="#ed1ln6">
+                     <ref>6-7</ref>
+                     <p xml:id="p29"> δεύτερο̣[ν καὶ τρί-]|τ̣ον: this is the most plausible supplementation given the available space and the logic of the coppersmith’s complaint. Sonsamounis exploits his overload by three consecutive assignments as a rhetorical device to enhance his argument against further nomination.</p>
+                  </note>
+                  <note target="#ed1ln7">
+                     <ref>7-8</ref>
+                      <p xml:id="p30"> λέγω̣ [τὴν σφη-]|νῶν μ̣ε̣ταλλικῶν κατασκευήν: the adjective μεταλλικῶν can denote either ‘pertaining to mines/quarries’ or ‘metal’. The former sense is well attested in both literary and documentary sources, such as <ref target="https://papyri.info/hgv/32159">P.Leit. 10</ref>.5–6 (late 3rd–early 4th cent.) ὑπὸ Ἰανουαρίου ἐπείκτου | μεταλλικῶν ἔργων (‘by Januarius, superintendent of mining works’) and <ref target="https://papyri.info/hgv/15393">P.Oxy. 50 3571</ref>.9–10 (286?) ὥστε τοὺς ἀποδράντας μεταλλικοὺς ἀναζητηθῆναι (‘so that the miners who escaped are searched for’). At the same time, the adjectival formation may also carry the broader sense ‘metal’, which, although less common in earlier documentary usage, remains contextually plausible here.</p>
+                     <p xml:id="p31">Upon supplying the article τήν of κατασκευήν in the lacuna, around three or four letters are expected to fill in the gap; σφη]νῶν is the best candidate, as wedges are closely associated with quarrying activities,<note place="foot" xml:id="ftn19" n="19">
+                           <p> For a visualisation, see e.g. <ref target="https://www.searchculture.gr/aggregator/edm/mnam/000150-713134">https://www.searchculture.gr/aggregator/edm/mnam/000150-713134</ref>. </p>
+                     </note> see e.g. <ref target="https://papyri.info/hgv/118441">O.Claud. 4 789</ref> (c. 98–117?), a document listing quarrying tools such as σφηνάρια, σφῆνας and παρασφήνια. If μεταλλικῶν is taken in the quarry-related sense, the phrase would refer generally to wedges used in mining or quarrying contexts, specifically the iron ones that would be produced by a smith. However, in such a scenario, it would be difficult to explain why a smith, responsible for producing wedges, would be working locally (ἐπὶ τοῖς ἐνταῦθα) in a village in the Lower Cynopolite nome of the Delta, where no quarries or mines are known to have existed. The nearest mine to the Sonsamounis’ area of provenance is Gebel el-Ahmar, located on the eastern outskirts of modern Cairo and producing red quartzite. <note place="foot" xml:id="ftn20" n="20">
+                           <p> A useful map of various stone quarries in Egypt can be found in <ref target="https://papyri.info/biblio/97753">Harrell and Storemyr 2009</ref>: 51.</p>
+                        </note> From the Mons Claudianus ostraca dossier, we know that smiths along with their assistants resided and performed their work in the area of the quarry/mine.</p>
+                     <p xml:id="p32">Conversely, and more plausibly, if μεταλλικῶν is understood in the sense ‘metal’, it may serve to distinguish between two types of wedge: metal (made of iron) and wooden. Wedges could also be made of wood, but their use at Mons Claudianus at least is controversial due to climate constraints, see <ref target="https://papyri.info/biblio/14958">Peacock and Maxfield 1997</ref>: 196. For technological evidence on wedges and the method of their employment in Mons Claudianus, see the aforementioned <ref target="https://papyri.info/biblio/14958">Peacock and Maxfield 1997</ref>: 190–200. For the development of quarrying techniques and wedge typology (with regard to the Aswan quarries), see <ref target="https://papyri.info/biblio/97763">Roder 1965</ref>, whose chronological theory was, however, criticised by <ref target="https://papyri.info/biblio/97762">Nylander 1968</ref>.<note place="foot" xml:id="ftn21" n="21">
+                           <p> For a summary, see <ref target="https://papyri.info/biblio/59413">Peacock 1988</ref>: 99.</p>
+                        </note> On metal-working in papyrological sources, see <ref target="https://papyri.info/biblio/67324">Burkhalter 1998</ref>. The coppersmiths (χαλκεύς in the text) worked with both copper and iron, and produced a wide variety of objects including tools, weapons, cookware, and locks.</p>
+                  </note>
+                  <note target="#ed1ln9">
+                     <ref>9</ref>
+                     <p xml:id="p33"> διὰ φάσεων: φάσις does not necessarily mean a simple message but can refer, as here, to official notifications issued to appointees, who were chosen to perform the specific liturgies.</p>
+                      <p xml:id="p34">τοὺς ἀν̣τ̣ι̣λημψομένους τῆς χρείας: the exact phrase appears in a number of texts, e.g. <ref target="https://papyri.info/hgv/17411">PSI 12 1248</ref>.40–41 (Oxyrhynchos, 235 CE) ἀντιλημ|ψομένους τῶν ἐπιβαλλο̣υ̣σ̣ῶν αὐτοῖς χρειῶν (‘who will assume the duties assigned to them’). See also DGE II 2 s.v. ἀντιλαμβάνω.</p>
+                  </note>
+                  <note target="#ed1ln10">
+                     <ref>10</ref>
+                        <p xml:id="p35"> ὁμοτεχνείτας ̣ (l. ὁμοτεχνίτας): for this rare term, cf. <ref target="https://papyri.info/apis/michigan.apis.2052">SB 18 13916</ref>.11 (Oxyrhynchos, 386) the only other attestation in the papyri. Their mention suggests the existence of a guild, to which the petitioner may have belonged; cf. <ref target="https://papyri.info/apis/michigan.apis.2052">SB 18 13916</ref>, 11n., where Sijpesteijn <ref target="https://papyri.info/biblio/57492">(1985: 74)</ref> states that a fellow-member of a guild is called συντεχνίτης in other texts, although, with the exception of one ostracon, <ref target="https://papyri.info/hgv/76366">O.Strasb. 1 759</ref> (end of 2nd - beginning of 3rd cent. CE), all the other attestations come from the 6th century onwards. For a discussion of the various terms used for a fellow-craftsman, see <ref target="https://papyri.info/hgv/70307">CPR 23 29</ref>, 5n. This last text offers a potentially further attestation of ὁμοτεχνίτης in line 5, where despite the editor’s reluctance for reasons of space, which led him to read the shorter ὁμότ̣εχ̣ν̣[ο]ν̣, the online image<note place="foot" xml:id="ftn22" n="22">
+                           <p>
+                              <ref target="https://viewer.onb.ac.at/1009E98C">https://viewer.onb.ac.at/1009E98C</ref>, accessed on 5 April 2026.</p>
+                        </note> and a digital reconstruction show that the entire ὁμοτεχν̣[ίτη]ν̣ could fit in the available space.</p>
+                  </note>
+                  <figure>
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258940"/>
+                     <head>Fig. 10: Digital reconstruction.</head>
+                  </figure>
+               </div>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97736">Abd el-Ghani, M. (2022)</ref> “The Cynopolite Nome in the Delta … Did it really exist?,” in M. Capasso – P. Davoli – N. Pellé (eds.), Proceedings of the 29th International Congress of Papyrology. Lecce, 28 July – 3 August 2019. Lecce: 732–740.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96255">Agostini, G. (2020)</ref> Prefetti e <emph rend="italics">praesides</emph> nell’amministrazione giudiziaria dell’Egitto tardoantico: ambiti di competenza e prosopografia (284–397). Diss. Sapienza, Università di Roma.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96467">Amélineau, É. (1893)</ref>, La geographie de l'Egypte à l'époque copte. Paris.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95431">Bagnall, R. – Tallet, G. (2015)</ref> “Ostraka from Hibis in the Metropolitan Museum of Art and the Archaeology of the city of Hibis,” ZPE 196: 175–198.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/84569">Blouin, K. (2014)</ref> Triangular Landscapes. Environment, Society and the State in the Nile Delta under Roman Rule. Oxford.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97759">Bray, G.L. – Oden T.C. (2013)</ref> Ancient Christian Texts. Downer’s Grove, Ill.: InterVarsity Press.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/67324">Burkhalter, F. (1998)</ref> “La production des objets en métal (or, argent, bronze) en Égypte hellénistique et romaine à travers les sources papyrologiques. Avec résumés en français, en grec et en anglais.” in Commerce et artisanat dans l'Alexandrie hellénistique et romaine. Actes du Colloque d'Athènes organisé par le CNRS, le Laboratoire de céramologie de Lyon et l'École française d'Athènes, 11–12 décembre 1988, BCH. Supplément vol. 33, 125–133.</bibl>
+                  <bibl>CDD = <ref target="https://papyri.info/biblio/97748">Johnson, J.H. (éd.) (2001)</ref> The Chicago Demotic Dictionary. Chicago.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97749">Černý, J. (1976)</ref>. Coptic etymological dictionary. Cambridge.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97722">Charles, R.H. (1916)</ref>, The Chronicle of John (c. 690 A.D.), Coptic Bishop of Nikiu. Amsterdam.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97758">De Mas Latrie, M. le C.te (1889)</ref> Trésor de chronologie d’histoire et de géographie. Pour l’étude et l’emploi des documents du Moyen Age. Paris.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96468">Eller, A. (2022)</ref> Nomes et toparchies en Égypte gréco-romaine. Réalités administratives et géographie religieuse d’Éléphantine à Memphis. IFAO. Le Caire.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97752">Ellershaw, H. (1907)</ref> “Vita S. Antoni” in Schaff, P. – Wace, H. (eds.) A Select Library of Nicene and Post-Nicene Fathers of Christian Church. 2nd series. Volume IV. St. Athanasius: Select Work and Letters. New York: 188–221.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97760">Evetts, B.T.A. (1895)</ref> The Churches &amp; Monasteries of Egypt and Some Neighbouring Countries (attributed to Abu Salih, the Armenian, translated from the original Arabic). Oxford.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/34465">Gauthier, H. (1935)</ref> Les nomes d’Égypte depuis Hérodote jusqu’à la conquête arabe, MIE 25. Le Caire.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96873">Gonis, N. (2024)</ref> “Ten documentary fragments from the British Library,” ZPE: 161–173.</bibl>
+                  <bibl>Google (n.d.) Area around modern Sammanoud [Map]. Google Maps. Retrieved 8 Apr. 2026, from <ref target="https://www.google.com/maps">https://www.google.com/maps</ref>. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97757">Halkin, F. (1985)</ref> Le ménologe impérial de Baltimore. Subsidia hagiographica 69. Brussels: Société des Bollandistes, 228–248.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97753">Harrell, J. – Storemyr, P. (2009)</ref> “Ancient Egyptian quarries – an illustrated overview,” in Abu-Jaber, N. et al. (eds.) QuarryScapes: Ancient stone quarry landscapes in the Eastern Mediterranean. Geological Survey of Norway Special Publication 12, Trondheim: Geological Survey of Norway 7–50, accessed online on 28.05.2026 at: <ref target="https://per-storemyr.net/wp-content/uploads/2010/09/2009_harrell_storemyr_ancientegyptianquarries_illustratedoverview.pdf">https://per-storemyr.net/wp-content/uploads/2010/09/2009_harrell_storemyr_ancientegyptianquarries_illustratedoverview.pdf</ref>
+                  </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97756">Helck, W. (1974)</ref> Die altägyptischen Gaue. Wiesbaden.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97755">Hyvernat, H. (1886)</ref> Les Actes des Martyrs de l'Égypte tirés de manuscrits coptes de la Bibliothèque Vatican et du Musée Borgia: texte copte et traduction françoise avec introduction et commentaires. Paris.</bibl>
+                  <bibl>
+                     <ref target="https://www.loc.gov/item/2021668392/">Jacotin, P. &amp; Napoleon I, E. O. T. F. (1818)</ref> Description of Egypt. Second Edition. Atlas of Egypt and Parts of Bordering Lands Plates. Paris. [Map] Retrieved from the Library of Congress.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97522">Jannaris, A.N. (1897)</ref> An historical Greek grammar, Cambridge.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97754">Kamal, Y.</ref> (1930) Monumenta cartographica Africae et Aegypti. Tome troisième (époque Arabe). Fascicule I. Leiden: E.J. Brill.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/6411">Lewis, N. (1963)</ref> Leitourgia Papyri. Documents on Compulsory Public Service in Egypt under Roman Rule, Philadelpheia</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/14864">Lewis, N. (1997)</ref> The Compulsory Public Services of Roman Egypt (2nd Edition). Firenze.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/14084">Mertens, Μ. (1995)</ref> Les alchimistes grecs [Zosime de Panopolis. Mémoires authentiques], vol. 4.1, Paris: Les Belles Lettres. 1–10. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97761">Meyer, R.T. (1950)</ref> St. Athanasius. The Life of Saint Anthony. Newly Translated and Annotated. Westminster, Maryland.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97762">Nylander, C., (1968)</ref> “Bemerkunger zur Steinbruchgeschichte von Assuan,” Archaologischer Anzeiger, Heft 1: 6–10.</bibl>
+                  <bibl>
+                     <ref target="https://doi.org/10.1007/978-94-015-7795-3_11">Peacock, D.P.S. (1988)</ref> “The Roman Quarries of Mons Claudianus, Egypt an Interim Report,” in: N. Herz, M. Waelkens, (eds) Classical Marble: Geochemistry, Technology, Trade. NATO ASI Series, vol 153. Springer, Dordrecht: 97–101. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/14958">Peacock, D.P.S. – Maxfield, V.A. (1997)</ref> eds., Survey and Excavation. Mons Claudianus 1987–1993. Volume I: Topography and Quarries (Fouilles de l'Institut français d'Archéologie orientale. 37) Cairo.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/21303">Peust, C. (2010)</ref> Die Toponyme vorarabischen Ursprungs im modernen Ägypten, Göttingen.</bibl>
+                  <bibl>
+                     <ref target="https://doi.org/10.1515/9783112320136-006">Roder, J., (1965)</ref> “Zur Steinbruchgeschichte des Rosengranits von Assuan,” Archaologischer Anzeiger, Heft 3: cols 467–552.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97764">Schwartz, E. (1933)</ref> Acta conciliorum oecumenicorum, vol. II.1.1-II.1.3, Berlin: De Gruyter, 2.1.1–2.1.2. Retrieved from: http://stephanus.tlg.uci.edu/Iris/Cite?5000:003:300272</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/57492">Sijpesteijn, P.J. (1985)</ref> “Two Tax Documents from the Michigan Papyrus Collection,” ZPE 61: 73–75.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/16185">Talbert, R.J.A. (2000)</ref> ed., Barrington Atlas of the Greek and Roman World. Princeton: Princeton University Press.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/56888">Timm, S. (1984)</ref> Das christliche-koptische Ägypten in arabischer Zeit. Teil 1 (A-C). Wiesbaden.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97765">Toussoun, O. (1926)</ref> La Géographie de l'Égypte à l'époque arabe, tome premier, la Basse-Égypte (Asfal el-Ard), première partie. Le Caire.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Petition to the Prefect of Egypt Clodius Culcianus</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">1003738</idno>
+               <idno type="HGV">1003738</idno>
+               <idno type="ddb-filename">pylon.9.12</idno>
+               <idno type="ddb-hybrid">pylon;9;12</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement/>
+                     </placeName>
+                     <collection/>
+                     <idno type="invNo">P.CtYBR inv. 170</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>301-306</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Eingabe</term>
+                  <term n="2">Präfekt</term>
+                  <term n="3">Liturgie</term>
+                  <term n="4">Metallarbeit</term>
+                  <term n="5">Kupferschmied</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Petition to the Prefect of Egypt Clodius Culcianus</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.9.12</idno>
+               <idno type="ddb-hybrid">pylon;9;12</idno>
+               <idno type="HGV">1003738</idno>
+               <idno type="TM">1003738</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Petition to the Prefect of Egypt Clodius Culcianus</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb xml:id="ed1ln1" n="1"/>Κλωδί<unclear>ῳ</unclear> Κουλκιανῷ <space extent="unknown" unit="character"/> <unclear>τ</unclear>ῶ<unclear>ι</unclear> <unclear>διασ</unclear><supplied reason="lost">ημοτάτῳ</supplied> ἐ<unclear>πάρχῳ</unclear> Αἰ<supplied reason="lost">γύπτου</supplied>
+<lb xml:id="ed1ln2" n="2"/>παρὰ Α<unclear>ὐρη</unclear><supplied reason="lost">λί</supplied>ου Σ<unclear>ο</unclear>νσαμούνιος ἀπὸ κ<unclear>ώ</unclear>μης Τεμρυ τοῦ <supplied reason="lost">Κ</supplied>ά<unclear>τω</unclear>
+<lb xml:id="ed1ln3" n="3"/><choice><reg>Κυνοπολίτου</reg><orig>Κυνοπολείτου</orig></choice> τ<unclear>ῆ</unclear><supplied reason="lost">ς</supplied> τριπό<unclear>λ</unclear>ε<unclear>ως</unclear>. <space extent="unknown" unit="character"/> οἱ εὐμ<unclear>α</unclear>ρῶς τὰς δημοσία<unclear>ς</unclear> <hi rend="diaeresis">ὑ</hi>πη<note>ϋπη papyrus</note>
+<lb xml:id="ed1ln4" n="4" break="no"/>ρεσίας ἐκτελοῦ<unclear>ντε</unclear>ς <choice><reg>ἀποδεκτέοι</reg><orig>ἀποδεκταῖοι</orig></choice> καθεστήκασιν παρὰ π<unclear>ᾶσ</unclear><supplied reason="lost">ι τοῖς</supplied>
+<lb xml:id="ed1ln5" n="5"/>νόμοις, οἷς νεωκ<unclear>ορ</unclear>ῶν δικάζεις, ἡγεμὼν δέσπο<unclear>τ</unclear>α. ἐγ<unclear>ὼ</unclear> <gap reason="lost" atLeast="6" atMost="7" unit="character"/>
+<lb xml:id="ed1ln6" n="6"/><unclear>χ</unclear>αλκεὺς τυγχάνων ἀπε<unclear>πλ</unclear>ήρωσα ἤδη τοῦτο δεύτερ<unclear>ο</unclear><supplied reason="lost">ν καὶ τρί</supplied>
+<lb xml:id="ed1ln7" n="7" break="no"/><unclear>τ</unclear>ον, τὴν ἐπὶ τοῖς ἐνταῦθα δημοσίαν <hi rend="diaeresis">ὑ</hi>πηρε<unclear>σί</unclear>αν<note>ϋπηρεσ̣ί̣αν papyrus</note> λέγ<unclear>ω</unclear>, <supplied reason="lost">τὴν σφη</supplied>
+<lb xml:id="ed1ln8" n="8" break="no"/>νῶν <unclear>με</unclear>ταλλικῶν κατασκευὴν κατὰ τὸ σύνηθες <gap reason="lost" atLeast="6" atMost="7" unit="character"/>
+<lb xml:id="ed1ln9" n="9"/>διὰ φάσεων τοὺς ἀ<unclear>ντι</unclear>λημψομένους <subst><add place="inline">τῆς</add><del rend="corrected">σῆς</del></subst> χρείας το<supplied reason="lost">ὺς οὐ</supplied>
+<lb xml:id="ed1ln10" n="10" break="no"/>δε<unclear>πώπο</unclear>τε λειτου<unclear>ρ</unclear>γή<unclear>σα</unclear>ντας <choice><reg>ὁμοτεχνίτας</reg><orig>ὁμοτεχνείτα<unclear>ς</unclear></orig></choice> <gap reason="lost" quantity="1" unit="character"/>ντ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" atLeast="6" atMost="7" unit="character"/>
+<lb xml:id="ed1ln11" n="11"/><unclear>α</unclear><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><unclear>δομενου</unclear> <unclear>π</unclear>ροσαν<gap reason="lost" atLeast="10" atMost="11" unit="character"/>
+<lb xml:id="ed1ln12" n="12"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/>ιτ<gap reason="lost" atLeast="10" atMost="11" unit="character"/>
+<lb xml:id="ed1ln13" n="13"/><gap reason="lost" extent="unknown" unit="character"/>μ<unclear>ε</unclear>νω<unclear>ν</unclear> <gap reason="lost" atLeast="10" atMost="11" unit="character"/>
+<lb xml:id="ed1ln14" n="14"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/> <unclear>ὑ</unclear>πο <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" atLeast="10" atMost="11" unit="character"/>
+<lb xml:id="ed1ln15" n="15"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>ηκ</unclear>ι<gap reason="lost" atLeast="10" atMost="11" unit="character"/>
+<lb xml:id="ed1ln16" n="16"/><gap reason="lost" extent="unknown" unit="character"/>ως<gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>το<unclear>ς</unclear><gap reason="lost" atLeast="11" atMost="12" unit="character"/>
+<lb xml:id="ed1ln17" n="17"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>ε</unclear>ὐμ<unclear>αρ</unclear>ῶς καὶ δ<unclear>ι</unclear><gap reason="lost" atLeast="10" atMost="11" unit="character"/>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Petition to the Prefect of Egypt Clodius Culcianus</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">1003738</idno>
+               <idno type="TM">1003738</idno>
+               <idno type="HGV">1003738</idno>
+               <idno type="ddb-hybrid">pylon;9;12</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>
+‘To Clodius Culcianus the most eminent prefect of Egypt, from Aurelius Sonsamounis from the village of Temry of the Lower Cynopolite nome of tripolis.  Those who readily perform the public services, have become acknowledgeable in all the laws, which you, my lord governor, apply in your judgements with religious reverence. Now, I, who happen to be a coppersmith, have fulfilled this (obligation) already a second and a third time. I am referring to the local public service of manufacturing metal wedges in the usual manner … via official notices those of my fellow-craftsmen who have never performed compulsory services until now and who are to assume the duties …’
+</p></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>

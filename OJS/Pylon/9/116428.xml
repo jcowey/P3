@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Two Roman Tax Receipts from Uppsala</title>
+                <author>
+                    <name>
+                        <forename>Mareike-Beatrice</forename>
+                        <surname>Stanke</surname>
+                    </name>
+                    <affiliation>Universität Zürich</affiliation>
+                    <email>mareike.stanke@ius.uzh.ch</email>
+                    <idno ana="hc:ORCIDURI">https://orcid.org/0009-0009-1496-4971</idno>
+                </author>
+                <author>
+                    <name>
+                        <forename>Kacper</forename>
+                        <surname>Żochowski</surname>
+                    </name>
+                    <affiliation>University of Warsaw</affiliation>
+                    <email>kk.zochowski@uw.edu.pl</email>
+                    <idno ana="hc:ORCIDURI">https://orcid.org/0000-0002-8265-7633</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date/>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Propylaeum</orgName>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+                </publisher>
+                <pubPlace>
+                    <placeName>Heidelberg</placeName>
+                    <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+                </pubPlace>
+                <date when="2026">2026</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno ana="hc:PrivateIdentifier">pylon.9.3</idno>
+                <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2026.9.116428</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl ana="hc:RecommendedBibliographicReference">M. Stanke and K. Żochowski, “Two Roman Tax Receipts from Uppsala,” Pylon 9 (2026) Article 3. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2026.9.116428">https://doi.org/10.48631/pylon.2026.9.116428</ref>.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title level="j" ana="hc:MainTitle">Pylon</title>
+                        <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                        <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                        <imprint>
+                            <biblScope unit="volume">9</biblScope>
+                            <biblScope unit="article">3</biblScope>
+                            <date when="2026">2026</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <ab>Converted from a Word document for Pylon.</ab>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2026-06-29T13:11:05Z</date>
+                    <name/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="MainTitle">Two Roman Tax Receipts from Uppsala</titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <div type="article">
+                <note type="acknowledgement">This publication brings to fruition work begun during the 2024 Summer Institute of Papyrology in Florence. We remain grateful to the participants, contributors and organizers for their support. The article was made possible thanks to The American Society of Papyrologists and Istituto Papirologico «G. Vitelli». Special thanks are due to Todd Hickey, who encouraged the authors and offered substantive assistance, including his images of the ostraka. This publication appears with the permission of Ludmila Werkström, Curator, Uppsala University Museum.</note>
+                <div type="introduction">
+                    <p xml:id="p1">The two tax receipts presented below come from the collection of the Victoria Museum of Egyptian Antiquities at the Gustavianum, Uppsala University Museum, and were acquired during the last quarter of the nineteenth century. For more information about the ostraka and their provenance see <ref target="https://papyri.info/biblio/78505">
+                            <emph rend="underlined">Hickey 2010</emph>
+                        </ref>: 258 with fn. 2 and the literature cited there.</p>
+                    <div type="section">
+                        <head>1. Receipt for the bath tax</head>
+                        <table type="papyrological_header">
+                            <row>
+                                <cell style="text-align: left;">VM 2439</cell>
+                                <cell style="text-align: center;">4.2 (h) × 8.9 (w) cm</cell>
+                                <cell style="text-align: right;">4 December 14 CE</cell>
+                            </row>
+                            <row>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: right;">Thebes</cell>
+                            </row>
+                        </table>
+                        <p xml:id="p2">Sand-colored pottery with a red-orange writing surface. The rotation lines run perpendicular to the writing. Though the sherd is broken on its right side, the left and the majority of the upper writing margins are completely preserved; owing to the diagonal nature of the break, the loss in the upper right is considerably less than that in the lower right.</p>
+                        <p xml:id="p3">This is a new text that can be assigned to the Asklas-Ptolemaios-dossier<note place="foot" xml:id="ftn1" n="1">
+                                <p> The attribution of <ref target="https://papyri.info/hgv/75858">O.Strasb. 1 262</ref> to the Asklas-Ptolemaios-dossier allows for a more precise determination of the ostrakon’s provenance, narrowing the previously general designation of “Upper Egypt” to Thebes.</p>
+                            </note> (see the table below), which was first identified by <ref target="https://papyri.info/biblio/97720">Worp 1990</ref>. The dossier brings together tax receipts issued by an Asklas and by Ptolemaios son of Asklas, both attested as collectors of the bath tax. It cannot be established with certainty that the Asklas of these receipts is identical with the father of Ptolemaios, or indeed that all the attestations refer to one and the same man; cf. <ref target="https://papyri.info/biblio/97720">Worp 1990</ref>: 253 f. and <ref target="https://papyri.info/biblio/20775">Heilporn 2009</ref>: 88 fn. 117. The receipts are nevertheless assembled here as a single dossier on several grounds: they derive from the same locality (Thebes); they concern not merely the same office but one specific tax, the bath tax; they fall within a coherent span of years (14–35 CE); and, if the Asklas of the receipts is indeed the father named in Ptolemaios’ patronymic, a father and son both collecting that same tax would accord with the pattern by which such fiscal duties were handed on within a family (cf. <ref target="https://papyri.info/biblio/97720">Worp 1990</ref>: 254). Though none of these considerations is decisive on its own, taken together they make it reasonable to treat the material as a working dossier, pending further evidence.</p>
+                        <p xml:id="p4">The tax attested in this ostrakon was paid to a telōnēs balaneiou, which identifies it as the bath tax. While Greek sources consistently use the same terminology (balaneutikon) for the two bath taxes that were collected in Roman Thebes, the Demotic texts distinguish between <emph rend="italics">ḥḏ (n) s.t-ỉywn</emph> (“bath money”) and <emph rend="italics">ẖn.t n tꜣ s.t-ỉywn</emph> (“payment for the bath”)<note place="foot" xml:id="ftn2" n="2">
+                                <p> Particular thanks go to Sandra Lippert for her advice on the Demotic.</p>
+                            </note>. This distinction appears to be unique to Thebes. The <emph rend="italics">ḥḏ (n) s.t-ỉywn</emph> was a personal tax collected by the bank or praktores argyrikon, together with the laographia and chōmatikon; cf. <ref target="https://papyri.info/biblio/20775">Heilporn 2009</ref>, 89. The <emph rend="italics">ẖn.t n tꜣ s.t-ỉywn</emph>, which <ref target="https://papyri.info/biblio/20775">Heilporn (2009</ref>: 88) tentatively identifies with the second balaneutikon, appears to have been collected separately by the balaneutai, praktōres balaneutikou or balanēou or telōnai balaneutikou; see <ref target="https://papyri.info/biblio/20775">Heilporn 2009</ref>: 88. If Heilporn’s identification is correct, the official named in the present ostrakon points to the <emph rend="italics">ẖn.t n tꜣ s.t-ỉywn</emph> rather than to the <emph rend="italics">ḥḏ (n) s.t-ỉywn</emph>.</p>
+                        <p xml:id="p5">VM 2439 records a payment of two drachmae for the <emph rend="italics">ẖn.t n tꜣ s.t-ỉywn</emph>. In the first-century receipts the amount is stated more often than in those of the second century, and two drachmae is the usual sum; one drachma occurs less frequently and may represent a partial payment, while four drachmae is exceptional; cf. <ref target="https://papyri.info/biblio/20775">Heilporn 2009</ref>: 88. Payment in kind is also attested; cf. <ref target="https://papyri.info/biblio/20775">Heilporn 2009</ref>: 88 f. The same amount of two drachmae appears in <ref target="https://papyri.info/hgv/23138">SB 1 4519</ref>, likewise dated to December 14 CE and naming Asklas as tax farmer, and in <ref target="https://papyri.info/hgv/24617">O.Leid. 45</ref>.</p>
+                    </div>
+                    <div type="epidoc" subtype="DDB">
+                        <figure>
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24060372"/>
+                            <head>Fig. 1: Uppsala, Victoria Museum 2439</head>
+                        </figure>
+                        <div copyOf="#ed1" type="edition"/>
+                        <div copyOf="#trans1" type="translation"/>
+                        <div type="commentary">
+                            <note target="#ed1ln1">
+                                <ref>1</ref>
+                                <p xml:id="p6"> The name Asklas is a hypocoristic form of the name Asklepiades; cf. <ref target="https://papyri.info/biblio/60863">Masson 1990</ref>, vol. 1: 299–302 and <ref target="http://www.trismegistos.org/name/2362">TM Nam 2362</ref>. A tax collector named Asklas is attested on several ostraka from Thebes dated to 14–35 CE (see table below, nos. 4–10, and possibly nos. 1, 2, 11; cf. <ref target="https://www.jstor.org/stable/20187229">Worp 1990</ref>: 253 f.). VM 2439, in which Asklas is designated as τελών(ης) βαλανείου, adds another instance to this dossier.</p>
+                                <p xml:id="p7">An Asklas is also attested as collector of other taxes, possibly as telōnēs gerdiōn and as collector of a further, perhaps religious, tax (cf. <ref target="https://papyri.info/hgv/71429">O.Bodl. 2 739</ref> (29 CE, Thebes): πράκτωρ θε̣α̣γ̣ῶν̣; not specifiable further). Whether this is the same man as the collector of the bath tax cannot be determined. The titles praktōr and telōnēs are possibly interchangeable, see <ref target="https://papyri.info/biblio/20775">Heilporn 2009</ref>: 88 with fn. 117.</p>
+                                <p xml:id="p8">After the eta there are traces of what may be a chi or a kappa. If so, Aρβη.[ could be the beginning of a name like Ἁρβηχις or Ἁρβηκις, which are Greek forms of the Egyptian theophoric name Harpbekis; cf. NB Dem. vol. I. 11 p. 802 and <ref target="http://www.trismegistos.org/name/286">TM Nam 286</ref>.</p>
+                            </note>
+                            <note target="#ed1ln2">
+                                <ref>2</ref>
+                                <p xml:id="p9"> The name Psenchonsis means “The son of Chonsou”; see NB Dem. vol. I. 4 pp. 256 f. and <ref target="http://www.trismegistos.org/name/970">TM Nam 970</ref>. Undeclined patronyms are a common feature of the identification of the parties in both tax receipts edited here; see also ll. 2 and 4 of VM 2556 below. </p>
+                                <p xml:id="p10">Typically, τὸ βαλανευτικόν follows the verb ἀπέχω; less often the tax is expressed simply as τὸν φόρον, without the name of the tax, as in <ref target="https://papyri.info/hgv/24617">O.Leid. 45</ref> – an ostrakon belonging to the same dossier and probably issued by the same tax collector (see comm. ad l. 4). On the Uppsala ostrakon the phi visible after the masculine article excludes βαλανείου and βαλανευτικοῦ<note place="foot" xml:id="ftn3" n="3">
+                                        <p> The reading βαλανικοῦ is still occasionally encountered. It goes back to <ref target="https://papyri.info/biblio/97511">Wilcken (1899</ref>: 165f.), who had only abbreviated sources at his disposal, and was subsequently adopted by others; it is listed in Preisigke’s Wörterbuch (1931: 231). Since <ref target="https://papyri.info/biblio/35004">Préaux (1934</ref>: 128–132), however, the reading has been corrected on the basis of new finds, and the correction is now generally accepted; cf. BL 9, p. 1.</p>
+                                    </note> and points to τὸν φ[όρον]. The abbreviation φόρ(ον) in <ref target="https://papyri.info/hgv/24617">O.Leid. 45</ref> (cf. <ref target="https://papyri.info/biblio/96230">Wilcken 1912</ref>: 213 fn. 4) is conditioned by the broken edge and need not be reproduced here. <ref target="https://papyri.info/hgv/72652">O.Bodl. II 1976</ref>.2 (4 BCE, Thebes) may serve as a contemporary parallel for the present reconstruction, since there too the article τοῦ for the tax year follows directly upon “τ(ὸν) φό(ρον)”.</p>
+                            </note>
+                            <note target="#ed1ln3">
+                                <ref>3</ref>
+                                <p xml:id="p11"> It appears that not many letters followed Aρβη.[ in l. 1, given that l. 2 begins with the second part of the name, Psenchonsis. The imperial titulature Καίσαρος Σεβαστοῦ is typically given in Asklas’ tax receipts; among those with a Greek dating formula, in the Asklas-Ptolemaios dossier Sebastos is omitted only in <ref target="https://papyri.info/hgv/76906">O.Wilck. 2 390</ref> (39/40 or 43/44, Thebes) and <ref target="https://papyri.info/hgv/77504">O.Wilck. 2 1037</ref> (39/40 or 43/44, Thebes) (both receipts were issued by Ptolemaios, son of Asklas); cf. also <ref target="https://papyri.info/biblio/6514">Bureth 1964</ref>: 25–28, where the Καίσαρος Σεβαστοῦ-titulature is shown to be used much more frequently than the abbreviated version Καίσαρος. In the present ostrakon, however, the available space suggests that the shorter titulature Καίσαρος alone was used. Verschleifung seems unlikely given the hand. Thus, if one takes the shorter imperial titulature as a reference point, there are possibly six letters missing in this line, which would then consist of 22 letters in total. Nevertheless, the titulature Καίσαρος Σεβαστοῦ cannot be excluded, as it remains unknown whether the ostrakon originally extended further to the right in the lower lines.</p>
+                            </note>
+                            <note target="#ed1ln4">
+                                <ref>4</ref>
+                                <p xml:id="p12"> There is a hook-alpha signaling the abbreviation ἔγρα(ψα). As for the name of the scribe of the ostrakon, it may have been Πετεμενῶφις Πελαίου, as Asklas seems to have worked with him at this time and the handwriting is not dissimilar; cf. <ref target="https://papyri.info/hgv/75378">O.Petr. Mus. 272</ref> (14 CE, Thebes) and <ref target="https://papyri.info/hgv/24617">O.Leid. 45</ref> with the editors’ comm. ad l. 4.<note place="foot" xml:id="ftn4" n="4">
+                                        <p> A special thanks is extended to the Petrie Museum of Egyptian and Sudanese Archaeology, as well as the Rijksmuseum van Oudheden, for providing us with high-resolution photographs of the aforementioned ostraka.</p>
+                                    </note> The name Πετεμενῶφις could be abbreviated as Πετεμενῶφ(ις) (<ref target="https://papyri.info/hgv/75378">O.Petr. Mus. 272</ref>) or Πετεμενῶ(φις) (<ref target="https://papyri.info/hgv/24617">O.Leid. 45</ref>), giving 26 or 25 letters in total in l. 4.</p>
+                            </note>
+                        </div>
+                    </div>
+                </div>
+                <div type="section">
+                    <head>Table: Texts of the Asklas-Ptolemaios-dossier (adapted from <ref target="https://www.jstor.org/stable/20187229">Worp 1990</ref>, 254)<note place="foot" xml:id="ftn5" n="5">
+                            <p> Worp suggests that there is also a second son of Asklas, Pasemis. This observation is based on <ref target="https://papyri.info/hgv/24618">O.Leid. 46</ref> = O.Wilck. 1321 (22–23 CE, Thebes) where one Pasemis, son of Asklas is mentioned, and on <ref target="https://papyri.info/hgv/77647">O.Wilck. 1263</ref> (19–20 CE, Thebes) (=TM 77647), where the same name appears without a patronymic, cf. <ref target="https://papyri.info/biblio/97720">Worp 1990</ref>, 254.</p>
+                        </note>
+                    </head>
+                    <table style="font-size: 65%;">
+                        <row>
+                            <cell style="text-align: left;">No.</cell>
+                            <cell style="text-align: left;">Text</cell>
+                            <cell style="text-align: left;">Date</cell>
+                            <cell style="text-align: left;">Officials</cell>
+                            <cell style="text-align: left;">Taxpayer</cell>
+                            <cell style="text-align: left;">Tax term</cell>
+                            <cell style="text-align: left;">Tax (identified)</cell>
+                            <cell style="text-align: left;">For year</cell>
+                            <cell style="text-align: left;">Amount</cell>
+                            <cell style="text-align: left;">Notes</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">1</cell>
+                            <cell style="text-align: justify;">
+                                <ref target="https://papyri.info/hgv/78870">SB 1 4327</ref>
+                            </cell>
+                            <cell style="text-align: left;">16 BCE–35 CE</cell>
+                            <cell style="text-align: left;">Asklas (τελώνης γερδίων)</cell>
+                            <cell style="text-align: left;">Pasemis, son of Sachas</cell>
+                            <cell style="text-align: left;">τὸ τέλος</cell>
+                            <cell style="text-align: left;">weaver tax</cell>
+                            <cell style="text-align: left;">16/15 BCE, 10/9 BCE, 14/15 CE, 28/29 CE or 34/35 CE</cell>
+                            <cell style="text-align: left;">2 drachmae</cell>
+                            <cell style="text-align: left;">A Tiberian dating seems more likely; cf. BL 2.1.21</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">2</cell>
+                            <cell style="text-align: justify;">
+                                <ref target="https://papyri.info/hgv/75378">O.Petr. Mus. 272</ref> = O.Petr. 119</cell>
+                            <cell style="text-align: left;">27.xi.–26.xii.14 CE</cell>
+                            <cell style="text-align: left;">Asklas (τελώνης γερδίων), Petemenophis Pelaios (writer)</cell>
+                            <cell style="text-align: left;">-</cell>
+                            <cell style="text-align: left;">τὸ τέλος</cell>
+                            <cell style="text-align: left;">weaver tax</cell>
+                            <cell style="text-align: left;">14/15 CE</cell>
+                            <cell style="text-align: left;">-</cell>
+                            <cell style="text-align: left;"/>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">3</cell>
+                            <cell style="text-align: justify;">VM 2439</cell>
+                            <cell style="text-align: left;">4.xii.14 CE</cell>
+                            <cell style="text-align: left;">Asklas (τελώνης βαλανήου), Pet(emenophis (writer)</cell>
+                            <cell style="text-align: left;">Arbe… Psenchonsis</cell>
+                            <cell style="text-align: left;">τὸν φόρον</cell>
+                            <cell style="text-align: left;">bath tax</cell>
+                            <cell style="text-align: left;">14/15 CE</cell>
+                            <cell style="text-align: left;">2 drachmae</cell>
+                            <cell style="text-align: left;"/>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">4</cell>
+                            <cell style="text-align: justify;">
+                                <ref target="https://papyri.info/hgv/23138">O.Cair. Cat. 9577</ref> = SB 1 4519 </cell>
+                            <cell style="text-align: left;">15.xii.14 CE</cell>
+                            <cell style="text-align: left;">Asklas (τελώνης βαλανήου)</cell>
+                            <cell style="text-align: left;">Petechnoumis, son of Pates</cell>
+                            <cell style="text-align: left;">τὸ βαλανευτικόν</cell>
+                            <cell style="text-align: left;">bath tax</cell>
+                            <cell style="text-align: left;">14/15 CE</cell>
+                            <cell style="text-align: left;">2 drachmae</cell>
+                            <cell style="text-align: left;"/>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">5</cell>
+                            <cell style="text-align: justify;">
+                                <ref target="https://papyri.info/hgv/24617">O.Leid. 45</ref> = SB 10 10423 = SB 1 4520</cell>
+                            <cell style="text-align: left;">29.i.15 CE</cell>
+                            <cell style="text-align: left;">
+                                <p>Asklas, Chesthotes </p>
+                                <p>(τελῶναι βαλανευτικοῦ)</p>
+                            </cell>
+                            <cell style="text-align: left;">Pikos, son of Petemenophis</cell>
+                            <cell style="text-align: left;">τὸν φόρον</cell>
+                            <cell style="text-align: left;">bath tax</cell>
+                            <cell style="text-align: left;">14/15 CE</cell>
+                            <cell style="text-align: left;">2 drachmae</cell>
+                            <cell style="text-align: left;"/>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">6</cell>
+                            <cell style="text-align: justify;">O.Louvre p. 232–233, no. 648 = O.Mattha 160 </cell>
+                            <cell style="text-align: left;">22.vii.15 CE</cell>
+                            <cell style="text-align: left;">Asklas</cell>
+                            <cell style="text-align: left;"><emph rend="italics">Ptwlys</emph>, son of <emph rend="italics">Pꜣ-mnṱ</emph></cell>
+                            <cell style="text-align: left;">-</cell>
+                            <cell style="text-align: left;">possibly bath tax</cell>
+                            <cell style="text-align: left;">14/15 CE</cell>
+                            <cell style="text-align: left;">-</cell>
+                            <cell style="text-align: left;">Demotic; see O.Louvre p. 232–233, no. 648: G. Mattha suggests the bath tax in l. 2</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">7</cell>
+                            <cell style="text-align: justify;">
+                                <ref target="https://papyri.info/hgv/71346">O.Bodl. 2 655</ref>
+                            </cell>
+                            <cell style="text-align: left;">15.viii.21 CE</cell>
+                            <cell style="text-align: left;">Asklas and other πράκτορες βαλανευτικοῦ</cell>
+                            <cell style="text-align: left;">Onos, son of Pamonthes</cell>
+                            <cell style="text-align: left;">τὸ βαλανευτικόν</cell>
+                            <cell style="text-align: left;">bath tax</cell>
+                            <cell style="text-align: left;">20/21 CE</cell>
+                            <cell style="text-align: left;">2 drachmae</cell>
+                            <cell style="text-align: left;"/>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">8</cell>
+                            <cell style="text-align: justify;">
+                                <ref target="https://papyri.info/hgv/75858">O.Strasb. 1 262</ref>
+                            </cell>
+                            <cell style="text-align: left;">19.vii.26 CE</cell>
+                            <cell style="text-align: left;">Asklas (πράκτωρ θεαγῶν)</cell>
+                            <cell style="text-align: left;">not legible</cell>
+                            <cell style="text-align: left;">τὸ βαλανευτικόν</cell>
+                            <cell style="text-align: left;">bath tax</cell>
+                            <cell style="text-align: left;">25/26 CE</cell>
+                            <cell style="text-align: left;">-</cell>
+                            <cell style="text-align: left;"/>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">9</cell>
+                            <cell style="text-align: justify;">
+                                <ref target="https://papyri.info/hgv/71429">O.Bodl. 2 739</ref>
+                            </cell>
+                            <cell style="text-align: left;">18.vii.29 CE</cell>
+                            <cell style="text-align: left;">Asklas (πράκτωρ θεαγῶν)</cell>
+                            <cell style="text-align: left;">…onas, son of Hermias</cell>
+                            <cell style="text-align: left;">τὸ βαλανευτικόν σίτος</cell>
+                            <cell style="text-align: left;">bath tax, grain tax</cell>
+                            <cell style="text-align: left;">28/29 CE</cell>
+                            <cell style="text-align: left;">-</cell>
+                            <cell style="text-align: left;"/>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">10</cell>
+                            <cell style="text-align: justify;">
+                                <ref target="https://papyri.info/hgv/75859">O.Strasb. 1 263</ref> DAHT 75859</cell>
+                            <cell style="text-align: left;">19.vii.29 CE</cell>
+                            <cell style="text-align: left;">Asklas (πράκτωρ θεαγῶν)</cell>
+                            <cell style="text-align: left;">-</cell>
+                            <cell style="text-align: left;">τὸ βαλανευτικόν</cell>
+                            <cell style="text-align: left;">bath tax</cell>
+                            <cell style="text-align: left;">28/29 CE</cell>
+                            <cell style="text-align: left;">-</cell>
+                            <cell style="text-align: left;">Greek–Demotic</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">11</cell>
+                            <cell style="text-align: justify;">
+                                <ref target="https://papyri.info/hgv/77847">O.Wilck. 1551</ref>
+                            </cell>
+                            <cell style="text-align: left;">16.i.35 CE</cell>
+                            <cell style="text-align: left;">Asklas (τελώνης γερδίων)</cell>
+                            <cell style="text-align: left;">-</cell>
+                            <cell style="text-align: left;">τὸ τέλος</cell>
+                            <cell style="text-align: left;">weaver tax</cell>
+                            <cell style="text-align: left;">34/35 CE</cell>
+                            <cell style="text-align: left;">4 drachmae</cell>
+                            <cell style="text-align: left;">two more drachmae were also collected</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">12</cell>
+                            <cell style="text-align: justify;">
+                                <ref target="https://papyri.info/hgv/71350">O.Bodl. 2 659</ref>
+                            </cell>
+                            <cell style="text-align: left;">6.xi.35 CE</cell>
+                            <cell style="text-align: left;">Ptolemaios, son of Asklas</cell>
+                            <cell style="text-align: left;">Eumelos, son of Chesthotes</cell>
+                            <cell style="text-align: left;">τὸ βαλανευτικόν</cell>
+                            <cell style="text-align: left;">bath tax</cell>
+                            <cell style="text-align: left;">34/35 CE</cell>
+                            <cell style="text-align: left;">-</cell>
+                            <cell style="text-align: left;">the person seems to be in arrears, as the tax is described as πρόλοιπον</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">13</cell>
+                            <cell style="text-align: justify;">
+                                <ref target="https://papyri.info/hgv/77499">O.Wilck. 2 1032</ref>
+                            </cell>
+                            <cell style="text-align: left;">23.viii.35 CE</cell>
+                            <cell style="text-align: left;">Ptolemaios, son of Asklas</cell>
+                            <cell style="text-align: left;">Paous, son of Petobastis</cell>
+                            <cell style="text-align: left;">τὸ βαλανευτικόν</cell>
+                            <cell style="text-align: left;">bath tax</cell>
+                            <cell style="text-align: left;">34/35 CE</cell>
+                            <cell style="text-align: left;">-</cell>
+                            <cell style="text-align: left;">the person seems to be in arrears, as the tax is described as πρόλοιπον</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">14</cell>
+                            <cell style="text-align: justify;">
+                                <ref target="https://papyri.info/hgv/75776">O.Strasb. 1 179</ref> DAHT 75776</cell>
+                            <cell style="text-align: left;">23.viii.35 CE</cell>
+                            <cell style="text-align: left;">Ptolemaios, son of Asklas</cell>
+                            <cell style="text-align: left;">Maieuris, son of Horos</cell>
+                            <cell style="text-align: left;">τὸ βαλανευτικόν</cell>
+                            <cell style="text-align: left;">bath tax</cell>
+                            <cell style="text-align: left;">34/35 CE</cell>
+                            <cell style="text-align: left;">4 drachmae</cell>
+                            <cell style="text-align: left;">Greek–Demotic</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">15</cell>
+                            <cell style="text-align: justify;">
+                                <ref target="https://papyri.info/hgv/77500">O.Wilck. 2 1033</ref>
+                            </cell>
+                            <cell style="text-align: left;">1.xii.35 CE</cell>
+                            <cell style="text-align: left;">Ptolemaios, son of Asklas</cell>
+                            <cell style="text-align: left;">Petemenophis, son of Haryotes</cell>
+                            <cell style="text-align: left;">τὸ βαλανευτικόν</cell>
+                            <cell style="text-align: left;">bath tax</cell>
+                            <cell style="text-align: left;">34/35 CE</cell>
+                            <cell style="text-align: left;">-</cell>
+                            <cell style="text-align: left;">the person seems to be in arrears, as the tax is described as πρόλοιπον</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">16</cell>
+                            <cell style="text-align: justify;">O.Mattha 167</cell>
+                            <cell style="text-align: left;">37/38 or 41/42 CE</cell>
+                            <cell style="text-align: left;">Ptolemas, son of Asklas</cell>
+                            <cell style="text-align: left;"><emph rend="italics">Ke-mꜣj</emph> (?), son of <emph rend="italics">Pꜣ-šr-ẖnm</emph></cell>
+                            <cell style="text-align: left;"><emph rend="italics">tꜣ ẖn.t n tꜣ s.t-ỉywn</emph></cell>
+                            <cell style="text-align: left;">bath tax </cell>
+                            <cell style="text-align: left;">(year 2)</cell>
+                            <cell style="text-align: left;">7 obols</cell>
+                            <cell style="text-align: left;">
+                                <ref target="https://www.jstor.org/stable/20187229">Worp (1990</ref>, 254) prefers the dating 41/42, further alternatives see BL Demotic 2005B, p. 450; Demotic</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">17</cell>
+                            <cell style="text-align: justify;">
+                                <ref target="http://www.trismegistos.org/text/49046">O.Leid. Dem. 21 = ZPE 80 (1990), 253 no. 3</ref>
+                            </cell>
+                            <cell style="text-align: left;">38/39 or 42/42 CE</cell>
+                            <cell style="text-align: left;">Ptolemas, son of Asklas</cell>
+                            <cell style="text-align: left;"><emph rend="italics">Pꜣy-ḥwṱ</emph>, son of <emph rend="italics">Ḥr</emph></cell>
+                            <cell style="text-align: left;"><emph rend="italics">tꜣ ẖn.t n tꜣ s.t-ỉywn</emph></cell>
+                            <cell style="text-align: left;">bath tax </cell>
+                            <cell style="text-align: left;">(year 3)</cell>
+                            <cell style="text-align: left;">8 obols</cell>
+                            <cell style="text-align: left;">BL 12.306, Demotic–Greek</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">18</cell>
+                            <cell style="text-align: justify;">
+                                <ref target="https://papyri.info/hgv/76906">O.Wilck. 2 390</ref>
+                            </cell>
+                            <cell style="text-align: left;">39/40 or 43/44 CE</cell>
+                            <cell style="text-align: left;">Ptolemaios, son of Asklas (πράκτωρ βαλανευτικοῦ)</cell>
+                            <cell style="text-align: left;">Phophis, son of Horos</cell>
+                            <cell style="text-align: left;">τὸ βαλανευτικόν</cell>
+                            <cell style="text-align: left;">bath tax </cell>
+                            <cell style="text-align: left;">(year 4)</cell>
+                            <cell style="text-align: left;">1 drachma</cell>
+                            <cell style="text-align: left;"/>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">19</cell>
+                            <cell style="text-align: justify;">
+                                <ref target="http://www.trismegistos.org/text/51693">Or. Suec. 19–20 (1970–71), 39–40, no. 14</ref>
+                            </cell>
+                            <cell style="text-align: left;">42 CE</cell>
+                            <cell style="text-align: left;">Ptolemas, son of Asklas</cell>
+                            <cell style="text-align: left;">Pamonthes, son of Psenamounis</cell>
+                            <cell style="text-align: left;"><emph rend="italics">tꜣ ẖn.t n tꜣ s.t-ỉywn</emph></cell>
+                            <cell style="text-align: left;">bath tax </cell>
+                            <cell style="text-align: left;">41/42 CE</cell>
+                            <cell style="text-align: left;"/>
+                            <cell style="text-align: left;">BL Dem. 2005, p. 675; Demotic–Greek</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">20</cell>
+                            <cell style="text-align: justify;">
+                                <ref target="https://papyri.info/hgv/77502">O.Wilck. 2 1035</ref>
+                            </cell>
+                            <cell style="text-align: left;">26.ix.42 CE</cell>
+                            <cell style="text-align: left;">Ptolemaios, son of Asklas</cell>
+                            <cell style="text-align: left;">Petemenophis, son of Pamonthes</cell>
+                            <cell style="text-align: left;">τὸ βαλανευτικόν</cell>
+                            <cell style="text-align: left;">bath tax </cell>
+                            <cell style="text-align: left;">42/43 CE</cell>
+                            <cell style="text-align: left;">-</cell>
+                            <cell style="text-align: left;">the person seems to be in arrears, as the tax is described as πρόλοιπον; we thank Nikolaos Gonis for confirming Tait’s reading regarding the taxpayer’s name</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">21</cell>
+                            <cell style="text-align: justify;">
+                                <ref target="https://papyri.info/hgv/77503">O.Wilck. 2 1036</ref>
+                            </cell>
+                            <cell style="text-align: left;">42–43 CE</cell>
+                            <cell style="text-align: left;">Ptolemaios, son of Asklas</cell>
+                            <cell style="text-align: left;">Kametis, son of Phtoum …</cell>
+                            <cell style="text-align: left;">τὸ βαλανευτικόν</cell>
+                            <cell style="text-align: left;">bath tax </cell>
+                            <cell style="text-align: left;">42/43 CE</cell>
+                            <cell style="text-align: left;">-</cell>
+                            <cell style="text-align: left;">the person seems to be in arrears, as the tax is described as πρόλοιπον</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">22</cell>
+                            <cell style="text-align: justify;">
+                                <ref target="https://papyri.info/hgv/77504">O.Wilck. 2 1037</ref>
+                            </cell>
+                            <cell style="text-align: left;">39–40 or 43–44 CE</cell>
+                            <cell style="text-align: left;">Ptolemaios, son of Asklas (πράκτωρ βαλανευτικοῦ)</cell>
+                            <cell style="text-align: left;">Psan …, son of P …</cell>
+                            <cell style="text-align: left;">τὸ βαλανευτικόν</cell>
+                            <cell style="text-align: left;">bath tax </cell>
+                            <cell style="text-align: left;">(year 4)</cell>
+                            <cell style="text-align: left;">-</cell>
+                            <cell style="text-align: left;">the person seems to be in arrears, as the tax is described as πρόλοιπον</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: justify;">23</cell>
+                            <cell style="text-align: justify;">Or. Suec. 31–32 (1982–1983), 9, no. 4 (=<ref target="https://www.trismegistos.org/text/51840">TM 51840</ref>)</cell>
+                            <cell style="text-align: left;">41–54 CE</cell>
+                            <cell style="text-align: left;">Ptolemaios</cell>
+                            <cell style="text-align: left;">-</cell>
+                            <cell style="text-align: left;">-</cell>
+                            <cell style="text-align: left;"/>
+                            <cell style="text-align: left;">-</cell>
+                            <cell style="text-align: left;">-</cell>
+                            <cell style="text-align: left;">BL Dem. 2005, pp. 671, 675; Demotic–Greek</cell>
+                        </row>
+                    </table>
+                </div>
+                <div type="section">
+                    <div type="section">
+                        <head>2. Receipt for an undetermined monthly tax</head>
+                        <table type="papyrological_header">
+                            <row>
+                                <cell style="text-align: left;">VM 2556</cell>
+                                <cell style="text-align: center;">5.3 (h) × 8.8 (w) cm</cell>
+                                <cell style="text-align: right;">41 CE</cell>
+                            </row>
+                            <row>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: right;">Thebes</cell>
+                            </row>
+                        </table>
+                        <p xml:id="p19">Right bottom corner broken with the endings of the last two lines lost. Otherwise, all margins are preserved. The text consists of 6 lines of around 20 letters each. The sherd has a red-orange writing surface.<lb/>
+                        </p>
+                        <p xml:id="p20">Two other attestations of tax collector, Hones, son of Petemenophis, come from Thebes (for details see commentary to line 1). Most of the ostraka from the Uppsala collection are of Theban provenance (O.Ups. 3–16). The recipient’s name, Pamonthes, is characteristic of the Theban region (see <ref target="http://www.trismegistos.org/name/720">TM Nam 720</ref>). Therefore it’s clear that the ostrakon comes from Thebes.</p>
+                        <p xml:id="p21">This receipt acknowledges the payment of a monthly tax without denomination in the amount of two drachmae. For examples of this, see O.Bodl. 2 1048–1062 (especially No. <ref target="https://papyri.info/hgv/71735">1048</ref>, <ref target="https://papyri.info/hgv/71738">1051</ref>, <ref target="https://papyri.info/hgv/71739">1052</ref>), <ref target="https://papyri.info/hgv/24424">O.Berl. 32</ref> (29 Aug.–26. Dec. 108 CE, Elephantine). The closest parallels are <ref target="https://papyri.info/hgv/24417">O.Berl. 25</ref> (30. Aug.–28. Oct. 55 CE, Thebes) and <ref target="https://papyri.info/hgv/24419">O.Berl. 27</ref> (30 Aug.–28 Oct. 63 CE, Thebes).<lb/>
+                        </p>
+                        <p xml:id="p22">Taking into account the use of the word τέλος in other ostraka and the fact that the tax is paid monthly, the editors’ suggestion that O.Bodl. 2 1048–1062 are “supposed to be taxes on trades”<note place="foot" xml:id="ftn6" n="6">
+                                <p> O. Bodl. 2 p. 136.</p>
+                            </note> is followed also in this edition.</p>
+                        <p xml:id="p23">For the undetermined taxes understood as taxes on trades see most recently the commentary on <ref target="https://papyri.info/hgv/77718">O.Petr. Mus. 277</ref> (45 CE, Thebes) and <ref target="https://papyri.info/hgv/75380">O.Petr. Mus. 278</ref> (1 March 112 CE, Thebes), as well as <ref target="https://papyri.info/biblio/3811">Wallace 1938</ref>: 192–213. </p>
+                        <p xml:id="p24">The fact that the tax collector was a bath tax collector around the same time unfortunately does not help, as the monthly amount of two drachmae do not correspond to the typical amounts recorded for bath taxes.</p>
+                    </div>
+                    <div type="epidoc" subtype="DDB">
+                        <figure>
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24060374"/>
+                            <head>Fig. 2: Uppsala, Victoria Museum 2556</head>
+                        </figure>
+                        <div copyOf="#ed2" type="edition"/>
+                        <div copyOf="#trans2" type="translation"/>
+                        <div type="commentary">
+                            <note target="#ed2ln1">
+                                <ref>1</ref>
+                                <p xml:id="p25"> The same tax farmer and his associates can be found in:<ref target="https://papyri.info/hgv/75777"> O.Strasb. 1 180</ref> (37 CE, Thebes) and probably also in <ref target="https://papyri.info/hgv/71351">O.Bodl. 2 661</ref> (40 CE, Thebes). The name Ὁνῆς is a variant (<ref target="http://www.trismegistos.org/namvar/35465">TM NamVar 35465</ref>) of Egyptian Αὑνῆς (<ref target="http://www.trismegistos.org/name/354">TM Nam 354</ref>), Demotic <emph rend="italics">Ḥwn</emph><note place="foot" xml:id="ftn7" n="7">
+                                        <p> NB Dem., vol. I.2 p. 778.</p>
+                                    </note>, meaning “the young one”, with possible theophoric origin. It is attested across Egypt. The name Πετεμενῶφις (<ref target="http://www.trismegistos.org/name/831">TM Nam 831</ref>) means “the one whom Amon of Luxor has given”<note place="foot" xml:id="ftn8" n="8">
+                                        <p> NB Dem., vol. I.1 p. 282.</p>
+                                    </note> and is typical for Theban region. </p>
+                            </note>
+                            <note target="#ed2ln2">
+                                <ref>2</ref>
+                                <p xml:id="p26"> A similar mistake may be found in <ref target="https://papyri.info/hgv/73406">O.Cair. 60.2</ref> (170 CE, Hermonthites): μέτοχω and <ref target="https://papyri.info/hgv/71346">O.Bodl. 2 655.1</ref> (21 CE, Thebes): μετωχω instead of μέτοχοι. Usually, in tax receipts, both terms, μέτοχοι and τελῶναι, would be abbreviated. The fact that we find it in unabbreviated form is somewhat surprising, as it resulted in insufficient space for the full name of the recipient. Only Παμω is written inline, with ν elevated and θ superscript. Nevertheless, in the next line the scribe used two abbreviations. <lb/>
+                                </p>
+                                <p xml:id="p27">The theophoric name Pamonthes (<ref target="http://www.trismegistos.org/name/720">TM Nam 720</ref>) is typical for Theban region as it means “the one of Montu”<note place="foot" xml:id="ftn9" n="9">
+                                        <p> NB Dem., vol. I.1 p. 372–373.</p>
+                                    </note>, Montu being the falcon headed war god of Thebes (<ref target="http://www.trismegistos.org/god/51">TM God 51</ref>).</p>
+                            </note>
+                            <note target="#ed2ln3">
+                                <ref>3</ref>
+                                <p xml:id="p28"> The reading at the beginning of the line is not easy, even though all the strokes are perfectly visible. The ligature of αρ, in such a peculiar shape is uncommon. However, the same ductus appears for example in <ref target="https://papyri.info/hgv/70794">O.Ber. 1 17.2</ref> in the word ἀριθ̣μῶι (33–70 CE?, Berenike). </p>
+                                <p xml:id="p29">The Trismegistos Project attributes the name of Pamonthes’s father to an Egyptian name with Latin roots (<ref target="http://www.trismegistos.org/namvar/31482">TM NamVar 31482 </ref>– Varius). However, the presence of the name Ouaros in <ref target="https://papyri.info/hgv/1696">P. Lond. 7 2136.1</ref> (263–229 BCE, Zenon Archive) casts some shadow on such an interpretation. Bearing of a Greek variant of Latin name by an Egyptian so early is unlikely (however not impossible). Therefore, we can also be dealing with a hellenized Egyptian or Semitic name, although there is no corresponding name attested. According to Tavernier 2020: 338 fn. 6 Ouaris is a Greek equivalent of the Lycian personal name Uwihairi. For discussion of this name in relation to Latin Varus and Varius, see <ref target="https://papyri.info/biblio/97486">Zgusta 1964</ref>: 393 §1143–3. Taking into consideration that in the 3rd century BCE Lycia was under Ptolemaic rule, the hypothesis of the Lycian origin of the name mentioned in the ostrakon cannot be fully excluded.</p>
+                                <p xml:id="p30">It may be that name Ouaros and Ouaris are two etymologically unrelated names. This interpretation is supported by inscription <ref target="https://papyri.info/hgv/98271">SB 1 3493.1</ref> (244 CE, Thebes), where Οὐάρις is clearly personal name in the nominative and not a patronymic. The same can be found in <ref target="https://papyri.info/hgv/72620">O.Bodl. 2 1937.8</ref>. In <ref target="https://papyri.info/hgv/12078">P.Mich. 5 238 R.187</ref> (after 46 CE, Tebtynis) it appears in the accusative, Οὐᾶρον; therefore it can be both Ouaros and Ouaris. Another attestation is <ref target="https://papyri.info/hgv/75032">O.Ont.Mus. 1 10.3</ref> where the name appears as a patronym, however in the abbreviated form Οὐᾶρ – and thus not helpful in determining the nature of the name. </p>
+                            </note>
+                            <note target="#ed2ln4">
+                                <ref>4</ref>
+                                <p xml:id="p31"> Theogeneios corresponds to Tybi (Hanson 1984: 1112 fn. 15); therefore, Theogeneios in the 5th year of Caligula = 27 December 40 CE / 25 January 41 CE. </p>
+                                <p xml:id="p32">Since the classic article of <ref target="https://papyri.info/biblio/95906">Scott 1931</ref> four more attestations have been published, with this ostrakon being the sixth one (and first attestation on an ostrakon). Other attestations of this month are: <ref target="https://papyri.info/hgv/68754">P.Oxy. 55 3780.5</ref> (calendar, 40–42 CE, Oxyrhynchos), <ref target="https://papyri.info/hgv/140525">PSI Com. 9 7.2</ref> (heading of the document, 7 Jan. 41 CE, Tebtynis), <ref target="https://papyri.info/hgv/9312">BGU 3 713.3</ref> (loan contract, 1 Jan. 42 CE, Soknopaiou Nesos); <ref target="https://papyri.info/hgv/14887">SB 20 14576.7</ref> (banking list, 14 Jan. 43 CE, Philadelphia) and <ref target="https://papyri.info/hgv/1000536">P.Oxy. 88 5660.2</ref> (receipt for tax on stonecutters, 22 Jan. 42 CE). For the slightly outdated yet very useful discussion of Caligulan months, see <ref target="https://papyri.info/biblio/95906">Scott 1931</ref>: 245–263. Some updates, although focused on the usage in the village of Philadelphia, can be found in <ref target="https://papyri.info/biblio/56505">Hanson 1984</ref>. The most recent work on the honorific months is <ref target="https://papyri.info/biblio/97721">Dörner 2014</ref>: 277–298, and especially about Caligulan months 286–297.</p>
+                            </note>
+                            <note target="#ed2ln5">
+                                <ref>5</ref>
+                                <p xml:id="p33"> The year-sign encircles the epsilon while simultaneously transitioning into the vertical hasta of the gamma. The scribe most likely wrote the epsilon first and, having initially omitted the year-sign, was forced to add it in the margin. He integrated it quite elegantly by merging the sign with the initial gamma of Γαίου.</p>
+                                <p xml:id="p34">The word division Αὐτοκρ̣άτορ|ος between lines 5 and 6 is non-standard; the correct syllabification in this case would be Αὐτοκρ̣άτο|ρος.</p>
+                            </note>
+                            <note target="#ed2ln6">
+                                <ref>6</ref>
+                                <p xml:id="p35"> Given the space left at the end of the last line, which is ca. 8 letters, the following conjectures are possible: </p>
+                                <p xml:id="p36">a. Honorific month names are used here, just as in line 4: μην̣(ὸς) [Θεογενείου], but the limited space allows only an abbreviated word for the month, compact name of the month, and no day date. μην̣(ὸς) [Νερωνείου] fits the space better but still leaves no room for the day date. In this case, the receipt would postdate the payment, which is not unusual. μην̣[ὸς Γαιήου dd] fits the space best and allows us to see it without any abbreviations and with the day date, which would be expected. However, against such a conjecture speaks the fact that it would mean that the receipt was issued two months after the month for which the payment has been made. That is not unthinkable but no good parallel can be offered.</p>
+                                <p xml:id="p37">b. Alternatively, the Egyptian month name is used alongside the honorific month, which implies the simultaneous use of two different naming systems. In the papyrological evidence, two distinct practices can be observed. The Egyptian month name was either added directly after the Roman honorific month name, serving as clarification to ensure correct understanding of the month e.g. <ref target="https://papyri.info/hgv/12109">P.Mich. 5 273</ref> (46 CE, Tebtynis), <ref target="https://papyri.info/hgv/15167">P.Mich. 5 321</ref>.1 (42 CE, Tebtynis), or both systems were used in different parts of the document, especially when the Roman honorific name was less widely recognized than its Egyptian counterpart; e.g. <ref target="https://papyri.info/hgv/77712">O.Petr.Mus. 244</ref> (=O.Wilcken 1378) (43 CE, Thebes), <ref target="https://papyri.info/hgv/9788a">BGU 15 2525</ref> (84–85 CE, Herakleia). Here we would deal with the latter: μην̣[ὸς Τῦβι dd] – meaning that the receipt was issued in the same month for which the tax was due, or μην̣[ὸς Μεχείρ dd] – also, in this case, the receipt would have been issued in the month after the one for which the payment has been made. μην̣[ὸς Φαμενώθ] or μη̣ν̣(ὸς) [Φαμενώθ dd] are the least probable conjectures, as no place for the day date is left, unless the word for month is abbreviated.</p>
+                            </note>
+                        </div>
+                    </div>
+                </div>
+                <div type="bibliography">
+                    <listBibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/6514">Bureth, P. (1964)</ref> Les titulatures impériales dans les papyrus, les ostraca et les inscriptions d’Égypte (30 a.C.–284 p.C.). Brussels.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97721">Dörner, N. (2014)</ref> Feste und Opfer für den Gott Caesar: Kommunikationsprozesse im Rahmen des Kaiserkultes im römischen Ägypten der julisch-claudischen Zeit (30 v. Chr.–68 n. Chr.). Rahden/Westph.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/9657">Gignac F.T. (1981)</ref> A Grammar of the Greek Papyri of the Roman and Byzantine Periods, vol. 2: Morphology. Milan.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/56505">Hanson A.E. (1984)</ref> “Caligulan Month-Names at Philadelphia and Related Matters.” in: Atti del XVII Congresso Internazionale di Papirologia, Napoli, 19–26 maggio 1983, vol. 3: Papirologia documentaria, papirologia araba. Naples, 1107–1118.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/20775">Heilporn, P. (ed.) (2009)</ref>, Thèbes et ses taxes. Recherches sur la fiscalité en Égypte romaine (Ostraca de Strasbourg II) (EAHA). Paris.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/78505">Hickey, T. (2010)</ref> “Ostraca Upsaliensia (Part I),” APF 56: 258–273.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/3484">Johnson, A.Ch. (1936)</ref> An Economic Survey of Ancient Rome, vol. 2: Roman Egypt to the Reign of Diocletian. Baltimore.</bibl>
+                        <bibl>Lüddeckens, E. (1984) Demotisches Namenbuch, vol. 1.4. Wiesbaden. (=NB Dem.)</bibl>
+                        <bibl>Lüddeckens, E. (1992) Demotisches Namenbuch, vol. 1.11. Wiesbaden.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/60863">Masson, O. (1990)</ref> Onomastica Graeca selecta, vol. 1: Introduction et index, ed. by C. Tobias and L. Dubois. Paris.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/35004">Préaux, C. (1934)</ref> “La taxe des bains dans l’Égypte romaine. A propos de l’ostracon de Bruxelles,” CE 9: 129–132.</bibl>
+                        <bibl>Preisigke, F. (1931) Wörterbuch der griechischen Papyrusurkunden mit Einschluß der griechischen Inschriften und Aufschriften, Ostraka, Mumienschilder usw. aus Ägypten, ed. by E. Kießling, vol. 3: Besondere Wörterliste. Berlin.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/95906">Scott, K. (1931)</ref> “Greek and Roman honorific months,” YCS 2: 199–278.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97735">Tavernier, J. (2020)</ref> “Lycian Erimñuha” in: Hrozný and Hittite: the first hundred years: proceedings of the International Conference held at Charles University, Prague, 11–14 November 2015, 382–395.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/3811">Wallace, S.L. (1938)</ref> Taxation in Egypt from Augustus to Diocletian. Princeton.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97511">Wilcken, U. (1899)</ref> Griechische Ostraka aus Ägypten und Nubien. Ein Beitrag zur antiken Wirtschaftsgeschichte, vol. 1. Leipzig – Berlin.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96230">Wilcken, U. (1912)</ref> Grundzüge und Chrestomathie der Papyruskunde, vol. 1: Historischer Teil. 1. Hälfte: Grundzüge. Leipzig.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97720">Worp, K.A. (1990)</ref> “Remarks on Some Greek Marginalia in Demotic Tax Receipts,” ZPE 80: 253–256.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97486">Zgusta, L. (1964)</ref> Kleinasiatische Personennamen, Prague.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Receipt for the bath tax</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Papyri.info</authority>
+                    <idno type="TM">1001062</idno>
+                    <idno type="HGV">1001062</idno>
+                    <idno type="ddb-filename">pylon.9.4_1</idno>
+                    <idno type="ddb-hybrid">pylon;9;4_1</idno>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <placeName>
+                                <settlement>Uppsala</settlement>
+                            </placeName>
+                            <collection>Victoria Museum</collection>
+                            <idno type="invNo">VM 2439</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <material>Ostrakon</material>
+                                    </support>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace>Theben</origPlace>
+                                <origDate when="0014-12-04">4. Dez. 14</origDate>
+                            </origin>
+                            <provenance type="located">
+                                <p>
+                                    <placeName type="ancient" ref="https://pleiades.stoa.org/places/991398 https://www.trismegistos.org/place/2983 https://www.trismegistos.org/place/1281">Theben</placeName>
+                                    <placeName type="ancient" subtype="region">Ägypten</placeName>
+                                </p>
+                            </provenance>
+                        </history>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                </langUsage>
+                <textClass>
+                    <keywords scheme="hgv">
+                        <term n="1">Quittung</term>
+                        <term n="2">Steuer</term>
+                        <term n="3">Geld</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div type="bibliography" subtype="principalEdition">
+                    <listBibl>
+                        <bibl type="publication" subtype="principal">
+                            <title level="s" type="abbreviated">Pylon</title>
+                            <biblScope n="1" type="volume">9</biblScope>
+                            <biblScope n="2" type="fascicle">(2026)</biblScope>
+                            <biblScope n="3" type="generic">Art. 4</biblScope>
+                            <biblScope n="4" type="number">Nr. 1</biblScope>
+                        </bibl>
+                    </listBibl>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Receipt for the bath tax</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename">pylon.9.4_1</idno>
+                    <idno type="ddb-hybrid">pylon;9;4_1</idno>
+                    <idno type="HGV">1001062</idno>
+                    <idno type="TM">1001062</idno>
+                    <availability>
+                        <p>© Duke Databank of Documentary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                    <language ident="la">Latin</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <head xml:lang="en">Receipt for the bath tax</head>
+                <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb xml:id="ed1ln1" n="1"/>Ἀσκλᾶς <expan>τελών<ex>ης</ex></expan> <choice><reg>βαλανείου</reg><orig>βαλανήου</orig></choice> Αρβη<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character" precision="low"/>
+<lb xml:id="ed1ln2" n="2"/><choice><reg>Ψενχώνσιος</reg><orig>Ψενχῶνσις</orig></choice> <expan>χα<ex>ίρειν</ex></expan>. ἀπέχω τὸν φ<supplied reason="lost">όρον</supplied>
+<lb xml:id="ed1ln3" n="3"/>τοῦ <num value="1">α</num> <expan><ex>ἔτους</ex></expan> <expan><ex>δραχμὰς</ex></expan> <num value="2">β</num>. <expan><ex>ἔτους</ex></expan> <num value="1">α</num> Τιβερίου Κα<supplied reason="lost">ίσαρος</supplied>
+<lb xml:id="ed1ln4" n="4"/>Χοίακ <num value="8"><hi rend="supraline">η</hi></num>. <expan>ἔγρα<ex>ψα</ex></expan> Πε<unclear>τ</unclear><gap reason="lost" quantity="13" unit="character" precision="low"/>
+</ab></div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main">Receipt for the bath tax</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename">1001062</idno>
+                    <idno type="TM">1001062</idno>
+                    <idno type="HGV">1001062</idno>
+                    <idno type="ddb-hybrid">1001062</idno>
+                    <availability>
+                        <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>The contents of this document are generated from SOSOL.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                    <language ident="ar">Arabisch</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>
+Asklas, farmer of the bath tax, to Arbe[…], son of Psenchonsis, greetings. I have received the tax for the 1st year, 2 drachmae. Year 1 of Tiberius Ca[esar], Choiak 8. I, Pet[…], wrote it.
+</p></div>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Receipt for an undetermined monthly tax</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Papyri.info</authority>
+                    <idno type="TM">1001063</idno>
+                    <idno type="HGV">1001063</idno>
+                    <idno type="ddb-filename">pylon.9.4_2</idno>
+                    <idno type="ddb-hybrid">pylon;9;4_2</idno>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <placeName>
+                                <settlement>Uppsala</settlement>
+                            </placeName>
+                            <collection>Victoria Museum</collection>
+                            <idno type="invNo">VM 2556</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <material>Ostrakon</material>
+                                    </support>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace>Theben</origPlace>
+                                <origDate when="0041">41</origDate>
+                            </origin>
+                            <provenance type="located">
+                                <p>
+                                    <placeName type="ancient" ref="https://pleiades.stoa.org/places/991398 https://www.trismegistos.org/place/2983 https://www.trismegistos.org/place/1281">Theben</placeName>
+                                    <placeName type="ancient" subtype="region">Ägypten</placeName>
+                                </p>
+                            </provenance>
+                        </history>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+            </encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                </langUsage>
+                <textClass>
+                    <keywords scheme="hgv">
+                        <term n="1">Quittung</term>
+                        <term n="2">Steuer</term>
+                        <term n="3">Geld</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div type="bibliography" subtype="principalEdition">
+                    <listBibl>
+                        <bibl type="publication" subtype="principal">
+                            <title level="s" type="abbreviated">Pylon</title>
+                            <biblScope n="1" type="volume">9</biblScope>
+                            <biblScope n="2" type="fascicle">(2026)</biblScope>
+                            <biblScope n="3" type="generic">Art. 4</biblScope>
+                            <biblScope n="4" type="number">Nr. 2</biblScope>
+                        </bibl>
+                    </listBibl>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Receipt for an undetermined monthly tax</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename">pylon.9.4_2</idno>
+                    <idno type="ddb-hybrid">pylon;9;4_2</idno>
+                    <idno type="HGV">1001063</idno>
+                    <idno type="TM">1001063</idno>
+                    <availability>
+                        <p>© Duke Databank of Documentary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                    <language ident="grc">Greek</language>
+                    <language ident="la">Latin</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <head xml:lang="en">Receipt for an undetermined monthly tax</head>
+                <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb xml:id="ed2ln1" n="1"/>Ὁνῆς <choice><reg>Πετεμενώφιος</reg><orig>Πετεμενῶφις</orig></choice> καὶ
+<lb xml:id="ed2ln2" n="2"/><choice><reg>μέτοχοι</reg><orig>μετόχων</orig></choice> τελῶναι <expan>Παμώ<unclear>ν</unclear>θ<ex>ῃ</ex></expan>   
+<lb xml:id="ed2ln3" n="3"/>Οὐᾶρις  <expan>χα<ex>ίρειν</ex></expan>. <expan>ἔχο<ex>μεν</ex></expan> τὸ τέλος τοῦ
+<lb xml:id="ed2ln4" n="4"/>μηνὸς <choice><reg>Θεογενείου</reg><orig>Θεογένιος</orig></choice> <expan><ex>δραχμὰς</ex></expan> <num value="2">β</num>.
+<lb xml:id="ed2ln5" n="5"/><expan><ex>ἔτους</ex></expan> <num value="5">ε</num> Γαίου Καίσαρος Αὐτοκ<unclear>ρ</unclear><supplied reason="lost">άτορ</supplied>
+<lb xml:id="ed2ln6" n="6" break="no"/>ος Σεβαστοῦ μη<unclear>ν</unclear><supplied reason="lost">ὸς</supplied> <gap reason="lost" quantity="6" unit="character" precision="low"/> 
+</ab></div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main">Receipt for an undetermined monthly tax</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                    <idno type="filename">1001063</idno>
+                    <idno type="TM">1001063</idno>
+                    <idno type="HGV">1001063</idno>
+                    <idno type="ddb-hybrid">1001063</idno>
+                    <availability>
+                        <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>The contents of this document are generated from SOSOL.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr">Französisch</language>
+                    <language ident="en">Englisch</language>
+                    <language ident="de">Deutsch</language>
+                    <language ident="it">Italienisch</language>
+                    <language ident="es">Spanisch</language>
+                    <language ident="la">Latein</language>
+                    <language ident="el">Griechisch</language>
+                    <language ident="ar">Arabisch</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div xml:id="trans2" xml:lang="en" type="translation" xml:space="preserve"><p>
+Ηοnes, son of Petemenophis, and partners, tax farmers, to Pamonthes, son of Varius, greetings. We have received the tax of 2 drachmae for the month of Theogeneios. 
+Year 5th of Gaius Caesar Imperator Augustus, month (month name, day date).
+</p></div>
+            </body>
+        </text>
+    </TEI>
+</TEI>

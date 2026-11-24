@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Wax-tablet Schoolbook in the British Library</title>
+                <author>
+                    <name>
+                        <forename>Julia</forename>
+                        <surname>Lougovaya</surname>
+                    </name>
+                    <affiliation>Heidelberg University</affiliation>
+                    <email>lougovaya@uni-heidelberg.de</email>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1058244469</idno>
+                    <idno ana="hc:ORCIDURI">https://orcid.org/0000-0001-8099-5930</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date/>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Propylaeum</orgName>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+                </publisher>
+                <pubPlace>
+                    <placeName>Heidelberg</placeName>
+                    <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+                </pubPlace>
+                <date when="2026">2026</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno ana="hc:PrivateIdentifier">pylon.9.7</idno>
+                <idno ana="hc:DOI">https://doi.org/10.116432/pylon.2026.9.116432</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl ana="hc:RecommendedBibliographicReference">J. Lougovaya, “Wax-tablet Schoolbook in the British Library,” Pylon 9 (2026) Article 7. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2026.9.116432">https://doi.org/10.48631/pylon.2026.9.116432</ref>.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title level="j" ana="hc:MainTitle">Pylon</title>
+                        <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                        <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                        <imprint>
+                            <biblScope unit="volume">9</biblScope>
+                            <biblScope unit="article">7</biblScope>
+                            <date when="2026">2026</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <ab>Converted from a Word document for Pylon.</ab>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2026-05-18T15:57:36Z</date>
+                    <name/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart type="MainTitle">Wax-tablet Schoolbook in the British Library</titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <div type="article">
+                <note type="acknowledgement">The article is a research product of the joint collaborative agreement between the Center for the Tebtunis Papyri and the British Library Board to enhance the accessibility of the writing tablets in the British Library collection. The images appear courtesy of the British Library Board, which holds their copyright.</note>
+                <div type="section">
+                    <head>Introduction</head>
+                    <p xml:id="p1" style="text-align: left; text-align: justify;">BL Add MS 33368 (TM <ref target="https://www.trismegistos.org/text/64582">64582</ref>) is a set of eight wooden tablets coated with wax on both sides except for two covers which have wax only on the inner side. It was acquired by the British Museum in 1888 and described by <ref target="https://papyri.info/biblio/95358">Kenyon (1909</ref>: 39) and <ref target="https://papyri.info/biblio/46094">Painter (1967</ref>: 106) but never published.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> For further information on the tablets and published references to them, cf. the page in the British Library <ref target="https://searcharchives.bl.uk/catalog/032-001628106">https://searcharchives.bl.uk/catalog/032-001628106</ref>.</p></note> Kenyon writes that the tablets have “remains of scribblings, some of which have a grammatical character, such as a list of the names of cases. … [A]nd on one of the pages is a drawing in which a lively imagination may discern a portrait of the schoolmaster.” Painter could not discern any more than that, nor could Cribiore (<ref target="https://papyri.info/biblio/14384">1996</ref>, no. 401), who must have consulted photographs but, unsurprisingly, found them illegible. Thanks to a collaborative project between the Center for the Tebtunis Papyri and the British Library I was able to work with high resolution images of the tablets and to determine that besides the list of cases recognized by Kenyon on one of them four further pages bear tables of addition. In what follows I offer an edition of the codex with photographs of all the tablets, including those with only occasional remains of letters and some drawings. For the page with an apparent depiction of a human figure Roderick Geerts of Leiden University provided a drawing that makes it a little easier to see the figure. </p>
+                </div>
+                <div type="section">
+                    <head>Physical Description and Dating</head>
+                    <p xml:id="p2" style="text-align: left; text-align: justify;">All eight tablets apparently derive from the same codex, which was likely reused multiple times. The leaves measure ca. 17.5 cm × 10.8 cm. with the margins surrounding the waxed field ranging from 0.75 to 0.9 cm. There are two pairs of holes on one of the long sides of the tablets, and the inscribed pages demonstrate that the codex was oriented vertically. The format and the small size of the codex find a parallel in the mid-fourth-century schoolbook of Aurelius Antonius (<ref target="https://papyri.info/dclp/61386">P. L. Bat. 25 15</ref>; TM <ref target="https://www.trismegistos.org/text/61386">61386</ref>), which measures 12.9 cm × 17.8 cm, also has two pairs of holes on one of the long sides, but is of a horizontal orientation. It contains five tablets, with all but one of the inscribed pages bearing a quotation from <emph rend="italics">Ad Demonicum</emph>. The exceptional page, IVA, is inscribed with a list of trisyllabic words beginning in nu and a multiplication table for 40. </p>
+                    <p xml:id="p3" style="text-align: left; text-align: justify;">Another similar codex is the schoolbook of Ammonius (<ref target="https://papyri.info/dclp/64510">T. Varie 26-32</ref>), which measures 17 × 13 cm. Each of its five leaves features a pair of double holes on a long side, but the 2.5 cm margins are wider than those in the BL and Leiden tablets, and the direction of writing varies with some tablets oriented horizontally (24–27) and others vertically (29–32). The codex contains a poem about the Nile, a division table, and several accounts; it is dated to the early 4th century (T. Varie, p. 102).</p>
+                    <p xml:id="p4" style="text-align: left; text-align: justify;">For BL Add MS 33368 Kenyon proposed a date in 4th–5th century. The similarity of this codex to P. L. Bat. 25 15 and T. Varie 23–32 in both format and content—with literary or grammatical texts combined with some basic arithmetic—suggests the same chronological frame, that is, some time in the 4th century. This impression is reinforced by the similarity of lettering between BL Add MS 33368, the poem on the Nile in T. Varie 24–25, and the multiplication table in P. L. Bat. 25 15 page IVA. Absence of any features characteristic of a Christian environment might point to a date in the earlier part of the 4th century. Both the writing medium (wax tablets) and the nature of inscribed texts, which are likely to have been excerpted from larger arithmetical and grammatical synopses, on which see below, indicate that the codex was likely used for school exercises.</p>
+                </div>
+                <div type="section">
+                    <head>Tables of Addition</head>
+                    <p xml:id="p5" style="text-align: left; text-align: justify;">Pages 3r, 4v, 5v and 8r are inscribed with sections from an addition table, namely those for 20+ (3r), 50+ (4v), 40+, 60+ and 70+ (5v) and again 70+ (8r). The format is always <emph rend="italics">a</emph> × 10 + <emph rend="italics">b</emph> × 10 where 1 ≤ <emph rend="italics">a</emph> ≤ <emph rend="italics">b</emph> ≤ 9, followed by the sum of inverted summands, <emph rend="italics">b</emph> × 10 + <emph rend="italics">a</emph> × 10, except that the first sum is followed by a doubling of the first summand introduced by multiplicand 2 (β). Each pair of additions is separated from the next by a line, while on page 5 verso sections for 40+ and 60+, which are written in the same column, a separated by a decorative band. </p>
+                    <p xml:id="p6" style="text-align: left; text-align: justify;">Although addition tables are the least represented of arithmetical tables in Greek papyrological evidence, different types can be distinguished. Guiseppina <ref target="https://papyri.info/biblio/97645">Azzarello (2021)</ref> discerns two patterns: in one, numbers of the same series of units, tens, or thousands are added with the second summand equaling or bigger than the first, and, in the other, a number from a series is summed with all numbers of the same series. I am inclined to a slightly modified classification with the first kind split into two types. Tables of Type I, ‘complete addition tables’, comprise all unique sums from 1+1 to 9,000+9,000; Type II, ‘school tables’, is based on Type I, differing from it only in supplementing each entry with an addition of reversed summands and demonstrating thereby the commutative property of the operation of addition, which users of Type I must have taken for granted. Tables of Type II seem to have been often excerpted, likely for learning purposes. Type III encompasses lists of additions that are less systematic and more limited in scope, likely produced as exercises<seg style="font-style: italic;">.</seg> Addition tables in BL Add MS 33368 belong to Type II, school tables derived from more comprehensive and concise ones of Type I and probably used for practicing sections of a complete addition table. Parallels are listed below under section Type II.</p>
+                    <div type="section">
+                        <head>Type I: Complete Addition Tables</head>
+                        <p xml:id="p7" style="text-align: left; text-align: justify;">Tables of this type contain 180 unique additions from 1+1 to 9,000+9,000, listing them in the form <emph rend="italics">a</emph> × 10<emph rend="italics">n</emph> + <emph rend="italics">b</emph> × 10<emph rend="italics">n</emph> where 1 ≤ <emph rend="italics">a</emph> ≤ <emph rend="italics">b</emph> ≤ 9, 0 ≤ <emph rend="italics">n</emph> ≤ 3. A complete addition table has four series, each with 45 entries, for units, tens, hundreds, and thousands. Each series of 45 entries is comprised of nine sections for summands from one to nine, 10 to 90, 100 to 900 and 1000 to 9000, respectively. Since in each section the second summand (<emph rend="italics">b</emph>) equals or is bigger than the first (<emph rend="italics">a</emph> ≤ <emph rend="italics">b</emph>), the number of entries in each section decreases from nine to one. The series for units can be visualized as follows:</p>
+                        <table style="font-size: 90%;">
+                            <row>
+                                <cell style="text-align: left;">1+1=2</cell>
+                                <cell style="text-align: left;">2+2=4</cell>
+                                <cell style="text-align: left;">3+3=6</cell>
+                                <cell style="text-align: left;">4+4=8</cell>
+                                <cell style="text-align: left;">5+5=10</cell>
+                                <cell style="text-align: left;">6+6=12</cell>
+                                <cell style="text-align: left;">7+7=14 </cell>
+                                <cell style="text-align: left;">8+8=16</cell>
+                                <cell style="text-align: left;">9+9=18</cell>
+                            </row>
+                            <row>
+                                <cell style="text-align: left;">1+2=3</cell>
+                                <cell style="text-align: left;">2+3=5</cell>
+                                <cell style="text-align: left;">3+4=7</cell>
+                                <cell style="text-align: left;">4+5=9</cell>
+                                <cell style="text-align: left;">5+6=11</cell>
+                                <cell style="text-align: left;">6+7=13</cell>
+                                <cell style="text-align: left;">7+8=15</cell>
+                                <cell style="text-align: left;">8+9=17</cell>
+                                <cell style="text-align: left;"/>
+                            </row>
+                            <row>
+                                <cell style="text-align: left;">1+3=4</cell>
+                                <cell style="text-align: left;">2+4=6</cell>
+                                <cell style="text-align: left;">. . .</cell>
+                                <cell style="text-align: left;">. . .</cell>
+                                <cell style="text-align: left;">. . .</cell>
+                                <cell style="text-align: left;">. . .</cell>
+                                <cell style="text-align: left;">7+9=16</cell>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                            </row>
+                            <row>
+                                <cell style="text-align: left;">1+4=5</cell>
+                                <cell style="text-align: left;">2+5=7</cell>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;">6+9=16</cell>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                            </row>
+                            <row>
+                                <cell style="text-align: left;">1+5=6</cell>
+                                <cell style="text-align: left;">2+6=8</cell>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;">5+9=14</cell>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                            </row>
+                            <row>
+                                <cell style="text-align: left;">1+6=7</cell>
+                                <cell style="text-align: left;">2+7=9</cell>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;">4+9=13</cell>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                            </row>
+                            <row>
+                                <cell style="text-align: left;">1+7=8</cell>
+                                <cell style="text-align: left;">2+8=10</cell>
+                                <cell style="text-align: left;">3+9=12</cell>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                            </row>
+                            <row>
+                                <cell style="text-align: left;">1+8=9</cell>
+                                <cell style="text-align: left;">2+9=11</cell>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                            </row>
+                            <row>
+                                <cell style="text-align: left;">1+9=10</cell>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                                <cell style="text-align: left;"/>
+                            </row>
+                        </table>
+                        <p xml:id="p8" style="text-align: left; text-align: justify;">The series for tens starts with 10+10=20 and ends with 90+90=180, and so on. A complete addition table of this format, in Armenian but certainly derived from Greek sources, is transmitted in Anania Shirakatsi’s <emph rend="italics">Book of Arithmetic</emph> which begins with a section on tables for four arithmetic operations—addition, subtraction, multiplication and division.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> Cf. <ref target="https://papyri.info/biblio/97642">Baghdasarian 2015</ref>: 62–65; <ref target="https://papyri.info/biblio/97647">Aslanyan 2024</ref>: 3; <ref target="https://papyri.info/biblio/97641">Hewsen 1968</ref>: 42.</p></note> The tables, which are followed by problems and mathematical riddles, seem to serve as the summary of and thus the basis for acquiring the techniques of arithmetic.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> In the introduction Anania writes, in Baghdasarian’s translation (<ref target="https://papyri.info/biblio/97642">2015</ref>: 62): “I’m going to explain to you the techniques of arithmetic which emerged as the voice of ancestors. Learn my tables. Although I summarized extensive texts to be not boring to you, but to some extent I have also made them easy and simple in order that you can learn them completely. Now I start from the most simple and low level and I have taken to account the scientific level of children and those who are not familiar to the subject. Primary instruction of arithmetic which is called addition.”</p></note>
+                        </p>
+                        <p xml:id="p9" style="text-align: left; text-align: justify;">In the papyrological evidence, <ref target="https://papyri.info/dclp/63312">P.Rain.Unterricht 150</ref> and <ref target="https://papyri.info/dclp/63192">151</ref> are the best-preserved examples. <ref target="https://papyri.info/dclp/63192">P.Rain.Unterricht 151</ref> (1st c., Soknopiou Nesos; TM <ref target="https://www.trismegistos.org/text/63192">63192</ref>), which is inscribed on the verso of a long roll containing problems in solid geometry, MPER n.s. 1 1, contains an almost completely preserved table of Type I: it begins with 1+1 and ends with 9,000+9,000 followed by an extra entry for 10,000+10,000 (I call it ‘extra’ because no table for tens of thousands follows), but it is missing sections for 30+ and 40+, probably inadvertently left out by the copyist. <ref target="https://papyri.info/dclp/63312">P.Rain.Unterricht 150</ref> (3rd c.; TM <ref target="https://www.trismegistos.org/text/63312">63312</ref>) has the whole series for units and the sections for 10+ and 20+ from the series for tens. In this papyrus, each section is separated by a paragraphos.</p>
+                    </div>
+                    <div type="section">
+                        <head>Type II: School Addition Tables</head>
+                        <p xml:id="p10" style="text-align: left; text-align: justify;">In the tables of this format, the first entry of each section is followed by the doubling of the summand expressed either by adverb δίς (‘twice’) or numeral β (for ‘2 ×’). Thus, <emph rend="italics">a</emph> + <emph rend="italics">a</emph> is followed by 2 × <emph rend="italics">a</emph>, while all subsequent entries include the additions of the inversed summands, i.e. <emph rend="italics">a</emph> + <emph rend="italics">b</emph> then <emph rend="italics">b</emph> + <emph rend="italics">a</emph>. A complete table of this format would need to have 360 entries grouped into four series with 90 entries each, and it would be unnecessarily redundant for a person aware of the commutative quality of addition.</p>
+                        <p xml:id="p11" style="text-align: left; text-align: justify;">Papyrological attestations of addition tables of this type include <ref target="https://papyri.info/dclp/244048">P.Mich, inv. 4435a</ref> (late 2nd–early 4th c.; TM <ref target="https://www.trismegistos.org/text/244048">244048</ref>),<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> In the ed.pr. (<ref target="https://papyri.info/biblio/86457">Litinas and Bay 2012</ref>), it is misleadingly called “an addition and multiplication table.”</p></note> which preserves entries from the end of 5+ to the beginning of 50+ and introduces doubling of the first summand with δίς; <ref target="https://papyri.info/dclp/68824">P. Köln Gr. 9 371</ref> (2nd c.; TM <ref target="https://www.trismegistos.org/text/68824">68824</ref>), with partially preserved entries for 1+, 2+, 3+, 4+, 5+ and 7+, also with δίς for doubling; and T. Varie 37 and 38 (3rd–5th c.; TM <ref target="https://www.trismegistos.org/text/64365">64365</ref>), which belong to the same schoolbook, but seem to be written in different hands. T. Varie 37 has additions for 5+ with the doubling introduced by δίς, while T. Varie 38 is inscribed with the section for 200+, and the numeral β is used for the doubling. The tables in the wooden codex published here, BL Add MS 33368, also belong to this format. </p>
+                        <p xml:id="p12" style="text-align: left; text-align: justify;">The inclusion of additions of the inverted summands suggests that this format of tables was used for educational purposes at a fairly basic level. This impression is reinforced by the fact that in two instances, T.Varie 37–38 and BL Add MS 33368, the tables are written on wax tablets, a common medium for writing elementary school exercises. Furthermore, in both cases the entries are clearly a product of excerpting of or of practicing sections for only one or a few summands. Whether the table in <ref target="https://papyri.info/dclp/68824">P. Köln Gr. 9 371</ref>, which preserves the series for units, extended further or how extensive <ref target="https://papyri.info/dclp/244048">P.Mich, inv. 4435a</ref> originally was, is impossible to determine, but the writing in both papyri does not look proficient and both may well be inscribed by students.</p>
+                    </div>
+                    <div type="section">
+                        <head>Type III: Addition Exercises</head>
+                        <p xml:id="p13" style="text-align: left; text-align: justify;">Addition tables of Type III comprise several lists of additions in which a given number—in all surviving instances smaller than 10—is summed up with numbers from one to nine. The sums are often accompanied by an inversion. Examples include P.Berol. inv. 14000 (4th–5th c.; SB 3 6215 = TM <ref target="https://www.trismegistos.org/text/64557">64557</ref>), a wax tablet with additions from 8+1 to 8+9, with 8+8 accompanied by 2 × 8 and 8+9 by an inversion 9+8; SB 18 13578 (4th–5th c.; TM <ref target="https://www.trismegistos.org/text/32999">32999</ref>), a wax tablet with additions from 8+1 to 8+9 and from 9+1 to 9+9, with all entries featuring an inversion and thusly formed pairs separated by lines; <ref target="https://papyri.info/dclp/66384">MPER n.s. 18 306a</ref> (5th–6th c.; TM <ref target="https://www.trismegistos.org/text/66384">66384</ref>), a small piece of papyrus with parts of sections for 6+ and 7+, also with inversions and separation of pairs; and <ref target="https://papyri.info/dclp/63419">O.Claud. 2 416</ref> (2nd c.; TM <ref target="https://www.trismegistos.org/text/63419">63419</ref>), an ostracon preserving sums from 1+1 to 1+9 and traces of the first two entries for 2+, with each addition marked off by a paragraphos. These lists of additions are not systematic and are likelier to have been exercises than tables properly speaking. </p>
+                    </div>
+                </div>
+                <div type="section">
+                    <head>Names of Grammatical Cases and Numbers</head>
+                    <p xml:id="p14" style="text-align: left; text-align: justify;">The list of cases and numbers inscribed on page 6v finds a closest parallel in <ref target="https://papyri.info/dclp/64496">P.Ant. 2 68</ref> (4th c.; TM <ref target="https://www.trismegistos.org/text/64496">64496</ref>). Recto col. 1 of this papyrus enumerates three genders (ll. 33–36), three numbers (ll. 37–40) and five cases (ll. 41–46). But while <ref target="https://papyri.info/dclp/64496">P.Ant. 2 68</ref> follows the usual sequence by placing the numbers before the cases, cf. Dion. Thrax, <emph rend="italics">Ars gram</emph>. 1.1.24, 62 and 64 (Uhlig) under the properties of noun, article, and pronoun, respectively, the text published here lists first the cases and then the numbers. This is a somewhat odd arrangement because the cases are already grouped by numbers in the first part of the text, and it suggests that the tablet is a product of exercise, not of systematic copying.</p>
+                    <p xml:id="p15" style="text-align: left; text-align: justify;"> More common in papyrological evidence are exercises in which an actual word or a clause are declined. A codex of wax tablets published in <ref target="https://papyri.info/biblio/95476">Ziebart 1913</ref>, no. <ref target="https://papyri.info/dclp/63794">49</ref> (2nd–3rd c.; TM <ref target="https://www.trismegistos.org/text/63794">63794</ref>), contains declensions of three clauses: ὁ χρηστὸς πατήρ, ἡ ἀγαθὴ παραίνεσις, and τὸ φιλάνθρωπον ἦθος; <ref target="https://papyri.info/dclp/64865">PSI inv. 2052</ref> (4th c., Antinoopolis; TM <ref target="https://www.trismegistos.org/text/64865">64865</ref>) has declensions of ὁ παῖς and ὁ καλός; <ref target="https://papyri.info/dclp/64828">PSI inv. 479</ref> (4th c., Antinoopolis; TM <ref target="https://www.trismegistos.org/text/64828">64828</ref>) contains the adjective σοφός declined in three genders and three numbers, and the proper nouns ὁ Πρίαμος and ἡ Ἑκάβη in three numbers.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; "> PSI inv. 2052 and 479 are edited in <ref target="https://papyri.info/biblio/37265">Zalateo et al. 1940</ref> as nos. 1 and 3 correspondingly, where both papyri are dated to 5th–6th c. For the earlier date followed here, cf. <ref target="https://papyri.info/biblio/97644">Del Corso 2016</ref>: 182–184.</p></note>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Text</head>
+                    <div type="section">
+                        <head>Page 1 verso.</head>
+                        <figure>
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24222508"/>
+                            <head>Fig. 1: Page 1v. The cover side of the codex. ©British Library Board Add MS 33368.</head>
+                        </figure>
+                        <p xml:id="p16" style="text-align: left; ">The cover side of the codex with no field for wax.</p>
+                    </div>
+                    <div type="section">
+                        <head>Page 1 recto.</head>
+                        <figure>
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24222510"/>
+                            <head>Fig. 2: Page 1r. ©British Library Board Add MS 33368.</head>
+                        </figure>
+                        <p xml:id="p17" style="text-align: left; ">No discernible writing.</p>
+                    </div>
+                    <div type="section">
+                        <head>Page 2 recto.</head>
+                        <figure>
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24222512"/>
+                            <head>Fig. 3: Page 2r. ©British Library Board Add MS 33368.</head>
+                        </figure>
+                        <p xml:id="p18" style="text-align: left; ">Some disparate lines, both straight and curved. Some impressions of letters might be accidental. </p>
+                    </div>
+                    <div type="section">
+                        <head>Page 2 verso.</head>
+                        <figure>
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24222514"/>
+                            <head>Fig. 4: Page 2v. A drawing of a human figure. ©British Library Board Add MS 33368.</head>
+                        </figure>
+                        <figure>
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24222516"/>
+                            <head>Fig. 5: Tracing of the drawing on Page 2v. © Roderick Geerts.</head>
+                        </figure>
+                        <p xml:id="p19" style="text-align: left; ">With tablet positioned so the holes are on the right-hand side, one can recognize in the upper half of the tablet a drawing of a head on an exaggeratedly thick neck and possibly arms raised up at elbows at a right angle. This must be what Kenyon referred to as “drawing in which a lively imagination may discern a portrait of the schoolmaster.” Whether there is another meaningful drawing to the left of it at about the middle of the tablet—of another head on a neck?—is difficult to say. The scratches in the lower right corner of the page do not seem purposeful. </p>
+                    </div>
+                    <div type="section">
+                        <head>Page 3 recto.</head>
+                        <figure>
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24222590"/>
+                            <head>Fig. 6: Page 3r. Addition table for 20+. ©British Library Board Add MS 33368.</head>
+                        </figure>
+                        <p xml:id="p20" style="text-align: left; ">Addition table for 20+</p>
+                    </div>
+                    <div type="epidoc" subtype="DCLP">
+                        <div copyOf="#ed1" type="edition"/>
+                    </div>
+                    <div type="section">
+                        <head>Page 3 verso.</head>
+                        <figure>
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24232314"/>
+                            <head>Figure 7. Page 3v. ©British Library Board Add MS 33368.</head>
+                        </figure>
+                        <p xml:id="p21" style="text-align: left; ">With the holes on the right-hand side, there might be some writing under the upper edge of the tablet, but no letter is determinable beyond doubt. About a third of the surface is covered by a piece of textile mesh apparently stuck to the wax.</p>
+                    </div>
+                    <div type="section">
+                        <head>Page 4 verso.</head>
+                        <figure>
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24232316"/>
+                            <head>Figure 8. Page 4v. Addition table for 50+. ©British Library Board Add MS 33368.</head>
+                        </figure>
+                        <p xml:id="p22" style="text-align: left; ">Addition table for 50+</p>
+                    </div>
+                    <div type="epidoc" subtype="DCLP">
+                        <div copyOf="#ed2" type="edition"/>
+                    </div>
+                    <div type="section">
+                        <head>Page 4 recto.</head>
+                        <figure>
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24232319"/>
+                            <head>Figure 9. Page 4r. ©British Library Board Add MS 33368.</head>
+                        </figure>
+                        <p xml:id="p23" style="text-align: left; ">There are numerous similarly looking small strokes in the wax surface, which do not appear to form letters.</p>
+                    </div>
+                    <div type="section">
+                        <head>Page 5 verso.</head>
+                        <figure>
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24232321"/>
+                            <head>Figure 10. Page 5v. Addition tables for 40+, 60+ and 70+. ©British Library Board Add MS 33368.</head>
+                        </figure>
+                        <p xml:id="p24" style="text-align: left; ">Addition tables for 40+, 60+ and 70+</p>
+                    </div>
+                    <div type="epidoc" subtype="DCLP">
+                        <div copyOf="#ed3" type="edition"/>
+                    </div>
+                    <div type="section">
+                        <head>Page 5 recto.</head>
+                        <figure>
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24232323"/>
+                            <head>Figure 11. Page 5r. ©British Library Board Add MS 33368.</head>
+                        </figure>
+                        <p xml:id="p25" style="text-align: left; ">With the holes on the right, a few letters in the top left corner are discernible. In the middle of the tablet, there are two crudely drawn decorative bands.</p>
+                    </div>
+                    <div type="epidoc" subtype="DCLP">
+                        <div copyOf="#ed6" type="edition"/>
+                    </div>
+                    <div type="section">
+                        <head>Page 6 recto.</head>
+                        <figure>
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24232326"/>
+                            <head>Figure 12. Page 6r. ©British Library Board Add MS 33368.</head>
+                        </figure>
+                        <p xml:id="p26" style="text-align: left; "> Many strokes are visible in the wax, some of them may have once formed letters, now unidentifiable. In the upper third (with the holes on the left), there are two circular joining (?) shapes. </p>
+                    </div>
+                    <div type="section">
+                        <head>Page 6 verso.</head>
+                        <figure>
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24232402"/>
+                            <head>Figure 13. Page 6v. List of grammatical cases and numbers. ©British Library Board Add MS 33368.</head>
+                        </figure>
+                        <p xml:id="p27" style="text-align: left; ">List of grammatical cases and numbers</p>
+                    </div>
+                    <div type="epidoc" subtype="DCLP">
+                        <div copyOf="#ed4" type="edition"/>
+                    </div>
+                    <div type="section">
+                        <head>Page 7 recto.</head>
+                        <figure>
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24232404"/>
+                            <head>Figure 14. Page 7r. ©British Library Board Add MS 33368.</head>
+                        </figure>
+                        <p xml:id="p28" style="text-align: left; ">A few disparate letters and some slanting strokes that may or may not have once belonged to letters are visible.</p>
+                    </div>
+                    <div type="section">
+                        <head>Page 7 verso.</head>
+                        <figure>
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24232406"/>
+                            <head>Figure 15. Page 7v. ©British Library Board Add MS 33368.</head>
+                        </figure>
+                        <p xml:id="p29" style="text-align: left; ">No writing is discernible</p>
+                    </div>
+                    <div type="section">
+                        <head>Page 8 recto.</head>
+                        <figure>
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24232408"/>
+                            <head>Figure 16. Page 8r. Addition table for 70+. ©British Library Board Add MS 33368.</head>
+                        </figure>
+                        <p xml:id="p30" style="text-align: left; ">Addition table for 70+</p>
+                    </div>
+                    <div type="epidoc" subtype="DCLP">
+                        <div copyOf="#ed5" type="edition"/>
+                    </div>
+                    <div type="section">
+                        <head>Page 8 verso.</head>
+                        <figure>
+                            <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24232410"/>
+                            <head>Figure 17. Page 8v. The cover side of the codex. ©British Library Board Add MS 33368.</head>
+                        </figure>
+                        <p xml:id="p31" style="text-align: left; ">Unwaxed cover side.</p>
+                    </div>
+                </div>
+                <div type="bibliography">
+                    <listBibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97647">Aslanyan, V. (2024)</ref> “The mathematical work of Anania Shirakatsi,” arXiv</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97645">Azzarello, G. (2021)</ref> “Arithmetical Tables,” Oxford Classical Dictionary<seg style="font-style: italic;">.</seg> 26 Apr. 2021.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97642">Baghdasarian, E (2015)</ref> History of Mathematics in Armenia, Toronto.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/14384">Cribiore, R. (1996)</ref> Writing, Teachers, and Students in Graeco-Roman Egypt, Atlanta, Georgia</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97644">Del Corso, L. (2016)</ref> “Osservazioni sulla datazione di alcuni frammenti di codici da Antinoupolis,” in: M. Capasso - M. De Nonno (edd.), Studi paleografici e papirologici in ricordo di Paolo Radiciotti, Galatina, pp. 167–192. </bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/97641">Hewsen, R. (1968)</ref> “Science in Seventh-Century Armenia: Ananias of Sirak,” Isis 59 (1968), pp. 32–45.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/95358">Kenyon, F. (1909)</ref> “Two Greek school tablets,” JHS 29: 29–40.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/86457">Litinas, N. and Bay, S. (2012)</ref> “An Addition and Multiplication Table,” BASP 49: 15–19. </bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/46094">Painter, K. (1967)</ref> “A Roman Writing Tablet from London,” BMQ 31: 101–110.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/96839">Plaumann, G. (1913)</ref> “Antike Schultafeln aus Ägypten,” Amtliche Berichte aus den königlichen Kunstsammlungen 34/11: 210 –223.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/37265">Zalateo at al. (1940)</ref> “Papiri Fiorentini inediti,” Aegyptus 20: 3–20.</bibl>
+                        <bibl>
+                            <ref target="https://papyri.info/biblio/95476">Ziebarth, E. (1913)</ref> Aus der antiken Schule. Sammlung griechischer Texte auf Papyrus, Holztafeln, Ostraka, Bonn.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+    <TEI xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>TM 64582</title>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Digital Corpus of Literary Papyri</authority>
+                    <idno type="dclp">64582</idno>
+                    <idno type="TM">64582</idno>
+                    <idno type="LDAB">5812</idno>
+                    <idno type="filename">64582</idno>
+                    <idno type="dclp-hybrid">tm;;64582</idno>
+                    <idno type="MP3">02714.000</idno>
+                    <availability>
+                        <p>© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <idno type="invNo">London, British Library Add MS 33368</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc form="codex">
+                                <supportDesc>
+                                    <support>
+                                        <material>wood</material>
+                                        <dimensions>
+                                            <width unit="cm">10.8</width>
+                                            <height unit="cm">17.5</height>
+                                            <depth unit="cm">0.7 - 0.8</depth>
+                                        </dimensions>
+                                    </support>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        <p>wood codex (8 tablets) (columns: 0, pagination: 0)</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace>Found: Upper Egypt (Egypt); written: Upper Egypt (Egypt)</origPlace>
+                                <origDate notBefore="0301" notAfter="0400" cert="low" precision="low">IV (?)</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <p>
+                                    <placeName type="ancient" subtype="region" ref="https://www.trismegistos.org/place/2766">Upper Egypt</placeName>
+                                    <placeName type="ancient" subtype="region">Egypt</placeName>
+                                </p>
+                            </provenance>
+                            <provenance type="composed">
+                                <p>
+                                    <placeName type="ancient" subtype="region" ref="https://www.trismegistos.org/place/2766">Upper Egypt</placeName>
+                                    <placeName type="ancient" subtype="region">Egypt</placeName>
+                                </p>
+                            </provenance>
+                        </history>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <p> This file encoded to comply with EpiDoc Guidelines and Schema version 8 <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+                </p>
+            </encodingDesc>
+            <profileDesc>
+                <textClass>
+                    <keywords>
+                        <term>philology</term>
+                        <term>grammar</term>
+                        <term>drawing</term>
+                        <term type="culture">science</term>
+                        <term type="overview">names of the cases, and portrait of the teacher (?)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+            <revisionDesc>
+                <change when="2014-12-10" who="DCLP">Crosswalked to EpiDoc XML</change>
+            </revisionDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <head xml:lang="en"/>
+
+
+                <!-- This is the text must be excluded from the transfer to DDbDP once Pylon 9 is published -->
+                <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+                    <div n="1" subtype="column" type="textpart">
+                    <ab>
+                        <table>
+<row n="1" xml:id="ed1col1ln1">	
+	<cell style="text-align: left">Κ Κ Μ</cell>
+	<cell style="text-align: left"/>
+    <cell style="text-align: left">20 + 20 = 40</cell>
+</row>
+<row n="2" xml:id="ed1col1ln2">
+	
+	<cell style="text-align: left">Β Κ Μ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">2 × 20 = 40</cell>
+</row>                           
+<row n="2">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>                          
+<row n="3" xml:id="ed1col1ln3">
+	<cell style="text-align: left">Κ Λ Ν</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">20 + 30 = 50</cell>
+</row>
+<row n="4" xml:id="ed1col1ln4">
+	<cell style="text-align: left">Λ Κ Ν</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">30 + 20 = 50</cell>
+</row>
+<row n="4">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+<row n="5" xml:id="ed1col1ln5">
+	<cell style="text-align: left">Κ Μ Ξ̣</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">20 + 40 = 60</cell>
+</row>
+<row n="6" xml:id="ed1col1ln6">
+	<cell style="text-align: left">Μ Κ [Ξ]</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">40 + 20 = 60</cell>
+</row>
+<row n="6">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+<row n="7" xml:id="ed1col1ln7">
+	<cell style="text-align: left">Κ Ν Ο</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">20 + 50 = 70</cell>
+</row>
+<row n="8" xml:id="ed1col1ln8">
+	<cell style="text-align: left">Ν Κ Ο</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">50 + 20 = 70</cell>
+</row>
+
+                        </table>
+                    </ab>
+                    </div>
+                    <div n="2" subtype="column" type="textpart">
+                        <ab>
+                            <table>
+                                <row n="1" xml:id="ed1col2ln1">
+	<cell style="text-align: left">Κ Ξ Π</cell>
+	<cell style="text-align: left"/>	
+	<cell style="text-align: left">20 + 60 = 80</cell>
+</row>
+<row n="2" xml:id="ed1col2ln2">
+	<cell style="text-align: left">Ξ Κ Π</cell>
+	<cell style="text-align: left"/>	
+	<cell style="text-align: left">60 + 20 = 80</cell>
+</row>
+<row n="2">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+<row n="3" xml:id="ed1col2ln3">
+	<cell style="text-align: left">Κ Ο Ϟ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">20 + 70 = 90</cell>
+</row>
+<row n="4" xml:id="ed1col2ln4">
+	<cell style="text-align: left">Ο Κ Ϟ</cell>
+	<cell style="text-align: left"/>	
+	<cell style="text-align: left">70 + 20 = 90</cell>
+</row>
+<row n="4">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+<row n="5" xml:id="ed1col2ln5">
+	<cell style="text-align: left">Κ Π Ρ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">20 + 80 = 100</cell>
+</row>
+<row n="6" xml:id="ed1col2ln6">
+	<cell style="text-align: left">Π Κ Ρ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">80 + 20 = 100</cell>
+</row>
+<row n="6">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+<row n="7" xml:id="ed1col2ln7">
+	<cell style="text-align: left">Κ Ϟ ΡΙ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">20 + 90 = 110</cell>
+</row>
+<row n="8" xml:id="ed1col2ln8">
+	<cell style="text-align: left">Ϟ Κ ΡΙ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">90 + 20 = 110</cell>
+</row>
+                            </table>
+                        </ab>
+                    </div>
+                </div>
+                <!-- ends -->
+
+                <!-- This is the text must be excluded from the transfer to DDbDP once Pylon 9 is published -->
+                <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+                    <ab>
+                        <table>    
+<row n="1" xml:id="ed2ln1">
+	<cell style="text-align: left">Ν Ν Ρ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">50 + 50 = 100</cell>
+</row>
+<row n="2" xml:id="ed2ln2">
+	<cell style="text-align: left">Β Ν Ρ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">2 × 50 = 100</cell>
+</row>
+<row n="2">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+<row n="3" xml:id="ed2ln3">
+	<cell style="text-align: left">Ν Ξ ΡΙ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">50 + 60 = 110</cell>
+</row>
+<row n="4" xml:id="ed2ln4">
+	<cell style="text-align: left">Ξ Ν ΡΙ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">60 + 50 = 110</cell>
+</row>
+<row n="4">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+<row n="5" xml:id="ed2ln5">
+	<cell style="text-align: left">Ν Ο ΡΚ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">50 + 70 = 120</cell>
+</row>
+<row n="6" xml:id="ed2ln6">
+	<cell style="text-align: left">Ο Ν ΡΚ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">70 + 50 = 120</cell>
+</row>
+<row n="6">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+<row n="7" xml:id="ed2ln7">
+	<cell style="text-align: left">Ν Π ΡΛ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">50 + 80 = 130</cell>
+</row>
+<row n="8" xml:id="ed2ln8">
+	<cell style="text-align: left">Π Ν ΡΛ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">80 + 50 = 130</cell>
+</row>
+<row n="8">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+<row n="9" xml:id="ed2ln9">
+	<cell style="text-align: left">Ν Ϟ ΡΜ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">50 + 90 = 140</cell>
+</row>
+<row n="10" xml:id="ed2ln10">
+	<cell style="text-align: left">Ϟ Ν ΡΜ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">90 + 50 = 140</cell>
+</row>
+                        </table>
+                    </ab>
+                </div>
+                <!-- ends -->
+
+                <!-- This is the text must be excluded from the transfer to DDbDP once Pylon 9 is published -->
+                <div xml:id="ed3" xml:lang="grc" type="edition" xml:space="preserve">
+                    <div n="1" subtype="column" type="textpart">
+                    <ab>
+                        <table>
+<row n="1" xml:id="ed3col1ln1">
+	<cell style="text-align: left">Μ Μ Π</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">40 + 40 = 80</cell>
+</row>
+<row n="2" xml:id="ed3col1ln2">
+	<cell style="text-align: left">Β Μ Π</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">2 × 40 = 80</cell>
+</row>
+<row n="2">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+<row n="3" xml:id="ed3col1ln3">
+	<cell style="text-align: left">Μ Ν Ϟ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">40 + 50 = 90</cell>
+</row>
+<row n="4" xml:id="ed3col1ln4">
+	<cell style="text-align: left">Ν Μ Ϟ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">50 + 40 = 90</cell>
+</row>
+<row n="4">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+<row n="5" xml:id="ed3col1ln5">
+	<cell style="text-align: left">Μ Ξ Ρ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">40 + 60 = 100</cell>
+</row>
+<row n="6" xml:id="ed3col1ln6">
+	<cell style="text-align: left">Ξ Μ Ρ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">60 + 40 = 100</cell>
+</row>
+<row n="6">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+<row n="7" xml:id="ed3col1ln7">
+	<cell style="text-align: left">Μ Ο ΡΙ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">40 + 70 = 110</cell>
+</row>
+<row n="8" xml:id="ed3col1ln8">
+	<cell style="text-align: left">Ο Μ ΡΙ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">70 + 40 = 110</cell>
+</row>
+<row n="8">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+<row n="9" xml:id="ed3col1ln9">
+	<cell style="text-align: left">Μ Π ΡΚ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">40 + 80 = 120</cell>
+</row>
+<row n="10" xml:id="ed3col1ln10">
+	<cell style="text-align: left">Π Μ ΡΚ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">80 + 40 = 120</cell>
+</row>
+<row n="11">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+<row n="11" xml:id="ed3col1ln11">
+	<cell style="text-align: left">Μ Ϟ ΡΛ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">40 + 90 = 130</cell>
+</row>
+<row n="12" xml:id="ed3col1ln12">
+	<cell style="text-align: left">Ϟ Μ ΡΛ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">90 + 40 = 130</cell>
+</row>
+                        </table>
+                    </ab>
+                    </div>
+                    <div n="2" subtype="column" type="textpart">
+                        <ab>
+                            <table>
+<row n="1" xml:id="ed3col2ln1">
+	<cell style="text-align: left">Ξ Ξ ΡΚ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">60 + 60 =120 </cell>
+</row>
+<row n="2" xml:id="ed3col2ln2">
+	<cell style="text-align: left">Β Ξ ΡΚ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">2 × 60 = 120</cell>
+</row>
+<row n="2">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+<row n="3" xml:id="ed3col2ln3">
+	<cell style="text-align: left">Ξ Ο ΡΛ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">60 + 70 = 130</cell>
+</row>
+<row n="4" xml:id="ed3col2ln4">
+	<cell style="text-align: left">Ο Ξ ΡΛ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">70 + 60 = 130</cell>
+</row>
+<row n="4">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+<row n="5" xml:id="ed3col2ln5">
+	<cell style="text-align: left">Ξ Π ΡΜ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">60 + 80 = 140</cell>
+</row>
+<row n="6" xml:id="ed3col2ln6">
+	<cell style="text-align: left">Π Ξ ΡΜ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">80 + 60 = 140</cell>
+</row>
+<row n="6">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+<row n="7" xml:id="ed3col2ln7">
+	<cell style="text-align: left">Ξ Ϟ ΡΝ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">60 + 90 = 150</cell>
+</row>
+<row n="8" xml:id="ed3col2ln8">
+	<cell style="text-align: left">Ϟ Ξ ΡΝ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">90 + 60 = 150</cell>
+</row>
+<row n="8">
+	<cell style="text-align: right">decorative</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">band</cell>
+</row>
+<row n="9" xml:id="ed3col2ln9">
+	<cell style="text-align: left">Ο Ο ΡΜ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">70 + 70 = 140</cell>
+</row>
+<row n="10" xml:id="ed3col2ln10">
+	<cell style="text-align: left">Β Ο ΡΜ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">2 × 70 = 140</cell>
+</row>
+<row n="11">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+<row n="11" xml:id="ed3col2ln11">
+	<cell style="text-align: left">Ο Π ΡΝ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">70 + 80 = 150</cell>
+</row>
+<row n="12" xml:id="ed3col2ln12">
+	<cell style="text-align: left">Π Ο ΡΝ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">80 + 70 = 150</cell>
+</row>
+<row n="12">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+<row n="13" xml:id="ed3col2ln13">
+	<cell style="text-align: left">Ο Ϟ ΡΞ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">70 + 90 = 160</cell>
+</row>
+<row n="14" xml:id="ed3col2ln14">
+	<cell style="text-align: left">Ϟ Ο ΡΞ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">90 + 70 = 160</cell>
+</row>
+                            </table>
+                        </ab>
+                    </div>
+                </div>
+                <!-- ends -->
+                <!-- This is the text must be excluded from the transfer to DDbDP once Pylon 9 is published -->
+                <div xml:id="ed4" xml:lang="grc" type="edition" xml:space="preserve">
+	<ab>
+	    <table> 
+<row n="1" xml:id="ed4ln1">
+	<cell style="text-align: left">πτώσεις πέντε</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">Five cases:</cell>
+</row>
+<row n="2" xml:id="ed4ln2">
+	<cell style="text-align: left">ὀρθή</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">nominative</cell>
+</row>
+<row n="3" xml:id="ed4ln3">
+	<cell style="text-align: left">γενική</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">genitive</cell>
+</row>
+<row n="4" xml:id="ed4ln4">
+	<cell style="text-align: left">δοτική</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">dative</cell>
+</row>
+<row n="5" xml:id="ed4ln5">
+	<cell style="text-align: left">αἰτιατική</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">accusative</cell>
+</row>
+<row n="6" xml:id="ed4ln6">
+	<cell style="text-align: left">κλητική</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">vocative.</cell>
+</row>
+<row n="7" xml:id="ed4ln7">
+	<cell style="text-align: left">δυϊκά<note> δυϊ tav.</note></cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">Dual:</cell>
+</row>
+<row n="8" xml:id="ed4ln8">
+	<cell style="text-align: left">ὀρθὴ καὶ αἰτιατική</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">nominative and accusative</cell>
+</row>
+<row n="9" xml:id="ed4ln9">
+	<cell style="text-align: left">γενικὴ καὶ δοτική</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">genitive and dative</cell>
+</row>
+<row n="10" xml:id="ed4ln10">
+	<cell style="text-align: left">κλητική</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">vocative.</cell>
+</row>
+<row n="11" xml:id="ed4ln11">
+	<cell style="text-align: left">πληθυντικά</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">Plural:</cell>
+</row>
+<row n="12" xml:id="ed4ln12">
+	<cell style="text-align: left">ὀρθή</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">nominative</cell>
+</row>
+<row n="13" xml:id="ed4ln13">
+	<cell style="text-align: left">γενική</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">genitive</cell>
+</row>
+<row n="14" xml:id="ed4ln14">
+	<cell style="text-align: left">δοτική</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">dative</cell>
+</row>
+<row n="15" xml:id="ed4ln15">
+	<cell style="text-align: left">αἰτιατική</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">accusative</cell>
+</row>
+<row n="16" xml:id="ed4ln16">
+	<cell style="text-align: left">κλητική</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">vocative.</cell>
+</row>
+<row n="16">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻</cell>
+</row>
+<row n="17" xml:id="ed4ln17">
+	<cell style="text-align: left">ἀριθμοὶ <choice><reg>τρεῖς</reg><orig>τρῖς</orig></choice></cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">Three numbers:</cell>
+</row>
+<row n="18" xml:id="ed4ln18">
+	<cell style="text-align: left">ἑνικός</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">singular</cell>
+</row>
+<row n="19" xml:id="ed4ln19">
+	<cell style="text-align: left">δυϊκός<note> δυϊ tav.</note></cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">dual</cell>
+</row>
+<row n="20" xml:id="ed4ln20">
+	<cell style="text-align: left">πληθυντικός</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">plural.</cell>
+</row>
+<row n="21">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻</cell>
+</row>
+		</table>
+	</ab>
+		</div>
+                <!-- ends -->
+
+                <!-- This is the text must be excluded from the transfer to DDbDP once Pylon 9 is published -->
+                <div xml:id="ed5" xml:lang="grc" type="edition" xml:space="preserve">
+	<ab>
+	    <table> 
+<row n="1" xml:id="ed5ln1">
+	<cell style="text-align: left">Ο Ο ΡΜ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">70 + 70 = 140</cell>
+</row>
+<row n="2" xml:id="ed5ln2">
+	<cell style="text-align: left">Β Ο ΡΜ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">2 × 70 = 140</cell>
+</row>
+<row n="2">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+<row n="3" xml:id="ed5ln3">
+	<cell style="text-align: left">Ο Π ΡΝ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">70 + 80 = 150</cell>
+</row>
+<row n="4" xml:id="ed5ln4">
+	<cell style="text-align: left">Π Ο ΡΝ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">80 + 70 = 150</cell>
+</row>
+<row n="4">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+<row n="5" xml:id="ed5ln5">
+	<cell style="text-align: left">Ο Ϟ ΡΞ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">70 + 90 = 160</cell>
+</row>
+<row n="6" xml:id="ed5ln6">
+	<cell style="text-align: left">Ϟ Ο ΡΞ</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">90 + 70 = 160</cell>
+</row>
+<row n="6">
+    <cell style="text-align: right">⸻</cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">⸻⸻</cell>
+</row>
+		</table>
+	</ab>
+		</div>
+                <!-- ends -->
+                <!-- This is the text must be excluded from the transfer to DDbDP once Pylon 9 is published -->
+                <div xml:id="ed6" xml:lang="grc" type="edition" xml:space="preserve">
+	<ab>
+	    <table> 
+<row n="1" xml:id="ed6ln1">
+	<cell style="text-align: left">σα<unclear>βα</unclear> <gap reason="illegible" quantity="3" unit="character"/></cell>
+</row>
+		</table>
+	</ab>
+		</div>
+                <!-- ends -->
+                <div xml:lang="grc" type="edition" xml:space="preserve">
+<div n="1" subtype="page" type="textpart">
+<div n="v" type="textpart"><ab>
+<lb n="1"/><note xml:lang="en">The cover side of the codex with no field for wax.</note>
+</ab></div> 
+<div n="r" type="textpart"><ab>
+<lb n="1"/> <note xml:lang="en">No discernible writing.</note>
+</ab></div>
+</div>
+<div n="2" subtype="page" type="textpart">
+<div n="r" type="textpart"><ab>
+<lb n="1"/><note xml:lang="en">Some disparate lines, both straight and curved. Some impressions of letters might be accidental.</note>
+</ab></div> 
+<div n="v" type="textpart"><ab>
+<lb n="1"/> <note xml:lang="en">With tablet positioned so the holes are on the right-hand side, one can recognize in the upper half of the tablet a drawing of a head on an exaggeratedly thick neck and possibly arms raised up at elbows at a right angle. This must be what Kenyon referred to as “drawing in which a lively imagination may discern a portrait of the schoolmaster.” Whether there is another meaningful drawing to the left of it at about the middle of the tablet—of another head on a neck?—is difficult to say. The scratches in the lower right corner of the page do not seem purposeful.</note>
+</ab></div>
+</div>
+<div n="3" subtype="page" type="textpart">
+<div n="r" type="textpart">
+<div n="1" subtype="column" type="textpart"><ab>
+<lb n="1"/><num value="20">Κ</num> <num value="20">Κ</num> <num value="40">Μ</num>
+<lb n="2"/><num value="2">Β</num> <num value="20">Κ</num> <num value="40">Μ</num>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="3"/><num value="20">Κ</num> <num value="30">Λ</num> <num value="50">Ν</num>
+<lb n="4"/><num value="30">Λ</num> <num value="20">Κ</num> <num value="50">Ν</num>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="5"/><num value="20">Κ</num> <num value="40">Μ</num> <num value="60"><unclear>Ξ</unclear></num>  
+<lb n="6"/><num value="40">Μ</num> <num value="20">Κ</num> <supplied reason="lost"><num value="60">Ξ</num></supplied>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="7"/><num value="20">Κ</num> <num value="50">Ν</num> <num value="70">Ο</num>
+<lb n="8"/><num value="50">Ν</num> <num value="20">Κ</num> <num value="70">Ο</num>
+</ab></div> 
+<div n="2" subtype="column" type="textpart"><ab>
+<lb n="1"/><num value="20">Κ</num> <num value="60">Ξ</num> <num value="80">Π</num>
+<lb n="2"/><num value="60">Ξ</num> <num value="20">Κ</num> <num value="80">Π</num>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="3"/><num value="20">Κ</num> <num value="70">Ο</num> <num value="90">Ϙ</num>
+<lb n="4"/><num value="70">Ο</num> <num value="20">Κ</num> <num value="90">Ϙ</num>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="5"/><num value="20">Κ</num> <num value="80">Π</num> <num value="100">Ρ</num>
+<lb n="6"/><num value="80">Π</num> <num value="20">Κ</num> <num value="100">Ρ</num>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="7"/><num value="20">Κ</num> <num value="90">Ϙ</num> <num value="110">ΡΙ</num>
+<lb n="8"/><num value="90">Ϙ</num> <num value="20">Κ</num> <num value="110">ΡΙ</num>
+</ab></div>
+</div> 
+<div n="v" type="textpart"><ab>
+<lb n="1"/> <note xml:lang="en">With the holes on the right-hand side, there might be some writing under the upper edge of the tablet, but no letter is determinable beyond doubt. About a third of the surface is covered by a piece of textile mesh apparently stuck to the wax.</note>
+</ab></div>
+</div>
+<div n="4" subtype="page" type="textpart">
+<div n="v" type="textpart"><ab>
+<lb n="1"/><num value="50">Ν</num> <num value="50">Ν</num> <num value="100">Ρ</num>  
+<lb n="2"/><num value="2">Β</num> <num value="50">Ν</num> <num value="100">Ρ</num>  
+<lb n="3"/><num value="50">Ν</num> <num value="60">Ξ</num> <num value="110">ΡΙ</num>  
+<lb n="4"/><num value="60">Ξ</num> <num value="50">Ν</num> <num value="110">ΡΙ</num>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="5"/><num value="50">Ν</num> <num value="70">Ο</num> <num value="120">ΡΚ</num> 
+<lb n="6"/><num value="70">Ο</num> <num value="50">Ν</num> <num value="120">ΡΚ</num>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="7"/><num value="50">Ν</num> <num value="80">Π</num> <num value="130">ΡΛ</num> 
+<lb n="8"/><num value="80">Π</num> <num value="50">Ν</num> <num value="130">ΡΛ</num>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="9"/><num value="50">Ν</num> <num value="90">Ϙ</num> <num value="140">ΡΜ</num>  
+<lb n="10"/><num value="90">Ϙ</num> <num value="50">Ν</num> <num value="140">ΡΜ</num>
+</ab></div> 
+<div n="r" type="textpart"><ab>
+<lb n="1"/> <note xml:lang="en">There are numerous similarly looking small strokes in the wax surface, which do not appear to form letters.</note>
+</ab></div>
+</div>
+<div n="5" subtype="page" type="textpart">
+<div n="v" type="textpart">
+<div n="1" subtype="column" type="textpart"><ab>
+<lb n="1"/><num value="40">Μ</num> <num value="40">Μ</num> <num value="80">Π</num>  
+<lb n="2"/><num value="2">Β</num> <num value="40">Μ</num> <num value="80">Π</num>
+<milestone rend="paragraphos" unit="undefined"/> 
+<lb n="3"/><num value="40">Μ</num> <num value="50">Ν</num> <num value="90">Ϙ</num>  
+<lb n="4"/><num value="50">Ν</num> <num value="40">Μ</num> <num value="90">Ϙ</num>
+<milestone rend="paragraphos" unit="undefined"/> 
+<lb n="5"/><num value="40">Μ</num> <num value="60">Ξ</num> <num value="100">Ρ</num>  
+<lb n="6"/><num value="60">Ξ</num> <num value="40">Μ</num> <num value="100">Ρ</num>
+<milestone rend="paragraphos" unit="undefined"/>  
+<lb n="7"/><num value="40">Μ</num> <num value="70">Ο</num> <num value="110">ΡΙ</num>  
+<lb n="8"/><num value="70">Ο</num> <num value="40">Μ</num> <num value="110">ΡΙ</num>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="9"/><num value="40">Μ</num> <num value="80">Π</num> <num value="120">ΡΚ</num>  
+<lb n="10"/><num value="80">Π</num> <num value="40">Μ</num> <num value="120">ΡΚ</num>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="11"/><num value="40">Μ</num> <num value="90">Ϙ</num> <num value="130">ΡΛ</num>  
+<lb n="12"/><num value="90">Ϙ</num> <num value="40">Μ</num> <num value="130">ΡΛ</num> 
+</ab></div> 
+<div n="2" subtype="column" type="textpart"><ab>
+<lb n="1"/><num value="60">Ξ</num> <num value="60">Ξ</num> <num value="120">ΡΚ</num>  
+<lb n="2"/><num value="2">Β</num> <num value="60">Ξ</num> <num value="120">ΡΚ</num>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="3"/><num value="60">Ξ</num> <num value="70">Ο</num> <num value="130">ΡΛ</num>  
+<lb n="4"/><num value="70">Ο</num> <num value="60">Ξ</num> <num value="130">ΡΛ</num>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="5"/><num value="60">Ξ</num> <num value="80">Π</num> <num value="140">ΡΜ</num>  
+<lb n="6"/><num value="80">Π</num> <num value="60">Ξ</num> <num value="140">ΡΜ</num>
+<milestone rend="paragraphos" unit="undefined"/> 
+<lb n="7"/><num value="60">Ξ</num> <num value="90">Ϙ</num> <num value="150">ΡΜ</num>  
+<lb n="8"/><num value="90">Ϙ</num> <num value="60">Ξ</num> <num value="150">ΡΜ</num>  
+
+<lb n="9"/><num value="70">Ο</num> <num value="70">Ο</num> <num value="140">ΡΜ</num>  
+<lb n="10"/><num value="2">Β</num> <num value="70">Ο</num> <num value="140">ΡΜ</num>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="11"/><num value="70">Ο</num> <num value="80">Π</num> <num value="150">ΡΜ</num>  
+<lb n="12"/><num value="80">Π</num> <num value="70">Ο</num> <num value="150">ΡΜ</num>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="13"/><num value="70">Ο</num> <num value="90">Ϙ</num> <num value="160">ΡΞ</num>  
+<lb n="14"/><num value="90">Ϙ</num> <num value="70">Ο</num> <num value="160">ΡΞ</num>  
+</ab></div>
+</div> 
+<div n="r" type="textpart"><ab>
+<lb n="1"/> <note xml:lang="en">With the holes on the right, a few letters in the top left corner are discernible. In the middle of the tablet, there are two crudely drawn decorative bands.</note>
+<lb n="1"/>σα<unclear>βα</unclear> <gap reason="illegible" quantity="3" unit="character"/>
+</ab></div>
+</div>
+<div n="6" subtype="page" type="textpart">
+<div n="r" type="textpart"><ab>
+<lb n="1"/><note xml:lang="en">Many strokes are visible in the wax, some of them may have once formed letters, now unidentifiable. In the lower third with the holes on the right, there are two circular joining shapes.</note>
+</ab></div> 
+<div n="v" type="textpart"><ab>
+<lb n="1"/>πτώσεις πέντε
+<lb n="2"/>ὀρθή
+<lb n="3"/>γενική
+<lb n="4"/>δοτική
+<lb n="5"/>αἰτιατική
+<lb n="6"/>κλητική
+<lb n="7"/>δυ<hi rend="diaeresis">ι</hi>κά
+<lb n="8"/>ὀρθὴ καὶ αἰτιατική
+<lb n="9"/>γενικὴ καὶ δοτική
+<lb n="10"/>κλητική
+<lb n="11"/>πληθυντικά
+<lb n="12"/>ὀρθή
+<lb n="13"/>γενική
+<lb n="14"/>δοτική
+<lb n="15"/>αἰτιατική
+<lb n="16"/>κλητική
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="17"/>ἀριθμοὶ <choice><reg>τρεῖς</reg><orig>τρῖς</orig></choice>
+<lb n="18"/>ἑνικός
+<lb n="19"/>δυ<hi rend="diaeresis">ι</hi>κός
+<lb n="20"/>πληθυντικός
+<milestone rend="paragraphos" unit="undefined"/>
+</ab></div>
+</div>
+<div n="7" subtype="page" type="textpart">
+<div n="r" type="textpart"><ab>
+<lb n="1"/><note xml:lang="en">A few disparate letters and some slanting strokes that may or may not have once belonged to letters are visible.</note>
+</ab></div> 
+<div n="v" type="textpart"><ab>
+<lb n="1"/> <note xml:lang="en">No writing is discernible.</note>
+</ab></div>
+</div>
+<div n="8" subtype="page" type="textpart">
+<div n="r" type="textpart"><ab>
+<lb n="1"/><num value="70">Ο</num> <num value="70">Ο</num> <num value="140">ΡΜ</num>  
+<lb n="2"/><num value="2">Β</num> <num value="70">Ο</num> <num value="140">ΡΜ</num>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="3"/><num value="70">Ο</num> <num value="80">Π</num> <num value="150">ΡΜ</num>  
+<lb n="4"/><num value="80">Π</num> <num value="70">Ο</num> <num value="150">ΡΜ</num>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="5"/><num value="70">Ο</num> <num value="90">Ϙ</num> <num value="160">ΡΞ</num>  
+<lb n="6"/><num value="90">Ϙ</num> <num value="70">Ο</num> <num value="160">ΡΞ</num>
+<milestone rend="paragraphos" unit="undefined"/>
+</ab></div> 
+<div n="v" type="textpart"><ab>
+<lb n="1"/> <note xml:lang="en">Unwaxed cover side.</note>
+</ab></div>
+</div></div>
+                <div type="bibliography" subtype="principalEdition">
+                    <listBibl>
+                        <bibl type="reference" subtype="catalogue">
+                            <!-- ignore - start, i.e. SoSOL users may not edit this -->
+                            <!-- ignore - stop -->
+                            <ptr target="http://papyri.info/biblio/14384"/>
+                            <biblScope unit="number">401</biblScope>
+                            <biblScope unit="generic">descr.</biblScope>
+                        </bibl>
+                    </listBibl>
+                </div>
+                <div type="bibliography" subtype="illustrations">
+                    <listBibl>
+                        <bibl type="printed">Hermes 111 (1983), p. 221-226</bibl>
+                    </listBibl>
+                </div>
+            </body>
+        </text>
+    </TEI>
+</TEI>

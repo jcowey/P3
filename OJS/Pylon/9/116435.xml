@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Corrections to the Addresses of Some Late Antique Letters </title>
+            <author>
+               <name>
+                  <forename>Sophie</forename>
+                  <surname>Kovarik</surname>
+               </name>
+               <affiliation>University of Edinburgh</affiliation>
+               <email>skovarik@ed.ac.uk</email>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0003-2378-3661</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+                <publisher>
+                    <orgName>Propylaeum</orgName>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+                </publisher>
+                <pubPlace>
+                    <placeName>Heidelberg</placeName>
+                    <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+                </pubPlace>
+                <date when="2026">2026</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno ana="hc:PrivateIdentifier">pylon.9.10</idno>
+                <idno ana="hc:DOI">https://doi.org/10.116432/pylon.2026.9.116435</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl ana="hc:RecommendedBibliographicReference">S. Kovarik, “Corrections to the Addresses of Some Late Antique Letters,” Pylon 9 (2026) Article 10. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2026.9.116435">https://doi.org/10.48631/pylon.2026.9.116435</ref>.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title level="j" ana="hc:MainTitle">Pylon</title>
+                        <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                        <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                        <imprint>
+                            <biblScope unit="volume">9</biblScope>
+                            <biblScope unit="article">10</biblScope>
+                            <date when="2026">2026</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2026-07-13T11:13:06Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">
+               <emph rend="bold">Corrections to the Addresses of Some Late Antique Letters</emph>
+            </titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <div type="introduction">
+               <p xml:id="p1">A peculiarity of letters from the mid-6th century onwards is the use of chancery script in their endorsements. The present article looks at a number of questionable readings in addresses mostly written in this particular style.<note place="foot" xml:id="ftn1" n="1">
+                     <p> In what follows, supralinear letters are not represented as `ε´ or \ε/, but are instead integrated into the abbreviation as they should be considered abbreviation markers and not later additions to the text, according to the <ref target="https://aip.ulb.be/PDF/Guidelines_for_editing_papyri.pdf">AIP Guidelines</ref>: 13; the placement of \ / around a letter is not treated as a correction. </p>
+                  </note>
+               </p>
+               <p xml:id="p2">My thanks go to Francesca Maltomini, who checked the reading of <ref target="https://papyri.info/hgv/35056">PSI 14 1428</ref> with a Dino-Lite infrared microscope and provided both an infrared composite image of a detail and a high-definition image of the complete address. Lajos Berkes and Nikolaos Gonis are thanked for comments on the corrections; remaining errors are my own responsibility.<note place="foot" xml:id="ftn2" n="2">
+                     <p> Papyri snippets are reproduced courtesy of the following institutions: <ref target="https://papyri.info/hgv/36013">P.Gen. 4 168</ref> (Bibliothèque de Genève); <ref target="https://papyri.info/hgv/22008">P.Oxy. 16 1843</ref>, <ref target="https://papyri.info/hgv/37855">P.Oxy. 16 1849</ref>, <ref target="https://papyri.info/hgv/37863">P.Oxy. 16 1857</ref>, <ref target="https://papyri.info/hgv/37864">P.Oxy. 16 1858</ref>, <ref target="https://papyri.info/hgv/22009">P.Oxy. 16 1862</ref> and <ref target="https://papyri.info/hgv/22010">P.Oxy. 16 1863</ref> (Egyptian Museum Cairo via IPAP); <ref target="https://papyri.info/hgv/15360">P.Oxy. 51 3637</ref> (Egypt Exploration Society, Bodleian Art, Archaeology and Ancient World Library, Oxford); <ref target="https://papyri.info/hgv/35056">PSI 14 1428</ref> (Istituto Papirologico ‘G. Vitelli’, Florence); <ref target="https://papyri.info/hgv/36837">SB 6 9398</ref>, <ref target="https://papyri.info/hgv/36007">SB 16 12573</ref>, and <ref target="https://papyri.info/hgv/37047b">SPP 10 152v</ref> (Austrian National Library).</p>
+                  </note> This article was written during a research fellowship at the Austrian Academy of Sciences, sponsored by Magistratsabteilung 7 (Kultur) of the City of Vienna.
+               </p>
+            </div>
+            <div type="section">
+               <head>1. <ref target="https://papyri.info/hgv/36013">P.Gen. 4 168</ref></head>
+               <p xml:id="p3">In this papyrus from Apollonopolis Heptakomias, assigned to the sixth/seventh century, the recipient is a <emph rend="italics">comes</emph> named Plousammon.</p>
+               <p xml:id="p4">The address in the endorsement has been corrected multiple times. The original edition SB 16 12869 was reedited as <ref target="https://papyri.info/hgv/36013">P.Gen. 4 168</ref> and reads: [† δεσπό(τῃ) ἐμῷ τὰ π]ά̣(ντα) περιβ`λ´(έπτῳ) πά(σης) τιμῆ(ς) &lt;(καὶ)&gt; προσκυ(νήσεως) ἀξιωτάτῳ (?) ἀδελφῷ Πλ`ου´σ`ά´μμω(νι) κόμ`ε´(τι) ̣ ̣ ̣σ`χ´( ) † | † Κολλοῦθος σὺν `θ(εῷ)´ χαρτ(ουλάριος). †</p>
+               <p xml:id="p5">This was further refined by <ref target="https://papyri.info/biblio/77173">Hagedorn 2008</ref>: 130–131, who corrected ἀξιωτάτῳ to ἀ̣ξ̣ί(ῳ) γ̣νη̣(σίῳ) φίλ(ῳ). <ref target="https://papyri.info/biblio/97327">Van Minnen 2013</ref>: 325 additionally suggests a reading of μαγ(ίστρῳ) χ(αρτουλαρίων) for the very end of l. 1.</p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258825"/>
+                  <head>Fig. 1.</head>
+               </figure>
+               <p xml:id="p6">Traces of ink from the second hasta of the pi in π]ά̣(ντα) are still visible, and I would therefore move the bracket accordingly: τὰ] π̣[ά(ντα)]. At first glance, the name Plousammon seems to be abbreviated with an upstroke after double mu. A count of the bows, however, shows that the final letter must be an omega, whose middle stroke is merely implied.</p>
+               <p xml:id="p7">At the very end of the first line, where we expect the profession of the addressee, I see a high alpha similar to that in Plousammon, and a three-legged nu, a form typical of this style. The word is abbreviated by a supralinear chi positioned above a vertical letter with a crossbar. This leaves few possibilities: the abbreviation is most plausibly resolved as ἀντιγεούχῳ.</p>
+               <p xml:id="p8">The word ἀντιγεοῦχος is usually abbreviated somewhat differently in the addresses of letters. The dossier of Victor, an Apionic <emph rend="italics">antigeouchos </emph>(cf. below, <emph rend="bold">3</emph>), provides several examples; we mostly find ἀντιγε(οῦχος), as e.g. in <ref target="https://papyri.info/hgv/37855">P.Oxy. 16 1849</ref>: † Βίκτωρ σὺν θ(εῷ) ἀντιγε(οῦχος) † – cf. the three-legged nus.</p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258827"/>
+                  <head>Fig. 2.</head>
+               </figure>
+               <p xml:id="p9">However, the abbreviation with supralinear chi is also attested, see for instance the 7th-century letter addresses in <ref target="https://papyri.info/hgv/37047b">SPP 10 152v</ref> (Arsinoite): Κ̣αλομηνᾷ † κόμ(ετι) ἀντιγ(εού)χ(ῳ) as corrected by <ref target="https://papyri.info/biblio/95715">Berkes</ref> 2018: 93</p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258829"/>
+                  <head>Fig. 3.</head>
+               </figure>
+               <p xml:id="p10">or <ref target="https://papyri.info/hgv/39332">P.Berl. Sarisch. 18</ref> (Hermopolite): Μάρκῳ χαρ(του)λ(αρίῳ) (καὶ) ἀντ(ι)γ(εού)χ(ῳ)</p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258831"/>
+                  <head>Fig. 4.</head>
+               </figure>
+               <p xml:id="p11">For <ref target="https://papyri.info/hgv/36013">P.Gen. 4 168</ref>, this would mean either that the letter below the chi is a gamma and that a supralinear tau above the nu has been lost through abrasion, which seems unlikely, or that the letter should instead be read as a tau. The latter reading would again require the left arm of the crossbar to have been abraded, but it would also account for the right hook on the vertical stroke. I therefore tentatively read ἀντ̣(ιγεού)χ(ῳ)† ̣. The final ink trace is either a cross or an abbreviation mark.</p>
+               <p xml:id="p12">The sender's name in l. 2 is written in a smaller cursive script, creating a contrast with the chancery style reserved for the recipient and thus visually expressing the latter's higher status and the sender’s deference. Such differentiation of script is not uncommon in documentary practice. </p>
+               <p xml:id="p13">The last word of the endorsement in <ref target="https://papyri.info/hgv/36013">P.Gen. 4 168</ref>, χαρτ(ου)λ(άριος), appears to be abbreviated with a sinusoid after the tau and an additional lambda above the line, not indicated in the edition – cf. the abbreviation with supralinear lambda above χαρ in the endorsement of <ref target="https://papyri.info/hgv/39332">P.Berl. Sarisch. 18</ref>.</p>
+               <p xml:id="p14">In conclusion, I read: </p>
+               <table type="papyrological_header" style="font-size: 90%;">
+                  <row>
+                     <cell style="text-align: left;">[† δεσπό(τῃ) ἐμῷ τὰ τὰ] π̣[ά(ντα)] περιβλ(έπτῳ) πά(σης) τιμῆ(ς) &lt;(καὶ)&gt; προσκυ(νήσεως) ἀ̣ξ̣ί(ῳ) γ̣νη̣(σίῳ) φίλ(ῳ) ἀδελφῷ Πλουσάμμω(νι) κόμε(τι) ἀντ̣(ιγεού)χ(ῳ)† ̣ | </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">† Κολλοῦθος σὺν θ(εῷ) χαρτ(ου)λ(άριος). †</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">“[† To my lord], in all respects <emph rend="italics">spectabilis</emph>, worthy of all honour and reverence, true friend and brother, Plousammon, comes and antigeouchos. † † Kollouthos, with God, <emph rend="italics">chartularius</emph>.”</cell>
+                  </row>
+               </table>
+            </div>
+            <div type="section">
+               <head>2. <ref target="https://papyri.info/hgv/22008">P.Oxy. 16 1843</ref> and <ref target="https://papyri.info/hgv/15360">P.Oxy. 51 3637</ref></head>
+               <p xml:id="p15">Both letters belong to the dossier of the <emph rend="italics">scholasticus </emph>Marinos from the period of the Sasanian occupation. In <ref target="https://papyri.info/hgv/22008">P.Oxy. 16 1843</ref>, the sender informs the recipient that he received the payment of 2016 solidi for taxes of the 12th indiction for Oxyrhynchos and Kynopolis through his <emph rend="italics">chartularius</emph>. The letter was written on 9 Hathyr of a 12th indiction, which corresponds to 6 November 623.</p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258833"/>
+                  <head>Fig. 5.</head>
+               </figure>
+               <p xml:id="p16">In the edition of <ref target="https://papyri.info/hgv/22008">P.Oxy. 16 1843</ref>, only part of the second line of the address was transcribed as   ̣   ̣   ̣ρας Βαν̣α   ̣   ̣   ̣, and the first line, written in chancery style, was left unread .</p>
+               <p xml:id="p17">The address of <ref target="https://papyri.info/hgv/15360">P.Oxy. 51 3637</ref> was read as: † τῷ τὰ πά(ντα) μ(ου) σοφ(ωτάτῳ) τι(μῆς) ἀξίῳ vac. Μαρίνῳ. By analogy, the editor J. R. Rea (20–21n.) suggested a similar reading for the beginning of the unread portion of <ref target="https://papyri.info/hgv/22008">P.Oxy. 16 1843</ref>, namely † τῷ τὰ πά(ντα) μου σοφ(ωτάτῳ). He notes, however, that after that there is “something which I cannot read and which is different from τι(μῆς) ἀξίῳ”. While Rea regards Marinos as the probable addressee, he nevertheless acknowledges that “I cannot fit them (sc. the feet of the letters) to the name of Marinus.”</p>
+               <p xml:id="p18">Rea proposes to read the sequence of letters in the next line as the name Ρασβανα (= BL VIII 250) which also appears at the end of the endorsement of <ref target="https://papyri.info/hgv/15360">P.Oxy. 51 3637</ref>. More recently, μου in both addresses was corrected to μ(ε)γ(αλοπρεπεστάτῳ) by <ref target="https://papyri.info/biblio/77173">Hagedorn 2008</ref>: 131–132.</p>
+               <p xml:id="p19">I would read the address up to the vacat as: † τῷ τὰ πά(ντα) μ(ε)γ(αλοπρεπεστάτῳ) σοφω(τάτῳ) γνη(σίῳ), with the characteristic superscript eta found in this abbreviation. Cf. the contemporary letters <ref target="https://papyri.info/hgv/37864">P.Oxy. 16 1858</ref>, <ref target="https://papyri.info/hgv/36163">PSI 8 889</ref> or <ref target="https://papyri.info/hgv/36196">SB 6 9107</ref> and below <emph rend="bold">3</emph>, in which the recipients are addressed as γνησίῳ μετὰ θεὸν προστάτῃ. After the vacat, I tentatively identify the surviving feet as π̣ρ̣ο̣σ̣τ̣[(άτῃ)] Μ̣α̣ρ̣ί̣ν̣ω̣ σχ̣ο̣(λαστικῷ). </p>
+               <p xml:id="p20">“To the in all respects <emph rend="italics">magnificentissimus</emph>, most wise, true patron Marinos, <emph rend="italics">scholasticus</emph>”</p>
+               <p xml:id="p21">This very last element is corroborated by other evidence. In l. 2 of the main text, Marinos is described as τῆς ὑμετέρας μεγαλο(πρεποῦς) καὶ πανσόφου φιλίας, both honorifics also occurring in the address. From the other documents in which he is attested, we know that he was a <emph rend="italics">scholasticus</emph>, which aligns with the honorific σοφώτατος/πάνσοφος.</p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258836"/>
+                  <head>Fig. 6: <ref target="https://papyri.info/hgv/22009">P.Oxy. 16 1862</ref>: Μαρίνῳ σχολ(αστικῷ).<note place="foot" xml:id="ftn3" n="3">
+                     <p> The ed. pr. has Μαρίνῳ σχο(λαστικῷ), but lambda is clearly visible.</p>
+                  </note>
+               </head>
+               </figure>  
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258838"/>
+                  <head>Fig. 7: <ref target="https://papyri.info/hgv/22010">P.Oxy. 16 1863</ref>: Μαρίνῳ σχο(λαστικῷ)</head>
+               </figure>
+               <p xml:id="p22">Ink is visible after the lacuna, which would fit the faint outline of sigma at the end of the line in <ref target="https://papyri.info/hgv/22008">P.Oxy. 16 1843</ref>, especially if compared with the address of the already mentioned <ref target="https://papyri.info/hgv/15360">P.Oxy. 51 3637</ref>, which presents a similar situation and handwriting: A payment of 3962 solidi is sent to Marinos through the same <emph rend="italics">chartularius </emph>as a first instalment, again for the 12th indiction, to be forwarded to the Persian king of kings. This letter was written slightly earlier, on 19 October 623, and may have been the original order.</p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258840"/>
+                  <head>Fig. 8.</head>
+               </figure>
+               <p xml:id="p23">The endorsement of <ref target="https://papyri.info/hgv/15360">P.Oxy. 51 3637</ref> reads: </p>
+               <quote type="edition">
+                  <lb n="21"/>† τῷ τὰ πά(ντα) μ(ε)γ(αλοπρεπεστάτῳ) σοφ(ωτάτῳ) τι(μῆς) ἀξίῳ vacat Μαρίνῳ    ̣[
+                  <lb n="22"/>(hand 2) Φαῶφι κ̣α̣, ἰ(νδικτίωνος) ιβ, νο(μίσματα) Γϡξβ ὑ(πὲρ) (πρώτης) κατα̣(βολῆς) (hand 3) Ῥασβαν̣α̣   ̣ [
+               </quote>
+               <p xml:id="p24">The date of <ref target="https://papyri.info/hgv/15360">P.Oxy. 51 3637</ref> should be corrected to Φαῶφι κδ (rather than κα), corresponding to 22 October. </p>
+               <p xml:id="p25">After Μαρίνῳ we can still see σ̣χ̣[ο(λαστικῷ)]; this tentative restoration was already proposed by the editor in 19n. </p>
+               <p xml:id="p26">Another tentative restoration, the final sigma after Ῥασβαν̣α̣, which takes Rasbanas as a variant of the Persian name Razbanag, was cautiously suggested in <ref target="https://papyri.info/hgv/15360">P.Oxy. 51 3637</ref>.20–21n., and subsequently accepted by <ref target="https://papyri.info/biblio/77427">Sänger 2008</ref>: 196, n. 30.<note place="foot" xml:id="ftn4" n="4">
+                     <p> An additional descender underneath ας, which may belong to a previous correction, complicates the reading.</p>
+                  </note> Here too, another letter—χ—is clearly visible after the sigma. This chi following the name must therefore mark the beginning of a new word, indicating Rasbanas’ function. A Vienna ineditum (<ref target="http://data.onb.ac.at/rec/RZ00009565">P.Vindob. G 16459</ref>.17), cited by <ref target="https://papyri.info/biblio/80575">Sänger 2011</ref>: 656, n. 7, identifies Rasbanas as <emph rend="italics">chartularius. </emph>I therefore propose the reading Ρασβανας χ[α]ρ̣[του(λάριος) at the end of the endorsement of <ref target="https://papyri.info/hgv/15360">P.Oxy. 51 3637</ref>.</p>
+               <p xml:id="p27">The same interpretation is likely to apply at the end of the second line of <ref target="https://papyri.info/hgv/22008">P.Oxy. 16 1843</ref>. After Ρασβανας ̣, the ligature αρ is discernible, and one may read either χ̣α̣ρ̣τ̣ο̣υ̣(λάριος)† ̣ or χ̣α̣ρ̣τ̣(ου)λ̣(άριος)† ̣.</p>
+               <p xml:id="p28">I suggest that in both cases the sender was Rasbanas, a <emph rend="italics">chartularius</emph> in the Sasanian administration (hence, hand 1), in accordance with the usual layout of late antique letter addresses, and that this was not a countersignature. The sum of money was presumably added later as a clerical note summarizing the contents. No such summary is present in <ref target="https://papyri.info/hgv/22008">P.Oxy. 16 1843</ref> as far as we can see.</p>
+               <p xml:id="p29">The letter immediately preceding the name Rasbanas in <ref target="https://papyri.info/hgv/22008">P.Oxy. 16 1843</ref> appears to be a supralinear chi; a sequence of letters alpha, nu and (supralinear?) tau can be recognized before that. αντ(ι)γ(εου)χ or αντιγ(εου)χ seems possible, the latter being more likely (in which case the horizontal stroke above should be taken as a dark fibre), cf. above <emph rend="bold">1</emph>.</p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258846"/>
+                  <head>Fig. 9. <ref target="https://papyri.info/hgv/37047b">SPP 10 152v</ref></head>
+               </figure>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258842"/>
+                  <head>Fig. 10.</head>
+               </figure>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258848"/>
+                  <head>Fig. 11. <ref target="https://papyri.info/hgv/39332">P.Berl. Sarisch. 18</ref></head>
+               </figure> 
+               <p xml:id="p30">In <ref target="https://papyri.info/hgv/22008">P.Oxy. 16 1843</ref>, <emph rend="italics">chartularius</emph> in this position must indicate a second sender, as is the case in the Vienna letter <ref target="http://data.onb.ac.at/rec/RZ00009565">P.Vindob. G 16459</ref>, where the name of the <emph rend="italics">chartularius</emph> Rasbanas is preceded by a <emph rend="italics">meizoteros</emph>. Earlier in the line, before a <emph rend="italics">vacat</emph>, another letter is visible (xi?), which may have formed part of this second name.</p>
+            </div>
+            <div type="section">
+               <head>3. <ref target="https://papyri.info/hgv/37863">P.Oxy. 16 1857</ref></head>
+               <p xml:id="p31">In this letter from the Victor dossier, Menas writes to Theodoros, addressed as τῇ ὑμετέρᾳ προστατικῇ μεγαλοπρεπείᾳ in l. 1.</p>
+               <p xml:id="p32">His address in the endorsement was read as † δεσπό(τῃ) ἐμῷ τὰ π̣ά(ντα) λαμπ[ρ]οτ(άτῳ) (καὶ) πά(σης) τιμ(ῆς) (καὶ) προσκ(υνήσεως) ἀξί(ῳ) γνη(σίῳ) με(τὰ) θ(εὸ)ν ἀδελφῷ Θεοδώρῳ κόμε(τι) μειζοτέ(ρῳ) † Μηνᾶς. † </p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258850"/>
+                  <head>Fig. 12.</head>
+               </figure>
+               <p xml:id="p33">The honorific is actually different, as suggested by l. 1: μεγαλοπρ(επεστάτῳ).</p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258852"/>
+                  <head>Fig. 13: μεγαλοπρ(επεστάτῳ)</head>
+               </figure>  
+               <p xml:id="p34">The reading π̣ρ̣ο̣σ̣τ̣ά̣(τῃ) is preferable to ἀδελφῷ, both palaeographically and in terms of meaning, since it corresponds to a well-attested honorific formula (cf. above <emph rend="bold">2</emph>, with the parallels <ref target="https://papyri.info/hgv/37864">P.Oxy. 16 1858</ref>, <ref target="https://papyri.info/hgv/36163">PSI 8 889</ref> or <ref target="https://papyri.info/hgv/36196">SB 6 9107</ref>); it is is further supported by προστατικῇ in l. 1 and by <ref target="https://papyri.info/hgv/37864">P.Oxy. 16 1858</ref>, in which the same people, Theodoros and Menas, appear. The address there has: † δεσπό(τῃ) ἐμῷ τὰ πά(ντα) μ(ε)γ(αλοπρεπεστάτῳ) πά(σης) τιμ(ῆς) (καὶ) πρ(οσ)κ(υνήσεως) ἀξίῳ γνη(σίῳ) με(τὰ) θ(εὸ)ν προστά(τῃ) Θεοδώρῳ κόμε(τι) (καὶ) παγάρχ(ῳ) † Μηνᾶς χαρτ(ουλάριος). The same Theodoros may be addressed in <ref target="https://papyri.info/hgv/37471">P.Oxy. 56 3871</ref>, see introduction.</p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258856"/>
+                  <head>Fig. 14: π̣ρ̣ο̣σ̣τ̣ά̣(τῃ)</head>
+               </figure>  
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258858"/>
+                  <head>Fig. 15: cf. <ref target="https://papyri.info/hgv/37864">P.Oxy. 16 1858</ref></head>
+               </figure>
+               <p xml:id="p35">The whole address reads:</p>
+               <quote type="secondary">
+                  <p xml:id="p36"> † δεσπό(τῃ) ἐμῷ τὰ π̣ά(ντα) μεγαλοπρ(επεστάτῳ) (καὶ) πά(σης) τιμ(ῆς) (καὶ) προσκ(υνήσεως) ἀξί(ῳ) γνη(σίῳ) με(τὰ) θ(εὸ)ν π̣ρ̣ο̣σ̣τ̣ά̣(τῃ) Θεοδώρῳ κόμε(τι) μειζοτέ(ρῳ) † Μηνᾶς. † </p>
+                  <p xml:id="p37">“To my lord, in all respects <emph rend="italics">magnificentissimus</emph>, worthy of all honour and reverence, true patron after God, Theodoros, <emph rend="italics">comes</emph> and meizoteros. † Menas †”</p>
+               </quote>
+            </div>
+            <div type="section">
+               <head>4. <ref target="https://papyri.info/hgv/35056">PSI 14 1428</ref></head>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258860"/>
+                  <head>Fig. 16.</head>
+               </figure>
+               <p xml:id="p38"><ref target="https://papyri.info/hgv/35056">PSI 14 1428</ref> is a letter explaining the sender’s delayed visit. The address has been misunderstood and parts of it are difficult to read</p>
+               <quote type="secondary">
+                  <p xml:id="p39"> δεσπότ(ῃ) τ(ὰ) π(άντα) λαμπ̣ρ̣(οτάτῳ) π   ̣φω̣(  ) π(  ) π   ̣ιδ   ̣ν   ̣   ̣   ̣   ̣δ   ̣   ̣   ̣ λαμπροτάτῳ σχ(  ) † Θεοδώρῳ. </p>
+               </quote>
+               <p xml:id="p40">The last element of such an address usually refers to the sender and we have a nominative here too: Θεοδώρῳ was corrected to Θεόδωρος by N. Gonis in <ref target="https://papyri.info/hgv/702478">P.Oxy. 82 5341</ref>.5–6n. The name of the recipient should therefore be sought in what precedes Θεόδωρος. I propose to read: </p>
+               <quote type="secondary">
+                  <p xml:id="p41">[†] δεσπό(τῃ) ἐμῷ τὰ πά(ντα) λαμπρ̣ο̣(τάτῳ) (κ̣α̣ὶ̣) σοφωτά(τῳ) πά(σῃ) παιδ(εύσει) Νίλ(ῳ) ἀ̣ξ(ίῳ) ἀ̣δελ̣φ̣(ῷ) λαμπροτάτῳ σχο(λασ)τ̣(ικῷ) † Θεόδωρος †</p>
+               </quote>
+               <quote type="secondary">
+                  <p xml:id="p42">“To my lord, in all respects <emph rend="italics">clarissimus</emph> and most wise in all learning, Nilos, worthy (?) brother and <emph rend="italics">clarissimus scholasticus</emph> † Theodoros†”</p>
+               </quote>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258865"/>
+                  <head>Fig. 17.</head>
+               </figure>
+               <p xml:id="p43">Composite infrared picture obtained with the Dino-Lite microscope: πά(σῃ) παιδ(εύσει) Νίλ(ῳ), with a supralinear alpha over pi, a sinusoidal abbreviation marker after delta and an abbreviation stroke through lambda (cf. <ref target="https://papyri.info/hgv/22009">P.Oxy. 16 1862</ref>: σχολ(αστικῷ), see above <emph rend="bold">2</emph>).</p>
+               <p xml:id="p44">Alternatively, instead of the defective ἀ̣ξ(ίῳ) or ἀ̣ξί̣[ῳ] this could also have been a drawn seal. </p>
+               <p xml:id="p45">The word order, with the double occurrence of the rank <emph rend="italics">clarissimus</emph>, is peculiar. Most likely, λαμπροτάτῳ has been written twice by mistake, once qualifying Neilos and once the <emph rend="italics">scholasticus</emph>. It seems unlikely that a longer name such as Neilammon was abbreviated in this manner; neither name is otherwise attested for a <emph rend="italics">scholasticus</emph>. </p>
+               <p xml:id="p46">παίδευσις is a typical honorific abstract noun used in addressing a <emph rend="italics">scholasticus</emph>; see e.g. the letter <ref target="https://papyri.info/hgv/69800">BGU 17 2728</ref>.4, 6, 7, 10 or the contract <ref target="https://papyri.info/hgv/22160">P.Oxy. 63 4398</ref>.6, 16, 18. Here, however, παίδευσις complements σοφώτατος by specifically invoking the recipient’s learning. This combination is otherwise paralleled only in the address of the letter <ref target="https://papyri.info/hgv/36113">P.Iand. 6 133</ref>.<note place="foot" xml:id="ftn5" n="5">
+                     <p> The reading is puzzling: ] ̣ σοφωτ(άτῃ) π(αν)ευφήμ(ῳ) παιδ(εύσει) κρείττ(ονι) π(αρὰ) Βα̣σ̣[ First, σοφωτ(άτῳ) should refer to the recipient. Second, the preserved π appears to bear a supralinear α as in πά(σῃ) The sequence ευφημ with abbreviation stroke is naturally taken together with π as πανευφήμ(ῳ), although this epithet would be expected after παιδ(εύσει) and before κρείττ(ονι). Third, after κρείττ(ονι) one would expect a name, title or function. What remains could potentially be read as τῷ δεσ̣[πότῃ, which would also be highly irregular. </p>
+                  </note>
+               </p>
+               <p xml:id="p47">
+                  <ref target="https://papyri.info/biblio/97715">Balamoshev 2025</ref>: 229 established the origin of this letter by restoring a Hermopolite toponym on the recto.</p>
+            </div>
+            <div type="section">
+               <head>5. <ref target="https://papyri.info/hgv/36837">SB 6 9398</ref></head>
+               <p xml:id="p48">In this letter, Thomas writes to his <emph rend="italics">despotes </emph>Stephanos. The name of the sender is not preserved, yet he may unusually refer to himself in the penultimate line (l. 6 recto) as ἐγ]ὼ δὲ Θωμᾶς, but Lajos Berkes informs me that he may have been the actual scribe of the document.</p>
+               <p xml:id="p49">The address-line was corrected by <ref target="https://papyri.info/biblio/77869">Papathomas 2009</ref>: 266–267 to δεσπό(τῃ) ἐμῷ τὰ πά(ντα) τι(μιωτάτῳ), εὐλα(βεστάτῳ), περιβλέπ(τῳ) πά(σης) προ̣σκ(υνήσεως) ἀ̣ξ̣ι̣ω̣τ̣(άτῳ) προστά(τῃ) Στεφάν̣[ῳ̣</p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258867"/>
+                  <head>Fig. 18.</head>
+               </figure>
+               <p xml:id="p50">This reading can still be improved in certain respects. I propose:</p>
+               <quote type="secondary">
+                  <p xml:id="p51">† δεσπό(τῃ) ἐμῷ τὰ πά(ντα) μεγαλο(πρεπεστάτῳ) (κ̣α̣ὶ̣) περιβλ(έπτῳ) πά̣(σης) προ̣σκ(υνήσεως) ἀξί(ῳ) γ̣ν̣η̣(σίῳ) προστά(τῃ) Στεφάν̣[ῳ̣ </p>
+               </quote>
+               <quote type="secondary">
+                  <p xml:id="p52">“To my lord, in all respects <emph rend="italics">magnificentisimus</emph> and <emph rend="italics">spectabilis</emph>, worthy of all reverence, true patron Stephanos”</p>
+               </quote>
+               <p xml:id="p53">The supralinear eta in γ̣ν̣η̣(σίῳ), formed by two vertical strokes crossed by a horizontal, is very characteristic (see above), as is the three-legged nu, of which only traces survive; the first stroke probably still belongs to ἀξί(ῳ).</p>
+            </div>
+            <div type="section">
+               <head>6. <ref target="https://papyri.info/hgv/36007">SB 16 12573</ref></head>
+               <p xml:id="p54">This is a short letter concerning the return of refugees. The address in the endorsement is transcribed as:</p>
+               <p xml:id="p55">    ̣   ̣   ̣   ̣/   ̣   ̣   ̣ δεσπότῃ μου ὡς ἀληθ(ῶς) τ̣   ̣[   ̣]   ̣τωι̣ εν   ̣[ ] λαμπρο[τ(άτῳ)] καὶ εὐδοκ(ιμωτάτῳ) κόμιτι προστ(άτῃ) τρακ(τευτῃ) ☓☓☓☓☓ π̣(αρὰ(?)) Ἀπολλῶ(τος) νοτ̣α̣ρ̣(ίου).</p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258871"/>
+                  <head>Fig. 19.</head>
+               </figure>
+               <p xml:id="p56">I would instead suggest reading: </p>
+               <quote type="secondary">
+                  <p xml:id="p57">† ἐ̣[π]ί̣δ̣(ος) τ̣ῷ̣ δεσπότῃ μου ὡς ἀληθ(ῶς) τι̣μ̣ι̣&lt;ωτά&gt;τῳ κ̣[αὶ] ἐναρ̣[(έτῳ)] κ̣[α]ὶ̣ λαμπρο[τ(άτῳ)] καὶ εὐδοκ(ιμωτάτῳ) κόμιτι προστ(άτῃ) τρακ(τευτῇ) | <emph rend="italics">drawn seal </emph>π̣(αρὰ) Ἀπολλῶ νοτ̣α̣ρ̣(ίου)</p>
+               </quote>
+               <quote type="secondary">
+                  <p xml:id="p58">“Deliver to my lord, truly most esteemed and virtuous, <emph rend="italics">clarissimus</emph> and most distinguished <emph rend="italics">comes</emph>, patron and <emph rend="italics">tractator</emph>, from Apollos, secretary”</p>
+               </quote>
+               <p xml:id="p59">The editors had already considered most of these readings and tentatively proposed † ἐ̣π̣ί̣δ̣(ος) τ̣ῷ̣ δεσπότῃ μου for the beginning (see commentary). They also rightly observed that “Nach ὡς ἀληθ(ῶς) kann τ̣ι̣[μιωτά]τωι nicht ergänzt werden, es sei denn, man rechnete mit einer Kürzung“. However, the phrase ὡς ἀληθ(ῶς) most often introduces an honorific, most commonly τιμιώτατος (cf. <ref target="https://papyri.info/hgv/34843">CPR 5 23</ref>.1, <ref target="https://papyri.info/hgv/36107">P.Iand. 6 102</ref>.1 or <ref target="https://papyri.info/hgv/135621">SB 28 17169</ref>.2), and it is hard to interpret τι[ ]τω otherwise — perhaps also as τι̣μ̣&lt;ι&gt;ω̣&lt;τά&gt;τῳ or with omicron instead of omega. τιμιώτατος is frequently combined with ἐνάρετος, which seems to follow here too. The editors argue that ἐνα̣[ρέτῳ] cannot be read and assume a delta or theta before the lacuna; however, I would suggest that the alpha is written with a loop.</p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258875"/>
+                  <head>Fig. 20: Detail verso: τι̣μ̣ι̣&lt;ωτά&gt;τῳ κ̣[αὶ] ἐναρ̣[(έτῳ)]</head>
+               </figure>
+               <p xml:id="p60">As for the recto, line 1 (which is in fact line 2) is introduced by a staurogramm (⳨). There is no scribal error: the end of l. 1 is written Παῦλον, with a typical end-of-line nu, rather than Παύλου̣. In l. 4, more traces of ink survive than appear necessary for the reading Ἰουλία̣. One may therefore wonder whether Ἰουλια̣ν̣ό̣ς ̣ is concealed in what remains. There are abraded traces between iota and the letter read as alpha, which could instead be interpreted as alpha; if so, the letter originally read as alpha should instead be taken as nu.</p>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258877"/>
+                  <head>Fig. 21: l. 4 recto (detail): Ἰουλια̣ν̣ό̣ς̣ ?</head>
+               </figure>
+               <p xml:id="p61">An Ioulianos is, for example, attested in the administration of a Fayum estate; see the order of payment <ref target="https://papyri.info/hgv/38047">SPP 8 1100</ref>, issued in his name. </p>
+               <p xml:id="p62">A προστάτης τρακτευτῶν, as suggested by the editors, is not yet attested. It is therefore more likely that the phrase combines polite address and function: προστ(άτῃ) τρακ(τευτῇ). </p>
+               <p xml:id="p63">An Ioulianos described as περίβλεπτος in <ref target="https://papyri.info/hgv/22018">P.Oxy 16 1882</ref>.6 (Oxy, ca. 504), a document concerning officials of the governor’s office, also deserves consideration. Of his function only the letters τρ[ remain, which could be restored as <emph rend="italics">tractator </emph>(<ref target="https://beehive.zaw.uni-heidelberg.de/info/43793">BL 11.153</ref>). If these two Ioulianoi are identical, the person who failed to secure certain people could have been a <emph rend="italics">tractator,</emph> as was the recipient of the letter; this would fit the context, though it must remain a conjecture. The <emph rend="italics">tractatores</emph> are understood to have formed part of the governor’s <emph rend="italics">officium</emph> at Oxyrhynchus, though the office may also have been attested elsewhere. It should be noted that <ref target="https://papyri.info/hgv/36007">SB 16 12573</ref> was purchased (not found) in the Fayum and any identification must thus remain tentative, even if the reading Ἰουλια̣ν̣ό̣ς ̣ is accepted. </p>
+               <p xml:id="p64">The letter was originally assigned to the 6th or 7th century, but the hand suggests an earlier date, more likely the late 5th to early 6th century. This is also supported by the style of the endorsement: addresses introduced with ἐπίδ(ος) and the sender in the genitive appear, on palaeographical grounds, to be earlier than those without these features.</p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97715">Balamoshev, C. (2025</ref>) “Papyrological Fleas: Notes on Various Papyri and Ostraca,” ZPE 236: 213–233.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95715">Berkes, L. (2018)</ref> “A Christian Amulet and Estate Administrators in Seventh Century Fayum,” APF 64: 88–97.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/77173">Hagedorn, D. (2008)</ref> “ Zu den Adressen einiger spätantiker Briefe,” ZPE 165: 129–132.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/77869">Papathomas, A. (2009)</ref> “Korrekturvorschläge zu zwanzig Wiener Papyrusbriefen aus Sammelbuch VI,” ChrEg 84: 247-270.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/77427">Sänger, P. (2008)</ref> “Saralaneozan und die Verwaltung Ägyptens unter den Sasaniden,” ZPE 164: 191–201.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/80575">Sänger, P. (2011)</ref> “The Administration of Sasanian Egypt: New Masters and Byzantine Continuity,” Greek, Roman, and Byzantine Studies 51: 653–665.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97327">van Minnen, P. (2010)</ref> “Review of S. G. Moeri, S. Gällnö, N. Poget, and P. Schubert, Les papyrus de Genève. Quatrième volume. Nos 147-205. Textes littéraires, semi-littéraires et documentaires,” BASP 50: 323-326.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

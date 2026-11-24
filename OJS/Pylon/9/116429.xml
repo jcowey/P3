@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Two Lists of Payments</title>
+            <author>
+               <name>
+                  <forename>Aleksandra</forename>
+                  <surname>Świdurska</surname>
+               </name>
+               <affiliation>University of Warsaw</affiliation>
+               <email>a.swidurska@uw.edu.pl</email>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0009-0005-2396-2119</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.9.4</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2026.9.116429</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">A. Świdurska, “Two Lists of Payments,” Pylon 9 (2026) Article 4. DOI: <ref ana="hc:URLReference"
+                    target="https://doi.org/10.48631/pylon.2026.9.116429">https://doi.org/10.48631/pylon.2026.9.116429</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">9</biblScope>
+                     <biblScope unit="article">4</biblScope>
+                     <date when="2026">2026</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2026-05-13T13:33:27Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Two Lists of Payments</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">This paper was prepared within the framework of the project <ref target="https://lawinaphrodito.wpia.uw.edu.pl">‘Law in Social Networks of Late Antique Aphrodito’</ref>, financed by the National Science Centre, Poland, under the OPUS scheme, grant no. 2019/35/B/HS3/02301.</note>
+            <div type="section">
+               <head>1. P.Hamb. graec. 150: List of distributions</head>
+               <p xml:id="p1">Descr.: A small square papyrus sheet of a light brown color, written along the fibers. All four margins are preserved; the right edge is slightly worn. The text consists of seven lines written by a single, non-cursive, elementary hand. The verso is blank.</p>
+               <p xml:id="p2">The papyrus was part of a lot purchased by the Staats- und Universitätsbibliothek Hamburg in 1907 from Mohamed Abdallah, a lot probably deriving from Oxyrhynchus (for the acquisition details, see <ref target="https://papyri.info/biblio/96031">Essler 2021</ref>: 195–197, 200). The document is a list of distributions recorded in διπλᾶ, ‘doubles,’ a measure of liquid or solid commodities. In the present context, these entries most probably refer to wine. The text ends with the formula ὁμοῦ εἰς δαπάνας (‘altogether for expenses’) and a total sum. The numbers are preceded twice by personal names, twice by professions, once by a term that may have legal significance, although its precise meaning remains uncertain. The random list of recipients implies that the account was an internal record, perhaps of an estate.</p>
+               <p xml:id="p3"> The διπλοῦν served as a unit of account for various items from the 2nd to 7th centuries (<ref target="https://papyri.info/biblio/69644">Worp 2000</ref>: 146–147), including soap, must, pickled goods, meat, and even coins,<note place="foot" xml:id="ftn1" n="1">
+                     <p> See <ref target="https://papyri.info/hgv/37929">P.Oxy. 16 2051</ref>.21 (6th–7th c.); <ref target="https://papyri.info/hgv/35374">P.Erl. 111</ref>.11 (5th–6th c.); <ref target="https://papyri.info/hgv/20650">P.Oxy. 3 520</ref>.6 (2nd c.); <ref target="https://papyri.info/hgv/33367">P.Erl. 86</ref>.7 (4th c.; TM 33367); <ref target="https://papyri.info/hgv/32645">P.Oxy. 34 2729</ref>.11 (4th c.) respectively, <ref target="https://papyri.info/biblio/69644">Worp 2000</ref>: 147.</p>
+                  </note> but predominantly wine.<note place="foot" xml:id="ftn2" n="2">
+                     <p> This term is also encountered in a substantial number of Coptic documentary texts, almost always as a measure of wine, see <ref target="https://papyri.info/biblio/69644">Worp 2000</ref>: 148.</p>
+                  </note> It was not a fixed measure and fluctuated over time and across regions, varying between two and four litres in Byzantine Egypt (<ref target="https://papyri.info/biblio/69644">Worp 2000</ref>: 147). Terms such as διπλοῦν could denote vessels of relevant capacity (see <ref target="https://papyri.info/biblio/68228">Kruit and Worp 1999</ref>).<note place="foot" xml:id="ftn3" n="3">
+                     <p> See <ref target="https://papyri.info/biblio/68228">Kruit and Worp 1999</ref>: 113, 116. By the Byzantine period, the sextarius emerged as the standard unit for liquids in Egypt, whereby container names (including διπλοῦν) were expressed as its multiples (see <ref target="https://papyri.info/biblio/68228">Kruit and Worp 1999</ref>: 119–120).</p>
+                  </note>
+               </p>
+               <p xml:id="p4">The itemized figures do not correspond to the total of expenses in the amount of 14 dipla.<note place="foot" xml:id="ftn4" n="4">
+                     <p> I would like to thank Dr. Michael W. Zellmann-Rohrer for careful reading and advice that helped the interpretation of this account.</p>
+                  </note> Several reasons are possible. Since the document is complete and undamaged, this discrepancy cannot be explained by loss of text. It is possible, however, that some items included in the final total were recorded in a separate document. A further hypothesis would be a scribal miscalculation, although this is difficult to reconcile with the figures preserved in ll. 1–5, which total either 8 or 11 dipla depending on whether the partially preserved letter in l. 2 is read as α or, more probably, as δ. Even so, the discrepancy with the total of expenses would still amount to 6 or 3 διπλᾶ, which seems substantial in such a brief list. Another possibility is that the total included a separate expense entry unrelated to the preceding items. The logic is difficult to follow, but for the author it must have made sense.</p>
+               <div type="epidoc" subtype="DDB">
+                  <figure>
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24221792"/>
+                     <head>Fig. 1: P.Hamb. graec. 150. Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky. Creative Commons License Attribution 4.0 International (CC BY-SA 4.0).</head>
+                  </figure>
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;">
+                           <ref target="https://resolver.sub.uni-hamburg.de/kitodo/HANSh3584">P.Hamb. graec. 150</ref>
+                        </cell>
+                        <cell style="text-align: center;">7.7 (h) × 8.7 (w) cm</cell>
+                        <cell style="text-align: right;">5th–6th c.</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">Oxyrhynchite nome</cell>
+                     </row>
+                  </table>
+                  <div copyOf="#ed1" type="edition"/>
+                  <div copyOf="#trans1" type="translation"/>
+                  <div type="commentary">
+                     <note target="#ed1ln2">
+                        <ref>2</ref>
+                        <p xml:id="p5"> ταπητᾶς: a carpet-maker (or merchant), also ταπητάριος (see <ref target="https://papyri.info/biblio/80968">Pruneti 2012</ref>: 149–155). The nominative is noteworthy, since the context would suggest a dative ταπητᾷ (see e.g. <ref target="https://papyri.info/hgv/16443">P.Oxy. 42 3044</ref>.5 and <ref target="https://papyri.info/hgv/33489">P.Iand. 8 153</ref>.14). This may indicate an inconsistency in the grammatical shaping of the entries.</p>
+                     </note>
+                     <note target="#ed1ln4">
+                        <ref>4</ref>
+                        <p xml:id="p6"> ενεχυραφα: considering the context, the form is likely to designate a person connected with pledges, since the surrounding entries refer to recipients identified either by name or by occupation/status. The only known term for such a role is ἐνεχυρ(ι)αστής, ‘pledge-taker,’ but this cannot be restored here without excessive alteration of the transmitted letters. Alternatively, ενεχυραφα may be corrupt, although its underlying form remains uncertain. One form that might come to mind is ἐνεχυρόγραφα, ‘pledge documents,’ but this is a late-nineteenth-century coinage, which would also require the unexplained omission of -όγρ- and would in any case yield a designation of objects rather than of a recipient.</p>
+                     </note>
+                     <note target="#ed1ln5">
+                        <ref>5</ref>
+                        <p xml:id="p7"> Ἀφυγγι: a variant of the name Ἀπύγχις (TM NamVar 589), a form apparently peculiar to Oxyrhynchus in the 4th–5th centuries (<ref target="https://papyri.info/hgv/35599">P.Oxy. 16 1870</ref>; <ref target="https://papyri.info/hgv/32837">17 2156</ref>.19; <ref target="https://papyri.info/hgv/702471">82 5330</ref>.4; <ref target="https://papyri.info/hgv/19764">P.Lond. 5 1777</ref>.4; see also <ref target="https://papyri.info/biblio/73151">Gonis 2004</ref>: 197).</p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>2. P.Vindob. G 28987: List of payments</head>
+               <p xml:id="p8">Descr.: This is a light brown fragment consisting of five partially preserved lines written on the recto. The verso is blank. Only the bottom margin of the papyrus is preserved. The script is cursive and slightly sloping.</p>
+               <p xml:id="p9">The document contains a list of payments in solidi (νομίσματα), including three entries for physicians. These entries mention a chief physician and two regular physicians. The number of solidi is preserved only in l. 5. </p>
+               <p xml:id="p10">The title ἀρχίατρος is attested from the Hellenistic period onward and continued in use under the Roman and Byzantine empires for physicians of particularly high rank,<note place="foot" xml:id="ftn5" n="5">
+                     <p> An example is Caius Stertinius Xenophon, a prominent ἀρχίατρος to the emperor and his family (<ref target="https://papyri.info/biblio/17543">Samama 2003</ref>: 42–43, 257–259). Other cases from the late Roman period include Stephanos, ἐνδοξοτάτος ἀρχιατρός, see <ref target="https://papyri.info/biblio/17543">Samama 2003</ref>: 67, 470.</p>
+                  </note> whether at court or in civic service<note place="foot" xml:id="ftn6" n="6">
+                     <p> See the inscription from the reign of Antiochus III (Bull. Epigr. 1971, no. 600, p. 427; see <ref target="https://papyri.info/biblio/97671">Nutton 1977</ref>: 193–194) and two Delian inscriptions (I.Delos 1547; 1573, see <ref target="https://papyri.info/biblio/17543">Samama 2003</ref>: 208–210) mentioning Crateros (court of Antiochus IX) and Papias of Amisus (court of Mithridates VI Eupator) respectively.</p>
+                  </note> (<ref target="https://papyri.info/biblio/65918">Marasco 1996</ref>: 445–447, 459–460; <ref target="https://papyri.info/biblio/17543">Samama 2003</ref>: 62–68).<note place="foot" xml:id="ftn7" n="7">
+                     <p> A case worth mentioning here is CIG 4678, which mentions ἀρχιητρός Nicanor, a steward of Ptolemy II Philadelphus (for the discussion, see <ref target="https://papyri.info/biblio/19205">Hirt Raj 2006</ref>: 57–60).</p>
+                  </note> It could also function as an honorary designation.<note place="foot" xml:id="ftn8" n="8">
+                     <p> An inscription from Alexandria dated to 7 CE attests archiatros as what has been taken to be an honorary title conferred by ‘an association of physicians’ (see <ref target="https://papyri.info/biblio/97689">Zimonyi 2018</ref>: 231–232). Similar honorary uses are attested in inscriptions from the Greek East between the 2nd and 4th centuries, including for doctors attached to private institutions such as athletic associations (TAM V.2 1097; <ref target="https://papyri.info/biblio/97689">Zimonyi 2018</ref>: fn. 29; <ref target="https://papyri.info/biblio/97669">Aytaçlar and Özenir 2024</ref>: fn. 40). The title could also reflect family prestige, as perhaps in the case of Augusta from Lycaonia, called ἀρχιατρίνη, probably through her husband’s title (MAMA VII 566; see <ref target="https://papyri.info/biblio/17543">Samama 2003</ref>: 442–443). Epigraphic evidence also reveals families of municipal <emph rend="italics">archiatri</emph>, see <ref target="https://papyri.info/biblio/97671">Nutton 1977</ref>: 200–202; <ref target="https://papyri.info/biblio/17543">Samama 2003</ref>: 19–20 and <ref target="https://papyri.info/biblio/97689">Zimonyi 2018</ref>: fn. 33.</p>
+                  </note> In the document discussed here, the title most probably serves to mark an internal hierarchy within a single institutional setting, distinguishing a ‘chief physician’ from his subordinate colleagues. In Roman and Byzantine Egypt the title archiatros does not itself denote a public physician and may instead imply a role of supervision or seniority (<ref target="https://papyri.info/biblio/97670">Raschel 2024</ref>: 127, 132); by contrast, the title demosios iatros in Roman Egypt is attested chiefly in medico-legal contexts (<ref target="https://papyri.info/biblio/81508">Gad 2012</ref>: 265–273). </p>
+               <p xml:id="p11">The salaries of the physicians must have been relatively high.<note place="foot" xml:id="ftn9" n="9">
+                     <p> See <ref target="https://papyri.info/biblio/97685">Underwood 2018</ref>: 342–384; <ref target="https://papyri.info/biblio/17543">Samama 2003</ref>: 43–44; <ref target="https://papyri.info/biblio/19205">Hirt Raj 2006</ref>: 99–101.</p>
+                  </note> One example is <ref target="https://papyri.info/hgv/70187">CPR 19 18</ref>.9 (5th c.), a list of expenses mentioning a horse-physician whose payment amounts to two carats. Other examples are <ref target="https://papyri.info/hgv/36049">P.Ant. 3 202</ref>.15 (6th–7th c.) and <ref target="https://papyri.info/hgv/19011">P.Cair.Masp. 1 67057</ref>.13 (6th c.). The latter is a record of expenses of the city, which included the salaries of the town officials, inter alia, 25 solidi per year for the physician. It is about two solidi per month, an amount similar to that earned by estate managers (<ref target="https://papyri.info/biblio/97685">Underwood 2018</ref>: 360). In <ref target="https://papyri.info/show">PSI 8 891</ref>.19 (5th–6th c.), a physician Ioannes received a payment of one solidus. In <ref target="https://papyri.info/show">SB 26 16446</ref>.3 (4th c.), a donkey physician (ὀνοϊατρός) is paid three argyria in an unspecified coin. </p>
+               <p xml:id="p12">The ἀρχίατρος had to be paid more than a regular doctor. In <ref target="https://papyri.info/hgv/18905">P.Cair.Masp. 2 67151</ref> (6th c.), the annual salary of the chief physician of Antinoopolis, Flavius Phoibammon, son of Euprepeios, amounted to 60 solidi (ll. 289–290). This sum is less generous than those known from Justinian's constitution, according to which a chief physician is expected to earn 99 solidi per year, his assistant 70 solidi per year, and the remaining three physicians 150 solidi per year (50 solidi each, see <ref target="https://papyri.info/biblio/97685">Underwood 2018</ref>: 360).</p>
+               <p xml:id="p13">Given this context, the payment of two nomismata to both the ἀρχίατρος and the ἰατρός in the papyrus below is unlikely to represent a full annual salary comparable to the 60 solidi of the <emph rend="italics">archia</emph>tros of Antinoopolis (<ref target="https://papyri.info/hgv/18905">P.Cair.Masp. II 67151</ref>). Rather, it is better seen as an occasional fee or short-term installment.<anchor xml:id="OLE_LINK1"/>
+               </p>
+               <div type="epidoc" subtype="DDB">
+                  <figure>
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24172931"/>
+                     <head>Fig. 2: P.Vindob. G 28987. © Österreichische Nationalbibliothek, Papyrussammlung</head>
+                  </figure>
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;">
+                           <ref target="http://data.onb.ac.at/rec/RZ00017789">P.Vindob. G 28987</ref>
+                        </cell>
+                        <cell style="text-align: center;">7.2 (h) × 6.8 (w) cm </cell>
+                        <cell style="text-align: right;">5th–6th c.</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">provenance unknown</cell>
+                     </row>
+                  </table>
+                  <div copyOf="#ed2" type="edition"/>
+                  <div copyOf="#trans2" type="translation"/>
+                  <div type="commentary">
+                     <note target="#ed2ln3">
+                        <ref>3</ref>
+                        <p xml:id="p14"> ]ι̣  ̣: the vertical line at the beginning of this verse is the final iota of a third-declension name in the dative, consistent with the dative case of ἀρχίατρος, and might have belonged to the doctor’s name. </p>
+                        <p xml:id="p15">β  ̣: reading supported by l. 5.</p>
+                     </note>
+                  </div>
+               </div>
+               <div type="bibliography">
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97669">Aytaçlar, P.Ö., Özenir, S.A. (2024)</ref> ‘Gladiatorial Monuments from Thyateira,’ Gephyra 27: 33–42.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96031">Essler, H. (2021)</ref> ‘Zur Entstehung der Hamburger Papyrussammlung,’ APF 67, 1: 166–208.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/81508">Gad, El-Sayed (2012)</ref> ‘The demosios iatros in Roman Egypt: a municipal position or a liturgic office?’ Actes du 26e Congrès international de papyrologie: 265–273.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/73151">Gonis, N. (2004)</ref> ‘Notes on Oxyrhynchus Papyri III,’ ZPE 150: 197–202.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/19205">Hirt Raj, M. (2006)</ref> ‘Médecins et malades de l’Égypte romaine. Étude socio-légale de la profession médicale et de ses praticiens du Ier au IVe siècle ap. J.-C.,’ Studies in Ancient Medicine 32. Leiden.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/68228">Kruit, N., Worp, K.A. (1999)</ref> ‘Metrological notes on measures and containers of liquids in Graeco-Roman and Byzantine Egypt,’ Archiv für Papyrusforschung und verwandte Gebiete 45: 96–127.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/65918">Marasco, G. (1996)</ref> ‘Les médecins de cour à l'époque hellénistique,’ Revue des Études Grecques 109, 2: 435–466.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97671">Nutton, V. (1977)</ref> ‘Archiatri and the Medical Profession in Antiquity,’ Papers of the British School at Rome 45: 191–226.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/80968">Pruneti, P. (2012)</ref> ‘Lista nominativa dei fabbricanti di tappeti: le testimonianze dei papiri,’ AnalPap, 21–22, 149–155.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97670">Raschel, C-L. (2024)</ref> ‘Les archiatroi, les médecins publics et l’hôpital en Égypte byzantine,’ Dialogues d’histoire ancienne, 50/2, 125–152.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/17543">Samama, E. (2003)</ref> Les médecins dans le monde grec. Sources épigraphiques sur la naissance d'un corps médical. Genève.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97685">Underwood, N. (2018)</ref> ‘Medicine, Money, and Christian Rhetoric: The Socio-Economic Dimensions of Healthcare in Late Antiquity,’ Studies in Late Antiquity 2 (3): 342–384.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/69644">Worp, K.A. (2000)</ref> ‘A survey of ἁπλᾶ, δι(δι)πλᾶ and τριπλᾶ measures in the papyri,’ ZPE 131: 145–149.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/97689">Zimonyi, Á. (2018)</ref> ‘Archiatres id est medicus sapientissimus – Changes in the meaning of the term archiatros in the Roman Empire,’ in Sapiens Unicus Civis, Proceedings of International Conference on Classical Studies: 230–241.</bibl>
+                  </listBibl>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>List of distributions</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">1001068</idno>
+               <idno type="HGV">1001068</idno>
+               <idno type="ddb-filename">pylon.9.5_1</idno>
+               <idno type="ddb-hybrid">pylon;9;5_1</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement>Hamburg</settlement>
+                     </placeName>
+                     <collection>Staats- und Universitätsbibliothek</collection>
+                     <idno type="invNo">P.Hamb. graec. 150</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Oxyrhynchites</origPlace>
+                        <origDate notBefore="0401" notAfter="0600" precision="low">V - VI</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p>
+                           <placeName type="ancient"
+                              subtype="nome"
+                              ref="https://www.trismegistos.org/place/2722 https://pleiades.stoa.org/places/736982">Oxyrhynchites</placeName>
+                           <placeName type="ancient" subtype="region">Ägypten</placeName>
+                        </p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Liste</term>
+                  <term n="2">Krüge</term>
+                  <term n="3">Namen</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition">
+               <listBibl>
+                  <bibl type="publication" subtype="principal">
+                     <title level="s" type="abbreviated">Pylon</title>
+                     <biblScope n="1" unit="volume">9</biblScope>
+                     <biblScope n="2" unit="fascicle">(2026)</biblScope>
+                     <biblScope n="3" unit="generic">Art. 5</biblScope>
+                     <biblScope n="4" unit="number">Nr. 1</biblScope>
+                  </bibl>
+               </listBibl>
+            </div>
+            <div type="figure">
+               <p>
+                  <figure>
+                     <graphic url="https://resolver.sub.uni-hamburg.de/kitodo/HANSh3584"/>
+                  </figure>
+               </p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>List of distributions</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.9.5_1</idno>
+               <idno type="ddb-hybrid">pylon;9;5_1</idno>
+               <idno type="HGV">1001068</idno>
+               <idno type="TM">1001068</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">List of distributions</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb xml:id="ed1ln1" n="1"/><choice><reg>Ἀνοῦθει</reg><orig>Ἀνουθι</orig></choice> <expan>δι<ex>πλᾶ</ex></expan> <num value="2">β</num>
+<lb xml:id="ed1ln2" n="2"/><choice><reg>ταπητᾷ</reg><orig>ταπητᾶς</orig></choice> <expan>δι<ex>πλᾶ</ex></expan> <num value="4"><unclear>δ</unclear></num>
+<lb xml:id="ed1ln3" n="3"/>τῷ <choice><reg><app type="alternative"><lem>διάκονι</lem><rdg>διακόνῳ</rdg></app></reg><orig>διακον</orig></choice> <expan>δι<ex>πλᾶ</ex></expan> <num value="2">β</num>
+<lb xml:id="ed1ln4" n="4"/>ενεχυραφα <expan>δι<ex>πλᾶ</ex></expan> <num value="2">β</num>
+<lb xml:id="ed1ln5" n="5"/>Ἀφυγγι <expan>δι<ex>πλοῦν</ex></expan> <num>α</num>
+<lb xml:id="ed1ln6" n="6"/>ὁμοῦ εἰς <choice><reg>δαπάνας</reg><orig>ταπάνας</orig></choice>
+<lb xml:id="ed1ln7" n="7"/><expan>δι<ex>πλᾶ</ex></expan> <num value="14">ιδ</num>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">List of distributions</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">1001068</idno>
+               <idno type="TM">1001068</idno>
+               <idno type="HGV">1001068</idno>
+               <idno type="ddb-hybrid">pylon;9;5_1</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+<p>
+To Anouthis, 2 double-jars
+To the carpet-maker, 4 double-jars
+To the deacon, 2 double-jars
+To the person dealing with pledges, 2 double-jars
+To Aphyngis, one double-jar 
+Altogether for expenses, 14 double-jars
+</p>
+</div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>List of payments</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">1000276</idno>
+               <idno type="HGV">1000276</idno>
+               <idno type="ddb-filename">pylon.9.5_2</idno>
+               <idno type="ddb-hybrid">pylon;9;5_2</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement>Vienna</settlement>
+                     </placeName>
+                     <collection>Nationalbibliothek</collection>
+                     <idno type="invNo">P.Vindob. G 28987</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>unbekannt</origPlace>
+                        <origDate notBefore="0401" notAfter="0600" precision="low">V - VI</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Liste</term>
+                  <term n="2">Zahlung</term>
+                  <term n="3">Geld</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition">
+               <listBibl>
+                  <bibl type="publication" subtype="principal">
+                     <title level="s" type="abbreviated">Pylon</title>
+                     <biblScope n="1" unit="volume">9</biblScope>
+                     <biblScope n="2" unit="fascicle">(2026)</biblScope>
+                     <biblScope n="3" unit="generic">Art. 5</biblScope>
+                     <biblScope n="4" unit="number">Nr. 2</biblScope>
+                  </bibl>
+               </listBibl>
+            </div>
+            <div type="figure">
+               <p>
+                  <figure>
+                     <graphic url="http://data.onb.ac.at/rec/RZ00017789"/>
+                  </figure>
+               </p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>List of payments</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.9.5_2</idno>
+               <idno type="ddb-hybrid">pylon;9;5_2</idno>
+               <idno type="HGV">1000276</idno>
+               <idno type="TM">1000276</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">List of payments</head>
+            <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
+<lb xml:id="ed2ln1" n="1"/><gap reason="lost" extent="unknown" unit="character"/>ριου <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed2ln2" n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ς</unclear> λόγου <expan><unclear>νο</unclear><ex>μισμα  </ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed2ln3" n="3"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ι</unclear> ἀρχιατρῷ <expan>νο<ex>µισµα  </ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed2ln4" n="4"/><gap reason="lost" extent="unknown" unit="character"/>ω <hi rend="diaeresis">ἰ</hi>ατρῷ<note>ϊατρω  papyrus</note> <expan>νο<ex>μίσματα</ex></expan> β <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb xml:id="ed2ln5" n="5"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἰα<unclear>τ</unclear></supplied>ρῷ <expan>νο<ex>μίσματα</ex></expan> β  <gap reason="illegible" quantity="1" unit="character"/>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">List of payments</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">1000276</idno>
+               <idno type="TM">1000276</idno>
+               <idno type="HGV">1000276</idno>
+               <idno type="ddb-hybrid">pylon;9;5_2</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans2" xml:lang="en" type="translation" xml:space="preserve">
+<p>
+… of the record, solidi… 
+to the chief physician X solidi… 
+to the physician two solidi… 
+to the physician two solidi…
+</p>
+</div>
+         </body>
+      </text>
+   </TEI>
+</TEI>

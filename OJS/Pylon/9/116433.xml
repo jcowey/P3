@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>New Readings in the Karanis Papyri at Columbia University </title>
+            <author>
+               <name>
+                  <forename>Roger S.</forename>
+                  <surname>Bagnall</surname>
+               </name>
+               <affiliation>New York University</affiliation>
+               <email>rsb331@nyu.edu</email>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0002-9817-3326</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.9.8</idno>
+            <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2026.9.116433</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">R.S. Bagnall, “New Readings in the Karanis Papyri at Columbia University,” Pylon 9 (2026) Article 8. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2026.9.116433">https://doi.org/10.48631/pylon.2026.9.116433</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">9</biblScope>
+                     <biblScope unit="article">8</biblScope>
+                     <date when="2026">2026</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2026-04-23T11:15:39Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">New Readings in the Karanis Papyri at Columbia University</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1">When volume 7 of Columbia Papyri was published in 1979, its texts reflected copies made by Naphtali Lewis in 1936 and 1937 and revised by me in the 1970s on the papyri and on black and white photographs. A half century after I began to work on these texts, I remain admiring of what the young Toli was able to read on the originals. But neither he in the 1930s nor I in the 1970s had the advantage of digital infrared photography. In connection with preparing a volume of Michigan Papyri that contains a number of delivery receipts like those in the Columbia collection, I asked to have the papyri in volume 7 rephotographed with a digital infrared camera. I am grateful to Emily Runde, Emily Holmes, and David Ortiz for their various roles in having this work done over a period of years, as it could be worked into their workflow. In what follows I offer a number of cases where I believe the text that we published can be improved with these photos. In a couple of instances I cite unpublished Michigan texts that are to appear in the volume in preparation. </p>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/10497">P.Col. 7 143</ref>
+               </head>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24206232"/>
+                  <head>Fig. 1: P.Col. 7 143.</head>
+               </figure>
+               <p xml:id="p2">Lines 1–2 are given as follows in the edition: </p>
+               <quote type="edition">
+                  <lb n="1"/>Γ̣ο̣ῦ̣ν̣θ̣ο̣ς̣ ἐπιμελητὴς ἀχύρου̣ τ̣ῶ̣ν̣ μ̣[ε]λ̣-
+                  <lb n="2"/>λομένων ἐνχειρίζ̣ε̣(σθαι) Ἡρακλῆς̣ καὶ
+                  <lb n="3"/>κτλ.
+               </quote>
+               <p xml:id="p3">This was translated, "Gounthos, overseer of chaff, for those going to be designated, . . ." with the comment, "I cannot offer a parallel for this phrase."</p>
+               <p xml:id="p4">The collector's name is provided by line 13, and the traces in line 1 are compatible with it. The beginning of his title is clearly read. But what follows is puzzling, as μέλλω is not used in the middle or passive in the papyri, and "be delayed" is not a plausible sense here. On the new photo, I believe that β̣α̣λ̣- can be read in place of μ̣[ε]λ̣, yielding βαλλομένων, in the sense of "being nominated" or "being appointed" (<ref target="https://papyri.info/biblio/14864">Lewis 1997</ref>, 59; he regards it as colloquial). The reading of what follows ἐνχειρι is anything but secure. Normally ἐγχειρίζω is used in the passive to refer to an office or task assigned (Preisigke, <ref target="https://archive.org/details/wrterbuchdergrie0001prei/page/n227/mode/2up">WB I 415</ref>: "jmd eine Leistung, ein Amt übertragen"). The subject can, however, be used with reference to persons given an assignment, as in <ref target="https://papyri.info/hgv/20062">BGU 3 747</ref>.ii.1 (W.Chr. 35), χρείᾳ δημοσίᾳ ἐνχιρισθέντες. Perhaps the aorist infinitive would be more likely here than the present, but without a good parallel it is hard to say.</p>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/10498">P.Col. 7 144</ref>
+               </head>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24206234"/>
+                  <head>Fig. 2: P.Col. 7 144.</head>
+               </figure>
+               <p xml:id="p5">Lines 1–2 are read as follows:</p>
+               <quote type="edition">
+                  <lb n="1"/>[Τυ]βι κη. παρ(ήνεγκεν) Οὐαλέ̣[ρ]ιος Ἀντιουρίο̣υ̣ ἐ̣ν ὅρμ̣(ῳ) Λ̣ε̣υ̣κ̣ο̣γ̣[ίο]υ̣
+                  <lb n="2"/>[ὑπὲρ  -  -  - ἰνδικτίονος κωμη]τ̣ῶ̣ν̣ Κ̣α̣ρα̣ν̣ί̣δ̣ο̣ς̣ π̣υ̣ρ̣ο̣ῦ̣
+               </quote>
+               <p xml:id="p6">The receipt is signed by Ouranios. This is not the only occurrence of Ouranios in the archive of delivery receipts; in fact two men with that name appear, a son of Paulos in <ref target="https://papyri.info/hgv/10499">P.Col. 7 145</ref>.1 (335) and a son of Theodoros in <ref target="https://papyri.info/hgv/10504">P.Col. 7 150</ref> (patronymic most clearly in l. 29; 342–344). In either case, the individual is hypodektes for the harbor of the city, not for Leukogion. The restoration of line 2 also seems likely to give too long a total line, compared to others in this receipt. On the photo, I think that instead of ἐ̣ν ὅρμ̣(ῳ) Λ̣ε̣υ̣κ̣ο̣γ̣[ίο]υ̣ we should read [ὑ]π̣ὲρ̣ δ̣εκάτη̣ς, with ἰνδικτίονος to come at the start of line 2. There are scattered traces there, but they are too limited to control any reading until τ̣ῶ̣ν̣, which is as a whole not doubtful. The date would then probably be 23 January 337. As the edition notes, the writing on this papyrus probably began with column II, and the receipt at upper left, under consideration here, was a later addition.</p>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/10501">P.Col. 7 147</ref>
+               </head>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24206236"/>
+                  <head>Fig. 3: P.Col. 7 147r.</head>
+               </figure>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24206238"/>
+                  <head>Fig. 4: P.Col. 7 147v.</head>
+               </figure>
+               <p xml:id="p7">The description says, "Verso blank except for slight traces of three lines of a docket." On the photo, we can see that there are actually four lines, written upside down with respect to the recto. The writing appears to be an account of grain, with each line showing the sign for artabas at right. The first line is the only one with other readable traces, which appear to be [Ἀντ]ι̣ο̣υ̣ριο(  ) Ἀβοῦ. It is not possible to say what case the first, abbreviated, name was in. Since Antiourios son of Abous is the payer in all of the receipts on the recto, his appearance here is unsurprising. </p>
+               <p xml:id="p8">In the edition, the signer's name was not read in ll. 27, 38, and 42. All other receipts on this papyrus are signed by Agathos, who is unattested elsewhere in the archive. On the photo, I would read Ἄ̣γ̣α̣θ̣[ο]ς σ̣ε̣σ̣[η(μείωμαι) in l. 27, and Ἄγ̣[αθος in l. 38. In l. 42, it would not be impossible to read Ἄγ[, but more convincing is Ὡρ[ίων, who is found in P.Mich. inv. 3662a, dated to a first indiction. </p>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/10502">P.Col. 7 148</ref>
+               </head>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24206240"/>
+                  <head>Fig. 5: P.Col. 7 148.</head>
+               </figure>
+               <p xml:id="p9">In l. 14 there is a note written after a receipt dated to Phamenoth 27, transcribed as follows: καὶ π̣ι(ττακίου) Πανᾶς   ̣  ̣  ̣  ̣.  On the photo, I would prefer καὶ διὰ Πνᾶς. There is no trace of the first alpha. Pnas is a name occurring in <ref target="https://papyri.info/hgv/10514">P.Col. 7 160</ref>.63 for a hypodektes, but more importantly in a number of Michigan ostraka and in several published or forthcoming Michigan papyri (inv. 3018a, inv. 6451a (= <ref target="https://papyri.info/hgv/41689">SB 22 15844</ref>), and inv. 6451b (= <ref target="https://papyri.info/hgv/41690">SB 22 14845</ref>), in the last two of which a man of this name is introduced with διά and functions as an intermediary for the sitologoi. </p>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/10507">P.Col. 7 153</ref>
+               </head>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24206242"/>
+                  <head>Fig. 6: P.Col. 7 153.</head>
+               </figure>
+               <p xml:id="p10">The indiction number in l. 19, the first receipt in column II, was not read in the edition. On the photo, it appears that [δ]ε̣υ̣τ̣[έ]ρα̣ς ̣ νέα̣ς ̣ is readable; the rho is secure. There are traces of several letters before it; ὑπέρ would be plausible, but the traces are insufficient to support it.</p>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/10508">P.Col. 7 154</ref>
+               </head>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24206244"/>
+                  <head>Fig. 7: P.Col. 7 154.</head>
+               </figure>
+               <p xml:id="p11">In the first line of column II, l. 21, the edition gives Σ̣α̣ρ̣α̣π̣άμων καὶ  ̣  ̣ σιτολόγος. The unread letters are, I believe, κ(οινωνοί), written κ⎱, as in <ref target="https://papyri.info/hgv/10515">P.Col. 7 161</ref>.11. </p>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/10515">P.Col. 7 161</ref>
+               </head>
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24206246"/>
+                  <head>Fig. 8: P.Col. 7 161.</head>
+               </figure>
+               <p xml:id="p12">In column I, the name of one of the hypodektai was read (l. 10) as Α̣ὐ̣ρήλ̣ιοι Οἰσίτωρος. Instead, Α̣ὐ̣ρηλ̣ίοις Ἰσίδωρος should be read.</p>
+               <p xml:id="p13">In column II, written upside down with respect to the other column, the name of the signer for the first receipt of this column, for the fourth indiction, was not fully read in l. 26, the edition giving only    ̣ε  ̣[.  On the photo, Πετ̣[ρώνιος appears sound. Petronius signs <ref target="https://papyri.info/hgv/10514">P.Col. 7 160</ref>.6, 23, 41, and 44, all dated also to the fourth indiction (345/6).  </p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/14864">Lewis, N. (1997)</ref> The Compulsory Public Services of Roman Egypt (Second Edition)<emph rend="italics">.</emph> Firenze.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Une recette médicale pour soigner la rate</title>
+            <author>
+               <name>
+                  <forename>Sandra</forename>
+                  <surname>Lippert</surname>
+               </name>
+               <affiliation>CNRS, UMR 8546 AOROC – CNRS, EPHE-PSL, ENS-PSL</affiliation>
+               <email>sandra.lippert@cnrs.fr</email>
+               <idno ana="hc:ORCIDURI">https://orcid.org/0000-0002-0619-9722</idno>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Propylaeum</orgName>
+               <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+            </publisher>
+            <pubPlace>
+               <placeName>Heidelberg</placeName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+            </pubPlace>
+            <date when="2026">2026</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno ana="hc:PrivateIdentifier">pylon.9.6</idno>
+            <idno ana="hc:DOI">https://doi.org/10.116432/pylon.2026.9.116431</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="hc:RecommendedBibliographicReference">S. Lippert, “Une recette médicale pour soigner la rate,” Pylon 9 (2026) Article 6. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2026.9.116431">https://doi.org/10.48631/pylon.2026.9.116431</ref>.</bibl>
+            <biblStruct>
+               <monogr>
+                  <title level="j" ana="hc:MainTitle">Pylon</title>
+                  <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                  <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                  <imprint>
+                     <biblScope unit="volume">9</biblScope>
+                     <biblScope unit="article">6</biblScope>
+                     <date when="2026">2026</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2026-07-13T14:33:52Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Une recette médicale pour soigner la rate</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1">L’ostracon Athribis 22-36-49/3930 a été mis au jour par la mission archéologique de l’Université de Tübingen en décembre 2025 à Hout-Répit (<ref target="http://www.trismegistos.org/place/5162">TM Geo 5162</ref>) dans le Panopolite, aussi connu sous les noms de Tripheion, Atripé ou Athribis de Haute-Égypte, à l’occasion de la fouille d’un large dépotoir très riche en céramquie, constitué par les <emph rend="italics">sébakhin</emph> au tout début du XXe siècle. Pour une vue d’ensemble de ce matériel, voir <ref target="https://papyri.info/biblio/97662">Lippert 2023</ref>: 15–44, qui donne les chiffres pour 2022/23 (p. 20) ; les trois campagnes suivantes ont apporté env. 16 000 nouveaux tessons inscrits. </p>
+            <p xml:id="p2">L’étude et l’édition de ce matériel sont assurées depuis 2018/19 par le groupe de recherche international et interdisciplinaire « Ostraca d’Athribis » que je coordonne, avec des financements de l’IRIS SCRIPTA-PSL (2018–2022), de l’IFAO Le Caire (2020–2025) et de l’UMR8546 AOROC. Je remercie Chr. Leitz, le directeur scientifique, et Marcus Müller, le directeur de fouille de la mission archéologique « <ref target="https://uni-tuebingen.de/fakultaeten/philosophische-fakultaet/fachbereiche/altertums-und-kunstwissenschaften/institut-fuer-die-kulturen-des-alten-orients-ianes/forschung/aegyptologie/projekte/athribis-projekt-dfg/">Athribis</ref> », pour la permission d’étudier et d’éditer les ostraca démotiques et pour le soutien logistique de la mission lors de mes séjours sur place. Je sais également gré à Cécile Lantrain et Marion Claude qui ont mesuré l’objet, vérifié des détails et pris des images supplémentaires pour moi lors de leur mission à Hout-Répit fin mars 2026, ainsi qu’à Marie Cronier qui m’a dirigée vers les parallèles dans la littérature médicale classique et à Ivan Guermeur pour sa relecture ; toutes les fautes restantes sont entièrement de ma responsabilité.</p>
+            <p xml:id="p3">Le texte est tracé à l’encre noire avec un calame sur un fragment du bas du col d’une amphore, inscrit uniquement sur la face extérieure, et obliquement, voire presque perpendiculairement, aux stries de tournage. La caractérisation céramologique de la pâte et, si possible l’identification du type d’amphore, n’ont pas encore pu être réalisées. La main est assez malhabile et inégale, sans qu’on puisse en déduire avec certitude si cela correspond à un manque d’entrainement du scribe (encore jeune ou ayant une faible expérience de l’écriture en démotique ?) ou plutôt à une rédaction trop hâtive. La forme et la taille peu adaptée du tesson sélectionné pourraient elles aussi être interprétées dans les deux sens – soit le scribe avait du mal à estimer l’espace nécessaire pour son texte, soit il n’avait pas le temps de chercher un meilleur support. Une datation par le truchement de la paléographie est de ce fait difficile : le passage au « démotique tardif » (parfois appelé à tort « démotique romain »), qui est occasionné par l’utilisation généralisée du calame, se fait dans la région Panopolite au plus tard au début du Ier s. av.n.è., et le démotique – avec des mains similairement malhabiles par manque de pratique – s’y trouve encore employé pour les étiquettes de momies au IIIe s. è.c. (<ref target="https://papyri.info/biblio/97011">Arlt 2011</ref>: 134, 144, 146, 151–155).</p>
+            <p xml:id="p4">Jusqu’au milieu de la ligne 7, les signes sont assez larges et souvent espacés. À la fin de la ligne 7, le scribe semble toutefois avoir compris que la place allait lui manquer et il a commencé à économiser l’espace en abrégeant un mot et en superposant son déterminatif (voir le commentaire). À partir de la ligne 8, l’écriture devient visiblement de plus en plus petite. Le scribe recourt même à deux endroits (lignes 9–10 et 13–14) à des renvois à la ligne au milieu d’un mot, ce qu’il avait évité aux lignes 3 et 4, où il avait laissé un espace blanc assez large à gauche. À la fin des quatre dernières lignes, le texte dépasse même sur une partie écaillée du tesson, ce que les scribes renoncent généralement à faire ; de cette manière, le scribe a toutefois réussi, de justesse, à finir le texte sur cet ostracon. </p>
+            <p xml:id="p5">Il s’agit d’une recette médicale rédigée en démotique. Jusqu’à présent, c’est le seul texte médical qui a pu être identifié parmi les plus de 43 000 tessons inscrits ou figurés (dont env. 70 à 75% en démotique) découverts à ce jour par la mission de Tübingen à Hout-Répit. Les textes médicaux inscrits sur ostraca sont par ailleurs rares : la liste qu’en donne <ref target="https://papyri.info/biblio/97747">Westendorf 1999</ref>: 59–65, ne compte que cinq, et O.Leiden Dem. 334 (<ref target="http://www.trismegistos.org/text/49360">TM 49360</ref>), le seul ostracon démotique qui y figure, a entre-temps été identifié par <ref target="https://papyri.info/biblio/97667">Quack 1998</ref>: 77, n. 2 comme une recette pour la fabrication de <emph rend="italics">ʿȝ.t-nṯr</emph>, un produit utilisé pour enduire les statues divines.</p>
+            <p xml:id="p6">Les maladies de la rate, en égyptien <emph rend="italics">nnšm</emph> et plus tard <emph rend="italics">nš</emph> (voir le commmentaire à la ligne 1), n’ayant visiblement pas suscité un grand intérêt dans la médicine égyptienne pharaonique, il s’agit également de la seule recette pour traiter cet organe qui a été publiée à ce jour parmi celles conservées dans le corpus médical hiératique et démotique. L’organe humain est en effet à peine mentionné dans les manuels médicaux du Moyen et du Nouvel Empire : il apparaît dans un contexte purement médical uniquement dans une description du système vasculaire du P.Ebers (<ref target="http://www.trismegistos.org/text/755220">TM 755220</ref>) qui parle de quatre vaisseaux menant aux poumons et à la rate, apportant eau et air (col. 100, l. 10 = Eb854m ; <ref target="https://papyri.info/biblio/97742">Grapow 1954</ref>: 79 ; <ref target="https://papyri.info/biblio/97744">Popko, Schneider et Scholl 2021</ref>: 234–235). Ses mentions en même temps que le foie, les poumons et les intestins dans le papyrus médical Louvre E 32847, verso col. 16, l. 20 (<ref target="https://papyri.info/biblio/97668">Bardinet 2018</ref>: 380–381) ainsi que dans le papyrus magico-médical Ramesseum III (<ref target="http://www.trismegistos.org/text/380849">TM 380849</ref>), B 1 appartiennent au contexte de la momification, car ces quatre organes étaient ceux retirés du corps et placés dans des vases canopes (<ref target="https://papyri.info/biblio/97747">Westendorf 1999</ref>: 187). Néanmoins, la rate bovine comme ingrédient est mentionnée à plusieurs reprises pour la constitution de baumes et de pansements (<ref target="https://papyri.info/biblio/97694">von Deines et Grapow 1959</ref>: 303–304), ainsi que dans un remède pris par voie orale (pLouvre E 32847 recto, col. x+12, l. 20 ; <ref target="https://papyri.info/biblio/97668">Bardinet 2018</ref>: 310–311). Je remercie Amber Jacob qui m’a signalé l’existence d’une recette très fragmentaire qui semble également concerner une maladie de la rate (<emph rend="italics">nyḫ</emph>), conservée dans un papyrus médical démotique de la bibliothèque du temple de Tebtynis. Ce papyrus ainsi que d’autres ont été édités dans sa thèse « Medical Knowledge in Graeco-Roman Egypt: The Demotic Medical Papyri from Tebtunis (P.Tebt.Med.dem.) », soutenue en 2025 à l’Université de New York, qu’elle prépare actuellement pour la publication. Par contre, dans la littérature médicale grecque et latine ainsi que dans les traditions qui en découlent, les remèdes pour soigner l’augmentation du volume et l’endurcissement de la rate sont pléthore, sans doute à cause du rôle que jouait cet organe dans la théorie des humeurs, et cela dépasserait le cadre de cet article de les énumérer et les discuter de manière exhaustive.</p>
+            <p xml:id="p7">Le court texte démotique de l’ostracon Athribis 22-36-49/3930 est structuré de façon conventionnelle : il commence avec un titre qui nomme l’organe à traiter, la rate (<emph rend="italics">nš</emph>), et assure l’efficacité de la prescription (l. 1–2), puis vient une liste de quatre ingrédients – « herbe grecque » (sans doute le fenugrec, voir le commentaire à la ligne 3–4), natron finement moulu, onguent et vinaigre –, toutefois sans préciser les quantités relatives (l. 3–7). La recette s’achève avec un mode d’emploi (l. 7–8 : titre intermédiaire ; l. 8–14 : instruction). Par l’utilisation de la seule forme verbale <emph rend="italics">my</emph> (imperatif de <emph rend="italics">dỉ.t</emph> « donner, mettre »), cette dernière reste toutefois très vague. S’il est spécifié que l’ « herbe grecque » et le natron finement moulu sont à mettre en premier (<emph rend="italics">r tȝ ḥȝ.t</emph>, l. 12) et l’onguent avec le vinaigre dans un second temps (<emph rend="italics">m-sȝ=s</emph>, l. 13), il n’est pas précisé quelle partie de l’ingrédient végétal doit être utilisée, ni comment il doit être préparé avant d’y ajouter le natron, ni si ces deux ingrédients combinés sont à administrer avant les deux autres, ou s’il faut simplement laisser agir le natron pendant un certain temps, puis ajouter l’onguent et le vinaigre. Enfin, il manque une indication explicite quant à la manière d’application, même si l’emploi d’onguent comme ingrédient suggère que c’était en topique, sous forme de baume ou de cataplasme, et non pas par voie orale. </p>
+            <p xml:id="p8">La recette trouve ses parallèles les plus proches dans la littérature médicale classique, notamment un passage de Dioscoride, <emph rend="italics">Matière médicale</emph>, 2.102.1: </p>
+            <quote ana="hc:BlockQuotation">
+               <p xml:id="p9">καὶ τὸ ἐκ τῆς τήλεως ἄλευρον, ἣν ἔνιοι βούκερων, οἱ δὲ αἰγόκερας, οἱ δὲ κάρφος, οἱ δὲ λωτόν, οἱ δὲ κέρας αἴγειον ἐκάλεσαν, δύναμιν ἔχει μαλακτικήν. καταπλασσόμενον δὲ λεῖον σὺν μελικράτῳ ἑφθὸν ποιεῖ πρὸς φλεγμονὰς τὰς ἐντὸς καὶ ἐκτός, σὺν νίτρῳ δὲ καὶ ὄξει λεῖον καταπλασθὲν σπλῆνα μειοῖ. (...)</p>
+            </quote>
+            <quote ana="hc:BlockQuotation">
+               <p xml:id="p10">« La farine de fenugrec (τῆλις), que certains appellent βούκερως (‘aux cornes de bœuf’), d’autres αἰγόκερας (‘corne de bouc’), d’autres κάρφος (‘brin’), d’autres λωτός (‘trèfle’), d’autres κέρας αἴγειον (‘corne caprine’), a une propriété ramollissante. Finement moulue et cuite avec de l’hydromel, elle est efficace en cataplasme contre des inflammations internes et externes, et finement moulue avec du natron et du vinaigre, appliquée en cataplasme, elle diminue la taille de la rate. (...) » (texte grec d’après <ref target="https://papyri.info/biblio/97746">Wellmann 1907</ref>: 176 ; traduction française de l’auteur, en s’appuyant sur celle, en anglais, de <ref target="https://papyri.info/biblio/97707">Beck 2011</ref>: 135). </p>
+            </quote>
+               <p xml:id="p11">Pline l’Ancien, Historia naturalis, 24.120.184–185 et 188 donne par ailleurs presque les mêmes informations :</p>
+            <quote ana="hc:BlockQuotation">
+               <p xml:id="p12"> (184) <emph rend="italics">Nec feno Graeco minor auctoritas, quod telin uocant, alii carphos, aliqui buceras, alii aegoceras, quoniam corniculis semen est simile, nos siliciam. Quomodo sereretur, docuimus suo loco. Uis eius siccare, mollire, dissoluere. (...) </emph>(185)<emph rend="italics"> (...) Spleni addito nitro decoctum et inpositum medetur, item ex aceto. sic et iocineri decoctum. (...) </emph>(188)<emph rend="italics"> (...) Inlinitur et lieni decocta in aceto et melle tantum. (...)</emph></p>
+            </quote>
+            <quote ana="hc:BlockQuotation">
+               <p xml:id="p13">« Tout aussi estimé est le fenugrec qu’on nomme <emph rend="italics">télis</emph> ou <emph rend="italics">carphos</emph> ou encore <emph rend="italics">bucéras</emph> ou  <emph rend="italics">aegoceras</emph> pour la ressemblance de son fruit avec de petites cornes ; nous le nommons <emph rend="italics">silicia</emph>. Nous avons dit en son lieu comment on le semait. Il a la propriété de dessécher, d’amollir et de resoudre. (...) Cuit avec du carbonate de soude et en topique, il guérit la rate ; de même dans du vinaigre. Sous cette forme, la décoction est bonne aussi pour le foie. (...) Cuite dans du vinaigre et du miel seulement, on l’emploie (<emph rend="italics">scil</emph>. la farine de fenugrec, mentionnée dans 187) en topique pour la rate. (...) » (texte latin et traduction française d’après <ref target="https://papyri.info/biblio/97705">André 1972</ref>: 90–91) </p>
+            </quote>
+            <p xml:id="p14">Pour la traduction du mot latin <emph rend="italics">nitrum</emph> par « carbonate de soude », c’est-à-dire natron, et non pas nitre, voir <ref target="https://papyri.info/biblio/97741">Gitton-Ripoll 2009</ref>: 5–16.</p>
+            <p xml:id="p15">Comparaison synoptique de la recette de l’ostracon et celles de Dioscoride et de Pline :</p>
+            <table style="font-size: 90%;">
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: center;">oAthribis 22-36-49/3930</cell>
+                  <cell style="text-align: center;">Dioscoride, <emph rend="italics">Matière médicale</emph>, 2.102.1</cell>
+                  <cell style="text-align: center;">Pline, <emph rend="italics">Histoire Naturelle</emph>, 24.120.185</cell>
+                  <cell style="text-align: center;">Pline, <emph rend="italics">Histoire Naturelle</emph>, 24.120.188</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;"><emph rend="italics">Ingrédients</emph> :</cell>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;">1) fenugrec</cell>
+                  <cell style="text-align: left;">+</cell>
+                  <cell style="text-align: left;">+</cell>
+                  <cell style="text-align: left;">+</cell>
+                  <cell style="text-align: left;">+</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">2) natron</cell>
+                  <cell style="text-align: left;">+</cell>
+                  <cell style="text-align: left;">+</cell>
+                  <cell style="text-align: left;">+</cell>
+                  <cell style="text-align: left;">-</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">3) onguent</cell>
+                  <cell style="text-align: left;">+</cell>
+                  <cell style="text-align: left;">-</cell>
+                  <cell style="text-align: left;">-</cell>
+                  <cell style="text-align: left;">-</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">4) vinaigre</cell>
+                  <cell style="text-align: left;">+</cell>
+                  <cell style="text-align: left;">+</cell>
+                  <cell style="text-align: left;">+</cell>
+                  <cell style="text-align: left;">+</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">5) miel</cell>
+                  <cell style="text-align: left;">-</cell>
+                  <cell style="text-align: left;">-</cell>
+                  <cell style="text-align: left;">-</cell>
+                  <cell style="text-align: left;">+</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;"><emph rend="italics">Préparation</emph> :</cell>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;">combinaison d’ingrédients</cell>
+                  <cell style="text-align: left;">n<hi rend="superscript">o</hi> 1 et 2 avant n<hi rend="superscript">o</hi> 3 et 4</cell>
+                  <cell style="text-align: left;">n<hi rend="superscript">o</hi> 1, 2 et 4 à la fois</cell>
+                  <cell style="text-align: left;">n<hi rend="superscript">o</hi> 1 et 2 ou alternativement n<hi rend="superscript">o</hi> 1 et 4 (ou n<hi rend="superscript">o</hi> 1, 2 et 4 ?)</cell>
+                  <cell style="text-align: left;">n<hi rend="superscript">o</hi> 1, 4 et 5 à la fois</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">moudre</cell>
+                  <cell style="text-align: left;">+ (n<hi rend="superscript">o</hi> 2 uniquement)</cell>
+                  <cell style="text-align: left;">+ (n<hi rend="superscript">o</hi> 1 et 2 avec n<hi rend="superscript">o</hi> 4)</cell>
+                  <cell style="text-align: left;">-</cell>
+                  <cell style="text-align: left;">+ (n<hi rend="superscript">o</hi> 1)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">cuire</cell>
+                  <cell style="text-align: left;">-</cell>
+                  <cell style="text-align: left;">? (cuisson évoquée pour la préparation immédiatement précédente)</cell>
+                  <cell style="text-align: left;">+</cell>
+                  <cell style="text-align: left;">+</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;"><emph rend="italics">Application</emph> :</cell>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: left;"/>
+               </row>
+               <row>
+                  <cell style="text-align: left;">extérieure</cell>
+                  <cell style="text-align: left;">? (mais voir ingrédient n<hi rend="superscript">o</hi> 3, « onguent »)</cell>
+                  <cell style="text-align: left;">+</cell>
+                  <cell style="text-align: left;">+</cell>
+                  <cell style="text-align: left;">+</cell>
+               </row>
+            </table>
+            <div type="epidoc" subtype="DCLP">
+               <figure>
+                  <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24259009"/>
+                  <head>Fig. 1 : Ostracon Athribis 22-36-49/3930 (Image : Projet « Athribis », Université de Tübingen)</head>
+               </figure>
+               <table type="papyrological_header" style="font-size: 90%;">
+                  <row>
+                     <cell style="text-align: left;">O.Athribis 22-36-49/3930</cell>
+                     <cell style="text-align: center;">8,1 (l) × 11,2 (h) × 1-1,4 (é)</cell>
+                     <cell style="text-align: right;">Hout-Répit</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: right;">Ie s. av.è.c.-début du IIIe s. è.c. ?</cell>
+                  </row>
+               </table>
+               <div copyOf="#ed1" type="edition"/>
+               <div type="commentary">
+                  <note target="#ed1ln1">
+                     <ref>1</ref>
+                     <p xml:id="p16"> L’article démonstratif <ref target="#fac1a"><emph rend="italics">pȝy</emph></ref> est plutôt inattendu dans ce contexte, mais la graphie est claire et ne peut être confondue avec les formes que prend l’article défini  <emph rend="italics">pȝ</emph> dans les lignes 9, 11 et 13. Il s’agit sans doute d’une graphie fautive due à la proximité phonétique entre ces deux mots. Ce phénomène d’échange – dans les deux directions ! – entre les articles définis <emph rend="italics">pȝ</emph>,<emph rend="italics"> tȝ</emph>,<emph rend="italics"> nȝ </emph>et les articles démonstratifs correspondants <emph rend="italics">pȝy</emph>, <emph rend="italics"> tȝy</emph>, <emph rend="italics"> nȝy</emph>, qui de façon similaire concerne aussi les articles possessifs de la 1ère personne du singulier (<emph rend="italics">pȝy=y</emph>, <emph rend="italics"> tȝy=y</emph>, <emph rend="italics"> nȝy=y</emph>) et les préfixes possessifs correspondants (<emph rend="italics">pa</emph>, <emph rend="italics">ta</emph>, <emph rend="italics">na</emph>), qui se prononçaient également de façon très similaire, est bien attesté dans les textes démotiques au moins à partir du début de l’époque romaine (voir p.ex. <ref target="https://papyri.info/biblio/79288">Lippert et Schentuleit 2010</ref>: 15, 152, 403. Le même remplacement de <emph rend="italics">pȝ</emph> par <emph rend="italics">pȝy</emph> revient de toute vraisemblance à la ligne 7.</p>
+                     <p xml:id="p17">Le déterminatif de la chair de <ref target="#fac1b"><emph rend="italics">nš</emph></ref> « rate » est assez effacé. Ce mot  apparaît dans les glossaires démotiques uniquement sous les formes <emph rend="italics">neš</emph> et <emph rend="italics">nyš</emph> (<ref target="https://papyri.info/biblio/97738">DemotGloss</ref>: 207 ; <ref target="https://papyri.info/biblio/97748">CDD</ref>: <emph rend="italics">n</emph>, 20–22), basées sur deux attestations romaines – P.Rhind I (<ref target="http://www.trismegistos.org/text/57970">TM 57970</ref>), col. 2d, l. 12 (<emph rend="italics">neš</emph>), 9 av.n.è., et P.Mag. Londres-Leyde (<ref target="http://www.trismegistos.org/text/55955">TM 55955</ref>) col. 21, l. 31 (<emph rend="italics">nyš</emph>), IIe-IIIe s. de n.è. – qui correspondent déjà à la vocalisation des formes coptes ⲛⲟⲉⲓϣ (S), ⲛⲁⲓϣ (SA), ⲛⲱⲓϣ (B) (<ref target="https://papyri.info/biblio/96532">Crum, Dict.</ref>: 236a). Il provient de l’ancien <emph rend="italics">nnšm</emph> « rate » (<ref target="https://papyri.info/biblio/97693">Wb II</ref>: 276 ; <ref target="https://papyri.info/biblio/97747">Westendorf 1999</ref>: 187 ; pour cette correspondance, voir déjà <ref target="https://papyri.info/biblio/97709">Gardiner 1947</ref>: *249, n° 600). Mais déjà dans le <ref target="#graphCB">papyrus Chester-Beatty VIII</ref> = pBM EA 10688 (<ref target="http://www.trismegistos.org/text/381085">TM 381085</ref>), de l’époque Ramesside, on trouve la graphie plus moderne <emph rend="italics">nš{.t}</emph> (rto col. 8, l. 5 ter (<ref target="https://papyri.info/biblio/97708">Gardiner 1935</ref>: pl. 42)  à côté de l’ancienne forme <emph rend="italics">nnšm</emph> (vso col. 4, l. 10 (<ref target="https://papyri.info/biblio/97708">Gardiner 1935</ref>: pl. 45). Dans les <ref target="#graphOAD"><emph rend="italics">Oracular Amuletic Decrees</emph></ref> (XXIe-XXIIIe dyn.), on trouve de façon quasi-systématique la forme <emph rend="italics">nšỉ</emph> ou <emph rend="italics">nšỉw</emph> : L.3 = pBM EA 10308 (<ref target="http://www.trismegistos.org/text/381184">TM 381184</ref>), B 59–60 (<ref target="https://papyri.info/biblio/97737">Edwards 1960</ref>: 25, pl. VIII et VIIIa) : <emph rend="italics">pȝy=s{t} nšỉw</emph>; L.6 = pBM EA 10587 (<ref target="https://www.trismegistos.org/text/380697">TM 380697</ref>) rt, 35–36 (<ref target="https://papyri.info/biblio/97737">Edwards 1960</ref>: 37, pl. XII et XIIa) : <emph rend="italics">pȝy=f nšỉw</emph>; T.1 = pTurin Cat. 1983  (<ref target="https://www.trismegistos.org/text/1003740">TM 1003740</ref>) vs, 90–91<emph rend="bold"> </emph>(<ref target="https://papyri.info/biblio/97737">Edwards 1960</ref>: 60, pl. XXI et XXIa) : <emph rend="italics">pȝy=s{t} nšỉ</emph>; T.2 = pTurin Cat. 1984  (<ref target="https://www.trismegistos.org/text/1003741">TM 1003741</ref>) vs, 37 (<ref target="https://papyri.info/biblio/97737">Edwards 1960</ref>: 70, pl. XXV et XXVa) : <emph rend="italics">pȝy=s{t} nšỉw</emph>; P.4<emph rend="bold"> = </emph>pParis Bibl.nat. 182, 49 (<ref target="https://www.trismegistos.org/text/1003742">TM 1003742</ref>) (<ref target="https://papyri.info/biblio/97737">Edwards 1960</ref>: 91, pl. XXX et XXXa) : <emph rend="italics">pȝy=f nšỉ</emph>; C.2 = pBM EA 10899 (<ref target="http://www.trismegistos.org/text/381012">TM 381012</ref>) rt, 35 (<ref target="https://papyri.info/biblio/97737">Edwards 1960</ref>: 100, pl. XXXIX et XXXIXa) : <emph rend="italics">nšỉ</emph>; B = pBerlin P. 10462 rt, 85 (<ref target="https://www.trismegistos.org/text/1003743">TM 1003743</ref>) (<ref target="https://papyri.info/biblio/97737">Edwards 1960</ref>: 113, pl. XLVI et XLVIa) : <emph rend="italics">pȝy=s{t} nšỉ</emph>, une fois aussi écrit <emph rend="italics">nnšm{.t}</emph>, voir T.2 = pTurin Cat. 1984 rt 70 (<ref target="https://www.trismegistos.org/text/1003741">TM 1003741</ref>) (<ref target="https://papyri.info/biblio/97737">Edwards 1960</ref>: 65, pl. XXIII et XXIIIa), probablement dû à une origine plus ancienne de cette partie du texte. </p>
+                  </note>
+                  <figure xml:id="fac1a">
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258959"/>
+                     <head>Fig. 2</head>
+                  </figure>
+                  <figure xml:id="fac1b">
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258961"/>
+                     <head>Fig. 3</head>
+                  </figure>
+                  <figure xml:id="graphCB">
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258993"/>
+                     <head>Fig. 4</head>
+                  </figure>
+                  <figure xml:id="graphOAD">
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258995"/>
+                     <head>Fig. 5</head>
+                  </figure>
+                  <note target="#ed1ln1">
+                     <ref>1–2</ref>
+                     <p xml:id="p18"> La formule <emph rend="italics">ỉw=s ḏnṱ m-šs</emph>, littéralement « elle étant très éprouvée » (<ref target="https://papyri.info/biblio/97738">DemotGloss</ref>: 682. <ref target="https://papyri.info/biblio/97748">CDD</ref>: <emph rend="italics">ḏ</emph>, 58 ; voir aussi le copte ϫⲱⲛⲧ (SAA2BF), ϭⲱⲛⲧ (B) « essayer, tester », <ref target="https://papyri.info/biblio/96532">Crum, Dict.</ref>: 775a–776a) se retrouve également dans une recette du papyrus « gynécomagique » Berlin P. 13602 (<ref target="http://www.trismegistos.org/text/55969">TM 55969</ref>), Fr. B, col. x+2, l. x+7  (<ref target="https://papyri.info/biblio/97666">Quack, von Lieven et Krutzsch 2018</ref>: 266), et de façon proche dans plusieurs formules du papyrus magique Londres-Leyde (<ref target="http://www.trismegistos.org/text/55955">TM 55955</ref>) : col. 29, l. 1 : <emph rend="italics">twy=s gy n šn n pȝ rʿ ỉw=w ḏd n-ỉm=f ḏd ỉw=f ḏnṱ m-šs sp-2</emph> « Voici une méthode pour interroger le soleil dont on dit qu’elle est très, très éprouvée » ; voir aussi col. 8, l. 12 et col. 14, l. 31 (<emph rend="italics">ḏnṱ sp-9</emph> « éprouvé neuf fois ») ; col. 4, l. 23, col. 5, l. 3, col. 22, l. 1 et col. 24, l. 1 (<emph rend="italics">ḏnṱ </emph>« éprouvé », sans adverbiale). Voir pour des graphies comparables de <emph rend="italics">m-šs</emph> pBM EA 10508 (<ref target="http://www.trismegistos.org/text/55919">TM 55919</ref>; <ref target="https://papyri.info/biblio/97745">Thissen 1984</ref>: 123). Des clauses d’efficacité des formules et recettes (magico-)médicales, quoique phrasées différemment, sont déjà attestées dans les manuels médicaux égyptiens des époques antérieures. Depuis le Moyen Empire et au moins jusqu’à l’époque tardive, on trouve ainsi l’expression <emph rend="italics">sšr </emph>« excellent » ou <emph rend="italics">sšr-mȝʿ</emph> « vraiment excellent », souvent suivi de <emph rend="italics">ḥḥ n sp</emph> « (testé) des millions de fois », à la fin de formules ou recettes, p. ex. pLondres UC 32057 = pKahun VI.1 (<ref target="http://www.trismegistos.org/text/755254">TM 755254</ref>), col. 3, l. 26 ; pEdwin Smith vso col. 5, l. 10 ; pHearst (<ref target="http://www.trismegistos.org/text/755221">TM 755221</ref>), col. 6, l. 2et 11 ; pEbers (<ref target="http://www.trismegistos.org/text/755220">TM 755220</ref>), col. 1, l. 11 [= Eb 1], col. 2, l. 1 [= Eb 2], l. 6 [= Eb 3] et souvent ailleurs dans le texte ; pBrooklyn 47.218.48+85 (<ref target="https://www.trismegistos.org/text/58496">TM 58496</ref>, « Traité d’ophiologie »), col. 4, l. 2 ; pBrooklyn 47.218.2, par exemple col. x+3, l. 8–9 (<ref target="https://papyri.info/biblio/97661">Guermeur 2015–2016</ref>: 19).</p>
+                  </note>
+                  <note target="#ed1ln3">
+                     <ref>3</ref>
+                     <p xml:id="p19"> Le mot <ref target="#fac3"><emph rend="italics">sym</emph></ref> est ici déterminé avec un signe de l’arbre très proche du hiératique (<ref target="https://papyri.info/biblio/97743">Möller 1936</ref>: 25, no 266) qui, de ce fait, ressemble plutôt au classificateur démotique du phallus, et un autre déterminatif partiellement effacé, probablement le signe de la plante. Ce dernier manque dans la répétition du mot à la ligne 9. <ref target="https://papyri.info/biblio/97738">DemotGloss</ref>: 430 et <ref target="https://papyri.info/biblio/97748">CDD</ref>: <emph rend="italics">s</emph>, 207–211, ne donnent pour <emph rend="italics">sym</emph> que le sens « herbe, plante, légume », tout en traduisant <emph rend="italics">nḥḥ n sym</emph> comme « huile de radis » (<ref target="https://papyri.info/biblio/97748">CDD</ref>: <emph rend="italics">s</emph>, 210). Pour le mot copte ⲥⲓⲙ, qui couvre également les sens « herbe, fourrage, plante herbacée », correspondant aux mots grecs χόρτος et ποία, mais aussi « radis », voir Crum 1939 : 334a-b, et <ref target="https://papyri.info/biblio/97706">Till 1951</ref>: 88 (no 125). Dans les cas où il fallait distinguer le radis (<emph rend="italics">sym</emph>) d’autres plantes (<emph rend="italics">sym</emph>), le terme <emph rend="italics">sym sp-2</emph>, littéralement « <emph rend="italics">sym</emph> deux fois » pour « <emph rend="italics">sym</emph> (en tant que) <emph rend="italics">sym</emph> », peut être employé (<ref target="https://papyri.info/biblio/97702">Lippert et Schentuleit 2022</ref>: 241–242).</p>
+                  </note>
+                  <figure xml:id="fac3">
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258965"/>
+                     <head>Fig. 6</head>
+                  </figure>
+                  <note target="#ed1ln3">
+                     <ref>3–4</ref>
+                     <p xml:id="p20"> Le terme <emph rend="italics">sym wynn</emph> – voir aussi lignes 9–10 – semble jusqu’ici seulement attesté dans un autre document démotique, le serment de temple oAshmolean Museum Bodl. Eg. Inscr. 272 (<ref target="http://www.trismegistos.org/text/50538">TM 50538</ref>), l. 5 (<ref target="https://papyri.info/biblio/95309">Kaplony-Heckel 1963</ref>: 222–224, no 126 ; pl. 120 ; photographie dans Enchoria 17 (1990), pl. 24 « Ergänzungstafel 17/9 »). Ce serment a été imposé à l’accusé dans un procès devant les juges de Djémé (Memnoneion, <ref target="http://www.trismegistos.org/place/1341">TM Geo 1341</ref>) qui traitait de la disparition (?) d’un panier de ce produit. <ref target="https://papyri.info/biblio/95309">Kaplony-Heckel 1963</ref>: 223 traduit <emph rend="italics">sym wynn</emph> par « jonisches Gras » (« herbe ionienne ») ou « joinisches Heu » (« foin ionien ») ; elle suggère qu’il doit s’agir d’une plante introduite ou estimée par les Grecs, mais cultivée en Égypte. Même si Kaplony-Heckel ne le nomme pas, sa traduction fait penser au fenugrec (<emph rend="italics">Trigonella foenum-graecum</emph>), une espèce de légumineuses proche du trèfle qui a justement été nommé « foin grec » (<emph rend="italics">fenum graecum</emph>) par les Romains, mais dont le nom égyptien n’était pas encore connu (voir <ref target="https://papyri.info/biblio/97739">Germer 1985</ref>: 68–69 et <ref target="https://papyri.info/biblio/97740">Germer 2008</ref>: 353–354, qui refute les identifications de <ref target="https://papyri.info/biblio/97663">Dawson 1926</ref>: 240–241 et de <ref target="https://papyri.info/biblio/97704">Loret 1935–1938</ref>: 866–876). Si à première vue une traduction « radis grec » ne semble pas exclue, les parallèles très proches entre la recette de l’ostracon Athribis 22–36-49/3930 et les passages de Dioscoride et de Pline cités plus hauts font pencher la balance en faveur du fenugrec. </p>
+                  </note>
+                  <note target="#ed1ln5">
+                     <ref>5</ref>
+                     <p xml:id="p21"> <emph rend="italics">ḥsmn</emph>  « natron » est suivi d’un déterminatif petit, difficile à identifier ; à la ligne 11, il semble s’agir du signe du grain (<ref target="https://papyri.info/biblio/97710">Gardiner 1950</ref>: 490, N33), sans les traits du pluriel.</p>
+                     <p xml:id="p22">Le scribe avait oublié le suffixe <emph rend="italics">=f</emph> de <emph rend="italics">ỉw=f</emph> et l’a rajouté au-dessus de la ligne. </p>
+                     <p xml:id="p23"><ref target="#fac5a">Le mot qui suit <emph rend="italics">ỉw`=f´</emph> revient à la ligne 12</ref>. Dans les deux cas, il fait partie d’une qualification du mot <emph rend="italics">ḥsmn</emph> « natron » : à la ligne 5, où <emph rend="italics">ḥsmn</emph> est indéfini, il est utilisé dans une phrase circonstancielle, et dans les lignes 11–12, où <emph rend="italics">ḥsmn</emph> est précédé par l’article défini <emph rend="italics">pȝ</emph>, dans une phrase relative avec <emph rend="italics">nty</emph>. Il doit donc s’agir d’un verbe, ce qui exclut la lecture <emph rend="italics">(n) nbw</emph> « (d’)or », c’est-à-dire, « doré », à laquelle on aurait pu penser : <ref target="https://papyri.info/biblio/97694">von Deines et Grapow 1959</ref>: 369–372, mentionnent en effet différentes variétés de natron (<emph rend="italics">ḥsmn</emph>) – sans qualificatif, <emph rend="italics">ḥsmn wʿb</emph> « natron pur », <emph rend="italics">ḥsmn dšr</emph> « natron rougeâtre » (probablement coloré par des impuretés ferreuses) et <emph rend="italics">ḥsmn n sḫ.t</emph> « natron du champ (du Wadi Natroun ?) ». La lecture correcte est sans aucun doute <emph rend="italics">nʿ</emph> « être fin, lisse, en poudre », avec un <emph rend="italics">n</emph> horizontal très arrondi, comme cela est caractéristique pour ce signe lorsqu’il est placé au-dessus d’un autre dans le démotique tardif du Panopolite. Ce terme est bien attesté dans des textes médicaux, généralement dans l’instruction <emph rend="italics">nḏ snʿʿ</emph> « broyer finement » (<ref target="https://papyri.info/biblio/97693">Wb II</ref>: 370, s.v. <emph rend="italics">nḏ </emph>; <emph rend="italics">snʿʿ</emph> est le causatif de <emph rend="italics">nʿʿ</emph> « être lisse »), en démotique <emph rend="italics">dỉ.t nʿ</emph> « rendre lisse », « réduire en poudre » (<ref target="https://papyri.info/biblio/97738">DemotGloss</ref>: 208; <ref target="https://papyri.info/biblio/97748">CDD</ref>:<emph rend="italics"> n</emph>, 24). La graphie purement phonétique rencontrée ici, sans aucun déterminatif, est inhabituelle, mais elle pourrait être liée soit à un manque de familiarité du scribe avec ce mot, soit au peu d’espace disponible à la fin de la ligne 5, et de manière générale, à la ligne 12. On s’attendrait en effet à l’ajout de la palette de scribe sur laquelle on broyait les pigments, comme dans le papyrus magique Londres-Leyde (<ref target="http://www.trismegistos.org/text/55955">TM 55955</ref>), col. 24, l. 15 (et souvent ailleurs dans ce texte). Pour la valeur phonétique <emph rend="italics">nʿ(ʿ)</emph> du signe hiéroglyphique de la palette de scribe (<ref target="https://papyri.info/biblio/97710">Gardiner 1950</ref>: 534, Y3 et Y4), qui est à l’origine de l’utilisation du signé démotique correspondant dans d’autres mots avec la racine <emph rend="italics">nʿ(ʿ)</emph>, avec ou sans lien étymologique avec <emph rend="italics">nʿ(ʿ)</emph> « fin, lisse », voir <ref target="https://papyri.info/biblio/97701">Lippert 2025</ref>: 192–193. D’autres déterminatifs possibles de <emph rend="italics">nʿ</emph> « être fin, lisse, en poudre » sont le bras armé pour indiquer l’action physique du broyage, comme dans P. Tebt. Tait 18 (<ref target="http://www.trismegistos.org/text/55971">TM 55971</ref>), col. 2, l. 9, ou même les jambes qui marchent comme dans le pBerkeley 57 (<ref target="http://www.trismegistos.org/text/978060">TM 978060</ref>), rto, l. x+7 (description et photo : <ref target="https://papyri.info/biblio/97700">Lippert 2022</ref>: 81–83 ; l’édition de ce texte est préparée par Amber Jacob dans le cadre du projet « Scientific Papyri from ancient Egypt »). Le choix inattendu de ce dernier déterminatif vient probablement d’une confusion avec le verbe <emph rend="italics">nʿ</emph> « aller, marcher » (<ref target="https://papyri.info/biblio/97738">DemotGloss</ref>: 207–208; <ref target="https://papyri.info/biblio/97748">CDD</ref>: <emph rend="italics">n</emph>, 22–24).</p>
+                  </note>
+                  <figure xml:id="fac5a">
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258969"/>
+                     <head>Fig. 7</head>
+                  </figure>
+                  <note target="#ed1ln6">
+                     <ref>6</ref>
+                     <p xml:id="p24"> Le substantif <ref target="#fac6"><emph rend="italics">wrḥ</emph></ref> – on comparera l’emploi avec l’article défini masculin dans la répétition de ce terme à la ligne 13 – ne semble pour l’instant que rarement attesté en démotique, qui connaît avant tout le verbe <emph rend="italics">wrḥ</emph>  « oindre, enduire » (<ref target="https://papyri.info/biblio/97738">DemotGloss</ref>: 94 ; voir toutefois <ref target="https://papyri.info/biblio/97748">CDD</ref>: <emph rend="italics">w</emph>, 123–124). Aux époques antérieures, le substantif masculin <emph rend="italics">wrḥ</emph> est également rare : dans les textes médicaux du Moyen et Nouvel Empire, il ne semble jamais être employé comme un ingrédient dans des préparations médicales, et c’est principalement le substantif féminin <emph rend="italics">wrḥ.t</emph> « onguent, pommade » qui apparaît comme désignation de la forme d’application d’un médicament (<ref target="https://papyri.info/biblio/97686">Wb I</ref>: 335; <ref target="https://papyri.info/biblio/97695">von Deines et Westendorf 1961</ref>: 199–200). Voir toutefois pBM EA 10757 = P.Ramesseum IV (TM 380844) recto, fragment C, l 30 : « cette formule est à prononcer sur un peu d’onguent (<emph rend="italics">nh n wrḥ</emph>), à mettre sur le sommet de la tête de la femme qui est en train de donner naissance ».</p>
+                     <p xml:id="p25">L’étymologie suggère que l’ingrédient <emph rend="italics">wrḥ</emph> est une sorte d’huile ou de graisse qui est habituellement utilisée pour l’onction, et le manque de précision quant à son origine végétale ou animale pourrait indiquer qu’il n’était pas censé apporter des effets thérapeutiques, mais servait uniquement à transformer le remède en une pâte qu’on pouvait ensuite appliquer plus facilement comme baume ou cataplasme. </p>
+                     <p xml:id="p26">L’apparence du déterminatif du pot après <emph rend="italics">wrḥ</emph> est curieuse. Considérant que la forme habituelle de ce signe se retrouve dans le mot <emph rend="italics">pwr</emph> à la ligne 7 et aussi dans <emph rend="italics">wrḥ</emph> à la ligne 14, le scribe s’est peut-être corrigé.</p>
+                  </note>
+                  <figure xml:id="fac6">
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24262740"/>
+                     <head>Fig. 8</head>
+                  </figure>
+                  <note target="#ed1ln7">
+                     <ref>7</ref>
+                     <p xml:id="p27"> Le groupe <emph rend="italics">wr</emph> du mot <ref target="#fac7"><emph rend="italics">pwr</emph></ref> « vinaigre » prend une forme assez inhabituelle sur cet ostracon, non seulement ici mais aussi à la ligne 14. Pour la graphie normale dans la région panopolite à la fin de l’époque ptolémaïque, voir le même mot dans le papyrus BM EA 10508 (<ref target="http://www.trismegistos.org/text/55919">TM 55919</ref>), col. 22, l. 13, <ref target="https://papyri.info/biblio/97745">Thissen 1984</ref>: 34 et 76 lit ce mot de façon erronée <emph rend="italics">mnḫ</emph> et traduit « Kleid, feines Linnen » ; la lecture correcte a été établie par <ref target="https://papyri.info/biblio/97766">Hoffmann et Quack 2018</ref> : 330 et 425, n. bb.</p>
+                     <p xml:id="p28"><ref target="#fac7c">Le groupe</ref> qui suit l’article démonstratif <emph rend="italics">pȝy</emph> est à première vue énigmatique. Il doit s’agir d’un substantif dont dépend <emph rend="italics">n mnḳ=s</emph>, à la ligne suivante, comme complément du génitif. Le candidat le plus probable est <emph rend="italics">gy</emph> « façon », régulièrement construit avec le <emph rend="italics">n</emph> du génitif, puis l’infinitif d’un verbe dans l’expression « façon/manière de faire quelque chose », d’autant plus qu’il est possible d’y reconnaître le signe de la momie débout qui détermine généralement ce mot. Une telle graphie purement idéographique – proposée par J. Quack lors de la relecture de cet article, au lieu de ma suggestion de lire g‹y› avec superposition du déterminatif de la momie – serait inhabituelle en démotique, mais il est plausible que le scribe, arrivé en fin de ligne et se rendant compte qu’il ne lui restait pas assez de place pour le mot entier, l’ait ainsi abrégé. Le contexte suggère que l’article démonstratif qui précède le mot <emph rend="italics">gy</emph> « façon » est, là aussi, une faute pour l’article défini <emph rend="italics">pȝ</emph>, voir le commentaire à la <ref target="#p18">ligne 1</ref>.</p>
+                  </note>
+                  <figure xml:id="fac7">
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258975"/>
+                     <head>Fig. 9</head>
+                  </figure>
+                  <figure xml:id="fac7c">
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258979"/>
+                     <head>Fig. 10</head>
+                  </figure>
+                  <note target="#ed1ln8">
+                     <ref>8</ref>
+                     <p xml:id="p29"> Une graphie très proche de <ref target="#fac8a"><emph rend="italics">mnḳ</emph></ref> « finir, achever » (<ref target="https://papyri.info/biblio/97738">DemotGloss</ref>: 164 ; <ref target="https://papyri.info/biblio/97748">CDD</ref>: <emph rend="italics">m</emph>, 119–120) se trouve dans le papyrus Harkness (<ref target="http://www.trismegistos.org/text/54058">TM 54058</ref>), col. 1, l. 28 et col. 3, l. 27 (<ref target="https://papyri.info/biblio/95166">Smith 2005</ref>: 314). Ce papyrus funéraire provient d’une ville de la 10<hi rend="superscript">e</hi> province de Haute Égypte, non loin de Hout-Répit, et date de peu après 61 de n.è. Pour la distinction entre <emph rend="italics">q</emph> et <emph rend="italics">ḳ</emph>, voir <ref target="https://papyri.info/biblio/97664">Vittmann 1996</ref>: 1–12. Le mot peut être utilisé dans le sens de « préparer » (ainsi déjà <ref target="https://papyri.info/biblio/97738">DemotGloss</ref>: 164) et « confectionner, fabriquer », pour des bâtiments ou encore des meubles, par exemple dans la dédicace pour le naos en bois Baltimore, Walters Art Museum 61.271 (<ref target="http://www.trismegistos.org/text/220418">TM 220418</ref>) : « celui qui a fait confectionner cette boîte » (<emph rend="italics">pȝ ỉ.ỉr dỉ.t mnq tȝy ʿfṱy(.t)</emph>) (<ref target="https://papyri.info/biblio/97703">Schulz et Jasnow 2012</ref>: 248). Le sens « confectionner » convient également ici où il s’agit de la préparation du remède. </p>
+                  </note>
+                  <figure xml:id="fac8a">
+                     <ptr ana="hc:HeidICONImageResourceReference" target="https://heidicon.ub.uni-heidelberg.de/detail/24258985"/>
+                     <head>Fig. 11</head>
+                  </figure>
+                  <note target="#ed1ln9">
+                     <ref>9–10</ref>
+                     <p xml:id="p30"> <emph rend="italics">wy</emph>|<emph rend="italics">nn</emph> est distribué sur deux lignes ; le premier <emph rend="italics">n</emph> est nettement plus grand que le deuxième. </p>
+                  </note>
+                  <note target="#ed1ln11">
+                     <ref>11–12</ref>
+                     <p xml:id="p31"> La fin du signe <emph rend="italics">nty</emph> (l. 11) et la partie gauche du mot <emph rend="italics">ḥȝ.t</emph> (l. 12) dépassent sur une partie du tesson où un éclat s’était détaché de la surface avant la réutilisation.</p>
+                  </note>
+                  <note target="#ed1ln13">
+                     <ref>13–14</ref>
+                     <p xml:id="p32"> Le <emph rend="italics">w</emph> de <emph rend="italics">wrḥ</emph>, à la fin de la ligne 13, est également écrit sur la partie endommagée du tesson ; le reste du mot est renvoyé à la ligne 14. </p>
+                  </note>
+                  <note target="#ed1ln14">
+                     <ref>14</ref>
+                     <p xml:id="p33"> La forme du <emph rend="italics">p</emph> de <ref target="#fac7"><emph rend="italics">pwr</emph></ref>, très angulaire, est différente de celle employée dans le même mot à la ligne 7. Le déterminatif du pot est écrit sur la partie endommagée, assez rugueuse, et de ce fait plus difficile à distinguer.</p>
+                  </note>
+               </div>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97705">André, J. (1972)</ref> Pline l’Ancien, Histoire Naturelle Livre XXIV. Texte établi, traduit et commenté par Jacques André. Collection des Universités de France. Paris.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97011">Arlt, C. (2011)</ref> Deine Seele möge leben für immer und ewig. Die demotischen Mumienschilder im British Museum. Studia Demotica 10. Leuven, Paris, Walpole, MA. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97668">Bardinet, T. (2018)</ref> Médecins et magiciens à la cour du pharaon. Une étude du papyrus médical Louvre E 32874. Paris.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97707">Beck, L.Y. (2011)</ref> Pedanius Dioscorides of Anazarbus, De materia medica. Translated by Lily Y. Beck. Altertumswissenschaftliche Texte und Studien 38. 2e éd. Hildesheim, Zürich, New York.</bibl>
+                  <bibl>Crum, Dict. = <ref target="https://papyri.info/biblio/96532">Crum, W.E. (1939)</ref> Coptic Dictionary. Oxford.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97663">Dawson, W. (1926)</ref> « The Plant called ‘Hairs of the earth’ », <emph rend="italics">Journal of Egyptian Archaeology</emph> 12 : 240–241.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97694">von Deines, H. et Grapow, H. (1959)</ref> Wörterbuch der ägyptischen Drogennamen. Grundriss der Medizin der alten Ägypter VI. Berlin.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97695">von Deines, H. et Westendorf, W. (1961)</ref> Wörterbuch der medizinischen Texte. Erste Hälfte (<emph rend="italics">ȝ</emph>-<emph rend="italics">r</emph>). Grundriss der Medizin de alten Ägypter VII.1. Berlin.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97737">Edwards, I.E.S. (1960)</ref> Hieratic Papyri in the British Museum Fourth Series. Oracular Amuletic Decrees of the Late New Kingdom. Londres.</bibl>
+                  <bibl>DemotGloss = <ref target="https://papyri.info/biblio/97738">Erichsen, W. (1954)</ref> Demotisches Glossar. Copenhague.</bibl>
+                  <bibl>Wb I = <ref target="https://papyri.info/biblio/97686">Erman, A., Grapow, H. (éd.) (1926)</ref> Wörterbuch der ägyptischen Sprache I. Leipzig. </bibl>
+                  <bibl>Wb II = <ref target="https://papyri.info/biblio/97693">Erman, A., Grapow, H. (éd.) (1928)</ref> Wörterbuch der ägyptischen Sprache II. Leipzig.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97708">Gardiner, A.H. (1935)</ref> Hieratic Papyri in the British Museum Third Series. Chester Beatty Gift. Londres.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97709">Gardiner, A.H. (1947)</ref>, Ancient Egyptian Onomastica. Oxford.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97710">Gardiner, A.H. (1950)</ref> Egyptian Grammar, being an introduction to the study of hieroglyphs. 2e éd. Oxford.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97739">Germer, R. (1985)</ref> Flora des pharaonischen Ägypten. Sonderschrift des Deutschen Archäologischen Institutes Kairo 14. Mayence.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97740">Germer, R. (2008)</ref> Handbuch der altägyptischen Heilpflanzen. Philippika. Marburger altertumskundliche Abhandlungen 21. Wiesbaden.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97741">Gitton-Ripoll, V. (2009)</ref> « Pourquoi il ne faut pas traduire <emph rend="italics">nitrum</emph> par ‘nitre’ : emplois thérapeutiques de ce minéral dans la médecine humaine et vétérinaire des Romains (Pline, <emph rend="italics">N.H</emph>. 31, 106–117, Scribonius Largus, Pelagonius) », Bulletin de la Société Française d’Histoire de la Médecine et des Sciences Vétérinaires 9 : 5–16.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97742">Grapow, H. (1954)</ref> Anatomie und Physiologie. Grundriss der Medizin der alten Ägypter I. Berlin.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97661">Guermeur, I. (2015–2016)</ref> Le papyrus hiératique iatromagique no 47.218.2 du musée de Brooklyn », Bulletin de la Société française d’égyptologie 193–194 : 10–28.</bibl>
+                  <bibl>CDD = <ref target="https://papyri.info/biblio/97748">Johnson, J.H. (éd.) (2001)</ref> The Chicago Demotic Dictionary. Chicago.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97766">Hoffmann F. et Quack, J.F. (2018)</ref> Anthologie der demotischen Literatur. Einführungen und Quellentexte zur Ägyptologie 4, 2<hi rend="superscript">e</hi> édition, significativement élargie. Munster.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95309">Kaplony-Heckel, U. (1963)</ref> Die demotischen Tempeleide. Ägyptologische Abhandlungen 6. Wiesbaden.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/79288">Lippert, S. et Schentuleit, M. (2010)</ref> Demotische Dokumente aus Dime III. Urkunden. Mit Beiträgen von Fabian Reiter. Wiesbaden.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97700">Lippert, S. (2022)</ref> « Fragment of a Demotic Medical Manuscript Pertaining to Stomach Ailments », dans E. Cole, T. Hickey (éd.), “<emph rend="italics">Of exceptional importance and interest” <emph rend="italics">Papyri Curated by Affiliates of the Center for the Tebtunis Papyri</emph>
+                     </emph>. The Bancroft Library Keepsake 62. Berkeley : 81–83.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97702">Lippert, S. et Schentuleit, M. (2022)</ref> « Papyrus Berlin P. 7056 : Division of a <emph rend="italics">kleros</emph> between Members of a Priestly Family from Roman Soknopaiou Nesos », dans B. Bryan, M. Smith, C. DiCerbo, M. Escolano-Poveda, et J. S. Waller (éd.), One Who Loves Knowledge. Studies in Honor of Richard Jasnow. Material and Visual Culture of Ancient Egypt 6. Columbus, Georgia : 235–261.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97662">Lippert, S. (2023)</ref> « Les ostraca d’Athribis (Hout-Répit) en Haute Égypte » , BSFE 208 : 15–44.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97701">Lippert, S. (2025)</ref> « Wortspiele in der <emph rend="italics">Demotischen Chronik</emph>, dem <emph rend="italics">Mythos vom Sonnenauge</emph> und Horapollons <emph rend="italics">Hieroglyphika</emph> » dans F. Löffler, D. von Recklinghausen, A. Rickert, et B. Ventker (éd.), Tempel, Tiere, Sternenhimmel. Studien zur altägyptischen Religion und Wissenschaft für Christian Leitz. Wiesbaden : 179–200.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97704">Loret, V. (1935–1938)</ref> « Pour transformer un vieillard en jeune homme (Pap. Smith, XXI,9–XXII, 10) », dans Mélanges Maspero I. Orient Ancien. Mémoires publiés par les membres de l’Institut français d’archéologie orientale du Caire 66. Le Caire : 853–877.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97743">Möller, G. (1936)</ref> Hieratische Paläographie III. Leipzig, 2e éd.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97744">Popko, L., Schneider, U. J. et Scholl, R. (2021)</ref> Papyrus Ebers. Die größte Schriftrolle zur altägyptischen Heilkunst. Darmstadt.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97667">Quack, J.F. (1998)</ref> « Kontinuität und Wandel in der spätägyptischen Magie », Studi epigrafici e linguistici sul Vicino Oriente antico. Nuova serie 15 (= numéro spécial « Magic in the Ancient Near East ») : 77–94.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97666">Quack, J.F., von Lieven, A. et Krutzsch, M. (2018)</ref> « Ist Liebe eine Frauenkrankheit ? Papyrus Berlin P 13602, ein gynäkomagisches Handbuch », dans K. Donker van Heel, F.A.J. Hoogendijk et C.J. Martin (éd.), Hieratic, Demotic and Greek Studies and Text Editions. Of Making Many Books there is No End: Festschrift in Honour of Sven P. Vleeming. Papyrologica Lugduno-Batava 34. Leiden-Boston : 257–274.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97703">Schulz, R. et Jasnow, R. (2012)</ref> « From Sobek to Tutu », dans J. Hallof (éd.), Auf den Spuren des Sobek. Festschrift für Horst Beinlich zum 28. Dezember 201<emph rend="italics">2</emph>. Studien zu den Ritualszenen altägyptischer Tempel 12. Dettelbach : 245–255.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95166">Smith, M. (2005)</ref> Papyrus Harkness (MMA 31.9.7). Oxford.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97745">Thissen, H.-J. (1984)</ref> Die Lehre des Anchscheschonqi (P. BM 10508), Papyrologische Texte und Abhandlungen 32. Bonn.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97706">Till, W.C. (1951)</ref> Die Arzneikunde der Kopten. Berlin.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97664">Vittmann, G. (1996)</ref> « Zum Gebrauch des <emph rend="italics">kȝ</emph>-Zeichens im Demotischen », Studi di egittologie et di Antichità puniche 15 : 1–12.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97746">Wellmann, M. (1907)</ref> Pedanii Dioscuridis Anazarbei De Materia Medica libri quinque edidit Max Wellmann Volumen I quo continentur libri I et II. Berlin.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97747">Westendorf, W. (1999)</ref> Handbuch der altägyptischen Medizin I. Handbuch der Orientalistik. Erste Abteilung Der Nahe und Mittlere Osten 36.1. Leiden, Boston, Köln.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Une recette médicale pour soigner la rate</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Digital Corpus of Literary Papyri</authority>
+               <idno type="dclp">1003739</idno>
+               <idno type="TM">1003739</idno>
+               <idno type="LDAB">1003739</idno>
+               <idno type="filename">1003739</idno>
+               <idno type="dclp-hybrid">pylon;9;6</idno>
+               <availability>
+                  <p>© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <idno type="invNo">O.Athribis 22-36-49/3930</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc>
+                           <support>
+                              <material>Ostrakon</material>
+                           </support>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>
+                              <p>wood codex (8 tablets) (columns: 0, pagination: 0)</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Hout-Répit</origPlace>
+                        <origDate notBefore="-0100" notAfter="0225" precision="low">I v.Chr. - Anfang III</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p> This file encoded to comply with EpiDoc Guidelines and Schema version 8 
+                </p>
+         </encodingDesc>
+         <profileDesc>
+            <textClass>
+               <keywords>
+                  <term>medicine</term>
+                  <term>recipe</term>
+                  <term>spleen</term>
+                  <term type="culture">science</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+         <revisionDesc>
+            <change when="2014-12-10" who="DCLP">Crosswalked to EpiDoc XML</change>
+         </revisionDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <!-- This text must be excluded from the transfer to DDbDP once Pylon 9 is published -->
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+                    <ab>
+                        <table>
+<row n="1" xml:id="ed1ln1">	
+	<cell style="text-align: left"><emph rend="italics">pẖr.t n ˹pȝ{y}˺ nš ỉw=s</emph></cell>
+	<cell style="text-align: left"/>
+          <cell style="text-align: left">Une recette pour la rate qui a fait</cell>
+</row>
+<row n="2" xml:id="ed1ln2">
+	
+	<cell style="text-align: left"><emph rend="italics">ḏnṱ ˹m-šs˺</emph></cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">toutes ses preuves :</cell>
+</row>                           
+<row n="3" xml:id="ed1ln3">
+          <cell style="text-align: right"><emph rend="italics">sym</emph></cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: right">herbe</cell>
+</row>                          
+<row n="4" xml:id="ed1ln4">
+	<cell style="text-align: left"><emph rend="italics">wyn˹n˺</emph></cell>
+	<cell style="text-align: left"/>
+	<cell style="text-align: left">grecque</cell>
+</row>
+<row n="5" xml:id="ed1ln5">
+	<cell style="text-align: left"><emph rend="italics">ḥsmn ỉw`=f ́ nʿ</emph></cell>
+	<cell style="text-align: left"/>
+          <cell style="text-align: left">natron en poudre,</cell>
+</row>
+<row n="6" xml:id="ed1ln6">
+	<cell style="text-align: left"><emph rend="italics">wrḥ</emph></cell>
+	<cell style="text-align: left"/>
+          <cell style="text-align: left">onguent,</cell>
+</row>
+<row n="7" xml:id="ed1ln7">
+	<cell style="text-align: left"><emph rend="italics">pwr pȝ{y} gy</emph></cell>
+	<cell style="text-align: left"/>
+          <cell style="text-align: left">vinaigre. La façon</cell>
+</row>
+<row n="8" xml:id="ed1ln8">
+	<cell style="text-align: left"><emph rend="italics">n mnḳ=s my</emph></cell>
+	<cell style="text-align: left"/>
+          <cell style="text-align: left">de la confectionner : mets</cell>
+</row>
+<row n="9" xml:id="ed1ln9">
+	<cell style="text-align: left"><emph rend="italics">pȝ sym wy-</emph></cell>
+	<cell style="text-align: left"/>
+          <cell style="text-align: left">l’herbe grec-</cell>
+</row>
+<row n="10" xml:id="ed1ln10">
+	<cell style="text-align: left"><emph rend="italics">nn ḥnʿ</emph></cell>
+	<cell style="text-align: left"/>
+          <cell style="text-align: left">que et</cell>
+</row>
+<row n="11" xml:id="ed1ln11">
+	<cell style="text-align: left"><emph rend="italics">pȝ ḥsmn nty</emph></cell>
+	<cell style="text-align: left"/>
+          <cell style="text-align: left">le natron</cell>
+</row>
+<row n="12" xml:id="ed1ln12">
+	<cell style="text-align: left"><emph rend="italics">nʿ r tȝ ḥȝ.t</emph></cell>
+	<cell style="text-align: left"/>
+          <cell style="text-align: left">en poudre d’abord,</cell>
+</row>
+<row n="13" xml:id="ed1ln13">
+	<cell style="text-align: left"><emph rend="italics">m-sȝ=s pȝ w-</emph></cell>
+	<cell style="text-align: left"/>
+          <cell style="text-align: left">ensuite l’on-</cell>
+</row>
+<row n="14" xml:id="ed1ln14">
+	<cell style="text-align: left"><emph rend="italics">rḥ pwr</emph></cell>
+	<cell style="text-align: left"/>
+          <cell style="text-align: left">guent (et le) vinaigre.</cell>
+</row>
+                        </table>
+                    </ab>
+                </div>
+            <!-- ends -->
+            <div xml:id="ed2" xml:lang="egy-Egyd" type="edition" xml:space="preserve">
+<ab>
+    <lb xml:id="ed2ln1" n="1"/>pẖr.t n <unclear>pȝ{y}</unclear> nš(.t) ỉw⸗s
+    <lb xml:id="ed2ln2" n="2"/>ḏnṱ <unclear>m-šs</unclear>
+    <lb xml:id="ed2ln3" n="3"/>sym
+    <lb xml:id="ed2ln4" n="4"/>wyn<unclear>n</unclear>
+    <lb xml:id="ed2ln5" n="5"/>ḥsmn ỉw<add place="above">⸗f</add> nʿ
+    <lb xml:id="ed2ln6" n="6"/>wrḥ
+    <lb xml:id="ed2ln7" n="7"/>pwr <unclear>pȝ{y}</unclear> gy
+    <lb xml:id="ed2ln8" n="8"/>n mnḳ⸗s my
+    <lb xml:id="ed2ln9" n="9"/>pȝ sym wy
+    <lb xml:id="ed2ln10" n="10" break="no"/>nn ḥnʿ
+    <lb xml:id="ed2ln11" n="11"/>pȝ ḥsmn nty
+    <lb xml:id="ed2ln12" n="12"/>nʿ r tȝ ḥȝ.t
+    <lb xml:id="ed2ln13" n="13"/>m-sȝ⸗s pȝ w-
+    <lb xml:id="ed2ln14" n="14" break="no"/>rḥ pwr
+</ab></div>
+            <div type="bibliography" subtype="principalEdition">
+               <listBibl>
+                  <bibl type="reference" subtype="catalogue">
+                     <ptr target="http://papyri.info/biblio/97xxx"/>
+                  </bibl>
+               </listBibl>
+            </div>
+            <div type="bibliography" subtype="illustrations">
+               <listBibl>
+                  <bibl type="online">
+                     <ptr target="https://doi.org/10.48631/pylon.2024.9.xxxxxx"/>
+                  </bibl>
+               </listBibl>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Register of receipts (?) from a military context</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">1003739</idno>
+               <idno type="TM">1003739</idno>
+               <idno type="HGV">1003739</idno>
+               <idno type="ddb-hybrid">pylon;9;6</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                            a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans2" xml:lang="fr" type="translation" xml:space="preserve">
+<p>
+<milestone unit="line" n="1"/> Une recette pour la rate qui a fait toutes ses épreuves : <milestone unit="line" n="3"/>herbe grecque, natron en poudre, onguent, vinaigre. <milestone unit="line" n="7"/>La façon de la confectionner : mets l’herbe grecque et le natron en  poudre d’abord, ensuite l’onguent (et le) vinaigre.
+</p>
+                </div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
