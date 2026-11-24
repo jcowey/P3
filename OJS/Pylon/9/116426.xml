@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS/tei_hes.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS/tei_hes.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader xmlns:hei="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS">
+        <fileDesc>
+            <titleStmt>
+                <title><ref ana="hc:ExternalLink" target="https://papyri.info/hgv/32291">O. Leid. 681</ref>: Α Letter Attesting the Latin Loanword <emph ana="hc:LightEmphasis">expungere</emph>
+                </title>
+                <author>
+                    <persName>
+                        <forename>Nikolaos</forename>
+                        <surname>Kolveris</surname>
+                    </persName>
+                    <affiliation>University of Athens</affiliation>
+                    <email>nkolveri@phil.uoa.gr</email>
+                    <idno ana="hc:ORCIDURI">https://orcid.org/0009-0002-5881-3621</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date/>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Propylaeum</orgName>
+                    <idno ana="hc:GNDURI">https://d-nb.info/gnd/1257896830</idno>
+                </publisher>
+                <pubPlace>
+                    <placeName>Heidelberg</placeName>
+                    <idno ana="hc:GNDURI">http://d-nb.info/gnd/4023996-2</idno>
+                </pubPlace>
+                <date when="2026">2026</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno ana="hc:PrivateIdentifier">pylon.9.1</idno>
+                <idno ana="hc:DOI">https://doi.org/10.48631/pylon.2024.9.116426</idno>
+            <listBibl><bibl ana="hc:RecommendedBibliographicReference">N. Kolveris, “O. Leid. 681: Α Letter Attesting the Latin Loanword expungere,” Pylon 9 (2026) Article 1. DOI: <ref ana="hc:URLReference" target="https://doi.org/10.48631/pylon.2026.9.116426">https://doi.org/10.48631/pylon.2026.9.116426</ref>.</bibl><biblStruct>
+                    <monogr>
+                        <title level="j" ana="hc:MainTitle">Pylon</title>
+                        <title level="j" ana="hc:Subtitle">Editions and Studies of Ancient Texts</title>
+                        <idno ana="hc:ISSN hc:DigitalPublicationIdentifier">2751-4722</idno>
+                        <imprint>
+                            <biblScope unit="volume">9</biblScope>
+                            <biblScope unit="article">1</biblScope>
+                            <date when="2026">2026</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct></listBibl></publicationStmt>
+            <sourceDesc>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <ab>Converted from a Word document for Pylon.</ab>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2026-05-07T09:36:26Z</date>
+                    <persName/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader><facsimile xmlns:hei="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS">
+        <surface xml:id="ed1surface1" ulx="0" uly="0" lrx="2174" lry="1387">
+                <zone type="text">
+                    <zone type="line" xml:id="ed1_line1" points="306,368 352,359 368,340 400,339 456,313 469,321 498,320 507,303 512,427 568,294 601,306 637,275 683,263 737,253 846,244 838,339 889,336 903,228 855,191 722,164 596,151 553,172 506,180 453,163 411,158 269,298 300,372"/>
+                    <zone type="line" xml:id="ed1_line2" points="1234,278 1145,308 1100,290 993,316 964,311 935,301 883,345 763,366 768,343 671,377 617,390 534,419 466,420 422,429 382,442 294,473 314,555 320,594 355,576 389,583 432,573 496,573 941,499 979,476 1026,473 1063,458 1104,460 1189,438 1261,444 1297,420 1499,386 1483,297"/>
+                    <zone type="line" xml:id="ed1_line3" points="602,734 663,715 722,700 1005,635 1192,658 1320,624 1389,612 1433,616 1500,597 1535,602 1600,580 1680,572 1753,553 1781,555 1862,531 1862,525 1857,506 1853,404 1779,396 1726,413 1686,419 1650,420 1595,432 1531,437 1486,443 1438,462 1363,462 1315,476 1234,492 1180,484 1134,501 1076,504 1000,509 924,526 901,531 710,571 612,595 496,586 294,609 366,785"/>
+                    <zone type="line" xml:id="ed1_line4" points="623,953 696,933 786,936 1073,903 1155,873 1211,868 1240,856 1312,856 1346,843 1422,822 1415,916 1553,797 1673,855 1879,776 1879,768 1876,753 1880,577 1758,612 1683,644 1352,677 1256,717 1151,710 1049,669 840,731 682,775 597,783 537,790 455,803 366,817 424,968"/>
+                    <zone type="line" xml:id="ed1_line5" points="487,1120 519,1114 556,1124 581,1117 610,1120 627,1110 674,1118 895,1092 906,1084 991,1081 1063,1051 1209,1036 1260,1040 1275,1029 1344,1021 1383,1027 1420,1020 1491,1026 1566,1018 1660,987 1702,988 1837,966 1856,838 1634,862 1548,905 1494,887 1449,963 1417,904 1365,878 1301,888 1257,913 1223,903 1153,930 1070,895 987,910 901,977 818,980 673,988 526,995 458,1030 487,1111"/>
+                    <zone type="line" xml:id="ed1_line6" points="542,1241 676,1238 701,1238 749,1243 814,1233 864,1232 916,1239 1022,1228 1073,1227 1111,1226 1147,1224 1210,1231 1285,1214 1370,1197 1419,1201 1517,1194 1588,1187 1653,1178 1761,1168 1813,1166 1824,1136 1812,1126 1848,1013 1765,1013 1739,1011 1698,1026 1663,1030 1619,1048 1566,1068 1531,1048 1462,1076 1421,1082 1372,1089 1333,1078 1276,1072 1084,1083 1031,1083 975,1090 927,1103 886,1125 854,1133 804,1116 759,1112 683,1122 645,1139 586,1143 509,1176 538,1221 540,1235"/>
+                </zone>
+            </surface>
+    </facsimile><text xmlns:hei="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS" ana="hc:CompleteExpression hc:BornDigitalExpression hc:ScholarlyArticle">
+        
+        <body>
+            <div rendition="hc:SuppressInTOC" type="article">
+                <p n="1" xml:id="p1">This ostracon, which is partly transcribed as a descriptum in O.Leid., contains a letter fragment.<note ana="hc:EditorialNote" place="foot" xml:id="ftn1" n="1">
+                        <p> See <ref ana="hc:ExternalLink" target="https://papyri.info/biblio/9394">Bagnall, Sijpesteijn and Worp 1980</ref>: 184. The edition of the ostracon is based on the digital photo, which is available at <ref ana="hc:ExternalLink" target="https://papyri.info/ddbdp/o.leid;;681/images">https://papyri.info/ddbdp/o.leid;;681/images</ref>.</p>
+                    </note> The sherd appears to be broken on all sides. The convex side has a reddish-brown color and preserves six incomplete lines in a fairly legible script, with only a few letters being slightly faded, while the concave is blank. The script points to a date between the third and fourth century.</p>
+                <p n="2" xml:id="p2">On the basis of the preserved text, we can only make conjectures about the content of the ostracon, knowing only that the sender dispatched some items to the addressee (ll. 5–6). We may assume that there is also content of a military nature owing to the rare word ἐξπουνγεύεσθαι, which is the loanword used in military contexts for Latin <emph ana="hc:LightEmphasis">expungere</emph> (“to strike off” the name of a soldier from the list of those on active duty, that is, “to discharge” a soldier).<note ana="hc:EditorialNote" place="foot" xml:id="ftn2" n="2">
+                        <p> On Latin loanwords in Greek see <ref ana="hc:ExternalLink" target="https://papyri.info/biblio/97527">Dickey 2023</ref>; for an overview of the loanwords used for <emph ana="hc:LightEmphasis">expungo</emph> and its derivatives see ibid. s.v. ἐξπούγγευσις, ἐξπουγγεύω, ἐξπούγκερος, ἐξπούγκτωρ.</p>
+                    </note> This task was the responsibility of the <emph ana="hc:LightEmphasis">expunctor</emph>, an official of the Roman army charged with the discharge of soldiers. It can also carry the general meaning “to check off” or “to strike off,” i.e. items on a list.<note ana="hc:EditorialNote" place="foot" xml:id="ftn3" n="3">
+                        <p> See L&amp;S s.v. <emph ana="hc:LightEmphasis">expungo</emph>. See also the notes to <ref ana="hc:ExternalLink" target="https://papyri.info/hgv/29678">O.Claud. 2 258</ref>.4–5 (mid II AD), <ref ana="hc:ExternalLink" target="https://papyri.info/hgv/21590">P.Oxy. 9 1204</ref>.16 (AD 299), <ref ana="hc:ExternalLink" target="https://papyri.info/hgv/20286">P.Kell. 1 21</ref>.9 (AD 321), and <ref ana="hc:ExternalLink" target="https://papyri.info/hgv/44813">Rom.Mil.Rec. 47</ref> col. 1, 16 (AD 223–235).</p>
+                    </note>
+                    <emph ana="hc:LightEmphasis">Expungo</emph> in the sense of “to check off” can likewise be associated with the practice of checking off soldiers who were destined to receive an award.<note ana="hc:EditorialNote" place="foot" xml:id="ftn4" n="4">
+                        <p> Cf. L&amp;S s.v. <emph ana="hc:LightEmphasis">expungo</emph> B and the cited example from Tertullian (Tert. Cor. Mil. 1 <emph ana="hc:LightEmphasis">expungebantur milites laureati</emph>).</p>
+                    </note>
+                </p>
+                <p n="3" xml:id="p3">In our text, it is unclear whether the infinitive carries the specific sense of discharging a soldier or the more general meaning of “checking off” or “striking off” items on a list. In papyri and ostraca, however, the verb and its derivatives are attested in military contexts: <ref ana="hc:ExternalLink" target="https://papyri.info/hgv/29678">O.Claud. 2 258</ref>.4–5 (mid II AD): ἐξ|πουγεύσαμεν των (l. τὸ) δονάτιβον); <ref ana="hc:ExternalLink" target="https://papyri.info/hgv/21590">P.Oxy. 9 1204</ref>.6–7 (AD 299): πρὸς ἐκσφούνγευσιν τῶν ἐκεῖσε διακειμένων στρατιωτῶν, l. 19: ἐκσφουνγεύειν τοὺς στρατιώτας; <ref ana="hc:ExternalLink" target="https://papyri.info/hgv/28141">BGU 2 435</ref>.14 (ΙΙ–ΙΙΙ AD): ἐξπούγκερος; <ref ana="hc:ExternalLink" target="https://papyri.info/hgv/20286">P.Kell. 1 21</ref>.8–9 (AD 321): τοὺς π̣αρεπιδημοῦντας στρατιώ|[τας καὶ ὀφ]φικιαλίους ἐκσπούν̣κτορας (l. ἐξπούγκτορας); <ref ana="hc:ExternalLink" target="https://papyri.info/hgv/33331">P.Kell. 1 77</ref>.13 (IV AD): ἐκσφουγ̣[κτορ-.<note ana="hc:EditorialNote" place="foot" xml:id="ftn5" n="5">
+                        <p> Cf. also the Latin papyri <ref ana="hc:ExternalLink" target="https://www.cambridge.org/core/books/abs/corpus-of-latin-texts-on-papyrus/military-documents/8A546F6C56C00AD909FF636BCC276A88">CLTP 3 222</ref>.1–4 (III AD): <emph ana="hc:LightEmphasis">Summa Orontrasium LXX̣ II | absen[tes] VIII | summa aegrorum I[I] | reliqui expu[nge]n[t]ur `LXV[I]´ LX[I]I</emph> ; <ref ana="hc:ExternalLink" target="https://papyri.info/hgv/44813">Rom.Mil.Rec. 47</ref> col. 1, 16 (AD 223–235): <emph ana="hc:LightEmphasis">[ - ca. 8 -] Ṭ[iminiu]ṣ P̣ạ[u]liṇus dec(urio) adṃissa proṇ[u]ṇṭ[iavit - ca.23 -] iiii Kal(endas) April(es) expungẹnṭur.</emph>
+                        </p>
+                    </note> Accordingly, we may reasonably assume that either the recipient, the sender, or someone known to them — perhaps the person referred to by (οὐ) κομψῶς ἔχει in l. 4 — was in military service.</p>
+                <div xml:id="ch_1" ana="hc:Section" type="epidoc" subtype="DDB">
+                    <figure xml:id="fig1" ana="hc:ConnectedFigure" facs="#ed1surface1">
+                        <graphic ana="hc:LowResolutionDigitalImageReference" url="https://heidicon.ub.uni-heidelberg.de/eas/partitions-inline/6/1/1200000/1200481/51415aac28209b2e27e0431ddf599e241260b943/image/png/disposition/inline" width="1000px" height="426px"/>
+                        <head>Fig. 1: O.Amst. 861. Image courtesy of Leiden, Papyrological Institute.</head>
+                    </figure>
+                    <table xml:id="tab1" ana="hc:ConnectedTable" rendition="hc:Embedded hc:NoBorder" style="width: 100%;">
+                        <row>
+                            <cell rendition="hc:FlushLeft">Provenance unknown</cell>
+                            <cell rendition="hc:Centered">6.8 (h) × 4.6 (w) cm</cell>
+                            <cell rendition="hc:FlushRight">III – IV AD</cell>
+                        </row>
+                    </table>
+                    <div xml:id="ch_2" ana="hc:Section" type="edition" xml:space="preserve"><head ana="hc:EditorialContent">Edition</head><div ana="hc:EmbeddedEdition" rendition="hc:SuppressInTOC" xml:lang="grc"><hei:sourceDocFragment>
+
+<gap rendition="hc:Lost" extent="unknown" unit="line"/>
+
+<line xml:id="ed1ln1" facs="#ed1_line1" n="1"><gap rendition="hc:Lost" extent="unknown" unit="character"/> παρὰ <unclear>Σαρ</unclear><gap rendition="hc:Lost" quantity="2" unit="character"/><gap rendition="hc:Illegible" quantity="1" unit="character"/><gap rendition="hc:Lost" extent="unknown" unit="character"/><note ana="hc:EditorialNote">om. ed.pr.</note></line>
+
+<line xml:id="ed1ln2" facs="#ed1_line2" n="2"><gap rendition="hc:Lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied>ῇ γυναικί μου <unclear>ε</unclear><gap rendition="hc:Illegible" quantity="2" unit="character"/><gap rendition="hc:Lost" extent="unknown" unit="character"/><note ana="hc:EditorialNote">τ]ῇ γυναικί μου ed. pr.</note></line>
+
+<line xml:id="ed1ln3" facs="#ed1_line3" n="3"><gap rendition="hc:Lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐ</supplied><unclear>ξ</unclear>πουν<unclear>γ</unclear>εύεσθαι π<unclear>ε</unclear><gap rendition="hc:Illegible" quantity="1" unit="character"/><gap rendition="hc:Lost" extent="unknown" unit="character"/><note ana="hc:EditorialNote">om. ed.pr.</note></line>
+
+<line xml:id="ed1ln4" facs="#ed1_line4" n="4"><gap rendition="hc:Lost" extent="unknown" unit="character"/>ου κομψῶς ἔχει κ<unclear>ε</unclear><gap rendition="hc:Lost" extent="unknown" unit="character"/><note ana="hc:EditorialNote">om. ed.pr.</note></line>
+
+<line xml:id="ed1ln5" facs="#ed1_line5" n="5"><gap rendition="hc:Lost" extent="unknown" unit="character"/><gap rendition="hc:Illegible" quantity="1" unit="character"/>ι μου ὅτι ἔπεμψά σοι <gap rendition="hc:Lost" extent="unknown" unit="character"/><note ana="hc:EditorialNote">om. ed.pr.</note></line>
+
+<line xml:id="ed1ln6" facs="#ed1_line6" n="6"><gap rendition="hc:Lost" extent="unknown" unit="character"/> <supplied reason="lost">κ</supplied>αὶ <choice><reg>βησίον</reg><orig>βησὶν</orig></choice> <choice><reg>φοίνικος</reg><orig>φύνικο<unclear>ς</unclear></orig></choice> <unclear>φ</unclear><gap rendition="hc:Illegible" quantity="1" unit="character"/><gap rendition="hc:Lost" extent="unknown" unit="character"/><note ana="hc:EditorialNote">φοίνικος ed.pr.</note> 
+</line>
+
+<gap rendition="hc:Lost" extent="unknown" unit="line"/>
+	</hei:sourceDocFragment></div></div>
+                    <div xml:id="ch_3" ana="hc:Section" xml:lang="en" type="translation" xml:space="preserve"><head ana="hc:EditorialContent">Translation</head><div ana="hc:Translation" rendition="hc:SuppressInTOC">
+<p>
+[…] to be discharged (?) […] he (or she) is (un)well. […] that I sent to you […] and a cup of dates […]
+</p>
+</div></div>
+                    <div xml:id="ch_4" ana="hc:Section" type="commentary"><head ana="hc:EditorialContent">Commentary</head>
+                        <div rendition="hc:SuppressInTOC"><p n="4" xml:id="p4"><ref ana="hc:CrossReference" target="#ed1ln1">1</ref> ] παρὰ Σ̣α̣ρ̣[  ̣  ̣]  ̣[: The word following παρά is most likely a personal name in the genitive. Since the script shows an upward inclination, the visible trace at the end of the first line must be the descender of χ, ρ, φ, or ι. Two or three letters are missing in the lacuna. Σ̣α̣ρ̣[απ]ί̣[ωνος (<ref ana="hc:ExternalLink" target="http://www.trismegistos.org/name/5663">TM Nam 5663</ref>) fits well, but there are other possibilities.</p></div>
+                        <div rendition="hc:SuppressInTOC"><p n="5" xml:id="p5"><ref ana="hc:CrossReference" target="#ed1ln4">4</ref> ]ου κομψῶς ἔχει: Various proposals may be considered in attempting to restore the beginning of l. 4. There appears to be a trace of the upper end of a σ joined to an ο, perhaps the pronoun σου (i.e. σου κομψῶς ἔχει). The sender could thus be informing the recipient that one of his relatives is well, or unwell if the negative οὐ is to be read (οὐ κομψῶς ἔχει).</p></div>
+                        <div rendition="hc:SuppressInTOC"><p n="6" xml:id="p6"><ref ana="hc:CrossReference" target="#ed1ln5">5</ref> ] ̣ι μου ὅτι ἔπεμψά σοι [: In all likelihood, the letter preceding ι is either κ or α. Although the ending -αι (for the vocatives κύριαί μου or ἀδελφαί μου)<note ana="hc:EditorialNote" place="foot" xml:id="ftn6" n="6">
+                                    <p> For the interchange of ε and αι see <ref ana="hc:ExternalLink" target="https://archive.org/details/gignac-a-grammar-of-the-greek-papyri-of-the-roman-and-byzantine-periods-vol.-1-phonology-1975">Gignac 1976: 193</ref>.</p>
+                                </note> may at first sight appear tempting, the combination κι is the stronger candidate. From a paleographical point of view, the ligature between the two letters does not appear straight, unlike other attestations of αι written by the hand of the scribe (cf. the αι of γυναικί, ἐξπουνγεύεσθαι and κ]αί). If -κι is correct, then a possible restoration for the beginning of l. 5 would be τῇ γυναι]κ̣ί μου, most likely in the sense of “tell my wife that I sent to you.”</p></div>
+                        <div rendition="hc:SuppressInTOC"><p n="7" xml:id="p7"><ref ana="hc:CrossReference" target="#ed1ln5">5-6</ref> ὅτι ἔπεμψά σοι | [ ca. ? κ]αὶ βησὶν φύνικος̣ φ̣  ̣[: Since the sense of the subordinate clause ὅτι ἔπεμψά σοι continues to the next line we can assume that probably one to two items are lost in the missing text between ll. 5 and 6. However, the sender might have also mentioned the name of the person carrying the items (e.g. with a διά/μετά + name prepositional adverbial phrase). βησσίον “cup” is rare in the papyri and is found again as βησίν in <ref ana="hc:ExternalLink" target="https://papyri.info/hgv/27253">P.Ross. Georg. 2 41</ref>.42 (end II–III AD, βησίν ἱάλου [l. ὑάλου]), as βησίον in <ref ana="hc:ExternalLink" target="https://papyri.info/hgv/15025a">SPP 20 67 V</ref> col.1, 4 (AD 199, βησίον κασσιτερ(ινὸν) α), and as βισίν in <ref ana="hc:ExternalLink" target="https://papyri.info/hgv/97188">SB 26 16831</ref>.9 (IV AD, βισίν [l. βισίον] μέλιτος) (cf. also ἁλατοβήσσιον in Coptic [Sahidic] <ref ana="hc:ExternalLink" target="https://papyri.info/hgv/82377">CPR 12 14</ref>.4 [VII–VIII AD]). </p><p n="8" xml:id="p8">For the interchange of υ and οι in φύνικος (l. φοίνικος) see <ref ana="hc:ExternalLink" target="https://archive.org/details/gignac-a-grammar-of-the-greek-papyri-of-the-roman-and-byzantine-periods-vol.-1-phonology-1975/page/197/mode/2up">Gignac 1967: 197</ref>. After the letter φ at the end of the line, a trace of a downward straight stroke is visible, which may be the lower part of an ι. Usually, in the papyri, dates are accompanied by an adjective indicating whether they are dried (ξηρός), green (χλωροί), juicy (πατητοί) or nut-like (καρυωτοί) (cf. <ref ana="hc:ExternalLink" target="https://www.taylorfrancis.com/chapters/edit/10.4324/9781351107334-18/egypt-willy-clarysse?context=ubx&amp;refId=6ef5595b-f0db-428b-a27e-8cf0aa031fd8">Clarysse 2018: 224</ref>). However, in attempting to restore the end of the line with any of these adjectives, the visible letter following φύνικος is somewhat smudged and appears to resemble a φ. One might try to read ξ for ξηρός — since π, χ, and κ do not match the letter’s shape at all — on the basis of comparison with the less clearly written ξ of ἐξπουνγεύεσθαι; but the smudged letter’s downstroke leans leftwards rather than rightwards, as in the φ of φύνικος.</p></div>
+                    </div>
+                </div>
+                <div xml:id="ch_5" ana="hc:Section" type="bibliography"><head>Bibliography</head>
+                    <listBibl>
+                        <bibl>
+                            <ref ana="hc:ExternalLink" target="https://papyri.info/biblio/97692">Clarysse, W. (2018)</ref> “Egypt,” in P. Erdkamp and C. Holleran (eds.), The Routledge Handbook of Diet and Nutrition in the Roman World, London – New York: 218-229.</bibl>
+                        <bibl>
+                            <ref ana="hc:ExternalLink" target="https://papyri.info/biblio/97527">Dickey, E. (2023)</ref> Latin Loanwords in Ancient Greek. A Lexicon and Analysis. Cambridge.</bibl>
+                        <bibl>
+                            <ref ana="hc:ExternalLink" target="https://papyri.info/biblio/8813">Gignac, F.T. (1976)</ref> A Grammar of the Greek Papyri of the Roman and Byzantine Periods. I. Phonology. Milano.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text></TEI>
